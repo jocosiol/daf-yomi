@@ -23,6 +23,12 @@ once, and the homepage tracks the calendar on its own.
 
 Study dates are read out of each sheet's "Study date: ..." line, so the Daf Yomi
 cycle is never reimplemented here.
+
+Every page also gets an English/Spanish toggle in the top-right nav. The choice is
+stored in localStorage under "dafLang" and is shared site-wide; the visible half of a
+bilingual page is chosen purely by the root <html lang> attribute, set in <head>
+before the first paint. Spanish daf content comes from <Tractate>_<page>.es.md, which
+sheet_to_web.py bakes into the page alongside the English.
 """
 import sys, os, re, glob, json, datetime
 
@@ -58,12 +64,67 @@ os.makedirs(site, exist_ok=True)
 NAV_CSS = """
 <style id="site-nav-css">
 #site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
-#site-nav a{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
+#site-nav a,#lang-btn{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
   background:#fffdf8;color:#6b3f1d;border:1px solid #c9a86a;border-radius:999px;
   padding:6px 14px;box-shadow:0 3px 12px rgba(80,55,20,.12)}
-#site-nav a:hover{background:#6b3f1d;color:#fff}
+#site-nav a:hover,#lang-btn:hover{background:#6b3f1d;color:#fff}
+#lang-btn{cursor:pointer;line-height:inherit}
+/* Bilingual content: one root lang attribute decides which halves are visible.
+   Set synchronously in <head> by #daf-lang, so no half ever flashes.
+   data-lang="en es" marks a block that stands in for both. */
+[data-lang]{display:none}
+html[lang="en"] [data-lang~="en"],html[lang="es"] [data-lang~="es"]{display:revert}
 @media print{#site-nav{display:none}}
 </style>
+"""
+
+# Language preference: one localStorage key ("dafLang") shared by every page, so the
+# choice follows the reader from a daf to the archive and back. The toggle in the nav
+# is the only control; pages listen for the "daflang" event to re-render anything that
+# JavaScript wrote (the quiz, the archive badge).
+LANG_JS = r"""
+<script id="daf-lang">
+(function(){
+  var KEY="dafLang", SUP=["en","es"];
+  var S={en:{today:"📖 Today", archive:"🗂 Archive", back:"← Back to today's daf",
+             swap:"🌐 Español", swapTitle:"Ver en español"},
+         es:{today:"📖 Hoy", archive:"🗂 Archivo", back:"← Volver al daf de hoy",
+             swap:"🌐 English", swapTitle:"View in English"}};
+  var cur="en";
+  try{ var v=localStorage.getItem(KEY); if(SUP.indexOf(v)>=0) cur=v; }catch(e){}
+  // ?lang=es wins over the stored choice, and becomes the stored choice — so a
+  // Spanish link can be shared and the reader stays in Spanish afterwards.
+  var q=(location.search.match(/[?&]lang=([A-Za-z-]+)/)||[])[1];
+  if(q){ q=q.toLowerCase().slice(0,2);
+         if(SUP.indexOf(q)>=0){ cur=q; try{ localStorage.setItem(KEY,cur) }catch(e){} } }
+  document.documentElement.lang=cur;              // before first paint
+  window.dafLang=function(){ return cur };
+  window.dafStrings=function(){ return S[cur] };
+  function paint(){
+    var s=S[cur];
+    var b=document.getElementById("lang-btn");
+    if(b){ b.textContent=s.swap; b.title=s.swapTitle; b.setAttribute("aria-label",s.swapTitle); }
+    [].forEach.call(document.querySelectorAll("[data-nav]"),function(el){
+      var t=s[el.getAttribute("data-nav")]; if(t) el.textContent=t;
+    });
+  }
+  window.dafSetLang=function(l){
+    if(SUP.indexOf(l)<0 || l===cur) return;
+    cur=l;
+    try{ localStorage.setItem(KEY,l) }catch(e){}
+    document.documentElement.lang=cur;
+    paint();
+    document.dispatchEvent(new CustomEvent("daflang",{detail:{lang:cur}}));
+  };
+  function wire(){
+    paint();
+    var b=document.getElementById("lang-btn");
+    if(b) b.addEventListener("click",function(){ window.dafSetLang(cur==="en"?"es":"en") });
+  }
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",wire);
+  else wire();
+})();
+</script>
 """
 
 # Sunset + "which halachic day is it" helper, shared by index and archive.
@@ -143,22 +204,30 @@ ROUTER_JS = """
   var target = null;
   for(var i=0;i<DAPIM.length;i++){ if(DAPIM[i].d <= today) target = DAPIM[i]; }
   if(!target) target = DAPIM[0];               // nothing published yet: show the earliest
-  if(target.f !== SELF) location.replace(target.f + location.hash);
+  // Keep the query string so ?lang=es survives the hop to the current daf.
+  if(target.f !== SELF) location.replace(target.f + location.search + location.hash);
 })();
 </script>
 """
 
+LANG_BTN = '<button id="lang-btn" type="button">🌐 Español</button>'
+
 def with_nav(html, is_index):
     nav = '<div id="site-nav">'
     if not is_index:
-        nav += '<a href="index.html">📖 Today</a>'
-    nav += '<a href="archive.html">🗂 Archive</a></div>'
-    if "site-nav-css" not in html:
-        html = html.replace("</head>", NAV_CSS + "</head>", 1)
+        nav += '<a href="index.html"><span data-nav="today">📖 Today</span></a>'
+    nav += ('<a href="archive.html"><span data-nav="archive">🗂 Archive</span></a>'
+            + LANG_BTN + '</div>')
     # \s* so re-running is a no-op instead of accumulating a blank line each build
     html = re.sub(r'<div id="site-nav">.*?</div>\s*', "", html, flags=re.S)
+    html = re.sub(r'\s*<style id="site-nav-css">.*?</style>\s*', "", html, flags=re.S)
+    html = re.sub(r'\s*<script id="daf-lang">.*?</script>\s*', "", html, flags=re.S)
     html = re.sub(r'\s*<script id="daf-zman">.*?</script>\s*', "", html, flags=re.S)
     html = re.sub(r'\s*<script id="daf-router">.*?</script>\s*', "", html, flags=re.S)
+    # Stripped and re-added every build, so older pages pick up nav/lang changes too.
+    # The \s* on both sides normalises whitespace, so build N and N+1 are byte-identical.
+    head = "\n" + NAV_CSS.strip() + "\n" + LANG_JS.strip() + "\n</head>"
+    html = re.sub(r"\s*</head>", lambda m: head, html, count=1)
     return html.replace("<body>", "<body>\n" + nav + "\n", 1)
 
 MONTHS = {m: i + 1 for i, m in enumerate(
@@ -233,16 +302,37 @@ def sort_key(i):
     n = re.search(r"(\d+)", i["label"])
     return (i["iso"] or "", int(n.group(1)) if n else 0)
 
+ES_MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
+             "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+ES_DAYS = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]   # weekday(): 0 = Monday
+
+def es_date(iso, fallback=""):
+    """'2026-08-07' -> 'vie, 7 de agosto de 2026' (fallback if undated)."""
+    if not iso:
+        return fallback
+    try:
+        y, m, d = (int(x) for x in iso.split("-"))
+        dt = datetime.date(y, m, d)
+    except ValueError:
+        return fallback
+    return f"{ES_DAYS[dt.weekday()]}, {d} de {ES_MONTHS[m - 1]} de {y}"
+
+def when_spans(i):
+    if not i["when"]:
+        return ""
+    return (' &middot; <span data-lang="en">' + i["when"] + "</span>"
+            '<span data-lang="es">' + es_date(i["iso"], i["when"]) + "</span>")
+
 rows = "\n".join(
     f' <li data-date="{i["iso"] or ""}"><a href="{i["file"]}">{i["label"]}</a>'
-    f'{(" &middot; <span>" + i["when"] + "</span>") if i["when"] else ""}</li>'
+    f'{when_spans(i)}</li>'
     for i in sorted(items, key=sort_key, reverse=True)
 )
 
 archive_html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Daf Yomi — Archive</title>
-{ZMAN_JS}<style>
+{NAV_CSS}{LANG_JS}{ZMAN_JS}<style>
  body{{background:linear-gradient(180deg,#f4ecd8,#fbf7ee 260px) fixed;color:#2c261d;
    font-family:Georgia,serif;max-width:640px;margin:0 auto;padding:40px 22px 80px;line-height:1.6}}
  h1{{color:#6b3f1d;text-align:center;font-size:1.9rem;margin-bottom:4px}}
@@ -260,15 +350,30 @@ archive_html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
  .zman{{text-align:center;color:#9a8a6d;font-size:.8rem;margin-top:18px}}
 </style></head>
 <body>
- <h1>Daf Yomi — Archive</h1>
- <div class="sub">Every daily study sheet · newest first</div>
+ <div id="site-nav">
+  <a href="index.html"><span data-nav="today">📖 Today</span></a>
+  {LANG_BTN}
+ </div>
+ <h1><span data-lang="en">Daf Yomi — Archive</span><span data-lang="es">Daf Yomi — Archivo</span></h1>
+ <div class="sub">
+  <span data-lang="en">Every daily study sheet · newest first</span>
+  <span data-lang="es">Todas las hojas de estudio diarias · las más recientes primero</span>
+ </div>
  <ul id="list">
 {rows}
  </ul>
  <div class="zman" id="zman"></div>
- <div class="home"><a href="index.html">← Back to today's daf</a></div>
+ <div class="home"><a href="index.html"><span data-nav="back">← Back to today's daf</span></a></div>
 <script>
 (function(){{
+  var STR = {{
+    en:{{today:"Today", recent:"Most recent",
+         zman:function(t){{ return "The daf turns over at sunset — today's sunset is "
+                            + t + " local time."; }}}},
+    es:{{today:"Hoy", recent:"Más reciente",
+         zman:function(t){{ return "El daf cambia al atardecer — hoy el atardecer es a las "
+                            + t + ", hora local."; }}}}
+  }};
   var z = window.dafToday({PIN_JS}, {offset}), today = z.date, cur = null;
   [].slice.call(document.querySelectorAll("#list li[data-date]")).forEach(function(el){{
     var d = el.dataset.date;
@@ -276,18 +381,23 @@ archive_html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
     if(d > today) el.classList.add("future");
     else if(!cur || d > cur.dataset.date) cur = el;
   }});
+  var badge = null;
   if(cur){{
     cur.classList.add("today");
-    var b = document.createElement("span");
-    b.className = "badge";
-    b.textContent = cur.dataset.date === today ? "Today" : "Most recent";
-    cur.appendChild(b);
+    badge = document.createElement("span");
+    badge.className = "badge";
+    cur.appendChild(badge);
   }}
-  if(z.sunset){{
-    var t = z.sunset.toLocaleTimeString([], {{hour:"numeric", minute:"2-digit"}});
-    document.getElementById("zman").textContent =
-      "The daf turns over at sunset — today's sunset is " + t + " local time.";
+  function paint(){{
+    var s = STR[(window.dafLang && window.dafLang()) === "es" ? "es" : "en"];
+    if(badge) badge.textContent = cur.dataset.date === today ? s.today : s.recent;
+    if(z.sunset){{
+      var t = z.sunset.toLocaleTimeString([], {{hour:"numeric", minute:"2-digit"}});
+      document.getElementById("zman").textContent = s.zman(t);
+    }}
   }}
+  paint();
+  document.addEventListener("daflang", paint);
 }})();
 </script>
 </body></html>"""
