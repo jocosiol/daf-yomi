@@ -10,17 +10,40 @@
  li{background:#fffdf8;border:1px solid #e2d3b3;border-radius:12px;margin:10px 0;padding:14px 18px;
    box-shadow:0 4px 16px rgba(80,55,20,.08)}
  li a{color:#8a5a2b;text-decoration:none;font-weight:700;font-size:1.1rem}
- li a:hover{text-decoration:underline}
- li span{color:#9a8a6d;font-size:.9rem}
- .home{display:block;text-align:center;margin-top:26px}
- .home a{color:#6b3f1d}
+ li a:hover{text-decoration:underline} li span{color:#9a8a6d;font-size:.9rem}
+ li.today{border-color:#c9a86a;box-shadow:0 4px 18px rgba(140,100,40,.18)}
+ li.today .badge{background:#6b3f1d;color:#fff;border-radius:999px;padding:2px 10px;
+   font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;margin-left:8px}
+ li.future{opacity:.6}
+ .home{display:block;text-align:center;margin-top:26px} .home a{color:#6b3f1d}
 </style></head>
 <body>
  <h1>Daf Yomi — Archive</h1>
  <div class="sub">Every daily study sheet · newest first</div>
- <ul>
- <li><a href="dapim/Chullin_98.html">Chullin 98</a> &middot; <span>Thu, 6 August 2026</span></li>
-<li><a href="dapim/Chullin_97.html">Chullin 97</a> &middot; <span>Wed, 5 August 2026</span></li>
+ <ul id="list">
+ <li data-date="2026-08-06"><a href="Chullin_98.html">Chullin 98</a> &middot; <span>Thu, 6 August 2026</span></li>
+ <li data-date="2026-08-05"><a href="Chullin_97.html">Chullin 97</a> &middot; <span>Wed, 5 August 2026</span></li>
  </ul>
  <div class="home"><a href="index.html">← Back to today's daf</a></div>
+<script>
+(function(){
+  var n = new Date(), p = function(x){return String(x).padStart(2,"0")};
+  var today = n.getFullYear()+"-"+p(n.getMonth()+1)+"-"+p(n.getDate());
+  var li = [].slice.call(document.querySelectorAll("#list li[data-date]"));
+  var cur = null;
+  li.forEach(function(el){
+    var d = el.dataset.date;
+    if(!d) return;
+    if(d > today) el.classList.add("future");
+    else if(!cur || d > cur.dataset.date) cur = el;
+  });
+  if(cur){
+    cur.classList.add("today");
+    var b = document.createElement("span");
+    b.className = "badge";
+    b.textContent = cur.dataset.date === today ? "Today" : "Most recent";
+    cur.appendChild(b);
+  }
+})();
+</script>
 </body></html>
