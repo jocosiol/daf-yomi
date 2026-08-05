@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daf Yomi — Chullin 97 (חולין צז)</title>
+<style>
+  :root{
+    --paper:#fbf7ee; --ink:#2c261d; --accent:#8a5a2b; --accent2:#6b3f1d;
+    --gold:#c9a86a; --gold-soft:#ead9b3; --panel:#fffdf8; --line:#e2d3b3;
+    --good:#3f8f5b; --good-bg:#e7f4ec; --bad:#c0453b; --bad-bg:#fbe9e7;
+    --shadow:0 6px 24px rgba(80,55,20,.10);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:linear-gradient(180deg,#f4ecd8 0%,#fbf7ee 220px) fixed;
+    color:var(--ink); font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  :lang(he),.he{font-family:"Frank Ruhl Libre","Times New Roman",Georgia,serif;}
+  .wrap{max-width:820px;margin:0 auto;padding:0 18px 80px}
+  header.top{
+    text-align:center;padding:34px 18px 22px;margin-bottom:8px;
+  }
+  header.top h1{
+    font-size:2.05rem;line-height:1.2;margin:0 0 6px;color:var(--accent2);
+    letter-spacing:.2px;
+  }
+  header.top .sub{color:#7a6a4d;font-size:1rem;font-style:italic}
+  .tabs{
+    display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:20;
+    padding:12px 0;background:linear-gradient(180deg,var(--paper) 70%,rgba(251,247,238,0));
+    margin-bottom:10px;
+  }
+  .tab{
+    border:1px solid var(--gold);background:var(--panel);color:var(--accent2);
+    padding:9px 22px;border-radius:999px;cursor:pointer;font-size:1rem;font-weight:600;
+    box-shadow:var(--shadow);transition:.18s;font-family:inherit;
+  }
+  .tab:hover{transform:translateY(-1px)}
+  .tab.active{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+  .view{display:none;animation:fade .35s ease}
+  .view.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+  /* ---- Learn view ---- */
+  .sheet{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:26px 30px;box-shadow:var(--shadow)}
+  .sheet h2{font-size:1.4rem;color:var(--accent2);border-bottom:2px solid var(--gold-soft);
+    padding-bottom:6px;margin:26px 0 10px}
+  .sheet h2:first-child{margin-top:0}
+  .sheet h3{font-size:1.12rem;color:var(--accent);margin:18px 0 6px}
+  .sheet blockquote{margin:14px 0;padding:12px 18px;background:#faf3e3;
+    border-left:4px solid var(--gold);border-radius:6px;font-style:italic}
+  .sheet table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}
+  .sheet th,.sheet td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  .sheet th{background:var(--gold-soft);color:var(--accent2)}
+  .sheet tr:nth-child(even) td{background:#fbf7ee}
+  .sheet code{background:#f0e6ce;padding:1px 5px;border-radius:4px;font-size:.9em}
+  .sheet hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+  .sheet ul{padding-left:22px}
+  .sheet li{margin:5px 0}
+  .sheet strong{color:var(--accent2)}
+
+  /* ---- Quiz view ---- */
+  .quiz{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:26px 28px;box-shadow:var(--shadow)}
+  .qbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:6px;
+    font-size:.92rem;color:#7a6a4d}
+  .prog{height:9px;background:var(--gold-soft);border-radius:999px;overflow:hidden;margin:8px 0 22px}
+  .prog>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--accent));
+    border-radius:999px;transition:width .4s ease}
+  .qnum{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  .qtext{font-size:1.28rem;line-height:1.45;margin:8px 0 20px;color:var(--ink)}
+  .opts{display:flex;flex-direction:column;gap:12px}
+  .opt{display:flex;align-items:flex-start;gap:12px;text-align:left;width:100%;
+    border:1.5px solid var(--line);background:#fffdf8;border-radius:12px;padding:14px 16px;
+    cursor:pointer;font-size:1.05rem;font-family:inherit;color:var(--ink);transition:.15s}
+  .opt:hover:not(.locked){border-color:var(--accent);transform:translateY(-1px);
+    box-shadow:0 3px 12px rgba(120,80,30,.10)}
+  .opt .key{flex:0 0 28px;height:28px;border-radius:50%;background:var(--gold-soft);
+    color:var(--accent2);font-weight:700;display:flex;align-items:center;justify-content:center;
+    font-size:.95rem}
+  .opt.correct{border-color:var(--good);background:var(--good-bg)}
+  .opt.correct .key{background:var(--good);color:#fff}
+  .opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+  .opt.wrong .key{background:var(--bad);color:#fff}
+  .opt.locked{cursor:default}
+  .opt.dim{opacity:.55}
+  .why{margin-top:18px;padding:14px 16px;border-radius:12px;background:#f6efe0;
+    border-left:4px solid var(--gold);font-size:1rem;display:none;animation:fade .3s}
+  .why.show{display:block}
+  .why b{color:var(--accent2)}
+  .nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px}
+  .btn{border:none;border-radius:999px;padding:12px 26px;font-size:1.02rem;font-weight:700;
+    cursor:pointer;font-family:inherit;background:var(--accent2);color:#fff;box-shadow:var(--shadow);
+    transition:.16s}
+  .btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
+  .btn.ghost{background:var(--panel);color:var(--accent2);border:1px solid var(--gold)}
+  .btn:disabled{opacity:.4;cursor:default;transform:none}
+  .pill{background:var(--gold-soft);color:var(--accent2);border-radius:999px;padding:4px 12px;font-weight:700}
+  .streak{color:var(--accent)}
+  /* end screen */
+  .end{text-align:center;padding:14px 6px}
+  .end .big{font-size:3.4rem;margin:6px 0}
+  .end .score{font-size:1.6rem;color:var(--accent2);font-weight:700;margin:4px 0}
+  .end .msg{font-size:1.1rem;color:#6a5a3d;margin:8px 0 20px}
+  .review{text-align:left;margin-top:20px}
+  .review .r{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;background:#fffdf8}
+  .review .r .rq{font-weight:700;color:var(--ink);margin-bottom:6px}
+  .review .r .ra{font-size:.96rem;margin:2px 0}
+  .review .ok{color:var(--good)} .review .no{color:var(--bad)}
+  .hint{color:#9a8a6d;font-size:.82rem;text-align:center;margin-top:14px}
+  @media(max-width:520px){.sheet,.quiz{padding:20px 16px}.qtext{font-size:1.14rem}header.top h1{font-size:1.6rem}}
+</style>
+
+<style id="site-nav-css">
+#site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
+#site-nav a{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
+  background:#fffdf8;color:#6b3f1d;border:1px solid #c9a86a;border-radius:999px;
+  padding:6px 14px;box-shadow:0 3px 12px rgba(80,55,20,.12)}
+#site-nav a:hover{background:#6b3f1d;color:#fff}
+@media print{#site-nav{display:none}}
+</style>
+</head>
+<body>
+<div id="site-nav"><a href="archive.html">🗂 Archive</a></div>
+<div class="wrap">
+  <header class="top">
+    <h1>Daf Yomi — Chullin 97 (חולין צז)</h1>
+    <div class="sub">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Study date: Wed, 5 August 2026</div>
+  </header>
+
+  <div class="tabs">
+    <button class="tab active" data-v="learn">📖 Learn</button>
+    <button class="tab" data-v="quiz">🎯 Chazara Quiz</button>
+  </div>
+
+  <section class="view active" id="learn">
+    <div class="sheet"><h2>The big picture (read this first)</h2>
+<p>We&rsquo;re in chapter 7, whose subject is the <em>gid hanasheh</em> — the sciatic nerve, forbidden ever since Yaakov wrestled the angel (Bereishit 32:33). But by daf 97 the Gemara has widened its lens to a question that sits at the very heart of <em>kashrut</em>:</p>
+<blockquote>
+<p><strong>When a forbidden food is mixed or cooked into permitted food, when does the whole thing become forbidden — and when is the forbidden part &ldquo;nullified&rdquo; so the food stays permitted?</strong></p>
+</blockquote>
+<p>The idea powering the whole page is <strong>טַעַם כְּעִיקָּר — &ldquo;taste is like the essence.&rdquo;</strong> A forbidden food doesn&rsquo;t forbid only through its physical substance; it forbids through the <em>flavor</em> it imparts (<em>noten taam</em>). That gives two very different ways a mixture can end up permitted:</p>
+<ol>
+<li><strong>By taste</strong> — if a reliable taster detects no forbidden flavor, the mixture is fine.</li>
+<li><strong>By ratio</strong> — when we <em>can&rsquo;t</em> rely on tasting, we fall back on a fixed measure: <strong>בְּשִׁישִׁים, nullification in sixty</strong> (one part forbidden to sixty parts permitted).</li>
+</ol>
+<p>97a builds the <em>taste</em> route; 97b builds the <em>sixty</em> route — and then stress-tests it on the <em>gid</em>, the udder, and a non-kosher egg.</p>
+<hr />
+<h2>Walking through the sugya, step by step</h2>
+<h3>97a — Why does <em>cheilev</em> forbid, but the <em>gid</em> might not?</h3>
+<p><strong>The opening answer.</strong> <em>Cheilev</em> (forbidden fat) is <em>different</em> from the <em>gid</em>: <strong>its flavor permeates throughout the animal</strong> (<em>mefaʿpeaʿ</em>). The nerve barely gives taste of its own — a live debate on the previous daf — so the two aren&rsquo;t automatically judged alike.</p>
+<p><strong>The challenge — R&rsquo; Yochanan and the goat.</strong> Rabba bar bar Chana reports a real case in the synagogue of Maon: a young goat was roasted together with its <em>cheilev</em>. R&rsquo; Yochanan ruled, <strong>&ldquo;Peel it and eat it until you reach the fat.&rdquo;</strong> Startling — if flavor permeates everything, the whole goat should be forbidden! The lesson: <strong>roasting doesn&rsquo;t drive flavor through the way boiling does.</strong></p>
+<p><strong>Three resolutions</strong> for why the goat wasn&rsquo;t forbidden throughout:</p>
+<ul>
+<li>it was a <strong>lean</strong> goat (<em>kachush</em>) — too little fat to spread its flavor; or</li>
+<li>it was really a <strong>kidney</strong> roasted in its fat, and a <strong>membrane</strong> blocks the fat from penetrating (Rav Huna bar Yehuda); or</li>
+<li>the case was actually a small <strong>non-kosher fish (<em>kilkhit</em>)</strong> that fell into a stew-pot (<em>ilpas</em>), and R&rsquo; Yochanan told them to <strong>have a gentile cook (<em>kapeila arma&rsquo;a</em>) taste it</strong> — the cook found no forbidden flavor, so it was permitted (Ravin bar Rav Adda).</li>
+</ul>
+<p><strong>Rava&rsquo;s move — from a difficulty to a principle.</strong> Rava was troubled by a baraita: a pot used for meat shouldn&rsquo;t be used for milk, and if it was, the milk is forbidden <em>if the absorbed meat imparts flavor</em> — likewise teruma absorbed in a pot renders later non-sacred food sacred <em>if it imparts flavor</em>. Fine for teruma, he says: a <strong>kohen</strong> may taste and check. But <strong>meat-in-milk — who tastes it?</strong> No Jew is allowed to. R&rsquo; Yochanan&rsquo;s <em>kilkhit</em> ruling answers it: <strong>here too we rely on a gentile cook</strong> to report whether flavor was imparted.</p>
+<p><strong>The summary rule.</strong> Rava lays out the whole framework: sometimes we rely on <strong>a Jew tasting</strong>, sometimes on <strong>a gentile cook tasting</strong>, and sometimes — where neither works — on <strong>sixty</strong>.</p>
+<h3>97b — When you can&rsquo;t taste: the measure of sixty</h3>
+<p><strong>Sorting the cases.</strong> When the foods are <strong>different types (<em>min b&rsquo;she&rsquo;eino mino</em>)</strong> and a permitted Jew can taste — e.g. teruma with non-sacred food — a <strong>Jew tastes</strong>. When the mixture is potentially forbidden to all Jews — meat-in-milk — a <strong>gentile cook tastes</strong>. But when they&rsquo;re the <strong>same type (<em>min b&rsquo;mino</em>)</strong> and flavor can&rsquo;t be told apart, <em>or</em> no gentile taster is available, we fall back on <strong>sixty times as much permitted food.</strong></p>
+<p><strong>The salted-thigh dispute.</strong> Thighs were <strong>salted with the <em>gid</em> still inside</strong> in the Exilarch&rsquo;s house. <strong>Ravina forbids</strong>; <strong>Rav Acha bar Rav Ashi permits</strong>; asked to decide, <strong>Mar bar Rav Ashi</strong> says, <em>&ldquo;My father permitted it&rdquo;</em> — ruling leniently. Then <strong>Rav Acha bar Rav</strong> presses Ravina on his reasoning. The hinge is Shmuel&rsquo;s <strong>&ldquo;<em>maliach k&rsquo;rotcha, kavush k&rsquo;mevushal</em>&ldquo;</strong> (salted is like boiling-hot, marinated is like cooked). The Gemara reasons that &ldquo;boiling-hot&rdquo; here means <strong>like roasting, not like boiling</strong> — and since roasting <em>doesn&rsquo;t</em> drive the nerve&rsquo;s fat through the thigh, salting shouldn&rsquo;t either. <strong>This is a difficulty (קַשְׁיָא) for Ravina&rsquo;s stringency.</strong></p>
+<p><strong>What joins the count of sixty?</strong> Rabbi Chanina: you measure against <strong>the broth (<em>rotev</em>), the sediment/spices (<em>kipah</em>), the pieces (<em>chatichot</em>), and the pot itself</strong> — all of it combines to nullify. (Two readings of &ldquo;the pot&rdquo;: the pot&rsquo;s own volume, or what the pot <em>absorbed</em> from the permitted food.)</p>
+<p><strong>How to estimate the forbidden flavor.</strong> R&rsquo; Abbahu in the name of R&rsquo; Yochanan: assess the forbidden food <strong>&ldquo;as though it were onion or leek (<em>kaflot</em>)&rdquo;</strong> — gauge how strongly <em>that</em> would flavor the dish. R&rsquo; Abba pushes back: why not assess it as <strong>pepper</strong>, which never nullifies (not even in a thousand)? Abaye answers: the Sages determined <strong>nothing imparts flavor more strongly than onion and leek</strong> — so that&rsquo;s the yardstick.</p>
+<p><strong>The tricky trio — gid, udder, egg.</strong> Rav Nachman gives the counting rules: a <em>gid</em> is nullified in sixty and is <strong>not</strong> itself counted; an <strong>udder (<em>kachal</em>)</strong> cooked with meat — the milk is nullified in sixty and the udder <strong>is</strong> counted with the meat; a <strong>non-kosher egg</strong> is nullified in sixty and is <strong>not</strong> counted.</p>
+<p><strong>The udder, taken apart.</strong> R&rsquo; Yitzchak son of Rav Mesharshiyya sharpens it: even with sixty-to-one, <strong>the udder itself stays forbidden</strong> (the meat drives flavor into the milk inside it), and if that udder later falls into a second pot it forbids <em>that</em> pot too — unless there&rsquo;s sixty against the whole udder. Rav Ashi recalls a dilemma from Rav Kahana&rsquo;s study hall — do we measure against the udder&rsquo;s <em>whole volume</em> or only the milk that came out? — and the Gemara concludes we measure the whole thing, because the Sages effectively <strong>treated the udder like an intrinsic piece of non-kosher meat (<em>chatichah d&rsquo;neveilah</em>).</strong></p>
+<p><strong>Does an egg even give taste?</strong> Rav Idi bar Avin needles Abaye: people call something tasteless <em>&ldquo;mere egg-water (</em>mei beitzim<em>)&rdquo;</em> — so how can a forbidden egg impart flavor at all? Abaye begins to answer (<em>&ldquo;here we are dealing with…&rdquo;</em>) — and the sugya carries into 98.</p>
+<hr />
+<h2>Key concepts &amp; terms</h2>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>גִּיד הַנָּשֶׁה — gid hanasheh</strong></td>
+<td>The sciatic nerve, forbidden to eat (Bereishit 32:33). Gives little taste of its own.</td>
+</tr>
+<tr>
+<td><strong>חֵלֶב — cheilev</strong></td>
+<td>Forbidden fats. Strong flavor — the paradigm food that &ldquo;gives taste&rdquo; and <em>permeates</em> (<em>mefaʿpeaʿ</em>).</td>
+</tr>
+<tr>
+<td><strong>טַעַם כְּעִיקָּר — taam k&rsquo;ikar</strong></td>
+<td>&ldquo;Taste is like the essence&rdquo; — forbidden <em>flavor</em> forbids, not just substance. The core idea of the daf.</td>
+</tr>
+<tr>
+<td><strong>נוֹתֵן טַעַם — noten taam</strong></td>
+<td>&ldquo;Imparts flavor.&rdquo; Whether a food <em>noten taam</em> decides whether it forbids the mixture.</td>
+</tr>
+<tr>
+<td><strong>קַפִּילָא אֲרַמָּאָה — kapeila arma&rsquo;a</strong></td>
+<td>A gentile cook — relied on to <em>taste</em> a doubtful mixture that no Jew may taste.</td>
+</tr>
+<tr>
+<td><strong>בִּיטּוּל בְּשִׁישִׁים — bittul b&rsquo;shishim</strong></td>
+<td>Nullification in sixty. The fallback ratio when taste can&rsquo;t be assessed.</td>
+</tr>
+<tr>
+<td><strong>מִין בְּמִינוֹ / מִין בְּשֶׁאֵינוֹ מִינוֹ</strong></td>
+<td>&ldquo;Type with its own type&rdquo; vs. &ldquo;type with a different type&rdquo; — same food (flavor undetectable → use the ratio) vs. different foods (a taster can help).</td>
+</tr>
+<tr>
+<td><strong>מָלִיחַ כְּרוֹתֵחַ / כָּבוּשׁ כִּמְבוּשָּׁל</strong></td>
+<td>&ldquo;Salted is like boiling-hot / marinated is like cooked&rdquo; — Shmuel; can salting transfer flavor like heat?</td>
+</tr>
+<tr>
+<td><strong>רוֹטֶב / קִיפָּה / חֲתִיכוֹת</strong></td>
+<td>Broth / sediment (spices &amp; bits) / pieces — all counted toward the sixty, along with the pot.</td>
+</tr>
+<tr>
+<td><strong>כָּחָל — kachal</strong></td>
+<td>The udder — meat that contains milk; special counting rules, treated like intrinsic non-kosher meat.</td>
+</tr>
+<tr>
+<td><strong>בָּצָל וְקַפְלוֹט — batzal v&rsquo;kaflot</strong></td>
+<td>Onion and leek — the Sages&rsquo; benchmark for the strongest flavor-giver, used to estimate a forbidden food.</td>
+</tr>
+<tr>
+<td><strong>חֲתִיכָה דִּנְבֵלָה — chatichah d&rsquo;neveilah</strong></td>
+<td>&ldquo;A piece of carrion&rdquo; — a piece treated as intrinsically forbidden; how the Gemara ends up classifying the udder.</td>
+</tr>
+<tr>
+<td><strong>מֵי בֵּיצִים — mei beitzim</strong></td>
+<td>&ldquo;Egg-water&rdquo; — proverbial for <em>tasteless</em>; raised to question whether an egg imparts flavor at all.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Who&rsquo;s who in today&rsquo;s daf</h2>
+<p>A field guide to every sage named on 97, using the title tells (Rav = Babylonian Amora; Rabbi = Tanna or Eretz-Yisrael Amora; Rava/Ravina live in Bavel despite the <em>-a</em> ending). Where a minor figure&rsquo;s details are thin, that&rsquo;s flagged rather than invented.</p>
+<ul>
+<li><strong>Rabba bar bar Chana</strong> (רבה בר בר חנה) — Babylonian Amora, ~3rd gen, but famous as a <em>traveler</em> who carried R&rsquo; Yochanan&rsquo;s teachings from Eretz Yisrael back to Bavel; here he reports the Maon-synagogue case. <em>Don&rsquo;t confuse</em> with <strong>Rabbah</strong> (Rabbah bar Nachmani, head of Pumbedita) or with <strong>Rava</strong> — three similar-looking names, three different men.</li>
+<li><strong>Rabbi Yochanan</strong> (רבי יוחנן) — i.e. R&rsquo; Yochanan bar Nappacha, the towering <strong>Eretz-Yisrael Amora</strong> (2nd gen), head of the academy in Tiberias; his rulings anchor the Yerushalmi. Teacher of R&rsquo; Abbahu and R&rsquo; Elazar; brother-in-law and study-partner of Reish Lakish. His goat/kilkhit rulings drive all of 97a.</li>
+<li><strong>Rav Huna bar Yehuda</strong> (רב הונא בר יהודה) — a <strong>Babylonian Amora</strong> (later generations, in Rava&rsquo;s orbit); a minor voice here, offering the &ldquo;kidney-and-membrane&rdquo; resolution. (Not to be confused with the great <strong>Rav Huna</strong>, head of Sura, whose position from 96b is what the daf opens by challenging.)</li>
+<li><strong>Ravin bar Rav Adda</strong> (רבין בר רב אדא) — a <strong>lesser-known Babylonian Amora</strong>; details on him are sparse, so treat the identification lightly. He offers the <em>kilkhit</em> (non-kosher fish) resolution.</li>
+<li><strong>Rava</strong> (רבא) — Rava bar Yosef bar Chama, <strong>4th-gen Babylonian Amora</strong>, head of the academy at Machoza; the classic disputant of <strong>Abaye</strong> (&ldquo;Abaye and Rava&rdquo; runs through Shas). Here he builds the taster-framework. <em>Look-alike alert:</em> <strong>Rava</strong> ≠ <strong>Rabbah</strong>.</li>
+<li><strong>Shmuel</strong> (שמואל) — <strong>1st-gen Babylonian Amora</strong>, head of the academy at Nehardea, colleague-and-disputant of <strong>Rav</strong>; a giant of civil law. His maxim <em>&ldquo;maliach k&rsquo;rotcha, kavush k&rsquo;mevushal&rdquo;</em> is the pivot of the salted-thigh dispute.</li>
+<li><strong>Ravina</strong> (רבינא) — here <strong>Ravina I</strong>, a <strong>6th-gen Babylonian Amora</strong> and close colleague of <strong>Rav Ashi</strong> at Mata Mechasya; the pair are traditionally credited with the &ldquo;sealing&rdquo; of the Talmud. He <em>forbids</em> the salted thighs.</li>
+<li><strong>Rav Acha bar Rav Ashi</strong> (רב אחא בר רב אשי) — a <strong>Babylonian Amora</strong> of the Rav Ashi generation who <em>permits</em> the thighs. <em>Look-alike alert (as you flagged):</em> distinct from <strong>Mar bar Rav Ashi</strong> below — both carry &ldquo;bar Rav Ashi,&rdquo; but they&rsquo;re different people.</li>
+<li><strong>Mar bar Rav Ashi</strong> (מר בר רב אשי) — also called <strong>Tavyomi</strong>; <strong>7th-gen Babylonian Amora</strong>, son of <strong>Rav Ashi</strong> the redactor, and himself later head of the Sura/Mata Mechasya academy. He decides leniently: <em>&ldquo;My father permitted it.&rdquo;</em></li>
+<li><strong>Rav Acha bar Rav</strong> (רב אחא בר רב) — as the printed text reads; a <strong>Babylonian Amora</strong> who challenges Ravina&rsquo;s reasoning. Note: some texts read &ldquo;Rav Acha bar <strong>Rava</strong>,&rdquo; and many identify this speaker with <strong>Rav Acha bar Rav Ashi</strong> of the previous line — a genuine textual/identity question, so hold it loosely.</li>
+<li><strong>Rabbi Chanina</strong> (רבי חנינא) — most likely <strong>R&rsquo; Chanina bar Chama</strong>, a <strong>1st-gen Eretz-Yisrael Amora</strong> (transitional figure) based in Tzippori, a senior colleague of R&rsquo; Yochanan&rsquo;s circle. He states which components join the count of sixty. (There are several R&rsquo; Chaninas, so this identification is the most probable rather than certain.)</li>
+<li><strong>Rabbi Abbahu</strong> (רבי אבהו) — <strong>3rd-gen Eretz-Yisrael Amora</strong> in Caesarea, a leading student of <strong>R&rsquo; Yochanan</strong>, well known for his dealings with the Roman authorities. Here he transmits R&rsquo; Yochanan&rsquo;s onion-and-leek yardstick.</li>
+<li><strong>Rabbi Abba</strong> (רבי אבא) — a <strong>3rd-gen Amora</strong> who moved between Bavel and Eretz Yisrael (a <em>nachota</em>, one of the &ldquo;descenders&rdquo; who carried rulings between the centers); he presses Abaye with the pepper objection. (Which exact R&rsquo; Abba is debated, so keep it general.)</li>
+<li><strong>Abaye</strong> (אביי) — <strong>4th-gen Babylonian Amora</strong>, head of Pumbedita, raised by his uncle <strong>Rabbah bar Nachmani</strong>; the perennial disputant of <strong>Rava</strong>. He fields both the pepper objection and the egg-water objection.</li>
+<li><strong>Rav Nachman</strong> (רב נחמן) — Rav Nachman <strong>bar Yaakov</strong>, <strong>3rd-gen Babylonian Amora</strong> at Nehardea, tied to the Exilarch&rsquo;s court and a master of civil law; he lays down the <em>gid</em> / <em>kachal</em> / egg counting rules. (Distinct from Rav Nachman bar Yitzchak.)</li>
+<li><strong>Rabbi Yitzchak son of Rav Mesharshiyya</strong> (רבי יצחק בריה דרב משרשיא) — a <strong>Babylonian Amora</strong>, a relatively minor figure; he sharpens the udder ruling. Details beyond this are thin.</li>
+<li><strong>Rav Ashi</strong> (רב אשי) — <strong>6th-gen Babylonian Amora</strong>, head of the academy at Mata Mechasya (Sura) for roughly half a century and the principal <strong>redactor of the Babylonian Talmud</strong>. He recalls the udder dilemma from his student days.</li>
+<li><strong>Rav Kahana</strong> (רב כהנא) — the one whose study hall Rav Ashi attended, i.e. <strong>Rav Kahana of Pum Nahara</strong>, a <strong>5th-gen Babylonian Amora</strong> and one of Rav Ashi&rsquo;s teachers. <em>Look-alike alert:</em> there are several Rav Kahanas spread across the generations of the Talmud.</li>
+<li><strong>Rav Idi bar Avin</strong> (רב אידי בר אבין) — a <strong>Babylonian Amora</strong> (contemporary of Abaye and Rava); he raises the &ldquo;egg-water&rdquo; objection that a forbidden egg can&rsquo;t really impart flavor.</li>
+</ul>
+<hr />
+<h2>One line to carry with you</h2>
+<blockquote>
+<p>A forbidden food is judged by the <strong>flavor</strong> it gives — so a mixture is permitted either when a <strong>reliable taster tastes nothing forbidden</strong>, or, when tasting can&rsquo;t help, when there is <strong>sixty times more</strong> permitted food than forbidden.</p>
+</blockquote>
+<hr />
+<p><em>Tomorrow (6 Aug 2026): Chullin 98 — Abaye finishes the egg-water answer, and the sugya presses on into the mechanics of bittul b&rsquo;shishim and the rule of the &ldquo;piece that itself becomes forbidden&rdquo; (</em>chatichah naʿasit neveilah<em>).</em></p>
+<hr /></div>
+  </section>
+
+  <section class="view" id="quiz">
+    <div class="quiz" id="quizCard"></div>
+    <div class="hint">Tip: press keys 1–4 to answer, Enter for next.</div>
+  </section>
+</div>
+
+<script>
+const QUIZ = [{"n": 1, "q": "Why might a whole roasted animal <em>not</em> become forbidden from the <em>cheilev</em> roasted in it, when the same logic would forbid it from a mixed-in <em>gid</em>?", "opts": {"a": "Because the <em>gid</em> is only rabbinically forbidden, so we&#x27;re lenient.", "b": "Because <em>cheilev</em> has a strong flavor that permeates throughout (<em>mefaʿpeaʿ</em>), while the <em>gid</em> gives little taste of its own.", "c": "Because roasted meat is never forbidden, only cooked meat.", "d": "Because fat floats to the surface and can simply be skimmed off."}, "correct": "b", "why": "<em>Cheilev</em>&#x27;s strong flavor permeates throughout (<em>mefaʿpeaʿ</em>); the <em>gid</em> gives little taste of its own. The daf distinguishes them by flavor-strength, not by level of prohibition."}, {"n": 2, "q": "R&#x27; Yochanan&#x27;s ruling &quot;peel it and eat it until you reach the fat&quot; teaches which principle?", "opts": {"a": "Once forbidden flavor is present, only the outer layer is forbidden.", "b": "Roasting doesn&#x27;t drive flavor through the meat the way boiling does.", "c": "Any doubt in <em>kashrut</em> is resolved leniently.", "d": "A lean animal is always permitted."}, "correct": "b", "why": "Roasting doesn&#x27;t drive flavor through the way boiling does. (&quot;Lean goat,&quot; &quot;kidney + membrane,&quot; and &quot;kilkhit&quot; are just <em>resolutions</em> of the case; this is the underlying lesson.)"}, {"n": 3, "q": "In a meat-in-milk doubt, <em>who</em> do we rely on to taste whether flavor was imparted?", "opts": {"a": "A kohen, as with teruma.", "b": "Any observant Jew.", "c": "A gentile cook (<em>kapeila arma&#x27;a</em>).", "d": "No one — meat-in-milk is always forbidden once cooked together."}, "correct": "c", "why": "A gentile cook (<em>kapeila arma&#x27;a</em>), since the mixture would be forbidden to every Jew and no Jew may taste it. This is the answer to Rava&#x27;s &quot;who tastes it?&quot;"}, {"n": 4, "q": "When do we abandon tasting altogether and fall back on nullification <em>b&#x27;shishim</em> (sixty)?", "opts": {"a": "Whenever any forbidden food is involved.", "b": "When the foods are the same type (<em>min b&#x27;mino</em>) so flavor can&#x27;t be told apart — or when it&#x27;s a forbidden mixture and no gentile cook is available.", "c": "Only for meat-in-milk.", "d": "Only on Shabbat, when tasting is restricted."}, "correct": "b", "why": "Same type (<em>min b&#x27;mino</em>), where flavor can&#x27;t be told apart — or a forbidden mixture with no gentile taster available. (97b: Jew-tastes / gentile-tastes / else sixty.)"}, {"n": 5, "q": "How did Mar bar Rav Ashi resolve the salted-thigh dispute, and on what reasoning?", "opts": {"a": "Forbidden, because salting is exactly like boiling.", "b": "Permitted (&quot;my father permitted it&quot;) — Shmuel&#x27;s &quot;<em>maliach k&#x27;rotcha</em>&quot; means salted is like roasting, not boiling.", "c": "Forbidden, but only the outer layer.", "d": "Left undecided as a <em>teiku</em>."}, "correct": "b", "why": "Permitted: &quot;my father permitted it.&quot; &quot;<em>Maliach k&#x27;rotcha</em>&quot; means salted is like <em>roasting</em>, not boiling — inferred from &quot;<em>kavush k&#x27;mevushal</em>&quot; — which is a difficulty (<em>kashya</em>) for Ravina&#x27;s stringency."}, {"n": 6, "q": "What all gets included when we measure whether there is sixty times as much permitted food?", "opts": {"a": "Only the pieces of permitted meat.", "b": "Only the broth.", "c": "The broth (<em>rotev</em>), the sediment/spices (<em>kipah</em>), the pieces (<em>chatichot</em>), and the pot.", "d": "Everything in the kitchen at the time of cooking."}, "correct": "c", "why": "Broth (<em>rotev</em>), sediment/spices (<em>kipah</em>), pieces (<em>chatichot</em>), and the pot — Rabbi Chanina&#x27;s rule. (Two readings of &quot;the pot&quot;: its own volume, or what it absorbed.)"}, {"n": 7, "q": "Why do we estimate a forbidden food&#x27;s flavor &quot;as if it were onion or leek,&quot; rather than as pepper?", "opts": {"a": "Onion is cheaper and more common.", "b": "Pepper is not a <em>kosher</em> concern.", "c": "Because the Sages determined nothing imparts flavor more strongly than onion and leek — pepper never nullifies, so it gives no workable measure.", "d": "Because the case in the Gemara literally involved onions."}, "correct": "c", "why": "The Sages determined nothing imparts flavor more strongly than onion and leek; pepper never nullifies (not even in a thousand), so it gives no workable yardstick."}, {"n": 8, "q": "In Rav Nachman&#x27;s trio (<em>gid</em> / <em>kachal</em> / egg), which item <em>is</em> counted toward the sixty?", "opts": {"a": "The <em>gid</em>.", "b": "The udder (<em>kachal</em>).", "c": "The egg.", "d": "All three are counted."}, "correct": "b", "why": "The udder (<em>kachal</em>) is counted with the meat; the <em>gid</em> and the non-kosher egg are <strong>not</strong> (they can&#x27;t nullify themselves). Memory hook: &quot;gid — out; kachal — in; egg — out.&quot;"}, {"n": 9, "q": "Even with sixty-to-one, why does the udder <em>itself</em> stay forbidden — and forbid a second pot it later falls into?", "opts": {"a": "Because milk can never be nullified.", "b": "The udder was never really nullified in the first pot.", "c": "The meat drives flavor into the milk inside the udder, so the Sages treated the udder like an intrinsic piece of non-kosher meat (<em>chatichah d&#x27;neveilah</em>).", "d": "Because the udder is a Torah-level prohibition on its own."}, "correct": "c", "why": "The meat drives flavor into the milk inside the udder, so the Sages treated the udder as an intrinsic piece of non-kosher meat (<em>chatichah d&#x27;neveilah</em>), measured by its whole volume (R&#x27; Yitzchak b&#x27;rei d&#x27;Rav Mesharshiyya + Rav Ashi&#x27;s dilemma)."}];
+const KEYS = ["a","b","c","d"];
+let idx=0, score=0, streak=0, best=0, answered=false, results=[];
+
+const card = document.getElementById("quizCard");
+
+function esc(s){return s;}
+
+function renderQuestion(){
+  answered=false;
+  const q = QUIZ[idx];
+  const pct = Math.round((idx)/QUIZ.length*100);
+  let opts = Object.keys(q.opts).sort().map((k,i)=>`
+    <button class="opt" data-k="${k}">
+      <span class="key">${k.toUpperCase()}</span>
+      <span class="txt">${q.opts[k]}</span>
+    </button>`).join("");
+  card.innerHTML = `
+    <div class="qbar">
+      <span class="qnum">Question ${idx+1} / ${QUIZ.length}</span>
+      <span>Score <span class="pill">${score}</span> ${streak>1?`<span class="streak">🔥 ${streak} streak</span>`:""}</span>
+    </div>
+    <div class="prog"><i style="width:${pct}%"></i></div>
+    <div class="qtext">${q.q}</div>
+    <div class="opts">${opts}</div>
+    <div class="why" id="why"></div>
+    <div class="nav">
+      <span style="color:#9a8a6d;font-size:.85rem">${QUIZ.length-idx-1} to go</span>
+      <button class="btn" id="next" disabled>Next →</button>
+    </div>`;
+  card.querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>choose(b.dataset.k)));
+  document.getElementById("next").addEventListener("click",next);
+}
+
+function choose(k){
+  if(answered) return;
+  answered=true;
+  const q=QUIZ[idx];
+  const correct=q.correct;
+  const chosenRight = k===correct;
+  if(chosenRight){score++;streak++;best=Math.max(best,streak);} else {streak=0;}
+  results.push({n:q.n,q:q.q,chosen:k,correct:correct,opts:q.opts,why:q.why,right:chosenRight});
+  card.querySelectorAll(".opt").forEach(b=>{
+    b.classList.add("locked");
+    const bk=b.dataset.k;
+    if(bk===correct) b.classList.add("correct");
+    else if(bk===k) b.classList.add("wrong");
+    else b.classList.add("dim");
+  });
+  const why=document.getElementById("why");
+  why.innerHTML = `<b>${chosenRight?"✓ Correct.":"✗ Not quite — the answer is "+correct.toUpperCase()+"."}</b> ${q.why}`;
+  why.classList.add("show");
+  const nb=document.getElementById("next");
+  nb.disabled=false; nb.focus();
+  nb.textContent = idx===QUIZ.length-1 ? "See results →" : "Next →";
+  // update live score display
+  card.querySelector(".qbar .pill").textContent=score;
+}
+
+function next(){
+  if(!answered) return;
+  if(idx<QUIZ.length-1){idx++;renderQuestion();window.scrollTo({top:0,behavior:"smooth"});}
+  else endScreen();
+}
+
+function endScreen(){
+  const pct=Math.round(score/QUIZ.length*100);
+  let emoji="📘",msg="Good start — a review round will lock it in.";
+  if(pct===100){emoji="🏆";msg="Perfect score! You own this daf.";}
+  else if(pct>=80){emoji="🌟";msg="Excellent — nearly airtight.";}
+  else if(pct>=60){emoji="👍";msg="Solid. A quick re-read of the tricky ones and you're set.";}
+  const reviewWrong = results.filter(r=>!r.right);
+  let reviewHtml="";
+  if(reviewWrong.length){
+    reviewHtml = `<div class="review"><h3 style="color:var(--accent2)">Worth another look</h3>` +
+      reviewWrong.map(r=>`<div class="r">
+        <div class="rq">${r.n}. ${r.q}</div>
+        <div class="ra no">Your answer: ${r.chosen.toUpperCase()}) ${r.opts[r.chosen]}</div>
+        <div class="ra ok">Correct: ${r.correct.toUpperCase()}) ${r.opts[r.correct]}</div>
+        <div class="ra" style="color:#6a5a3d;margin-top:4px">${r.why}</div>
+      </div>`).join("") + `</div>`;
+  }
+  card.innerHTML = `<div class="end">
+      <div class="big">${emoji}</div>
+      <div class="score">${score} / ${QUIZ.length} &nbsp;·&nbsp; ${pct}%</div>
+      <div class="msg">${msg}${best>1?` &nbsp;·&nbsp; best streak 🔥 ${best}`:""}</div>
+      <button class="btn" id="again">↻ Play again</button>
+    </div>${reviewHtml}`;
+  document.getElementById("again").addEventListener("click",restart);
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function restart(){idx=0;score=0;streak=0;best=0;results=[];renderQuestion();}
+
+// tab switching
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+  document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));
+  t.classList.add("active");
+  document.getElementById(t.dataset.v).classList.add("active");
+  if(t.dataset.v==="quiz" && !card.innerHTML.trim()) renderQuestion();
+}));
+
+// keyboard
+document.addEventListener("keydown",e=>{
+  if(!document.getElementById("quiz").classList.contains("active")) return;
+  if(["1","2","3","4"].includes(e.key)){const k=KEYS[+e.key-1];const b=card.querySelector(`.opt[data-k="${k}"]`);if(b)b.click();}
+  else if(e.key==="Enter"){const n=document.getElementById("next");if(n&&!n.disabled)n.click();}
+});
+
+renderQuestion();
+</script>
+</body>
+</html>

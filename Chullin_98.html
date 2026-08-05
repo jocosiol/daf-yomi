@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daf Yomi — Chullin 98 (חולין צח)</title>
+<style>
+  :root{
+    --paper:#fbf7ee; --ink:#2c261d; --accent:#8a5a2b; --accent2:#6b3f1d;
+    --gold:#c9a86a; --gold-soft:#ead9b3; --panel:#fffdf8; --line:#e2d3b3;
+    --good:#3f8f5b; --good-bg:#e7f4ec; --bad:#c0453b; --bad-bg:#fbe9e7;
+    --shadow:0 6px 24px rgba(80,55,20,.10);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:linear-gradient(180deg,#f4ecd8 0%,#fbf7ee 220px) fixed;
+    color:var(--ink); font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  :lang(he),.he{font-family:"Frank Ruhl Libre","Times New Roman",Georgia,serif;}
+  .wrap{max-width:820px;margin:0 auto;padding:0 18px 80px}
+  header.top{
+    text-align:center;padding:34px 18px 22px;margin-bottom:8px;
+  }
+  header.top h1{
+    font-size:2.05rem;line-height:1.2;margin:0 0 6px;color:var(--accent2);
+    letter-spacing:.2px;
+  }
+  header.top .sub{color:#7a6a4d;font-size:1rem;font-style:italic}
+  .tabs{
+    display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:20;
+    padding:12px 0;background:linear-gradient(180deg,var(--paper) 70%,rgba(251,247,238,0));
+    margin-bottom:10px;
+  }
+  .tab{
+    border:1px solid var(--gold);background:var(--panel);color:var(--accent2);
+    padding:9px 22px;border-radius:999px;cursor:pointer;font-size:1rem;font-weight:600;
+    box-shadow:var(--shadow);transition:.18s;font-family:inherit;
+  }
+  .tab:hover{transform:translateY(-1px)}
+  .tab.active{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+  .view{display:none;animation:fade .35s ease}
+  .view.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+  /* ---- Learn view ---- */
+  .sheet{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:26px 30px;box-shadow:var(--shadow)}
+  .sheet h2{font-size:1.4rem;color:var(--accent2);border-bottom:2px solid var(--gold-soft);
+    padding-bottom:6px;margin:26px 0 10px}
+  .sheet h2:first-child{margin-top:0}
+  .sheet h3{font-size:1.12rem;color:var(--accent);margin:18px 0 6px}
+  .sheet blockquote{margin:14px 0;padding:12px 18px;background:#faf3e3;
+    border-left:4px solid var(--gold);border-radius:6px;font-style:italic}
+  .sheet table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}
+  .sheet th,.sheet td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  .sheet th{background:var(--gold-soft);color:var(--accent2)}
+  .sheet tr:nth-child(even) td{background:#fbf7ee}
+  .sheet code{background:#f0e6ce;padding:1px 5px;border-radius:4px;font-size:.9em}
+  .sheet hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+  .sheet ul{padding-left:22px}
+  .sheet li{margin:5px 0}
+  .sheet strong{color:var(--accent2)}
+
+  /* ---- Quiz view ---- */
+  .quiz{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:26px 28px;box-shadow:var(--shadow)}
+  .qbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:6px;
+    font-size:.92rem;color:#7a6a4d}
+  .prog{height:9px;background:var(--gold-soft);border-radius:999px;overflow:hidden;margin:8px 0 22px}
+  .prog>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--accent));
+    border-radius:999px;transition:width .4s ease}
+  .qnum{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  .qtext{font-size:1.28rem;line-height:1.45;margin:8px 0 20px;color:var(--ink)}
+  .opts{display:flex;flex-direction:column;gap:12px}
+  .opt{display:flex;align-items:flex-start;gap:12px;text-align:left;width:100%;
+    border:1.5px solid var(--line);background:#fffdf8;border-radius:12px;padding:14px 16px;
+    cursor:pointer;font-size:1.05rem;font-family:inherit;color:var(--ink);transition:.15s}
+  .opt:hover:not(.locked){border-color:var(--accent);transform:translateY(-1px);
+    box-shadow:0 3px 12px rgba(120,80,30,.10)}
+  .opt .key{flex:0 0 28px;height:28px;border-radius:50%;background:var(--gold-soft);
+    color:var(--accent2);font-weight:700;display:flex;align-items:center;justify-content:center;
+    font-size:.95rem}
+  .opt.correct{border-color:var(--good);background:var(--good-bg)}
+  .opt.correct .key{background:var(--good);color:#fff}
+  .opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+  .opt.wrong .key{background:var(--bad);color:#fff}
+  .opt.locked{cursor:default}
+  .opt.dim{opacity:.55}
+  .why{margin-top:18px;padding:14px 16px;border-radius:12px;background:#f6efe0;
+    border-left:4px solid var(--gold);font-size:1rem;display:none;animation:fade .3s}
+  .why.show{display:block}
+  .why b{color:var(--accent2)}
+  .nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px}
+  .btn{border:none;border-radius:999px;padding:12px 26px;font-size:1.02rem;font-weight:700;
+    cursor:pointer;font-family:inherit;background:var(--accent2);color:#fff;box-shadow:var(--shadow);
+    transition:.16s}
+  .btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
+  .btn.ghost{background:var(--panel);color:var(--accent2);border:1px solid var(--gold)}
+  .btn:disabled{opacity:.4;cursor:default;transform:none}
+  .pill{background:var(--gold-soft);color:var(--accent2);border-radius:999px;padding:4px 12px;font-weight:700}
+  .streak{color:var(--accent)}
+  /* end screen */
+  .end{text-align:center;padding:14px 6px}
+  .end .big{font-size:3.4rem;margin:6px 0}
+  .end .score{font-size:1.6rem;color:var(--accent2);font-weight:700;margin:4px 0}
+  .end .msg{font-size:1.1rem;color:#6a5a3d;margin:8px 0 20px}
+  .review{text-align:left;margin-top:20px}
+  .review .r{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;background:#fffdf8}
+  .review .r .rq{font-weight:700;color:var(--ink);margin-bottom:6px}
+  .review .r .ra{font-size:.96rem;margin:2px 0}
+  .review .ok{color:var(--good)} .review .no{color:var(--bad)}
+  .hint{color:#9a8a6d;font-size:.82rem;text-align:center;margin-top:14px}
+  @media(max-width:520px){.sheet,.quiz{padding:20px 16px}.qtext{font-size:1.14rem}header.top h1{font-size:1.6rem}}
+</style>
+
+<style id="site-nav-css">
+#site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
+#site-nav a{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
+  background:#fffdf8;color:#6b3f1d;border:1px solid #c9a86a;border-radius:999px;
+  padding:6px 14px;box-shadow:0 3px 12px rgba(80,55,20,.12)}
+#site-nav a:hover{background:#6b3f1d;color:#fff}
+@media print{#site-nav{display:none}}
+</style>
+</head>
+<body>
+<div id="site-nav"><a href="../index.html">📖 Today</a><a href="../archive.html">🗂 Archive</a></div>
+<div class="wrap">
+  <header class="top">
+    <h1>Daf Yomi — Chullin 98 (חולין צח)</h1>
+    <div class="sub">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Study date: Thu, 6 August 2026</div>
+  </header>
+
+  <div class="tabs">
+    <button class="tab active" data-v="learn">📖 Learn</button>
+    <button class="tab" data-v="quiz">🎯 Chazara Quiz</button>
+  </div>
+
+  <section class="view active" id="learn">
+    <div class="sheet"><h2>The big picture (read this first)</h2>
+<p>Yesterday (97) landed us on the rule that when tasting can&rsquo;t settle a mixture, we fall back on <strong>nullification in sixty</strong>. Today&rsquo;s daf asks the obvious next question:</p>
+<blockquote>
+<p><strong>Where does the number sixty actually come from — and is it even sixty? And, finishing yesterday&rsquo;s loose end, does a non-kosher egg impart flavor at all?</strong></p>
+</blockquote>
+<p>Two threads run through the page:</p>
+<ol>
+<li>
+<p><strong>The egg</strong> — Abaye finishes answering Rav Idi bar Avin: an egg only &ldquo;gives taste&rdquo; when there&rsquo;s a <strong>chick (<em>efroach</em>)</strong> inside; a merely non-kosher egg with no chick is close to tasteless — and yet, the Gemara concludes, even that egg forbids a mixture. Then a whole chain of Sages fixes the egg&rsquo;s ratio at <strong>sixty-one</strong> (the disputed point: sixty-one <em>including</em> the egg, or sixty <em>besides</em> it).</p>
+</li>
+<li>
+<p><strong>The source of nullification</strong> — the anchor is a startling Torah case: the <strong>cooked foreleg (<em>zeroa besheila</em>) of the nazirite&rsquo;s ram</strong> (Bamidbar 6:19). That foreleg is a priest&rsquo;s portion, yet the Torah has it <strong>cooked together with the whole ram</strong>, which stays permitted to the (non-priest) nazirite. From this &ldquo;permitted thing emerging from a forbidden one&rdquo; the Sages derive the nullification ratio — <strong>sixty</strong> (counting meat <em>and</em> bones) or <strong>one hundred</strong> (meat alone).</p>
+</li>
+</ol>
+<p>Along the way we meet old precedents that permitted mixtures at <em>forty-five</em> and <em>forty-seven</em> to one — a reminder that the fixed &ldquo;sixty&rdquo; was still crystallizing.</p>
+<hr />
+<h2>Walking through the sugya, step by step</h2>
+<h3>98a — Does a non-kosher egg give flavor?</h3>
+<p><strong>Abaye&rsquo;s answer (finishing 97b).</strong> The egg that imparts flavor is one that <strong>contains a chick (<em>beitzat efroach</em>)</strong> — the chick is what flavors the dish. A non-kosher egg with <strong>no</strong> chick barely gives taste, matching the &ldquo;mere egg-water&rdquo; proverb.</p>
+<p><strong>Rav Idi bar Avin objects</strong> from a baraita (Tosefta, Terumot): kosher eggs boiled with <strong>non-kosher eggs</strong> are all forbidden if there&rsquo;s enough to impart flavor — so non-kosher eggs <em>do</em> flavor! <strong>Abaye:</strong> there too it&rsquo;s a kosher egg with a chick, called &ldquo;non-kosher&rdquo; <em>because</em> the chick forbids it.</p>
+<p><strong>The reisha/seifa fencing.</strong> The Gemara tries to infer from the latter clause (which explicitly mentions a chick) that the first clause has <strong>no</strong> chick — then reads the latter clause as merely <em>explaining</em> the first. The upshot: the first clause really does speak of an egg <strong>without</strong> a chick, <strong>and it still forbids the mixture.</strong> So a non-kosher egg <em>is</em> treated as imparting flavor (nullified in sixty, not counted — as Rav Nachman held on 97b).</p>
+<h3>98a — Don&rsquo;t shrink the measure</h3>
+<p><strong>The olive-bulk of fat.</strong> A <em>kezayis</em> of forbidden fat fell into a pot of meat. <strong>Rav Ashi</strong> (the text&rsquo;s &ldquo;Rav Asi&rdquo;) thought to count what the <strong>pot absorbed</strong> toward the sixty; the Rabbis pushed back: <em>does the pot absorb only the permitted meat and not the forbidden fat?</em> You can&rsquo;t treat the absorbed volume as all-permitted.</p>
+<p><strong>The half-olive-bulk.</strong> A <em>half</em>-kezayis of fat fell in, and <strong>Mar bar Rav Ashi</strong> reasoned he&rsquo;d only need <strong>thirty</strong> half-olive-bulks to nullify it. His father <strong>Rav Ashi</strong> rebuked him: <em>&ldquo;Don&rsquo;t treat rabbinic measures lightly&rdquo;</em> — and besides, <strong>R&rsquo; Yochanan</strong> holds <strong>a half-measure is forbidden by Torah law (<em>chatzi shiur asur min haTorah</em>)</strong>. So you still need a full <strong>sixty times its own volume.</strong></p>
+<h3>98a — Fixing the egg at sixty-one, and old precedents</h3>
+<p><strong>The long chain.</strong> Rav Shemen bar Abba → Rav Idi bar Idi bar Gershom → Levi bar Perata → R&rsquo; Nachum → R&rsquo; Biryam → in the name of an elder named <strong>R&rsquo; Yaakov</strong> → the Sages of the <strong>Nasi&rsquo;s house (<em>dvei nesiya</em>)</strong>: a non-kosher egg is <strong>forbidden in sixty, permitted in sixty-one.</strong></p>
+<p><strong>R&rsquo; Zeira&rsquo;s probe.</strong> He notes to Rav Shemen bar Abba that this <em>sets a firm boundary</em> — yet the two giants <strong>R&rsquo; Yaakov bar Idi</strong> and <strong>R&rsquo; Shmuel bar Nachmani</strong>, both citing <strong>R&rsquo; Yehoshua ben Levi</strong>, left it ambiguous: is &ldquo;sixty-one&rdquo; counting the egg, or sixty-one <em>besides</em> it? <strong>R&rsquo; Chelbo in the name of Rav Huna</strong> resolves it: <strong>sixty besides it → forbidden; sixty-one besides it → permitted.</strong></p>
+<p><strong>The forty-somethings.</strong> People brought mixtures to <strong>Rabban Gamliel bar Rabbi</strong> (permitted at 45-to-1, citing his father&rsquo;s 47) and to <strong>R&rsquo; Shimon bar Rabbi</strong> (permitted at 43-to-1, citing his father&rsquo;s 45). But <strong>R&rsquo; Chiyya</strong> rejected one: <em>&ldquo;Is there even thirty here?!&rdquo;</em> — and <strong>R&rsquo; Chanina</strong> clarifies that R&rsquo; Chiyya&rsquo;s &ldquo;thirty&rdquo; was <strong>hyperbole (<em>guzma</em>)</strong>, not a real thirty-threshold; the mixture plainly lacked even that.</p>
+<h3>98a–98b — Sixty or a hundred? The nazirite&rsquo;s ram</h3>
+<p><strong>The dispute.</strong> <strong>R&rsquo; Chiyya bar Abba</strong> citing R&rsquo; Yehoshua ben Levi citing <strong>bar Kappara</strong>: all Torah prohibitions are nullified in <strong>sixty</strong>. <strong>R&rsquo; Shmuel bar Rav Yitzchak</strong> counters that <strong>Rav Asi</strong> cites the same chain for <strong>one hundred</strong>.</p>
+<p><strong>Both derive from one verse</strong> — <em>&ldquo;the priest shall take the cooked foreleg (</em>zeroa besheila<em>) of the ram&rdquo;</em> (Bamidbar 6:19). A baraita reads <em>besheila</em>: the first <em>tanna</em> — a <strong>whole</strong> foreleg; <strong>Rabbi Shimon ben Yochai</strong> — one cooked <strong>with the entire ram</strong>. Since the foreleg belongs to the priest but is cooked in with the ram the nazirite eats, we have a <strong>permitted result out of a forbidden ingredient</strong> — the model for nullification.</p>
+<p><strong>How 60 and 100 split.</strong> &ldquo;Sixty&rdquo; measures <strong>meat <em>and</em> bones</strong> of the foreleg against meat-and-bones of the ram (≈1:60); &ldquo;one hundred&rdquo; measures <strong>meat alone</strong> against the ram&rsquo;s meat (≈1:100).</p>
+<p><strong>Is the ram even a valid source?</strong> The baraita&rsquo;s <em>&ldquo;</em><em>this</em><em> is a permitted thing from a forbidden context&rdquo;</em> seems to <strong>exclude</strong> all other prohibitions — maybe only the ram nullifies! <strong>Abaye:</strong> the exclusion is needed only against <strong>R&rsquo; Yehuda</strong>, who holds <strong>same-type doesn&rsquo;t nullify (<em>min b&rsquo;mino lo batel<em>)</em><em> — the baraita teaches that here it </em>does<em>. Then: let R&rsquo; Yehuda learn from the ram that </em>min b&rsquo;mino<em> nullifies generally! The Gemara answers that R&rsquo; Yehuda&rsquo;s </em>lo batel<em> comes instead from the </em><em>blood of the bull and the goat</em><em> (Vayikra 16:18), which stay distinct though mixed — and we </em><em>don&rsquo;t derive general rules from the ram, which is a </em>chidush</em></strong> (you may even nullify it <em>lechatchila</em>). But then why derive the 60/100 measure from a <em>chidush</em>? Because there we learn it as a <strong>stringency</strong> (<em>l&rsquo;chumra</em>) — without the verse we&rsquo;d have said Torah-law nullifies in a mere <strong>majority (<em>rov</em>)</strong>.</p>
+<p><strong>Rava&rsquo;s alternative.</strong> The baraita&rsquo;s &ldquo;<em>this</em>&rdquo; is needed for <strong>taam k&rsquo;ikar</strong> — in <em>kodashim</em>, absorbed flavor normally forbids; the verse teaches that here the ram stays permitted (even to non-priests).</p>
+<hr />
+<h2>Key concepts &amp; terms</h2>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>בֵּיצַת אֶפְרוֹחַ — beitzat efroach</strong></td>
+<td>An egg with a chick/embryo inside — <em>this</em> is what imparts flavor; a chick-less non-kosher egg barely does.</td>
+</tr>
+<tr>
+<td><strong>מֵי בֵּיצִים — mei beitzim</strong></td>
+<td>&ldquo;Egg-water,&rdquo; proverbial for tasteless — the phrase from 97b that this sugya answers.</td>
+</tr>
+<tr>
+<td><strong>כְּזַיִת / פַּלְגָא דְּזֵיתָא</strong></td>
+<td>An olive-bulk / a half-olive-bulk — the units of forbidden fat in the two pot-cases.</td>
+</tr>
+<tr>
+<td><strong>חֲצִי שִׁיעוּר — chatzi shiur</strong></td>
+<td>A half-measure — R&rsquo; Yochanan: forbidden by <strong>Torah law</strong>, so you can&rsquo;t halve the sixty.</td>
+</tr>
+<tr>
+<td><strong>שִׁיעוּרִין דְּרַבָּנַן</strong></td>
+<td>Rabbinic measures — Rav Ashi&rsquo;s rule: <em>don&rsquo;t treat them lightly.</em></td>
+</tr>
+<tr>
+<td><strong>בְּשִׁישִׁים / בְּשִׁישִׁים וְאַחַת</strong></td>
+<td>In sixty (forbidden) / in sixty-one (permitted) — the egg ratio, and the general threshold.</td>
+</tr>
+<tr>
+<td><strong>דְּבֵי נְשִׂיאָה — dvei nesiya</strong></td>
+<td>The household/court of the <em>Nasi</em> (the Patriarch) — source of the sixty-one ruling.</td>
+</tr>
+<tr>
+<td><strong>גּוּזְמָא — guzma</strong></td>
+<td>Hyperbole/exaggeration — how R&rsquo; Chanina explains R&rsquo; Chiyya&rsquo;s &ldquo;is there even thirty?&rdquo;</td>
+</tr>
+<tr>
+<td><strong>זְרוֹעַ בְּשֵׁלָה — zeroa besheila</strong></td>
+<td>The &ldquo;cooked foreleg&rdquo; of the nazirite&rsquo;s ram (Bamidbar 6:19) — the Torah source of the nullification ratio.</td>
+</tr>
+<tr>
+<td><strong>מִין בְּמִינוֹ לֹא בָּטֵיל</strong></td>
+<td>&ldquo;Same type doesn&rsquo;t nullify&rdquo; — R&rsquo; Yehuda&rsquo;s view; the baraita is needed to override it here.</td>
+</tr>
+<tr>
+<td><strong>הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר</strong></td>
+<td>&ldquo;A permitted thing emerging from a forbidden context&rdquo; — the baraita&rsquo;s description of the ram.</td>
+</tr>
+<tr>
+<td><strong>חִדּוּשׁ — chidush</strong></td>
+<td>A halakhic novelty; general rules aren&rsquo;t derived from one (you may even nullify the ram <em>lechatchila</em>).</td>
+</tr>
+<tr>
+<td><strong>בְּרוּבָּא בָּטֵיל — b&rsquo;ruba batel</strong></td>
+<td>Nullification in a simple <em>majority</em> — what we&rsquo;d assume by Torah law without the sixty/hundred derivation.</td>
+</tr>
+<tr>
+<td><strong>טַעַם כְּעִיקָּר — taam k&rsquo;ikar</strong></td>
+<td>&ldquo;Flavor is like substance&rdquo; — in <em>kodashim</em> absorbed flavor forbids; Rava&rsquo;s reading of why the verse is needed.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Who&rsquo;s who in today&rsquo;s daf</h2>
+<p>A big cast today. Title tells: <strong>Rav/Rava/Ravina</strong> = Babylonian Amora; <strong>Rabbi</strong> = Tanna or Eretz-Yisrael Amora; <strong>&ldquo;bar Rabbi&rdquo; / &ldquo;Rebbi&rdquo;</strong> points to the household of R&rsquo; Yehuda HaNasi. Obscure names in the transmission chain are flagged rather than dressed up.</p>
+<p><strong>Tannaim (Mishnaic era)</strong></p>
+<ul>
+<li><strong>R&rsquo; Yehuda HaNasi (&ldquo;Rebbi,&rdquo; here &ldquo;Abba&rdquo;)</strong> — final-generation <strong>Tanna</strong>, redactor of the Mishnah; cited by his sons as the father whose lenient precedents (47-to-1, 45-to-1) they follow.</li>
+<li><strong>Rabban Gamliel bar Rabbi</strong> — son of R&rsquo; Yehuda HaNasi, Nasi after him; a <strong>transitional Tanna</strong>. Permits at 45-to-1.</li>
+<li><strong>Rabbi Shimon bar Rabbi</strong> — another son of R&rsquo; Yehuda HaNasi, <strong>transitional Tanna</strong>; permits at 43-to-1.</li>
+<li><strong>Rabbi Chiyya</strong> (R&rsquo; Chiyya the Great) — a <strong>transitional Tanna/Amora</strong>, disciple-colleague of Rebbi who came from Bavel to Eretz Yisrael; famed for compiling baraitot. <em>Look-alike alert:</em> <strong>not</strong> the same as <strong>R&rsquo; Chiyya bar Abba</strong> the Amora below.</li>
+<li><strong>Rabbi Shimon ben Yochai (Rashbi)</strong> — 4th-generation <strong>Tanna</strong>, leading student of R&rsquo; Akiva; here he reads <em>besheila</em> as &ldquo;cooked with the whole ram.&rdquo;</li>
+<li><strong>Rabbi Yehuda</strong> (bar Ilai) — 4th-generation <strong>Tanna</strong>, student of R&rsquo; Akiva; the &ldquo;first <em>tanna</em>&rdquo; in many disputes and the source of <strong>min b&rsquo;mino lo batel</strong>.</li>
+<li><strong>bar Kappara</strong> — <strong>transitional Tanna/Amora</strong>, student of R&rsquo; Yehuda HaNasi in Eretz Yisrael, with his own baraita collection; the ultimate source (via R&rsquo; Yehoshua ben Levi) of the sixty-vs-hundred rule.</li>
+</ul>
+<p><strong>Eretz-Yisrael Amoraim</strong></p>
+<ul>
+<li><strong>Rabbi Yochanan</strong> — R&rsquo; Yochanan bar Nappacha, 2nd-gen <strong>EY Amora</strong>, head of Tiberias; cited for &ldquo;half-measure is Torah-forbidden.&rdquo;</li>
+<li><strong>Rabbi Yehoshua ben Levi</strong> — 1st-gen <strong>EY Amora</strong> of Lod (Lydda), a towering figure roughly contemporary with R&rsquo; Yochanan; the pivot of the egg and the sixty/hundred traditions.</li>
+<li><strong>Rabbi Zeira</strong> — 3rd-gen Amora who ascended from Bavel to <strong>Eretz Yisrael</strong>, known for his piety; presses Rav Shemen bar Abba on the sixty-one boundary.</li>
+<li><strong>Rav Shemen bar Abba</strong> — <strong>EY Amora</strong>, a student of R&rsquo; Yochanan in Tiberias; heads the egg-ratio chain. (Sometimes written &ldquo;Rav Shimon bar Abba.&rdquo;)</li>
+<li><strong>Rabbi Yaakov bar Idi</strong> — <strong>EY Amora</strong> (2nd–3rd gen); one of the &ldquo;two giants&rdquo; who transmit R&rsquo; Yehoshua ben Levi&rsquo;s egg ruling.</li>
+<li><strong>Rabbi Shmuel bar Nachmani</strong> — 3rd-gen <strong>EY Amora</strong>, celebrated <em>aggadist</em>, student of R&rsquo; Yonatan; the other &ldquo;giant&rdquo; in that pair.</li>
+<li><strong>Rabbi Chiyya bar Abba</strong> — 3rd-gen <strong>EY Amora</strong>, a leading student of R&rsquo; Yochanan who transmitted much of his teaching. <em>Look-alike alert:</em> distinct from <strong>R&rsquo; Chiyya the Tanna</strong> above.</li>
+<li><strong>Rabbi Shmuel bar Rav Yitzchak</strong> — 3rd-gen <strong>EY Amora</strong>; raises the &ldquo;one hundred&rdquo; version against R&rsquo; Chiyya bar Abba.</li>
+<li><strong>Rav Asi</strong> — 3rd-gen Amora, Babylonian by origin who settled in <strong>Eretz Yisrael</strong> (the &ldquo;R&rsquo; Ami and R&rsquo; Asi&rdquo; pair); cited here for the hundred-fold measure. <em>Look-alike alert:</em> not <strong>Rav Ashi</strong> the Babylonian redactor below (and note the pot-incident in 98a:7, printed &ldquo;Rav Asi,&rdquo; is really about the Babylonian <strong>Rav Ashi</strong>).</li>
+<li><strong>Rabbi Chanina</strong> — most likely <strong>R&rsquo; Chanina bar Chama</strong>, 1st-gen EY Amora of Tzippori; explains R&rsquo; Chiyya&rsquo;s &ldquo;thirty&rdquo; as <em>guzma</em>. (Same probable identification as on daf 97.)</li>
+</ul>
+<p><strong>Babylonian Amoraim</strong></p>
+<ul>
+<li><strong>Abaye</strong> — 4th-gen <strong>Babylonian Amora</strong>, head of Pumbedita; fields the egg question and the <em>min b&rsquo;mino</em> derivation. Perennial partner-disputant of Rava.</li>
+<li><strong>Rava</strong> — 4th-gen <strong>Babylonian Amora</strong> of Machoza; offers the <em>taam k&rsquo;ikar</em> reading of the baraita.</li>
+<li><strong>Rav Idi bar Avin</strong> — <strong>Babylonian Amora</strong>, contemporary of Abaye and Rava; objects that non-kosher eggs must impart flavor.</li>
+<li><strong>Rav Ashi</strong> — 6th-gen <strong>Babylonian Amora</strong>, head of Mata Mechasya (Sura) and principal redactor of the Talmud; rules on the pot-cases and rebukes his son on measures.</li>
+<li><strong>Mar bar Rav Ashi</strong> — a.k.a. <strong>Tavyomi</strong>, 7th-gen <strong>Babylonian Amora</strong>, son of Rav Ashi; tries the &ldquo;thirty half-olives&rdquo; shortcut and is corrected. <em>Look-alike alert:</em> distinct from Rav Acha bar Rav Ashi (met on 97).</li>
+<li><strong>Rav Huna</strong> — 2nd-gen <strong>Babylonian Amora</strong>, head of Sura; cited (via R&rsquo; Chelbo) that &ldquo;sixty-one besides it&rdquo; permits.</li>
+<li><strong>Rabbi Chelbo</strong> — <strong>Babylonian Amora</strong> who emigrated to Eretz Yisrael, a student of Rav Huna; transmits that ruling.</li>
+</ul>
+<p><em>Uncertain / obscure (transmission chain — details are genuinely thin):</em></p>
+<ul>
+<li><strong>Rav Idi bar Idi bar Gershom</strong>, <strong>Levi bar Perata</strong>, <strong>Rabbi Nachum</strong>, <strong>Rabbi Biryam</strong>, and <strong>&ldquo;the elder named Rabbi Yaakov&rdquo;</strong> are little-documented links in the egg-ratio chain. Treat them as early Amoraim (mostly Eretz-Yisrael-oriented, given the company they keep) without over-specifying — the Talmud itself introduces R&rsquo; Yaakov only as <em>&ldquo;a certain elder.&rdquo;</em></li>
+</ul>
+<hr />
+<h2>One line to carry with you</h2>
+<blockquote>
+<p>The Torah itself modeled nullification — a priest&rsquo;s portion cooked into the nazirite&rsquo;s whole ram, and the whole stays permitted — and the Sages&rsquo; only argument is the exact ratio: <strong>sixty</strong> counting the bones, or <strong>one hundred</strong> counting the meat alone.</p>
+</blockquote>
+<hr />
+<p><em>Tomorrow (7 Aug 2026): Chullin 99 — the nullification sugya presses on to the sciatic nerve itself and cases like the thigh cooked with its nerve, testing how a barely-flavorful </em>gid<em> is measured, and reaching the principle of a &ldquo;thing that can become permitted&rdquo; (</em>davar sheyesh lo matirin<em>).</em></p>
+<hr /></div>
+  </section>
+
+  <section class="view" id="quiz">
+    <div class="quiz" id="quizCard"></div>
+    <div class="hint">Tip: press keys 1–4 to answer, Enter for next.</div>
+  </section>
+</div>
+
+<script>
+const QUIZ = [{"n": 1, "q": "According to Abaye, which egg actually imparts flavor to a mixture?", "opts": {"a": "Any non-kosher egg.", "b": "An egg that contains a chick (<em>efroach</em>).", "c": "Only a kosher egg.", "d": "No egg ever imparts flavor."}, "correct": "b", "why": "Only an egg with a chick (<em>efroach</em>) truly imparts flavor; a chick-less non-kosher egg is near-tasteless — yet the baraita shows it still forbids the mixture."}, {"n": 2, "q": "Why couldn&#x27;t Rav Ashi count what the pot <em>absorbed</em> as extra permitted volume toward the sixty?", "opts": {"a": "Because the pot absorbs nothing while cooking.", "b": "Because absorbed food never counts at all.", "c": "Because the pot absorbs the forbidden fat too, not only the permitted meat.", "d": "Because only broth is ever counted."}, "correct": "c", "why": "The pot absorbs the forbidden fat as well as the permitted meat, so you can&#x27;t credit the absorbed volume as all-permitted."}, {"n": 3, "q": "When a <em>half</em>-olive-bulk of fat fell in, why did Rav Ashi reject &quot;thirty&quot; as the threshold?", "opts": {"a": "Thirty is never a valid ratio.", "b": "Because a half-measure is forbidden by Torah law (R&#x27; Yochanan), so you still need sixty times its own volume.", "c": "Because the fat was actually a whole olive-bulk.", "d": "Because rabbinic measures may be halved freely."}, "correct": "b", "why": "R&#x27; Yochanan: <em>chatzi shiur asur min haTorah</em> — a half-measure is Torah-forbidden, so it still needs sixty times its own volume (&quot;don&#x27;t treat rabbinic measures lightly&quot;)."}, {"n": 4, "q": "The dispute over &quot;sixty-one&quot; for the egg turned on which question?", "opts": {"a": "Whether the egg was fertilized.", "b": "Whether we count sixty-one <em>including</em> the forbidden egg or sixty-one <em>besides</em> it.", "c": "Whether eggs nullify at all.", "d": "Whether the eggs were boiled or roasted."}, "correct": "b", "why": "Sixty-one <em>including</em> the egg, or sixty-one <em>besides</em> it. R&#x27; Chelbo/Rav Huna resolve: sixty besides → forbidden; sixty-one besides → permitted."}, {"n": 5, "q": "What did R&#x27; Chanina say R&#x27; Chiyya meant by &quot;is there even thirty here?&quot;", "opts": {"a": "That thirty-to-one is the real threshold.", "b": "That the mixture had exactly thirty.", "c": "That it was hyperbole (<em>guzma</em>) — the mixture plainly lacked even thirty, let alone sixty.", "d": "That R&#x27; Chiyya disagreed with sixty entirely."}, "correct": "c", "why": "<em>Guzma</em>, hyperbole. R&#x27; Chiyya wasn&#x27;t setting a thirty-threshold; the mixture didn&#x27;t even have thirty, so it was obviously forbidden."}, {"n": 6, "q": "From what Torah case do the Sages derive the nullification ratio?", "opts": {"a": "The blood of the bull and the goat.", "b": "The prohibition of <em>cheilev</em>.", "c": "The cooked foreleg (<em>zeroa besheila</em>) of the nazirite&#x27;s ram (Bamidbar 6:19).", "d": "The meat-in-milk prohibition."}, "correct": "c", "why": "The cooked foreleg of the nazirite&#x27;s ram (Bamidbar 6:19), a priest&#x27;s portion cooked with the whole ram that stays permitted to the nazirite."}, {"n": 7, "q": "How do the &quot;sixty&quot; and &quot;one hundred&quot; opinions split?", "opts": {"a": "Sixty counts meat and bones of the foreleg; one hundred counts only its meat.", "b": "One counts by weight, the other by price.", "c": "They disagree about the size of the ram.", "d": "Sixty is Torah law, one hundred is rabbinic."}, "correct": "a", "why": "&quot;Sixty&quot; measures meat <em>and</em> bones of the foreleg vs. the ram; &quot;one hundred&quot; measures only the <em>meat</em> of each."}, {"n": 8, "q": "Why don&#x27;t we learn R&#x27; Yehuda&#x27;s <em>min b&#x27;mino lo batel</em> from the nazirite&#x27;s ram (which shows it <em>does</em> nullify)?", "opts": {"a": "Because the ram is a <em>chidush</em> (novelty) — you may even nullify it <em>lechatchila</em> — and we don&#x27;t derive general rules from a novelty.", "b": "Because R&#x27; Yehuda never saw that baraita.", "c": "Because the ram isn&#x27;t kosher.", "d": "Because blood is more stringent than meat."}, "correct": "a", "why": "The ram is a <em>chidush</em> (you may nullify it <em>lechatchila</em>), and we don&#x27;t derive general principles from a novelty; <em>min b&#x27;mino lo batel</em> comes instead from the bull&#x27;s and goat&#x27;s blood."}, {"n": 9, "q": "If the ram is a <em>chidush</em>, how can we still learn the sixty/hundred measure from it?", "opts": {"a": "We can&#x27;t; the measure has no source.", "b": "Because there we derive it as a <em>stringency</em> (<em>l&#x27;chumra</em>) — otherwise we&#x27;d have said Torah-law nullifies in a simple majority.", "c": "Because the measure is only rabbinic anyway.", "d": "Because the ram is not really a novelty."}, "correct": "b", "why": "There we learn it <em>l&#x27;chumra</em> (as a stringency); without the verse we&#x27;d have assumed Torah-law nullifies in a mere majority (<em>b&#x27;ruba batel</em>)."}];
+const KEYS = ["a","b","c","d"];
+let idx=0, score=0, streak=0, best=0, answered=false, results=[];
+
+const card = document.getElementById("quizCard");
+
+function esc(s){return s;}
+
+function renderQuestion(){
+  answered=false;
+  const q = QUIZ[idx];
+  const pct = Math.round((idx)/QUIZ.length*100);
+  let opts = Object.keys(q.opts).sort().map((k,i)=>`
+    <button class="opt" data-k="${k}">
+      <span class="key">${k.toUpperCase()}</span>
+      <span class="txt">${q.opts[k]}</span>
+    </button>`).join("");
+  card.innerHTML = `
+    <div class="qbar">
+      <span class="qnum">Question ${idx+1} / ${QUIZ.length}</span>
+      <span>Score <span class="pill">${score}</span> ${streak>1?`<span class="streak">🔥 ${streak} streak</span>`:""}</span>
+    </div>
+    <div class="prog"><i style="width:${pct}%"></i></div>
+    <div class="qtext">${q.q}</div>
+    <div class="opts">${opts}</div>
+    <div class="why" id="why"></div>
+    <div class="nav">
+      <span style="color:#9a8a6d;font-size:.85rem">${QUIZ.length-idx-1} to go</span>
+      <button class="btn" id="next" disabled>Next →</button>
+    </div>`;
+  card.querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>choose(b.dataset.k)));
+  document.getElementById("next").addEventListener("click",next);
+}
+
+function choose(k){
+  if(answered) return;
+  answered=true;
+  const q=QUIZ[idx];
+  const correct=q.correct;
+  const chosenRight = k===correct;
+  if(chosenRight){score++;streak++;best=Math.max(best,streak);} else {streak=0;}
+  results.push({n:q.n,q:q.q,chosen:k,correct:correct,opts:q.opts,why:q.why,right:chosenRight});
+  card.querySelectorAll(".opt").forEach(b=>{
+    b.classList.add("locked");
+    const bk=b.dataset.k;
+    if(bk===correct) b.classList.add("correct");
+    else if(bk===k) b.classList.add("wrong");
+    else b.classList.add("dim");
+  });
+  const why=document.getElementById("why");
+  why.innerHTML = `<b>${chosenRight?"✓ Correct.":"✗ Not quite — the answer is "+correct.toUpperCase()+"."}</b> ${q.why}`;
+  why.classList.add("show");
+  const nb=document.getElementById("next");
+  nb.disabled=false; nb.focus();
+  nb.textContent = idx===QUIZ.length-1 ? "See results →" : "Next →";
+  // update live score display
+  card.querySelector(".qbar .pill").textContent=score;
+}
+
+function next(){
+  if(!answered) return;
+  if(idx<QUIZ.length-1){idx++;renderQuestion();window.scrollTo({top:0,behavior:"smooth"});}
+  else endScreen();
+}
+
+function endScreen(){
+  const pct=Math.round(score/QUIZ.length*100);
+  let emoji="📘",msg="Good start — a review round will lock it in.";
+  if(pct===100){emoji="🏆";msg="Perfect score! You own this daf.";}
+  else if(pct>=80){emoji="🌟";msg="Excellent — nearly airtight.";}
+  else if(pct>=60){emoji="👍";msg="Solid. A quick re-read of the tricky ones and you're set.";}
+  const reviewWrong = results.filter(r=>!r.right);
+  let reviewHtml="";
+  if(reviewWrong.length){
+    reviewHtml = `<div class="review"><h3 style="color:var(--accent2)">Worth another look</h3>` +
+      reviewWrong.map(r=>`<div class="r">
+        <div class="rq">${r.n}. ${r.q}</div>
+        <div class="ra no">Your answer: ${r.chosen.toUpperCase()}) ${r.opts[r.chosen]}</div>
+        <div class="ra ok">Correct: ${r.correct.toUpperCase()}) ${r.opts[r.correct]}</div>
+        <div class="ra" style="color:#6a5a3d;margin-top:4px">${r.why}</div>
+      </div>`).join("") + `</div>`;
+  }
+  card.innerHTML = `<div class="end">
+      <div class="big">${emoji}</div>
+      <div class="score">${score} / ${QUIZ.length} &nbsp;·&nbsp; ${pct}%</div>
+      <div class="msg">${msg}${best>1?` &nbsp;·&nbsp; best streak 🔥 ${best}`:""}</div>
+      <button class="btn" id="again">↻ Play again</button>
+    </div>${reviewHtml}`;
+  document.getElementById("again").addEventListener("click",restart);
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function restart(){idx=0;score=0;streak=0;best=0;results=[];renderQuestion();}
+
+// tab switching
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+  document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));
+  t.classList.add("active");
+  document.getElementById(t.dataset.v).classList.add("active");
+  if(t.dataset.v==="quiz" && !card.innerHTML.trim()) renderQuestion();
+}));
+
+// keyboard
+document.addEventListener("keydown",e=>{
+  if(!document.getElementById("quiz").classList.contains("active")) return;
+  if(["1","2","3","4"].includes(e.key)){const k=KEYS[+e.key-1];const b=card.querySelector(`.opt[data-k="${k}"]`);if(b)b.click();}
+  else if(e.key==="Enter"){const n=document.getElementById("next");if(n&&!n.disabled)n.click();}
+});
+
+renderQuestion();
+</script>
+</body>
+</html>
