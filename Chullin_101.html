@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daf Yomi — Chullin 101 (חולין קא)</title>
+<style>
+  :root{
+    --paper:#fbf7ee; --ink:#2c261d; --accent:#8a5a2b; --accent2:#6b3f1d;
+    --gold:#c9a86a; --gold-soft:#ead9b3; --panel:#fffdf8; --line:#e2d3b3;
+    --good:#3f8f5b; --good-bg:#e7f4ec; --bad:#c0453b; --bad-bg:#fbe9e7;
+    --shadow:0 6px 24px rgba(80,55,20,.10);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:linear-gradient(180deg,#f4ecd8 0%,#fbf7ee 220px) fixed;
+    color:var(--ink); font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  :lang(he),.he{font-family:"Frank Ruhl Libre","Times New Roman",Georgia,serif;}
+  .wrap{max-width:820px;margin:0 auto;padding:0 18px 80px}
+  header.top{
+    text-align:center;padding:34px 18px 22px;margin-bottom:8px;
+  }
+  header.top h1{
+    font-size:2.05rem;line-height:1.2;margin:0 0 6px;color:var(--accent2);
+    letter-spacing:.2px;
+  }
+  header.top .sub{color:#7a6a4d;font-size:1rem;font-style:italic}
+  .tabs{
+    display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:20;
+    padding:12px 0;background:linear-gradient(180deg,var(--paper) 70%,rgba(251,247,238,0));
+    margin-bottom:10px;
+  }
+  .tab{
+    border:1px solid var(--gold);background:var(--panel);color:var(--accent2);
+    padding:9px 22px;border-radius:999px;cursor:pointer;font-size:1rem;font-weight:600;
+    box-shadow:var(--shadow);transition:.18s;font-family:inherit;
+  }
+  .tab:hover{transform:translateY(-1px)}
+  .tab.active{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+  .view{display:none;animation:fade .35s ease}
+  .view.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+  /* ---- Learn view ---- */
+  .sheet{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:26px 30px;box-shadow:var(--shadow)}
+  .sheet h2{font-size:1.4rem;color:var(--accent2);border-bottom:2px solid var(--gold-soft);
+    padding-bottom:6px;margin:26px 0 10px}
+  .sheet h2:first-child{margin-top:0}
+  .sheet h3{font-size:1.12rem;color:var(--accent);margin:18px 0 6px}
+  .sheet blockquote{margin:14px 0;padding:12px 18px;background:#faf3e3;
+    border-left:4px solid var(--gold);border-radius:6px;font-style:italic}
+  .sheet table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}
+  .sheet th,.sheet td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  .sheet th{background:var(--gold-soft);color:var(--accent2)}
+  .sheet tr:nth-child(even) td{background:#fbf7ee}
+  .sheet code{background:#f0e6ce;padding:1px 5px;border-radius:4px;font-size:.9em}
+  .sheet hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+  .sheet ul{padding-left:22px}
+  .sheet li{margin:5px 0}
+  .sheet strong{color:var(--accent2)}
+
+  /* ---- Quiz view ---- */
+  .quiz{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:26px 28px;box-shadow:var(--shadow)}
+  .qbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:6px;
+    font-size:.92rem;color:#7a6a4d}
+  .prog{height:9px;background:var(--gold-soft);border-radius:999px;overflow:hidden;margin:8px 0 22px}
+  .prog>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--accent));
+    border-radius:999px;transition:width .4s ease}
+  .qnum{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  .qtext{font-size:1.28rem;line-height:1.45;margin:8px 0 20px;color:var(--ink)}
+  .opts{display:flex;flex-direction:column;gap:12px}
+  .opt{display:flex;align-items:flex-start;gap:12px;text-align:left;width:100%;
+    border:1.5px solid var(--line);background:#fffdf8;border-radius:12px;padding:14px 16px;
+    cursor:pointer;font-size:1.05rem;font-family:inherit;color:var(--ink);transition:.15s}
+  .opt:hover:not(.locked){border-color:var(--accent);transform:translateY(-1px);
+    box-shadow:0 3px 12px rgba(120,80,30,.10)}
+  .opt .key{flex:0 0 28px;height:28px;border-radius:50%;background:var(--gold-soft);
+    color:var(--accent2);font-weight:700;display:flex;align-items:center;justify-content:center;
+    font-size:.95rem}
+  .opt.correct{border-color:var(--good);background:var(--good-bg)}
+  .opt.correct .key{background:var(--good);color:#fff}
+  .opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+  .opt.wrong .key{background:var(--bad);color:#fff}
+  .opt.locked{cursor:default}
+  .opt.dim{opacity:.55}
+  .why{margin-top:18px;padding:14px 16px;border-radius:12px;background:#f6efe0;
+    border-left:4px solid var(--gold);font-size:1rem;display:none;animation:fade .3s}
+  .why.show{display:block}
+  .why b{color:var(--accent2)}
+  .nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px}
+  .btn{border:none;border-radius:999px;padding:12px 26px;font-size:1.02rem;font-weight:700;
+    cursor:pointer;font-family:inherit;background:var(--accent2);color:#fff;box-shadow:var(--shadow);
+    transition:.16s}
+  .btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
+  .btn.ghost{background:var(--panel);color:var(--accent2);border:1px solid var(--gold)}
+  .btn:disabled{opacity:.4;cursor:default;transform:none}
+  .pill{background:var(--gold-soft);color:var(--accent2);border-radius:999px;padding:4px 12px;font-weight:700}
+  .streak{color:var(--accent)}
+  /* end screen */
+  .end{text-align:center;padding:14px 6px}
+  .end .big{font-size:3.4rem;margin:6px 0}
+  .end .score{font-size:1.6rem;color:var(--accent2);font-weight:700;margin:4px 0}
+  .end .msg{font-size:1.1rem;color:#6a5a3d;margin:8px 0 20px}
+  .review{text-align:left;margin-top:20px}
+  .review .r{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;background:#fffdf8}
+  .review .r .rq{font-weight:700;color:var(--ink);margin-bottom:6px}
+  .review .r .ra{font-size:.96rem;margin:2px 0}
+  .review .ok{color:var(--good)} .review .no{color:var(--bad)}
+  .hint{color:#9a8a6d;font-size:.82rem;text-align:center;margin-top:14px}
+  @media(max-width:520px){.sheet,.quiz{padding:20px 16px}.qtext{font-size:1.14rem}header.top h1{font-size:1.6rem}}
+</style>
+
+<style id="site-nav-css">
+#site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
+#site-nav a{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
+  background:#fffdf8;color:#6b3f1d;border:1px solid #c9a86a;border-radius:999px;
+  padding:6px 14px;box-shadow:0 3px 12px rgba(80,55,20,.12)}
+#site-nav a:hover{background:#6b3f1d;color:#fff}
+@media print{#site-nav{display:none}}
+</style>
+</head>
+<body>
+<div id="site-nav"><a href="index.html">📖 Today</a><a href="archive.html">🗂 Archive</a></div>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Daf Yomi — Chullin 101 (חולין קא)</h1>
+    <div class="sub">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Study date: Sun, 9 August 2026</div>
+  </header>
+
+  <div class="tabs">
+    <button class="tab active" data-v="learn">📖 Learn</button>
+    <button class="tab" data-v="quiz">🎯 Chazara Quiz</button>
+  </div>
+
+  <section class="view active" id="learn">
+    <div class="sheet"><h2>The big picture (read this first)</h2>
+<p>Yesterday ended on a baraita with two positions: eat the <em>gid</em> of a non-kosher animal and Rabbi
+Yehuda gives you <strong>two</strong> sets of lashes, while Rabbi Shimon gives you <strong>none at all</strong>. Rabbi
+Yehuda has been explained. Today belongs to the harder half — how can Rabbi Shimon exempt
+<em>entirely</em>?</p>
+<p>From there the daf becomes a general treatise on the question underneath the whole chapter: when
+does a second prohibition manage to attach itself to something already forbidden?</p>
+<blockquote>
+<p>Two prohibitions, one object. The Gemara isolates two ways the second one can still bite: it
+may be <strong>אִיסּוּר כּוֹלֵל</strong>, broader in scope than the first, or <strong>אִיסּוּר חָמוּר</strong>, more severe than
+the first. Rabbi Yosei HaGelili is the tanna who accepts neither — and proving that costs the
+Gemara a baraita whose attributions have to be turned around.</p>
+</blockquote>
+<p>Four movements:</p>
+<ol>
+<li><strong>Rabbi Shimon&rsquo;s exemption</strong> (101a) — Rava explains it with a startlingly narrow reading of the
+   verse in Bereishit.</li>
+<li><strong>Rabbi Meir and the lashes</strong> (101a) — the <em>gid</em> of a carcass, of a burnt offering, of an ox
+   condemned to stoning; and the search for the tanna who fits.</li>
+<li><strong>Rabbi Yosei HaGelili</strong> (101a–101b) — impurity of body against impurity of meat, <em>migo</em>, and
+   Rav Ashi&rsquo;s beautiful refusal to say which prohibition is worse.</li>
+<li><strong>Sinai, and the name &ldquo;Israel&rdquo;</strong> (101b) — the Rabbis answer Rabbi Yehuda from the words of the
+   verse itself, and the chapter&rsquo;s opening question finally closes.</li>
+</ol>
+<hr />
+<h2>Walking through the sugya, step by step</h2>
+<h3>101a — How can Rabbi Shimon exempt entirely?</h3>
+<p><strong>The objection, from every direction at once.</strong> Whichever way you take Rabbi Shimon, it is hard:</p>
+<ul>
+<li>If a prohibition <strong>does</strong> land on an existing prohibition — let him be liable for <strong>both</strong> the
+  non-kosher meat and the <em>gid</em>.</li>
+<li>If it <strong>does not</strong> — let him at least be liable for the <strong>non-kosher meat</strong>, which came first.</li>
+<li>And if he holds that <strong>sinews have no taste</strong>, so the meat prohibition cannot apply to a sinew —
+  then let him be liable for the <strong><em>gid</em></strong>.</li>
+</ul>
+<p>There is no obvious way to be liable for <em>nothing</em>.</p>
+<p><strong>Rava&rsquo;s answer.</strong> Rabbi Shimon holds <strong>אֵין בְּגִידִין בְּנוֹתֵן טַעַם</strong> — sinews have no taste, so they
+are not &ldquo;food&rdquo; and the non-kosher-meat prohibition does not reach them. That disposes of one
+count. And the <em>gid</em> prohibition itself does not apply to a non-kosher animal, because of how the
+verse is worded:</p>
+<blockquote>
+<p><strong>״עַל כֵּן לֹא יֹאכְלוּ בְנֵי יִשְׂרָאֵל אֶת גִּיד הַנָּשֶׁה״</strong> — the prohibition speaks only of a species
+<strong>whose <em>gid</em> is forbidden and whose flesh is permitted</strong>, and so excludes a non-kosher animal,
+whose flesh is forbidden too.</p>
+</blockquote>
+<p>Both counts fall away, and the exemption is complete.</p>
+<h3>101a — Rabbi Meir, and which prohibitions stack</h3>
+<p><strong>Rav Yehuda in the name of Rav.</strong> For eating the <em>gid</em> of a <strong>נְבֵלָה</strong>, an unslaughtered carcass:
+<strong>Rabbi Meir</strong> gives two sets of lashes; <strong>the Rabbis</strong> give one.</p>
+<p><strong>But the Rabbis concede</strong> in two cases — the <em>gid</em> of an <strong>עוֹלָה</strong>, a burnt offering, and of a
+<strong>שׁוֹר הַנִּסְקָל</strong>, an ox condemned to stoning. There, two sets of lashes. Why these? Because those
+two prohibitions are <strong>more severe in kind</strong>: they forbid deriving <em>any benefit</em> at all, not merely
+eating. A prohibition of that weight takes effect even on a <em>gid</em> that was already forbidden.</p>
+<p><strong>So who is this tanna?</strong> The Gemara wants the tanna who rejects <strong>אִיסּוּר כּוֹלֵל</strong> — a prohibition
+that is merely <em>broader</em> (the carcass prohibition covers the whole animal, including the nerve) —
+and yet accepts a prohibition that is both broader <strong>and</strong> more severe.</p>
+<p><strong>Rava: it is Rabbi Yosei HaGelili.</strong> His view appears in a mishnah in <em>Zevachim</em> (106a). An impure
+person who ate sacrificial food is liable to <em>karet</em> if deliberate, and to a sliding-scale offering
+if unwitting. Rabbi Yosei HaGelili distinguishes:</p>
+<ul>
+<li>impure person eats <strong>pure</strong> sacrificial meat → <strong>liable</strong>;</li>
+<li>impure person eats <strong>impure</strong> sacrificial meat → <strong>exempt</strong>, since he merely ate an impure item.</li>
+</ul>
+<p><strong>The Rabbis&rsquo; retort.</strong> By your logic he should be exempt even for pure meat — the moment he
+touched it, he made it impure! Yet there he is certainly liable.</p>
+<p><strong>Rava sharpens the dispute.</strong> If the <strong>body</strong> became impure first and the <strong>meat</strong> afterwards, all
+agree he is liable. They argue only where the <strong>meat</strong> became impure first and the <strong>body</strong>
+afterwards. The Rabbis hold <em>issur kolel</em> — <strong>מִגּוֹ דְּמִיחַיַּיב אַחֲתִיכוֹת טְהוֹרוֹת דְּעָלְמָא</strong>, since the
+prohibition makes him liable for pure meat generally, it sweeps in this impure piece as well. And
+Rabbi Yosei HaGelili:</p>
+<blockquote>
+<p><strong>וְרַבִּי יוֹסֵי הַגְּלִילִי לֵית לֵיהּ אִיסּוּר כּוֹלֵל, דְּמִגּוֹ לָא אָמְרִינַן.</strong>
+&ldquo;Rabbi Yosei HaGelili does not hold <em>issur kolel</em> — we do not say <em>migo</em>.&rdquo;</p>
+</blockquote>
+<p><strong>The remaining pressure.</strong> Grant that he rejects the <em>broader</em> prohibition. But surely a <strong>more
+severe</strong> prohibition should still land on a lenient one — <strong>בְּאִיסּוּר קַל יָבֹא אִיסּוּר חָמוּר יָחוּל עַל
+אִיסּוּר קַל</strong> — and impurity of the body is the more severe, since it carries <em>karet</em>, while a pure
+person eating impure sacrificial meat is only flogged.</p>
+<p><strong>Rav Ashi&rsquo;s answer, and it is a gem.</strong> Who says impurity of the <em>body</em> is the more severe? Perhaps
+impurity of the <strong>meat</strong> is worse — for <strong>an impure person can immerse and become pure again,
+while impure meat has no such remedy.</strong> Severity is not obvious, and an argument that depends on
+ranking these two cannot get off the ground.</p>
+<h3>101b — The baraita that has to be reversed</h3>
+<p><strong>A contradiction.</strong> Does Rabbi Yosei HaGelili really reject <em>issur kolel</em>? A baraita says otherwise.
+When <strong>Shabbos and Yom Kippur fall on the same day</strong> and someone unwittingly performs forbidden
+labour, from where do we know he is liable <strong>for each separately</strong> — two sin offerings? From
+<strong>״שַׁבָּת הִיא״</strong> and <strong>״יוֹם הַכִּפּוּרִים הוּא״</strong>: the word <em>&ldquo;it is&rdquo;</em> in each verse marks each day as
+standing on its own. <strong>This is Rabbi Yosei HaGelili.</strong> And <strong>Rabbi Akiva</strong> says: only one sin
+offering, since a prohibition does not land on an existing prohibition.</p>
+<p>That is precisely backwards from what we just established.</p>
+<p><strong>The resolution — swap the names.</strong> Ravin sent word in the name of Rabbi Yosei b&rsquo;Rabbi Chanina:</p>
+<blockquote>
+<p><strong>כָּךְ הַצָּעָה שֶׁל מִשְׁנָה, וְאֵיפוֹךְ.</strong>
+&ldquo;Such is the true presentation of the teaching — and reverse it.&rdquo;</p>
+</blockquote>
+<p>The two positions are correctly stated; the attributions are swapped. So it is <strong>Rabbi Akiva</strong> who
+holds each day stands alone, and <strong>Rabbi Yosei HaGelili</strong> who holds that two prohibitions never take
+effect together — not even when one is broader or more severe.</p>
+<p><strong>A consequence, and a puzzle.</strong> Rav Yitzchak bar Yaakov bar Giyorei sent word from Rabbi
+Yochanan: on the reversed reading, if one unwittingly did labour on a Yom Kippur that fell on
+Shabbos he brings <strong>one</strong> sin offering. Unwitting about Shabbos but deliberate about Yom Kippur —
+<strong>liable</strong>. Deliberate about Shabbos but unwitting about Yom Kippur — <strong>exempt</strong>.</p>
+<p><strong>Abaye&rsquo;s explanation.</strong> Shabbos is <strong>קְבִיעָא וְקַיְימָא</strong>, fixed and permanent — it always falls on the
+seventh day; Yom Kippur is set by the <strong>court</strong>, which fixes the new moon. So Shabbos got there
+first, and Yom Kippur&rsquo;s prohibition never takes hold.</p>
+<p><strong>Rava&rsquo;s objection.</strong> Ultimately both begin at the same moment — the start of the day. Shabbos
+cannot be said to precede.</p>
+<p><strong>Rava&rsquo;s own answer, and it is historical.</strong> <strong>שְׁעַת הַגְּזֵרָה הֲוָה</strong> — it was a time of persecution, and
+word was sent from Eretz Yisrael that Yom Kippur <strong>that year</strong> would not be kept on its own day
+but moved to Shabbos. Rabbi Yochanan was describing that particular year. And when Ravin and all
+those who came down from Eretz Yisrael arrived, they confirmed that Rava&rsquo;s explanation is the
+true one.</p>
+<h3>101b — Sinai, and when they became &ldquo;the children of Israel&rdquo;</h3>
+<p><strong>The Rabbis answer Rabbi Yehuda from the verse itself.</strong> Does it say <em>&ldquo;therefore the children of
+</em><em>Yaakov</em><em> do not eat the gid hanasheh&rdquo;</em>? It says <strong>בְּנֵי יִשְׂרָאֵל</strong> — and they were not called the
+children of <em>Israel</em> until they received the Torah at Sinai. So the prohibition was <strong>stated at
+Sinai</strong> and only <strong>written in its place</strong>, so that Israel should know <em>why</em> the nerve was forbidden
+to them. There is therefore no evidence that it ever applied to non-kosher animals.</p>
+<p><strong>Rava objects.</strong> <strong>״וַיִּשְׂאוּ בְנֵי יִשְׂרָאֵל אֶת יַעֲקֹב אֲבִיהֶם״</strong> (Bereishit 46:5) — they are called the
+children of Israel well before Sinai. <strong>Answer:</strong> yes, but that was <em>after</em> the wrestling, and after
+the vision in which Yaakov&rsquo;s name was changed to Israel (Bereishit 35:10).</p>
+<p><strong>Rav Acha son of Rava presses Rav Ashi.</strong> Then let the <em>gid</em> have become forbidden <strong>from that
+moment</strong> — the moment they were first called the children of Israel. That is before Sinai, and
+Rabbi Yehuda wins after all.</p>
+<p><strong>Rav Ashi&rsquo;s answer closes the chapter&rsquo;s oldest question.</strong></p>
+<blockquote>
+<p><strong>וְכִי תוֹרָה פְּעָמִים פְּעָמִים נִיתְּנָה?</strong>
+&ldquo;Was the Torah given in instalments?&rdquo;</p>
+</blockquote>
+<p>It was given at Sinai — once. The moment the name &ldquo;Israel&rdquo; first appears was neither the moment
+of the wrestling nor the moment of the giving of the Torah, so there is no reason to attach the
+prohibition to it.</p>
+<h3>101b — A parallel dispute: the limb of a living animal</h3>
+<p>The same two camps line up again over <strong>אֵבֶר מִן הַחַי</strong>:</p>
+<blockquote>
+<p><strong>אֵבֶר מִן הַחַי נוֹהֵג בִּבְהֵמָה, חַיָּה וָעוֹף, בֵּין טְמֵאִין וּבֵין טְהוֹרִין — דִּבְרֵי רַבִּי יְהוּדָה וְרַבִּי
+אֶלְעָזָר. וַחֲכָמִים אוֹמְרִים: אֵינוֹ נוֹהֵג אֶלָּא בִּטְהוֹרִין.</strong></p>
+</blockquote>
+<p>Rabbi Yehuda and Rabbi Elazar extend it to non-kosher species; the Rabbis confine it to kosher
+ones. Rabbi Yochanan notes that <strong>both sides derive their view from one and the same verse</strong> —
+<em>&ldquo;Only be strong not to eat the blood, for the blood is the life…&rdquo;</em> (Devarim 12:23) — which is where
+tomorrow&rsquo;s daf begins.</p>
+<hr />
+<h2>Key concepts &amp; terms</h2>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>אִיסּוּר כּוֹלֵל</strong> <em>(issur kolel)</em></td>
+<td>An &ldquo;inclusive&rdquo; prohibition — broader in scope than the existing one. Whether breadth alone lets it take effect is the day&rsquo;s central dispute.</td>
+</tr>
+<tr>
+<td><strong>אִיסּוּר חָמוּר</strong> <em>(issur chamur)</em></td>
+<td>A more severe prohibition. Even one who rejects <em>issur kolel</em> might allow severity to override.</td>
+</tr>
+<tr>
+<td><strong>מִגּוֹ</strong> <em>(migo)</em></td>
+<td>&ldquo;Since&rdquo; — the mechanism of <em>issur kolel</em>: since the prohibition binds him in the wider case, it binds him here too. Rabbi Yosei HaGelili: מִגּוֹ לָא אָמְרִינַן.</td>
+</tr>
+<tr>
+<td><strong>טוּמְאַת הַגּוּף / טוּמְאַת בָּשָׂר</strong> <em>(tumas haguf / tumas basar)</em></td>
+<td>Impurity of the person&rsquo;s body (punishable by <em>karet</em>) against impurity of the meat (lashes) — and which is graver is not obvious.</td>
+</tr>
+<tr>
+<td><strong>הַצָּעָה שֶׁל מִשְׁנָה</strong> <em>(hatza&rsquo;ah shel mishnah)</em></td>
+<td>The correct <em>presentation</em> of a teaching — the wording is right but the attributions must be exchanged.</td>
+</tr>
+<tr>
+<td><strong>קְבִיעָא וְקַיְימָא</strong> <em>(kevi&rsquo;a vekaima)</em></td>
+<td>Fixed and standing — Shabbos falls of itself on the seventh day, unlike Yom Kippur, which the court fixes.</td>
+</tr>
+<tr>
+<td><strong>שְׁעַת הַגְּזֵרָה</strong> <em>(she&rsquo;as hagezeirah)</em></td>
+<td>A time of persecution — the historical circumstance in which Yom Kippur was displaced onto Shabbos.</td>
+</tr>
+<tr>
+<td><strong>שׁוֹר הַנִּסְקָל / עוֹלָה</strong> <em>(shor hanniskal / olah)</em></td>
+<td>An ox condemned to stoning / a burnt offering. Both forbid all benefit, not only eating, so they stack onto the <em>gid</em>.</td>
+</tr>
+<tr>
+<td><strong>לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים</strong></td>
+<td>&ldquo;The Torah was not given in instalments&rdquo; — Rav Ashi&rsquo;s principle that the law began at Sinai, in one act.</td>
+</tr>
+<tr>
+<td><strong>אֵבֶר מִן הַחַי</strong> <em>(ever min hachai)</em></td>
+<td>A limb severed from a living animal; forbidden to Noahides too, which is why its scope parallels the <em>gid</em>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Who&rsquo;s who in today&rsquo;s daf</h2>
+<p><strong>Tannaim</strong></p>
+<ul>
+<li><strong>Rabbi Shimon</strong> (bar Yochai) — fourth generation, student of Rabbi Akiva. Exempts entirely;
+  Rava explains how.</li>
+<li><strong>Rabbi Yehuda</strong> (bar Ilai) — fourth generation, student of Rabbi Akiva. The stringent voice on
+  both the <em>gid</em> and <em>ever min hachai</em>.</li>
+<li><strong>Rabbi Meir</strong> — fourth generation, student of Rabbi Akiva; two sets of lashes for the <em>gid</em> of a
+  carcass.</li>
+<li><strong>Rabbi Akiva</strong> — third generation, Bnei Brak; teacher of the four above. After the reversal, he
+  is the one holding each day stands independently.</li>
+<li><strong>Rabbi Yosei HaGelili</strong> — third generation, a contemporary of Rabbi Akiva from the Galilee. The
+  tanna who accepts neither <em>issur kolel</em> nor severity as grounds for a second prohibition.</li>
+<li><strong>Rabbi Elazar</strong> (ben Shammua) — fourth generation, student of Rabbi Akiva. Joins Rabbi Yehuda on
+  <em>ever min hachai</em>. Not to be confused with the Amora Rabbi Elazar ben Pedas.</li>
+</ul>
+<p><strong>Eretz-Yisrael Amoraim</strong></p>
+<ul>
+<li><strong>Rabbi Yochanan</strong> (bar Nappacha) — second generation, head of the Tiberias academy. Both the
+  ruling about Shabbos and Yom Kippur and the observation that both sides read one verse.</li>
+<li><strong>Rabbi Yosei b&rsquo;Rabbi Chanina</strong> — second generation, Caesarea; student of Rabbi Yochanan. Source
+  of &ldquo;reverse the attributions.&rdquo;</li>
+<li><strong>Rav Yitzchak bar Yaakov bar Giyorei</strong> — a minor figure known as a transmitter of Rabbi
+  Yochanan&rsquo;s rulings to Babylonia by letter; I would not want to guess at more.</li>
+</ul>
+<p><strong>Babylonian Amoraim</strong></p>
+<ul>
+<li><strong>Rav</strong> (Abba Arikha) — first generation, founder of Sura. Source of the Rabbi Meir tradition,
+  via Rav Yehuda.</li>
+<li><strong>Rav Yehuda</strong> (bar Yechezkel) — second generation, head of Pumbedita; student of Rav and
+  Shmuel.</li>
+<li><strong>Abaye</strong> — fourth generation, head of Pumbedita. Explains Rabbi Yochanan by &ldquo;Shabbos is fixed.&rdquo;</li>
+<li><strong>Rava</strong> — fourth generation, Machoza. Refutes Abaye and replaces the explanation with the year
+  of persecution; also explains Rabbi Shimon and Rabbi Yosei HaGelili.</li>
+<li><strong>Rav Ashi</strong> — sixth generation, head of Sura and a principal redactor of the Talmud. &ldquo;Who says
+  impurity of the body is worse?&rdquo; and &ldquo;was the Torah given in instalments?&rdquo;</li>
+<li><strong>Rav Acha son of Rava</strong> — sixth generation, a colleague of Rav Ashi. Presses the question about
+  the moment the name &ldquo;Israel&rdquo; begins.</li>
+<li><strong>Ravin</strong> (Rav Avin) — fourth generation; one of the <em>nechusei</em>, the sages who travelled down
+  from Eretz Yisrael carrying its teachings to Babylonia.</li>
+</ul>
+<p><em>Look-alikes worth flagging:</em> <strong>Rabbi Yosei HaGelili</strong> (Tanna) is not <strong>Rabbi Yosei b&rsquo;Rabbi
+Chanina</strong> (Amora), and neither is <strong>Rabbi Yosei</strong> of the Mishnah. <strong>Rav Acha son of Rava</strong> is not
+<strong>Rav Acha bar Yaakov</strong>, nor <strong>Mar bar Rav Ashi</strong>. And once more: <strong>Rabbah</strong> (רבה) and <strong>Rava</strong>
+(רבא) differ by a single letter.</p>
+<hr />
+<h2>One line to carry with you</h2>
+<blockquote>
+<p>Before you rank two prohibitions, ask whether you can. Rav Ashi&rsquo;s answer is not that the body&rsquo;s
+impurity is lighter — it is that a person can immerse and meat cannot, so the ranking you were
+relying on was never there to begin with.</p>
+</blockquote>
+<p><em>Tomorrow (10 Aug 2026): Chullin 102 — how Rabbi Yehuda, Rabbi Elazar and the Rabbis all read </em><em>״כִּי הַדָּם הוּא הַנָּפֶשׁ״</em><em> and reach opposite conclusions about the limb of a living animal.</em></p></div>
+  </section>
+
+  <section class="view" id="quiz">
+    <div class="quiz" id="quizCard"></div>
+    <div class="hint">Tip: press keys 1–4 to answer, Enter for next.</div>
+  </section>
+</div>
+
+<script>
+const QUIZ = [{"n": 1, "q": "According to Rava, why does Rabbi Shimon exempt one who eats the sciatic nerve of a non-kosher animal from all lashes?", "opts": {"a": "Because the nerve is nullified in the surrounding meat.", "b": "Because sinews have no taste, and the verse limits the prohibition to a species whose flesh is permitted.", "c": "Because a prohibition never lands on an existing prohibition.", "d": "Because the prohibition began only at Sinai."}, "correct": "b", "why": "no taste means no non-kosher-meat count, and the verse speaks only of a species whose flesh is permitted."}, {"n": 2, "q": "In which two cases do the Rabbis concede to Rabbi Meir that there are two sets of lashes?", "opts": {"a": "A carcass and a non-kosher animal.", "b": "A fetus and a non-kosher bird.", "c": "A burnt offering and an ox condemned to stoning.", "d": "Teruma and sacrificial meat."}, "correct": "c", "why": "the <em>gid</em> of an עוֹלָה and of a שׁוֹר הַנִּסְקָל."}, {"n": 3, "q": "What makes those two prohibitions able to take effect on an already forbidden nerve?", "opts": {"a": "They are biblical rather than rabbinic.", "b": "They forbid deriving any benefit, not merely eating.", "c": "They apply to Noahides.", "d": "They came into force earlier."}, "correct": "b", "why": "both are prohibitions of benefit, a stringency the <em>gid</em> prohibition never had."}, {"n": 4, "q": "What is an issur kolel?", "opts": {"a": "A prohibition more severe than the existing one.", "b": "A prohibition broader in scope than the existing one.", "c": "A prohibition that applies only to priests.", "d": "A prohibition derived from a novelty."}, "correct": "b", "why": "a prohibition that is more inclusive; the mechanism is מִגּוֹ."}, {"n": 5, "q": "In Rabbi Yosei HaGelili&#x27;s case, when do all agree that the impure person is liable?", "opts": {"a": "When his body became impure before the meat did.", "b": "When the meat became impure before his body did.", "c": "Only when the meat was pure throughout.", "d": "Only when he acted deliberately."}, "correct": "a", "why": "where the body was already impure, the <em>karet</em> prohibition preceded the meat&#x27;s impurity."}, {"n": 6, "q": "How does Rav Ashi block the argument that a more severe prohibition should take effect?", "opts": {"a": "By showing that severity is irrelevant to prohibitions.", "b": "By denying that impurity of the body carries karet.", "c": "By arguing that impurity of the meat may be the more severe, since it has no remedy of immersion.", "d": "By reversing the attributions of the baraita."}, "correct": "c", "why": "an impure person can be purified by immersion; impure meat cannot, so it may be the graver."}, {"n": 7, "q": "What does hatza&#x27;ah shel mishnah mean in the resolution about Shabbos and Yom Kippur?", "opts": {"a": "The baraita is a forgery and should be discarded.", "b": "The wording is correct but the two attributions must be exchanged.", "c": "The baraita refers only to a leap year.", "d": "The mishnah must be read as a question."}, "correct": "b", "why": "כָּךְ הַצָּעָה שֶׁל מִשְׁנָה, וְאֵיפוֹךְ: right wording, swapped names."}, {"n": 8, "q": "What is Rava&#x27;s explanation of Rabbi Yochanan&#x27;s ruling about Yom Kippur falling on Shabbos?", "opts": {"a": "Shabbos is fixed while Yom Kippur is set by the court.", "b": "It described a year of persecution when Yom Kippur was moved onto Shabbos.", "c": "Both prohibitions begin at once, so only one offering is due.", "d": "Rabbi Yochanan was speaking only of a deliberate transgression."}, "correct": "b", "why": "שְׁעַת הַגְּזֵרָה; Ravin and those who came down from Eretz Yisrael confirmed Rava&#x27;s reading."}, {"n": 9, "q": "How do the Rabbis answer Rabbi Yehuda from the wording of the verse in Bereishit?", "opts": {"a": "It says &quot;the children of Yaakov,&quot; who were Noahides.", "b": "It says &quot;the children of Israel,&quot; a name used only from Sinai onward.", "c": "It does not mention eating at all.", "d": "It speaks of a kosher animal explicitly."}, "correct": "b", "why": "בְּנֵי יִשְׂרָאֵל, a name that begins only at Sinai, so the prohibition was merely written in its place."}, {"n": 10, "q": "What does Rav Ashi mean by asking whether the Torah was given in instalments?", "opts": {"a": "That different commandments took effect at different times.", "b": "That the written and oral Torah were given separately.", "c": "That the prohibition began at the wrestling with the angel.", "d": "That the Torah was given at Sinai in one act, so the prohibition cannot begin earlier."}, "correct": "d", "why": "לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים: one giving, at Sinai."}];
+const KEYS = ["a","b","c","d"];
+let idx=0, score=0, streak=0, best=0, answered=false, results=[];
+
+const card = document.getElementById("quizCard");
+
+function esc(s){return s;}
+
+function renderQuestion(){
+  answered=false;
+  const q = QUIZ[idx];
+  const pct = Math.round((idx)/QUIZ.length*100);
+  let opts = Object.keys(q.opts).sort().map((k,i)=>`
+    <button class="opt" data-k="${k}">
+      <span class="key">${k.toUpperCase()}</span>
+      <span class="txt">${q.opts[k]}</span>
+    </button>`).join("");
+  card.innerHTML = `
+    <div class="qbar">
+      <span class="qnum">Question ${idx+1} / ${QUIZ.length}</span>
+      <span>Score <span class="pill">${score}</span> ${streak>1?`<span class="streak">🔥 ${streak} streak</span>`:""}</span>
+    </div>
+    <div class="prog"><i style="width:${pct}%"></i></div>
+    <div class="qtext">${q.q}</div>
+    <div class="opts">${opts}</div>
+    <div class="why" id="why"></div>
+    <div class="nav">
+      <span style="color:#9a8a6d;font-size:.85rem">${QUIZ.length-idx-1} to go</span>
+      <button class="btn" id="next" disabled>Next →</button>
+    </div>`;
+  card.querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>choose(b.dataset.k)));
+  document.getElementById("next").addEventListener("click",next);
+}
+
+function choose(k){
+  if(answered) return;
+  answered=true;
+  const q=QUIZ[idx];
+  const correct=q.correct;
+  const chosenRight = k===correct;
+  if(chosenRight){score++;streak++;best=Math.max(best,streak);} else {streak=0;}
+  results.push({n:q.n,q:q.q,chosen:k,correct:correct,opts:q.opts,why:q.why,right:chosenRight});
+  card.querySelectorAll(".opt").forEach(b=>{
+    b.classList.add("locked");
+    const bk=b.dataset.k;
+    if(bk===correct) b.classList.add("correct");
+    else if(bk===k) b.classList.add("wrong");
+    else b.classList.add("dim");
+  });
+  const why=document.getElementById("why");
+  why.innerHTML = `<b>${chosenRight?"✓ Correct.":"✗ Not quite — the answer is "+correct.toUpperCase()+"."}</b> ${q.why}`;
+  why.classList.add("show");
+  const nb=document.getElementById("next");
+  nb.disabled=false; nb.focus();
+  nb.textContent = idx===QUIZ.length-1 ? "See results →" : "Next →";
+  // update live score display
+  card.querySelector(".qbar .pill").textContent=score;
+}
+
+function next(){
+  if(!answered) return;
+  if(idx<QUIZ.length-1){idx++;renderQuestion();window.scrollTo({top:0,behavior:"smooth"});}
+  else endScreen();
+}
+
+function endScreen(){
+  const pct=Math.round(score/QUIZ.length*100);
+  let emoji="📘",msg="Good start — a review round will lock it in.";
+  if(pct===100){emoji="🏆";msg="Perfect score! You own this daf.";}
+  else if(pct>=80){emoji="🌟";msg="Excellent — nearly airtight.";}
+  else if(pct>=60){emoji="👍";msg="Solid. A quick re-read of the tricky ones and you're set.";}
+  const reviewWrong = results.filter(r=>!r.right);
+  let reviewHtml="";
+  if(reviewWrong.length){
+    reviewHtml = `<div class="review"><h3 style="color:var(--accent2)">Worth another look</h3>` +
+      reviewWrong.map(r=>`<div class="r">
+        <div class="rq">${r.n}. ${r.q}</div>
+        <div class="ra no">Your answer: ${r.chosen.toUpperCase()}) ${r.opts[r.chosen]}</div>
+        <div class="ra ok">Correct: ${r.correct.toUpperCase()}) ${r.opts[r.correct]}</div>
+        <div class="ra" style="color:#6a5a3d;margin-top:4px">${r.why}</div>
+      </div>`).join("") + `</div>`;
+  }
+  card.innerHTML = `<div class="end">
+      <div class="big">${emoji}</div>
+      <div class="score">${score} / ${QUIZ.length} &nbsp;·&nbsp; ${pct}%</div>
+      <div class="msg">${msg}${best>1?` &nbsp;·&nbsp; best streak 🔥 ${best}`:""}</div>
+      <button class="btn" id="again">↻ Play again</button>
+    </div>${reviewHtml}`;
+  document.getElementById("again").addEventListener("click",restart);
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function restart(){idx=0;score=0;streak=0;best=0;results=[];renderQuestion();}
+
+// tab switching
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+  document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));
+  t.classList.add("active");
+  document.getElementById(t.dataset.v).classList.add("active");
+  if(t.dataset.v==="quiz" && !card.innerHTML.trim()) renderQuestion();
+}));
+
+// keyboard
+document.addEventListener("keydown",e=>{
+  if(!document.getElementById("quiz").classList.contains("active")) return;
+  if(["1","2","3","4"].includes(e.key)){const k=KEYS[+e.key-1];const b=card.querySelector(`.opt[data-k="${k}"]`);if(b)b.click();}
+  else if(e.key==="Enter"){const n=document.getElementById("next");if(n&&!n.disabled)n.click();}
+});
+
+renderQuestion();
+</script>
+</body>
+</html>

@@ -1,6 +1,67 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Daf Yomi — Archive</title>
+
+<script id="daf-zman">
+(function(){
+  var TZ = {
+    "Asia/Jerusalem":[31.78,35.21],"Asia/Tel_Aviv":[32.08,34.78],
+    "America/New_York":[40.71,-74.01],"America/Detroit":[42.33,-83.05],
+    "America/Chicago":[41.88,-87.63],"America/Denver":[39.74,-104.99],
+    "America/Phoenix":[33.45,-112.07],"America/Los_Angeles":[34.05,-118.24],
+    "America/Toronto":[43.65,-79.38],"America/Montreal":[45.50,-73.57],
+    "America/Vancouver":[49.28,-123.12],"America/Mexico_City":[19.43,-99.13],
+    "America/Sao_Paulo":[-23.55,-46.63],"America/Argentina/Buenos_Aires":[-34.60,-58.38],
+    "America/Panama":[8.98,-79.52],"America/Bogota":[4.71,-74.07],
+    "Europe/London":[51.51,-0.13],"Europe/Dublin":[53.35,-6.26],
+    "Europe/Paris":[48.86,2.35],"Europe/Brussels":[50.85,4.35],
+    "Europe/Amsterdam":[52.37,4.90],"Europe/Berlin":[52.52,13.40],
+    "Europe/Zurich":[47.38,8.54],"Europe/Vienna":[48.21,16.37],
+    "Europe/Rome":[41.90,12.50],"Europe/Madrid":[40.42,-3.70],
+    "Europe/Prague":[50.08,14.44],"Europe/Budapest":[47.50,19.04],
+    "Europe/Warsaw":[52.23,21.01],"Europe/Kiev":[50.45,30.52],
+    "Europe/Moscow":[55.76,37.62],"Europe/Istanbul":[41.01,28.98],
+    "Australia/Sydney":[-33.87,151.21],"Australia/Melbourne":[-37.81,144.96],
+    "Australia/Perth":[-31.95,115.86],"Pacific/Auckland":[-36.85,174.76],
+    "Africa/Johannesburg":[-26.20,28.05],"Asia/Hong_Kong":[22.32,114.17],
+    "Asia/Tokyo":[35.68,139.69],"Asia/Shanghai":[31.23,121.47],
+    "Asia/Singapore":[1.35,103.82],"Asia/Kolkata":[19.08,72.88]
+  };
+  function guess(){
+    var tz=""; try{ tz=Intl.DateTimeFormat().resolvedOptions().timeZone||"" }catch(e){}
+    if(TZ[tz]) return {lat:TZ[tz][0], lon:TZ[tz][1], src:tz};
+    // Unknown zone: longitude from the UTC offset is good; latitude is a temperate guess.
+    return {lat:32, lon:-new Date().getTimezoneOffset()/4, src:"utc-offset"};
+  }
+  // Sunset as a UTC instant for the given local calendar date, or null at the poles.
+  function sunset(Y,M,D,lat,lon){
+    var rad=Math.PI/180;
+    var a=Math.floor((14-M)/12), y=Y+4800-a, m=M+12*a-3;
+    var JDN=D+Math.floor((153*m+2)/5)+365*y+Math.floor(y/4)-Math.floor(y/100)
+            +Math.floor(y/400)-32045;
+    var n=JDN-2451545.0+0.0008, Js=n-lon/360;
+    var Ma=(357.5291+0.98560028*Js)%360;
+    var C=1.9148*Math.sin(Ma*rad)+0.0200*Math.sin(2*Ma*rad)+0.0003*Math.sin(3*Ma*rad);
+    var L=(Ma+C+180+102.9372)%360;
+    var Jtr=2451545.0+Js+0.0053*Math.sin(Ma*rad)-0.0069*Math.sin(2*L*rad);
+    var dec=Math.asin(Math.sin(L*rad)*Math.sin(23.4397*rad))/rad;
+    var co=(Math.sin(-0.833*rad)-Math.sin(lat*rad)*Math.sin(dec*rad))
+           /(Math.cos(lat*rad)*Math.cos(dec*rad));
+    if(co>1||co<-1) return null;                       // polar night / midnight sun
+    return new Date(((Jtr+(Math.acos(co)/rad)/360)-2440587.5)*86400000);
+  }
+  // The halachic date as an ISO string: today's civil date, +1 once the sun has set.
+  window.dafToday = function(pin, offsetMin){
+    var loc = pin || guess(), now = new Date();
+    var ss = sunset(now.getFullYear(), now.getMonth()+1, now.getDate(), loc.lat, loc.lon);
+    var eff = new Date(now.getTime());
+    if(ss && now.getTime() >= ss.getTime() + (offsetMin||0)*60000) eff.setDate(eff.getDate()+1);
+    var p=function(x){return String(x).padStart(2,"0")};
+    return {date: eff.getFullYear()+"-"+p(eff.getMonth()+1)+"-"+p(eff.getDate()),
+            sunset: ss, loc: loc};
+  };
+})();
+</script>
 <style>
  body{background:linear-gradient(180deg,#f4ecd8,#fbf7ee 260px) fixed;color:#2c261d;
    font-family:Georgia,serif;max-width:640px;margin:0 auto;padding:40px 22px 80px;line-height:1.6}
@@ -16,22 +77,24 @@
    font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;margin-left:8px}
  li.future{opacity:.6}
  .home{display:block;text-align:center;margin-top:26px} .home a{color:#6b3f1d}
+ .zman{text-align:center;color:#9a8a6d;font-size:.8rem;margin-top:18px}
 </style></head>
 <body>
  <h1>Daf Yomi — Archive</h1>
  <div class="sub">Every daily study sheet · newest first</div>
  <ul id="list">
+ <li data-date="2026-08-09"><a href="Chullin_101.html">Chullin 101</a> &middot; <span>Sun, 9 August 2026</span></li>
+ <li data-date="2026-08-08"><a href="Chullin_100.html">Chullin 100</a> &middot; <span>Sat, 8 August 2026</span></li>
+ <li data-date="2026-08-07"><a href="Chullin_99.html">Chullin 99</a> &middot; <span>Fri, 7 August 2026</span></li>
  <li data-date="2026-08-06"><a href="Chullin_98.html">Chullin 98</a> &middot; <span>Thu, 6 August 2026</span></li>
  <li data-date="2026-08-05"><a href="Chullin_97.html">Chullin 97</a> &middot; <span>Wed, 5 August 2026</span></li>
  </ul>
+ <div class="zman" id="zman"></div>
  <div class="home"><a href="index.html">← Back to today's daf</a></div>
 <script>
 (function(){
-  var n = new Date(), p = function(x){return String(x).padStart(2,"0")};
-  var today = n.getFullYear()+"-"+p(n.getMonth()+1)+"-"+p(n.getDate());
-  var li = [].slice.call(document.querySelectorAll("#list li[data-date]"));
-  var cur = null;
-  li.forEach(function(el){
+  var z = window.dafToday({"lat": 31.7683, "lon": 35.2137}, 0), today = z.date, cur = null;
+  [].slice.call(document.querySelectorAll("#list li[data-date]")).forEach(function(el){
     var d = el.dataset.date;
     if(!d) return;
     if(d > today) el.classList.add("future");
@@ -43,6 +106,11 @@
     b.className = "badge";
     b.textContent = cur.dataset.date === today ? "Today" : "Most recent";
     cur.appendChild(b);
+  }
+  if(z.sunset){
+    var t = z.sunset.toLocaleTimeString([], {hour:"numeric", minute:"2-digit"});
+    document.getElementById("zman").textContent =
+      "The daf turns over at sunset — today's sunset is " + t + " local time.";
   }
 })();
 </script>

@@ -1,0 +1,337 @@
+# Daf Yomi — Chullin 101 (חולין קא)
+
+**Chapter 7: *Gid HaNasheh* (the sciatic nerve) · Study date: Sun, 9 August 2026**
+
+## The big picture (read this first)
+
+Yesterday ended on a baraita with two positions: eat the *gid* of a non-kosher animal and Rabbi
+Yehuda gives you **two** sets of lashes, while Rabbi Shimon gives you **none at all**. Rabbi
+Yehuda has been explained. Today belongs to the harder half — how can Rabbi Shimon exempt
+*entirely*?
+
+From there the daf becomes a general treatise on the question underneath the whole chapter: when
+does a second prohibition manage to attach itself to something already forbidden?
+
+> Two prohibitions, one object. The Gemara isolates two ways the second one can still bite: it
+> may be **אִיסּוּר כּוֹלֵל**, broader in scope than the first, or **אִיסּוּר חָמוּר**, more severe than
+> the first. Rabbi Yosei HaGelili is the tanna who accepts neither — and proving that costs the
+> Gemara a baraita whose attributions have to be turned around.
+
+Four movements:
+
+1. **Rabbi Shimon's exemption** (101a) — Rava explains it with a startlingly narrow reading of the
+   verse in Bereishit.
+2. **Rabbi Meir and the lashes** (101a) — the *gid* of a carcass, of a burnt offering, of an ox
+   condemned to stoning; and the search for the tanna who fits.
+3. **Rabbi Yosei HaGelili** (101a–101b) — impurity of body against impurity of meat, *migo*, and
+   Rav Ashi's beautiful refusal to say which prohibition is worse.
+4. **Sinai, and the name "Israel"** (101b) — the Rabbis answer Rabbi Yehuda from the words of the
+   verse itself, and the chapter's opening question finally closes.
+
+---
+
+## Walking through the sugya, step by step
+
+### 101a — How can Rabbi Shimon exempt entirely?
+
+**The objection, from every direction at once.** Whichever way you take Rabbi Shimon, it is hard:
+
+- If a prohibition **does** land on an existing prohibition — let him be liable for **both** the
+  non-kosher meat and the *gid*.
+- If it **does not** — let him at least be liable for the **non-kosher meat**, which came first.
+- And if he holds that **sinews have no taste**, so the meat prohibition cannot apply to a sinew —
+  then let him be liable for the ***gid***.
+
+There is no obvious way to be liable for *nothing*.
+
+**Rava's answer.** Rabbi Shimon holds **אֵין בְּגִידִין בְּנוֹתֵן טַעַם** — sinews have no taste, so they
+are not "food" and the non-kosher-meat prohibition does not reach them. That disposes of one
+count. And the *gid* prohibition itself does not apply to a non-kosher animal, because of how the
+verse is worded:
+
+> **״עַל כֵּן לֹא יֹאכְלוּ בְנֵי יִשְׂרָאֵל אֶת גִּיד הַנָּשֶׁה״** — the prohibition speaks only of a species
+> **whose *gid* is forbidden and whose flesh is permitted**, and so excludes a non-kosher animal,
+> whose flesh is forbidden too.
+
+Both counts fall away, and the exemption is complete.
+
+### 101a — Rabbi Meir, and which prohibitions stack
+
+**Rav Yehuda in the name of Rav.** For eating the *gid* of a **נְבֵלָה**, an unslaughtered carcass:
+**Rabbi Meir** gives two sets of lashes; **the Rabbis** give one.
+
+**But the Rabbis concede** in two cases — the *gid* of an **עוֹלָה**, a burnt offering, and of a
+**שׁוֹר הַנִּסְקָל**, an ox condemned to stoning. There, two sets of lashes. Why these? Because those
+two prohibitions are **more severe in kind**: they forbid deriving *any benefit* at all, not merely
+eating. A prohibition of that weight takes effect even on a *gid* that was already forbidden.
+
+**So who is this tanna?** The Gemara wants the tanna who rejects **אִיסּוּר כּוֹלֵל** — a prohibition
+that is merely *broader* (the carcass prohibition covers the whole animal, including the nerve) —
+and yet accepts a prohibition that is both broader **and** more severe.
+
+**Rava: it is Rabbi Yosei HaGelili.** His view appears in a mishnah in *Zevachim* (106a). An impure
+person who ate sacrificial food is liable to *karet* if deliberate, and to a sliding-scale offering
+if unwitting. Rabbi Yosei HaGelili distinguishes:
+
+- impure person eats **pure** sacrificial meat → **liable**;
+- impure person eats **impure** sacrificial meat → **exempt**, since he merely ate an impure item.
+
+**The Rabbis' retort.** By your logic he should be exempt even for pure meat — the moment he
+touched it, he made it impure! Yet there he is certainly liable.
+
+**Rava sharpens the dispute.** If the **body** became impure first and the **meat** afterwards, all
+agree he is liable. They argue only where the **meat** became impure first and the **body**
+afterwards. The Rabbis hold *issur kolel* — **מִגּוֹ דְּמִיחַיַּיב אַחֲתִיכוֹת טְהוֹרוֹת דְּעָלְמָא**, since the
+prohibition makes him liable for pure meat generally, it sweeps in this impure piece as well. And
+Rabbi Yosei HaGelili:
+
+> **וְרַבִּי יוֹסֵי הַגְּלִילִי לֵית לֵיהּ אִיסּוּר כּוֹלֵל, דְּמִגּוֹ לָא אָמְרִינַן.**
+> "Rabbi Yosei HaGelili does not hold *issur kolel* — we do not say *migo*."
+
+**The remaining pressure.** Grant that he rejects the *broader* prohibition. But surely a **more
+severe** prohibition should still land on a lenient one — **בְּאִיסּוּר קַל יָבֹא אִיסּוּר חָמוּר יָחוּל עַל
+אִיסּוּר קַל** — and impurity of the body is the more severe, since it carries *karet*, while a pure
+person eating impure sacrificial meat is only flogged.
+
+**Rav Ashi's answer, and it is a gem.** Who says impurity of the *body* is the more severe? Perhaps
+impurity of the **meat** is worse — for **an impure person can immerse and become pure again,
+while impure meat has no such remedy.** Severity is not obvious, and an argument that depends on
+ranking these two cannot get off the ground.
+
+### 101b — The baraita that has to be reversed
+
+**A contradiction.** Does Rabbi Yosei HaGelili really reject *issur kolel*? A baraita says otherwise.
+When **Shabbos and Yom Kippur fall on the same day** and someone unwittingly performs forbidden
+labour, from where do we know he is liable **for each separately** — two sin offerings? From
+**״שַׁבָּת הִיא״** and **״יוֹם הַכִּפּוּרִים הוּא״**: the word *"it is"* in each verse marks each day as
+standing on its own. **This is Rabbi Yosei HaGelili.** And **Rabbi Akiva** says: only one sin
+offering, since a prohibition does not land on an existing prohibition.
+
+That is precisely backwards from what we just established.
+
+**The resolution — swap the names.** Ravin sent word in the name of Rabbi Yosei b'Rabbi Chanina:
+
+> **כָּךְ הַצָּעָה שֶׁל מִשְׁנָה, וְאֵיפוֹךְ.**
+> "Such is the true presentation of the teaching — and reverse it."
+
+The two positions are correctly stated; the attributions are swapped. So it is **Rabbi Akiva** who
+holds each day stands alone, and **Rabbi Yosei HaGelili** who holds that two prohibitions never take
+effect together — not even when one is broader or more severe.
+
+**A consequence, and a puzzle.** Rav Yitzchak bar Yaakov bar Giyorei sent word from Rabbi
+Yochanan: on the reversed reading, if one unwittingly did labour on a Yom Kippur that fell on
+Shabbos he brings **one** sin offering. Unwitting about Shabbos but deliberate about Yom Kippur —
+**liable**. Deliberate about Shabbos but unwitting about Yom Kippur — **exempt**.
+
+**Abaye's explanation.** Shabbos is **קְבִיעָא וְקַיְימָא**, fixed and permanent — it always falls on the
+seventh day; Yom Kippur is set by the **court**, which fixes the new moon. So Shabbos got there
+first, and Yom Kippur's prohibition never takes hold.
+
+**Rava's objection.** Ultimately both begin at the same moment — the start of the day. Shabbos
+cannot be said to precede.
+
+**Rava's own answer, and it is historical.** **שְׁעַת הַגְּזֵרָה הֲוָה** — it was a time of persecution, and
+word was sent from Eretz Yisrael that Yom Kippur **that year** would not be kept on its own day
+but moved to Shabbos. Rabbi Yochanan was describing that particular year. And when Ravin and all
+those who came down from Eretz Yisrael arrived, they confirmed that Rava's explanation is the
+true one.
+
+### 101b — Sinai, and when they became "the children of Israel"
+
+**The Rabbis answer Rabbi Yehuda from the verse itself.** Does it say *"therefore the children of
+**Yaakov** do not eat the gid hanasheh"*? It says **בְּנֵי יִשְׂרָאֵל** — and they were not called the
+children of *Israel* until they received the Torah at Sinai. So the prohibition was **stated at
+Sinai** and only **written in its place**, so that Israel should know *why* the nerve was forbidden
+to them. There is therefore no evidence that it ever applied to non-kosher animals.
+
+**Rava objects.** **״וַיִּשְׂאוּ בְנֵי יִשְׂרָאֵל אֶת יַעֲקֹב אֲבִיהֶם״** (Bereishit 46:5) — they are called the
+children of Israel well before Sinai. **Answer:** yes, but that was *after* the wrestling, and after
+the vision in which Yaakov's name was changed to Israel (Bereishit 35:10).
+
+**Rav Acha son of Rava presses Rav Ashi.** Then let the *gid* have become forbidden **from that
+moment** — the moment they were first called the children of Israel. That is before Sinai, and
+Rabbi Yehuda wins after all.
+
+**Rav Ashi's answer closes the chapter's oldest question.**
+
+> **וְכִי תוֹרָה פְּעָמִים פְּעָמִים נִיתְּנָה?**
+> "Was the Torah given in instalments?"
+
+It was given at Sinai — once. The moment the name "Israel" first appears was neither the moment
+of the wrestling nor the moment of the giving of the Torah, so there is no reason to attach the
+prohibition to it.
+
+### 101b — A parallel dispute: the limb of a living animal
+
+The same two camps line up again over **אֵבֶר מִן הַחַי**:
+
+> **אֵבֶר מִן הַחַי נוֹהֵג בִּבְהֵמָה, חַיָּה וָעוֹף, בֵּין טְמֵאִין וּבֵין טְהוֹרִין — דִּבְרֵי רַבִּי יְהוּדָה וְרַבִּי
+> אֶלְעָזָר. וַחֲכָמִים אוֹמְרִים: אֵינוֹ נוֹהֵג אֶלָּא בִּטְהוֹרִין.**
+
+Rabbi Yehuda and Rabbi Elazar extend it to non-kosher species; the Rabbis confine it to kosher
+ones. Rabbi Yochanan notes that **both sides derive their view from one and the same verse** —
+*"Only be strong not to eat the blood, for the blood is the life…"* (Devarim 12:23) — which is where
+tomorrow's daf begins.
+
+---
+
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **אִיסּוּר כּוֹלֵל** *(issur kolel)* | An "inclusive" prohibition — broader in scope than the existing one. Whether breadth alone lets it take effect is the day's central dispute. |
+| **אִיסּוּר חָמוּר** *(issur chamur)* | A more severe prohibition. Even one who rejects *issur kolel* might allow severity to override. |
+| **מִגּוֹ** *(migo)* | "Since" — the mechanism of *issur kolel*: since the prohibition binds him in the wider case, it binds him here too. Rabbi Yosei HaGelili: מִגּוֹ לָא אָמְרִינַן. |
+| **טוּמְאַת הַגּוּף / טוּמְאַת בָּשָׂר** *(tumas haguf / tumas basar)* | Impurity of the person's body (punishable by *karet*) against impurity of the meat (lashes) — and which is graver is not obvious. |
+| **הַצָּעָה שֶׁל מִשְׁנָה** *(hatza'ah shel mishnah)* | The correct *presentation* of a teaching — the wording is right but the attributions must be exchanged. |
+| **קְבִיעָא וְקַיְימָא** *(kevi'a vekaima)* | Fixed and standing — Shabbos falls of itself on the seventh day, unlike Yom Kippur, which the court fixes. |
+| **שְׁעַת הַגְּזֵרָה** *(she'as hagezeirah)* | A time of persecution — the historical circumstance in which Yom Kippur was displaced onto Shabbos. |
+| **שׁוֹר הַנִּסְקָל / עוֹלָה** *(shor hanniskal / olah)* | An ox condemned to stoning / a burnt offering. Both forbid all benefit, not only eating, so they stack onto the *gid*. |
+| **לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים** | "The Torah was not given in instalments" — Rav Ashi's principle that the law began at Sinai, in one act. |
+| **אֵבֶר מִן הַחַי** *(ever min hachai)* | A limb severed from a living animal; forbidden to Noahides too, which is why its scope parallels the *gid*. |
+
+---
+
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Shimon** (bar Yochai) — fourth generation, student of Rabbi Akiva. Exempts entirely;
+  Rava explains how.
+- **Rabbi Yehuda** (bar Ilai) — fourth generation, student of Rabbi Akiva. The stringent voice on
+  both the *gid* and *ever min hachai*.
+- **Rabbi Meir** — fourth generation, student of Rabbi Akiva; two sets of lashes for the *gid* of a
+  carcass.
+- **Rabbi Akiva** — third generation, Bnei Brak; teacher of the four above. After the reversal, he
+  is the one holding each day stands independently.
+- **Rabbi Yosei HaGelili** — third generation, a contemporary of Rabbi Akiva from the Galilee. The
+  tanna who accepts neither *issur kolel* nor severity as grounds for a second prohibition.
+- **Rabbi Elazar** (ben Shammua) — fourth generation, student of Rabbi Akiva. Joins Rabbi Yehuda on
+  *ever min hachai*. Not to be confused with the Amora Rabbi Elazar ben Pedas.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy. Both the
+  ruling about Shabbos and Yom Kippur and the observation that both sides read one verse.
+- **Rabbi Yosei b'Rabbi Chanina** — second generation, Caesarea; student of Rabbi Yochanan. Source
+  of "reverse the attributions."
+- **Rav Yitzchak bar Yaakov bar Giyorei** — a minor figure known as a transmitter of Rabbi
+  Yochanan's rulings to Babylonia by letter; I would not want to guess at more.
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of Sura. Source of the Rabbi Meir tradition,
+  via Rav Yehuda.
+- **Rav Yehuda** (bar Yechezkel) — second generation, head of Pumbedita; student of Rav and
+  Shmuel.
+- **Abaye** — fourth generation, head of Pumbedita. Explains Rabbi Yochanan by "Shabbos is fixed."
+- **Rava** — fourth generation, Machoza. Refutes Abaye and replaces the explanation with the year
+  of persecution; also explains Rabbi Shimon and Rabbi Yosei HaGelili.
+- **Rav Ashi** — sixth generation, head of Sura and a principal redactor of the Talmud. "Who says
+  impurity of the body is worse?" and "was the Torah given in instalments?"
+- **Rav Acha son of Rava** — sixth generation, a colleague of Rav Ashi. Presses the question about
+  the moment the name "Israel" begins.
+- **Ravin** (Rav Avin) — fourth generation; one of the *nechusei*, the sages who travelled down
+  from Eretz Yisrael carrying its teachings to Babylonia.
+
+*Look-alikes worth flagging:* **Rabbi Yosei HaGelili** (Tanna) is not **Rabbi Yosei b'Rabbi
+Chanina** (Amora), and neither is **Rabbi Yosei** of the Mishnah. **Rav Acha son of Rava** is not
+**Rav Acha bar Yaakov**, nor **Mar bar Rav Ashi**. And once more: **Rabbah** (רבה) and **Rava**
+(רבא) differ by a single letter.
+
+---
+
+## Chazara — test yourself
+
+**1. According to Rava, why does Rabbi Shimon exempt one who eats the sciatic nerve of a non-kosher animal from all lashes?**
+
+- (a) Because the nerve is nullified in the surrounding meat.
+- (b) Because sinews have no taste, and the verse limits the prohibition to a species whose flesh is permitted.
+- (c) Because a prohibition never lands on an existing prohibition.
+- (d) Because the prohibition began only at Sinai.
+
+**2. In which two cases do the Rabbis concede to Rabbi Meir that there are two sets of lashes?**
+
+- (a) A carcass and a non-kosher animal.
+- (b) A fetus and a non-kosher bird.
+- (c) A burnt offering and an ox condemned to stoning.
+- (d) Teruma and sacrificial meat.
+
+**3. What makes those two prohibitions able to take effect on an already forbidden nerve?**
+
+- (a) They are biblical rather than rabbinic.
+- (b) They forbid deriving any benefit, not merely eating.
+- (c) They apply to Noahides.
+- (d) They came into force earlier.
+
+**4. What is an issur kolel?**
+
+- (a) A prohibition more severe than the existing one.
+- (b) A prohibition broader in scope than the existing one.
+- (c) A prohibition that applies only to priests.
+- (d) A prohibition derived from a novelty.
+
+**5. In Rabbi Yosei HaGelili's case, when do all agree that the impure person is liable?**
+
+- (a) When his body became impure before the meat did.
+- (b) When the meat became impure before his body did.
+- (c) Only when the meat was pure throughout.
+- (d) Only when he acted deliberately.
+
+**6. How does Rav Ashi block the argument that a more severe prohibition should take effect?**
+
+- (a) By showing that severity is irrelevant to prohibitions.
+- (b) By denying that impurity of the body carries karet.
+- (c) By arguing that impurity of the meat may be the more severe, since it has no remedy of immersion.
+- (d) By reversing the attributions of the baraita.
+
+**7. What does hatza'ah shel mishnah mean in the resolution about Shabbos and Yom Kippur?**
+
+- (a) The baraita is a forgery and should be discarded.
+- (b) The wording is correct but the two attributions must be exchanged.
+- (c) The baraita refers only to a leap year.
+- (d) The mishnah must be read as a question.
+
+**8. What is Rava's explanation of Rabbi Yochanan's ruling about Yom Kippur falling on Shabbos?**
+
+- (a) Shabbos is fixed while Yom Kippur is set by the court.
+- (b) It described a year of persecution when Yom Kippur was moved onto Shabbos.
+- (c) Both prohibitions begin at once, so only one offering is due.
+- (d) Rabbi Yochanan was speaking only of a deliberate transgression.
+
+**9. How do the Rabbis answer Rabbi Yehuda from the wording of the verse in Bereishit?**
+
+- (a) It says "the children of Yaakov," who were Noahides.
+- (b) It says "the children of Israel," a name used only from Sinai onward.
+- (c) It does not mention eating at all.
+- (d) It speaks of a kosher animal explicitly.
+
+**10. What does Rav Ashi mean by asking whether the Torah was given in instalments?**
+
+- (a) That different commandments took effect at different times.
+- (b) That the written and oral Torah were given separately.
+- (c) That the prohibition began at the wrestling with the angel.
+- (d) That the Torah was given at Sinai in one act, so the prohibition cannot begin earlier.
+
+---
+
+## One line to carry with you
+
+> Before you rank two prohibitions, ask whether you can. Rav Ashi's answer is not that the body's
+> impurity is lighter — it is that a person can immerse and meat cannot, so the ranking you were
+> relying on was never there to begin with.
+
+*Tomorrow (10 Aug 2026): Chullin 102 — how Rabbi Yehuda, Rabbi Elazar and the Rabbis all read **״כִּי הַדָּם הוּא הַנָּפֶשׁ״** and reach opposite conclusions about the limb of a living animal.*
+
+## Chazara — answer key
+
+1. **(b)** — no taste means no non-kosher-meat count, and the verse speaks only of a species whose flesh is permitted.
+2. **(c)** — the *gid* of an עוֹלָה and of a שׁוֹר הַנִּסְקָל.
+3. **(b)** — both are prohibitions of benefit, a stringency the *gid* prohibition never had.
+4. **(b)** — a prohibition that is more inclusive; the mechanism is מִגּוֹ.
+5. **(a)** — where the body was already impure, the *karet* prohibition preceded the meat's impurity.
+6. **(c)** — an impure person can be purified by immersion; impure meat cannot, so it may be the graver.
+7. **(b)** — כָּךְ הַצָּעָה שֶׁל מִשְׁנָה, וְאֵיפוֹךְ: right wording, swapped names.
+8. **(b)** — שְׁעַת הַגְּזֵרָה; Ravin and those who came down from Eretz Yisrael confirmed Rava's reading.
+9. **(b)** — בְּנֵי יִשְׂרָאֵל, a name that begins only at Sinai, so the prohibition was merely written in its place.
+10. **(d)** — לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים: one giving, at Sinai.

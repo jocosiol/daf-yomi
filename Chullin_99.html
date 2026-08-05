@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daf Yomi — Chullin 99 (חולין צט)</title>
+<style>
+  :root{
+    --paper:#fbf7ee; --ink:#2c261d; --accent:#8a5a2b; --accent2:#6b3f1d;
+    --gold:#c9a86a; --gold-soft:#ead9b3; --panel:#fffdf8; --line:#e2d3b3;
+    --good:#3f8f5b; --good-bg:#e7f4ec; --bad:#c0453b; --bad-bg:#fbe9e7;
+    --shadow:0 6px 24px rgba(80,55,20,.10);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:linear-gradient(180deg,#f4ecd8 0%,#fbf7ee 220px) fixed;
+    color:var(--ink); font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  :lang(he),.he{font-family:"Frank Ruhl Libre","Times New Roman",Georgia,serif;}
+  .wrap{max-width:820px;margin:0 auto;padding:0 18px 80px}
+  header.top{
+    text-align:center;padding:34px 18px 22px;margin-bottom:8px;
+  }
+  header.top h1{
+    font-size:2.05rem;line-height:1.2;margin:0 0 6px;color:var(--accent2);
+    letter-spacing:.2px;
+  }
+  header.top .sub{color:#7a6a4d;font-size:1rem;font-style:italic}
+  .tabs{
+    display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:20;
+    padding:12px 0;background:linear-gradient(180deg,var(--paper) 70%,rgba(251,247,238,0));
+    margin-bottom:10px;
+  }
+  .tab{
+    border:1px solid var(--gold);background:var(--panel);color:var(--accent2);
+    padding:9px 22px;border-radius:999px;cursor:pointer;font-size:1rem;font-weight:600;
+    box-shadow:var(--shadow);transition:.18s;font-family:inherit;
+  }
+  .tab:hover{transform:translateY(-1px)}
+  .tab.active{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+  .view{display:none;animation:fade .35s ease}
+  .view.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+  /* ---- Learn view ---- */
+  .sheet{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:26px 30px;box-shadow:var(--shadow)}
+  .sheet h2{font-size:1.4rem;color:var(--accent2);border-bottom:2px solid var(--gold-soft);
+    padding-bottom:6px;margin:26px 0 10px}
+  .sheet h2:first-child{margin-top:0}
+  .sheet h3{font-size:1.12rem;color:var(--accent);margin:18px 0 6px}
+  .sheet blockquote{margin:14px 0;padding:12px 18px;background:#faf3e3;
+    border-left:4px solid var(--gold);border-radius:6px;font-style:italic}
+  .sheet table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}
+  .sheet th,.sheet td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  .sheet th{background:var(--gold-soft);color:var(--accent2)}
+  .sheet tr:nth-child(even) td{background:#fbf7ee}
+  .sheet code{background:#f0e6ce;padding:1px 5px;border-radius:4px;font-size:.9em}
+  .sheet hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+  .sheet ul{padding-left:22px}
+  .sheet li{margin:5px 0}
+  .sheet strong{color:var(--accent2)}
+
+  /* ---- Quiz view ---- */
+  .quiz{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:26px 28px;box-shadow:var(--shadow)}
+  .qbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:6px;
+    font-size:.92rem;color:#7a6a4d}
+  .prog{height:9px;background:var(--gold-soft);border-radius:999px;overflow:hidden;margin:8px 0 22px}
+  .prog>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--accent));
+    border-radius:999px;transition:width .4s ease}
+  .qnum{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  .qtext{font-size:1.28rem;line-height:1.45;margin:8px 0 20px;color:var(--ink)}
+  .opts{display:flex;flex-direction:column;gap:12px}
+  .opt{display:flex;align-items:flex-start;gap:12px;text-align:left;width:100%;
+    border:1.5px solid var(--line);background:#fffdf8;border-radius:12px;padding:14px 16px;
+    cursor:pointer;font-size:1.05rem;font-family:inherit;color:var(--ink);transition:.15s}
+  .opt:hover:not(.locked){border-color:var(--accent);transform:translateY(-1px);
+    box-shadow:0 3px 12px rgba(120,80,30,.10)}
+  .opt .key{flex:0 0 28px;height:28px;border-radius:50%;background:var(--gold-soft);
+    color:var(--accent2);font-weight:700;display:flex;align-items:center;justify-content:center;
+    font-size:.95rem}
+  .opt.correct{border-color:var(--good);background:var(--good-bg)}
+  .opt.correct .key{background:var(--good);color:#fff}
+  .opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+  .opt.wrong .key{background:var(--bad);color:#fff}
+  .opt.locked{cursor:default}
+  .opt.dim{opacity:.55}
+  .why{margin-top:18px;padding:14px 16px;border-radius:12px;background:#f6efe0;
+    border-left:4px solid var(--gold);font-size:1rem;display:none;animation:fade .3s}
+  .why.show{display:block}
+  .why b{color:var(--accent2)}
+  .nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px}
+  .btn{border:none;border-radius:999px;padding:12px 26px;font-size:1.02rem;font-weight:700;
+    cursor:pointer;font-family:inherit;background:var(--accent2);color:#fff;box-shadow:var(--shadow);
+    transition:.16s}
+  .btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
+  .btn.ghost{background:var(--panel);color:var(--accent2);border:1px solid var(--gold)}
+  .btn:disabled{opacity:.4;cursor:default;transform:none}
+  .pill{background:var(--gold-soft);color:var(--accent2);border-radius:999px;padding:4px 12px;font-weight:700}
+  .streak{color:var(--accent)}
+  /* end screen */
+  .end{text-align:center;padding:14px 6px}
+  .end .big{font-size:3.4rem;margin:6px 0}
+  .end .score{font-size:1.6rem;color:var(--accent2);font-weight:700;margin:4px 0}
+  .end .msg{font-size:1.1rem;color:#6a5a3d;margin:8px 0 20px}
+  .review{text-align:left;margin-top:20px}
+  .review .r{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;background:#fffdf8}
+  .review .r .rq{font-weight:700;color:var(--ink);margin-bottom:6px}
+  .review .r .ra{font-size:.96rem;margin:2px 0}
+  .review .ok{color:var(--good)} .review .no{color:var(--bad)}
+  .hint{color:#9a8a6d;font-size:.82rem;text-align:center;margin-top:14px}
+  @media(max-width:520px){.sheet,.quiz{padding:20px 16px}.qtext{font-size:1.14rem}header.top h1{font-size:1.6rem}}
+</style>
+
+<style id="site-nav-css">
+#site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
+#site-nav a{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
+  background:#fffdf8;color:#6b3f1d;border:1px solid #c9a86a;border-radius:999px;
+  padding:6px 14px;box-shadow:0 3px 12px rgba(80,55,20,.12)}
+#site-nav a:hover{background:#6b3f1d;color:#fff}
+@media print{#site-nav{display:none}}
+</style>
+</head>
+<body>
+<div id="site-nav"><a href="index.html">📖 Today</a><a href="archive.html">🗂 Archive</a></div>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Daf Yomi — Chullin 99 (חולין צט)</h1>
+    <div class="sub">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Study date: Fri, 7 August 2026</div>
+  </header>
+
+  <div class="tabs">
+    <button class="tab active" data-v="learn">📖 Learn</button>
+    <button class="tab" data-v="quiz">🎯 Chazara Quiz</button>
+  </div>
+
+  <section class="view active" id="learn">
+    <div class="sheet"><h2>The big picture (read this first)</h2>
+<p>Yesterday&rsquo;s daf derived <strong>nullification in sixty</strong> from the cooked foreleg of the nazirite&rsquo;s
+ram — and then immediately threatened to demolish the derivation, because <strong>מֵחִדּוּשׁ לָא
+גָּמְרִינַן</strong>, we do not learn general rules from an anomaly. Today opens by rescuing it with
+one of the most useful moves in the Talmud, and then turns from theory to the kitchen.</p>
+<blockquote>
+<p>If a source is too anomalous to teach us anything, that objection only bites when you are
+using it to be <strong>lenient</strong>. Learn a <em>stringency</em> from it and the objection evaporates —
+because without the derivation you would have been more lenient still.</p>
+</blockquote>
+<p>Three movements:</p>
+<ol>
+<li><strong>Rescuing sixty</strong> (99a) — the anomaly objection is answered by asking what direction the
+   derivation runs in. Then Ravina finds a different job for a word in the baraita.</li>
+<li><strong>Is it sixty or a hundred?</strong> (99a–99b) — Abaye corners Rav Dimi with a mishnah in <em>Orla</em>
+   about teruma beans and lentils, Rav Dimi falls silent, and then Abaye rescues <em>him</em> —
+   before learning that some prohibitions need nearly <strong>two hundred</strong>.</li>
+<li><strong>Does a sinew have taste at all?</strong> (99b) — the halachic bottom line of the whole chapter
+   arrives almost casually, through a story about a man sent back to ask his question twice.</li>
+</ol>
+<hr />
+<h2>Walking through the sugya, step by step</h2>
+<h3>99a — Why the anomaly objection does not sink sixty</h3>
+<p><strong>The setup.</strong> Where do we learn that the flavor of sacrificial food is <em>not</em> simply nullified?
+From the sin offering: <strong>״כׇּל אֲשֶׁר יִגַּע בִּבְשָׂרָהּ יִקְדָּשׁ״</strong> — &ldquo;whatever touches its flesh shall
+become holy&rdquo; (Vayikra 6:20). Whatever absorbs flavor from a sin offering takes on its status:
+disqualified if it was disqualified, and eaten under a sin offering&rsquo;s stringencies if it was valid.</p>
+<p><strong>The question.</strong> Why go to the sin offering at all? Learn it from the nazirite&rsquo;s ram, where
+flavor <em>is</em> nullified in sixty:</p>
+<blockquote>
+<p><strong>וּמַאי חָזֵית דְּגָמְרִינַן מֵהַאיְךְ, לִיגְמַר מֵהַאי? חִדּוּשׁ הוּא, וּמֵחִדּוּשׁ לָא גָּמְרִינַן.</strong>
+&ldquo;And what did you see that we learn from <em>that</em> — let us learn from <em>this</em>! It is an anomaly,
+and from an anomaly we do not learn.&rdquo;</p>
+</blockquote>
+<p><strong>The objection that matters.</strong> If the nazirite&rsquo;s ram is disqualified as a source, then the whole
+of yesterday&rsquo;s daf collapses: the sixty <em>and</em> the hundred were both derived from it.</p>
+<p><strong>The answer — mind the direction.</strong></p>
+<blockquote>
+<p><strong>אַטּוּ אֲנַן לְקוּלָּא קָא גָמְרִינַן? לְחוּמְרָא קָא גָמְרִינַן, דְּמִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל.</strong>
+&ldquo;Is it that we learn from it as a <em>leniency</em>? We learn from it as a <em>stringency</em> — for by
+Torah law it would be nullified in a simple majority.&rdquo;</p>
+</blockquote>
+<p>This is the hinge of the page. Left to itself, Torah law would nullify a forbidden food in a bare
+majority — fifty-one to forty-nine. The nazirite&rsquo;s ram is what pushes the bar up to sixty. So
+the derivation only ever makes us <em>stricter</em>, and &ldquo;we do not learn from an anomaly&rdquo; is a rule
+about not extending an anomaly&rsquo;s <strong>leniencies</strong>.</p>
+<p><strong>Ravina&rsquo;s footnote.</strong> Ravina finds a different job for the word <strong>זֶה</strong> in the baraita about the
+ram: it is needed for <strong>מְקוֹם הַחֲתָךְ</strong>, the place of the cut. Normally, when you slice a forbidden
+piece away from a permitted one, the cut surface of the permitted part is forbidden. In the
+nazirite&rsquo;s ram, it is permitted.</p>
+<h3>99a — Abaye corners Rav Dimi: sixty, or a hundred?</h3>
+<p><strong>The claim under attack.</strong> Rav Shmuel bar Rav Yitzchak had said (98a) that nullification requires
+<strong>a hundred</strong>. Rav Dimi sat and taught it.</p>
+<p><strong>Abaye&rsquo;s challenge,</strong> from a pair of mishnayos in <em>Orla</em> (2:6–7). Teruma mixed into non-sacred
+food is treated <strong>stringently</strong> when it is mixed with its <strong>own kind</strong>, and &ldquo;leniently and
+stringently&rdquo; when mixed with a <strong>different kind</strong>. The different-kind case: <strong>גְּרִיסִין</strong>, split
+beans of teruma, cooked with non-sacred <strong>lentils</strong>.</p>
+<ul>
+<li>If the beans are enough to <strong>impart flavor</strong> — forbidden, whether or not there are 101 parts.</li>
+<li>If they are <strong>not</strong> enough to impart flavor — permitted, whether or not there are 101 parts.</li>
+</ul>
+<p><strong>The needle.</strong> Take that last clause: fewer than 101 parts, no flavor imparted, and still
+permitted. So in what quantity were the beans nullified? <strong>Sixty</strong> — against Rav Shmuel bar
+Rav Yitzchak.</p>
+<h3>99b — Rav Dimi falls silent, and Abaye rescues him</h3>
+<p><strong>Rav Dimi&rsquo;s first answer.</strong> The mishnah means: fewer than 101, but there <em>are</em> 100.</p>
+<p><strong>Abaye presses.</strong> Then read the first clause — teruma leaven falling into non-sacred dough.
+If the first clause is about 100 and the second is also about 100, what is the difference between
+them? Rav Dimi retreats a step: the first clause is 101, the second is 100.</p>
+<p><strong>The killing blow.</strong> If so, why does the mishnah say that when the leaven is <em>enough to leaven
+the dough</em> the whole is forbidden? At 101 parts leaven cannot leaven anything — so why is it
+not nullified? <strong>אִישְׁתִּיק</strong> — Rav Dimi was silent.</p>
+<p><strong>And then Abaye hands him the answer.</strong> Note who is speaking; the man who just won the
+argument supplies the defence:</p>
+<blockquote>
+<p><strong>דִּלְמָא שָׁאנֵי שְׂאוֹר דְּחִימּוּצוֹ קָשֶׁה.</strong>
+&ldquo;Perhaps leaven is different, because its leavening power is harsh&rdquo; — some leaven really can
+work on that much dough.</p>
+</blockquote>
+<p><strong>Rav Dimi&rsquo;s recovery — and a startling measure.</strong> &ldquo;You have reminded me,&rdquo; he says, of Rabbi
+Yosei b&rsquo;Rabbi Chanina: <strong>לֹא כׇּל הַשִּׁיעוּרִין שָׁוִין</strong> — not all measures are equal. The measure for
+<strong>צִיר</strong>, fish brine, is <strong>close to two hundred</strong>. As the mishnah teaches (<em>Terumot</em> 10:8): the brine
+of a non-kosher fish is forbidden; Rabbi Yehuda says a <strong>quarter-log</strong> forbids <strong>two se&rsquo;ah</strong> — a
+ratio of about 192 to 1.</p>
+<p><strong>A loose thread pulled.</strong> But Rabbi Yehuda holds <strong>מִין בְּמִינוֹ לֹא בָּטֵיל</strong>, like with like is never
+nullified — so how is brine nullified at any ratio? Answer: <strong>שָׁאנֵי צִיר, דְּזֵיעָה בְּעָלְמָא הוּא</strong> —
+brine is different, it is mere sweat. It is not the fish itself, so it is not &ldquo;its own kind.&rdquo;</p>
+<h3>99b — Do sinews impart taste? The chapter&rsquo;s practical bottom line</h3>
+<p><strong>Back to the mishnah</strong> (96b): how do you measure whether the <em>gid</em> imparts flavor to the thigh?
+Treat the nerve as meat and the thigh as a turnip. Rav Huna: <strong>כְּבָשָׂר בְּרָאשֵׁי לְפָתוֹת</strong> — like meat
+cooked with turnip-heads.</p>
+<p><strong>But the mishnah has an opponent,</strong> and he is about to win:</p>
+<blockquote>
+<p><strong>רַבִּי יִשְׁמָעֵאל בְּנוֹ שֶׁל רַבִּי יוֹחָנָן בֶּן בְּרוֹקָה אוֹמֵר: אֵין בְּגִידִין בְּנוֹתֵן טַעַם.</strong>
+&ldquo;Sinews impart no taste at all.&rdquo;</p>
+</blockquote>
+<p>If a sinew has no taste, the entire measuring apparatus is unnecessary: remove the nerve and
+the thigh is fine.</p>
+<p><strong>The story.</strong> A man brought Rabbi Chanina a thigh cooked with its <em>gid</em>, and Rabbi Chanina
+permitted it. Rabbi Yehuda bar Zevina, sitting at the gate, told him to go back — <em>perhaps he did
+not understand the question.</em> The man returned. Rabbi Chanina: &ldquo;Who is this bothering me? Go
+tell the one sitting at the gate: <strong>sinews impart no taste.</strong> Remove the nerve, and the rest is
+permitted.&rdquo; He had understood the question perfectly the first time.</p>
+<p><strong>The quieter story.</strong> When people came to Rabbi Ami with this question, he would send them to
+Rabbi Yitzchak ben Chalov, who permitted it in the name of Rabbi Yehoshua ben Levi. Rabbi Ami
+<strong>did not hold that way himself</strong> — but he was unwilling to impose his own stringency on others.</p>
+<p><strong>וְהִלְכְתָא: אֵין בְּגִידִין בְּנוֹתֵן טַעַם</strong> — and the halacha is that sinews impart no taste.</p>
+<h3>99b end — A cliffhanger</h3>
+<p>The mishnah also said: a <em>gid</em> cooked with other sinews, and he cannot identify which is which
+— all are forbidden. The Gemara asks the obvious question: <strong>לִיבַּטֵיל בְּרוּבָּא</strong>, let it simply be
+nullified by the majority! The answer waits for tomorrow&rsquo;s first line.</p>
+<hr />
+<h2>Key concepts &amp; terms</h2>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>מֵחִדּוּשׁ לָא גָּמְרִינַן</strong> <em>(mechiddush lo gamrinan)</em></td>
+<td>We do not derive general rules from an anomalous case — but only when deriving a leniency.</td>
+</tr>
+<tr>
+<td><strong>לְקוּלָּא / לְחוּמְרָא</strong> <em>(lekula / lechumra)</em></td>
+<td>Toward leniency / toward stringency. The direction of a derivation decides whether the anomaly objection applies.</td>
+</tr>
+<tr>
+<td><strong>בְּרוּבָּא בָּטֵיל</strong> <em>(berubba batel)</em></td>
+<td>Nullified in a simple majority — what Torah law would say without the derivation from the nazirite&rsquo;s ram.</td>
+</tr>
+<tr>
+<td><strong>מְקוֹם הַחֲתָךְ</strong> <em>(mekom hachatach)</em></td>
+<td>The surface of the cut where a forbidden piece was severed from a permitted one; normally forbidden.</td>
+</tr>
+<tr>
+<td><strong>גְּרִיסִין</strong> <em>(grisin)</em></td>
+<td>Split beans — the teruma food in the <em>Orla</em> case, cooked with non-sacred lentils.</td>
+</tr>
+<tr>
+<td><strong>שְׂאוֹר דְּחִימּוּצוֹ קָשֶׁה</strong> <em>(se&rsquo;or dechimutzo kasheh)</em></td>
+<td>Leaven whose leavening power is harsh — potent enough to act even in a very large mixture.</td>
+</tr>
+<tr>
+<td><strong>צִיר</strong> <em>(tzir)</em></td>
+<td>Fish brine. Its measure is close to 200, showing that measures are not uniform.</td>
+</tr>
+<tr>
+<td><strong>זֵיעָה בְּעָלְמָא</strong> <em>(zei&rsquo;ah be&rsquo;alma)</em></td>
+<td>&ldquo;Mere sweat&rdquo; — brine is a secretion, not the fish itself, so it is not &ldquo;its own kind.&rdquo;</td>
+</tr>
+<tr>
+<td><strong>מִין בְּמִינוֹ לֹא בָּטֵיל</strong> <em>(min bemino lo batel)</em></td>
+<td>Rabbi Yehuda&rsquo;s rule: a forbidden food mixed with its own kind is never nullified.</td>
+</tr>
+<tr>
+<td><strong>אֵין בְּגִידִין בְּנוֹתֵן טַעַם</strong> <em>(ein begidin benoten ta&rsquo;am)</em></td>
+<td>Sinews impart no taste — the accepted halacha, which makes the <em>gid</em> removable without forbidding the meat.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Who&rsquo;s who in today&rsquo;s daf</h2>
+<p><strong>Tannaim</strong></p>
+<ul>
+<li><strong>Rabbi Yehuda</strong> (bar Ilai) — fourth-generation Tanna, student of Rabbi Akiva; the anonymous
+  &ldquo;Rabbi Yehuda&rdquo; of the Mishnah. Here: brine&rsquo;s measure, and <em>min bemino</em> is never nullified.</li>
+<li><strong>Rabbi Yishmael b&rsquo;Rabbi Yochanan ben Beroka</strong> — fourth-generation Tanna, son of Rabbi
+  Yochanan ben Beroka. His ruling that sinews have no taste becomes the halacha.</li>
+</ul>
+<p><strong>Eretz-Yisrael Amoraim</strong></p>
+<ul>
+<li><strong>Rabbi Chanina</strong> (bar Chama) — first generation, Tzippori; a leading colleague-student of
+  Rebbi. Here: permits the thigh, twice.</li>
+<li><strong>Rabbi Yehoshua ben Levi</strong> — first generation, Lod; contemporary of Rabbi Yochanan. The
+  lenient ruling is transmitted in his name.</li>
+<li><strong>Rabbi Yochanan</strong> (bar Nappacha) — second generation, head of the Tiberias academy. Named
+  here only as background to the transmission.</li>
+<li><strong>Rabbi Ami</strong> (Rabbi Ammi) — third generation, succeeded Rabbi Yochanan&rsquo;s circle in Tiberias.
+  Sends questioners to a more lenient colleague rather than rule strictly for them.</li>
+<li><strong>Rabbi Yosei b&rsquo;Rabbi Chanina</strong> — second generation, Caesarea; student of Rabbi Yochanan.
+  Source of &ldquo;not all measures are equal.&rdquo;</li>
+<li><strong>Rabbi Yitzchak ben Chalov</strong> — a minor figure known mainly as a transmitter of lenient rulings
+  in Rabbi Yehoshua ben Levi&rsquo;s name; I would not want to guess at more than that.</li>
+<li><strong>Rabbi Yehuda bar Zevina</strong> — an obscure figure; he appears here as the sceptic at the gate,
+  and I would not want to place his generation confidently.</li>
+</ul>
+<p><strong>Babylonian Amoraim</strong></p>
+<ul>
+<li><strong>Rav Huna</strong> — second generation, head of the academy at Sura and the foremost student of Rav.
+  Here: the mishnah&rsquo;s measure means meat cooked with turnip-heads.</li>
+<li><strong>Abaye</strong> — fourth generation, head of Pumbedita; the great disputant of Rava. Here he both
+  demolishes Rav Dimi&rsquo;s position and then supplies its defence.</li>
+<li><strong>Rav Dimi</strong> — fourth generation; a traveller between Eretz Yisrael and Babylonia who
+  transmitted Eretz-Yisrael teachings. Here on the receiving end of Abaye&rsquo;s questioning.</li>
+<li><strong>Rav Shmuel bar Rav Yitzchak</strong> — third generation; his &ldquo;one hundred&rdquo; is the position under
+  examination all through 99a–99b.</li>
+<li><strong>Ravina</strong> — fifth/sixth generation, of the circle that redacted the Talmud. Here: the word
+  <strong>זֶה</strong> teaches about the place of the cut.</li>
+</ul>
+<p><em>A look-alike worth flagging:</em> <strong>Rabbi Chanina</strong> (Eretz-Yisrael Amora, above) is not <strong>Rabbi Yosei
+b&rsquo;Rabbi Chanina</strong>, who is his junior by a generation and belongs to Caesarea.</p>
+<hr />
+<h2>One line to carry with you</h2>
+<blockquote>
+<p>&ldquo;We do not learn from an anomaly&rdquo; is not a rule about <em>sources</em> — it is a rule about
+<em>directions</em>. An odd case cannot make you lenient; it can always make you strict.</p>
+</blockquote>
+<p><em>Tomorrow (8 Aug 2026): Chullin 100 — why some forbidden things are never nullified at all: a </em><em>בְּרִיָּה</em><em>, a whole entity, and a </em><em>חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד</em><em> — a piece good enough to serve a guest.</em></p></div>
+  </section>
+
+  <section class="view" id="quiz">
+    <div class="quiz" id="quizCard"></div>
+    <div class="hint">Tip: press keys 1–4 to answer, Enter for next.</div>
+  </section>
+</div>
+
+<script>
+const QUIZ = [{"n": 1, "q": "How does the Gemara rescue the derivation of sixty from the objection that we do not learn from an anomaly?", "opts": {"a": "It shows that the nazirite&#x27;s ram is not actually anomalous.", "b": "It shows the derivation produces a stringency, and the objection applies only to leniencies.", "c": "It finds a second verse that teaches sixty independently.", "d": "It concedes the point and abandons sixty in favour of a hundred."}, "correct": "b", "why": "the objection bars extending an anomaly&#x27;s leniencies; sixty is a stringency over the Torah&#x27;s simple majority."}, {"n": 2, "q": "Without the derivation from the nazirite&#x27;s ram, what would Torah law say about a forbidden food in a mixture?", "opts": {"a": "It is never nullified.", "b": "It is nullified in a hundred.", "c": "It is nullified in a simple majority.", "d": "It is nullified only if a taster detects nothing."}, "correct": "c", "why": "מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל, nullification in a bare majority."}, {"n": 3, "q": "According to Ravina, what does the word זֶה in the baraita about the nazirite&#x27;s ram teach?", "opts": {"a": "That the measure is sixty rather than a hundred.", "b": "That the ram must be cooked rather than roasted.", "c": "That the surface of the cut on the permitted part is permitted.", "d": "That the foreleg alone is given to the priest."}, "correct": "c", "why": "it teaches that מְקוֹם הַחֲתָךְ, the place of the cut, is permitted here, though normally it would be forbidden."}, {"n": 4, "q": "What is the case in the mishnah of Orla that Abaye uses against Rav Dimi?", "opts": {"a": "Teruma leaven that fell into non-sacred dough.", "b": "Split beans of teruma cooked with non-sacred lentils.", "c": "Non-kosher fish brine mixed into permitted brine.", "d": "A sciatic nerve cooked together with a thigh."}, "correct": "b", "why": "גְּרִיסִין of teruma cooked with non-sacred lentils, the &quot;different kind&quot; case of Orla 2:7."}, {"n": 5, "q": "What happened when Abaye asked why leaven at 101 parts should forbid the dough?", "opts": {"a": "Rav Dimi answered that leaven is potent.", "b": "Rav Dimi was silent, and Abaye himself supplied the answer.", "c": "Rav Dimi cited Rabbi Yosei b&#x27;Rabbi Chanina.", "d": "Rav Dimi withdrew his entire position."}, "correct": "b", "why": "אִישְׁתִּיק; then Abaye offered that leaven&#x27;s חִימּוּצוֹ קָשֶׁה, its potency, explains it."}, {"n": 6, "q": "What is the measure for nullifying the brine of a non-kosher fish, according to Rabbi Yehuda?", "opts": {"a": "Sixty.", "b": "A hundred and one.", "c": "Close to two hundred.", "d": "A simple majority."}, "correct": "c", "why": "a quarter-log forbids two se&#x27;ah, about 192 times its volume."}, {"n": 7, "q": "How can brine be nullified at all, given that Rabbi Yehuda holds that like is not nullified in like?", "opts": {"a": "Brine is merely sweat, and so is not considered the fish itself.", "b": "Brine is a liquid, and liquids are always nullified.", "c": "Rabbi Yehuda retracted that rule.", "d": "The brine here came from a kosher fish."}, "correct": "a", "why": "שָׁאנֵי צִיר, דְּזֵיעָה בְּעָלְמָא הוּא: brine is a secretion, not the fish, so it is not its own kind."}, {"n": 8, "q": "What is the accepted halacha about whether sinews impart taste?", "opts": {"a": "They impart taste, so the whole thigh is forbidden.", "b": "They impart taste only when the nerve is larger than an olive-bulk.", "c": "The matter is left unresolved.", "d": "They impart no taste, so removing the nerve suffices."}, "correct": "d", "why": "אֵין בְּגִידִין בְּנוֹתֵן טַעַם, stated three times on the daf and sealed as the halacha."}, {"n": 9, "q": "Why did Rabbi Ami send questioners to Rabbi Yitzchak ben Chalov?", "opts": {"a": "He did not know the answer himself.", "b": "He held the lenient view and wanted it publicised.", "c": "He held the stringent view but was unwilling to impose it on others.", "d": "Rabbi Yitzchak ben Chalov was his teacher."}, "correct": "c", "why": "he did not hold the lenient view himself, but would not rule strictly for others."}, {"n": 10, "q": "What question does the daf end on, unanswered?", "opts": {"a": "Whether the measure is sixty or a hundred.", "b": "Why an unidentified sciatic nerve is not simply nullified by the majority.", "c": "Whether the gid of a non-kosher animal is forbidden.", "d": "Whether a pot&#x27;s absorption counts toward the sixty."}, "correct": "b", "why": "לִיבַּטֵיל בְּרוּבָּא; the answer, בְּרִיָּה שָׁאנֵי, opens tomorrow&#x27;s daf."}];
+const KEYS = ["a","b","c","d"];
+let idx=0, score=0, streak=0, best=0, answered=false, results=[];
+
+const card = document.getElementById("quizCard");
+
+function esc(s){return s;}
+
+function renderQuestion(){
+  answered=false;
+  const q = QUIZ[idx];
+  const pct = Math.round((idx)/QUIZ.length*100);
+  let opts = Object.keys(q.opts).sort().map((k,i)=>`
+    <button class="opt" data-k="${k}">
+      <span class="key">${k.toUpperCase()}</span>
+      <span class="txt">${q.opts[k]}</span>
+    </button>`).join("");
+  card.innerHTML = `
+    <div class="qbar">
+      <span class="qnum">Question ${idx+1} / ${QUIZ.length}</span>
+      <span>Score <span class="pill">${score}</span> ${streak>1?`<span class="streak">🔥 ${streak} streak</span>`:""}</span>
+    </div>
+    <div class="prog"><i style="width:${pct}%"></i></div>
+    <div class="qtext">${q.q}</div>
+    <div class="opts">${opts}</div>
+    <div class="why" id="why"></div>
+    <div class="nav">
+      <span style="color:#9a8a6d;font-size:.85rem">${QUIZ.length-idx-1} to go</span>
+      <button class="btn" id="next" disabled>Next →</button>
+    </div>`;
+  card.querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>choose(b.dataset.k)));
+  document.getElementById("next").addEventListener("click",next);
+}
+
+function choose(k){
+  if(answered) return;
+  answered=true;
+  const q=QUIZ[idx];
+  const correct=q.correct;
+  const chosenRight = k===correct;
+  if(chosenRight){score++;streak++;best=Math.max(best,streak);} else {streak=0;}
+  results.push({n:q.n,q:q.q,chosen:k,correct:correct,opts:q.opts,why:q.why,right:chosenRight});
+  card.querySelectorAll(".opt").forEach(b=>{
+    b.classList.add("locked");
+    const bk=b.dataset.k;
+    if(bk===correct) b.classList.add("correct");
+    else if(bk===k) b.classList.add("wrong");
+    else b.classList.add("dim");
+  });
+  const why=document.getElementById("why");
+  why.innerHTML = `<b>${chosenRight?"✓ Correct.":"✗ Not quite — the answer is "+correct.toUpperCase()+"."}</b> ${q.why}`;
+  why.classList.add("show");
+  const nb=document.getElementById("next");
+  nb.disabled=false; nb.focus();
+  nb.textContent = idx===QUIZ.length-1 ? "See results →" : "Next →";
+  // update live score display
+  card.querySelector(".qbar .pill").textContent=score;
+}
+
+function next(){
+  if(!answered) return;
+  if(idx<QUIZ.length-1){idx++;renderQuestion();window.scrollTo({top:0,behavior:"smooth"});}
+  else endScreen();
+}
+
+function endScreen(){
+  const pct=Math.round(score/QUIZ.length*100);
+  let emoji="📘",msg="Good start — a review round will lock it in.";
+  if(pct===100){emoji="🏆";msg="Perfect score! You own this daf.";}
+  else if(pct>=80){emoji="🌟";msg="Excellent — nearly airtight.";}
+  else if(pct>=60){emoji="👍";msg="Solid. A quick re-read of the tricky ones and you're set.";}
+  const reviewWrong = results.filter(r=>!r.right);
+  let reviewHtml="";
+  if(reviewWrong.length){
+    reviewHtml = `<div class="review"><h3 style="color:var(--accent2)">Worth another look</h3>` +
+      reviewWrong.map(r=>`<div class="r">
+        <div class="rq">${r.n}. ${r.q}</div>
+        <div class="ra no">Your answer: ${r.chosen.toUpperCase()}) ${r.opts[r.chosen]}</div>
+        <div class="ra ok">Correct: ${r.correct.toUpperCase()}) ${r.opts[r.correct]}</div>
+        <div class="ra" style="color:#6a5a3d;margin-top:4px">${r.why}</div>
+      </div>`).join("") + `</div>`;
+  }
+  card.innerHTML = `<div class="end">
+      <div class="big">${emoji}</div>
+      <div class="score">${score} / ${QUIZ.length} &nbsp;·&nbsp; ${pct}%</div>
+      <div class="msg">${msg}${best>1?` &nbsp;·&nbsp; best streak 🔥 ${best}`:""}</div>
+      <button class="btn" id="again">↻ Play again</button>
+    </div>${reviewHtml}`;
+  document.getElementById("again").addEventListener("click",restart);
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function restart(){idx=0;score=0;streak=0;best=0;results=[];renderQuestion();}
+
+// tab switching
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+  document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));
+  t.classList.add("active");
+  document.getElementById(t.dataset.v).classList.add("active");
+  if(t.dataset.v==="quiz" && !card.innerHTML.trim()) renderQuestion();
+}));
+
+// keyboard
+document.addEventListener("keydown",e=>{
+  if(!document.getElementById("quiz").classList.contains("active")) return;
+  if(["1","2","3","4"].includes(e.key)){const k=KEYS[+e.key-1];const b=card.querySelector(`.opt[data-k="${k}"]`);if(b)b.click();}
+  else if(e.key==="Enter"){const n=document.getElementById("next");if(n&&!n.disabled)n.click();}
+});
+
+renderQuestion();
+</script>
+</body>
+</html>

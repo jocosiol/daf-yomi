@@ -132,8 +132,18 @@ Separate major sections with `---`.
 
 ```bash
 python3 sheet_to_web.py <Tractate>_<page>.md <Tractate>_<page>.html
-python3 build_site.py . <Tractate>_<page>.html <Tractate> <page>
+python3 build_site.py . <Tractate>_<page>.html <Tractate> <page> --at 31.7683,35.2137
 ```
+
+**The `--at 31.7683,35.2137` is required.** `index.html` rolls over to the next daf at *sunset*,
+not midnight, and that flag pins sunset to Jerusalem so the homepage always agrees with the
+`timezone=Asia/Jerusalem` calendar you read in step 1. Omit it and the page falls back to guessing
+each visitor's location from their browser timezone — a silent behaviour change. To roll over at
+nightfall instead, add `--offset 40` (minutes after sunset).
+
+Because rollover is automatic, **dapim may already be built ahead** of today. That is fine: this
+build re-seeds `index.html` from whichever daf is current and leaves the future ones in place.
+Never delete a future daf's `.md` or `.html`.
 
 Write the HTML to **exactly** `<Tractate>_<page>.html` — never a temporary name in this
 folder, because `build_site.py` globs every `*.html` at the root and a stray file becomes a

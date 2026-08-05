@@ -243,8 +243,8 @@ Abaye and Rava's circle I would not want to guess at his biography.
 
 - (a) The broth alone.
 - (b) The broth and the pieces only.
-- (c) The broth, the sediment, and the pieces.
-- (d) Any one of the three.
+- (c) Any one of the three.
+- (d) The broth, the sediment, and the pieces.
 
 **5. What is Rav's ruling about a piece that has absorbed forbidden flavor?**
 
@@ -302,7 +302,7 @@ Abaye and Rava's circle I would not want to guess at his biography.
 1. **(b)** — בְּרִיָּה שָׁאנֵי: a complete entity is significant regardless of ratio.
 2. **(a)** — חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים, fit to honour a guest with.
 3. **(b)** — one is excluded as a *beriah*, the other for its dignity; neither reason implies the other, so צְרִיכָא.
-4. **(c)** — the רוֹטֶב, the קִיפָּה, and the חֲתִיכוֹת all together.
+4. **(d)** — the רוֹטֶב, the קִיפָּה, and the חֲתִיכוֹת all together.
 5. **(b)** — חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, and being the same kind it is not nullified.
 6. **(b)** — אוֹקֵי אָמוֹרָא עֲלֵיהּ, he set a disseminator over himself to broadcast it.
 7. **(b)** — under סַלֵּק אֶת מִינוֹ, only the broth and spices count, and they cannot nullify two forbidden pieces.

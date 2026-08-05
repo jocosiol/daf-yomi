@@ -256,8 +256,8 @@ b'Rabbi Chanina**, who is his junior by a generation and belongs to Caesarea.
 
 - (a) They impart taste, so the whole thigh is forbidden.
 - (b) They impart taste only when the nerve is larger than an olive-bulk.
-- (c) They impart no taste, so removing the nerve suffices.
-- (d) The matter is left unresolved.
+- (c) The matter is left unresolved.
+- (d) They impart no taste, so removing the nerve suffices.
 
 **9. Why did Rabbi Ami send questioners to Rabbi Yitzchak ben Chalov?**
 
@@ -291,6 +291,6 @@ b'Rabbi Chanina**, who is his junior by a generation and belongs to Caesarea.
 5. **(b)** — אִישְׁתִּיק; then Abaye offered that leaven's חִימּוּצוֹ קָשֶׁה, its potency, explains it.
 6. **(c)** — a quarter-log forbids two se'ah, about 192 times its volume.
 7. **(a)** — שָׁאנֵי צִיר, דְּזֵיעָה בְּעָלְמָא הוּא: brine is a secretion, not the fish, so it is not its own kind.
-8. **(c)** — אֵין בְּגִידִין בְּנוֹתֵן טַעַם, stated three times on the daf and sealed as the halacha.
+8. **(d)** — אֵין בְּגִידִין בְּנוֹתֵן טַעַם, stated three times on the daf and sealed as the halacha.
 9. **(c)** — he did not hold the lenient view himself, but would not rule strictly for others.
 10. **(b)** — לִיבַּטֵיל בְּרוּבָּא; the answer, בְּרִיָּה שָׁאנֵי, opens tomorrow's daf.
