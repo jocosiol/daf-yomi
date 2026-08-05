@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="archive">
+  <h1>{% for l in langs %}<span data-lang="{{ l }}">{{ ui[l].archive_title }}</span>{% endfor %}</h1>
+  <div class="lede">
+  {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].archive_lede }}</span>{% endfor -%}
+  </div>
+  <ul id="list">
+  {% for e in entries %}
+    <li data-date="{{ e.iso }}"><a href="{{ e.file }}">
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ e.label[l] }}</span>{% endfor -%}
+    </a>
+    {%- if e.iso %} &middot; <span class="when">
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ e.display[l] }}</span>{% endfor -%}
+    </span>{% endif %}</li>
+  {% endfor %}
+  </ul>
+  <div class="zman" id="zman"></div>
+  <div class="home"><a href="index.html">
+  {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].back }}</span>{% endfor -%}
+  </a></div>
+</div>
+{% endblock %}

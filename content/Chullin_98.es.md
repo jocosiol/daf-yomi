@@ -1,6 +1,17 @@
-# Daf Yomi — Julín 98 (חולין צח)
-
-**Capítulo 7: *Guid HaNashé* (el nervio sciático) · Fecha de estudio: jue, 6 de agosto de 2026**
+---
+lang: es
+title: Daf Yomi — Julín 98 (חולין צח)
+chapter:
+  name: Guid HaNashé
+  gloss: el nervio sciático
+summary: 'El daf de ayer construyó los dos caminos para permitir una mezcla: probarla, o — cuando
+  nadie puede saborearla — recurrir a una proporción fija.'
+tomorrow:
+  ref: Julín 99
+  teaser: la misma objeción de "no derivamos de una anomalía" se vuelve contra la comida consagrada
+    ("todo lo que toque su carne será consagrado"), Ravina ofrece una tercera lectura del "esto"
+    de la baraita, y la suguiá pasa al* lugar del corte *entre un trozo permitido y uno prohibido.
+---
 
 ## El panorama general (leer esto primero)
 
@@ -305,80 +316,6 @@ que aquí, en el carnero del nazir, el resto del animal está permitido incluso 
 
 ---
 
-## Chazará — ponte a prueba
-
-**1. ¿Cómo defiende Abaie la afirmación de que un huevo no kosher no imparte sabor?**
-
-- (a) Los huevos nunca están sujetos a anulación en absoluto.
-- (b) El huevo prohibido de la baraita es uno que contiene un pollito (*beitzat efróaj*) — eso es lo que imparte sabor.
-- (c) Solo un huevo hervido imparte sabor, no uno asado.
-- (d) La prohibición de los huevos no kosher es solo rabínica, así que somos indulgentes.
-
-**2. Los Rabinos rechazaron medir el volumen permitido junto con lo que la olla había absorbido. ¿Por qué?**
-
-- (a) La absorción de una olla es imposible de estimar.
-- (b) Porque la olla absorbió la grasa prohibida tanto como la carne permitida.
-- (c) Porque el barro nunca absorbe nada.
-- (d) Porque la olla debe kasherizarse primero.
-
-**3. Mar bar Rav Ashi propuso que *medio* volumen de aceituna de grasa prohibida necesita solo treinta medios volúmenes de aceituna para anularse. ¿Con qué argumentos lo rechazó Rav Ashi?**
-
-- (a) La proporción correcta para la grasa es cien, no sesenta.
-- (b) Las medias medidas siempre están permitidas de plano, así que no hace falta medir.
-- (c) No tomes a la ligera las medidas rabínicas — y R' Iojanán sostiene que media medida está prohibida por la Torá.
-- (d) Porque la grasa prohibida nunca puede anularse.
-
-**4. ¿Cuál era el dilema sin resolver sobre "sesenta y uno" en el caso del huevo no kosher?**
-
-- (a) Si los huevos deben ser del mismo tamaño.
-- (b) Si "sesenta y uno" se cuenta incluyendo el huevo prohibido o además de él.
-- (c) Si la regla aplica solo a huevos de ave o también a huevos de pescado.
-- (d) Si la cuenta es por volumen o por número.
-
-**5. Rabí Jiiá preguntó: "¿Acaso hay siquiera treinta?" — lo que parece implicar que treinta bastaría. ¿Cómo desactiva esto Rabí Janiná?**
-
-- (a) R' Jiiá sostenía una opinión minoritaria que fue rechazada.
-- (b) Treinta basta solo para prohibiciones rabínicas.
-- (c) Era *guzmá* — exageración retórica; no había ni de cerca suficiente, así que el caso era obvio.
-- (d) El texto está corrupto y debería leer "sesenta".
-
-**6. Tanto la opinión de "sesenta" como la de "cien" se derivan de la misma fuente. ¿Cuál es?**
-
-- (a) La sangre del toro y la sangre del chivo en Iom Kipur.
-- (b) La prohibición del *guid hanashé* en Bereshit.
-- (c) La baraita de la trumá en una olla.
-- (d) *Zeróa beshelá* — la "pata delantera cocida" del carnero del nazir (Bamidbar 6:19).
-
-**7. ¿Cómo salen los dos números — sesenta y cien — de ese único caso?**
-
-- (a) Sesenta mide carne y huesos contra carne y huesos; cien mide carne contra carne solamente.
-- (b) Sesenta es la cuenta babilonia, cien la de Erretz Israel.
-- (c) Sesenta es para asar, cien para hervir.
-- (d) Sesenta es para una pata entera, cien para una cortada.
-
-**8. ¿Cuál es la disputa tanaítica sobre la palabra "בְּשֵׁלָה"?**
-
-- (a) Si la pata se hierve o se asa.
-- (b) Si significa que la pata debe estar *entera*, o que se *cocina junto con todo el carnero*.
-- (c) Si el cohén o el nazir hace la cocción.
-- (d) Si se refiere a la pata delantera o al hombro.
-
-**9. ¿Por qué Rabí Iehudá se niega a aprender del carnero del nazir que lo igual dentro de lo igual *sí* se anula?**
-
-- (a) Porque el carnero es un sacrificio, y los sacrificios no dicen nada sobre comida ordinaria.
-- (b) Porque la pata se cocina en una olla aparte en toda lectura posible.
-- (c) Porque el carnero es un *jidush* — una anomalía, ya que la Torá te hace anular a propósito — y de una anomalía no derivamos.
-- (d) Porque el "*esto*" de la baraita excluye solo carne con leche.
-
-**10. Si el carnero del nazir es una anomalía, ¿por qué se puede derivar de él sesenta o cien?**
-
-- (a) Porque la regla de la anomalía aplica solo a fuentes tanaíticas.
-- (b) Porque lo derivamos como estrictez, no como indulgencia — la ley de la Torá sola anularía por simple mayoría.
-- (c) Porque Rava rechaza por completo la afirmación de la anomalía.
-- (d) Porque la casa del Nasí dictaminó así.
-
----
-
 ## Una línea para llevarte
 
 > El número sesenta no es una tradición recibida — es un acto de *lectura*: una pata delantera
@@ -388,22 +325,112 @@ que aquí, en el carnero del nazir, el resto del animal está permitido incluso 
 
 ---
 
-*Mañana (7 ago 2026): Julín 99 — la misma objeción de "no derivamos de una anomalía" se vuelve
-contra la comida consagrada ("todo lo que toque su carne será consagrado"), Ravina ofrece una
-tercera lectura del "esto" de la baraita, y la suguiá pasa al* lugar del corte *entre un trozo
-permitido y uno prohibido.*
+---
 
 ---
 
-## Chazará — respuestas
+## Chazará — ponte a prueba
 
-1. **(b)** — toda la defensa de Abaie es que el "huevo no kosher" de la baraita es uno con un pollito dentro; un huevo no kosher sin pollito no imparte sabor.
-2. **(b)** — *Atu deheterá balá, deisurá lo balá?* El recipiente también se bebió la grasa prohibida, así que su absorción no puede acreditarse solo al lado permitido.
-3. **(c)** — Dos razones: no ser descuidado con las medidas de los Sabios, y *jatzí shiur asur min haTorá* (R' Iojanán), así que la media aceituna está plenamente prohibida y necesita sesenta completos.
-4. **(b)** — *Bahadei didah o levar minah* — incluyendo el huevo prohibido o además de él. R' Iaacov bar Idi y R' Shmuel bar Najmaní lo dejaron abierto; R' Jelbó/Rav Huna dicen sesenta y uno además de él.
-5. **(c)** — *Guzmá*: R' Jiiá exageraba, no fijaba un umbral de treinta; no había ni esa cantidad, así que el caso estaba claramente prohibido.
-6. **(d)** — *Zeróa beshelá*, la pata delantera cocida del carnero del nazir (Bamidbar 6:19), cocida con el carnero y sin prohibirlo a un no-cohén.
-7. **(a)** — Contar la carne *y los huesos* de la pata contra la carne y los huesos del carnero da unos 1:60; contar carne contra carne sola da 1:100.
-8. **(b)** — El primer tana: "*beshelá*" significa que la pata debe estar entera. RaSHBI: significa cocida junto con todo el carnero.
-9. **(c)** — *Jidush hu, umejidush lo gamrinan* — normalmente no se puede anular una prohibición a propósito, y aquí la Torá lo indica; así que deriva *min bemino* de la sangre del toro y del chivo (Vaikrá 16:18).
-10. **(b)** — *Atu anan lekulá gamrinan? Lejumrá gamrinan* — por ley de la Torá la anulación es por simple mayoría (*berubá*), así que 60/100 son restricciones, y una restricción puede aprenderse incluso de una anomalía.
+```yaml
+- q: ¿Cómo defiende Abaie la afirmación de que un huevo no kosher no imparte sabor?
+  opts:
+  - Los huevos nunca están sujetos a anulación en absoluto.
+  - El huevo prohibido de la baraita es uno que contiene un pollito (*beitzat efróaj*) — eso es lo
+    que imparte sabor.
+  - Solo un huevo hervido imparte sabor, no uno asado.
+  - La prohibición de los huevos no kosher es solo rabínica, así que somos indulgentes.
+  correct: b
+  why: toda la defensa de Abaie es que el "huevo no kosher" de la baraita es uno con un pollito dentro;
+    un huevo no kosher sin pollito no imparte sabor.
+- q: Los Rabinos rechazaron medir el volumen permitido junto con lo que la olla había absorbido.
+    ¿Por qué?
+  opts:
+  - La absorción de una olla es imposible de estimar.
+  - Porque la olla absorbió la grasa prohibida tanto como la carne permitida.
+  - Porque el barro nunca absorbe nada.
+  - Porque la olla debe kasherizarse primero.
+  correct: b
+  why: '*Atu deheterá balá, deisurá lo balá?* El recipiente también se bebió la grasa prohibida,
+    así que su absorción no puede acreditarse solo al lado permitido.'
+- q: Mar bar Rav Ashi propuso que *medio* volumen de aceituna de grasa prohibida necesita solo treinta
+    medios volúmenes de aceituna para anularse. ¿Con qué argumentos lo rechazó Rav Ashi?
+  opts:
+  - La proporción correcta para la grasa es cien, no sesenta.
+  - Las medias medidas siempre están permitidas de plano, así que no hace falta medir.
+  - No tomes a la ligera las medidas rabínicas — y R' Iojanán sostiene que media medida está prohibida
+    por la Torá.
+  - Porque la grasa prohibida nunca puede anularse.
+  correct: c
+  why: 'Dos razones: no ser descuidado con las medidas de los Sabios, y *jatzí shiur asur min haTorá*
+    (R'' Iojanán), así que la media aceituna está plenamente prohibida y necesita sesenta completos.'
+- q: ¿Cuál era el dilema sin resolver sobre "sesenta y uno" en el caso del huevo no kosher?
+  opts:
+  - Si los huevos deben ser del mismo tamaño.
+  - Si "sesenta y uno" se cuenta incluyendo el huevo prohibido o además de él.
+  - Si la regla aplica solo a huevos de ave o también a huevos de pescado.
+  - Si la cuenta es por volumen o por número.
+  correct: b
+  why: '*Bahadei didah o levar minah* — incluyendo el huevo prohibido o además de él. R'' Iaacov
+    bar Idi y R'' Shmuel bar Najmaní lo dejaron abierto; R'' Jelbó/Rav Huna dicen sesenta y uno además
+    de él.'
+- q: 'Rabí Jiiá preguntó: "¿Acaso hay siquiera treinta?" — lo que parece implicar que treinta bastaría.
+    ¿Cómo desactiva esto Rabí Janiná?'
+  opts:
+  - R' Jiiá sostenía una opinión minoritaria que fue rechazada.
+  - Treinta basta solo para prohibiciones rabínicas.
+  - Era *guzmá* — exageración retórica; no había ni de cerca suficiente, así que el caso era obvio.
+  - El texto está corrupto y debería leer "sesenta".
+  correct: c
+  why: '*Guzmá*: R'' Jiiá exageraba, no fijaba un umbral de treinta; no había ni esa cantidad, así
+    que el caso estaba claramente prohibido.'
+- q: Tanto la opinión de "sesenta" como la de "cien" se derivan de la misma fuente. ¿Cuál es?
+  opts:
+  - La sangre del toro y la sangre del chivo en Iom Kipur.
+  - La prohibición del *guid hanashé* en Bereshit.
+  - La baraita de la trumá en una olla.
+  - '*Zeróa beshelá* — la "pata delantera cocida" del carnero del nazir (Bamidbar 6:19).'
+  correct: d
+  why: '*Zeróa beshelá*, la pata delantera cocida del carnero del nazir (Bamidbar 6:19), cocida con
+    el carnero y sin prohibirlo a un no-cohén.'
+- q: ¿Cómo salen los dos números — sesenta y cien — de ese único caso?
+  opts:
+  - Sesenta mide carne y huesos contra carne y huesos; cien mide carne contra carne solamente.
+  - Sesenta es la cuenta babilonia, cien la de Erretz Israel.
+  - Sesenta es para asar, cien para hervir.
+  - Sesenta es para una pata entera, cien para una cortada.
+  correct: a
+  why: Contar la carne *y los huesos* de la pata contra la carne y los huesos del carnero da unos
+    1:60; contar carne contra carne sola da 1:100.
+- q: ¿Cuál es la disputa tanaítica sobre la palabra "בְּשֵׁלָה"?
+  opts:
+  - Si la pata se hierve o se asa.
+  - Si significa que la pata debe estar *entera*, o que se *cocina junto con todo el carnero*.
+  - Si el cohén o el nazir hace la cocción.
+  - Si se refiere a la pata delantera o al hombro.
+  correct: b
+  why: 'El primer tana: "*beshelá*" significa que la pata debe estar entera. RaSHBI: significa cocida
+    junto con todo el carnero.'
+- q: ¿Por qué Rabí Iehudá se niega a aprender del carnero del nazir que lo igual dentro de lo igual
+    *sí* se anula?
+  opts:
+  - Porque el carnero es un sacrificio, y los sacrificios no dicen nada sobre comida ordinaria.
+  - Porque la pata se cocina en una olla aparte en toda lectura posible.
+  - Porque el carnero es un *jidush* — una anomalía, ya que la Torá te hace anular a propósito —
+    y de una anomalía no derivamos.
+  - Porque el "*esto*" de la baraita excluye solo carne con leche.
+  correct: c
+  why: '*Jidush hu, umejidush lo gamrinan* — normalmente no se puede anular una prohibición a propósito,
+    y aquí la Torá lo indica; así que deriva *min bemino* de la sangre del toro y del chivo (Vaikrá
+    16:18).'
+- q: Si el carnero del nazir es una anomalía, ¿por qué se puede derivar de él sesenta o cien?
+  opts:
+  - Porque la regla de la anomalía aplica solo a fuentes tanaíticas.
+  - Porque lo derivamos como estrictez, no como indulgencia — la ley de la Torá sola anularía por
+    simple mayoría.
+  - Porque Rava rechaza por completo la afirmación de la anomalía.
+  - Porque la casa del Nasí dictaminó así.
+  correct: b
+  why: '*Atu anan lekulá gamrinan? Lejumrá gamrinan* — por ley de la Torá la anulación es por simple
+    mayoría (*berubá*), así que 60/100 son restricciones, y una restricción puede aprenderse incluso
+    de una anomalía.'
+```

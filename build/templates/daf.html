@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="wrap">
+  <header class="top">
+    <h1>
+    {%- for g in groups %}<span data-lang="{{ g.langs }}">{{ g.title_html|safe }}</span>{% endfor -%}
+    </h1>
+    <div class="sub">
+    {%- for g in groups %}<span data-lang="{{ g.langs }}">{{ g.subtitle|safe }}</span>{% endfor -%}
+    </div>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button class="tab active" type="button" role="tab" aria-selected="true"
+            aria-controls="learn" data-v="learn">📖&nbsp;
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].learn }}</span>{% endfor -%}
+    </button>
+    {% if has_quiz %}
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="quiz" data-v="quiz">🎯&nbsp;
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].quiz }}</span>{% endfor -%}
+    </button>
+    {% endif %}
+  </div>
+
+  <section class="view active" id="learn" role="tabpanel">
+    {% for l in untranslated %}
+    <div class="untranslated" data-lang="{{ l }}">{{ ui[l].untranslated }}</div>
+    {% endfor %}
+    {% for g in groups %}
+    <div class="sheet" data-lang="{{ g.langs }}">
+      {{ g.learn_html|safe }}
+      {% if g.tomorrow.ref %}
+      <p class="tomorrow">{{ ui[g.lang].tomorrow }}{% if g.tomorrow.display %} ({{ g.tomorrow.display }}){% endif %}:
+        <strong>{{ g.tomorrow.ref }}</strong>{% if g.tomorrow.teaser %} — {{ g.tomorrow.teaser }}{% endif %}</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  {% if has_quiz %}
+  <section class="view" id="quiz" role="tabpanel">
+    <div class="quiz" id="quizCard"></div>
+    <div class="hint">
+    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].tip }}</span>{% endfor -%}
+    </div>
+  </section>
+  {% endif %}
+</div>
+{% if has_quiz %}
+<script>window.QUIZ_BY_LANG = {{ quiz_json|safe }};</script>
+<script src="{{ asset('quiz.js') }}"></script>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{# lang.js overwrites this attribute in <head> before the first paint. #}
+<html lang="{{ default_lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+{% if description %}
+<meta name="description" content="{{ description }}">
+{% endif %}
+<meta name="theme-color" content="#f4ecd8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16130f" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ page_title }}">
+{% if description %}
+<meta property="og:description" content="{{ description }}">
+{% endif %}
+{% if site_url and canonical %}
+<meta property="og:url" content="{{ site_url }}/{{ canonical }}">
+<link rel="canonical" href="{{ site_url }}/{{ canonical }}">
+{% endif %}
+{% for l in langs %}
+{% if site_url and canonical %}
+<link rel="alternate" hreflang="{{ l }}" href="{{ site_url }}/{{ canonical }}?lang={{ l }}">
+{% endif %}
+{% endfor %}
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📖</text></svg>">
+<link rel="stylesheet" href="{{ asset('daf.css') }}">
+{# |safe: this is JSON, not markup. Autoescaping it would turn every quote into
+   &#34;, which a <script> block does not decode — JSON.parse would then throw
+   and the page would silently lose its language and routing. #}
+<script type="application/json" id="daf-config">{{ config_json|safe }}</script>
+<script src="{{ asset('lang.js') }}"></script>
+{% if needs_zman %}
+<script src="{{ asset('zman.js') }}"></script>
+{% endif %}
+</head>
+<body>
+<nav id="site-nav">
+{% if not is_index %}
+  <a href="index.html">{% for l in langs %}<span data-lang="{{ l }}">{{ ui[l].nav_today }}</span>{% endfor %}</a>
+{% endif %}
+{% if not is_archive %}
+  <a href="archive.html">{% for l in langs %}<span data-lang="{{ l }}">{{ ui[l].nav_archive }}</span>{% endfor %}</a>
+{% endif %}
+{% if langs|length > 1 %}
+  {# The button shows the language it switches TO, so each label sits under the
+     data-lang of the language currently being displayed. #}
+  <button id="lang-btn" type="button">
+  {%- for l in langs %}<span data-lang="{{ l }}" title="{{ switch[l].title }}">🌐 {{ switch[l].label }}</span>{% endfor -%}
+  </button>
+{% endif %}
+</nav>
+{% block body %}{% endblock %}
+</body>
+</html>

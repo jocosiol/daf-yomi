@@ -1,0 +1,8 @@
+[
+  {
+    "_note": "Built before content/ existed and has no markdown source, so the build leaves the page alone and only lists it. Regenerate it from Sefaria into content/Chullin_97.md and delete this entry to bring it under the normal pipeline.",
+    "file": "Chullin_97.html",
+    "study_date": "2026-08-05",
+    "labels": { "en": "Chullin 97", "es": "Julín 97" }
+  }
+]

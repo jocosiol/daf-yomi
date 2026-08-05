@@ -1,0 +1,62 @@
+[
+ {
+  "file": "Chullin_97.html",
+  "iso": "2026-08-05",
+  "label": {
+   "en": "Chullin 97",
+   "es": "Julín 97"
+  },
+  "display": {
+   "en": "Wed, 5 August 2026",
+   "es": "mié, 5 de agosto de 2026"
+  }
+ },
+ {
+  "file": "Chullin_98.html",
+  "iso": "2026-08-06",
+  "label": {
+   "en": "Chullin 98",
+   "es": "Julín 98"
+  },
+  "display": {
+   "en": "Thu, 6 August 2026",
+   "es": "jue, 6 de agosto de 2026"
+  }
+ },
+ {
+  "file": "Chullin_99.html",
+  "iso": "2026-08-07",
+  "label": {
+   "en": "Chullin 99",
+   "es": "Julín 99"
+  },
+  "display": {
+   "en": "Fri, 7 August 2026",
+   "es": "vie, 7 de agosto de 2026"
+  }
+ },
+ {
+  "file": "Chullin_100.html",
+  "iso": "2026-08-08",
+  "label": {
+   "en": "Chullin 100",
+   "es": "Chullin 100"
+  },
+  "display": {
+   "en": "Sat, 8 August 2026",
+   "es": "sáb, 8 de agosto de 2026"
+  }
+ },
+ {
+  "file": "Chullin_101.html",
+  "iso": "2026-08-09",
+  "label": {
+   "en": "Chullin 101",
+   "es": "Chullin 101"
+  },
+  "display": {
+   "en": "Sun, 9 August 2026",
+   "es": "dom, 9 de agosto de 2026"
+  }
+ }
+]

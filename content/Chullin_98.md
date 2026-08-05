@@ -1,6 +1,21 @@
-# Daf Yomi — Chullin 98 (חולין צח)
-
-**Chapter 7: *Gid HaNasheh* (the sciatic nerve) · Study date: Thu, 6 August 2026**
+---
+tractate: Chullin
+page: 98
+daf_he: חולין צח
+chapter:
+  n: 7
+  name: Gid HaNasheh
+  gloss: the sciatic nerve
+study_date: 2026-08-06
+summary: 'Yesterday''s daf built the two roads to permitting a mixture: taste it, or — when nobody
+  can taste it — fall back on a fixed ratio.'
+tomorrow:
+  date: 2026-08-07
+  ref: Chullin 99
+  teaser: the same "we don't derive from an anomaly" objection is turned on sacrificial food ("whatever
+    touches its flesh shall be holy"), Ravina offers a third reading of the baraita's "this," and
+    the sugya moves to the* place of the cut *between a permitted and a forbidden piece.
+---
 
 ## The big picture (read this first)
 
@@ -301,80 +316,6 @@ nazirite's ram, the rest of the animal is permitted even to non-kohanim.
 
 ---
 
-## Chazara — test yourself
-
-**1. How does Abaye defend the claim that a non-kosher egg imparts no flavor?**
-
-- (a) Eggs are never subject to nullification at all.
-- (b) The baraita's forbidden egg is one containing a chick (*beitzat efroach*) — that is what imparts flavor.
-- (c) Only a boiled egg imparts flavor, not a roasted one.
-- (d) The prohibition on non-kosher eggs is only rabbinic, so we are lenient.
-
-**2. The Rabbis rejected measuring the permitted volume together with what the pot had absorbed. Why?**
-
-- (a) A pot's absorption is impossible to estimate.
-- (b) Because the pot absorbed the forbidden fat just as much as the permitted meat.
-- (c) Because earthenware never absorbs at all.
-- (d) Because the pot must be kashered first.
-
-**3. Mar bar Rav Ashi proposed that a *half*-olive-bulk of forbidden fat needs only thirty half-olive-bulks to nullify it. On what grounds did Rav Ashi reject this?**
-
-- (a) The correct ratio for fat is a hundred, not sixty.
-- (b) Half-measures are always permitted outright, so no measuring is needed.
-- (c) Don't treat rabbinic measures lightly — and R' Yochanan holds a half-measure is forbidden by Torah law.
-- (d) Because forbidden fat can never be nullified.
-
-**4. What was the unresolved dilemma about "sixty-one" in the case of the non-kosher egg?**
-
-- (a) Whether the eggs must be the same size.
-- (b) Whether "sixty-one" is counted including the forbidden egg or besides it.
-- (c) Whether the rule applies to bird eggs only or also to fish eggs.
-- (d) Whether the count is by volume or by number.
-
-**5. Rabbi Chiyya asked, "Is there even thirty?" — which seems to imply thirty would suffice. How does Rabbi Chanina defuse this?**
-
-- (a) R' Chiyya held a minority view that was rejected.
-- (b) Thirty suffices only for rabbinic prohibitions.
-- (c) It was *guzma* — rhetorical exaggeration; there was nowhere near enough, so the case was obvious.
-- (d) The text is corrupt and should read "sixty."
-
-**6. Both the "sixty" and the "one hundred" opinions are derived from the same source. What is it?**
-
-- (a) The blood of the bull and the blood of the goat on Yom Kippur.
-- (b) The prohibition of *gid hanasheh* in Bereishit.
-- (c) The teruma-in-a-pot baraita.
-- (d) *Zeroa besheila* — the nazirite's "cooked foreleg" (Bamidbar 6:19).
-
-**7. How do the two numbers — sixty and a hundred — come out of that one case?**
-
-- (a) Sixty measures meat and bones against meat and bones; a hundred measures meat against meat alone.
-- (b) Sixty is the Babylonian count, a hundred the Eretz-Yisrael count.
-- (c) Sixty is for roasting, a hundred for boiling.
-- (d) Sixty is for a whole foreleg, a hundred for a cut one.
-
-**8. What is the tannaitic dispute over the word "בְּשֵׁלָה"?**
-
-- (a) Whether the foreleg is boiled or roasted.
-- (b) Whether it means the foreleg must be *whole*, or that it is *cooked together with the whole ram*.
-- (c) Whether the kohen or the nazir does the cooking.
-- (d) Whether it refers to the foreleg or the shoulder.
-
-**9. Why does Rabbi Yehuda refuse to learn from the nazirite's ram that like-in-like *is* nullified?**
-
-- (a) Because the ram is a sacrifice, and sacrifices have no bearing on ordinary food.
-- (b) Because the foreleg is cooked in a separate pot on every reading.
-- (c) Because the ram is a *chiddush* — an anomaly, since the Torah has you nullify deliberately — and we don't derive from an anomaly.
-- (d) Because the baraita's "*this*" excludes only meat-in-milk.
-
-**10. If the nazirite's ram is an anomaly, why may we nonetheless derive sixty or a hundred from it?**
-
-- (a) Because the anomaly rule applies only to tannaitic sources.
-- (b) Because we derive it as a stringency, not a leniency — Torah law alone would nullify by simple majority.
-- (c) Because Rava rejects the anomaly claim entirely.
-- (d) Because the Nasi's house ruled that way.
-
----
-
 ## One line to carry with you
 
 > The number sixty is not a received tradition — it is an act of *reading*: one cooked foreleg in
@@ -384,22 +325,110 @@ nazirite's ram, the rest of the animal is permitted even to non-kohanim.
 
 ---
 
-*Tomorrow (7 Aug 2026): Chullin 99 — the same "we don't derive from an anomaly" objection is
-turned on sacrificial food ("whatever touches its flesh shall be holy"), Ravina offers a third
-reading of the baraita's "this," and the sugya moves to the* place of the cut *between a permitted
-and a forbidden piece.*
+---
 
 ---
 
-## Chazara — answer key
+## Chazara — test yourself
 
-1. **(b)** — Abaye's whole defense is that the baraita's "non-kosher egg" is one with a chick inside; a chick-less non-kosher egg imparts no flavor.
-2. **(b)** — *Atu d'heteira bala, d'issura la bala?* The vessel drank in the forbidden fat too, so its absorption can't be credited only to the permitted side.
-3. **(c)** — Two reasons: don't be casual with the Sages' measures, and *chatzi shiur asur min haTorah* (R' Yochanan), so the half-olive is fully forbidden and needs a full sixty.
-4. **(b)** — *Bahadei didah o l'var minah* — including the forbidden egg or besides it. R' Yaakov bar Idi and R' Shmuel bar Nachmani left it open; R' Chelbo/Rav Huna say sixty-one besides it.
-5. **(c)** — *Guzma*: R' Chiyya was exaggerating, not setting a threshold of thirty; there wasn't even that much, so the case was plainly forbidden.
-6. **(d)** — *Zeroa besheila*, the cooked foreleg of the nazirite's ram (Bamidbar 6:19), cooked with the ram yet not forbidding it to a non-kohen.
-7. **(a)** — Counting the foreleg's meat *and bones* against the ram's meat and bones gives about 1:60; counting meat against meat alone gives 1:100.
-8. **(b)** — The first tanna: "*besheila*" means the foreleg must be whole. RaShBY: it means cooked together with the entire ram.
-9. **(c)** — *Chiddush hu, u'mechiddush la gamrinan* — normally one may not nullify a prohibition deliberately, yet here the Torah instructs it; so he derives *min b'mino* from the bull's and goat's blood instead (Vayikra 16:18).
-10. **(b)** — *Atu anan l'kula gamrinan? L'chumra gamrinan* — by Torah law nullification is by simple majority (*b'ruba*), so 60/100 are restrictions, and a restriction may be learned even from an anomaly.
+```yaml
+- q: How does Abaye defend the claim that a non-kosher egg imparts no flavor?
+  opts:
+  - Eggs are never subject to nullification at all.
+  - The baraita's forbidden egg is one containing a chick (*beitzat efroach*) — that is what imparts
+    flavor.
+  - Only a boiled egg imparts flavor, not a roasted one.
+  - The prohibition on non-kosher eggs is only rabbinic, so we are lenient.
+  correct: b
+  why: Abaye's whole defense is that the baraita's "non-kosher egg" is one with a chick inside; a
+    chick-less non-kosher egg imparts no flavor.
+- q: The Rabbis rejected measuring the permitted volume together with what the pot had absorbed.
+    Why?
+  opts:
+  - A pot's absorption is impossible to estimate.
+  - Because the pot absorbed the forbidden fat just as much as the permitted meat.
+  - Because earthenware never absorbs at all.
+  - Because the pot must be kashered first.
+  correct: b
+  why: '*Atu d''heteira bala, d''issura la bala?* The vessel drank in the forbidden fat too, so its
+    absorption can''t be credited only to the permitted side.'
+- q: Mar bar Rav Ashi proposed that a *half*-olive-bulk of forbidden fat needs only thirty half-olive-bulks
+    to nullify it. On what grounds did Rav Ashi reject this?
+  opts:
+  - The correct ratio for fat is a hundred, not sixty.
+  - Half-measures are always permitted outright, so no measuring is needed.
+  - Don't treat rabbinic measures lightly — and R' Yochanan holds a half-measure is forbidden by
+    Torah law.
+  - Because forbidden fat can never be nullified.
+  correct: c
+  why: 'Two reasons: don''t be casual with the Sages'' measures, and *chatzi shiur asur min haTorah*
+    (R'' Yochanan), so the half-olive is fully forbidden and needs a full sixty.'
+- q: What was the unresolved dilemma about "sixty-one" in the case of the non-kosher egg?
+  opts:
+  - Whether the eggs must be the same size.
+  - Whether "sixty-one" is counted including the forbidden egg or besides it.
+  - Whether the rule applies to bird eggs only or also to fish eggs.
+  - Whether the count is by volume or by number.
+  correct: b
+  why: '*Bahadei didah o l''var minah* — including the forbidden egg or besides it. R'' Yaakov bar
+    Idi and R'' Shmuel bar Nachmani left it open; R'' Chelbo/Rav Huna say sixty-one besides it.'
+- q: Rabbi Chiyya asked, "Is there even thirty?" — which seems to imply thirty would suffice. How
+    does Rabbi Chanina defuse this?
+  opts:
+  - R' Chiyya held a minority view that was rejected.
+  - Thirty suffices only for rabbinic prohibitions.
+  - It was *guzma* — rhetorical exaggeration; there was nowhere near enough, so the case was obvious.
+  - The text is corrupt and should read "sixty."
+  correct: c
+  why: '*Guzma*: R'' Chiyya was exaggerating, not setting a threshold of thirty; there wasn''t even
+    that much, so the case was plainly forbidden.'
+- q: Both the "sixty" and the "one hundred" opinions are derived from the same source. What is it?
+  opts:
+  - The blood of the bull and the blood of the goat on Yom Kippur.
+  - The prohibition of *gid hanasheh* in Bereishit.
+  - The teruma-in-a-pot baraita.
+  - '*Zeroa besheila* — the nazirite''s "cooked foreleg" (Bamidbar 6:19).'
+  correct: d
+  why: '*Zeroa besheila*, the cooked foreleg of the nazirite''s ram (Bamidbar 6:19), cooked with
+    the ram yet not forbidding it to a non-kohen.'
+- q: How do the two numbers — sixty and a hundred — come out of that one case?
+  opts:
+  - Sixty measures meat and bones against meat and bones; a hundred measures meat against meat alone.
+  - Sixty is the Babylonian count, a hundred the Eretz-Yisrael count.
+  - Sixty is for roasting, a hundred for boiling.
+  - Sixty is for a whole foreleg, a hundred for a cut one.
+  correct: a
+  why: Counting the foreleg's meat *and bones* against the ram's meat and bones gives about 1:60;
+    counting meat against meat alone gives 1:100.
+- q: What is the tannaitic dispute over the word "בְּשֵׁלָה"?
+  opts:
+  - Whether the foreleg is boiled or roasted.
+  - Whether it means the foreleg must be *whole*, or that it is *cooked together with the whole ram*.
+  - Whether the kohen or the nazir does the cooking.
+  - Whether it refers to the foreleg or the shoulder.
+  correct: b
+  why: 'The first tanna: "*besheila*" means the foreleg must be whole. RaShBY: it means cooked together
+    with the entire ram.'
+- q: Why does Rabbi Yehuda refuse to learn from the nazirite's ram that like-in-like *is* nullified?
+  opts:
+  - Because the ram is a sacrifice, and sacrifices have no bearing on ordinary food.
+  - Because the foreleg is cooked in a separate pot on every reading.
+  - Because the ram is a *chiddush* — an anomaly, since the Torah has you nullify deliberately —
+    and we don't derive from an anomaly.
+  - Because the baraita's "*this*" excludes only meat-in-milk.
+  correct: c
+  why: '*Chiddush hu, u''mechiddush la gamrinan* — normally one may not nullify a prohibition deliberately,
+    yet here the Torah instructs it; so he derives *min b''mino* from the bull''s and goat''s blood
+    instead (Vayikra 16:18).'
+- q: If the nazirite's ram is an anomaly, why may we nonetheless derive sixty or a hundred from it?
+  opts:
+  - Because the anomaly rule applies only to tannaitic sources.
+  - Because we derive it as a stringency, not a leniency — Torah law alone would nullify by simple
+    majority.
+  - Because Rava rejects the anomaly claim entirely.
+  - Because the Nasi's house ruled that way.
+  correct: b
+  why: '*Atu anan l''kula gamrinan? L''chumra gamrinan* — by Torah law nullification is by simple
+    majority (*b''ruba*), so 60/100 are restrictions, and a restriction may be learned even from
+    an anomaly.'
+```

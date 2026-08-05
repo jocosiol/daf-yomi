@@ -1,6 +1,16 @@
-# Daf Yomi — Julín 99 (חולין צט)
-
-**Capítulo 7: *Guid HaNashé* (el nervio sciático) · Fecha de estudio: vie, 7 de agosto de 2026**
+---
+lang: es
+title: Daf Yomi — Julín 99 (חולין צט)
+chapter:
+  name: Guid HaNashé
+  gloss: el nervio sciático
+summary: El daf de ayer derivó la anulación en sesenta de la pata delantera cocida del carnero del
+  nazir — y acto seguido amenazó con demoler esa misma derivación, porque **מֵחִדּוּשׁ לָא ג
+tomorrow:
+  ref: Julín 100
+  teaser: 'por qué algunas cosas prohibidas no se anulan nunca: una **בְּרִיָּה**, una entidad entera,
+    y una **חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד** — un trozo lo bastante bueno para servirle a un invitado.'
+---
 
 ## El panorama general (leer esto primero)
 
@@ -203,96 +213,101 @@ bar Rabí Janiná**, que es una generación menor que él y pertenece a Cesarea.
 
 ---
 
-## Chazará — ponte a prueba
-
-**1. ¿Cómo rescata la Guemará la derivación de sesenta de la objeción de que no aprendemos de una anomalía?**
-
-- (a) Muestra que el carnero del nazir en realidad no es anómalo.
-- (b) Muestra que la derivación produce una estrictez, y la objeción solo aplica a las indulgencias.
-- (c) Encuentra un segundo versículo que enseña sesenta de forma independiente.
-- (d) Concede el punto y abandona sesenta a favor de cien.
-
-**2. Sin la derivación del carnero del nazir, ¿qué diría la ley de la Torá sobre una comida prohibida en una mezcla?**
-
-- (a) Nunca se anula.
-- (b) Se anula en cien.
-- (c) Se anula en una simple mayoría.
-- (d) Se anula solo si quien la prueba no detecta nada.
-
-**3. Según Ravina, ¿qué enseña la palabra זֶה en la baraita sobre el carnero del nazir?**
-
-- (a) Que la medida es sesenta y no cien.
-- (b) Que el carnero debe cocerse y no asarse.
-- (c) Que la superficie del corte en la parte permitida está permitida.
-- (d) Que solo la pata delantera se entrega al cohén.
-
-**4. ¿Cuál es el caso de la mishná de Orlá que Abaie usa contra Rav Dimi?**
-
-- (a) Levadura de trumá que cayó en masa no consagrada.
-- (b) Habas partidas de trumá cocidas con lentejas no consagradas.
-- (c) Salmuera de pescado no kosher mezclada con salmuera permitida.
-- (d) Un nervio sciático cocido junto con un muslo.
-
-**5. ¿Qué ocurrió cuando Abaie preguntó por qué la levadura con 101 partes debería prohibir la masa?**
-
-- (a) Rav Dimi respondió que la levadura es potente.
-- (b) Rav Dimi se quedó callado, y Abaie mismo aportó la respuesta.
-- (c) Rav Dimi citó a Rabí Iosí bar Rabí Janiná.
-- (d) Rav Dimi retiró toda su posición.
-
-**6. ¿Cuál es la medida para anular la salmuera de un pescado no kosher, según Rabí Iehudá?**
-
-- (a) Sesenta.
-- (b) Ciento uno.
-- (c) Cercana a doscientos.
-- (d) Una simple mayoría.
-
-**7. ¿Cómo puede anularse la salmuera, si Rabí Iehudá sostiene que lo igual no se anula en lo igual?**
-
-- (a) La salmuera es mero sudor, y por eso no se considera el pescado mismo.
-- (b) La salmuera es un líquido, y los líquidos siempre se anulan.
-- (c) Rabí Iehudá se retractó de esa regla.
-- (d) La salmuera de aquí venía de un pescado kosher.
-
-**8. ¿Cuál es la halajá aceptada sobre si los nervios imparten sabor?**
-
-- (a) Imparten sabor, así que todo el muslo está prohibido.
-- (b) Imparten sabor solo cuando el nervio es mayor que el volumen de una aceituna.
-- (c) La cuestión queda sin resolver.
-- (d) No imparten sabor, así que basta con quitar el nervio.
-
-**9. ¿Por qué enviaba Rabí Amí a quienes preguntaban a Rabí Itzjak ben Jalov?**
-
-- (a) No sabía la respuesta él mismo.
-- (b) Sostenía la opinión indulgente y quería difundirla.
-- (c) Sostenía la opinión estricta pero no estaba dispuesto a imponérsela a otros.
-- (d) Rabí Itzjak ben Jalov era su maestro.
-
-**10. ¿Con qué pregunta termina el daf, sin responder?**
-
-- (a) Si la medida es sesenta o cien.
-- (b) Por qué un nervio sciático no identificado no se anula simplemente por la mayoría.
-- (c) Si el guid de un animal no kosher está prohibido.
-- (d) Si la absorción de una olla cuenta para los sesenta.
-
----
-
 ## Una línea para llevarte
 
 > "De una anomalía no aprendemos" no es una regla sobre *fuentes* — es una regla sobre
 > *direcciones*. Un caso raro no puede volverte indulgente; siempre puede volverte estricto.
 
-*Mañana (8 ago 2026): Julín 100 — por qué algunas cosas prohibidas no se anulan nunca: una **בְּרִיָּה**, una entidad entera, y una **חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד** — un trozo lo bastante bueno para servirle a un invitado.*
+---
 
-## Chazará — respuestas
+## Chazará — ponte a prueba
 
-1. **(b)** — la objeción impide extender las indulgencias de una anomalía; sesenta es una estrictez sobre la simple mayoría de la Torá.
-2. **(c)** — מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל, anulación con una mayoría mínima.
-3. **(c)** — enseña que מְקוֹם הַחֲתָךְ, el lugar del corte, está permitido aquí, aunque normalmente estaría prohibido.
-4. **(b)** — גְּרִיסִין de trumá cocidas con lentejas no consagradas, el caso de "especie distinta" de Orlá 2:7.
-5. **(b)** — אִישְׁתִּיק; luego Abaie propuso que el חִימּוּצוֹ קָשֶׁה de la levadura, su potencia, lo explica.
-6. **(c)** — un cuarto de log prohíbe dos seá, unas 192 veces su volumen.
-7. **(a)** — שָׁאנֵי צִיר, דְּזֵיעָה בְּעָלְמָא הוּא: la salmuera es una secreción, no el pescado, así que no es su propia especie.
-8. **(d)** — אֵין בְּגִידִין בְּנוֹתֵן טַעַם, dicho tres veces en el daf y sellado como la halajá.
-9. **(c)** — él mismo no sostenía la opinión indulgente, pero no dictaminaría con estrictez para otros.
-10. **(b)** — לִיבַּטֵיל בְּרוּבָּא; la respuesta, בְּרִיָּה שָׁאנֵי, abre el daf de mañana.
+```yaml
+- q: ¿Cómo rescata la Guemará la derivación de sesenta de la objeción de que no aprendemos de una
+    anomalía?
+  opts:
+  - Muestra que el carnero del nazir en realidad no es anómalo.
+  - Muestra que la derivación produce una estrictez, y la objeción solo aplica a las indulgencias.
+  - Encuentra un segundo versículo que enseña sesenta de forma independiente.
+  - Concede el punto y abandona sesenta a favor de cien.
+  correct: b
+  why: la objeción impide extender las indulgencias de una anomalía; sesenta es una estrictez sobre
+    la simple mayoría de la Torá.
+- q: Sin la derivación del carnero del nazir, ¿qué diría la ley de la Torá sobre una comida prohibida
+    en una mezcla?
+  opts:
+  - Nunca se anula.
+  - Se anula en cien.
+  - Se anula en una simple mayoría.
+  - Se anula solo si quien la prueba no detecta nada.
+  correct: c
+  why: מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל, anulación con una mayoría mínima.
+- q: Según Ravina, ¿qué enseña la palabra זֶה en la baraita sobre el carnero del nazir?
+  opts:
+  - Que la medida es sesenta y no cien.
+  - Que el carnero debe cocerse y no asarse.
+  - Que la superficie del corte en la parte permitida está permitida.
+  - Que solo la pata delantera se entrega al cohén.
+  correct: c
+  why: enseña que מְקוֹם הַחֲתָךְ, el lugar del corte, está permitido aquí, aunque normalmente estaría
+    prohibido.
+- q: ¿Cuál es el caso de la mishná de Orlá que Abaie usa contra Rav Dimi?
+  opts:
+  - Levadura de trumá que cayó en masa no consagrada.
+  - Habas partidas de trumá cocidas con lentejas no consagradas.
+  - Salmuera de pescado no kosher mezclada con salmuera permitida.
+  - Un nervio sciático cocido junto con un muslo.
+  correct: b
+  why: גְּרִיסִין de trumá cocidas con lentejas no consagradas, el caso de "especie distinta" de
+    Orlá 2:7.
+- q: ¿Qué ocurrió cuando Abaie preguntó por qué la levadura con 101 partes debería prohibir la masa?
+  opts:
+  - Rav Dimi respondió que la levadura es potente.
+  - Rav Dimi se quedó callado, y Abaie mismo aportó la respuesta.
+  - Rav Dimi citó a Rabí Iosí bar Rabí Janiná.
+  - Rav Dimi retiró toda su posición.
+  correct: b
+  why: אִישְׁתִּיק; luego Abaie propuso que el חִימּוּצוֹ קָשֶׁה de la levadura, su potencia, lo
+    explica.
+- q: ¿Cuál es la medida para anular la salmuera de un pescado no kosher, según Rabí Iehudá?
+  opts:
+  - Sesenta.
+  - Ciento uno.
+  - Cercana a doscientos.
+  - Una simple mayoría.
+  correct: c
+  why: un cuarto de log prohíbe dos seá, unas 192 veces su volumen.
+- q: ¿Cómo puede anularse la salmuera, si Rabí Iehudá sostiene que lo igual no se anula en lo igual?
+  opts:
+  - La salmuera es mero sudor, y por eso no se considera el pescado mismo.
+  - La salmuera es un líquido, y los líquidos siempre se anulan.
+  - Rabí Iehudá se retractó de esa regla.
+  - La salmuera de aquí venía de un pescado kosher.
+  correct: a
+  why: 'שָׁאנֵי צִיר, דְּזֵיעָה בְּעָלְמָא הוּא: la salmuera es una secreción, no el pescado, así
+    que no es su propia especie.'
+- q: ¿Cuál es la halajá aceptada sobre si los nervios imparten sabor?
+  opts:
+  - Imparten sabor, así que todo el muslo está prohibido.
+  - Imparten sabor solo cuando el nervio es mayor que el volumen de una aceituna.
+  - La cuestión queda sin resolver.
+  - No imparten sabor, así que basta con quitar el nervio.
+  correct: d
+  why: אֵין בְּגִידִין בְּנוֹתֵן טַעַם, dicho tres veces en el daf y sellado como la halajá.
+- q: ¿Por qué enviaba Rabí Amí a quienes preguntaban a Rabí Itzjak ben Jalov?
+  opts:
+  - No sabía la respuesta él mismo.
+  - Sostenía la opinión indulgente y quería difundirla.
+  - Sostenía la opinión estricta pero no estaba dispuesto a imponérsela a otros.
+  - Rabí Itzjak ben Jalov era su maestro.
+  correct: c
+  why: él mismo no sostenía la opinión indulgente, pero no dictaminaría con estrictez para otros.
+- q: ¿Con qué pregunta termina el daf, sin responder?
+  opts:
+  - Si la medida es sesenta o cien.
+  - Por qué un nervio sciático no identificado no se anula simplemente por la mayoría.
+  - Si el guid de un animal no kosher está prohibido.
+  - Si la absorción de una olla cuenta para los sesenta.
+  correct: b
+  why: לִיבַּטֵיל בְּרוּבָּא; la respuesta, בְּרִיָּה שָׁאנֵי, abre el daf de mañana.
+```

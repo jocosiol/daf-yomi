@@ -114,18 +114,65 @@
   .hint{color:#9a8a6d;font-size:.82rem;text-align:center;margin-top:14px}
   @media(max-width:520px){.sheet,.quiz{padding:20px 16px}.qtext{font-size:1.14rem}header.top h1{font-size:1.6rem}}
 </style>
-
 <style id="site-nav-css">
 #site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
-#site-nav a{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
+#site-nav a,#lang-btn{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
   background:#fffdf8;color:#6b3f1d;border:1px solid #c9a86a;border-radius:999px;
   padding:6px 14px;box-shadow:0 3px 12px rgba(80,55,20,.12)}
-#site-nav a:hover{background:#6b3f1d;color:#fff}
+#site-nav a:hover,#lang-btn:hover{background:#6b3f1d;color:#fff}
+#lang-btn{cursor:pointer;line-height:inherit}
+/* Bilingual content: one root lang attribute decides which halves are visible.
+   Set synchronously in <head> by #daf-lang, so no half ever flashes.
+   data-lang="en es" marks a block that stands in for both. */
+[data-lang]{display:none}
+html[lang="en"] [data-lang~="en"],html[lang="es"] [data-lang~="es"]{display:revert}
 @media print{#site-nav{display:none}}
 </style>
+<script id="daf-lang">
+(function(){
+  var KEY="dafLang", SUP=["en","es"];
+  var S={en:{today:"📖 Today", archive:"🗂 Archive", back:"← Back to today's daf",
+             swap:"🌐 Español", swapTitle:"Ver en español"},
+         es:{today:"📖 Hoy", archive:"🗂 Archivo", back:"← Volver al daf de hoy",
+             swap:"🌐 English", swapTitle:"View in English"}};
+  var cur="en";
+  try{ var v=localStorage.getItem(KEY); if(SUP.indexOf(v)>=0) cur=v; }catch(e){}
+  // ?lang=es wins over the stored choice, and becomes the stored choice — so a
+  // Spanish link can be shared and the reader stays in Spanish afterwards.
+  var q=(location.search.match(/[?&]lang=([A-Za-z-]+)/)||[])[1];
+  if(q){ q=q.toLowerCase().slice(0,2);
+         if(SUP.indexOf(q)>=0){ cur=q; try{ localStorage.setItem(KEY,cur) }catch(e){} } }
+  document.documentElement.lang=cur;              // before first paint
+  window.dafLang=function(){ return cur };
+  window.dafStrings=function(){ return S[cur] };
+  function paint(){
+    var s=S[cur];
+    var b=document.getElementById("lang-btn");
+    if(b){ b.textContent=s.swap; b.title=s.swapTitle; b.setAttribute("aria-label",s.swapTitle); }
+    [].forEach.call(document.querySelectorAll("[data-nav]"),function(el){
+      var t=s[el.getAttribute("data-nav")]; if(t) el.textContent=t;
+    });
+  }
+  window.dafSetLang=function(l){
+    if(SUP.indexOf(l)<0 || l===cur) return;
+    cur=l;
+    try{ localStorage.setItem(KEY,l) }catch(e){}
+    document.documentElement.lang=cur;
+    paint();
+    document.dispatchEvent(new CustomEvent("daflang",{detail:{lang:cur}}));
+  };
+  function wire(){
+    paint();
+    var b=document.getElementById("lang-btn");
+    if(b) b.addEventListener("click",function(){ window.dafSetLang(cur==="en"?"es":"en") });
+  }
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",wire);
+  else wire();
+})();
+</script>
 </head>
 <body>
-<div id="site-nav"><a href="index.html">📖 Today</a><a href="archive.html">🗂 Archive</a></div>
+<div id="site-nav"><a href="index.html"><span data-nav="today">📖 Today</span></a><a href="archive.html"><span data-nav="archive">🗂 Archive</span></a><button id="lang-btn" type="button">🌐 Español</button></div>
 
 <div class="wrap">
   <header class="top">

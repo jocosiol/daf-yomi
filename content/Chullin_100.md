@@ -1,6 +1,19 @@
-# Daf Yomi — Chullin 100 (חולין ק)
-
-**Chapter 7: *Gid HaNasheh* (the sciatic nerve) · Study date: Sat, 8 August 2026**
+---
+tractate: Chullin
+page: 100
+daf_he: חולין ק
+chapter:
+  n: 7
+  name: Gid HaNasheh
+  gloss: the sciatic nerve
+study_date: 2026-08-08
+summary: For three days the sugya has been about ratios — sixty, a hundred, nearly two hundred.
+tomorrow:
+  date: 2026-08-09
+  ref: Chullin 101
+  teaser: Rabbi Shimon's exemption unpacked, **אִיסּוּר כּוֹלֵל** and the stringent-on-lenient rule,
+    a baraita whose attributions must be reversed, and Shabbos that falls on Yom Kippur.
+---
 
 ## The big picture (read this first)
 
@@ -216,96 +229,97 @@ Abaye and Rava's circle I would not want to guess at his biography.
 
 ---
 
-## Chazara — test yourself
-
-**1. Why is an unidentified sciatic nerve among other sinews not nullified by the majority?**
-
-- (a) Because sinews impart taste.
-- (b) Because it is a complete entity, a beriah.
-- (c) Because it is fit to serve to a guest.
-- (d) Because it is always sold by the unit.
-
-**2. What makes a piece of meat resist nullification even for the stricter reading of "counted items"?**
-
-- (a) It is fit to be placed before guests.
-- (b) It is a complete entity.
-- (c) It is always sold by weight.
-- (d) It has a distinctive taste.
-
-**3. Why did the mishnah have to teach both the sciatic nerve and the piece of forbidden meat?**
-
-- (a) Because the two have different measures.
-- (b) Because each is excluded from nullification for a different reason.
-- (c) Because one is biblical and the other rabbinic.
-- (d) Because Rabbi Yehuda disputes only one of them.
-
-**4. According to Rabbah bar bar Chana, what must the forbidden piece impart flavor to?**
-
-- (a) The broth alone.
-- (b) The broth and the pieces only.
-- (c) Any one of the three.
-- (d) The broth, the sediment, and the pieces.
-
-**5. What is Rav's ruling about a piece that has absorbed forbidden flavor?**
-
-- (a) It must be removed but the rest is permitted.
-- (b) It becomes forbidden meat itself and forbids all the pieces.
-- (c) It is forbidden only to a priest.
-- (d) It is nullified if there is sixty times its volume.
-
-**6. How did Rav publicise this teaching?**
-
-- (a) He wrote it in a letter to Eretz Yisrael.
-- (b) He appointed a disseminator to proclaim it before him.
-- (c) He taught it only to his closest students.
-- (d) He had it inscribed in the academy.
-
-**7. How does Rava explain why flavor into the second piece matters?**
-
-- (a) The forbidden piece was removed before the others were added.
-- (b) Once two pieces are forbidden, the broth and spices are no longer sixty times their volume.
-- (c) Sinews impart no taste.
-- (d) Rabbi Yehuda does not hold that like is nullified in like.
-
-**8. What is Rabbi Yehuda's proof that the sciatic nerve applies to a non-kosher animal?**
-
-- (a) A tradition from Sinai about non-kosher species.
-- (b) It was forbidden to Yaakov's children while non-kosher meat was still permitted to them.
-- (c) The verse mentions "every animal."
-- (d) Sinews have no taste, so no other prohibition competes.
-
-**9. What does the miscarried fetus in the mishnah of Nazir prove?**
-
-- (a) That sinews form before limbs.
-- (b) That limbs form before sinews, so the flesh is forbidden first.
-- (c) That a fetus is not a complete entity.
-- (d) That the gid prohibition applies to a fetus.
-
-**10. How does the Gemara finally allow the gid prohibition to take effect on a non-kosher animal?**
-
-- (a) The two prohibitions arrive at exactly the same moment.
-- (b) Rabbi Yehuda in fact accepts issur chal al issur.
-- (c) The gid prohibition applies to Noahides, so it adds a stringency the other lacks.
-- (d) A non-kosher animal's flesh is not really forbidden.
-
----
-
 ## One line to carry with you
 
 > Nullification is not only arithmetic. A thing that is whole, or a piece dignified enough to set
 > before a guest, is somebody — and what is somebody does not vanish into a majority.
 
-*Tomorrow (9 Aug 2026): Chullin 101 — Rabbi Shimon's exemption unpacked, **אִיסּוּר כּוֹלֵל** and the stringent-on-lenient rule, a baraita whose attributions must be reversed, and Shabbos that falls on Yom Kippur.*
+---
 
-## Chazara — answer key
+## Chazara — test yourself
 
-1. **(b)** — בְּרִיָּה שָׁאנֵי: a complete entity is significant regardless of ratio.
-2. **(a)** — חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים, fit to honour a guest with.
-3. **(b)** — one is excluded as a *beriah*, the other for its dignity; neither reason implies the other, so צְרִיכָא.
-4. **(d)** — the רוֹטֶב, the קִיפָּה, and the חֲתִיכוֹת all together.
-5. **(b)** — חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, and being the same kind it is not nullified.
-6. **(b)** — אוֹקֵי אָמוֹרָא עֲלֵיהּ, he set a disseminator over himself to broadcast it.
-7. **(b)** — under סַלֵּק אֶת מִינוֹ, only the broth and spices count, and they cannot nullify two forbidden pieces.
-8. **(b)** — Bereishit 32:33 bound Yaakov's children when non-kosher meat was still permitted to them.
-9. **(b)** — שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו בְּגִידִין shows limbs precede sinews, so the two prohibitions are not simultaneous.
-10. **(c)** — אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ; the added stringency lets it land on the existing prohibition.
+```yaml
+- q: Why is an unidentified sciatic nerve among other sinews not nullified by the majority?
+  opts:
+  - Because sinews impart taste.
+  - Because it is a complete entity, a beriah.
+  - Because it is fit to serve to a guest.
+  - Because it is always sold by the unit.
+  correct: b
+  why: 'בְּרִיָּה שָׁאנֵי: a complete entity is significant regardless of ratio.'
+- q: What makes a piece of meat resist nullification even for the stricter reading of "counted items"?
+  opts:
+  - It is fit to be placed before guests.
+  - It is a complete entity.
+  - It is always sold by weight.
+  - It has a distinctive taste.
+  correct: a
+  why: חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים, fit to honour a guest with.
+- q: Why did the mishnah have to teach both the sciatic nerve and the piece of forbidden meat?
+  opts:
+  - Because the two have different measures.
+  - Because each is excluded from nullification for a different reason.
+  - Because one is biblical and the other rabbinic.
+  - Because Rabbi Yehuda disputes only one of them.
+  correct: b
+  why: one is excluded as a *beriah*, the other for its dignity; neither reason implies the other,
+    so צְרִיכָא.
+- q: According to Rabbah bar bar Chana, what must the forbidden piece impart flavor to?
+  opts:
+  - The broth alone.
+  - The broth and the pieces only.
+  - Any one of the three.
+  - The broth, the sediment, and the pieces.
+  correct: d
+  why: the רוֹטֶב, the קִיפָּה, and the חֲתִיכוֹת all together.
+- q: What is Rav's ruling about a piece that has absorbed forbidden flavor?
+  opts:
+  - It must be removed but the rest is permitted.
+  - It becomes forbidden meat itself and forbids all the pieces.
+  - It is forbidden only to a priest.
+  - It is nullified if there is sixty times its volume.
+  correct: b
+  why: חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, and being the same kind it is not nullified.
+- q: How did Rav publicise this teaching?
+  opts:
+  - He wrote it in a letter to Eretz Yisrael.
+  - He appointed a disseminator to proclaim it before him.
+  - He taught it only to his closest students.
+  - He had it inscribed in the academy.
+  correct: b
+  why: אוֹקֵי אָמוֹרָא עֲלֵיהּ, he set a disseminator over himself to broadcast it.
+- q: How does Rava explain why flavor into the second piece matters?
+  opts:
+  - The forbidden piece was removed before the others were added.
+  - Once two pieces are forbidden, the broth and spices are no longer sixty times their volume.
+  - Sinews impart no taste.
+  - Rabbi Yehuda does not hold that like is nullified in like.
+  correct: b
+  why: under סַלֵּק אֶת מִינוֹ, only the broth and spices count, and they cannot nullify two forbidden
+    pieces.
+- q: What is Rabbi Yehuda's proof that the sciatic nerve applies to a non-kosher animal?
+  opts:
+  - A tradition from Sinai about non-kosher species.
+  - It was forbidden to Yaakov's children while non-kosher meat was still permitted to them.
+  - The verse mentions "every animal."
+  - Sinews have no taste, so no other prohibition competes.
+  correct: b
+  why: Bereishit 32:33 bound Yaakov's children when non-kosher meat was still permitted to them.
+- q: What does the miscarried fetus in the mishnah of Nazir prove?
+  opts:
+  - That sinews form before limbs.
+  - That limbs form before sinews, so the flesh is forbidden first.
+  - That a fetus is not a complete entity.
+  - That the gid prohibition applies to a fetus.
+  correct: b
+  why: שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו בְּגִידִין shows limbs precede sinews, so the two prohibitions
+    are not simultaneous.
+- q: How does the Gemara finally allow the gid prohibition to take effect on a non-kosher animal?
+  opts:
+  - The two prohibitions arrive at exactly the same moment.
+  - Rabbi Yehuda in fact accepts issur chal al issur.
+  - The gid prohibition applies to Noahides, so it adds a stringency the other lacks.
+  - A non-kosher animal's flesh is not really forbidden.
+  correct: c
+  why: אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ; the added stringency lets it land on the existing prohibition.
+```

@@ -3,9 +3,15 @@
 You are running non-interactively in the repo `/Users/moshecosio/daf-yomi`
 (a clone of `jocosiol/daf-yomi`, published at https://jocosiol.github.io/daf-yomi/).
 
-Work through steps 1–5 in order, then stop. Do not ask questions — make reasonable
+Work through steps 0–6 in order, then stop. Do not ask questions — make reasonable
 decisions and proceed. Do not skip the Sefaria fetch: accuracy comes from the real text,
-never from memory.
+never from memory. Every daf ships in **two languages**: English in
+`content/<Tractate>_<page>.md` and Spanish in `content/<Tractate>_<page>.es.md`.
+Do not skip the Spanish sheet.
+
+**You do not have to police the file format.** `build/validate.py` checks it and the build
+refuses to write anything if it fails, naming the file and the problem. Write the sheet,
+run the build, fix whatever it reports.
 
 ---
 
@@ -23,17 +29,16 @@ curl -s "https://www.sefaria.org/api/calendars?timezone=Asia/Jerusalem"
 ```
 
 Read the `calendar_items` entry whose `title.en` is exactly `"Daf Yomi"` and take its
-`displayValue.en` — e.g. `"Chullin 98"`. That gives `<Tractate>` and `<page>`.
+`displayValue.en` — e.g. `"Chullin 102"`. That gives `<Tractate>` and `<page>`.
 
 **The `timezone=Asia/Jerusalem` parameter is required** — without it Sefaria answers in its
 own default timezone and you will get yesterday's daf.
 
-Confirm the local date with `date` and note it in two forms:
-- ISO, for your own use: `2026-08-06`
-- Display, for the sheet: `Thu, 6 August 2026`  (`date "+%a, %-d %B %Y"`)
+Confirm today's date with `date +%F`. You need it as ISO (`2026-08-10`) and nothing else —
+display dates are now formatted by the build, in each language, from that one value.
 
-If `<Tractate>_<page>.md` already exists and its study date line already matches today,
-you may reuse it — skip to step 4 rather than rewriting it.
+If `content/<Tractate>_<page>.md` already exists with today's `study_date`, skip to step 5
+rather than rewriting it.
 
 ## Step 2 — Fetch the real text, both amudim, English and Hebrew
 
@@ -46,130 +51,180 @@ Each response has parallel arrays: `he` (Hebrew/Aramaic) and `text` (William Dav
 English). Strip HTML tags and read **every** segment of both amudim before writing. Base
 every claim, name, and quotation on what is actually there.
 
-Also glance at `<Tractate>.<page+1>a` for the one-line preview of tomorrow's daf. If the
-page is the last in the tractate, the calendar's next entry starts a new tractate — check
-tomorrow's date via the calendars API instead of guessing.
+Also glance at `<Tractate>.<page+1>a` for the one-line preview of tomorrow. If the page is
+the last in the tractate, check tomorrow's entry via the calendars API rather than guessing.
 
-## Step 3 — Write `<Tractate>_<page>.md`
+## Step 3 — Write `content/<Tractate>_<page>.md`
 
 Warm, clear, and specific, for a reader who has some Gemara background — not a beginner,
-not a scholar. The tone to match is the previous days' sheets in this folder.
+not a scholar. Match the tone of the previous sheets in `content/`.
 
-### The format is a contract with the build scripts. Follow it exactly.
+### Front matter — the facts, declared once
 
-```markdown
-# Daf Yomi — <Tractate> <page> (<Hebrew tractate name> <Hebrew page numeral>)
-
-**Chapter <n>: *<Chapter Name>* (<short gloss>) · Study date: <Display Date>**
+```yaml
+---
+tractate: Chullin
+page: 102
+daf_he: חולין קב
+chapter:
+  n: 8
+  name: Kol HaBasar
+  gloss: all flesh
+study_date: 2026-08-10
+summary: One sentence for link previews and search — what this daf is about.
+tomorrow:
+  date: 2026-08-11
+  ref: Chullin 103
+  teaser: …
+---
 ```
 
-- The `# ` line becomes the page title. The `**Chapter …**` line becomes the subtitle —
-  it **must** start with `**Chapter` and **must** contain the literal text
-  `Study date: <Display Date>`. `build_site.py` parses that date to decide which daf is
-  "today", so a malformed date line silently drops the daf out of the homepage routing.
-- Get the chapter number and name from the tractate's structure (Chullin ch. 7 is
-  *Gid HaNasheh*, 89b–103b; ch. 8 *Kol HaBasar* begins 103b). Sefaria's `heRef` field
-  gives you the Hebrew page numeral, e.g. `חולין צ״ח א` → use `חולין צח`.
+`study_date` is ISO only. The build renders `Mon, 10 August 2026` and
+`lun, 10 de agosto de 2026` from it, so there is no date sentence to get wrong.
+Sefaria's `heRef` gives the Hebrew numeral: `חולין ק״ב א` → `daf_he: חולין קב`.
 
-Then these sections, as `## ` headings, in this order:
+### Then the prose, as `## ` sections in this order
 
-**(a) `## The big picture (read this first)`** — what today's page is really about, and
-why it matters. A blockquote for the central idea works well.
+**(a) `## The big picture (read this first)`** — what today's page is really about, and why
+it matters. A blockquote for the central idea works well.
 
-**(b) `## Walking through the sugya, step by step`** — the argument in order, using `### `
-subheadings per amud (e.g. `### 98a — …`, `### 98b — …`). Bold the moves
-(**The objection.**, **The answer.**) so it can be skimmed. Quote the key Aramaic phrases
-inline with their translation.
+**(b) `## Walking through the sugya, step by step`** — the argument in order, with `### `
+subheadings per amud (`### 102a — …`). Bold the moves (**The objection.**, **The answer.**)
+so it can be skimmed. Quote key Aramaic inline with its translation.
 
 **(c) `## Key concepts & terms`** — a markdown table, `| Term | Meaning |`, with the
 Hebrew/Aramaic term, its transliteration, and what it means on this daf.
 
-**(d) `## Who's who in today's daf`** — for **every** sage named on the daf, a bulleted
-one-line ID: era (**Tanna** / **Babylonian Amora** / **Eretz-Yisrael Amora**), approximate
-generation, where they lived, and a teacher or famous disputant. Group by era if the list
-is long.
-- Use the title tells: **Rav** = Babylonian Amora; **Rabbi** = Tanna or Eretz-Yisrael
-  Amora; **Rebbi** standing alone = R' Yehuda HaNasi.
-- Flag look-alike names explicitly, e.g. Rabbah (רבה) vs Rava (רבא); Mar bar Rav Ashi vs
-  Rav Acha bar Rav Ashi; Rabbi Chiyya vs Rabbi Chiyya bar Abba; Rav Asi vs Rav Ashi.
-- **If you are unsure about a minor figure, say so plainly** ("a genuinely obscure figure;
-  I would not want to guess at his generation"). Never invent a biography.
+**(d) `## Who's who in today's daf`** — for **every** sage named, a one-line ID: era
+(**Tanna** / **Babylonian Amora** / **Eretz-Yisrael Amora**), approximate generation, where
+they lived, and a teacher or famous disputant. Group by era if the list is long.
+- Title tells: **Rav** = Babylonian Amora; **Rabbi** = Tanna or Eretz-Yisrael Amora;
+  **Rebbi** alone = R' Yehuda HaNasi.
+- Flag look-alikes explicitly: Rabbah (רבה) vs Rava (רבא); Mar bar Rav Ashi vs Rav Acha bar
+  Rav Ashi; Rabbi Chiyya vs Rabbi Chiyya bar Abba; Rav Asi vs Rav Ashi.
+- **If you are unsure about a minor figure, say so plainly.** Never invent a biography.
 
-**(e) `## Chazara — test yourself`** — 8–10 multiple-choice questions, no answers shown.
-The exact shape, including the blank line between question and options:
+**(e) `## One line to carry with you`** — one memorable takeaway, as a blockquote.
 
-```markdown
-**1. The question text, ending in a question mark?**
+**(f) `## Chazara — test yourself`** — **the last section**, and the reason to write it last:
+the questions should come out of the analysis you have just written.
 
-- (a) First option.
-- (b) Second option.
-- (c) Third option.
-- (d) Fourth option.
+Not prose — a `yaml` block. The correct answer sits next to its options, so there is no
+separate answer key to keep in step:
+
+````markdown
+## Chazara — test yourself
+
+```yaml
+- q: The question text, ending in a question mark?
+  opts:
+    - First option.
+    - Second option.
+    - Third option.
+    - Fourth option.
+  correct: b
+  why: One line on why that answer is right.
+```
+````
+
+8–10 questions. Exactly four options each, in the order a/b/c/d. Vary which letter is
+correct. Separate major prose sections with `---`.
+
+## Step 4 — Write `content/<Tractate>_<page>.es.md` (the Spanish sheet)
+
+A full Spanish translation — same content, same structure, same depth. Not a summary.
+Readers pick a language with the 🌐 toggle and the choice is remembered site-wide, so the
+two sheets must stay in step.
+
+### Front matter — only what differs
+
+```yaml
+---
+lang: es
+title: Daf Yomi — Julín 102 (חולין קב)
+chapter:
+  name: Kol HaBasar
+  gloss: toda la carne
+summary: Una frase para las vistas previas y la búsqueda.
+tomorrow:
+  ref: Julín 103
+  teaser: …
+---
 ```
 
-Always four options `(a)`–`(d)`, always numbered `**1.` … `**10.`, always a blank line
-after the bold question. Vary which letter is correct across the set. Don't use `**bold**`
-inside a question line — it breaks the parser.
+`tractate`, `page`, `daf_he`, `study_date` and `chapter.n` are **inherited from the English
+sheet — do not restate them.** Validation rejects the file if you do. This is deliberate:
+the translation cannot disagree with the English about which day it is.
 
-**(f) `## One line to carry with you`** — one memorable takeaway, as a blockquote.
+### What changes, and what does not
 
-**(g)** Immediately after it, a one-line italic preview of tomorrow:
-`*Tomorrow (<D Mon YYYY>): <Tractate> <page+1> — …*`
+- **Keep every Hebrew/Aramaic quotation exactly as it is.** Only the surrounding explanation
+  is translated. Transliterations in the terms table get Spanish spelling
+  (*mejidush lo gamrinan*, *guzmá*, *jatzí shiur*) — `ch`→`j`, `tz` stays, accents added.
+- **The quiz must be the same quiz.** Question 1 in Spanish is question 1 in English, the
+  options stay in the same order, and `correct` is the same letter. Validation compares them
+  and fails on a mismatch.
+- Names use Spanish-Hebrew convention: Abaie, Rabá, Rava, Iehudá, Iojanán, Iehoshúa, Jiiá,
+  Janiná, Itzjak, Erretz Israel, cohén, Guemará, baraita, mishná, halajá, trumá, suguiá.
+  The tractate name in `title` is transliterated (`Julín`), but **file names never change** —
+  they stay `content/Chullin_<page>.es.md`.
+- Register: the warm, direct "tú" voice of the English sheet. Not academic Spanish.
 
-**(h) `## Chazara — answer key`** — **the very last section on the page.** One line per
-question, in this exact shape:
+### Spanish headings
 
-```markdown
-1. **(b)** — one-line reason the answer is right.
-```
+| English | Spanish |
+|---|---|
+| The big picture (read this first) | El panorama general (leer esto primero) |
+| Walking through the sugya, step by step | Recorriendo la suguiá, paso a paso |
+| Key concepts & terms | Conceptos y términos clave |
+| Who's who in today's daf | Quién es quién en el daf de hoy |
+| One line to carry with you | Una línea para llevarte |
+| Chazara — test yourself | Chazará — ponte a prueba |
 
-The letter must be inside the parentheses inside the bold: `**(b)**`. Every question in
-(e) needs a matching line here, or it is dropped from the quiz.
+Use `content/Chullin_98.es.md` and `content/Chullin_99.es.md` as the reference for tone and
+terminology.
 
-Separate major sections with `---`.
-
-## Step 4 — Build
+## Step 5 — Build
 
 ```bash
-python3 sheet_to_web.py <Tractate>_<page>.md <Tractate>_<page>.html
-python3 build_site.py . <Tractate>_<page>.html <Tractate> <page> --at 31.7683,35.2137
+python3 build/build.py
 ```
 
-**The `--at 31.7683,35.2137` is required.** `index.html` rolls over to the next daf at *sunset*,
-not midnight, and that flag pins sunset to Jerusalem so the homepage always agrees with the
-`timezone=Asia/Jerusalem` calendar you read in step 1. Omit it and the page falls back to guessing
-each visitor's location from their browser timezone — a silent behaviour change. To roll over at
-nightfall instead, add `--offset 40` (minutes after sunset).
+That is the whole build. No arguments: the sunset pin and the site URL live in
+`content/site.json`, so they cannot be forgotten on the command line.
 
-Because rollover is automatic, **dapim may already be built ahead** of today. That is fine: this
-build re-seeds `index.html` from whichever daf is current and leaves the future ones in place.
-Never delete a future daf's `.md` or `.html`.
+It validates first and **writes nothing if validation fails** — it prints the file and the
+problem. Fix the sheet and run it again. Warnings are advisory; errors are not.
 
-Write the HTML to **exactly** `<Tractate>_<page>.html` — never a temporary name in this
-folder, because `build_site.py` globs every `*.html` at the root and a stray file becomes a
-bogus archive entry.
+Expect output like:
 
-`sheet_to_web.py` prints the question count. **Verify it says 8–10.** If it says fewer than
-you wrote, a question or an answer-key line didn't match the format above — fix the
-markdown and rebuild. Then sanity-check:
+```
+Built 5 daf (3 translated) + 1 legacy = 6 routed
+languages: en, es
+index.html seeded with Chullin_102 (2026-08-10)
+rollover: sunset, location pinned to 31.7683,35.2137
+```
+
+Two things to know:
+
+- **Dapim may already be built ahead of today.** That is fine and expected: the homepage
+  rolls over at sunset on its own. Never delete a future daf's sheet.
+- A `warn` about a missing `es` sheet for a future daf is only a reminder. A `warn` about
+  *today's* daf missing Spanish means you skipped step 4 — go back and do it.
+
+Optional, if a browser is available and you changed anything under `build/`:
 
 ```bash
-python3 - <<'PY'
-import re, json
-h = open('index.html', encoding='utf-8').read()
-q = json.loads(re.search(r'const QUIZ = (\[.*?\]);\n', h, re.S).group(1))
-print(len(q), "questions;",
-      sum(1 for x in q if len(x['opts']) == 4 and x['correct'] in x['opts'] and x['why']),
-      "fully formed")
-print(re.search(r'<div class="sub">(.*?)</div>', h).group(1))
-PY
+python3 -m http.server 8891 --directory . & sleep 1
+node build/check_browser.js       # needs puppeteer-core; skip if not installed
+kill %1
 ```
 
-## Step 5 — Publish
+## Step 6 — Publish
 
 ```bash
 git add -A
-git commit -m "<Tractate> <page> — <Display Date>"
+git commit -m "<Tractate> <page> — <ISO date>"
 git push origin main
 ```
 

@@ -4,148 +4,51 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daf Yomi — Chullin 100 (חולין ק)</title>
-<style>
-  :root{
-    --paper:#fbf7ee; --ink:#2c261d; --accent:#8a5a2b; --accent2:#6b3f1d;
-    --gold:#c9a86a; --gold-soft:#ead9b3; --panel:#fffdf8; --line:#e2d3b3;
-    --good:#3f8f5b; --good-bg:#e7f4ec; --bad:#c0453b; --bad-bg:#fbe9e7;
-    --shadow:0 6px 24px rgba(80,55,20,.10);
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
-  body{
-    background:linear-gradient(180deg,#f4ecd8 0%,#fbf7ee 220px) fixed;
-    color:var(--ink); font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;
-    line-height:1.6; -webkit-font-smoothing:antialiased;
-  }
-  :lang(he),.he{font-family:"Frank Ruhl Libre","Times New Roman",Georgia,serif;}
-  .wrap{max-width:820px;margin:0 auto;padding:0 18px 80px}
-  header.top{
-    text-align:center;padding:34px 18px 22px;margin-bottom:8px;
-  }
-  header.top h1{
-    font-size:2.05rem;line-height:1.2;margin:0 0 6px;color:var(--accent2);
-    letter-spacing:.2px;
-  }
-  header.top .sub{color:#7a6a4d;font-size:1rem;font-style:italic}
-  .tabs{
-    display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:20;
-    padding:12px 0;background:linear-gradient(180deg,var(--paper) 70%,rgba(251,247,238,0));
-    margin-bottom:10px;
-  }
-  .tab{
-    border:1px solid var(--gold);background:var(--panel);color:var(--accent2);
-    padding:9px 22px;border-radius:999px;cursor:pointer;font-size:1rem;font-weight:600;
-    box-shadow:var(--shadow);transition:.18s;font-family:inherit;
-  }
-  .tab:hover{transform:translateY(-1px)}
-  .tab.active{background:var(--accent2);color:#fff;border-color:var(--accent2)}
-  .view{display:none;animation:fade .35s ease}
-  .view.active{display:block}
-  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-
-  /* ---- Learn view ---- */
-  .sheet{background:var(--panel);border:1px solid var(--line);border-radius:16px;
-    padding:26px 30px;box-shadow:var(--shadow)}
-  .sheet h2{font-size:1.4rem;color:var(--accent2);border-bottom:2px solid var(--gold-soft);
-    padding-bottom:6px;margin:26px 0 10px}
-  .sheet h2:first-child{margin-top:0}
-  .sheet h3{font-size:1.12rem;color:var(--accent);margin:18px 0 6px}
-  .sheet blockquote{margin:14px 0;padding:12px 18px;background:#faf3e3;
-    border-left:4px solid var(--gold);border-radius:6px;font-style:italic}
-  .sheet table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}
-  .sheet th,.sheet td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
-  .sheet th{background:var(--gold-soft);color:var(--accent2)}
-  .sheet tr:nth-child(even) td{background:#fbf7ee}
-  .sheet code{background:#f0e6ce;padding:1px 5px;border-radius:4px;font-size:.9em}
-  .sheet hr{border:none;border-top:1px solid var(--line);margin:22px 0}
-  .sheet ul{padding-left:22px}
-  .sheet li{margin:5px 0}
-  .sheet strong{color:var(--accent2)}
-
-  /* ---- Quiz view ---- */
-  .quiz{background:var(--panel);border:1px solid var(--line);border-radius:16px;
-    padding:26px 28px;box-shadow:var(--shadow)}
-  .qbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:6px;
-    font-size:.92rem;color:#7a6a4d}
-  .prog{height:9px;background:var(--gold-soft);border-radius:999px;overflow:hidden;margin:8px 0 22px}
-  .prog>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--accent));
-    border-radius:999px;transition:width .4s ease}
-  .qnum{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
-  .qtext{font-size:1.28rem;line-height:1.45;margin:8px 0 20px;color:var(--ink)}
-  .opts{display:flex;flex-direction:column;gap:12px}
-  .opt{display:flex;align-items:flex-start;gap:12px;text-align:left;width:100%;
-    border:1.5px solid var(--line);background:#fffdf8;border-radius:12px;padding:14px 16px;
-    cursor:pointer;font-size:1.05rem;font-family:inherit;color:var(--ink);transition:.15s}
-  .opt:hover:not(.locked){border-color:var(--accent);transform:translateY(-1px);
-    box-shadow:0 3px 12px rgba(120,80,30,.10)}
-  .opt .key{flex:0 0 28px;height:28px;border-radius:50%;background:var(--gold-soft);
-    color:var(--accent2);font-weight:700;display:flex;align-items:center;justify-content:center;
-    font-size:.95rem}
-  .opt.correct{border-color:var(--good);background:var(--good-bg)}
-  .opt.correct .key{background:var(--good);color:#fff}
-  .opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
-  .opt.wrong .key{background:var(--bad);color:#fff}
-  .opt.locked{cursor:default}
-  .opt.dim{opacity:.55}
-  .why{margin-top:18px;padding:14px 16px;border-radius:12px;background:#f6efe0;
-    border-left:4px solid var(--gold);font-size:1rem;display:none;animation:fade .3s}
-  .why.show{display:block}
-  .why b{color:var(--accent2)}
-  .nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px}
-  .btn{border:none;border-radius:999px;padding:12px 26px;font-size:1.02rem;font-weight:700;
-    cursor:pointer;font-family:inherit;background:var(--accent2);color:#fff;box-shadow:var(--shadow);
-    transition:.16s}
-  .btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
-  .btn.ghost{background:var(--panel);color:var(--accent2);border:1px solid var(--gold)}
-  .btn:disabled{opacity:.4;cursor:default;transform:none}
-  .pill{background:var(--gold-soft);color:var(--accent2);border-radius:999px;padding:4px 12px;font-weight:700}
-  .streak{color:var(--accent)}
-  /* end screen */
-  .end{text-align:center;padding:14px 6px}
-  .end .big{font-size:3.4rem;margin:6px 0}
-  .end .score{font-size:1.6rem;color:var(--accent2);font-weight:700;margin:4px 0}
-  .end .msg{font-size:1.1rem;color:#6a5a3d;margin:8px 0 20px}
-  .review{text-align:left;margin-top:20px}
-  .review .r{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;background:#fffdf8}
-  .review .r .rq{font-weight:700;color:var(--ink);margin-bottom:6px}
-  .review .r .ra{font-size:.96rem;margin:2px 0}
-  .review .ok{color:var(--good)} .review .no{color:var(--bad)}
-  .hint{color:#9a8a6d;font-size:.82rem;text-align:center;margin-top:14px}
-  @media(max-width:520px){.sheet,.quiz{padding:20px 16px}.qtext{font-size:1.14rem}header.top h1{font-size:1.6rem}}
-</style>
-
-<style id="site-nav-css">
-#site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
-#site-nav a{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
-  background:#fffdf8;color:#6b3f1d;border:1px solid #c9a86a;border-radius:999px;
-  padding:6px 14px;box-shadow:0 3px 12px rgba(80,55,20,.12)}
-#site-nav a:hover{background:#6b3f1d;color:#fff}
-@media print{#site-nav{display:none}}
-</style>
+<meta name="description" content="For three days the sugya has been about ratios — sixty, a hundred, nearly two hundred.">
+<meta name="theme-color" content="#f4ecd8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16130f" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Daf Yomi — Chullin 100 (חולין ק)">
+<meta property="og:description" content="For three days the sugya has been about ratios — sixty, a hundred, nearly two hundred.">
+<meta property="og:url" content="https://jocosiol.github.io/daf-yomi/Chullin_100.html">
+<link rel="canonical" href="https://jocosiol.github.io/daf-yomi/Chullin_100.html">
+<link rel="alternate" hreflang="en" href="https://jocosiol.github.io/daf-yomi/Chullin_100.html?lang=en">
+<link rel="alternate" hreflang="es" href="https://jocosiol.github.io/daf-yomi/Chullin_100.html?lang=es">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📖</text></svg>">
+<link rel="stylesheet" href="assets/daf.css?v=6f8a46cf">
+<script type="application/json" id="daf-config">{"langs":["en","es"]}</script>
+<script src="assets/lang.js?v=7ce07f98"></script>
 </head>
 <body>
-<div id="site-nav"><a href="index.html">📖 Today</a><a href="archive.html">🗂 Archive</a></div>
-
+<nav id="site-nav">
+  <a href="index.html"><span data-lang="en">📖 Today</span><span data-lang="es">📖 Hoy</span></a>
+  <a href="archive.html"><span data-lang="en">🗂 Archive</span><span data-lang="es">🗂 Archivo</span></a>
+  <button id="lang-btn" type="button"><span data-lang="en" title="Ver en español">🌐 Español</span><span data-lang="es" title="View in English">🌐 English</span></button>
+</nav>
 <div class="wrap">
   <header class="top">
-    <h1>Daf Yomi — Chullin 100 (חולין ק)</h1>
-    <div class="sub">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Study date: Sat, 8 August 2026</div>
+    <h1><span data-lang="en es">Daf Yomi — Chullin 100 (<span lang="he" dir="rtl">חולין ק</span>)</span></h1>
+    <div class="sub"><span data-lang="en es">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Sat, 8 August 2026</span></div>
   </header>
 
-  <div class="tabs">
-    <button class="tab active" data-v="learn">📖 Learn</button>
-    <button class="tab" data-v="quiz">🎯 Chazara Quiz</button>
+  <div class="tabs" role="tablist">
+    <button class="tab active" type="button" role="tab" aria-selected="true"
+            aria-controls="learn" data-v="learn">📖&nbsp;<span data-lang="en">Learn</span><span data-lang="es">Aprender</span></button>
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="quiz" data-v="quiz">🎯&nbsp;<span data-lang="en">Chazara Quiz</span><span data-lang="es">Repaso (Chazará)</span></button>
   </div>
 
-  <section class="view active" id="learn">
-    <div class="sheet"><h2>The big picture (read this first)</h2>
+  <section class="view active" id="learn" role="tabpanel">
+    <div class="untranslated" data-lang="es">Esta hoja todavía no está traducida al español; abajo está la versión en inglés.</div>
+    <div class="sheet" data-lang="en es">
+      <h2>The big picture (read this first)</h2>
 <p>For three days the sugya has been about <em>ratios</em> — sixty, a hundred, nearly two hundred. Today
 it turns to the things that <strong>no ratio can help</strong>. Some forbidden items are never nullified, no
 matter how much permitted food surrounds them, and the reason has nothing to do with taste.</p>
 <blockquote>
 <p>A forbidden food can be too <em>whole</em>, or too <em>dignified</em>, to disappear into a mixture. A
-<strong>בְּרִיָּה</strong> — a complete entity — and a <strong>חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ</strong> — a piece you could set
+<strong><span lang="he" dir="rtl">בְּרִיָּה</span></strong> — a complete entity — and a <strong><span lang="he" dir="rtl">חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ</span></strong> — a piece you could set
 before a guest — both resist nullification, because significance is not a matter of volume.</p>
 </blockquote>
 <p>Then the daf takes its most consequential turn. Rav teaches that a piece which has absorbed
@@ -156,7 +59,7 @@ pot. And in the second half, a new mishnah reopens the oldest question in the ch
 <ol>
 <li><strong>What is never nullified</strong> (100a) — <em>beriah</em> and the honourable piece, and why the mishnah
    had to teach both.</li>
-<li><strong>חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה</strong> (100a–100b) — Rav&rsquo;s ruling, Rav Safra&rsquo;s objection, and two
+<li><strong><span lang="he" dir="rtl">חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה</span></strong> (100a–100b) — Rav&rsquo;s ruling, Rav Safra&rsquo;s objection, and two
    different rescues from Abaye and Rava.</li>
 <li><strong>The gid of a non-kosher animal</strong> (100b) — Rabbi Yehuda against the Rabbis, and a long
    Gemara on whether one prohibition can land on top of another.</li>
@@ -167,55 +70,55 @@ pot. And in the second half, a new mishnah reopens the oldest question in the ch
 <p><strong>Answering yesterday&rsquo;s cliffhanger.</strong> Why is an unidentified <em>gid</em> among other sinews not
 nullified by the majority? Two words:</p>
 <blockquote>
-<p><strong>בְּרִיָּה שָׁאנֵי.</strong>
+<p><strong><span lang="he" dir="rtl">בְּרִיָּה שָׁאנֵי</span>.</strong>
 &ldquo;A complete entity is different&rdquo; — and is not subject to nullification.</p>
 </blockquote>
-<p><strong>The parallel case.</strong> The mishnah also taught: a piece of <strong>נְבֵלָה</strong> or of non-kosher fish cooked
+<p><strong>The parallel case.</strong> The mishnah also taught: a piece of <strong><span lang="he" dir="rtl">נְבֵלָה</span></strong> or of non-kosher fish cooked
 among kosher pieces, where he cannot identify which piece is forbidden — all are forbidden. Again:
 why not nullified by the majority?</p>
-<p><strong>A complication.</strong> This is straightforward for the opinion that <strong>כֹּל שֶׁדַּרְכּוֹ לִימָּנוֹת</strong> — <em>anything</em>
+<p><strong>A complication.</strong> This is straightforward for the opinion that <strong><span lang="he" dir="rtl">כֹּל שֶׁדַּרְכּוֹ לִימָּנוֹת</span></strong> — <em>anything</em>
 whose manner is to be counted (rather than weighed or measured) is significant enough to resist
-nullification. But according to the opinion that only <strong>אֶת שֶׁדַּרְכּוֹ לִימָּנוֹת</strong>, something sold
+nullification. But according to the opinion that only <strong><span lang="he" dir="rtl">אֶת שֶׁדַּרְכּוֹ לִימָּנוֹת</span></strong>, something sold
 <em>exclusively</em> by the unit, counts — pieces of meat are not always sold by the piece. So what?</p>
 <p><strong>The answer, and it is a lovely one:</strong></p>
 <blockquote>
-<p><strong>שָׁאנֵי חֲתִיכָה, הוֹאִיל וּרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים.</strong>
+<p><strong><span lang="he" dir="rtl">שָׁאנֵי חֲתִיכָה, הוֹאִיל וּרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים</span>.</strong>
 &ldquo;A piece is different, since it is fit to honour a guest with, before the guests.&rdquo;</p>
 </blockquote>
 <p>Its significance is <em>social</em>. A piece of meat good enough to place before a guest is a thing in its
 own right, and a thing in its own right does not dissolve into a majority.</p>
-<p><strong>Why both cases were needed.</strong> From the <em>gid</em> alone you might have said: only a <strong>בְּרִיָּה</strong> resists,
+<p><strong>Why both cases were needed.</strong> From the <em>gid</em> alone you might have said: only a <strong><span lang="he" dir="rtl">בְּרִיָּה</span></strong> resists,
 but an ordinary piece is insignificant. From the piece alone you might have said: only something
-fit to serve a guest resists, but a mere sinew is insignificant. <strong>צְרִיכָא</strong> — both were necessary.</p>
+fit to serve a guest resists, but a mere sinew is insignificant. <strong><span lang="he" dir="rtl">צְרִיכָא</span></strong> — both were necessary.</p>
 <h3>100a — Rav: the piece itself becomes forbidden meat</h3>
 <p><strong>Rabbah bar bar Chana&rsquo;s version.</strong> A piece of <em>neveilah</em> or non-kosher fish that fell into a pot
-does not forbid the pot unless it imparts flavor to the <strong>רוֹטֶב</strong> (broth), the <strong>קִיפָּה</strong> (the sediment
-of food settled in the pot), <strong>and</strong> the <strong>חֲתִיכוֹת</strong> (the other pieces).</p>
-<p><strong>Rav&rsquo;s version — and note how he published it.</strong> Rav <strong>אוֹקֵי אָמוֹרָא עֲלֵיהּ</strong>, appointed a
+does not forbid the pot unless it imparts flavor to the <strong><span lang="he" dir="rtl">רוֹטֶב</span></strong> (broth), the <strong><span lang="he" dir="rtl">קִיפָּה</span></strong> (the sediment
+of food settled in the pot), <strong>and</strong> the <strong><span lang="he" dir="rtl">חֲתִיכוֹת</span></strong> (the other pieces).</p>
+<p><strong>Rav&rsquo;s version — and note how he published it.</strong> Rav <strong><span lang="he" dir="rtl">אוֹקֵי אָמוֹרָא עֲלֵיהּ</span></strong>, appointed a
 disseminator to stand before him and broadcast the teaching to a wide audience:</p>
 <blockquote>
-<p><strong>כֵּיוָן שֶׁנָּתַן טַעַם בַּחֲתִיכָה — חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, וְאוֹסֶרֶת כׇּל הַחֲתִיכוֹת כּוּלָּן מִפְּנֵי שֶׁהֵן מִינָהּ.</strong>
+<p><strong><span lang="he" dir="rtl">כֵּיוָן שֶׁנָּתַן טַעַם בַּחֲתִיכָה — חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, וְאוֹסֶרֶת כׇּל הַחֲתִיכוֹת כּוּלָּן מִפְּנֵי שֶׁהֵן מִינָהּ</span>.</strong>
 &ldquo;Once it has imparted flavor into a piece, that piece itself becomes <em>neveilah</em>, and it forbids
 all the pieces together, because they are its own kind.&rdquo;</p>
 </blockquote>
-<p>This is the principle known ever since as <strong>חֲתִיכָה נַעֲשֵׂית נְבֵלָה</strong>. The forbidden flavor does not
+<p>This is the principle known ever since as <strong><span lang="he" dir="rtl">חֲתִיכָה נַעֲשֵׂית נְבֵלָה</span></strong>. The forbidden flavor does not
 merely spread — it <em>converts</em>. The kosher piece is promoted into a full forbidden object, which
 then goes to work on everything around it. And because the pieces are all the same kind, and
 like is not nullified in like, nothing is saved by ratio.</p>
 <p><strong>Rav Safra&rsquo;s objection</strong> (to Abaye). Whose view is Rav following? It must be Rabbi Yehuda, who
-holds <strong>מִין בְּמִינוֹ לֹא בָּטֵיל</strong>. But if so, why does Rav require that it <em>imparted flavor</em> to another
+holds <strong><span lang="he" dir="rtl">מִין בְּמִינוֹ לֹא בָּטֵיל</span></strong>. But if so, why does Rav require that it <em>imparted flavor</em> to another
 piece? On Rabbi Yehuda&rsquo;s view the forbidden piece should forbid the whole pot immediately, flavor
 or no flavor.</p>
-<p><strong>Abaye&rsquo;s answer.</strong> The case is <strong>בְּשֶׁקָּדַם וְסִלְּקוֹ</strong> — he cooked the forbidden piece with <strong>one</strong>
+<p><strong>Abaye&rsquo;s answer.</strong> The case is <strong><span lang="he" dir="rtl">בְּשֶׁקָּדַם וְסִלְּקוֹ</span></strong> — he cooked the forbidden piece with <strong>one</strong>
 kosher piece and removed the forbidden piece <em>before</em> the others were added. The remaining
 pieces are therefore forbidden only through the intermediary piece, which is why it matters
 whether flavor actually got into it.</p>
 <h3>100b — Rava&rsquo;s answer: set aside its own kind</h3>
-<p><strong>Rava&rsquo;s alternative.</strong> You need not say he removed it first. This is a case of <strong>מִין וּמִינוֹ וְדָבָר
-אַחֵר</strong> — the forbidden food together with its own kind <em>and</em> with something else (the broth and
+<p><strong>Rava&rsquo;s alternative.</strong> You need not say he removed it first. This is a case of <strong><span lang="he" dir="rtl">מִין וּמִינוֹ וְדָבָר
+אַחֵר</span></strong> — the forbidden food together with its own kind <em>and</em> with something else (the broth and
 the spices). And the rule for that combination is:</p>
 <blockquote>
-<p><strong>סַלֵּק אֶת מִינוֹ כְּמִי שֶׁאֵינוֹ, וְשֶׁאֵין מִינוֹ רָבֶה עָלָיו וּמְבַטְּלוֹ.</strong>
+<p><strong><span lang="he" dir="rtl">סַלֵּק אֶת מִינוֹ כְּמִי שֶׁאֵינוֹ, וְשֶׁאֵין מִינוֹ רָבֶה עָלָיו וּמְבַטְּלוֹ</span>.</strong>
 &ldquo;Set aside its own kind as though it were not there; and what is <em>not</em> its own kind, if it
 exceeds it, nullifies it.&rdquo;</p>
 </blockquote>
@@ -230,14 +133,14 @@ to nullify two. The whole pot is forbidden.</p>
 animal. <strong>Rabbi Yehuda says:</strong> it applies even to a non-kosher animal.</p>
 </blockquote>
 <p><strong>Rabbi Yehuda&rsquo;s argument.</strong> Was the <em>gid</em> not already forbidden to the children of Yaakov —
-<strong>״עַל כֵּן לֹא יֹאכְלוּ בְנֵי יִשְׂרָאֵל אֶת גִּיד הַנָּשֶׁה״</strong> (Bereishit 32:33) — at a time when the meat of a
+<strong><span lang="he" dir="rtl">״עַל כֵּן לֹא יֹאכְלוּ בְנֵי יִשְׂרָאֵל אֶת גִּיד הַנָּשֶׁה״</span></strong> (Bereishit 32:33) — at a time when the meat of a
 non-kosher animal was still <strong>permitted</strong> to them? Whatever became forbidden then stays forbidden.</p>
 <p><strong>The Rabbis&rsquo; reply.</strong> The prohibition was <strong>stated at Sinai</strong>, and merely <strong>written in its place</strong> —
 recorded at the wrestling scene although it did not take effect then.</p>
 <h3>100b — GEMARA: can a prohibition land on an existing prohibition?</h3>
-<p><strong>The problem.</strong> Rabbi Yehuda&rsquo;s position seems to require <strong>אִיסּוּר חָל עַל אִיסּוּר</strong> — that a second
+<p><strong>The problem.</strong> Rabbi Yehuda&rsquo;s position seems to require <strong><span lang="he" dir="rtl">אִיסּוּר חָל עַל אִיסּוּר</span></strong> — that a second
 prohibition takes effect where one already exists. But a baraita shows he holds the opposite: on
-the impurity of bird carcasses he reads <strong>״נְבֵלָה וּטְרֵפָה לֹא יֹאכַל לְטָמְאָה בָהּ״</strong> (Vayikra 22:8) as
+the impurity of bird carcasses he reads <strong><span lang="he" dir="rtl">״נְבֵלָה וּטְרֵפָה לֹא יֹאכַל לְטָמְאָה בָהּ״</span></strong> (Vayikra 22:8) as
 limiting that impurity to birds forbidden by &ldquo;do not eat a carcass&rdquo; — excluding a non-kosher bird,
 which is <em>already</em> forbidden as non-kosher. So for Rabbi Yehuda, a prohibition does <strong>not</strong> land on
 an existing one.</p>
@@ -247,23 +150,23 @@ teaches that for eating the <em>gid</em> of a non-kosher animal <strong>Rabbi Ye
 (one for the <em>gid</em>, one for non-kosher meat) while <strong>Rabbi Shimon exempts entirely</strong>. Two sets of
 lashes means the <em>gid</em> does have taste and is food.</p>
 <p><strong>The answer: they arrive together.</strong> Rabbi Yehuda holds sinews <em>do</em> have taste, and also holds the
-<em>gid</em> prohibition applies <strong>בַּשָּׁלִיל</strong>, to a fetus. So the two prohibitions come into force at the
+<em>gid</em> prohibition applies <strong><span lang="he" dir="rtl">בַּשָּׁלִיל</span></strong>, to a fetus. So the two prohibitions come into force at the
 same instant, and simultaneous prohibitions both take effect even for one who rejects
 <em>issur chal al issur</em>.</p>
 <p><strong>Objection.</strong> But a mishnah (89b) has Rabbi Yehuda saying the <em>gid</em> prohibition does <strong>not</strong> apply
 to a fetus, and that a fetus&rsquo;s forbidden fat is permitted. <strong>Answer:</strong> that is about a <em>kosher</em>
-species, because of <strong>״בַּבְּהֵמָה״</strong> (Devarim 14:6) — read as &ldquo;<em>inside</em> the animal,&rdquo; permitting
+species, because of <strong><span lang="he" dir="rtl">״בַּבְּהֵמָה״</span></strong> (Devarim 14:6) — read as &ldquo;<em>inside</em> the animal,&rdquo; permitting
 whatever is within a kosher animal at slaughter. For a <strong>non-kosher</strong> species the prohibition does
 apply to the fetus.</p>
 <p><strong>A sharper objection — the order of embryology.</strong> A mishnah in <em>Nazir</em> (49b) lists what obliges a
 nazirite to shave, including an olive-bulk of a corpse. Why state the olive-bulk if a whole corpse
-obviously qualifies? Rabbi Yochanan: it is needed for a miscarried fetus <strong>שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו
-בְּגִידִין</strong> — whose limbs are not yet bound together by sinews. It has no olive-bulk of flesh, yet
+obviously qualifies? Rabbi Yochanan: it is needed for a miscarried fetus <strong><span lang="he" dir="rtl">שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו
+בְּגִידִין</span></strong> — whose limbs are not yet bound together by sinews. It has no olive-bulk of flesh, yet
 being a complete entity it conveys impurity. So <strong>limbs form before sinews</strong> — meaning the
 non-kosher-meat prohibition (on the flesh) precedes the <em>gid</em> prohibition. They do <em>not</em> arrive
 together.</p>
 <p><strong>The resolution — the Noahide angle.</strong> Even granting that the flesh was forbidden first, the <em>gid</em>
-prohibition still takes effect, because <strong>אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ</strong> — it applies to the descendants
+prohibition still takes effect, because <strong><span lang="he" dir="rtl">אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ</span></strong> — it applies to the descendants
 of Noah. It carries a stringency that the non-kosher-meat prohibition never had, and a prohibition
 that adds something new can land on an existing one.</p>
 <p><strong>And the mishnah&rsquo;s wording now reads perfectly.</strong> Rabbi Yehuda&rsquo;s proof was precisely that the
@@ -273,7 +176,7 @@ historical remark; it is the mechanism of his whole position.</p>
 Rabbi Shimon exempting — which is where tomorrow begins.</p>
 <hr />
 <h2>Key concepts &amp; terms</h2>
-<table>
+<div class="table-scroll"><table>
 <thead>
 <tr>
 <th>Term</th>
@@ -282,51 +185,51 @@ Rabbi Shimon exempting — which is where tomorrow begins.</p>
 </thead>
 <tbody>
 <tr>
-<td><strong>בְּרִיָּה</strong> <em>(beriah)</em></td>
+<td><strong><span lang="he" dir="rtl">בְּרִיָּה</span></strong> <em>(beriah)</em></td>
 <td>A complete entity. Because it is whole, it is significant, and it is never nullified in a majority.</td>
 </tr>
 <tr>
-<td><strong>חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ</strong> <em>(chatichah hare&rsquo;uyah lehiskabed bah)</em></td>
+<td><strong><span lang="he" dir="rtl">חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ</span></strong> <em>(chatichah hare&rsquo;uyah lehiskabed bah)</em></td>
 <td>A piece fit to be set before a guest. Its social dignity makes it resist nullification.</td>
 </tr>
 <tr>
-<td><strong>כֹּל / אֶת שֶׁדַּרְכּוֹ לִימָּנוֹת</strong> <em>(kol / es shedarko limanos)</em></td>
+<td><strong><span lang="he" dir="rtl">כֹּל</span> / <span lang="he" dir="rtl">אֶת שֶׁדַּרְכּוֹ לִימָּנוֹת</span></strong> <em>(kol / es shedarko limanos)</em></td>
 <td>Two readings of which counted items resist nullification: anything sometimes sold by the unit, or only what is sold exclusively so.</td>
 </tr>
 <tr>
-<td><strong>חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה</strong> <em>(chatichah atzmah na&rsquo;aseis neveilah)</em></td>
+<td><strong><span lang="he" dir="rtl">חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה</span></strong> <em>(chatichah atzmah na&rsquo;aseis neveilah)</em></td>
 <td>A permitted piece that absorbs forbidden flavor becomes forbidden meat in its own right, and can forbid others.</td>
 </tr>
 <tr>
-<td><strong>רוֹטֶב / קִיפָּה / חֲתִיכוֹת</strong> <em>(rotev / kipah / chatichos)</em></td>
+<td><strong><span lang="he" dir="rtl">רוֹטֶב</span> / <span lang="he" dir="rtl">קִיפָּה</span> / <span lang="he" dir="rtl">חֲתִיכוֹת</span></strong> <em>(rotev / kipah / chatichos)</em></td>
 <td>Broth / the sediment settled in the pot / the pieces — the three components Rabbah bar bar Chana requires flavor to reach.</td>
 </tr>
 <tr>
-<td><strong>אוֹקֵי אָמוֹרָא עֲלֵיהּ</strong> <em>(oki amora aleih)</em></td>
+<td><strong><span lang="he" dir="rtl">אוֹקֵי אָמוֹרָא עֲלֵיהּ</span></strong> <em>(oki amora aleih)</em></td>
 <td>&ldquo;He set a disseminator over him&rdquo; — appointing a speaker to broadcast a ruling to a large audience.</td>
 </tr>
 <tr>
-<td><strong>בְּשֶׁקָּדַם וְסִלְּקוֹ</strong> <em>(beshekadam vesilko)</em></td>
+<td><strong><span lang="he" dir="rtl">בְּשֶׁקָּדַם וְסִלְּקוֹ</span></strong> <em>(beshekadam vesilko)</em></td>
 <td>Where he removed the forbidden piece first, before the other pieces were added.</td>
 </tr>
 <tr>
-<td><strong>מִין וּמִינוֹ וְדָבָר אַחֵר</strong> <em>(min umino vedavar acher)</em></td>
+<td><strong><span lang="he" dir="rtl">מִין וּמִינוֹ וְדָבָר אַחֵר</span></strong> <em>(min umino vedavar acher)</em></td>
 <td>Forbidden food mixed with both its own kind and something else; disregard its own kind and measure only against the rest.</td>
 </tr>
 <tr>
-<td><strong>אֵין אִיסּוּר חָל עַל אִיסּוּר</strong> <em>(ein issur chal al issur)</em></td>
+<td><strong><span lang="he" dir="rtl">אֵין אִיסּוּר חָל עַל אִיסּוּר</span></strong> <em>(ein issur chal al issur)</em></td>
 <td>A prohibition does not take effect where a prohibition already exists — so no second set of lashes.</td>
 </tr>
 <tr>
-<td><strong>בַּשָּׁלִיל</strong> <em>(bashalil)</em></td>
+<td><strong><span lang="he" dir="rtl">בַּשָּׁלִיל</span></strong> <em>(bashalil)</em></td>
 <td>In a fetus. Whether the <em>gid</em> prohibition reaches a fetus decides whether the two prohibitions arrive simultaneously.</td>
 </tr>
 <tr>
-<td><strong>נוֹהֵג בִּבְנֵי נֹחַ</strong> <em>(noheg bivnei Noach)</em></td>
+<td><strong><span lang="he" dir="rtl">נוֹהֵג בִּבְנֵי נֹחַ</span></strong> <em>(noheg bivnei Noach)</em></td>
 <td>Applies to the descendants of Noah — the added stringency that lets the <em>gid</em> prohibition land on an existing one.</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <hr />
 <h2>Who&rsquo;s who in today&rsquo;s daf</h2>
 <p><strong>Tannaim</strong></p>
@@ -355,8 +258,8 @@ Rabbi Shimon exempting — which is where tomorrow begins.</p>
 <li><strong>Rav Safra</strong> — fourth generation, a colleague in Abaye and Rava&rsquo;s circle. Raises the objection
   to Rav&rsquo;s ruling.</li>
 </ul>
-<p><em>Look-alikes worth flagging:</em> <strong>Rabbah bar bar Chana</strong> (רבה בר בר חנה) is not <strong>Rabbah</strong> (רבה)
-the head of Pumbedita, and neither is <strong>Rava</strong> (רבא) — in an unvocalised text רבה and רבא are
+<p><em>Look-alikes worth flagging:</em> <strong>Rabbah bar bar Chana</strong> (<span lang="he" dir="rtl">רבה בר בר חנה</span>) is not <strong>Rabbah</strong> (<span lang="he" dir="rtl">רבה</span>)
+the head of Pumbedita, and neither is <strong>Rava</strong> (<span lang="he" dir="rtl">רבא</span>) — in an unvocalised text <span lang="he" dir="rtl">רבה</span> and <span lang="he" dir="rtl">רבא</span> are
 distinguished only by context. <strong>Rav Safra</strong> is a comparatively minor figure; beyond his place in
 Abaye and Rava&rsquo;s circle I would not want to guess at his biography.</p>
 <hr />
@@ -365,127 +268,17 @@ Abaye and Rava&rsquo;s circle I would not want to guess at his biography.</p>
 <p>Nullification is not only arithmetic. A thing that is whole, or a piece dignified enough to set
 before a guest, is somebody — and what is somebody does not vanish into a majority.</p>
 </blockquote>
-<p><em>Tomorrow (9 Aug 2026): Chullin 101 — Rabbi Shimon&rsquo;s exemption unpacked, </em><em>אִיסּוּר כּוֹלֵל</em><em> and the stringent-on-lenient rule, a baraita whose attributions must be reversed, and Shabbos that falls on Yom Kippur.</em></p></div>
+      <p class="tomorrow">Tomorrow (Sun, 9 August 2026):
+        <strong>Chullin 101</strong> — Rabbi Shimon&#39;s exemption unpacked, **אִיסּוּר כּוֹלֵל** and the stringent-on-lenient rule, a baraita whose attributions must be reversed, and Shabbos that falls on Yom Kippur.</p>
+    </div>
   </section>
 
-  <section class="view" id="quiz">
+  <section class="view" id="quiz" role="tabpanel">
     <div class="quiz" id="quizCard"></div>
-    <div class="hint">Tip: press keys 1–4 to answer, Enter for next.</div>
+    <div class="hint"><span data-lang="en">Tip: press keys 1–4 to answer, Enter for next.</span><span data-lang="es">Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.</span></div>
   </section>
 </div>
-
-<script>
-const QUIZ = [{"n": 1, "q": "Why is an unidentified sciatic nerve among other sinews not nullified by the majority?", "opts": {"a": "Because sinews impart taste.", "b": "Because it is a complete entity, a beriah.", "c": "Because it is fit to serve to a guest.", "d": "Because it is always sold by the unit."}, "correct": "b", "why": "בְּרִיָּה שָׁאנֵי: a complete entity is significant regardless of ratio."}, {"n": 2, "q": "What makes a piece of meat resist nullification even for the stricter reading of &quot;counted items&quot;?", "opts": {"a": "It is fit to be placed before guests.", "b": "It is a complete entity.", "c": "It is always sold by weight.", "d": "It has a distinctive taste."}, "correct": "a", "why": "חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים, fit to honour a guest with."}, {"n": 3, "q": "Why did the mishnah have to teach both the sciatic nerve and the piece of forbidden meat?", "opts": {"a": "Because the two have different measures.", "b": "Because each is excluded from nullification for a different reason.", "c": "Because one is biblical and the other rabbinic.", "d": "Because Rabbi Yehuda disputes only one of them."}, "correct": "b", "why": "one is excluded as a <em>beriah</em>, the other for its dignity; neither reason implies the other, so צְרִיכָא."}, {"n": 4, "q": "According to Rabbah bar bar Chana, what must the forbidden piece impart flavor to?", "opts": {"a": "The broth alone.", "b": "The broth and the pieces only.", "c": "Any one of the three.", "d": "The broth, the sediment, and the pieces."}, "correct": "d", "why": "the רוֹטֶב, the קִיפָּה, and the חֲתִיכוֹת all together."}, {"n": 5, "q": "What is Rav&#x27;s ruling about a piece that has absorbed forbidden flavor?", "opts": {"a": "It must be removed but the rest is permitted.", "b": "It becomes forbidden meat itself and forbids all the pieces.", "c": "It is forbidden only to a priest.", "d": "It is nullified if there is sixty times its volume."}, "correct": "b", "why": "חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, and being the same kind it is not nullified."}, {"n": 6, "q": "How did Rav publicise this teaching?", "opts": {"a": "He wrote it in a letter to Eretz Yisrael.", "b": "He appointed a disseminator to proclaim it before him.", "c": "He taught it only to his closest students.", "d": "He had it inscribed in the academy."}, "correct": "b", "why": "אוֹקֵי אָמוֹרָא עֲלֵיהּ, he set a disseminator over himself to broadcast it."}, {"n": 7, "q": "How does Rava explain why flavor into the second piece matters?", "opts": {"a": "The forbidden piece was removed before the others were added.", "b": "Once two pieces are forbidden, the broth and spices are no longer sixty times their volume.", "c": "Sinews impart no taste.", "d": "Rabbi Yehuda does not hold that like is nullified in like."}, "correct": "b", "why": "under סַלֵּק אֶת מִינוֹ, only the broth and spices count, and they cannot nullify two forbidden pieces."}, {"n": 8, "q": "What is Rabbi Yehuda&#x27;s proof that the sciatic nerve applies to a non-kosher animal?", "opts": {"a": "A tradition from Sinai about non-kosher species.", "b": "It was forbidden to Yaakov&#x27;s children while non-kosher meat was still permitted to them.", "c": "The verse mentions &quot;every animal.&quot;", "d": "Sinews have no taste, so no other prohibition competes."}, "correct": "b", "why": "Bereishit 32:33 bound Yaakov&#x27;s children when non-kosher meat was still permitted to them."}, {"n": 9, "q": "What does the miscarried fetus in the mishnah of Nazir prove?", "opts": {"a": "That sinews form before limbs.", "b": "That limbs form before sinews, so the flesh is forbidden first.", "c": "That a fetus is not a complete entity.", "d": "That the gid prohibition applies to a fetus."}, "correct": "b", "why": "שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו בְּגִידִין shows limbs precede sinews, so the two prohibitions are not simultaneous."}, {"n": 10, "q": "How does the Gemara finally allow the gid prohibition to take effect on a non-kosher animal?", "opts": {"a": "The two prohibitions arrive at exactly the same moment.", "b": "Rabbi Yehuda in fact accepts issur chal al issur.", "c": "The gid prohibition applies to Noahides, so it adds a stringency the other lacks.", "d": "A non-kosher animal&#x27;s flesh is not really forbidden."}, "correct": "c", "why": "אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ; the added stringency lets it land on the existing prohibition."}];
-const KEYS = ["a","b","c","d"];
-let idx=0, score=0, streak=0, best=0, answered=false, results=[];
-
-const card = document.getElementById("quizCard");
-
-function esc(s){return s;}
-
-function renderQuestion(){
-  answered=false;
-  const q = QUIZ[idx];
-  const pct = Math.round((idx)/QUIZ.length*100);
-  let opts = Object.keys(q.opts).sort().map((k,i)=>`
-    <button class="opt" data-k="${k}">
-      <span class="key">${k.toUpperCase()}</span>
-      <span class="txt">${q.opts[k]}</span>
-    </button>`).join("");
-  card.innerHTML = `
-    <div class="qbar">
-      <span class="qnum">Question ${idx+1} / ${QUIZ.length}</span>
-      <span>Score <span class="pill">${score}</span> ${streak>1?`<span class="streak">🔥 ${streak} streak</span>`:""}</span>
-    </div>
-    <div class="prog"><i style="width:${pct}%"></i></div>
-    <div class="qtext">${q.q}</div>
-    <div class="opts">${opts}</div>
-    <div class="why" id="why"></div>
-    <div class="nav">
-      <span style="color:#9a8a6d;font-size:.85rem">${QUIZ.length-idx-1} to go</span>
-      <button class="btn" id="next" disabled>Next →</button>
-    </div>`;
-  card.querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>choose(b.dataset.k)));
-  document.getElementById("next").addEventListener("click",next);
-}
-
-function choose(k){
-  if(answered) return;
-  answered=true;
-  const q=QUIZ[idx];
-  const correct=q.correct;
-  const chosenRight = k===correct;
-  if(chosenRight){score++;streak++;best=Math.max(best,streak);} else {streak=0;}
-  results.push({n:q.n,q:q.q,chosen:k,correct:correct,opts:q.opts,why:q.why,right:chosenRight});
-  card.querySelectorAll(".opt").forEach(b=>{
-    b.classList.add("locked");
-    const bk=b.dataset.k;
-    if(bk===correct) b.classList.add("correct");
-    else if(bk===k) b.classList.add("wrong");
-    else b.classList.add("dim");
-  });
-  const why=document.getElementById("why");
-  why.innerHTML = `<b>${chosenRight?"✓ Correct.":"✗ Not quite — the answer is "+correct.toUpperCase()+"."}</b> ${q.why}`;
-  why.classList.add("show");
-  const nb=document.getElementById("next");
-  nb.disabled=false; nb.focus();
-  nb.textContent = idx===QUIZ.length-1 ? "See results →" : "Next →";
-  // update live score display
-  card.querySelector(".qbar .pill").textContent=score;
-}
-
-function next(){
-  if(!answered) return;
-  if(idx<QUIZ.length-1){idx++;renderQuestion();window.scrollTo({top:0,behavior:"smooth"});}
-  else endScreen();
-}
-
-function endScreen(){
-  const pct=Math.round(score/QUIZ.length*100);
-  let emoji="📘",msg="Good start — a review round will lock it in.";
-  if(pct===100){emoji="🏆";msg="Perfect score! You own this daf.";}
-  else if(pct>=80){emoji="🌟";msg="Excellent — nearly airtight.";}
-  else if(pct>=60){emoji="👍";msg="Solid. A quick re-read of the tricky ones and you're set.";}
-  const reviewWrong = results.filter(r=>!r.right);
-  let reviewHtml="";
-  if(reviewWrong.length){
-    reviewHtml = `<div class="review"><h3 style="color:var(--accent2)">Worth another look</h3>` +
-      reviewWrong.map(r=>`<div class="r">
-        <div class="rq">${r.n}. ${r.q}</div>
-        <div class="ra no">Your answer: ${r.chosen.toUpperCase()}) ${r.opts[r.chosen]}</div>
-        <div class="ra ok">Correct: ${r.correct.toUpperCase()}) ${r.opts[r.correct]}</div>
-        <div class="ra" style="color:#6a5a3d;margin-top:4px">${r.why}</div>
-      </div>`).join("") + `</div>`;
-  }
-  card.innerHTML = `<div class="end">
-      <div class="big">${emoji}</div>
-      <div class="score">${score} / ${QUIZ.length} &nbsp;·&nbsp; ${pct}%</div>
-      <div class="msg">${msg}${best>1?` &nbsp;·&nbsp; best streak 🔥 ${best}`:""}</div>
-      <button class="btn" id="again">↻ Play again</button>
-    </div>${reviewHtml}`;
-  document.getElementById("again").addEventListener("click",restart);
-  window.scrollTo({top:0,behavior:"smooth"});
-}
-
-function restart(){idx=0;score=0;streak=0;best=0;results=[];renderQuestion();}
-
-// tab switching
-document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
-  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
-  document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));
-  t.classList.add("active");
-  document.getElementById(t.dataset.v).classList.add("active");
-  if(t.dataset.v==="quiz" && !card.innerHTML.trim()) renderQuestion();
-}));
-
-// keyboard
-document.addEventListener("keydown",e=>{
-  if(!document.getElementById("quiz").classList.contains("active")) return;
-  if(["1","2","3","4"].includes(e.key)){const k=KEYS[+e.key-1];const b=card.querySelector(`.opt[data-k="${k}"]`);if(b)b.click();}
-  else if(e.key==="Enter"){const n=document.getElementById("next");if(n&&!n.disabled)n.click();}
-});
-
-renderQuestion();
-</script>
+<script>window.QUIZ_BY_LANG = {"en":[{"n":1,"q":"Why is an unidentified sciatic nerve among other sinews not nullified by the majority?","opts":["Because sinews impart taste.","Because it is a complete entity, a beriah.","Because it is fit to serve to a guest.","Because it is always sold by the unit."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">בְּרִיָּה שָׁאנֵי<\/span>: a complete entity is significant regardless of ratio."},{"n":2,"q":"What makes a piece of meat resist nullification even for the stricter reading of &quot;counted items&quot;?","opts":["It is fit to be placed before guests.","It is a complete entity.","It is always sold by weight.","It has a distinctive taste."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים<\/span>, fit to honour a guest with."},{"n":3,"q":"Why did the mishnah have to teach both the sciatic nerve and the piece of forbidden meat?","opts":["Because the two have different measures.","Because each is excluded from nullification for a different reason.","Because one is biblical and the other rabbinic.","Because Rabbi Yehuda disputes only one of them."],"correct":1,"why":"one is excluded as a <em>beriah<\/em>, the other for its dignity; neither reason implies the other, so <span lang=\"he\" dir=\"rtl\">צְרִיכָא<\/span>."},{"n":4,"q":"According to Rabbah bar bar Chana, what must the forbidden piece impart flavor to?","opts":["The broth alone.","The broth and the pieces only.","Any one of the three.","The broth, the sediment, and the pieces."],"correct":3,"why":"the <span lang=\"he\" dir=\"rtl\">רוֹטֶב<\/span>, the <span lang=\"he\" dir=\"rtl\">קִיפָּה<\/span>, and the <span lang=\"he\" dir=\"rtl\">חֲתִיכוֹת<\/span> all together."},{"n":5,"q":"What is Rav&#x27;s ruling about a piece that has absorbed forbidden flavor?","opts":["It must be removed but the rest is permitted.","It becomes forbidden meat itself and forbids all the pieces.","It is forbidden only to a priest.","It is nullified if there is sixty times its volume."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה<\/span>, and being the same kind it is not nullified."},{"n":6,"q":"How did Rav publicise this teaching?","opts":["He wrote it in a letter to Eretz Yisrael.","He appointed a disseminator to proclaim it before him.","He taught it only to his closest students.","He had it inscribed in the academy."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">אוֹקֵי אָמוֹרָא עֲלֵיהּ<\/span>, he set a disseminator over himself to broadcast it."},{"n":7,"q":"How does Rava explain why flavor into the second piece matters?","opts":["The forbidden piece was removed before the others were added.","Once two pieces are forbidden, the broth and spices are no longer sixty times their volume.","Sinews impart no taste.","Rabbi Yehuda does not hold that like is nullified in like."],"correct":1,"why":"under <span lang=\"he\" dir=\"rtl\">סַלֵּק אֶת מִינוֹ<\/span>, only the broth and spices count, and they cannot nullify two forbidden pieces."},{"n":8,"q":"What is Rabbi Yehuda&#x27;s proof that the sciatic nerve applies to a non-kosher animal?","opts":["A tradition from Sinai about non-kosher species.","It was forbidden to Yaakov&#x27;s children while non-kosher meat was still permitted to them.","The verse mentions &quot;every animal.&quot;","Sinews have no taste, so no other prohibition competes."],"correct":1,"why":"Bereishit 32:33 bound Yaakov&#x27;s children when non-kosher meat was still permitted to them."},{"n":9,"q":"What does the miscarried fetus in the mishnah of Nazir prove?","opts":["That sinews form before limbs.","That limbs form before sinews, so the flesh is forbidden first.","That a fetus is not a complete entity.","That the gid prohibition applies to a fetus."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו בְּגִידִין<\/span> shows limbs precede sinews, so the two prohibitions are not simultaneous."},{"n":10,"q":"How does the Gemara finally allow the gid prohibition to take effect on a non-kosher animal?","opts":["The two prohibitions arrive at exactly the same moment.","Rabbi Yehuda in fact accepts issur chal al issur.","The gid prohibition applies to Noahides, so it adds a stringency the other lacks.","A non-kosher animal&#x27;s flesh is not really forbidden."],"correct":2,"why":"<span lang=\"he\" dir=\"rtl\">אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ<\/span>; the added stringency lets it land on the existing prohibition."}],"es":[{"n":1,"q":"Why is an unidentified sciatic nerve among other sinews not nullified by the majority?","opts":["Because sinews impart taste.","Because it is a complete entity, a beriah.","Because it is fit to serve to a guest.","Because it is always sold by the unit."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">בְּרִיָּה שָׁאנֵי<\/span>: a complete entity is significant regardless of ratio."},{"n":2,"q":"What makes a piece of meat resist nullification even for the stricter reading of &quot;counted items&quot;?","opts":["It is fit to be placed before guests.","It is a complete entity.","It is always sold by weight.","It has a distinctive taste."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים<\/span>, fit to honour a guest with."},{"n":3,"q":"Why did the mishnah have to teach both the sciatic nerve and the piece of forbidden meat?","opts":["Because the two have different measures.","Because each is excluded from nullification for a different reason.","Because one is biblical and the other rabbinic.","Because Rabbi Yehuda disputes only one of them."],"correct":1,"why":"one is excluded as a <em>beriah<\/em>, the other for its dignity; neither reason implies the other, so <span lang=\"he\" dir=\"rtl\">צְרִיכָא<\/span>."},{"n":4,"q":"According to Rabbah bar bar Chana, what must the forbidden piece impart flavor to?","opts":["The broth alone.","The broth and the pieces only.","Any one of the three.","The broth, the sediment, and the pieces."],"correct":3,"why":"the <span lang=\"he\" dir=\"rtl\">רוֹטֶב<\/span>, the <span lang=\"he\" dir=\"rtl\">קִיפָּה<\/span>, and the <span lang=\"he\" dir=\"rtl\">חֲתִיכוֹת<\/span> all together."},{"n":5,"q":"What is Rav&#x27;s ruling about a piece that has absorbed forbidden flavor?","opts":["It must be removed but the rest is permitted.","It becomes forbidden meat itself and forbids all the pieces.","It is forbidden only to a priest.","It is nullified if there is sixty times its volume."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה<\/span>, and being the same kind it is not nullified."},{"n":6,"q":"How did Rav publicise this teaching?","opts":["He wrote it in a letter to Eretz Yisrael.","He appointed a disseminator to proclaim it before him.","He taught it only to his closest students.","He had it inscribed in the academy."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">אוֹקֵי אָמוֹרָא עֲלֵיהּ<\/span>, he set a disseminator over himself to broadcast it."},{"n":7,"q":"How does Rava explain why flavor into the second piece matters?","opts":["The forbidden piece was removed before the others were added.","Once two pieces are forbidden, the broth and spices are no longer sixty times their volume.","Sinews impart no taste.","Rabbi Yehuda does not hold that like is nullified in like."],"correct":1,"why":"under <span lang=\"he\" dir=\"rtl\">סַלֵּק אֶת מִינוֹ<\/span>, only the broth and spices count, and they cannot nullify two forbidden pieces."},{"n":8,"q":"What is Rabbi Yehuda&#x27;s proof that the sciatic nerve applies to a non-kosher animal?","opts":["A tradition from Sinai about non-kosher species.","It was forbidden to Yaakov&#x27;s children while non-kosher meat was still permitted to them.","The verse mentions &quot;every animal.&quot;","Sinews have no taste, so no other prohibition competes."],"correct":1,"why":"Bereishit 32:33 bound Yaakov&#x27;s children when non-kosher meat was still permitted to them."},{"n":9,"q":"What does the miscarried fetus in the mishnah of Nazir prove?","opts":["That sinews form before limbs.","That limbs form before sinews, so the flesh is forbidden first.","That a fetus is not a complete entity.","That the gid prohibition applies to a fetus."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו בְּגִידִין<\/span> shows limbs precede sinews, so the two prohibitions are not simultaneous."},{"n":10,"q":"How does the Gemara finally allow the gid prohibition to take effect on a non-kosher animal?","opts":["The two prohibitions arrive at exactly the same moment.","Rabbi Yehuda in fact accepts issur chal al issur.","The gid prohibition applies to Noahides, so it adds a stringency the other lacks.","A non-kosher animal&#x27;s flesh is not really forbidden."],"correct":2,"why":"<span lang=\"he\" dir=\"rtl\">אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ<\/span>; the added stringency lets it land on the existing prohibition."}]};</script>
+<script src="assets/quiz.js?v=850d31d8"></script>
 </body>
 </html>

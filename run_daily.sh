@@ -61,8 +61,20 @@ cd "$REPO" || { log "FAIL  cannot cd to $REPO"; exit 1; }
 command -v python3 >/dev/null || { log "FAIL  python3 not on PATH"; exit 1; }
 command -v git     >/dev/null || { log "FAIL  git not on PATH"; exit 1; }
 command -v claude  >/dev/null || { log "FAIL  claude not on PATH"; exit 1; }
-python3 -c 'import markdown' 2>/dev/null || { log "FAIL  python 'markdown' package missing"; exit 1; }
+for mod in markdown jinja2 yaml; do
+  python3 -c "import $mod" 2>/dev/null || {
+    log "FAIL  python '$mod' package missing — pip3 install --user markdown jinja2 pyyaml"
+    exit 1
+  }
+done
 [ -f DAILY_PROMPT.md ] || { log "FAIL  DAILY_PROMPT.md not found in $REPO"; exit 1; }
+[ -f build/build.py ]  || { log "FAIL  build/build.py not found in $REPO"; exit 1; }
+
+# The sheets must be clean before we start; an unfinished edit left behind by a
+# previous run would otherwise be committed as part of today's daf.
+if ! python3 build/validate.py content >>"$LOG" 2>&1; then
+  log "WARN  content/ was already failing validation before this run"
+fi
 
 log "python3=$(command -v python3)  git=$(command -v git)  claude=$(command -v claude)"
 
@@ -77,6 +89,31 @@ log "python3=$(command -v python3)  git=$(command -v git)  claude=$(command -v c
 } >>"$LOG" 2>&1
 
 # ---- verify the outcome independently of what Claude reported ----
+STATUS=0
+
+# The build gates on this too, but re-running it here means a bad sheet is
+# reported by the wrapper even if Claude committed anyway.
+if python3 build/validate.py content >>"$LOG" 2>&1; then
+  log "validate: clean"
+else
+  log "FAIL  content/ does not validate — see the validate output above"
+  STATUS=1
+fi
+
+# Today's sheet should exist and carry today's date. `date +%F` is the local
+# civil date; sheets are built at least a day ahead, so a missing file for
+# today is a real failure while a missing one for tomorrow is not.
+TODAY="$(date +%F)"
+if grep -lq "study_date: $TODAY" content/*.md 2>/dev/null; then
+  SHEET="$(grep -l "study_date: $TODAY" content/*.md | head -1)"
+  log "today's sheet: $SHEET"
+  ES="${SHEET%.md}.es.md"
+  [ -f "$ES" ] || log "WARN  no Spanish sheet for today ($ES)"
+else
+  log "FAIL  no sheet in content/ with study_date: $TODAY"
+  STATUS=1
+fi
+
 DAF_LIVE="$(curl -s -m 20 "https://jocosiol.github.io/daf-yomi/?cb=$$" \
             | sed -n 's/.*<title>\(.*\)<\/title>.*/\1/p')"
 LOCAL_HEAD="$(git log --oneline -1 2>/dev/null)"
@@ -88,6 +125,8 @@ log "live title: ${DAF_LIVE:-<none>}"
 
 if [ "$UNPUSHED" != "0" ]; then
   log "WARN  $UNPUSHED commit(s) not pushed — check auth (gh auth status / keychain)"
+  STATUS=1
 fi
 
-log "===== end ====="
+log "===== end (status $STATUS) ====="
+exit "$STATUS"

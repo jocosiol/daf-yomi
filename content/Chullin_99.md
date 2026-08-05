@@ -1,6 +1,20 @@
-# Daf Yomi — Chullin 99 (חולין צט)
-
-**Chapter 7: *Gid HaNasheh* (the sciatic nerve) · Study date: Fri, 7 August 2026**
+---
+tractate: Chullin
+page: 99
+daf_he: חולין צט
+chapter:
+  n: 7
+  name: Gid HaNasheh
+  gloss: the sciatic nerve
+study_date: 2026-08-07
+summary: Yesterday's daf derived nullification in sixty from the cooked foreleg of the nazirite's
+  ram — and then immediately threatened to demolish the derivation, because **מֵחִדּוּשׁ לָא
+tomorrow:
+  date: 2026-08-08
+  ref: Chullin 100
+  teaser: 'why some forbidden things are never nullified at all: a **בְּרִיָּה**, a whole entity,
+    and a **חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד** — a piece good enough to serve a guest.'
+---
 
 ## The big picture (read this first)
 
@@ -201,96 +215,100 @@ b'Rabbi Chanina**, who is his junior by a generation and belongs to Caesarea.
 
 ---
 
-## Chazara — test yourself
-
-**1. How does the Gemara rescue the derivation of sixty from the objection that we do not learn from an anomaly?**
-
-- (a) It shows that the nazirite's ram is not actually anomalous.
-- (b) It shows the derivation produces a stringency, and the objection applies only to leniencies.
-- (c) It finds a second verse that teaches sixty independently.
-- (d) It concedes the point and abandons sixty in favour of a hundred.
-
-**2. Without the derivation from the nazirite's ram, what would Torah law say about a forbidden food in a mixture?**
-
-- (a) It is never nullified.
-- (b) It is nullified in a hundred.
-- (c) It is nullified in a simple majority.
-- (d) It is nullified only if a taster detects nothing.
-
-**3. According to Ravina, what does the word זֶה in the baraita about the nazirite's ram teach?**
-
-- (a) That the measure is sixty rather than a hundred.
-- (b) That the ram must be cooked rather than roasted.
-- (c) That the surface of the cut on the permitted part is permitted.
-- (d) That the foreleg alone is given to the priest.
-
-**4. What is the case in the mishnah of Orla that Abaye uses against Rav Dimi?**
-
-- (a) Teruma leaven that fell into non-sacred dough.
-- (b) Split beans of teruma cooked with non-sacred lentils.
-- (c) Non-kosher fish brine mixed into permitted brine.
-- (d) A sciatic nerve cooked together with a thigh.
-
-**5. What happened when Abaye asked why leaven at 101 parts should forbid the dough?**
-
-- (a) Rav Dimi answered that leaven is potent.
-- (b) Rav Dimi was silent, and Abaye himself supplied the answer.
-- (c) Rav Dimi cited Rabbi Yosei b'Rabbi Chanina.
-- (d) Rav Dimi withdrew his entire position.
-
-**6. What is the measure for nullifying the brine of a non-kosher fish, according to Rabbi Yehuda?**
-
-- (a) Sixty.
-- (b) A hundred and one.
-- (c) Close to two hundred.
-- (d) A simple majority.
-
-**7. How can brine be nullified at all, given that Rabbi Yehuda holds that like is not nullified in like?**
-
-- (a) Brine is merely sweat, and so is not considered the fish itself.
-- (b) Brine is a liquid, and liquids are always nullified.
-- (c) Rabbi Yehuda retracted that rule.
-- (d) The brine here came from a kosher fish.
-
-**8. What is the accepted halacha about whether sinews impart taste?**
-
-- (a) They impart taste, so the whole thigh is forbidden.
-- (b) They impart taste only when the nerve is larger than an olive-bulk.
-- (c) The matter is left unresolved.
-- (d) They impart no taste, so removing the nerve suffices.
-
-**9. Why did Rabbi Ami send questioners to Rabbi Yitzchak ben Chalov?**
-
-- (a) He did not know the answer himself.
-- (b) He held the lenient view and wanted it publicised.
-- (c) He held the stringent view but was unwilling to impose it on others.
-- (d) Rabbi Yitzchak ben Chalov was his teacher.
-
-**10. What question does the daf end on, unanswered?**
-
-- (a) Whether the measure is sixty or a hundred.
-- (b) Why an unidentified sciatic nerve is not simply nullified by the majority.
-- (c) Whether the gid of a non-kosher animal is forbidden.
-- (d) Whether a pot's absorption counts toward the sixty.
-
----
-
 ## One line to carry with you
 
 > "We do not learn from an anomaly" is not a rule about *sources* — it is a rule about
 > *directions*. An odd case cannot make you lenient; it can always make you strict.
 
-*Tomorrow (8 Aug 2026): Chullin 100 — why some forbidden things are never nullified at all: a **בְּרִיָּה**, a whole entity, and a **חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד** — a piece good enough to serve a guest.*
+---
 
-## Chazara — answer key
+## Chazara — test yourself
 
-1. **(b)** — the objection bars extending an anomaly's leniencies; sixty is a stringency over the Torah's simple majority.
-2. **(c)** — מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל, nullification in a bare majority.
-3. **(c)** — it teaches that מְקוֹם הַחֲתָךְ, the place of the cut, is permitted here, though normally it would be forbidden.
-4. **(b)** — גְּרִיסִין of teruma cooked with non-sacred lentils, the "different kind" case of Orla 2:7.
-5. **(b)** — אִישְׁתִּיק; then Abaye offered that leaven's חִימּוּצוֹ קָשֶׁה, its potency, explains it.
-6. **(c)** — a quarter-log forbids two se'ah, about 192 times its volume.
-7. **(a)** — שָׁאנֵי צִיר, דְּזֵיעָה בְּעָלְמָא הוּא: brine is a secretion, not the fish, so it is not its own kind.
-8. **(d)** — אֵין בְּגִידִין בְּנוֹתֵן טַעַם, stated three times on the daf and sealed as the halacha.
-9. **(c)** — he did not hold the lenient view himself, but would not rule strictly for others.
-10. **(b)** — לִיבַּטֵיל בְּרוּבָּא; the answer, בְּרִיָּה שָׁאנֵי, opens tomorrow's daf.
+```yaml
+- q: How does the Gemara rescue the derivation of sixty from the objection that we do not learn from
+    an anomaly?
+  opts:
+  - It shows that the nazirite's ram is not actually anomalous.
+  - It shows the derivation produces a stringency, and the objection applies only to leniencies.
+  - It finds a second verse that teaches sixty independently.
+  - It concedes the point and abandons sixty in favour of a hundred.
+  correct: b
+  why: the objection bars extending an anomaly's leniencies; sixty is a stringency over the Torah's
+    simple majority.
+- q: Without the derivation from the nazirite's ram, what would Torah law say about a forbidden food
+    in a mixture?
+  opts:
+  - It is never nullified.
+  - It is nullified in a hundred.
+  - It is nullified in a simple majority.
+  - It is nullified only if a taster detects nothing.
+  correct: c
+  why: מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל, nullification in a bare majority.
+- q: According to Ravina, what does the word זֶה in the baraita about the nazirite's ram teach?
+  opts:
+  - That the measure is sixty rather than a hundred.
+  - That the ram must be cooked rather than roasted.
+  - That the surface of the cut on the permitted part is permitted.
+  - That the foreleg alone is given to the priest.
+  correct: c
+  why: it teaches that מְקוֹם הַחֲתָךְ, the place of the cut, is permitted here, though normally
+    it would be forbidden.
+- q: What is the case in the mishnah of Orla that Abaye uses against Rav Dimi?
+  opts:
+  - Teruma leaven that fell into non-sacred dough.
+  - Split beans of teruma cooked with non-sacred lentils.
+  - Non-kosher fish brine mixed into permitted brine.
+  - A sciatic nerve cooked together with a thigh.
+  correct: b
+  why: גְּרִיסִין of teruma cooked with non-sacred lentils, the "different kind" case of Orla 2:7.
+- q: What happened when Abaye asked why leaven at 101 parts should forbid the dough?
+  opts:
+  - Rav Dimi answered that leaven is potent.
+  - Rav Dimi was silent, and Abaye himself supplied the answer.
+  - Rav Dimi cited Rabbi Yosei b'Rabbi Chanina.
+  - Rav Dimi withdrew his entire position.
+  correct: b
+  why: אִישְׁתִּיק; then Abaye offered that leaven's חִימּוּצוֹ קָשֶׁה, its potency, explains it.
+- q: What is the measure for nullifying the brine of a non-kosher fish, according to Rabbi Yehuda?
+  opts:
+  - Sixty.
+  - A hundred and one.
+  - Close to two hundred.
+  - A simple majority.
+  correct: c
+  why: a quarter-log forbids two se'ah, about 192 times its volume.
+- q: How can brine be nullified at all, given that Rabbi Yehuda holds that like is not nullified
+    in like?
+  opts:
+  - Brine is merely sweat, and so is not considered the fish itself.
+  - Brine is a liquid, and liquids are always nullified.
+  - Rabbi Yehuda retracted that rule.
+  - The brine here came from a kosher fish.
+  correct: a
+  why: 'שָׁאנֵי צִיר, דְּזֵיעָה בְּעָלְמָא הוּא: brine is a secretion, not the fish, so it is not
+    its own kind.'
+- q: What is the accepted halacha about whether sinews impart taste?
+  opts:
+  - They impart taste, so the whole thigh is forbidden.
+  - They impart taste only when the nerve is larger than an olive-bulk.
+  - The matter is left unresolved.
+  - They impart no taste, so removing the nerve suffices.
+  correct: d
+  why: אֵין בְּגִידִין בְּנוֹתֵן טַעַם, stated three times on the daf and sealed as the halacha.
+- q: Why did Rabbi Ami send questioners to Rabbi Yitzchak ben Chalov?
+  opts:
+  - He did not know the answer himself.
+  - He held the lenient view and wanted it publicised.
+  - He held the stringent view but was unwilling to impose it on others.
+  - Rabbi Yitzchak ben Chalov was his teacher.
+  correct: c
+  why: he did not hold the lenient view himself, but would not rule strictly for others.
+- q: What question does the daf end on, unanswered?
+  opts:
+  - Whether the measure is sixty or a hundred.
+  - Why an unidentified sciatic nerve is not simply nullified by the majority.
+  - Whether the gid of a non-kosher animal is forbidden.
+  - Whether a pot's absorption counts toward the sixty.
+  correct: b
+  why: לִיבַּטֵיל בְּרוּבָּא; the answer, בְּרִיָּה שָׁאנֵי, opens tomorrow's daf.
+```

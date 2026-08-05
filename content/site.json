@@ -1,0 +1,9 @@
+{
+  "site_url": "https://jocosiol.github.io/daf-yomi",
+
+  "_pin": "The homepage rolls over at sunset, not midnight. Pinning it to Jerusalem keeps the site agreeing with the timezone=Asia/Jerusalem calendar the daily build reads. Set to null to guess each visitor's location from their browser timezone instead.",
+  "pin": { "lat": 31.7683, "lon": 35.2137 },
+
+  "_offset": "Minutes after sunset to roll over. 0 = shkia; use 40 for an approximate tzeis hakochavim.",
+  "offset": 0
+}

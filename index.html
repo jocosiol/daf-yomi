@@ -4,221 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daf Yomi — Chullin 98 (חולין צח)</title>
-<style>
-  :root{
-    --paper:#fbf7ee; --ink:#2c261d; --accent:#8a5a2b; --accent2:#6b3f1d;
-    --gold:#c9a86a; --gold-soft:#ead9b3; --panel:#fffdf8; --line:#e2d3b3;
-    --good:#3f8f5b; --good-bg:#e7f4ec; --bad:#c0453b; --bad-bg:#fbe9e7;
-    --shadow:0 6px 24px rgba(80,55,20,.10);
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
-  body{
-    background:linear-gradient(180deg,#f4ecd8 0%,#fbf7ee 220px) fixed;
-    color:var(--ink); font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;
-    line-height:1.6; -webkit-font-smoothing:antialiased;
-  }
-  :lang(he),.he{font-family:"Frank Ruhl Libre","Times New Roman",Georgia,serif;}
-  .wrap{max-width:820px;margin:0 auto;padding:0 18px 80px}
-  header.top{
-    text-align:center;padding:34px 18px 22px;margin-bottom:8px;
-  }
-  header.top h1{
-    font-size:2.05rem;line-height:1.2;margin:0 0 6px;color:var(--accent2);
-    letter-spacing:.2px;
-  }
-  header.top .sub{color:#7a6a4d;font-size:1rem;font-style:italic}
-  .tabs{
-    display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:20;
-    padding:12px 0;background:linear-gradient(180deg,var(--paper) 70%,rgba(251,247,238,0));
-    margin-bottom:10px;
-  }
-  .tab{
-    border:1px solid var(--gold);background:var(--panel);color:var(--accent2);
-    padding:9px 22px;border-radius:999px;cursor:pointer;font-size:1rem;font-weight:600;
-    box-shadow:var(--shadow);transition:.18s;font-family:inherit;
-  }
-  .tab:hover{transform:translateY(-1px)}
-  .tab.active{background:var(--accent2);color:#fff;border-color:var(--accent2)}
-  .view{display:none;animation:fade .35s ease}
-  .view.active{display:block}
-  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-
-  /* ---- Learn view ---- */
-  .sheet{background:var(--panel);border:1px solid var(--line);border-radius:16px;
-    padding:26px 30px;box-shadow:var(--shadow)}
-  .sheet h2{font-size:1.4rem;color:var(--accent2);border-bottom:2px solid var(--gold-soft);
-    padding-bottom:6px;margin:26px 0 10px}
-  .sheet h2:first-child{margin-top:0}
-  .sheet h3{font-size:1.12rem;color:var(--accent);margin:18px 0 6px}
-  .sheet blockquote{margin:14px 0;padding:12px 18px;background:#faf3e3;
-    border-left:4px solid var(--gold);border-radius:6px;font-style:italic}
-  .sheet table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}
-  .sheet th,.sheet td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
-  .sheet th{background:var(--gold-soft);color:var(--accent2)}
-  .sheet tr:nth-child(even) td{background:#fbf7ee}
-  .sheet code{background:#f0e6ce;padding:1px 5px;border-radius:4px;font-size:.9em}
-  .sheet hr{border:none;border-top:1px solid var(--line);margin:22px 0}
-  .sheet ul{padding-left:22px}
-  .sheet li{margin:5px 0}
-  .sheet strong{color:var(--accent2)}
-
-  /* ---- Quiz view ---- */
-  .quiz{background:var(--panel);border:1px solid var(--line);border-radius:16px;
-    padding:26px 28px;box-shadow:var(--shadow)}
-  .qbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:6px;
-    font-size:.92rem;color:#7a6a4d}
-  .prog{height:9px;background:var(--gold-soft);border-radius:999px;overflow:hidden;margin:8px 0 22px}
-  .prog>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--accent));
-    border-radius:999px;transition:width .4s ease}
-  .qnum{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
-  .qtext{font-size:1.28rem;line-height:1.45;margin:8px 0 20px;color:var(--ink)}
-  .opts{display:flex;flex-direction:column;gap:12px}
-  .opt{display:flex;align-items:flex-start;gap:12px;text-align:left;width:100%;
-    border:1.5px solid var(--line);background:#fffdf8;border-radius:12px;padding:14px 16px;
-    cursor:pointer;font-size:1.05rem;font-family:inherit;color:var(--ink);transition:.15s}
-  .opt:hover:not(.locked){border-color:var(--accent);transform:translateY(-1px);
-    box-shadow:0 3px 12px rgba(120,80,30,.10)}
-  .opt .key{flex:0 0 28px;height:28px;border-radius:50%;background:var(--gold-soft);
-    color:var(--accent2);font-weight:700;display:flex;align-items:center;justify-content:center;
-    font-size:.95rem}
-  .opt.correct{border-color:var(--good);background:var(--good-bg)}
-  .opt.correct .key{background:var(--good);color:#fff}
-  .opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
-  .opt.wrong .key{background:var(--bad);color:#fff}
-  .opt.locked{cursor:default}
-  .opt.dim{opacity:.55}
-  .why{margin-top:18px;padding:14px 16px;border-radius:12px;background:#f6efe0;
-    border-left:4px solid var(--gold);font-size:1rem;display:none;animation:fade .3s}
-  .why.show{display:block}
-  .why b{color:var(--accent2)}
-  .nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px}
-  .btn{border:none;border-radius:999px;padding:12px 26px;font-size:1.02rem;font-weight:700;
-    cursor:pointer;font-family:inherit;background:var(--accent2);color:#fff;box-shadow:var(--shadow);
-    transition:.16s}
-  .btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
-  .btn.ghost{background:var(--panel);color:var(--accent2);border:1px solid var(--gold)}
-  .btn:disabled{opacity:.4;cursor:default;transform:none}
-  .pill{background:var(--gold-soft);color:var(--accent2);border-radius:999px;padding:4px 12px;font-weight:700}
-  .streak{color:var(--accent)}
-  /* end screen */
-  .end{text-align:center;padding:14px 6px}
-  .end .big{font-size:3.4rem;margin:6px 0}
-  .end .score{font-size:1.6rem;color:var(--accent2);font-weight:700;margin:4px 0}
-  .end .msg{font-size:1.1rem;color:#6a5a3d;margin:8px 0 20px}
-  .review{text-align:left;margin-top:20px}
-  .review .r{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;background:#fffdf8}
-  .review .r .rq{font-weight:700;color:var(--ink);margin-bottom:6px}
-  .review .r .ra{font-size:.96rem;margin:2px 0}
-  .review .ok{color:var(--good)} .review .no{color:var(--bad)}
-  .hint{color:#9a8a6d;font-size:.82rem;text-align:center;margin-top:14px}
-  @media(max-width:520px){.sheet,.quiz{padding:20px 16px}.qtext{font-size:1.14rem}header.top h1{font-size:1.6rem}}
-</style>
-
-<style id="site-nav-css">
-#site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
-#site-nav a{font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
-  background:#fffdf8;color:#6b3f1d;border:1px solid #c9a86a;border-radius:999px;
-  padding:6px 14px;box-shadow:0 3px 12px rgba(80,55,20,.12)}
-#site-nav a:hover{background:#6b3f1d;color:#fff}
-@media print{#site-nav{display:none}}
-</style>
-
-<script id="daf-zman">
-(function(){
-  var TZ = {
-    "Asia/Jerusalem":[31.78,35.21],"Asia/Tel_Aviv":[32.08,34.78],
-    "America/New_York":[40.71,-74.01],"America/Detroit":[42.33,-83.05],
-    "America/Chicago":[41.88,-87.63],"America/Denver":[39.74,-104.99],
-    "America/Phoenix":[33.45,-112.07],"America/Los_Angeles":[34.05,-118.24],
-    "America/Toronto":[43.65,-79.38],"America/Montreal":[45.50,-73.57],
-    "America/Vancouver":[49.28,-123.12],"America/Mexico_City":[19.43,-99.13],
-    "America/Sao_Paulo":[-23.55,-46.63],"America/Argentina/Buenos_Aires":[-34.60,-58.38],
-    "America/Panama":[8.98,-79.52],"America/Bogota":[4.71,-74.07],
-    "Europe/London":[51.51,-0.13],"Europe/Dublin":[53.35,-6.26],
-    "Europe/Paris":[48.86,2.35],"Europe/Brussels":[50.85,4.35],
-    "Europe/Amsterdam":[52.37,4.90],"Europe/Berlin":[52.52,13.40],
-    "Europe/Zurich":[47.38,8.54],"Europe/Vienna":[48.21,16.37],
-    "Europe/Rome":[41.90,12.50],"Europe/Madrid":[40.42,-3.70],
-    "Europe/Prague":[50.08,14.44],"Europe/Budapest":[47.50,19.04],
-    "Europe/Warsaw":[52.23,21.01],"Europe/Kiev":[50.45,30.52],
-    "Europe/Moscow":[55.76,37.62],"Europe/Istanbul":[41.01,28.98],
-    "Australia/Sydney":[-33.87,151.21],"Australia/Melbourne":[-37.81,144.96],
-    "Australia/Perth":[-31.95,115.86],"Pacific/Auckland":[-36.85,174.76],
-    "Africa/Johannesburg":[-26.20,28.05],"Asia/Hong_Kong":[22.32,114.17],
-    "Asia/Tokyo":[35.68,139.69],"Asia/Shanghai":[31.23,121.47],
-    "Asia/Singapore":[1.35,103.82],"Asia/Kolkata":[19.08,72.88]
-  };
-  function guess(){
-    var tz=""; try{ tz=Intl.DateTimeFormat().resolvedOptions().timeZone||"" }catch(e){}
-    if(TZ[tz]) return {lat:TZ[tz][0], lon:TZ[tz][1], src:tz};
-    // Unknown zone: longitude from the UTC offset is good; latitude is a temperate guess.
-    return {lat:32, lon:-new Date().getTimezoneOffset()/4, src:"utc-offset"};
-  }
-  // Sunset as a UTC instant for the given local calendar date, or null at the poles.
-  function sunset(Y,M,D,lat,lon){
-    var rad=Math.PI/180;
-    var a=Math.floor((14-M)/12), y=Y+4800-a, m=M+12*a-3;
-    var JDN=D+Math.floor((153*m+2)/5)+365*y+Math.floor(y/4)-Math.floor(y/100)
-            +Math.floor(y/400)-32045;
-    var n=JDN-2451545.0+0.0008, Js=n-lon/360;
-    var Ma=(357.5291+0.98560028*Js)%360;
-    var C=1.9148*Math.sin(Ma*rad)+0.0200*Math.sin(2*Ma*rad)+0.0003*Math.sin(3*Ma*rad);
-    var L=(Ma+C+180+102.9372)%360;
-    var Jtr=2451545.0+Js+0.0053*Math.sin(Ma*rad)-0.0069*Math.sin(2*L*rad);
-    var dec=Math.asin(Math.sin(L*rad)*Math.sin(23.4397*rad))/rad;
-    var co=(Math.sin(-0.833*rad)-Math.sin(lat*rad)*Math.sin(dec*rad))
-           /(Math.cos(lat*rad)*Math.cos(dec*rad));
-    if(co>1||co<-1) return null;                       // polar night / midnight sun
-    return new Date(((Jtr+(Math.acos(co)/rad)/360)-2440587.5)*86400000);
-  }
-  // The halachic date as an ISO string: today's civil date, +1 once the sun has set.
-  window.dafToday = function(pin, offsetMin){
-    var loc = pin || guess(), now = new Date();
-    var ss = sunset(now.getFullYear(), now.getMonth()+1, now.getDate(), loc.lat, loc.lon);
-    var eff = new Date(now.getTime());
-    if(ss && now.getTime() >= ss.getTime() + (offsetMin||0)*60000) eff.setDate(eff.getDate()+1);
-    var p=function(x){return String(x).padStart(2,"0")};
-    return {date: eff.getFullYear()+"-"+p(eff.getMonth()+1)+"-"+p(eff.getDate()),
-            sunset: ss, loc: loc};
-  };
-})();
-</script>
-
-<script id="daf-router">
-(function(){
-  var SELF = "Chullin_98.html", DAPIM = [{"f":"Chullin_97.html","d":"2026-08-05"},{"f":"Chullin_98.html","d":"2026-08-06"},{"f":"Chullin_99.html","d":"2026-08-07"},{"f":"Chullin_100.html","d":"2026-08-08"},{"f":"Chullin_101.html","d":"2026-08-09"}];   // DAPIM sorted ascending by .d (ISO date)
-  if(!DAPIM.length || !window.dafToday) return;
-  var today = window.dafToday({"lat": 31.7683, "lon": 35.2137}, 0).date;
-  var target = null;
-  for(var i=0;i<DAPIM.length;i++){ if(DAPIM[i].d <= today) target = DAPIM[i]; }
-  if(!target) target = DAPIM[0];               // nothing published yet: show the earliest
-  if(target.f !== SELF) location.replace(target.f + location.hash);
-})();
-</script>
+<meta name="description" content="Yesterday&#39;s daf built the two roads to permitting a mixture: taste it, or — when nobody can taste it — fall back on a fixed ratio.">
+<meta name="theme-color" content="#f4ecd8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16130f" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Daf Yomi — Chullin 98 (חולין צח)">
+<meta property="og:description" content="Yesterday&#39;s daf built the two roads to permitting a mixture: taste it, or — when nobody can taste it — fall back on a fixed ratio.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📖</text></svg>">
+<link rel="stylesheet" href="assets/daf.css?v=6f8a46cf">
+<script type="application/json" id="daf-config">{"langs":["en","es"],"pin":{"lat":31.7683,"lon":35.2137},"offset":0,"dapim":[{"f":"Chullin_97.html","d":"2026-08-05"},{"f":"Chullin_98.html","d":"2026-08-06"},{"f":"Chullin_99.html","d":"2026-08-07"},{"f":"Chullin_100.html","d":"2026-08-08"},{"f":"Chullin_101.html","d":"2026-08-09"}],"self":"Chullin_98.html"}</script>
+<script src="assets/lang.js?v=7ce07f98"></script>
+<script src="assets/zman.js?v=a6ccf6c0"></script>
 </head>
 <body>
-<div id="site-nav"><a href="archive.html">🗂 Archive</a></div>
-
+<nav id="site-nav">
+  <a href="archive.html"><span data-lang="en">🗂 Archive</span><span data-lang="es">🗂 Archivo</span></a>
+  <button id="lang-btn" type="button"><span data-lang="en" title="Ver en español">🌐 Español</span><span data-lang="es" title="View in English">🌐 English</span></button>
+</nav>
 <div class="wrap">
   <header class="top">
-    <h1>Daf Yomi — Chullin 98 (חולין צח)</h1>
-    <div class="sub">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Study date: Thu, 6 August 2026</div>
+    <h1><span data-lang="en">Daf Yomi — Chullin 98 (<span lang="he" dir="rtl">חולין צח</span>)</span><span data-lang="es">Daf Yomi — Julín 98 (<span lang="he" dir="rtl">חולין צח</span>)</span></h1>
+    <div class="sub"><span data-lang="en">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Thu, 6 August 2026</span><span data-lang="es">Capítulo 7: <em>Guid HaNashé</em> (el nervio sciático) · jue, 6 de agosto de 2026</span></div>
   </header>
 
-  <div class="tabs">
-    <button class="tab active" data-v="learn">📖 Learn</button>
-    <button class="tab" data-v="quiz">🎯 Chazara Quiz</button>
+  <div class="tabs" role="tablist">
+    <button class="tab active" type="button" role="tab" aria-selected="true"
+            aria-controls="learn" data-v="learn">📖&nbsp;<span data-lang="en">Learn</span><span data-lang="es">Aprender</span></button>
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="quiz" data-v="quiz">🎯&nbsp;<span data-lang="en">Chazara Quiz</span><span data-lang="es">Repaso (Chazará)</span></button>
   </div>
 
-  <section class="view active" id="learn">
-    <div class="sheet"><h2>The big picture (read this first)</h2>
+  <section class="view active" id="learn" role="tabpanel">
+    <div class="sheet" data-lang="en">
+      <h2>The big picture (read this first)</h2>
 <p>Yesterday&rsquo;s daf built the two roads to permitting a mixture: <strong>taste it</strong>, or — when nobody
 can taste it — fall back on a <strong>fixed ratio</strong>. Today the Gemara does the hard engineering work
 on that second road. Where does the number come from? What exactly do you count? And is the
 whole ratio even a real, general rule?</p>
 <blockquote>
-<p>Today&rsquo;s daf is the birth certificate of <strong>בְּשִׁשִּׁים — nullification in sixty</strong>, the number that
+<p>Today&rsquo;s daf is the birth certificate of <strong><span lang="he" dir="rtl">בְּשִׁשִּׁים</span> — nullification in sixty</strong>, the number that
 still runs a modern kosher kitchen. And it turns out the number is not a tradition handed
 down at Sinai; it is <em>derived</em>, from a single cooked foreleg of a nazirite&rsquo;s ram.</p>
 </blockquote>
@@ -232,15 +57,15 @@ down at Sinai; it is <em>derived</em>, from a single cooked foreleg of a nazirit
    number hardened.</li>
 <li><strong>Sixty or a hundred?</strong> (98a end – 98b) — a dispute in the name of <em>bar Kappara</em>, both sides
    reading the same verse, and then a serious challenge: maybe the nazirite&rsquo;s ram teaches
-   nothing general at all, because <strong>מֵחִידּוּשׁ לָא גָּמְרִינַן</strong> — we do not derive rules from an anomaly.</li>
+   nothing general at all, because <strong><span lang="he" dir="rtl">מֵחִידּוּשׁ לָא גָּמְרִינַן</span></strong> — we do not derive rules from an anomaly.</li>
 </ol>
 <hr />
 <h2>Walking through the sugya, step by step</h2>
 <h3>98a — Abaye finishes the egg answer (and gets pushed hard)</h3>
 <p><strong>The answer.</strong> 97b ended with Rav Idi bar Avin&rsquo;s needle: people call something tasteless
 &ldquo;mere egg-water,&rdquo; so how can a forbidden egg impart flavor? Abaye&rsquo;s answer lands here:
-the case is <strong>בְּבֵיצַת אֶפְרוֹחַ — an egg with a chick in it.</strong> <em>That</em> imparts flavor. But a plain
-egg from a non-kosher bird, with no chick, <strong>לָא</strong> — it does not.</p>
+the case is <strong><span lang="he" dir="rtl">בְּבֵיצַת אֶפְרוֹחַ</span> — an egg with a chick in it.</strong> <em>That</em> imparts flavor. But a plain
+egg from a non-kosher bird, with no chick, <strong><span lang="he" dir="rtl">לָא</span></strong> — it does not.</p>
 <p><strong>The objection.</strong> Rav Idi bar Avin cites a baraita (Tosefta, Terumot 9:5): kosher eggs boiled
 together with <strong>non-kosher eggs</strong> — if the ratio is such that they impart flavor, all are
 forbidden. So a non-kosher egg <em>does</em> have flavor. Abaye holds his ground: there too it means
@@ -249,34 +74,34 @@ it forbidden.</p>
 <p><strong>The pushback.</strong> But the baraita&rsquo;s second clause says explicitly, &ldquo;eggs that one boiled and <strong>a
 chick was found in one of them</strong>&rdquo; — so by inference the first clause must be talking about an egg
 <em>without</em> a chick.</p>
-<p><strong>Two ways to read a baraita.</strong> The Gemara offers <strong>פָּירוּשֵׁי קָא מְפָרֵשׁ</strong> — the second clause isn&rsquo;t a
+<p><strong>Two ways to read a baraita.</strong> The Gemara offers <strong><span lang="he" dir="rtl">פָּירוּשֵׁי קָא מְפָרֵשׁ</span></strong> — the second clause isn&rsquo;t a
 new case, it is <em>explaining</em> the first: &ldquo;all forbidden — how so? Where a chick was found in one
 of them.&rdquo; And there&rsquo;s a logic to support it: if the first clause already dealt with a chick-less
 egg, teaching the chick case afterward would be redundant (an obvious <em>kal vachomer</em>).</p>
-<p><strong>But the logic is refused.</strong> <strong>אִי מִשּׁוּם הָא לָא אִירְיָא</strong> — that proof is inconclusive. One can equally
+<p><strong>But the logic is refused.</strong> <strong><span lang="he" dir="rtl">אִי מִשּׁוּם הָא לָא אִירְיָא</span></strong> — that proof is inconclusive. One can equally
 say the second clause was taught <em>to reveal</em> the first: so you wouldn&rsquo;t mistakenly read the
 first clause as only about a chick-egg. On that reading the first clause really is a chick-less
 non-kosher egg, and it really does forbid. The Gemara leaves the reading unresolved and moves
 on — worth noting, because it means Abaye&rsquo;s narrow reading is defended, not proven.</p>
 <h3>98a — What counts toward the sixty?</h3>
-<p><strong>Case 1: don&rsquo;t double-count the pot.</strong> An olive-bulk of forbidden fat (<strong>כְּזֵיתָא תַּרְבָּא</strong>) fell into
-a pot of kosher meat (<strong>דִּיקּוּלָא דְּבִשְׂרָא</strong>). Rav Asi thought to measure the permitted volume
+<p><strong>Case 1: don&rsquo;t double-count the pot.</strong> An olive-bulk of forbidden fat (<strong><span lang="he" dir="rtl">כְּזֵיתָא תַּרְבָּא</span></strong>) fell into
+a pot of kosher meat (<strong><span lang="he" dir="rtl">דִּיקּוּלָא דְּבִשְׂרָא</span></strong>). Rav Asi thought to measure the permitted volume
 <em>including what the pot had absorbed</em>. The Rabbis shut it down with one line:
-<strong>אַטּוּ דְּהֶיתֵּרָא בָּלַע, דְּאִיסּוּרָא לָא בָּלַע?</strong> — &ldquo;Is that to say the pot absorbed only the permitted meat
+<strong><span lang="he" dir="rtl">אַטּוּ דְּהֶיתֵּרָא בָּלַע, דְּאִיסּוּרָא לָא בָּלַע</span>?</strong> — &ldquo;Is that to say the pot absorbed only the permitted meat
 and not the forbidden fat?&rdquo; You can&rsquo;t count the vessel&rsquo;s absorption as pure credit on the
 permitted side of the ledger; it drank in both.</p>
 <p><em>(A textual note: the manuscript tradition here has &ldquo;Rav Asi&rdquo; proposing and &ldquo;Rav Ashi&rdquo; being
 answered. Most likely one figure is intended — see &ldquo;Who&rsquo;s who&rdquo; below.)</em></p>
 <p><strong>Case 2: no discount for a small piece.</strong> A <em>half</em>-olive-bulk of forbidden fat fell into a pot of
 meat. <strong>Mar bar Rav Ashi</strong> reasoned that you&rsquo;d only need <strong>thirty</strong> half-olive-bulks to nullify it,
-not sixty. His father <strong>Rav Ashi</strong> answered with two blows: (i) <strong>לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן</strong> — &ldquo;don&rsquo;t
+not sixty. His father <strong>Rav Ashi</strong> answered with two blows: (i) <strong><span lang="he" dir="rtl">לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן</span></strong> — &ldquo;don&rsquo;t
 treat the Sages&rsquo; measures lightly,&rdquo; even for a rabbinic prohibition; and (ii) Rabbi Yochanan
-taught <strong>חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה</strong> — a half-measure is forbidden by Torah law. A half-olive of
+taught <strong><span lang="he" dir="rtl">חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה</span></strong> — a half-measure is forbidden by Torah law. A half-olive of
 forbidden fat is fully forbidden, so it needs a full sixty times its own volume.</p>
 <h3>98a — The egg in sixty-one, and a chain of transmission</h3>
 <p><strong>The longest chain on the daf.</strong> Rav Shemen bar Abba → in the name of Rav Idi bar Idi bar
 Gershom → Levi bar Perata → Rabbi Nachum → Rabbi Biryam → &ldquo;a certain elder, and his name
-was Rabbi Yaakov&rdquo; → and <em>they of the Nasi&rsquo;s house</em> (<strong>דְּבֵי נְשִׂיאָה</strong>) said:
+was Rabbi Yaakov&rdquo; → and <em>they of the Nasi&rsquo;s house</em> (<strong><span lang="he" dir="rtl">דְּבֵי נְשִׂיאָה</span></strong>) said:
 <strong>a non-kosher egg among sixty — forbidden; among sixty-one — permitted.</strong></p>
 <p><strong>Why R&rsquo; Zeira was startled.</strong> Rabbi Zeira said to Rav Shemen bar Abba: <em>&ldquo;See that you are
 fixing a limit of permission!&rdquo;</em> — i.e. you have just resolved something the two greatest sages
@@ -284,7 +109,7 @@ of the generation, <strong>Rabbi Yaakov bar Idi</strong> and <strong>Rabbi Shmue
 <strong>Rabbi Yehoshua ben Levi</strong>), left open. They had said the same words — sixty forbidden,
 sixty-one permitted — and the question was raised before them:</p>
 <blockquote>
-<p><strong>בַּהֲדֵי דִּידַהּ, אוֹ דִילְמָא לְבַר מִינַּהּ?</strong> — is it sixty-one <em>including</em> the forbidden egg, or sixty-one
+<p><strong><span lang="he" dir="rtl">בַּהֲדֵי דִּידַהּ, אוֹ דִילְמָא לְבַר מִינַּהּ</span>?</strong> — is it sixty-one <em>including</em> the forbidden egg, or sixty-one
 <em>besides</em> it?</p>
 </blockquote>
 <p>They didn&rsquo;t resolve it. Rav Shemen&rsquo;s phrasing implies the count <em>includes</em> it.</p>
@@ -302,27 +127,27 @@ sixty <strong>and it</strong> — forbidden; sixty-one <strong>and it</strong> �
 </ul>
 <p><strong>But wait.</strong> If R&rsquo; Chiyya&rsquo;s objection was &ldquo;there isn&rsquo;t even thirty,&rdquo; does that imply that <em>with</em>
 thirty he would have permitted — against the sixty rule? <strong>Rabbi Chanina</strong> answers in a word:
-<strong>גּוּזְמָא</strong> — it was rhetorical exaggeration. There wasn&rsquo;t remotely enough; he wasn&rsquo;t legislating
+<strong><span lang="he" dir="rtl">גּוּזְמָא</span></strong> — it was rhetorical exaggeration. There wasn&rsquo;t remotely enough; he wasn&rsquo;t legislating
 a threshold of thirty.</p>
 <h3>98a end — Sixty or one hundred?</h3>
 <p><strong>Rabbi Chiyya bar Abba</strong> said <strong>Rabbi Yehoshua ben Levi</strong> in the name of <strong>bar Kappara</strong>:
-<strong>כָּל אִיסּוּרִין שֶׁבַּתּוֹרָה בְּשִׁשִּׁים</strong> — every Torah prohibition is nullified in sixty.
+<strong><span lang="he" dir="rtl">כָּל אִיסּוּרִין שֶׁבַּתּוֹרָה בְּשִׁשִּׁים</span></strong> — every Torah prohibition is nullified in sixty.
 <strong>Rabbi Shmuel bar Rav Yitzchak</strong> objects to his face: <em>&ldquo;My teacher, you say that?&rdquo;</em> — because
 <strong>Rav Asi</strong> reported the very same chain (R&rsquo; Yehoshua ben Levi in the name of bar Kappara)
-as saying <strong>בְּמֵאָה</strong> — in <strong>one hundred</strong>.</p>
+as saying <strong><span lang="he" dir="rtl">בְּמֵאָה</span></strong> — in <strong>one hundred</strong>.</p>
 <p><strong>And both learned it from the same three words.</strong> Neither number is a tradition; both are read
-out of <strong>&ldquo;זְרוֹעַ בְּשֵׁלָה&rdquo;</strong> — the nazirite&rsquo;s ram: <em>&ldquo;And the priest shall take the cooked foreleg of the
+out of <strong>&ldquo;<span lang="he" dir="rtl">זְרוֹעַ בְּשֵׁלָה</span>&rdquo;</strong> — the nazirite&rsquo;s ram: <em>&ldquo;And the priest shall take the cooked foreleg of the
 ram&rdquo;</em> (Bamidbar 6:19). The foreleg belongs to the <strong>kohen</strong>; the rest of the ram is eaten by the
 <strong>nazir</strong>, kohen or not. Yet the Torah has them <strong>cooked together</strong> — and the rest of the ram stays
 permitted to a non-kohen. That is nullification, written into the Torah.</p>
 <h3>98b — Reading the verse, and then doubting the whole derivation</h3>
-<p><strong>What does &ldquo;בְּשֵׁלָה&rdquo; mean?</strong> A tannaitic dispute:</p>
+<p><strong>What does &ldquo;<span lang="he" dir="rtl">בְּשֵׁלָה</span>&rdquo; mean?</strong> A tannaitic dispute:</p>
 <ul>
-<li>The first tanna: <strong>אֵין &ldquo;בְּשֵׁלָה&rdquo; אֶלָּא שְׁלֵימָה</strong> — it means the foreleg must be <strong>whole</strong>.</li>
+<li>The first tanna: <strong><span lang="he" dir="rtl">אֵין</span> &ldquo;<span lang="he" dir="rtl">בְּשֵׁלָה</span>&rdquo; <span lang="he" dir="rtl">אֶלָּא שְׁלֵימָה</span></strong> — it means the foreleg must be <strong>whole</strong>.</li>
 <li><strong>Rabbi Shimon ben Yochai</strong>: it means the foreleg is <strong>cooked together with the whole ram</strong>.</li>
 </ul>
 <p><strong>Two ways to frame that dispute (two <em>lishanot</em>):</strong></p>
-<table>
+<div class="table-scroll"><table>
 <thead>
 <tr>
 <th></th>
@@ -342,52 +167,52 @@ permitted to a non-kohen. That is nullification, written into the Torah.</p>
 <td>Cook it <strong>with</strong> the ram (RaShBY), or in a <strong>separate pot</strong>?</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>Why it matters: the nullification proof needs the foreleg to be cooked <em>together with</em> the ram.
 On the <strong>first</strong> <em>lishna</em> that&rsquo;s <strong>agreed by all</strong> — the derivation is universal. On the <strong>second</strong>, it
 holds <strong>only according to RaShBY</strong>; the other tanna&rsquo;s foreleg cooks alone, so nothing is derived.</p>
 <p><strong>Now the arithmetic of the dispute.</strong> How do sixty and a hundred come out of one animal?</p>
 <ul>
-<li><strong>בְּשִׁשִּׁים</strong> — you measure <strong>meat <em>and bones</em></strong> of the foreleg against the <strong>meat and bones</strong> of the
+<li><strong><span lang="he" dir="rtl">בְּשִׁשִּׁים</span></strong> — you measure <strong>meat <em>and bones</em></strong> of the foreleg against the <strong>meat and bones</strong> of the
   rest of the ram. That ratio is roughly <strong>1:60</strong>.</li>
-<li><strong>בְּמֵאָה</strong> — you measure <strong>meat against meat only</strong> (bones don&rsquo;t count). That ratio is <strong>1:100</strong>.</li>
+<li><strong><span lang="he" dir="rtl">בְּמֵאָה</span></strong> — you measure <strong>meat against meat only</strong> (bones don&rsquo;t count). That ratio is <strong>1:100</strong>.</li>
 </ul>
 <p>One animal, two accounting methods, two halachic numbers. This is the most satisfying line
 on the daf.</p>
-<p><strong>The serious challenge.</strong> A baraita on the nazirite&rsquo;s ram says: <strong>זֶהוּ הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר</strong> —
-&ldquo;<strong><em>This</em></strong> is a permitted thing that emerges from within a prohibition.&rdquo; That emphatic <strong>&ldquo;זֶהוּ&rdquo; —
+<p><strong>The serious challenge.</strong> A baraita on the nazirite&rsquo;s ram says: <strong><span lang="he" dir="rtl">זֶהוּ הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר</span></strong> —
+&ldquo;<strong><em>This</em></strong> is a permitted thing that emerges from within a prohibition.&rdquo; That emphatic <strong>&ldquo;<span lang="he" dir="rtl">זֶהוּ</span>&rdquo; —
 <em>this</em></strong> must be excluding something. What? Presumably <strong>all other Torah prohibitions</strong> — meaning
 the ram is a one-off and teaches nothing general. So how can 60 or 100 be derived from it?</p>
 <p><strong>Abaye&rsquo;s answer.</strong> The exclusion is narrow: it&rsquo;s needed <strong>only for Rabbi Yehuda</strong>, who holds
-<strong>מִין בְּמִינוֹ לֹא בָּטֵיל</strong> — a food mixed with its own type is never nullified. The baraita tells us that
+<strong><span lang="he" dir="rtl">מִין בְּמִינוֹ לֹא בָּטֵיל</span></strong> — a food mixed with its own type is never nullified. The baraita tells us that
 <em>here</em>, exceptionally, it <strong>is</strong> nullified.</p>
 <ul>
 <li><em>Objection:</em> then let R&rsquo; Yehuda learn from here that <strong>min b&rsquo;mino</strong> is always nullified!</li>
-<li><em>Answer:</em> the Torah revealed otherwise — <strong>&ldquo;וְלָקַח מִדַּם הַפָּר וּמִדַּם הַשָּׂעִיר&rdquo;</strong> (Vayikra 16:18): the bull&rsquo;s
+<li><em>Answer:</em> the Torah revealed otherwise — <strong>&ldquo;<span lang="he" dir="rtl">וְלָקַח מִדַּם הַפָּר וּמִדַּם הַשָּׂעִיר</span>&rdquo;</strong> (Vayikra 16:18): the bull&rsquo;s
   blood and the goat&rsquo;s blood are mixed together, and the verse still names <em>the goat&rsquo;s blood</em>
   separately — so like-in-like keeps its identity and is not nullified.</li>
 <li><em>Objection:</em> why derive from <em>that</em> verse rather than from the ram?</li>
-<li><em>Answer:</em> <strong>חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן</strong> — the ram is an <strong>anomaly</strong>, because normally one may
+<li><em>Answer:</em> <strong><span lang="he" dir="rtl">חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן</span></strong> — the ram is an <strong>anomaly</strong>, because normally one may
   not deliberately nullify a forbidden food, yet here the Torah <em>instructs</em> you to cook them
   together. And we don&rsquo;t build general rules on anomalies.</li>
 </ul>
 <p><strong>Then the killer follow-up — and the elegant escape.</strong> If the ram is an anomaly, then don&rsquo;t
 derive <strong>sixty or a hundred</strong> from it either! The answer is a beautiful piece of legal reasoning:</p>
 <blockquote>
-<p><strong>אַטּוּ אֲנַן לְקוּלָּא גָּמְרִינַן? לְחוּמְרָא גָּמְרִינַן, דְּמִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל.</strong>
+<p><strong><span lang="he" dir="rtl">אַטּוּ אֲנַן לְקוּלָּא גָּמְרִינַן? לְחוּמְרָא גָּמְרִינַן, דְּמִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל</span>.</strong>
 &ldquo;Are we deriving a <em>leniency</em>? We are deriving a <em>stringency</em> — because by Torah law
 nullification happens with a simple <strong>majority</strong>.&rdquo;</p>
 </blockquote>
 <p>That is, without this derivation the Torah-level rule would be the far more lenient <em>rov</em> — a
 bare majority of permitted food. Sixty and a hundred are <strong>restrictions</strong>, and a restriction may
 safely be learned even from an anomaly.</p>
-<p><strong>Rava&rsquo;s alternative.</strong> Rava reads the baraita&rsquo;s <strong>&ldquo;זֶהוּ&rdquo;</strong> differently: it is needed only for
-<strong>טַעַם כְּעִיקָּר</strong> — flavor counting as substance. In the realm of <strong>קָדָשִׁים</strong> (sacrificial food) absorbed
+<p><strong>Rava&rsquo;s alternative.</strong> Rava reads the baraita&rsquo;s <strong>&ldquo;<span lang="he" dir="rtl">זֶהוּ</span>&rdquo;</strong> differently: it is needed only for
+<strong><span lang="he" dir="rtl">טַעַם כְּעִיקָּר</span></strong> — flavor counting as substance. In the realm of <strong><span lang="he" dir="rtl">קָדָשִׁים</span></strong> (sacrificial food) absorbed
 flavor <em>does</em> forbid and is not nullified; the baraita therefore has to tell us that here, in the
 nazirite&rsquo;s ram, the rest of the animal is permitted even to non-kohanim.</p>
 <hr />
 <h2>Key concepts &amp; terms</h2>
-<table>
+<div class="table-scroll"><table>
 <thead>
 <tr>
 <th>Term</th>
@@ -396,131 +221,131 @@ nazirite&rsquo;s ram, the rest of the animal is permitted even to non-kohanim.</
 </thead>
 <tbody>
 <tr>
-<td><strong>בֵּיצַת אֶפְרוֹחַ — beitzat efroach</strong></td>
+<td><strong><span lang="he" dir="rtl">בֵּיצַת אֶפְרוֹחַ</span> — beitzat efroach</strong></td>
 <td>An egg with a chick formed inside. Abaye&rsquo;s whole answer: <em>this</em> imparts flavor; a chick-less non-kosher egg does not.</td>
 </tr>
 <tr>
-<td><strong>פָּירוּשֵׁי קָא מְפָרֵשׁ — peirushei ka mefaresh</strong></td>
+<td><strong><span lang="he" dir="rtl">פָּירוּשֵׁי קָא מְפָרֵשׁ</span> — peirushei ka mefaresh</strong></td>
 <td>&ldquo;It is explaining&rdquo; — a baraita&rsquo;s second clause isn&rsquo;t a new case but a clarification of the first. A standard Talmudic repair.</td>
 </tr>
 <tr>
-<td><strong>אִי מִשּׁוּם הָא לָא אִירְיָא</strong></td>
+<td><strong><span lang="he" dir="rtl">אִי מִשּׁוּם הָא לָא אִירְיָא</span></strong></td>
 <td>&ldquo;If that&rsquo;s your reason, it proves nothing&rdquo; — the formula for rejecting an inference without rejecting the conclusion.</td>
 </tr>
 <tr>
-<td><strong>דִּיקּוּלָא — dikula</strong></td>
+<td><strong><span lang="he" dir="rtl">דִּיקּוּלָא</span> — dikula</strong></td>
 <td>The cooking vessel/pot (Aramaic). Its absorption cannot be counted on the permitted side alone.</td>
 </tr>
 <tr>
-<td><strong>כְּזֵיתָא תַּרְבָּא — k&rsquo;zeita tarba</strong></td>
+<td><strong><span lang="he" dir="rtl">כְּזֵיתָא תַּרְבָּא</span> — k&rsquo;zeita tarba</strong></td>
 <td>An olive-bulk of forbidden fat — the standard unit of a forbidden quantity.</td>
 </tr>
 <tr>
-<td><strong>חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה</strong></td>
+<td><strong><span lang="he" dir="rtl">חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה</span></strong></td>
 <td>R&rsquo; Yochanan: a <strong>half-measure</strong> is Torah-forbidden. Hence no proportional discount for a small piece — still sixty.</td>
 </tr>
 <tr>
-<td><strong>לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן</strong></td>
+<td><strong><span lang="he" dir="rtl">לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן</span></strong></td>
 <td>&ldquo;Don&rsquo;t treat rabbinic measures lightly&rdquo; — Rav Ashi&rsquo;s rebuke to his son.</td>
 </tr>
 <tr>
-<td><strong>בַּהֲדֵי דִּידַהּ / לְבַר מִינַּהּ</strong></td>
+<td><strong><span lang="he" dir="rtl">בַּהֲדֵי דִּידַהּ</span> / <span lang="he" dir="rtl">לְבַר מִינַּהּ</span></strong></td>
 <td>&ldquo;Including it&rdquo; / &ldquo;besides it&rdquo; — the unresolved dilemma about whether sixty-one counts the forbidden item.</td>
 </tr>
 <tr>
-<td><strong>דְּבֵי נְשִׂיאָה — d&rsquo;vei Nesi&rsquo;ah</strong></td>
+<td><strong><span lang="he" dir="rtl">דְּבֵי נְשִׂיאָה</span> — d&rsquo;vei Nesi&rsquo;ah</strong></td>
 <td>&ldquo;The house of the Nasi&rdquo; — the Patriarch&rsquo;s court, cited as a halachic body.</td>
 </tr>
 <tr>
-<td><strong>גּוּזְמָא — guzma</strong></td>
+<td><strong><span lang="he" dir="rtl">גּוּזְמָא</span> — guzma</strong></td>
 <td>Rhetorical exaggeration. R&rsquo; Chanina&rsquo;s rescue of R&rsquo; Chiyya&rsquo;s &ldquo;is there even thirty?&rdquo;</td>
 </tr>
 <tr>
-<td><strong>בְּשִׁשִּׁים / בְּמֵאָה</strong></td>
+<td><strong><span lang="he" dir="rtl">בְּשִׁשִּׁים</span> / <span lang="he" dir="rtl">בְּמֵאָה</span></strong></td>
 <td>Nullification in <strong>sixty</strong> or in <strong>one hundred</strong> — the dispute reported in bar Kappara&rsquo;s name.</td>
 </tr>
 <tr>
-<td><strong>זְרוֹעַ בְּשֵׁלָה — zeroa besheila</strong></td>
+<td><strong><span lang="he" dir="rtl">זְרוֹעַ בְּשֵׁלָה</span> — zeroa besheila</strong></td>
 <td>The nazirite&rsquo;s &ldquo;cooked foreleg&rdquo; (Bamidbar 6:19) — the Torah source for <strong>both</strong> numbers.</td>
 </tr>
 <tr>
-<td><strong>הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר</strong></td>
+<td><strong><span lang="he" dir="rtl">הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר</span></strong></td>
 <td>&ldquo;A permitted thing emerging from a prohibition&rdquo; — the baraita&rsquo;s description of the nazir&rsquo;s ram.</td>
 </tr>
 <tr>
-<td><strong>מִין בְּמִינוֹ לֹא בָּטֵיל</strong></td>
+<td><strong><span lang="he" dir="rtl">מִין בְּמִינוֹ לֹא בָּטֵיל</span></strong></td>
 <td>R&rsquo; Yehuda: like mixed into like is never nullified (you can&rsquo;t tell the flavors apart).</td>
 </tr>
 <tr>
-<td><strong>חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן</strong></td>
+<td><strong><span lang="he" dir="rtl">חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן</span></strong></td>
 <td>&ldquo;It is an anomaly, and we don&rsquo;t derive from an anomaly&rdquo; — the objection to using the ram at all.</td>
 </tr>
 <tr>
-<td><strong>מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל</strong></td>
+<td><strong><span lang="he" dir="rtl">מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל</span></strong></td>
 <td>By Torah law, nullification is by simple <strong>majority</strong> — which is why 60/100 count as <em>stringencies</em>.</td>
 </tr>
 <tr>
-<td><strong>טַעַם כְּעִיקָּר — taam k&rsquo;ikar</strong></td>
+<td><strong><span lang="he" dir="rtl">טַעַם כְּעִיקָּר</span> — taam k&rsquo;ikar</strong></td>
 <td>Flavor has the status of substance. Rava&rsquo;s reading of what the baraita&rsquo;s &ldquo;<em>this</em>&rdquo; excludes.</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <hr />
 <h2>Who&rsquo;s who in today&rsquo;s daf</h2>
 <p><strong>Tannaim and the transitional generation</strong></p>
 <ul>
-<li><strong>Rebbi</strong> (רבי, quoted as &ldquo;Abba&rdquo; by his sons) — <strong>Rabbi Yehuda HaNasi</strong>, last-generation <strong>Tanna</strong>,
+<li><strong>Rebbi</strong> (<span lang="he" dir="rtl">רבי</span>, quoted as &ldquo;Abba&rdquo; by his sons) — <strong>Rabbi Yehuda HaNasi</strong>, last-generation <strong>Tanna</strong>,
   Beit Shearim then Tzippori, redactor of the Mishnah. Here he is the father who permitted at
   forty-seven (and, per the next story, at forty-five). <em>Title tell: &ldquo;Rebbi&rdquo; standing alone always
   means him.</em></li>
-<li><strong>Rabban Gamliel bar Rebbi</strong> (רבן גמליאל בר רבי) — <strong>Rabban Gamliel III</strong>, son and successor of
+<li><strong>Rabban Gamliel bar Rebbi</strong> (<span lang="he" dir="rtl">רבן גמליאל בר רבי</span>) — <strong>Rabban Gamliel III</strong>, son and successor of
   R&rsquo; Yehuda HaNasi as Nasi; transitional Tanna/first-generation Amora, Eretz Yisrael. Permits at 45.</li>
-<li><strong>Rabbi Shimon bar Rebbi</strong> (רבי שמעון בר רבי) — the other son of R&rsquo; Yehuda HaNasi, brother of
+<li><strong>Rabbi Shimon bar Rebbi</strong> (<span lang="he" dir="rtl">רבי שמעון בר רבי</span>) — the other son of R&rsquo; Yehuda HaNasi, brother of
   Rabban Gamliel III, same transitional generation. Permits at 43.</li>
-<li><strong>Rabbi Chiyya</strong> (רבי חייא) — <strong>Chiyya Rabbah</strong>, transitional Tanna; born in Bavel, moved to
+<li><strong>Rabbi Chiyya</strong> (<span lang="he" dir="rtl">רבי חייא</span>) — <strong>Chiyya Rabbah</strong>, transitional Tanna; born in Bavel, moved to
   Eretz Yisrael, close colleague-disciple of Rebbi. He of the &ldquo;is there even thirty?&rdquo; line.
   <em>Look-alike alert:</em> not to be confused with <strong>Rabbi Chiyya bar Abba</strong>, a much later Eretz-Yisrael
   Amora who also appears on this daf.</li>
-<li><strong>Rabbi Shimon ben Yochai</strong> (רבי שמעון בן יוחאי, RaShBY) — <strong>Tanna, 4th generation</strong>, Eretz Yisrael,
+<li><strong>Rabbi Shimon ben Yochai</strong> (<span lang="he" dir="rtl">רבי שמעון בן יוחאי</span>, RaShBY) — <strong>Tanna, 4th generation</strong>, Eretz Yisrael,
   a leading student of <strong>Rabbi Akiva</strong>. Here he reads &ldquo;<em>besheila</em>&rdquo; as &ldquo;cooked with the whole ram.&rdquo;</li>
-<li><strong>Rabbi Yehuda</strong> (רבי יהודה) — <strong>Rabbi Yehuda bar Ilai</strong>, <strong>Tanna, 4th generation</strong>, Eretz Yisrael,
+<li><strong>Rabbi Yehuda</strong> (<span lang="he" dir="rtl">רבי יהודה</span>) — <strong>Rabbi Yehuda bar Ilai</strong>, <strong>Tanna, 4th generation</strong>, Eretz Yisrael,
   also a student of R&rsquo; Akiva and RaShBY&rsquo;s frequent disputant. The daf&rsquo;s anonymous holder of
   <strong>min b&rsquo;mino lo batel</strong>.</li>
 </ul>
 <p><strong>Eretz-Yisrael Amoraim</strong></p>
 <ul>
-<li><strong>Rabbi Yehoshua ben Levi</strong> (רבי יהושע בן לוי) — <strong>1st-generation Eretz-Yisrael Amora</strong>, Lod;
+<li><strong>Rabbi Yehoshua ben Levi</strong> (<span lang="he" dir="rtl">רבי יהושע בן לוי</span>) — <strong>1st-generation Eretz-Yisrael Amora</strong>, Lod;
   senior contemporary of Rabbi Yochanan. Both the &ldquo;sixty&rdquo; and the &ldquo;one hundred&rdquo; traditions run
   through him.</li>
-<li><strong>Rabbi Chanina</strong> (רבי חנינא) — <strong>Rabbi Chanina bar Chama</strong>, <strong>1st-generation Eretz-Yisrael Amora</strong>,
+<li><strong>Rabbi Chanina</strong> (<span lang="he" dir="rtl">רבי חנינא</span>) — <strong>Rabbi Chanina bar Chama</strong>, <strong>1st-generation Eretz-Yisrael Amora</strong>,
   Tzippori, a disciple of Rebbi. He explains R&rsquo; Chiyya&rsquo;s line as <em>guzma</em>.</li>
-<li><strong>Rabbi Yochanan</strong> (רבי יוחנן) — <strong>2nd-generation Eretz-Yisrael Amora</strong>, head of the academy in
+<li><strong>Rabbi Yochanan</strong> (<span lang="he" dir="rtl">רבי יוחנן</span>) — <strong>2nd-generation Eretz-Yisrael Amora</strong>, head of the academy in
   Tiberias, the central figure of the Yerushalmi; famous disputant <strong>Reish Lakish</strong>. Quoted here for
   <strong>chatzi shiur asur min haTorah</strong>.</li>
-<li><strong>Rabbi Zeira</strong> (רבי זירא) — <strong>3rd-generation Amora</strong>; born and trained in Bavel, then emigrated to
+<li><strong>Rabbi Zeira</strong> (<span lang="he" dir="rtl">רבי זירא</span>) — <strong>3rd-generation Amora</strong>; born and trained in Bavel, then emigrated to
   Eretz Yisrael (Tiberias), where he is the classic exemplar of Babylonian rigor meeting EY
   tradition. He challenges Rav Shemen bar Abba.</li>
-<li><strong>Rav Shemen bar Abba</strong> (רב שמן בר אבא) — <strong>3rd-generation Eretz-Yisrael Amora</strong>, Tiberias, a
+<li><strong>Rav Shemen bar Abba</strong> (<span lang="he" dir="rtl">רב שמן בר אבא</span>) — <strong>3rd-generation Eretz-Yisrael Amora</strong>, Tiberias, a
   student of Rabbi Yochanan. Transmits the &ldquo;sixty-one&rdquo; ruling of the Nasi&rsquo;s house.</li>
-<li><strong>Rabbi Yaakov bar Idi</strong> (רבי יעקב בר אידי) — <strong>3rd-generation Eretz-Yisrael Amora</strong>, a leading
+<li><strong>Rabbi Yaakov bar Idi</strong> (<span lang="he" dir="rtl">רבי יעקב בר אידי</span>) — <strong>3rd-generation Eretz-Yisrael Amora</strong>, a leading
   transmitter of <strong>R&rsquo; Yehoshua ben Levi</strong>. <em>Look-alike alert:</em> distinct from <strong>Rav Idi bar Avin</strong> and
   from <strong>Rav Idi bar Idi bar Gershom</strong>, both of whom also appear on this daf.</li>
-<li><strong>Rabbi Shmuel bar Nachmani</strong> (רבי שמואל בר נחמני) — <strong>3rd-generation Eretz-Yisrael Amora</strong>, the
+<li><strong>Rabbi Shmuel bar Nachmani</strong> (<span lang="he" dir="rtl">רבי שמואל בר נחמני</span>) — <strong>3rd-generation Eretz-Yisrael Amora</strong>, the
   great aggadist of his generation, also transmitting R&rsquo; Yehoshua ben Levi. Paired here with
   R&rsquo; Yaakov bar Idi as &ldquo;the two greatest of the generation.&rdquo;</li>
-<li><strong>Rabbi Chiyya bar Abba</strong> (רבי חייא בר אבא) — <strong>3rd-generation Eretz-Yisrael Amora</strong>, a student of
+<li><strong>Rabbi Chiyya bar Abba</strong> (<span lang="he" dir="rtl">רבי חייא בר אבא</span>) — <strong>3rd-generation Eretz-Yisrael Amora</strong>, a student of
   Rabbi Yochanan. He reports the <strong>sixty</strong> version. (See the look-alike note on Rabbi Chiyya above.)</li>
-<li><strong>Rabbi Shmuel bar Rav Yitzchak</strong> (רבי שמואל בר רב יצחק) — <strong>3rd-generation Amora</strong>, Bavel-born,
+<li><strong>Rabbi Shmuel bar Rav Yitzchak</strong> (<span lang="he" dir="rtl">רבי שמואל בר רב יצחק</span>) — <strong>3rd-generation Amora</strong>, Bavel-born,
   active in Eretz Yisrael. He confronts R&rsquo; Chiyya bar Abba with the <strong>hundred</strong> version.</li>
-<li><strong>Rav Asi</strong> (רב אסי) — in the 60-vs-100 report, the Eretz-Yisrael <strong>Rav Asi/Assi</strong>, a colleague of
+<li><strong>Rav Asi</strong> (<span lang="he" dir="rtl">רב אסי</span>) — in the 60-vs-100 report, the Eretz-Yisrael <strong>Rav Asi/Assi</strong>, a colleague of
   Rabbi Ami in Tiberias, <strong>3rd generation</strong>. <em>Look-alike alert:</em> spelled a hair away from <strong>Rav Ashi</strong>
-  (רב אשי) the Babylonian redactor, and from <strong>Rav Assi</strong> the Babylonian colleague of Rav Ami. In the
+  (<span lang="he" dir="rtl">רב אשי</span>) the Babylonian redactor, and from <strong>Rav Assi</strong> the Babylonian colleague of Rav Ami. In the
   pot-of-fat story on 98a the texts read &ldquo;Rav Asi&rdquo; proposing and &ldquo;Rav Ashi&rdquo; answering, which most
   commentators treat as one Babylonian figure; I&rsquo;d flag this as a genuine textual uncertainty
   rather than pretend it&rsquo;s settled.</li>
-<li><strong>Rabbi Chelbo</strong> (רבי חלבו) — <strong>3rd-generation Amora</strong>, Bavel-born and active in Eretz Yisrael, a
+<li><strong>Rabbi Chelbo</strong> (<span lang="he" dir="rtl">רבי חלבו</span>) — <strong>3rd-generation Amora</strong>, Bavel-born and active in Eretz Yisrael, a
   regular transmitter of <strong>Rav Huna</strong>. States the &ldquo;sixty-one <em>besides</em> it&rdquo; version.</li>
-<li><strong>bar Kappara</strong> (בר קפרא) — the Eretz-Yisrael sage in whose name <strong>both</strong> the sixty and the hundred
+<li><strong>bar Kappara</strong> (<span lang="he" dir="rtl">בר קפרא</span>) — the Eretz-Yisrael sage in whose name <strong>both</strong> the sixty and the hundred
   are reported. A genuinely obscure figure; the sources give us little beyond the name, and I would
   not want to guess at his generation or teachers.</li>
 <li><strong>Rabbi Nachum, Rabbi Biryam, Levi bar Perata, &ldquo;a certain elder named Rabbi Yaakov&rdquo;</strong> — the middle
@@ -530,22 +355,22 @@ nazirite&rsquo;s ram, the rest of the animal is permitted even to non-kohanim.</
 </ul>
 <p><strong>Babylonian Amoraim</strong></p>
 <ul>
-<li><strong>Rav Huna</strong> (רב הונא) — <strong>2nd-generation Babylonian Amora</strong>, head of the academy at <strong>Sura</strong>, the
+<li><strong>Rav Huna</strong> (<span lang="he" dir="rtl">רב הונא</span>) — <strong>2nd-generation Babylonian Amora</strong>, head of the academy at <strong>Sura</strong>, the
   foremost student of <strong>Rav</strong>. Quoted via R&rsquo; Chelbo on the sixty-one count.</li>
-<li><strong>Abaye</strong> (אביי) — <strong>4th-generation Babylonian Amora</strong>, head of <strong>Pumbedita</strong>; raised by his uncle
+<li><strong>Abaye</strong> (<span lang="he" dir="rtl">אביי</span>) — <strong>4th-generation Babylonian Amora</strong>, head of <strong>Pumbedita</strong>; raised by his uncle
   <strong>Rabbah bar Nachmani</strong> (his principal teacher). His lifelong dialectic with <strong>Rava</strong> defines the
   period. Here he narrows the baraita&rsquo;s &ldquo;<em>this</em>&rdquo; to R&rsquo; Yehuda&rsquo;s <em>min b&rsquo;mino</em>.</li>
-<li><strong>Rava</strong> (רבא) — <strong>4th-generation Babylonian Amora</strong> of <strong>Machoza</strong>, student of Rabbah and of Rav
+<li><strong>Rava</strong> (<span lang="he" dir="rtl">רבא</span>) — <strong>4th-generation Babylonian Amora</strong> of <strong>Machoza</strong>, student of Rabbah and of Rav
   Nachman, Abaye&rsquo;s great disputant (and the one whose view we usually follow). He reads the
-  baraita&rsquo;s &ldquo;<em>this</em>&rdquo; as being about <strong>taam k&rsquo;ikar</strong> in <em>kodashim</em>. <em>Look-alike alert:</em> <strong>רבא (Rava)</strong> is a
-  different person from <strong>רבה (Rabbah)</strong> — Rabbah bar Nachmani, the 3rd-generation head of
+  baraita&rsquo;s &ldquo;<em>this</em>&rdquo; as being about <strong>taam k&rsquo;ikar</strong> in <em>kodashim</em>. <em>Look-alike alert:</em> <strong><span lang="he" dir="rtl">רבא</span> (Rava)</strong> is a
+  different person from <strong><span lang="he" dir="rtl">רבה</span> (Rabbah)</strong> — Rabbah bar Nachmani, the 3rd-generation head of
   Pumbedita and Abaye&rsquo;s teacher. One letter, one generation apart.</li>
-<li><strong>Rav Idi bar Avin</strong> (רב אידי בר אבין) — <strong>4th-generation Babylonian Amora</strong>, a contemporary of
+<li><strong>Rav Idi bar Avin</strong> (<span lang="he" dir="rtl">רב אידי בר אבין</span>) — <strong>4th-generation Babylonian Amora</strong>, a contemporary of
   Abaye and Rava. He is the one pressing Abaye on the eggs, carried over from 97b.</li>
-<li><strong>Rav Ashi</strong> (רב אשי) — <strong>6th-generation Babylonian Amora</strong>, head of the academy at <strong>Mata Mechasya</strong>
+<li><strong>Rav Ashi</strong> (<span lang="he" dir="rtl">רב אשי</span>) — <strong>6th-generation Babylonian Amora</strong>, head of the academy at <strong>Mata Mechasya</strong>
   (Sura) for roughly half a century, and the principal <strong>redactor of the Babylonian Talmud</strong>.
   Here, the father correcting his son on measures.</li>
-<li><strong>Mar bar Rav Ashi</strong> (מר בר רב אשי) — also called <strong>Tavyomi</strong>; <strong>7th-generation Babylonian Amora</strong>,
+<li><strong>Mar bar Rav Ashi</strong> (<span lang="he" dir="rtl">מר בר רב אשי</span>) — also called <strong>Tavyomi</strong>; <strong>7th-generation Babylonian Amora</strong>,
   Rav Ashi&rsquo;s son, later head of Sura. He proposes the thirty-half-olives shortcut.
   <em>Look-alike alert:</em> <strong>Mar bar Rav Ashi</strong> (the son) is not <strong>Rav Acha bar Rav Ashi</strong>, a separate,
   earlier figure who appeared on 97b in the salted-thigh dispute.</li>
@@ -558,132 +383,371 @@ one ram, counted with its bones. And the reason we may learn from so strange a c
 that we are learning a <strong>stringency</strong> — because left to the Torah&rsquo;s own arithmetic, a simple
 majority would already have been enough.</p>
 </blockquote>
+      <p class="tomorrow">Tomorrow (Fri, 7 August 2026):
+        <strong>Chullin 99</strong> — the same &#34;we don&#39;t derive from an anomaly&#34; objection is turned on sacrificial food (&#34;whatever touches its flesh shall be holy&#34;), Ravina offers a third reading of the baraita&#39;s &#34;this,&#34; and the sugya moves to the* place of the cut *between a permitted and a forbidden piece.</p>
+    </div>
+    <div class="sheet" data-lang="es">
+      <h2>El panorama general (leer esto primero)</h2>
+<p>El daf de ayer construyó los dos caminos para permitir una mezcla: <strong>probarla</strong>, o — cuando nadie
+puede saborearla — recurrir a una <strong>proporción fija</strong>. Hoy la Guemará hace el trabajo duro de
+ingeniería sobre ese segundo camino. ¿De dónde sale el número? ¿Qué es exactamente lo que se
+cuenta? ¿Y es esa proporción una regla general y real?</p>
+<blockquote>
+<p>El daf de hoy es el acta de nacimiento de <strong><span lang="he" dir="rtl">בְּשִׁשִּׁים</span> — la anulación en sesenta</strong>, el número que
+todavía gobierna una cocina kosher moderna. Y resulta que el número no es una tradición
+entregada en Sinaí; se <em>deriva</em>, de una sola pata delantera cocida del carnero de un nazir.</p>
+</blockquote>
+<p>Tres movimientos:</p>
+<ol>
+<li><strong>Terminando con el huevo</strong> (comienzo de 98a) — la respuesta de Abaie de 97b es puesta a prueba
+   una y otra vez: ¿un huevo no kosher realmente imparte sabor, o solo un huevo con un pollito dentro?</li>
+<li><strong>Medir en la práctica</strong> (98a) — qué cuenta para los sesenta (¿ayuda lo que absorbió la olla?),
+   qué pasa cuando el trozo prohibido es <em>menor</em> que el volumen de una aceituna, y una hermosa
+   secuencia de sabios anteriores que permitieron con cuarenta y siete, cuarenta y cinco, cuarenta y
+   tres — antes de que el número se endureciera.</li>
+<li><strong>¿Sesenta o cien?</strong> (final de 98a – 98b) — una disputa en nombre de <em>bar Kapará</em>, ambos lados
+   leyendo el mismo versículo, y luego un desafío serio: quizá el carnero del nazir no enseña nada
+   general en absoluto, porque <strong><span lang="he" dir="rtl">מֵחִידּוּשׁ לָא גָּמְרִינַן</span></strong> — de una anomalía no derivamos reglas.</li>
+</ol>
 <hr />
-<p><em>Tomorrow (7 Aug 2026): Chullin 99 — the same &ldquo;we don&rsquo;t derive from an anomaly&rdquo; objection is
-turned on sacrificial food (&ldquo;whatever touches its flesh shall be holy&rdquo;), Ravina offers a third
-reading of the baraita&rsquo;s &ldquo;this,&rdquo; and the sugya moves to the</em> place of the cut <em>between a permitted
-and a forbidden piece.</em></p>
-<hr /></div>
+<h2>Recorriendo la suguiá, paso a paso</h2>
+<h3>98a — Abaie termina la respuesta del huevo (y lo aprietan fuerte)</h3>
+<p><strong>La respuesta.</strong> 97b terminó con la aguja de Rav Idi bar Avín: la gente llama a algo insípido
+&ldquo;mera agua de huevo&rdquo;, ¿cómo puede entonces un huevo prohibido impartir sabor? La respuesta de
+Abaie llega aquí: el caso es <strong><span lang="he" dir="rtl">בְּבֵיצַת אֶפְרוֹחַ</span> — un huevo con un pollito dentro.</strong> <em>Eso</em> imparte sabor.
+Pero un huevo simple de un ave no kosher, sin pollito, <strong><span lang="he" dir="rtl">לָא</span></strong> — no lo imparte.</p>
+<p><strong>La objeción.</strong> Rav Idi bar Avín cita una baraita (Tosefta, Trumot 9:5): huevos kosher hervidos
+junto con <strong>huevos no kosher</strong> — si la proporción es tal que imparten sabor, todos están prohibidos.
+Entonces un huevo no kosher <em>sí</em> tiene sabor. Abaie se mantiene firme: también allí se trata de un
+huevo con pollito — y la baraita lo llama &ldquo;no kosher&rdquo; precisamente <em>porque</em> el pollito lo prohíbe.</p>
+<p><strong>La réplica.</strong> Pero la segunda cláusula de la baraita dice explícitamente: &ldquo;huevos que uno hirvió y
+<strong>se encontró un pollito en uno de ellos</strong>&rdquo; — así que por inferencia la primera cláusula debe estar
+hablando de un huevo <em>sin</em> pollito.</p>
+<p><strong>Dos maneras de leer una baraita.</strong> La Guemará ofrece <strong><span lang="he" dir="rtl">פָּירוּשֵׁי קָא מְפָרֵשׁ</span></strong> — la segunda cláusula no
+es un caso nuevo, está <em>explicando</em> la primera: &ldquo;todos prohibidos — ¿cómo? Cuando se encontró un
+pollito en uno de ellos.&rdquo; Y hay una lógica que lo respalda: si la primera cláusula ya trataba de un
+huevo sin pollito, enseñar después el caso del pollito sería redundante (un <em>kal vajómer</em> obvio).</p>
+<p><strong>Pero la lógica se rechaza.</strong> <strong><span lang="he" dir="rtl">אִי מִשּׁוּם הָא לָא אִירְיָא</span></strong> — esa prueba no es concluyente. Igual se puede
+decir que la segunda cláusula se enseñó <em>para revelar</em> la primera: para que no leyeras erróneamente
+la primera cláusula como si tratara solo del huevo con pollito. En esa lectura la primera cláusula sí
+habla de un huevo no kosher sin pollito, y sí prohíbe. La Guemará deja la lectura sin resolver y
+sigue adelante — vale notarlo, porque significa que la lectura estrecha de Abaie queda defendida,
+no probada.</p>
+<h3>98a — ¿Qué cuenta para los sesenta?</h3>
+<p><strong>Caso 1: no contar la olla dos veces.</strong> Un volumen de aceituna de grasa prohibida (<strong><span lang="he" dir="rtl">כְּזֵיתָא תַּרְבָּא</span></strong>)
+cayó en una olla de carne kosher (<strong><span lang="he" dir="rtl">דִּיקּוּלָא דְּבִשְׂרָא</span></strong>). Rav Asi pensó medir el volumen permitido
+<em>incluyendo lo que la olla había absorbido</em>. Los Rabinos lo desmontaron con una línea:
+<strong><span lang="he" dir="rtl">אַטּוּ דְּהֶיתֵּרָא בָּלַע, דְּאִיסּוּרָא לָא בָּלַע</span>?</strong> — &ldquo;¿Acaso la olla absorbió solo la carne permitida y no la
+grasa prohibida?&rdquo; No puedes anotar la absorción del recipiente como crédito puro del lado permitido
+del libro; se bebió las dos cosas.</p>
+<p><em>(Una nota textual: la tradición manuscrita tiene aquí a &ldquo;Rav Asi&rdquo; proponiendo y a &ldquo;Rav Ashi&rdquo;
+recibiendo la respuesta. Lo más probable es que se trate de una sola figura — ver &ldquo;Quién es quién&rdquo;
+más abajo.)</em></p>
+<p><strong>Caso 2: sin descuento por un trozo pequeño.</strong> <em>Medio</em> volumen de aceituna de grasa prohibida cayó
+en una olla de carne. <strong>Mar bar Rav Ashi</strong> razonó que solo harían falta <strong>treinta</strong> medios volúmenes
+de aceituna para anularlo, no sesenta. Su padre <strong>Rav Ashi</strong> respondió con dos golpes:
+(i) <strong><span lang="he" dir="rtl">לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן</span></strong> — &ldquo;no tomes a la ligera las medidas de los Sabios&rdquo;, incluso en una
+prohibición rabínica; y (ii) Rabí Iojanán enseñó <strong><span lang="he" dir="rtl">חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה</span></strong> — media medida está
+prohibida por ley de la Torá. Media aceituna de grasa prohibida está plenamente prohibida, así que
+necesita sesenta veces su propio volumen.</p>
+<h3>98a — El huevo en sesenta y uno, y una cadena de transmisión</h3>
+<p><strong>La cadena más larga del daf.</strong> Rav Shemen bar Aba → en nombre de Rav Idi bar Idi bar Guershom →
+Leví bar Peratá → Rabí Najum → Rabí Biriam → &ldquo;un cierto anciano, y su nombre era Rabí Iaacov&rdquo; → y
+<em>los de la casa del Nasí</em> (<strong><span lang="he" dir="rtl">דְּבֵי נְשִׂיאָה</span></strong>) dijeron: <strong>un huevo no kosher entre sesenta — prohibido;
+entre sesenta y uno — permitido.</strong></p>
+<p><strong>Por qué R&rsquo; Zeirá se sobresaltó.</strong> Rabí Zeirá le dijo a Rav Shemen bar Aba: <em>&ldquo;¡Mira que estás
+fijando un límite de permisión!&rdquo;</em> — es decir, acabas de resolver algo que los dos sabios más grandes
+de la generación, <strong>Rabí Iaacov bar Idi</strong> y <strong>Rabí Shmuel bar Najmaní</strong> (ambos citando a
+<strong>Rabí Iehoshúa ben Leví</strong>), dejaron abierto. Ellos habían dicho las mismas palabras — sesenta
+prohibido, sesenta y uno permitido — y ante ellos se planteó la pregunta:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">בַּהֲדֵי דִּידַהּ, אוֹ דִילְמָא לְבַר מִינַּהּ</span>?</strong> — ¿son sesenta y uno <em>incluyendo</em> el huevo prohibido, o
+sesenta y uno <em>además</em> de él?</p>
+</blockquote>
+<p>No lo resolvieron. La formulación de Rav Shemen implica que la cuenta <em>lo incluye</em>.</p>
+<p><strong>Una tercera voz.</strong> Rabí Jelbó en nombre de Rav Huna lo dice al revés y de forma explícita:
+sesenta <strong>y él</strong> — prohibido; sesenta y uno <strong>y él</strong> — permitido. Es decir, sesenta y un huevos kosher
+<em>además</em> del no kosher.</p>
+<h3>98a — Antes de que el número se endureciera: 47, 45, 43, 30</h3>
+<p>Una pequeña galería de casos que muestra que la proporción fue elástica en algún momento:</p>
+<ul>
+<li>Alguien vino ante <strong>Rabán Gamliel bar Rebí</strong>: <em>&ldquo;Mi padre no medía con cuarenta y siete — y yo
+  mediré con cuarenta y cinco.&rdquo;</em> (Permitió con una proporción de 45:1.)</li>
+<li>Alguien vino ante <strong>Rabí Shimón bar Rebí</strong>: <em>&ldquo;Mi padre no medía con cuarenta y cinco — y yo mediré
+  con cuarenta y tres.&rdquo;</em></li>
+<li>Alguien vino ante <strong>Rabí Jiiá</strong>: <em>&ldquo;¿Acaso hay siquiera </em><em>treinta</em><em>?&rdquo;</em> — es decir, evidentemente no;
+  prohibido.</li>
+</ul>
+<p><strong>Pero espera.</strong> Si la objeción de R&rsquo; Jiiá era &ldquo;no hay ni treinta&rdquo;, ¿implica eso que <em>con</em> treinta
+habría permitido — contra la regla de sesenta? <strong>Rabí Janiná</strong> responde en una palabra:
+<strong><span lang="he" dir="rtl">גּוּזְמָא</span></strong> — fue una exageración retórica. No había ni de cerca suficiente; no estaba legislando un
+umbral de treinta.</p>
+<h3>Final de 98a — ¿Sesenta o cien?</h3>
+<p><strong>Rabí Jiiá bar Aba</strong> dijo en nombre de <strong>Rabí Iehoshúa ben Leví</strong> en nombre de <strong>bar Kapará</strong>:
+<strong><span lang="he" dir="rtl">כָּל אִיסּוּרִין שֶׁבַּתּוֹרָה בְּשִׁשִּׁים</span></strong> — toda prohibición de la Torá se anula en sesenta.
+<strong>Rabí Shmuel bar Rav Itzjak</strong> objeta en su cara: <em>&ldquo;¿Maestro mío, tú dices eso?&rdquo;</em> — porque
+<strong>Rav Asi</strong> reportó exactamente la misma cadena (R&rsquo; Iehoshúa ben Leví en nombre de bar Kapará)
+diciendo <strong><span lang="he" dir="rtl">בְּמֵאָה</span></strong> — en <strong>cien</strong>.</p>
+<p><strong>Y ambos lo aprendieron de las mismas tres palabras.</strong> Ninguno de los dos números es una
+tradición; ambos se leen en <strong>&ldquo;<span lang="he" dir="rtl">זְרוֹעַ בְּשֵׁלָה</span>&rdquo;</strong> — el carnero del nazir: <em>&ldquo;Y el cohén tomará la pata
+delantera cocida del carnero&rdquo;</em> (Bamidbar 6:19). La pata pertenece al <strong>cohén</strong>; el resto del carnero
+lo come el <strong>nazir</strong>, sea cohén o no. Y sin embargo la Torá hace que se cocinen <strong>juntos</strong> — y el
+resto del carnero sigue permitido a un no-cohén. Eso es anulación, escrita dentro de la Torá.</p>
+<h3>98b — Leyendo el versículo, y luego dudando de toda la derivación</h3>
+<p><strong>¿Qué significa &ldquo;<span lang="he" dir="rtl">בְּשֵׁלָה</span>&rdquo;?</strong> Una disputa tanaítica:</p>
+<ul>
+<li>El primer tana: <strong><span lang="he" dir="rtl">אֵין</span> &ldquo;<span lang="he" dir="rtl">בְּשֵׁלָה</span>&rdquo; <span lang="he" dir="rtl">אֶלָּא שְׁלֵימָה</span></strong> — significa que la pata debe estar <strong>entera</strong>.</li>
+<li><strong>Rabí Shimón ben Iojái</strong>: significa que la pata se cocina <strong>junto con todo el carnero</strong>.</li>
+</ul>
+<p><strong>Dos maneras de encuadrar esa disputa (dos <em>lishanot</em>):</strong></p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th></th>
+<th>En qué coinciden ambos</th>
+<th>Dónde se separan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primera <em>lishná</em></td>
+<td>La pata <em>sí</em> se cocina con el carnero</td>
+<td>¿Se corta primero y luego se cocina, o se cocina todo el carnero y luego se corta?</td>
+</tr>
+<tr>
+<td>Segunda <em>lishná</em></td>
+<td>Se corta primero y luego se cocina</td>
+<td>¿Se cocina <strong>con</strong> el carnero (RaSHBI), o en una <strong>olla aparte</strong>?</td>
+</tr>
+</tbody>
+</table></div>
+<p>Por qué importa: la prueba de la anulación necesita que la pata se cocine <em>junto con</em> el carnero. En
+la <strong>primera</strong> <em>lishná</em> eso lo <strong>acepta todo el mundo</strong> — la derivación es universal. En la <strong>segunda</strong>,
+solo se sostiene <strong>según RaSHBI</strong>; la pata del otro tana se cocina sola, así que no se deriva nada.</p>
+<p><strong>Ahora la aritmética de la disputa.</strong> ¿Cómo salen sesenta y cien de un solo animal?</p>
+<ul>
+<li><strong><span lang="he" dir="rtl">בְּשִׁשִּׁים</span></strong> — mides <strong>carne <em>y huesos</em></strong> de la pata contra la <strong>carne y los huesos</strong> del resto del
+  carnero. Esa proporción es aproximadamente <strong>1:60</strong>.</li>
+<li><strong><span lang="he" dir="rtl">בְּמֵאָה</span></strong> — mides <strong>carne contra carne solamente</strong> (los huesos no cuentan). Esa proporción es
+  <strong>1:100</strong>.</li>
+</ul>
+<p>Un animal, dos métodos de contabilidad, dos números halájicos. Esta es la línea más satisfactoria
+del daf.</p>
+<p><strong>El desafío serio.</strong> Una baraita sobre el carnero del nazir dice: <strong><span lang="he" dir="rtl">זֶהוּ הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר</span></strong> —
+&ldquo;<strong><em>Esto</em></strong> es algo permitido que surge desde dentro de una prohibición.&rdquo; Ese enfático <strong>&ldquo;<span lang="he" dir="rtl">זֶהוּ</span>&rdquo; —
+<em>esto</em></strong> debe estar excluyendo algo. ¿Qué? Presumiblemente <strong>todas las demás prohibiciones de la
+Torá</strong> — o sea que el carnero es un caso único y no enseña nada general. ¿Cómo se pueden derivar
+entonces 60 o 100 de él?</p>
+<p><strong>La respuesta de Abaie.</strong> La exclusión es estrecha: hace falta <strong>solo para Rabí Iehudá</strong>, que
+sostiene <strong><span lang="he" dir="rtl">מִין בְּמִינוֹ לֹא בָּטֵיל</span></strong> — una comida mezclada con su propia especie nunca se anula. La
+baraita nos dice que <em>aquí</em>, excepcionalmente, <strong>sí</strong> se anula.</p>
+<ul>
+<li><em>Objeción:</em> ¡entonces que R&rsquo; Iehudá aprenda de aquí que <strong>min bemino</strong> siempre se anula!</li>
+<li><em>Respuesta:</em> la Torá reveló lo contrario — <strong>&ldquo;<span lang="he" dir="rtl">וְלָקַח מִדַּם הַפָּר וּמִדַּם הַשָּׂעִיר</span>&rdquo;</strong> (Vaikrá 16:18): la
+  sangre del toro y la del chivo se mezclan, y el versículo sigue nombrando <em>la sangre del chivo</em>
+  aparte — así que lo igual dentro de lo igual conserva su identidad y no se anula.</li>
+<li><em>Objeción:</em> ¿por qué derivar de <em>ese</em> versículo y no del carnero?</li>
+<li><em>Respuesta:</em> <strong><span lang="he" dir="rtl">חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן</span></strong> — el carnero es una <strong>anomalía</strong>, porque
+  normalmente no se puede anular a propósito una comida prohibida, y aquí la Torá <em>te indica</em>
+  cocinarlas juntas. Y no construimos reglas generales sobre anomalías.</li>
+</ul>
+<p><strong>Y entonces la réplica letal — y la salida elegante.</strong> Si el carnero es una anomalía, ¡entonces
+tampoco derives de él <strong>sesenta o cien</strong>! La respuesta es una hermosa pieza de razonamiento legal:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">אַטּוּ אֲנַן לְקוּלָּא גָּמְרִינַן? לְחוּמְרָא גָּמְרִינַן, דְּמִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל</span>.</strong>
+&ldquo;¿Acaso estamos derivando una <em>indulgencia</em>? Estamos derivando una <em>estrictez</em> — porque por ley
+de la Torá la anulación ocurre con una simple <strong>mayoría</strong>.&rdquo;</p>
+</blockquote>
+<p>Es decir, sin esta derivación la regla a nivel de Torá sería el <em>rov</em>, mucho más indulgente — una
+mayoría mínima de comida permitida. Sesenta y cien son <strong>restricciones</strong>, y una restricción puede
+aprenderse sin problema incluso de una anomalía.</p>
+<p><strong>La alternativa de Rava.</strong> Rava lee el <strong>&ldquo;<span lang="he" dir="rtl">זֶהוּ</span>&rdquo;</strong> de la baraita de otra manera: hace falta solo para
+<strong><span lang="he" dir="rtl">טַעַם כְּעִיקָּר</span></strong> — el sabor que cuenta como sustancia. En el ámbito de los <strong><span lang="he" dir="rtl">קָדָשִׁים</span></strong> (comida
+consagrada) el sabor absorbido <em>sí</em> prohíbe y no se anula; la baraita tiene entonces que decirnos
+que aquí, en el carnero del nazir, el resto del animal está permitido incluso a los no-cohanim.</p>
+<hr />
+<h2>Conceptos y términos clave</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Término</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span lang="he" dir="rtl">בֵּיצַת אֶפְרוֹחַ</span> — beitzat efróaj</strong></td>
+<td>Un huevo con un pollito formado dentro. Toda la respuesta de Abaie: <em>eso</em> imparte sabor; un huevo no kosher sin pollito no.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">פָּירוּשֵׁי קָא מְפָרֵשׁ</span> — peirushei ka mefaresh</strong></td>
+<td>&ldquo;Está explicando&rdquo; — la segunda cláusula de una baraita no es un caso nuevo sino una aclaración de la primera. Un arreglo talmúdico estándar.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">אִי מִשּׁוּם הָא לָא אִירְיָא</span></strong></td>
+<td>&ldquo;Si es por eso, no prueba nada&rdquo; — la fórmula para rechazar una inferencia sin rechazar la conclusión.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">דִּיקּוּלָא</span> — dikulá</strong></td>
+<td>El recipiente de cocción, la olla (arameo). Su absorción no puede contarse solo del lado permitido.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">כְּזֵיתָא תַּרְבָּא</span> — kezeitá tarbá</strong></td>
+<td>Un volumen de aceituna de grasa prohibida — la unidad estándar de una cantidad prohibida.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה</span></strong></td>
+<td>R&rsquo; Iojanán: <strong>media medida</strong> está prohibida por la Torá. De ahí que no haya descuento proporcional por un trozo pequeño — siguen siendo sesenta.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן</span></strong></td>
+<td>&ldquo;No tomes a la ligera las medidas rabínicas&rdquo; — el reproche de Rav Ashi a su hijo.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">בַּהֲדֵי דִּידַהּ</span> / <span lang="he" dir="rtl">לְבַר מִינַּהּ</span></strong></td>
+<td>&ldquo;Incluyéndolo&rdquo; / &ldquo;además de él&rdquo; — el dilema sin resolver sobre si los sesenta y uno cuentan el objeto prohibido.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">דְּבֵי נְשִׂיאָה</span> — devei Nesiá</strong></td>
+<td>&ldquo;La casa del Nasí&rdquo; — la corte del Patriarca, citada como cuerpo halájico.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">גּוּזְמָא</span> — guzmá</strong></td>
+<td>Exageración retórica. El rescate de R&rsquo; Janiná de la línea de R&rsquo; Jiiá &ldquo;¿acaso hay siquiera treinta?&rdquo;.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">בְּשִׁשִּׁים</span> / <span lang="he" dir="rtl">בְּמֵאָה</span></strong></td>
+<td>Anulación en <strong>sesenta</strong> o en <strong>cien</strong> — la disputa reportada en nombre de bar Kapará.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">זְרוֹעַ בְּשֵׁלָה</span> — zeróa beshelá</strong></td>
+<td>La &ldquo;pata delantera cocida&rdquo; del nazir (Bamidbar 6:19) — la fuente de la Torá para <strong>ambos</strong> números.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר</span></strong></td>
+<td>&ldquo;Algo permitido que surge de una prohibición&rdquo; — la descripción que la baraita hace del carnero del nazir.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">מִין בְּמִינוֹ לֹא בָּטֵיל</span></strong></td>
+<td>R&rsquo; Iehudá: lo igual mezclado con lo igual nunca se anula (no puedes distinguir los sabores).</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן</span></strong></td>
+<td>&ldquo;Es una anomalía, y de una anomalía no derivamos&rdquo; — la objeción a usar el carnero en absoluto.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל</span></strong></td>
+<td>Por ley de la Torá, la anulación es por simple <strong>mayoría</strong> — razón por la cual 60/100 cuentan como <em>estricteces</em>.</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">טַעַם כְּעִיקָּר</span> — taam keikar</strong></td>
+<td>El sabor tiene el estatus de sustancia. La lectura de Rava sobre qué excluye el &ldquo;<em>esto</em>&rdquo; de la baraita.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>Quién es quién en el daf de hoy</h2>
+<p><strong>Tanaím y la generación de transición</strong></p>
+<ul>
+<li><strong>Rebí</strong> (<span lang="he" dir="rtl">רבי</span>, citado como &ldquo;mi padre&rdquo; por sus hijos) — <strong>Rabí Iehudá HaNasí</strong>, <strong>tana</strong> de la última
+  generación, Beit Shearim y luego Tzipori, redactor de la Mishná. Aquí es el padre que permitía con
+  cuarenta y siete (y, según la historia siguiente, con cuarenta y cinco). <em>Pista del título: &ldquo;Rebí&rdquo;
+  a solas siempre se refiere a él.</em></li>
+<li><strong>Rabán Gamliel bar Rebí</strong> (<span lang="he" dir="rtl">רבן גמליאל בר רבי</span>) — <strong>Rabán Gamliel III</strong>, hijo y sucesor de R&rsquo; Iehudá
+  HaNasí como Nasí; tana/amorá de primera generación de transición, Erretz Israel. Permite con 45.</li>
+<li><strong>Rabí Shimón bar Rebí</strong> (<span lang="he" dir="rtl">רבי שמעון בר רבי</span>) — el otro hijo de R&rsquo; Iehudá HaNasí, hermano de Rabán
+  Gamliel III, la misma generación de transición. Permite con 43.</li>
+<li><strong>Rabí Jiiá</strong> (<span lang="he" dir="rtl">רבי חייא</span>) — <strong>Jiiá Rabá</strong>, tana de transición; nacido en Bavel, se trasladó a Erretz
+  Israel, cercano colega-discípulo de Rebí. El de la línea &ldquo;¿acaso hay siquiera treinta?&rdquo;.
+  <em>Alerta de parecido:</em> no confundir con <strong>Rabí Jiiá bar Aba</strong>, un amorá de Erretz Israel mucho
+  posterior que también aparece en este daf.</li>
+<li><strong>Rabí Shimón ben Iojái</strong> (<span lang="he" dir="rtl">רבי שמעון בן יוחאי</span>, RaSHBI) — <strong>tana de 4ª generación</strong>, Erretz Israel,
+  alumno destacado de <strong>Rabí Akivá</strong>. Aquí lee &ldquo;<em>beshelá</em>&rdquo; como &ldquo;cocida con todo el carnero&rdquo;.</li>
+<li><strong>Rabí Iehudá</strong> (<span lang="he" dir="rtl">רבי יהודה</span>) — <strong>Rabí Iehudá bar Ilai</strong>, <strong>tana de 4ª generación</strong>, Erretz Israel,
+  también alumno de R&rsquo; Akivá y contrincante frecuente de RaSHBI. El sostenedor anónimo de
+  <strong>min bemino lo batel</strong> en el daf.</li>
+</ul>
+<p><strong>Amoraím de Erretz Israel</strong></p>
+<ul>
+<li><strong>Rabí Iehoshúa ben Leví</strong> (<span lang="he" dir="rtl">רבי יהושע בן לוי</span>) — <strong>amorá de Erretz Israel de 1ª generación</strong>, Lod;
+  contemporáneo mayor de Rabí Iojanán. Tanto la tradición de &ldquo;sesenta&rdquo; como la de &ldquo;cien&rdquo; pasan por él.</li>
+<li><strong>Rabí Janiná</strong> (<span lang="he" dir="rtl">רבי חנינא</span>) — <strong>Rabí Janiná bar Jama</strong>, <strong>amorá de Erretz Israel de 1ª generación</strong>,
+  Tzipori, discípulo de Rebí. Explica la línea de R&rsquo; Jiiá como <em>guzmá</em>.</li>
+<li><strong>Rabí Iojanán</strong> (<span lang="he" dir="rtl">רבי יוחנן</span>) — <strong>amorá de Erretz Israel de 2ª generación</strong>, cabeza de la academia de
+  Tiberias, figura central del Ierushalmi; contrincante famoso: <strong>Reish Lakish</strong>. Citado aquí por
+  <strong>jatzí shiur asur min haTorá</strong>.</li>
+<li><strong>Rabí Zeirá</strong> (<span lang="he" dir="rtl">רבי זירא</span>) — <strong>amorá de 3ª generación</strong>; nacido y formado en Bavel, luego emigró a
+  Erretz Israel (Tiberias), donde es el ejemplo clásico del rigor babilonio encontrándose con la
+  tradición de Erretz Israel. Desafía a Rav Shemen bar Aba.</li>
+<li><strong>Rav Shemen bar Aba</strong> (<span lang="he" dir="rtl">רב שמן בר אבא</span>) — <strong>amorá de Erretz Israel de 3ª generación</strong>, Tiberias,
+  alumno de Rabí Iojanán. Transmite el dictamen de &ldquo;sesenta y uno&rdquo; de la casa del Nasí.</li>
+<li><strong>Rabí Iaacov bar Idi</strong> (<span lang="he" dir="rtl">רבי יעקב בר אידי</span>) — <strong>amorá de Erretz Israel de 3ª generación</strong>, transmisor
+  destacado de <strong>R&rsquo; Iehoshúa ben Leví</strong>. <em>Alerta de parecido:</em> distinto de <strong>Rav Idi bar Avín</strong> y de
+  <strong>Rav Idi bar Idi bar Guershom</strong>, que también aparecen en este daf.</li>
+<li><strong>Rabí Shmuel bar Najmaní</strong> (<span lang="he" dir="rtl">רבי שמואל בר נחמני</span>) — <strong>amorá de Erretz Israel de 3ª generación</strong>, el
+  gran agadista de su generación, también transmisor de R&rsquo; Iehoshúa ben Leví. Emparejado aquí con
+  R&rsquo; Iaacov bar Idi como &ldquo;los dos más grandes de la generación&rdquo;.</li>
+<li><strong>Rabí Jiiá bar Aba</strong> (<span lang="he" dir="rtl">רבי חייא בר אבא</span>) — <strong>amorá de Erretz Israel de 3ª generación</strong>, alumno de
+  Rabí Iojanán. Reporta la versión de <strong>sesenta</strong>. (Ver la nota de parecido sobre Rabí Jiiá, arriba.)</li>
+<li><strong>Rabí Shmuel bar Rav Itzjak</strong> (<span lang="he" dir="rtl">רבי שמואל בר רב יצחק</span>) — <strong>amorá de 3ª generación</strong>, nacido en Bavel,
+  activo en Erretz Israel. Confronta a R&rsquo; Jiiá bar Aba con la versión de <strong>cien</strong>.</li>
+<li><strong>Rav Asi</strong> (<span lang="he" dir="rtl">רב אסי</span>) — en el reporte de 60-contra-100, el <strong>Rav Asi/Así</strong> de Erretz Israel, colega de
+  Rabí Amí en Tiberias, <strong>3ª generación</strong>. <em>Alerta de parecido:</em> se escribe a un pelo de <strong>Rav Ashi</strong>
+  (<span lang="he" dir="rtl">רב אשי</span>), el redactor babilonio, y de <strong>Rav Así</strong>, el colega babilonio de Rav Amí. En la historia de
+  la olla de grasa en 98a los textos leen &ldquo;Rav Asi&rdquo; proponiendo y &ldquo;Rav Ashi&rdquo; respondiendo, lo que la
+  mayoría de los comentaristas trata como una sola figura babilonia; lo señalaría como una
+  incertidumbre textual genuina y no pretendería que está resuelto.</li>
+<li><strong>Rabí Jelbó</strong> (<span lang="he" dir="rtl">רבי חלבו</span>) — <strong>amorá de 3ª generación</strong>, nacido en Bavel y activo en Erretz Israel,
+  transmisor habitual de <strong>Rav Huna</strong>. Enuncia la versión de &ldquo;sesenta y uno <em>además</em> de él&rdquo;.</li>
+<li><strong>bar Kapará</strong> (<span lang="he" dir="rtl">בר קפרא</span>) — el sabio de Erretz Israel en cuyo nombre se reportan <strong>ambas</strong> versiones,
+  sesenta y cien. Una figura genuinamente oscura; las fuentes nos dan poco más que el nombre, y no
+  querría aventurar su generación ni sus maestros.</li>
+<li><strong>Rabí Najum, Rabí Biriam, Leví bar Peratá, &ldquo;un cierto anciano llamado Rabí Iaacov&rdquo;</strong> — los
+  eslabones intermedios de la larga cadena de transmisión de 98a. Todos parecen ser figuras de
+  Erretz Israel de las generaciones amoraicas más tempranas, pero son <strong>menores y mal documentados</strong>;
+  honestamente, la cadena misma es lo principal que sabemos de ellos.</li>
+</ul>
+<p><strong>Amoraím de Babilonia</strong></p>
+<ul>
+<li><strong>Rav Huna</strong> (<span lang="he" dir="rtl">רב הונא</span>) — <strong>amorá babilonio de 2ª generación</strong>, cabeza de la academia de <strong>Sura</strong>, el
+  alumno más destacado de <strong>Rav</strong>. Citado vía R&rsquo; Jelbó sobre la cuenta de sesenta y uno.</li>
+<li><strong>Abaie</strong> (<span lang="he" dir="rtl">אביי</span>) — <strong>amorá babilonio de 4ª generación</strong>, cabeza de <strong>Pumbedita</strong>; criado por su tío
+  <strong>Rabá bar Najmaní</strong> (su maestro principal). Su dialéctica de toda la vida con <strong>Rava</strong> define el
+  período. Aquí reduce el &ldquo;<em>esto</em>&rdquo; de la baraita al <em>min bemino</em> de R&rsquo; Iehudá.</li>
+<li><strong>Rava</strong> (<span lang="he" dir="rtl">רבא</span>) — <strong>amorá babilonio de 4ª generación</strong> de <strong>Majozá</strong>, alumno de Rabá y de Rav Najmán,
+  el gran contrincante de Abaie (y aquel cuya opinión suele seguirse). Lee el &ldquo;<em>esto</em>&rdquo; de la baraita
+  como referido a <strong>taam keikar</strong> en <em>kodashim</em>. <em>Alerta de parecido:</em> <strong><span lang="he" dir="rtl">רבא</span> (Rava)</strong> es una persona
+  distinta de <strong><span lang="he" dir="rtl">רבה</span> (Rabá)</strong> — Rabá bar Najmaní, cabeza de Pumbedita de la 3ª generación y maestro de
+  Abaie. Una letra y una generación de diferencia.</li>
+<li><strong>Rav Idi bar Avín</strong> (<span lang="he" dir="rtl">רב אידי בר אבין</span>) — <strong>amorá babilonio de 4ª generación</strong>, contemporáneo de Abaie
+  y Rava. Es quien aprieta a Abaie con los huevos, viniendo de 97b.</li>
+<li><strong>Rav Ashi</strong> (<span lang="he" dir="rtl">רב אשי</span>) — <strong>amorá babilonio de 6ª generación</strong>, cabeza de la academia de
+  <strong>Matá Mejasiá</strong> (Sura) durante casi medio siglo, y el principal <strong>redactor del Talmud Babilonio</strong>.
+  Aquí, el padre corrigiendo a su hijo sobre las medidas.</li>
+<li><strong>Mar bar Rav Ashi</strong> (<span lang="he" dir="rtl">מר בר רב אשי</span>) — también llamado <strong>Taviomi</strong>; <strong>amorá babilonio de 7ª
+  generación</strong>, hijo de Rav Ashi, más tarde cabeza de Sura. Propone el atajo de las treinta medias
+  aceitunas. <em>Alerta de parecido:</em> <strong>Mar bar Rav Ashi</strong> (el hijo) no es <strong>Rav Aja bar Rav Ashi</strong>, una
+  figura distinta y anterior que apareció en 97b en la disputa del muslo salado.</li>
+</ul>
+<hr />
+<h2>Una línea para llevarte</h2>
+<blockquote>
+<p>El número sesenta no es una tradición recibida — es un acto de <em>lectura</em>: una pata delantera
+cocida en un carnero, contada con sus huesos. Y la razón por la que podemos aprender de un caso
+tan extraño es que estamos aprendiendo una <strong>estrictez</strong> — porque, dejado a la aritmética propia
+de la Torá, una simple mayoría ya habría bastado.</p>
+</blockquote>
+      <p class="tomorrow">Mañana (vie, 7 de agosto de 2026):
+        <strong>Julín 99</strong> — la misma objeción de &#34;no derivamos de una anomalía&#34; se vuelve contra la comida consagrada (&#34;todo lo que toque su carne será consagrado&#34;), Ravina ofrece una tercera lectura del &#34;esto&#34; de la baraita, y la suguiá pasa al* lugar del corte *entre un trozo permitido y uno prohibido.</p>
+    </div>
   </section>
 
-  <section class="view" id="quiz">
+  <section class="view" id="quiz" role="tabpanel">
     <div class="quiz" id="quizCard"></div>
-    <div class="hint">Tip: press keys 1–4 to answer, Enter for next.</div>
+    <div class="hint"><span data-lang="en">Tip: press keys 1–4 to answer, Enter for next.</span><span data-lang="es">Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.</span></div>
   </section>
 </div>
-
-<script>
-const QUIZ = [{"n": 1, "q": "How does Abaye defend the claim that a non-kosher egg imparts no flavor?", "opts": {"a": "Eggs are never subject to nullification at all.", "b": "The baraita&#x27;s forbidden egg is one containing a chick (<em>beitzat efroach</em>) — that is what imparts flavor.", "c": "Only a boiled egg imparts flavor, not a roasted one.", "d": "The prohibition on non-kosher eggs is only rabbinic, so we are lenient."}, "correct": "b", "why": "Abaye&#x27;s whole defense is that the baraita&#x27;s &quot;non-kosher egg&quot; is one with a chick inside; a chick-less non-kosher egg imparts no flavor."}, {"n": 2, "q": "The Rabbis rejected measuring the permitted volume together with what the pot had absorbed. Why?", "opts": {"a": "A pot&#x27;s absorption is impossible to estimate.", "b": "Because the pot absorbed the forbidden fat just as much as the permitted meat.", "c": "Because earthenware never absorbs at all.", "d": "Because the pot must be kashered first."}, "correct": "b", "why": "<em>Atu d&#x27;heteira bala, d&#x27;issura la bala?</em> The vessel drank in the forbidden fat too, so its absorption can&#x27;t be credited only to the permitted side."}, {"n": 3, "q": "Mar bar Rav Ashi proposed that a <em>half</em>-olive-bulk of forbidden fat needs only thirty half-olive-bulks to nullify it. On what grounds did Rav Ashi reject this?", "opts": {"a": "The correct ratio for fat is a hundred, not sixty.", "b": "Half-measures are always permitted outright, so no measuring is needed.", "c": "Don&#x27;t treat rabbinic measures lightly — and R&#x27; Yochanan holds a half-measure is forbidden by Torah law.", "d": "Because forbidden fat can never be nullified."}, "correct": "c", "why": "Two reasons: don&#x27;t be casual with the Sages&#x27; measures, and <em>chatzi shiur asur min haTorah</em> (R&#x27; Yochanan), so the half-olive is fully forbidden and needs a full sixty."}, {"n": 4, "q": "What was the unresolved dilemma about &quot;sixty-one&quot; in the case of the non-kosher egg?", "opts": {"a": "Whether the eggs must be the same size.", "b": "Whether &quot;sixty-one&quot; is counted including the forbidden egg or besides it.", "c": "Whether the rule applies to bird eggs only or also to fish eggs.", "d": "Whether the count is by volume or by number."}, "correct": "b", "why": "<em>Bahadei didah o l&#x27;var minah</em> — including the forbidden egg or besides it. R&#x27; Yaakov bar Idi and R&#x27; Shmuel bar Nachmani left it open; R&#x27; Chelbo/Rav Huna say sixty-one besides it."}, {"n": 5, "q": "Rabbi Chiyya asked, &quot;Is there even thirty?&quot; — which seems to imply thirty would suffice. How does Rabbi Chanina defuse this?", "opts": {"a": "R&#x27; Chiyya held a minority view that was rejected.", "b": "Thirty suffices only for rabbinic prohibitions.", "c": "It was <em>guzma</em> — rhetorical exaggeration; there was nowhere near enough, so the case was obvious.", "d": "The text is corrupt and should read &quot;sixty.&quot;"}, "correct": "c", "why": "<em>Guzma</em>: R&#x27; Chiyya was exaggerating, not setting a threshold of thirty; there wasn&#x27;t even that much, so the case was plainly forbidden."}, {"n": 6, "q": "Both the &quot;sixty&quot; and the &quot;one hundred&quot; opinions are derived from the same source. What is it?", "opts": {"a": "The blood of the bull and the blood of the goat on Yom Kippur.", "b": "The prohibition of <em>gid hanasheh</em> in Bereishit.", "c": "The teruma-in-a-pot baraita.", "d": "<em>Zeroa besheila</em> — the nazirite&#x27;s &quot;cooked foreleg&quot; (Bamidbar 6:19)."}, "correct": "d", "why": "<em>Zeroa besheila</em>, the cooked foreleg of the nazirite&#x27;s ram (Bamidbar 6:19), cooked with the ram yet not forbidding it to a non-kohen."}, {"n": 7, "q": "How do the two numbers — sixty and a hundred — come out of that one case?", "opts": {"a": "Sixty measures meat and bones against meat and bones; a hundred measures meat against meat alone.", "b": "Sixty is the Babylonian count, a hundred the Eretz-Yisrael count.", "c": "Sixty is for roasting, a hundred for boiling.", "d": "Sixty is for a whole foreleg, a hundred for a cut one."}, "correct": "a", "why": "Counting the foreleg&#x27;s meat <em>and bones</em> against the ram&#x27;s meat and bones gives about 1:60; counting meat against meat alone gives 1:100."}, {"n": 8, "q": "What is the tannaitic dispute over the word &quot;בְּשֵׁלָה&quot;?", "opts": {"a": "Whether the foreleg is boiled or roasted.", "b": "Whether it means the foreleg must be <em>whole</em>, or that it is <em>cooked together with the whole ram</em>.", "c": "Whether the kohen or the nazir does the cooking.", "d": "Whether it refers to the foreleg or the shoulder."}, "correct": "b", "why": "The first tanna: &quot;<em>besheila</em>&quot; means the foreleg must be whole. RaShBY: it means cooked together with the entire ram."}, {"n": 9, "q": "Why does Rabbi Yehuda refuse to learn from the nazirite&#x27;s ram that like-in-like <em>is</em> nullified?", "opts": {"a": "Because the ram is a sacrifice, and sacrifices have no bearing on ordinary food.", "b": "Because the foreleg is cooked in a separate pot on every reading.", "c": "Because the ram is a <em>chiddush</em> — an anomaly, since the Torah has you nullify deliberately — and we don&#x27;t derive from an anomaly.", "d": "Because the baraita&#x27;s &quot;<em>this</em>&quot; excludes only meat-in-milk."}, "correct": "c", "why": "<em>Chiddush hu, u&#x27;mechiddush la gamrinan</em> — normally one may not nullify a prohibition deliberately, yet here the Torah instructs it; so he derives <em>min b&#x27;mino</em> from the bull&#x27;s and goat&#x27;s blood instead (Vayikra 16:18)."}, {"n": 10, "q": "If the nazirite&#x27;s ram is an anomaly, why may we nonetheless derive sixty or a hundred from it?", "opts": {"a": "Because the anomaly rule applies only to tannaitic sources.", "b": "Because we derive it as a stringency, not a leniency — Torah law alone would nullify by simple majority.", "c": "Because Rava rejects the anomaly claim entirely.", "d": "Because the Nasi&#x27;s house ruled that way."}, "correct": "b", "why": "<em>Atu anan l&#x27;kula gamrinan? L&#x27;chumra gamrinan</em> — by Torah law nullification is by simple majority (<em>b&#x27;ruba</em>), so 60/100 are restrictions, and a restriction may be learned even from an anomaly."}];
-const KEYS = ["a","b","c","d"];
-let idx=0, score=0, streak=0, best=0, answered=false, results=[];
-
-const card = document.getElementById("quizCard");
-
-function esc(s){return s;}
-
-function renderQuestion(){
-  answered=false;
-  const q = QUIZ[idx];
-  const pct = Math.round((idx)/QUIZ.length*100);
-  let opts = Object.keys(q.opts).sort().map((k,i)=>`
-    <button class="opt" data-k="${k}">
-      <span class="key">${k.toUpperCase()}</span>
-      <span class="txt">${q.opts[k]}</span>
-    </button>`).join("");
-  card.innerHTML = `
-    <div class="qbar">
-      <span class="qnum">Question ${idx+1} / ${QUIZ.length}</span>
-      <span>Score <span class="pill">${score}</span> ${streak>1?`<span class="streak">🔥 ${streak} streak</span>`:""}</span>
-    </div>
-    <div class="prog"><i style="width:${pct}%"></i></div>
-    <div class="qtext">${q.q}</div>
-    <div class="opts">${opts}</div>
-    <div class="why" id="why"></div>
-    <div class="nav">
-      <span style="color:#9a8a6d;font-size:.85rem">${QUIZ.length-idx-1} to go</span>
-      <button class="btn" id="next" disabled>Next →</button>
-    </div>`;
-  card.querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>choose(b.dataset.k)));
-  document.getElementById("next").addEventListener("click",next);
-}
-
-function choose(k){
-  if(answered) return;
-  answered=true;
-  const q=QUIZ[idx];
-  const correct=q.correct;
-  const chosenRight = k===correct;
-  if(chosenRight){score++;streak++;best=Math.max(best,streak);} else {streak=0;}
-  results.push({n:q.n,q:q.q,chosen:k,correct:correct,opts:q.opts,why:q.why,right:chosenRight});
-  card.querySelectorAll(".opt").forEach(b=>{
-    b.classList.add("locked");
-    const bk=b.dataset.k;
-    if(bk===correct) b.classList.add("correct");
-    else if(bk===k) b.classList.add("wrong");
-    else b.classList.add("dim");
-  });
-  const why=document.getElementById("why");
-  why.innerHTML = `<b>${chosenRight?"✓ Correct.":"✗ Not quite — the answer is "+correct.toUpperCase()+"."}</b> ${q.why}`;
-  why.classList.add("show");
-  const nb=document.getElementById("next");
-  nb.disabled=false; nb.focus();
-  nb.textContent = idx===QUIZ.length-1 ? "See results →" : "Next →";
-  // update live score display
-  card.querySelector(".qbar .pill").textContent=score;
-}
-
-function next(){
-  if(!answered) return;
-  if(idx<QUIZ.length-1){idx++;renderQuestion();window.scrollTo({top:0,behavior:"smooth"});}
-  else endScreen();
-}
-
-function endScreen(){
-  const pct=Math.round(score/QUIZ.length*100);
-  let emoji="📘",msg="Good start — a review round will lock it in.";
-  if(pct===100){emoji="🏆";msg="Perfect score! You own this daf.";}
-  else if(pct>=80){emoji="🌟";msg="Excellent — nearly airtight.";}
-  else if(pct>=60){emoji="👍";msg="Solid. A quick re-read of the tricky ones and you're set.";}
-  const reviewWrong = results.filter(r=>!r.right);
-  let reviewHtml="";
-  if(reviewWrong.length){
-    reviewHtml = `<div class="review"><h3 style="color:var(--accent2)">Worth another look</h3>` +
-      reviewWrong.map(r=>`<div class="r">
-        <div class="rq">${r.n}. ${r.q}</div>
-        <div class="ra no">Your answer: ${r.chosen.toUpperCase()}) ${r.opts[r.chosen]}</div>
-        <div class="ra ok">Correct: ${r.correct.toUpperCase()}) ${r.opts[r.correct]}</div>
-        <div class="ra" style="color:#6a5a3d;margin-top:4px">${r.why}</div>
-      </div>`).join("") + `</div>`;
-  }
-  card.innerHTML = `<div class="end">
-      <div class="big">${emoji}</div>
-      <div class="score">${score} / ${QUIZ.length} &nbsp;·&nbsp; ${pct}%</div>
-      <div class="msg">${msg}${best>1?` &nbsp;·&nbsp; best streak 🔥 ${best}`:""}</div>
-      <button class="btn" id="again">↻ Play again</button>
-    </div>${reviewHtml}`;
-  document.getElementById("again").addEventListener("click",restart);
-  window.scrollTo({top:0,behavior:"smooth"});
-}
-
-function restart(){idx=0;score=0;streak=0;best=0;results=[];renderQuestion();}
-
-// tab switching
-document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
-  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
-  document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));
-  t.classList.add("active");
-  document.getElementById(t.dataset.v).classList.add("active");
-  if(t.dataset.v==="quiz" && !card.innerHTML.trim()) renderQuestion();
-}));
-
-// keyboard
-document.addEventListener("keydown",e=>{
-  if(!document.getElementById("quiz").classList.contains("active")) return;
-  if(["1","2","3","4"].includes(e.key)){const k=KEYS[+e.key-1];const b=card.querySelector(`.opt[data-k="${k}"]`);if(b)b.click();}
-  else if(e.key==="Enter"){const n=document.getElementById("next");if(n&&!n.disabled)n.click();}
-});
-
-renderQuestion();
-</script>
+<script>window.QUIZ_BY_LANG = {"en":[{"n":1,"q":"How does Abaye defend the claim that a non-kosher egg imparts no flavor?","opts":["Eggs are never subject to nullification at all.","The baraita&#x27;s forbidden egg is one containing a chick (<em>beitzat efroach<\/em>) — that is what imparts flavor.","Only a boiled egg imparts flavor, not a roasted one.","The prohibition on non-kosher eggs is only rabbinic, so we are lenient."],"correct":1,"why":"Abaye&#x27;s whole defense is that the baraita&#x27;s &quot;non-kosher egg&quot; is one with a chick inside; a chick-less non-kosher egg imparts no flavor."},{"n":2,"q":"The Rabbis rejected measuring the permitted volume together with what the pot had absorbed. Why?","opts":["A pot&#x27;s absorption is impossible to estimate.","Because the pot absorbed the forbidden fat just as much as the permitted meat.","Because earthenware never absorbs at all.","Because the pot must be kashered first."],"correct":1,"why":"<em>Atu d&#x27;heteira bala, d&#x27;issura la bala?<\/em> The vessel drank in the forbidden fat too, so its absorption can&#x27;t be credited only to the permitted side."},{"n":3,"q":"Mar bar Rav Ashi proposed that a <em>half<\/em>-olive-bulk of forbidden fat needs only thirty half-olive-bulks to nullify it. On what grounds did Rav Ashi reject this?","opts":["The correct ratio for fat is a hundred, not sixty.","Half-measures are always permitted outright, so no measuring is needed.","Don&#x27;t treat rabbinic measures lightly — and R&#x27; Yochanan holds a half-measure is forbidden by Torah law.","Because forbidden fat can never be nullified."],"correct":2,"why":"Two reasons: don&#x27;t be casual with the Sages&#x27; measures, and <em>chatzi shiur asur min haTorah<\/em> (R&#x27; Yochanan), so the half-olive is fully forbidden and needs a full sixty."},{"n":4,"q":"What was the unresolved dilemma about &quot;sixty-one&quot; in the case of the non-kosher egg?","opts":["Whether the eggs must be the same size.","Whether &quot;sixty-one&quot; is counted including the forbidden egg or besides it.","Whether the rule applies to bird eggs only or also to fish eggs.","Whether the count is by volume or by number."],"correct":1,"why":"<em>Bahadei didah o l&#x27;var minah<\/em> — including the forbidden egg or besides it. R&#x27; Yaakov bar Idi and R&#x27; Shmuel bar Nachmani left it open; R&#x27; Chelbo/Rav Huna say sixty-one besides it."},{"n":5,"q":"Rabbi Chiyya asked, &quot;Is there even thirty?&quot; — which seems to imply thirty would suffice. How does Rabbi Chanina defuse this?","opts":["R&#x27; Chiyya held a minority view that was rejected.","Thirty suffices only for rabbinic prohibitions.","It was <em>guzma<\/em> — rhetorical exaggeration; there was nowhere near enough, so the case was obvious.","The text is corrupt and should read &quot;sixty.&quot;"],"correct":2,"why":"<em>Guzma<\/em>: R&#x27; Chiyya was exaggerating, not setting a threshold of thirty; there wasn&#x27;t even that much, so the case was plainly forbidden."},{"n":6,"q":"Both the &quot;sixty&quot; and the &quot;one hundred&quot; opinions are derived from the same source. What is it?","opts":["The blood of the bull and the blood of the goat on Yom Kippur.","The prohibition of <em>gid hanasheh<\/em> in Bereishit.","The teruma-in-a-pot baraita.","<em>Zeroa besheila<\/em> — the nazirite&#x27;s &quot;cooked foreleg&quot; (Bamidbar 6:19)."],"correct":3,"why":"<em>Zeroa besheila<\/em>, the cooked foreleg of the nazirite&#x27;s ram (Bamidbar 6:19), cooked with the ram yet not forbidding it to a non-kohen."},{"n":7,"q":"How do the two numbers — sixty and a hundred — come out of that one case?","opts":["Sixty measures meat and bones against meat and bones; a hundred measures meat against meat alone.","Sixty is the Babylonian count, a hundred the Eretz-Yisrael count.","Sixty is for roasting, a hundred for boiling.","Sixty is for a whole foreleg, a hundred for a cut one."],"correct":0,"why":"Counting the foreleg&#x27;s meat <em>and bones<\/em> against the ram&#x27;s meat and bones gives about 1:60; counting meat against meat alone gives 1:100."},{"n":8,"q":"What is the tannaitic dispute over the word &quot;<span lang=\"he\" dir=\"rtl\">בְּשֵׁלָה<\/span>&quot;?","opts":["Whether the foreleg is boiled or roasted.","Whether it means the foreleg must be <em>whole<\/em>, or that it is <em>cooked together with the whole ram<\/em>.","Whether the kohen or the nazir does the cooking.","Whether it refers to the foreleg or the shoulder."],"correct":1,"why":"The first tanna: &quot;<em>besheila<\/em>&quot; means the foreleg must be whole. RaShBY: it means cooked together with the entire ram."},{"n":9,"q":"Why does Rabbi Yehuda refuse to learn from the nazirite&#x27;s ram that like-in-like <em>is<\/em> nullified?","opts":["Because the ram is a sacrifice, and sacrifices have no bearing on ordinary food.","Because the foreleg is cooked in a separate pot on every reading.","Because the ram is a <em>chiddush<\/em> — an anomaly, since the Torah has you nullify deliberately — and we don&#x27;t derive from an anomaly.","Because the baraita&#x27;s &quot;<em>this<\/em>&quot; excludes only meat-in-milk."],"correct":2,"why":"<em>Chiddush hu, u&#x27;mechiddush la gamrinan<\/em> — normally one may not nullify a prohibition deliberately, yet here the Torah instructs it; so he derives <em>min b&#x27;mino<\/em> from the bull&#x27;s and goat&#x27;s blood instead (Vayikra 16:18)."},{"n":10,"q":"If the nazirite&#x27;s ram is an anomaly, why may we nonetheless derive sixty or a hundred from it?","opts":["Because the anomaly rule applies only to tannaitic sources.","Because we derive it as a stringency, not a leniency — Torah law alone would nullify by simple majority.","Because Rava rejects the anomaly claim entirely.","Because the Nasi&#x27;s house ruled that way."],"correct":1,"why":"<em>Atu anan l&#x27;kula gamrinan? L&#x27;chumra gamrinan<\/em> — by Torah law nullification is by simple majority (<em>b&#x27;ruba<\/em>), so 60/100 are restrictions, and a restriction may be learned even from an anomaly."}],"es":[{"n":1,"q":"¿Cómo defiende Abaie la afirmación de que un huevo no kosher no imparte sabor?","opts":["Los huevos nunca están sujetos a anulación en absoluto.","El huevo prohibido de la baraita es uno que contiene un pollito (<em>beitzat efróaj<\/em>) — eso es lo que imparte sabor.","Solo un huevo hervido imparte sabor, no uno asado.","La prohibición de los huevos no kosher es solo rabínica, así que somos indulgentes."],"correct":1,"why":"toda la defensa de Abaie es que el &quot;huevo no kosher&quot; de la baraita es uno con un pollito dentro; un huevo no kosher sin pollito no imparte sabor."},{"n":2,"q":"Los Rabinos rechazaron medir el volumen permitido junto con lo que la olla había absorbido. ¿Por qué?","opts":["La absorción de una olla es imposible de estimar.","Porque la olla absorbió la grasa prohibida tanto como la carne permitida.","Porque el barro nunca absorbe nada.","Porque la olla debe kasherizarse primero."],"correct":1,"why":"<em>Atu deheterá balá, deisurá lo balá?<\/em> El recipiente también se bebió la grasa prohibida, así que su absorción no puede acreditarse solo al lado permitido."},{"n":3,"q":"Mar bar Rav Ashi propuso que <em>medio<\/em> volumen de aceituna de grasa prohibida necesita solo treinta medios volúmenes de aceituna para anularse. ¿Con qué argumentos lo rechazó Rav Ashi?","opts":["La proporción correcta para la grasa es cien, no sesenta.","Las medias medidas siempre están permitidas de plano, así que no hace falta medir.","No tomes a la ligera las medidas rabínicas — y R&#x27; Iojanán sostiene que media medida está prohibida por la Torá.","Porque la grasa prohibida nunca puede anularse."],"correct":2,"why":"Dos razones: no ser descuidado con las medidas de los Sabios, y <em>jatzí shiur asur min haTorá<\/em> (R&#x27; Iojanán), así que la media aceituna está plenamente prohibida y necesita sesenta completos."},{"n":4,"q":"¿Cuál era el dilema sin resolver sobre &quot;sesenta y uno&quot; en el caso del huevo no kosher?","opts":["Si los huevos deben ser del mismo tamaño.","Si &quot;sesenta y uno&quot; se cuenta incluyendo el huevo prohibido o además de él.","Si la regla aplica solo a huevos de ave o también a huevos de pescado.","Si la cuenta es por volumen o por número."],"correct":1,"why":"<em>Bahadei didah o levar minah<\/em> — incluyendo el huevo prohibido o además de él. R&#x27; Iaacov bar Idi y R&#x27; Shmuel bar Najmaní lo dejaron abierto; R&#x27; Jelbó/Rav Huna dicen sesenta y uno además de él."},{"n":5,"q":"Rabí Jiiá preguntó: &quot;¿Acaso hay siquiera treinta?&quot; — lo que parece implicar que treinta bastaría. ¿Cómo desactiva esto Rabí Janiná?","opts":["R&#x27; Jiiá sostenía una opinión minoritaria que fue rechazada.","Treinta basta solo para prohibiciones rabínicas.","Era <em>guzmá<\/em> — exageración retórica; no había ni de cerca suficiente, así que el caso era obvio.","El texto está corrupto y debería leer &quot;sesenta&quot;."],"correct":2,"why":"<em>Guzmá<\/em>: R&#x27; Jiiá exageraba, no fijaba un umbral de treinta; no había ni esa cantidad, así que el caso estaba claramente prohibido."},{"n":6,"q":"Tanto la opinión de &quot;sesenta&quot; como la de &quot;cien&quot; se derivan de la misma fuente. ¿Cuál es?","opts":["La sangre del toro y la sangre del chivo en Iom Kipur.","La prohibición del <em>guid hanashé<\/em> en Bereshit.","La baraita de la trumá en una olla.","<em>Zeróa beshelá<\/em> — la &quot;pata delantera cocida&quot; del carnero del nazir (Bamidbar 6:19)."],"correct":3,"why":"<em>Zeróa beshelá<\/em>, la pata delantera cocida del carnero del nazir (Bamidbar 6:19), cocida con el carnero y sin prohibirlo a un no-cohén."},{"n":7,"q":"¿Cómo salen los dos números — sesenta y cien — de ese único caso?","opts":["Sesenta mide carne y huesos contra carne y huesos; cien mide carne contra carne solamente.","Sesenta es la cuenta babilonia, cien la de Erretz Israel.","Sesenta es para asar, cien para hervir.","Sesenta es para una pata entera, cien para una cortada."],"correct":0,"why":"Contar la carne <em>y los huesos<\/em> de la pata contra la carne y los huesos del carnero da unos 1:60; contar carne contra carne sola da 1:100."},{"n":8,"q":"¿Cuál es la disputa tanaítica sobre la palabra &quot;<span lang=\"he\" dir=\"rtl\">בְּשֵׁלָה<\/span>&quot;?","opts":["Si la pata se hierve o se asa.","Si significa que la pata debe estar <em>entera<\/em>, o que se <em>cocina junto con todo el carnero<\/em>.","Si el cohén o el nazir hace la cocción.","Si se refiere a la pata delantera o al hombro."],"correct":1,"why":"El primer tana: &quot;<em>beshelá<\/em>&quot; significa que la pata debe estar entera. RaSHBI: significa cocida junto con todo el carnero."},{"n":9,"q":"¿Por qué Rabí Iehudá se niega a aprender del carnero del nazir que lo igual dentro de lo igual <em>sí<\/em> se anula?","opts":["Porque el carnero es un sacrificio, y los sacrificios no dicen nada sobre comida ordinaria.","Porque la pata se cocina en una olla aparte en toda lectura posible.","Porque el carnero es un <em>jidush<\/em> — una anomalía, ya que la Torá te hace anular a propósito — y de una anomalía no derivamos.","Porque el &quot;<em>esto<\/em>&quot; de la baraita excluye solo carne con leche."],"correct":2,"why":"<em>Jidush hu, umejidush lo gamrinan<\/em> — normalmente no se puede anular una prohibición a propósito, y aquí la Torá lo indica; así que deriva <em>min bemino<\/em> de la sangre del toro y del chivo (Vaikrá 16:18)."},{"n":10,"q":"Si el carnero del nazir es una anomalía, ¿por qué se puede derivar de él sesenta o cien?","opts":["Porque la regla de la anomalía aplica solo a fuentes tanaíticas.","Porque lo derivamos como estrictez, no como indulgencia — la ley de la Torá sola anularía por simple mayoría.","Porque Rava rechaza por completo la afirmación de la anomalía.","Porque la casa del Nasí dictaminó así."],"correct":1,"why":"<em>Atu anan lekulá gamrinan? Lejumrá gamrinan<\/em> — por ley de la Torá la anulación es por simple mayoría (<em>berubá<\/em>), así que 60/100 son restricciones, y una restricción puede aprenderse incluso de una anomalía."}]};</script>
+<script src="assets/quiz.js?v=850d31d8"></script>
 </body>
 </html>
