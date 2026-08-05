@@ -2,12 +2,12 @@
 # Daily Daf Yomi build. Invoked by launchd (com.jocosiol.dafyomi) at 06:00 local time.
 # Feeds DAILY_PROMPT.md to Claude Code in headless mode; Claude does the whole pipeline.
 #
-#   Manual run:   ~/Documents/Coding/daf-yomi/daf-yomi/run_daily.sh
+#   Manual run:   ~/daf-yomi/run_daily.sh
 #   Log:          ~/Library/Logs/daf-yomi/daily.log
 
 set -uo pipefail
 
-REPO="/Users/moshecosio/Documents/Coding/daf-yomi/daf-yomi"
+REPO="/Users/moshecosio/daf-yomi"
 LOGDIR="$HOME/Library/Logs/daf-yomi"
 LOG="$LOGDIR/daily.log"
 LOCK="$LOGDIR/.lock"

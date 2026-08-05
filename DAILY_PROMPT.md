@@ -1,6 +1,6 @@
 # Daily Daf Yomi build — run this whole pipeline, unattended
 
-You are running non-interactively in the repo `/Users/moshecosio/Documents/Coding/daf-yomi/daf-yomi`
+You are running non-interactively in the repo `/Users/moshecosio/daf-yomi`
 (a clone of `jocosiol/daf-yomi`, published at https://jocosiol.github.io/daf-yomi/).
 
 Work through steps 1–5 in order, then stop. Do not ask questions — make reasonable
@@ -12,7 +12,7 @@ never from memory.
 ## Step 0 — Sync
 
 ```bash
-cd /Users/moshecosio/Documents/Coding/daf-yomi/daf-yomi
+cd /Users/moshecosio/daf-yomi
 git pull --rebase origin main
 ```
 
