@@ -50,6 +50,28 @@ trap 'rm -rf "$LOCKD"' EXIT INT TERM
 
 log "===== start ====="
 
+cd "$REPO" || { log "FAIL  cannot cd to $REPO"; exit 1; }
+
+# ---- already done today? ----
+# The agent fires at several times of day, because this Mac is not reliably on
+# at any single one of them. Checking here — before the network wait and before
+# spending a model call — is what makes the extra triggers free: the first run
+# of the day does the work, the rest cost milliseconds and exit.
+#
+# "Done" means today's sheet exists AND there is nothing left to commit or
+# push, so a run that wrote the sheet but died before publishing still gets
+# finished by the next trigger. origin/main is a local ref updated by push, so
+# this needs no network — which matters when the Mac wakes up offline.
+TODAY="$(date +%F)"
+if ls content/*.md >/dev/null 2>&1 && grep -lq "study_date: $TODAY" content/*.md; then
+  unpushed="$(git log --oneline origin/main..HEAD 2>/dev/null | wc -l | tr -d ' ')"
+  if [ "$unpushed" = "0" ] && [ -z "$(git status --porcelain)" ]; then
+    log "SKIP  $TODAY already built and pushed"
+    exit 0
+  fi
+  log "today's sheet exists but the tree is dirty or unpushed — continuing"
+fi
+
 # ---- keep the log from growing without bound ----
 if [ -f "$LOG" ] && [ "$(wc -c <"$LOG")" -gt 2000000 ]; then
   mv "$LOG" "$LOG.1"
@@ -69,8 +91,6 @@ for i in $(seq 1 30); do
   fi
   sleep 10
 done
-
-cd "$REPO" || { log "FAIL  cannot cd to $REPO"; exit 1; }
 
 # ---- preflight: the things that silently break an unattended run ----
 command -v python3 >/dev/null || { log "FAIL  python3 not on PATH"; exit 1; }
