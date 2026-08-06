@@ -101,9 +101,9 @@ tractate: Chullin
 page: 102
 daf_he: חולין קב
 chapter:
-  n: 8
-  name: Kol HaBasar
-  gloss: all flesh
+  n: 7
+  name: Gid HaNasheh
+  gloss: the sciatic nerve
 study_date: 2026-08-10
 summary: One sentence for link previews and search — what this daf is about.
 tomorrow:
@@ -116,6 +116,15 @@ tomorrow:
 `study_date` is ISO only. The build renders `Mon, 10 August 2026` and
 `lun, 10 de agosto de 2026` from it, so there is no date sentence to get wrong.
 Sefaria's `heRef` gives the Hebrew numeral: `חולין ק״ב א` → `daf_he: חולין קב`.
+
+**The chapter comes from the tractate's structure, not from the page number, and Sefaria's
+text API does not tell you.** In Chullin, ch. 7 *Gid HaNasheh* runs 89b–103b and ch. 8
+*Kol HaBasar* begins at 103b. Check where the daf you are writing actually falls; the
+example above is chapter 7 because 102 is inside that range, not because 102 implies it.
+
+A daf can straddle the boundary — 103 has the end of ch. 7 on 103a and the start of ch. 8
+on 103b. Put the chapter the daf *opens* in the front matter, and say in the prose where
+the new chapter begins.
 
 ### Then the prose, as `## ` sections in this order
 
@@ -177,8 +186,8 @@ two sheets must stay in step.
 lang: es
 title: Daf Yomi — Julín 102 (חולין קב)
 chapter:
-  name: Kol HaBasar
-  gloss: toda la carne
+  name: Guid HaNashé
+  gloss: el nervio ciático
 summary: Una frase para las vistas previas y la búsqueda.
 tomorrow:
   ref: Julín 103
