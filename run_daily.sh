@@ -23,15 +23,30 @@ mkdir -p "$LOGDIR"
 log() { printf '%s  %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*" >>"$LOG"; }
 
 # ---- single-instance guard: never let two builds race on the same git repo ----
-exec 9>"$LOCK"
-if ! flock -n 9 2>/dev/null; then
-  # macOS has no flock(1); fall back to a mkdir-based lock.
-  if ! mkdir "$LOCK.d" 2>/dev/null; then
-    log "SKIP  another run is already in progress"
+#
+# mkdir is the atomic primitive (macOS has no flock(1)). The trap releases the
+# lock on a normal exit or a catchable signal — but not on SIGKILL, a panic or
+# a power cut. A lock left behind that way used to wedge the job permanently:
+# every later run found the directory, logged SKIP and exited 0, so the agent
+# looked healthy while building nothing. So the holder records its PID, and a
+# lock whose holder is gone is stale and gets broken.
+LOCKD="$LOCK.d"
+acquire() { mkdir "$LOCKD" 2>/dev/null && echo $$ >"$LOCKD/pid"; }
+
+if ! acquire; then
+  holder="$(cat "$LOCKD/pid" 2>/dev/null || true)"
+  if [ -n "$holder" ] && kill -0 "$holder" 2>/dev/null; then
+    log "SKIP  build already running (pid $holder)"
     exit 0
   fi
-  trap 'rmdir "$LOCK.d" 2>/dev/null' EXIT
+  log "WARN  breaking stale lock from pid ${holder:-unknown} (no such process)"
+  rm -rf "$LOCKD"
+  if ! acquire; then
+    log "FAIL  could not acquire $LOCKD after breaking a stale lock"
+    exit 1
+  fi
 fi
+trap 'rm -rf "$LOCKD"' EXIT INT TERM
 
 log "===== start ====="
 
