@@ -5,5 +5,11 @@
   "pin": { "lat": 31.7683, "lon": 35.2137 },
 
   "_offset": "Minutes after sunset to roll over. 0 = shkia; use 40 for an approximate tzeis hakochavim.",
-  "offset": 0
+  "offset": 0,
+
+  "_buffer_days": "How many days ahead to keep built, counting today. The site rolls over at sunset on its own, so a buffer means a missed build is invisible rather than an outage.",
+  "buffer_days": 7,
+
+  "_max_per_run": "Most dapim to write in a single run, so one run stays bounded. The job retries every two hours, so a deep gap fills over the course of a day.",
+  "max_per_run": 3
 }

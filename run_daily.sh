@@ -59,24 +59,25 @@ log "===== start ====="
 
 cd "$REPO" || { log "FAIL  cannot cd to $REPO"; exit 1; }
 
-# ---- already done today? ----
+# ---- is there anything to do? ----
 # The agent fires at several times of day, because this Mac is not reliably on
 # at any single one of them. Checking here — before the network wait and before
-# spending a model call — is what makes the extra triggers free: the first run
-# of the day does the work, the rest cost milliseconds and exit.
+# spending a model call — is what makes the extra triggers free: a run with
+# nothing to do costs milliseconds.
 #
-# "Done" means today's sheet exists AND there is nothing left to commit or
-# push, so a run that wrote the sheet but died before publishing still gets
+# "Nothing to do" means the buffer is full AND there is nothing left to commit
+# or push, so a run that wrote a sheet but died before publishing still gets
 # finished by the next trigger. origin/main is a local ref updated by push, so
 # this needs no network — which matters when the Mac wakes up offline.
-TODAY="$(date +%F)"
-if ls content/*.md >/dev/null 2>&1 && grep -lq "study_date: $TODAY" content/*.md; then
+if python3 build/buffer.py >/dev/null 2>&1; then
   unpushed="$(git log --oneline origin/main..HEAD 2>/dev/null | wc -l | tr -d ' ')"
   if [ "$unpushed" = "0" ] && [ -z "$(git status --porcelain)" ]; then
-    log "SKIP  $TODAY already built and pushed"
+    log "SKIP  buffer full, nothing to publish"
     exit 0
   fi
-  log "today's sheet exists but the tree is dirty or unpushed — continuing"
+  log "buffer full but the tree is dirty or unpushed — continuing"
+else
+  log "buffer short — $(python3 build/buffer.py --missing 2>/dev/null | tr '\n' ' ')"
 fi
 
 # ---- keep the log from growing without bound ----

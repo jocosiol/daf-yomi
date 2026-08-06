@@ -1,7 +1,12 @@
-# Daily Daf Yomi build — run this whole pipeline, unattended
+# Daf Yomi build — keep the site a week ahead, unattended
 
 You are running non-interactively in the repo `/Users/moshecosio/daf-yomi`
 (a clone of `jocosiol/daf-yomi`, published at https://jocosiol.github.io/daf-yomi/).
+
+**You are not building "today's daf" — you are topping up a buffer.** The published site
+rolls over at sunset on its own, from a manifest baked into every page, so it does not need
+a build every day; it needs a few days in hand. The machine that runs this is a laptop that
+is often switched off, so the buffer is what keeps a missed run from becoming an outage.
 
 Work through steps 0–6 in order, then stop. Do not ask questions — make reasonable
 decisions and proceed. Do not skip the Sefaria fetch: accuracy comes from the real text,
@@ -22,25 +27,49 @@ cd /Users/moshecosio/daf-yomi
 git pull --rebase origin main
 ```
 
-## Step 1 — Which daf is today?
+## Step 1 — What needs writing?
 
 ```bash
-curl -s "https://www.sefaria.org/api/calendars?timezone=Asia/Jerusalem"
+python3 build/buffer.py
+```
+
+It prints the whole window and then the work, oldest first and already capped at what one
+run should attempt:
+
+```
+5 item(s) to write; this run should do at most 3, oldest first:
+  2026-08-08  es   (Chullin_100 has no es sheet)
+  2026-08-09  es   (Chullin_101 has no es sheet)
+  2026-08-10  en   (no sheet)
+  … 2 more, left for the next run
+```
+
+`en` means the daf itself does not exist yet — write both sheets for it. `es` means the
+English sheet is already there and only the translation is missing.
+
+**Work oldest first and do not exceed the cap.** The nearest dates matter most, and the job
+runs again every two hours, so anything you leave is picked up shortly. If it says the
+buffer is full, skip straight to step 5.
+
+For each date you are going to write, ask Sefaria which daf falls on it:
+
+```bash
+curl -s "https://www.sefaria.org/api/calendars?timezone=Asia/Jerusalem&year=2026&month=8&day=10"
 ```
 
 Read the `calendar_items` entry whose `title.en` is exactly `"Daf Yomi"` and take its
 `displayValue.en` — e.g. `"Chullin 102"`. That gives `<Tractate>` and `<page>`.
 
 **The `timezone=Asia/Jerusalem` parameter is required** — without it Sefaria answers in its
-own default timezone and you will get yesterday's daf.
+own default timezone and you will get the wrong daf. Always pass `year`/`month`/`day` too;
+never assume the next date is simply the next page, because tractates end.
 
-Confirm today's date with `date +%F`. You need it as ISO (`2026-08-10`) and nothing else —
-display dates are now formatted by the build, in each language, from that one value.
-
-If `content/<Tractate>_<page>.md` already exists with today's `study_date`, skip to step 5
-rather than rewriting it.
+The date you asked for is the sheet's `study_date`, verbatim. Nothing else about dates
+matters — the build formats the display forms, in each language, from that one ISO value.
 
 ## Step 2 — Fetch the real text, both amudim, English and Hebrew
+
+Do this for **each** daf you are writing.
 
 ```bash
 curl -s "https://www.sefaria.org/api/texts/<Tractate>.<page>a"
@@ -51,13 +80,18 @@ Each response has parallel arrays: `he` (Hebrew/Aramaic) and `text` (William Dav
 English). Strip HTML tags and read **every** segment of both amudim before writing. Base
 every claim, name, and quotation on what is actually there.
 
-Also glance at `<Tractate>.<page+1>a` for the one-line preview of tomorrow. If the page is
-the last in the tractate, check tomorrow's entry via the calendars API rather than guessing.
+Also glance at the following day's first amud for the one-line `tomorrow` preview. Get that
+day's reference from the calendars API with its own date rather than assuming `page + 1` —
+tractates end, and the buffer means you are often writing several days out.
 
 ## Step 3 — Write `content/<Tractate>_<page>.md`
 
 Warm, clear, and specific, for a reader who has some Gemara background — not a beginner,
 not a scholar. Match the tone of the previous sheets in `content/`.
+
+Each daf is written for its own study date, not for today. A sheet dated four days out is
+written exactly as if it were the daily sheet for that day — nothing in it should refer to
+"today" in the sense of the day you are running.
 
 ### Front matter — the facts, declared once
 
@@ -205,12 +239,20 @@ index.html seeded with Chullin_102 (2026-08-10)
 rollover: sunset, location pinned to 31.7683,35.2137
 ```
 
-Two things to know:
+Then confirm the buffer actually moved:
 
-- **Dapim may already be built ahead of today.** That is fine and expected: the homepage
+```bash
+python3 build/buffer.py
+```
+
+Three things to know:
+
+- **Most sheets are dated ahead of today.** That is the design, not a mistake: the homepage
   rolls over at sunset on its own. Never delete a future daf's sheet.
-- A `warn` about a missing `es` sheet for a future daf is only a reminder. A `warn` about
-  *today's* daf missing Spanish means you skipped step 4 — go back and do it.
+- The buffer does not have to be full when you finish. If it still reports items, you hit
+  the per-run cap and the next run continues. It should be *shorter* than when you started.
+- A `warn` about a missing `es` sheet is only a reminder for a future daf, but it means you
+  skipped step 4 if it names one you just wrote.
 
 Optional, if a browser is available and you changed anything under `build/`:
 
@@ -228,6 +270,10 @@ git commit -m "<Tractate> <page> — <ISO date>"
 git push origin main
 ```
 
+One commit for the run is fine when you wrote several dapim; name the range in the subject,
+e.g. `Chullin 102-104 — 2026-08-10..12`. Commit even if you only got part way through the
+list: a partial top-up is worth publishing, and the next run continues from there.
+
 Then confirm it went live (Pages takes 30–90s):
 
 ```bash
@@ -238,4 +284,5 @@ curl -s https://jocosiol.github.io/daf-yomi/ | grep -o '<title>[^<]*</title>'
 It should name today's daf. If the push failed on a non-fast-forward, `git pull --rebase
 origin main` and push again.
 
-Finish with a two-line report: which daf was built, and whether the live site confirmed it.
+Finish with a two-line report: what you wrote and what the buffer is now, and whether the
+live site confirmed today's daf.
