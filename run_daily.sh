@@ -1,9 +1,16 @@
 #!/bin/bash
-# Daily Daf Yomi build. Invoked by launchd (com.jocosiol.dafyomi) at 06:00 local time.
-# Feeds DAILY_PROMPT.md to Claude Code in headless mode; Claude does the whole pipeline.
+# Daily Daf Yomi build. Feeds DAILY_PROMPT.md to Claude Code in headless mode;
+# Claude does the whole pipeline.
+#
+# launchd (com.jocosiol.dafyomi) fires this every two hours from 06:00 to 22:00,
+# and at login — not once at 06:00 — because the Mac is often switched off then
+# and launchd does not run a missed job for a machine that was powered down.
+# The first attempt that finds a running Mac does the work; the rest hit the
+# "already done today" check below and exit in milliseconds.
 #
 #   Manual run:   ~/daf-yomi/run_daily.sh
 #   Log:          ~/Library/Logs/daf-yomi/daily.log
+#   Schedule:     com.jocosiol.dafyomi.plist (installed to ~/Library/LaunchAgents)
 
 set -uo pipefail
 

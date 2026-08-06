@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.jocosiol.dafyomi</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/moshecosio/daf-yomi/run_daily.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/moshecosio/daf-yomi</string>
+
+    <!-- This Mac is not reliably powered on at any single hour, and launchd does
+         not run a missed job for a machine that was switched off. So instead of
+         one 06:00 slot, try repeatedly through the day: the first attempt that
+         lands on a running Mac does the work.
+
+         The extra attempts are nearly free. run_daily.sh checks whether today's
+         daf is already built and pushed before it waits for the network or
+         spends a model call, and exits in milliseconds if so. -->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict><key>Hour</key><integer>6</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>10</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>12</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>14</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>16</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>18</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>20</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>0</integer></dict>
+    </array>
+
+    <!-- Also try at login/boot, which is the earliest moment a Mac that was off
+         overnight can do anything at all. -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/moshecosio/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/moshecosio</string>
+        <key>LANG</key>
+        <string>en_US.UTF-8</string>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/moshecosio/Library/Logs/daf-yomi/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/moshecosio/Library/Logs/daf-yomi/launchd.err.log</string>
+
+    <!-- The build is a few minutes of model work; don't let it be reaped early. -->
+    <key>ExitTimeOut</key>
+    <integer>1800</integer>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+</dict>
+</plist>
