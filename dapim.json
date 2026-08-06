@@ -40,7 +40,7 @@
   "iso": "2026-08-08",
   "label": {
    "en": "Chullin 100",
-   "es": "Chullin 100"
+   "es": "Julín 100"
   },
   "display": {
    "en": "Sat, 8 August 2026",
@@ -52,11 +52,23 @@
   "iso": "2026-08-09",
   "label": {
    "en": "Chullin 101",
-   "es": "Chullin 101"
+   "es": "Julín 101"
   },
   "display": {
    "en": "Sun, 9 August 2026",
    "es": "dom, 9 de agosto de 2026"
+  }
+ },
+ {
+  "file": "Chullin_102.html",
+  "iso": "2026-08-10",
+  "label": {
+   "en": "Chullin 102",
+   "es": "Julín 102"
+  },
+  "display": {
+   "en": "Mon, 10 August 2026",
+   "es": "lun, 10 de agosto de 2026"
   }
  }
 ]
