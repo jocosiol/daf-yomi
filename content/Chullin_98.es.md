@@ -206,6 +206,21 @@ que aquí, en el carnero del nazir, el resto del animal está permitido incluso 
 
 ---
 
+## Las distinciones, lado a lado
+
+Cada proporción que nombra el daf, en el orden en que la nombra — el arco de un número elástico a uno fijo:
+
+| Proporción | De quién | Cómo se llegó a ella | En qué quedó |
+|---|---|---|---|
+| **1:47** | Rebí | *"Mi padre no medía con cuarenta y siete"* — citado por su hijo | Ya quedaba atrás cuando se abre la suguiá |
+| **1:45** | Rabán Gamliel bar Rebí | *"…y yo mediré con cuarenta y cinco"* | Superada a su vez por su hermano |
+| **1:43** | Rabí Shimón bar Rebí | *"Mi padre no medía con cuarenta y cinco — y yo mediré con cuarenta y tres"* | Lo más bajo que alguien permitió de hecho |
+| **1:30** | Rabí Jiiá | *"¿Acaso hay siquiera treinta?"* — y prohibió | No es umbral alguno: *guzmá*, dice R' Janiná |
+| **1:60** | bar Kapará, vía R' Iehoshúa ben Leví | Carne **y huesos** de la pata contra la carne y los huesos del carnero | El número que se fijó |
+| **1:100** | bar Kapará, vía R' Iehoshúa ben Leví | Carne contra **carne solamente** — huesos excluidos | El mismo versículo, otra contabilidad |
+
+---
+
 ## Conceptos y términos clave
 
 | Término | Significado |
@@ -334,41 +349,44 @@ que aquí, en el carnero del nazir, el resto del animal está permitido incluso 
 ```yaml
 - q: ¿Cómo defiende Abaie la afirmación de que un huevo no kosher no imparte sabor?
   opts:
-  - Los huevos nunca están sujetos a anulación en absoluto.
+  - Los huevos quedan fuera de la anulación por completo, pues cada uno es una entidad que nunca
+    se mezcla con lo que lo rodea.
+  - Solo un huevo hervido junto con la carne imparte sabor; uno que fue asado no aporta nada en absoluto.
   - El huevo prohibido de la baraita es uno que contiene un pollito (*beitzat efróaj*) — eso es lo
     que imparte sabor.
-  - Solo un huevo hervido imparte sabor, no uno asado.
-  - La prohibición de los huevos no kosher es solo rabínica, así que somos indulgentes.
-  correct: b
+  - La prohibición de huevos no kosher es rabínica, así que su sabor se ignora aun cuando se perciba.
+  correct: c
   why: toda la defensa de Abaie es que el "huevo no kosher" de la baraita es uno con un pollito dentro;
     un huevo no kosher sin pollito no imparte sabor.
 - q: Los Rabinos rechazaron medir el volumen permitido junto con lo que la olla había absorbido.
     ¿Por qué?
   opts:
-  - La absorción de una olla es imposible de estimar.
   - Porque la olla absorbió la grasa prohibida tanto como la carne permitida.
-  - Porque el barro nunca absorbe nada.
-  - Porque la olla debe kasherizarse primero.
-  correct: b
+  - Porque la absorción de una olla no puede estimarse con la precisión que exige el sesenta.
+  - Porque el barro suelta lo que absorbió solo con calor, y aquí no hubo calor alguno.
+  - Porque habría que kasherizar la olla antes de empezar cualquier cálculo de sesenta.
+  correct: a
   why: '*Atu deheterá balá, deisurá lo balá?* El recipiente también se bebió la grasa prohibida,
     así que su absorción no puede acreditarse solo al lado permitido.'
 - q: Mar bar Rav Ashi propuso que *medio* volumen de aceituna de grasa prohibida necesita solo treinta
     medios volúmenes de aceituna para anularse. ¿Con qué argumentos lo rechazó Rav Ashi?
   opts:
-  - La proporción correcta para la grasa es cien, no sesenta.
-  - Las medias medidas siempre están permitidas de plano, así que no hace falta medir.
+  - La proporción que exige la grasa prohibida es cien y no sesenta, así que treinta jamás bastaría.
+  - Media medida está permitida de plano por la Torá, así que aquí no hay nada que calcular más allá
+    de la cautela rabínica.
+  - La grasa prohibida está entre lo que nunca se anula, sea cual sea el permitido que la rodee.
   - No tomes a la ligera las medidas rabínicas — y R' Iojanán sostiene que media medida está prohibida
     por la Torá.
-  - Porque la grasa prohibida nunca puede anularse.
-  correct: c
+  correct: d
   why: 'Dos razones: no ser descuidado con las medidas de los Sabios, y *jatzí shiur asur min haTorá*
     (R'' Iojanán), así que la media aceituna está plenamente prohibida y necesita sesenta completos.'
 - q: ¿Cuál era el dilema sin resolver sobre "sesenta y uno" en el caso del huevo no kosher?
   opts:
-  - Si los huevos deben ser del mismo tamaño.
+  - Si todos los huevos deben ser del mismo tamaño para que la cuenta valga.
   - Si "sesenta y uno" se cuenta incluyendo el huevo prohibido o además de él.
-  - Si la regla aplica solo a huevos de ave o también a huevos de pescado.
-  - Si la cuenta es por volumen o por número.
+  - Si la regla cubre solo los huevos de aves, o también los de peces y de animales rastreros junto
+    con ellos.
+  - Si los sesenta y uno se cuentan por volumen de huevo o por número de huevos.
   correct: b
   why: '*Bahadei didah o levar minah* — incluyendo el huevo prohibido o además de él. R'' Iaacov
     bar Idi y R'' Shmuel bar Najmaní lo dejaron abierto; R'' Jelbó/Rav Huna dicen sesenta y uno además
@@ -376,60 +394,65 @@ que aquí, en el carnero del nazir, el resto del animal está permitido incluso 
 - q: 'Rabí Jiiá preguntó: "¿Acaso hay siquiera treinta?" — lo que parece implicar que treinta bastaría.
     ¿Cómo desactiva esto Rabí Janiná?'
   opts:
-  - R' Jiiá sostenía una opinión minoritaria que fue rechazada.
-  - Treinta basta solo para prohibiciones rabínicas.
   - Era *guzmá* — exageración retórica; no había ni de cerca suficiente, así que el caso era obvio.
-  - El texto está corrupto y debería leer "sesenta".
-  correct: c
+  - R' Jiiá sostenía sobre la proporción exigida una opinión minoritaria que las autoridades posteriores
+    no aceptaron como ley.
+  - Treinta basta cuando la prohibición es rabínica, y esta mezcla en concreto lo era.
+  - El texto está corrupto, y la lectura recibida debería decir sesenta y no treinta en todo caso.
+  correct: a
   why: '*Guzmá*: R'' Jiiá exageraba, no fijaba un umbral de treinta; no había ni esa cantidad, así
     que el caso estaba claramente prohibido.'
 - q: Tanto la opinión de "sesenta" como la de "cien" se derivan de la misma fuente. ¿Cuál es?
   opts:
-  - La sangre del toro y la sangre del chivo en Iom Kipur.
-  - La prohibición del *guid hanashé* en Bereshit.
-  - La baraita de la trumá en una olla.
+  - La sangre del toro y la sangre del chivo rociadas en Iom Kipur.
+  - La prohibición del *guid hanashé* tal como se enuncia en Bereshit 32:33.
+  - La baraita sobre la trumá que cayó en una olla de comida común.
   - '*Zeróa beshelá* — la "pata delantera cocida" del carnero del nazir (Bamidbar 6:19).'
   correct: d
   why: '*Zeróa beshelá*, la pata delantera cocida del carnero del nazir (Bamidbar 6:19), cocida con
     el carnero y sin prohibirlo a un no-cohén.'
 - q: ¿Cómo salen los dos números — sesenta y cien — de ese único caso?
   opts:
+  - Sesenta es la cuenta que se sigue en Babilonia y cien la cuenta de Erretz Israel.
+  - Sesenta aplica cuando el trozo prohibido fue asado y cien cuando fue hervido.
   - Sesenta mide carne y huesos contra carne y huesos; cien mide carne contra carne solamente.
-  - Sesenta es la cuenta babilonia, cien la de Erretz Israel.
-  - Sesenta es para asar, cien para hervir.
-  - Sesenta es para una pata entera, cien para una cortada.
-  correct: a
+  - Sesenta es para una pata dejada entera y cien para una que fue cortada en trozos.
+  correct: c
   why: Contar la carne *y los huesos* de la pata contra la carne y los huesos del carnero da unos
     1:60; contar carne contra carne sola da 1:100.
 - q: ¿Cuál es la disputa tanaítica sobre la palabra "בְּשֵׁלָה"?
   opts:
-  - Si la pata se hierve o se asa.
+  - Si la pata ha de hervirse en agua o asarse al fuego antes de ser entregada.
   - Si significa que la pata debe estar *entera*, o que se *cocina junto con todo el carnero*.
-  - Si el cohén o el nazir hace la cocción.
-  - Si se refiere a la pata delantera o al hombro.
+  - Si el cohén cocina la pata él mismo o el nazir la cocina primero y solo entonces se la entrega
+    a él.
+  - Si la palabra designa la pata delantera del animal o la parte del hombro contigua.
   correct: b
   why: 'El primer tana: "*beshelá*" significa que la pata debe estar entera. RaSHBI: significa cocida
     junto con todo el carnero.'
 - q: ¿Por qué Rabí Iehudá se niega a aprender del carnero del nazir que lo igual dentro de lo igual
     *sí* se anula?
   opts:
-  - Porque el carnero es un sacrificio, y los sacrificios no dicen nada sobre comida ordinaria.
-  - Porque la pata se cocina en una olla aparte en toda lectura posible.
+  - Porque el carnero es una ofrenda consagrada, y lo que rige para los sacrificios no pasa a la
+    comida común.
+  - Porque en toda lectura la pata se cuece en su propia olla, así que no surge mezcla de igual con
+    igual.
+  - Porque la palabra "esto" de la baraita limita todo el fallo a carne con leche y excluye lo demás.
   - Porque el carnero es un *jidush* — una anomalía, ya que la Torá te hace anular a propósito —
     y de una anomalía no derivamos.
-  - Porque el "*esto*" de la baraita excluye solo carne con leche.
-  correct: c
+  correct: d
   why: '*Jidush hu, umejidush lo gamrinan* — normalmente no se puede anular una prohibición a propósito,
     y aquí la Torá lo indica; así que deriva *min bemino* de la sangre del toro y del chivo (Vaikrá
     16:18).'
 - q: Si el carnero del nazir es una anomalía, ¿por qué se puede derivar de él sesenta o cien?
   opts:
-  - Porque la regla de la anomalía aplica solo a fuentes tanaíticas.
   - Porque lo derivamos como estrictez, no como indulgencia — la ley de la Torá sola anularía por
     simple mayoría.
-  - Porque Rava rechaza por completo la afirmación de la anomalía.
-  - Porque la casa del Nasí dictaminó así.
-  correct: b
+  - Porque el veto a derivar de una anomalía rige solo para enunciados tanaíticos y no para versículos
+    de la propia Torá.
+  - Porque Rava rechaza de plano que el carnero del nazir cuente siquiera como anomalía.
+  - Porque la casa del Nasí falló así, y su fallo zanja el asunto en la práctica.
+  correct: a
   why: '*Atu anan lekulá gamrinan? Lejumrá gamrinan* — por ley de la Torá la anulación es por simple
     mayoría (*berubá*), así que 60/100 son restricciones, y una restricción puede aprenderse incluso
     de una anomalía.'
