@@ -78,9 +78,13 @@
       '<button class="flashcard' + (flipped ? " flipped" : "") + '" id="flip" type="button" ' +
               'aria-pressed="' + flipped + '">' +
         '<span class="inner">' +
+          // Each face centres its content with flex, which makes every child a
+          // flex item — so a meaning containing markup ("the <em>gid</em> is…")
+          // must be wrapped, or it lays out as three columns side by side.
           '<span class="face front" aria-hidden="' + flipped + '">' +
             '<span class="term">' + c.t + "</span></span>" +
-          '<span class="face back" aria-hidden="' + !flipped + '">' + c.m + "</span>" +
+          '<span class="face back" aria-hidden="' + !flipped + '">' +
+            '<span class="meaning">' + c.m + "</span></span>" +
         "</span>" +
       "</button>" +
       '<div class="nav">' +

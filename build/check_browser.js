@@ -72,6 +72,14 @@ async function open(browser, url) {
     });
     check('cards: deck has one card per glossary row', nCards === nTerms, `${nCards} vs ${nTerms}`);
 
+    // A face centres with flex, so bare text beside an <em> would become its
+    // own flex item and the sentence would lay out as columns. One element
+    // child per face is what keeps the text a single running paragraph.
+    const wrapped = await page.evaluate(() =>
+      [...document.querySelectorAll('.flashcard .face')].every(f =>
+        f.childNodes.length === 1 && f.firstChild.nodeType === 1));
+    check('cards: each face wraps its content in one element', wrapped);
+
     // the back is hidden until the card is turned
     const hidden = await page.evaluate(() => {
       const b = document.querySelector('.face.back');
