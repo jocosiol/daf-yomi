@@ -51,6 +51,9 @@
 
   {% if has_cards %}
   <section class="view" id="cards" role="tabpanel">
+    <p class="deck-intro">
+    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards_intro }}</span>{% endfor -%}
+    </p>
     <div class="deck" id="deckCard"></div>
     <div class="hint">
     {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards_tip }}</span>{% endfor -%}

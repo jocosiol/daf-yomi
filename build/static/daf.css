@@ -187,6 +187,10 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 /* ---- Flashcards ----
    Both faces occupy the same grid cell, so the card is as tall as the longer
    of the two and neither side jumps when it turns. */
+/* What the deck is, above the deck — the keyboard tip below it says how to
+   drive it, which is no use to someone who does not yet know what it is for. */
+.deck-intro{max-width:62ch;margin:0 auto 16px;text-align:center;
+  color:var(--muted);font-size:.95rem;line-height:1.55;font-style:italic}
 .deck{background:var(--panel);border:1px solid var(--line);border-radius:16px;
   padding:26px 28px;box-shadow:var(--shadow)}
 .dbar{display:flex;justify-content:space-between;align-items:center;gap:12px;

@@ -33,6 +33,10 @@ UI = {
         "quiz": "Chazara Quiz",
         "cards": "Flashcards",
         "cards_cta": "Study these as flashcards",
+        "cards_intro": "Today's key terms, one per card — the same glossary as in Learn. "
+                       "Read the term, recall what it means on this daf, then turn the card "
+                       "over and say whether you had it. Whatever you flag comes back at the "
+                       "end in a shorter second round.",
         "tip": "Tip: press keys 1–4 to answer, Enter for next.",
         "cards_tip": "Tip: space flips the card, ← → move, 1 / 2 rate it.",
         "tomorrow": "Tomorrow",
@@ -58,6 +62,10 @@ UI = {
         "quiz": "Repaso (Chazará)",
         "cards": "Tarjetas",
         "cards_cta": "Estudiar estos con tarjetas",
+        "cards_intro": "Los términos clave de hoy, uno por tarjeta — el mismo glosario que "
+                       "en Aprender. Lee el término, recuerda qué significa en este daf, "
+                       "luego gira la tarjeta y di si lo sabías. Lo que marques vuelve al "
+                       "final en una segunda ronda, más corta.",
         "tip": "Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.",
         "cards_tip": "Consejo: la barra espaciadora gira la tarjeta, ← → navegan, 1 / 2 califican.",
         "tomorrow": "Mañana",
