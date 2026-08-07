@@ -20,6 +20,7 @@ Output (flat at the repo root, so existing URLs keep working):
 """
 import argparse
 import datetime
+import filecmp
 import glob
 import hashlib
 import html as html_mod
@@ -362,6 +363,19 @@ def main():
         if base not in expected:
             print(f"  warn   {base} is at the root but has no source in content/ "
                   f"— delete it, or list it in content/legacy.json")
+
+    # ---- a preview build leaves the published tree behind ----
+    # Easy to edit static/, build only to --out to look at it, and commit: the
+    # source moves, the served assets do not, and the site quietly runs the old
+    # code. Say so, and name what is actually stale.
+    if os.path.abspath(out_dir) != os.path.abspath(REPO):
+        stale = [n for n, _ in sorted(asset_urls.items())
+                 if not filecmp.cmp(os.path.join(HERE, "static", n),
+                                    os.path.join(REPO, "assets", n), shallow=False)]
+        print(f"\nPreview build — {out_dir}. The published tree at {REPO} was not touched.")
+        if stale:
+            print(f"  warn   {', '.join(stale)} differ(s) from assets/ there "
+                  f"— rerun without --out before committing")
 
     where = (f"pinned to {settings['pin']['lat']},{settings['pin']['lon']}"
              if settings["pin"] else "per-visitor (browser timezone)")
