@@ -154,6 +154,19 @@ nullified by the majority! The answer waits for tomorrow's first line.
 
 ---
 
+## The distinctions, side by side
+
+**לֹא כׇּל הַשִּׁיעוּרִין שָׁוִין** — not all measures are equal. Every ratio the daf handles, and what each one is doing there:
+
+| The measure | What it governs | Where it comes from | What it shows |
+|---|---|---|---|
+| **רוֹב** — a bare majority | Torah law left to itself | *מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל* | The floor. Everything above it is a stringency — which is why an anomaly may teach it |
+| **1:60** | Torah prohibitions generally | The nazirite's ram, meat **and bones** | Abaye's reading of the *Orla* beans: under 101, no flavor, still permitted |
+| **1:100** | Rav Shmuel bar Rav Yitzchak's claim, taught by Rav Dimi | The same ram, meat against meat | Cornered by Abaye until **אִישְׁתִּיק** — Rav Dimi fell silent |
+| **≈1:192** | *צִיר*, the brine of a non-kosher fish | R' Yehuda: a quarter-*log* forbids two *se'ah* | The measures are not one system; and brine is only *זֵיעָה בְּעָלְמָא*, mere sweat |
+
+---
+
 ## Key concepts & terms
 
 | Term | Meaning |
@@ -228,87 +241,91 @@ b'Rabbi Chanina**, who is his junior by a generation and belongs to Caesarea.
 - q: How does the Gemara rescue the derivation of sixty from the objection that we do not learn from
     an anomaly?
   opts:
-  - It shows that the nazirite's ram is not actually anomalous.
+  - It shows that the nazirite's ram is not in fact anomalous, since the Torah nowhere instructs
+    nullifying.
+  - It finds a second verse elsewhere that teaches the measure of sixty quite independently of the
+    ram.
+  - It concedes the objection and abandons sixty, settling on a hundred as the operative measure.
   - It shows the derivation produces a stringency, and the objection applies only to leniencies.
-  - It finds a second verse that teaches sixty independently.
-  - It concedes the point and abandons sixty in favour of a hundred.
-  correct: b
-  why: the objection bars extending an anomaly's leniencies; sixty is a stringency over the Torah's
+  correct: d
+  why: the objection bars extending leniencies from an anomaly; sixty is a stringency over the Torah's
     simple majority.
 - q: Without the derivation from the nazirite's ram, what would Torah law say about a forbidden food
     in a mixture?
   opts:
-  - It is never nullified.
-  - It is nullified in a hundred.
   - It is nullified in a simple majority.
-  - It is nullified only if a taster detects nothing.
-  correct: c
-  why: מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל, nullification in a bare majority.
+  - It is never nullified at all, whatever the quantity.
+  - It is nullified once there is a hundred against it.
+  - It is nullified only if a taster can detect nothing.
+  correct: a
+  why: מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל, nullification by a bare majority.
 - q: According to Ravina, what does the word זֶה in the baraita about the nazirite's ram teach?
   opts:
-  - That the measure is sixty rather than a hundred.
-  - That the ram must be cooked rather than roasted.
+  - That the required measure is sixty and not a hundred as others held.
+  - That the ram must be boiled in water rather than roasted over fire.
   - That the surface of the cut on the permitted part is permitted.
-  - That the foreleg alone is given to the priest.
+  - That the foreleg alone, and no other portion, is given to the priest.
   correct: c
-  why: it teaches that מְקוֹם הַחֲתָךְ, the place of the cut, is permitted here, though normally
-    it would be forbidden.
+  why: it teaches that מְקוֹם הַחֲתָךְ, the place of the cut, is permitted here, though it would
+    ordinarily be forbidden.
 - q: What is the case in the mishnah of Orla that Abaye uses against Rav Dimi?
   opts:
-  - Teruma leaven that fell into non-sacred dough.
+  - Teruma leaven that fell into a batch of non-sacred dough.
   - Split beans of teruma cooked with non-sacred lentils.
-  - Non-kosher fish brine mixed into permitted brine.
-  - A sciatic nerve cooked together with a thigh.
+  - Brine of a non-kosher fish mixed into permitted fish brine.
+  - A sciatic nerve cooked together with the thigh it came from.
   correct: b
-  why: גְּרִיסִין of teruma cooked with non-sacred lentils, the "different kind" case of Orla 2:7.
+  why: גְּרִיסִין of teruma cooked with non-sacred lentils, the "different species" case of Orla
+    2:7.
 - q: What happened when Abaye asked why leaven at 101 parts should forbid the dough?
   opts:
-  - Rav Dimi answered that leaven is potent.
+  - Rav Dimi answered that leaven is uncommonly potent in dough.
+  - Rav Dimi cited Rabbi Yosei b'Rabbi Chanina in his defence.
+  - Rav Dimi withdrew the position he had stated entirely.
   - Rav Dimi was silent, and Abaye himself supplied the answer.
-  - Rav Dimi cited Rabbi Yosei b'Rabbi Chanina.
-  - Rav Dimi withdrew his entire position.
-  correct: b
-  why: אִישְׁתִּיק; then Abaye offered that leaven's חִימּוּצוֹ קָשֶׁה, its potency, explains it.
+  correct: d
+  why: אִישְׁתִּיק; Abaye then proposed that leaven's חִימּוּצוֹ קָשֶׁה, its potency, accounts for
+    it.
 - q: What is the measure for nullifying the brine of a non-kosher fish, according to Rabbi Yehuda?
   opts:
-  - Sixty.
-  - A hundred and one.
+  - Sixty, as with other prohibitions.
   - Close to two hundred.
-  - A simple majority.
-  correct: c
-  why: a quarter-log forbids two se'ah, about 192 times its volume.
+  - A hundred and one, as with orla.
+  - A simple majority of permitted.
+  correct: b
+  why: a quarter-log forbids two se'ah, roughly 192 times its volume.
 - q: How can brine be nullified at all, given that Rabbi Yehuda holds that like is not nullified
     in like?
   opts:
   - Brine is merely sweat, and so is not considered the fish itself.
-  - Brine is a liquid, and liquids are always nullified.
-  - Rabbi Yehuda retracted that rule.
-  - The brine here came from a kosher fish.
+  - Brine is a liquid, and liquids are nullified even in their own kind.
+  - Rabbi Yehuda retracted the rule about like not nullifying like.
+  - The brine in this case had come from a kosher fish to begin with.
   correct: a
   why: 'שָׁאנֵי צִיר, דְּזֵיעָה בְּעָלְמָא הוּא: brine is a secretion, not the fish, so it is not
     its own kind.'
 - q: What is the accepted halacha about whether sinews impart taste?
   opts:
-  - They impart taste, so the whole thigh is forbidden.
-  - They impart taste only when the nerve is larger than an olive-bulk.
-  - The matter is left unresolved.
+  - They impart taste, so the entire thigh becomes forbidden.
+  - They impart taste only where the nerve exceeds an olive-bulk.
   - They impart no taste, so removing the nerve suffices.
-  correct: d
-  why: אֵין בְּגִידִין בְּנוֹתֵן טַעַם, stated three times on the daf and sealed as the halacha.
+  - The question is left unresolved and both practices stand.
+  correct: c
+  why: אֵין בְּגִידִין בְּנוֹתֵן טַעַם, said three times on the daf and sealed as the halacha.
 - q: Why did Rabbi Ami send questioners to Rabbi Yitzchak ben Chalov?
   opts:
-  - He did not know the answer himself.
-  - He held the lenient view and wanted it publicised.
+  - He did not know the answer and deferred to a greater authority.
+  - He held the lenient view and wanted it publicised more widely.
+  - Rabbi Yitzchak ben Chalov had been his own teacher in this area.
   - He held the stringent view but was unwilling to impose it on others.
-  - Rabbi Yitzchak ben Chalov was his teacher.
-  correct: c
-  why: he did not hold the lenient view himself, but would not rule strictly for others.
+  correct: d
+  why: he did not hold the lenient view himself, but would not rule stringently for others.
 - q: What question does the daf end on, unanswered?
   opts:
-  - Whether the measure is sixty or a hundred.
   - Why an unidentified sciatic nerve is not simply nullified by the majority.
-  - Whether the gid of a non-kosher animal is forbidden.
-  - Whether a pot's absorption counts toward the sixty.
-  correct: b
+  - Whether the operative measure for the nerve is sixty or a hundred.
+  - Whether the sciatic nerve of a non-kosher animal is itself forbidden.
+  - Whether what a pot has absorbed counts toward making up the sixty.
+  correct: a
   why: לִיבַּטֵיל בְּרוּבָּא; the answer, בְּרִיָּה שָׁאנֵי, opens tomorrow's daf.
 ```
