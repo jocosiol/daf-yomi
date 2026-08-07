@@ -40,6 +40,9 @@ import validate as validate_mod    # noqa: E402
 
 REPO = os.path.dirname(HERE)
 LETTERS = "abcd"
+# Below this a deck is not worth a tab of its own; the table in Learn says it
+# just as well. validate.py already warns under TERMS_MIN_ROWS.
+MIN_CARDS = 3
 
 # Hebrew, Aramaic and the Hebrew presentation forms, plus the punctuation that
 # lives inside a quoted phrase (geresh, gershayim, maqaf, sof pasuq).
@@ -105,6 +108,41 @@ def quiz_payload(s):
     return out
 
 
+def cards_payload(s):
+    """The Key concepts table as a flashcard deck: [{"t": term, "m": meaning}].
+
+    Read out of the same markdown table the Learn view renders, so the deck can
+    never drift from the sheet — there is one glossary, written once.
+    """
+    rows = validate_mod.terms_table(s) or []
+    return [{"t": inline_md(r[0]), "m": inline_md(" — ".join(c for c in r[1:] if c))}
+            for r in rows if len(r) >= 2 and r[0].strip() and r[1].strip()]
+
+
+def with_deck_cta(body_md, lang):
+    """Splice a 'study these as flashcards' button under the glossary table.
+
+    The deck has a tab like Learn and Quiz do, but the moment you actually want
+    it is while reading the terms — so the button sits there too, and switches
+    to the tab. Inserted as markdown (python-markdown passes a block of raw HTML
+    through) rather than patched into the rendered fragment, which would mean
+    parsing our own output back.
+    """
+    needle = validate_mod.TERMS_SECTION.get(lang, validate_mod.TERMS_SECTION[i18n.DEFAULT])
+    span = validate_mod.section_span(body_md, needle)
+    if not span:
+        return body_md
+    start, end = span
+    seg = body_md[start:end]
+    # above the horizontal rule that closes the section, not below it
+    rule = re.search(r"(?:\s*^---\s*$\s*)+\Z", seg, re.M)
+    at = start + (rule.start() if rule else len(seg.rstrip()))
+    label = html_mod.escape(i18n.t(lang, "cards_cta"))
+    return (f'{body_md[:at]}\n\n<p class="deck-cta">'
+            f'<button class="btn ghost" type="button" data-open="cards">🃏 {label}</button>'
+            f'</p>\n\n{body_md[at:]}')
+
+
 def script_json(obj):
     """JSON for embedding in a <script> block.
 
@@ -161,7 +199,7 @@ def build_assets(out_dir):
     return urls
 
 
-def language_groups(s):
+def language_groups(s, has_cards=False):
     """Collapse languages onto the sheet each one actually renders.
 
     A daf with a Spanish translation yields two groups; one without yields a
@@ -180,12 +218,13 @@ def language_groups(s):
     for key in order:
         g = by_variant[key]
         v = g["sheet"]
+        body_md = with_deck_cta(v.body_md, v.lang) if has_cards else v.body_md
         groups.append({
             "langs": " ".join(g["langs"]),
             "lang": v.lang,
             "title_html": hebrew_spans(html_mod.escape(v.title)),
             "subtitle": hebrew_spans(v.subtitle),
-            "learn_html": render_body(v.body_md),
+            "learn_html": render_body(body_md),
             "tomorrow": v.tomorrow,
         })
     return groups
@@ -266,14 +305,23 @@ def main():
 
     def render_daf(s, is_index):
         quiz_by_lang = {l: quiz_payload(s.variant(l)) for l in i18n.LANGS}
+        # A language with too thin a glossary is left out entirely rather than
+        # given an empty deck, so cards.js falls back to English for it — the
+        # same way an untranslated body does.
+        cards_by_lang = {l: c for l, c in
+                         ((l, cards_payload(s.variant(l))) for l in i18n.LANGS)
+                         if len(c) >= MIN_CARDS}
+        has_cards = bool(cards_by_lang)
         return daf_tpl.render(
-            groups=language_groups(s),
+            groups=language_groups(s, has_cards),
             untranslated=[l for l in i18n.LANGS if l != s.lang and l not in s.translations],
             page_title=s.title,
             description=s.summary,
             canonical="" if is_index else s.out_name,
             has_quiz=bool(s.quiz),
             quiz_json=script_json(quiz_by_lang),
+            has_cards=has_cards,
+            cards_json=script_json(cards_by_lang),
             is_index=is_index,
             is_archive=False,
             needs_zman=is_index,

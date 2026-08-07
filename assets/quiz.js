@@ -168,18 +168,10 @@
     if (QUIZ.length) restart();
   });
 
-  document.querySelectorAll(".tab").forEach(function (t) {
-    t.addEventListener("click", function () {
-      document.querySelectorAll(".tab").forEach(function (x) {
-        x.classList.remove("active");
-        x.setAttribute("aria-selected", "false");
-      });
-      document.querySelectorAll(".view").forEach(function (x) { x.classList.remove("active"); });
-      t.classList.add("active");
-      t.setAttribute("aria-selected", "true");
-      document.getElementById(t.dataset.v).classList.add("active");
-      if (t.dataset.v === "quiz" && !card.innerHTML.trim()) renderQuestion();
-    });
+  /* tabs.js owns the switching; this only has to notice the quiz being opened
+     for the first time, in case it was never rendered. */
+  document.addEventListener("dafview", function (e) {
+    if (e.detail.view === "quiz" && QUIZ.length && !card.innerHTML.trim()) renderQuestion();
   });
 
   document.addEventListener("keydown", function (e) {

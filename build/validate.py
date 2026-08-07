@@ -34,6 +34,14 @@ GRID_SECTION = {
 }
 GRID_MIN_COLS, GRID_MAX_COLS = 2, 4
 GRID_MIN_ROWS, GRID_MAX_ROWS = 2, 6
+# The glossary. Required as a section by REQUIRED_SECTIONS; checked here as a
+# table because build.py turns its rows into the flashcard deck — prose under
+# that heading would silently cost the daf its deck.
+TERMS_SECTION = {
+    "en": "Key concepts",
+    "es": "Conceptos",
+}
+TERMS_MIN_ROWS = 5
 QUIZ_MIN, QUIZ_MAX = 8, 10
 LETTERS = "abcd"
 
@@ -138,19 +146,28 @@ def check_body(s, rep):
         rep.warn(where, f"body is only {len(s.body_md)} chars — is it complete?")
 
 
-def section_body(s, needle):
-    """The markdown under the first `## …needle…` heading, up to the next H2."""
-    for m in re.finditer(r"^##\s+(.*)$", s.body_md, re.M):
+def section_span(body_md, needle):
+    """(start, end) of the markdown under the first `## …needle…` heading.
+
+    Offsets rather than the text itself, so build.py can splice something in at
+    the end of a section without re-finding it with its own copy of this regex.
+    """
+    for m in re.finditer(r"^##\s+(.*)$", body_md, re.M):
         if needle.lower() not in m.group(1).strip().lower():
             continue
-        nxt = re.search(r"^##\s+", s.body_md[m.end():], re.M)
-        end = m.end() + nxt.start() if nxt else len(s.body_md)
-        return s.body_md[m.end():end]
+        nxt = re.search(r"^##\s+", body_md[m.end():], re.M)
+        return m.end(), (m.end() + nxt.start() if nxt else len(body_md))
     return None
 
 
-def grid_shape(section_md):
-    """(columns, data rows) of the first markdown table, or None if there is none.
+def section_body(s, needle):
+    """The markdown under the first `## …needle…` heading, up to the next H2."""
+    span = section_span(s.body_md, needle)
+    return s.body_md[span[0]:span[1]] if span else None
+
+
+def markdown_table(section_md):
+    """(header cells, [row cells]) of the table in a section, or None.
 
     The separator row (|---|---|) is what distinguishes a real table from a
     paragraph that happens to contain pipes, so it has to be there.
@@ -164,7 +181,13 @@ def grid_shape(section_md):
     def cells(line):
         return [c.strip() for c in line.strip().strip("|").split("|")]
 
-    return len(cells(rows[0])), len(rows) - 2
+    return cells(rows[0]), [cells(r) for r in rows[2:]]
+
+
+def grid_shape(section_md):
+    """(columns, data rows) of the first markdown table, or None if there is none."""
+    t = markdown_table(section_md)
+    return (len(t[0]), len(t[1])) if t else None
 
 
 def check_grid(s, rep):
@@ -205,6 +228,41 @@ def check_grid_parity(base, tr, rep):
         rep.error(where, f"the side-by-side grid is {ts[0]}×{ts[1]} but "
                          f"{bs[0]}×{bs[1]} in {name(base)} — translate the grid, "
                          "do not reshape it")
+
+
+def terms_table(s):
+    """The rows of the Key-concepts table — the flashcard deck's source."""
+    needle = TERMS_SECTION.get(s.lang, TERMS_SECTION[i18n.DEFAULT])
+    section = section_body(s, needle)
+    table = markdown_table(section) if section else None
+    return table[1] if table else None
+
+
+def check_terms(s, rep):
+    where = name(s)
+    needle = TERMS_SECTION.get(s.lang, TERMS_SECTION[i18n.DEFAULT])
+    if section_body(s, needle) is None:
+        return                                  # check_body already reported it
+    rows = terms_table(s)
+    if rows is None:
+        rep.error(where, f"the '…{needle}…' section has no markdown table — "
+                         "the terms must be a two-column table, which is also "
+                         "what the flashcard deck is built from")
+        return
+    if any(len(r) < 2 or not r[0] or not r[1] for r in rows):
+        rep.error(where, f"a row of the '…{needle}…' table is missing its term "
+                         "or its meaning — every flashcard needs both sides")
+    if len(rows) < TERMS_MIN_ROWS:
+        rep.warn(where, f"only {len(rows)} key terms; want at least {TERMS_MIN_ROWS}")
+
+
+def check_terms_parity(base, tr, rep):
+    """A translated glossary must be the same glossary, term for term."""
+    b, t = terms_table(base), terms_table(tr)
+    if b is None or t is None or len(b) == len(t):
+        return
+    rep.error(name(tr), f"{len(t)} key terms but {len(b)} in {name(base)} — "
+                        "translate the glossary, do not add to or trim it")
 
 
 def check_quiz(s, rep):
@@ -375,14 +433,17 @@ def validate(content_dir):
         check_common_meta(s, rep)
         check_body(s, rep)
         check_grid(s, rep)
+        check_terms(s, rep)
         check_quiz(s, rep)
         for tr in s.translations.values():
             check_translation_meta(tr, rep)
             check_common_meta(tr, rep)
             check_body(tr, rep)
             check_grid(tr, rep)
+            check_terms(tr, rep)
             check_quiz(tr, rep)
             check_grid_parity(s, tr, rep)
+            check_terms_parity(s, tr, rep)
             check_quiz_parity(s, tr, rep)
 
     check_collection(bases, rep)

@@ -88,8 +88,17 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 /* ---- tabs ---- */
 .tabs{
   display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:20;
-  padding:12px 0;background:linear-gradient(180deg,var(--paper) 70%,transparent);
-  margin-bottom:10px;
+  padding:12px 0;margin-bottom:10px;
+  /* solid behind the pills, fading only at the very bottom — a fixed fade
+     rather than a percentage, so a wrapped second row is not see-through */
+  background:linear-gradient(180deg,var(--paper) calc(100% - 16px),transparent);
+}
+/* The nav pills are fixed top-right and always paint above this bar. On a wide
+   screen the two never meet; narrower than this they do, and the nav silently
+   swallows the taps meant for a tab. Parking the stuck bar below the pills
+   costs nothing at rest — it is an offset, not extra height. */
+@media(max-width:900px){
+  .tabs{top:56px}
 }
 .tab{
   border:1px solid var(--gold);background:var(--panel);color:var(--accent2);
@@ -121,6 +130,8 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .sheet li{margin:5px 0}
 .sheet strong{color:var(--accent2)}
 .table-scroll{overflow-x:auto}
+/* the jump to the deck, sitting under the glossary table that feeds it */
+.deck-cta{margin:18px 0 2px;text-align:center}
 .tomorrow{margin-top:24px;padding-top:16px;border-top:1px solid var(--line);
   color:var(--muted);font-style:italic;font-size:.96rem}
 
@@ -173,6 +184,36 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .review .ok{color:var(--good)} .review .no{color:var(--bad)}
 .hint{color:var(--faint);font-size:.82rem;text-align:center;margin-top:14px}
 
+/* ---- Flashcards ----
+   Both faces occupy the same grid cell, so the card is as tall as the longer
+   of the two and neither side jumps when it turns. */
+.deck{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+  padding:26px 28px;box-shadow:var(--shadow)}
+.dbar{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  margin-bottom:6px;font-size:.92rem;color:var(--muted)}
+.dnum{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.flashcard{display:block;width:100%;padding:0;border:none;background:none;cursor:pointer;
+  font-family:inherit;color:var(--ink);perspective:1400px;-webkit-tap-highlight-color:transparent}
+.flashcard .inner{display:grid;min-height:210px;transform-style:preserve-3d;
+  transition:transform .55s cubic-bezier(.2,.75,.3,1)}
+.flashcard.flipped .inner{transform:rotateY(180deg)}
+.flashcard .face{grid-area:1/1;display:flex;align-items:center;justify-content:center;
+  text-align:center;padding:30px 26px;border:1.5px solid var(--line);border-radius:14px;
+  background:var(--panel);backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  transition:box-shadow .15s}
+.flashcard .face.front{background:var(--quote-bg);border-color:var(--gold)}
+.flashcard .face.back{transform:rotateY(180deg);background:var(--paper);border-color:var(--gold-soft);
+  font-size:1.08rem;line-height:1.6;color:var(--ink-soft)}
+.flashcard:hover .face{box-shadow:var(--shadow-sm)}
+.flashcard:focus-visible .face{outline:2px solid var(--accent);outline-offset:3px}
+/* Sheets write a term either as "**hebrew** *(translit)*" or as one bold run;
+   the first splits over two lines here, the second simply stays on one. */
+.flashcard .term{font-size:1.45rem;color:var(--accent2)}
+.flashcard .term strong{display:block;font-weight:600}
+.flashcard .term em{display:block;margin-top:8px;font-size:.62em;color:var(--muted)}
+.deck .nav{flex-wrap:wrap}
+.deck .rate{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+
 /* ---- archive ---- */
 .archive{max-width:640px;margin:0 auto;padding:40px 22px 80px}
 .archive h1{color:var(--accent2);text-align:center;font-size:1.9rem;margin-bottom:4px}
@@ -191,13 +232,23 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .archive .home{display:block;text-align:center;margin-top:26px}
 .archive .home a{color:var(--accent2)}
 
-@media(max-width:520px){
-  .sheet,.quiz{padding:20px 16px}
+@media(max-width:560px){
+  .sheet,.quiz,.deck{padding:20px 16px}
   .qtext{font-size:1.14rem}
   header.top h1{font-size:1.6rem}
+  /* three pills rarely fit a phone on one line; wrapping beats a cramped row */
+  .tabs{flex-wrap:wrap;gap:6px}
+  .tab{padding:8px 14px;font-size:.92rem}
+  .flashcard .face{padding:24px 18px}
+  .flashcard .term{font-size:1.25rem}
+  /* Back stays a compact pill on the left; whatever action the card is asking
+     for takes the rest of the row, rather than wrapping onto its own line. */
+  .deck .nav{display:grid;grid-template-columns:auto 1fr;align-items:stretch;gap:8px}
+  .deck .rate{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .deck .btn{padding:11px 12px;font-size:.94rem}
 }
 @media print{
-  #site-nav,.tabs,#quiz,.hint{display:none!important}
+  #site-nav,.tabs,#quiz,#cards,.deck-cta,.hint{display:none!important}
   body{background:#fff;color:#000}
   .sheet{border:none;box-shadow:none;padding:0}
 }

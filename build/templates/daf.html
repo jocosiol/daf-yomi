@@ -20,6 +20,12 @@
             aria-controls="learn" data-v="learn">📖&nbsp;
       {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].learn }}</span>{% endfor -%}
     </button>
+    {% if has_cards %}
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="cards" data-v="cards">🃏&nbsp;
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards }}</span>{% endfor -%}
+    </button>
+    {% endif %}
     {% if has_quiz %}
     <button class="tab" type="button" role="tab" aria-selected="false"
             aria-controls="quiz" data-v="quiz">🎯&nbsp;
@@ -43,6 +49,15 @@
     {% endfor %}
   </section>
 
+  {% if has_cards %}
+  <section class="view" id="cards" role="tabpanel">
+    <div class="deck" id="deckCard"></div>
+    <div class="hint">
+    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards_tip }}</span>{% endfor -%}
+    </div>
+  </section>
+  {% endif %}
+
   {% if has_quiz %}
   <section class="view" id="quiz" role="tabpanel">
     <div class="quiz" id="quizCard"></div>
@@ -56,6 +71,16 @@
   {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].disclaimer_foot }}</span>{% endfor -%}
   </footer>
 </div>
+{# tabs.js owns switching for every view, so a daf can have a deck without a
+   quiz — the handler used to live in quiz.js, which only loads when there is
+   one. It must come first: quiz.js and cards.js listen for its "dafview". #}
+{% if has_quiz or has_cards %}
+<script src="{{ asset('tabs.js') }}"></script>
+{% endif %}
+{% if has_cards %}
+<script>window.CARDS_BY_LANG = {{ cards_json|safe }};</script>
+<script src="{{ asset('cards.js') }}"></script>
+{% endif %}
 {% if has_quiz %}
 <script>window.QUIZ_BY_LANG = {{ quiz_json|safe }};</script>
 <script src="{{ asset('quiz.js') }}"></script>

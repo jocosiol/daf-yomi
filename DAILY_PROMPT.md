@@ -167,6 +167,12 @@ Rules that keep it useful:
 **(d) `## Key concepts & terms`** — a markdown table, `| Term | Meaning |`, with the
 Hebrew/Aramaic term, its transliteration, and what it means on this daf.
 
+This table is also the daf's **flashcard deck**: the build turns each row into a card,
+term on the front and meaning on the back. So write each side to stand on its own — a
+meaning that only makes sense while looking at the row above it makes a poor card. The
+translation must have the same terms in the same order; `validate.py` rejects a glossary
+that has gained or lost a row.
+
 **(e) `## Who's who in today's daf`** — for **every** sage named, a one-line ID: era
 (**Tanna** / **Babylonian Amora** / **Eretz-Yisrael Amora**), approximate generation, where
 they lived, and a teacher or famous disputant. Group by era if the list is long.

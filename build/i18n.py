@@ -31,7 +31,10 @@ UI = {
     "en": {
         "learn": "Learn",
         "quiz": "Chazara Quiz",
+        "cards": "Flashcards",
+        "cards_cta": "Study these as flashcards",
         "tip": "Tip: press keys 1–4 to answer, Enter for next.",
+        "cards_tip": "Tip: space flips the card, ← → move, 1 / 2 rate it.",
         "tomorrow": "Tomorrow",
         "archive_title": "Daf Yomi — Archive",
         "archive_lede": "Every daily study sheet · newest first",
@@ -53,7 +56,10 @@ UI = {
     "es": {
         "learn": "Aprender",
         "quiz": "Repaso (Chazará)",
+        "cards": "Tarjetas",
+        "cards_cta": "Estudiar estos con tarjetas",
         "tip": "Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.",
+        "cards_tip": "Consejo: la barra espaciadora gira la tarjeta, ← → navegan, 1 / 2 califican.",
         "tomorrow": "Mañana",
         "archive_title": "Daf Yomi — Archivo",
         "archive_lede": "Todas las hojas de estudio diarias · las más recientes primero",

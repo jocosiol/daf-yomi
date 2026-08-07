@@ -19,7 +19,7 @@ forgotten on the command line.
 | `i18n.py` | every string the build itself renders, plus per-language date formatting |
 | `build.py` | renders the pages, the archive, the manifest and `assets/` |
 | `templates/` | Jinja: `base.html`, `daf.html`, `archive.html` |
-| `static/` | `daf.css`, `lang.js`, `quiz.js`, `zman.js` — copied to `assets/` with a content hash |
+| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `zman.js` — copied to `assets/` with a content hash |
 | `check_browser.js` | drives the built site in headless Chrome (needs `puppeteer-core`) |
 | `migrate_legacy.py` | one-off, already run; its inputs no longer exist. Deletable |
 
@@ -36,8 +36,17 @@ the root `<html lang>`, which `lang.js` sets in `<head>` before the first paint.
 no translation emits its English body **once**, marked `data-lang="en es"`, with a short
 note above it.
 
-Adding a language is a key in `i18n.LANGS` / `i18n.UI`, a `STR` entry in `quiz.js` and
-`zman.js`, and `<Tractate>_<page>.<lang>.md` sheets. Nothing hardcodes `es`.
+Adding a language is a key in `i18n.LANGS` / `i18n.UI`, a `STR` entry in `quiz.js`,
+`cards.js` and `zman.js`, and `<Tractate>_<page>.<lang>.md` sheets. Nothing hardcodes `es`.
+
+## The three views
+
+`tabs.js` switches between them and announces the one it opened as a `dafview` event; each
+panel wakes itself up on that. **Learn** is the rendered sheet. **Chazara Quiz** is the
+`yaml` block under `## Chazara`. **Flashcards** is the `| Term | Meaning |` table under
+`## Key concepts`, read out of the same markdown the Learn view renders — the deck cannot
+drift from the sheet, because the glossary is written once. A daf with fewer than
+`build.MIN_CARDS` terms gets no deck and no tab.
 
 ## Why the sheets look like this
 

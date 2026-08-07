@@ -1,6 +1,6 @@
 // Drive the preview build in a real browser and assert the behaviour that only
-// shows up at runtime: no console errors, the language switch, the quiz, and
-// the archive's client-side badge.
+// shows up at runtime: no console errors, the language switch, the quiz, the
+// flashcard deck, and the archive's client-side badge.
 const puppeteer = require('puppeteer-core');
 
 const BASE = 'http://localhost:8891';
@@ -25,6 +25,13 @@ async function open(browser, url) {
 (async () => {
   const browser = await puppeteer.launch({ executablePath: CHROME, headless: 'new' });
 
+  // What the build says it produced. Counts are read from here rather than
+  // written down, so adding a daf does not turn these checks red.
+  const manifest = await (await fetch(`${BASE}/dapim.json`)).json();
+  const pages = Object.fromEntries(await Promise.all(manifest.map(async e =>
+    [e.file, await (await fetch(`${BASE}/${e.file}`)).text()])));
+  const today = new Date().toISOString().slice(0, 10);
+
   // ---------- a bilingual daf ----------
   {
     const { page, errors } = await open(browser, `${BASE}/Chullin_98.html`);
@@ -44,6 +51,60 @@ async function open(browser, url) {
         const s = document.querySelector('h1 span[lang="he"]');
         return s && getComputedStyle(s).direction === 'rtl';
       }));
+
+    // ---------- flashcards ----------
+    // The button under the glossary table is the entry point the reader meets
+    // first, so open the deck through it rather than through the tab.
+    await page.evaluate(() => [...document.querySelectorAll('.deck-cta button')]
+      .find(b => b.offsetParent !== null).click());
+    await page.waitForSelector('.flashcard');
+    check('cards: the glossary button opens the deck',
+      await page.evaluate(() => document.getElementById('cards').classList.contains('active')));
+    check('cards: the tab followed',
+      await page.evaluate(() =>
+        document.querySelector('.tab[data-v="cards"]').getAttribute('aria-selected') === 'true'));
+
+    const nCards = await page.evaluate(() => +document.querySelector('.dnum').innerText.split('/')[1]);
+    const nTerms = await page.evaluate(() => {
+      const t = [...document.querySelectorAll('.sheet[data-lang~="en"] table')]
+        .find(x => /^term$/i.test(x.rows[0].cells[0].textContent.trim()));
+      return t ? t.tBodies[0].rows.length : -1;
+    });
+    check('cards: deck has one card per glossary row', nCards === nTerms, `${nCards} vs ${nTerms}`);
+
+    // the back is hidden until the card is turned
+    const hidden = await page.evaluate(() => {
+      const b = document.querySelector('.face.back');
+      return getComputedStyle(b).backfaceVisibility === 'hidden' &&
+             !document.querySelector('.flashcard').classList.contains('flipped');
+    });
+    check('cards: the meaning starts hidden', hidden);
+
+    await page.click('#show');
+    check('cards: clicking flips the card',
+      await page.evaluate(() => document.querySelector('.flashcard.flipped') !== null));
+    check('cards: rating buttons appear once flipped',
+      await page.evaluate(() => !!document.getElementById('knew') && !!document.getElementById('again')));
+
+    await page.click('#knew');
+    check('cards: rating advances and scores',
+      await page.evaluate(() => document.querySelector('.dnum').innerText.includes('2 /') &&
+                                document.querySelector('.dbar .pill').textContent === '1'));
+    check('cards: the next card starts face down',
+      await page.evaluate(() => document.querySelector('.flashcard.flipped') === null));
+
+    // space flips, then rates — the documented keyboard path
+    await page.evaluate(() => document.activeElement.blur());
+    await page.keyboard.press('Space');
+    check('cards: space flips',
+      await page.evaluate(() => document.querySelector('.flashcard.flipped') !== null));
+    await page.keyboard.press('1');
+    check('cards: 1 flags for review and moves on',
+      await page.evaluate(() => document.querySelector('.dnum').innerText.includes('3 /')));
+    await page.keyboard.press('ArrowLeft');
+    check('cards: back un-rates the card it returns to',
+      await page.evaluate(() => document.querySelector('.dnum').innerText.includes('2 /') &&
+                                document.querySelector('.dbar .pill').textContent === '1'));
 
     // quiz
     await page.click('.tab[data-v="quiz"]');
@@ -69,6 +130,9 @@ async function open(browser, url) {
     check('daf: Spanish title shown', h1es.includes('Julín 98'), h1es);
     const qEs = await page.evaluate(() => document.querySelector('.qnum').innerText);
     check('daf: quiz restarted in Spanish', /^pregunta 1 /i.test(qEs), qEs);
+    // hidden view, so textContent — innerText of a display:none element is ''
+    const cEs = await page.evaluate(() => document.querySelector('.dnum').textContent);
+    check('daf: deck restarted in Spanish', /^Tarjeta 1 \//.test(cEs), cEs);
     check('daf: toggle now offers English',
       await page.evaluate(() => {
         const s = [...document.querySelectorAll('#lang-btn span')].find(e => getComputedStyle(e).display !== 'none');
@@ -84,20 +148,28 @@ async function open(browser, url) {
   }
 
   // ---------- an untranslated daf ----------
+  // Which daf that is changes as translations land, so find one rather than
+  // naming one: a hardcoded page quietly stops testing anything the day it is
+  // translated.
   {
-    const { page, errors } = await open(browser, `${BASE}/Chullin_100.html?lang=es`);
-    check('untranslated: no console errors', errors.length === 0, errors.join(' | ') || 'none');
-    check('untranslated: ?lang=es honoured', await page.evaluate(() => document.documentElement.lang) === 'es');
-    const shown = await page.evaluate(() =>
-      [...document.querySelectorAll('.sheet, .untranslated')]
-        .filter(e => getComputedStyle(e).display !== 'none')
-        .map(e => e.className.trim()));
-    check('untranslated: note + English body shown once',
-      shown.filter(c => c === 'sheet').length === 1 && shown.includes('untranslated'),
-      JSON.stringify(shown));
-    const note = await page.evaluate(() => document.querySelector('.untranslated').innerText);
-    check('untranslated: note is in Spanish', note.includes('todavía no está traducida'), note.slice(0, 40) + '…');
-    await page.close();
+    const untranslated = manifest.find(e => pages[e.file].includes('class="untranslated"'));
+    if (!untranslated) {
+      console.log('  skip  untranslated: every daf is translated');
+    } else {
+      const { page, errors } = await open(browser, `${BASE}/${untranslated.file}?lang=es`);
+      check('untranslated: no console errors', errors.length === 0, errors.join(' | ') || 'none');
+      check('untranslated: ?lang=es honoured', await page.evaluate(() => document.documentElement.lang) === 'es');
+      const shown = await page.evaluate(() =>
+        [...document.querySelectorAll('.sheet, .untranslated')]
+          .filter(e => getComputedStyle(e).display !== 'none')
+          .map(e => e.className.trim()));
+      check('untranslated: note + English body shown once',
+        shown.filter(c => c === 'sheet').length === 1 && shown.includes('untranslated'),
+        JSON.stringify(shown));
+      const note = await page.evaluate(() => document.querySelector('.untranslated').innerText);
+      check('untranslated: note is in Spanish', note.includes('todavía no está traducida'), note.slice(0, 40) + '…');
+      await page.close();
+    }
   }
 
   // ---------- archive ----------
@@ -107,14 +179,15 @@ async function open(browser, url) {
     const { page, errors } = await open(browser, `${BASE}/archive.html?lang=en`);
     check('archive: no console errors', errors.length === 0, errors.join(' | ') || 'none');
     const rows = await page.evaluate(() => document.querySelectorAll('#list li').length);
-    check('archive: lists every daf', rows === 5, rows);
+    check('archive: lists every daf', rows === manifest.length, `${rows} of ${manifest.length}`);
     const badge = await page.evaluate(() => {
       const b = document.querySelector('li.today .badge');
       return b ? b.textContent : null;
     });
     check('archive: today badge painted', badge === 'Today' || badge === 'Most recent', badge);
     const future = await page.evaluate(() => document.querySelectorAll('li.future').length);
-    check('archive: future dapim dimmed', future === 3, future);
+    const ahead = manifest.filter(e => e.iso > today).length;
+    check('archive: future dapim dimmed', future === ahead, `${future} of ${ahead}`);
     const zman = await page.evaluate(() => document.getElementById('zman').textContent);
     check('archive: sunset line rendered', /sunset is \d/.test(zman), zman);
 
