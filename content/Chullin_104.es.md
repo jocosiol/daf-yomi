@@ -216,92 +216,106 @@ título de *Rav*.
 ```yaml
 - q: ¿Por qué la primera cláusula de la mishná, "toda carne", parece no encajar con Rabí Akivá?
   opts:
-  - Porque permite el pescado en leche.
-  - Porque sostiene que los animales salvajes y las aves en leche están prohibidos solo
-    rabínicamente, no por la Torá.
-  - Porque nunca discutió la carne y la leche.
-  - Porque prohíbe solo los animales domesticados.
-  correct: b
-  why: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה; "toda carne" como regla tajante de la Torá excluiría su opinión.
+  - Porque sostiene que los animales salvajes y las aves en leche están prohibidos solo rabínicamente,
+    no por la Torá.
+  - Porque lee "toda carne" como abarcando también al pescado y a los saltamontes junto con todo
+    lo demás que llega a comerse.
+  - Porque a su juicio la prohibición recae solo en cocinar y nunca en comer lo que se ha cocinado.
+  - Porque limita toda la prohibición a la carne de un animal doméstico cocida en la leche de su
+    propia madre.
+  correct: a
+  why: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה; "toda carne" como regla tajante de la Torá excluiría su
+    opinión.
 - q: ¿Cómo apoya la baraita de las calabazas la regla de Rabí Akivá sobre los votos?
   opts:
-  - Un agente al que le mandan comprar verduras pregunta por las calabazas pero nunca por las
-    legumbres, así que la calabaza es una verdura limítrofe.
-  - Las calabazas y las verduras crecen juntas.
-  - Las calabazas nunca se comen crudas.
-  - La Torá enumera las calabazas entre las verduras.
+  - Un agente al que le mandan comprar verduras pregunta por las calabazas pero nunca por las legumbres,
+    así que la calabaza es una verdura limítrofe.
+  - Un agente al que le mandan comprar verduras compra calabazas sin detenerse a preguntar por ellas,
+    lo que muestra que son verduras sin más y sin matiz alguno.
+  - La baraita dictamina que quien hace voto contra las verduras aún puede comer calabazas, y eso
+    zanja del todo la categoría a la que pertenecen.
+  - La baraita cuenta las calabazas entre las legumbres, y las legumbres quedan fuera de un voto
+    sobre verduras.
   correct: a
-  why: כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — aquello por lo que el agente se detiene a preguntar cuenta
-    como del tipo.
+  why: כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — aquello por lo que el agente se detiene a preguntar
+    cuenta como del tipo.
 - q: Según Rav Iosef, ¿cómo puede un solo autor (Rebí) sostener ambas cláusulas?
   opts:
-  - Cambió de opinión entre una y otra.
+  - Dictamina como Rabí Akivá en todo, y la segunda cláusula es un añadido posterior al texto.
   - Registra cada cláusula siguiendo a un tana distinto — Rabí Akivá en los votos, los Rabinos en
     carne-y-leche.
-  - Dictamina con indulgencia en ambas.
-  - Trata el pescado como carne.
+  - Sostiene que los votos y la carne-y-leche se rigen por dos principios enteramente ajenos entre
+    sí.
+  - Lee la segunda cláusula como rabínica y la primera como ley de la Torá, y así ambas se sostienen
+    juntas sin choque.
   correct: b
   why: נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי — la mishná cita a distintos tanaím en sus dos cláusulas.
 - q: ¿En qué basa Rav Iosef su afirmación de que el ave en leche está prohibida por ley de la Torá?
   opts:
-  - En un versículo de la Torá que nombra a las aves.
+  - En una tradición del Sinaí que extiende el versículo a toda criatura cuya carne se come.
+  - En la triple repetición del versículo, que se lee como abarcando también a las aves.
   - En el hecho de que la mishná prohíbe incluso poner el ave con queso en la mesa.
-  - En el dictamen de Rabí Akivá sobre los votos.
-  - En la exclusión del pescado.
-  correct: b
-  why: si comer ave-en-leche fuera en sí mismo solo un decreto, los Sabios no agregarían un
-    decreto-de-mesa para resguardarlo — no hay גְּזֵירָה לִגְזֵירָה.
+  - En el dictamen de Rabí Akivá, que él entiende referido solo a los animales salvajes.
+  correct: c
+  why: si comer ave-en-leche fuera en sí mismo solo un decreto, los Sabios no agregarían un decreto-de-mesa
+    para resguardarlo — no hay גְּזֵירָה לִגְזֵירָה.
 - q: ¿Por qué dice Abaie que la mishná de la jalá de la diáspora no prueba en realidad que los Sabios
     evitan los decretos apilados?
   opts:
-  - Porque la jalá es una obligación de la Torá en todas partes.
+  - Porque la jalá fuera de la Tierra es obligación de la Torá, así que no hay decreto alguno de
+    por medio.
   - Porque esa jalá permanece en la diáspora, donde no hay nada que cercar en primer lugar.
-  - Porque un no-cohén nunca puede sentarse a la mesa.
-  - Porque Rabí Akivá la rechazó.
+  - Porque la mishná habla de trumá y no de jalá, así que viene al margen de la cuestión.
+  - Porque los Sabios sí apilaron decretos allí, cosa que socava toda la objeción planteada.
   correct: b
   why: solo la jalá de la diáspora traída a Erretz Israel daría una razón para cercar; la jalá que
     permanece fuera no tiene tal razón, así que no prueba nada.
 - q: ¿Cómo justifica Abaie finalmente la valla contra el ave y el queso en la mesa?
   opts:
-  - No hay una justificación real; es arbitraria.
-  - Porque frío-sobre-frío cocina por ley de la Torá.
-  - Porque el pescado podría confundirse con el ave.
   - No sea que uno los ponga en una cacerola primaria recién sacada del fuego, que sí cocina — una
     transgresión de la Torá.
-  correct: d
-  why: no el כְּלִי שֵׁנִי, que no cocina, sino el אִילְפָּס רִאשׁוֹן, que sí — así que la valla resguarda
-    una prohibición de la Torá, no otro decreto.
+  - No sea que quien esté mirando desde fuera concluya que la carne y la leche pueden cocinarse juntas
+    dentro de una sola olla.
+  - No sea que los dos se toquen el uno al otro sobre la mesa y cada uno absorba algo del sabor del
+    otro en sí.
+  - No sea que una persona olvide cuál plato es cuál y los coma en el orden equivocado.
+  correct: a
+  why: no el כְּלִי שֵׁנִי, que no cocina, sino el אִילְפָּס רִאשׁוֹן, que sí — así que la valla
+    resguarda una prohibición de la Torá, no otro decreto.
 - q: ¿Qué tiene de inusual la disputa de Bet Shamái / Bet Hilel sobre el ave en la mesa?
   opts:
+  - Que Bet Shamái y Bet Hilel constan como coincidiendo, cosa que casi nunca ocurre.
+  - Que Bet Hilel retiró su postura del todo al oír el razonamiento de Bet Shamái.
   - Bet Shamái son indulgentes y Bet Hilel estrictos, lo inverso de lo usual.
-  - Coinciden por completo.
-  - Trata del pescado y no del ave.
-  - Bet Hilel permiten comer ave con queso.
-  correct: a
+  - Que la disputa versa sobre un decreto rabínico, y las dos casas suelen discutir ley de la Torá.
+  correct: c
   why: Rabí Iosí lo enumera entre las מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל.
-- q: ¿Por qué se molesta la mishná en atribuir el dictamen a Rabí Iosí si coincide con el primer tana?
+- q: ¿Por qué se molesta la mishná en atribuir el dictamen a Rabí Iosí si coincide con el primer
+    tana?
   opts:
-  - Para mostrar que en realidad discrepan sobre el comer.
+  - Para mostrar que el razonamiento de Rabí Iosí difería aunque su conclusión no lo hiciera.
+  - Para fijar la halajá, ya que un dictamen con nombre de sabio siempre pesa más que uno anónimo.
+  - Para dejar constancia de que Rabí Iosí lo dijo primero, antes que el tana anónimo.
   - Para enseñar que reportar una enseñanza en el nombre de su autor trae redención al mundo.
-  - Porque Rabí Iosí era el sabio más estricto.
-  - Porque solo él permitió el ave con queso.
-  correct: b
-  why: כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם — como Ester al hablar בְּשֵׁם מׇרְדֳּכָי.
+  correct: d
+  why: כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם — como Ester al hablar בְּשֵׁם
+    מׇרְדֳּכָי.
 - q: ¿Qué permitió Agrá respecto del ave y el queso?
   opts:
-  - Cocinarlos juntos.
-  - Comerlos solo en Shabat.
   - Comerlos libremente, sin lavarse las manos ni limpiarse la boca entre uno y otro.
-  - Ponerlos en una sola olla.
-  correct: c
+  - Cocinarlos juntos, siempre que después se mantengan bien separados el uno del otro.
+  - Ponerlos sobre una misma mesa, aunque no comerlos en la misma sentada.
+  - Comerlos en cualquier orden, con tal de lavarse las manos entre uno y otro.
+  correct: a
   why: נֶאֱכָלִין בְּאַפִּיקוֹרַן — בְּלֹא נְטִילַת יָדַיִם וּבְלֹא קִינּוּחַ הַפֶּה.
-- q: ¿Cómo justificó Rav Itzjak hijo de Rav Mesharshiiá comer carne después de queso sin lavarse las
-    manos?
+- q: ¿Cómo justificó Rav Itzjak hijo de Rav Mesharshiiá comer carne después de queso sin lavarse
+    las manos?
   opts:
-  - Dijo que la regla se aplica solo al pescado.
   - Dijo que la cautela es solo de noche; de día uno puede ver que las manos están limpias.
-  - Dijo que Rav Ashi lo había permitido.
-  - Dijo que el lavado se requiere solo antes de comer pan.
-  correct: b
-  why: הָנֵי מִילֵּי בְּלֵילְיָא, אֲבָל בִּימָמָא הָא חָזֵינָא — a la luz del día no hay duda sobre las manos.
+  - Dijo que la cautela vale solo para el queso duro, y el suyo había sido blando.
+  - Dijo que hace falta lavarse antes del queso pero jamás antes de la carne.
+  - Dijo que se había limpiado las manos con pan, cosa que sirve bastante bien en lugar del lavado.
+  correct: a
+  why: הָנֵי מִילֵּי בְּלֵילְיָא, אֲבָל בִּימָמָא הָא חָזֵינָא — a la luz del día no hay duda sobre
+    las manos.
 ```

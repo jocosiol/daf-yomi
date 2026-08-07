@@ -233,84 +233,96 @@ Three washings, four questions, and the prose spends three paragraphs getting th
 ## Chazara — test yourself
 
 ```yaml
-- q: How does the Gemara finally reconcile Beit Shammai and Beit Hillel on clearing the mouth after meat?
+- q: How does the Gemara finally reconcile Beit Shammai and Beit Hillel on clearing the mouth after
+    meat?
   opts:
-    - Beit Shammai require wiping and Beit Hillel forbid it.
-    - Each named one method — wiping or rinsing — but both agree one should do both; they do not disagree.
-    - They disagree only about fowl, not animal meat.
-    - The dispute is left unresolved.
-  correct: b
-  why: מָר אָמַר חֲדָא וּמָר אָמַר חֲדָא וְלָא פְּלִיגִי — one mentioned wiping, the other rinsing, and both hold "the same is true" of the other.
+  - Beit Shammai require wiping and Beit Hillel forbid it outright, so the dispute is a real one.
+  - The dispute is left standing, and later authorities are divided on which to follow.
+  - Each named one method — wiping or rinsing — but both agree one should do both; they do not disagree.
+  - They differ only about fowl, and agree entirely where the meat of an animal is concerned.
+  correct: c
+  why: מָר אָמַר חֲדָא וּמָר אָמַר חֲדָא וְלָא פְּלִיגִי — one mentioned wiping, the other rinsing,
+    and both hold "the same is true" of the other.
 - q: With what, and in what state, does Rabbi Zeira say the mouth is best wiped?
   opts:
-    - With any food that is warm and soft.
-    - With bread — specifically wheat bread that is cold and soft.
-    - With barley bread only.
-    - With vegetables or dates.
+  - With any food that happens to be warm and soft enough to gather the grease.
+  - With bread — specifically wheat bread that is cold and soft.
+  - With barley bread, which is coarse enough to scour the mouth properly.
+  - With vegetables or with dates, which are soft and readily to hand.
   correct: b
-  why: אֵין קִינּוּחַ אֶלָּא בְּפַת — wheat, not barley; cold, not warm; soft, not hard. Flour, dates, and vegetables do not wipe.
+  why: אֵין קִינּוּחַ אֶלָּא בְּפַת — wheat, not barley; cold, not warm; soft, not hard. Flour, dates,
+    and vegetables do not wipe.
 - q: According to Rav Chisda, what is the rule about the order of meat and cheese?
   opts:
-    - One may eat them in either order with no wait.
-    - After meat one must wait before cheese, but after cheese one may eat meat at once.
-    - After cheese one must wait; after meat there is no concern.
-    - Both directions require waiting a full day.
+  - One may eat them in either order, and no waiting is called for at all.
+  - After meat one must wait before cheese, but after cheese one may eat meat at once.
+  - After cheese one must wait, while after meat there is no concern whatever.
+  - Both directions require waiting, and the wait is a full day in each of the two cases.
   correct: b
-  why: אָכַל בָּשָׂר אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה מוּתָּר לֶאֱכוֹל בָּשָׂר — meat leaves a lingering fat and flavor; cheese does not.
+  why: אָכַל בָּשָׂר אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה מוּתָּר לֶאֱכוֹל בָּשָׂר — meat leaves
+    a lingering fat and flavor; cheese does not.
 - q: What did Rav Chisda answer when asked about meat stuck between the teeth?
   opts:
-    - It is no longer considered meat.
-    - He quoted "the meat was still between their teeth" — it is still meat.
-    - One should remove it with bread.
-    - It depends whether it is animal or fowl.
-  correct: b
-  why: הַבָּשָׂר עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם (Bamidbar 11:33) — even lodged in the teeth it counts as meat.
-- q: What does "vinegar, son of wine" (חַלָּא בַּר חַמְרָא) express in the mouths of Mar Ukva and Shmuel?
+  - That it is no longer meat, since it has already left the mouth's reckoning.
+  - That it counts as meat only where it amounts to a full olive-bulk.
+  - He quoted "the meat was still between their teeth" — it is still meat.
+  - That one must wipe the mouth, after which it no longer counts as meat.
+  correct: c
+  why: הַבָּשָׂר עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם (Bamidbar 11:33) — even lodged in the teeth it counts
+    as meat.
+- q: What does "vinegar, son of wine" (חַלָּא בַּר חַמְרָא) express in the mouths of Mar Ukva and
+    Shmuel?
   opts:
-    - That their fathers were lenient and they are strict.
-    - That they see themselves as the lesser product of a greater father.
-    - That wine turns to vinegar with age.
-    - That one should not mix foods.
+  - That a son may rule more strictly than his father did before him.
+  - That they see themselves as the lesser product of a greater father.
+  - That the custom had soured over the generations and needed reviving.
+  - That wine and vinegar, like meat and milk, must be kept well apart.
   correct: b
-  why: each contrasts his own lesser practice — waiting less after meat, patrolling once instead of twice — with his father's.
+  why: each contrasts his own lesser practice — waiting less after meat, patrolling once instead
+    of twice — with his father's.
 - q: Why, per Shmuel, is it worth patrolling one's property daily?
   opts:
-    - It is a religious obligation.
-    - One who inspects his property daily "finds a coin" — heading off loss and theft.
-    - To greet one's neighbors.
-    - To fulfill the mitzva of settling the land.
-  correct: b
-  why: מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא — illustrated by Abaye's firewood thief and Rav Asi's burst channel.
+  - One who inspects his property daily "finds a coin" — heading off loss and theft.
+  - One who walks his land daily fulfils the mitzva of settling the Land of Israel.
+  - One who guards his property daily is spared the need to hire a watchman at all.
+  - One who tours his fields daily learns the seasons and so plants at the right time.
+  correct: a
+  why: מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא — illustrated by Abaye's firewood
+    thief and Rav Asi's burst channel.
 - q: How does the daf grade the first, middle, and last washings of the hands?
   opts:
-    - All three are obligations.
-    - First a mitzva, middle optional, last an obligation.
-    - First optional, middle a mitzva, last a mitzva.
-    - Only the last is required; the others are custom.
-  correct: b
-  why: Rav Idi bar Avin — רִאשׁוֹנִים מִצְוָה, אַחֲרוֹנִים חוֹבָה; the baraita adds that the middle (emtza'iyim) are reshut.
+  - All three alike are an outright obligation, with no distinction between them.
+  - First an obligation, middle a mitzva, last optional and left to the individual.
+  - First a mitzva, middle optional, last an obligation.
+  - First optional, middle an obligation, last a mitzva of rabbinic standing.
+  correct: c
+  why: Rav Idi bar Avin — רִאשׁוֹנִים מִצְוָה, אַחֲרוֹנִים חוֹבָה; the baraita adds that the middle
+    (emtza'iyim) are reshut.
 - q: Why may last waters be washed only with cold water?
   opts:
-    - Hot water is a luxury.
-    - Hot water softens the hands and does not carry off the grease (zuhama).
-    - Cold water is a mitzva in itself.
-    - There is no such rule.
+  - Hot water is scarce, and the Sages did not wish to burden the household.
+  - Hot water softens the hands and does not carry off the grease (zuhama).
+  - Hot water was reserved for the first waters, which come before the bread.
+  - Hot water would cook whatever meat remained clinging to the fingers.
   correct: b
-  why: חַמִּין מְפַעְפְּעִין אֶת הַיָּדַיִם וְאֵין מַעֲבִירִין אֶת הַזּוּהֲמָא — and even then only once the hand recoils from the heat.
+  why: חַמִּין מְפַעְפְּעִין אֶת הַיָּדַיִם וְאֵין מַעֲבִירִין אֶת הַזּוּהֲמָא — and even then only
+    once the hand recoils from the heat.
 - q: Why does Rav Yehuda son of Rabbi Chiyya say the last waters are an obligation?
   opts:
-    - To honor Grace after Meals.
-    - Because Sodomite salt may cling to the hands and blind the eyes.
-    - Because the hands are ritually impure.
-    - Because of the evil spirit on the water.
+  - Because the hands must be clean before one may recite a blessing at all.
+  - Because Sodomite salt may cling to the hands and blind the eyes.
+  - Because grease left on the hands would render the next meal's bread unfit.
+  - Because the priests washed after eating teruma, and the table is like an altar.
   correct: b
   why: מֶלַח סְדוֹמִית … שֶׁמְּסַמֵּא אֶת הָעֵינַיִם — a pinch in a whole kor is enough to be a danger.
-- q: In Abaye's "at first I would say" chain, what deeper reason did the Master give for gathering up the crumbs?
+- q: In Abaye's "at first I would say" chain, what deeper reason did the Master give for gathering
+    up the crumbs?
   opts:
-    - It is merely for cleanliness.
-    - Leaving crumbs invites poverty.
-    - It prevents attracting animals.
-    - It is a sign of respect for bread.
-  correct: b
-  why: מִשּׁוּם דְּקָשֵׁי לְעַנְיוּתָא — dramatized by the man the angel of poverty could not touch because he was so careful with crumbs.
+  - Leaving crumbs invites poverty.
+  - Leaving crumbs shows contempt for the blessing said over the bread.
+  - Leaving crumbs draws mice and other vermin into the house at night.
+  - Leaving crumbs makes it impossible to say the blessing after the meal.
+  correct: a
+  why: מִשּׁוּם דְּקָשֵׁי לְעַנְיוּתָא — dramatized by the man the angel of poverty could not touch
+    because he was so careful with crumbs.
 ```

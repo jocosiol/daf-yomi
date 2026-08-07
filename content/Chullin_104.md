@@ -214,91 +214,98 @@ Amoraim.
 ```yaml
 - q: Why does the first clause of the mishnah, "all meat," seem not to fit Rabbi Akiva?
   opts:
-  - Because he permits fish in milk.
-  - Because he holds that wild animals and birds in milk are forbidden only rabbinically, not by the
-    Torah.
-  - Because he never discussed meat and milk.
-  - Because he forbids only domesticated animals.
-  correct: b
+  - Because he holds that wild animals and birds in milk are forbidden only rabbinically, not by
+    the Torah.
+  - Because he reads "all meat" as covering fish and grasshoppers along with everything else.
+  - Because in his view the prohibition attaches to cooking alone and never to eating what was cooked.
+  - Because he confines the whole prohibition to the meat of a domesticated animal cooked in its
+    own mother's milk.
+  correct: a
   why: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה; "all meat" as a flat Torah rule would exclude his view.
 - q: How does the gourds baraita support Rabbi Akiva's rule about vows?
   opts:
-  - An agent told to buy vegetables asks about gourds but never about legumes, so gourds are a
-    borderline vegetable.
-  - Gourds and vegetables grow together.
-  - Gourds are never eaten raw.
-  - The Torah lists gourds among vegetables.
+  - An agent told to buy vegetables asks about gourds but never about legumes, so gourds are a borderline
+    vegetable.
+  - An agent told to buy vegetables buys gourds without stopping to ask, which shows they are plainly
+    vegetables.
+  - The baraita rules that one who vows off vegetables may nonetheless still eat gourds, which settles
+    the category.
+  - The baraita counts gourds among the legumes, and legumes are excluded from a vow about vegetables.
   correct: a
-  why: כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — what the agent pauses to ask about counts as the type.
+  why: כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — what the agent pauses to ask about counts as
+    the type.
 - q: According to Rav Yosef, how can one author (Rebbi) hold both clauses?
   opts:
-  - He changed his mind between them.
-  - He records each clause following a different Tanna — Rabbi Akiva on vows, the Rabbis on
-    meat-and-milk.
-  - He rules leniently in both.
-  - He treats fish as meat.
+  - He rules like Rabbi Akiva throughout, and the second clause is a later addition to the text.
+  - He records each clause following a different Tanna — Rabbi Akiva on vows, the Rabbis on meat-and-milk.
+  - He holds that vows and meat-and-milk are governed by two entirely unrelated principles.
+  - He reads the second clause as rabbinic and the first as Torah law, so the two can stand together
+    after all.
   correct: b
   why: נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי — the mishnah quotes different Tannaim in its two clauses.
 - q: On what does Rav Yosef base his claim that bird-in-milk is forbidden by Torah law?
   opts:
-  - On a verse in the Torah naming birds.
+  - On a tradition from Sinai that extends the verse to every creature whose flesh is eaten.
+  - On the threefold repetition of the verse, which is read as covering birds as well.
   - On the fact that the mishnah forbids even placing fowl with cheese on the table.
-  - On Rabbi Akiva's vow ruling.
-  - On the exclusion of fish.
-  correct: b
+  - On Rabbi Akiva's ruling, which he understands as being about wild animals only.
+  correct: c
   why: if eating fowl-in-milk were itself only a decree, the Sages would not add a table-decree to
     guard it — no גְּזֵירָה לִגְזֵירָה.
 - q: Why does Abaye say the diaspora-challah mishnah does not actually prove that the Sages avoid
     stacked decrees?
   opts:
-  - Because challah is a Torah obligation everywhere.
+  - Because challah outside the Land is a Torah obligation, so no decree is involved at all.
   - Because that challah stays in the diaspora, where there is nothing to fence in the first place.
-  - Because a non-priest may never sit at the table.
-  - Because Rabbi Akiva rejected it.
+  - Because the mishnah is speaking of teruma rather than of challah, so it is beside the point.
+  - Because the Sages did in fact stack decrees in that case, which undercuts the whole of the objection.
   correct: b
   why: only diaspora challah brought into Eretz Yisrael would give a reason to fence; challah that
     stays outside has no such reason, so it proves nothing.
 - q: How does Abaye ultimately justify the fence against fowl and cheese on the table?
   opts:
-  - There is no real justification; it is arbitrary.
-  - Because cold-on-cold cooks by Torah law.
-  - Because fish might be mistaken for fowl.
   - Lest one place them in a primary stewpot off the fire, which genuinely cooks — a Torah violation.
-  correct: d
-  why: not the כְּלִי שֵׁנִי, which does not cook, but the אִילְפָּס רִאשׁוֹן, which does — so the fence
-    guards a Torah prohibition, not another decree.
+  - Lest an onlooker seeing them together conclude that meat and milk may be cooked in a single pot.
+  - Lest the two touch one another on the table and each absorb something of the other's flavour
+    into itself.
+  - Lest a person forget which dish is which and eat them in the wrong order entirely.
+  correct: a
+  why: not the כְּלִי שֵׁנִי, which does not cook, but the אִילְפָּס רִאשׁוֹן, which does — so the
+    fence guards a Torah prohibition, not another decree.
 - q: What is unusual about the Beit Shammai / Beit Hillel dispute over fowl on the table?
   opts:
+  - Beit Shammai and Beit Hillel are recorded as agreeing, which almost never happens.
+  - Beit Hillel withdrew their view entirely once they heard Beit Shammai's reasoning.
   - Beit Shammai are lenient and Beit Hillel strict, the reverse of the usual.
-  - They agree entirely.
-  - It concerns fish rather than fowl.
-  - Beit Hillel permit eating fowl with cheese.
-  correct: a
+  - The dispute concerns a rabbinic decree, and the two houses normally argue Torah law.
+  correct: c
   why: Rabbi Yosei lists it among the מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל.
 - q: Why does the mishnah bother to attribute the ruling to Rabbi Yosei if he agrees with the first
     Tanna?
   opts:
-  - To show they actually disagree about eating.
+  - To show that Rabbi Yosei's reasoning differed even where his conclusion did not.
+  - To settle the halacha, since a ruling named for a sage always carries more weight.
+  - To record that Rabbi Yosei was the first to state it, before the anonymous Tanna ever did.
   - To teach that reporting a teaching in its author's name brings redemption to the world.
-  - Because Rabbi Yosei was the strictest sage.
-  - Because only he permitted fowl with cheese.
-  correct: b
-  why: כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם — as with Esther speaking בְּשֵׁם מׇרְדֳּכָי.
+  correct: d
+  why: כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם — as with Esther speaking
+    בְּשֵׁם מׇרְדֳּכָי.
 - q: What did Agra permit regarding fowl and cheese?
   opts:
-  - Cooking them together.
-  - Eating them only on Shabbat.
   - Eating them freely, without washing the hands or wiping the mouth in between.
-  - Placing them in one pot.
-  correct: c
+  - Cooking them together, provided the two are afterwards kept quite separate.
+  - Placing them on one table, though not eating them at the same sitting.
+  - Eating them in either order, so long as the hands are washed carefully in between them.
+  correct: a
   why: נֶאֱכָלִין בְּאַפִּיקוֹרַן — בְּלֹא נְטִילַת יָדַיִם וּבְלֹא קִינּוּחַ הַפֶּה.
-- q: How did Rav Yitzchak son of Rav Mesharshiya justify eating meat after cheese without washing his
-    hands?
+- q: How did Rav Yitzchak son of Rav Mesharshiya justify eating meat after cheese without washing
+    his hands?
   opts:
-  - He said the rule applies only to fish.
   - He said the caution is only at night; by day one can see the hands are clean.
-  - He said Rav Ashi had permitted it.
-  - He said washing is required only before eating bread.
-  correct: b
-  why: הָנֵי מִילֵּי בְּלֵילְיָא, אֲבָל בִּימָמָא הָא חָזֵינָא — by daylight there is no doubt about the hands.
+  - He said the caution applies only to hard cheese, and his had been soft.
+  - He said that washing is required before cheese but never before meat.
+  - He said he had wiped his hands on bread, which serves well enough in place of washing.
+  correct: a
+  why: הָנֵי מִילֵּי בְּלֵילְיָא, אֲבָל בִּימָמָא הָא חָזֵינָא — by daylight there is no doubt about
+    the hands.
 ```

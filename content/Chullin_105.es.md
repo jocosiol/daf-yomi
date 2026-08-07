@@ -232,84 +232,100 @@ Tres lavados, cuatro preguntas — y a la prosa le lleva tres párrafos llegar h
 ## Chazará — ponte a prueba
 
 ```yaml
-- q: ¿Cómo reconcilia finalmente la Guemará a Beit Shamai y Beit Hilel sobre limpiar la boca después de la carne?
+- q: ¿Cómo reconcilia finalmente la Guemará a Beit Shamai y Beit Hilel sobre limpiar la boca después
+    de la carne?
   opts:
-    - Beit Shamai exige limpiar y Beit Hilel lo prohíbe.
-    - Cada uno nombró un método — limpiar o enjuagar — pero ambos coinciden en que hay que hacer ambos; no discrepan.
-    - Discrepan solo respecto al ave, no a la carne de animal.
-    - La disputa queda sin resolver.
-  correct: b
-  why: מָר אָמַר חֲדָא וּמָר אָמַר חֲדָא וְלָא פְּלִיגִי — uno mencionó limpiar, el otro enjuagar, y ambos sostienen que "lo mismo vale" del otro.
+  - Beit Shamai exigen limpiar y Beit Hilel lo prohíben de plano, así que la disputa es real y de
+    fondo entre ellos.
+  - La disputa queda en pie, y las autoridades posteriores se dividen sobre a quién seguir.
+  - Cada uno nombró un método — limpiar o enjuagar — pero ambos coinciden en que hay que hacer ambos;
+    no discrepan.
+  - Difieren solo respecto del ave, y coinciden del todo cuando se trata de carne de animal.
+  correct: c
+  why: מָר אָמַר חֲדָא וּמָר אָמַר חֲדָא וְלָא פְּלִיגִי — uno mencionó limpiar, el otro enjuagar,
+    y ambos sostienen que "lo mismo vale" del otro.
 - q: ¿Con qué, y en qué estado, dice Rabí Zeirá que se limpia mejor la boca?
   opts:
-    - Con cualquier alimento que esté caliente y blando.
-    - Con pan — específicamente pan de trigo que esté frío y blando.
-    - Solo con pan de cebada.
-    - Con verduras o dátiles.
+  - Con cualquier alimento que resulte estar tibio y blando como para recoger la grasa.
+  - Con pan — específicamente pan de trigo que esté frío y blando.
+  - Con pan de cebada, que es lo bastante áspero como para restregar bien la boca.
+  - Con verduras o con dátiles, que son blandos y se tienen fácilmente a mano.
   correct: b
-  why: אֵין קִינּוּחַ אֶלָּא בְּפַת — trigo, no cebada; frío, no caliente; blando, no duro. La harina, los dátiles y las verduras no limpian.
+  why: אֵין קִינּוּחַ אֶלָּא בְּפַת — trigo, no cebada; frío, no caliente; blando, no duro. La harina,
+    los dátiles y las verduras no limpian.
 - q: Según Rav Jisdá, ¿cuál es la regla sobre el orden de la carne y el queso?
   opts:
-    - Se pueden comer en cualquier orden sin esperar.
-    - Después de la carne hay que esperar antes del queso, pero después del queso se puede comer carne enseguida.
-    - Después del queso hay que esperar; después de la carne no hay problema.
-    - Ambas direcciones exigen esperar un día entero.
+  - Se pueden comer en cualquier orden, y no hace falta esperar nada en absoluto.
+  - Después de la carne hay que esperar antes del queso, pero después del queso se puede comer carne
+    enseguida.
+  - Después del queso hay que esperar, mientras que después de la carne no hay reparo alguno.
+  - Ambos sentidos exigen espera, y la espera es de un día entero en cada uno de los dos casos.
   correct: b
-  why: אָכַל בָּשָׂר אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה מוּתָּר לֶאֱכוֹל בָּשָׂר — la carne deja una grasa y un sabor persistentes; el queso no.
+  why: אָכַל בָּשָׂר אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה מוּתָּר לֶאֱכוֹל בָּשָׂר — la carne deja
+    una grasa y un sabor persistentes; el queso no.
 - q: ¿Qué respondió Rav Jisdá cuando le preguntaron por la carne atascada entre los dientes?
   opts:
-    - Ya no se considera carne.
-    - Citó "la carne aún estaba entre sus dientes" — sigue siendo carne.
-    - Uno debería quitarla con pan.
-    - Depende de si es de animal o de ave.
-  correct: b
-  why: הַבָּשָׂר עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם (Bamidbar 11:33) — incluso alojada en los dientes cuenta como carne.
+  - Que ya no es carne, puesto que ha salido del cómputo de la boca.
+  - Que cuenta como carne solo cuando alcanza un volumen entero de aceituna.
+  - Citó "la carne aún estaba entre sus dientes" — sigue siendo carne.
+  - Que hay que limpiarse la boca, y después de eso ya no cuenta como carne.
+  correct: c
+  why: הַבָּשָׂר עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם (Bamidbar 11:33) — incluso alojada en los dientes cuenta
+    como carne.
 - q: ¿Qué expresa "vinagre, hijo de vino" (חַלָּא בַּר חַמְרָא) en boca de Mar Ukvá y Shmuel?
   opts:
-    - Que sus padres eran indulgentes y ellos son estrictos.
-    - Que se ven a sí mismos como el producto menor de un padre mayor.
-    - Que el vino se vuelve vinagre con la edad.
-    - Que uno no debe mezclar alimentos.
+  - Que un hijo puede dictaminar con más estrictez de la que dictaminó su padre.
+  - Que se ven a sí mismos como el producto menor de un padre mayor.
+  - Que la costumbre se había agriado con las generaciones y había que revivirla.
+  - Que el vino y el vinagre, como la carne y la leche, deben mantenerse bien aparte.
   correct: b
-  why: cada uno contrasta su propia práctica menor — esperar menos tras la carne, patrullar una vez en lugar de dos — con la de su padre.
+  why: cada uno contrasta su propia práctica menor — esperar menos tras la carne, patrullar una vez
+    en lugar de dos — con la de su padre.
 - q: Según Shmuel, ¿por qué vale la pena patrullar la propia propiedad a diario?
   opts:
-    - Es una obligación religiosa.
-    - Quien inspecciona su propiedad a diario "encuentra una moneda" — atajando la pérdida y el robo.
-    - Para saludar a los vecinos.
-    - Para cumplir la mitzvá de asentar la tierra.
-  correct: b
-  why: מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא — ilustrado por el ladrón de leña de Abaie y el canal reventado de Rav Asi.
+  - Quien inspecciona su propiedad a diario "encuentra una moneda" — atajando la pérdida y el robo.
+  - Quien recorre su tierra a diario cumple la mitzvá de asentar la Tierra de Israel.
+  - Quien guarda su propiedad a diario se ahorra tener que contratar a un vigilante.
+  - Quien recorre sus campos a diario aprende las estaciones y así siembra en el momento justo del
+    año.
+  correct: a
+  why: מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא — ilustrado por el ladrón de leña
+    de Abaie y el canal reventado de Rav Asi.
 - q: ¿Cómo gradúa el daf los lavados de manos primero, intermedio y último?
   opts:
-    - Los tres son obligaciones.
-    - El primero una mitzvá, el intermedio opcional, el último una obligación.
-    - El primero opcional, el intermedio una mitzvá, el último una mitzvá.
-    - Solo el último es exigido; los demás son costumbre.
-  correct: b
-  why: Rav Idi bar Avín — רִאשׁוֹנִים מִצְוָה, אַחֲרוֹנִים חוֹבָה; la baraita añade que las intermedias (emtza'iyim) son reshut.
+  - Los tres por igual son obligación tajante, sin distinción ninguna entre ellos.
+  - El primero obligación, el intermedio mitzvá, el último opcional y a criterio de cada uno.
+  - El primero una mitzvá, el intermedio opcional, el último una obligación.
+  - El primero opcional, el intermedio obligación, el último mitzvá de rango rabínico.
+  correct: c
+  why: Rav Idi bar Avín — רִאשׁוֹנִים מִצְוָה, אַחֲרוֹנִים חוֹבָה; la baraita añade que las intermedias
+    (emtza'iyim) son reshut.
 - q: ¿Por qué las aguas últimas solo pueden hacerse con agua fría?
   opts:
-    - El agua caliente es un lujo.
-    - El agua caliente ablanda las manos y no arrastra la grasa (zuhamá).
-    - El agua fría es una mitzvá en sí misma.
-    - No existe tal regla.
+  - El agua caliente escasea, y los Sabios no quisieron cargar a la casa con eso.
+  - El agua caliente ablanda las manos y no arrastra la grasa (zuhamá).
+  - El agua caliente quedaba reservada para las aguas primeras, antes del pan.
+  - El agua caliente cocería la carne que quedara adherida a los dedos.
   correct: b
-  why: חַמִּין מְפַעְפְּעִין אֶת הַיָּדַיִם וְאֵין מַעֲבִירִין אֶת הַזּוּהֲמָא — y aun así solo una vez que la mano se retrae del calor.
+  why: חַמִּין מְפַעְפְּעִין אֶת הַיָּדַיִם וְאֵין מַעֲבִירִין אֶת הַזּוּהֲמָא — y aun así solo una
+    vez que la mano se retrae del calor.
 - q: ¿Por qué dice Rav Iehudá hijo de Rabí Jiiá que las aguas últimas son una obligación?
   opts:
-    - Para honrar la Bendición después de la comida.
-    - Porque la sal de Sodoma puede adherirse a las manos y cegar los ojos.
-    - Porque las manos están ritualmente impuras.
-    - Por el espíritu maligno sobre el agua.
+  - Porque las manos han de estar limpias antes de poder recitar bendición alguna.
+  - Porque la sal de Sodoma puede adherirse a las manos y cegar los ojos.
+  - Porque la grasa dejada en las manos volvería no apto el pan de la comida siguiente.
+  - Porque los cohanim se lavaban tras comer trumá, y la mesa es como un altar.
   correct: b
-  why: מֶלַח סְדוֹמִית … שֶׁמְּסַמֵּא אֶת הָעֵינַיִם — una pizca en todo un kor basta para ser un peligro.
-- q: En la cadena de Abaie de "al principio yo diría", ¿qué razón más profunda dio el Maestro para recoger las migas?
+  why: מֶלַח סְדוֹמִית … שֶׁמְּסַמֵּא אֶת הָעֵינַיִם — una pizca en todo un kor basta para ser un
+    peligro.
+- q: En la cadena de Abaie de "al principio yo diría", ¿qué razón más profunda dio el Maestro para
+    recoger las migas?
   opts:
-    - Es meramente por limpieza.
-    - Dejar migas invita a la pobreza.
-    - Evita atraer animales.
-    - Es señal de respeto por el pan.
-  correct: b
-  why: מִשּׁוּם דְּקָשֵׁי לְעַנְיוּתָא — dramatizado por el hombre al que el ángel de la pobreza no podía tocar porque era tan cuidadoso con las migas.
+  - Dejar migas invita a la pobreza.
+  - Dejar migas muestra desprecio por la bendición dicha sobre el pan.
+  - Dejar migas atrae ratones y otras alimañas a la casa por la noche.
+  - Dejar migas hace imposible decir la bendición posterior a la comida.
+  correct: a
+  why: מִשּׁוּם דְּקָשֵׁי לְעַנְיוּתָא — dramatizado por el hombre al que el ángel de la pobreza
+    no podía tocar porque era tan cuidadoso con las migas.
 ```
