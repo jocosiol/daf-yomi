@@ -178,6 +178,40 @@ def check_quiz(s, rep):
     if len(seen) >= QUIZ_MIN and len(set(seen)) < 3:
         rep.warn(where, f"answers only use {sorted(set(seen))} — vary the correct letter")
 
+    check_length_tell(s, rep)
+
+
+def check_length_tell(s, rep):
+    """Is the right answer always the longest one?
+
+    The natural way to write a multiple-choice question is to state the real
+    answer carefully and throw the wrong ones away in a few words. Do that
+    consistently and the quiz stops testing the daf: you can score full marks
+    by picking the longest option every time. The display shuffle does not help
+    — it randomises position, not length.
+    """
+    where = name(s)
+    scored = [q for q in s.quiz
+              if isinstance(q, dict)
+              and isinstance(q.get("opts"), list) and len(q["opts"]) == 4
+              and str(q.get("correct", "")).strip().lower() in LETTERS]
+    if len(scored) < QUIZ_MIN:
+        return
+
+    tell = 0
+    for q in scored:
+        opts = [str(o) for o in q["opts"]]
+        correct = opts[LETTERS.index(str(q["correct"]).strip().lower())]
+        if len(correct) == max(len(o) for o in opts):
+            tell += 1
+
+    pct = round(100 * tell / len(scored))
+    if pct > 60:
+        rep.warn(where,
+                 f"the correct answer is the longest option in {tell}/{len(scored)} questions "
+                 f"({pct}%) — guessing 'longest' scores {pct}%. Give the distractors "
+                 f"comparable detail")
+
 
 def check_quiz_parity(base, tr, rep):
     """A translated quiz must be the same quiz, question for question."""

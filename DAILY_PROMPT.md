@@ -170,8 +170,21 @@ separate answer key to keep in step:
 ```
 ````
 
-8–10 questions. Exactly four options each, in the order a/b/c/d. Vary which letter is
-correct. Separate major prose sections with `---`.
+8–10 questions. Exactly four options each, in the order a/b/c/d.
+
+**Write the three wrong options as carefully as the right one.** The instinct is to state
+the correct answer precisely and dismiss the others in a few words — and that quietly ruins
+the quiz, because the longest option is then always the answer. Across the first eight
+sheets that was true 96% of the time, so a reader who never opened the daf could score 96%
+by picking the longest one. Page shuffling does not help: it randomises position, not
+length.
+
+So: keep all four options within roughly the same length, and make each wrong one a
+position someone could actually hold — a view the Gemara raises and rejects, the other
+side of the dispute, the right idea attached to the wrong sage. A distractor that is
+obviously filler is a question not worth asking.
+
+Vary which letter is correct, too. Separate major prose sections with `---`.
 
 ## Step 4 — Write `content/<Tractate>_<page>.es.md` (the Spanish sheet)
 

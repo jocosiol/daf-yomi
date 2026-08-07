@@ -122,17 +122,27 @@ fi
 log "python3=$(command -v python3)  git=$(command -v git)  claude=$(command -v claude)"
 
 # ---- run the pipeline ----
-{
-  echo "----- claude output $(date '+%F %T') -----"
-  claude -p "$(cat DAILY_PROMPT.md)" \
-    --allowedTools Bash Read Write Edit Glob Grep \
-    --permission-mode acceptEdits \
-    2>&1
-  echo "----- claude exit: $? -----"
-} >>"$LOG" 2>&1
+# The exit code has to escape the redirect group, so capture it in a variable
+# rather than echoing $? inside the braces where nothing can read it.
+CLAUDE_RC=0
+echo "----- claude output $(date '+%F %T') -----" >>"$LOG"
+claude -p "$(cat DAILY_PROMPT.md)" \
+  --allowedTools Bash Read Write Edit Glob Grep \
+  --permission-mode acceptEdits \
+  >>"$LOG" 2>&1 || CLAUDE_RC=$?
+echo "----- claude exit: $CLAUDE_RC -----" >>"$LOG"
 
 # ---- verify the outcome independently of what Claude reported ----
 STATUS=0
+
+# A dropped socket mid-run used to be logged and then ignored: the wrapper
+# checked validation, today's sheet and unpushed commits, none of which notice
+# a run that died halfway. It reported success while leaving a written but
+# uncommitted sheet behind.
+if [ "$CLAUDE_RC" != "0" ]; then
+  log "FAIL  claude exited $CLAUDE_RC — this run did not finish cleanly"
+  STATUS=1
+fi
 
 # The build gates on this too, but re-running it here means a bad sheet is
 # reported by the wrapper even if Claude committed anyway.
@@ -154,6 +164,14 @@ if grep -lq "study_date: $TODAY" content/*.md 2>/dev/null; then
   [ -f "$ES" ] || log "WARN  no Spanish sheet for today ($ES)"
 else
   log "FAIL  no sheet in content/ with study_date: $TODAY"
+  STATUS=1
+fi
+
+# Work written but never committed is invisible to the unpushed-commits check
+# below, because it never became a commit in the first place.
+if [ -n "$(git status --porcelain)" ]; then
+  log "FAIL  uncommitted changes left behind — next run will pick them up:"
+  git status --short >>"$LOG"
   STATUS=1
 fi
 
