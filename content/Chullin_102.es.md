@@ -162,6 +162,18 @@ que la Guemará plantea una contradicción, que es donde abre mañana.
 
 ---
 
+## Las distinciones, lado a lado
+
+Dos versículos, tres prohibiciones — y toda la disputa es solo sobre cuál versículo lleva cuál. **R' Iojanán:** *לֹא תֹאכַל הַנֶּפֶשׁ עִם הַבָּשָׂר* es el miembro, y *וּבָשָׂר בַּשָּׂדֶה טְרֵפָה* cubre la carne de lo vivo **y** el *taref*. **Reish Lakish:** el primer versículo cubre el miembro **y** la carne de lo vivo, y el segundo es solo el *taref*. Cuenta los azotes y la división se vuelve visible:
+
+| Comidos juntos | R' Iojanán | Reish Lakish | De dónde viene la diferencia |
+|---|---|---|---|
+| Un miembro de lo vivo **+** carne de lo vivo | **Dos** series | **Una** serie | Dos versículos para R' Iojanán; para Reish Lakish ambos caen en el mismo |
+| Carne de lo vivo **+** carne de un *taref* | **Una** serie | **Dos** series | R' Iojanán pone ambos en *וּבָשָׂר בַּשָּׂדֶה*; Reish Lakish lee ese versículo como solo *taref* |
+| Un miembro de lo vivo **+** carne de un *taref* | **Dos** series | **Dos** series | Versículos distintos en cualquiera de las dos lecturas — y es contra *este* acuerdo que mañana se plantea la contradicción |
+
+---
+
 ## Conceptos y términos clave
 
 | Término | Significado |
@@ -247,98 +259,109 @@ amorá.
 ## Chazará — ponte a prueba
 
 ```yaml
-- q: ¿De qué lectura derivan Rabí Elazar (y Rabí Iehudá) que el éver min hajai se aplica incluso a un
-    animal no kosher?
+- q: ¿De qué lectura derivan Rabí Elazar (y Rabí Iehudá) que el éver min hajai se aplica incluso
+    a un animal no kosher?
   opts:
-  - "“La carne sola” — solo donde la carne llega a permitirse."
+  - La palabra "todo" del versículo abarca por igual a toda especie, kosher o no, sin distinción
+    alguna.
+  - Una tradición recibida en el Sinaí extiende también a las especies no kosher la prohibición del
+    miembro.
   - Todo animal sobre cuya sangre estás mandado, estás mandado sobre sus miembros.
-  - De la yuxtaposición con "tu ganado vacuno y ovino".
-  - De una tradición dada en el Sinaí.
-  correct: b
-  why: כֹּל שֶׁאַתָּה מְצֻוֶּה עַל דָּמוֹ; dado que la sangre está prohibida incluso en especies no kosher,
-    también lo está el miembro.
+  - Porque la prohibición del miembro obliga a los noájidas, para quienes ninguna especie queda excluida.
+  correct: c
+  why: כֹּל שֶׁאַתָּה מְצֻוֶּה עַל דָּמוֹ; dado que la sangre está prohibida incluso en especies
+    no kosher, también lo está el miembro.
 - q: Según la Guemará, ¿por qué Rabí Iehudá no necesita en realidad un versículo para esto?
   opts:
-  - Porque sostiene que los nervios no tienen sabor.
-  - Porque de todos modos restringe la prohibición a especies kosher.
-  - Porque sostiene isur jal al isur, así que la prohibición del éver, más estricta, se posa por sí
-    sola.
-  - Porque un ben Nóaj está exento.
-  correct: c
+  - Porque lo aprende más bien del versículo vecino, que habla del ganado vacuno y del ovino por
+    igual y sin distinguir.
+  - Porque sostiene isur jal al isur, así que la prohibición del éver, más estricta, se posa por
+    sí sola.
+  - Porque para él la prohibición del miembro se aplica de todos modos solo a los noájidas.
+  - Porque lee la palabra "todo" como abarcando toda especie sin necesidad de versículo propio.
+  correct: b
   why: sosteniendo que una prohibición puede surtir efecto sobre una existente, la prohibición del
     éver — estricta porque obliga a los noájidas — no necesita versículo; el versículo es para Rabí
     Elazar.
 - q: ¿Cuál es la razón de Rabí Meir de que el éver min hajai se aplica solo a un animal doméstico
     kosher?
   opts:
+  - Una tradición recibida en el Sinaí que limita la prohibición a los animales domésticos.
+  - La palabra "todo" se lee de modo restrictivo, como abarcando solo lo que puede comerse.
+  - Porque un animal no kosher ya está prohibido, así que nada más puede fijarse sobre él.
   - El versículo vecino "y faenarás de tu ganado vacuno y de tu ovino".
-  - La palabra "comer" implica un volumen de aceituna.
-  - Los nervios no tienen sabor.
-  - La prohibición obliga a los descendientes de Nóaj.
-  correct: a
-  why: וְזָבַחְתָּ מִבְּקָרְךָ וּמִצֹּאנְךָ está junto al versículo fuente, siguiendo al ganado vacuno y ovino.
+  correct: d
+  why: וְזָבַחְתָּ מִבְּקָרְךָ וּמִצֹּאנְךָ está junto al versículo fuente, siguiendo al ganado vacuno
+    y ovino.
 - q: ¿Qué informó Rav Guidel en nombre de Rav sobre un descendiente de Nóaj?
   opts:
-  - Que está exento por completo del éver min hajai.
+  - Que está obligado solo respecto de las especies kosher, tal como sostiene Rabí Meir en el caso
+    de los judíos.
   - Que todos concuerdan en que está obligado respecto de las especies no kosher igual que de las
     kosher.
-  - Que la disputa se le aplica igual que a un judío.
-  - Que la faena vuelve permitido el miembro para él.
+  - Que la disputa entre los tanaím se le aplica a él exactamente igual que a los judíos.
+  - Que está exento por completo, ya que la prohibición del miembro se dio en el Sinaí.
   correct: b
-  why: la majlóket sobre las especies no kosher es solo sobre judíos; para un ben Nóaj, דִּבְרֵי הַכֹּל.
-- q: ¿Cómo reconcilia la Guemará la exigencia de Rav de un volumen de aceituna con la mishná de
-    Teharot sobre un ave no kosher?
+  why: la majlóket sobre las especies no kosher es solo sobre judíos; para un ben Nóaj, דִּבְרֵי
+    הַכֹּל.
+- q: ¿Cómo reconcilia la Guemará la exigencia de Rav de un volumen de aceituna con la mishná de Teharot
+    sobre un ave no kosher?
   opts:
-  - Dictaminando que un miembro nunca necesita un volumen de aceituna.
-  - Leyendo la mishná como referida solo a un judío.
   - Explicando el volumen de aceituna como una traza de carne junto con nervios y huesos.
-  - Diciendo que la mishná es una opinión disidente solitaria.
-  correct: c
-  why: בְּמַשֶּׁהוּ בָּשָׂר גִּידִין וַעֲצָמוֹת; hay un miembro entero pero no un volumen de aceituna de carne
-    comestible.
+  - Leyendo la exigencia de Rav como rabínica y la de la mishná como ley de la Torá.
+  - Restringiendo el dictamen de Rav a un ave kosher y el de la mishná a un ave no kosher.
+  - Diciendo que la mishná habla de impureza mientras que Rav habla de comer.
+  correct: a
+  why: בְּמַשֶּׁהוּ בָּשָׂר גִּידִין וַעֲצָמוֹת; hay un miembro entero pero no un volumen de aceituna
+    de carne comestible.
 - q: ¿Qué pregunta de fondo divide a Rebbi y a Rabí Elazar bar Rabí Shimón sobre un ave viva entera?
   opts:
-  - Si el ave es kosher o no kosher.
-  - Si el pensamiento de una persona sobre la comida tiene peso halájico.
+  - Si un ave cuenta como entidad completa que nunca llega a anularse.
+  - Si el volumen de aceituna se mide con las plumas o sin ellas puestas.
   - Si en su vida la criatura ya se sostiene dividida en miembros.
-  - Si la faena la habría permitido.
+  - Si la prohibición del miembro se aplica a las aves, o solo a los animales.
   correct: c
-  why: בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת; si ya se sostiene en miembros, comerla entera es comer sus miembros.
+  why: בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת; si ya se sostiene en miembros, comerla entera es comer sus
+    miembros.
 - q: ¿Por qué se invoca la kelanita, y luego se descarta?
   opts:
-  - Es un ave con un miembro que alcanza un volumen de aceituna aunque todo su cuerpo no — pero
-    siendo no kosher, el caso se relee como un ave kosher parecida a ella.
-  - Es un pez cuya salmuera es de casi doscientos a uno.
-  - Es un animal salvaje excluido por Rabí Meir.
-  - Es un ave que no tiene nervios en absoluto.
-  correct: a
-  why: la kelanita encaja en el acertijo de la medida, pero como ave no kosher falla en el seifa, así
-    que כְּעֵין קְלָנִיתָא.
+  - Es el ave kosher más pequeña que conocían los Sabios, y por eso fija el tamaño mínimo con que
+    la prohibición del miembro puede aplicarse a un ave.
+  - Es un ave con un miembro que alcanza un volumen de aceituna aunque todo su cuerpo no — pero siendo
+    no kosher, el caso se relee como un ave kosher parecida a ella.
+  - Es un ave cuyos miembros nunca alcanzan un volumen de aceituna, lo que zanjaría la cuestión,
+    salvo que la mishná resulta estar hablando de animales y no de aves como esta.
+  - Es un ave que los Sabios no pudieron clasificar como kosher o no kosher, así que ningún dictamen
+    sobre ella servía para decidir la cuestión.
+  correct: b
+  why: la kelanita encaja en el acertijo de la medida, pero como ave no kosher falla en el seifa,
+    así que כְּעֵין קְלָנִיתָא.
 - q: ¿Cuál es el punto de los dos casos "im timtzé lomar" de Rava?
   opts:
-  - Que el pensamiento sobre la comida nunca importa.
-  - Que si el pensamiento cuenta, el plan privado de uno (miembro por miembro, o muerta) puede
-    cambiar la responsabilidad.
-  - Que un ave entera siempre se trata como un solo miembro.
-  - Que Rebbi y Rabí Elazar bar Rabí Shimón en realidad concuerdan.
-  correct: b
-  why: מַחְשֶׁבֶת אֳכָלִין שְׁמָהּ מַחְשָׁבָה; la intención puede tallar el ave en miembros, o negarse a hacerlo.
-- q: ¿Cómo responde Rava a la objeción de Abaie de que el mismo acto no puede hacer responsable a un
-    hombre y no a otro?
+  - Que un miembro y la carne de lo vivo llevan siempre dos series de azotes separadas.
+  - Que la intención es irrelevante, y solo el acto físico determina aquí la responsabilidad.
+  - Que la medida de un volumen de aceituna se dispensa siempre que el ave se traga entera, viva
+    y sin trocearla en nada.
+  - Que si el pensamiento cuenta, el plan privado de uno (miembro por miembro, o muerta) puede cambiar
+    la responsabilidad.
+  correct: d
+  why: מַחְשֶׁבֶת אֳכָלִין שְׁמָהּ מַחְשָׁבָה; la intención puede tallar el ave en miembros, o negarse
+    a hacerlo.
+- q: ¿Cómo responde Rava a la objeción de Abaie de que el mismo acto no puede hacer responsable a
+    un hombre y no a otro?
   opts:
-  - Concede y retira los casos.
-  - Dice que el hecho difiere físicamente en cada caso.
+  - Los dos casos son en realidad actos distintos, y no el mismo acto en absoluto.
+  - Se concede la objeción de Abaie, y Rava retira el segundo de los dos casos.
+  - La responsabilidad sigue a la práctica mayoritaria, y no al plan del individuo.
   - '"Cada uno según su propio pensamiento" — la intención es parte del acto.'
-  - Dictamina que el pensamiento nunca cuenta después de todo.
-  correct: c
+  correct: d
   why: זֶה לְפִי מַחְשַׁבְתּוֹ, וְזֶה לְפִי מַחְשַׁבְתּוֹ; se juzga a la persona, no solo al hecho.
-- q: Según Rabí Iojanán, ¿qué enseña el versículo "y carne desgarrada en el campo, un taref, no
-    comeréis"?
+- q: Según Rabí Iojanán, ¿qué enseña el versículo "y carne desgarrada en el campo, un taref, no comeréis"?
   opts:
-  - Solo la prohibición de un taref.
+  - Solo la carne de un animal que se ha vuelto taref.
   - Tanto la carne arrancada de lo vivo como la carne de un taref.
-  - La prohibición de un miembro entero de lo vivo.
-  - La prohibición de la sangre.
+  - Solo la carne arrancada de un animal vivo, y nada más.
+  - Ninguna de las dos; el versículo está hablando más bien de la carroña.
   correct: b
   why: para Rabí Iojanán el primer versículo es éver min hajai; este versículo lleva tanto la carne
     de lo vivo como el taref — así que comer un miembro y carne de lo vivo son dos series de azotes.

@@ -147,6 +147,22 @@ donde empieza mañana.
 
 ---
 
+## Las distinciones, lado a lado
+
+Una sola pregunta recorre toda la segunda mitad — ¿la responsabilidad sigue al **placer de la garganta** o a la **llegada al estómago**? Planteada caso por caso, muestra también dónde los dos *no* discuten:
+
+| El caso | R' Iojanán — *נֶהֱנָה גְּרוֹנוֹ* | Reish Lakish — *אֲכִילָה בְּמֵעָיו* |
+|---|---|---|
+| Dividido **fuera** de la boca, las mitades comidas por separado | Exento | Exento |
+| Un volumen de aceituna entero dentro, dividido **adentro**, las mitades tragadas por turno | **Responsable** | **Exento** |
+| Encajado **בֵּין הַשִּׁינַּיִם**, entre los dientes | No cuenta | No cuenta |
+| Alojado **בֵּין הַחֲנִיכַיִים**, en las encías | **Cuenta** | **No cuenta** |
+| Medio volumen de aceituna, vomitado, y luego otro medio | **Responsable** | No se enuncia |
+
+Dos voces quedan fuera de la cuadrícula: **Rabí Elazar**, que condena incluso en la primera fila — que falte mera *proximidad* no es que falte un acto — y **Rav Kahaná**, que muestra cómo Reish Lakish puede condenar alguna vez, con una *גְּרוֹמִיתָא זְעֵירְתָּא* tragada entera.
+
+---
+
 ## Conceptos y términos clave
 
 | Término | Significado |
@@ -217,99 +233,101 @@ bar Rabí Shimón de 102. Y **Rabí Jiiá bar Aba** el amorá no es **Rabí Jii�
 ## Chazará — ponte a prueba
 
 ```yaml
-- q: ¿Cómo reconcilia Rav Iosef el "una" de Reish Lakish aquí con su aparente acuerdo en "dos" por un
-    miembro y una tereifá?
+- q: ¿Cómo reconcilia Rav Iosef el "una" de Reish Lakish aquí con su aparente acuerdo en "dos" por
+    un miembro y una tereifá?
   opts:
-  - Relee la afirmación anterior como solo de Rabí Iojanán.
   - Dos animales — todos coinciden en dos; un solo animal — ahí es donde discrepan.
-  - Dictamina que una tereifá nunca se cuenta por separado.
-  - Dice que Reish Lakish se retractó.
-  correct: b
+  - Reish Lakish se retractó de la posición que había sostenido sobre un solo animal.
+  - Las dos declaraciones provienen de discípulos distintos que lo transmiten.
+  - Un caso es ley de la Torá y el otro tiene fuerza solo rabínica.
+  correct: a
   why: בִּשְׁתֵּי בְּהֵמוֹת todos coinciden en שְׁתַּיִם; el majloket es solo בִּבְהֵמָה אַחַת.
 - q: En el caso de Abaie del "nacido tereifá", ¿qué produce que "el animal esté dividido en miembros
     aun estando vivo"?
   opts:
-  - La prohibición del miembro no se aplica nunca.
+  - La prohibición de tereifá llega primero y bloquea del todo la del miembro.
   - Las prohibiciones del miembro y de la tereifá nacen juntas y ambas prenden.
-  - Solo se aplica la prohibición de la tereifá.
-  - La faena permitiría el miembro.
+  - Ninguna prohibición prende, ya que el animal nunca estuvo plenamente vivo.
+  - Se aplica solo la prohibición del miembro, pues obliga también a los noájidas.
   correct: b
-  why: si ya está בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת, los dos isurim vienen בַּהֲדֵי הֲדָדֵי y ninguno bloquea al
-    otro.
+  why: si ya está בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת, los dos isurim vienen בַּהֲדֵי הֲדָדֵי y ninguno
+    bloquea al otro.
 - q: ¿Cuál es la imagen alternativa de Rava del caso de un solo animal?
   opts:
-  - El animal se volvió tereifá mucho después de nacer.
+  - El animal ya era tereifá antes de que se le arrancara el miembro.
+  - Faenó mal al animal y después le quitó un miembro del cuerpo.
   - Arrancó un miembro y por ese mismo acto convirtió al animal en tereifá.
-  - Comió el miembro de un animal ya faenado.
-  - Dos personas comieron de un animal.
-  correct: b
-  why: תָּלַשׁ מִמֶּנָּה אֵבֶר וּטְרָפָהּ בּוֹ — el arrancar mismo es lo que la hace tereifá, así que las dos
-    prohibiciones son simultáneas.
+  - El miembro se arrancó de un animal que solo más tarde se volvió tereifá por sí mismo.
+  correct: c
+  why: תָּלַשׁ מִמֶּנָּה אֵבֶר וּטְרָפָהּ בּוֹ — el arrancar mismo es lo que la hace tereifá, así
+    que las dos prohibiciones son simultáneas.
 - q: ¿Por qué la prohibición de tereifá puede prender sobre el sebo prohibido pero no sobre un miembro
     del animal vivo?
   opts:
-  - Porque el sebo tiene más sabor.
-  - Porque el sebo es más estricto que un miembro.
+  - Porque el sebo prohibido lleva una prohibición de la Torá mientras que el miembro del animal
+    vivo es de fuerza solo rabínica.
+  - Porque el sebo obliga a los noájidas y el miembro del animal vivo no los obliga en absoluto.
+  - Porque un miembro es una entidad completa y el sebo no, así que nada puede fijarse en él.
   - Porque el sebo está permitido como excepción (el de un animal no domesticado), y un miembro no
     tiene tal excepción.
-  - Porque un miembro obliga tanto a los gentiles como a los judíos.
-  correct: c
+  correct: d
   why: חֵלֶב הוּתַּר מִכְּלָלוֹ, así que un isur posterior puede caer sobre él; אֵבֶר no tiene caso
     permitido, así que nada cae sobre él.
 - q: Si uno mete un miembro del tamaño de una aceituna entero en la boca y lo traga en dos partes
     separadas, ¿por qué lo considera responsable Rabí Iojanán?
   opts:
-  - Porque lo comió de noche.
   - Porque su garganta gozó de un volumen de aceituna completo.
-  - Porque un miembro nunca necesita un volumen de aceituna.
-  - Porque tenía intención de comerlo entero.
-  correct: b
-  why: הֲרֵי נֶהֱנָה גְּרוֹנוֹ בִּכְזַיִת — para Rabí Iojanán la responsabilidad sigue al placer de la
-    garganta.
+  - Porque las dos partes volvieron a unirse al llegar al estómago.
+  - Porque el volumen de aceituna se mide en el momento de masticar.
+  - Porque desde el principio tuvo intención de tragarse el miembro entero.
+  correct: a
+  why: הֲרֵי נֶהֱנָה גְּרוֹנוֹ בִּכְזַיִת — para Rabí Iojanán la responsabilidad sigue al placer
+    de la garganta.
 - q: ¿En qué se apoya la exención de Reish Lakish en ese caso?
   opts:
-  - Cada trozo era menos de media aceituna.
+  - Exigimos que el miembro se trague entero y sin masticarlo en absoluto.
+  - Exigimos que la persona tenga intención de comer un volumen entero de una vez.
   - Exigimos un acto de comer que llegue al estómago como un volumen de aceituna.
-  - El miembro era de un animal no kosher.
-  - La comida quedó atascada entre sus dientes.
-  correct: b
-  why: אֲכִילָה בְּמֵעָיו בָּעֵינַן וְלֵיכָּא — un volumen de aceituna completo nunca llega al estómago de
-    una vez.
+  - Exigimos un volumen de aceituna de carne sola, sin contar hueso ni nervio alguno.
+  correct: c
+  why: אֲכִילָה בְּמֵעָיו בָּעֵינַן וְלֵיכָּא — un volumen de aceituna completo nunca llega al estómago
+    de una vez.
 - q: Según Rav Kahaná, ¿cómo puede uno ser responsable por un miembro del animal vivo incluso según
     Reish Lakish?
   opts:
-  - Comiéndolo crudo.
+  - Comiendo un miembro de un ave y no de un animal doméstico del rebaño o de la manada.
+  - Comiendo un volumen de aceituna de carne sola, sin hueso ni nervio unido.
+  - Comiendo el miembro mientras sigue unido al animal que está vivo.
   - Tragando entero un huesecillo que es un volumen de aceituna de carne, hueso y nervio.
-  - Comiendo dos volúmenes de aceituna.
-  - Masticándolo bien primero.
-  correct: b
+  correct: d
   why: בִּגְרוֹמִיתָא זְעֵירְתָּא — un volumen de aceituna entero llega al estómago sin dividirse.
 - q: ¿Sobre qué dice Rav Papa que gira en realidad la disputa dientes-contra-encías?
   opts:
+  - Si hace falta masticar en absoluto, o si basta con tragarse el miembro entero de una sola vez
+    sin más.
   - Si la comida entre los dientes cuenta — todos coinciden en que no; discuten sobre la comida en
     las encías.
-  - Si uno usó pan para limpiarse los dientes.
-  - Si la comida estaba caliente o fría.
-  - Si el animal era kosher.
-  correct: a
+  - Si los dientes pertenecen a la boca o ya a la garganta para este propósito.
+  - Si la comida en las encías cuenta — todos coinciden en que sí; discuten sobre los dientes.
+  correct: b
   why: בֵּין הַשִּׁינַּיִם lo excluyen todos; el majloket es בֵּין הַחֲנִיכַיִים — placer de la garganta
     contra llegada al estómago, otra vez.
 - q: En la historia, ¿por qué se quedó callado Rabí Asi cuando Rabí Elazar lo presionó?
   opts:
-  - Porque Rabí Elazar había hecho una pregunta sin respuesta.
   - Porque había olvidado un dictamen que él mismo solía decir ante Rabí Iojanán.
-  - Porque no estaba de acuerdo con Rabí Iojanán.
-  - Porque la halajá sigue al estómago.
-  correct: b
+  - Porque discrepaba pero no quería contradecir a un colega de más rango.
+  - Porque la cuestión ya estaba zanjada y no vio necesidad de responder nada.
+  - Porque Rabí Elazar había citado mal a Rabí Iojanán y él lo estaba sopesando en silencio.
+  correct: a
   why: רַבִּי אַסִּי גְּמָרֵיהּ אִיעֲקַר לֵיהּ — Rabí Elazar le estaba recordando su propia enseñanza
     olvidada.
 - q: ¿Con qué nuevo tema abre el capítulo Kol HaBasar al final del daf?
   opts:
-  - El nervio ciático.
+  - Los sebos prohibidos, y las penas por comerlos deliberadamente.
+  - Las señales de un ave kosher, y las leyes de cubrir la sangre tras la faena.
   - La carne cocida en leche, y mantener carne y queso separados en la mesa.
-  - La medida de un volumen de aceituna.
-  - El sebo prohibido.
-  correct: b
-  why: כׇּל הַבָּשָׂר אָסוּר לְבַשֵּׁל בְּחָלָב — toda carne salvo pescado y saltamontes, más la valla contra
-    la mesa compartida.
+  - El nervio sciático de un feto, y las medidas para anularlo.
+  correct: c
+  why: כׇּל הַבָּשָׂר אָסוּר לְבַשֵּׁל בְּחָלָב — toda carne salvo pescado y saltamontes, más la
+    valla contra la mesa compartida.
 ```

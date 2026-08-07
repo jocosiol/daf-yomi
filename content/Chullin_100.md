@@ -176,6 +176,17 @@ Rabbi Shimon exempting — which is where tomorrow begins.
 
 ---
 
+## The distinctions, side by side
+
+Rav Safra asked one question — why should Rav care whether flavor reached the second piece? — and got two entirely different rescues:
+
+| Whose answer | What the case really is | Why the flavor matters | What forbids the rest of the pot |
+|---|---|---|---|
+| **Abaye** | **בְּשֶׁקָּדַם וְסִלְּקוֹ** — cooked with one kosher piece, then removed before the others went in | The forbidden piece is gone; the only route left runs through the piece it flavored | That intermediary piece, now itself *neveilah* — and like is not nullified in like |
+| **Rava** | **מִין וּמִינוֹ וְדָבָר אַחֵר** — its own kind *plus* something else, the broth and spices | Flavor reached the second piece **before** the broth and spices did — so two forbidden pieces, not one | **סַלֵּק אֶת מִינוֹ**: sixty is counted against broth and spices alone, enough for one piece but not two |
+
+---
+
 ## Key concepts & terms
 
 | Term | Meaning |
@@ -241,85 +252,86 @@ Abaye and Rava's circle I would not want to guess at his biography.
 ```yaml
 - q: Why is an unidentified sciatic nerve among other sinews not nullified by the majority?
   opts:
-  - Because sinews impart taste.
+  - Because sinews impart taste to whatever surrounds them in the pot.
   - Because it is a complete entity, a beriah.
-  - Because it is fit to serve to a guest.
-  - Because it is always sold by the unit.
+  - Because it is fit to be set before a guest at table.
+  - Because nerves of this kind are always sold by the unit and not by weight.
   correct: b
-  why: 'בְּרִיָּה שָׁאנֵי: a complete entity is significant regardless of ratio.'
+  why: בְּרִיָּה שָׁאנֵי — a whole creature or whole item is never nullified, however large the majority.
 - q: What makes a piece of meat resist nullification even for the stricter reading of "counted items"?
   opts:
+  - It is a complete entity that was never divided.
+  - It is always sold by weight rather than by the piece.
+  - It has a taste distinctive enough to be noticed.
   - It is fit to be placed before guests.
-  - It is a complete entity.
-  - It is always sold by weight.
-  - It has a distinctive taste.
-  correct: a
-  why: חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים, fit to honour a guest with.
+  correct: d
+  why: חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד — a piece worth serving to a guest has standing of its own.
 - q: Why did the mishnah have to teach both the sciatic nerve and the piece of forbidden meat?
   opts:
-  - Because the two have different measures.
   - Because each is excluded from nullification for a different reason.
-  - Because one is biblical and the other rabbinic.
-  - Because Rabbi Yehuda disputes only one of them.
-  correct: b
-  why: one is excluded as a *beriah*, the other for its dignity; neither reason implies the other,
-    so צְרִיכָא.
+  - Because the two carry different measures for nullification.
+  - Because one is forbidden by Torah law and the other only rabbinically.
+  - Because Rabbi Yehuda disputes only one of the two cases.
+  correct: a
+  why: the nerve is a beriah; the piece is fit to serve — neither reason covers the other.
 - q: According to Rabbah bar bar Chana, what must the forbidden piece impart flavor to?
   opts:
-  - The broth alone.
-  - The broth and the pieces only.
-  - Any one of the three.
+  - The broth alone, and nothing further.
+  - The broth and the pieces, but not the sediment.
   - The broth, the sediment, and the pieces.
-  correct: d
-  why: the רוֹטֶב, the קִיפָּה, and the חֲתִיכוֹת all together.
+  - Any one of the three is enough on its own.
+  correct: c
+  why: בֵּין בַּקְּדֵירָה בֵּין בַּקִּיפָּה בֵּין בַּחֲתִיכוֹת — all three together.
 - q: What is Rav's ruling about a piece that has absorbed forbidden flavor?
   opts:
-  - It must be removed but the rest is permitted.
+  - It must be removed, and the remainder stays permitted.
   - It becomes forbidden meat itself and forbids all the pieces.
-  - It is forbidden only to a priest.
-  - It is nullified if there is sixty times its volume.
+  - It is forbidden to a priest but permitted to an ordinary Israelite.
+  - It is nullified where there is sixty times its volume against it.
   correct: b
-  why: חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, and being the same kind it is not nullified.
+  why: חֲתִיכָה עַצְמָהּ נַעֲשֵׂית נְבֵילָה — the piece turns into a forbidden object in its own
+    right.
 - q: How did Rav publicise this teaching?
   opts:
-  - He wrote it in a letter to Eretz Yisrael.
+  - He wrote it in a letter carried to Eretz Yisrael.
+  - He taught it only to his closest circle of students.
+  - He had it inscribed on the wall of the academy at Sura.
   - He appointed a disseminator to proclaim it before him.
-  - He taught it only to his closest students.
-  - He had it inscribed in the academy.
-  correct: b
-  why: אוֹקֵי אָמוֹרָא עֲלֵיהּ, he set a disseminator over himself to broadcast it.
+  correct: d
+  why: אוֹקֵי אָמוֹרָא עֲלֵיהּ — he set up a meturgeman to announce it publicly.
 - q: How does Rava explain why flavor into the second piece matters?
   opts:
-  - The forbidden piece was removed before the others were added.
+  - Rabbi Yehuda does not hold that like is nullified within its own kind, so nothing is nullified
+    here.
+  - The forbidden piece had been removed before the others were added to the pot.
+  - Sinews impart no taste, so the second piece never absorbed anything at all.
   - Once two pieces are forbidden, the broth and spices are no longer sixty times their volume.
-  - Sinews impart no taste.
-  - Rabbi Yehuda does not hold that like is nullified in like.
-  correct: b
-  why: under סַלֵּק אֶת מִינוֹ, only the broth and spices count, and they cannot nullify two forbidden
-    pieces.
+  correct: d
+  why: the forbidden volume doubles, so the sixty that covered one piece no longer covers two.
 - q: What is Rabbi Yehuda's proof that the sciatic nerve applies to a non-kosher animal?
   opts:
-  - A tradition from Sinai about non-kosher species.
+  - A tradition from Sinai extends the nerve's prohibition to every non-kosher species.
+  - The verse speaks of "every animal", a phrase that sweeps in the non-kosher species as well.
   - It was forbidden to Yaakov's children while non-kosher meat was still permitted to them.
-  - The verse mentions "every animal."
-  - Sinews have no taste, so no other prohibition competes.
-  correct: b
-  why: Bereishit 32:33 bound Yaakov's children when non-kosher meat was still permitted to them.
+  - Sinews have no taste, so no competing prohibition can attach to the nerve at all.
+  correct: c
+  why: at that point the sons of Yaakov could eat non-kosher meat, so the nerve's prohibition landed
+    first.
 - q: What does the miscarried fetus in the mishnah of Nazir prove?
   opts:
-  - That sinews form before limbs.
   - That limbs form before sinews, so the flesh is forbidden first.
-  - That a fetus is not a complete entity.
-  - That the gid prohibition applies to a fetus.
-  correct: b
-  why: שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו בְּגִידִין shows limbs precede sinews, so the two prohibitions
-    are not simultaneous.
+  - That sinews form before limbs do in the developing fetus.
+  - That a fetus does not count as a complete entity, a beriah.
+  - That the prohibition of the nerve applies to a fetus as well as to a grown animal.
+  correct: a
+  why: the fetus already has limbs before it has sinews, so the flesh's prohibition precedes the
+    nerve's.
 - q: How does the Gemara finally allow the gid prohibition to take effect on a non-kosher animal?
   opts:
-  - The two prohibitions arrive at exactly the same moment.
-  - Rabbi Yehuda in fact accepts issur chal al issur.
+  - The two prohibitions come into force at exactly the same moment, so both attach.
+  - Rabbi Yehuda in fact accepts that a prohibition lands on a prohibition.
+  - The flesh of a non-kosher animal is not really forbidden in the first place.
   - The gid prohibition applies to Noahides, so it adds a stringency the other lacks.
-  - A non-kosher animal's flesh is not really forbidden.
-  correct: c
-  why: אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ; the added stringency lets it land on the existing prohibition.
+  correct: d
+  why: it binds Noahides too, which the non-kosher prohibition does not — so it is an issur mosif.
 ```

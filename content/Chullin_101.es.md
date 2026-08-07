@@ -190,6 +190,18 @@ empieza el daf de mañana.
 
 ---
 
+## Las distinciones, lado a lado
+
+Tres vías por las que una segunda prohibición podría entrar de todos modos, y quién deja pasar cada una:
+
+| La vía de entrada | Qué afirma | El caso de prueba de hoy | Quién la deja entrar |
+|---|---|---|---|
+| **אִיסּוּר כּוֹלֵל** — más amplia en alcance | La segunda prohibición abarca más terreno que la primera, así que arrastra también esto | El *guid* de una **נְבֵלָה** — la prohibición del cadáver cubre todo el animal, nervio incluido | **R' Meir**: dos series de azotes. Los Sabios dan una; R' Iosí HaGuelilí la rechaza de plano — *מִגּוֹ לָא אָמְרִינַן* |
+| **אִיסּוּר חָמוּר** — más severa | El puro peso le permite posarse sobre lo ya prohibido | El *guid* de una **עוֹלָה** o de un **שׁוֹר הַנִּסְקָל** — todo beneficio prohibido, no solo comer | **Los Sabios conceden** aquí. R' Iosí HaGuelilí sigue negándose — y Rav Ashi pregunta quién dice cuál es la más severa |
+| **״שַׁבָּת הִיא״ / ״יוֹם הַכִּפּוּרִים הוּא״** | Cada día queda marcado como valiéndose por sí mismo, así que ninguno es el "segundo" | Labor involuntaria en un Iom Kipur que cayó en Shabat | Con la atribución **invertida**: **R' Akivá**, dos ofrendas de pecado. R' Iosí HaGuelilí — una |
+
+---
+
 ## Conceptos y términos clave
 
 | Término | Significado |
@@ -266,92 +278,97 @@ sola letra.
 ## Chazará — ponte a prueba
 
 ```yaml
-- q: Según Rava, ¿por qué exime Rabí Shimón de todo azote a quien come el nervio sciático de un
-    animal no kosher?
+- q: Según Rava, ¿por qué exime Rabí Shimón de todo azote a quien come el nervio sciático de un animal
+    no kosher?
   opts:
-  - Porque el nervio se anula en la carne que lo rodea.
-  - Porque los nervios no tienen sabor, y el versículo limita la prohibición a una especie cuya
-    carne está permitida.
-  - Porque una prohibición nunca se posa sobre una prohibición existente.
-  - Porque la prohibición empezó solo en el Sinaí.
+  - Porque una prohibición jamás se fija sobre algo que ya estaba prohibido, sea cual sea su alcance
+    o su severidad.
+  - Porque los nervios no tienen sabor, y el versículo limita la prohibición a una especie cuya carne
+    está permitida.
+  - Porque el nervio se anula en la carne que lo rodea cuando hay sesenta veces su volumen.
+  - Porque la prohibición del nervio empezó solo en el Sinaí y no con Iaakov.
   correct: b
-  why: sin sabor no hay cargo de carne no kosher, y el versículo habla solo de una especie cuya
-    carne está permitida.
+  why: אֵין בְּגִידִין בְּנוֹתֵן טַעַם más un versículo leído como referido solo a una especie cuya
+    carne puede comerse.
 - q: ¿En qué dos casos conceden los Sabios a Rabí Meir que hay dos series de azotes?
   opts:
-  - Un cadáver y un animal no kosher.
-  - Un feto y un ave no kosher.
+  - Una carroña y la carne de un animal no kosher.
+  - Un feto en el vientre y un ave no kosher.
   - Una ofrenda quemada y un buey condenado a la lapidación.
-  - Trumá y carne sacrificial.
+  - Trumá y la carne de un sacrificio comida fuera del recinto.
   correct: c
-  why: el *guid* de una עוֹלָה y de un שׁוֹר הַנִּסְקָל.
+  why: ambas prohíben todo beneficio, así que añaden algo que la prohibición del nervio no cubre
+    ya.
 - q: ¿Qué permite que esas dos prohibiciones surtan efecto sobre un nervio ya prohibido?
   opts:
-  - Que son bíblicas y no rabínicas.
   - Que prohíben obtener cualquier beneficio, no solo comer.
-  - Que se aplican a los noájidas.
-  - Que entraron en vigor antes.
-  correct: b
-  why: ambas son prohibiciones de beneficio, una estrictez que la prohibición del *guid* nunca tuvo.
+  - Que son prohibiciones de la Torá y no rabínicas.
+  - Que se aplican a los noájidas igual que a los israelitas.
+  - Que entraron en vigor antes que la prohibición del nervio.
+  correct: a
+  why: 'אִיסּוּר מוֹסִיף: el beneficio es terreno nuevo, así que la segunda prohibición tiene dónde
+    fijarse.'
 - q: ¿Qué es un isur kolel?
   opts:
-  - Una prohibición más severa que la existente.
+  - Una prohibición más severa en su castigo que la existente.
+  - Una prohibición que obliga solo a los cohanim y no a los israelitas comunes.
+  - Una prohibición derivada de un caso anómalo de la Torá.
   - Una prohibición más amplia en alcance que la existente.
-  - Una prohibición que se aplica solo a los cohanim.
-  - Una prohibición derivada de una novedad.
-  correct: b
-  why: una prohibición más inclusiva; el mecanismo es מִגּוֹ.
-- q: En el caso de Rabí Iosí HaGuelilí, ¿cuándo concuerdan todos en que la persona impura es
-    responsable?
+  correct: d
+  why: אִיסּוּר כּוֹלֵל — abarca más que la primera, y por esa amplitud se fija.
+- q: En el caso de Rabí Iosí HaGuelilí, ¿cuándo concuerdan todos en que la persona impura es responsable?
   opts:
-  - Cuando su cuerpo se volvió impuro antes que la carne.
   - Cuando la carne se volvió impura antes que su cuerpo.
-  - Solo cuando la carne fue pura en todo momento.
-  - Solo cuando actuó deliberadamente.
-  correct: a
-  why: donde el cuerpo ya estaba impuro, la prohibición de *karet* precedió a la impureza de la
-    carne.
+  - Cuando su cuerpo se volvió impuro antes que la carne.
+  - Solo cuando la carne se mantuvo pura de principio a fin.
+  - Solo cuando comió deliberadamente y no por error.
+  correct: b
+  why: con el cuerpo impuro primero, la impureza de la carne no añade nada — la disputa es solo el
+    orden inverso.
 - q: ¿Cómo bloquea Rav Ashi el argumento de que una prohibición más severa debería surtir efecto?
   opts:
-  - Mostrando que la severidad es irrelevante para las prohibiciones.
-  - Negando que la impureza del cuerpo conlleve karet.
-  - Argumentando que la impureza de la carne puede ser la más severa, ya que no tiene el remedio de
-    la inmersión.
-  - Invirtiendo las atribuciones de la baraita.
-  correct: c
-  why: una persona impura puede purificarse por inmersión; la carne impura no, así que puede ser la
-    más grave.
+  - Mostrando que la severidad de una prohibición no influye en absoluto en si esta puede o no llegar
+    a surtir efecto.
+  - Negando que la impureza del cuerpo acarree la pena de karet.
+  - Invirtiendo las atribuciones que la baraita da a los dos sabios.
+  - Argumentando que la impureza de la carne puede ser la más severa, ya que no tiene el remedio
+    de la inmersión.
+  correct: d
+  why: מַאן לֵימָא לַן — ¿quién dice que la del cuerpo es más grave? La de la carne no tiene mikvé
+    que la arregle.
 - q: ¿Qué significa hatzaá shel mishná en la resolución sobre Shabat e Iom Kipur?
   opts:
-  - La baraita es una falsificación y debe descartarse.
   - La formulación es correcta pero hay que intercambiar las dos atribuciones.
-  - La baraita se refiere solo a un año bisiesto.
-  - La mishná debe leerse como una pregunta.
-  correct: b
-  why: 'כָּךְ הַצָּעָה שֶׁל מִשְׁנָה, וְאֵיפוֹךְ: formulación correcta, nombres intercambiados.'
+  - La baraita es una falsificación tardía y debe descartarse por completo.
+  - La baraita se refiere solo a un año bisiesto y no a uno ordinario.
+  - La mishná debe leerse como pregunta y no como afirmación.
+  correct: a
+  why: הַצָּעָה שֶׁל מִשְׁנָה — la presentación es sólida; cambia quién dice qué y se resuelve.
 - q: ¿Cuál es la explicación de Rava del dictamen de Rabí Iojanán sobre Iom Kipur que cae en Shabat?
   opts:
-  - Shabat es fijo mientras que Iom Kipur lo fija el tribunal.
+  - Shabat es fijo de por sí mientras que Iom Kipur lo fija el calendario del tribunal.
+  - Ambas prohibiciones empiezan juntas, así que solo se debe una ofrenda.
   - Describía un año de persecución en que Iom Kipur fue trasladado a Shabat.
-  - Ambas prohibiciones empiezan a la vez, así que solo se debe una ofrenda.
-  - Rabí Iojanán hablaba solo de una transgresión deliberada.
-  correct: b
-  why: שְׁעַת הַגְּזֵרָה; Ravin y los que bajaron de Erretz Israel confirmaron la lectura de Rava.
+  - Rabí Iojanán hablaba solo de una transgresión deliberada, no de una inadvertida.
+  correct: c
+  why: שְׁעַת הַגְּזֵרָה — ese año el ayuno fue desplazado a Shabat, y así ambas cayeron juntas.
 - q: ¿Cómo responden los Sabios a Rabí Iehudá desde la formulación del versículo de Bereshit?
   opts:
-  - Dice "los hijos de Iaakov", que eran noájidas.
+  - Dice "los hijos de Iaakov", que en aquel momento seguían siendo noájidas.
   - Dice "los hijos de Israel", un nombre usado solo desde el Sinaí en adelante.
-  - No menciona comer en absoluto.
-  - Habla explícitamente de un animal kosher.
+  - No menciona el comer en ninguna parte del versículo.
+  - Habla explícitamente de un animal kosher y de nada más.
   correct: b
-  why: בְּנֵי יִשְׂרָאֵל, un nombre que empieza solo en el Sinaí, así que la prohibición fue meramente
-    escrita en su lugar.
+  why: בְּנֵי יִשְׂרָאֵל — el nombre corresponde al pueblo desde el Sinaí, así que allí empieza la
+    prohibición.
 - q: ¿Qué quiere decir Rav Ashi al preguntar si la Torá se dio en cuotas?
   opts:
-  - Que distintos mandamientos surtieron efecto en distintos momentos.
-  - Que la Torá escrita y la oral se dieron por separado.
-  - Que la prohibición empezó en la lucha con el ángel.
   - Que la Torá se dio en el Sinaí en un solo acto, así que la prohibición no puede empezar antes.
-  correct: d
-  why: 'לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים: una sola entrega, en el Sinaí.'
+  - Que distintos mandamientos entraron en vigor en distintos momentos de la historia.
+  - Que la Torá escrita y la Torá oral fueron entregadas en dos ocasiones enteramente separadas entre
+    sí.
+  - Que la prohibición del nervio empezó ya en la lucha de Iaakov con el ángel.
+  correct: a
+  why: לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים — la ley empieza en el Sinaí, en una sola entrega,
+    no a plazos.
 ```

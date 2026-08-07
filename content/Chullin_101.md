@@ -189,6 +189,18 @@ tomorrow's daf begins.
 
 ---
 
+## The distinctions, side by side
+
+Three ways a second prohibition might still get in, and who lets each one through:
+
+| The route in | What it claims | Today's test case | Who lets it in |
+|---|---|---|---|
+| **אִיסּוּר כּוֹלֵל** — broader in scope | The second prohibition covers more ground than the first, so it sweeps this in too | The *gid* of a **נְבֵלָה** — the carcass prohibition covers the whole animal, nerve included | **R' Meir**: two sets of lashes. The Rabbis give one; R' Yosei HaGelili rejects it outright — *מִגּוֹ לָא אָמְרִינַן* |
+| **אִיסּוּר חָמוּר** — more severe | Sheer weight lets it take hold on what is already forbidden | The *gid* of an **עוֹלָה** or a **שׁוֹר הַנִּסְקָל** — all benefit forbidden, not only eating | **The Rabbis concede** here. R' Yosei HaGelili still refuses — and Rav Ashi asks who says which is severer anyway |
+| **״שַׁבָּת הִיא״ / ״יוֹם הַכִּפּוּרִים הוּא״** | Each day is marked as standing on its own, so neither is the "second" one | Unwitting labour on a Yom Kippur that fell on Shabbos | On the **reversed** attribution: **R' Akiva**, two sin offerings. R' Yosei HaGelili — one |
+
+---
+
 ## Key concepts & terms
 
 | Term | Meaning |
@@ -269,85 +281,88 @@ Chanina** (Amora), and neither is **Rabbi Yosei** of the Mishnah. **Rav Acha son
 - q: According to Rava, why does Rabbi Shimon exempt one who eats the sciatic nerve of a non-kosher
     animal from all lashes?
   opts:
-  - Because the nerve is nullified in the surrounding meat.
+  - Because a prohibition never lands on something already forbidden, whatever its scope or its severity
+    may be.
   - Because sinews have no taste, and the verse limits the prohibition to a species whose flesh is
     permitted.
-  - Because a prohibition never lands on an existing prohibition.
-  - Because the prohibition began only at Sinai.
+  - Because the nerve is nullified in the meat surrounding it once sixty times its volume is present.
+  - Because the prohibition of the nerve began only at Sinai and not with Yaakov.
   correct: b
-  why: no taste means no non-kosher-meat count, and the verse speaks only of a species whose flesh
-    is permitted.
+  why: אֵין בְּגִידִין בְּנוֹתֵן טַעַם plus a verse read to cover only a species whose flesh may
+    be eaten.
 - q: In which two cases do the Rabbis concede to Rabbi Meir that there are two sets of lashes?
   opts:
-  - A carcass and a non-kosher animal.
-  - A fetus and a non-kosher bird.
+  - A carcass and the flesh of a non-kosher animal.
+  - A fetus in the womb and a non-kosher bird.
   - A burnt offering and an ox condemned to stoning.
-  - Teruma and sacrificial meat.
+  - Teruma and the meat of a sacrifice eaten outside.
   correct: c
-  why: the *gid* of an עוֹלָה and of a שׁוֹר הַנִּסְקָל.
+  why: both forbid all benefit, so they add something the nerve's prohibition does not already cover.
 - q: What makes those two prohibitions able to take effect on an already forbidden nerve?
   opts:
-  - They are biblical rather than rabbinic.
   - They forbid deriving any benefit, not merely eating.
-  - They apply to Noahides.
-  - They came into force earlier.
-  correct: b
-  why: both are prohibitions of benefit, a stringency the *gid* prohibition never had.
+  - They are Torah prohibitions rather than rabbinic ones.
+  - They apply to Noahides as well as to Israelites.
+  - They came into force earlier than the nerve's prohibition did.
+  correct: a
+  why: 'אִיסּוּר מוֹסִיף: benefit is new ground, so the second prohibition has somewhere to land.'
 - q: What is an issur kolel?
   opts:
-  - A prohibition more severe than the existing one.
+  - A prohibition more severe in punishment than the existing one.
+  - A prohibition that binds only priests and not ordinary Israelites.
+  - A prohibition derived from an anomalous case in the Torah.
   - A prohibition broader in scope than the existing one.
-  - A prohibition that applies only to priests.
-  - A prohibition derived from a novelty.
-  correct: b
-  why: a prohibition that is more inclusive; the mechanism is מִגּוֹ.
+  correct: d
+  why: אִיסּוּר כּוֹלֵל — it sweeps in more than the first did, and so takes hold through that breadth.
 - q: In Rabbi Yosei HaGelili's case, when do all agree that the impure person is liable?
   opts:
-  - When his body became impure before the meat did.
   - When the meat became impure before his body did.
-  - Only when the meat was pure throughout.
-  - Only when he acted deliberately.
-  correct: a
-  why: where the body was already impure, the *karet* prohibition preceded the meat's impurity.
+  - When his body became impure before the meat did.
+  - Only where the meat remained pure from beginning to end.
+  - Only where he ate it deliberately rather than by mistake.
+  correct: b
+  why: with the body impure first, the meat's impurity adds nothing — the dispute is only the reverse
+    order.
 - q: How does Rav Ashi block the argument that a more severe prohibition should take effect?
   opts:
-  - By showing that severity is irrelevant to prohibitions.
-  - By denying that impurity of the body carries karet.
+  - By showing that the severity of a prohibition has no bearing at all on whether it can take effect.
+  - By denying that impurity of the body carries the penalty of karet.
+  - By reversing the attributions the baraita gives to the two sages.
   - By arguing that impurity of the meat may be the more severe, since it has no remedy of immersion.
-  - By reversing the attributions of the baraita.
-  correct: c
-  why: an impure person can be purified by immersion; impure meat cannot, so it may be the graver.
+  correct: d
+  why: מַאן לֵימָא לַן — who says the body's impurity is graver? The meat's has no mikveh to fix
+    it.
 - q: What does hatza'ah shel mishnah mean in the resolution about Shabbos and Yom Kippur?
   opts:
-  - The baraita is a forgery and should be discarded.
   - The wording is correct but the two attributions must be exchanged.
-  - The baraita refers only to a leap year.
-  - The mishnah must be read as a question.
-  correct: b
-  why: 'כָּךְ הַצָּעָה שֶׁל מִשְׁנָה, וְאֵיפוֹךְ: right wording, swapped names.'
+  - The baraita is a later forgery and should be discarded entirely.
+  - The baraita is speaking only about a leap year, not an ordinary one.
+  - The mishnah has to be read as a question rather than a statement.
+  correct: a
+  why: הַצָּעָה שֶׁל מִשְׁנָה — the presentation is sound; swap who says what and it resolves.
 - q: What is Rava's explanation of Rabbi Yochanan's ruling about Yom Kippur falling on Shabbos?
   opts:
-  - Shabbos is fixed while Yom Kippur is set by the court.
+  - Shabbos is fixed of itself while Yom Kippur is set by the court's calendar.
+  - Both prohibitions begin together, so only a single offering is owed.
   - It described a year of persecution when Yom Kippur was moved onto Shabbos.
-  - Both prohibitions begin at once, so only one offering is due.
-  - Rabbi Yochanan was speaking only of a deliberate transgression.
-  correct: b
-  why: שְׁעַת הַגְּזֵרָה; Ravin and those who came down from Eretz Yisrael confirmed Rava's reading.
+  - Rabbi Yochanan was speaking only of a deliberate transgression, not an inadvertent one.
+  correct: c
+  why: שְׁעַת הַגְּזֵרָה — in that year the fast was displaced onto Shabbos, which is how both landed
+    together.
 - q: How do the Rabbis answer Rabbi Yehuda from the wording of the verse in Bereishit?
   opts:
-  - It says "the children of Yaakov," who were Noahides.
+  - It says "the children of Yaakov," who at that point were still Noahides.
   - It says "the children of Israel," a name used only from Sinai onward.
-  - It does not mention eating at all.
-  - It speaks of a kosher animal explicitly.
+  - It makes no mention of eating anywhere in the verse at all.
+  - It speaks explicitly of a kosher animal and of nothing else.
   correct: b
-  why: בְּנֵי יִשְׂרָאֵל, a name that begins only at Sinai, so the prohibition was merely written
-    in its place.
+  why: בְּנֵי יִשְׂרָאֵל — the name belongs to the nation from Sinai, so the prohibition starts there.
 - q: What does Rav Ashi mean by asking whether the Torah was given in instalments?
   opts:
-  - That different commandments took effect at different times.
-  - That the written and oral Torah were given separately.
-  - That the prohibition began at the wrestling with the angel.
   - That the Torah was given at Sinai in one act, so the prohibition cannot begin earlier.
-  correct: d
-  why: 'לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים: one giving, at Sinai.'
+  - That different commandments took effect at different points in history.
+  - That the written Torah and the oral Torah were handed down on two entirely separate occasions.
+  - That the nerve's prohibition began already at Yaakov's wrestling with the angel.
+  correct: a
+  why: לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים — the law begins at Sinai, in one giving, not piecemeal.
 ```

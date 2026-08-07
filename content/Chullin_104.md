@@ -134,6 +134,18 @@ clean. The daf ends turning to the palate itself — Beit Shammai say **מְקַ
 
 ---
 
+## The distinctions, side by side
+
+The daf's question in one grid — which flesh, and on whose authority:
+
+| The flesh | Cooked in milk | Up on the table with cheese | Covered by a vow off "meat" |
+|---|---|---|---|
+| **בְּהֵמָה** — domesticated animal | Forbidden by **Torah** law, on every view | Forbidden — the Sages' fence around eating | Yes |
+| **חַיָּה וָעוֹף** — wild animal and bird | **R' Akiva:** rabbinic only. **Rav Yosef:** Torah — else the table-fence would be a fence around a fence | Forbidden (Beit Hillel). **Beit Shammai:** may be brought up, only not eaten | Yes — an agent would pause to ask about it, so it counts as meat |
+| **דָּגִים וַחֲגָבִים** — fish and grasshoppers | Permitted outright | Permitted | No — he may eat them |
+
+---
+
 ## Key concepts & terms
 
 | Term | Meaning |

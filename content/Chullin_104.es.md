@@ -135,6 +135,18 @@ Bet Hilel dicen **מֵדִיחַ**, enjuagar — que es donde empieza mañana.
 
 ---
 
+## Las distinciones, lado a lado
+
+La pregunta del daf en una sola cuadrícula — qué carne, y por autoridad de quién:
+
+| La carne | Cocida en leche | Subida a la mesa con queso | Cubierta por un voto de abstenerse de "carne" |
+|---|---|---|---|
+| **בְּהֵמָה** — animal doméstico | Prohibida por ley de la **Torá**, en toda opinión | Prohibida — la cerca de los Sabios alrededor del comer | Sí |
+| **חַיָּה וָעוֹף** — animal salvaje y ave | **R' Akivá:** solo rabínico. **Rav Iosef:** Torá — si no, la cerca de la mesa sería una cerca alrededor de una cerca | Prohibida (Bet Hilel). **Bet Shamái:** puede subirse, solo que no comerse | Sí — un agente se detendría a preguntar, así que cuenta como carne |
+| **דָּגִים וַחֲגָבִים** — pescados y saltamontes | Permitidos de plano | Permitidos | No — puede comerlos |
+
+---
+
 ## Conceptos y términos clave
 
 | Término | Significado |

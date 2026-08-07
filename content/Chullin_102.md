@@ -160,6 +160,18 @@ the Gemara raises a contradiction, which is where tomorrow opens.
 
 ---
 
+## The distinctions, side by side
+
+Two verses, three prohibitions — and the whole dispute is only about which verse carries which. **R' Yochanan:** *לֹא תֹאכַל הַנֶּפֶשׁ עִם הַבָּשָׂר* is the limb, and *וּבָשָׂר בַּשָּׂדֶה טְרֵפָה* covers flesh-from-the-living **and** *tereifa*. **Reish Lakish:** the first verse covers the limb **and** flesh-from-the-living, and the second is *tereifa* alone. Count the lashes and the split becomes visible:
+
+| Eaten together | R' Yochanan | Reish Lakish | Where the difference comes from |
+|---|---|---|---|
+| A limb from the living **+** flesh from the living | **Two** sets | **One** set | Two verses for R' Yochanan; for Reish Lakish both sit in the same one |
+| Flesh from the living **+** flesh of a *tereifa* | **One** set | **Two** sets | R' Yochanan puts both in *וּבָשָׂר בַּשָּׂדֶה*; Reish Lakish reads that verse as *tereifa* alone |
+| A limb from the living **+** flesh of a *tereifa* | **Two** sets | **Two** sets | Different verses on either reading — and it is against *this* agreement that tomorrow's contradiction is raised |
+
+---
+
 ## Key concepts & terms
 
 | Term | Meaning |
@@ -245,92 +257,100 @@ Yehuda** the Amora.
 ## Chazara — test yourself
 
 ```yaml
-- q: From what reading do Rabbi Elazar (and Rabbi Yehuda) derive that ever min hachai applies even to
-    a non-kosher animal?
+- q: From what reading do Rabbi Elazar (and Rabbi Yehuda) derive that ever min hachai applies even
+    to a non-kosher animal?
   opts:
-  - "“The flesh alone” — only where flesh becomes permitted."
+  - The verse's word "all" sweeps in every species alike, whether kosher or not, without distinction.
+  - A tradition received at Sinai extends the limb prohibition to the non-kosher species too.
   - Any animal whose blood you are commanded about, you are commanded about its limbs.
-  - From the juxtaposition with "your cattle and your sheep."
-  - From a tradition given at Sinai.
-  correct: b
-  why: כֹּל שֶׁאַתָּה מְצֻוֶּה עַל דָּמוֹ; since blood is forbidden even in non-kosher species, so is the limb.
+  - Because the limb prohibition binds Noahides, for whom no species is excluded at all.
+  correct: c
+  why: כֹּל שֶׁאַתָּה מְצֻוֶּה עַל דָּמוֹ; since blood is forbidden even in non-kosher species, so
+    is the limb.
 - q: According to the Gemara, why does Rabbi Yehuda not actually need a verse for this?
   opts:
-  - Because he holds sinews have no taste.
-  - Because he restricts the prohibition to kosher species anyway.
+  - Because he learns it instead from the neighbouring verse that speaks of cattle and of sheep alike.
   - Because he holds issur chal al issur, so the more-stringent ever prohibition lands on its own.
-  - Because a ben Noach is exempt.
-  correct: c
+  - Because for him the limb prohibition applies only to Noahides in any case.
+  - Because he reads the word "all" as covering every species without a verse of its own.
+  correct: b
   why: holding a prohibition can take effect on an existing one, the ever prohibition — stringent
     because it binds Noahides — needs no verse; the verse is for Rabbi Elazar.
 - q: What is Rabbi Meir's reason that ever min hachai applies only to a kosher domesticated animal?
   opts:
+  - A tradition received at Sinai limiting the prohibition to domesticated animals.
+  - The word "all" is read restrictively, as covering only what may be eaten.
+  - Because a non-kosher animal is already forbidden, so nothing further can attach to it.
   - The neighbouring verse "and you shall slaughter of your cattle and of your sheep."
-  - The word "eating" implies an olive-bulk.
-  - Sinews have no taste.
-  - The prohibition binds descendants of Noah.
-  correct: a
+  correct: d
   why: וְזָבַחְתָּ מִבְּקָרְךָ וּמִצֹּאנְךָ sits beside the source verse, tracking cattle and sheep.
 - q: What did Rav Giddel report in the name of Rav about a descendant of Noah?
   opts:
-  - That he is exempt from ever min hachai entirely.
+  - That he is bound only regarding kosher species, as Rabbi Meir holds for Jews.
   - That all agree he is bound regarding non-kosher species just as kosher ones.
-  - That the dispute applies equally to him and to a Jew.
-  - That slaughter renders the limb permitted for him.
+  - That the dispute among the tannaim applies to him exactly as it does to Jews.
+  - That he is exempt entirely, since the limb prohibition was given at Sinai.
   correct: b
   why: the machloket about non-kosher species is only about Jews; for a ben Noach, דִּבְרֵי הַכֹּל.
 - q: How does the Gemara reconcile Rav's requirement of an olive-bulk with the Teharot mishnah about
     a non-kosher bird?
   opts:
-  - By ruling that a limb never needs an olive-bulk.
-  - By reading the mishnah as referring only to a Jew.
   - By explaining the olive-bulk as a trace of meat together with sinews and bones.
-  - By saying the mishnah is a lone dissenting view.
-  correct: c
-  why: בְּמַשֶּׁהוּ בָּשָׂר גִּידִין וַעֲצָמוֹת; there is a full limb but no olive-bulk of edible flesh.
-- q: What underlying question divides Rebbi and Rabbi Elazar bar Rabbi Shimon about a whole live bird?
+  - By reading Rav's requirement as rabbinic and the mishnah's as Torah law.
+  - By restricting Rav's ruling to a kosher bird and the mishnah's to a non-kosher one.
+  - By saying the mishnah speaks of impurity while Rav speaks about eating.
+  correct: a
+  why: בְּמַשֶּׁהוּ בָּשָׂר גִּידִין וַעֲצָמוֹת; there is a full limb but no olive-bulk of edible
+    flesh.
+- q: What underlying question divides Rebbi and Rabbi Elazar bar Rabbi Shimon about a whole live
+    bird?
   opts:
-  - Whether the bird is kosher or non-kosher.
-  - Whether a person's thought about food has halachic weight.
+  - Whether a bird counts as a complete entity that is never nullified.
+  - Whether the olive-bulk is measured with the feathers or without them.
   - Whether in its lifetime the creature already stands divided into limbs.
-  - Whether slaughter would have permitted it.
+  - Whether the prohibition of a limb applies to birds at all, or only to animals.
   correct: c
-  why: בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת; if it already stands in limbs, eating it whole is eating its limbs.
+  why: בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת; if it already stands in limbs, eating it whole is eating
+    its limbs.
 - q: Why is the kelanita invoked, and then set aside?
   opts:
+  - It is the smallest kosher bird known to the Sages, and so fixes the minimum size at which the
+    prohibition of a limb can apply to a bird at all.
   - It is a bird with a limb that reaches an olive-bulk though its whole body does not — but being
     non-kosher, the case is reread as a kosher bird like it.
-  - It is a fish whose brine is nearly two hundred to one.
-  - It is a wild animal excluded by Rabbi Meir.
-  - It is a bird that has no sinews at all.
-  correct: a
+  - It is a bird whose limbs never reach an olive-bulk, which would settle the question, except that
+    the mishnah turns out to be speaking of animals rather than birds.
+  - It is a bird the Sages could not classify as kosher or non-kosher, so no ruling about it could
+    be used to decide the matter either way.
+  correct: b
   why: the kelanita fits the shiur puzzle, but as a non-kosher bird it fails the seifa, so כְּעֵין
     קְלָנִיתָא.
 - q: What is the point of Rava's twin "im timtzi lomar" cases?
   opts:
-  - That thought about food never matters.
+  - That a limb and flesh from the living always carry two separate sets of lashes.
+  - That intention is irrelevant, and only the physical act determines liability here.
+  - That the measure of an olive-bulk is waived wherever the bird is swallowed whole and still alive.
   - That if thought counts, one's private plan (limb by limb, or dead) can change liability.
-  - That a whole bird is always treated as a single limb.
-  - That Rebbi and Rabbi Elazar bar Rabbi Shimon in fact agree.
-  correct: b
-  why: מַחְשֶׁבֶת אֳכָלִין שְׁמָהּ מַחְשָׁבָה; intention can carve the bird into limbs, or refuse to.
+  correct: d
+  why: מַחְשֶׁבֶת אֳכָלִין שְׁמָהּ מַחְשָׁבָה; intention can carve the bird into limbs, or refuse
+    to.
 - q: How does Rava answer Abaye's objection that the same act cannot make one man liable and another
     not?
   opts:
-  - He concedes and withdraws the cases.
-  - He says the deed differs physically in each case.
+  - The two cases are in fact different acts, and not the same one at all.
+  - Abaye's objection is conceded, and Rava withdraws the second of the cases.
+  - Liability follows the majority practice, and not the individual's own plan.
   - '"Each according to his own thought" — intention is part of the act.'
-  - He rules that thought never counts after all.
-  correct: c
+  correct: d
   why: זֶה לְפִי מַחְשַׁבְתּוֹ, וְזֶה לְפִי מַחְשַׁבְתּוֹ; the person, not only the deed, is judged.
 - q: According to Rabbi Yochanan, what does the verse "and flesh torn in the field, a tereifa, you
     shall not eat" teach?
   opts:
-  - Only the prohibition of a tereifa.
+  - Only the flesh of an animal that has become a tereifa.
   - Both flesh torn from the living and flesh of a tereifa.
-  - The prohibition of a whole limb from the living.
-  - The prohibition of blood.
+  - Only flesh torn from a living animal, and nothing else.
+  - Neither one; the verse is speaking about carrion instead.
   correct: b
-  why: for Rabbi Yochanan the first verse is ever min hachai; this verse carries both flesh-from-the-
-    living and tereifa — so eating a limb and flesh from the living is two sets of lashes.
+  why: for Rabbi Yochanan the first verse is ever min hachai; this verse carries both flesh-from-the-living
+    and tereifa — so eating a limb and flesh from the living is two sets of lashes.
 ```

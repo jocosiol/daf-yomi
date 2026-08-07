@@ -131,6 +131,18 @@ Master** (Rabba) gave him:
 
 ---
 
+## The distinctions, side by side
+
+Three washings, four questions, and the prose spends three paragraphs getting there:
+
+| The waters | Grade | Poured into | Temperature |
+|---|---|---|---|
+| **First** — before bread | **Mitzva** (the baraita's *chova* is only relative to the optional middle) | A vessel **or** the ground | Hot or cold — up to *הַיָּד סוֹלֶדֶת בָּהֶן*, where the hand recoils |
+| **Middle** — between dishes | **Optional** — but Rav Nachman: an **obligation** between a cooked dish and cheese | — | — |
+| **Last** — before *bircat hamazon* | **Obligation** (*chova*) — Sodomite salt on the hands can blind the eyes | A vessel only; the practical difference is wood slivers | Cold only — hot *מְפַעְפְּעִין אֶת הַיָּדַיִם*, softens the hands and leaves the *zuhama* |
+
+---
+
 ## Key concepts & terms
 
 | Term | Meaning |

@@ -179,6 +179,17 @@ Shimón eximiendo — que es donde empieza mañana.
 
 ---
 
+## Las distinciones, lado a lado
+
+Rav Safra hizo una sola pregunta — ¿por qué habría de importarle a Rav si el sabor llegó al segundo trozo? — y recibió dos rescates completamente distintos:
+
+| De quién es la respuesta | Qué es el caso en realidad | Por qué importa el sabor | Qué prohíbe el resto de la olla |
+|---|---|---|---|
+| **Abaie** | **בְּשֶׁקָּדַם וְסִלְּקוֹ** — cocinado con un solo trozo kosher, y retirado antes de que entraran los demás | El trozo prohibido ya no está; la única vía que queda pasa por el trozo al que dio sabor | Ese trozo intermediario, ahora *nevelá* él mismo — y lo igual no se anula en lo igual |
+| **Rava** | **מִין וּמִינוֹ וְדָבָר אַחֵר** — su propia especie *más* otra cosa, el caldo y las especias | El sabor llegó al segundo trozo **antes** que el caldo y las especias — así que hay dos trozos prohibidos, no uno | **סַלֵּק אֶת מִינוֹ**: los sesenta se cuentan solo contra caldo y especias, suficientes para un trozo pero no para dos |
+
+---
+
 ## Conceptos y términos clave
 
 | Término | Significado |
@@ -245,90 +256,91 @@ de Abaie y Rava no querría aventurar su biografía.
 ```yaml
 - q: ¿Por qué un nervio sciático no identificado entre otros nervios no se anula por la mayoría?
   opts:
-  - Porque los nervios imparten sabor.
+  - Porque los nervios imparten sabor a todo lo que los rodea en la olla.
   - Porque es una entidad completa, una beriá.
-  - Porque es apto para servir a un invitado.
-  - Porque siempre se vende por unidad.
+  - Porque es apto para ponerlo delante de un invitado en la mesa.
+  - Porque los nervios de esta clase siempre se venden por unidad y no por peso.
   correct: b
-  why: 'בְּרִיָּה שָׁאנֵי: una entidad completa es importante sin importar la proporción.'
+  why: בְּרִיָּה שָׁאנֵי — una criatura o cosa entera nunca se anula, por grande que sea la mayoría.
 - q: ¿Qué hace que un trozo de carne resista la anulación incluso según la lectura más estricta de
     "cosas contadas"?
   opts:
+  - Que es una entidad completa que nunca fue dividida.
+  - Que siempre se vende por peso y no por pieza.
+  - Que tiene un sabor lo bastante distintivo como para notarse.
   - Que es apto para ponerlo delante de invitados.
-  - Que es una entidad completa.
-  - Que siempre se vende por peso.
-  - Que tiene un sabor distintivo.
-  correct: a
-  why: חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ לִפְנֵי הָאוֹרְחִים, apto para honrar con él a un invitado.
+  correct: d
+  why: חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד — un trozo digno de servir a un invitado tiene entidad propia.
 - q: ¿Por qué tuvo la mishná que enseñar tanto el nervio sciático como el trozo de carne prohibida?
   opts:
-  - Porque los dos tienen medidas distintas.
   - Porque cada uno queda excluido de la anulación por una razón distinta.
-  - Porque uno es bíblico y el otro rabínico.
-  - Porque Rabí Iehudá disputa solo uno de ellos.
-  correct: b
-  why: uno queda excluido como *beriá*, el otro por su dignidad; ninguna de las dos razones implica
-    la otra, así que צְרִיכָא.
+  - Porque los dos casos llevan medidas distintas para la anulación en la olla.
+  - Porque uno está prohibido por la Torá y el otro solo rabínicamente.
+  - Porque Rabí Iehudá discute solo uno de los dos casos.
+  correct: a
+  why: el nervio es una beriá; el trozo es apto para servir — ninguna razón cubre a la otra.
 - q: Según Rabá bar bar Janá, ¿a qué debe impartir sabor el trozo prohibido?
   opts:
-  - Solo al caldo.
-  - Solo al caldo y a los trozos.
-  - A cualquiera de los tres.
+  - Solo al caldo, y a nada más.
+  - Al caldo y a los trozos, pero no al sedimento.
   - Al caldo, al sedimento y a los trozos.
-  correct: d
-  why: el רוֹטֶב, la קִיפָּה y las חֲתִיכוֹת, todos juntos.
+  - A cualquiera de los tres por sí solo basta.
+  correct: c
+  why: בֵּין בַּקְּדֵירָה בֵּין בַּקִּיפָּה בֵּין בַּחֲתִיכוֹת — los tres juntos.
 - q: ¿Cuál es el dictamen de Rav sobre un trozo que ha absorbido sabor prohibido?
   opts:
-  - Debe retirarse, pero el resto está permitido.
+  - Debe retirarse, y el resto queda permitido.
   - Se convierte él mismo en carne prohibida y prohíbe todos los trozos.
-  - Está prohibido solo para un cohén.
-  - Se anula si hay sesenta veces su volumen.
+  - Está prohibido para un cohén pero permitido para cualquier israelita común.
+  - Se anula cuando hay sesenta veces su volumen frente a él.
   correct: b
-  why: חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, y siendo de la misma especie no se anula.
+  why: חֲתִיכָה עַצְמָהּ נַעֲשֵׂית נְבֵילָה — el trozo se vuelve un objeto prohibido por derecho
+    propio.
 - q: ¿Cómo divulgó Rav esta enseñanza?
   opts:
-  - La escribió en una carta a Erretz Israel.
+  - La escribió en una carta llevada a Erretz Israel.
+  - La enseñó solo a su círculo más cercano de discípulos.
+  - La hizo inscribir en el muro de la academia de Sura.
   - Designó a un divulgador para proclamarla ante él.
-  - La enseñó solo a sus alumnos más cercanos.
-  - La hizo inscribir en la academia.
-  correct: b
-  why: אוֹקֵי אָמוֹרָא עֲלֵיהּ, colocó un divulgador sobre sí mismo para difundirla.
+  correct: d
+  why: אוֹקֵי אָמוֹרָא עֲלֵיהּ — puso un meturgemán para anunciarla públicamente.
 - q: ¿Cómo explica Rava por qué importa el sabor que entra en el segundo trozo?
   opts:
-  - El trozo prohibido se retiró antes de añadir los demás.
-  - Una vez que dos trozos están prohibidos, el caldo y las especias ya no son sesenta veces su
-    volumen.
-  - Los nervios no imparten sabor.
-  - Rabí Iehudá no sostiene que lo igual se anule en lo igual.
-  correct: b
-  why: bajo סַלֵּק אֶת מִינוֹ, solo cuentan el caldo y las especias, y no pueden anular dos trozos
-    prohibidos.
+  - Rabí Iehudá no sostiene que lo igual se anule dentro de su propia especie, así que aquí nada
+    se anula.
+  - El trozo prohibido había sido retirado antes de añadir los demás a la olla.
+  - Los nervios no imparten sabor, así que el segundo trozo nunca absorbió nada.
+  - Una vez que dos trozos están prohibidos, el caldo y las especias ya no son sesenta veces su volumen.
+  correct: d
+  why: el volumen prohibido se duplica, así que el sesenta que cubría un trozo ya no cubre dos.
 - q: ¿Cuál es la prueba de Rabí Iehudá de que el nervio sciático se aplica a un animal no kosher?
   opts:
-  - Una tradición del Sinaí sobre especies no kosher.
+  - Una tradición recibida en el Sinaí extiende la prohibición del nervio a toda especie no kosher.
+  - El versículo habla de "todo animal", frase que abarca también a las especies no kosher.
   - Les fue prohibido a los hijos de Iaakov cuando la carne no kosher todavía les estaba permitida.
-  - El versículo menciona "todo animal".
-  - Los nervios no tienen sabor, así que ninguna otra prohibición compite.
-  correct: b
-  why: Bereshit 32:33 obligó a los hijos de Iaakov cuando la carne no kosher todavía les estaba
-    permitida.
+  - Los nervios no tienen sabor, así que ninguna prohibición rival puede fijarse en el nervio.
+  correct: c
+  why: en ese momento los hijos de Iaakov podían comer carne no kosher, así que el nervio se prohibió
+    primero.
 - q: ¿Qué prueba el feto abortado de la mishná de Nazir?
   opts:
-  - Que los nervios se forman antes que los miembros.
   - Que los miembros se forman antes que los nervios, así que la carne se prohíbe primero.
-  - Que un feto no es una entidad completa.
-  - Que la prohibición del guid se aplica a un feto.
-  correct: b
-  why: שֶׁלֹּא נִקְשְׁרוּ אֲבָרָיו בְּגִידִין muestra que los miembros preceden a los nervios, así que las dos
-    prohibiciones no son simultáneas.
-- q: ¿Cómo permite finalmente la Guemará que la prohibición del guid surta efecto sobre un animal no
-    kosher?
+  - Que los nervios se forman antes que los miembros en el feto en desarrollo.
+  - Que un feto no cuenta como entidad completa, una beriá.
+  - Que la prohibición del nervio se aplica al feto igual que a un animal ya crecido del todo.
+  correct: a
+  why: el feto ya tiene miembros antes de tener nervios, así que la prohibición de la carne precede
+    a la del nervio.
+- q: ¿Cómo permite finalmente la Guemará que la prohibición del guid surta efecto sobre un animal
+    no kosher?
   opts:
-  - Las dos prohibiciones llegan exactamente en el mismo momento.
-  - Rabí Iehudá en realidad acepta isur jal al isur.
+  - Las dos prohibiciones entran en vigor exactamente en el mismo instante, así que ambas se fijan
+    a la vez.
+  - Rabí Iehudá en realidad acepta que una prohibición se fije sobre otra prohibición.
+  - La carne de un animal no kosher no está en realidad prohibida de entrada.
   - La prohibición del guid se aplica a los noájidas, así que añade una estrictez que la otra no
     tiene.
-  - La carne de un animal no kosher no está realmente prohibida.
-  correct: c
-  why: אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ; la estrictez añadida le permite posarse sobre la prohibición existente.
+  correct: d
+  why: obliga también a los noájidas, cosa que la prohibición de lo no kosher no hace — es un isur
+    mosif.
 ```

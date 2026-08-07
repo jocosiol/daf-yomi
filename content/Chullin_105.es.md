@@ -129,6 +129,18 @@ razón más profunda que le dio **el Maestro** (Rabá):
 
 ---
 
+## Las distinciones, lado a lado
+
+Tres lavados, cuatro preguntas — y a la prosa le lleva tres párrafos llegar hasta ahí:
+
+| Las aguas | Grado | Vertidas en | Temperatura |
+|---|---|---|---|
+| **Primeras** — antes del pan | **Mitzvá** (la *jová* de la baraita es solo en relación con las intermedias, opcionales) | Un recipiente **o** el suelo | Calientes o frías — hasta *הַיָּד סוֹלֶדֶת בָּהֶן*, donde la mano se retrae |
+| **Intermedias** — entre platos | **Opcional** — pero Rav Najmán: **obligación** entre un plato cocido y el queso | — | — |
+| **Últimas** — antes de *bircat hamazón* | **Obligación** (*jová*) — la sal de Sodoma en las manos puede cegar los ojos | Solo un recipiente; la diferencia práctica son las astillas de madera | Solo frías — el agua caliente *מְפַעְפְּעִין אֶת הַיָּדַיִם*, ablanda las manos y deja la *zuhamá* |
+
+---
+
 ## Conceptos y términos clave
 
 | Término | Significado |

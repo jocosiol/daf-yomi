@@ -146,6 +146,22 @@ begins.
 
 ---
 
+## The distinctions, side by side
+
+One question runs through the whole second half — does liability follow the **throat's pleasure** or the **arrival in the stomach**? Asked of each case in turn, it also shows where the two do *not* argue:
+
+| The case | R' Yochanan — *נֶהֱנָה גְּרוֹנוֹ* | Reish Lakish — *אֲכִילָה בְּמֵעָיו* |
+|---|---|---|
+| Split **outside** the mouth, the halves eaten separately | Exempt | Exempt |
+| A whole olive-bulk in, split **inside**, the halves swallowed in turn | **Liable** | **Exempt** |
+| Wedged **בֵּין הַשִּׁינַּיִם**, between the teeth | Does not count | Does not count |
+| Sitting **בֵּין הַחֲנִיכַיִים**, on the gums | **Counts** | **Does not count** |
+| Half an olive-bulk, vomited, then another half | **Liable** | Not stated |
+
+Two voices sit outside the grid: **Rabbi Elazar**, who convicts even in the first row — lacking mere *proximity* is not lacking an act — and **Rav Kahana**, who shows how Reish Lakish can ever convict at all, with a *גְּרוֹמִיתָא זְעֵירְתָּא* swallowed whole.
+
+---
+
 ## Key concepts & terms
 
 | Term | Meaning |
@@ -220,92 +236,95 @@ Chiyya** the Tanna.
 - q: How does Rav Yosef reconcile Reish Lakish saying "one" here with his apparent agreement to "two"
     for a limb and a tereifa?
   opts:
-  - He rereads the earlier statement as Rabbi Yochanan's alone.
   - Two animals — all agree two; one animal — that is where they disagree.
-  - He rules that a tereifa is never counted separately.
-  - He says Reish Lakish retracted.
-  correct: b
+  - Reish Lakish retracted the position he had stated about a single animal.
+  - The two statements come from different students reporting him.
+  - One case is Torah law and the other is only rabbinic in force.
+  correct: a
   why: בִּשְׁתֵּי בְּהֵמוֹת all agree שְׁתַּיִם; the machloket is only בִּבְהֵמָה אַחַת.
 - q: In Abaye's "born a tereifa" case, what does "the animal stands divided into limbs even while
     alive" produce?
   opts:
-  - The limb-prohibition never applies at all.
+  - The tereifa-prohibition comes first and blocks the limb prohibition entirely.
   - The limb- and tereifa-prohibitions are born together and both take effect.
-  - Only the tereifa-prohibition applies.
-  - Slaughter would permit the limb.
+  - Neither prohibition takes effect, since the animal was never fully alive.
+  - The limb prohibition alone applies, since it binds Noahides as well.
   correct: b
-  why: if it is already בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת, the two issurim come בַּהֲדֵי הֲדָדֵי and neither
-    blocks the other.
+  why: if it is already בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת, the two issurim come בַּהֲדֵי הֲדָדֵי and
+    neither blocks the other.
 - q: What is Rava's alternative picture of the single-animal case?
   opts:
-  - The animal became a tereifa long after birth.
+  - The animal was already a tereifa before the limb was ever torn from it.
+  - He slaughtered the animal improperly and then removed a limb from it.
   - He tore off a limb and by that very act rendered the animal a tereifa.
-  - He ate the limb of an already-slaughtered animal.
-  - Two people ate from one animal.
-  correct: b
-  why: תָּלַשׁ מִמֶּנָּה אֵבֶר וּטְרָפָהּ בּוֹ — the severing itself is what makes it a tereifa, so the two
-    prohibitions are simultaneous.
+  - The limb was torn from an animal that only later became a tereifa on its own.
+  correct: c
+  why: תָּלַשׁ מִמֶּנָּה אֵבֶר וּטְרָפָהּ בּוֹ — the severing itself is what makes it a tereifa,
+    so the two prohibitions are simultaneous.
 - q: Why can the tereifa-prohibition take effect on forbidden fat but not on a limb from the living?
   opts:
-  - Because fat has more taste.
-  - Because fat is more stringent than a limb.
+  - Because forbidden fat carries a full Torah prohibition while a limb from the living is rabbinic
+    in force only.
+  - Because fat binds Noahides and a limb from the living does not bind them at all.
+  - Because a limb is a complete entity and fat is not, so nothing can attach to it.
   - Because fat is permitted as an exception (of an undomesticated animal), and a limb has no such
     exception.
-  - Because a limb binds gentiles as well as Jews.
-  correct: c
-  why: חֵלֶב הוּתַּר מִכְּלָלוֹ, so a later issur can land on it; אֵבֶר has no permitted case, so nothing
-    lands on it.
-- q: If one puts a whole olive-bulk limb in his mouth and swallows it in two separate parts, why does
-    Rabbi Yochanan hold him liable?
+  correct: d
+  why: חֵלֶב הוּתַּר מִכְּלָלוֹ, so a later issur can land on it; אֵבֶר has no permitted case, so
+    nothing lands on it.
+- q: If one puts a whole olive-bulk limb in his mouth and swallows it in two separate parts, why
+    does Rabbi Yochanan hold him liable?
   opts:
-  - Because he ate it at night.
   - Because his throat took pleasure in a full olive-bulk.
-  - Because a limb never needs an olive-bulk.
-  - Because he intended to eat it whole.
-  correct: b
+  - Because the two parts joined again once they reached the stomach.
+  - Because an olive-bulk is measured at the moment of chewing.
+  - Because he intended from the outset to swallow the whole limb.
+  correct: a
   why: הֲרֵי נֶהֱנָה גְּרוֹנוֹ בִּכְזַיִת — for Rabbi Yochanan liability follows the throat's pleasure.
 - q: On what does Reish Lakish's exemption in that case rest?
   opts:
-  - The pieces were less than a half-olive each.
+  - We require that the limb be swallowed whole and without any chewing.
+  - We require that the person intend to eat a full olive-bulk at one time.
   - We require an act of eating that reaches the stomach as an olive-bulk.
-  - The limb was from a non-kosher animal.
-  - The food was stuck between his teeth.
-  correct: b
-  why: אֲכִילָה בְּמֵעָיו בָּעֵינַן וְלֵיכָּא — a full olive-bulk never arrives in the stomach at once.
+  - We require an olive-bulk of meat alone, without any bone or sinew counted in.
+  correct: c
+  why: אֲכִילָה בְּמֵעָיו בָּעֵינַן וְלֵיכָּא — a full olive-bulk never arrives in the stomach at
+    once.
 - q: According to Rav Kahana, how can one be liable for a limb from the living even on Reish Lakish's
     view?
   opts:
-  - By eating it raw.
+  - By eating a limb from a bird rather than from a domesticated animal of the flock.
+  - By eating an olive-bulk of meat with no bone or sinew attached at all.
+  - By eating the limb while it is still attached to the living animal.
   - By swallowing a small bone that is an olive-bulk of meat, bone and sinew whole.
-  - By eating two olive-bulks.
-  - By chewing it thoroughly first.
-  correct: b
+  correct: d
   why: בִּגְרוֹמִיתָא זְעֵירְתָּא — a whole olive-bulk reaches the stomach undivided.
 - q: What does Rav Pappa say the teeth-versus-gums dispute actually turns on?
   opts:
+  - Whether any chewing is required at all, or whether swallowing the limb down whole is enough for
+    liability.
   - Whether food between the teeth counts — all agree it does not; they argue about food on the gums.
-  - Whether one used bread to clean the teeth.
-  - Whether the food was hot or cold.
-  - Whether the animal was kosher.
-  correct: a
-  why: בֵּין הַשִּׁינַּיִם is excluded by all; the machloket is בֵּין הַחֲנִיכַיִים — throat-pleasure versus
-    stomach-arrival again.
+  - Whether the teeth belong to the mouth or already to the throat for this purpose.
+  - Whether food on the gums counts — all agree it does; they argue about the teeth.
+  correct: b
+  why: בֵּין הַשִּׁינַּיִם is excluded by all; the machloket is בֵּין הַחֲנִיכַיִים — throat-pleasure
+    versus stomach-arrival again.
 - q: In the story, why was Rabbi Asi silent when Rabbi Elazar pressed him?
   opts:
-  - Because Rabbi Elazar had asked an unanswerable question.
   - Because he had forgotten a ruling he himself used to say before Rabbi Yochanan.
-  - Because he disagreed with Rabbi Yochanan.
-  - Because the halakha follows the stomach.
-  correct: b
+  - Because he disagreed but did not wish to contradict a senior colleague.
+  - Because the question had already been settled and he saw no need to reply.
+  - Because Rabbi Elazar had misquoted Rabbi Yochanan and he was quietly weighing it.
+  correct: a
   why: רַבִּי אַסִּי גְּמָרֵיהּ אִיעֲקַר לֵיהּ — Rabbi Elazar was reminding him of his own forgotten
     teaching.
 - q: With what new subject does the chapter Kol HaBasar open at the end of the daf?
   opts:
-  - The sciatic nerve.
+  - The forbidden fats, and the penalties for eating them deliberately.
+  - The signs of a kosher bird, and the laws of covering the blood after slaughter.
   - Meat cooked in milk, and keeping meat and cheese apart on the table.
-  - The measure of an olive-bulk.
-  - Forbidden fat.
-  correct: b
-  why: כׇּל הַבָּשָׂר אָסוּר לְבַשֵּׁל בְּחָלָב — all meat but fish and grasshoppers, plus the fence against
-    the shared table.
+  - The sciatic nerve of a fetus, and the measures for nullifying it.
+  correct: c
+  why: כׇּל הַבָּשָׂר אָסוּר לְבַשֵּׁל בְּחָלָב — all meat but fish and grasshoppers, plus the fence
+    against the shared table.
 ```
