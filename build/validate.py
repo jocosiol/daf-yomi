@@ -25,6 +25,15 @@ REQUIRED_SECTIONS = {
            "Who's who", "One line to carry with you"],
     "es": ["panorama general", "paso a paso", "Conceptos", "Quién es quién", "Una línea"],
 }
+# The side-by-side grid is wanted on every daf but not required, because some
+# dapim are pure narrative and a forced matrix is worse than none. Missing is a
+# warning; a grid that disagrees across languages is an error.
+GRID_SECTION = {
+    "en": "distinctions, side by side",
+    "es": "distinciones, lado a lado",
+}
+GRID_MIN_COLS, GRID_MAX_COLS = 2, 4
+GRID_MIN_ROWS, GRID_MAX_ROWS = 2, 6
 QUIZ_MIN, QUIZ_MAX = 8, 10
 LETTERS = "abcd"
 
@@ -127,6 +136,75 @@ def check_body(s, rep):
             rep.error(where, f"missing section: ## …{want}…")
     if len(s.body_md) < 1500:
         rep.warn(where, f"body is only {len(s.body_md)} chars — is it complete?")
+
+
+def section_body(s, needle):
+    """The markdown under the first `## …needle…` heading, up to the next H2."""
+    for m in re.finditer(r"^##\s+(.*)$", s.body_md, re.M):
+        if needle.lower() not in m.group(1).strip().lower():
+            continue
+        nxt = re.search(r"^##\s+", s.body_md[m.end():], re.M)
+        end = m.end() + nxt.start() if nxt else len(s.body_md)
+        return s.body_md[m.end():end]
+    return None
+
+
+def grid_shape(section_md):
+    """(columns, data rows) of the first markdown table, or None if there is none.
+
+    The separator row (|---|---|) is what distinguishes a real table from a
+    paragraph that happens to contain pipes, so it has to be there.
+    """
+    rows = [ln.strip() for ln in section_md.splitlines() if ln.strip().startswith("|")]
+    if len(rows) < 3:                                   # header, separator, ≥1 body row
+        return None
+    if not re.fullmatch(r"\|[\s:|-]+\|", rows[1]):
+        return None
+
+    def cells(line):
+        return [c.strip() for c in line.strip().strip("|").split("|")]
+
+    return len(cells(rows[0])), len(rows) - 2
+
+
+def check_grid(s, rep):
+    where = name(s)
+    needle = GRID_SECTION.get(s.lang, GRID_SECTION[i18n.DEFAULT])
+    section = section_body(s, needle)
+    if section is None:
+        rep.warn(where, f"no '## …{needle}…' section — the daf's central distinction "
+                        "is not collapsed into a grid anywhere")
+        return
+    shape = grid_shape(section)
+    if shape is None:
+        rep.error(where, f"the '…{needle}…' section has no markdown table — "
+                         "it must be a grid, not prose")
+        return
+
+    cols, rows = shape
+    if not GRID_MIN_COLS <= cols <= GRID_MAX_COLS:
+        rep.warn(where, f"the side-by-side grid has {cols} columns; "
+                        f"want {GRID_MIN_COLS}–{GRID_MAX_COLS}")
+    if not GRID_MIN_ROWS <= rows <= GRID_MAX_ROWS:
+        rep.warn(where, f"the side-by-side grid has {rows} rows; "
+                        f"want {GRID_MIN_ROWS}–{GRID_MAX_ROWS}")
+
+
+def check_grid_parity(base, tr, rep):
+    """A translated grid must be the same grid — same columns, same rows."""
+    where = name(tr)
+    b = section_body(base, GRID_SECTION.get(base.lang, GRID_SECTION[i18n.DEFAULT]))
+    t = section_body(tr, GRID_SECTION.get(tr.lang, GRID_SECTION[i18n.DEFAULT]))
+    if b is None or t is None:
+        if b is not None and t is None:
+            rep.error(where, f"{name(base)} has a side-by-side grid and this sheet does not")
+        return
+
+    bs, ts = grid_shape(b), grid_shape(t)
+    if bs and ts and bs != ts:
+        rep.error(where, f"the side-by-side grid is {ts[0]}×{ts[1]} but "
+                         f"{bs[0]}×{bs[1]} in {name(base)} — translate the grid, "
+                         "do not reshape it")
 
 
 def check_quiz(s, rep):
@@ -296,12 +374,15 @@ def validate(content_dir):
         check_base_meta(s, rep)
         check_common_meta(s, rep)
         check_body(s, rep)
+        check_grid(s, rep)
         check_quiz(s, rep)
         for tr in s.translations.values():
             check_translation_meta(tr, rep)
             check_common_meta(tr, rep)
             check_body(tr, rep)
+            check_grid(tr, rep)
             check_quiz(tr, rep)
+            check_grid_parity(s, tr, rep)
             check_quiz_parity(s, tr, rep)
 
     check_collection(bases, rep)

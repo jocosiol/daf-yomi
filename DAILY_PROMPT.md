@@ -135,10 +135,39 @@ it matters. A blockquote for the central idea works well.
 subheadings per amud (`### 102a — …`). Bold the moves (**The objection.**, **The answer.**)
 so it can be skimmed. Quote key Aramaic inline with its translation.
 
-**(c) `## Key concepts & terms`** — a markdown table, `| Term | Meaning |`, with the
+**(c) `## The distinctions, side by side`** — one markdown table that collapses the daf's
+central distinction into a grid you can take in at a glance.
+
+This is **not** the terms table. That one is a glossary: term → meaning, one row per word.
+This one is a **matrix**: one row per *case* the daf distinguishes, one column per *question*
+the daf asks of every case, and the same question asked of every row. Chullin 105 is the
+model — the prose spends three paragraphs on the three waters, and the whole thing is a grid:
+
+| Waters | Grade | Poured into | Temperature |
+|---|---|---|---|
+| **First** (before bread) | Mitzva | Vessel **or** the ground | Hot or cold |
+| **Middle** (between dishes) | Optional — but obligatory before cheese | — | — |
+| **Last** (before *bircat hamazon*) | Obligation (*chova*) | Vessel only | Cold only |
+
+Rules that keep it useful:
+
+- **Say nothing the walkthrough did not already establish.** The grid compresses the
+  analysis; it never adds a claim, and every cell should be traceable to a line above it.
+- **2–4 columns, 2–6 rows.** Cells are a phrase, not a sentence — if a cell needs a full
+  sentence, that belongs in the prose.
+- **A dash is a legitimate cell.** "The Gemara does not say" is information; inventing a
+  value to fill the square is not.
+- **Pick the axis the daf actually argues about.** Usually one of: two schools across a set
+  of cases (Beit Shammai / Beit Hillel), one case graded on several tests, a sequence of
+  attempted readings and why each failed, or a permitted/forbidden split.
+- **If the daf genuinely has no clean matrix** — a pure narrative or aggadic stretch — use
+  the section for an ordered table of the sugya's moves instead
+  (`| Move | The claim | How it ends |`), and keep it short. Do not force a grid.
+
+**(d) `## Key concepts & terms`** — a markdown table, `| Term | Meaning |`, with the
 Hebrew/Aramaic term, its transliteration, and what it means on this daf.
 
-**(d) `## Who's who in today's daf`** — for **every** sage named, a one-line ID: era
+**(e) `## Who's who in today's daf`** — for **every** sage named, a one-line ID: era
 (**Tanna** / **Babylonian Amora** / **Eretz-Yisrael Amora**), approximate generation, where
 they lived, and a teacher or famous disputant. Group by era if the list is long.
 - Title tells: **Rav** = Babylonian Amora; **Rabbi** = Tanna or Eretz-Yisrael Amora;
@@ -147,9 +176,9 @@ they lived, and a teacher or famous disputant. Group by era if the list is long.
   Rav Ashi; Rabbi Chiyya vs Rabbi Chiyya bar Abba; Rav Asi vs Rav Ashi.
 - **If you are unsure about a minor figure, say so plainly.** Never invent a biography.
 
-**(e) `## One line to carry with you`** — one memorable takeaway, as a blockquote.
+**(f) `## One line to carry with you`** — one memorable takeaway, as a blockquote.
 
-**(f) `## Chazara — test yourself`** — **the last section**, and the reason to write it last:
+**(g) `## Chazara — test yourself`** — **the last section**, and the reason to write it last:
 the questions should come out of the analysis you have just written.
 
 Not prose — a `yaml` block. The correct answer sits next to its options, so there is no
@@ -220,6 +249,9 @@ the translation cannot disagree with the English about which day it is.
 - **The quiz must be the same quiz.** Question 1 in Spanish is question 1 in English, the
   options stay in the same order, and `correct` is the same letter. Validation compares them
   and fails on a mismatch.
+- **The side-by-side grid must be the same grid** — same columns in the same order, same rows
+  in the same order, only the words translated. Do not add a row the English sheet does not
+  have, or merge two of them. Validation compares the shape and fails on a mismatch.
 - Names use Spanish-Hebrew convention: Abaie, Rabá, Rava, Iehudá, Iojanán, Iehoshúa, Jiiá,
   Janiná, Itzjak, Erretz Israel, cohén, Guemará, baraita, mishná, halajá, trumá, suguiá.
   The tractate name in `title` is transliterated (`Julín`), but **file names never change** —
@@ -232,6 +264,7 @@ the translation cannot disagree with the English about which day it is.
 |---|---|
 | The big picture (read this first) | El panorama general (leer esto primero) |
 | Walking through the sugya, step by step | Recorriendo la suguiá, paso a paso |
+| The distinctions, side by side | Las distinciones, lado a lado |
 | Key concepts & terms | Conceptos y términos clave |
 | Who's who in today's daf | Quién es quién en el daf de hoy |
 | One line to carry with you | Una línea para llevarte |
