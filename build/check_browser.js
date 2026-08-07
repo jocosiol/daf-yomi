@@ -94,6 +94,18 @@ async function open(browser, url) {
     check('cards: rating buttons appear once flipped',
       await page.evaluate(() => !!document.getElementById('knew') && !!document.getElementById('again')));
 
+    // and back again — a card you can only turn once cannot be re-tested
+    await page.click('#flip');
+    check('cards: clicking the card again turns it back to the term',
+      await page.evaluate(() => document.querySelector('.flashcard.flipped') === null &&
+                                !!document.getElementById('show')));
+    check('cards: the hidden face is hidden from screen readers too',
+      await page.evaluate(() => {
+        const f = document.querySelector('.face.front'), b = document.querySelector('.face.back');
+        return f.getAttribute('aria-hidden') === 'false' && b.getAttribute('aria-hidden') === 'true';
+      }));
+    await page.click('#flip');
+
     await page.click('#knew');
     check('cards: rating advances and scores',
       await page.evaluate(() => document.querySelector('.dnum').innerText.includes('2 /') &&

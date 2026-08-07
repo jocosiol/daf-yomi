@@ -87,21 +87,10 @@
             '<span class="meaning">' + c.m + "</span></span>" +
         "</span>" +
       "</button>" +
-      '<div class="nav">' +
-        '<button class="btn ghost" id="prev" type="button"' + (pos ? "" : " disabled") + ">" +
-          T.prev + "</button>" +
-        (flipped
-          ? '<span class="rate">' +
-              '<button class="btn ghost" id="again" type="button">' + T.again + "</button>" +
-              '<button class="btn" id="knew" type="button">' + T.knew + "</button></span>"
-          : '<button class="btn" id="show" type="button">' + T.flip + "</button>") +
-      "</div>";
+      '<div class="nav"></div>';
 
-    on("flip", flip);
-    on("show", flip);
-    on("prev", back);
-    on("again", function () { rate(false); });
-    on("knew", function () { rate(true); });
+    on("flip", turn);
+    renderNav();
   }
 
   function on(id, fn) {
@@ -109,26 +98,36 @@
     if (el) el.addEventListener("click", fn);
   }
 
-  function flip() {
-    if (flipped) return;
-    flipped = true;
-    var el = document.getElementById("flip");
-    el.classList.add("flipped");
-    el.setAttribute("aria-pressed", "true");
-    el.querySelector(".front").setAttribute("aria-hidden", "true");
-    el.querySelector(".back").setAttribute("aria-hidden", "false");
-    // the buttons change with the side showing, so redraw the row beneath
-    var nav = deck.querySelector(".nav");
-    nav.innerHTML =
+  /* Only the row under the card, because turning the card must not rebuild the
+     card — a fresh element has no previous state to transition from, and the
+     flip would jump instead of turning. */
+  function renderNav() {
+    deck.querySelector(".nav").innerHTML =
       '<button class="btn ghost" id="prev" type="button"' + (pos ? "" : " disabled") + ">" +
         T.prev + "</button>" +
-      '<span class="rate">' +
-        '<button class="btn ghost" id="again" type="button">' + T.again + "</button>" +
-        '<button class="btn" id="knew" type="button">' + T.knew + "</button></span>";
+      (flipped
+        ? '<span class="rate">' +
+            '<button class="btn ghost" id="again" type="button">' + T.again + "</button>" +
+            '<button class="btn" id="knew" type="button">' + T.knew + "</button></span>"
+        : '<button class="btn" id="show" type="button">' + T.flip + "</button>");
     on("prev", back);
+    on("show", turn);
     on("again", function () { rate(false); });
     on("knew", function () { rate(true); });
-    document.getElementById("knew").focus();
+  }
+
+  /* Turns the card either way: a flashcard you can only turn once is a card
+     you cannot check yourself against a second time. */
+  function turn() {
+    flipped = !flipped;
+    var el = document.getElementById("flip");
+    el.classList.toggle("flipped", flipped);
+    el.setAttribute("aria-pressed", String(flipped));
+    el.querySelector(".front").setAttribute("aria-hidden", String(flipped));
+    el.querySelector(".back").setAttribute("aria-hidden", String(!flipped));
+    renderNav();
+    // the rating is the next thing wanted, so put the keyboard on it
+    if (flipped) document.getElementById("knew").focus();
   }
 
   function rate(ok) {
@@ -186,9 +185,10 @@
       // a focused button activates itself on these; don't also act on them here
       if (e.target && e.target.closest && e.target.closest("button")) return;
       e.preventDefault();                       // space would scroll the page
-      if (flipped) rate(true); else flip();
+      turn();                                   // as the hint says: it flips
     } else if (e.key === "ArrowRight") {
-      if (flipped) rate(true); else flip();
+      // keep going: show the meaning, or take the card as known and move on
+      if (flipped) rate(true); else turn();
     } else if (e.key === "ArrowLeft") {
       back();
     } else if (e.key === "1") {
