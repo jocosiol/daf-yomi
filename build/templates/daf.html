@@ -10,6 +10,11 @@
     </div>
   </header>
 
+  {# Above the tabs, not inside a view, so it is on screen whichever tab is open. #}
+  <div class="disclaimer top" role="note">⚠️
+  {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].disclaimer }}</span>{% endfor -%}
+  </div>
+
   <div class="tabs" role="tablist">
     <button class="tab active" type="button" role="tab" aria-selected="true"
             aria-controls="learn" data-v="learn">📖&nbsp;
@@ -46,6 +51,10 @@
     </div>
   </section>
   {% endif %}
+
+  <footer class="disclaimer foot" role="note">
+  {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].disclaimer_foot }}</span>{% endfor -%}
+  </footer>
 </div>
 {% if has_quiz %}
 <script>window.QUIZ_BY_LANG = {{ quiz_json|safe }};</script>

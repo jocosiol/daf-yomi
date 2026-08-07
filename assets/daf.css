@@ -60,6 +60,16 @@ html[lang="es"] [data-lang~="es"]{display:revert}
   padding:14px 18px;background:var(--panel);border:1px solid var(--line);
   border-radius:12px}
 
+/* ---- provenance notice ----
+   Rendered twice per daf: once above the tabs, so it is visible on both views,
+   and once at the foot. Deliberately not hidden in print — a printed sheet
+   travels further than the page it came from. */
+.disclaimer{font-size:.86rem;line-height:1.5;color:var(--muted);
+  padding:11px 16px;background:var(--panel);border:1px solid var(--line);
+  border-radius:12px}
+.disclaimer.top{margin:10px 0 4px;text-align:center}
+.disclaimer.foot{margin-top:26px;border-style:dashed;background:none}
+
 /* ---- site nav ---- */
 #site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
 #site-nav a,#lang-btn{

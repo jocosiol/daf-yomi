@@ -126,6 +126,12 @@
    data-lang="en es" marks a block that stands in for both. */
 [data-lang]{display:none}
 html[lang="en"] [data-lang~="en"],html[lang="es"] [data-lang~="es"]{display:revert}
+/* Provenance notice — top and foot. This page predates content/ and is not
+   rebuilt, so the rules the pipeline keeps in daf.css are repeated here. */
+.disclaimer{font-size:.86rem;line-height:1.5;color:#6a5a3d;padding:11px 16px;
+  background:#fffdf8;border:1px solid #e2d3b3;border-radius:12px}
+.disclaimer.top{margin:10px 0 4px;text-align:center}
+.disclaimer.foot{margin-top:26px;border-style:dashed;background:none}
 @media print{#site-nav{display:none}}
 </style>
 <script id="daf-lang">
@@ -179,6 +185,8 @@ html[lang="en"] [data-lang~="en"],html[lang="es"] [data-lang~="es"]{display:reve
     <h1>Daf Yomi — Chullin 97 (חולין צז)</h1>
     <div class="sub">Chapter 7: <em>Gid HaNasheh</em> (the sciatic nerve) · Study date: Wed, 5 August 2026</div>
   </header>
+
+  <div class="disclaimer top" role="note">⚠️ AI-generated study aid, built with the Sefaria APIs. It does not replace learning the daf itself.</div>
 
   <div class="tabs">
     <button class="tab active" data-v="learn">📖 Learn</button>
@@ -320,6 +328,8 @@ html[lang="en"] [data-lang~="en"],html[lang="es"] [data-lang~="es"]{display:reve
     <div class="quiz" id="quizCard"></div>
     <div class="hint">Tip: press keys 1–4 to answer, Enter for next.</div>
   </section>
+
+  <footer class="disclaimer foot" role="note">This sheet was written by AI from texts retrieved through the Sefaria APIs. It can be incomplete or mistaken, and it is only a helper for your learning — not a substitute for learning the actual daf in the Gemara. Check anything you rely on against the source.</footer>
 </div>
 
 <script>

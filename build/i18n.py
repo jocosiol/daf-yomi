@@ -41,6 +41,14 @@ UI = {
         "nav_archive": "🗂 Archive",
         # shown when a daf has no sheet in the reader's language
         "untranslated": "",
+        # top of every daf page, and again at the foot
+        "disclaimer": "AI-generated study aid, built with the Sefaria APIs. "
+                      "It does not replace learning the daf itself.",
+        "disclaimer_foot": "This sheet was written by AI from texts retrieved through the "
+                           "Sefaria APIs. It can be incomplete or mistaken, and it is only a "
+                           "helper for your learning — not a substitute for learning the "
+                           "actual daf in the Gemara. Check anything you rely on against "
+                           "the source.",
     },
     "es": {
         "learn": "Aprender",
@@ -54,6 +62,13 @@ UI = {
         "nav_today": "📖 Hoy",
         "nav_archive": "🗂 Archivo",
         "untranslated": "Esta hoja todavía no está traducida al español; abajo está la versión en inglés.",
+        "disclaimer": "Hoja generada por IA con las APIs de Sefaria. "
+                      "No reemplaza el estudio del daf mismo.",
+        "disclaimer_foot": "Esta hoja fue escrita por una inteligencia artificial a partir de "
+                           "textos obtenidos mediante las APIs de Sefaria. Puede contener "
+                           "errores u omisiones, y es solo una ayuda para tu estudio, no un "
+                           "sustituto de aprender el daf mismo en la Guemará. Verifica en la "
+                           "fuente todo aquello en lo que te apoyes.",
     },
 }
 
