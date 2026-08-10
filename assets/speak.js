@@ -35,12 +35,23 @@
   }
 
   var TAG = { en: "en-US", es: "es-ES", he: "he-IL" };
-  var MAX = 220;                       // characters per utterance
+  /* An utterance boundary is not free: the voice stops, pauses, and starts the
+     next one with its intonation reset to neutral. Cut a paragraph into three
+     and it stops sounding like someone reading a paragraph. So a paragraph is
+     said in one breath — no paragraph in these sheets comes near this ceiling,
+     which is here only to bound a freak table row. A voice that synthesises
+     over the network is the exception: it gets cut off after a few seconds, so
+     for those the text is broken at sentence ends and choppy beats silence. */
+  var MAX_LOCAL = 1000;
+  var MAX_NET = 220;
   /* Read through these to their parts, so the highlight lands on the sentence
      being said rather than on a whole table. A blockquote is a wrapper too:
      its paragraphs read as paragraphs. */
   var WRAP = /^(?:DIV|BLOCKQUOTE|UL|OL|TABLE|THEAD|TBODY|TFOOT|SECTION)$/;
   var MUTE = /^(?:HR|BUTTON|SCRIPT|STYLE|IMG|BR)$/;
+  // A letter or a digit — Latin, accented Latin, or Hebrew. Anything without
+  // one of these is punctuation, and a voice saying punctuation is noise.
+  var SPEAKABLE = /[0-9A-Za-zÀ-ɏ֐-׿יִ-ﭏ]/;
 
   // ---- voices ----------------------------------------------------------
   // getVoices() is empty until the list arrives, so it is re-read rather than
@@ -133,9 +144,50 @@
   function runs(el) {
     var out = [];
     walk(el, sheetLang(el), out);
-    return out.map(function (r) {
-      return { lang: r.lang, text: r.text.replace(/\s+/g, " ").trim() };
-    }).filter(function (r) { return /[^\s.,;:—–-]/.test(r.text); });
+
+    /* Drop the runs with nothing to say and merge what that leaves adjacent.
+       אֵין “בְּשֵׁלָה” אֶלָּא שְׁלֵימָה arrives as five runs, because the two
+       curly quotes are page language sitting inside a Hebrew phrase — and it
+       was being read as five utterances, two of them a quotation mark spoken
+       on its own. It is one Hebrew phrase, and now it is said as one.
+       (A punctuation-only run can only ever appear between two languages:
+       same-language neighbours were already joined on the way in.) */
+    var keep = [];
+    out.forEach(function (r) {
+      if (!SPEAKABLE.test(r.text)) return;
+      var last = keep[keep.length - 1];
+      if (last && last.lang === r.lang) last.text += " " + r.text;
+      else keep.push({ lang: r.lang, text: r.text });
+    });
+
+    return keep.map(function (r) {
+      return { lang: r.lang, text: say(r.text) };
+    }).filter(function (r) { return SPEAKABLE.test(r.text); });
+  }
+
+  /* Small repairs for the ear, not for the eye.
+
+     An em dash is silent in most voices, so "beitzat efroach — an egg with a
+     chick in it" arrives as one breathless phrase; a comma gives it the pause
+     the sentence has on the page. A run that *begins* with a dash is the tail
+     of a sentence whose middle was a Hebrew quotation, and needs no comma at
+     all — the gap between two utterances is already the pause. "108a–108b" is
+     a range and should be said as one, and "R' Yochanan" is a name, not a
+     letter. Punctuation left stranded at either end by a quotation that moved
+     into its own utterance goes too — a sentence beginning ”, is a robot. */
+  function say(text) {
+    return text
+      .replace(/\s+/g, " ")
+      .replace(/(\d[ab]?)\s*[–—]\s*(?=\d)/g, "$1 to ")
+      .replace(/\s*[—–]\s*/g, ", ")
+      .replace(/\bR['’]\s*(?=[A-Z])/g, "Rabbi ")
+      // "What both agree . Where they split" — the gap is the newline the
+      // markdown put inside the table cell, and a voice reads it as a stumble.
+      .replace(/\s+([.,;:!?…])/g, "$1")
+      .replace(/,\s*([,.;:])/g, "$1")
+      .replace(/^[\s—–\-,.;:"'“”‘’]+/, "")
+      .replace(/[\s,;:"'“”‘’]+$/, "")
+      .trim();
   }
 
   function push(out, lang, text) {
@@ -158,19 +210,21 @@
     }
   }
 
-  /* Break at sentence ends, and only inside an overlong sentence at commas —
-     an utterance boundary is a pause, and a pause where the prose has none is
-     worse than a slightly long utterance. */
-  function pieces(text) {
-    return split(text, /[^.!?…]+[.!?…]*\s*/g).reduce(function (acc, s) {
-      return acc.concat(s.length > MAX * 2 ? split(s, /[^,;:]+[,;:]*\s*/g) : [s]);
+  /* Whole, if the voice can take it. Otherwise at sentence ends, and only
+     inside an overlong sentence at commas — a pause where the prose has none
+     is worse than a long utterance. */
+  function pieces(text, voice) {
+    var max = voice && voice.localService ? MAX_LOCAL : MAX_NET;
+    if (text.length <= max) return [text];
+    return split(text, /[^.!?…]+[.!?…]*\s*/g, max).reduce(function (acc, s) {
+      return acc.concat(s.length > max * 2 ? split(s, /[^,;:]+[,;:]*\s*/g, max) : [s]);
     }, []);
   }
 
-  function split(text, re) {
+  function split(text, re, max) {
     var parts = text.match(re) || [text], out = [], buf = "";
     for (var i = 0; i < parts.length; i++) {
-      if (buf && (buf + parts[i]).length > MAX) { out.push(buf.trim()); buf = ""; }
+      if (buf && (buf + parts[i]).length > max) { out.push(buf.trim()); buf = ""; }
       buf += parts[i];
     }
     if (buf.trim()) out.push(buf.trim());
@@ -207,8 +261,9 @@
     var queue = [];
     blocks(head).forEach(function (el) {
       runs(el).forEach(function (r) {
-        if (r.lang === "he" && !voiceFor("he")) return;
-        pieces(r.text).forEach(function (text) {
+        var voice = voiceFor(r.lang);
+        if (r.lang === "he" && !voice) return;
+        pieces(r.text, voice).forEach(function (text) {
           queue.push({ el: el, text: text, lang: r.lang });
         });
       });

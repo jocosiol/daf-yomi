@@ -199,7 +199,9 @@ async function open(browser, url) {
   // ends each utterance on the next tick. That is enough to test the things
   // that can only go wrong at runtime — where a section stops, which voice a
   // Hebrew quotation gets, and what happens when there is no Hebrew voice.
-  // Voices are given as 'en-US' for a plain one, or ['Zarvox', 'en-US'] to name it.
+  // Voices are given as 'en-US' for a plain local one, or ['Zarvox', 'en-US']
+  // to name it, or ['Google US English', 'en-US', false] to make it a network
+  // voice — which is the one kind that gets cut off, so it is chunked short.
   async function stubbedSpeech(url, voiceLangs) {
     const page = await browser.newPage();
     const errors = [];
@@ -218,8 +220,8 @@ async function open(browser, url) {
         configurable: true,
         value: {
           getVoices: () => langs.map(l => Array.isArray(l)
-            ? { name: l[0], lang: l[1], default: false }
-            : { name: 'stub-' + l, lang: l, default: false }),
+            ? { name: l[0], lang: l[1], default: false, localService: l[2] !== false }
+            : { name: 'stub-' + l, lang: l, default: false, localService: true }),
           addEventListener() {},
           speak(u) {
             said.push({ text: u.text, lang: u.lang, voice: u.voice && u.voice.name });
@@ -283,8 +285,18 @@ async function open(browser, url) {
       `${he.length} Hebrew utterance(s)`);
     check('speak: the rest is spoken by the sheet\'s own voice',
       said.filter(s => !/[֐-׿]/.test(s.text)).every(s => s.lang === 'en-US'));
-    check('speak: no utterance is longer than a voice will take',
-      said.every(s => s.text.length <= 600), Math.max(...said.map(s => s.text.length)));
+    // Every utterance boundary is a pause and a reset of the voice's
+    // intonation, which is what made this sound like a robot reading a list.
+    // A local voice can take a whole paragraph, so it gets one.
+    const longest = Math.max(...said.map(s => s.text.length));
+    check('speak: a local voice is given whole paragraphs',
+      longest > 300 && longest <= 1000, longest);
+    check('speak: nothing is said that is only punctuation',
+      said.every(s => /[0-9A-Za-zÀ-ɏ֐-׿]/.test(s.text)),
+      JSON.stringify(said.filter(s => !/[0-9A-Za-zÀ-ɏ֐-׿]/.test(s.text)).map(s => s.text)));
+    check('speak: a quotation is not chopped around its quote marks',
+      said.some(s => /^[֐-׿]/.test(s.text) && s.text.split(/\s+/).length > 2),
+      said.filter(s => /^[֐-׿]/.test(s.text)).length + ' Hebrew utterance(s)');
 
     // finishing releases the button, so the section can be replayed
     check('speak: the button resets when the section ends',
@@ -333,6 +345,20 @@ async function open(browser, url) {
     await new Promise(r => setTimeout(r, 150));
     const es = await page.evaluate(() => window.__said.length && window.__said[0].voice);
     check('speak: Spanish gets Mónica, not Eddy', es === 'Mónica', es);
+    await page.close();
+  }
+
+  // A network voice is the one that gets cut off mid-word, so it — and only it
+  // — is fed short utterances.
+  {
+    const { page } = await stubbedSpeech(`${BASE}/Chullin_98.html?lang=en`,
+      [['Google US English', 'en-US', false], ['stub-he-IL', 'he-IL', false]]);
+    await page.evaluate(() => document.querySelector('.sheet[data-lang~="en"] h2 button.speak').click());
+    await settled(page);
+    const longest = await page.evaluate(() =>
+      Math.max(...window.__said.map(s => s.text.length)));
+    check('speak: a network voice is fed utterances it will not cut off',
+      longest > 0 && longest <= 260, longest);
     await page.close();
   }
 

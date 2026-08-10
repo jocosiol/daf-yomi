@@ -68,8 +68,36 @@ A Hebrew quotation is spoken by a Hebrew voice, and **skipped** where the browse
 rather than handed to a voice that would spell it out — every quotation in these sheets is
 followed by its translation. The voice follows the language of the *body*, which the build
 stamps on each sheet as `data-speak-lang`: an untranslated daf reads in English even for a
-reader whose chrome is Spanish. Text is broken at sentence ends because a long utterance
-gets cut off mid-word.
+reader whose chrome is Spanish.
+
+### Why it stops sounding like a robot
+
+Mostly by **not chopping the text up**. Every utterance boundary is a pause *and* a reset of
+the voice's intonation to neutral, so a paragraph split into three stops sounding like
+someone reading a paragraph. The first version capped utterances at 220 characters and spent
+66 of them on a single section; a paragraph is now said in one breath. Only a voice that
+synthesises over the network is chunked short, because that is the one that gets cut off
+after a few seconds.
+
+The rest is repairing what the page does for the eye and the ear cannot use:
+
+- A **run of nothing but punctuation is dropped**, and that merges what it separated.
+  `אֵין “בְּשֵׁלָה” אֶלָּא שְׁלֵימָה` arrived as five runs — the curly quotes are page
+  language sitting inside a Hebrew phrase — and was read as five utterances, two of them a
+  quotation mark spoken on its own. It is one phrase and is now said as one.
+- An **em dash is silent** in most voices, so `beitzat efroach — an egg with a chick in it`
+  arrived as one breathless phrase. It becomes a comma, which is the pause the sentence has
+  on the page. `108a–108b` is a range, so it becomes `108a to 108b`, and `R' Yochanan` is a
+  name, so it becomes `Rabbi Yochanan`.
+- The **newline markdown leaves inside a table cell** was being read as a stumble:
+  `What both agree . Where they split`. Space before punctuation is closed up.
+
+What none of this can fix is the voice itself. macOS ships Samantha and a pile of novelties;
+the free **(Enhanced)** and **(Premium)** voices are a different era of synthesis, and
+`speak.js` already prefers one the moment it exists — **System Settings → Accessibility →
+Spoken Content → System Voice → Manage Voices**. Genuinely natural speech means neural TTS,
+which means pre-generating audio at build time: a paid API per character, and ~10–25 MB per
+daf per language, which a git-backed Pages site cannot carry for long.
 
 ## Why the sheets look like this
 
