@@ -15,9 +15,10 @@
 
    3. Folding. Below the breakpoint the three text columns have stacked, and a
       daf of Gemara followed by every word of both commentaries is a very long
-      scroll. There the commentary blocks collapse behind their heading. That is
-      done here rather than in the markup so the page never ships content the
-      reader cannot get at.
+      scroll. There the commentary blocks collapse behind their heading. The
+      passages under the printed page fold the same way, at every width, each
+      opening onto its English. Both are shut here rather than in the markup, so
+      the page never ships content the reader cannot get at.
 
    The one thing it does rather than merely reveal is load the scans: two PDFs of
    ~140 KB each, from someone else's server, so their `src` is set the first time
@@ -118,6 +119,20 @@
   heads.forEach(function (h) {
     h.addEventListener("click", function () {
       h.dataset.touched = "1";
+      setOpen(h, h.parentNode.classList.contains("collapsed"));
+    });
+  });
+
+  /* ---- line by line, under the printed page ----------------------------- */
+  /* The page itself cannot answer a tap: it is a cross-origin PDF drawn by the
+     browser's viewer, and its fonts carry no usable Unicode map, so there is no
+     telling which words a click landed on. So the passages sit underneath it and
+     each opens onto its English. Shut here rather than in the markup, for the
+     same reason as the margins: the page never ships text it cannot reveal. */
+  root.querySelectorAll(".daf-lines .line-head").forEach(function (h) {
+    if (h.tagName !== "BUTTON") return;         // nothing to open: no translation
+    setOpen(h, false);
+    h.addEventListener("click", function () {
       setOpen(h, h.parentNode.classList.contains("collapsed"));
     });
   });

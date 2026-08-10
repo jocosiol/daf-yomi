@@ -249,6 +249,34 @@ async function open(browser, url) {
       check('daf tab: a full-size link that does not need the frame',
         /shas\.org.*amud=a$/.test(pdfLink), pdfLink);
 
+      // The page cannot answer a tap, so the passages under it do. One row per
+      // Sefaria segment, in printed order, each opening onto its English.
+      const rows = await page.evaluate(() =>
+        document.querySelectorAll('.daf-scan .daf-lines .line').length);
+      const segs = await page.evaluate(() =>
+        document.querySelectorAll('.daf-text .seg').length);
+      check('daf tab: a line under the page for every passage of it',
+        rows === segs && rows > 0, `${rows} lines vs ${segs} passages`);
+      check('daf tab: every line starts shut', await page.evaluate(() =>
+        [...document.querySelectorAll('.daf-lines .line')]
+          .every(l => l.classList.contains('collapsed'))));
+      const enOf = () => page.evaluate(() => {
+        const b = document.querySelector('.daf-lines .line .line-body');
+        return { shown: getComputedStyle(b).display !== 'none', text: b.innerText.trim() };
+      });
+      check('daf tab: its English is not shown until asked', (await enOf()).shown === false);
+      await page.evaluate(() =>
+        document.querySelector('.daf-lines .line button.line-head').click());
+      const opened = await enOf();
+      check('daf tab: tapping a line opens its English',
+        opened.shown && /[A-Za-z]{4,}/.test(opened.text), opened.text.slice(0, 48) + '…');
+      // The Hebrew is written once: the head holds it, clamped when shut.
+      check('daf tab: the Hebrew is not duplicated to do it', await page.evaluate(() => {
+        const l = document.querySelector('.daf-lines .line');
+        return l.querySelectorAll('[lang="he"]').length === 1 &&
+          getComputedStyle(l.querySelector('.line-he')).whiteSpace !== 'nowrap';
+      }));
+
       // ---------- and the text alongside it ----------
       await page.evaluate(() => document.querySelector('.chip[data-mode="text"]').click());
       check('daf tab: the text mode switches over', await page.evaluate(() => {

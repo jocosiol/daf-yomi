@@ -269,10 +269,46 @@ figure.scan figcaption a{font-size:.7rem;font-weight:400;letter-spacing:.06em;
 figure.scan figcaption a:hover{color:var(--accent2)}
 /* The PDF page is A3 with the daf printed across its top three quarters, so at
    fit-to-width this is the height that shows the whole daf and clips only the
-   blank tail below it. White, always: it is a scan of paper, and a dark frame
+   blank tail below it. White, always: it is a page of a book, and a dark frame
    around it looks like a mistake. */
 figure.scan iframe{display:block;width:100%;aspect-ratio:1/1.15;border:0;
   border-radius:8px;background:#fff}
+/* ---- line by line, under the page ----
+   The passages of the amud in printed order, each one's Hebrew clamped to a
+   single line until it is tapped, when it unwraps and its English follows. The
+   Hebrew is written once and lives in the head, so opening a passage adds the
+   translation rather than repeating the text. */
+.daf-lines{margin:0 0 22px;padding:16px 18px 6px;background:var(--panel);
+  border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
+/* Tucked under its own page where :has() is understood, and merely a card
+   below it where it is not — nothing depends on this. */
+figure.scan:has(+ .daf-lines){margin-bottom:10px}
+.lines-head{margin:0 0 10px;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--faint);text-align:center}
+.line{border-top:1px dotted var(--line)}
+.line:first-of-type{border-top:0}
+/* Right to left, so the number sits at the start of the line it numbers and any
+   ellipsis falls at the end of it. Laid out the other way the two drift to
+   opposite edges of the card and a short passage reads as a number alone. */
+.line-head{display:flex;align-items:baseline;gap:10px;width:100%;direction:rtl;
+  padding:9px 2px;border:0;background:none;font-family:inherit;color:var(--ink);
+  font-size:1rem;cursor:pointer}
+.line.bare>.line-head{cursor:default}
+.line-head:hover{color:var(--accent2)}
+.line-head:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.line-head i{flex:0 0 auto;font-style:normal;font-size:.72rem;color:var(--faint);
+  min-width:1.4em}
+.line-he{min-width:0;line-height:1.8}
+/* Closed, a passage is one line of Hebrew with an ellipsis; open, it unwraps. */
+.line.collapsed .line-he{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.line.collapsed .line-head{color:var(--ink-soft)}
+/* The English reads the other way, so it is marked as the translation rather
+   than indented to a Hebrew edge it does not share. */
+.line-body{margin:0 0 14px;padding:2px 0 2px 14px;border-left:2px solid var(--gold-soft);
+  font-size:.98rem;line-height:1.6;color:var(--ink-soft)}
+.line.collapsed .line-body{display:none}
+.line-body b,.line-body strong{color:var(--accent2);font-weight:600}
+
 /* A whole daf at a phone's width is legible to nobody, and no amount of frame
    height fixes that — zooming inside a small frame is worse than the browser's
    own full-screen PDF view. So the frame stays exactly as tall as the daf needs

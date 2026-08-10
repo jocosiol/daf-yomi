@@ -286,8 +286,8 @@ terminology.
 
 ## Step 5 — Build
 
-First cache the daf itself, which the Daf tab shows two ways — the scan of the printed page
-from shas.org, and the Gemara with Rashi and Tosafot from Sefaria:
+First cache the daf itself, which the Daf tab shows two ways — the printed page from
+shas.org, and the Gemara with Rashi and Tosafot from Sefaria:
 
 ```bash
 python3 build/daftext.py --all
@@ -297,8 +297,8 @@ It fetches only what `content/daf/` is missing, so it is a no-op once today's da
 costs nothing on a run that wrote nothing. The build never fetches anything itself; a daf
 with nothing cached is published without its Daf tab, and the build names it.
 
-If it reports no scan for a daf, or you have just moved to a new tractate, check the name
-table:
+If it reports no printed page for a daf, or you have just moved to a new tractate, check
+the name table:
 
 ```bash
 python3 build/dafpdf.py Chullin 108    # this daf

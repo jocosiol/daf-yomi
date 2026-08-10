@@ -153,6 +153,36 @@
         <iframe data-src="{{ a.pdf }}#view=FitH&amp;zoom=page-width&amp;toolbar=0&amp;navpanes=0"
                 title="{{ a.ref }}" loading="lazy"></iframe>
       </figure>
+      {# The page cannot answer a tap — it is a cross-origin PDF drawn by the
+         browser's own viewer, and its fonts carry no usable Unicode map, so
+         there is no telling which words a click landed on. The passages go
+         underneath it instead, in the order they are printed: the Hebrew of each
+         one clamped to a single line, opening onto its English. That is exact,
+         where reading a click's position off the page could only ever guess. #}
+      {% if a.segments %}
+      <div class="daf-lines">
+        <p class="lines-head">
+        {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_lines }}</span>{% endfor -%}
+        </p>
+        {% for s in a.segments %}
+        <div class="line{% if not s.en %} bare{% endif %}">
+          {% if s.en %}
+          <button class="line-head" type="button" aria-expanded="true">
+            <i>{{ loop.index }}</i>
+            <span class="line-he" lang="he" dir="rtl">{{ s.he|safe }}</span>
+          </button>
+          <div class="line-body" lang="en" dir="ltr">{{ s.en|safe }}</div>
+          {% else %}
+          {# Nothing to open: an untranslated passage is just itself. #}
+          <div class="line-head">
+            <i>{{ loop.index }}</i>
+            <span class="line-he" lang="he" dir="rtl">{{ s.he|safe }}</span>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
       {% endif %}
       {% endfor %}
     </div>
