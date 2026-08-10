@@ -19,7 +19,7 @@ forgotten on the command line.
 | `i18n.py` | every string the build itself renders, plus per-language date formatting |
 | `build.py` | renders the pages, the archive, the manifest and `assets/` |
 | `templates/` | Jinja: `base.html`, `daf.html`, `archive.html` |
-| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `zman.js` — copied to `assets/` with a content hash |
+| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `speak.js`, `zman.js` — copied to `assets/` with a content hash |
 | `check_browser.js` | drives the built site in headless Chrome (needs `puppeteer-core`) |
 | `migrate_legacy.py` | one-off, already run; its inputs no longer exist. Deletable |
 
@@ -47,6 +47,20 @@ panel wakes itself up on that. **Learn** is the rendered sheet. **Chazara Quiz**
 `## Key concepts`, read out of the same markdown the Learn view renders — the deck cannot
 drift from the sheet, because the glossary is written once. A daf with fewer than
 `build.MIN_CARDS` terms gets no deck and no tab.
+
+## Read aloud
+
+`speak.js` puts a 🔊 button in every heading of the Learn sheet and reads the section under
+it — heading first, then each paragraph, quote, list item and table row until the next
+heading of the same or higher level, highlighting whichever one is being said. It uses the
+browser's own speech synthesis, so nothing is generated at build time.
+
+A Hebrew quotation is spoken by a Hebrew voice, and **skipped** where the browser has none
+rather than handed to a voice that would spell it out — every quotation in these sheets is
+followed by its translation. The voice follows the language of the *body*, which the build
+stamps on each sheet as `data-speak-lang`: an untranslated daf reads in English even for a
+reader whose chrome is Spanish. Text is broken at sentence ends because a long utterance
+gets cut off mid-word.
 
 ## Why the sheets look like this
 

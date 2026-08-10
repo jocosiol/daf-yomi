@@ -368,10 +368,15 @@ def main():
     # Easy to edit static/, build only to --out to look at it, and commit: the
     # source moves, the served assets do not, and the site quietly runs the old
     # code. Say so, and name what is actually stale.
+    # A brand-new asset has no published copy at all — that is the most stale a
+    # file can be, so say so rather than dying in filecmp.
+    def stale_asset(name):
+        published = os.path.join(REPO, "assets", name)
+        return (not os.path.exists(published) or
+                not filecmp.cmp(os.path.join(HERE, "static", name), published, shallow=False))
+
     if os.path.abspath(out_dir) != os.path.abspath(REPO):
-        stale = [n for n, _ in sorted(asset_urls.items())
-                 if not filecmp.cmp(os.path.join(HERE, "static", n),
-                                    os.path.join(REPO, "assets", n), shallow=False)]
+        stale = [n for n in sorted(asset_urls) if stale_asset(n)]
         print(f"\nPreview build — {out_dir}. The published tree at {REPO} was not touched.")
         if stale:
             print(f"  warn   {', '.join(stale)} differ(s) from assets/ there "

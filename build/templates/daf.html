@@ -39,7 +39,10 @@
     <div class="untranslated" data-lang="{{ l }}">{{ ui[l].untranslated }}</div>
     {% endfor %}
     {% for g in groups %}
-    <div class="sheet" data-lang="{{ g.langs }}">
+    {# data-speak-lang is the language of the body itself, which is not always
+       the reader's: an untranslated daf shows its English sheet to a Spanish
+       reader, and speak.js must pick a voice for what is written here. #}
+    <div class="sheet" data-lang="{{ g.langs }}" data-speak-lang="{{ g.lang }}">
       {{ g.learn_html|safe }}
       {% if g.tomorrow.ref %}
       <p class="tomorrow">{{ ui[g.lang].tomorrow }}{% if g.tomorrow.display %} ({{ g.tomorrow.display }}){% endif %}:
@@ -88,4 +91,7 @@
 <script>window.QUIZ_BY_LANG = {{ quiz_json|safe }};</script>
 <script src="{{ asset('quiz.js') }}"></script>
 {% endif %}
+{# Unconditional: every daf has a Learn sheet with headings to read. It adds
+   nothing to the page where the browser has no speech synthesis. #}
+<script src="{{ asset('speak.js') }}"></script>
 {% endblock %}

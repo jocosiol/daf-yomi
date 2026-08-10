@@ -130,6 +130,26 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .sheet li{margin:5px 0}
 .sheet strong{color:var(--accent2)}
 .table-scroll{overflow-x:auto}
+
+/* ---- read aloud ----
+   speak.js hangs one of these inside every heading in the sheet. Inside, not
+   floated beside it, so a heading that wraps keeps its button with the last
+   line instead of parked over the rule. Quiet until wanted; a phone has no
+   hover, so it is never fully invisible. */
+.speak{
+  font:inherit;font-size:.72em;line-height:1;vertical-align:middle;
+  margin-left:9px;padding:4px 8px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--line);background:var(--panel);color:var(--accent);
+  opacity:.55;transition:.18s;
+}
+.speak:hover,.speak:focus-visible{opacity:1;background:var(--gold-soft)}
+.speak.on{opacity:1;background:var(--accent2);color:var(--paper);border-color:var(--accent2)}
+/* the paragraph, quote, item or row being spoken right now */
+.speaking{background:var(--gold-soft);border-radius:6px;box-shadow:0 0 0 3px var(--gold-soft)}
+/* a row cannot take the ring, and it has the zebra stripe to outrank */
+.sheet tr.speaking{background:none;box-shadow:none}
+.sheet tr.speaking td{background:var(--gold-soft)}
+
 /* the jump to the deck, sitting under the glossary table that feeds it */
 .deck-cta{margin:18px 0 2px;text-align:center}
 .tomorrow{margin-top:24px;padding-top:16px;border-top:1px solid var(--line);
@@ -252,7 +272,7 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
   .deck .btn{padding:11px 12px;font-size:.94rem}
 }
 @media print{
-  #site-nav,.tabs,#quiz,#cards,.deck-cta,.hint{display:none!important}
+  #site-nav,.tabs,#quiz,#cards,.deck-cta,.hint,.speak{display:none!important}
   body{background:#fff;color:#000}
   .sheet{border:none;box-shadow:none;padding:0}
 }

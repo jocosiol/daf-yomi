@@ -192,6 +192,135 @@ async function open(browser, url) {
     }
   }
 
+  // ---------- read aloud ----------
+  // Headless Chrome ships no voices, so the real synthesiser would refuse every
+  // utterance and the queue would never move. A stub stands in: it reports the
+  // voices this check wants to exist, records what it was asked to say, and
+  // ends each utterance on the next tick. That is enough to test the things
+  // that can only go wrong at runtime — where a section stops, which voice a
+  // Hebrew quotation gets, and what happens when there is no Hebrew voice.
+  async function stubbedSpeech(url, voiceLangs) {
+    const page = await browser.newPage();
+    const errors = [];
+    page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });
+    page.on('pageerror', e => errors.push(String(e)));
+    await page.evaluateOnNewDocument(langs => {
+      const said = [];
+      window.__said = said;
+      window.__cancels = 0;
+      // speechSynthesis is a prototype getter — plain assignment is ignored.
+      Object.defineProperty(window, 'SpeechSynthesisUtterance', {
+        configurable: true,
+        value: function (text) { this.text = text; }
+      });
+      Object.defineProperty(window, 'speechSynthesis', {
+        configurable: true,
+        value: {
+          getVoices: () => langs.map(l => ({ name: 'stub-' + l, lang: l, default: false })),
+          addEventListener() {},
+          speak(u) {
+            said.push({ text: u.text, lang: u.lang, voice: u.voice && u.voice.lang });
+            setTimeout(() => u.onstart && u.onstart(), 0);
+            setTimeout(() => u.onend && u.onend(), 4);
+          },
+          cancel() { window.__cancels++; }
+        }
+      });
+    }, voiceLangs);
+    await page.goto(url, { waitUntil: 'networkidle0' });
+    return { page, errors };
+  }
+
+  // Let the stub work through the queue, then let it settle.
+  async function settled(page) {
+    let n = -1;
+    for (let i = 0; i < 100; i++) {
+      const now = await page.evaluate(() => window.__said.length);
+      if (now === n) return now;
+      n = now;
+      await new Promise(r => setTimeout(r, 60));
+    }
+    return n;
+  }
+
+  {
+    const { page, errors } = await stubbedSpeech(`${BASE}/Chullin_98.html?lang=en`, ['en-US', 'es-ES', 'he-IL']);
+    check('speak: no console errors', errors.length === 0, errors.join(' | ') || 'none');
+
+    const counts = await page.evaluate(() => {
+      const heads = document.querySelectorAll('.sheet h2, .sheet h3');
+      return [heads.length, [...heads].filter(h => h.querySelector(':scope > button.speak')).length];
+    });
+    check('speak: every heading in the sheet has a button', counts[0] > 0 && counts[0] === counts[1],
+      `${counts[1]} of ${counts[0]}`);
+
+    const heads = await page.evaluate(() =>
+      [...document.querySelectorAll('.sheet[data-lang~="en"] h2')]
+        .map(h => h.textContent.replace(/[🔊⏹]/g, '').trim()));
+    await page.evaluate(() => document.querySelector('.sheet[data-lang~="en"] h2 button.speak').click());
+
+    check('speak: the button shows it is playing',
+      await page.evaluate(() => {
+        const b = document.querySelector('.sheet[data-lang~="en"] h2 button.speak');
+        return b.classList.contains('on') && b.getAttribute('aria-pressed') === 'true';
+      }));
+    check('speak: the block being spoken is marked',
+      await page.evaluate(() => document.querySelectorAll('.speaking').length) === 1);
+
+    await settled(page);
+    const said = await page.evaluate(() => window.__said);
+    check('speak: starts with the heading, without the button glyph',
+      said.length > 3 && said[0].text === heads[0], JSON.stringify(said[0] && said[0].text));
+    check('speak: stops at the next section',
+      !said.some(s => s.text.includes(heads[1].slice(0, 20))), heads[1]);
+
+    const he = said.filter(s => /[֐-׿]/.test(s.text));
+    check('speak: Hebrew is spoken by a Hebrew voice',
+      he.length > 0 && he.every(s => s.lang === 'he-IL' && s.voice === 'he-IL'),
+      `${he.length} Hebrew utterance(s)`);
+    check('speak: the rest is spoken by the sheet\'s own voice',
+      said.filter(s => !/[֐-׿]/.test(s.text)).every(s => s.lang === 'en-US'));
+    check('speak: no utterance is longer than a voice will take',
+      said.every(s => s.text.length <= 600), Math.max(...said.map(s => s.text.length)));
+
+    // finishing releases the button, so the section can be replayed
+    check('speak: the button resets when the section ends',
+      await page.evaluate(() => !document.querySelector('button.speak.on') &&
+                                !document.querySelector('.speaking')));
+
+    // Spanish: the sheet's language decides the voice, not the reader's chrome
+    await page.click('#lang-btn');
+    await page.evaluate(() => { window.__said.length = 0; });
+    await page.evaluate(() => document.querySelector('.sheet[data-lang~="es"] h2 button.speak').click());
+    await new Promise(r => setTimeout(r, 120));
+    const es = await page.evaluate(() => window.__said);
+    check('speak: the Spanish sheet is read in Spanish',
+      es.length > 0 && es.filter(s => !/[֐-׿]/.test(s.text)).every(s => s.lang === 'es-ES'),
+      es.length ? es[0].lang : 'nothing said');
+    const label = await page.evaluate(() =>
+      document.querySelector('.sheet[data-lang~="es"] h2 button.speak').title);
+    check('speak: the button label follows the reader\'s language', /voz alta|lectura/.test(label), label);
+
+    // Escape stops it wherever it is
+    await page.keyboard.press('Escape');
+    check('speak: Escape stops the reading',
+      await page.evaluate(() => window.__cancels > 0 && !document.querySelector('button.speak.on')));
+    await page.close();
+  }
+
+  // With no Hebrew voice installed, the quotations are skipped rather than
+  // handed to a voice that would spell them out letter by letter.
+  {
+    const { page } = await stubbedSpeech(`${BASE}/Chullin_98.html?lang=en`, ['en-US']);
+    await page.evaluate(() => document.querySelector('.sheet[data-lang~="en"] h2 button.speak').click());
+    await settled(page);
+    const said = await page.evaluate(() => window.__said);
+    check('speak: Hebrew is skipped when no Hebrew voice exists',
+      said.length > 3 && !said.some(s => /[֐-׿]/.test(s.text)),
+      `${said.length} utterance(s)`);
+    await page.close();
+  }
+
   // ---------- archive ----------
   // Start from a known language: the daf page above left "es" in localStorage,
   // which is the site-wide-preference feature working, not a clean slate.
