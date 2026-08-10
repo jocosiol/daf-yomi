@@ -199,6 +199,7 @@ async function open(browser, url) {
   // ends each utterance on the next tick. That is enough to test the things
   // that can only go wrong at runtime — where a section stops, which voice a
   // Hebrew quotation gets, and what happens when there is no Hebrew voice.
+  // Voices are given as 'en-US' for a plain one, or ['Zarvox', 'en-US'] to name it.
   async function stubbedSpeech(url, voiceLangs) {
     const page = await browser.newPage();
     const errors = [];
@@ -216,10 +217,12 @@ async function open(browser, url) {
       Object.defineProperty(window, 'speechSynthesis', {
         configurable: true,
         value: {
-          getVoices: () => langs.map(l => ({ name: 'stub-' + l, lang: l, default: false })),
+          getVoices: () => langs.map(l => Array.isArray(l)
+            ? { name: l[0], lang: l[1], default: false }
+            : { name: 'stub-' + l, lang: l, default: false }),
           addEventListener() {},
           speak(u) {
-            said.push({ text: u.text, lang: u.lang, voice: u.voice && u.voice.lang });
+            said.push({ text: u.text, lang: u.lang, voice: u.voice && u.voice.name });
             setTimeout(() => u.onstart && u.onstart(), 0);
             setTimeout(() => u.onend && u.onend(), 4);
           },
@@ -276,7 +279,7 @@ async function open(browser, url) {
 
     const he = said.filter(s => /[֐-׿]/.test(s.text));
     check('speak: Hebrew is spoken by a Hebrew voice',
-      he.length > 0 && he.every(s => s.lang === 'he-IL' && s.voice === 'he-IL'),
+      he.length > 0 && he.every(s => s.lang === 'he-IL' && s.voice === 'stub-he-IL'),
       `${he.length} Hebrew utterance(s)`);
     check('speak: the rest is spoken by the sheet\'s own voice',
       said.filter(s => !/[֐-׿]/.test(s.text)).every(s => s.lang === 'en-US'));
@@ -305,6 +308,31 @@ async function open(browser, url) {
     await page.keyboard.press('Escape');
     check('speak: Escape stops the reading',
       await page.evaluate(() => window.__cancels > 0 && !document.querySelector('button.speak.on')));
+    await page.close();
+  }
+
+  // The voice is chosen, not accepted: macOS lists novelty voices among the
+  // real ones and offers "Eddy" for Spanish before Mónica.
+  {
+    const { page } = await stubbedSpeech(`${BASE}/Chullin_98.html?lang=en`, [
+      ['Albert', 'en-US'], ['Zarvox', 'en-US'], ['Samantha', 'en-US'],
+      ['Samantha (Enhanced)', 'en-US'],
+      ['Eddy (Spanish (Spain))', 'es-ES'], ['Mónica', 'es-ES']
+    ]);
+    await page.evaluate(() => document.querySelector('.sheet[data-lang~="en"] h2 button.speak').click());
+    await new Promise(r => setTimeout(r, 150));
+    const en = await page.evaluate(() => window.__said[0].voice);
+    check('speak: picks a real voice over a novelty one, best build first',
+      en === 'Samantha (Enhanced)', en);
+
+    // the stub races through a section in milliseconds, so there is nothing
+    // left playing to stop by now
+    await page.evaluate(() => { window.__said.length = 0; });
+    await page.click('#lang-btn');
+    await page.evaluate(() => document.querySelector('.sheet[data-lang~="es"] h2 button.speak').click());
+    await new Promise(r => setTimeout(r, 150));
+    const es = await page.evaluate(() => window.__said.length && window.__said[0].voice);
+    check('speak: Spanish gets Mónica, not Eddy', es === 'Mónica', es);
     await page.close();
   }
 

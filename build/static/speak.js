@@ -45,21 +45,60 @@
   // ---- voices ----------------------------------------------------------
   // getVoices() is empty until the list arrives, so it is re-read rather than
   // captured, and the Hebrew question is asked at play time, not at load.
-  var voices = [];
-  function loadVoices() { voices = synth.getVoices() || []; }
+  var voices = [], picked = {};
+  function loadVoices() { voices = synth.getVoices() || []; picked = {}; }
   loadVoices();
   if (synth.addEventListener) synth.addEventListener("voiceschanged", loadVoices);
 
+  /* Which voice reads the daf.
+     Taking the browser's "default", or the first voice that matches the
+     language, is how you end up being read Gemara by a joke: macOS lists
+     Albert, Zarvox and Bad News among its English voices, and offers "Eddy"
+     for Spanish long before Mónica. So the voices are scored — and only
+     scored, never filtered, so even a list of nothing but novelties still
+     yields a voice rather than silence. */
+  var GOOD = {
+    en: ["ava", "allison", "samantha", "susan", "nicky", "tom", "alex", "serena",
+         "daniel", "google us english", "google uk english", "aria", "jenny", "zira"],
+    es: ["mónica", "monica", "paulina", "angélica", "angelica", "marisol",
+         "jorge", "juan", "google español", "sabina", "helena"],
+    he: ["carmit", "google עברית", "asaf"]
+  };
+  // The same voice in the higher-quality build, where the reader has installed
+  // one — macOS calls it "Samantha (Enhanced)".
+  var FINE = /\b(premium|enhanced|natural|neural)\b/i;
+  // Fine for "Bad News". Not for a page of Gemara.
+  var SILLY = new RegExp("^(albert|bad news|bahh|bells|boing|bubbles|cellos|" +
+    "deranged|eddy|flo|fred|good news|grandma|grandpa|hysterical|jester|junior|" +
+    "kathy|organ|pipe organ|princess|ralph|reed|rocko|sandy|shelley|superstar|" +
+    "trinoids|whisper|wobble|zarvox)\\b", "i");
+
+  function score(v, lang) {
+    var name = (v.name || "").toLowerCase(), s = 0;
+    var good = GOOD[lang] || [];
+    for (var i = 0; i < good.length; i++) {
+      if (name.indexOf(good[i]) >= 0) { s += 100 - i; break; }   // earlier is better
+    }
+    if (FINE.test(name)) s += 40;
+    if (SILLY.test(name)) s -= 60;
+    if (v["default"]) s += 5;          // a tie-break, not a decision
+    return s;
+  }
+
   function voiceFor(lang) {
     if (!voices.length) loadVoices();
-    var first = null;
+    if (lang in picked) return picked[lang];
+    var best = null, top = 0;
     for (var i = 0; i < voices.length; i++) {
       var v = voices[i], vl = (v.lang || "").toLowerCase().replace(/_/g, "-");
       if (vl !== lang && vl.indexOf(lang + "-") !== 0) continue;
-      if (v["default"]) return v;      // the platform's own pick for this reader
-      if (!first) first = v;
+      var s = score(v, lang);
+      if (!best || s > top) { best = v; top = s; }   // ties go to the earlier one
     }
-    return first;
+    // Not cached until there is a list to have chosen from, or the first
+    // utterance would pin its answer from before the voices arrived.
+    if (voices.length) picked[lang] = best;
+    return best;
   }
 
   // ---- what to say -----------------------------------------------------

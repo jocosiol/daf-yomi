@@ -55,6 +55,15 @@ it — heading first, then each paragraph, quote, list item and table row until 
 heading of the same or higher level, highlighting whichever one is being said. It uses the
 browser's own speech synthesis, so nothing is generated at build time.
 
+The voice is **chosen, not accepted**. Taking the browser's default — or the first voice
+matching the language — gets you read Gemara by a joke: macOS lists Albert, Zarvox and Bad
+News among its English voices, and offers "Eddy" for Spanish long before Mónica. `speak.js`
+scores the list instead (known-good names first, a bonus for an `(Enhanced)` or `(Premium)`
+build the reader has installed, a penalty for the novelties) and only scores, never filters,
+so even a list of nothing but novelties yields a voice rather than silence. On this Mac that
+lands on Samantha, Mónica and Carmit; install a premium voice in **System Settings →
+Accessibility → Spoken Content** and the page picks it up on its own.
+
 A Hebrew quotation is spoken by a Hebrew voice, and **skipped** where the browser has none
 rather than handed to a voice that would spell it out — every quotation in these sheets is
 followed by its translation. The voice follows the language of the *body*, which the build
