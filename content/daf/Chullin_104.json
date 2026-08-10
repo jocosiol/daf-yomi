@@ -1,0 +1,233 @@
+{
+ "tractate": "Chullin",
+ "page": 104,
+ "fetched": "2026-08-10",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 104a",
+   "he_ref": "חולין ק״ד.",
+   "url": "https://www.sefaria.org/Chullin.104a",
+   "segments": [
+    {
+     "he": "הַנּוֹדֵר מִן הַבָּשָׂר מוּתָּר בִּבְשַׂר דָּגִים וַחֲגָבִים.",
+     "en": "And <b>one who takes a vow</b> that <b>meat</b> is prohibited to him is <b>permitted to</b> eat <b>the meat of fish and grasshoppers.</b>",
+     "rashi": [
+      "<b>הנודר מן הבשר</b> — כל הנודר אין דעתו אלא אחר לשון בני אדם שהוא קורא שם הדבר כך ואשמועינן מתני' דכל מין בשר אדם קורהו בשר חוץ מבשר דגים וחגבים:"
+     ],
+     "tosafot": [
+      "<b>הנודר מן הבשר מותר בבשר דגים וחגבים</b> — בגמרא מוקי לה כר\"ע דכל מילי דמימליך עליה שליח בר מיניה הוא ובפ' הנודר מן הירק (נדרים דף נד:) פריך דבבשר דגים נמי מימלך ומוקי מתניתין דהכא במאן דכאיב ליה עיניה וביומא דהקזה דלא אכיל איניש דגים אבל עוף אכיל בשלקא ומיהו בפרק בתרא דמעילה (דף כ.) לא קיימא שינויא דהקזה אלא מסיק במאן דכאיב ליה עיניה אבל בשאר ימים הנודר מן הבשר אסור נמי בדגים:"
+     ]
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> הָא עוֹף אָסוּר מִדְּאוֹרָיְיתָא, כְּמַאן? דְּלָא כְּרַבִּי עֲקִיבָא, דְּאִי רַבִּי עֲקִיבָא – הָאָמַר: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה.",
+     "en": "<strong>GEMARA:</strong> Since the mishna does not distinguish between the meat of animals and that of birds, it may <b>consequently</b> be inferred that the meat of <b>birds</b> cooked in milk is <b>prohibited by Torah law,</b> just like the meat of animals. <b>In accordance with whose</b> opinion is this ruling? It is <b>not in accordance with</b> the opinion of <b>Rabbi Akiva, as, if</b> you say it is in accordance with the opinion of <b>Rabbi Akiva, didn’t he say</b> that the prohibition of the meat of <b>undomesticated animals and birds</b> cooked in milk <b>is not by Torah law?</b>",
+     "rashi": [
+      "<b>גמ'</b> — קס\"ד האי איסור דמתניתין מדאורייתא קאמר:",
+      "דר\"ע במתניתין היא בהאי פירקא (לקמן חולין דף קיג.):"
+     ],
+     "tosafot": [
+      "<b>הא עוף אסור מדאורייתא</b> — ה\"נ ה\"מ למינקט חיה ונראה דהא דס\"ד שהוא דאורייתא משום דסמיך אסיפא דגזר העלאה אטו אכילה כדדייק רב יוסף בסמוך אבל אין לומר דדייק מדקתני כל הבשר דמשמע ליה שכל הבשר שוה זה כזה בשר עוף כבשר בהמה דהא הנודר מן הבשר אין כל הבשר שוה דאפילו ר\"ע מודה דלא מיתסר בבשר עוף מדאורייתא כדאמר בפרק הנודר מן הירק (נדרים דף נד.) דמודה ר\"ע דלא לקי:"
+     ]
+    },
+    {
+     "he": "אֵימָא סֵיפָא: הַנּוֹדֵר מִן הַבָּשָׂר – מוּתָּר בִּבְשַׂר דָּגִים וַחֲגָבִים, הָא עוֹף אָסוּר, אֲתָאן לְרַבִּי עֲקִיבָא, דְּאָמַר: כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ – בַּר מִינֵיהּ הוּא.",
+     "en": "The Gemara continues: But <b>say the latter clause</b> of the mishna: <b>One who takes a vow</b> that <b>meat</b> is forbidden to him is <b>permitted to</b> eat <b>the meat of fish and grasshoppers.</b> It may <b>consequently</b> be inferred that it is <b>prohibited</b> for him to eat <b>birds.</b> If so, here <b>we arrive at</b> the opinion of <b>Rabbi Akiva, who said: Anything about which an agent</b> sent to purchase a given item <b>would inquire,</b> being unsure whether it qualifies as that type of item, <b>is</b> considered <b>its type.</b>",
+     "rashi": [
+      "<b>מותר בבשר דגים</b> — שאין קורהו בשר:",
+      "<b>הא עוף אסור</b> — דבנדרים אחר לשון בני אדם אנו צריכין להלך ואשמועינן מתני' דדרך לקרותו בשר:",
+      "<b>כל מידי דמימליך עליה שליח</b> — כל דבר שאינו נשמע מן הסתם לא בתוך הכלל ולא מוצא [מן] הכלל וצריך השליח לחזור ולפרש ולשאול רוצה אתה בזה:",
+      "<b>מיניה הוא</b> — חשוב לענין נדרים מאותו המין כגון הכא שהאומר לשלוחו קנה לנו בשר מן השוק אינו נשמע לו מן הסתם בשר עוף והוא נמלך בבעל הבית ושואל כלום אני לוקח בשר עוף:",
+      "<b>מיניה הוא</b> — מין בשר הוא שהרי אמר לו קנה לי בשר ואם לא היה עוף מין בשר לא היה נמלך אם יקח ממנו דהא לאו בשר הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּתַנְיָא: הַנּוֹדֵר מִן הַיָּרָק, מוּתָּר בַּדִּלּוּעִין, וְרַבִּי עֲקִיבָא אוֹסֵר. אָמְרוּ לוֹ לְרַבִּי עֲקִיבָא: וַהֲלֹא אוֹמֵר אָדָם לִשְׁלוּחוֹ ״קַח לָנוּ יָרָק״, וְהוּא אוֹמֵר ״לֹא מָצָאתִי אֶלָּא דִּלּוּעִין״!",
+     "en": "<b>As it is taught</b> in a mishna (<i>Nedarim</i> 54a): <b>One who takes a vow</b> that <b>vegetables</b> are forbidden to him <b>is permitted to</b> eat <b>gourds,</b> as people do not typically consider gourds a type of vegetable, <b>but Rabbi Akiva deems</b> it <b>prohibited</b> for him to eat gourds. The Rabbis <b>said to Rabbi Akiva: But</b> it is a common occurrence that <b>a person says to his agent: Purchase vegetables for us, and</b> the agent, after failing to find vegetables, returns and <b>says: I found only gourds.</b> This indicates that gourds are not considered vegetables.",
+     "rashi": [
+      "<b>לא מצאתי אלא דילועין</b> — ואינו לוקחן מיד כשמוצאן אלמא לא קרו ליה אינשי ירק דהא האי ירק סתם קאמר ליה ואי בכלל ירק הוא לא היה צריך לימלך:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר לָהֶן: כֵּן הַדָּבָר, כְּלוּם אוֹמֵר ״לֹא מָצָאתִי אֶלָּא קִטְנִית״?! אֶלָּא שֶׁדִּלּוּעִין בִּכְלַל יָרָק, וְאֵין קִטְנִית בִּכְלַל יָרָק. רֵישָׁא רַבָּנַן, וְסֵיפָא רַבִּי עֲקִיבָא!",
+     "en": "Rabbi Akiva <b>said to them: The matter is so,</b> and that proves that my opinion is correct. <b>Does</b> the agent return and <b>say: I found only legumes? Rather,</b> it is evident <b>that gourds are included in</b> the category of <b>vegetables,</b> although they differ from other vegetables, and therefore, the agent explains that he found only gourds, and asks whether he should purchase them. <b>But legumes are not included in</b> the category of <b>vegetables,</b> and that is why an agent would not even ask about them. Therefore, Rabbi Akiva should also hold that one who takes a vow that meat is forbidden to him is prohibited from eating birds. And if so, <b>the first clause</b> of the mishna is in accordance with the opinion of <b>the Rabbis,</b> who disagree with Rabbi Akiva, <b>and the latter clause</b> is in accordance with the opinion of <b>Rabbi Akiva.</b>",
+     "rashi": [
+      "<b>אמר להם כן הדבר</b> — ומשם אני מביא ראיה שהוא מין ירק שאילו לא מצא אלא קטנית לא היה משיבו לא מצאתי אלא קטנית אלא לא מצאתי ירק ובדילועין היה אומר לא מצאתי ירק אחר אלא דילועין ולמה היה אומר כן אלא שיש לך ללמוד שהדילועין נקראים ירק ואין הקטנית בכלל ירק:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב יוֹסֵף: רַבִּי הִיא, וְנָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי, בִּנְדָרִים סָבַר לַהּ כְּרַבִּי עֲקִיבָא, בְּבָשָׂר בְּחָלָב סָבַר לַהּ כְּרַבָּנַן.",
+     "en": "<b>Rav Yosef said:</b> That is not difficult. The entire mishna <b>is</b> in accordance with the opinion of <b>Rabbi</b> Yehuda HaNasi, <b>and he formulates</b> the mishna <b>according to</b> the opinions of different <b><i>tanna’im</i>.</b> In the latter clause, <b>with regard to vows, he holds in accordance with</b> the opinion of <b>Rabbi Akiva,</b> whereas in the first clause, <b>with regard to meat</b> cooked <b>in milk, he holds in accordance with</b> the opinion of <b>the Rabbis.</b>",
+     "rashi": [
+      "<b>סבר לה כר\"ע</b> — דאע\"ג דצריך לאימלוכי (ולא שקיל) מיניה הוא דאי לאו מיניה הוא לא הוה אמר אשקול מהאי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַב אָשֵׁי אָמַר: כּוּלַּהּ רַבִּי עֲקִיבָא הִיא, וְהָכִי קָאָמַר: כׇּל הַבָּשָׂר אָסוּר לְבַשֵּׁל בְּחָלָב, מֵהֶן מִדִּבְרֵי תוֹרָה וּמֵהֶן מִדִּבְרֵי סוֹפְרִים, חוּץ מִבְּשַׂר דָּגִים וַחֲגָבִים, שֶׁאֵינָם לֹא מִדִּבְרֵי תוֹרָה וְלֹא מִדִּבְרֵי סוֹפְרִים.",
+     "en": "<b>Rav Ashi said</b> a different explanation: <b>The entire</b> mishna <b>is</b> in accordance with the opinion of <b>Rabbi Akiva,</b> as indicated by the latter clause, concerning vows. <b>And</b> as for the first part of the mishna, <b>this</b> is what it <b>is saying:</b> It is <b>prohibited to cook any meat</b> cooked <b>in milk, some</b> types <b>of</b> meat <b>by Torah law,</b> i.e., that of domesticated animals, <b>and some</b> types <b>of</b> meat <b>by rabbinic law,</b> i.e., that of undomesticated animals and birds. This prohibition applies to all types of meat <b>except for the meat of fish and grasshoppers, which are</b> not prohibited, <b>neither by Torah law nor by rabbinic law.</b>",
+     "rashi": [
+      "<b>ויש מהן מה\"ת</b> — בשר בהמה:",
+      "<b>ויש מדברי סופרים</b> — חיה ועוף:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאָסוּר לְהַעֲלוֹת [וְכוּ׳]. אָמַר רַב יוֹסֵף: שְׁמַע מִינַּהּ בְּשַׂר עוֹף בְּחָלָב דְּאוֹרָיְיתָא, דְּאִי סָלְקָא דַעְתָּךְ דְּרַבָּנַן – אֲכִילָה גּוּפַהּ גְּזֵירָה, וַאֲנַן נִגְזַר הַעֲלָאָה אַטּוּ אֲכִילָה?",
+     "en": "§ The mishna teaches further: <b>And</b> it is <b>prohibited to place</b> any meat with cheese on one table. <b>Rav Yosef said: Conclude from</b> this clause that eating the <b>meat of birds</b> cooked <b>in milk</b> is prohibited <b>by Torah law. As, if</b> it <b>enters your mind</b> that the prohibition against eating it applies merely <b>by rabbinic law,</b> this would be because the <b>consumption</b> of the meat of birds cooked in milk is <b>itself</b> a rabbinic <b>decree,</b> lest one come to eat the meat of an animal in milk. <b>And</b> would <b>we decree</b> against <b>placing</b> birds together with cheese on one table <b>due to</b> the possibility of <b>consumption,</b> which is itself a decree? The Sages do not enact one decree to prevent the violation of another decree.",
+     "rashi": [
+      "<b>ש\"מ</b> — מדאסר עוף בהעלאה משום גזירת אכילה ש\"מ איסור אכילה דידיה מדאורייתא ולא כרב אשי:",
+      "<b>אכילה גופה גזירה</b> — אטו בשר בהמה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּמְנָא תֵּימְרָא דְּלָא גָּזְרִינַן גְּזֵירָה לִגְזֵירָה? דִּתְנַן: חַלַּת חוּצָה לָאָרֶץ",
+     "en": "The Gemara asks: <b>And from where do you say that we do not issue</b> one rabbinic <b>decree to</b> prevent violation of another rabbinic <b>decree?</b> The source is <b>as we learned</b> in a mishna (<i>Ḥalla</i> 4:8): <b><i>Ḥalla</i> from outside of Eretz</b> Yisrael, which must be eaten by a priest,",
+     "rashi": [
+      "<b>חלת חו\"ל</b> — אינה אסורה לזרים אלא מדרבנן אבל חלת הארץ תרומה קרייה רחמנא ואסורה לזרים מוכל זר לא יאכל קדש (ויקרא כב):"
+     ],
+     "tosafot": [
+      "<b>ומנא תימרא דלא גזרינן גזירה לגזירה</b> — בכמה מקומות אמר היא גופה גזירה ואנן ניקום ונגזור גזירה לגזירה בפ\"ק דשבת (דף יא:) ובפ' במה מדליקין (שבת דף כא.) ובריש ביצה (דף ג.) והכא בעינן לאתויי ראיה לענין גזירה דהעלאה אטו אכילה ויש מקומות נמי דגזרינן גזירה לגזירה ולא חיישינן אין לדמות גזירות חכמים זו לזו אלא במקומות שהש\"ס מדמה:",
+      "<b>חלת חוצה לארץ נאכלת עם הזר על השלחן</b> — אין המשנה שנויה כן אלא הגמרא מביאה בקיצור וכן היא שנויה בפ' בתרא דמס' חלה (משנה ח) אמר ר\"ג שלש ארצות לחלה מארץ ישראל עד כזיב חלה אחת מכזיב עד הנהר ועד אמנה שתי חלות אחת לאור ואחת לכהן של אור יש לה שיעור ושל כהן אין לה שיעור מנהר ועד אמנה ולפנים שתי חלות אחת לאור ואחת לכהן של אור אין לה שיעור ושל כהן יש לה שיעור וטבול יום אוכלה רבי יוסי אומר אין צריך טבילה ואסורה לזבים ולזבות ולנדות וליולדות ונאכלת עם הזר על השלחן וניתנת לכל כהן שירצה והכי פירושו מכזיב עד הנהר ועד אמנה שהיו סמוכים לארץ העמים ואין יכולין לשמור עצמם ופירותיהם בטהרה והיו חלותיהם טמאות וטעונות שרפה ולכך צריכין להפריש שתי חלות אחת לאור שהיא חלה דאורייתא דפירותיהן גדלין בארץ ישראל ולכך נמי יש לה שיעור כדמפרש בירושלמי מפני שהיא מדברי תורה ואחת לכהן מדברי סופרים שלא תשתכח תורת חלה ולפי שהיא מדברי סופרים אין לה שיעור מנהר ועד אמנה ולפנים שהוא חוצה לארץ שתי חלות ושתיהן מדברי סופרים אחת לאור משום דסמוכין לארץ ישראל ומתחזיא חלה דידהו כחלת ארץ ישראל גזרו עליה שלא לאוכלה כלל אפילו כהן טהור גמור כמו בחלת אור דא\"י ואחת לכהן שלא תשתכח ויש לה שיעור לפי שהיא נאכלת וטבול יום אוכלה ואין צריך הערב שמש שלא החמירו בה כמו בתרומה דאורייתא רבי יוסי אומר אין צריך טבילה ואפילו בטומאה דקרי דבטומאה היוצא מגופו שרי רבי יוסי מדלא חשיב בעל קרי באיסורא דזבין וזבות ואסורה לזבין וזבות כו' בלא טבילה איירי מדקאמר עלה בירושלמי דלרבי יוסי נצרכה ונראה דלרבנן נמי דבעו טבילה דוקא לבעל קרי שטומאה יוצאה לו מגופו אבל טמא מת שרי בלא טבילה כרבי יוסי דאי מצרכי נמי טבילה בטמא מת תקשה להו כדמקשה גמ' בפ' עד כמה (בכורות דף כז:) וכי הזאה יש לנו ומה תועיל טבילה בטמא מת ומסתמא טמאי מתים היו כמה פעמים כי אי אפשר להם ליזהר מטומאת מת דנהי דמטומאת מת עצמו צריכין ליזהר מחמת כהונתם מטומאת חרב הרי הוא כחלל אין יכולים כלל ליזהר דבשום בית שהיה בו מת מעולם נעשה כחלל כל המתכות שבתוכו והוי כמאהיל על המת כדאמרינן בנזיר בפ' כ\"ג (דף נג:) וגם לא היו צריכין ליזהר מטומאת חרב הרי הוא כחלל כיון שאין הנזיר מגלח עליה כדמוכח בריש תוספתא דאהלות וא\"כ כולן צריכין הזאה ואין סברא כלל שתקנו חכמים חלת חו\"ל שלא יאכלוה אא\"כ ילך ויזה בא\"י ולהכי מסתבר שבלא הזאה וטבילה היו אוכלין אותה אפילו לרבנן דרבי יוסי ובבבל וכן לדידן שרחוקין מא\"י א\"צ שתי חלות אלא אחת כדאמרינן בפ' עד כמה (בכורות דף כז.) ונותנה לכהן קטן ואכיל לה דכי ליכא כהן קטן דוקא קאמר התם דמפריש אחרת ונותנה לכהן גדול וראשונה שורפה וחלה של אור מנהר ועד אמנון ולפנים אינה מותרת לכהן קטן אלא לעולם נשרפת דומיא דחלת אור א\"י משום דסמוכין לא\"י ומתחזיא כחלת א\"י כדפרישית ומש\"ה צריך לעולם שתים אבל ברחוקים כגון דבבל ודידן דלא מתחזיא חלה דידהו כחלת הארץ טמאה נותן לכהן קטן ומסתבר דאף לכהן גדול שטבל לקריו ולא בעינן הערב שמש דאין להחמיר בה מבחלה של כהן בסמוכין לא\"י וכ\"כ בה\"ג בהלכות חלה אמר רבינא הלכה נדה קוצה לה חלה ואכיל לה כהן קטן או מאן דטביל לקריו ויש קצת תימה אמאי קאמר דנותנה לכהן קטן כיון דאפילו כהן גדול יכול לאוכלה אחר שטבל או לבטלה ברוב כמו תרומה דאמרינן בפ' עד כמה (שם) רבה הוה מבטל לה ברוב ואכיל לה בימי טומאה ונראה דדוקא חלת חו\"ל לפי שאין לה שיעור ודבר מועט הוא קאמר דיכול ליתנה לכהן קטן כ\"ש אם יש כהן גדול שטבל או רוצה לבטלה שיכול ליתנה לו וכן משמע דדבר מועט הוא דקאמר התם דשקל לה בריש מסיא אבל תרומה שהיא מתבואה או מיין ושמן אין ליתן לכהן קטן לפי שהוא מאבדה ועוד יש לה שיעור כמו בתרומת מעשר ולכך אין ליתנה לקטן אלא לכהן גדול שטבל או רוצה לבטלה ברוב וא\"צ להפריש שניה דלא תשתכח כיון דמפרישין אחת כמו בחלה היכא דאיכא כהן קטן שלא מצינו בכל הש\"ס שהיה צריך לפרש שתי תרומות אלא דוקא חלה כי ליכא כהן קטן או גדול שטבל שאז היא נשרפת ולכך צריך להפריש חלה שניה שלא תשתכח תורת חלה אבל תרומה דאין נותנין אותה אלא לכהן גדול שטבל או רוצה לבטלה ברוב א\"צ להפריש שניה דלא תשתכח כיון שמפרישין אחת ומיהו נראה דגם בסמוכים לא\"י שמפרישין לעולם שתי חלות לא היו מפרישין אלא תרומה אחת לכך נראה שבחלה יש לחוש יותר שלא תשתכח משום דשייכא בכל אדם המגלגל עיסתו אבל תרומה אין רגילין בה אלא בעלי קרקעות וממריחי תבואות והיכא דליכא כהן קטן ששורפה ומפריש שניה נותנה לכהן טמא אפילו הוא זב דלא מפליג התם בשום טומאה ולא דמיא לחלה שניה בסמוכין לא\"י דהתם לעולם צריך להפריש אבל ברחוקים אי איכא כהן קטן או גדול שטבל לקריו אין צריך להפריש חלה שניה כלל והיא קלה ביותר אלא שאסורה לזרים דלא אשכחן דשרי לה אלא לכהנים ונראה שאינה טובלת שהרי יש כמה מקומות דלא מפרשי לה כלל ואפילו ליכא כהן קטן ועל אותן מקומות יש קצת תימה אלא לפי שאינה טובלת וצריך לשומרה מלהאכילה לזרים נמנעו מלהפריש ושמא אפילו אינה מדמעת ואף על פי שהראשונה נראה קצת דמדמעת מדתניא בפרק רבי ישמעאל (מנחות דף סז.) תרומת עובד כוכבים בחו\"ל אינה מדמעת דמשמע הא דישראל מדמעת מ\"מ השניה שהיא קלה ביותר שמא אינה מדמעת וכמו שלא גזרו על תערובות דמאי כמו כן שמא לא גזרו בה כיון שהיא קלה כל כך:"
+     ]
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 104b",
+   "he_ref": "חולין ק״ד:",
+   "url": "https://www.sefaria.org/Chullin.104b",
+   "segments": [
+    {
+     "he": "נֶאֱכֶלֶת עִם הַזָּר עַל הַשֻּׁלְחָן, וְנִיתֶּנֶת לְכׇל כֹּהֵן שֶׁיִּרְצֶה.",
+     "en": "<b>may be eaten with a non-priest</b> present <b>at the</b> same <b>table.</b> The Sages did not issue a decree prohibiting this lest the non-priest partake of the <i>ḥalla</i>, as the separation of <i>ḥalla</i> outside of Eretz Yisrael is itself a rabbinic decree. This proves that the Sages do not issue one decree to prevent violation of another decree. <b>And</b> similarly, <i>ḥalla</i> from outside of Eretz Yisrael <b>may be given to any priest that</b> one <b>wishes,</b> even an uneducated priest who would not guard its state of ritual purity. This is in contrast to <i>ḥalla</i> from Eretz Yisrael, which may be given only to priests who observe the <i>halakhot</i> of ritual purity.",
+     "rashi": [
+      "<b>נאכלת</b> — לכהן עם הזר ולא גזרינן דילמא שקיל זר מיניה ואכיל דהא אכילה גופה לא מיתסרא בה אלא משום גזירת אכילת חלת הארץ:",
+      "<b>לכל כהן שירצה</b> — אפילו לעם הארץ שאין משמרה בטהרה מה שאין כן בחלת הארץ דכתיב (דברי הימים ב ל״א:ד׳) לתת מנת לכהנים למחזיקים בתורת ה' מחזיקים יש להם מנת ולא שאין מחזיקין. אלמא בדרבנן לא גזרינן העלאה אטו אכילה:"
+     ],
+     "tosafot": [
+      "<b>וניתנת לכל כהן שירצה</b> — פירש בקונטרס דאפילו אינו מחזיק בתורת ה' יתנו לו חלת חוצה לארץ ואין נראה לר\"י דהא הוו דומיא דהנהו ששונה אחר משנה זאת ואלו ניתנין לכל כהן שירצה כו' וחשיב בהדייהו הזרוע והלחיים והקבה ואמרינן לקמן בפרק הזרוע (חולין דף קל:) שאינן ניתנות למי שאינו מחזיק בתורת ה' לכך נראה לרבינו יצחק דהכא מיירי בדליכא כהן חבר אי נמי איכא כהן חבר שהוא עשיר ואינו רוצה לקבל ואפילו רוצה לקבל כיון דאין צריך וזה ע\"ה עני וצריך שמצווים להחיותו שאם לא יתנו לו יצטרכו לתת לו חולין וקמ\"ל דיכול ליתן אע\"פ שאין בקי בטומאה וטהרה ולא חיישינן שמא יאכלנו בימי טומאתו אבל חלת הארץ אינה ניתנת אלא לכהן חבר שישמרנה בטהרה אפי' ליכא עתה כהן חבר אל יתננה לכהן ע\"ה אלא ימתין עד שיזדמן לו כהן חבר:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ אַבָּיֵי: בִּשְׁלָמָא אִי אַשְׁמוֹעִינַן חַלַּת חוּצָה לָאָרֶץ בָּאָרֶץ, דְּאִיכָּא לְמִיגְזַר מִשּׁוּם חַלַּת הָאָרֶץ דְּאוֹרָיְיתָא, וְלָא גָּזְרִינַן – אִיכָּא לְמִשְׁמָע מִינַּהּ.",
+     "en": "<b>Abaye said to</b> Rav Yosef: <b>Granted,</b> your inference would be valid <b>if</b> the mishna in tractate <i>Ḥalla</i> had <b>taught us</b> this with regard to <b><i>ḥalla</i> from outside of Eretz</b> Yisrael that had been brought <b>into Eretz</b> Yisrael. <b>As</b> in that case, <b>there</b> could be reason <b>to decree</b> against eating it while a non-priest is at the same table, despite the fact that the non-priest eating it is prohibited only by rabbinic law, <b>due to</b> the concern that one might come to eat <b><i>ḥalla</i> from Eretz</b> Yisrael, which is prohibited to the non-priest <b>by Torah law,</b> at the same table as a non-priest; <b>and</b> yet <b>we do not decree</b> against this practice. If so, <b>there</b> would be grounds <b>to learn from</b> this mishna that the Sages do not issue one decree to prevent violation of another decree.",
+     "rashi": [
+      "<b>בשלמא אי אשמועינן תלת חו\"ל בארץ</b> — שהביאה לארץ ואשמועינן דאע\"ג דיש כאן חלה דאורייתא ואיכא למיגזר הא אטו הא דאי מסקת חלת חוצה לארץ (לארץ) אתי לאסוקי חלת הארץ ומיכלה הזר הוה איכא למשמע מינה מתניתין נמי אי לא דאכילת עוף דאורייתא לא הוה גזר העלאתו אטו אכילתו ולא אטו דבהמה אלא בחוצה לארץ טעמא משום דליכא למיגזר אטו שום איסור דאורייתא הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא חוּצָה לְאָרֶץ, מִשּׁוּם דְּלֵיכָּא לְמִיגְזַר הוּא. אֲבָל הָכָא, אִי שָׁרֵית לֵיהּ לְאַסּוֹקֵי עוֹף וּגְבִינָה, אָתֵי לְאַסּוֹקֵי בָּשָׂר וּגְבִינָה, וּמֵיכַל בָּשָׂר בְּחָלָב דְּאוֹרָיְיתָא.",
+     "en": "<b>But</b> the mishna actually teaches this <i>halakha</i> with regard to <i>ḥalla</i> from <b>outside of Eretz</b> Yisrael that remains there. It therefore proves nothing about compound decrees, as it can be claimed that the practice <b>is</b> permitted only <b>because there is no</b> reason <b>to decree.</b> Since by Torah law the obligation of <i>ḥalla</i> does not apply outside of Eretz Yisrael, there is no chance that such behavior will lead to transgression of Torah law. <b>But here, if you permit one to place</b> the meat of <b>birds and cheese</b> on the same table, some might <b>come to place</b> the <b>meat</b> of domesticated animals <b>and cheese</b> on a single table <b>and</b> to <b>eat</b> this <b>meat</b> cooked <b>in milk,</b> thereby transgressing a prohibition <b>by Torah law.</b>",
+     "rashi": [
+      "<b>אבל הכא</b> — אע\"ג דלא איבעי לן למגזר העלאתו אטו אכילתו איכא למיגזר העלאתו אטו העלאת ואכילת בשר בהמה דכי מסיק להו היינו אכילה דאתי למיכלינהו בהדדי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַתְקֵיף לַהּ רַב שֵׁשֶׁת: סוֹף סוֹף צוֹנֵן בְּצוֹנֵן הוּא! אָמַר אַבָּיֵי: גְּזֵירָה שֶׁמָּא יַעֲלֶה בְּאִילְפָּס רוֹתֵחַ.",
+     "en": "<b>Rav Sheshet objects to</b> the premise of Rav Yosef’s inference: Even if one were to posit that the meat of birds in milk is prohibited by Torah law, <b>ultimately</b> this is still a decree issued due to another decree, as <b>it is</b> a case of <b>cold</b> food <b>in</b> another <b>cold</b> food, consumption of which is itself prohibited by rabbinic law. <b>Abaye said:</b> It is a rabbinic <b>decree, lest one place</b> the meat with cheese <b>in a boiling stewpot,</b> which is a manner of cooking and therefore prohibited by Torah law.",
+     "rashi": [
+      "<b>מתקיף לה רב ששת</b> — אפילו את\"ל בשר עוף בחלב דאורייתא עדיין משכחת לה גזירה לגזירה דהא העלאה דרבנן משום אכילה ואכילה גופה דרבנן דהא סוף סוף צונן וצונן הוא ואפי' אכיל להו כי הדדי ליכא איסור דאורייתא דדרך בישול אסרה תורה:",
+      "<b>גזירה שמא יעלה</b> — בשר בהמה עם הגבינה בתוך אילפס רותח דה\"ל בישול:"
+     ],
+     "tosafot": [
+      "<b>מתקיף לה רב ששת</b> — לא אאביי קא פריך אלא ארב יוסף חבירו פריך כדפי' בקונטרס:"
+     ]
+    },
+    {
+     "he": "סוֹף סוֹף, כְּלִי שֵׁנִי הוּא, וּכְלִי שֵׁנִי אֵינוֹ מְבַשֵּׁל! אֶלָּא גְּזֵירָה שֶׁמָּא יַעֲלֶה בְּאִילְפָּס רִאשׁוֹן.",
+     "en": "The Gemara counters: <b>Ultimately,</b> even a stewpot is only <b>a secondary vessel,</b> i.e., not the vessel that was on the fire, <b>and</b> as a rule, <b>a secondary vessel does not cook. Rather,</b> one must say that it is a rabbinic <b>decree, lest one place</b> the meat with cheese <b>in a stewpot</b> that is <b>a primary</b> vessel, i.e., that was on the fire. This is certainly cooking meat in milk, and it is prohibited by Torah law.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> הָעוֹף עוֹלֶה עִם הַגְּבִינָה עַל הַשּׁוּלְחָן, וְאֵינוֹ נֶאֱכָל, דִּבְרֵי בֵּית שַׁמַּאי. וּבֵית הִלֵּל אוֹמְרִים: לֹא עוֹלֶה וְלֹא נֶאֱכָל. אָמַר רַבִּי יוֹסֵי: זוֹ מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל.",
+     "en": "<strong>MISHNA:</strong> <b>The</b> meat of <b>birds may be placed with cheese on</b> one <b>table but</b> may <b>not be eaten</b> together with it; this is <b>the statement of Beit Shammai. And Beit Hillel say:</b> It may <b>neither be placed</b> on one table <b>nor be eaten</b> with cheese. <b>Rabbi Yosei said: This is</b> one <b>of the</b> disputes involving <b>leniencies of Beit Shammai and stringencies of Beit Hillel.</b>",
+     "rashi": [
+      "<b>מתני' ואינו נאכל</b> — עם הגבינה:",
+      "<b>א\"ר יוסי דבר זה כו'</b> — בגמ' פריך היינו תנא קמא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בְּאֵיזֶה שׁוּלְחָן אָמְרוּ? בְּשׁוּלְחָן שֶׁאוֹכֵל עָלָיו, אֲבָל בְּשׁוּלְחָן שֶׁסּוֹדֵר עָלָיו אֶת הַתַּבְשִׁיל – נוֹתֵן זֶה בְּצַד זֶה, וְאֵינוֹ חוֹשֵׁשׁ.",
+     "en": "The mishna elaborates: <b>With regard to which table</b> are these <i>halakhot</i> <b>stated?</b> It is <b>with regard to a table upon which one eats. But on a table upon which one prepares the cooked food, one</b> may <b>place this</b> meat <b>alongside that</b> cheese or vice versa, <b>and</b> need <b>not be concerned</b> that perhaps they will be mixed and one will come to eat them together.",
+     "rashi": [
+      "<b>בשולחן שאוכל עליו</b> — דאיידי דממשמשי ביה ידא אתי לאתנוחי זה ע\"ג זה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> רַבִּי יוֹסֵי הַיְינוּ תַּנָּא קַמָּא? וְכִי תֵּימָא: אֲכִילָה גּוּפַהּ אִיכָּא בֵּינַיְיהוּ, דְּקָאָמַר תַּנָּא קַמָּא: בְּהַעֲלָאָה קָא מִיפַּלְגִי, בַּאֲכִילָה לָא פְּלִיגִי, וַאֲמַר לֵיהּ רַבִּי יוֹסֵי: אֲכִילָה גּוּפַהּ מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל.",
+     "en": "<strong>GEMARA:</strong> The Gemara challenges: The opinion of <b>Rabbi Yosei is</b> identical to that of <b>the first <i>tanna</i>. And if you would say</b> that there <b>is</b> a difference <b>between them</b> with regard to the permissibility of <b>eating itself, as the first <i>tanna</i> says</b> that Beit Shammai and Beit Hillel <b>disagree with regard to placing</b> meat of birds with cheese on one table, which indicates that <b>with regard to eating they do not disagree, and Rabbi Yosei said</b> in response <b>to</b> this that they also disagree with regard to the permissibility of <b>eating</b> meat of birds in milk, and this is <b>itself</b> one <b>of the</b> disputes involving <b>leniencies of Beit Shammai and stringencies of Beit Hillel,</b> one can refute this claim.",
+     "rashi": [],
+     "tosafot": [
+      "<b>רבי יוסי היינו ת\"ק</b> — אבית הלל לא פריך היינו ת\"ק דהכי קאמר דבר זה מחלוקת ב\"ש וב\"ה ואין זה סתמא ואח\"כ מחלוקת דב\"ש במקום בית הלל אינה משנה:"
+     ]
+    },
+    {
+     "he": "וְהָתַנְיָא, רַבִּי יוֹסֵי אוֹמֵר: שִׁשָּׁה דְּבָרִים מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל, וְזוֹ אַחַת מֵהֶן – עוֹף עוֹלֶה עִם הַגְּבִינָה עַל הַשּׁוּלְחָן, וְאֵינוֹ נֶאֱכָל, דִּבְרֵי בֵּית שַׁמַּאי. וּבֵית הִלֵּל אוֹמְרִים: לֹא עוֹלֶה וְלֹא נֶאֱכָל!",
+     "en": "The refutation is as follows: <b>Isn’t it taught</b> in a <i>baraita</i> that <b>Rabbi Yosei says</b> that <b>six matters</b> are included <b>as the</b> disputes involving <b>leniencies of Beit Shammai and stringencies of Beit Hillel, and this is one of them:</b> The meat of <b>birds is placed with cheese on</b> one <b>table, but</b> it may <b>not be eaten</b> together with it; this is <b>the statement of Beit Shammai. And Beit Hillel say:</b> It may <b>neither be placed</b> on one table <b>nor be eaten</b> with cheese. Evidently, Rabbi Yosei agrees that even according to Beit Shammai the meat of birds may not be eaten with cheese.",
+     "rashi": [
+      "<b>גמ' רבי יוסי אומר ו' דברים כו'</b> — יש אחרות הרבה אבל באלו ששה לא היו מודים לו חביריו שיהיו ב\"ש מקילין ובית הלל מחמירין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא, הָא קָמַשְׁמַע לַן: מַאן תַּנָּא קַמָּא? רַבִּי יוֹסֵי – כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם, שֶׁנֶּאֱמַר ״וַתֹּאמֶר אֶסְתֵּר לַמֶּלֶךְ בְּשֵׁם מׇרְדֳּכָי״.",
+     "en": "<b>Rather, this</b> is what the mishna <b>teaches us: Who is the first <i>tanna</i>?</b> It is <b>Rabbi Yosei.</b> The identification is important, since <b>whoever reports a statement in the name of the one who said it brings redemption to the world. As it is stated</b> with respect to the incident of Bigthan and Teresh: <b>“And Esther reported it to the king in the name of Mordecai”</b> (Esther 2:22), and Mordecai was later rewarded for saving the king’s life, paving the way for the miraculous salvation.",
+     "rashi": [
+      "<b>כל האומר דבר בשם אומרו</b> — והתנא שכח ולא הזכיר שמו בתחילה וחזר והזכיר שמו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תְּנָא אַגְרָא חֲמוּהּ דְּרַבִּי אַבָּא: עוֹף וּגְבִינָה נֶאֱכָלִין בְּאַפִּיקוֹרַן. הוּא תָנֵי לַהּ, וְהוּא אָמַר לַהּ: בְּלֹא נְטִילַת יָדַיִם וּבְלֹא קִינּוּחַ הַפֶּה.",
+     "en": "§ The Gemara continues discussing the consumption of poultry cooked in milk. The Sage <b>Agra, the father-in-law of Rabbi Abba, taught:</b> The meat of <b>birds and cheese may be eaten freely</b> [<b><i>apikoren</i></b>], i.e., there is no need to be strict in this matter. The Gemara notes: <b>He,</b> Agra, <b>teaches it and he says it,</b> i.e., explains his statement: The meat of birds and cheese may be eaten <b>without washing</b> one’s <b>hands and without wiping the mouth</b> between the consumption of each.",
+     "rashi": [
+      "<b>באפיקורן</b> — דרך הפקר שאינו נזהר בהן וכדמפרש:",
+      "<b>הוא תני</b> — כך קבלה סדורה מרבו:",
+      "<b>והוא אמר לה</b> — והוא פירשה מסברא שלו דמאי אפיקורן:",
+      "<b>בלא קינוח הפה</b> — שאם אכל זה ובקש לאכול זה אין צריך ליטול ידיו ולקנח. אבל בבשר בהמה בעי קינוח כדלקמן שלא יהא נדבק כלום מן הראשון בחניכיו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַב יִצְחָק בְּרֵיהּ דְּרַב מְשַׁרְשְׁיָא אִיקְּלַע לְבֵי רַב אָשֵׁי, אַיְיתוֹ לֵיהּ גְּבִינָה – אֲכַל, אַיְיתוֹ לֵיהּ בִּשְׂרָא – אֲכַל, וְלָא מְשָׁא יְדֵיהּ. אָמְרִי לֵיהּ: וְהָא תָּאנֵי אַגְרָא חֲמוּהּ דְּרַבִּי אַבָּא: עוֹף וּגְבִינָה נֶאֱכָלִין בְּאֶפִּיקוֹרֶן, עוֹף וּגְבִינָה – אִין, בָּשָׂר וּגְבִינָה – לָא!",
+     "en": "The Gemara relates: <b>Rav Yitzḥak, son of Rav Mesharshiyya, happened</b> to come <b>to the house of Rav Ashi. They brought him cheese,</b> and <b>he ate</b> it. Next <b>they brought him meat,</b> and <b>he ate</b> it <b>without</b> first <b>washing his hands.</b> The members of Rav Ashi’s household <b>said to him: But didn’t Agra, the father-in-law of Rabbi Abba, teach</b> only that the meat of <b>birds and cheese may be eaten freely?</b> One can infer that with regard to the meat of <b>birds and cheese, yes,</b> one may eat them without washing one’s hands in between, but with regard to the <b>meat</b> of domesticated animals <b>and cheese, no,</b> one may not.",
+     "rashi": [],
+     "tosafot": [
+      "<b>עוף וגבינה אין בשר וגבינה לא</b> — תימה דהיכי פריך מגבינה אחר בשר אבשר אחר גבינה דרב יצחק גבינה ואח\"כ בשר אכיל ולא דמי כדאמר בסמוך ויש לומר דהכי פריך דברייתא דאגרא משמע עוף וגבינה נאכלין באפיקורן בלי נטילת ידים ובלא קינוח הפה אבל שאר בשר בעי נטילה וקינוח הפה והיכי דמי אי בשר תחלה אפילו בנטילה וקינוח לא סגי עד סעודה אחריתי כדאמר בסמוך אלא לאו אגבינה תחלה והא דנקט הכא בשר וגבינה לא דק אלא. גבינה ובשר לא ואגב דמזכיר בברייתא עוף תחלה נקט נמי הכא בשר תחלה וברייתא נקט עוף תחלה דאפילו עוף תחלה נאכל באפיקורן ור\"ת מפרש וכן הלכות גדולות דאכל בשר אסור לאכול גבינה היינו בלא נטילה וקינוח אבל בנטילה וקינוח שרי אכל גבינה מותר לאכול בשר אף בלא נטילה וקינוח ומר עוקבא דלא אכיל עד סעודה אחריתי היינו בלא נטילה וקינוח אי נמי מחמיר על עצמו היה ולפירושו קשה מאי פריך הכא ארב יצחק וצ\"ל לפירושו דלענין נטילת ידים אין חילוק בין בשר תחלה לגבינה תחלה ולגבי קינוח דווקא יש חילוק והעולם נהגו שלא לאכול גבינה אחר בשר כלל ואפילו אחר עוף ואע\"ג דתני אגרא עוף וגבינה נאכלין באפיקורן דמשמע עוף תחלה דילמא משום דסבר בשר עוף בחלב לאו דאורייתא ולא קיימא לן הכי ומיהו קשה ברייתא דאגרא כמאן אי כרבי יוסי הגלילי הא אף לכתחלה שרי לבשל ולאכול זה עם זה כדאמר לקמן (חולין דף קטז.) דבמקומו של רבי יוסי הגלילי היו אוכלין בשר עוף בחלב ואי כר\"ע הוה ליה למיתני חיה בהדי עוף ודוחק להעמידה כב\"ש דאמרי העוף עולה ואינו נאכל ומיהו אשכחן נמי לרבי אלעזר בר' צדוק דתניא בתוספתא כב\"ש אי נמי כר\"ע ונקט עוף משום דשכיח והוא הדין חיה דהכי נמי קאמר לעיל הא עוף אסור מדאורייתא כמאן דלא כר\"ע והוה ליה למינקט נמי חיה ור\"ת מפרש טעמא דאגרא משום דעוף אינו נדבק בידים ובשינים וחניכים:"
+     ]
+    },
+    {
+     "he": "אֲמַר לְהוּ: הָנֵי מִילֵּי בְּלֵילְיָא, אֲבָל בִּימָמָא הָא חָזֵינָא.",
+     "en": "Rav Yitzḥak <b>said to them: This statement</b> of Agra applies only if one eats them <b>at night,</b> as one cannot see whether some of the food of the previous dish still remains on his hands, and he must therefore wash them. <b>But</b> if one eats <b>by day, I</b> can <b>see</b> that no food remains on his hands, and consequently there is no need to wash them.",
+     "rashi": [
+      "<b>הא קא חזינן</b> — ידים ריקניות שאין דבוק בהם כלום:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תַּנְיָא: בֵּית שַׁמַּאי אוֹמְרִים: מְקַנֵּחַ, וּבֵית הִלֵּל אוֹמְרִים: מֵדִיחַ. מַאי ״מְקַנֵּחַ״ וּמַאי ״מֵדִיחַ״?",
+     "en": "<b>It is taught</b> in a <i>baraita</i>: <b>Beit Shammai say:</b> Between the consumption of meat and milk one must <b>wipe</b> out his mouth, <b>and Beit Hillel say</b> that he must <b>rinse</b> his mouth. The Gemara asks: <b>What</b> is the meaning of the word: <b>Wipe [<i>mekane’aḥ</i>], and what</b> is the meaning of the word: <b>Rinse [<i>mediaḥ</i>]?</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}

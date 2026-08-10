@@ -192,6 +192,97 @@ async function open(browser, url) {
     }
   }
 
+  // ---------- the daf ----------
+  // The tzurat hadaf layout is the whole point of this tab, and it is layout:
+  // which column lands where can only be checked by measuring it. The margins
+  // swap between the amudim, because Rashi belongs on the inner side and that
+  // side changes with the leaf.
+  {
+    const withDaf = manifest.find(e => pages[e.file] && pages[e.file].includes('id="daf"'));
+    if (!withDaf) {
+      console.log('  skip  daf tab: no page has cached daf text');
+    } else {
+      const { page, errors } = await open(browser, `${BASE}/${withDaf.file}?lang=en`);
+      await page.setViewport({ width: 1280, height: 900 });
+      await page.evaluate(() => document.querySelector('.tab[data-v="daf"]').click());
+      check('daf tab: no console errors', errors.length === 0, errors.join(' | ') || 'none');
+      check('daf tab: opens', await page.evaluate(() =>
+        document.getElementById('daf').classList.contains('active')));
+
+      // Neither disclaimer may go on claiming this text was AI-written.
+      const notice = await page.evaluate(() => [...document.querySelectorAll('.disclaimer')]
+        .filter(e => getComputedStyle(e).display !== 'none')
+        .map(e => e.className.trim()));
+      check('daf tab: the AI notices give way to the source notice',
+        notice.length === 1 && notice[0].includes('source'), JSON.stringify(notice));
+      check('daf tab: the licence credit is shown', await page.evaluate(() =>
+        /CC BY-NC/.test(document.querySelector('.daf-credit').innerText)));
+
+      // Left-to-right screen order per amud. Rashi sits on the inner margin:
+      // left of the text on amud alef (a recto), right of it on amud bet.
+      const order = amud => page.evaluate(i => {
+        const seg = [...document.querySelectorAll('.amud')][i].querySelector('.seg');
+        return [...seg.querySelectorAll('.col')]
+          .filter(c => getComputedStyle(c).display !== 'none')
+          .map(c => [c.getBoundingClientRect().left, c.className.split(' ')[1]])
+          .sort((a, b) => a[0] - b[0]).map(p => p[1]);
+      }, amud);
+      check('daf tab: amud alef puts Rashi on the inner (left) margin',
+        JSON.stringify(await order(0)) === '["rashi","gemara","tosafot"]', JSON.stringify(await order(0)));
+      check('daf tab: amud bet mirrors it',
+        JSON.stringify(await order(1)) === '["tosafot","gemara","rashi"]', JSON.stringify(await order(1)));
+      check('daf tab: the Gemara column is the widest', await page.evaluate(() => {
+        const w = c => document.querySelector('.seg .col.' + c).getBoundingClientRect().width;
+        return w('gemara') > w('rashi') && w('gemara') > w('tosafot');
+      }));
+
+      // The translation is off until asked for, and the chips are remembered.
+      const enShown = () => page.evaluate(() =>
+        getComputedStyle(document.querySelector('.g-en')).display !== 'none');
+      check('daf tab: the translation starts hidden', (await enShown()) === false);
+      await page.evaluate(() => document.querySelector('.chip[data-daf="en"]').click());
+      check('daf tab: the English chip reveals it', (await enShown()) === true);
+
+      const rashiWidth = () => page.evaluate(() =>
+        document.querySelector('.seg .col.gemara').getBoundingClientRect().width);
+      const wide = await rashiWidth();
+      await page.evaluate(() => document.querySelector('.chip[data-daf="rashi"]').click());
+      check('daf tab: dropping Rashi hands its width to the Gemara',
+        (await rashiWidth()) > wide, `${Math.round(wide)} → ${Math.round(await rashiWidth())}`);
+
+      const { page: p3 } = await open(browser, `${BASE}/${withDaf.file}?lang=en`);
+      await p3.evaluate(() => document.querySelector('.tab[data-v="daf"]').click());
+      check('daf tab: the chips are remembered', await p3.evaluate(() => {
+        const d = document.getElementById('daf');
+        return d.classList.contains('hide-rashi') && d.classList.contains('show-en');
+      }));
+      await p3.close();
+      await page.screenshot({ path: 'shot-daf-tzurat.png', fullPage: false });
+
+      // On a phone the columns stack and the commentary folds away, but only
+      // because the script folded it — the markup itself is never hidden.
+      await page.setViewport({ width: 420, height: 900 });
+      await page.evaluate(() => document.querySelector('.chip[data-daf="rashi"]').click());
+      await new Promise(r => setTimeout(r, 150));
+      // Stacked, and stacked in reading order: a margin printed above the
+      // passage it comments on would be no use to anyone.
+      check('daf tab: the columns stack under the Gemara on a phone', await page.evaluate(() => {
+        const seg = [...document.querySelectorAll('.seg')]
+          .find(s => s.querySelectorAll('.col:not(.empty)').length === 3);
+        const box = c => seg.querySelector('.col.' + c).getBoundingClientRect();
+        const g = box('gemara');
+        return ['rashi', 'tosafot'].every(c =>
+          Math.abs(box(c).left - g.left) < 2 && box(c).top > g.top);
+      }));
+      const body = () => page.evaluate(() =>
+        getComputedStyle(document.querySelector('.col.rashi .col-body')).display !== 'none');
+      check('daf tab: the commentary starts folded there', (await body()) === false);
+      await page.evaluate(() => document.querySelector('.col.rashi .col-head').click());
+      check('daf tab: its heading unfolds it', (await body()) === true);
+      await page.close();
+    }
+  }
+
   // ---------- read aloud ----------
   // Headless Chrome ships no voices, so the real synthesiser would refuse every
   // utterance and the queue would never move. A stub stands in: it reports the

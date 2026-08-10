@@ -1,0 +1,228 @@
+{
+ "tractate": "Chullin",
+ "page": 106,
+ "fetched": "2026-08-10",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 106a",
+   "he_ref": "חולין ק״ו.",
+   "url": "https://www.sefaria.org/Chullin.106a",
+   "segments": [
+    {
+     "he": "חֲזָנְהוּ דְּקָא שָׁדוּ מַיָּא מִפּוּמָּא דְּחַצְבָּא, אָמַר: אִי הֲוָה יָדַעְנָא דִּרְגִילִיתוּ לְמִיעְבַּד הָכִי, לָא אִיעַכַּבִי.",
+     "en": "the demon <b>saw</b> the members of Rav Pappa’s household <b>pouring water from the mouth of the pitcher</b> before drinking from it. The demon <b>said</b> to them: <b>If I had known that you regularly do this, I would not have delayed.</b> I would have brought the water straight from the river, knowing you would pour out the foul waters.",
+     "rashi": [],
+     "tosafot": [
+      "<b>חזנהו דהוו שדו מיא מפומא דחצבא</b> — והא דאיעכב ולא עשה בעצמו כן או שלא הודיעם לפי שהיה ירא שיקפידו עליו שאר השדים אם היה מודיע אי נמי אין מועיל אא\"כ שדי להו ההוא גברא גופיה דשתי:"
+     ]
+    },
+    {
+     "he": "כִּי אֲתָא רַב דִּימִי אָמַר: מַיִם הָרִאשׁוֹנִים הֶאֱכִילוּ בְּשַׂר חֲזִיר,",
+     "en": "§ <b>When Rav Dimi came</b> from Eretz Yisrael <b>he said:</b> Due to the failure to wash with <b>the first waters,</b> they ultimately <b>fed</b> a Jew <b>pig meat.</b> This case involved a storekeeper who would sell different meat to his Jewish and gentile customers. When a Jew who came to eat with him neglected to wash before eating, the storekeeper assumed he was a gentile and fed him pig meat.",
+     "rashi": [
+      "<b>האכילו בשר חזיר</b> — שהיה חנוני ישראל מוכר בשר שחוטה לישראל ומבשל ומאכילם וכשהעובד כוכבים בא בחנותו מאכילו נבלות ובא יהודי אחד לאכול ולא נטל ידיו וכסבור זה שעובד כוכבים הוא והאכילו בשר חזיר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַחֲרוֹנִים הוֹצִיאוּ אֶת הָאִשָּׁה מִבַּעְלָהּ.",
+     "en": "And due to the failure to wash with <b>final</b> waters <b>a woman</b> was ultimately <b>divorced from her husband.</b> In this incident, a host who had stolen his guests’ money had lentils on his mustache from a previous meal because he had not washed his hands and mouth after eating. Realizing he had eaten lentils that day, his victims approached the man’s wife and said that her husband had instructed them to tell her to return their money. They then claimed that the man told them to tell her that he had eaten lentils that day as proof that they were telling the truth. They thereby fooled his wife into thinking he wanted her to give their money back. Out of anger, the host divorced his wife.",
+     "rashi": [
+      "<b>הוציאו אשה מבעלה והרגו את הנפש</b> — בפרק בתרא דיומא בעובדא דכידור איכא למ\"ד קטלה ואיכא למ\"ד לא קטלה אלא אפקה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כִּי אֲתָא רָבִין אָמַר: רִאשׁוֹנִים הֶאֱכִילוּ בְּשַׂר נְבֵלָה, אַחֲרוֹנִים הָרְגוּ אֶת הַנֶּפֶשׁ. אָמַר רַב נַחְמָן בַּר יִצְחָק: וְסִימָנָיךְ – אֲתָא רַב דִּימִי אַפְּקַהּ, אֲתָא רָבִין קַטְלַהּ.",
+     "en": "<b>When Ravin came</b> from Eretz Yisrael <b>he said</b> the statement slightly differently: Due to the failure to wash with <b>first</b> waters, they <b>fed</b> a Jew meat from <b>an animal carcass,</b> and the failure to wash with <b>final</b> waters <b>killed a person,</b> as in the second incident the host was so angry with his wife that he killed her. <b>Rav Naḥman bar Yitzḥak said: And your mnemonic</b> to remember which Sage said which version is: <b>Rav Dimi came</b> and <b>divorced her</b> from her husband, i.e., according to his version she was divorced, and <b>Ravin came</b> and <b>killed her,</b> since in his version the husband killed his wife.",
+     "rashi": [
+      "<b>וסימניך</b> — שלא תטעה מי מהם אמר הוציאו ומי מהם אמר הרגו:",
+      "<b>אתא רב דימי אמר אפקה אתא רבין אמר קטלה</b> — הראשון הוציאה והשני הרגה אחוז הסימן כאילו שניהם נעשו בה גירושין והריגה ושוב לא תטעה דודאי אין להחליף ולומר הראשון הרגה והשני הוציאה והם היו יודעין דרב דימי אתא מארץ ישראל מקמי רבין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי אַבָּא מַתְנֵי חֲדָא מֵהָנֵי, וַחֲדָא מֵהָנֵי, לְחוּמְרָא.",
+     "en": "<b>Rabbi Abba would teach one of these</b> versions involving first waters <b>and one of them</b> with regard to final waters, and in both cases he taught <b>the more severe</b> version, i.e., he specified the meat of a pig and that the husband killed his wife.",
+     "rashi": [
+      "<b>חדא מהני כו' לחומרא</b> — ראשונים בשר חזיר כרב דימי אחרונים הרגו כרבין. בשר חזיר חמור מנבלה דאית ביה תרי איסורי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִיתְּמַר, חַמֵּי הָאוּר: חִזְקִיָּה אָמַר אֵין נוֹטְלִים מֵהֶן לַיָּדַיִם, וְרַבִּי יוֹחָנָן אָמַר נוֹטְלִין מֵהֶם לַיָּדַיִם. אָמַר רַבִּי יוֹחָנָן: שָׁאַלְתִּי אֶת רַבָּן גַּמְלִיאֵל בְּנוֹ שֶׁל רַבִּי, וְאוֹכֵל טְהָרוֹת, וְאָמַר לִי כׇּל גְּדוֹלֵי גָּלִיל עוֹשִׂין כֵּן.",
+     "en": "A disagreement <b>was stated</b> with regard to <b>water heated by fire: Ḥizkiyya says</b> that <b>one may not wash</b> his <b>hands with</b> such water, <b>and Rabbi Yoḥanan says</b> that <b>one may wash</b> his <b>hands with it. Rabbi Yoḥanan said: I asked Rabban Gamliel, son of Rabbi</b> Yehuda HaNasi, about this <i>halakha</i>, <b>and</b> he was one who would <b>eat</b> only in a state of <b>ritual purity</b> and was therefore careful about washing his hands; <b>and he said to me</b> that <b>all the great men of the Galilee would do so,</b> i.e., wash their hands in heated water.",
+     "rashi": [
+      "<b>אין נוטלין מהם</b> — מים הראשונים ופליג אדלעיל וחזקיה תנא הוא:",
+      "<b>רבן גמליאל ברבי</b> — בנו של רבי ואוכל טהרות היה:"
+     ],
+     "tosafot": [
+      "<b>חמי האור חזקיה אמר אין נוטלין מהם לידים</b> — והא דתניא לעיל (חולין דף קה.) מים ראשונים נוטלין בין בחמין בין בצונן מוקי חזקיה כלישנא קמא דר' ינאי דלעיל כשאין היד סולדת וכאן איירי כשהיד סולדת בהן ורבי יוחנן דשרי הכא בלשון בתרא דמוקי לה אע\"פ שהיד סולדת מותר ובחנם פירש בקונטרס דחזקיה תנא הוא ופליג אברייתא דלעיל:"
+     ]
+    },
+    {
+     "he": "חַמֵּי טְבֶרְיָא, חִזְקִיָּה אָמַר: אֵין נוֹטְלִין מֵהֶם לַיָּדַיִם, אֲבָל מַטְבִּילִין בָּהֶם הַיָּדַיִם. וְרַבִּי יוֹחָנָן אָמַר: כׇּל גּוּפוֹ טוֹבֵל בָּהֶן, אֲבָל לֹא פָּנָיו יָדָיו וְרַגְלָיו.",
+     "en": "Likewise, with regard to <b>the hot springs of Tiberias, Ḥizkiyya says</b> that <b>one may not wash</b> his <b>hands with</b> water from them before eating, <b>but</b> if there are forty <i>se’a</i>, the requisite size of a ritual bath, then <b>one may immerse the hands</b> directly <b>in them,</b> and this is effective for the ritual of washing the hands before a meal. <b>And Rabbi Yoḥanan says</b> that an impure person <b>may immerse his entire body in</b> such water to become pure, <b>but</b> one may still <b>not</b> use it for the immersion of part of his body, such as <b>his face, hands, and feet,</b> as this immersion is not considered equivalent to washing the hands.",
+     "rashi": [
+      "<b>חמי טבריא חזקיה אמר אין נוטלין מהם לידים אבל מטבילין בהן הידים</b> — אי איכא מ' סאה:",
+      "<b>כל גופו טובל בהן</b> — אם נטמא ראויות הן לטבילת כל גופו:",
+      "<b>אבל לא פניו ידיו ורגליו</b> — אם טבל בהם פניו ידיו ורגליו אין טבילה עולה לידים ולאכילה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הַשְׁתָּא כׇּל גּוּפוֹ טוֹבֵל בָּהֶם, פָּנָיו יָדָיו וְרַגְלָיו לֹא כׇּל שֶׁכֵּן? אָמַר רַב פָּפָּא: בִּמְקוֹמָן – דְּכוּלֵּי עָלְמָא לָא פְּלִיגִי דִּשְׁרֵי, מִשְׁקַל מִינַּיְיהוּ בְּמָנָא – דְּכוּלֵּי עָלְמָא לָא פְּלִיגִי דַּאֲסִיר. כִּי פְּלִיגִי – דְּפַסְקִינְהוּ בְּבַת בִּירְתָּא: מָר סָבַר גָּזְרִינַן בַּת בִּירְתָּא אַטּוּ מָנָא, וּמָר סָבַר לָא גָּזְרִינַן.",
+     "en": "The Gemara asks: <b>Now</b> that it has been said that one <b>may immerse his entire body in</b> the hot springs of Tiberias, is it <b>not all the more so</b> permitted for <b>his face, hands, and feet? Rav Pappa said:</b> When the water in the hot springs stands <b>in place, everyone,</b> both Ḥizkiyya and Rabbi Yoḥanan, <b>agrees that it is permitted</b> to immerse one’s hands in it. Likewise, <b>everyone agrees that</b> to <b>take from</b> these waters <b>in a vessel</b> and wash one’s hands from it <b>is prohibited. They disagree when one draws</b> the waters <b>through a ditch.</b> One <b>Sage,</b> Rabbi Yoḥanan, <b>holds</b> that <b>we decree</b> against the use of <b>ditch</b> water <b>due to</b> the concern that one might come to use water in <b>a vessel, and</b> one <b>Sage,</b> Ḥizkiyya, <b>holds</b> that <b>we do not decree</b> against it.",
+     "rashi": [
+      "<b>השתא כל גופו כו'</b> — הלא אף טבילה עולה לידים יותר מן הנטילה כדאמרינן בחגיגה (דף יח:) נוטלין לידים לחולין ולמעשר ולקדש מטבילין אלמא טבילת ידים עדיפא ולכל גופו חזו לטבילה לידיו לא כל שכן:",
+      "<b>במקומן</b> — בחיבורן אם בא להטביל ידיו בהן:",
+      "<b>דכ\"ע שפיר דמי</b> — דשם טבילה עליהם ככל מעיינות ומקוואות:",
+      "<b>משקל מינייהו במנא</b> — לשפוך על ידיו כדין הנטילה:",
+      "<b>דכ\"ע אסור</b> — דכי תקון רבנן נטילה לאו בחמין תקון והני גריעי מחמי האור שלא היתה להן שעת הכושר:",
+      "<b>דאפסקינהו בבת בירתא</b> — חריץ קצר והמים פונים שם ואין שם שיעור מקוה אבל מחוברין למקוה דגזירה בעלמא הוא אטו מנא:"
+     ],
+     "tosafot": [
+      "<b>דפסקינהו בבת בירתא</b> — והא דאמרינן בפרק ג' מינין (נזיר לח.) דרביעית דמקוה בטלי בטלוה היינו לענין מחטין וצינורות אבל שרי להטביל בהן ידיו א\"נ לגמרי בטלוה אף לידים והכא במחוברין למקוה וכן פירש בקונטרס:"
+     ]
+    },
+    {
+     "he": "כְּתַנָּאֵי: מַיִם שֶׁנִּפְסְלוּ מִשְּׁתִיַּית בְּהֵמָה, בְּכֵלִים – פְּסוּלִים, בַּקַּרְקַע – כְּשֵׁרִין. רַבִּי שִׁמְעוֹן בֶּן אֶלְעָזָר אוֹמֵר: אַף בַּקַּרְקַע, טוֹבֵל בָּהֶן כׇּל גּוּפוֹ, אֲבָל לֹא פָּנָיו יָדָיו וְרַגְלָיו.",
+     "en": "The Gemara comments: This dispute is <b>like</b> a dispute between <b><i>tanna’im</i>,</b> as it was taught: When <b>water that has ceased to be fit for drinking</b> even <b>by an animal</b> is <b>in vessels,</b> it is <b>unfit</b> for washing the hands, but when it is <b>in the ground</b> it is <b>fit</b> for immersion, like a ritual bath. <b>Rabbi Shimon ben Elazar says: Even</b> when the water is <b>in the ground,</b> one <b>may immerse his entire body in it, but</b> he may <b>not</b> immerse <b>his face, hands, and feet.</b>",
+     "rashi": [
+      "<b>שנפסלו משתיית בהמה</b> — כגון סרוחין או חמי טבריא:",
+      "<b>בקרקע כשרין</b> — להטביל ידיו דהא מקוה נינהו אבל נטילה לא תקנו רבנן אלא בראוין לשתיית בהמה:",
+      "<b>אבל לא פניו ידיו ורגליו</b> — אפילו דרך טבילה. פניו ורגליו משום ידיו נקט להו ואורחא בעלמא נקט:"
+     ],
+     "tosafot": [
+      "<b>מים שנפסלו משתיית בהמה בכלים פסולין בקרקע כשרין</b> — בפ\"ב דזבחים (דף כב.) אמרינן כל המשלים למי מקוה משלים למי באר ולרביעית אינו משלים למעוטי מאי אילימא למעוטי טיט הנרוק היכי דמי אי דפרה שוחה ושותה ממנו אפילו לרביעית נמי משלים פירש שם בקונטרס וכשרים הן לידים כדאמר בפרק כל הבשר מים שנפסלו משתיית בהמה בין בכלים בין בקרקע פסולין הא לא נפסלו כשרין ואגב ריהטא לא עיין כן ואם תאמר דהתם קאמר ואי דאין פרה שוחה ושותה ממנו אפילו למקוה נמי לא והכא משמע דלכ\"ע טובל בהן כל גופו ונראה לפרש דהתם מיירי שנפסלו משתיית בהמה מחמת שהטיט עב כל כך שאינה יכולה לשתות דאז אין שם מים עליו אבל הכא איירי בצלולין הרבה אלא דמאיס ומסרחי ומחמת כך אין הפרה יכולה לשתות:"
+     ]
+    },
+    {
+     "he": "הַשְׁתָּא, כׇּל גּוּפוֹ טוֹבֵל בָּהֶן, יָדָיו וְרַגְלָיו לֹא כׇּל שֶׁכֵּן? אֶלָּא לָאו דְּפַסְקִינְהוּ בְּבַת בִּירְתָּא, וּבְהָא פְּלִיגִי: דְּמָר סָבַר גָּזְרִינַן בַּת בִּירְתָּא אַטּוּ מָנָא, וּמָר סָבַר לָא גָּזְרִינַן.",
+     "en": "As above, one might ask: <b>Now</b> that one <b>may immerse his entire body in</b> the water, is it <b>not all the more so</b> the case that one may immerse <b>his hands and feet</b> in it? <b>Rather,</b> must it <b>not</b> be referring to a case <b>when one draws</b> the waters <b>through a ditch? And</b> if so, <b>they disagree about this:</b> One <b>Sage,</b> Rabbi Shimon ben Elazar, <b>holds</b> that <b>we decree</b> against the use of <b>ditch</b> water <b>due to</b> concern that one may come to use <b>a vessel, and</b> one <b>Sage,</b> the first <i>tanna</i> of that <i>baraita</i>, <b>holds</b> that <b>we do not decree</b> against it.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב אִידִי בַּר אָבִין, אָמַר רַב יִצְחָק בַּר אַשְׁיָאן: נְטִילַת יָדַיִם לְחוּלִּין, מִפְּנֵי סֶרֶךְ תְּרוּמָה.",
+     "en": "§ <b>Rav Idi bar Avin says</b> that <b>Rav Yitzḥak bar Ashiyan says:</b> The obligation of <b>washing hands</b> before eating <b>non-sacred</b> food is <b>due to an ancillary</b> decree on account of <b><i>teruma</i>,</b> the portion of produce designated for the priest, which must be consumed in a state of ritual purity. By rabbinic decree, one’s hands are considered impure with second-degree ritual impurity, as they may have touched impure items. Therefore, they render <i>teruma</i> impure. Consequently, priests who partake of <i>teruma</i> are obligated to wash their hands first. The Sages therefore decreed that all must wash their hands even before eating non-sacred food, so that people not become accustomed to eating without washing their hands, which would in turn lead the priests to partake of <i>teruma</i> without washing their hands.",
+     "rashi": [
+      "<b>נט\"י לחולין מפני סרך תרומה</b> — הוצרכה שהידים שניות ופוסלות את התרומה אבל חולין לא מהני בהו שני ומפני סרך תרומה שירגילו אוכלי תרומה ליטול ידיהם הנוהגת בחולין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְעוֹד מִשּׁוּם מִצְוָה. מַאי מִצְוָה? אֲמַר אַבָּיֵי: מִצְוָה לִשְׁמוֹעַ דִּבְרֵי חֲכָמִים. רָבָא אָמַר: מִצְוָה לִשְׁמוֹעַ דִּבְרֵי רַבִּי אֶלְעָזָר בֶּן עֲרָךְ, דִּכְתִיב: ״וְכֹל אֲשֶׁר יִגַּע בּוֹ הַזָּב וְיָדָיו לֹא שָׁטַף בַּמָּיִם״. אָמַר רַבִּי אֶלְעָזָר בֶּן עֲרָךְ: מִכָּאן סָמְכוּ חֲכָמִים לִנְטִילַת יָדַיִם מִן הַתּוֹרָה.",
+     "en": "<b>And</b> the obligation is <b>further due to</b> its being <b>a mitzva.</b> The Gemara asks: <b>What mitzva</b> does it involve? <b>Abaye says:</b> It is <b>a mitzva to listen to</b> and obey <b>the statements of the Sages,</b> who instituted this washing of the hands. <b>Rava says:</b> It is <b>a mitzva to listen to the statement of Rabbi Elazar ben Arakh, as it is written</b> with regard to a man who experiences a gonorrhea-like discharge [<i>zav</i>]: <b>“And whomever he that has the issue touches, without having rinsed his hands in water,”</b> he contracts ritual impurity (Leviticus 15:11), and <b>Rabbi Elazar ben Arakh says: From here the Sages based washing of the hands</b> upon a verse <b>from the Torah.</b>",
+     "rashi": [
+      "<b>מצוה לשמוע דברי חכמים</b> — שתקנוה:",
+      "<b>רבא אמר</b> — דאורייתא היא מצוה כרבי אלעזר בן ערך:",
+      "<b>מכאן סמכו</b> — כדמפרש ואזיל:"
+     ],
+     "tosafot": [
+      "<b>מצוה לשמוע דברי חכמים</b> — וא\"ת והלא משום סרך תרומה תקנוה וא\"כ מאי ועוד וי\"ל דתקנו משום נקיות:",
+      "<b>מצוה לשמוע דברי רבי אלעזר בן ערך</b> — פירוש דאסמיך ליה קרא דלאו דרשה גמורה דעיקר קרא אתא לכדדרשינן בנדה (דף מג.) מה ידיו מאבראי:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ רָבָא לְרַב נַחְמָן: מַאי מַשְׁמַע? דִּכְתִיב ״וְיָדָיו לֹא שָׁטַף בְּמַיִם״, הָא שָׁטַף – טָהוֹר? הָא טְבִילָה בָּעֵי! אֶלָּא הָכִי קָאָמַר: וְאַחֵר שֶׁלֹּא שָׁטַף – טָמֵא.",
+     "en": "<b>Rava said to Rav Naḥman: From where</b> is this <b>inferred?</b> How can this verse, which concerns a <i>zav</i>, be interpreted as referring to washing the hands before a meal? Rava explains: <b>As it is written: “Without having rinsed his hands in water.” Consequently,</b> one could infer that if he <b>rinsed</b> his hands the <i>zav</i> becomes <b>ritually pure. But</b> this cannot be correct, as verses elsewhere prove that a <i>zav</i> <b>requires</b> the <b>immersion</b> of his entire body. <b>Rather, this</b> is what the verse <b>is saying: And</b> there is <b>another</b> type of person <b>who,</b> if he <b>has not rinsed</b> his hands in water, is considered like one who is <b>impure.</b> The verse thereby serves as the basis for washing the hands.",
+     "rashi": [
+      "<b>הא שטף</b> — במים את ידיו טהור מנגיעתו בזב בתמיה:",
+      "<b>אלא ה\"ק</b> — הנוגע בזב ומי שאינו שוטף את ידיו שניהם טמאין ואסמכתא בעלמא היא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי אֶלְעָזָר אָמַר רַבִּי אוֹשַׁעְיָא: לֹא אָמְרוּ נְטִילַת יָדַיִם לְפֵירוֹת אֶלָּא מִשּׁוּם נְקִיּוּת. סְבוּר מִינָּה: חוֹבָה הוּא דְּלֵיכָּא, הָא מִצְוָה אִיכָּא. אֲמַר לְהוּ רָבָא: לֹא חוֹבָה וְלֹא מִצְוָה, אֶלָּא רְשׁוּת. וּפְלִיגָא דְּרַב נַחְמָן, דְּאָמַר רַב נַחְמָן: הַנּוֹטֵל יָדָיו לְפֵירוֹת אֵינוֹ אֶלָּא מִגַּסֵּי הָרוּחַ.",
+     "en": "<b>Rabbi Elazar says</b> that <b>Rabbi Oshaya says:</b> The Sages <b>said</b> that <b>washing of the hands</b> before eating <b>fruit</b> is mandatory <b>only due to cleanliness.</b> The Gemara comments: <b>They understood from this</b> statement that <b>there is no</b> true <b>obligation</b> to wash the hands before eating fruit, <b>but there is a mitzva</b> to do so. <b>Rava said to them:</b> This practice is <b>not an obligation nor a mitzva, but</b> merely <b>optional. And</b> the Gemara notes that Rava <b>disagrees with Rav Naḥman</b> in this regard, <b>as Rav Naḥman said: One who washes his hands</b> before eating <b>fruit is nothing other than</b> one <b>of the arrogant,</b> i.e., it is actually prohibited to do so.",
+     "rashi": [
+      "<b>ופליגא דרב נחמן דאמר</b> — גסות הוא ואסור לנהוג עצמו בגסות הרוח ולאו רשות היא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבָּה בַּר בַּר חָנָה: הֲוָה קָאֵימְנָא קַמֵּיהּ דְּרַבִּי אַמֵּי וְרַבִּי אַסִּי, אַיְיתוֹ לְקַמַּיְיהוּ כַּלְכַּלָּה דְּפֵירֵי, וַאֲכַלוּ וְלָא מָשׁוּ יְדַיְיהוּ, וְלָא יְהַבוּ לִי מִידֵּי, וּבָרֵיךְ חַד חַד לְחוֹדֵיהּ. שְׁמַע מִינַּהּ תְּלָת: שְׁמַע מִינַּהּ אֵין נְטִילַת יָדַיִם לְפֵירוֹת, וּשְׁמַע מִינַּהּ אֵין מְזַמְּנִין עַל הַפֵּירוֹת, וּשְׁמַע מִינַּהּ שְׁנַיִם שֶׁאָכְלוּ – מִצְוָה לֵיחָלֵק.",
+     "en": "<b>Rabba bar bar Ḥana said: I was standing before Rabbi Ami and Rabbi Asi</b> when attendants <b>brought a basket of fruit before them, and they ate and did not wash their hands. And they did not give me anything</b> to eat, to enable me to join the <i>zimmun</i>, the quorum required for communal Grace after Meals, <b>and they each recited a blessing</b> after eating, <b>separately.</b> One may <b>learn three</b> <i>halakhot</i> <b>from</b> this incident. <b>Learn from it</b> that <b>there is no washing of the hands</b> before <b>fruit. And learn from it</b> that <b>one does not issue a <i>zimmun</i> on fruit,</b> i.e., the <i>halakha</i> that when three people eat together, one leads the Grace after Meals does not apply when they ate fruit. <b>And</b> finally, <b>learn from it</b> that if only <b>two</b> people <b>ate,</b> it is <b>a mitzva</b> for them <b>to separate,</b> i.e., each should recite the blessing after eating for himself.",
+     "rashi": [
+      "<b>ולא יהבו לי מידי</b> — שלא חשו לצרפני עמהם לזימון דקסברי אין מזמנין על הפירות לומר נברך:",
+      "<b>וש\"מ</b> — מדברכו כל חד וחד לחודיה לאחריהם ולא יצא האחד בברכת חבירו שמע מינה בשנים מצוה ליחלק הואיל ואין כאן שלשה:"
+     ],
+     "tosafot": [
+      "<b>ושמע מינה שנים שאכלו מצוה ליחלק</b> — תימה לר\"י מנא ליה דמצוה ליחלק דילמא רשות כמ\"ד בריש פ' שלשה שאכלו (ברכות מה.) דאם רצו לזמן מזמנין דפלוגתא היא דרב ורבי יוחנן ועוד קשה דהתם לא פליגי אלא בפת שיש עליו תורת זמון בג' אבל פירות דאין מזמנין עליהן כלל כדאמר ש\"מ דאין מזמנין על הפירו' פשיטא דמצו' ליחלק וי\"ל דה\"ק ש\"מ אין מזמנין על הפירות פירוש אין חובה לזמן על הפירות אפילו כשהן שלשה מדלא נתנו לו ואין חילוק בפירות בין ג' לב' ואכתי לא ידעינן אם יכול לזמן בשנים בפת או בפירות אפילו בג' או אסור כמ\"ד אם רצו לזמן אין מזמנין אלא מדבריך כל חד וחד לחודיה שמע מינה דמצוה ליחלק דאם איתא דמותר לזמן לא היה מברך כל אחד לעצמו אלא היה מברך אחד לחברו ואומר נברך שאכלנו משלו כדי להוסיף שבח למקום ואכתי לא ידעינן אלא שבשנים אסור לומר נברך שאכלנו משלו אבל בלא נברך שמא יכול אחד לברך ולפטור חברו אבל מדתניא שנים שישבו מצוה ליחלק בד\"א כו' אלמא דבשניהם יודעים לברך חייבים שניהם לברך וא\"ת ומ\"ש ברכה דבסוף דכל אחד מברך לעצמו מברכה דבתחלה דאחד מברך לכולן כדמוכח בכיצד מברכין (ברכות דף לט.) גבי תלמידי (דרב) דהוו יתבי קמיה דבר קפרא ואייתו קמייהו פרגיות כרוב ודורמסקין ונתן בר קפרא רשות לאחד מהן לברך ובסוף אלו דברים (ברכות דף נג.) תניא היו יושבים בבית המדרש הביאו מאור לפניהם בית הלל אומרים אחד מברך לכולן ובפרק כיצד מברכין (ברכות מב:) תנן גבי מוגמר דאחד מברך לכולן ויש לומר דשאני ברכה דלכתחלה שכל אחד מרויח באותה ברכה שע\"י כן מותרין לאכול וליהנות לפיכך מצטרפין לה אבל בסוף שכבר אכלו לא מצטרפין והא דאמרינן בפרק כיצד מברכין (ברכות דף לז.) רבן גמליאל וזקנים שהיו מסובים בעליה ביריחו והביאו לפניהם כותבות ואכלום ונתן ר\"ג רשות לר' עקיבא לברך וקפץ וברך ברכה אחת מעין ג' היינו משום דר\"ג לטעמיה דחשיב להו כפת דקאמר התם כל שהוא מז' המינים רבן גמליאל אומר ג' ברכות ואע\"ג דר' עקיבא כרבנן סבירא ליה דאמרי ברכה אחת מעין ג' לא בשביל להוציא כולם ברך אלא ברך לעצמו בקול רם להודיע להם דהלכה כרבנן ומה שאין אנו נוהגין עכשיו לברך בתחלה אחד לכולן אלא בפת לחודיה לפי שאין אנו קובעים עצמנו להסב על היין ועל הפירות ואפילו גבי פת תנן בכיצד מברכין (שם דף מב.) היו יושבין כל אחד מברך לעצמו היסבו אחד מברך לכולן וגבי יין פליגי התם בגמרא (דף מג.) רב ור' יוחנן דרב סבר לא מהניא ליה היסבה ואיכא דאמרי לא בעיא היסבה ור' יוחנן אמר מהניא ליה היסבה ומיהו צריך עיון דפשט המשנה משמע דמיירי בברכה דלכתחלה ובגמרא משמע דמיירי בברכה דבסוף גבי תלמידי דרב דאמרי ניכול לחמא אנהר דינק בתר דכריכו יתבי וקא מבעיא להו היסבו אין לא היסבו לא או דלמא כו' משמע דלכ\"ע דברכה דלכתחלה הוה פשיטא להו דלא בעי היסבה דלא נסתפקו אלא לברכת המזון לבתר דכריכו ועוד דאי בברכה דלכתחלה פליגי רב ורבי יוחנן לרב מ\"ש יין ממוגמר ואור דאחד מברך לכולן וי\"ל משום דמוגמר ואור בא להם הנאה בבת אחת אבל קשה דבהדיא תנן התם בא להם יין לאחר המזון אחד מברך לכולם ואע\"ג דאיכא למימר דשאני התם דמגו דמהניא היסבה לפת מהניא נמי ליין דהכי נמי משני התם כי פריך ליה לרב מברייתא דאורחין מ\"מ הוה ליה לאקשויי טפי לרב ממתניתין ולשנויי הכי אלא להכי לא פריך ליה ממתניתין דעל כרחך איירי בברכה דמתחלה דומיא דיין שבתוך המזון אבל ברייתא ע\"כ איירי בברכה דבסוף מדבעי היסבה ולפי זה בברכה דלכתחלה לא בעי לאקבועי דוכתא לא בפת ולא בשאר דברים ובברכה דבסוף בעי לאקבועי דוכתא בין בפת בין בשאר דברים דהלכה כרבי יוחנן ומיהו יש ליישב כולה מלתא בברכה דבתחלה והא דפריך לרב מברייתא ולא ממתניתין משום דמברייתא פריך לתרי לישני דרב ומה שלא נסתפקו תלמידי דרב עד אחר המזון לפי שבתחלה לא באו בבת אחת לנהר דינק אלא היו מתקבצין שם ליסע משם בבת אחת וכל אחד שהיה מגיע שם היה יושב ואוכל והיה מברך לעצמו והא דמייתי שם ראיה ממתניתין דמיירי בברכה דלכתחלה אע\"ג דברכת המזון בשנים מצוה ליחלק ודבתחלה אחד מברך לחבירו מ\"מ מייתי ראיה דכי אמרי ניזול וניכול נהמא בדוכתא פלוני כהיסבה דמיא והוי קביעות ובכל מקום שהאחד מברך לכולם בין ברכה ראשונה בין ברכה אחרונה אין מברך אחד לכולם עד דקביעי:"
+     ]
+    },
+    {
+     "he": "תַּנְיָא נָמֵי הָכִי: שְׁנַיִם שֶׁאָכְלוּ – מִצְוָה לֵיחָלֵק. בַּמֶּה דְּבָרִים אֲמוּרִים? שֶׁהָיוּ שְׁנֵיהֶם סוֹפְרִים, אֲבָל אֶחָד סוֹפֵר וְאֶחָד בּוּר – סוֹפֵר מְבָרֵךְ וּבוּר יוֹצֵא.",
+     "en": "The Gemara notes: <b>This</b> <i>halakha</i> <b>is also taught</b> in a <i>baraita</i>: If only <b>two</b> individuals <b>ate,</b> it is <b>a mitzva</b> for them <b>to separate. In what</b> case <b>is this statement said?</b> It is said <b>when they were both scribes,</b> i.e., Torah scholars, who know how to recite Grace after Meals properly. <b>But</b> if <b>one</b> of them was <b>a scribe and one</b> was <b>an ignoramus,</b> the <b>scribe recites Grace</b> after Meals <b>and</b> the <b>ignoramus fulfills</b> his obligation by listening to the scribe.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּנוּ רַבָּנַן: נְטִילַת יָדַיִם לְחוּלִּין – עַד הַפֶּרֶק, לִתְרוּמָה –",
+     "en": "<b>The Sages taught</b> in a <i>baraita</i>: In <b>washing of the hands for</b> consumption of <b>non-sacred</b> food, one must pour the water on the area that extends <b>until the joint</b> of the fingers. In washing hands <b>for</b> consumption of <b><i>teruma</i>,</b>",
+     "rashi": [
+      "<b>עד הפרק</b> — השני שבאמצע אצבעות דכיון דמשום סרך תרומה בעלמא הוא דיו אם נטל במה שנוגע במאכל דהיינו ראשי אצבעות:",
+      "<b>לתרומה עד הפרק</b> — פרק השלישי והוא בגב היד:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 106b",
+   "he_ref": "חולין ק״ו:",
+   "url": "https://www.sefaria.org/Chullin.106b",
+   "segments": [
+    {
+     "he": "עַד הַפֶּרֶק. קִידּוּשׁ יָדַיִם וְרַגְלַיִם בַּמִּקְדָּשׁ – עַד הַפֶּרֶק, וְכׇל דָּבָר שֶׁחוֹצֵץ בִּטְבִילָה בַּגּוּף – חוֹצֵץ בִּנְטִילַת יָדַיִם לְחוּלִּין, וּבְקִידּוּשׁ יָדַיִם וְרַגְלַיִם בַּמִּקְדָּשׁ.",
+     "en": "he must pour on the area extending <b>until the joint.</b> In <b>sanctifying the hands and feet in the Temple</b> before the service, he must pour the water <b>until</b> another <b>joint,</b> where the palm meets the wrist. <b>And any item that</b> is considered to <b>interpose</b> between one’s skin and the water <b>with regard to immersion of the body</b> in a ritual bath, disqualifying the immersion, likewise <b>interposes with regard to washing the hands for</b> eating <b>non-sacred</b> food <b>and with regard to sanctification of the hands and feet in the Temple.</b>",
+     "rashi": [
+      "<b>קידוש ידים ורגלים</b> — מן הכיור:",
+      "<b>עד הפרק</b> — העליון מקום חבור היד והזרוע:"
+     ],
+     "tosafot": [
+      "<b>וכל דבר שחוצץ בטבילה חוצץ בנטילת ידים לחולין</b> — הקשה הרב ר' אברהם בן הרב ר' משה דבתוספתא דמקוואות תניא בפרק ז' כל החוצץ בכלים חוצץ בנדה ובגר בשעת טבילה ובחולין אין חוצצין והכא קאמר דחוצצין וי\"ל דהכא איירי לאכילה כדמוכח כוליה שמעתא והחמירו באכילה כמו בטבילה והתם בנגיעה ואיירי אף בחולין שנעשו על טהרת תרומה דלא החמירו וצריך ליזהר בשעת נטילה מטיט ובצק שתחת הצפורן דחוצצין בטבילה כדתנן במסכת מקואות (פ\"ט מ\"ב) וכל דבר שחוצץ בטבילה צריך כמו כן ליזהר בנטילה לאכילה אבל במיעוט שאינו מקפיד אין לחוש דבטבילה נמי אינו חוצץ כדאמרינן בפ\"ק דעירובין (דף ד:):"
+     ]
+    },
+    {
+     "he": "אָמַר רַב: עַד כָּאן לְחוּלִּין, עַד כָּאן לִתְרוּמָה. וּשְׁמוּאֵל אָמַר: עַד כָּאן בֵּין לְחוּלִּין בֵּין לִתְרוּמָה, לְחוּמְרָא. וְרַב שֵׁשֶׁת אָמַר: עַד כָּאן בֵּין לְחוּלִּין בֵּין לִתְרוּמָה, לְקוּלָּא.",
+     "en": "<b>Rav said</b> this <i>halakha</i> to his students while indicating with his hand the joints to which the <i>baraita</i> is referring: One washes <b>until here,</b> the second joint of the fingers, <b>for non-sacred</b> food, and <b>until there,</b> the third joint, where the fingers join the palm, <b>for <i>teruma</i>. And Shmuel</b> disagreed and <b>said:</b> One washes <b>until here both for</b> eating <b>non-sacred</b> food <b>and for <i>teruma</i>,</b> indicating <b>the more stringent</b> location, the third joint where the fingers join the palm. <b>And Rav Sheshet said: Until here both for</b> the consumption of <b>non-sacred</b> food <b>and for <i>teruma</i>,</b> indicating <b>the more lenient</b> location, the second joint.",
+     "rashi": [
+      "<b>עד כאן לחולין</b> — מראה היה בידו כמו שפירשתי:",
+      "<b>ושמואל אמר</b> — פרק החולין והתרומה שוין ולחומרא בפרק השלישי והוא שבגב היד:"
+     ],
+     "tosafot": [
+      "<b>אמר רב עד כאן לחולין ועד כאן לתרומה</b> — כדקתני בברייתא לחולין עד הפרק לתרומה עד הפרק כו' והיה מראה רב בידיו ופירש בקונטרס דעד הפרק לחולין הוא פרק ב' שבאמצע אצבעות ולתרומה עד הפרק שבגב היד ובקדוש ידים עד הפרק העליון מקום חבור היד והזרוע ולא רצה לפרש בקונטרס דפרק דחולין הוא פרק ראשון שבראש האצבעות לפי שאינו שוה בכל האצבעות כמו באגודל אבל פרק האמצעי שוה בכולם ושמואל אמר דפרק דחולין ודתרומה שוין לחומרא ולא פליג אברייתא אלא משום דכהן הוא ורגיל בתרומה לכך החמיר על עצמו להרגיל אף בחולין אבל לרב ששת קשה דאמר עד כאן בין לחולין בין לתרומה לקולא וי\"ל דרב ששת מפרש הברייתא בפרק הראשון שבראש אצבעות לחולין ושני לתרומה שהוא פרק אמצעי ולא להקל על הברייתא קאמר אלא אדרב ושמואל דאמרי דפרק דתרומה הוא מקום חבור אצבעות ותפיסת היד ור\"ת פירש ע\"כ לחולין פרק ראשון כמו שפירש רב ששת ולפירוש זה קשה ברייתא לרב ששת דלפירושו צריך לומר דלרב ששת דחולין ותרומה בפרק ראשון לקולא ומיהו יש לדחות דלשמואל לחומרא היינו פרק שבגב היד כמו קדוש ידים ובא רב ששת להקל משמואל אבל אין לפרש כמו שפירש הרב ר' אברהם דחולין עד פרק שלישי דאצבעות ולתרומה כל פיסת היד פירוש עד הקנה ולקדוש ידים עד העצילה שקורין קוד\"א בלע\"ז והביא ראיה מספר הזהיר שכתוב שם אמר שמואל לחולין כל היד ואי אפשר לומר כן מדתניא בפרק האומר משקלי עלי (ערכין יט:) משקל ידי ומשקל רגלי עלי ר' יהודה אומר ממלא אדם חבית ומכניס ידו עד העציל וברגל עד הארכובה ופריך וביד עד העציל ורמינהו קדוש ידים ורגלים במקדש עד הפרק ומשני דאורייתא עד הפרק בנדרים הלך אחר לשון בני אדם אלמא אין קדוש ידים עד העציל ומיהו יתכן פירושו לפי מה שמפרש שם דעציל היינו אישיל\"א והוא בית השחי מקום חבור הזרוע והכתף וכן פירש בקונטרס בפרק הזרוע (לקמן חולין קלד:) אבל קשה לר\"ת דאמר בזבחים (דף יח:) ולא יחגרו ביזע אין חוגרין במקום שמזיעין לא למטה ממתניהם ולא למעלה מאציליהם אלא כנגד אצילי ידיהם והיינו כנגד קוד\"א ששם דרך לחגור דאי במקום שחי אדרבה הוא מקום זיעה יותר ועוד דמה שייך לומר ולא למעלה דלמעלה הוי צואר ואיך יחגרו שם ועוד דבערכין (דף יט:) קאמר ביד עד העציל וברגל עד הארכובה משמע דעציל באמצע היד כמו הארכובה באמצע הרגל ועוד דבאהלות (פ\"א מ\"ח) כשמונה רמ\"ח אברים קתני ל' בפיסת היד ששה בכל אצבע שנים בקנה ושנים במרפק אחד בזרוע וארבעה בכתף משמע דמרפק הוא קוד\"א שכן הוא הסדר ומרפק ועציל הכל אחד דהא בערכין (דף יט.) קתני ר' יהודה במתניתין דהתם מכניס ידו עד מרפקו ותרגום כל אצילי ידים דיחזקאל (יג) כל מרפוקי ידיא ואין לפרש דקידוש ידים הוא עד בית השחי דהיינו עד הכתף דהא פריך בערכין ודאורייתא עד הפרק והא גבי תפילין כתיב ידך ותני דבי מנשה ידך זו קיבורת ומשני דאורייתא קיבורת כו' קידוש ידים ורגלים הלכתא גמירי לה משמע דפרק דקידוש ידים ורגלים אין מגיע עד קיבורת וקיבורת מפרש רבינו תם קבוצת בשר שבזרוע כמו (ב\"ב דף ה.) קיבורא דאהינא שהוא לשון קבוצת תמרים:"
+     ]
+    },
+    {
+     "he": "אָמַר בַּר הֶדְיָא: הֲוָה קָאֵימְנָא קַמֵּיהּ דְּרַבִּי אַמֵּי, וְאָמַר: עַד כָּאן בֵּין לְחוּלִּין בֵּין לִתְרוּמָה לְחוּמְרָא, וְלָא תֵּימָא רַבִּי אַמֵּי מִשּׁוּם דְּכֹהֵן הוּא, דְּהָא רַבִּי מְיָישָׁא בַּר בְּרֵיהּ דְּרַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי הוּא לֵיוַאי, וְאָמַר: עַד כָּאן בֵּין לְחוּלִּין בֵּין לִתְרוּמָה לְחוּמְרָא.",
+     "en": "<b>Bar Hedya said: I was standing before Rabbi Ami, and he said:</b> One washes <b>until here both for non-sacred</b> food <b>and for <i>teruma</i>,</b> indicating <b>the more stringent</b> location, the third joint. <b>And do not say</b> that <b>Rabbi Ami</b> acted this way only <b>because he is a priest</b> and acted stringently to avoid confusing <i>teruma</i> and non-sacred food. This cannot be, <b>as Rabbi Meyasha, son of the son of Rabbi Yehoshua ben Levi, is a Levite, and</b> yet <b>he</b> too <b>said: Until here both for non-sacred</b> food <b>and for <i>teruma</i>,</b> indicating <b>the more stringent</b> location.",
+     "rashi": [
+      "<b>משום דכהן הוא</b> — ורגיל בתרומה לפיכך החמיר על עצמו להרגיל אף בחולין כן כדי שיהא רגיל בה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב: נוֹטֵל אָדָם אֶת שְׁתֵּי יָדָיו שַׁחֲרִית, וּמַתְנֶה עֲלֵיהֶן כׇּל הַיּוֹם כּוּלּוֹ. אֲמַר לְהוּ רַבִּי אֲבִינָא לִבְנֵי",
+     "en": "§ <b>Rav says: A person may wash both</b> of <b>his hands in the morning and stipulate with regard to them</b> that he may eat on the basis of that washing throughout <b>the entire day,</b> provided he guards his hands from dirt and ritual impurity. It is likewise related that <b>Rabbi Avina said to the inhabitants of</b>",
+     "rashi": [
+      "<b>ומתנה</b> — לאכילה ובלבד שיזהר מלטנפם ומלטמאם:"
+     ],
+     "tosafot": [
+      "<b>נוטל אדם ידיו שחרית ומתנה עליהן כל היום</b> — תימה דאמרינן בערבי פסחים (דף קו:) הנוטל ידיו לא יקדש משום דקידוש מפסיק בין נטילת ידים לסעודה ואמר בפרק אלו דברים (ברכות נב:) ב\"ה אומרים מוזגין כוס ואח\"כ נוטלין משום דתיכף לנטילת ידים סעודה והשתא הא מועיל תנאי אפילו כל היום ואומר ר\"ת דהני מילי כשמתנה שחרית ועוד י\"ל דאע\"ג דמועיל תנאי לרב אף שלא בשעת הדחק היינו אם אין מים בסמוך לו אי נמי יש לו וצריך לדברים אחרים:"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -17,9 +17,10 @@ forgotten on the command line.
 | `sheet.py` | parses a sheet: YAML front matter, prose, and the quiz's `yaml` block |
 | `validate.py` | the format contract, as checks. Exits nonzero; the build refuses to write |
 | `i18n.py` | every string the build itself renders, plus per-language date formatting |
+| `daftext.py` | fetches the daf itself from Sefaria into `content/daf/`. Not run by the build |
 | `build.py` | renders the pages, the archive, the manifest and `assets/` |
 | `templates/` | Jinja: `base.html`, `daf.html`, `archive.html` |
-| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `speak.js`, `zman.js` — copied to `assets/` with a content hash |
+| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `daf.js`, `speak.js`, `zman.js` — copied to `assets/` with a content hash |
 | `check_browser.js` | drives the built site in headless Chrome (needs `puppeteer-core`) |
 | `migrate_legacy.py` | one-off, already run; its inputs no longer exist. Deletable |
 
@@ -39,14 +40,52 @@ note above it.
 Adding a language is a key in `i18n.LANGS` / `i18n.UI`, a `STR` entry in `quiz.js`,
 `cards.js` and `zman.js`, and `<Tractate>_<page>.<lang>.md` sheets. Nothing hardcodes `es`.
 
-## The three views
+## The four views
 
 `tabs.js` switches between them and announces the one it opened as a `dafview` event; each
 panel wakes itself up on that. **Learn** is the rendered sheet. **Chazara Quiz** is the
 `yaml` block under `## Chazara`. **Flashcards** is the `| Term | Meaning |` table under
 `## Key concepts`, read out of the same markdown the Learn view renders — the deck cannot
 drift from the sheet, because the glossary is written once. A daf with fewer than
-`build.MIN_CARDS` terms gets no deck and no tab.
+`build.MIN_CARDS` terms gets no deck and no tab. **The Daf** is the daf itself; below.
+
+## The Daf — tzurat hadaf
+
+The other three views are things we wrote *about* the daf. This one is the daf: the Vilna
+Gemara with Rashi and Tosafot, in the layout it is printed in — Gemara down the middle,
+Rashi on the inner margin, Tosafot on the outer one. Which side is inner depends on the
+leaf, and the two amudim swap accordingly: amud alef is a recto, so its spine is on the
+left and Rashi sits left of the text; amud bet is its verso and mirrors it.
+
+```bash
+python3 build/daftext.py Chullin 108   # one daf into content/daf/Chullin_108.json
+python3 build/daftext.py --all         # whatever content/ is missing
+```
+
+**The build never fetches.** It runs on a laptop that is often only briefly awake, and six
+URLs per daf would turn a flaky connection into a broken site; the text of a page printed
+in Vilna in 1886 is also not going to change. So `daftext.py` caches it once under
+`content/daf/` and the build reads what is there. A daf with no cached text simply has no
+Daf tab, and the build says which ones those are and how to fix it. **Run it after writing
+a sheet and before building** — it is a step in `DAILY_PROMPT.md` for that reason.
+
+The cache costs about 45 KB per daf, roughly doubling a built page (~65 KB → ~120 KB, or
+~34 KB over the wire once gzipped). Segments are positional: Sefaria numbers Rashi and
+Tosafot to the Gemara segment they comment on, so a row of the layout is one passage with
+its own commentary. A commentary with more segments than the Gemara has its tail folded
+into the last row rather than dropped.
+
+`daf.js` only presents what the build already wrote — the chips that show and hide Rashi,
+Tosafot and the English translation (remembered site-wide), and the folding of the margins
+into collapsible blocks once the columns have stacked on a narrow screen. With no
+JavaScript the whole daf is there, unfolded. The columns are a right-to-left flex row
+rather than a grid, so hiding one hands its width to the others by itself.
+
+Two things the tab has to say for itself. The provenance notice above the tabs would be a
+lie here — this text is not AI-written — so the pair of notices swaps over on a body class
+when the tab opens. And the Gemara and its translation are the William Davidson Talmud,
+which is **CC BY-NC 4.0**: the credit line under the daf is a licence condition, not a
+courtesy. Rashi and Tosafot are the Vilna edition, public domain.
 
 ## Read aloud
 

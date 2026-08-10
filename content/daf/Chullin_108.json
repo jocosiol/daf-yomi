@@ -1,0 +1,270 @@
+{
+ "tractate": "Chullin",
+ "page": 108,
+ "fetched": "2026-08-10",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 108a",
+   "he_ref": "חולין ק״ח.",
+   "url": "https://www.sefaria.org/Chullin.108a",
+   "segments": [
+    {
+     "he": "כׇּל הַסְּרִיקִין אֲסוּרִין וּסְרִיקֵי בַיְיתּוֹס מוּתָּרִין? הָתָם, הָא אָמַר מָר בַּר רַב אָשֵׁי: אֵיזוֹרוֹ מוֹכִיחַ עָלָיו.",
+     "en": "<b>All the Syrian cakes are prohibited, but the Syrian cakes of Baitos are permitted?</b> The Gemara responds: With regard to the case <b>there, Mar, son of Rav Ashi, said: His belt is proof for him,</b> as in those days people commonly had one belt, which was worn over the shirt. If a person had more than one shirt, then whenever he laundered one he would remove the belt and wear it over the second. If one saw a shirt being washed with its belt, he would know that the owner had only one shirt.",
+     "rashi": [
+      "<b>כל הסריקין אסורין</b> — לענין מצות דפסח תנא אין עושין סריקין המצויירין בפסח מפני שהאשה שוהה עליהן ומחמצתן ונחתום אחד ובייתוס שמו היה לו דפוס אחד מצוייר והיה מושיב לתוכו את הסריק והוא מצוייר מיד אמר להם אפשר יעשנה בדפוס ויקבענה מיד אמרו לו א\"כ יאמרו כל הסריקין אסורין וסריקי בייתוס מותרין. והכא נמי יאמרו כל האחין אסורין ואלו מותרין:",
+      "<b>איזורו מוכיח עליו</b> — האיזור תמיד הוא קבוע בחלוקו וכשהוא פושט חלוקו ולובש חלוק אחר נוטל האיזור מזה וקובעו בזה וזה שאין לו אחר מכבסו עם איזורו והרואה כשהוא מכבסו ואיזורו עמו יודע שאין לו חלוק אחר ולכך התירו לו חכמים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> טִיפַּת חָלָב שֶׁנָּפְלָה עַל הַחֲתִיכָה, אִם יֵשׁ בָּהּ בְּנוֹתֵן טַעַם בְּאוֹתָהּ חֲתִיכָה – אָסוּר. נִיעֵר אֶת הַקְּדֵרָה, אִם יֵשׁ בָּהּ בְּנוֹתֵן טַעַם בְּאוֹתָהּ קְדֵרָה – אָסוּר.",
+     "en": "<strong>MISHNA:</strong> In the case of <b>a drop of milk that fell on a piece</b> of meat, <b>if</b> the drop <b>contains</b> enough milk <b>to impart flavor to that piece</b> of meat, i.e., the meat is less than sixty times the size of the drop, the meat is <b>forbidden.</b> If <b>one stirred</b> the contents of <b>the pot</b> and the piece was submerged in the gravy before it absorbed the milk, <b>if</b> the drop <b>contains</b> enough milk <b>to impart flavor to</b> the contents of <b>that</b> entire <b>pot,</b> the contents of the entire pot are <b>forbidden.</b>",
+     "rashi": [
+      "<b>מתני' טיפת חלב שנפלה על החתיכה</b> — בתוך הקדירה על אחת מן החתיכות ולא הגיס את הקדירה ולא נחלק טעם הטיפה אלא לאותה חתיכה בלבד:",
+      "<b>אם יש בה בנותן טעם באותה חתיכה</b> — כלומר שאין באותה חתיכה לבדה ששים לבטל הטיפה מיד נאסרת החתיכה. ובשאר חתיכות דקדרה לא איירי תנא דמתני' ובגמרא פליגי בה אם חוזרת אותה חתיכה ואוסרתן או לאו:",
+      "<b>ניער את הקדרה</b> — הגיס בה מיד קודם שקבלה החתיכה טעם מן הטיפה דהשתא נתערבה הטיפה בכולן:",
+      "<b>אם יש בה בנ\"ט באותה קדרה</b> — כלומר אין כח בטיפה לאסור כולן אא\"כ יש בנ\"ט ליתן בכל הקדרה:"
+     ],
+     "tosafot": [
+      "<b>טיפת חלב שנפלה על חתיכת בשר אם יש בנותן טעם באותה חתיכה</b> — נאסרת כשהחתיכה כולה חוץ לרוטב איירי כדאמרינן בפ' גיד הנשה (לעיל חולין דף צו:) ולכך משערינן באותה חתיכה לבטל הטיפה ולא בשאר חתיכות משום דחלב מפעפע על כל החתיכה ואין מפעפע מחתיכה לחברתה אלא ע\"י ניעור וכסוי כדאמרינן בגמ' אילימא לא ניער כלל אמאי כל החתיכות אסורות מיבלע בלע מפלט לא פליט:"
+     ]
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> אָמַר אַבָּיֵי: טַעְמוֹ וְלֹא מַמָּשׁוֹ בְּעָלְמָא – דְּאוֹרָיְיתָא.",
+     "en": "<strong>GEMARA:</strong> <b>Abaye said:</b> The principle that <b>the flavor</b> of a forbidden food renders prohibited the substance in which it is absorbed, <b>and</b> it is <b>not</b> necessary for there to be <b>actual</b> forbidden substance, applies <b>by Torah law in general,</b> and not just to the prohibition of meat cooked in milk.",
+     "rashi": [
+      "<b>גמ' אמר אביי טעמו ולא ממשו בעלמא דאורייתא</b> — הא דאסרינן בכל איסורין משנתנו טעם בהיתר אע\"פ שאין אוכל ממש כגון סילק האיסור ואין כאן אלא טעמו דאורייתא היא דגמרינן מבשר בחלב דאסריה רחמנא באכילה כדגמרינן לקמן (חולין דף קטו:) מלא תבשל שלשה פעמים האמורים בתורה ואע\"ג דכי מסלק זה מתוך זה לאחר בשולו אין כאן אלא הטעם ומיניה גמרינן לכל איסורין במה מצינו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּאִי סָלְקָא דַעְתָּךְ דְּרַבָּנַן, מִבָּשָׂר בְּחָלָב מַאי טַעְמָא לָא גָּמְרִינַן? דְּחִדּוּשׁ הוּא. אִי חִדּוּשׁ הוּא, אַף עַל גַּב דְּלֵיכָּא נוֹתֵן טַעַם נָמֵי!",
+     "en": "<b>As, if it enters your mind</b> that the principle applies to other prohibited foods <b>by rabbinic law,</b> one can claim: <b>What is the reason</b> that <b>we do not learn</b> that it applies by Torah law <b>from</b> the analogous case of <b>meat</b> cooked <b>in milk?</b> It must be <b>because</b> the prohibition of meat cooked in milk <b>is a novelty</b> that is not derived through logical reasoning, as each substance is separately permitted, and they are prohibited only when cooked together. No analogies can be drawn to a novelty. But <b>if</b> the prohibition <b>is a novelty,</b> then <b>even if there is not</b> enough milk to <b>impart flavor,</b> the meat and milk should <b>also</b> be prohibited. Since the measure of the prohibition follows the standard principles of mixtures, the prohibition itself is apparently not a novelty. One may therefore draw an analogy to other mixtures, inferring that this measure applies to them by Torah law as well.",
+     "rashi": [
+      "<b>דאי ס\"ד</b> — בכל שאר איסורין טעמו דרבנן היא דלא גמרינן להו מבשר בחלב:",
+      "<b>מ\"ט לא גמרינן מיניה משום דחדוש הוא</b> — דשניהם מין היתר זה לבדו וזה לבדו וכשנתערבו נאסרו ועוד שדרך בשול נאסרו בלא אכילה הילכך לא גמרינן חומרא מינייהו:",
+      "<b>אי חדוש הוא</b> — אמאי קתני מתני' דבעיא טעמא בלא נותן טעם נמי אסור דהא חדושא חדיש ביה רחמנא ואפי' כל דהו דהא בשר בחלב הוא אלא ש\"מ לאו חדושא דאהכי קפיד רחמנא דומיא דכלאי הכרם דמתסרי נמי משום כלאי תערובת דכיון דלאו חדוש הוא גמרינן ליה (לעיל חולין דף צח.) מזרוע בשלה דמישתרי כל כמה דליכא טעמא:"
+     ],
+     "tosafot": [
+      "<b>מבשר בחלב מ\"ט לא גמרינן כו'</b> — וא\"ת דהכא משמע דנפקא ליה לאביי טעם כעיקר מבשר בחלב ואילו בפ' אלו עוברין (פסחים דף מד:) ובפ' ג' מינין (נזיר דף לז.) פליגי ר' עקיבא ורבנן למר נפקא ליה טעם כעיקר ממשרת ולמר מגיעולי עובדי כוכבים ואביי דאיירי בההיא סוגיא משמע דידע לההיא ברייתא וי\"ל דאביי קבלה מרבא שדחה לו וחזר בו:",
+      "<b>דחדוש הוא</b> — פי' בקונטרס דשניהן מין היתר זה לבדו וזה לבדו וכשנתערבו נאסרין וטעם זה לא קאמר באלו עוברין (פסחים דף מד:) ובפ' ג' מינים (נזיר דף לז.) דהא כלאים נמי הכי הוו ומסיק דהיינו חדושו דאי תרו ליה כוליה יומא בחלבא שרי אע\"ג שנבלע החלב בבשר אע\"פ שהוא צונן לפי שהוא צלול והבשר שוהה בתוכו וכי בשיל ליה אסור:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ רָבָא: דֶּרֶךְ בִּשּׁוּל אָסְרָה תּוֹרָה.",
+     "en": "<b>Rava said to</b> Abaye: This is not a valid proof. The prohibition of meat cooked in milk is in fact a novelty and differs from other prohibited mixtures. Nevertheless, its measure is the imparting of flavor only because the action <b>the Torah prohibited</b> is in <b>the manner of cooking,</b> and cooking involves the imparting of flavor.",
+     "rashi": [
+      "<b>אמר ליה רבא</b> — לעולם אימא לך חדוש הוא ודקאמרת אע\"ג דליכא טעמא ליתסר דהא ליכא למגמריה מזרוע בשלה על כרחך בגופיה גלי קרא דבעינן טעמא מדלא אסרתו תורה אלא דרך בשול שאסר הבשר להתבשל בחלב ואין לך כגון זו שלא יתן טעם:"
+     ],
+     "tosafot": [
+      "<b>אמר רבא דרך בשול אסרה תורה</b> — דיחויא בעלמא הוא דמהכא ליכא למילף אבל טעם כעיקר הוי דאורייתא כדפי' (בקונטרס) פ' גיד הנשה (לעיל חולין דף צח: ד\"ה רבא):"
+     ]
+    },
+    {
+     "he": "אָמַר רַב: כֵּיוָן שֶׁנָּתַן טַעַם בַּחֲתִיכָה, חֲתִיכָה עַצְמָהּ נַעֲשֵׂית נְבֵלָה, וְאוֹסֶרֶת כׇּל הַחֲתִיכוֹת כּוּלָּן, מִפְּנֵי שֶׁהֵן מִינָהּ.",
+     "en": "§ The mishna teaches that if the piece of meat acquires the flavor of milk, it is forbidden. <b>Rav says: Once</b> the milk <b>imparts flavor to the piece</b> of meat, the <b>piece itself becomes non-kosher</b> meat in its own right. <b>And</b> therefore, if one did not immediately remove the piece from the pot, <b>it renders all the pieces</b> of meat in the pot <b>forbidden,</b> even if they are together more than sixty times the size of that forbidden piece. This is <b>because they are</b> the same <b>type</b> as the forbidden piece, and as a rule, a substance in contact with the same type of substance cannot be nullified.",
+     "rashi": [
+      "<b>אמר רב</b> — הא דתנן במתניתין אם יש בנותן טעם באותה חתיכה לאסור את כל הקדרה דכיון דנאסרה החתיכה היא עצמה כולה נעשית איסור ואוסרת כל החתיכות כולן ואפילו יש בהן כדי לבטל החתיכה כולה נאסרות כולן:",
+      "<b>מפני שהן מינה</b> — ורב סבר לה כרבי יהודה דאמר מין במינו לא בטיל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ מָר זוּטְרָא בְּרֵיהּ דְּרַב מָרִי לְרָבִינָא: מִכְּדֵי רַב כְּמַאן אָמַר לִשְׁמַעְתֵּיהּ? כְּרַבִּי יְהוּדָה, דְּאָמַר מִין בְּמִינוֹ לֹא בָּטֵיל, לֵימָא פְּלִיגָא אַדְּרָבָא?",
+     "en": "<b>Mar Zutra, son of Rav Mari, said to Ravina: Now</b> consider, <b>in accordance with whose</b> opinion did <b>Rav say his <i>halakha</i>?</b> It is <b>in accordance with</b> the opinion of <b>Rabbi Yehuda, who said</b> that <b>a type</b> of food mixed with food <b>of</b> its <b>own type is not nullified.</b> If so, <b>shall we say</b> that Rav <b>disagrees with Rava’s</b> interpretation of Rabbi Yehuda’s opinion?",
+     "rashi": [
+      "<b>לימא פליגא אדרבא דאמר</b> — בפ' גיד הנשה (לעיל חולין דף ק:) קסבר רבי יהודה כל מין ומינו ודבר אחר שעם מינו כלומר מין דאיסור שנתערב עם מינו ובשאינו מינו דהיתר סלק את מינו דהיתר כמי שאינו מועיל לא לבטלו לאיסור דמין במינו לא בטיל ולא תוספת הוא נוסף עליו להיות שניהם איסור ולא יוכל מין האחר לרבות עליו ולבטלו אלא סלקהו כאילו אינו כאן וירבה שאינו מינו של היתר על האיסור ויבטלנו והכא נמי יש כאן רוטב שיוכל לבטל את כל החתיכה הנאסרת ואמאי אוסרת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּאָמַר רָבָא: קָסָבַר רַבִּי יְהוּדָה, כׇּל שֶׁהוּא מִין וּמִינוֹ וְדָבָר אַחֵר – סַלֵּק אֶת מִינוֹ כְּמִי שֶׁאֵינוֹ, וְשֶׁאֵינוֹ מִינוֹ רָבֶה עָלָיו וּמְבַטְּלוֹ.",
+     "en": "<b>As Rava said: Rabbi Yehuda holds</b> with regard to <b>any</b> tripartite mixture <b>consisting of</b> a forbidden <b>type</b> of food, a permitted food of <b>the same type, and another</b> food <b>item</b> that is permitted, one <b>disregards</b> the permitted food that is its <b>own type as though it were not there, and</b> if the permitted food <b>that is not</b> of <b>its own type is more than</b> the forbidden food, the permitted food <b>nullifies</b> the forbidden food. In the case Rav describes, although the other pieces of meat are of the same type as the piece that has become forbidden, the gravy in the pot is not of the same type, and it should nullify the forbidden piece. Since Rav does not mention this principle, he apparently disagrees with it.",
+     "rashi": [],
+     "tosafot": [
+      "<b>דאמר רבא קסבר רבי יהודה כו'</b> — פי' בקונטרס דאמר רבא בפ' גיד הנשה (חולין דף ק:) ואין לשון זה שם אבל בפ' הקומץ רבה (מנחות דף כג. ושם ד\"ה אמר) איתיה גבי רבי יהודה אומר מנחת כהנים כמנחת כהן משיח כו' ומדרבא דאמר הכי בפ' גיד הנשה (לעיל חולין דף ק:) אליבא דרב לא בעי לאקשויי הכא דרב אדרב דאיכא לשנויי כדמשני אביי התם כשקדם וסלקו אבל בההיא דהקומץ רבה (מנחות דף כב.) ליכא טעמא אחרינא לרבי יהודה אלא כמו שמפרש רבא ולהכי פריך שפיר מינה וא\"ת אמאי לא פריך מדרבי יהודה גופיה דלקמן קאמר רבי יהודה בברייתא האי לישנא גופיה דקאמר רב הכא אדרבא דמפרש טעמא דרבי יהודה וי\"ל דלא שמיע ליה ברייתא כי היכי דלא שמיע ליה לרב דאי ידע ליה רב לא הוה ליה למימר אלא הלכה כרבי יהודה ותו לא ועוד י\"ל דברייתא דרבי יהודה משמע שפיר דאין ברוטב ששים לבטל החתיכה מדאמור רבנן עד שתתן טעם ברוטב ובחתיכות משמע דליכא ברוטב לחודיה כדי לבטל:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ: אִי דִּנְפַל בְּרוֹטֶב רַכָּה – הָכִי נָמֵי, הָכָא בְּמַאי עָסְקִינַן – דִּנְפַל בְּרוֹטֶב עָבָה.",
+     "en": "Ravina <b>said to him: If</b> the forbidden substance <b>fell into thin gravy,</b> Rav would concede that the gravy would <b>indeed</b> nullify the piece of meat, since the two substances are of different types. <b>But here we are dealing with</b> a case <b>where it fell into thick gravy,</b> which is composed of meat residue. Since the gravy is of the same substance as the meat, the forbidden piece is not nullified.",
+     "rashi": [
+      "<b>ברוטב עבה</b> — דק דק של בשר ושומן דכוליה מין בשר הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּמַאי קָסָבַר? אִי קָסָבַר אֶפְשָׁר לְסוֹחֳטוֹ מוּתָּר, חֲתִיכָה אַמַּאי נַעֲשֵׂית נְבֵלָה? אֶלָּא קָסָבַר אֶפְשָׁר לְסוֹחֳטוֹ אָסוּר.",
+     "en": "The Gemara returns to Rav’s statement that the piece of meat upon which the milk fell is considered a non-kosher item in its own right. <b>And what does</b> Rav <b>maintain</b> in this regard? <b>If he maintains</b> that an item <b>that can be wrung</b> to remove the forbidden substance it contains becomes <b>permitted</b> again after wringing, then it follows that only the absorbed substance is truly forbidden. If so, <b>why</b> should this <b>piece</b> of meat itself <b>become non-kosher?</b> Once it has been mixed into the stew, the milk it has absorbed should be evenly distributed throughout the pot and be nullified. <b>Rather,</b> Rav must <b>maintain</b> that even an item <b>that can be wrung</b> to remove the forbidden substance is <b>forbidden.</b>",
+     "rashi": [
+      "<b>ומאי קסבר</b> — רב באפשר לסוחטו באיסור שנבלע בהיתר ונתן בו טעם ואסרו וחזר ובישל ההיתר הזה עם היתר אחר שאפשר האיסור הנבלע בזה ליסחט ממנו וליחלק בהיתר האחרון ואין בו כשיעור לאסור את האחרון:",
+      "<b>אי קסבר</b> — הותר גם הראשון מפני שנפלט האיסור ממנו ולכתחלה הוא דאסור שאין מבטלין איסור לכתחלה ומיהו דיעבד שרי לאכול אף הראשון:",
+      "<b>אמאי חתיכה נעשת נבלה</b> — הא אפשר היא ליסחט ממנה וליחלק לאחרים שלא קבלו ממנה כלום ואין לנו לאסור עד שיתן החלב טעם בכולן דליכא למימר אפשר ליסחט מזה וליבלע בזה שהרי כולן שוין בטעמו ואיזה תתיר ואיזה תאסור:",
+      "<b>אלא קסבר</b> — משנאסרה החתיכה שוב אין לה היתר בסחיטה ואשמועינן אף ההיתר שבה נעשה איסור להיות כאן שיעור גדול לאסור אחרים הרבה:"
+     ],
+     "tosafot": [
+      "<b>אפשר לסוחטו מותר</b> — פי' דיעבד אי נסחט האיסור ונתבטל מותרת עם החתיכה שכבר נאסרת אבל לכתחלה אין מבטלין איסור כדפירש בקונטרס:"
+     ]
+    },
+    {
+     "he": "דְּאִיתְּמַר: רַב וְרַבִּי חֲנִינָא וְרַבִּי יוֹחָנָן דְּאָמְרִי: אֶפְשָׁר לְסוֹחֳטוֹ – אָסוּר, שְׁמוּאֵל וְרַבִּי שִׁמְעוֹן בַּר רַבִּי וְרֵישׁ לָקִישׁ דְּאָמְרִי: אֶפְשָׁר לְסוֹחֳטוֹ – מוּתָּר.",
+     "en": "The Gemara elaborates: <b>As it was stated: Rav and Rabbi Ḥanina and Rabbi Yoḥanan say</b> that even an item <b>that can be wrung</b> to remove the forbidden substance is <b>forbidden,</b> whereas <b>Shmuel, and Rabbi Shimon, son of Rabbi</b> Yehuda HaNasi, <b>and Reish Lakish say:</b> An item <b>that can be wrung</b> to remove the forbidden substance is <b>permitted.</b>",
+     "rashi": [
+      "<b>מותר</b> — אף הראשון שנאסר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְסָבַר רַב אֶפְשָׁר לְסוֹחֳטוֹ אָסוּר? וְהָאִיתְּמַר: כְּזַיִת בָּשָׂר שֶׁנָּפַל לְתוֹךְ יוֹרָה שֶׁל חָלָב, אָמַר רַב: בָּשָׂר אָסוּר וְחָלָב מוּתָּר, וְאִי סָלְקָא דַּעְתָּךְ אֶפְשָׁר לְסוֹחֳטוֹ אָסוּר,",
+     "en": "The Gemara asks: <b>And does Rav</b> really <b>maintain</b> that an item <b>that can be wrung</b> to remove the forbidden substance is <b>forbidden? But wasn’t it stated:</b> If <b>an olive-bulk of meat fell into a pot of milk</b> so large that the meat did not impart flavor to it, <b>Rav says:</b> The <b>meat is forbidden,</b> as it absorbed the taste of the milk, <b>but</b> the <b>milk is permitted,</b> since it did not absorb the taste of the meat. <b>But if it enters your mind</b> that according to Rav an item <b>that can be wrung is forbidden,</b>",
+     "rashi": [
+      "<b>בשר אסור</b> — שנתן החלב טעם בו:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 108b",
+   "he_ref": "חולין ק״ח:",
+   "url": "https://www.sefaria.org/Chullin.108b",
+   "segments": [
+    {
+     "he": "חָלָב אַמַּאי מוּתָּר? חָלָב נְבֵלָה הוּא!",
+     "en": "<b>why is</b> the <b>milk permitted?</b> All the milk that the meat absorbed <b>is</b> rendered <b>non-kosher milk</b> in and of itself. When it seeps back out of the meat, it cannot be nullified by the rest of the milk, which is the same substance, as Rav holds in accordance with Rabbi Yehuda that a type of food mixed with food of its own type is not nullified. Therefore, the whole pot of milk should be prohibited.",
+     "rashi": [
+      "<b>חלב אמאי מותר</b> — הרי חלב מעט שנבלע בבשר נעשה נבלה שהרי נאסר וכשחזר ונפלט בשאר החלב הוה ליה מין במינו חלב אסור בחלב היתר ורב אית ליה מין במינו לא בטיל:",
+      "<b>חלב נבלה הוא</b> — זה שנבלע ונסחט:"
+     ],
+     "tosafot": [
+      "<b>אמאי מותר חלב נבלה הוא</b> — מכאן היה מדקדק רבינו שמואל דלמ\"ד מין במינו לא בטיל צריך תרי ששים ששים ברוטב לבטל טעם חתיכת נבלה וששים בחתיכת היתר לבטל רוטב היוצא מן הנבלה וקשה לר\"י לדבריו דמשני גדי אסרה תורה ולא חלב והלא בעלמא חתיכה של היתר נעשית נבלה מדרבנן וצריך ששים כנגד כולה דמדאורייתא לא צריך ס' אלא כנגד האיסור הנבלע בה א\"כ אע\"ג דגדי אסרה תורה ולא חלב מ\"מ מדרבנן החלב עצמו נאסר כשאר איסורין דמאי שנא משאר איסורין ויאסור כל חלב שביורה אלא ודאי כיון שהחלב הנפלט מן הבשר לא נעשה נבלה אלא מטעם בשר המעורב בו אין לו דין חלב טמא אלא מתבטל בחלב שביורה כמו שמתבטל טעם בשר האסור ולא חשיב מין במינו והכי נמי רוטב הנפלט מן הנבלה אין לו דין מים אסורין שלא להתבטל במים אחרים אלא יש לו דין בשר נבלה שמתבטל שפיר במים שבקדרה והא דקאמר חלב נבלה הוא וקאי הכי במסקנא היינו דוקא בבשר בחלב שכל אחד לבדו היתר וכשנתבשל יחד עשה הכתוב הכל כנבלה והוא כחלב היוצא מן הטרפה ולכך לוקה על חצי זית חלב הנבלע מחצי זית שמנונית בשר אבל מים הנפלטים מן הנבלה אין נאסרין אלא מחמת טעם הנבלה המעורב בהן ואין מצטרפין ללקות עליהן משום נבלה ומכאן יש להוכיח דתבלין הבלועים מחלב או מדם ונפלו לקדרה מתבטלין בששים ואע\"ג דנותנין טעם אפי' באלף מותר דאינו חמור מן האיסור הנבלע בהן:"
+     ]
+    },
+    {
+     "he": "לְעוֹלָם קָסָבַר רַב אֶפְשָׁר לְסוֹחֳטוֹ אָסוּר, וְשָׁאנֵי הָתָם דְּאָמַר קְרָא ״לֹא תְבַשֵּׁל גְּדִי בַּחֲלֵב אִמּוֹ״ – גְּדִי אָסְרָה תּוֹרָה, וְלֹא חָלָב.",
+     "en": "The Gemara answers: <b>Rav actually maintains</b> that an item <b>that can be wrung</b> to remove the forbidden substance is <b>prohibited, and there,</b> the pot of milk mentioned above <b>is different, as the verse states: “You shall not cook a kid in its mother’s milk”</b> (Deuteronomy 14:21). The verse teaches that <b>the Torah prohibits</b> only the <b>kid,</b> i.e., the meat, that was cooked in milk, <b>but not</b> the <b>milk</b> that was cooked in meat. The milk is not itself rendered non-kosher.",
+     "rashi": [
+      "<b>גדי אסרה תורה ולא חלב</b> — ואפילו חלב מותר ואפילו היה בבשר שיעור גדול לתת טעם בשר בכל החלב ס\"ל נמי לרב דחלב מותר:"
+     ],
+     "tosafot": [
+      "<b>גדי אסרה תורה ולא חלב</b> — והא דנקט כזית בשר בתוך יורה גדולה משום דאם נפל לתוך חלב מועט היה נחשב הכל כגדי משום שמנונית הבשר המעורב בחלב ולא נתבטל:"
+     ]
+    },
+    {
+     "he": "וְסָבַר רַב גְּדִי אָסְרָה תּוֹרָה וְלֹא חָלָב? וְהָא אִיתְּמַר: חֲצִי זַיִת בָּשָׂר וַחֲצִי זַיִת חָלָב שֶׁבִּשְּׁלָן זֶה עִם זֶה, אָמַר רַב: לוֹקֶה עַל אֲכִילָתוֹ, וְאֵינוֹ לוֹקֶה עַל בִּשּׁוּלוֹ. וְאִי סָלְקָא דַעְתָּךְ גְּדִי אָסְרָה תּוֹרָה וְלֹא חָלָב, אַאֲכִילָה אַמַּאי לוֹקֶה? חֲצִי שִׁיעוּר הוּא!",
+     "en": "The Gemara challenges: <b>And does Rav</b> really <b>maintain</b> that <b>the Torah prohibits</b> only the <b>kid but not</b> the <b>milk</b> cooked with it? <b>But isn’t it stated:</b> If <b>half an olive-bulk of meat and half an olive-bulk of milk were cooked together, Rav says:</b> One <b>is flogged for consuming</b> the combined olive-bulk, as he has eaten a whole olive-bulk of forbidden food. <b>But he is not flogged for cooking</b> the two half olive-bulks, as he did not cook items of the minimum size. <b>And if</b> it should <b>enter your mind</b> that Rav holds that <b>the Torah prohibits</b> only the <b>kid but not</b> the <b>milk, why is</b> this individual <b>flogged for consuming</b> only half an olive-bulk of meat? <b>It is</b> only <b>half</b> the prohibited <b>measure.</b>",
+     "rashi": [
+      "<b>חצי זית חלב</b> — הכי משערינן יין וחלב וכל משקה לשערו בכזית מביא כוס מלא משקין ומביא זית ונותן לתוכו הזית והמשקה יוצא לחוץ וההוא דנפיק הוי כזית וכך היא שנויה בתוספתא בפרק נזיר שאכל:",
+      "<b>לוקה על אכילתו</b> — דכזית איסור אכל:",
+      "<b>ואינו לוקה על בשולו</b> — לקמן מפרש טעמא בשמעתין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא, לְעוֹלָם קָסָבַר רַב חָלָב נָמֵי אָסוּר, וְהָכָא בְּמַאי עָסְקִינַן? כְּגוֹן שֶׁנָּפַל לְתוֹךְ יוֹרָה רוֹתַחַת, דְּמִבְלָע בָּלַע, מִפְלָט לָא פָּלֵט.",
+     "en": "<b>Rather, Rav actually maintains</b> that <b>milk</b> cooked in meat <b>is also prohibited, and</b> the reason Rav permits the pot of milk mentioned above is that <b>here we are dealing with</b> a case <b>where</b> the olive-bulk of meat <b>fell into a boiling pot</b> of milk. In such a case the meat <b>absorbs</b> milk, but <b>it does not expel</b> it, and therefore the prohibited milk does not mix with the rest.",
+     "rashi": [
+      "<b>אלא לעולם קסבר רב חלב נמי אסור גרסי'</b> — היכא דיש בו טעם איסור או איסור מינו בלא טעם:",
+      "<b>והכא במאי עסקינן</b> — דאמר רב לעיל בשר אסור חלב מותר כגון שנפל אותו זית לתוך יורה רותחת דמה שבולע אינו פולט שכל זמן שאינו נח מרתיחותיו אינו פולט:"
+     ],
+     "tosafot": [
+      "<b>שנפל לתוך יורה רותחת דמבלע בלע מפלט לא פלט</b> — תימה דדבר הנראה לעינים הוא דפליט דכשנותנין ירק בקדרה רותחת משתנה מראית המים מן הירק וכן בשר שומן נימוח לתוכה ונראה השמנונית על הרוטב ופי' רבינו שמואל דהא דקאמר מפלט לא פליט היינו עד שיהא שבע מלבלוע אבל לאחר ששבע חוזר ופולט וכן פירש הרב רבינו שמעיה סוף סוף כי נייח הדר פליט היינו כי נייח מבליעתו ומשני שקדם וסלקו קודם שגמר בליעתו ואותן כלים וקערות האסורות כשמגעילים אותם בתוך יורה גדולה ומניחין אותן מבפנים כשהמים רותחין היה מצריך רבינו שמואל להניחם שעה גדולה עד כדי שיהא להם שהות לגמור בליעה ולחזור ולפלוט אח\"כ ודבר תימה הוא דמי בקי לידע שיעור זה ואומר ר\"ת דהא דקאמר הכא מבלע בלע מפלט לא פליט היינו לא פליט מה שבלע עכשיו אבל מה שהיה בלוע מקודם פליט ואין להתיר מטעם זה להגעיל כלי שהוא בן יומו כשאין במים ששים לבטל האיסור ולהניחן בפנים כשהן רותחין משום דמים מבלע בלעי האיסור שבכלי ולא פלטי דבמים שהן צלולים לא שייך לומר בליעה דלא בלעי אלא שמתערב בהן האיסור וגם אין סברא לומר דכי היכי דאמר מבלע בלע מפלט לא פליט מה שבלע הכי נמי מפלט פליט מבלע לא בלע מה שפלט ועוד דא\"כ יהא אסור להגעיל שני כלים זה אחר זה דבהגעלת הראשון נאסרו המים והשני יבלע מן המים האסורין דודאי פליטת עצמו לא יבלע אבל פליטת כלי אחר יבלע וגם כלי הראשון אינו מכניס כולו בבת אחת במים רותחים וא\"כ מה שנכנס תחלה פולט וצד השני שמכניס אח\"כ בולע מה שפלט צדו הראשון לכך נראה דאין להגעיל כלי בן יומו כשאין במים ס' לבטל והגעלה דמדין דלא אסרה תורה אלא בן יומו לא הגעילו אלא כלים קטנים בתוך הגדולים שהיה במים ששים לבטל האיסור ובערב פסח קודם ארבע שעות מותר להגעיל כלי של חמץ אע\"פ שאין במים ס' דאיכא ג' נותני טעם של היתר החמץ נ\"ט בכלי והכלי נ\"ט במים והמים חוזרין ונבלעין בכלי ועדיין הוא היתר שהוא קודם הפסח:"
+     ]
+    },
+    {
+     "he": "סוֹף סוֹף כִּי נָיַיח, הֲדַר פָּלֵיט! כְּשֶׁקָּדַם וְסִילְּקוֹ.",
+     "en": "The Gemara challenges: <b>Ultimately, when</b> the pot <b>cools</b> from boiling, the meat <b>then expels</b> the prohibited milk. The Gemara answers: It is referring to a case <b>where he first removed</b> the meat before the pot cooled.",
+     "rashi": [
+      "<b>כשקדם וסילקו</b> — לאותו זית קודם שתנוח:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "גּוּפָא: חֲצִי זַיִת בָּשָׂר וַחֲצִי זַיִת חָלָב שֶׁבִּשְּׁלָן זֶה עִם זֶה, אָמַר רַב: לוֹקֶה עַל אֲכִילָתוֹ, וְאֵינוֹ לוֹקֶה עַל בִּשּׁוּלוֹ. מָה נַפְשָׁךְ? אִי מִצְטָרְפִין – אַבִּשּׁוּל נָמֵי לִילְקֵי, אִי לֹא מִצְטָרְפִין – אַאֲכִילָה נָמֵי לָא לִילְקֵי.",
+     "en": "The Gemara turns to <b>the</b> matter <b>itself</b> mentioned above: If <b>half an olive-bulk of meat and half an olive-bulk of milk were cooked together, Rav says:</b> One <b>is flogged for consuming</b> the mixture, <b>but he is not flogged for cooking it.</b> The Gemara objects: <b>Whichever way you</b> look at it, this ruling is problematic. <b>If</b> these two halves of olive-bulks <b>combine</b> to form the requisite measure, then <b>let him be flogged for cooking</b> them <b>as well.</b> And <b>if they do not combine,</b> then <b>let him not be flogged for</b> their <b>consumption either.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "לְעוֹלָם לָא מִצְטָרְפִי, וּבְבָא מִיּוֹרָה גְּדוֹלָה.",
+     "en": "The Gemara answers: <b>Actually,</b> half an olive-bulk of meat and half an olive-bulk of milk <b>do not combine</b> to form the requisite measure, <b>and</b> when Rav says that one is flogged for consuming them, he is referring <b>to</b> a case where they <b>come from a large pot,</b> in which a sizable amount of meat and cheese had been cooked. The mixture is now considered a single prohibited entity, such that half an olive-bulk of the cheese and the meat can combine to constitute the requisite measure to be held liable for consumption.",
+     "rashi": [
+      "<b>לעולם לא מצטרפי</b> — לעשות איסור אא\"כ היה בו בתחלה כשיעור וכי אמר רב לוקה על אכילתו שבא מיורה גדולה ולצדדין אמר רב למילתיה אכל חצי זית בשר וחצי זית חלב הבא מיורה גדולה שנתבשל בה שיעור מזה ומזה ונאסרו לוקה על אכילתו שאכל שיעור שלם איסור של שם אחד ואין לוקה על בשולו דאם בשל כחצי זית בשר וכחצי זית חלב זה עם זה לפי שאין מצטרפין מכלל היתרן לקרות איסור עד שיהא בכל אחד ליעשות איסור לעצמו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְלֵוִי אָמַר: אַף לוֹקֶה עַל בִּשּׁוּלוֹ, וְכֵן תָּנֵי לֵוִי בְּמַתְנִיתִין: כְּשֵׁם שֶׁלּוֹקֶה עַל אֲכִילָתוֹ כָּךְ לוֹקֶה עַל בִּשּׁוּלוֹ, וּבְאֵי זֶה בִּשּׁוּל אָמְרוּ? בְּבִשּׁוּל שֶׁאֲחֵרִים אוֹכְלִין אוֹתוֹ מֵחֲמַת בִּשּׁוּלוֹ.",
+     "en": "<b>And Levi</b> disagrees with Rav on this matter, and <b>says:</b> Half an olive-bulk of meat and half an olive-bulk of milk can combine to form the requisite measure, and therefore one <b>is also flogged for cooking</b> the mixture. <b>And so Levi teaches in</b> his collection of <b><i>baraitot</i>: Just as one is flogged for consuming it, so too he is flogged for cooking it. And for what</b> degree of <b>cooking did they say</b> that one is liable to be flogged? It is <b>for</b> a degree of <b>cooking</b> that produces food <b>that others,</b> gentiles, would <b>eat due to its cooking,</b> i.e., cooking that renders it fit for consumption.",
+     "rashi": [
+      "<b>אחרים</b> — עובדי כוכבים. כלומר שנתבשל כל צרכו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאֶפְשָׁר לְסוֹחֳטוֹ עַצְמוֹ – תַּנָּאֵי הִיא, דְּתַנְיָא: טִפַּת חָלָב שֶׁנָּפְלָה עַל הַחֲתִיכָה, כֵּיוָן שֶׁנָּתְנָה טַעַם בַּחֲתִיכָה – הַחֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה, וְאוֹסֶרֶת כׇּל הַחֲתִיכוֹת כּוּלָּן מִפְּנֵי שֶׁהֵן מִינָהּ, דִּבְרֵי רַבִּי יְהוּדָה.",
+     "en": "§ The Gemara returns to the issue previously discussed: <b>And</b> the case of an item <b>that can be wrung</b> to remove an absorbed prohibited substance <b>is itself</b> the subject of a dispute between <b><i>tanna’im</i>, as it is taught</b> in a <i>baraita</i>: If <b>a drop of milk fell onto a piece</b> of meat, <b>once it imparts flavor to the piece, the piece itself is rendered non-kosher</b> in its own right. <b>And</b> it therefore <b>renders all the</b> other <b>pieces</b> of meat in the pot <b>prohibited,</b> even if they combine to more than sixty times its size; this is <b>because they are</b> of <b>the same type,</b> and a type of food mixed with food of its own type is not nullified. This is <b>the statement of Rabbi Yehuda.</b>",
+     "rashi": [
+      "<b>כיון שנתנה טעם באותה חתיכה</b> — כלומר כיון שיש בה כדי ליתן טעם באותה חתיכה הכל אסור ואפילו ניער את הקדרה דאיכא למימר נחלק לכולן והרי אין בו כדי לאסור אפ\"ה אסור וטעמא מפרש לקמיה:",
+      "<b>מפני שהן מינה</b> — לפיכך אוסרת כולן ואפילו הן אלף שיש בהן כדי לבטל חתיכת האיסור כו' דכיון דמינו נינהו לא בטיל טעמא דבשר דנפיק מיניה שאף טעם הבשר נאסר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וַחֲכָמִים אוֹמְרִים: עַד שֶׁתִּתֵּן טַעַם בָּרוֹטֶב וּבַקֵּיפֶה וּבַחֲתִיכוֹת.",
+     "en": "<b>And the Rabbis say</b> that even the original piece of meat is not prohibited <b>unless</b> there is enough milk to <b>impart flavor</b> even <b>to the gravy and to the spices and to the</b> other <b>pieces</b> of meat in the pot, since the milk is assumed to diffuse from the first piece until it is evenly distributed throughout the pot.",
+     "rashi": [
+      "<b>וחכ\"א עד שתתן טעם כו'</b> — קס\"ד דאטפה קיימי עד שיהא בה כדי ליתן טעם בכולם אין כאן איסור אפילו בחתיכה ראשונה מפני שהוא חוזר ונסחט:",
+      "<b>קיפה</b> — דק דק של בשר שיורד לשולי קדרה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי: נִרְאִין דִּבְרֵי רַבִּי יְהוּדָה בְּשֶׁלֹּא נִיעֵר וְשֶׁלֹּא כִּסָּה, וְדִבְרֵי חֲכָמִים בְּשֶׁנִּיעֵר וְכִסָּה.",
+     "en": "With regard to this dispute, <b>Rabbi</b> Yehuda HaNasi <b>said: The statement of Rabbi Yehuda appears</b> to be correct in a case <b>where one did not stir</b> the contents of the pot <b>and where he did not cover</b> it, both of which would promote the diffusion of the milk throughout the pot. <b>And the statement of the Rabbis</b> appears to be correct in a case <b>where one stirred</b> the contents of the pot <b>and covered</b> it.",
+     "rashi": [
+      "<b>נראין כו'</b> — מפרש לקמיה כולה מילתא דרבי:",
+      "<b>ניער</b> — הגיס בה במגיס. המנער את הקדרה מתפשט הטעם בכולה וכן המכסה אותה מפני שמי השוליים עולין עד פה ויורדין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַאי ״לֹא נִיעֵר וְלֹא כִּסָּה״? אִילֵּימָא לֹא נִיעֵר כְּלָל, וְלֹא כִּסָּה כְּלָל – מִבְלָע בָּלַע, מִפְלָט לָא פָּלֵט.",
+     "en": "The Gemara asks: <b>What</b> is the meaning of the clause: Where <b>one did not stir</b> the pot <b>and did not cover</b> it? <b>If we say</b> that he <b>did not stir</b> the contents of the pot <b>at all and did not cover</b> it <b>at all,</b> in this case the piece of meat onto which the milk fell <b>absorbs</b> the drop of milk but <b>does not expel</b> it. Therefore, even according to the opinion of Rabbi Yehuda there is no reason to prohibit the other pieces of meat.",
+     "rashi": [
+      "<b>אילימא לא ניער כלל</b> — אמאי נאסרות האחרות:",
+      "<b>מבלע בלע</b> — ההיא חתיכה:",
+      "<b>מפלט לא פליט</b> — באחרות את טעם החלב שהחלב בגגה של חתיכה הוה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאֶלָּא, לֹא נִיעֵר בַּתְּחִלָּה אֶלָּא בַּסּוֹף, וְלֹא כִּסָּה בַּתְּחִלָּה אֶלָּא בַּסּוֹף, אַמַּאי? הָא בָּלַע וְהָא פָּלֵט!",
+     "en": "<b>And</b> if you say <b>rather</b> that <b>he did not not stir</b> the contents of the pot <b>at the beginning,</b> immediately after the milk fell in, <b>but</b> stirred <b>at the end,</b> afterward, <b>and</b> likewise <b>he did not cover</b> the pot <b>at the beginning but at the end,</b> one must ask: <b>Why</b> are all the pieces in the pot prohibited? The same milk that the piece <b>absorbs</b> it subsequently <b>expels,</b> and once the milk diffuses throughout the pot it should be nullified.",
+     "rashi": [
+      "<b>לא ניער בתחלה</b> — וקבלה החתיכה את הטעם ואח\"כ ניער וחזרה ופלטתה באחרות:",
+      "<b>הא בלע והא פלט</b> — מה שבלעה וחזרה להתירה והאיסור שיצא ממנה אין בו כשיעור לאסור:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "קָסָבַר אֶפְשָׁר לְסוֹחֳטוֹ אָסוּר.",
+     "en": "The Gemara responds: Evidently, Rabbi Yehuda HaNasi <b>maintains</b> that an item <b>that can be wrung</b> remains <b>prohibited.</b> Once the first piece of meat absorbs the milk, it is considered non-kosher in its own right, and even after the milk itself is nullified, the flavor of the forbidden meat renders the rest of the pieces prohibited. The flavor of the meat cannot be nullified by the other meat in the pot, since a substance in contact with the same type of substance is not nullified, according to the opinion of Rabbi Yehuda.",
+     "rashi": [
+      "<b>קסבר אפשר לסוחטו אסור</b> — מפני שכולה נעשית איסור וכל הנסחט ממנה אסור וכל הנשאר בה אסור וכיון דאף טעם בשר שבה נאסר חוזר ואוסר האחרות אפילו הן אלף דמין במינו לא בטיל:"
+     ],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}

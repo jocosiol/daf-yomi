@@ -10,10 +10,18 @@
     </div>
   </header>
 
-  {# Above the tabs, not inside a view, so it is on screen whichever tab is open. #}
-  <div class="disclaimer top" role="note">⚠️
+  {# Above the tabs, not inside a view, so it is on screen whichever tab is open.
+     The Daf tab is the one place it would be a lie — the text there is the
+     Vilna daf, not our writing — so the pair swaps over when that tab opens,
+     driven by the body class daf.js sets. #}
+  <div class="disclaimer top ai" role="note">⚠️
   {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].disclaimer }}</span>{% endfor -%}
   </div>
+  {% if daf %}
+  <div class="disclaimer top source" role="note">📜&nbsp;
+  {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_note }}</span>{% endfor -%}
+  </div>
+  {% endif %}
 
   <div class="tabs" role="tablist">
     <button class="tab active" type="button" role="tab" aria-selected="true"
@@ -30,6 +38,12 @@
     <button class="tab" type="button" role="tab" aria-selected="false"
             aria-controls="quiz" data-v="quiz">🎯&nbsp;
       {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].quiz }}</span>{% endfor -%}
+    </button>
+    {% endif %}
+    {% if daf %}
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="daf" data-v="daf">📜&nbsp;
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf }}</span>{% endfor -%}
     </button>
     {% endif %}
   </div>
@@ -73,6 +87,87 @@
   </section>
   {% endif %}
 
+  {% if daf %}
+  {# Tzurat hadaf: Gemara down the middle, Rashi on the inner margin and Tosafot
+     on the outer one — which side that is depends on the amud, exactly as in a
+     printed volume. Amud alef is a recto, so its spine is on the left and Rashi
+     sits left of the text; amud bet is its verso and the two swap. The columns
+     are laid out in DOM order inside a right-to-left flex row, so each amud
+     simply emits its three cells in the order they are to be read. #}
+  {% macro gemara(s) %}
+    <div class="col gemara">
+      <p class="g-he" lang="he" dir="rtl">{{ s.he|safe }}</p>
+      {% if s.en %}<p class="g-en" lang="en" dir="ltr">{{ s.en|safe }}</p>{% endif %}
+    </div>
+  {% endmacro %}
+  {% macro commentary(s, which, name) %}
+    <div class="col {{ which }}{% if not s[which] %} empty{% endif %}">
+      {% if s[which] %}
+      {# Shown only on a narrow screen, where the three columns have stacked and
+         the commentary is worth folding away; daf.js collapses them there and
+         hides the control everywhere else, so with no JS nothing is hidden. #}
+      <button class="col-head" type="button" aria-expanded="true">
+        <span lang="he" dir="rtl">{{ name }}</span> <i>{{ s[which]|length }}</i>
+      </button>
+      <div class="col-body" lang="he" dir="rtl">
+        {% for c in s[which] %}<p>{{ c|safe }}</p>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  {% endmacro %}
+
+  <section class="view" id="daf" role="tabpanel">
+    <p class="daf-intro">
+    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_intro }}</span>{% endfor -%}
+    </p>
+
+    <div class="daf-bar" role="group">
+      <span class="daf-bar-label">
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_show }}</span>{% endfor -%}
+      </span>
+      {% if daf.has_rashi %}
+      <button class="chip on" type="button" data-daf="rashi" aria-pressed="true">
+        <span lang="he" dir="rtl">רש״י</span>
+      </button>
+      {% endif %}
+      {% if daf.has_tosafot %}
+      <button class="chip on" type="button" data-daf="tosafot" aria-pressed="true">
+        <span lang="he" dir="rtl">תוספות</span>
+      </button>
+      {% endif %}
+      {% if daf.has_en %}
+      <button class="chip" type="button" data-daf="en" aria-pressed="false">
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_en }}</span>{% endfor -%}
+      </button>
+      {% endif %}
+    </div>
+
+    {% for a in daf.amudim %}
+    <article class="amud">
+      <h2 class="amud-head">
+        <span lang="he" dir="rtl">{{ a.he_ref }}</span>
+        <a class="amud-src" href="{{ a.url }}" target="_blank" rel="noopener">
+        {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_sefaria }}</span>{% endfor -%}
+        </a>
+      </h2>
+      {% for s in a.segments %}
+      <div class="seg">
+        {% if a.amud == 'a' %}
+        {{ commentary(s, 'tosafot', 'תוספות') }}{{ gemara(s) }}{{ commentary(s, 'rashi', 'רש״י') }}
+        {% else %}
+        {{ commentary(s, 'rashi', 'רש״י') }}{{ gemara(s) }}{{ commentary(s, 'tosafot', 'תוספות') }}
+        {% endif %}
+      </div>
+      {% endfor %}
+    </article>
+    {% endfor %}
+
+    <p class="daf-credit">
+    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_credit|safe }}</span>{% endfor -%}
+    </p>
+  </section>
+  {% endif %}
+
   <footer class="disclaimer foot" role="note">
   {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].disclaimer_foot }}</span>{% endfor -%}
   </footer>
@@ -80,8 +175,11 @@
 {# tabs.js owns switching for every view, so a daf can have a deck without a
    quiz — the handler used to live in quiz.js, which only loads when there is
    one. It must come first: quiz.js and cards.js listen for its "dafview". #}
-{% if has_quiz or has_cards %}
+{% if has_quiz or has_cards or daf %}
 <script src="{{ asset('tabs.js') }}"></script>
+{% endif %}
+{% if daf %}
+<script src="{{ asset('daf.js') }}"></script>
 {% endif %}
 {% if has_cards %}
 <script>window.CARDS_BY_LANG = {{ cards_json|safe }};</script>

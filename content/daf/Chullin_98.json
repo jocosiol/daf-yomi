@@ -1,0 +1,304 @@
+{
+ "tractate": "Chullin",
+ "page": 98,
+ "fetched": "2026-08-10",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 98a",
+   "he_ref": "חולין צ״ח.",
+   "url": "https://www.sefaria.org/Chullin.98a",
+   "segments": [
+    {
+     "he": "בְּבֵיצַת אֶפְרוֹחַ, אֲבָל טְמֵאָה – לָא.",
+     "en": "<b>an egg</b> that contains <b>a chick,</b> as the chick imparts flavor to the food in which the egg is cooked. <b>But</b> with regard to an egg that does not contain a chick but is from <b>a non-kosher</b> bird, it does <b>not</b> impart flavor to the food with which it is cooked.",
+     "rashi": [
+      "<b>אפרוח</b> — שהבשר נותן טעם ולא שנא טמאה ול\"ש טהורה דנבלה היא:",
+      "<b>אבל טמאה</b> — בלא אפרוח לא:"
+     ],
+     "tosafot": [
+      "<b>בביצת אפרוח</b> — וה\"ה בשאר בנמצא בה דם דשדא תיכלא בכולה ונראה דטמאה שהיא קלופה אפשר דאסורה ובירושלמי גבי גיעולי ביצים משמע דיש חילוק בין קלופות לשאין קלופות ושמא לענין זה נמי יש חילוק והא דלא משני הכא הא בקלופה הא בשאינה קלופה משום דסתם ביצים מבשלים אותן בקליפתן:"
+     ]
+    },
+    {
+     "he": "אֵיתִיבֵיהּ: בֵּיצִים טְהוֹרוֹת שֶׁשְּׁלָקָן עִם בֵּיצִים טְמֵאוֹת, אִם יֵשׁ בָּהֶן בְּנוֹתֵן טַעַם – כּוּלָּן אֲסוּרוֹת. הָכָא נָמֵי בְּבֵיצַת אֶפְרוֹחַ, וְאַמַּאי קָרֵי לַהּ ״טְמֵאָה״? כֵּיוָן דְּאִית בַּהּ אֶפְרוֹחַ, קָרֵי לַהּ ״טְמֵאָה״.",
+     "en": "Rav Idi bar Avin <b>raised an objection to</b> this answer based on a <i>baraita</i> (<i>Tosefta</i>, <i>Terumot</i> 9:5): With regard to <b>kosher eggs that one boiled with non-kosher eggs, if they have</b> a ratio that allows the non-kosher eggs to <b>impart flavor</b> to the kosher eggs, <b>they are all forbidden.</b> This indicates that eggs from non-kosher birds do have flavor. Abaye answered: <b>Here, too</b> it is referring <b>to an egg</b> from a kosher bird that contains <b>a chick. And why</b> does the <i>baraita</i> <b>call this a non-kosher</b> egg, indicating that it is an egg from a non-kosher species? <b>Since it has a chick inside,</b> which causes the egg to be forbidden, the <i>baraita</i> <b>calls it non-kosher.</b>",
+     "rashi": [
+      "<b>כיון דאית בה אפרוח קרי לה טמאה</b> — ואפילו של עוף טהור:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָא מִדְּקָתָנֵי סֵיפָא: בֵּיצִים שֶׁשְּׁלָקָן וְנִמְצָא אֶפְרוֹחַ בְּאַחַת מֵהֶן, אִם יֵשׁ בָּהֶן בְּנוֹתֵן טַעַם – כּוּלָּן אֲסוּרוֹת, מִכְּלָל דְּרֵישָׁא דְּלֵית בַּהּ אֶפְרוֹחַ עָסְקִינַן.",
+     "en": "The Gemara objects: <b>But from</b> the fact <b>that the latter clause teaches:</b> With regard to <b>eggs that one boiled and a chick was found in one of them, if they have</b> a ratio that allows the chick to <b>impart flavor to them, they are all forbidden, it may be inferred that</b> in <b>the first clause we are dealing with</b> an egg <b>that does not have a chick inside.</b>",
+     "rashi": [
+      "<b>ביצים</b> — טהורות ששלקן כו':",
+      "<b>מכלל דרישא</b> — דנקט טמאה טמאה ממש קאמר ולאו אפרוח דאי בטהורה ואפרוח תרתי למה לי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "פָּירוּשֵׁי קָא מְפָרֵשׁ: בֵּיצִים טְהוֹרוֹת שֶׁשְּׁלָקָן עִם בֵּיצִים טְמֵאוֹת, אִם יֵשׁ בָּהֶן בְּנוֹתֵן טַעַם – כּוּלָּן אֲסוּרוֹת. כֵּיצַד? כְּגוֹן שֶׁשְּׁלָקָן וְנִמְצָא אֶפְרוֹחַ בְּאַחַת מֵהֶן.",
+     "en": "The Gemara explains that this is an incorrect inference, as the latter clause <b>is explaining</b> the first clause, so that the <i>baraita</i> should be read as follows: With regard to <b>kosher eggs that one boiled with non-kosher eggs, if they have</b> a ratio that allows the non-kosher eggs to <b>impart flavor</b> to the kosher eggs, <b>they are all forbidden. How</b> so? It can be referring to a case <b>where one boiled them and a chick was found in one of them.</b>",
+     "rashi": [
+      "<b>כיצד ששלקן ונמצא אפרוח באחת מהם</b> — וזו היא טומאתו וכולן מן הטהור:"
+     ],
+     "tosafot": [
+      "<b>פירושי קא מפרש</b> — הכא לא פריך א\"ה אסורות אסורות למה לי וכן בכמה דוכתין ובכמה דוכתין פריך:"
+     ]
+    },
+    {
+     "he": "הָכִי נָמֵי מִסְתַּבְּרָא, דְּאִי סָלְקָא דַעְתָּךְ רֵישָׁא דְּלֵית בַּהּ אֶפְרוֹחַ – הַשְׁתָּא דְּלֵית בַּהּ אֶפְרוֹחַ אֲסוּרָה, דְּאִית בַּהּ אֶפְרוֹחַ מִיבַּעְיָא?",
+     "en": "The Gemara adds: <b>So too it is reasonable</b> to explain the <i>baraita</i> in this manner, <b>as if</b> it would <b>enter your mind</b> to say that <b>the first clause</b> is referring to a case <b>where there is no chick in</b> the egg, the latter clause is redundant: <b>Now</b> that the <i>tanna</i> has taught that in a case <b>where there is no chick inside,</b> the non-kosher egg imparts flavor to the kosher eggs and renders them <b>forbidden, is</b> it <b>necessary</b> for the <i>tanna</i> to teach that an egg <b>that has a chick inside</b> imparts flavor to the kosher eggs?",
+     "rashi": [
+      "<b>השתא דלית בה אפרוח</b> — אשמועינן דיהבא טעמא ואסורה ואע\"ג דמיא בעלמא הוא:",
+      "<b>יש בה אפרוח</b> — אפילו טהורה:",
+      "<b>מיבעיא</b> — כ\"ש דיהבא טעמא דהא אפרוח נבלה היא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִי מִשּׁוּם הָא לָא אִירְיָא, תְּנָא סֵיפָא לְגַלּוֹיֵי רֵישָׁא, שֶׁלֹּא תֹּאמַר: רֵישָׁא – דְּאִית בַּהּ אֶפְרוֹחַ, אֲבָל לֵית בַּהּ אֶפְרוֹחַ – שַׁרְיָא, תְּנָא סֵיפָא דְּאִית בַּהּ אֶפְרוֹחַ, מִכְּלָל דְּרֵישָׁא דְּלֵית בַּהּ אֶפְרוֹחַ, וַאֲפִילּוּ הָכִי אֲסִירָא.",
+     "en": "The Gemara rejects this argument: <b>If it is due to that</b> reason, <b>there is no</b> conclusive <b>argument,</b> i.e., the proof of the argument is inconclusive. The reason is that one can say that the <i>tanna</i> <b>taught the latter clause to reveal</b> the meaning of <b>the first clause.</b> The latter clause was stated so <b>that you would not</b> mistakenly <b>say</b> that <b>the first clause</b> is referring only to a case <b>where</b> the egg <b>has a chick inside, but</b> if <b>there is no chick inside</b> the kosher eggs would be <b>permitted.</b> Therefore, the <i>tanna</i> <b>teaches the latter clause</b> and specifies <b>that</b> it is referring to an egg <b>that has a chick inside. By inference the first clause</b> is referring to a case of an egg <b>that does not have a chick inside, and even so it</b> renders all of the other eggs <b>forbidden.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "הָהוּא כְּזֵיתָא תַּרְבָּא דִּנְפַל בְּדִיקּוּלָא דְּבִשְׂרָא, סָבַר רַב אַסִּי לְשַׁעוֹרֵיהּ בְּמַאי דִּבְלַע דִּיקּוּלָא, אָמְרִי לֵיהּ רַבָּנַן לְרַב אָשֵׁי: אַטּוּ דְּהֶיתֵּרָא בָּלַע, דְּאִיסּוּרָא לָא בָּלַע?",
+     "en": "§ The Gemara continues discussing the nullification of forbidden foods. There was once <b>a certain olive-bulk</b> of forbidden <b>fat that fell into a pot of</b> kosher <b>meat. Rav Asi thought to measure</b> the volume of the kosher meat together <b>with that which the pot had absorbed. The Rabbis said to Rav Ashi: Is that to say that</b> the pot <b>absorbed</b> the <b>permitted</b> meat but <b>did not absorb</b> the <b>forbidden</b> fat?",
+     "rashi": [
+      "<b>בדיקולא</b> — קלחת:",
+      "<b>סבר רב אשי לשעוריה</b> — היתרא ולאוסופי עלה מה שבלעה קדרה כדי לבטל את האיסור והאיסור היה משער כמו שהוא בא לפנינו מצומקת:",
+      "<b>רבנן</b> — תלמידים:",
+      "<b>דאיסורא לא בלע</b> — בתמיה. אף האיסור נצטמק וכשנפל היה בו יותר אלא הכל משערים כמות שאנו רואים:"
+     ],
+     "tosafot": [
+      "<b>דנפל בדיקולא דבשרא</b> — בערוך חברו בהדי היא ניימא ודיקולא שפיל פירוש קלתא וכתוב בתשובת הגאונים דהכי קאמר דנפל ליורה גדולה שיש בה שיעור דיקולא וקשה כיון דלאו לדיקולא נפל מאי קאמר סבר רב אשי לשעוריה במאי דבלעה דיקולא ובקונטרס פירש דיקולא קלחת וקלחת הוא כלי שמבשלין בה בשר כדאמר בהמוכר את הספינה (ב\"ב עד.) כל שלשים יום מהפך להם גיהנם כבשר בקלחת ואפשר דקרי ליה דיקולא משום הרתיחות שעולות בתוכו שנקראים דקולי כדאמר פרק כל שעה (פסחים דף לט:) אמר רב יוסף לא ליחלט איניש תרתי חיטי בהדי הדדי דילמא אזל חדא בצדי דחברתה ולא סליק ליה דיקולא דמיא מד' רוחתא:"
+     ]
+    },
+    {
+     "he": "הָהוּא פַּלְגָא דְּזֵיתָא דְּתַרְבָּא דִּנְפַל בְּדִיקּוּלָא דְּבִשְׂרָא, סָבַר מָר בַּר רַב אָשֵׁי לְשַׁעוֹרֵיהּ בִּתְלָתִין פַּלְגֵי דְּזֵיתָא. אֲמַר לֵיהּ אֲבוּהּ: לָאו אָמֵינָא לָךְ לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן? וְעוֹד, הָאָמַר רַבִּי יוֹחָנָן: חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה.",
+     "en": "The Gemara relates a similar incident: There was once <b>a certain half-olive-bulk of</b> forbidden <b>fat that fell into a pot of</b> kosher <b>meat. Mar bar Rav Ashi thought to measure</b> the amount of kosher meat needed to nullify the forbidden fat as <b>thirty half-olive-bulks,</b> rather than sixty. <b>His father,</b> Rav Ashi, <b>said to him: Have I not told you: Do not</b> treat <b>measures lightly</b> even with regard to <b>rabbinic</b> prohibitions? <b>And furthermore, didn’t Rabbi Yoḥanan say: A half-measure</b> is <b>prohibited by Torah</b> law? Consequently, the half-olive-bulk of forbidden fat is nullified only in sixty times its volume of permitted meat.",
+     "rashi": [
+      "<b>בתלתין פלגי דזיתי</b> — משום דלא היה כשיעור היה מזלזל בבטולו ולא בעי ששים:",
+      "<b>לא תזלזל בשיעורי דרבנן</b> — כלומר אפילו במידי דלא מיתסר מדאורייתא לא תזלזל בשיעוריה ועוד הא מדאורייתא אסור דחצי שיעור אסור מן התורה וחצי שיעור מנין ת\"ל כל חלב בפרק בתרא דיומא (דף עד.):"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב שֶׁמֶן בַּר אַבָּא, אָמַר רַב אִידִי בַּר אִידִי בַּר גֵּרְשֹׁם, אָמַר לֵוִי בַּר פְּרָטָא, אָמַר רַבִּי נַחוּם, אָמַר רַבִּי בִּירְיָים מִשּׁוּם זָקֵן אֶחָד, וְרַבִּי יַעֲקֹב שְׁמֵיהּ, דְּבֵי נְשִׂיאָה אָמְרוּ: בֵּיצָה בְּשִׁשִּׁים – אֲסוּרָה, בְּשִׁשִּׁים וְאַחַת – מוּתֶּרֶת.",
+     "en": "§ The Gemara continues its discussion of nullifying forbidden foods. <b>Rav Shemen bar Abba says</b> that <b>Rav Idi bar Idi bar Gershom says</b> that <b>Levi bar Perata says</b> that <b>Rabbi Naḥum says</b> that <b>Rabbi Biryam says in the name of a certain elder, and his name was Rabbi Ya’akov,</b> that the Sages <b>in the house of the <i>Nasi</i> said:</b> If a non-kosher <b>egg</b> is mixed <b>with</b> kosher eggs, if there are <b>sixty</b> eggs they are all <b>forbidden,</b> but if there are <b>sixty-one</b> eggs they <b>are</b> all <b>permitted.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי זֵירָא לְרַב שֶׁמֶן בַּר אַבָּא: רְאֵה שֶׁאַתָּה מֵטִיל בָּהּ גְּבוּל הֶיתֵּר, שֶׁהֲרֵי שְׁנֵי גְּדוֹלֵי הַדּוֹר לֹא פֵּירְשׁוּ אֶת הַדָּבָר. רַבִּי יַעֲקֹב בַּר אִידִי וְרַבִּי שְׁמוּאֵל בַּר נַחְמָנִי, תַּרְוַיְיהוּ מִשְּׁמֵיהּ דְּרַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי אָמְרִי: בֵּיצָה בְּשִׁשִּׁים – אֲסוּרָה, בְּשִׁשִּׁים וְאַחַת – מוּתֶּרֶת.",
+     "en": "<b>Rabbi Zeira said to Rav Shemen bar Abba: See,</b> one can infer from your words <b>that you fix a limit</b> to <b>permit</b> the eggs if there is a total of sixty-one eggs, including the non-kosher egg. This is a revelation, <b>because the two</b> most <b>eminent</b> Sages <b>of the generation did not clarify this matter.</b> These two eminent Sages were <b>Rabbi Ya’akov bar Idi and Rabbi Shmuel bar Naḥmani,</b> and <b>both of them said in the name of Rabbi Yehoshua ben Levi:</b> In a case where a non-kosher <b>egg</b> is mixed <b>with</b> kosher eggs, if there are <b>sixty</b> eggs they are all <b>forbidden,</b> but if there are <b>sixty-one</b> eggs they <b>are</b> all <b>permitted.</b>",
+     "rashi": [
+      "<b>ראה שאתה מטיל בה גבול</b> — ראה מה אתה עושה שלא תטעה ותכשיל הסמוכים עליך שאתה מטיל בה גבול להתירה בס' ואחת ואינך מפרש אי בהדי דידה אי לבר מינה והשומעים יעלה על דעתם בהדי דידה והרי שני גדולי הדור נשאלה מהם ולא פירשוה ומאן נינהו רבי יעקב בר אידי ורבי שמואל בר נחמני:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאִיבַּעְיָא לְהוּ: בְּשִׁשִּׁים וְאַחַת, בַּהֲדֵי דִּידַהּ, אוֹ דִילְמָא לְבַר מִינַּהּ? וְלָא פְּשׁוּט, וּמָר פָּשֵׁיט לַהּ מִפְשָׁט.",
+     "en": "<b>And a dilemma was raised before</b> these Sages: When Rabbi Yehoshua ben Levi said they are permitted if there are <b>sixty-one</b> eggs, does that mean there are <b>sixty-one</b> eggs altogether, <b>with the</b> non-kosher egg, <b>or</b> does it <b>perhaps</b> mean that there must be sixty-one kosher eggs <b>aside from</b> the non-kosher egg? <b>And</b> they <b>did not resolve</b> this dilemma. <b>And</b> yet, it appears as though <b>the Master,</b> Rav Shemen, has <b>resolved</b> the dilemma, because you implied that the mixture is kosher if there are a total of sixty-one eggs including the non-kosher egg.",
+     "rashi": [
+      "ואיבעיא להו גרסינן:",
+      "<b>פשיט מיפשט</b> — שאינך מטיל שום ספק בדבר לומר ואיני יודע אם היא מן המנין של ס\"א או לא:"
+     ],
+     "tosafot": [
+      "<b>ואיבעיא להו בששים ואחד כו'</b> — ומדלא פירש בהדיא בששים והיא מותרת ליכא למיפשט מידי דשמא רבי יהושע בן לוי עצמו הוא מסופק ומיהו קשה דלקמן קאמר רבי יהושע בן לוי כל איסורין שבתורה בששים משמע בששים של היתר כמו גיד בששים ואין גיד מן המנין ויש לומר דהתם משמיה דבר קפרא קאמר לה אבל הכא מדקאמר בששים אסור משמע שפיר דבששים של היתר נמי אסור להכי אית לן למימר דלדידיה הוה מספקא ליה:"
+     ]
+    },
+    {
+     "he": "אִתְּמַר, אָמַר רַבִּי חֶלְבּוֹ אָמַר רַב הוּנָא: בֵּיצָה בְּשִׁשִּׁים וְהִיא – אֲסוּרָה, בְּשִׁשִּׁים וְאַחַת וְהִיא – מוּתֶּרֶת.",
+     "en": "The Gemara continues: It <b>was stated</b> that <b>Rabbi Ḥelbo says</b> that <b>Rav Huna says:</b> If a non-kosher <b>egg</b> becomes mixed <b>with</b> kosher eggs, if there are <b>sixty</b> kosher eggs in addition to <b>that</b> non-kosher egg, the entire mixture is <b>forbidden.</b> But if there are <b>sixty-one</b> kosher eggs in addition to <b>that</b> one non-kosher egg, the mixture is <b>permitted.</b>",
+     "rashi": [
+      "<b>בס' ואחת והיא</b> — דהוו להו ס\"ב:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָהוּא דַּאֲתָא לְקַמֵּיהּ דְּרַבָּן גַּמְלִיאֵל בַּר רַבִּי, אֲמַר לֵיהּ: אַבָּא לֹא שִׁיעֵר בְּאַרְבָּעִים וָשֶׁבַע, וַאֲנִי אֲשַׁעֵר בְּאַרְבָּעִים וְחָמֵשׁ.",
+     "en": "§ There was <b>a certain</b> person <b>who came before Rabban Gamliel bar Rabbi</b> Yehuda HaNasi with a half-olive-bulk of non-kosher food that had been mixed with a larger amount of kosher food. Rabban Gamliel <b>said to him:</b> A similar case came before my <b>father,</b> and even though he <b>did not measure</b> the kosher food as being sixty times the volume of the non-kosher food, he nevertheless permitted the mixture due to the fact that there was <b>forty-seven</b> times as much kosher food as non-kosher food. <b>And</b> similarly, <b>I will</b> permit the mixture because I <b>measure</b> that the kosher food is <b>forty-five</b> times the volume of the non-kosher food.",
+     "rashi": [
+      "<b>ההוא דאתא כו'</b> — פלגא דזיתא דאיסורא הוה וכן עובדא דר\"ש בר רבי:",
+      "<b>אבא</b> — הלא בא מעשה כזה לפניו ולא מצא אלא מ\"ז והתיר שמע מינה לאו ס' בעי אף אני מתיר בזה שאיני מוצא בו אלא מ\"ה. ולי נראה דהכי קאמר אבא לא שיער בארבעים ושבע אני אשער במ\"ה בתמיה אבא בא לפניו מעשה והיה יכול לבטלו במ\"ז ולא שיערו להתיר ואסר ואני אתירנו במ\"ה וללשון זה אין צריך לפרש בחצי זית אלא אף בשיעור שלם:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָהוּא דַּאֲתָא לְקַמֵּיהּ דְּרַבִּי שִׁמְעוֹן בַּר רַבִּי, אֲמַר לֵיהּ: אַבָּא לֹא שִׁיעֵר בְּאַרְבָּעִים וְחָמֵשׁ, וַאֲנִי אֲשַׁעֵר בְּאַרְבָּעִים וְשָׁלֹשׁ.",
+     "en": "Similarly there was <b>a certain</b> person <b>who came before Rabbi Shimon bar Rabbi</b> Yehuda HaNasi with a mixture of kosher and non-kosher food. Rabbi Shimon <b>said to him:</b> A similar case came before my <b>father,</b> and even though he <b>did not measure</b> the kosher food as being sixty times the volume of the non-kosher food, he nevertheless permitted the mixture due to the fact that there was <b>forty-five</b> times as much kosher food as non-kosher food. <b>And</b> similarly, <b>I will</b> permit the mixture because I <b>measure</b> that the kosher food is <b>forty-three</b> times the volume of the non-kosher food.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "הָהוּא דַּאֲתָא לְקַמֵּיהּ דְּרַבִּי חִיָּיא, אֲמַר לֵיהּ: כְּלוּם יֵשׁ שְׁלֹשִׁים?",
+     "en": "There was <b>a certain</b> man <b>who came before Rabbi Ḥiyya</b> with a mixture of kosher and non-kosher food. Rabbi Ḥiyya <b>said to him: Is there</b> even <b>thirty</b> times the volume of permitted food as forbidden food? Clearly, the mixture is forbidden.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "טַעְמָא דְּלֵיכָּא שְׁלֹשִׁים, הָא אִיכָּא שְׁלֹשִׁים – מְשַׁעֲרִין? אָמַר רַבִּי חֲנִינָא: גּוּזְמָא.",
+     "en": "The Gemara seeks to clarify: This indicates that <b>the reason</b> that he prohibited the mixture is <b>that there was not thirty</b> times as much kosher food as non-kosher food. <b>But</b> it may then be inferred that if <b>there is thirty</b> times as much kosher food as non-kosher food, one may <b>assess,</b> i.e., permit, the mixture. And this contradicts the <i>halakha</i> that non-kosher food is nullified only in a mixture containing sixty times as much kosher food as non-kosher food. <b>Rabbi Ḥanina said:</b> Rabbi Ḥiyya did not make this statement to set a halakhic principle, but merely as <b>an exaggeration.</b> There was not even thirty times the volume of kosher food, so it was obvious that the mixture was forbidden.",
+     "rashi": [
+      "<b>הא איכא שלשים משערינן</b> — בתמיה וכולי האי מי מזלזלין:",
+      "<b>גוזמא</b> — כלומר למה באת לישאל עליו והלא אפילו שלשים אין בו בהיתר כמות האיסור ולאו דוקא קאמר ליה אלא דבר שאינו יכול לעמוד כלומר כלום יש שם אפילו שלשים ואע\"פ שאינו ניתר בכך:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי חִיָּיא בַּר אַבָּא, אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי מִשּׁוּם בַּר קַפָּרָא: כָּל אִיסּוּרִין שֶׁבַּתּוֹרָה בְּשִׁשִּׁים. אָמַר לְפָנָיו רַבִּי שְׁמוּאֵל בַּר רַב יִצְחָק: רַבִּי, אַתָּה אוֹמֵר כֵּן? הָכִי אָמַר רַב אַסִּי אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי מִשּׁוּם בַּר קַפָּרָא: כָּל אִיסּוּרִין שֶׁבַּתּוֹרָה בְּמֵאָה!",
+     "en": "§ <b>Rabbi Ḥiyya bar Abba says</b> that <b>Rabbi Yehoshua ben Levi says in the name of bar Kappara: All</b> the <b>forbidden</b> foods <b>in the Torah</b> are nullified when they are mixed <b>with</b> kosher food that is <b>sixty</b> times their volume. <b>Rabbi Shmuel bar Rav Yitzḥak said before</b> Rabbi Ḥiyya bar Abba: <b>My teacher, you say this</b> citing Rabbi Yehoshua ben Levi, who said that bar Kappara said it. But <b>this is what Rav Asi says</b> that <b>Rabbi Yehoshua ben Levi says in the name of bar Kappara: All</b> the <b>forbidden</b> foods <b>in the Torah</b> are nullified when they are mixed <b>with</b> kosher food that is <b>one hundred</b> times their volume.",
+     "rashi": [
+      "<b>בס'</b> — היכא דבדקניה ולא יהיב טעמא אי נמי ליכא למיקם אטעמא כגון מין ומינו אבל היכא דבדקניה ויהיב טעמא לעולם טעמא לא בטיל כדאמר בכמה דוכתין ולקמן (חולין דף צט.) נמי אמרינן יש בהן בנותן טעם בין שיש להעלות במאה ואחד ובין שאין כו' אסור וכי לא יהיב טעמא בעינן ששים לבטוליה כדלקמן דקתני אין בהן בנ\"ט בין שיש להעלות כו' מותר דאמרינן אין בהן להעלות בק\"א אלא במאי לאו בששים אלמא כי לא יהיב טעמא נמי בעינן ששים למר ומאה למר:"
+     ],
+     "tosafot": [
+      "<b>כל איסורין שבתורה בששים</b> — פירש בקונטרס דאף כי לא יהיב טעמא בעי ששים ואין נראה ומה שהביא ראיה מלקמן אפרש לקמן בעזרת הש\"י:"
+     ]
+    },
+    {
+     "he": "וּשְׁנֵיהֶם לֹא לְמָדוּהָ אֶלָּא מִ״זְּרוֹעַ בְּשֵׁלָה״, דִּכְתִיב: ״וְלָקַח הַכֹּהֵן אֶת הַזְּרֹעַ בְּשֵׁלָה וְגוֹ׳״, וְתַנְיָא: ״בְּשֵׁלָה״ –",
+     "en": "The Gemara adds: <b>And both of them learned</b> their principles of nullification <b>only from</b> the term: <b>“Cooked foreleg,” as it is written</b> with regard to the nazirite’s ram: <b>“And the priest shall take the cooked foreleg</b> of the ram” (Numbers 6:19). <b>And it is taught</b> in a <i>baraita</i>: The verse states: <b>“Cooked,”</b>",
+     "rashi": [
+      "<b>ושניהם לא למדוה כו'</b> — ואע\"ג דאי אתי למילף מיניה מצית למילף אפילו היכא דיהיב טעמא דהא הכא איכא למימר דאי שלא במינו הוה יהיב טעמא אפילו הכי רבנן אחמור ואמור טעמא לא בטיל:",
+      "זרוע של איל נזיר הוא המורם ממנו ומניפין אותו וניתן לכהן ואסור לזרים והאיל כולו נאכל לבעליו דהא שלמים הוא:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 98b",
+   "he_ref": "חולין צ״ח:",
+   "url": "https://www.sefaria.org/Chullin.98b",
+   "segments": [
+    {
+     "he": "אֵין ״בְּשֵׁלָה״ אֶלָּא שְׁלֵימָה. רַבִּי שִׁמְעוֹן בֶּן יוֹחַאי אוֹמֵר: אֵין ״בְּשֵׁלָה״ אֶלָּא שֶׁנִּתְבַּשְּׁלָה עִם הָאַיִל.",
+     "en": "and the term <b>“cooked”</b> indicates that the verse is referring <b>only</b> to a foreleg that is <b>whole. Rabbi Shimon ben Yoḥai</b> disagrees and <b>says:</b> The term <b>“cooked”</b> indicates that the verse is referring <b>only</b> to a foreleg <b>that is cooked with the</b> entire <b>ram.</b>",
+     "rashi": [
+      "<b>אין בשלה אלא שלימה</b> — לא נתפרש באיזה לשון:"
+     ],
+     "tosafot": [
+      "<b>אין בשלה אלא שלימה</b> — פירש בקונטרס דלא נתפרש באיזה לשון ונראה לפרש דמשמע בשלה כמו בשל לה למ\"ד דגושה ומפיק ה\"א כמו שיש לה כלומר כמו שהיא:"
+     ]
+    },
+    {
+     "he": "דְּכוּלֵּי עָלְמָא בַּהֲדֵי אַיִל מְבַשֵּׁל לַהּ, מָר סָבַר: מְחַתֵּךְ לַהּ וַהֲדַר מְבַשֵּׁל לַהּ, וּמָר סָבַר: מְבַשֵּׁל לַהּ וַהֲדַר מְחַתֵּךְ לַהּ.",
+     "en": "The Gemara clarifies their dispute: <b>Everyone</b> agrees that <b>one cooks</b> the foreleg <b>with the</b> rest of the <b>ram.</b> But one <b>Sage holds</b> that one first <b>cuts</b> the foreleg off the animal <b>and then cooks it</b> along with the rest of the animal. <b>And</b> one <b>Sage,</b> Rabbi Shimon bar Yoḥai, <b>holds</b> that one first <b>cooks</b> the entire ram <b>and then cuts</b> off the foreleg.",
+     "rashi": [
+      "<b>דכ\"ע</b> — ת\"ק ור\"ש:",
+      "<b>בהדי איל מבשל לה</b> — דאין מקרא יוצא מידי פשוטו וקרא משמע דעם האיל מבשלו:",
+      "<b>ת\"ק סבר מחתך לה</b> — מן האיל והדר מבשל לה בהדיה ואשמועינן שלימה מבשלה ואינו מחתכה לחתיכות. ור\"ש אתא לאשמועינן דכמות שהיא מחוברת לאיל מבשלה:"
+     ],
+     "tosafot": [
+      "<b>דכולי עלמא בהדי איל מבשל לה</b> — דאין מקרא יוצא מידי פשוטו אבל לאיכא דאמרי דבקדרה אחרת מבשל לה לתנא קמא מוציא אותו מידי פשוטו:",
+      "<b>מר סבר מחתך לה והדר מבשל לה</b> — פירש בקונטרס דהיינו ת\"ק ושלימה דקאמר היינו דאין מחתכין לחתיכות והשתא לא הוי מר סבר קמא ללישנא קמא כמ\"ס קמא דאיכא דאמרי דהוי ר\"ש ונראה לפרש מר סבר מחתך לה והדר מבשל לה היינו ר\"ש בן יוחאי אבל ת\"ק סבר דמבשל והדר מחתך והיינו שלימה דקאמר שתהא מחוברת לאחר בישול והשתא הוי מר סבר קמא ר\"ש בן יוחאי כמו לאידך לישנא ומיהו ללישנא בתרא צריך לומר שלימה היינו שלא יחתכנה חתיכות:"
+     ]
+    },
+    {
+     "he": "וְאִי בָּעֵית אֵימָא, דְּכוּלֵּי עָלְמָא מְחַתֵּךְ לַהּ וַהֲדַר מְבַשֵּׁל לַהּ, מִיהוּ מָר סָבַר: בַּהֲדֵי אַיִל מְבַשֵּׁל לַהּ, וּמָר סָבַר: בִּקְדֵרָה אַחֶרֶת מְבַשֵּׁל לַהּ.",
+     "en": "<b>And if you wish, say that everyone</b> agrees that one first <b>cuts</b> off the foreleg <b>and then cooks it. But</b> one <b>Sage,</b> Rabbi Shimon bar Yoḥai, <b>holds</b> that one <b>cooks</b> the foreleg <b>with</b> the rest of <b>the ram, and</b> one <b>Sage holds</b> that he <b>cooks</b> the foreleg <b>in another pot,</b> separate from the rest of the ram.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "לְלִישָּׁנָא קַמָּא – אַלִּיבָּא דְּדִבְרֵי הַכֹּל, לְלִישָּׁנָא בָּתְרָא – אַלִּיבָּא דְּרַבִּי שִׁמְעוֹן בֶּן יוֹחַאי.",
+     "en": "The foreleg of the nazirite’s ram is permitted to be eaten only by a priest, whereas the rest of the ram is eaten by the nazirite even if he is not a priest. Consequently, <b>according to the first formulation, all agree</b> that the principle of nullification may be derived from here, since all agree that the foreleg is cooked together with the rest of the ram, and yet it does not cause the rest of the ram to be forbidden to a non-priest. <b>According to the latter formulation,</b> the principle of nullification may be derived from here <b>in accordance with</b> the opinion <b>of Rabbi Shimon ben Yoḥai,</b> who says that the foreleg is cooked together with the rest of the ram. But according to the latter formulation the first <i>tanna</i> holds that the foreleg is not cooked with the rest of the ram, in which case the principle of nullification cannot be derived from here.",
+     "rashi": [
+      "<b>ללישנא קמא כו'</b> — והשתא קא מסיים למלתיה דאמרן לעיל ושניהם לא למדוה. ללישנא קמא דאוקמינן דבין ת\"ק ובין ר\"ש בהדי איל מבשל לה ילפי הנך אמוראי דלעיל מזרוע בשלה אליבא דדברי הכל:",
+      "<b>וללישנא בתרא</b> — דאוקמינן ת\"ק דבקדרה אחרת מבשל לה ילפי מילתייהו מדר\"ש דחזינן דבשיל היתר בהדי איסור ובזרוע יש עצם הרבה ובשר מועט שהכתף אינו בכלל זרוע דתנן בפרק הזרוע (לקמן חולין דף קלד:) איזהו זרוע מן הפרק של ארכובה עד גף של יד אשפלדו\"ן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַאן דְּאָמַר בְּשִׁשִּׁים, סָבַר: בָּשָׂר וַעֲצָמוֹת בַּהֲדֵי בָּשָׂר וַעֲצָמוֹת מְשַׁעֲרִינַן, וְהָוֵה לֵיהּ בְּשִׁשִּׁים. מַאן דְּאָמַר בְּמֵאָה, סָבַר: בָּשָׂר בַּהֲדֵי בָּשָׂר מְשַׁעֲרִינַן, וְהָוֵה לֵיהּ בְּמֵאָה.",
+     "en": "The Gemara now returns to the dispute about whether non-kosher food is nullified in sixty or one hundred times its volume of kosher food, and explains how each opinion is derived from the <i>halakha</i> of the foreleg of the nazirite’s ram. <b>The one who said</b> that non-kosher food is nullified <b>in sixty</b> times its volume of kosher food <b>holds</b> that <b>we assess</b> the ratio of <b>meat and bones</b> of the foreleg <b>to</b> the <b>meat and bones</b> of the rest of the ram, <b>and this is</b> a ratio of one to <b>sixty. The one who said</b> that non-kosher food is nullified <b>in one hundred</b> times its volume of kosher food <b>holds</b> that <b>we assess</b> only the volume of the <b>meat</b> of the foreleg <b>to</b> the <b>meat</b> of the rest of the ram, <b>and this is</b> a ratio of one <b>to one hundred.</b>",
+     "rashi": [
+      "<b>בשר ועצם</b> — דזרוע:",
+      "<b>בהדי בשר ועצמות</b> — דאיל משערינן וקים להו לרבנן דששים איכא ושרייה רחמנא:",
+      "<b>ומ\"ד מאה</b> — סבר עצם לא בעיא לשעוריה דהא לא פליט טעמא מינה וכי משערת בשר דזרוע בהדי בשר דאיל איכא מאה:"
+     ],
+     "tosafot": [
+      "<b>ומאן דאמר בששים סבר בשר ועצמות כו'</b> — לאו דרשא גמורה היא למילף מינה לענין מין בשאינו מינו דטעם כעיקר דאורייתא דהכא מין במינו הוא דמדאורייתא בטילה ברובא אלא בששים ומאה קבלה היתה בידם ואסמכוה אהאי קרא ומכל מקום פריך שפיר מהא דתניא זהו היתר הבא מכלל איסור דמשמע שיש כאן היתר דבעלמא אסור כיוצא בו:"
+     ]
+    },
+    {
+     "he": "וּמִי יָלְפִינַן מִינַּהּ? וְהָתַנְיָא: זֶהוּ הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר, ״זֶהוּ״ לְמַעוֹטֵי מַאי? לָאו לְמַעוֹטֵי כׇּל אִיסּוּרִין שֶׁבַּתּוֹרָה!",
+     "en": "The Gemara asks: <b>And do we derive</b> the principles of nullification <b>from</b> the case of the nazirite’s ram? <b>But isn’t it taught</b> in a <i>baraita</i> with regard to the nazirite’s ram, which absorbs the flavor of the foreleg with which it was cooked: <b>This is</b> a case of <b>permitted</b> meat <b>that comes from the category</b> of <b>forbidden</b> food, i.e., it is permitted despite the fact that it was cooked with forbidden food. The Gemara infers: <b>What</b> does the expression: <b>This is,</b> in the <i>baraita</i> serve <b>to exclude?</b> Does it <b>not</b> serve <b>to exclude all</b> the other <b>forbidden</b> foods <b>that are in the Torah?</b> This indicates that only the cooked foreleg of the nazirite’s ram is nullified in sixty or one hundred times its volume of permitted food, but other prohibited foods are not subject to the principle of nullification.",
+     "rashi": [
+      "<b>זהו היתר</b> — הניתר מכלל איסור שהרי בלע איל מן הזרוע והתירו לך הכתוב:",
+      "<b>לאו למעוטי שאר איסורים</b> — דלא ילפינן להו מיניה:"
+     ],
+     "tosafot": [
+      "<b>לאו למעוטי כל איסורין שבתורה</b> — וא\"ת ומאי קושיא דילמא היינו דוקא לענין שאין מבטלין איסור לכתחילה והכא שרי וי\"ל דלשון זהו היתר הבא מכלל איסור משמע מכלל דבר האסור לאכילה:"
+     ]
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: לֹא נִצְרְכָא אֶלָּא לְרַבִּי יְהוּדָה, דְּאָמַר מִין בְּמִינוֹ לֹא בָּטֵיל, קָא מַשְׁמַע לַן דְּהָכָא בָּטֵיל.",
+     "en": "The Gemara answers that <b>Abaye said:</b> This emphasis <b>is necessary only according to</b> the opinion of <b>Rabbi Yehuda, who said</b> that in general, <b>a type</b> of food mixed <b>with</b> food of <b>its</b> own <b>type is not nullified.</b> Therefore the <i>baraita</i> <b>teaches us that here,</b> the flavor imparted by the foreleg to the rest of the nazirite’s ram is <b>nullified.</b>",
+     "rashi": [
+      "<b>לא נצרכא</b> — האי זהו:",
+      "<b>אלא לרבי יהודה דאמר</b> — במנחות (דף כב:) מין במינו לא בטיל ובהאי איל בטיל להכי אמר זהו דלא ילפינן מיניה דליבטל מין במינו אבל מין בשאינו מינו ילפינן מיניה למאה וששים למר כדאית ליה ולמר כדאית ליה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְלִיגְמַר מִינֵּיהּ? גַּלִּי רַחֲמָנָא ״וְלָקַח מִדַּם הַפָּר וּמִדַּם הַשָּׂעִיר״, תַּרְוַיְיהוּ בַּהֲדֵי הֲדָדֵי נִינְהוּ וְלָא בָּטְלִי.",
+     "en": "The Gemara objects: <b>Let</b> Rabbi Yehuda <b>learn from this</b> case that all forbidden food can be nullified when it is mixed with permitted food of its own type. The Gemara explains: <b>The Merciful One revealed</b> in the Torah: <b>“And he shall take of the blood of the bull and of the blood of the goat</b> and put it upon the corners of the altar round about” (Leviticus 16:18). <b>Both of</b> these two bloods <b>are</b> mixed <b>with each other, and</b> although a bull has more blood than a goat has, the verse makes reference to the blood of the goat, indicating that it maintains its own identity and is <b>not nullified.</b>",
+     "rashi": [
+      "<b>וליגמר מיניה</b> — לבטולי מין במינו:",
+      "<b>ולקח מדם הפר ומדם השעיר</b> — באחרי מות גבי קרנות מזבח הפנימי וקסבר רבי יהודה שמערה דם שניהם לכלי אחד והדבר ידוע שדם הפר מרובה מדם השעיר וקרי ליה דם השעיר אלמא לא מבטל ליה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּמַאי חָזֵית דְּגָמְרִינַן מֵהַאיְךְ, לִיגְמַר מֵהַאי? חִדּוּשׁ הוּא, וּמֵחִדּוּשׁ לָא גָּמְרִינַן.",
+     "en": "The Gemara asks: <b>And</b> according to Rabbi Yehuda, <b>what did you see that</b> caused <b>you</b> to <b>derive</b> a principle <b>from that</b> verse with regard to the blood of the bull and the blood of the goat? <b>Derive</b> a principle <b>from this</b> verse about the foreleg of the nazirite’s ram. The Gemara answers: The case of the nazirite’s ram <b>is a novelty,</b> because even when nullification does apply one may not nullify a forbidden food <i>ab initio</i>, whereas here one is supposed to cook the foreleg together with the rest of the ram; <b>and we do not learn</b> principles <b>from a novelty.</b>",
+     "rashi": [
+      "<b>חדוש הוא</b> — דלכתחלה היתר לבטל האיסור:"
+     ],
+     "tosafot": [
+      "<b>מאי חזית דגמרינן מהא כו'</b> — ואף על גב דלחומרא מקשינן כיון דאיכא לאוקומי קרא דדם הפר בעולין כרבנן בהקומץ רבה (מנחות דף כב:) אית לן למילף מזרוע בשלה אע\"ג דלקולא וכן בסמוך פריך דאדרבה ניגמר מהכא לקולא דאיכא לאוקומי קרא דחטאת ודמשרת להיתר מצטרף לאיסור וצריכי כדאמר בפרק שלשה מינין (נזיר דף לז:):"
+     ]
+    },
+    {
+     "he": "אִי הָכִי, לְמֵאָה וְשִׁשִּׁים נָמֵי לָא לִיגְמַר?",
+     "en": "The Gemara challenges: <b>If so,</b> if Rabbi Yehuda does not consider the case of the nazirite’s ram a viable precedent for general halakhic principles, then <b>let him also not learn</b> from that case that when forbidden food is mixed with permitted food of a different type, it is nullified <b>in</b> either <b>one hundred or sixty</b> times its own volume. As discussed above, the two opinions in this regard are each based on the case of the nazirite’s ram.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אַטּוּ אֲנַן לְקוּלָּא גָּמְרִינַן? לְחוּמְרָא גָּמְרִינַן, דְּמִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל.",
+     "en": "The Gemara explains: <b>Is that to say</b> that <b>we learn</b> that forbidden food is nullified in sixty or one hundred times its volume of permitted food as <b>a leniency? We learn it</b> only as <b>a stringency, as</b> if it were not for this derivation, we would say that <b>by Torah law</b> forbidden food <b>is nullified in</b> a mixture in which there is a simple <b>majority</b> of permitted food.",
+     "rashi": [
+      "<b>אטו אנן</b> — הא דגמרינן מיניה מאה או ששים קולא הוא דתימא חדוש הוא דחדיש רחמנא ואקיל גביה ולא גמרינן מיניה:",
+      "<b>הא חומרא היא</b> — דלא תימא ליבטול ברובא וחומרא שפיר גמרינן מיניה דכ\"ש הוא ומה איל נזיר דאקיל גביה לא אקיל אלא במאה או בששים כ\"ש באיסורי אחריני:",
+      "<b>דמדאורייתא</b> — כלומר אי לאו מהאי גמרינן ומשוינן ביטול טעם כשאר בטולי דאורייתא ברובא הוה לן לבטולי כדכתיב (שמות כג) אחרי רבים להטות:"
+     ],
+     "tosafot": [
+      "<b>לחומרא גמרינן דמדאורייתא ברובא בטיל</b> — וא\"ת הא תינח במינו אבל בשאינו מינו לא בטיל דטעם כעיקר דאורייתא וי\"ל דלאו דרשא גמורה היא כדפרישית ולענין מין במינו גמרינן לחומרא ובשאינו מינו קים להו דביותר מששים למר ומאה למר פוסק הטעם ואסמכינהו נמי אהאי קרא ועוד דזימנין פוסק בפחות מששים או ממאה א\"כ הא דילפינן לאסור עד ששים ומאה חומרא בעלמא הוא:"
+     ]
+    },
+    {
+     "he": "רָבָא אָמַר: לֹא נִצְרְכָה אֶלָּא לְטַעַם כְּעִיקָּר, דִּבְקָדָשִׁים אָסוּר, קָא מַשְׁמַע לַן דְּהָכָא שָׁרֵי.",
+     "en": "<b>Rava stated</b> an alternative explanation of the term: This is, which appears in the <i>baraita</i> with regard to the nazirite’s ram: This limitation <b>is necessary only for</b> the principle that the halakhic status of the <b>flavor</b> of forbidden food is <b>like</b> that of its <b>substance.</b> If the flavor of <b>sacrificial</b> food is absorbed into another food, it renders that food <b>forbidden,</b> i.e., it is not nullified. Therefore, the <i>baraita</i> <b>teaches us that here,</b> in the case of the nazirite’s ram, the rest of the ram is <b>permitted</b> even to non-priests.",
+     "rashi": [
+      "<b>לטעם כעיקר</b> — נותן טעם קים לן דאסור בקדשים כעיקר ממשו של איסור ולהא מילתא קתני זהו למעוטי שאר קדשים אבל חולין שפיר גמרינן מיניה למאה וששים דהא קים לן מאחרי רבים להטות דבטלי ברובא וילפינן מהכא להחמיר דלא ליבטיל אלא במאה ורבא לית ליה טעם כעיקר בחולין כדמפרש ואזיל מדאורייתא ברובא בטיל אלא מדרבנן והכי נמי שמעינן ליה לר' יוחנן במסכת ע\"ז (דף סז.) כל שטעמו ולא ממשו אין לוקין עליו. והא דילפינן ליה בפסחים (דף מד.) מנזיר ומשרת ליתן טעם כעיקר סבירא להו אמוראי בתראי דאסמכתא בעלמא הוא ולאו מילף הוא דהוו להו נזיר וגיעולי עובדי כוכבים ב' כתובין הבאין כאחד אי נמי גיעולי עובדי כוכבים חדוש הוא כדאמרינן התם ומשרת להיתר מצטרף לאיסור:"
+     ],
+     "tosafot": [
+      "<b>רבא אמר לא נצרכא אלא לטעם כעיקר דבקדשים אסור</b> — פירש בקונטרס דזהו למעוטי שאר קדשים אבל חולין שפיר ילפינן מיניה למאה וששים דמדאורייתא בטלי ברוב וילפינן מהכא להחמיר דלא ליבטל אלא במאה וששים משמע דר\"ל דטעם כעיקר דקאמר לאו לטעם גמור הוא דהא בטיל במאה וששים אלא טעם כל דהו קאמר וגם צ\"ל דכה\"ג אסור בקדשים ואע\"ג דלא הוי אלא משהו וכי פריך וליגמר מיניה היינו דלישתרו אף בשר קדשים בק' וס' כזרוע בשלה והשתא תימה כיון דהכא לא איירי בטעם גמור אלא בכל שהוא מי דחקו לפרש דרבא אית ליה טעם כעיקר בחולין לאו דאורייתא כיון דהכא לא איירי בטעם גמור אלא בכל שהוא כדפרישית ועוד תימה דעל כרחיך אין כל שהוא אוסר בקדשים דלא אסר במשהו אלא עולין דוקא לרבנן ומין במינו לר' יהודה כדאמרינן בהדיא בהקומץ רבה (מנחות דף כב. כג.) וכן בפ' התערובת (זבחים עח.) אמר ר\"ל הפגול והנותר והטמא שבללן זה בזה ואכלן פטור וקאמר שמע מינה נותן טעם ברוב לאו דאורייתא אלמא משמע דאפילו כדי נתינת טעם לא אסר במינו וזרוע בשלה וחטאת דשמעתין במינו עסקינן ועוד אמר בהקומץ רבה (מנחות דף כג:) שתי מנחות שנקמצו ונתערבו דבטל ברוב לרבנן דאמרי מין במינו בטיל אלמא אין כל שהוא אוסר בקדשים וכן בכמה דוכתין ונראה לפרש דהכא איירי בטעם גמור דבקדשים אסור מקרא דחטאת והוא הדין דבחולין אסור מקרא דמשרת אלא נקט קדשים משום דבזרוע בשלה דהוי קדשים קאי והכא שרי דפעמים שהזרוע ומקצת מן האיל היו חוץ לרוטב ונותן הזרוע טעם במה שחוץ וזימנין נמי שיש משמנונית הזרוע הרבה על אותו מקצת עד שלא יהא רוב באותו מקצת לבטלו ובכל ענין שיבשל התיר הכתוב ורבא לא פליג אר' יוחנן דמשרת אתא לטעם כעיקר ודרשה גמורה היא ולא אסמכתא דמדר\"ע נשמע לרבנן דדריש לה להיתר מצטרף לאיסור דלקי והוא הדין דלרבנן דמוקי לה לטעם כעיקר נמי לקי והא דאמר אביי בפרק כל הבשר (לקמן חולין דף קח.) ש\"מ טעמו ולא ממשו בעלמא דאורייתא דאי דרבנן מבשר בחלב מאי טעמא לא גמרינן להו דחדוש הוא אי חדוש הוא אע\"ג דליכא נותן טעם נמי אמר לך רבא דרך בישול אסרה תורה פירוש לעולם דרבנן התם דיחוי בעלמא הוא כלומר מהכא לא תידוק ובפרק בתרא דמסכת ע\"ז (דף סז.) דאמר רבי יוחנן טעמו ולא ממשו אסור ואין לוקין עליו והיינו במינו דמדאורייתא ברובא בטל וטעמו וממשו דקאמר התם דלוקין כגון שהאיסור בעין ומכירו וכי קתני טעמו ולא ממשו אסור ואין לוקין עליו ה\"ה אפילו טעמו וממשו אם אין מכירו אלא מילתא דפסיקא נקט בכל ענין אי נמי נקט ולא ממשו לרבותא דאפ\"ה אסור ועוד י\"ל דהתם איירי בשלא במינו והיכא דאיכא כזית בכדי אכילת פרס קרי ליה טעמו וממשו והיכא דליכא כזית בכדי אכילת פרס קרי ליה טעמו ולא ממשו והרב רבי יוסף מאורליינ\"ש היה מפרש דאע\"ג דטעם כעיקר דאורייתא לא לקי אטעם אפי' שלא במינו דרבי יוחנן סבר לה כר\"ע דיליף טעם כעיקר מגיעולי עובדי כוכבים וליכא אלא עשה דתעבירו באש דמצריך ליבון והגעלה ור\"ת השיב לו דאית לן למימר דאהדרינהו לאיסוריה כדאמרי' בהלוקח עובר פרתו (בכורות טו:) דתנן הגוזז והעובד פי' בפסולי המוקדשין סופג את הארבעים ואע\"ג דלא נפקא לן אלא מתזבח ולא גיזה אלא היינו טעמא משום דאהדריה לאיסוריה דלא תעבוד ולא תגוז מיהו לא דמי כל כך דהתם משמע ודאי דאהדריה והכי קאמר תזבח זביחה התרתי לך בקדשים שהוממו ולא גיזה והא דקאמר בירושלמי דערלה בפ' שני אמר ר' יוחנן כל נותני טעם אין לוקין עליהם חוץ מנותן טעם דנזיר י\"ל דבהיתר מצטרף לאיסור איירי דהכי איתא בהדיא בפ' ואלו עוברין (פסחים דף מג:) ובפרק שלשה מינין (נזיר לה:) אמר ר' אבהו א\"ר יוחנן כל איסורין שבתורה אין היתר מצטרף לאיסור חוץ מאיסורי נזיר וקרי ליה בירושלמי נותן טעם וא\"ת אם טעם כעיקר דאורייתא מאי פריך בפ' אלו עוברין ובפ' שלשה מינין גבי שתי קופות אחת של חולין ואחת של תרומה ולפניהן שתי סאין כו' ופריך מיניה ואי אמרת כזית בכדי אכילת פרס דאורייתא אמאי אמרינן שאני אומר והשתא כי נמי אמרינן כזית בכדי אכילת פרס לאו דאורייתא תקשה ליה אמאי אמר שאני אומר כיון דטעם כעיקר דאורייתא וי\"ל דהתם איירי במינו וכן משמע בסוף הערל (יבמות פב:) דמוקי לה ר\"ל והוא שרבו חולין על התרומה ומין שלא במינו לא שייך רבוי וא\"ת ואי במינו כיון דרבו בטלי להו ברובא אפי' איכא כזית בכדי אכילת פרס וי\"ל דמ\"מ פריך דאי כזית בכדי אכילת פרס דאורייתא יש לנו להחמיר אף במינו ולית לן למימר שאני אומר כיון דלקי בשאינו מינו ומיהו קשה דסוגיא דאלו עוברין (פסחים דף מג:) ודפרק שלשה מינין (נזיר דף לה:) אליבא דר' יוחנן ור' יוחנן מוקי לה בהערל (יבמות דף פב.) אע\"ג דלא רבו וא\"כ כי נמי כזית בכדי אכילת פרס לאו דאורייתא תקשי ליה אמאי אמרינן שאני אומר דכיון דלא רבו ספיקא דאורייתא היא וי\"ל דהוה מצי למימר וליטעמיך וכי האי גוונא יש בכמה דוכתי:"
+     ]
+    }
+   ]
+  }
+ ]
+}

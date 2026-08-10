@@ -39,6 +39,21 @@ UI = {
                        "end in a shorter second round.",
         "tip": "Tip: press keys 1–4 to answer, Enter for next.",
         "cards_tip": "Tip: space flips the card, ← → move, 1 / 2 rate it.",
+        "daf": "The Daf",
+        "daf_intro": "The daf itself, laid out as it is printed: the Gemara in the middle, "
+                     "Rashi on the inner margin and Tosafot on the outer one. Nothing here "
+                     "was written by us.",
+        "daf_show": "Show",
+        "daf_en": "English",
+        "daf_sefaria": "Open on Sefaria",
+        "daf_note": "This is the text of the daf itself — the Vilna Gemara with Rashi and "
+                    "Tosafot, from Sefaria. It is not AI-written.",
+        "daf_credit": 'Text from <a href="https://www.sefaria.org" target="_blank" '
+                      'rel="noopener">Sefaria</a>. Gemara and translation from the William '
+                      'Davidson Talmud, with commentary by Rabbi Adin Even-Israel Steinsaltz, '
+                      '<a href="https://creativecommons.org/licenses/by-nc/4.0/" '
+                      'target="_blank" rel="noopener">CC BY-NC 4.0</a>. Rashi and Tosafot are '
+                      'the Vilna edition, public domain.',
         "tomorrow": "Tomorrow",
         "archive_title": "Daf Yomi — Archive",
         "archive_lede": "Every daily study sheet · newest first",
@@ -67,6 +82,21 @@ UI = {
                        "final en una segunda ronda, más corta.",
         "tip": "Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.",
         "cards_tip": "Consejo: la barra espaciadora gira la tarjeta, ← → navegan, 1 / 2 califican.",
+        "daf": "El Daf",
+        "daf_intro": "El daf mismo, con la disposición de la página impresa: la Guemará en el "
+                     "centro, Rashi en el margen interior y Tosafot en el exterior. Nada de "
+                     "esto fue escrito por nosotros.",
+        "daf_show": "Mostrar",
+        "daf_en": "Inglés",
+        "daf_sefaria": "Abrir en Sefaria",
+        "daf_note": "Este es el texto del daf mismo — la Guemará de Vilna con Rashi y Tosafot, "
+                    "tomada de Sefaria. No está escrito por IA.",
+        "daf_credit": 'Texto de <a href="https://www.sefaria.org" target="_blank" '
+                      'rel="noopener">Sefaria</a>. La Guemará y su traducción provienen del '
+                      'Talmud William Davidson, con comentario del rabino Adin Even-Israel '
+                      'Steinsaltz, <a href="https://creativecommons.org/licenses/by-nc/4.0/" '
+                      'target="_blank" rel="noopener">CC BY-NC 4.0</a>. Rashi y Tosafot son de '
+                      'la edición de Vilna, de dominio público.',
         "tomorrow": "Mañana",
         "archive_title": "Daf Yomi — Archivo",
         "archive_lede": "Todas las hojas de estudio diarias · las más recientes primero",

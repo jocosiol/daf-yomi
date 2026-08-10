@@ -80,6 +80,11 @@ Each response has parallel arrays: `he` (Hebrew/Aramaic) and `text` (William Dav
 English). Strip HTML tags and read **every** segment of both amudim before writing. Base
 every claim, name, and quotation on what is actually there.
 
+`python3 build/daftext.py <Tractate> <page>` fetches the same text into
+`content/daf/<Tractate>_<page>.json` — both amudim, tags already stripped, and Rashi and
+Tosafot alongside each segment. Step 5 needs that file anyway, so writing from it saves a
+fetch and puts Rashi in front of you while you write.
+
 Also glance at the following day's first amud for the one-line `tomorrow` preview. Get that
 day's reference from the calendars API with its own date rather than assuming `page + 1` —
 tractates end, and the buffer means you are often writing several days out.
@@ -281,6 +286,17 @@ terminology.
 
 ## Step 5 — Build
 
+First cache the daf itself, which the Daf tab renders — the Gemara with Rashi and Tosafot,
+in the layout of the printed page:
+
+```bash
+python3 build/daftext.py --all
+```
+
+It fetches only what `content/daf/` is missing, so it is a no-op once today's daf is in and
+costs nothing on a run that wrote nothing. The build never fetches anything itself; a daf
+with no cached text is published without its Daf tab, and the build names it.
+
 ```bash
 python3 build/build.py
 ```
@@ -294,7 +310,7 @@ problem. Fix the sheet and run it again. Warnings are advisory; errors are not.
 Expect output like:
 
 ```
-Built 5 daf (3 translated) + 1 legacy = 6 routed
+Built 5 daf (3 translated, 5 with the daf text) + 1 legacy = 6 routed
 languages: en, es
 index.html seeded with Chullin_102 (2026-08-10)
 rollover: sunset, location pinned to 31.7683,35.2137

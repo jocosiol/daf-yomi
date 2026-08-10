@@ -35,6 +35,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+import daftext                     # noqa: E402
 import i18n                        # noqa: E402
 import sheet as sheet_mod          # noqa: E402
 import validate as validate_mod    # noqa: E402
@@ -118,6 +119,22 @@ def cards_payload(s):
     rows = validate_mod.terms_table(s) or []
     return [{"t": inline_md(r[0]), "m": inline_md(" — ".join(c for c in r[1:] if c))}
             for r in rows if len(r) >= 2 and r[0].strip() and r[1].strip()]
+
+
+def daf_payload(data):
+    """A cached daf, plus what the Daf tab's chips should offer.
+
+    A tractate with no Tosafot must not be given a Tosafot switch, and there is
+    nothing to translate on a daf Sefaria has not translated — so the toolbar is
+    built from what the text actually contains, not from a fixed list.
+    """
+    if not data:
+        return None
+    segments = [s for a in data["amudim"] for s in a["segments"]]
+    return dict(data,
+                has_rashi=any(s["rashi"] for s in segments),
+                has_tosafot=any(s["tosafot"] for s in segments),
+                has_en=any(s["en"] for s in segments))
 
 
 def with_deck_cta(body_md, lang):
@@ -302,6 +319,11 @@ def main():
         "switch": SWITCH,
         "site_url": settings["site_url"],
     }
+    # The text of the daf, cached by build/daftext.py. Loaded once per daf
+    # rather than per rendered page, so the index does not read it twice and a
+    # broken cache is reported once.
+    daf_by_slug = {s.slug: daf_payload(daftext.load(content, s.slug)) for s in sheets}
+
     daf_tpl = env.get_template("daf.html")
 
     def render_daf(s, is_index):
@@ -323,6 +345,7 @@ def main():
             quiz_json=script_json(quiz_by_lang),
             has_cards=has_cards,
             cards_json=script_json(cards_by_lang),
+            daf=daf_by_slug.get(s.slug),
             is_index=is_index,
             is_archive=False,
             needs_zman=is_index,
@@ -356,6 +379,14 @@ def main():
         json.dump(entries, f, ensure_ascii=False, indent=1)
     open(os.path.join(out_dir, ".nojekyll"), "w").close()
 
+    # ---- the daf itself: without cached text a page simply has no Daf tab ----
+    # Said out loud, because a missing tab is easy not to notice and the fix is
+    # one command. Never fatal: the sheets are the site, the daf is an addition.
+    no_text = [s.slug for s in sheets if not daf_by_slug.get(s.slug)]
+    if no_text:
+        print(f"  warn   no daf text for {', '.join(no_text)} — built without the "
+              f"Daf tab; fetch it with: python3 build/daftext.py --all")
+
     # ---- stale output: report, never delete (a future daf must survive) ----
     expected = {e["file"] for e in entries} | {"index.html", "archive.html"}
     for p in sorted(glob.glob(os.path.join(out_dir, "*.html"))):
@@ -386,7 +417,8 @@ def main():
              if settings["pin"] else "per-visitor (browser timezone)")
     off = f" + {settings['offset']} min" if settings["offset"] else ""
     n_tr = sum(len(s.translations) for s in sheets)
-    print(f"Built {len(sheets)} daf ({n_tr} translated) "
+    n_text = sum(1 for v in daf_by_slug.values() if v)
+    print(f"Built {len(sheets)} daf ({n_tr} translated, {n_text} with the daf text) "
           f"+ {len(entries) - len(sheets)} legacy = {len(dapim)} routed")
     print(f"languages: {', '.join(i18n.LANGS)}")
     print(f"index.html seeded with {seed.slug} ({seed.iso})")
