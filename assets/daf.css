@@ -248,6 +248,42 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
    it has two neighbours, one or none. */
 .daf-intro{max-width:62ch;margin:0 auto 16px;text-align:center;
   color:var(--muted);font-size:.95rem;line-height:1.55;font-style:italic}
+
+/* ---- the printed page ----
+   The scan is the daf; the text layout above is a reading of it. Which one is
+   showing is a class on #daf, so everything that belongs to a mode is hidden by
+   one rule rather than by each panel knowing about the other. */
+.daf-modes{display:flex;gap:8px;justify-content:center;margin:0 0 16px}
+.chip.mode{padding:8px 18px;font-size:.95rem}
+#daf.mode-scan .daf-text,#daf.mode-scan .daf-credit.for-text,
+#daf.mode-text .daf-scan,#daf.mode-text .daf-intro.for-scan,
+#daf.mode-text .daf-credit.for-scan{display:none}
+
+figure.scan{margin:0 0 22px;background:var(--panel);border:1px solid var(--line);
+  border-radius:16px;padding:14px;box-shadow:var(--shadow)}
+figure.scan figcaption{display:flex;align-items:baseline;justify-content:center;gap:14px;
+  margin-bottom:10px;font-size:1.35rem;color:var(--accent2);font-weight:600}
+figure.scan figcaption a{font-size:.7rem;font-weight:400;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--accent);text-decoration:none;
+  border-bottom:1px dotted var(--gold)}
+figure.scan figcaption a:hover{color:var(--accent2)}
+/* The PDF page is A3 with the daf printed across its top three quarters, so at
+   fit-to-width this is the height that shows the whole daf and clips only the
+   blank tail below it. White, always: it is a scan of paper, and a dark frame
+   around it looks like a mistake. */
+figure.scan iframe{display:block;width:100%;aspect-ratio:1/1.15;border:0;
+  border-radius:8px;background:#fff}
+/* A whole daf at a phone's width is legible to nobody, and no amount of frame
+   height fixes that — zooming inside a small frame is worse than the browser's
+   own full-screen PDF view. So the frame stays exactly as tall as the daf needs
+   (a taller one would only add white space), and the way out becomes a button
+   instead of a caption aside. The Text mode is the other way out, one tap up. */
+@media(max-width:700px){
+  figure.scan{padding:10px}
+  figure.scan figcaption{flex-direction:column;gap:8px;font-size:1.15rem}
+  figure.scan figcaption a{border:1px solid var(--gold);border-radius:999px;
+    padding:7px 16px;font-size:.8rem;background:var(--panel)}
+}
 .daf-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;
   margin:0 0 18px}
 .daf-bar-label{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}

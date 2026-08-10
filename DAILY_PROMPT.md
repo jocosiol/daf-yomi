@@ -286,8 +286,8 @@ terminology.
 
 ## Step 5 — Build
 
-First cache the daf itself, which the Daf tab renders — the Gemara with Rashi and Tosafot,
-in the layout of the printed page:
+First cache the daf itself, which the Daf tab shows two ways — the scan of the printed page
+from shas.org, and the Gemara with Rashi and Tosafot from Sefaria:
 
 ```bash
 python3 build/daftext.py --all
@@ -295,7 +295,19 @@ python3 build/daftext.py --all
 
 It fetches only what `content/daf/` is missing, so it is a no-op once today's daf is in and
 costs nothing on a run that wrote nothing. The build never fetches anything itself; a daf
-with no cached text is published without its Daf tab, and the build names it.
+with nothing cached is published without its Daf tab, and the build names it.
+
+If it reports no scan for a daf, or you have just moved to a new tractate, check the name
+table:
+
+```bash
+python3 build/dafpdf.py Chullin 108    # this daf
+python3 build/dafpdf.py --all         # all forty tractates, first daf of each
+```
+
+shas.org spells tractates the Ashkenazi way — Ketubot is `kesubos` — so a new tractate needs
+an entry in `SLUG` in `build/dafpdf.py`. All forty are already there; this is the check that
+proves it, not a step to run every day.
 
 ```bash
 python3 build/build.py

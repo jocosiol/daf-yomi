@@ -204,10 +204,63 @@ async function open(browser, url) {
     } else {
       const { page, errors } = await open(browser, `${BASE}/${withDaf.file}?lang=en`);
       await page.setViewport({ width: 1280, height: 900 });
+
+      // The scans are a third party's bandwidth: nothing may be requested from
+      // shas.org until the reader actually opens the tab.
+      const scans = [];
+      page.on('request', r => { if (/shas\.org/.test(r.url())) scans.push(r.url()); });
+      check('daf tab: no scan is fetched on page load', scans.length === 0, `${scans.length}`);
+
       await page.evaluate(() => document.querySelector('.tab[data-v="daf"]').click());
       check('daf tab: no console errors', errors.length === 0, errors.join(' | ') || 'none');
       check('daf tab: opens', await page.evaluate(() =>
         document.getElementById('daf').classList.contains('active')));
+
+      // ---------- the printed page ----------
+      check('daf tab: the printed page is what opens', await page.evaluate(() =>
+        document.getElementById('daf').classList.contains('mode-scan')));
+      const frames = await page.evaluate(() =>
+        document.querySelectorAll('.daf-scan figure.scan iframe').length);
+      check('daf tab: one framed scan per amud', frames === 2, frames);
+      // Chrome fetches an embedded PDF twice — once to navigate the frame, once
+      // from the viewer plugin — so wait for both amudim rather than a count.
+      for (let i = 0; i < 50 && new Set(scans).size < 2; i++) {
+        await new Promise(r => setTimeout(r, 100));
+      }
+      const amudim = new Set(scans.map(u => (u.match(/amud=([ab])/) || [])[1]));
+      check('daf tab: opening the tab is what loads them',
+        amudim.has('a') && amudim.has('b') &&
+        scans.every(u => /masechta=chullin&daf=\d+&amud=[ab]/.test(u)),
+        [...new Set(scans)].map(u => u.split('?')[1]).join(' | ') || 'none requested');
+      check('daf tab: every frame got its src', await page.evaluate(() =>
+        [...document.querySelectorAll('.daf-scan iframe')]
+          .every(f => f.src && !f.dataset.src)));
+      check('daf tab: the text layout is put away with it', await page.evaluate(() =>
+        getComputedStyle(document.querySelector('.daf-text')).display === 'none'));
+      const credits = () => page.evaluate(() => [...document.querySelectorAll('.daf-credit')]
+        .filter(e => getComputedStyle(e).display !== 'none')
+        .map(e => e.innerText));
+      const shown = await credits();
+      check('daf tab: the scan carries its own credit, alone',
+        shown.length === 1 && shown[0].includes('shas.org'),
+        JSON.stringify(shown.map(c => c.slice(0, 30))));
+      const pdfLink = await page.evaluate(() =>
+        document.querySelector('figure.scan figcaption a').href);
+      check('daf tab: a full-size link that does not need the frame',
+        /shas\.org.*amud=a$/.test(pdfLink), pdfLink);
+
+      // ---------- and the text alongside it ----------
+      await page.evaluate(() => document.querySelector('.chip[data-mode="text"]').click());
+      check('daf tab: the text mode switches over', await page.evaluate(() => {
+        const d = document.getElementById('daf');
+        return d.classList.contains('mode-text') &&
+          getComputedStyle(document.querySelector('.daf-scan')).display === 'none' &&
+          getComputedStyle(document.querySelector('.daf-text')).display !== 'none';
+      }));
+      const textCredit = await credits();
+      check('daf tab: and brings its own credit with it',
+        textCredit.length === 1 && textCredit[0].includes('Sefaria'),
+        JSON.stringify(textCredit.map(c => c.slice(0, 30))));
 
       // Neither disclaimer may go on claiming this text was AI-written.
       const notice = await page.evaluate(() => [...document.querySelectorAll('.disclaimer')]
@@ -215,8 +268,8 @@ async function open(browser, url) {
         .map(e => e.className.trim()));
       check('daf tab: the AI notices give way to the source notice',
         notice.length === 1 && notice[0].includes('source'), JSON.stringify(notice));
-      check('daf tab: the licence credit is shown', await page.evaluate(() =>
-        /CC BY-NC/.test(document.querySelector('.daf-credit').innerText)));
+      check('daf tab: the Davidson licence is credited', await page.evaluate(() =>
+        /CC BY-NC/.test(document.querySelector('.daf-credit.for-text').innerText)));
 
       // Left-to-right screen order per amud. Rashi sits on the inner margin:
       // left of the text on amud alef (a recto), right of it on amud bet.

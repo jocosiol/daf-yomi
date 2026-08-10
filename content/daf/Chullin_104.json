@@ -14,6 +14,7 @@
    "ref": "Chullin 104a",
    "he_ref": "חולין ק״ד.",
    "url": "https://www.sefaria.org/Chullin.104a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=104&amud=a",
    "segments": [
     {
      "he": "הַנּוֹדֵר מִן הַבָּשָׂר מוּתָּר בִּבְשַׂר דָּגִים וַחֲגָבִים.",
@@ -108,6 +109,7 @@
    "ref": "Chullin 104b",
    "he_ref": "חולין ק״ד:",
    "url": "https://www.sefaria.org/Chullin.104b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=104&amud=b",
    "segments": [
     {
      "he": "נֶאֱכֶלֶת עִם הַזָּר עַל הַשֻּׁלְחָן, וְנִיתֶּנֶת לְכׇל כֹּהֵן שֶׁיִּרְצֶה.",

@@ -14,6 +14,7 @@
    "ref": "Chullin 99a",
    "he_ref": "חולין צ״ט.",
    "url": "https://www.sefaria.org/Chullin.99a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=99&amud=a",
    "segments": [
     {
      "he": "וְלִיגְמַר מִינֵּיהּ? גַּלִּי רַחֲמָנָא גַּבֵּי חַטָּאת: ״כֹּל אֲשֶׁר יִגַּע בִּבְשָׂרָהּ יִקְדָּשׁ״, לִהְיוֹת כָּמוֹהָ – שֶׁאִם פְּסוּלָה תִּפָּסֵל, וְאִם כְּשֵׁרָה תֵּאָכֵל כֶּחָמוּר שֶׁבָּהּ.",
@@ -111,6 +112,7 @@
    "ref": "Chullin 99b",
    "he_ref": "חולין צ״ט:",
    "url": "https://www.sefaria.org/Chullin.99b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=99&amud=b",
    "segments": [
     {
      "he": "לָא, בְּמֵאָה.",

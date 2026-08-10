@@ -14,6 +14,7 @@
    "ref": "Chullin 100a",
    "he_ref": "חולין ק׳.",
    "url": "https://www.sefaria.org/Chullin.100a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=100&amud=a",
    "segments": [
     {
      "he": "בְּרִיָּה שָׁאנֵי.",
@@ -100,6 +101,7 @@
    "ref": "Chullin 100b",
    "he_ref": "חולין ק׳:",
    "url": "https://www.sefaria.org/Chullin.100b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=100&amud=b",
    "segments": [
     {
      "he": "אֲפִילּוּ תֵּימָא לֹא קָדַם וְסִלְּקוֹ, הָוֵי מִין וּמִינוֹ וְדָבָר אַחֵר.",

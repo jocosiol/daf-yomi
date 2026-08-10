@@ -14,6 +14,7 @@
    "ref": "Chullin 103a",
    "he_ref": "חולין ק״ג.",
    "url": "https://www.sefaria.org/Chullin.103a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=103&amud=a",
    "segments": [
     {
      "he": "אָכַל אֵבֶר מִן הַחַי מִן הַטְּרֵפָה, רַבִּי יוֹחָנָן אָמַר: חַיָּיב שְׁתַּיִם, וְרַבִּי שִׁמְעוֹן בֶּן לָקִישׁ אָמַר: אֵינוֹ חַיָּיב אֶלָּא אַחַת.",
@@ -165,6 +166,7 @@
    "ref": "Chullin 103b",
    "he_ref": "חולין ק״ג:",
    "url": "https://www.sefaria.org/Chullin.103b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=103&amud=b",
    "segments": [
     {
      "he": "מִכְּלָלוֹ, אֲבָל אֵבֶר דְּלֹא הוּתַּר מִכְּלָלוֹ – לָא.",

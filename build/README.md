@@ -17,7 +17,8 @@ forgotten on the command line.
 | `sheet.py` | parses a sheet: YAML front matter, prose, and the quiz's `yaml` block |
 | `validate.py` | the format contract, as checks. Exits nonzero; the build refuses to write |
 | `i18n.py` | every string the build itself renders, plus per-language date formatting |
-| `daftext.py` | fetches the daf itself from Sefaria into `content/daf/`. Not run by the build |
+| `daftext.py` | caches the daf itself into `content/daf/`: Sefaria's text, and the scan's URL. Not run by the build |
+| `dafpdf.py` | where the printed page lives: tractate name -> shas.org's, and does it answer |
 | `build.py` | renders the pages, the archive, the manifest and `assets/` |
 | `templates/` | Jinja: `base.html`, `daf.html`, `archive.html` |
 | `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `daf.js`, `speak.js`, `zman.js` — copied to `assets/` with a content hash |
@@ -47,45 +48,78 @@ panel wakes itself up on that. **Learn** is the rendered sheet. **Chazara Quiz**
 `yaml` block under `## Chazara`. **Flashcards** is the `| Term | Meaning |` table under
 `## Key concepts`, read out of the same markdown the Learn view renders — the deck cannot
 drift from the sheet, because the glossary is written once. A daf with fewer than
-`build.MIN_CARDS` terms gets no deck and no tab. **The Daf** is the daf itself; below.
+`build.MIN_CARDS` terms gets no deck and no tab. **The Daf** is the daf itself — the
+scanned page, or the text laid out as tzurat hadaf; below.
 
-## The Daf — tzurat hadaf
+## The Daf
 
-The other three views are things we wrote *about* the daf. This one is the daf: the Vilna
-Gemara with Rashi and Tosafot, in the layout it is printed in — Gemara down the middle,
+The other three views are things we wrote *about* the daf. This one is the daf, in two
+readings of it, switched by a pair of chips at the top of the tab.
+
+**Printed page** — the default — is the Vilna daf scanned, one PDF per amud, served by
+[shas.org](https://www.shas.org/daf-pdf/api/api-documentation.html). It is the whole page:
+Gemara, Rashi, Tosafot, Mesoras HaShas, Ein Mishpat, Rabbeinu Gershom, the lot. It is
+embedded in an iframe and the browser's own PDF viewer draws it.
+
+**Text** is the same daf rebuilt from Sefaria as tzurat hadaf — Gemara down the middle,
 Rashi on the inner margin, Tosafot on the outer one. Which side is inner depends on the
 leaf, and the two amudim swap accordingly: amud alef is a recto, so its spine is on the
-left and Rashi sits left of the text; amud bet is its verso and mirrors it.
+left and Rashi sits left of the text; amud bet is its verso and mirrors it. This is the one
+that has the translation, that a phone can render, and that a reader can search.
+
+The two are independent, and the build offers only what each daf actually has: the last daf
+of a tractate has no amud bet of either, and Shekalim, Kinnim and Middot are printed dapim
+that Sefaria has no Bavli text for at all — scan, no text.
 
 ```bash
 python3 build/daftext.py Chullin 108   # one daf into content/daf/Chullin_108.json
 python3 build/daftext.py --all         # whatever content/ is missing
+python3 build/dafpdf.py --all          # check the tractate-name table against shas.org
 ```
 
-**The build never fetches.** It runs on a laptop that is often only briefly awake, and six
-URLs per daf would turn a flaky connection into a broken site; the text of a page printed
-in Vilna in 1886 is also not going to change. So `daftext.py` caches it once under
-`content/daf/` and the build reads what is there. A daf with no cached text simply has no
-Daf tab, and the build says which ones those are and how to fix it. **Run it after writing
-a sheet and before building** — it is a step in `DAILY_PROMPT.md` for that reason.
+**The build never fetches.** It runs on a laptop that is often only briefly awake, and
+eight URLs per daf would turn a flaky connection into a broken site; a page printed in
+Vilna in 1886 is also not going to change. So `daftext.py` caches it once under
+`content/daf/` — the text, and the scan's URL after checking that it answers 200 — and the
+build reads what is there. A daf with nothing cached simply has no Daf tab, and the build
+says which ones those are and how to fix it. **Run it after writing a sheet and before
+building** — it is a step in `DAILY_PROMPT.md` for that reason.
 
-The cache costs about 45 KB per daf, roughly doubling a built page (~65 KB → ~120 KB, or
-~34 KB over the wire once gzipped). Segments are positional: Sefaria numbers Rashi and
-Tosafot to the Gemara segment they comment on, so a row of the layout is one passage with
-its own commentary. A commentary with more segments than the Gemara has its tail folded
-into the last row rather than dropped.
+`dafpdf.py` is only the naming and the check. shas.org wants Ashkenazi spellings, which no
+rule derives from Sefaria's: Ketubot is `kesubos`, Bava Batra is `bava-basra`, Keritot is
+`kereisos`. So it is a table of forty, and `--all` asks the API for the first daf of every
+one of them — run it when a tractate is about to turn over, or after editing the table.
+Its `exists()` reads only 400 and 404 as "no page"; anything else raises, because the first
+version's blanket `except HTTPError: return False` turned a 406 the server was sending to
+*every* request into "no scan exists anywhere in Shas", reported as forty ordinary
+absences. A feature that switches itself off has to be loud about it.
 
-`daf.js` only presents what the build already wrote — the chips that show and hide Rashi,
-Tosafot and the English translation (remembered site-wide), and the folding of the margins
-into collapsible blocks once the columns have stacked on a narrow screen. With no
-JavaScript the whole daf is there, unfolded. The columns are a right-to-left flex row
-rather than a grid, so hiding one hands its width to the others by itself.
+The text cache costs about 45 KB per daf, roughly doubling a built page (~65 KB → ~120 KB,
+or ~34 KB over the wire once gzipped); the scans cost nothing in the repo, since only their
+URL is stored. Segments are positional: Sefaria numbers Rashi and Tosafot to the Gemara
+segment they comment on, so a row of the layout is one passage with its own commentary. A
+commentary with more segments than the Gemara has its tail folded into the last row rather
+than dropped.
 
-Two things the tab has to say for itself. The provenance notice above the tabs would be a
-lie here — this text is not AI-written — so the pair of notices swaps over on a body class
-when the tab opens. And the Gemara and its translation are the William Davidson Talmud,
-which is **CC BY-NC 4.0**: the credit line under the daf is a licence condition, not a
-courtesy. Rashi and Tosafot are the Vilna edition, public domain.
+`daf.js` mostly just reveals what the build already wrote — the mode, the chips that show
+and hide Rashi, Tosafot and the translation (every choice remembered site-wide), and the
+folding of the margins into collapsible blocks once the columns have stacked on a narrow
+screen. Nothing is hidden by the markup itself, so the folding is an addition rather than a
+prerequisite. The columns are a right-to-left flex row rather than a grid, so hiding one
+hands its width to the others by itself.
+
+The one thing it actually *does* is set the scans' `src`, on the first open of the tab and
+never on a page load. Two PDFs of ~140 KB each on every page view, from someone else's
+server, for a tab most readers of a given page never open, would be rude as well as slow.
+The full-size link in each caption works either way, and is the answer on a phone, where a
+whole daf at 390 px is legible to nobody.
+
+Two things the tab has to say for itself. The AI-provenance notices are true of every other
+tab and false of this one, so both the top notice and the footer give way to a source notice
+when it opens. And each mode carries its own credit: the scans are shas.org's, while the
+Gemara and its translation are the William Davidson Talmud, **CC BY-NC 4.0** — that credit
+is a licence condition, not a courtesy. Rashi and Tosafot are the Vilna edition, public
+domain.
 
 ## Read aloud
 

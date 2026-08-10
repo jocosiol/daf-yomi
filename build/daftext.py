@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""The daf itself — fetched from Sefaria once, cached in content/daf/.
+"""The daf itself — fetched once, cached in content/daf/.
 
-The study sheets explain the daf; this is the daf. Gemara, Rashi and Tosafot for
-both amudim, laid out in the Daf tab the way the Vilna page lays them out.
+The study sheets explain the daf; this is the daf. Two things per amud, because
+the Daf tab shows either: the scan of the printed page from shas.org (see
+`dafpdf.py`), and the text — Gemara, Rashi and Tosafot from Sefaria, laid out
+the way the Vilna page lays them out.
 
   python3 build/daftext.py Chullin 108   # fetch one daf into content/daf/
   python3 build/daftext.py --all         # fetch whatever content/ is missing
@@ -23,8 +25,13 @@ Cache shape (content/daf/Chullin_108.json):
      "amudim": [
        {"amud": "a", "ref": "Chullin 108a", "he_ref": "חולין ק״ח.",
         "url": "https://www.sefaria.org/Chullin.108a",
+        "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=108&amud=a",
         "segments": [{"he": "…", "en": "…",
                       "rashi": ["…", "…"], "tosafot": ["…"]}]}]}
+
+`pdf` is null where there is no scan, and only ever set to a URL that answered
+200 when it was written — the check happens here, once, so the built page can
+carry a link that was known good and the build itself can stay offline.
 
 Segments are positional: Sefaria numbers Rashi and Tosafot to the Gemara
 segment they comment on, so `segments[3]` is one passage with its own
@@ -46,6 +53,7 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
+import dafpdf                # noqa: E402
 import sheet as sheet_mod    # noqa: E402
 
 API = "https://www.sefaria.org/api/v3/texts/"
@@ -94,7 +102,8 @@ def get(ref, version=None):
     if version:
         url += "?version=" + urllib.parse.quote(version)
     try:
-        with urllib.request.urlopen(url, timeout=TIMEOUT) as r:
+        req = urllib.request.Request(url, headers=dafpdf.UA)
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
             data = json.load(r)
     except urllib.error.HTTPError as e:
         if e.code in (404, 400):
@@ -167,11 +176,21 @@ def fetch(tractate, page, today=None):
     for amud in ("a", "b"):
         ref = f"{book}.{page}{amud}"
         he, versions["he"], he_ref = get(ref, "hebrew")
-        if not he:
-            continue                      # a tractate that ends on amud alef
-        en, versions["en"], _ = get(ref, "english")
-        rashi, versions["rashi"], _ = get(f"Rashi_on_{ref}")
-        tosafot, versions["tosafot"], _ = get(f"Tosafot_on_{ref}")
+
+        # The scan is a separate question from the text, and either can be the
+        # one that exists: a tractate ends on amud alef, so there is no bet of
+        # anything; while Shekalim, Kinnim and Middot are printed dapim that
+        # Sefaria has no Bavli text for at all. An amud is included if it has
+        # either, and the layout offers whichever it got.
+        pdf = dafpdf.url(tractate, page, amud)
+        if pdf and not dafpdf.exists(pdf):
+            pdf = None
+        if not he and not pdf:
+            continue
+
+        en, versions["en"], _ = get(ref, "english") if he else ([], "", "")
+        rashi, versions["rashi"], _ = get(f"Rashi_on_{ref}") if he else ([], "", "")
+        tosafot, versions["tosafot"], _ = get(f"Tosafot_on_{ref}") if he else ([], "", "")
 
         he, en = as_lines(he), as_lines(en)
         n = len(he)
@@ -182,8 +201,10 @@ def fetch(tractate, page, today=None):
         amudim.append({
             "amud": amud,
             "ref": f"{tractate} {page}{amud}",
-            "he_ref": he_label(he_ref, amud),
+            # No Sefaria text means no Hebrew reference to name it by either.
+            "he_ref": he_label(he_ref, amud) or f"{tractate} {page}{amud}",
             "url": SITE + f"{book}.{page}{amud}",
+            "pdf": pdf,
             "segments": [{
                 "he": sanitize(he[i]),
                 "en": sanitize(en[i]),
@@ -193,7 +214,8 @@ def fetch(tractate, page, today=None):
         })
 
     if not amudim:
-        raise SystemExit(f"Sefaria has no text for {tractate} {page} — check the tractate name")
+        raise SystemExit(f"Neither Sefaria nor shas.org has {tractate} {page} — check the "
+                         f"tractate name against Sefaria, and against SLUG in dafpdf.py")
 
     return {
         "tractate": str(tractate).strip(),
@@ -237,7 +259,8 @@ def counts(data):
     segs = sum(len(a["segments"]) for a in data["amudim"])
     com = sum(len(s[k]) for a in data["amudim"] for s in a["segments"]
               for k in ("rashi", "tosafot"))
-    return segs, com
+    scans = sum(1 for a in data["amudim"] if a.get("pdf"))
+    return segs, com, scans
 
 
 def main():
@@ -268,8 +291,8 @@ def main():
     for tractate, page, slug in todo:
         data = fetch(tractate, page)
         p = save(args.content, slug, data)
-        segs, com = counts(data)
-        print(f"{slug}: {len(data['amudim'])} amud, {segs} segments, "
+        segs, com, scans = counts(data)
+        print(f"{slug}: {len(data['amudim'])} amud, {scans} scan(s), {segs} segments, "
               f"{com} comments -> {os.path.relpath(p, REPO)}")
 
     left = len(wanted) - len(todo)

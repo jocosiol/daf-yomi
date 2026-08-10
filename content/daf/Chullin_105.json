@@ -14,6 +14,7 @@
    "ref": "Chullin 105a",
    "he_ref": "חולין ק״ה.",
    "url": "https://www.sefaria.org/Chullin.105a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=105&amud=a",
    "segments": [
     {
      "he": "אִילֵּימָא בֵּית שַׁמַּאי אוֹמְרִים: מְקַנֵּחַ וְלָא בָּעֵי מֵדִיחַ, וּבֵית הִלֵּל אוֹמְרִים: מֵדִיחַ וְלָא בָּעֵי מְקַנֵּחַ. אֶלָּא הָא דְּאָמַר רַבִּי זֵירָא: אֵין קִינּוּחַ פֶּה אֶלָּא בְּפַת, כְּמַאן? כְּבֵית שַׁמַּאי!",
@@ -181,6 +182,7 @@
    "ref": "Chullin 105b",
    "he_ref": "חולין ק״ה:",
    "url": "https://www.sefaria.org/Chullin.105b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=105&amud=b",
    "segments": [
     {
      "he": "סוֹלֶדֶת בָּהֶן, אֲבָל הַיָּד סוֹלֶדֶת בָּהֶן אֵין נוֹטְלִין בָּהֶן.",

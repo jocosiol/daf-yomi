@@ -1,37 +1,54 @@
-/* The Daf tab — what is shown of the page, and how it folds on a phone.
+/* The Daf tab — which reading of the page is showing, and how it folds.
 
-   Everything here is presentation of markup the build already wrote: the daf,
-   its Rashi and its Tosafot are in the HTML whether or not this file loads. So
-   with no JavaScript you get the whole page, unfolded — never a blank tab.
+   Almost everything here is presentation of markup the build already wrote: the
+   daf, its Rashi and its Tosafot are all in the HTML whether or not this file
+   loads, so nothing is hidden by the markup itself.
 
-   Two jobs:
+   Three jobs:
 
-   1. The chips. Rashi, Tosafot and the English translation each toggle a class
-      on the #daf section, and the choice is remembered site-wide — someone who
-      reads without Tosafot wants that tomorrow too.
+   1. The mode. The scan of the printed page, or the text laid out in columns.
+      Both are in the page; a class on #daf decides which one is on screen.
 
-   2. Folding. Below the breakpoint the three columns have stacked, and a daf
-      of Gemara followed by every word of both commentaries is a very long
+   2. The chips. Rashi, Tosafot and the English translation each toggle a class
+      too, and every choice is remembered site-wide — someone who reads without
+      Tosafot wants that tomorrow too.
+
+   3. Folding. Below the breakpoint the three text columns have stacked, and a
+      daf of Gemara followed by every word of both commentaries is a very long
       scroll. There the commentary blocks collapse behind their heading. That is
-      done here rather than in the markup so that the no-JS page stays whole. */
+      done here rather than in the markup so the page never ships content the
+      reader cannot get at.
+
+   The one thing it does rather than merely reveal is load the scans: two PDFs of
+   ~140 KB each, from someone else's server, so their `src` is set the first time
+   this tab is opened and never on a page load. */
 (function () {
   var root = document.getElementById("daf");
   if (!root) return;
 
-  var KEY = "dafView";                 // {rashi:bool, tosafot:bool, en:bool}
+  var KEY = "dafView";      // {mode:"scan"|"text", rashi, tosafot, en}
   var NARROW = window.matchMedia("(max-width: 860px)");
   var chips = [].slice.call(root.querySelectorAll(".chip[data-daf]"));
+  var modes = [].slice.call(root.querySelectorAll(".chip[data-mode]"));
 
   /* ---- what is shown ---------------------------------------------------- */
-  var state = { rashi: true, tosafot: true, en: false };
+  /* The build decided which modes this daf has and marked one of them on the
+     section; a remembered preference for a mode the daf does not have — a
+     Shekalim daf has no text — is ignored rather than obeyed into a blank tab. */
+  var state = { mode: root.classList.contains("mode-scan") ? "scan" : "text",
+                rashi: true, tosafot: true, en: false };
+  var offered = modes.map(function (m) { return m.dataset.mode; });
   try {
     var stored = JSON.parse(localStorage.getItem(KEY) || "{}");
     Object.keys(state).forEach(function (k) {
-      if (typeof stored[k] === "boolean") state[k] = stored[k];
+      if (typeof stored[k] === typeof state[k]) state[k] = stored[k];
     });
+    if (offered.indexOf(state.mode) < 0) state.mode = offered[0] || state.mode;
   } catch (e) {}
 
   function paint() {
+    root.classList.toggle("mode-scan", state.mode === "scan");
+    root.classList.toggle("mode-text", state.mode !== "scan");
     root.classList.toggle("hide-rashi", !state.rashi);
     root.classList.toggle("hide-tosafot", !state.tosafot);
     root.classList.toggle("show-en", state.en);
@@ -40,16 +57,45 @@
       c.classList.toggle("on", on);
       c.setAttribute("aria-pressed", on ? "true" : "false");
     });
+    modes.forEach(function (m) {
+      var on = m.dataset.mode === state.mode;
+      m.classList.toggle("on", on);
+      m.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    if (state.mode === "scan") loadScans();
+  }
+
+  function remember() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
   }
 
   chips.forEach(function (c) {
     c.addEventListener("click", function () {
-      var k = c.dataset.daf;
-      state[k] = !state[k];
+      state[c.dataset.daf] = !state[c.dataset.daf];
       paint();
-      try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+      remember();
     });
   });
+
+  modes.forEach(function (m) {
+    m.addEventListener("click", function () {
+      state.mode = m.dataset.mode;
+      paint();
+      remember();
+    });
+  });
+
+  /* ---- the scans -------------------------------------------------------- */
+  /* Not on page load, and not while the tab is shut: a reader who never opens
+     this tab should never cost shas.org a request. */
+  function loadScans() {
+    if (!root.classList.contains("active")) return;
+    root.querySelectorAll("iframe[data-src]").forEach(function (f) {
+      f.src = f.dataset.src;
+      f.removeAttribute("data-src");
+    });
+  }
+
   paint();
 
   /* ---- folding on a narrow screen -------------------------------------- */
@@ -90,5 +136,6 @@
      each view. tabs.js announces the switch. */
   document.addEventListener("dafview", function (e) {
     document.body.classList.toggle("view-daf", e.detail.view === "daf");
+    if (e.detail.view === "daf" && state.mode === "scan") loadScans();
   });
 })();

@@ -116,7 +116,50 @@
     </div>
   {% endmacro %}
 
-  <section class="view" id="daf" role="tabpanel">
+  {# Two ways to read it, and which exist is decided per daf. The scan is the
+     printed page itself and is what opens by default; the text layout is
+     searchable, has the translation, and is the one that works on a phone. #}
+  <section class="view {% if daf.has_scan %}mode-scan{% else %}mode-text{% endif %}"
+           id="daf" role="tabpanel">
+    {% if daf.has_scan and daf.has_text %}
+    <div class="daf-modes" role="group">
+      <button class="chip mode on" type="button" data-mode="scan" aria-pressed="true">📄&nbsp;
+        {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_mode_scan }}</span>{% endfor -%}
+      </button>
+      <button class="chip mode" type="button" data-mode="text" aria-pressed="false">🔤&nbsp;
+        {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_mode_text }}</span>{% endfor -%}
+      </button>
+    </div>
+    {% endif %}
+
+    {% if daf.has_scan %}
+    <p class="daf-intro for-scan">
+    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_intro_scan }}</span>{% endfor -%}
+    </p>
+    <div class="daf-scan">
+      {% for a in daf.amudim %}
+      {% if a.pdf %}
+      <figure class="scan">
+        <figcaption>
+          <span lang="he" dir="rtl">{{ a.he_ref }}</span>
+          <a href="{{ a.pdf }}" target="_blank" rel="noopener">
+          {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_open_pdf }}</span>{% endfor -%}
+          </a>
+        </figcaption>
+        {# src is set by daf.js the first time this tab is opened. A daf is two
+           PDFs of about 140 KB each, and most readers of a given page never open
+           this tab — fetching them from someone else's server on every page load
+           would be rude as well as slow. The link above works regardless. #}
+        <iframe data-src="{{ a.pdf }}#view=FitH&amp;zoom=page-width&amp;toolbar=0&amp;navpanes=0"
+                title="{{ a.ref }}" loading="lazy"></iframe>
+      </figure>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if daf.has_text %}
+    <div class="daf-text">
     <p class="daf-intro">
     {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_intro }}</span>{% endfor -%}
     </p>
@@ -161,10 +204,21 @@
       {% endfor %}
     </article>
     {% endfor %}
+    </div>
+    {% endif %}
 
-    <p class="daf-credit">
+    {# One credit per source, each shown with the mode it belongs to. The
+       Davidson licence requires its own. #}
+    {% if daf.has_scan %}
+    <p class="daf-credit for-scan">
+    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_credit_scan|safe }}</span>{% endfor -%}
+    </p>
+    {% endif %}
+    {% if daf.has_text %}
+    <p class="daf-credit for-text">
     {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf_credit|safe }}</span>{% endfor -%}
     </p>
+    {% endif %}
   </section>
   {% endif %}
 

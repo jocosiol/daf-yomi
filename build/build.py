@@ -122,11 +122,13 @@ def cards_payload(s):
 
 
 def daf_payload(data):
-    """A cached daf, plus what the Daf tab's chips should offer.
+    """A cached daf, plus what the Daf tab should actually offer.
 
-    A tractate with no Tosafot must not be given a Tosafot switch, and there is
-    nothing to translate on a daf Sefaria has not translated — so the toolbar is
-    built from what the text actually contains, not from a fixed list.
+    Every control is built from what the daf turned out to have rather than from
+    a fixed list: a tractate with no Tosafot must not be given a Tosafot switch,
+    there is nothing to translate on a daf Sefaria has not translated, and the
+    two modes are independent — Shekalim has a printed page and no Bavli text on
+    Sefaria, and the last daf of a tractate has no amud bet of either.
     """
     if not data:
         return None
@@ -134,7 +136,9 @@ def daf_payload(data):
     return dict(data,
                 has_rashi=any(s["rashi"] for s in segments),
                 has_tosafot=any(s["tosafot"] for s in segments),
-                has_en=any(s["en"] for s in segments))
+                has_en=any(s["en"] for s in segments),
+                has_text=bool(segments),
+                has_scan=any(a.get("pdf") for a in data["amudim"]))
 
 
 def with_deck_cta(body_md, lang):

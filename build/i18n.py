@@ -40,14 +40,24 @@ UI = {
         "tip": "Tip: press keys 1–4 to answer, Enter for next.",
         "cards_tip": "Tip: space flips the card, ← → move, 1 / 2 rate it.",
         "daf": "The Daf",
-        "daf_intro": "The daf itself, laid out as it is printed: the Gemara in the middle, "
-                     "Rashi on the inner margin and Tosafot on the outer one. Nothing here "
-                     "was written by us.",
+        "daf_mode_scan": "Printed page",
+        "daf_mode_text": "Text",
+        "daf_intro_scan": "The Vilna daf itself, scanned — Gemara in the middle, Rashi and "
+                          "Tosafot in the margins, Mesoras HaShas and Ein Mishpat down the "
+                          "sides. Pinch or open it full size to read it comfortably; the text "
+                          "version has the translation and is easier on a phone.",
+        "daf_intro": "The daf laid out as it is printed: the Gemara in the middle, Rashi on "
+                     "the inner margin and Tosafot on the outer one. Nothing here was written "
+                     "by us.",
         "daf_show": "Show",
         "daf_en": "English",
         "daf_sefaria": "Open on Sefaria",
-        "daf_note": "This is the text of the daf itself — the Vilna Gemara with Rashi and "
-                    "Tosafot, from Sefaria. It is not AI-written.",
+        "daf_open_pdf": "Open full size",
+        "daf_note": "This is the daf itself — the Vilna page, not our writing. "
+                    "It is not AI-generated.",
+        "daf_credit_scan": 'Page scans of the Vilna Shas served by '
+                           '<a href="https://www.shas.org" target="_blank" '
+                           'rel="noopener">shas.org</a>, one PDF per amud.',
         "daf_credit": 'Text from <a href="https://www.sefaria.org" target="_blank" '
                       'rel="noopener">Sefaria</a>. Gemara and translation from the William '
                       'Davidson Talmud, with commentary by Rabbi Adin Even-Israel Steinsaltz, '
@@ -83,14 +93,25 @@ UI = {
         "tip": "Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.",
         "cards_tip": "Consejo: la barra espaciadora gira la tarjeta, ← → navegan, 1 / 2 califican.",
         "daf": "El Daf",
-        "daf_intro": "El daf mismo, con la disposición de la página impresa: la Guemará en el "
-                     "centro, Rashi en el margen interior y Tosafot en el exterior. Nada de "
-                     "esto fue escrito por nosotros.",
+        "daf_mode_scan": "Página impresa",
+        "daf_mode_text": "Texto",
+        "daf_intro_scan": "El daf de Vilna mismo, escaneado — la Guemará en el centro, Rashi y "
+                          "Tosafot en los márgenes, Masoret HaShas y Ein Mishpat a los lados. "
+                          "Amplía la imagen o ábrela a tamaño completo para leerla con "
+                          "comodidad; la versión en texto trae la traducción y se lee mejor en "
+                          "el teléfono.",
+        "daf_intro": "El daf con la disposición de la página impresa: la Guemará en el centro, "
+                     "Rashi en el margen interior y Tosafot en el exterior. Nada de esto fue "
+                     "escrito por nosotros.",
         "daf_show": "Mostrar",
         "daf_en": "Inglés",
         "daf_sefaria": "Abrir en Sefaria",
-        "daf_note": "Este es el texto del daf mismo — la Guemará de Vilna con Rashi y Tosafot, "
-                    "tomada de Sefaria. No está escrito por IA.",
+        "daf_open_pdf": "Abrir a tamaño completo",
+        "daf_note": "Este es el daf mismo — la página de Vilna, no nuestra redacción. "
+                    "No está generado por IA.",
+        "daf_credit_scan": 'Escaneos del Shas de Vilna servidos por '
+                           '<a href="https://www.shas.org" target="_blank" '
+                           'rel="noopener">shas.org</a>, un PDF por amud.',
         "daf_credit": 'Texto de <a href="https://www.sefaria.org" target="_blank" '
                       'rel="noopener">Sefaria</a>. La Guemará y su traducción provienen del '
                       'Talmud William Davidson, con comentario del rabino Adin Even-Israel '
