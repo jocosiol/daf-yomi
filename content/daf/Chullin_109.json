@@ -1,0 +1,258 @@
+{
+ "tractate": "Chullin",
+ "page": 109,
+ "fetched": "2026-08-11",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 109a",
+   "he_ref": "חולין ק״ט.",
+   "url": "https://www.sefaria.org/Chullin.109a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=109&amud=a",
+   "segments": [
+    {
+     "he": "מִכְּלָל דְּרַבִּי יְהוּדָה סָבַר: כִּי נִיעֵר מִתְּחִלָּה וְעַד סוֹף וְכִסָּה מִתְּחִלָּה וְעַד סוֹף – אָסוּר, אַמַּאי? הָא לָא בָּלַע כְּלָל!",
+     "en": "The Gemara objects: From Rabbi Yehuda HaNasi’s acceptance of Rabbi Yehuda’s opinion only when one did not stir or cover the pot, one can conclude <b>by inference that Rabbi Yehuda</b> himself <b>maintains</b> that even <b>when one stirred</b> the contents of the pot continuously <b>from beginning to end,</b> i.e., before and after the drop of milk was absorbed, <b>or covered</b> the pot continuously <b>from beginning to end,</b> all the contents of the pot are <b>prohibited.</b> But <b>why</b> should this be so? The first piece of meat <b>did not absorb any</b> more milk than the others. Since the milk definitely diffused evenly through the pot immediately, it should be nullified, assuming that the pot’s contents amount to more than sixty times the milk.",
+     "rashi": [
+      "<b>ופרכינן מכלל דר' יהודה סבר כי ניער כו'</b> — נמי אסירי דמדקאמר רואה אני דברי ר' יהודה בשלא ניער בתחלה אבל איני רואה את מה שהוא אוסר אף בשניער מכלל דאיהו אף בשניער אסר מדלא קתני אמר רבי לא אמר ר' יהודה אלא בשלא ניער:",
+      "<b>הא לא בלעה</b> — חתיכה ראשונה יותר מן האחרונה ובטיפה הזאת אין שיעור לאסור את כולן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֵימָא: לֹא נִיעֵר יָפֶה יָפֶה, וְלֹא כִּסָּה יָפֶה יָפֶה.",
+     "en": "The Gemara responds: <b>Say</b> that Rabbi Yehuda is stringent because one might <b>not</b> have <b>stirred thoroughly, or</b> he might <b>not</b> have <b>covered</b> the pot <b>thoroughly,</b> and therefore initially the milk might have been absorbed only by the first piece, rendering it prohibited. Afterward, when he does stir thoroughly, that piece of meat renders the other pieces prohibited. Rabbi Yehuda HaNasi does not share this concern.",
+     "rashi": [
+      "<b>שמא לא ניער תחלה יפה</b> — ובלעה ואח\"כ פלטה כשניער בסוף ובהא גזירה לא סבר לה רבי כוותיה אבל בדאפשר לסוחטו אסור ובמין במינו לא בטיל סבר לה כוותיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר מָר, וְדִבְרֵי חֲכָמִים כְּשֶׁנִּיעֵר וְכִסָּה. מַאי ״נִיעֵר״ וּמַאי ״כִּסָּה״? אִילֵּימָא נִיעֵר בַּסּוֹף וְלֹא נִיעֵר בַּתְּחִלָּה, וְכִסָּה בַּסּוֹף וְלֹא כִּסָּה בַּתְּחִלָּה – הָאָמְרַתְּ נִרְאִין דִּבְרֵי רַבִּי יְהוּדָה בְּהָא! אֶלָּא נִיעֵר מִתְּחִלָּה וְעַד סוֹף, וְכִסָּה מִתְּחִלָּה וְעַד סוֹף.",
+     "en": "§ The Gemara returns to Rabbi Yehuda HaNasi’s statement: <b>The Master said</b> above: <b>And the statement of the Rabbis</b> appears correct in a case <b>where one stirred</b> the pot <b>and covered</b> it. The Gemara asks: <b>What</b> is the meaning of the term: <b>Stirred, and what</b> is the meaning of the term: <b>Covered? If we say</b> that he <b>stirred at the end,</b> after the first piece absorbed the milk, <b>and did not stir at the beginning,</b> beforehand, <b>and</b> likewise he <b>covered at the end and did not cover at the beginning,</b> one may respond: <b>Didn’t you</b> already <b>say</b> on the previous <i>amud</i> that <b>the statement of Rabbi Yehuda appears</b> to be correct <b>in this</b> case? <b>Rather,</b> it must be a case where he <b>stirred</b> continuously <b>from beginning to end or covered</b> the pot continuously <b>from beginning to end.</b>",
+     "rashi": [
+      "<b>אמר מר ודברי חכמים</b> — המתירין את הכל נראין לרבי כשניער אבל בשלא ניער לא נראה לו מכלל דהם מתירין אף בשלא ניער:",
+      "<b>ומאי ניער</b> — דקאמר רבי:",
+      "<b>אילימא ניער בסוף ולא בתחלה</b> — דאע\"ג דקבלה את הטעם קאמר רבי דרואה הוא את דברי המתירין הואיל וניער בסוף וחזר ונסחט דקסבר אפשר לסוחטו מותר האמרת נראין דברי ר' יהודה בהא:",
+      "<b>ניער מתחלה ועד סוף</b> — ראה את דברי המתירין בזו דכיון דפשט מתחלה הטעם בכולה קדרה ואין בה כדי לאסור את כולה מותר ולא ראה דברי ר' יהודה החושש שמא לא ניער יפה יפה:"
+     ],
+     "tosafot": [
+      "<b>ודברי חכמים כשניער מאי ניער אילימא ניער בסוף ולא בתחלה</b> — ה\"מ למיפרך מכלל דלרבנן אפילו לא ניער כלל מבלע בלע מיפלט לא פליט אלא דפריך טפי שפיר:"
+     ]
+    },
+    {
+     "he": "מִכְּלָל דְּרַבָּנַן סָבְרִי: נִיעֵר בַּסּוֹף וְלֹא נִיעֵר בַּתְּחִלָּה, כִּסָּה בַּסּוֹף וְלֹא כִּסָּה בַּתְּחִלָּה – מוּתָּר.",
+     "en": "If so, one can conclude <b>by inference</b> from Rabbi Yehuda HaNasi’s qualified acceptance of the Rabbis’ opinion <b>that the Rabbis</b> themselves <b>maintain</b> that even when one <b>stirred</b> only <b>at the end and did not stir at the beginning,</b> and similarly if he <b>covered</b> the pot only <b>at the end and did not cover at the beginning,</b> all the contents of the pot are <b>permitted.</b> Even the first piece is permitted, as they hold that the milk it absorbed diffused out of it and throughout the pot.",
+     "rashi": [
+      "<b>מכלל דרבנן סברי כו'</b> — מדקאמר רואה אני את דבריהם בשניער בתחלה ואין אני רואה את דבריהם מה שהתירו בשלא ניער מתחלה והן מתירין אותו בניעור שבסוף ומשום סחיטה מכלל דקסברי אפשר לסוחטו מותר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַלְמָא קָסָבְרִי אֶפְשָׁר לְסוֹחֳטוֹ מוּתָּר.",
+     "en": "<b>Evidently,</b> the Rabbis <b>maintain</b> that an item <b>that can be wrung</b> to remove the forbidden substance is <b>permitted.</b> This illustrates that <i>tanna’im</i> dispute this issue, as according to Rabbi Yehuda and Rabbi Yehuda HaNasi, an item that can be wrung to remove the forbidden substance is prohibited.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַב אַחָא מִדִּיפְתִּי לְרָבִינָא: מִמַּאי דִּבְאֶפְשָׁר לְסוֹחֳטוֹ פְּלִיגִי? דִּלְמָא אֶפְשָׁר לְסוֹחֳטוֹ דִּבְרֵי הַכֹּל אָסוּר, וְהָכָא בְּמִין בְּמִינוֹ קָא מִיפַּלְגִי, וְרַבִּי יְהוּדָה לְטַעְמֵיהּ דְּאָמַר: מִין בְּמִינוֹ לֹא בָּטֵיל, וְרַבָּנַן לְטַעְמַיְיהוּ דְּאָמְרִי: מִין בְּמִינוֹ בָּטֵיל!",
+     "en": "<b>Rav Aḥa of Difti said to Ravina: From where</b> is it derived <b>that</b> Rabbi Yehuda and the Rabbis <b>disagree with regard to</b> an item <b>that can be wrung? Perhaps</b> even if an item <b>can be wrung, everyone agrees</b> that it remains <b>prohibited, and here they disagree with regard to</b> whether <b>a type</b> of food mixed <b>with</b> food of <b>its</b> own <b>type</b> can be nullified. <b>And Rabbi Yehuda</b> conforms <b>to his</b> standard line of <b>reasoning, as he said</b> that <b>a type</b> of food mixed <b>with</b> food of <b>its</b> own <b>type cannot be nullified. And</b> likewise, <b>the Rabbis</b> conform <b>to their</b> standard line of <b>reasoning, as they said</b> that <b>a type</b> of food mixed <b>with</b> food of <b>its</b> own <b>type can be nullified.</b> This is why they maintain that all the meat in the pot is permitted.",
+     "rashi": [
+      "<b>וממאי דבאפשר לסוחטו פליגי</b> — והאי עד שתתן דקאמרי רבנן אטיפה קאי ושרי אף החתיכה דילמא חתיכה קמייתא ודאי אסירא ואסיפא דמילתיה דרבי יהודה דאסר את השאר אפילו הן אלף מפני שהן מינה פליגי רבנן ואמרי לעולם אין חתיכה זו אוסרת את השאר עד שיהא בחתיכה כדי לתת טעם בכולן דמין במינו נמי בטיל ורבי הכי קאמר רואה אני את דברי רבי יהודה לאסור אף בשאר החתיכות בשלא ניער בתחלה וקבלה טעם האיסור ונעשת איסור אלא בסוף וחזרה ופלטה באחרות ומין במינו לא בטיל ואין אני רואה דבריו בשניער בתחלה דהא לא נעשת איסור ולשמא לא ניער יפה לא חיישינן ורואה אני את דברי המתירין כשניער בתחלה כדפרישית דלא נעשת איסור ולשמא לא ניער לא חיישינן ואין אני רואה היתר אפילו באחרות בשלא ניער בתחלה אלא בסוף דנעשת איסור מתחלה ואוסרת בסוף את חברותיה במשהו דמין במינו לא בטיל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הַאי מַאי? אִי אָמְרַתְּ בִּשְׁלָמָא דְּרַבָּנַן בְּמִין בְּמִינוֹ הָכָא כְּרַבִּי יְהוּדָה סְבִירָא לְהוּ, וּבְאֶפְשָׁר לְסוֹחֳטוֹ פְּלִיגִי – הַיְינוּ דְּקָאָמַר רַבִּי: נִרְאִין דִּבְרֵי רַבִּי יְהוּדָה בְּהָא, וְדִבְרֵי חֲכָמִים בְּהָא.",
+     "en": "Ravina responded: <b>What is this</b> reasoning? <b>Granted, if you say that the Rabbis here hold in accordance with</b> the opinion of <b>Rabbi Yehuda with regard to</b> the issue of <b>a type</b> of food mixed <b>with</b> food of <b>its</b> own <b>type, and they disagree with regard to</b> an item <b>that can be wrung, that is</b> why <b>Rabbi</b> Yehuda HaNasi <b>says: The statement of Rabbi Yehuda appears</b> to be correct <b>in this</b> case, when one did not initially stir or cover the pot, <b>and the statement of the Rabbis</b> appears to be correct <b>in that</b> case, when one did initially stir or cover it, since the issue of when one stirred or covered the pot is relevant to the dispute, as explained above.",
+     "rashi": [
+      "<b>האי מאי אי אמרת בשלמא במין במינו</b> — כולם מודים דלא בטיל ובחתיכה קמייתא שרו רבנן משום דאפשר לסוחטו מותר ועד שתתן דקתני אטיפה קאי:",
+      "<b>היינו</b> — דשייך למימר נראין דברי חכמים המתירין בשניער בתחלה דלא בלעה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא אִי אָמְרַתְּ: אֶפְשָׁר לְסוֹחֳטוֹ דִּבְרֵי הַכֹּל אָסוּר, וְהָכָא בְּמִין בְּמִינוֹ קָמִיפַּלְגִי – הַאי נִרְאִין דִּבְרֵי רַבִּי יְהוּדָה וְאֵין נִרְאִין מִבְּעֵי לֵיהּ, וְתוּ לָא מִידִּי.",
+     "en": "<b>But if you say: Everyone agrees</b> that an item <b>that can be wrung is prohibited, and here they disagree</b> only <b>with regard to a type</b> of food mixed <b>with</b> food of <b>its</b> own <b>type,</b> Rabbi Yehuda HaNasi should not phrase his statement as a qualified acceptance of both opinions, which seems arbitrary. Rather, <b>he should have</b> said <b>this:</b> I accept that a type of food is not nullified by a food of its own type. Therefore, <b>the statement of Rabbi Yehuda appears</b> correct where one did not stir initially, as the flavor of the prohibited first piece cannot be nullified; <b>but</b> it <b>does not appear</b> correct where one stirred immediately, since in that case, even the first piece is not prohibited, and I do not share Rabbi Yehuda’s concern that perhaps one did not stir thoroughly. <b>And nothing more</b> need be said.",
+     "rashi": [
+      "<b>אלא אי אמרת אפשר לסוחטו לרבנן נמי אסור</b> — והאי דקשרו רבנן בין שניער בתחלה ובין שלא ניער בתחלה אשארא הוא דקשרו ומשום דמין במינו בטל ועד שתתן דקתני אחתיכה קאי היכי מצי רבי למיתני נראין דברי חכמים בשניער והא רבנן נמי אסרי לה לחתיכה דאית להו גזרה שמא לא ניער יפה יפה ורבי מדתלי טעמא דהיתרא בשניער מכלל דשרי אף בקמייתא משום דלא בלעה ואין נראין לו בה לא דברי רבי יהודה האוסר בכולן ולא דברי חכמים המתירין באחרות ואוסרין מיהא בראשונה ואם בא רבי להשמיענו דמין במינו לא בטיל ועוד דלא חיישינן לשמא לא ניער יפה הכי איבעי ליה למיתני נראין דברי רבי יהודה שאוסר בכולן בשלא ניער בתחלה אלא ניער בסוף דכיון שקבלה הטעם ונאסרה אוסרת חברותיה בכל שהוא דמין במינו לא בטיל ואין נראין דבריו כשניער דאיהו חושש לשמא לא ניער יפה ואוסרת כולן דכיון דניער לא חיישינן להכי ואף הראשונה מותרת ומדקאמר נראין דברי חכמים מכלל דרבנן בקמייתא נמי שרו ועד שתתן אטיפה קאי וקסברי אפשר לסוחטו מותר ולא נעשית החתיכה נבלה:",
+      "<b>ותו לא מידי</b> — אין לשנות את הסוגיא. והשתא דקם ליה רבי בשיטתיה דר' יהודה דאפשר לסוחטו אסור ורב ורבי יוחנן ורבי חנינא נמי כוותיה סברי אע\"ג דאיפליגו עלייהו שמואל ור\"ל הא אמרינן שמואל באיסורי במקום רב ליתא וכן לגבי רבי יוחנן ליתא ועבדינן כרבי יהודה בין בטיפת חלב שנפל על החתיכה ולא ניער ויש בה כדי ליתן טעם באותה חתיכה ובין בחלב הדבוק בחתיכת בשר ויש בו ליתן טעם בה ואפילו אין בו כזית דהוי חצי שיעור אסור מן התורה והחתיכה עצמה נעשית נבלה ואין מועילין שאר החתיכות לבטלה דכולן נאסרות ואפילו הן אלף דבהא נמי קיימא לן כרבי יהודה דמין במינו לא בטיל דהא קם ליה רבי בשיטתיה ורב ושמואל נמי בשיטתיה קיימי דרב ושמואל דאמרי תרוייהו כל איסורין שבתורה במינו במשהו ותניא כותייהו במסכת עבודה זרה (דף עג:) ואע\"ג דאיפלוג עלייהו רבי יוחנן ור\"ל התם ותניא נמי כוותייהו שמעינן לאביי ורבא דבתראי הוו דקמו כרב ושמואל דאיתמר חלא לגו חמרא כו' במסכת עבודה זרה (דף סו.) ובפסחים (דף ל.) נמי פסק רבא הלכתא כרב דמין במינו במשהו דאמר רבא הלכתא חמץ בזמנו בין במינו בין שלא במינו במשהו ומפרשינן טעמא במינו במשהו רב לטעמיה דאמר כל איסורין שבתורה במינו במשהו ובשלא במינו גזר רב בחמץ אטו מינו משום דלא בדילי אינשי מיניה ואתו לזלזולי ביה שמע מינה בתרוייהו הלכה כר' יהודה בין באפשר לסוחטו אסור וכולה נעשית נבלה בין במין במינו לא בטיל אבל אם יש ברוטב לבדו יותר מששים בכל החתיכה שקבלה את הטעם הרוטב מבטלה ומשליכה וכולן מותרות דבהא אפי' רבי יהודה מודי דכל מין ומינו ודבר אחר סלק את מינו כמי שאינו ושאינו מינו רבה עליו ומבטלו. ואית ספרים דמתניא בהו איפכא אמר רבי נראין דברי רבי יהודה בשניער וכסה כו' ולא אפשר לאוקמא דא\"כ כולהו מודו בקמייתא דאסירא דכיון דמוקי פלוגתייהו נמי בשלא ניער כלל א\"כ על כרחך לרבנן נמי קמייתא אסורה דהא בלע ולא פלט ואין כאן מחלוקת אלא באחרונות ולא איירי באפשר לסוחטו מידי הילכך לא גרסינן לה:"
+     ],
+     "tosafot": [
+      "<b>נראין דברי ר' יהודה ואין נראין מבעיא ליה</b> — תימה לימא דכ\"ע מין במינו לא בטיל וה\"ק נראין דברי ר' יהודה לחכמים בשלא ניער בתחלה אלא בסוף שחכמים לא נחלקו עליו אלא כשניער מתחלה ועד סוף דכי האי גוונא משני לעיל בפרק קמא (חולין דף יב.) גבי אבדו לו גדייו ותרנגוליו ובפרק המוכר את הספינה (ב\"ב דף עט.) גבי בור ושובך ובכמה דוכתין ויש לומר דלא קאמר אלא היכא דלא אפשר ליה למימר בענין אחר:"
+     ]
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> הַכְּחָל – קוֹרְעוֹ וּמוֹצִיא אֶת חֶלְבּוֹ. לֹא קְרָעוֹ – אֵינוֹ עוֹבֵר עָלָיו. הַלֵּב – קוֹרְעוֹ וּמוֹצִיא אֶת דָּמוֹ, לֹא קְרָעוֹ – אֵינוֹ עוֹבֵר עָלָיו.",
+     "en": "<strong>MISHNA:</strong> One who wants to eat <b>the udder</b> of a slaughtered animal <b>tears it and removes its milk,</b> and only then is it permitted to cook it. If <b>he did not tear</b> the udder before cooking it, <b>he does not violate</b> the prohibition against cooking and eating meat and milk and does not receive lashes <b>for it,</b> as the halakhic status of the milk in the udder is not that of milk. One who wants to eat <b>the heart</b> of a slaughtered animal <b>tears it and removes its blood,</b> and only then may he cook and eat it. If <b>he did not tear</b> the heart before cooking and eating it, <b>he does not violate</b> the prohibition against consuming blood and is not liable to receive <i>karet</i> <b>for it.</b>",
+     "rashi": [
+      "<b>מתני' לא קרעו אינו עובר</b> — על אכילתו ללקות ולא על בשולו דלאו חלב מקרי. ובגמרא מפרש אי איכא מיהא איסורא דרבנן או לא:",
+      "<b>הלב קורעו ומוציא את דמו לא קרעו אינו עובר עליו</b> — להיות בכרת ובמס' כריתות (דף כב.) מוקים לה בלב עוף שאין בדמו כזית אבל בבהמה חייב כרת אם לא קרעו לאחר בשולו אבל בשרו אינו נאסר שהלב חלק הוא ואינו בולע והכי נמי אמרינן בפסחים (דף עד:) שאני לב דשיע:"
+     ],
+     "tosafot": [
+      "<b>הלב קורעו ומוציא את דמו לא קרעו אינו עובר עליו</b> — פירש בקונטרס במס' כריתות (דף כב.) מוקי לה בלב עוף דאין בדמו כזית אבל בבהמה חייב כרת אם לא קרעו לאחר בשולו ואי אפשר לומר כן דבהדיא אמרינן בהקומץ רבה (מנחות דף כא.) דדם שבשלו אינו עובר עליו אם אכלו והא דמוקי לה בפ' דם שחיטה (כריתות דף כב.) בלב עוף משום דבכל ענין קתני מתניתין דאינו עובר עליו בין חי בין מבושל ומה שפירש בקונטרס דבשר הלב אינו נאסר שהלב חלק הוא ואינו בולע דהכי אמרינן בפסחים (דף עד:) שאני לב דשיע אומר ר\"ת דאין לסמוך על זה לעשות מעשה דדחייה בעלמא הוא בפ' כיצד צולין (פסחים דף עד:) דהוה בעי למיפשט מיניה דאמרינן כבולעו כך פולטו מדקתני קורעו לאחר בשולו ודחי שאני לב דשיע אבל למאי דמסיק דכבולעו כך פולטו תו לא אמרי' דשיע ולא בלע וקורעו לאחר בשולו היינו לאחר צלייתו דשייך ביה כבולעו כך פולטו שהדם נופל לחוץ אבל בקדרה אסור ולא אמרינן דשיע ולא בלע:"
+     ]
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 109b",
+   "he_ref": "חולין ק״ט:",
+   "url": "https://www.sefaria.org/Chullin.109b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=109&amud=b",
+   "segments": [
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> אָמַר רַבִּי זֵירָא אָמַר רַב: אֵינוֹ עוֹבֵר עָלָיו וּמוּתָּר. וְהָא אֲנַן תְּנַן אֵינוֹ עוֹבֵר עָלָיו – מִיעְבָּר הוּא דְּלָא עָבַר, הָא אִיסּוּרָא אִיכָּא!",
+     "en": "<strong>GEMARA:</strong> The mishna teaches that if one did not tear the udder of a slaughtered animal before cooking it he does not violate the biblical prohibition against eating meat and milk. <b>Rabbi Zeira says</b> that <b>Rav says: He does not violate</b> the prohibition, <b>and</b> it is altogether <b>permitted</b> to eat the cooked product <i>ab initio</i>. The Gemara objects: <b>But didn’t we learn</b> in the mishna: <b>He does not violate</b> the prohibition, i.e., he is not held liable after the fact. One can infer from here as follows: <b>He does not violate</b> a prohibition by Torah law, <b>but there is</b> nevertheless <b>a prohibition</b> <i>ab initio</i> by rabbinic law.",
+     "rashi": [
+      "<b>אמר רב אינו עובר עליו</b> — מדאורייתא ומותר לכתחלה באכילה אם בשלו ולא אמרינן אסור מיהא מדרבנן דהא אפילו נסחט ממנו ויצא אמרינן לקמן (חולין דף קיא.) חלב שחוטה מדרבנן הוא והאי כיון דמובלע ולא פירש אפי' איסור דרבנן ליכא:"
+     ],
+     "tosafot": [
+      "<b>אינו עובר עליו ומותר</b> — פירש בקונטרס דמותר אם בשלו משום דחלב שחוטה דרבנן הוא והאי כיון דאבלע ולא פירש אפילו איסורא דרבנן ליכא משמע שרוצה להעמיד כולה שמעתתא דכחל לצלי דאי לקדרה אמאי מותר הא יצא חלב וחזר ונבלע וכן פירש לקמן בהדיא גבי זויקו לה כחלי דפריך והא בשלו קתני בדיעבד ופירש בקונטרס והא ודאי בצלי הוא מדקתני מותר דאי בקדרה אמאי מותר הא יצא החלב וחזר ונבלע ולקמן בתר שמעתתא דכבד פי' בקונטרס והלכות כחל כבר אמרנו למעלה דלצלי בעי קריעה שתי או ערב ואי לא קרעו מותר כלישנא קמא דרב דהא תניא כוותיה ולקדרה קורעו שתי וערב וטחו בכותל ומה שכתוב בספרים בפ' גיד הנשה (לעיל חולין דף צז:) כחל עצמו אסור היכא דלא קרעיה ובשליה בהדי בשרא ל\"ג ליה דאפי' בשליה לחודיה אסור לפירוש הקונטרס לפי שפירש וחזר ונבלע ומיהא גם לפירוש הקונטרס היכא דאיכא ס' במים שנתבשל בהן הכחל לא היה נאסר הכחל היכא שבשלו לחודיה לפי שהחלב הנפלט נתבטל במים אבל היכא דבשלו עם בשר אסור משום טעם בשר הנבלע בחלב שבכחל וכן יש ספרים דגרסי בסמוך כחל שבשלו בחלבו מותר היכא דבשליה לחודיה בלא בשר ויש להעמידו לפירוש הקונטרס שיש במים ששים כדפרישית שמתבטל בהן חלב היוצא מן הכחל:",
+      "<b>הא איסורא איכא</b> — וא\"ת לפירוש הקונטרס דלמא הא איסורא איכא לקדרה אבל לצלי מותר וי\"ל דא\"כ ה\"ל למתני דאם לא קרעו מותר דהוי חדוש וממילא הוה מוקמינן ליה בצלי:"
+     ]
+    },
+    {
+     "he": "בְּדִין הוּא דְּאִיסּוּרָא נָמֵי לֵיכָּא, וְאַיְּידֵי דִּבְעָא לְמִיתְנֵא סֵיפָא: הַלֵּב קוֹרְעוֹ וּמוֹצִיא אֶת דָּמוֹ, לֹא קְרָעוֹ – אֵינוֹ עוֹבֵר עָלָיו. הָתָם מִיעְבָּר הוּא דְּלָא עָבַר, הָא אִיסּוּרָא אִיכָּא, תְּנָא נָמֵי רֵישָׁא אֵינוֹ עוֹבֵר עָלָיו.",
+     "en": "The Gemara explains: <b>By right</b> the mishna <b>should have</b> taught <b>that there is no prohibition</b> here by rabbinic law <b>either. But</b> the <i>tanna</i> of the mishna uses this language <b>since he wants to teach</b> in <b>the latter clause:</b> One who wants to eat <b>the heart</b> of a slaughtered animal <b>tears it and removes its blood,</b> but if <b>he did not tear</b> the heart before cooking and eating it, <b>he does not violate</b> the prohibition. <b>There</b> it is true that although <b>he does not violate</b> a prohibition by Torah law <b>there is a prohibition</b> by rabbinic law. To preserve linguistic symmetry, <b>he teaches the first clause</b> in this manner <b>as well,</b> stating: <b>He does not violate</b> the prohibition.",
+     "rashi": [
+      "<b>דהתם מיעבר הוא דלא עבר</b> — ללקות דאין בו כזית:",
+      "<b>הא איסורא איכא</b> — דחצי שיעור אסור מה\"ת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "לֵימָא מְסַיַּיע לֵיהּ: הַכְּחָל – קוֹרְעוֹ וּמוֹצִיא אֶת חֶלְבּוֹ, לֹא קְרָעוֹ – אֵינוֹ עוֹבֵר עָלָיו. הַלֵּב – קוֹרְעוֹ וּמוֹצִיא אֶת דָּמוֹ, לֹא קְרָעוֹ – קוֹרְעוֹ לְאַחַר בִּשּׁוּלוֹ וּמוּתָּר. לֵב הוּא דְּבָעֵי קְרִיעָה, אֲבָל כְּחָל לָא בָּעֵי קְרִיעָה.",
+     "en": "The Gemara suggests: <b>Let us say</b> that the following <i>baraita</i> <b>supports</b> this opinion: One who wants to eat <b>the udder</b> of a slaughtered animal <b>tears it and removes its milk.</b> If <b>he did not tear</b> the udder before cooking it, <b>he does not violate</b> the prohibition against cooking and eating meat and milk and does not receive lashes <b>for it.</b> One who wants to eat <b>the heart</b> of a slaughtered animal <b>tears it and removes its blood.</b> If <b>he did not tear</b> the heart before cooking and eating it, <b>he tears it after its cooking, and it is permitted.</b> One can infer from the <i>baraita</i> that <b>it is</b> only the <b>heart that requires tearing</b> after cooking if it was not torn beforehand. <b>But</b> the <b>udder does not require tearing</b> after being cooked unlawfully. Evidently, it is permitted as is.",
+     "rashi": [
+      "<b>הא כחל לא בעי קריעה</b> — לאחר הבישול מדלא תנא ביה לא קרעו קורעו לאחר בשולו:"
+     ],
+     "tosafot": [
+      "<b>לב הוא דבעי קריעה אבל כחל לא בעי קריעה</b> — וא\"ת אדרבה דוק מינה איפכא אינו עובר עליו הא איסורא איכא כדדייק לעיל דהכא לא שייך למימר איידי דבעי למימר בסיפא כדקאמר לעיל וי\"ל דדלמא איידי דקתני במתניתין ואינו עובר עליו נקט נמי בברייתא הכי:",
+      "<b>הא כחל לא בעי קריעה</b> — מדלא קתני קורעו לאחר בשולו והוה מוקמינן לה בצלי כדקתני גבי לב וא\"ת ומאי קסבר אי מהניא ביה קריעה אחר בשול אמאי מותר בלא קריעה יותר מקודם בשול דצריך קריעה ואי לא מהניא ביה קריעה היכי מייתי סייעתא לרב מהך ברייתא מדלא קתני קורעו לאחר בשולו הא אין קריעה מועלת לו כלום לאחר שנתבשל וי\"ל דודאי ס\"ד דמועלת לו קריעה לאחר בשולו והא דקאמר רב ואינו עובר עליו ומותר בלא קריעה במבושל ובחי קורעו היינו משום דכי נתבשל כבר פלט במקצת אבל חי שיש לו רוב חלב בעי קריעה:"
+     ]
+    },
+    {
+     "he": "דִּלְמָא לֵב הוּא דְּסַגִּי לֵיהּ בִּקְרִיעָה, אֲבָל כְּחָל – לָא סַגִּי לֵיהּ בִּקְרִיעָה.",
+     "en": "The Gemara rejects this: <b>Perhaps</b> one should infer the opposite, that <b>tearing</b> after cooking <b>is sufficient</b> only <b>to</b> render the <b>heart</b> permitted, as the heart does not absorb blood through cooking. <b>But tearing</b> after cooking <b>is not sufficient to</b> render the <b>udder</b> permitted, as the meat of the udder absorbs the milk through cooking, and tearing will not remove the absorbed milk.",
+     "rashi": [
+      "<b>דלמא</b> — משום הכי לא תנייה משום דלב הוא דסגי ליה בקריעה דלאחר בשול משום דבשעת בשול לא בלע דשיע:",
+      "<b>אבל כחל</b> — שהוא רך כבר נבלע בו החלב ע\"י בשול ולא סגי ליה תו בקריעה:"
+     ],
+     "tosafot": [
+      "<b>דלמא לב הוא דסגי ליה בקריעה</b> — פירוש משום דשיע ולא בלע אפילו לקדרה או לצלי משום דכבולעו כך פולטו כמסקנא דפסחים (דף עד:) אבל כחל לא סגי ליה בקריעה אפילו לצלי משום דכבולעו כך פולטו לא שייך בשאר איסורים אלא בדם לחודיה:"
+     ]
+    },
+    {
+     "he": "וְאִיכָּא דְּאָמְרִי, אָמַר רַבִּי זֵירָא אָמַר רַב: אֵינוֹ עוֹבֵר עָלָיו, וְאָסוּר. לֵימָא מְסַיַּיע לֵיהּ: ״אֵינוֹ עוֹבֵר עָלָיו״ – מִיעְבָּר הוּא דְּלָא עָבַר, הָא אִיסּוּרָא אִיכָּא.",
+     "en": "<b>And some say</b> a different version of the above exchange, based on a different version of Rav’s statement: <b>Rabbi Zeira says</b> that <b>Rav says:</b> If one does not tear the udder of a slaughtered animal before cooking it, <b>he does not violate</b> the Torah prohibition, <b>but</b> it is <b>prohibited</b> to eat the cooked product by rabbinic law. The Gemara suggests: <b>Let us say</b> that the mishna <b>supports</b> this opinion, as it states: <b>He does not violate</b> the prohibition, indicating that although <b>he does not violate</b> a Torah prohibition and is not flogged, <b>there is</b> nevertheless <b>a prohibition</b> by rabbinic law.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "בְּדִין הוּא דְּאִיסּוּרָא נָמֵי לֵיכָּא, וְאַיְּידֵי דִּבְעָא לְמִיתְנֵא סֵיפָא: הַלֵּב קוֹרְעוֹ וּמוֹצִיא אֶת דָּמוֹ, לֹא קְרָעוֹ – אֵינוֹ עוֹבֵר עָלָיו, דְּהָתָם מִיעְבָּר הוּא דְּלָא עָבַר, הָא אִיסּוּרָא אִיכָּא, תְּנָא נָמֵי רֵישָׁא ״אֵינוֹ עוֹבֵר עָלָיו״.",
+     "en": "The Gemara responds: <b>By right</b> the mishna <b>should have</b> taught <b>that there is not even a prohibition</b> by rabbinic law. <b>But</b> the <i>tanna</i> of the mishna uses this language <b>since he wants to teach the latter clause:</b> One who wants to eat <b>the heart</b> of a slaughtered animal <b>tears it and removes its blood,</b> but if <b>he did not tear</b> the heart before cooking and eating it, <b>he does not violate</b> the prohibition <b>for it. There,</b> it is true that although <b>he does not violate</b> a Torah prohibition <b>there is a prohibition</b> by rabbinic law. <b>He</b> therefore <b>teaches</b> in <b>the first clause</b> in this manner <b>as well,</b> stating: <b>He does not violate</b> the prohibition <b>for it.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: הַכְּחָל – קוֹרְעוֹ וּמוֹצִיא אֶת חֶלְבּוֹ, לֹא קְרָעוֹ – אֵינוֹ עוֹבֵר עָלָיו. הַלֵּב – קוֹרְעוֹ וּמוֹצִיא אֶת דָּמוֹ, לֹא קְרָעוֹ – קוֹרְעוֹ לְאַחַר בִּשּׁוּלוֹ, וּמוּתָּר. לֵב הוּא דְּבָעֵי קְרִיעָה, אֲבָל כְּחָל – לָא בָּעֵי קְרִיעָה!",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a proof from a <i>baraita</i>: One who wants to eat <b>the udder</b> of a slaughtered animal <b>tears it and removes its milk.</b> If <b>he did not tear</b> the udder before cooking it, <b>he does not violate</b> the prohibition <b>for it.</b> One who wants to eat <b>the heart</b> of a slaughtered animal <b>tears it and removes its blood.</b> If <b>he did not tear</b> the heart before cooking and eating it, <b>he tears it after its cooking, and it is permitted.</b> One can infer from the <i>baraita</i> that <b>it is</b> only the <b>heart that requires tearing</b> after cooking if it was not torn beforehand, <b>but</b> the <b>udder does not require tearing</b> after being cooked unlawfully. Evidently, it is permitted as is.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "דִּלְמָא לֵב הוּא דְּסַגִּי לֵיהּ בִּקְרִיעָה, אֲבָל כְּחָל לָא סַגִּי לֵיהּ בִּקְרִיעָה.",
+     "en": "The Gemara rejects this: <b>Perhaps</b> one should infer the opposite, that <b>tearing</b> after cooking <b>is sufficient</b> only <b>to</b> render the <b>heart</b> permitted, as the heart does not absorb blood through cooking. <b>But tearing</b> it after cooking <b>is not sufficient to</b> render the <b>udder</b> permitted, as the meat of the udder absorbs the milk through cooking, and tearing will not remove the absorbed milk. This concludes the second version of the Gemara’s discussion.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תַּנְיָא כְּלִישְׁנָא קַמָּא דְּרַב: כְּחָל שֶׁבִּשְּׁלוֹ בַּחֲלָבוֹ – מוּתָּר, קֵבָה שֶׁבִּשְּׁלָהּ בַּחֲלָבָהּ – אָסוּר.",
+     "en": "The Gemara comments: <b>It is taught</b> in a <i>baraita</i> <b>in accordance with the first version of Rav’s</b> statement: <b>An udder that one cooked,</b> i.e., roasted, <b>in its milk is permitted.</b> By contrast, the <b>stomach</b> of a suckling lamb or calf <b>that one cooked,</b> i.e., roasted, together <b>with</b> the <b>milk</b> it contains is <b>prohibited</b> for consumption.",
+     "rashi": [
+      "<b>קבה</b> — של טלה או של עגל שיונקים החלב לתוך קבתן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּמָה הֶפְרֵשׁ בֵּין זֶה לָזֶה? זֶה כָּנוּס בְּמֵעָיו, וְזֶה אֵין כָּנוּס בְּמֵעָיו.",
+     "en": "The <i>baraita</i> explains: <b>And what</b> is the <b>distinction between this</b> stomach <b>and that</b> udder? The milk <b>this</b> calf suckled was considered milk the moment it left the mother’s teat, and it was merely <b>collected in</b> the calf’s <b>innards. But that</b> milk in the udder is not defined as milk, since it was <b>never collected in</b> the animal’s <b>innards</b> from outside but is found in the flesh. Consequently, this meat of the udder is not prohibited if it is roasted with the milk it contains, although one should still tear it by rabbinic law <i>ab initio</i>.",
+     "rashi": [
+      "<b>זה כנוס במעיו</b> — ומשיצא מדדי הבהמה חלב הוא וכחל אינו כנוס במעיו שלא יצא מדדי הבהמה בחייה ולא נאסף אלא מובלע בבשר הוא ולא בא לכלל חלב ומיהו לכתחלה בעי קריעה מדרבנן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כֵּיצַד קוֹרְעוֹ? אָמַר רַב יְהוּדָה: קוֹרְעוֹ שְׁתִי וָעֵרֶב, וְטָחוֹ בַּכּוֹתֶל. אֲמַר לֵיהּ רַבִּי אֶלְעָזָר לְשַׁמָּעֵיהּ: קְרַע לִי, וַאֲנָא אֵיכוֹל. מַאי קָא מַשְׁמַע לַן? מַתְנִיתִין הִיא! הָא קָא מַשְׁמַע לַן: דְּלָא בָּעֵינַן שְׁתִי וָעֵרֶב וְטָחוֹ בַּכּוֹתֶל.",
+     "en": "§ The Gemara inquires: <b>How must one tear</b> an udder before cooking it? <b>Rav Yehuda says: One tears it lengthwise and widthwise [<i>sheti va’erev</i>] and smears it against a wall</b> to remove all the milk. The Gemara relates: <b>Rabbi Elazar said to his attendant: Tear</b> an udder <b>for me</b> before you roast it, <b>and I will eat</b> it. The Gemara asks: <b>What is</b> this episode <b>teaching us? It is</b> explicitly stated in <b>the mishna</b> that one must do this. The Gemara answers: <b>This</b> story <b>teaches us that</b> according to Rabbi Elazar <b>we do not require</b> one to tear it <b>lengthwise and widthwise and smear it against a wall.</b> Rather, it is enough simply to tear it once, either lengthwise or widthwise.",
+     "rashi": [
+      "<b>וטחו בכותל</b> — כובשו בידיו לכותל כדי שיסחט חלבו:",
+      "<b>קרע לי</b> — כחל קודם שתצלנו ואנא איכול:",
+      "<b>מתניתין היא</b> — דקורעו מתחלתו ומותר:",
+      "<b>הא קמ\"ל</b> — קריעה בעלמא קא\"ל או שתי או ערב לפי שהחלב הנוטף יוצא למטה ומשיצא והרי הוא חלב לא חזר ולא בעי שתי וערב אלא לקדרה דהתם ודאי צריך להוציא כולו מתחלה לפי שכשהוא יוצא הרי הוא חלב גמור וחוזר ומתבשל עמו ודקתני לעיל שבשלו מותר בצלי קאמר דצלי נמי קרי בשול דכתיב בדברי הימים (ב לה) ויבשלו (את) הפסח:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַרָה לֵיהּ יַלְתָּא לְרַב נַחְמָן: מִכְּדֵי, כֹּל דַּאֲסַר לַן רַחֲמָנָא שְׁרָא לַן כְּוָותֵיהּ, אֲסַר לַן דְּמָא – שְׁרָא לַן כַּבְדָּא, נִדָּה – דַּם טוֹהַר.",
+     "en": "§ <b>Yalta said to</b> her husband <b>Rav Naḥman: Now</b> as a rule, for <b>any</b> item <b>that the Merciful One prohibited to us, He permitted to us a similar</b> item. He <b>prohibited to us</b> the consumption of <b>blood,</b> yet <b>He permitted to us</b> the consumption of <b>liver,</b> which is filled with blood and retains the taste of blood. Likewise, God prohibited sexual intercourse with <b>a menstruating woman,</b> but permitted sexual intercourse with one’s wife while she discharges <b>the blood of purity.</b> During a particular period after giving birth, even if she experiences a flow of blood she is not rendered ritually impure and remains permitted to her husband by Torah law.",
+     "rashi": [
+      "<b>ילתא</b> — אשתו:",
+      "הכבד כולו דם הוא קרוש טעם דם לו:",
+      "<b>דם טוהר</b> — של בתולין ושל ימי טוהר של יולדת:"
+     ],
+     "tosafot": [
+      "<b>נדה דם טוהר</b> — בסלוק של פרשת פרה יסד ר' אליעזר הקליר מן הדם טחול הדם מטומאת נדה (אשה) טהרת בתולי אשה ומאשת איש יפת תואר לאיש וכנגד כותית לא פירש והכל עשה ע\"פ הירושלמי:"
+     ]
+    },
+    {
+     "he": "חֵלֶב בְּהֵמָה – חֵלֶב חַיָּה, חֲזִיר – מוֹחָא דְּשִׁיבּוּטָא, גֵּירוּתָא – לִישָּׁנָא דִּכְוָורָא.",
+     "en": "Furthermore, the Torah prohibits the consumption of the forbidden <b>fat of a domesticated animal,</b> but permitted the <b>fat of an undomesticated animal,</b> which has the same flavor. It is prohibited to eat <b>pork,</b> but one may eat <b>the brain of a <i>shibuta</i></b> fish, which has a similar taste. One may not eat <b><i>giruta</i>,</b> a non-kosher fish, but one may eat the <b>tongue of a fish,</b> which tastes similar.",
+     "rashi": [
+      "<b>מוח</b> — של דג ששמו שיבוטא טעמו כטעם חזיר:",
+      "<b>גירותא</b> — עוף טמא הוא:",
+      "<b>לישנא דכוורא</b> — יש לו טעם גירותא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֵשֶׁת אִישׁ – גְּרוּשָׁה בְּחַיֵּי בַעְלָהּ, אֵשֶׁת אָח – יְבָמָה, גּוֹיָה – יְפַת תֹּאַר, בָּעֵינַן לְמֵיכַל בִּשְׂרָא בַּחֲלָבָא.",
+     "en": "Likewise, the Torah prohibits sexual intercourse with <b>the wife of</b> another <b>man</b> but permitted one to marry <b>a divorced woman in her</b> previous <b>husband’s lifetime.</b> The Torah prohibits sexual intercourse with one’s <b>brother’s wife,</b> and yet it permits one to marry his <b><i>yevama</i>,</b> i.e., his brother’s widow when the brother dies childless. Finally, the Torah prohibits sexual intercourse with <b>a gentile woman</b> but permitted one to marry <b>a beautiful woman</b> who is a prisoner of war (see Deuteronomy 21:10–14). Yalta concluded: The Torah prohibits the consumption of meat cooked in milk; <b>I wish to eat</b> a dish that tastes like <b>meat</b> cooked <b>in milk.</b>",
+     "rashi": [
+      "<b>אסר לן אשת איש שרא לן גרושה</b> — ואע\"פ שבעלה חי:",
+      "<b>בעינא למיכל בישרא בחלבא</b> — ומה אמצא היתר דוגמתו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לְהוּ רַב נַחְמָן לְטַבָּחֵי: זַוִּיקוּ לַהּ כַּחְלֵי. וְהָאֲנַן תְּנַן: קוֹרְעוֹ! הָהוּא לִקְדֵרָה.",
+     "en": "Upon hearing this, <b>Rav Naḥman said to</b> his <b>cooks: Roast udders on a spit for her.</b> The Gemara asks: <b>But didn’t we learn</b> in the mishna that one must <b>tear</b> the udder first? Rav Naḥman did not tell his cooks to tear the udders. The Gemara answers: <b>That</b> requirement was stated only <b>with regard to</b> cooking in <b>a pot,</b> not roasting.",
+     "rashi": [
+      "<b>זויקו</b> — שפודו. תנו לה כחל בשפוד:",
+      "<b>והא אנן קורעו תנן ההוא לקדרה</b> — דכי נפיק מיניה הוי חלב שחוטה וכי הדר ומיבלע ליה אסר ליה. ודקתני לא קרעו אינו עובר עליו רב נחמן סבירא ליה כלישנא בתרא דרב וברייתא מוקי לה בצלי דכתיב ויבשלו (את) הפסח בדברי הימים:"
+     ],
+     "tosafot": [
+      "<b>זויקו לה כחלי</b> — פירש בערוך כמו זיקים מלאים ודמי לזויקני דארמאי בפ' שני דמסכת ע\"ז (דף לא:) כלומר נפוחין וכן הכא כחל כמו נוד נפוח מלא חלב ולא נקרע ובקונטרס פירש שפודו תנו לה כחל בשפוד:",
+      "<b>ההוא לקדרה</b> — פירש בקונטרס דרב נחמן ס\"ל כלישנא בתרא דרב וברייתא מוקי לה  בצלי  כדכתיב ויבשלו (את) הפסח בדברי הימים ואין זה דוחק דה\"נ מוקמינן בפ' כיצד צולין (פסחים דף עד.) קורעו לאחר בשולו היינו אחר צלייתו ואינו רוצה לומר דסבר לגמרי כלישנא בתרא דהא מיקל טפי אפילו מלישנא קמא דשרי אפילו לכתחלה אלא בפירוש דמתניתין סבר כלישנא בתרא דכיון דשרי רב נחמן לצלי לכתחלה בלא קריעה א\"כ הא דקתני קורעו היינו לקדרה כדקאמר הכא וכי קתני לא קרעו אינו עובר עליו ע\"כ אינו עובר עליו ואסור כיון דמיירי לקדרה ורבינו תם פירש דהא דצריך קריעת שתי וערב וטחו בכותל לקדרה היינו קדרה עם בשר דלקדרה משמע עם בשר כדתנא אם בנותן טעם בקדרה אבל לקדרה בלא בשר או לצלי שרי לכתחלה בקריעה קצת וטעמא דהחמירו בה עם הבשר לפי דטעם החלב נכנס בבשר ומשתנה טעם הבשר ויש בו טעם בשר בחלב ולכך גזרו חכמים וכשאין הבשר עם הכחל בקדרה אף על פי שלא קרעו שתי וערב כיון שקרעו קצת לכתחלה מותר דאין החלב בעינה עוד בכחל כמו שהיה קודם ואע\"פ שנפלט וחוזר ונבלע תוך הכחל לא גזרו בו חכמים כיון שאין שם בשר אחר ולא נשתנה טעמו של כחל מפני בליעה זו ולא אתי למיכל בשר בחלב ובדיעבד שרי אפילו לא קרעו כלל ואין חילוק בין צלי לקדרה בלא בשר דאין בו שום טעם להקל בצלי יותר דבצלי נמי נוטף החלב ונופל על הכחל מבחוץ וחוזר ונבלע ולא שייך כבולעו כך פולטו אלא בדם אבל טיפת חלב שנפלה על חתיכת צלי לא כמו בשמנונית דנבלה דאפילו צלי אינו חוזר ופולט שמנונית שבלע והכי פירושו הכחל קורעו ומוציא את חלבו פירוש שתי וערב וטחו בכותל כדמפרש בגמרא דמוקי ליה רבי אלעזר לקדרה והיינו עם בשר כדפרישית ומוקי לה הכי משום דמתניתין סתמא קתני משמע שבא להתיר בכל ענין בשול לא קרעו פירוש לא עשה דין קריעה שלא קרעו שתי וערב וטחו בכותל אלא קריעה קצת אינו עובר עליו אמר רב אינו עובר עליו ומותר כיון דקרעו קצת אבל אם לא קרעו כלל ובשלו בהדי בשר אסור מדרבנן כדאמרינן בפ' גיד הנשה (לעיל חולין דף צז:) כחל בס' דחלב שחוטה אסור מדרבנן כיצד קורעו אמתניתין קאי אמר ליה ר' אלעזר קרע לי ואנא איכול פי' קרע לי קריעה קצת ואנא איכול בקדרה בלא בשר מאי קמ\"ל דלא בעי שתי וערב אלא לקדרה בהדי בשר אמר להו רב נחמן זויקו לה כחלי פירוש בשלו לה בקדרה בלא בשר כחלי נפוחים כנודות פירוש שלא נקרעו שתי וערב אלא קריעה קצת מ\"מ קרי זויקו לפי שלא נקרעו שתי וערב והא אנן תנן קורעו פירוש שתי וערב אבל קריעה קצת לא מהני ההוא לקדרה פירוש בהדי בשר והא קתני כחל שבשלו בחלבו מותר אלמא אפילו בקדרה בלא בשר אסור לכתחלה לבשל דבלא בשר מיירי מדקתני שבשלו בחלבו דמשמע דליכא איסורא אלא איהו גופיה ורב נחמן מתיר לכתחלה כו' והוה מצי לשנויי דמיירי בשלא קרעו כלל אלא דעדיפא משני וא\"ת היכי מייתי סייעתא מהך ברייתא ללישנא קמא דרב והא רב איירי אפילו בקדרה בהדי בשר וברייתא איירי בקדרה בלא בשר כדפרישית ויש לומר משום דלישנא בתרא דרב קאמר אינו עובר עליו ואסור בין בהדי בשר בין בלא בשר והך ברייתא שריא מיהא בלא בשר ומשום דפליגא אלישנא בתרא קאמר תניא כלישנא קמא והשתא רב נחמן כלישנא קמא דתניא כוותיה והילכתא כוותיה ולמאי דפרישית דמתניתין איירי נמי בקדרה בהדי בשר משום דקתני סתמא א\"כ רישא דברייתא דקתני נמי הכחל קורעו ומוציא את חלבו הוי נמי אפילו בהדי בשר ולא הוי דומיא דלב קורעו לא קרעו קורעו לאחר בישולו דלא איירי בהדי בשר דאי בהדי בשר נעשה הבשר נבלה וחוזר ואוסר את הלב דטעם דלב דשיע לא קאי לפי המסקנא דפסחים (דף עד:) לפירוש ר\"ת:"
+     ]
+    },
+    {
+     "he": "וְהָא קָתָנֵי: שֶׁבִּשְּׁלוֹ – דִּיעֲבַד אִין, לְכַתְּחִלָּה לָא? הוּא הַדִּין דַּאֲפִילּוּ לְכַתְּחִלָּה, וְאַיְּידֵי דְּקָא בָעֵי לְמִיתְנֵא סֵיפָא קֵבָה",
+     "en": "The Gemara asks: <b>But isn’t it taught</b> in the <i>baraita</i> cited above: An udder <b>that one cooked</b> in its milk is permitted? This indicates that <b>after the fact, yes,</b> it is permitted, but one may <b>not</b> roast it <b><i>ab initio</i></b> without tearing it. The Gemara answers: <b>The same is true even</b> of roasting <b><i>ab initio</i>,</b> i.e., it is permitted, <b>and</b> the <i>tanna</i> of the <i>baraita</i> uses this language <b>since he wants to teach</b> in <b>the latter clause: A stomach</b>",
+     "rashi": [
+      "<b>והא קתני שבשלו בדיעבד</b> — והא ודאי בצלי הוא מדקתני מותר דאי בקדרה אמאי מותר הא יצא החלב וחזר ונבלע:"
+     ],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
