@@ -85,7 +85,44 @@ html[lang="he"] [data-lang~="he"]{display:revert}
   border-radius:999px;padding:6px 14px;box-shadow:var(--shadow-sm);
 }
 #site-nav a:hover,#lang-btn:hover{background:var(--accent2);color:var(--paper)}
-#lang-btn{cursor:pointer;line-height:inherit;font-size:.85rem}
+#lang-btn{cursor:pointer;line-height:inherit;font-size:.85rem;
+  display:inline-flex;align-items:center;gap:5px}
+/* Held down while the menu is open, so on a touch screen — where there is no
+   hover — it is still clear which pill the menu belongs to. */
+#lang-btn[aria-expanded="true"]{background:var(--accent2);color:var(--paper)}
+#lang-btn .caret{font-size:.68em;opacity:.8;transition:transform .15s}
+#lang-btn[aria-expanded="true"] .caret{transform:rotate(180deg)}
+
+/* The language menu. Anchored to the button rather than to the nav, so it opens
+   under it on either side of the page; min-width keeps it from being narrower
+   than what opened it. Hidden with the `hidden` attribute, which lang.js
+   toggles — display:none here would fight the attribute's own default. */
+#lang-picker{position:relative}
+#lang-menu{
+  position:absolute;top:calc(100% + 6px);inset-inline-end:0;min-width:100%;
+  display:flex;flex-direction:column;gap:2px;padding:5px;z-index:1;
+  background:var(--panel);border:1px solid var(--gold);border-radius:14px;
+  box-shadow:var(--shadow);
+}
+#lang-menu[hidden]{display:none}
+#lang-menu button{
+  display:flex;align-items:center;gap:7px;white-space:nowrap;text-align:start;
+  font-family:Georgia,serif;font-size:.9rem;cursor:pointer;
+  background:none;border:0;border-radius:999px;color:var(--accent2);padding:7px 12px;
+}
+/* The tick is always in the line, invisible when it does not apply, so the names
+   sit on one edge and the menu does not resize as the choice moves. */
+#lang-menu button::before{content:"✓";width:1em;flex:none;opacity:0}
+#lang-menu button[aria-checked="true"]::before{opacity:1}
+#lang-menu button[aria-checked="true"]{font-weight:700}
+/* :focus, not :focus-visible — an item is only ever focused by the arrow keys or
+   by the tap that is about to close the menu. */
+#lang-menu button:hover,#lang-menu button:focus{background:var(--gold-soft);outline:none}
+
+/* Read by a screen reader, never shown: kept in the layout at zero size, since
+   display:none would take it out of the button's accessible name as well. */
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);
+  white-space:nowrap}
 
 /* ---- header ---- */
 header.top{text-align:center;padding:34px 18px 22px;margin-bottom:8px}

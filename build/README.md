@@ -39,8 +39,11 @@ the root `<html lang>`, which `lang.js` sets in `<head>` before the first paint.
 no Hebrew sheet emits its English body **once**, marked `data-lang="en he"`, with a short
 note above it.
 
-The site is English, Spanish and Hebrew, and the 🌐 button is a cycle through them rather
-than a pair. Adding another is a key in `i18n.LANGS` / `i18n.UI` / `i18n.NAME` /
+The site is English, Spanish and Hebrew, and the 🌐 button opens a menu of all of them —
+it names the language on screen and ticks it in the list, rather than stepping to the next
+one, which with three languages would hide the third behind a guess. Each item is written
+in its own language, since that is the one its reader can read. Adding another is a key in
+`i18n.LANGS` / `i18n.UI` / `i18n.NAME` /
 `i18n.VIEW_IN`, a `STR` entry in `quiz.js`, `cards.js`, `zman.js` and `speak.js`, a section
 list in `validate.REQUIRED_SECTIONS`, one `html[lang="xx"] [data-lang~="xx"]` line in
 `daf.css`, and `<Tractate>_<page>.<lang>.md` sheets. Nothing hardcodes `es` or `he`.

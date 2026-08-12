@@ -229,7 +229,7 @@ Vary which letter is correct, too. Separate major prose sections with `---`.
 ## Step 4 — Write `content/<Tractate>_<page>.es.md` (the Spanish sheet)
 
 A full Spanish translation — same content, same structure, same depth. Not a summary.
-Readers pick a language with the 🌐 toggle and the choice is remembered site-wide, so the
+Readers pick a language from the 🌐 menu and the choice is remembered site-wide, so the
 two sheets must stay in step.
 
 ### Front matter — only what differs

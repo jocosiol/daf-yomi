@@ -24,15 +24,20 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="assets/manifest.webmanifest?v=2ef7e323">
-<link rel="stylesheet" href="assets/daf.css?v=2f7d2aea">
+<link rel="stylesheet" href="assets/daf.css?v=d7bde0c9">
 <script type="application/json" id="daf-config">{"langs":["en","es","he"],"rtl":["he"]}</script>
-<script src="assets/lang.js?v=37be7b05"></script>
+<script src="assets/lang.js?v=0042caf6"></script>
 </head>
 <body>
 <nav id="site-nav">
   <a href="index.html"><span data-lang="en">📖 Today</span><span data-lang="es">📖 Hoy</span><span data-lang="he">📖 היום</span></a>
   <a href="archive.html"><span data-lang="en">🗂 Archive</span><span data-lang="es">🗂 Archivo</span><span data-lang="he">🗂 ארכיון</span></a>
-  <button id="lang-btn" type="button"><span data-lang="en" title="Ver en español">🌐 Español</span><span data-lang="es" title="לצפייה בעברית">🌐 עברית</span><span data-lang="he" title="View in English">🌐 English</span></button>
+  <div id="lang-picker">
+    <button id="lang-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu">
+    <span aria-hidden="true">🌐</span><span data-lang="en"><span class="vh">Language: </span>English</span><span data-lang="es"><span class="vh">Idioma: </span>Español</span><span data-lang="he"><span class="vh">שפה: </span>עברית</span><span class="caret" aria-hidden="true">▾</span>
+    </button>
+    <div id="lang-menu" role="menu" aria-labelledby="lang-btn" hidden>      <button type="button" role="menuitemradio" aria-checked="false" tabindex="-1" data-set-lang="en" lang="en" title="View in English">English</button>      <button type="button" role="menuitemradio" aria-checked="false" tabindex="-1" data-set-lang="es" lang="es" title="Ver en español">Español</button>      <button type="button" role="menuitemradio" aria-checked="false" tabindex="-1" data-set-lang="he" lang="he" title="לצפייה בעברית">עברית</button>    </div>
+  </div>
 </nav>
 <div class="wrap">
   <header class="top">

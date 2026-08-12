@@ -59,12 +59,90 @@
     document.dispatchEvent(new CustomEvent("daflang", { detail: { lang: cur } }));
   };
 
+  /* The picker: a button that names the language on screen, and a menu of all of
+     them. Built as a menu rather than a <select> because the options have to be
+     styled like the rest of the nav and each carries its own lang, and rather
+     than a cycling button because three languages make "the next one" a guess.
+
+     Keyboard: the button opens on Enter, Space or ↓ (the browser's own click
+     handles the first two); inside, ↑ ↓ Home End move, Escape and Tab close.
+     Choosing does not reload — dafSetLang switches the page in place — so focus
+     goes back to the button, which now reads as the language just chosen. */
   function wire() {
-    var b = document.getElementById("lang-btn");
-    if (!b) return;
-    b.addEventListener("click", function () {
-      window.dafSetLang(SUP[(SUP.indexOf(cur) + 1) % SUP.length]);
+    var btn = document.getElementById("lang-btn");
+    var menu = document.getElementById("lang-menu");
+    if (!btn || !menu) return;
+    var items = [].slice.call(menu.querySelectorAll("[data-set-lang]"));
+
+    function mark() {
+      items.forEach(function (it) {
+        it.setAttribute("aria-checked",
+          it.getAttribute("data-set-lang") === cur ? "true" : "false");
+      });
+    }
+
+    function isOpen() { return !menu.hidden; }
+
+    function open(focus) {
+      menu.hidden = false;
+      btn.setAttribute("aria-expanded", "true");
+      if (focus) {
+        var i = items.map(function (it) { return it.getAttribute("data-set-lang"); }).indexOf(cur);
+        (items[i < 0 ? 0 : i] || items[0]).focus();
+      }
+    }
+
+    function close(refocus) {
+      if (!isOpen()) return;
+      menu.hidden = true;
+      btn.setAttribute("aria-expanded", "false");
+      if (refocus) btn.focus();
+    }
+
+    function move(from, step) {
+      var i = items.indexOf(from);
+      var n = items.length;
+      items[((i < 0 ? 0 : i) + step + n) % n].focus();
+    }
+
+    btn.addEventListener("click", function () {
+      if (isOpen()) close(false); else open(false);
     });
+    btn.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault();
+        open(true);
+      } else if (e.key === "Escape") {
+        close(false);
+      }
+    });
+
+    items.forEach(function (it) {
+      it.addEventListener("click", function () {
+        window.dafSetLang(it.getAttribute("data-set-lang"));
+        close(true);
+      });
+    });
+
+    menu.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown") { e.preventDefault(); move(e.target, 1); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); move(e.target, -1); }
+      else if (e.key === "Home") { e.preventDefault(); items[0].focus(); }
+      else if (e.key === "End") { e.preventDefault(); items[items.length - 1].focus(); }
+      else if (e.key === "Escape") { e.preventDefault(); close(true); }
+      else if (e.key === "Tab") { close(false); }
+    });
+
+    // A tap anywhere else. pointerdown rather than click, so the menu is gone by
+    // the time the tap lands on whatever is underneath it.
+    document.addEventListener("pointerdown", function (e) {
+      if (isOpen() && !menu.contains(e.target) && !btn.contains(e.target)) close(false);
+    });
+
+    // Marked here as well as after a choice, because the language may already
+    // have come from ?lang= or from localStorage before this ran.
+    document.addEventListener("daflang", mark);
+    mark();
   }
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", wire);

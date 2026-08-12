@@ -13,6 +13,14 @@ function check(name, cond, detail) {
   console.log(`${ok ? '  ok  ' : ' FAIL '} ${name}${detail !== undefined ? '  → ' + detail : ''}`);
 }
 
+// Choosing a language takes two clicks, not one: the 🌐 button opens a menu of
+// all of them rather than stepping to the next.
+async function pick(page, lang) {
+  await page.click('#lang-btn');
+  await page.click(`#lang-menu [data-set-lang="${lang}"]`);
+  await new Promise(r => setTimeout(r, 250));
+}
+
 async function open(browser, url) {
   const page = await browser.newPage();
   const errors = [];
@@ -148,9 +156,39 @@ async function open(browser, url) {
     check('daf: answering marks the correct option', marked === 1, marked);
     check('daf: explanation shown', await page.evaluate(() => document.querySelector('.why.show') !== null));
 
-    // ---------- switch to Spanish ----------
+    // ---------- the language menu ----------
+    const menuOpen = () => page.evaluate(() =>
+      !document.getElementById('lang-menu').hidden &&
+      document.getElementById('lang-btn').getAttribute('aria-expanded') === 'true');
+    check('daf: the language menu starts closed', (await menuOpen()) === false);
+    check('daf: it lists every language',
+      await page.evaluate(() => [...document.querySelectorAll('#lang-menu [data-set-lang]')]
+        .map(e => e.dataset.setLang).join()) === 'en,es,he');
     await page.click('#lang-btn');
-    await new Promise(r => setTimeout(r, 250));
+    check('daf: the button opens it', await menuOpen());
+    await page.keyboard.press('Escape');
+    check('daf: Escape closes it again', (await menuOpen()) === false);
+    // A tap on the page, not on the menu, puts it away too — it is fixed over
+    // the daf, so anything left open sits on top of what was tapped.
+    await page.click('#lang-btn');
+    await page.click('header.top h1');
+    check('daf: a tap outside closes it', (await menuOpen()) === false);
+    // The keyboard reaches it too: ↓ opens on the language in use, ↓ again moves,
+    // Escape hands focus back to the button. Enter on an item is the browser's
+    // own click, so choosing needs nothing of ours.
+    const focused = () => page.evaluate(() =>
+      document.activeElement.dataset.setLang || document.activeElement.id);
+    await page.focus('#lang-btn');
+    await page.keyboard.press('ArrowDown');
+    check('daf: ↓ opens it on the language in use', (await focused()) === 'en', await focused());
+    await page.keyboard.press('ArrowDown');
+    check('daf: ↓ moves down the list', (await focused()) === 'es', await focused());
+    await page.keyboard.press('Escape');
+    check('daf: Escape hands focus back to the button', (await focused()) === 'lang-btn', await focused());
+
+    // ---------- switch to Spanish ----------
+    await pick(page, 'es');
+    check('daf: choosing from the menu closes it', (await menuOpen()) === false);
     check('daf: html lang is es', await page.evaluate(() => document.documentElement.lang) === 'es');
     check('daf: only the Spanish sheet is visible', await onlyFor('es'), JSON.stringify(await visible()));
     const h1es = await page.evaluate(() => document.querySelector('h1').innerText.trim());
@@ -160,24 +198,30 @@ async function open(browser, url) {
     // hidden view, so textContent — innerText of a display:none element is ''
     const cEs = await page.evaluate(() => document.querySelector('.dnum').textContent);
     check('daf: deck restarted in Spanish', /^Tarjeta 1 \//.test(cEs), cEs);
-    // The toggle is a cycle through every language, not a pair: from Spanish
-    // the next one offered is Hebrew, and from Hebrew it comes back to English.
-    const offered = () => page.evaluate(() => {
-      const s = [...document.querySelectorAll('#lang-btn span')].find(e => getComputedStyle(e).display !== 'none');
+    // With a menu there is no "next language", so what the picker has to say is
+    // which one is on screen: the button names it, and the menu ticks it.
+    const named = () => page.evaluate(() => {
+      const s = [...document.querySelectorAll('#lang-btn span[data-lang]')]
+        .find(e => getComputedStyle(e).display !== 'none');
       return s ? s.textContent : null;
     });
-    check('daf: toggle now offers Hebrew', (await offered() || '').includes('עברית'), await offered());
+    const ticked = () => page.evaluate(() => {
+      const s = document.querySelector('#lang-menu [aria-checked="true"]');
+      return s ? s.dataset.setLang : null;
+    });
+    check('daf: the button names Spanish', (await named() || '').includes('Español'), await named());
+    check('daf: and the menu ticks it', (await ticked()) === 'es', await ticked());
 
     // ---------- and on to Hebrew ----------
-    await page.click('#lang-btn');
-    await new Promise(r => setTimeout(r, 250));
+    await pick(page, 'he');
     check('daf: html lang is he', await page.evaluate(() => document.documentElement.lang) === 'he');
     check('daf: the page turns right to left with it',
       await page.evaluate(() => document.documentElement.dir === 'rtl' &&
                                 getComputedStyle(document.body).direction === 'rtl'));
     check('daf: the tabs are labelled in Hebrew',
       await page.evaluate(() => document.querySelector('.tab[data-v="learn"]').innerText.includes('לימוד')));
-    check('daf: toggle comes back round to English', (await offered() || '').includes('English'), await offered());
+    check('daf: the button names Hebrew, in Hebrew', (await named() || '').includes('עברית'), await named());
+    check('daf: and the menu ticks Hebrew', (await ticked()) === 'he', await ticked());
     // Chullin 98 has no Hebrew sheet, so the English one stands in — and it has
     // to keep reading left to right inside a page that runs the other way.
     check('daf: the stand-in English sheet is still shown once', await onlyFor('he'), JSON.stringify(await visible()));
@@ -199,15 +243,14 @@ async function open(browser, url) {
     check('daf: the stand-in deck does too',
       /^Card 1 \//.test(fallback.c) && fallback.cdir === 'ltr', JSON.stringify(fallback));
 
-    await page.click('#lang-btn');
-    await new Promise(r => setTimeout(r, 250));
+    // Straight back to English, skipping Spanish — which a cycle could not do.
+    await pick(page, 'en');
     check('daf: back to English restores left to right',
       await page.evaluate(() => document.documentElement.lang === 'en' &&
                                 document.documentElement.dir === 'ltr'));
 
     // preference persists to another page
-    await page.click('#lang-btn');
-    await new Promise(r => setTimeout(r, 250));
+    await pick(page, 'es');
     const { page: p2 } = await open(browser, `${BASE}/Chullin_99.html`);
     check('daf: language persists across pages',
       await p2.evaluate(() => document.documentElement.lang) === 'es');
@@ -533,7 +576,7 @@ async function open(browser, url) {
                                 !document.querySelector('.speaking')));
 
     // Spanish: the sheet's language decides the voice, not the reader's chrome
-    await page.click('#lang-btn');
+    await pick(page, 'es');
     await page.evaluate(() => { window.__said.length = 0; });
     await page.evaluate(() => document.querySelector('.sheet[data-lang~="es"] h2 button.speak').click());
     await new Promise(r => setTimeout(r, 120));
@@ -569,7 +612,7 @@ async function open(browser, url) {
     // the stub races through a section in milliseconds, so there is nothing
     // left playing to stop by now
     await page.evaluate(() => { window.__said.length = 0; });
-    await page.click('#lang-btn');
+    await pick(page, 'es');
     await page.evaluate(() => document.querySelector('.sheet[data-lang~="es"] h2 button.speak').click());
     await new Promise(r => setTimeout(r, 150));
     const es = await page.evaluate(() => window.__said.length && window.__said[0].voice);
@@ -623,16 +666,14 @@ async function open(browser, url) {
     const zman = await page.evaluate(() => document.getElementById('zman').textContent);
     check('archive: sunset line rendered', /sunset is \d/.test(zman), zman);
 
-    await page.click('#lang-btn');
-    await new Promise(r => setTimeout(r, 250));
+    await pick(page, 'es');
     const zmanEs = await page.evaluate(() => document.getElementById('zman').textContent);
     check('archive: sunset line switches to Spanish', zmanEs.includes('atardecer'), zmanEs);
     const badgeEs = await page.evaluate(() => document.querySelector('li.today .badge').textContent);
     check('archive: badge switches to Spanish', badgeEs === 'Hoy' || badgeEs === 'Más reciente', badgeEs);
     await page.screenshot({ path: 'shot-archive-es.png', fullPage: true });
 
-    await page.click('#lang-btn');
-    await new Promise(r => setTimeout(r, 250));
+    await pick(page, 'he');
     const zmanHe = await page.evaluate(() => document.getElementById('zman').textContent);
     check('archive: sunset line switches to Hebrew', zmanHe.includes('שקיעה'), zmanHe);
     const badgeHe = await page.evaluate(() => document.querySelector('li.today .badge').textContent);

@@ -56,11 +56,28 @@
   <a href="archive.html">{% for l in langs %}<span data-lang="{{ l }}">{{ ui[l].nav_archive }}</span>{% endfor %}</a>
 {% endif %}
 {% if langs|length > 1 %}
-  {# The button shows the language it switches TO, so each label sits under the
-     data-lang of the language currently being displayed. #}
-  <button id="lang-btn" type="button">
-  {%- for l in langs %}<span data-lang="{{ l }}" title="{{ switch[l].title }}">🌐 {{ switch[l].label }}</span>{% endfor -%}
-  </button>
+  {# A menu rather than a cycle: with three languages, a button that steps to the
+     next one asks the reader to guess where the third is. The button names the
+     language on screen — that label sits under the data-lang of the language
+     being displayed, since it changes with it — and the menu names them all.
+     Each item carries lang but not dir: a language's own name is one phrase with
+     nothing to reorder, and leaving direction to the page keeps the list ragged
+     down one edge rather than both. #}
+  <div id="lang-picker">
+    <button id="lang-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu">
+    <span aria-hidden="true">🌐</span>
+    {%- for m in lang_menu %}<span data-lang="{{ m.code }}"><span class="vh">{{ ui[m.code].language }}: </span>{{ m.name }}</span>{% endfor -%}
+    <span class="caret" aria-hidden="true">▾</span>
+    </button>
+    <div id="lang-menu" role="menu" aria-labelledby="lang-btn" hidden>
+    {%- for m in lang_menu %}
+      {#- tabindex="-1": the arrow keys move between the items, so they are not
+          also stops on the way through the page, and Tab leaves the menu rather
+          than walking down it. #}
+      <button type="button" role="menuitemradio" aria-checked="false" tabindex="-1" data-set-lang="{{ m.code }}" lang="{{ m.code }}" title="{{ m.title }}">{{ m.name }}</button>
+    {%- endfor %}
+    </div>
+  </div>
 {% endif %}
 </nav>
 {% block body %}{% endblock %}

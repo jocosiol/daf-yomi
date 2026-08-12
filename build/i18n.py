@@ -16,9 +16,10 @@ LANGS = ["en", "es", "he"]
 # that is Hebrew throughout is not a Latin page with Hebrew quotations in it.
 RTL = ["he"]
 
-# What the 🌐 button says. The name of each language, written in that language,
+# What the 🌐 picker lists. The name of each language, written in that language,
 # and the tooltip likewise — both are read by someone who wants that language,
-# so neither is any use in the one they are currently looking at.
+# so neither is any use in the one they are currently looking at. The menu is
+# therefore the same in every language: one line per language, in that language.
 NAME = {"en": "English", "es": "Español", "he": "עברית"}
 VIEW_IN = {"en": "View in English", "es": "Ver en español", "he": "לצפייה בעברית"}
 
@@ -91,6 +92,10 @@ UI = {
         "back": "← Back to today's daf",
         "nav_today": "📖 Today",
         "nav_archive": "🗂 Archive",
+        # Names the 🌐 picker for a screen reader. Not shown: the button's
+        # visible text is the language on screen, which says which one is
+        # selected but not what the control is.
+        "language": "Language",
         # shown when a daf has no sheet in the reader's language
         "untranslated": "",
         # top of every daf page, and again at the foot
@@ -147,6 +152,7 @@ UI = {
         "back": "← Volver al daf de hoy",
         "nav_today": "📖 Hoy",
         "nav_archive": "🗂 Archivo",
+        "language": "Idioma",
         "untranslated": "Esta hoja todavía no está traducida al español; abajo está la versión en inglés.",
         "disclaimer": "Hoja generada por IA a partir del texto del daf. "
                       "No reemplaza el estudio del daf mismo.",
@@ -199,6 +205,7 @@ UI = {
         "back": "→ חזרה לדף של היום",
         "nav_today": "📖 היום",
         "nav_archive": "🗂 ארכיון",
+        "language": "שפה",
         "untranslated": "הדף הזה עדיין לא תורגם לעברית; למטה מופיעה הגרסה האנגלית.",
         "disclaimer": "דף עזר ללימוד שנוצר בבינה מלאכותית מתוך טקסט הדף. "
                       "אינו מחליף את לימוד הדף עצמו.",
@@ -215,12 +222,6 @@ def is_rtl(lang):
 
 def dir_of(lang):
     return "rtl" if is_rtl(lang) else "ltr"
-
-
-def next_lang(lang):
-    """The language the 🌐 button switches to — LANGS as a cycle."""
-    i = LANGS.index(lang) if lang in LANGS else 0
-    return LANGS[(i + 1) % len(LANGS)]
 
 
 def t(lang, key):

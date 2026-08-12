@@ -58,10 +58,12 @@ TABLE = re.compile(r"(<table\b.*?</table>)", re.S)
 # The section sign Sefaria's English opens a new sugya with (see new_sugya).
 SUGYA_RE = re.compile(r"^\s*§\s*")
 
-# The label the toggle shows is the language it switches TO, and LANGS is a
-# cycle rather than a pair — with three languages the button steps en → es → he.
-SWITCH = {l: {"label": i18n.NAME[i18n.next_lang(l)],
-              "title": i18n.VIEW_IN[i18n.next_lang(l)]} for l in i18n.LANGS}
+# The 🌐 picker's menu: every language, each named in itself. Unlike everything
+# else the build renders this is not per-display-language — a language's own
+# name is the same string whatever the page around it is currently in — so it is
+# one list, emitted once, rather than a data-lang block per language.
+LANG_MENU = [{"code": l, "name": i18n.NAME[l], "title": i18n.VIEW_IN[l]}
+             for l in i18n.LANGS]
 
 
 def hebrew_spans(fragment, lang=i18n.DEFAULT):
@@ -353,7 +355,7 @@ def main():
         "default_lang": i18n.DEFAULT,
         "default_dir": i18n.dir_of(i18n.DEFAULT),
         "ui": i18n.UI,
-        "switch": SWITCH,
+        "lang_menu": LANG_MENU,
         "site_url": settings["site_url"],
     }
     # The text of the daf, cached by build/daftext.py. Loaded once per daf
