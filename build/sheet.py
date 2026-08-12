@@ -48,7 +48,7 @@ import yaml
 import i18n
 
 FRONT_MATTER = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?", re.S)
-CHAZARA_H2 = re.compile(r"^##\s+Chazar[aá]\b.*$", re.M | re.I)
+CHAZARA_H2 = re.compile(r"^##\s+(?:Chazar[aá]|חזרה)\b.*$", re.M | re.I)
 YAML_FENCE = re.compile(r"```ya?ml\r?\n(.*?)```", re.S)
 # Chullin_98.es.md -> ("Chullin_98", "es");  Chullin_98.md -> ("Chullin_98", None)
 STEM = re.compile(r"^(?P<base>.+?)(?:\.(?P<lang>[a-z]{2}(?:-[a-z]{2})?))?$", re.I)
@@ -133,8 +133,13 @@ class Sheet:
 
     @property
     def label(self):
-        """'Chullin 98' / 'Julín 98' — the archive's link text."""
-        m = re.search(r"—\s*(.+?)\s*\(", self.title)
+        """'Chullin 98' / 'Julín 98' / 'חולין קד' — the archive's link text.
+
+        The Hebrew title carries no parenthetical, because the Hebrew reference
+        the other languages put in brackets is the title itself — so the
+        bracket is optional and the reference simply runs to the end.
+        """
+        m = re.search(r"—\s*(.+?)(?:\s*\(|$)", self.title)
         return m.group(1).strip() if m else f"{self.tractate} {self.page}"
 
     @property
@@ -147,7 +152,7 @@ class Sheet:
         ch = self.chapter
         bits = []
         if ch.get("n") is not None:
-            word = "Capítulo" if self.lang == "es" else "Chapter"
+            word = i18n.t(self.lang, "chapter")
             name = f"<em>{ch['name']}</em>" if ch.get("name") else ""
             gloss = f" ({ch['gloss']})" if ch.get("gloss") else ""
             bits.append(f"{word} {ch['n']}: {name}{gloss}".strip())

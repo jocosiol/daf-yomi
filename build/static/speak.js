@@ -25,7 +25,8 @@
 
   var STR = {
     en: { play: "Read this section aloud", stop: "Stop reading" },
-    es: { play: "Leer esta sección en voz alta", stop: "Detener la lectura" }
+    es: { play: "Leer esta sección en voz alta", stop: "Detener la lectura" },
+    he: { play: "להקריא את החלק הזה", stop: "להפסיק את ההקראה" }
   };
   /* The button is chrome, not content, so it follows the reader's UI language
      — which is the root lang, not the sheet's. */

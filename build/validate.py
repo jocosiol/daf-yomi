@@ -24,6 +24,7 @@ REQUIRED_SECTIONS = {
     "en": ["The big picture", "Walking through the sugya", "Key concepts",
            "Who's who", "One line to carry with you"],
     "es": ["panorama general", "paso a paso", "Conceptos", "Quién es quién", "Una línea"],
+    "he": ["התמונה הגדולה", "צעד אחר צעד", "מושגים", "מי ומי", "שורה אחת"],
 }
 # The side-by-side grid is wanted on every daf but not required, because some
 # dapim are pure narrative and a forced matrix is worse than none. Missing is a
@@ -31,6 +32,7 @@ REQUIRED_SECTIONS = {
 GRID_SECTION = {
     "en": "distinctions, side by side",
     "es": "distinciones, lado a lado",
+    "he": "זו מול זו",
 }
 GRID_MIN_COLS, GRID_MAX_COLS = 2, 4
 GRID_MIN_ROWS, GRID_MAX_ROWS = 2, 6
@@ -40,6 +42,7 @@ GRID_MIN_ROWS, GRID_MAX_ROWS = 2, 6
 TERMS_SECTION = {
     "en": "Key concepts",
     "es": "Conceptos",
+    "he": "מושגים",
 }
 TERMS_MIN_ROWS = 5
 QUIZ_MIN, QUIZ_MAX = 8, 10

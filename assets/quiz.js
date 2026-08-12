@@ -1,5 +1,7 @@
-/* Chazara quiz. Reads window.QUIZ_BY_LANG, {lang: [{n, q, opts, correct, why}]},
-   where `correct` is an index into `opts`.
+/* Chazara quiz. Reads window.QUIZ_BY_LANG,
+   {readerLang: {lang, qs: [{n, q, opts, correct, why}]}}, where `correct` is an
+   index into `opts` and `lang` is the language the questions are written in —
+   which is not always the key they are filed under.
 
    Options are shuffled per run, so a second pass through the same daf is a
    real second pass — the old build always rendered a,b,c,d in source order,
@@ -31,15 +33,43 @@
           m100: "¡Puntuación perfecta! Dominas este daf.",
           m80: "Excelente — casi impecable.",
           m60: "Bien. Una relectura rápida de las difíciles y ya lo tienes.",
-          m0: "Buen comienzo — una ronda de repaso lo afianzará." }
+          m0: "Buen comienzo — una ronda de repaso lo afianzará." },
+    // Hebrew reads the other way, so the arrows do too: "next" points left.
+    he: { q: "שאלה", score: "ניקוד", streak: "ברצף", toGo: "נותרו",
+          next: "הבא ←", results: "לתוצאות ←", ok: "✓ נכון.",
+          noPre: "✗ כמעט — התשובה היא ", again: "↻ לשחק שוב",
+          look: "כדאי לחזור על אלה", yours: "התשובה שלכם:", right: "הנכונה:",
+          best: "הרצף הארוך ביותר",
+          m100: "ניקוד מושלם! הדף הזה שלכם.",
+          m80: "מצוין — כמעט ללא רבב.",
+          m60: "יפה. קריאה חוזרת של הקשות ואתם שם.",
+          m0: "התחלה טובה — סיבוב חזרה יקבע את זה." }
   };
 
-  function lang() {
-    var l = window.dafLang ? window.dafLang() : "en";
-    return STR[l] && BY_LANG[l] ? l : "en";
+  /* The quiz the reader asked for, or the one that stands in for it.
+
+     A daf with no Hebrew sheet has no Hebrew quiz either, and what is filed
+     under "he" is the English one. It is then shown as the English quiz —
+     chrome and all, the way the Learn tab stands in a whole English sheet with
+     a note above it. Translating only the buttons would put Hebrew labels and
+     their right-to-left arrows around left-to-right questions. */
+  function pick() {
+    var want = window.dafLang ? window.dafLang() : "en";
+    var p = BY_LANG[want];
+    if (!p || !p.qs || !p.qs.length) p = BY_LANG.en;
+    return p && p.qs && STR[p.lang] ? p : { lang: "en", qs: (p && p.qs) || [] };
   }
 
-  var L = lang(), T = STR[L], QUIZ = BY_LANG[L] || [];
+  var P = pick(), L = P.lang, T = STR[L], QUIZ = P.qs;
+
+  /* Which way the card reads follows the questions in it, not the page around
+     it: an English quiz inside a Hebrew page stays left to right. */
+  function markDir() {
+    card.lang = L;
+    card.dir = window.dafIsRtl && window.dafIsRtl(L) ? "rtl" : "ltr";
+  }
+  markDir();
+
   var idx = 0, score = 0, streak = 0, best = 0, answered = false;
   var results = [], view = [];
 
@@ -164,7 +194,8 @@
   }
 
   document.addEventListener("daflang", function () {
-    L = lang(); T = STR[L]; QUIZ = BY_LANG[L] || [];
+    P = pick(); L = P.lang; T = STR[L]; QUIZ = P.qs;
+    markDir();
     if (QUIZ.length) restart();
   });
 

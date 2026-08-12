@@ -1,8 +1,10 @@
 /* Flashcards for the daf's key terms.
 
-   Reads window.CARDS_BY_LANG, {lang: [{t: term, m: meaning}]}, built from the
-   very same markdown table the Learn view renders — the deck cannot disagree
-   with the sheet, because the glossary is written once.
+   Reads window.CARDS_BY_LANG, {readerLang: {lang, cards: [{t: term, m: meaning}]}},
+   built from the very same markdown table the Learn view renders — the deck
+   cannot disagree with the sheet, because the glossary is written once. `lang`
+   is the language the cards are written in, which is not always the key they
+   are filed under.
 
    The deck is shuffled per run, and each card is rated once you have seen its
    back: knew it, or review later. What you flag comes round again as a second,
@@ -33,15 +35,42 @@
           m100: "Todos los términos, a la primera. El vocabulario del daf es tuyo.",
           m80: "Casi todos de memoria — el resto es una ronda más.",
           m0: "Ahora repasa las que marcaste; ahí está el daf.",
-          mAgain: "Las que marcaste, resueltas. Esas son las que cuentan." }
+          mAgain: "Las que marcaste, resueltas. Esas son las que cuentan." },
+    // Hebrew reads the other way, so the arrows do too: forward points left.
+    he: { card: "כרטיס", flip: "להצגת המשמעות ←", prev: "→ הקודם",
+          again: "↻ לחזור על זה", knew: "✓ ידעתי", knewN: "ידועים",
+          pass: "סיבוב חזרה", done: "סיימתם את החפיסה", of: "מתוך",
+          reviewN: "לחזור על {n} שסימנתם ←", restart: "↻ להתחיל מחדש",
+          m100: "כל המונחים, בפעם הראשונה. אוצר המילים של הדף שלכם.",
+          m80: "כמעט כולם בעל פה — השאר זה סיבוב אחד נוסף.",
+          m0: "עכשיו עברו על אלה שסימנתם; שם נמצא הדף.",
+          mAgain: "אלה שסימנתם — סגרתם. אלה שקובעים." }
   };
 
-  function lang() {
-    var l = window.dafLang ? window.dafLang() : "en";
-    return STR[l] && BY_LANG[l] ? l : "en";
+  /* The deck the reader asked for, or the one that stands in for it.
+
+     A daf with no Hebrew sheet has no Hebrew glossary either, and what is filed
+     under "he" is the English deck. It is then shown as the English deck —
+     chrome and all, the way the Learn tab stands in a whole English sheet with
+     a note above it. Translating only the buttons would put Hebrew labels and
+     their right-to-left arrows around left-to-right terms. */
+  function pick() {
+    var want = window.dafLang ? window.dafLang() : "en";
+    var p = BY_LANG[want];
+    if (!p || !p.cards || !p.cards.length) p = BY_LANG.en;
+    return p && p.cards && STR[p.lang] ? p : { lang: "en", cards: (p && p.cards) || [] };
   }
 
-  var L = lang(), T = STR[L], ALL = BY_LANG[L] || [];
+  var P = pick(), L = P.lang, T = STR[L], ALL = P.cards;
+
+  /* Which way the card reads follows the terms on it, not the page around it:
+     an English deck inside a Hebrew page stays left to right. */
+  function rtl() { return !!(window.dafIsRtl && window.dafIsRtl(L)); }
+  function markDir() {
+    deck.lang = L;
+    deck.dir = rtl() ? "rtl" : "ltr";
+  }
+  markDir();
   var queue = [], pos = 0, flipped = false, knew = 0, flagged = [], pass = 1;
 
   function shuffled(a) {
@@ -170,7 +199,8 @@
   }
 
   document.addEventListener("daflang", function () {
-    L = lang(); T = STR[L]; ALL = BY_LANG[L] || [];
+    P = pick(); L = P.lang; T = STR[L]; ALL = P.cards;
+    markDir();
     if (ALL.length) start(ALL, 1);
   });
 
@@ -186,11 +216,15 @@
       if (e.target && e.target.closest && e.target.closest("button")) return;
       e.preventDefault();                       // space would scroll the page
       turn();                                   // as the hint says: it flips
-    } else if (e.key === "ArrowRight") {
-      // keep going: show the meaning, or take the card as known and move on
-      if (flipped) rate(true); else turn();
-    } else if (e.key === "ArrowLeft") {
-      back();
+    } else if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+      // The arrows follow the text, not the keyboard: forward is left in
+      // Hebrew, so pressing ← there does what → does in English.
+      if (e.key === (rtl() ? "ArrowLeft" : "ArrowRight")) {
+        // keep going: show the meaning, or take the card as known and move on
+        if (flipped) rate(true); else turn();
+      } else {
+        back();
+      }
     } else if (e.key === "1") {
       rate(false);
     } else if (e.key === "2") {

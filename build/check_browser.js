@@ -42,7 +42,14 @@ async function open(browser, url) {
       [...document.querySelectorAll('.sheet')]
         .filter(e => getComputedStyle(e).display !== 'none')
         .map(e => e.getAttribute('data-lang')));
-    check('daf: only the English sheet is visible', JSON.stringify(await visible()) === '["en"]', JSON.stringify(await visible()));
+    // One sheet on screen, and it is the one that covers this language — a
+    // group may stand in for several ("en he" on a daf with no Hebrew sheet),
+    // so the attribute is not the language, it is the set the block serves.
+    const onlyFor = async l => {
+      const v = await visible();
+      return v.length === 1 && v[0].split(' ').includes(l);
+    };
+    check('daf: only the English sheet is visible', await onlyFor('en'), JSON.stringify(await visible()));
 
     const h1 = await page.evaluate(() => document.querySelector('h1').innerText.trim());
     check('daf: English title shown', h1.includes('Chullin 98'), h1);
@@ -145,7 +152,7 @@ async function open(browser, url) {
     await page.click('#lang-btn');
     await new Promise(r => setTimeout(r, 250));
     check('daf: html lang is es', await page.evaluate(() => document.documentElement.lang) === 'es');
-    check('daf: only the Spanish sheet is visible', JSON.stringify(await visible()) === '["es"]', JSON.stringify(await visible()));
+    check('daf: only the Spanish sheet is visible', await onlyFor('es'), JSON.stringify(await visible()));
     const h1es = await page.evaluate(() => document.querySelector('h1').innerText.trim());
     check('daf: Spanish title shown', h1es.includes('Julín 98'), h1es);
     const qEs = await page.evaluate(() => document.querySelector('.qnum').innerText);
@@ -153,13 +160,54 @@ async function open(browser, url) {
     // hidden view, so textContent — innerText of a display:none element is ''
     const cEs = await page.evaluate(() => document.querySelector('.dnum').textContent);
     check('daf: deck restarted in Spanish', /^Tarjeta 1 \//.test(cEs), cEs);
-    check('daf: toggle now offers English',
-      await page.evaluate(() => {
-        const s = [...document.querySelectorAll('#lang-btn span')].find(e => getComputedStyle(e).display !== 'none');
-        return s && s.textContent.includes('English');
-      }));
+    // The toggle is a cycle through every language, not a pair: from Spanish
+    // the next one offered is Hebrew, and from Hebrew it comes back to English.
+    const offered = () => page.evaluate(() => {
+      const s = [...document.querySelectorAll('#lang-btn span')].find(e => getComputedStyle(e).display !== 'none');
+      return s ? s.textContent : null;
+    });
+    check('daf: toggle now offers Hebrew', (await offered() || '').includes('עברית'), await offered());
+
+    // ---------- and on to Hebrew ----------
+    await page.click('#lang-btn');
+    await new Promise(r => setTimeout(r, 250));
+    check('daf: html lang is he', await page.evaluate(() => document.documentElement.lang) === 'he');
+    check('daf: the page turns right to left with it',
+      await page.evaluate(() => document.documentElement.dir === 'rtl' &&
+                                getComputedStyle(document.body).direction === 'rtl'));
+    check('daf: the tabs are labelled in Hebrew',
+      await page.evaluate(() => document.querySelector('.tab[data-v="learn"]').innerText.includes('לימוד')));
+    check('daf: toggle comes back round to English', (await offered() || '').includes('English'), await offered());
+    // Chullin 98 has no Hebrew sheet, so the English one stands in — and it has
+    // to keep reading left to right inside a page that runs the other way.
+    check('daf: the stand-in English sheet is still shown once', await onlyFor('he'), JSON.stringify(await visible()));
+    check('daf: and it stays left to right', await page.evaluate(() => {
+      const s = [...document.querySelectorAll('.sheet')].find(e => getComputedStyle(e).display !== 'none');
+      return getComputedStyle(s).direction === 'ltr';
+    }));
+    // There is no Hebrew quiz or deck either, so both stand in whole — the
+    // English ones, still reading left to right inside the right-to-left page.
+    // Half of each translated would mean Hebrew buttons around English text.
+    const fallback = await page.evaluate(() => ({
+      q: document.querySelector('.qnum').innerText,
+      qdir: getComputedStyle(document.getElementById('quizCard')).direction,
+      c: document.querySelector('.dnum').textContent,
+      cdir: getComputedStyle(document.getElementById('deckCard')).direction,
+    }));
+    check('daf: the stand-in quiz stays English and left to right',
+      /^question 1 /i.test(fallback.q) && fallback.qdir === 'ltr', JSON.stringify(fallback));
+    check('daf: the stand-in deck does too',
+      /^Card 1 \//.test(fallback.c) && fallback.cdir === 'ltr', JSON.stringify(fallback));
+
+    await page.click('#lang-btn');
+    await new Promise(r => setTimeout(r, 250));
+    check('daf: back to English restores left to right',
+      await page.evaluate(() => document.documentElement.lang === 'en' &&
+                                document.documentElement.dir === 'ltr'));
 
     // preference persists to another page
+    await page.click('#lang-btn');
+    await new Promise(r => setTimeout(r, 250));
     const { page: p2 } = await open(browser, `${BASE}/Chullin_99.html`);
     check('daf: language persists across pages',
       await p2.evaluate(() => document.documentElement.lang) === 'es');
@@ -168,26 +216,35 @@ async function open(browser, url) {
   }
 
   // ---------- an untranslated daf ----------
-  // Which daf that is changes as translations land, so find one rather than
-  // naming one: a hardcoded page quietly stops testing anything the day it is
-  // translated.
+  // Which daf is missing which language changes as sheets land, so find one per
+  // language rather than naming one: a hardcoded page quietly stops testing
+  // anything the day it is translated.
   {
-    const untranslated = manifest.find(e => pages[e.file].includes('class="untranslated"'));
-    if (!untranslated) {
-      console.log('  skip  untranslated: every daf is translated');
-    } else {
-      const { page, errors } = await open(browser, `${BASE}/${untranslated.file}?lang=es`);
-      check('untranslated: no console errors', errors.length === 0, errors.join(' | ') || 'none');
-      check('untranslated: ?lang=es honoured', await page.evaluate(() => document.documentElement.lang) === 'es');
+    const NOTE = { es: 'todavía no está traducida', he: 'עדיין לא תורגם' };
+    for (const lang of ['es', 'he']) {
+      const gap = manifest.find(e =>
+        pages[e.file].includes(`<div class="untranslated" data-lang="${lang}">`));
+      if (!gap) {
+        console.log(`  skip  untranslated: every daf has a '${lang}' sheet`);
+        continue;
+      }
+      const { page, errors } = await open(browser, `${BASE}/${gap.file}?lang=${lang}`);
+      check(`untranslated ${lang}: no console errors`, errors.length === 0, errors.join(' | ') || 'none');
+      check(`untranslated ${lang}: ?lang=${lang} honoured`,
+        await page.evaluate(() => document.documentElement.lang) === lang);
       const shown = await page.evaluate(() =>
         [...document.querySelectorAll('.sheet, .untranslated')]
           .filter(e => getComputedStyle(e).display !== 'none')
           .map(e => e.className.trim()));
-      check('untranslated: note + English body shown once',
+      check(`untranslated ${lang}: note + English body shown once`,
         shown.filter(c => c === 'sheet').length === 1 && shown.includes('untranslated'),
         JSON.stringify(shown));
-      const note = await page.evaluate(() => document.querySelector('.untranslated').innerText);
-      check('untranslated: note is in Spanish', note.includes('todavía no está traducida'), note.slice(0, 40) + '…');
+      // A daf can be short of more than one language, so take the note that is
+      // actually on screen rather than the first one in the markup.
+      const note = await page.evaluate(() => [...document.querySelectorAll('.untranslated')]
+        .find(e => getComputedStyle(e).display !== 'none').innerText);
+      check(`untranslated ${lang}: the note is in that language`, note.includes(NOTE[lang]),
+        note.slice(0, 40) + '…');
       await page.close();
     }
   }
@@ -573,6 +630,16 @@ async function open(browser, url) {
     const badgeEs = await page.evaluate(() => document.querySelector('li.today .badge').textContent);
     check('archive: badge switches to Spanish', badgeEs === 'Hoy' || badgeEs === 'Más reciente', badgeEs);
     await page.screenshot({ path: 'shot-archive-es.png', fullPage: true });
+
+    await page.click('#lang-btn');
+    await new Promise(r => setTimeout(r, 250));
+    const zmanHe = await page.evaluate(() => document.getElementById('zman').textContent);
+    check('archive: sunset line switches to Hebrew', zmanHe.includes('שקיעה'), zmanHe);
+    const badgeHe = await page.evaluate(() => document.querySelector('li.today .badge').textContent);
+    check('archive: badge switches to Hebrew', badgeHe === 'היום' || badgeHe === 'האחרון', badgeHe);
+    check('archive: the list turns right to left',
+      await page.evaluate(() => document.documentElement.dir === 'rtl'));
+    await page.screenshot({ path: 'shot-archive-he.png', fullPage: true });
     await page.close();
   }
 

@@ -115,6 +115,10 @@
     es: { today: "Hoy", recent: "Más reciente",
           zman: function (t) {
             return "El daf cambia al atardecer — hoy el atardecer es a las " + t + ", hora local.";
+          } },
+    he: { today: "היום", recent: "האחרון",
+          zman: function (t) {
+            return "הדף מתחלף בשקיעה — השקיעה היום היא ב־" + t + ", שעון מקומי.";
           } }
   };
 

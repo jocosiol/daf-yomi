@@ -5,30 +5,50 @@ in the JS that writes them (static/quiz.js, static/zman.js, static/lang.js).
 This module covers only what Python renders into the HTML.
 
 Adding a language is: a key here, plus `<Tractate>_<page>.<lang>.md` sheets.
-Nothing in the build hardcodes "es".
+Nothing in the build hardcodes "es" or "he".
 """
 
 DEFAULT = "en"
-LANGS = ["en", "es"]
+LANGS = ["en", "es", "he"]
+
+# Written right to left. The build marks content with it, lang.js puts `dir` on
+# <html> for it, and hebrew_spans stops wrapping Hebrew runs inside it — a sheet
+# that is Hebrew throughout is not a Latin page with Hebrew quotations in it.
+RTL = ["he"]
+
+# What the 🌐 button says. The name of each language, written in that language,
+# and the tooltip likewise — both are read by someone who wants that language,
+# so neither is any use in the one they are currently looking at.
+NAME = {"en": "English", "es": "Español", "he": "עברית"}
+VIEW_IN = {"en": "View in English", "es": "Ver en español", "he": "לצפייה בעברית"}
 
 # 0 = Monday, matching date.weekday()
 DAYS = {
     "en": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     "es": ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"],
+    # The civil week, named the way it is said in Israel: Monday is יום שני.
+    "he": ["יום ב׳", "יום ג׳", "יום ד׳", "יום ה׳", "יום ו׳", "שבת", "יום א׳"],
 }
 MONTHS = {
     "en": ["January", "February", "March", "April", "May", "June",
            "July", "August", "September", "October", "November", "December"],
     "es": ["enero", "febrero", "marzo", "abril", "mayo", "junio",
            "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+    # Gregorian, in Hebrew — the study_date is a civil date, and rendering it as
+    # a Hebrew-calendar date here would be a different date, not a translation.
+    "he": ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני",
+           "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"],
 }
 DATE_FMT = {
     "en": "{dow}, {d} {month} {y}",
     "es": "{dow}, {d} de {month} de {y}",
+    "he": "{dow}, {d} ב{month} {y}",
 }
 
 UI = {
     "en": {
+        # the word in the subtitle, before the chapter number
+        "chapter": "Chapter",
         "learn": "Learn",
         "quiz": "Chazara Quiz",
         "cards": "Flashcards",
@@ -82,6 +102,7 @@ UI = {
                            "Check anything you rely on against the source.",
     },
     "es": {
+        "chapter": "Capítulo",
         "learn": "Aprender",
         "quiz": "Repaso (Chazará)",
         "cards": "Tarjetas",
@@ -134,7 +155,72 @@ UI = {
                            "ayuda para tu estudio, no un sustituto de aprender el daf mismo en "
                            "la Guemará. Verifica en la fuente todo aquello en lo que te apoyes.",
     },
+    # Hebrew reads right to left, so an arrow in a label points the other way:
+    # "back" is → and "next" is ←. The glyph is not mirrored by the browser —
+    # only its position in the line is — so the right one has to be written here.
+    "he": {
+        "chapter": "פרק",
+        "learn": "לימוד",
+        "quiz": "חזרה",
+        "cards": "כרטיסיות",
+        "cards_cta": "ללמוד את המונחים האלה בכרטיסיות",
+        "cards_intro": "המונחים המרכזיים של היום, אחד לכל כרטיס — אותו מילון שבלשונית הלימוד. "
+                       "קראו את המונח, נסו להיזכר מה משמעותו בדף הזה, ואז הפכו את הכרטיס "
+                       "ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף בסיבוב שני, קצר יותר.",
+        "tip": "טיפ: הקישו 1–4 כדי לענות, ו-Enter כדי להמשיך.",
+        "cards_tip": "טיפ: מקש הרווח הופך את הכרטיס, ← → מדפדפים, 1 / 2 מדרגים.",
+        "daf": "הדף",
+        "daf_mode_scan": "הדף המודפס",
+        "daf_mode_text": "טקסט",
+        "daf_intro_scan": "דף וילנא כולו כפי שהוא מודפס — הגמרא באמצע, רש״י ותוספות בשוליים, "
+                          "מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות, "
+                          "והקישו על כל שורה שמתחתיו כדי לראות את אותו קטע באנגלית.",
+        "daf_intro": "הדף בעימוד שבו הוא מודפס: הגמרא באמצע, רש״י בשוליים הפנימיים ותוספות "
+                     "בחיצוניים. שום דבר כאן לא נכתב על ידינו.",
+        "daf_show": "הצגה",
+        "daf_en": "אנגלית",
+        "daf_sefaria": "פתיחה בספריא",
+        "daf_open_pdf": "פתיחה בגודל מלא",
+        "daf_lines": "שורה אחר שורה — הקישו על שורה כדי לראות אותה באנגלית",
+        "daf_note": "זהו הדף עצמו — דף וילנא, ולא כתיבה שלנו. "
+                    "הוא אינו מיוצר בבינה מלאכותית.",
+        "daf_credit_scan": 'דף וילנא מוגש על ידי <a href="https://www.shas.org" '
+                           'target="_blank" rel="noopener">shas.org</a>, קובץ PDF אחד לכל עמוד.',
+        "daf_credit": 'הטקסט מתוך <a href="https://www.sefaria.org" target="_blank" '
+                      'rel="noopener">ספריא</a>. הגמרא והתרגום מתוך תלמוד ויליאם דוידסון, עם '
+                      'פירושו של הרב עדין אבן־ישראל שטיינזלץ (התרגום לאנגלית), '
+                      '<a href="https://creativecommons.org/licenses/by-nc/4.0/" '
+                      'target="_blank" rel="noopener">CC BY-NC 4.0</a>. רש״י ותוספות הם '
+                      'ממהדורת וילנא, נחלת הכלל.',
+        "tomorrow": "מחר",
+        "archive_title": "דף יומי — ארכיון",
+        "archive_lede": "כל דפי הלימוד היומיים · החדשים ביותר תחילה",
+        "archive_desc": "כל דפי הלימוד של הדף היומי, החדשים ביותר תחילה.",
+        "back": "→ חזרה לדף של היום",
+        "nav_today": "📖 היום",
+        "nav_archive": "🗂 ארכיון",
+        "untranslated": "הדף הזה עדיין לא תורגם לעברית; למטה מופיעה הגרסה האנגלית.",
+        "disclaimer": "דף עזר ללימוד שנוצר בבינה מלאכותית מתוך טקסט הדף. "
+                      "אינו מחליף את לימוד הדף עצמו.",
+        "disclaimer_foot": "הדף הזה נכתב בידי בינה מלאכותית מתוך טקסט הדף. הוא עלול להיות "
+                           "חלקי או שגוי, והוא רק עזר ללימוד — לא תחליף ללימוד הדף עצמו "
+                           "בגמרא. בדקו במקור כל דבר שאתם נסמכים עליו.",
+    },
 }
+
+
+def is_rtl(lang):
+    return lang in RTL
+
+
+def dir_of(lang):
+    return "rtl" if is_rtl(lang) else "ltr"
+
+
+def next_lang(lang):
+    """The language the 🌐 button switches to — LANGS as a cycle."""
+    i = LANGS.index(lang) if lang in LANGS else 0
+    return LANGS[(i + 1) % len(LANGS)]
 
 
 def t(lang, key):

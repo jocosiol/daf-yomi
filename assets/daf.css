@@ -43,19 +43,26 @@ body{
    mixed-direction lines could reorder around punctuation. */
 [lang="he"],.he{
   font-family:"Frank Ruhl Libre","Taamey Frank CLM","SBL Hebrew","Times New Roman",Georgia,serif;
-  font-size:1.06em; line-height:1.75;
+  line-height:1.75;
 }
+/* The 6% is optical, so that a Hebrew phrase set inside a Latin line does not
+   read small beside it. Written as "a Hebrew element whose parent is not
+   Hebrew" rather than on [lang="he"] itself, because with Hebrew as a site
+   language the marker now nests — <html lang="he"> around a Hebrew sheet
+   around a Hebrew quotation — and applied at every level it would compound. */
+:not([lang="he"]) > [lang="he"],.he{font-size:1.06em}
 
 .wrap{max-width:820px;margin:0 auto;padding:0 18px 80px}
 
-/* ---- bilingual content ----
+/* ---- multilingual content ----
    Every translated string is rendered in every language at once and switched
    by CSS on the root <html lang>, which lang.js sets in <head> before the
-   first paint — so no half ever flashes. data-lang="en es" marks one block
-   that stands in for both (an untranslated daf). */
+   first paint — so no version ever flashes. data-lang="en he" marks one block
+   that stands in for both (a daf with no Hebrew sheet yet). */
 [data-lang]{display:none}
 html[lang="en"] [data-lang~="en"],
-html[lang="es"] [data-lang~="es"]{display:revert}
+html[lang="es"] [data-lang~="es"],
+html[lang="he"] [data-lang~="he"]{display:revert}
 .untranslated{margin-bottom:14px;font-size:.92rem;color:var(--muted);
   padding:14px 18px;background:var(--panel);border:1px solid var(--line);
   border-radius:12px}
@@ -71,7 +78,7 @@ html[lang="es"] [data-lang~="es"]{display:revert}
 .disclaimer.foot{margin-top:26px;border-style:dashed;background:none}
 
 /* ---- site nav ---- */
-#site-nav{position:fixed;top:12px;right:14px;z-index:50;display:flex;gap:8px}
+#site-nav{position:fixed;top:12px;inset-inline-end:14px;z-index:50;display:flex;gap:8px}
 #site-nav a,#lang-btn{
   font-family:Georgia,serif;font-size:.85rem;text-decoration:none;
   background:var(--panel);color:var(--accent2);border:1px solid var(--gold);
@@ -93,7 +100,9 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
      rather than a percentage, so a wrapped second row is not see-through */
   background:linear-gradient(180deg,var(--paper) calc(100% - 16px),transparent);
 }
-/* The nav pills are fixed top-right and always paint above this bar. On a wide
+/* The nav pills are fixed in the top corner — right, or left in Hebrew, since
+   they sit at the end of the line either way — and always paint above this
+   bar. On a wide
    screen the two never meet; narrower than this they do, and the nav silently
    swallows the taps meant for a tab. Parking the stuck bar below the pills
    costs nothing at rest — it is an offset, not extra height. */
@@ -119,14 +128,14 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .sheet h2:first-child{margin-top:0}
 .sheet h3{font-size:1.12rem;color:var(--accent);margin:18px 0 6px}
 .sheet blockquote{margin:14px 0;padding:12px 18px;background:var(--quote-bg);
-  border-left:4px solid var(--gold);border-radius:6px;font-style:italic}
+  border-inline-start:4px solid var(--gold);border-radius:6px;font-style:italic}
 .sheet table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}
-.sheet th,.sheet td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+.sheet th,.sheet td{border:1px solid var(--line);padding:7px 10px;text-align:start;vertical-align:top}
 .sheet th{background:var(--gold-soft);color:var(--accent2)}
 .sheet tr:nth-child(even) td{background:var(--stripe)}
 .sheet code{background:var(--code-bg);padding:1px 5px;border-radius:4px;font-size:.9em}
 .sheet hr{border:none;border-top:1px solid var(--line);margin:22px 0}
-.sheet ul{padding-left:22px}
+.sheet ul{padding-inline-start:22px}
 .sheet li{margin:5px 0}
 .sheet strong{color:var(--accent2)}
 .table-scroll{overflow-x:auto}
@@ -138,7 +147,7 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
    hover, so it is never fully invisible. */
 .speak{
   font:inherit;font-size:.72em;line-height:1;vertical-align:middle;
-  margin-left:9px;padding:4px 8px;border-radius:999px;cursor:pointer;
+  margin-inline-start:9px;padding:4px 8px;border-radius:999px;cursor:pointer;
   border:1px solid var(--line);background:var(--panel);color:var(--accent);
   opacity:.55;transition:.18s;
 }
@@ -166,7 +175,7 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .qnum{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
 .qtext{font-size:1.28rem;line-height:1.45;margin:8px 0 20px;color:var(--ink)}
 .opts{display:flex;flex-direction:column;gap:12px}
-.opt{display:flex;align-items:flex-start;gap:12px;text-align:left;width:100%;
+.opt{display:flex;align-items:flex-start;gap:12px;text-align:start;width:100%;
   border:1.5px solid var(--line);background:var(--panel);border-radius:12px;padding:14px 16px;
   cursor:pointer;font-size:1.05rem;font-family:inherit;color:var(--ink);transition:.15s}
 .opt:hover:not(.locked){border-color:var(--accent);transform:translateY(-1px);box-shadow:var(--shadow-sm)}
@@ -180,7 +189,7 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .opt.locked{cursor:default}
 .opt.dim{opacity:.55}
 .why{margin-top:18px;padding:14px 16px;border-radius:12px;background:var(--quote-bg);
-  border-left:4px solid var(--gold);font-size:1rem;display:none;animation:fade .3s}
+  border-inline-start:4px solid var(--gold);font-size:1rem;display:none;animation:fade .3s}
 .why.show{display:block}
 .why b{color:var(--accent2)}
 .nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px}
@@ -196,7 +205,7 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .end .big{font-size:3.4rem;margin:6px 0}
 .end .score{font-size:1.6rem;color:var(--accent2);font-weight:700;margin:4px 0}
 .end .msg{font-size:1.1rem;color:var(--ink-soft);margin:8px 0 20px}
-.review{text-align:left;margin-top:20px}
+.review{text-align:start;margin-top:20px}
 .review h3{color:var(--accent2)}
 .review .r{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;background:var(--panel)}
 .review .r .rq{font-weight:700;color:var(--ink);margin-bottom:6px}
@@ -304,10 +313,12 @@ figure.scan:has(+ .daf-lines){margin-bottom:10px}
 .line.collapsed .line-head{color:var(--ink-soft)}
 /* The English reads the other way, so it is marked as the translation rather
    than indented to a Hebrew edge it does not share. */
-.line-body{margin:0 0 14px;padding:2px 0 2px 14px;border-left:2px solid var(--gold-soft);
+.line-body{margin:0 0 14px;padding:2px 0;padding-inline-start:14px;
+  border-inline-start:2px solid var(--gold-soft);
   font-size:.98rem;line-height:1.6;color:var(--ink-soft)}
 .line.collapsed .line-body{display:none}
 .line-body b,.line-body strong{color:var(--accent2);font-weight:600}
+
 
 /* A whole daf at a phone's width is legible to nobody, and no amount of frame
    height fixes that — zooming inside a small frame is worse than the browser's
@@ -418,7 +429,7 @@ body.view-daf .disclaimer.top.source{display:block}
 .archive li .when{color:var(--faint);font-size:.9rem}
 .archive li.today{border-color:var(--gold);box-shadow:0 4px 18px rgba(140,100,40,.18)}
 .archive li.today .badge{background:var(--accent2);color:var(--paper);border-radius:999px;
-  padding:2px 10px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;margin-left:8px}
+  padding:2px 10px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;margin-inline-start:8px}
 .archive li.future{opacity:.6}
 .archive .zman{text-align:center;color:var(--faint);font-size:.8rem;margin-top:18px}
 .archive .home{display:block;text-align:center;margin-top:26px}
@@ -439,6 +450,23 @@ body.view-daf .disclaimer.top.source{display:block}
   .deck .rate{display:grid;grid-template-columns:1fr 1fr;gap:8px}
   .deck .btn{padding:11px 12px;font-size:.94rem}
 }
+/* ---- Hebrew as a page language ----
+   Kept together and kept last, because each of these overrides a rule set
+   above for text that is not Hebrew.
+
+   Hebrew has no italic. The browser fakes one by slanting the upright letters,
+   and a whole slanted paragraph reads as a rendering fault rather than as a
+   change of voice — it also flattens the <em> inside a pulled quotation, which
+   then has nothing left to be emphatic with. So the places that use italic as
+   a texture stand upright in Hebrew; inline emphasis keeps its slant, because
+   that is the only mark it has.
+
+   :lang() rather than [lang="he"], so each of these follows the language of
+   the text in it: on a Hebrew page an untranslated daf still shows an English
+   sheet, and that block keeps its italics. */
+.sub :lang(he),.lede:lang(he),.deck-intro:lang(he),.daf-intro:lang(he),
+.tomorrow:lang(he),blockquote:lang(he){font-style:normal}
+
 @media print{
   #site-nav,.tabs,#quiz,#cards,#daf,.deck-cta,.hint,.speak{display:none!important}
   body{background:#fff;color:#000}

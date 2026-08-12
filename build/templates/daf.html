@@ -2,11 +2,14 @@
 {% block body %}
 <div class="wrap">
   <header class="top">
+    {# lang/dir per group, not per reader: an untranslated daf shows its English
+       title to a Hebrew reader, and that line has to stay left-to-right even
+       though the page around it runs the other way. #}
     <h1>
-    {%- for g in groups %}<span data-lang="{{ g.langs }}">{{ g.title_html|safe }}</span>{% endfor -%}
+    {%- for g in groups %}<span data-lang="{{ g.langs }}" lang="{{ g.lang }}" dir="{{ g.dir }}">{{ g.title_html|safe }}</span>{% endfor -%}
     </h1>
     <div class="sub">
-    {%- for g in groups %}<span data-lang="{{ g.langs }}">{{ g.subtitle|safe }}</span>{% endfor -%}
+    {%- for g in groups %}<span data-lang="{{ g.langs }}" lang="{{ g.lang }}" dir="{{ g.dir }}">{{ g.subtitle|safe }}</span>{% endfor -%}
     </div>
   </header>
 
@@ -56,7 +59,8 @@
     {# data-speak-lang is the language of the body itself, which is not always
        the reader's: an untranslated daf shows its English sheet to a Spanish
        reader, and speak.js must pick a voice for what is written here. #}
-    <div class="sheet" data-lang="{{ g.langs }}" data-speak-lang="{{ g.lang }}">
+    <div class="sheet" data-lang="{{ g.langs }}" data-speak-lang="{{ g.lang }}"
+         lang="{{ g.lang }}" dir="{{ g.dir }}">
       {{ g.learn_html|safe }}
       {% if g.tomorrow.ref %}
       <p class="tomorrow">{{ ui[g.lang].tomorrow }}{% if g.tomorrow.display %} ({{ g.tomorrow.display }}){% endif %}:

@@ -56,19 +56,27 @@ HEB_RUN = re.compile(r"[{c}]+(?:[\s־׀׃׳״.,;:!?'\"()\[\]–—-]*[{c}]+)*".f
 TAG = re.compile(r"(<[^>]+>)")
 TABLE = re.compile(r"(<table\b.*?</table>)", re.S)
 
-# The label the toggle shows is the language it switches TO.
-SWITCH = {"en": {"label": "Español", "title": "Ver en español"},
-          "es": {"label": "English", "title": "View in English"}}
+# The label the toggle shows is the language it switches TO, and LANGS is a
+# cycle rather than a pair — with three languages the button steps en → es → he.
+SWITCH = {l: {"label": i18n.NAME[i18n.next_lang(l)],
+              "title": i18n.VIEW_IN[i18n.next_lang(l)]} for l in i18n.LANGS}
 
 
-def hebrew_spans(fragment):
+def hebrew_spans(fragment, lang=i18n.DEFAULT):
     """Wrap runs of Hebrew in <span lang="he" dir="rtl">.
 
     The stylesheet has always had a :lang(he) rule, but nothing ever emitted
     the attribute — so Hebrew rendered in the Latin serif, and a quoted phrase
     followed by a comma could reorder on screen. Applied only to text between
     tags, never inside markup.
+
+    A sheet written in Hebrew is skipped entirely: the whole block is already
+    marked he/rtl by the template, and marking every run inside it again would
+    isolate each one from the punctuation between them — the reverse of what
+    this is for.
     """
+    if i18n.is_rtl(lang):
+        return fragment
     out = []
     for part in TAG.split(fragment):
         if part.startswith("<"):
@@ -79,18 +87,18 @@ def hebrew_spans(fragment):
     return "".join(out)
 
 
-def inline_md(text):
+def inline_md(text, lang=i18n.DEFAULT):
     """The small subset of markdown that appears inside quiz strings."""
     t = html_mod.escape(str(text).strip())
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"\*(.+?)\*", r"<em>\1</em>", t)
     t = re.sub(r"`(.+?)`", r"<code>\1</code>", t)
-    return hebrew_spans(t)
+    return hebrew_spans(t, lang)
 
 
-def render_body(md_text):
+def render_body(md_text, lang=i18n.DEFAULT):
     body = markdown.markdown(md_text, extensions=["tables", "sane_lists", "smarty"])
-    body = hebrew_spans(body)
+    body = hebrew_spans(body, lang)
     # wide term tables must scroll inside themselves, not push the page sideways
     return TABLE.sub(r'<div class="table-scroll">\1</div>', body)
 
@@ -102,10 +110,10 @@ def quiz_payload(s):
         letter = str(q.get("correct", "")).strip().lower()
         out.append({
             "n": i,
-            "q": inline_md(q.get("q", "")),
-            "opts": [inline_md(o) for o in q.get("opts", [])],
+            "q": inline_md(q.get("q", ""), s.lang),
+            "opts": [inline_md(o, s.lang) for o in q.get("opts", [])],
             "correct": LETTERS.index(letter) if letter in LETTERS else 0,
-            "why": inline_md(q.get("why", "")),
+            "why": inline_md(q.get("why", ""), s.lang),
         })
     return out
 
@@ -117,7 +125,8 @@ def cards_payload(s):
     never drift from the sheet — there is one glossary, written once.
     """
     rows = validate_mod.terms_table(s) or []
-    return [{"t": inline_md(r[0]), "m": inline_md(" — ".join(c for c in r[1:] if c))}
+    return [{"t": inline_md(r[0], s.lang),
+             "m": inline_md(" — ".join(c for c in r[1:] if c), s.lang)}
             for r in rows if len(r) >= 2 and r[0].strip() and r[1].strip()]
 
 
@@ -244,9 +253,13 @@ def language_groups(s, has_cards=False):
         groups.append({
             "langs": " ".join(g["langs"]),
             "lang": v.lang,
-            "title_html": hebrew_spans(html_mod.escape(v.title)),
-            "subtitle": hebrew_spans(v.subtitle),
-            "learn_html": render_body(body_md),
+            # The direction of the sheet, which is not always the reader's: a
+            # Hebrew reader on an untranslated daf gets the English sheet, and
+            # that block has to stay left-to-right inside an RTL page.
+            "dir": i18n.dir_of(v.lang),
+            "title_html": hebrew_spans(html_mod.escape(v.title), v.lang),
+            "subtitle": hebrew_spans(v.subtitle, v.lang),
+            "learn_html": render_body(body_md, v.lang),
             "tomorrow": v.tomorrow,
         })
     return groups
@@ -309,7 +322,7 @@ def main():
     def config(self_file=None, with_manifest=False):
         """Only index and archive need the manifest; a daf page needs the
         language list and nothing more."""
-        cfg = {"langs": i18n.LANGS}
+        cfg = {"langs": i18n.LANGS, "rtl": i18n.RTL}
         if with_manifest:
             cfg.update(pin=settings["pin"], offset=settings["offset"], dapim=dapim)
         if self_file:
@@ -319,6 +332,7 @@ def main():
     common = {
         "langs": i18n.LANGS,
         "default_lang": i18n.DEFAULT,
+        "default_dir": i18n.dir_of(i18n.DEFAULT),
         "ui": i18n.UI,
         "switch": SWITCH,
         "site_url": settings["site_url"],
@@ -331,13 +345,22 @@ def main():
     daf_tpl = env.get_template("daf.html")
 
     def render_daf(s, is_index):
-        quiz_by_lang = {l: quiz_payload(s.variant(l)) for l in i18n.LANGS}
+        # Keyed by the reader's language, but each entry also names the language
+        # its content is actually written in — on an untranslated daf that is
+        # the English quiz sitting under the Hebrew key, and quiz.js has to know
+        # so it can show it as the English quiz rather than frame it in Hebrew
+        # and turn it right to left.
+        quiz_by_lang = {l: {"lang": s.variant(l).lang, "qs": quiz_payload(s.variant(l))}
+                        for l in i18n.LANGS}
         # A language with too thin a glossary is left out entirely rather than
         # given an empty deck, so cards.js falls back to English for it — the
         # same way an untranslated body does.
-        cards_by_lang = {l: c for l, c in
-                         ((l, cards_payload(s.variant(l))) for l in i18n.LANGS)
-                         if len(c) >= MIN_CARDS}
+        cards_by_lang = {}
+        for l in i18n.LANGS:
+            v = s.variant(l)
+            deck = cards_payload(v)
+            if len(deck) >= MIN_CARDS:
+                cards_by_lang[l] = {"lang": v.lang, "cards": deck}
         has_cards = bool(cards_by_lang)
         return daf_tpl.render(
             groups=language_groups(s, has_cards),
