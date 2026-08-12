@@ -21,7 +21,8 @@ forgotten on the command line.
 | `dafpdf.py` | where the printed page lives: tractate name -> shas.org's, and does it answer |
 | `build.py` | renders the pages, the archive, the manifest and `assets/` |
 | `templates/` | Jinja: `base.html`, `daf.html`, `archive.html` |
-| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `daf.js`, `speak.js`, `zman.js` — copied to `assets/` with a content hash |
+| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `daf.js`, `speak.js`, `zman.js`, the `icon-*.png` set and `manifest.webmanifest` — copied to `assets/` with a content hash |
+| `icons.py` | draws the home-screen icons into `static/`. Run by hand after a design change, not by the build |
 | `check_browser.js` | drives the built site in headless Chrome (needs `puppeteer-core`) |
 | `migrate_legacy.py` | one-off, already run; its inputs no longer exist. Deletable |
 

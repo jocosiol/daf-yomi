@@ -25,7 +25,18 @@
 {% endif %}
 {% endfor %}
 <meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📖</text></svg>">
+<link rel="icon" href="{{ asset('icon-32.png') }}" sizes="32x32">
+<link rel="icon" href="{{ asset('icon-192.png') }}" sizes="192x192">
+{# iOS reads only this one when the page is added to the home screen, and it
+   ignores the manifest's icons entirely. Its size is fixed at 180. #}
+<link rel="apple-touch-icon" href="{{ asset('icon-180.png') }}">
+<meta name="apple-mobile-web-app-title" content="Daf Yomi">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+{# start_url is index.html, so the saved icon always opens today's daf — not
+   whichever daf happened to be on screen when it was saved. #}
+<link rel="manifest" href="{{ asset('manifest.webmanifest') }}">
 <link rel="stylesheet" href="{{ asset('daf.css') }}">
 {# |safe: this is JSON, not markup. Autoescaping it would turn every quote into
    &#34;, which a <script> block does not decode — JSON.parse would then throw
