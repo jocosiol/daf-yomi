@@ -1,0 +1,195 @@
+{
+ "tractate": "Chullin",
+ "page": 110,
+ "fetched": "2026-08-12",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 110a",
+   "he_ref": "חולין ק״י.",
+   "url": "https://www.sefaria.org/Chullin.110a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=110&amud=a",
+   "segments": [
+    {
+     "he": "שֶׁבִּשְּׁלָהּ בַּחֲלָבָהּ – אֲסוּרָה, דַּאֲפִילּוּ דִּיעֲבַד נָמֵי לָא, תְּנָא נָמֵי רֵישָׁא שֶׁבִּשְּׁלָהּ.",
+     "en": "of a suckling lamb or calf <b>that one cooked</b> together <b>with</b> the <b>milk</b> it contains <b>is prohibited.</b> There, <b>even</b> if one roasted it he may <b>not</b> eat it <b>after the fact.</b> To preserve symmetry, the <i>tanna</i> of the <i>baraita</i> <b>taught</b> in <b>the first clause</b> in this manner <b>as well,</b> stating: An udder <b>that one cooked</b> in its milk is permitted.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "כִּי סְלֵיק רַבִּי אֶלְעָזָר, אַשְׁכְּחֵיהּ לִזְעֵירִי, אֲמַר לֵיהּ: אִיכָּא תַּנָּא דְּאַתְנְיֵיהּ לְרַב כְּחָל? אַחְוְיֵיהּ לְרַב יִצְחָק בַּר אֲבוּדִימִי. אֲמַר לֵיהּ: אֲנִי לֹא שָׁנִיתִי לוֹ כְּחָל כׇּל עִיקָּר, וְרַב – בִּקְעָה מָצָא וְגָדַר בָּהּ גָּדֵר.",
+     "en": "§ The Gemara above cited a second version of Rav’s opinion, according to which an udder that was roasted without being torn is prohibited for consumption. The Gemara relates: <b>When Rabbi Elazar ascended</b> from Babylonia to Eretz Yisrael <b>he found Ze’eiri</b> and <b>said to him: Is there a <i>tanna</i> who taught Rav</b> that <b>an udder</b> roasted without first being torn is prohibited? Ze’eiri <b>showed him Rav Yitzḥak bar Avudimi.</b> Rav Yitzḥak bar Avudimi <b>said to</b> Rabbi Elazar: <b>I did not teach</b> Rav that <b>an udder</b> is prohibited <b>at all;</b> rather, <b>Rav found</b> an unguarded <b>valley and fenced it in.</b> Rav taught this stringent ruling as an additional safeguard in Babylonia, where Jews were not careful about the prohibition of meat cooked in milk.",
+     "rashi": [
+      "<b>איכא תנא</b> — בהאי דוכתא:",
+      "<b>דאתנייה לרב כחל</b> — יש כאן מי ששנה לרב כחל שבשלו בלא קריעה אסור באכילה ולישנא בתרא דרב הוה שמיעא ליה לרבי אלעזר:",
+      "<b>אחוייה</b> — בני המקום:",
+      "<b>לרב יצחק</b> — אמרו לו לרבי אלעזר זה שנאה לו:",
+      "<b>אני לא שניתי לו כחל כל עיקר</b> — כלומר שום כחל לא שניתי לו לאיסור בין כחל מניקה ובין כחל שאינה מניקה:",
+      "<b>ורב</b> — ששנה להם כחל שאסור:",
+      "<b>בקעה מצא</b> — כלומר ראה שהיו מזלזלים באיסור בשר בחלב והחמיר עליהן:"
+     ],
+     "tosafot": [
+      "<b>איכא תנא דאתנייה לרב כחל אחוייה ליה לרב יצחק בר אבודימי</b> — וכן בפרק המוכר את הספינה (ב\"ב דף פז.) איכא תנא דאתנייה לרב מידות אתוי ליה רב יצחק בר אבודימי והקשה רבינו שמואל דהא רב יצחק בר אבודימי היה רבו של רבא כדאמר בריש יבמות (דף ג.) ובריש פ' אלו הן הנשרפין (סנהדרין דף עו.) אמר רבא א\"ל רב יצחק בר אבודימי אתיא הנה הנה וכו' ואיך יתכן דרב יצחק בר אבודימי שהיה רבו של רב שהיה חי עד רבא והלא ביום שמת רב יהודה שהיה תלמידו של רב נולד רבא וגרס התם רבינו שמואל איכא תנא דאתנייה רב מדות וקשה לר\"ת דהכא בשמעתין אין שייך לומר כן דקאמר אני לא שניתי לו ומיהו יש לפרש לו כמו ממנו כמו (ב\"מ דף לג.) תלמיד ורבו צריך לו אבל הא דקאמר ומתוך פלפולו של רבי חייא שנה לו כחל סתם לא אתי שפיר ואור\"ת דשנים היו אחד היה בימי רבינו הקדוש דאמרינן פרק כירה (שבת דף מ:) דאמר רב יצחק בר אבודימי פעם אחת נכנסתי אחר רבי לבית המרחץ ואותו יכול להיות שהיה רבו של רב וקשה קצת דאם רב יצחק בר אבודימי דהמוכר את הספינה היה רבו של רב היכי קאמר לרבי אלעזר התם הא איתמר עלה אמר ר' אבהו אמר ר' יוחנן והלא ר' יוחנן שהיה רבו של ר' אבהו היה קורא לרב רבינו כדאמרינן באלו טרפות (לעיל חולין דף נד):",
+      "<b>דאתנייה לרב כחל</b> — פי' בקונטרס יש כאן מי ששנה לרב כחל שבשלו בלא קריעה אסור באכילה ולישנא בתרא דרב הוה שמיע ליה לר' אלעזר ונראה דלא קאי אהנהו לישני דלעיל אלא שמע שהיה רב אוסר כחל ואפילו בקריעת שתי וערב כדאמרינן בסמוך בסורא לא אכלי כחלי אע\"ג דמתניתין שריא ליה בקריעה והיה תמיה ר\"א והשיב לו רבי יצחק בר אבודימי דרב בקעה מצא וגדר בה גדר ורב יוסף קאמר דכחל מניקה שנה לו דאסור אפילו בקריעה ומתניתין כשאינה מניקה ור' חייא שנה לו כחל סתם והיה סבור שיבין רב מעצמו ולא הבין וטעה בדבריו והיה סבור שמכח שום ברייתא היה בא לחלוק על משנתנו לאסור כל כחל אפילו בקריעה ואנן דאכלינן כחלי אפילו של מניקה בקריעה סמכינן אלישנא דרב בקעה מצא ואין חילוק בין מניקה לשאינה מניקה וגם אעובדא דרבין ורב יצחק בר יוסף דאייתו קמייהו תבשיל דכחלי ואכל רב יצחק ומסתמא של מניקה היה מדלא רצה רבין לאכול ורב יצחק עיקר מדאמר אביי רבין תיכלא אמאי לא אכל וגם מעובדא דרמי בר תמרי דנקטינהו לכולהו כחלי ואפילו של מניקה ואכל:"
+     ]
+    },
+    {
+     "he": "דְּרַב אִיקְּלַע לְטַטְלְפוּשׁ, שַׁמְעַהּ לְהַהִיא אִיתְּתָא דְּקָאָמְרָה לַחֲבִירְתַּהּ: רִיבְעָא דְּבִשְׂרָא כַּמָּה חֲלָבָא בָּעֵי לְבַשּׁוֹלֵי? אָמַר: לָא גְּמִירִי דְּבָשָׂר בְּחָלָב אָסוּר, אִיעַכַּב (וְקָאָסַר) [וַאֲסַר] לְהוּ כַּחְלֵי.",
+     "en": "The Gemara elaborates: <b>As</b> when <b>Rav arrived in Tatlefush, he heard a certain woman saying to another: How much milk does it require to cook a quarter</b> weight <b>of meat?</b> Rav <b>said:</b> Evidently, these people <b>are not learned</b> enough in <i>halakha</i> to know <b>that meat</b> cooked <b>in milk is prohibited.</b> Rav <b>tarried</b> in that place, <b>and prohibited</b> even <b>udders to them,</b> so that they would not come to violate the prohibition of meat cooked in milk.",
+     "rashi": [
+      "לטטלפוש:",
+      "<b>ריבעא</b> — ליטרא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַב כָּהֲנָא מַתְנֵי הָכִי. רַבִּי יוֹסֵי בַּר אַבָּא מַתְנֵי: אֲנָא, כְּחָל שֶׁל מְנִיקָה שָׁנִיתִי לוֹ, וּמִפִּלְפּוּלוֹ שֶׁל רַב חִיָּיא שְׁנָה לֵיהּ כְּחָל סְתָם.",
+     "en": "<b>Rav Kahana teaches</b> that Rav Yitzḥak bar Avudimi replied to Rabbi Elazar in <b>that</b> manner described above. By contrast, <b>Rabbi Yosei bar Abba teaches</b> that Rav Yitzḥak bar Avudimi said: <b>I taught</b> Rav only that <b>the udder of</b> an animal <b>nursing</b> offspring is prohibited, as its udder contains much milk. <b>And due to the sharp</b> mind <b>of Rav Ḥiyya,</b> Rav’s teacher, he assumed that Rav too would understand this without his saying so explicitly. Therefore, he <b>taught</b> this <i>halakha</i> to Rav with regard to <b>an unspecified udder.</b> Rav mistakenly thought that the ruling applies to all animals.",
+     "rashi": [
+      "<b>רב כהנא מתני הכי</b> — כמו שאמרנו שכן השיבו רב יצחק לרבי אלעזר לא שניתי לו כל עיקר:",
+      "<b>כחל מניקה</b> — שהיתה מניקה ויש בדדיה חלב כנוס הרבה:",
+      "<b>ומתוך פלפולו של רבי חייא</b> — שהוא מחודד מאד ומבין מעצמו וכסבור שתלמידיו מחודדין כמותו כשחזר ושנאה לפני ר' חייא שנה לו סתם וסבור שיבין רב שאין אסור אלא מניקה ולא הבין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רָבִין וְרַב יִצְחָק בַּר יוֹסֵף אִיקְּלַעוּ לְבֵי רַב פַּפֵּי, אַיְיתוֹ לְקַמַּיְיהוּ תַּבְשִׁילָא דִּכְחָל. רַב יִצְחָק בַּר יוֹסֵף אֲכַל, רָבִין לָא אֲכַל. אָמַר אַבָּיֵי: רָבִין תַּכָּלָא, אַמַּאי לָא אֲכַל? מִכְּדֵי, דְּבֵיתְהוּ דְּרַב פַּפֵּי בְּרַתֵּיה דְּרַבִּי יִצְחָק נַפָּחָא הֲוַאי, וְרַבִּי יִצְחָק נַפָּחָא מָרֵיהּ דְּעוֹבָדָא הֲוָה, אִי לָאו דִּשְׁמִיעַ לַהּ מִבֵּי נָשָׁא לָא הֲוָה עָבְדָא.",
+     "en": "The Gemara relates that <b>Ravin and Rav Yitzḥak bar Yosef arrived at the house of Rav Pappi.</b> The servants <b>brought before them a dish</b> made <b>of udder. Rav Yitzḥak bar Yosef ate</b> of it, but <b>Ravin did not eat. Abaye said: Bereaved Ravin, why do you not eat? After all, Rav Pappi’s wife is the daughter of Rabbi Yitzḥak Nappaḥa, and Rabbi Yitzḥak Nappaḥa was a master of</b> good <b>deeds,</b> who was meticulous in his performance of mitzvot. <b>Had</b> Rav Pappi’s wife <b>not heard in her father’s house</b> that such a dish is permitted, <b>she would not have made</b> it.",
+     "rashi": [
+      "<b>תכלא</b> — שכול קובר את בניו:",
+      "<b>מרא דעובדא</b> — זהיר במעשים טובים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בְּסוּרָא לָא אָכְלִי כַּחְלֵי, בְּפוּמְבְּדִיתָא אָכְלִי כַּחְלֵי. רָמֵי בַּר תַּמְרֵי, דְּהוּא רָמֵי בַּר דִּיקּוּלֵי, מִפּוּמְבְּדִיתָא אִיקְּלַע לְסוּרָא בְּמַעֲלֵי יוֹמָא דְכִפּוּרֵי. אַפְּקִינְהוּ כּוּלֵּי עָלְמָא לְכַחְלִינְהוּ שְׁדִינְהוּ, אֲזַל אִיהוּ נַקְטִינְהוּ אַכְלִינְהוּ.",
+     "en": "The Gemara relates: <b>In Sura they would not eat udders</b> at all, even torn and roasted. But <b>in Pumbedita they would eat udders. Rami bar Tamrei, who is</b> also called <b>Rami bar Dikulei, from Pumbedita, arrived in Sura on the eve of Yom Kippur.</b> Since it is a mitzva to eat and drink then, large quantities of meat were cooked, and <b>everyone brought out their udders</b> from the animals they had slaughtered and <b>threw them</b> away. Rami bar Tamrei <b>went</b> and <b>gathered</b> the udders, roasted them, and <b>ate them,</b> in accordance with his custom.",
+     "rashi": [
+      "<b>לא אכלי כחלי</b> — לגמרי אפילו צלי ואפילו קרעו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַיְיתוּהּ לְקַמֵּיהּ דְּרַב חִסְדָּא, אֲמַר לֵיהּ: אַמַּאי תַּעֲבֵיד הָכִי? אֲמַר לֵיהּ: מֵאַתְרָא דְּרַב יְהוּדָה אֲנָא, דְּאָכֵיל. אֲמַר לֵיהּ: וְלֵית לָךְ נוֹתְנִין עָלָיו חוּמְרֵי הַמָּקוֹם שֶׁיָּצָא מִשָּׁם וְחוּמְרֵי הַמָּקוֹם שֶׁהָלַךְ לְשָׁם? אֲמַר לֵיהּ: חוּץ לַתְּחוּם אֲכַלְתִּינְהוּ.",
+     "en": "The residents of Sura <b>brought</b> Rami bar Tamrei <b>before Rav Ḥisda,</b> who <b>said to him: Why did you do this?</b> Rami bar Tamrei <b>said to</b> Rav Ḥisda: <b>I am from the place of Rav Yehuda, who eats</b> udders, and this is the accepted custom in Pumbedita. Rav Ḥisda <b>said to him: And do you not hold</b> by the principle that the Sages <b>impose upon</b> a traveler <b>the stringencies of the place that he left and</b> also <b>the stringencies of the place to which he went?</b> You should have accepted the stringency of Sura and not eaten the udders. Rami bar Tamrei <b>said to</b> Rav Ḥisda: That principle applies only to one who remains in the place he is visiting, but <b>I ate</b> the udders <b>outside the boundaries</b> of Sura.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וּבְמָה טְוִיתִינְהוּ? אֲמַר לֵיהּ: בְּפוּרְצָנֵי. וְדִלְמָא מִיֵּין נֶסֶךְ (הָוְיָא) [הֲווֹ]? אֲמַר לֵיהּ: לְאַחַר שְׁנֵים עָשָׂר חֹדֶשׁ הֲווֹ.",
+     "en": "Rav Ḥisda further asked Rami bar Tamrei: <b>And with what did you roast</b> the udders? Rami bar Tamrei <b>said to him:</b> I roasted them <b>with grape seeds</b> [<b><i>purtzenei</i></b>] I found in the vines there. Rav Ḥisda objected: <b>But</b> how could you roast the udders with grape seeds, as <b>perhaps they were from wine</b> used for <b>a libation</b> to idolatry, from which it is prohibited to derive benefit. Rami bar Tamrei <b>said to him:</b> These <b>were</b> old seeds that still lay there <b>after twelve months</b> had passed since the grapes were used, and any prohibition had expired, as by that point they are assumed to have lost any prohibited liquid that previously remained inside (see <i>Avoda Zara</i> 34a).",
+     "rashi": [
+      "<b>במאי טויתינהו</b> — היכן הוו לך שם עצים:",
+      "<b>בפורצני</b> — חרצנים שאצל היקבים והבערתים:",
+      "<b>לאחר שנים עשר חדש הוה</b> — ותנן במס' ע\"ז (דף לד.) לחים אסורין יבשין מותרין ואלו הם לחים כל שנים עשר חדש:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְדִלְמָא דְּגָזֵל הֲוָה? אֲמַר לֵיהּ: יֵאוּשׁ בְּעָלִים הֲוָה, דִּקְדַחוּ בְּהוּ חִילְפֵי.",
+     "en": "Rav Ḥisda further objected: <b>But perhaps</b> these seeds <b>were from stolen</b> property, i.e., they belonged to someone and it was prohibited for you to take them. Rami bar Tamrei <b>said to him:</b> Even so, in this case <b>there was</b> certainly <b>despair of the owners</b> of recovering them, <b>as grass was growing among them.</b> Since the owners had allowed them to lie there for so long, they had clearly given up all hope of retrieving them.",
+     "rashi": [
+      "<b>דקדחו בהו חילפי</b> — גדלו בהם מחמת שנרקבו ונעשו עפר:",
+      "<b>חילפי</b> — אורטיי\"ש והואיל ומתקלקלין ונרקבין ולא נטלו משם ש\"מ אינו חושש:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "חַזְיֵיהּ דְּלָא הֲוָה מַנַּח תְּפִילִּין, אֲמַר לֵיהּ: מַאי טַעְמָא לָא מַנְּחַתְּ תְּפִילִּין? אֲמַר לֵיהּ: חוֹלֵי מֵעַיִין הוּא, וְאָמַר רַב יְהוּדָה: חוֹלֵי מֵעַיִין פָּטוּר מִן הַתְּפִילִּין.",
+     "en": "Rav Ḥisda <b>saw that</b> Rami bar Tamrei <b>had not donned phylacteries,</b> and <b>said to him: What is the reason that you have not donned phylacteries?</b> Rami bar Tamrei <b>said to him: He,</b> i.e., I, am suffering from <b>intestinal illness, and Rav Yehuda said</b> that one who has <b>intestinal illness is exempt from the</b> mitzva of <b>phylacteries,</b> which require a clean body, because he would have to remove them constantly to defecate.",
+     "rashi": [
+      "<b>פטור מן התפילין</b> — מפני שצריך לחלצן תדיר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "חַזְיֵיהּ דְּלָא הֲוָה קָא רָמֵי חוּטֵי, אֲמַר לֵיהּ: מַאי טַעְמָא לֵית לָךְ חוּטֵי? אֲמַר לֵיהּ: טַלִּית שְׁאוּלָה הִיא, וְאָמַר רַב יְהוּדָה:",
+     "en": "Rav Ḥisda further <b>saw that</b> Rami bar Tamrei <b>had not placed</b> the <b>threads</b> of ritual fringes on his garment and <b>said to him: What is the reason that you do not have</b> the <b>threads</b> of ritual fringes? Rami bar Tamrei <b>said to him: It is a borrowed robe, and Rav Yehuda said:</b>",
+     "rashi": [
+      "<b>דלא הוה רמי חוטי</b> — לא הטיל ציצית לטליתו:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 110b",
+   "he_ref": "חולין ק״י:",
+   "url": "https://www.sefaria.org/Chullin.110b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=110&amud=b",
+   "segments": [
+    {
+     "he": "טַלִּית שְׁאוּלָה כׇּל שְׁלֹשִׁים יוֹם פְּטוּרָה מִן הַצִּיצִית.",
+     "en": "With regard to <b>a borrowed robe,</b> during <b>all</b> of the first <b>thirty days</b> that one borrows it, one is <b>exempt from</b> performing the mitzva of <b>ritual fringes</b> with it.",
+     "rashi": [],
+     "tosafot": [
+      "<b>טלית שאולה פטורה כל שלשים יום כו'</b> — מדאורייתא פטורה לעולם כדקאמר בראשית הגז (לקמן חולין דף קלז.) כסותך ולא של אחרים אלא לפי שנראית כשלו חייבוהו חכמים משלשים יום ואילך דאין דרך לישאל יותר משלשים יום ומכאן מדקדק ר\"ת דסתם שאלה שלשים יום כמו הלואה דאמרינן במכות (דף ג:) המלוה את חבירו סתם אין רשאי לתובעו פחות משלשים יום ונראה דאין ראיה מזה דה\"נ אמרינן בהתכלת (מנחות דף מד.) השוכר בית בחוצה לארץ כל שלשים יום פטור מן המזוזה אע\"ג דסתם שכירות לא הויא שלשים יום ולענין ברכה נראה שאין לברך על השאולה אע\"פ שאומר ר\"ת דנשים מברכות אסוכה אע\"ג דפטורות דהוי אינה מצווה ועושה מדאשכחן רב יוסף דאמר מאן דאמר לי הלכה כרבי יהודה דאמר סומא פטור מן המצות עבידנא יומא טבא לרבנן ואם לא היה יכול לברך כל הברכות לא היה שמח בדבר מ\"מ לא דמי לטלית שאולה דהתם אדם אחר היה חייב שאינו סומא או שאינה אשה אבל הכא כל אדם פטור כשאינו שלו ואעפ\"כ המברך לא הפסיד וי\"מ דאם היא של כלאים כגון תכלת דאסורה כיון דפטורה מדאורייתא ואומר ר\"ת דאין לחוש מדאמרינן בריש התכלת (מנחות דף מ:) ותכלת אין בה משום כלאים ואפילו בטלית פטורה ומסיק כגון שהטיל למוטלת פירוש טלית שיש בה ציצית כבר ולא בעי למימר כגון שאחר כך הסיר הראשונים וקמ\"ל דלא הויא פסולה משום תעשה ולא מן העשוי דאם כן למה ליה למימר אין בה משום כלאים לימא הטיל למוטלת כשרה אלא הא קמ\"ל כל טלית דאשתרי בה כלאים דהיינו בתכלת מותר בכל ענינים בין להתעטף בין להציע תחתיו בין לו בין לחבירו בין לאשתו בין ביום בין בלילה דלגמרי שרא ביה כלאים והא דאמרינן בפרק במה מדליקין (שבת דף כה:) גזירה משום כסות לילה לא כמו שפירש בקונטרס שמא יתכסה בה בלילה אלא גזירה משום כסות המיוחד ללילה דלא אשתרי בה כלאים כלל דאימעיט מוראיתם ור' אלעזר ממי\"ץ הקשה לו דאמר בריש ערכין (דף ג:) הכל חייבים בציצית כהנים לוים וישראלים ומפרש דכהנים אצטריך ליה דסלקא דעתך אמינא הואיל ואשתרי כלאים גבייהו לא ליחייבו קמ\"ל נהי דאישתרי בעידן עבודה שלא בעידן עבודה לא אישתרי ולא אמרינן דאישתרי בכל ענין ואומר ר\"ת דהתם נמי אישתרו בכל ענין אפילו שלא בעידן עבודה כדאמרינן בפרק בא לו (יומא דף סח.) גבי בגדי כהונה ניתנו ליהנות בהם או לא ת\"ש לא היו ישנים בבגדי כהונה שינה הוא דלא הא הלוכי מהלכי ועוד תניא התם גבי בגדי כהונה דלצאת בהם במדינה אסור פירוש משום איסור הקדש ובמקדש מותר בין בשעת עבודה בין שלא בשעת עבודה והא דקאמר נהי דאשתרו בשעת עבודה כלומר בגדים שלובשים בשעת עבודה שלא בשעת עבודה פירוש בגדי חול מי אישתרו בכלאים ומיהו משמע התם דלא שרו אלא דרך לבישה דבעי למידק התם דניתנו ליהנות בהם מדקתני פושטים אותם ומקפלים ומניחין אותם תחת ראשיהם ודחי לא תימא תחת ראשיהם אלא אימא כנגד ראשיהם וה\"נ מסתברא דאי ס\"ד תחת ראשיהם נהי דנתנו ליהנות בהם תיפוק ליה משום כלאים ולפי זה בטלית שאולה היה אסור להציעו תחתיו ומיהו נראה שיש לחלק בין טלית שכל עיקר לבישתה לצורך הנאתו ובין בגדי כהונה שעיקר לבישתן לצורך עבודה:"
+     ]
+    },
+    {
+     "he": "אַדְּהָכִי, אַיְיתוּהּ לְהָהוּא גַּבְרָא דְּלָא הֲוָה מוֹקַר אֲבוּהּ וְאִמֵּיהּ, כַּפְתוּהּ.",
+     "en": "<b>Meanwhile,</b> as Rav Ḥisda and Rami bar Tamrei were talking, the attendants <b>brought</b> in <b>a certain man</b> to Rav Ḥisda’s court <b>who would not honor his father and mother,</b> and <b>they tied him</b> to a pillar in order to flog him.",
+     "rashi": [
+      "<b>כפתוהו</b> — על העמוד להלקותו כדתניא (כתובות דף פו.) בד\"א דארבעים ותו לא במצות לא תעשה שכבר נעשית העבירה אבל מצות עשה שלפניו ואינו רוצה לקיימה כגון אומרין לו עשה סוכה ואינו עושה עשה לולב ואינו עושה מכין אותו עד שתצא נפשו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לְהוּ: שִׁבְקוּהּ, דְּתַנְיָא: כׇּל מִצְוַת עֲשֵׂה שֶׁמַּתַּן שְׂכָרָהּ בְּצִדָּהּ – אֵין בֵּית דִּין שֶׁלְּמַטָּה מוּזְהָרִין עָלֶיהָ. אֲמַר לֵיהּ חֲזֵינָא לָךְ דְּחָרִיפַתְּ טוּבָא. אֲמַר לֵיהּ: אִי הֲוֵית בְּאַתְרֵיהּ דְּרַב יְהוּדָה, אַחְוִינָא לָךְ חוּרְפַּאי.",
+     "en": "Rami bar Tamrei <b>said to them: Leave him</b> alone, <b>as it is taught</b> in a <i>baraita</i>: With regard to <b>any positive mitzva whose reward</b> is stated <b>alongside it</b> in the Torah, <b>the</b> earthly <b>court below is not warned to</b> enforce <b>it</b> through punishments such as flogging. And it is stated after the mitzva of honoring one’s father and mother: “That your days may be long, and that it go well with you” (Deuteronomy 5:16). Rav Ḥisda <b>said to</b> Rami bar Tamrei: <b>I see that you are very sharp.</b> Rami bar Tamrei <b>said to</b> Rav Ḥisda: <b>If you were in the place where Rav Yehuda</b> resides, <b>I would</b> be able to <b>show you my sharpness</b> of mind far better than here.",
+     "rashi": [
+      "<b>שמתן שכרה בצדה</b> — למען יאריכון ימיך (שמות כ) לכך פירש מתן שכרה לומר אם לא תקיימנה זהו עונשו שלא תטול שכר זה:"
+     ],
+     "tosafot": [
+      "<b>כל מצות עשה שמתן שכרה כו'</b> — וא\"ת והרי צדקה דכתיב פתוח תפתח את ידך וגו' כי בגלל הדבר הזה יברכך וגו' (דברים טו) ואמרינן בפ\"ק דב\"ב (דף ח:) דרבא אכפייה לרב נתן בר אמי ואפיק מיניה ארבע מאות זוז לצדקה ואומר ר\"ת דאכפייה היינו בדברים כדאשכחן פ' נערה בכתובות (דף נג.) אכפייה ועל ועוד דבצדקה נמי איכא לאו לא תקפוץ ולא תאמץ (דברים טו):"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ אַבָּיֵי לְרַב סָפְרָא: כִּי סָלְקַתְּ לְהָתָם, בְּעִי מִינַּיְיהוּ: כַּבְדָּא, מָה אַתּוּן בֵּיהּ? כִּי סְלֵיק, אַשְׁכְּחֵיהּ לְרַב זְרִיקָא. אֲמַר לֵיהּ: אֲנָא שְׁלַקִי לֵיהּ לְרַבִּי אַמֵּי, וַאֲכַל.",
+     "en": "§ Pursuant to the discussion of different local customs, <b>Abaye said to Rav Safra: When you ascend there,</b> to Eretz Yisrael, <b>ask</b> the Sages there: With regard to <b>liver, how do you</b> treat <b>it? When</b> Rav Safra <b>ascended</b> to Eretz Yisrael <b>he found Rav Zerika</b> and asked him this question. Rav Zerika <b>said to him: I cooked</b> liver <b>for Rabbi Ami and he ate</b> it.",
+     "rashi": [
+      "<b>כבדא מה</b> — אתם נוהגין בו מותר לבשל בקדרה או אסור מפני שפולט דם ואע\"פ שכולו דם אפ\"ה לאחר שפירש ויצא הרי הוא דם ואסור:",
+      "<b>כי סליק</b> — רב ספרא:",
+      "<b>אשכחיה לרבי זריקא</b> — ובעא מיניה:",
+      "<b>אמר ליה</b> — ר' זריקא:",
+      "<b>אנא שלקי לר' אמי ואכל</b> — בשלתי לו הכבד ואכלו:"
+     ],
+     "tosafot": [
+      "<b>כבדא מה אתון ביה</b> — אומר ר\"ת דכולה הך שמעתא איירי בכבד שלא נמלח דאי בתר מליחה ושהייה במלח פשיטא דשרי לבשלה בהדי בשר שעל ידי מליחה יצא כל הדם שכך נוהגין העולם לבשל אחר צלייה והוא הדין דשרי אחר מליחה דשיעור מליחה פי' בה\"ג דהוי כשיעור צלייה משום דמליח הרי הוא כרותח דצלי ופולט על ידי מליחה כמו שפולט על ידי צלייה אבל בלא מליחה מיבעיא ליה אי שרי לבשל עם בשר דשמא דם הכבד אע\"פ שפירש מותר אע\"פ שדם שאר האברים שפירש אסור כדאמרינן בפ' קמא דכריתות (דף ד:) חד לדם האברים ולכך אמרינן לקמן (חולין דף קיג.) דאין מולחין בשר אלא בכלי מנוקב דם הכבד שמא שרי דהא כל הכבד דם הוא ושרייה רחמנא כדאמר לעיל (חולין דף קט:) שרא לן כבדא ונראה דמדאורייתא פשיטא ליה דדם הכבד מותר אף על פי שפירש משום דכולו דם הוא כדפירשתי מדלא חשיב פרק דם שחיטה (כריתות דף כא:) דם הכבד דקתני דם הטחול ודם הלב ודם הכליות ודם האברים הרי אלו בלא תעשה אלא מדרבנן מבעיא ליה ואפילו נאסור מדרבנן דם היוצא ממנו על ידי מליחה לפי שהוא בעין גזירה אטו שאר דם כי היכי דגזרינן בדם מהלכי שתים דאמרינן (שם דף כא:) שבין השינים מוצצו שעל הככר גוררו מ\"מ מיבעיא ליה בבשול לפי שאינו ניכר הדם כלל ולכך יהא מותר ולא נגזור בשול כבד אטו בשול בשר אחר בלא מליחה ועוד יש לומר בע\"א דבלא מליחה פשיטא דאסור ועל ידי מליחה הוא דמבעיא ליה כיון שיש בכבד רוב דם שמא אינו יוצא כולו על ידי מליחה או שמא יוצא ומיהו קשה קצת דקאמר בסמוך למיסר חבירתה נמי לא תבעי לך דתנן הכבד אוסרת הא איכא לאוקמי בשלא נמלחה ולפירוש רבינו תם ניחא וי\"ל דמשמע ליה דמיירי אחר מליחה כמו שדרך לבשל בשר ולקמן (חולין דף קיא.) גבי בר שבא דאייתו לקמיה כבדא שליקא ולא אכל לפירוש ר\"ת צריך לומר דיודע היה שלא נמלחה הכבד והא נמי דפשיט מההוא דקריבי קניא בקופיה יודע היה שלא נמלחה הכבד אף על פי שצ\"ל כי הריאה והלב שהיו עם הכבד נמלחו ואין לתמוה על זה דכמה דברים היו עושין כדי להראות הלכה לתלמידים אי נמי כל שלשתן נמלחו אלא דלכבד לא מהניא מליחה אלא בקריעת שתי וערב וחתוכיה לתחת כדקאמר בסמוך ולקמן (שם) נמי דקאמר אבל לטחול שומנא בעלמא הוא ומייתי מדשמואל דעבדי ליה תבשילא דטחלי ביומא דהקזה היו יודעים דבלא מליחה היו עושין לו דבמליחה כבדא נמי שרי א\"נ התם קאי אקריעה שתי וערב הני מילי כבדא אבל טחלא לא בעי קריעה כי הא דשמואל כו' ויודעין היו דמטחול שלם עבדי ליה ורב אלפס כתב שמנהג בכל ישראל שלא לבשל כבד אפילו אחר מליחה בלא צלייה:"
+     ]
+    },
+    {
+     "he": "כִּי אֲתָא לְגַבֵּיהּ, אֲמַר לֵיהּ: לְמֵיסַר נַפְשַׁהּ – לָא קָא מִיבַּעְיָא לִי, כִּי קָמִבַּעְיָא לִי – לְמֵיסַר חֲבִירְתַּהּ.",
+     "en": "<b>When</b> Rav Safra returned to Babylonia and <b>came before</b> Abaye and reported what Rav Zerika had said, Abaye <b>said to him: I do not raise the dilemma</b> as <b>to</b> whether liver <b>renders itself prohibited</b> if cooked alone. It is clear to me that the blood that diffuses out of the liver is not absorbed again while it cooks. <b>When I raise the dilemma,</b> it is <b>with regard to</b> whether liver <b>renders prohibited another</b> piece of meat cooked with it. Rav Zerika’s statement therefore has no bearing on my question.",
+     "rashi": [
+      "<b>כי אתא</b> — רב ספרא:",
+      "<b>לגביה</b> — דאביי סיפר לו מה ששמע:",
+      "<b>א\"ל</b> — אביי:",
+      "<b>למיסר נפשה</b> — שיהא דם הנפלט ממנה חוזר לתוכה ואוסרת:",
+      "<b>לא מיבעיא לי</b> — דפשיטא לי דכיון דטרודה היא לפלוט ולהוציא כל שעה לא בלעה:",
+      "<b>כי קמיבעיא לי למיסר חבירתה</b> — אם דם היוצא ממנה אוסר בשר אחר המתבשל עמו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַאי שְׁנָא לְמֵיסַר נַפְשַׁהּ דְּלָא מִיבַּעְיָא לָךְ – דִּתְנַן: אֵינָהּ נֶאֱסֶרֶת, לְמֵיסַר חֲבִירְתַּהּ נָמֵי לָא תִּבְּעֵי לָךְ! דִּתְנַן: הַכָּבֵד אוֹסֶרֶת וְאֵינָהּ נֶאֱסֶרֶת, מִפְּנֵי שֶׁהִיא פּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת. אֲמַר לֵיהּ: דִּילְמָא הָתָם בְּכַבְדָּא דְּאִיסּוּרָא,",
+     "en": "Rav Safra asked Abaye: <b>What is different</b> about the issue of the liver <b>rendering itself prohibited, that you did not raise the dilemma</b> with regard to this case? It is presumably because the answer is obvious to you, <b>as we learned</b> in a mishna (<i>Terumot</i> 10:11) that liver <b>is not rendered prohibited</b> by its own cooking. But if so, <b>you should not raise the dilemma with regard to</b> whether it <b>renders the other</b> piece of meat <b>prohibited either, as we learned</b> in that same mishna: <b>Liver renders</b> food cooked with it in the same pot <b>prohibited but is not prohibited</b> itself, <b>because</b> while it does <b>expel</b> blood as it cooks, it <b>does not absorb</b> this blood again, since the blood diffuses only outward. Abaye <b>said to</b> Rav Safra: That mishna does not answer my question, as <b>perhaps there</b> it is referring specifically <b>to forbidden liver,</b> e.g., the liver of a non-kosher animal.",
+     "rashi": [
+      "<b>דתנן הכבד [אוסרת] ואינה נאסרת</b> — כלומר מדפשוט לך בדידה דשריא אלמא שמיעא לך הא מתני' אם כן למיסר נמי חבירתה לא תיבעי לך דהא הך משנה גופה תנן בה דאוסרת ובסדר זרעים היא:",
+      "<b>אמר ליה דלמא ההיא בכבדא דאיסורא</b> — כגון דטרפה:"
+     ],
+     "tosafot": [
+      "<b>דתנן הכבד אוסרת ואינה נאסרת מפני שהיא כו'</b> — משנה היא במסכת תרומות (פ\"י מי\"א) ותימה רב ספרא מעיקרא מאי סבר שלא הביא לו המשנה כמו שמביאה לבסוף דבסתמא גם מתחלה היה יודע דמשניות אפילו דזרעים ודטהרות היו שגורות בפיהם כדפי' בפרק תולין (שבת דף קלח:) גבי עתידה תורה שתשתכח מישראל הא נמי מתניתין היא השרץ שנמצא בתנור הפת שבתוכו שניה מפני שהתנור תחלה ויש לומר דגם בתחלה היה יודע המשנה אבל היה סבור שאביי הוה מסופק בשלוקה אם נאסרת או אינה נאסרת כמבושלת דפליגי בה תנאי בסמוך והיה מסופק היאך הלכה ועל כן הביא לו ראיה מר' זריקא ור' אסי שלקו ליה ואכיל והשיב לו אביי דלמיסר נפשה לא קמיבעיא ליה דאינה נאסרת כת\"ק דרבי ישמעאל בנו של רבי יוחנן בן ברוקה וכסתם מתניתין דתרומות והשיב לו למה אין פשוט לך מתוך אותה משנה עצמה שאתה למד ממנה שאינה נאסרת אפילו בשליקה שאפילו בבישול אוסרת חבירתה:"
+     ]
+    }
+   ]
+  }
+ ]
+}
