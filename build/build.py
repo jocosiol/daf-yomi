@@ -55,6 +55,8 @@ HEB_CHAR = "\u0590-\u05FF\uFB1D-\uFB4F"
 HEB_RUN = re.compile(r"[{c}]+(?:[\s־׀׃׳״.,;:!?'\"()\[\]–—-]*[{c}]+)*".format(c=HEB_CHAR))
 TAG = re.compile(r"(<[^>]+>)")
 TABLE = re.compile(r"(<table\b.*?</table>)", re.S)
+# The section sign Sefaria's English opens a new sugya with (see new_sugya).
+SUGYA_RE = re.compile(r"^\s*§\s*")
 
 # The label the toggle shows is the language it switches TO, and LANGS is a
 # cycle rather than a pair — with three languages the button steps en → es → he.
@@ -130,6 +132,18 @@ def cards_payload(s):
             for r in rows if len(r) >= 2 and r[0].strip() and r[1].strip()]
 
 
+def new_sugya(en):
+    """Sefaria's § — a passage that opens a new topic — said in words.
+
+    Steinsaltz marks the start of a sugya with a bare section sign, which means
+    nothing to a reader who has not learnt to read Sefaria. It carries real
+    information (this is where one discussion ends and the next begins), so it
+    is kept and labelled rather than dropped. Only ever leading: the marker
+    introduces a passage, it never appears inside one.
+    """
+    return SUGYA_RE.sub('<span class="sugya">new sugya</span>', en or "", count=1)
+
+
 def daf_payload(data):
     """A cached daf, plus what the Daf tab should actually offer.
 
@@ -141,6 +155,11 @@ def daf_payload(data):
     """
     if not data:
         return None
+    # Done here rather than in the cache, so the wording is the build's to change
+    # and no daf has to be fetched again to change it.
+    data = dict(data, amudim=[
+        dict(a, segments=[dict(s, en=new_sugya(s["en"])) for s in a["segments"]])
+        for a in data["amudim"]])
     segments = [s for a in data["amudim"] for s in a["segments"]]
     return dict(data,
                 has_rashi=any(s["rashi"] for s in segments),

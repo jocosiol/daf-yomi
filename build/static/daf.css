@@ -319,6 +319,13 @@ figure.scan:has(+ .daf-lines){margin-bottom:10px}
 .line.collapsed .line-body{display:none}
 .line-body b,.line-body strong{color:var(--accent2);font-weight:600}
 
+/* Where Sefaria prints a bare §, this says what it means: the passage starts a
+   new sugya. A quiet badge rather than running text — it is a mark on the text,
+   not part of it, and it should be skippable at a glance. */
+.sugya{display:inline-block;margin-inline-end:9px;padding:1px 9px;
+  border:1px solid var(--gold);border-radius:999px;background:var(--gold-soft);
+  color:var(--accent2);font-size:.68rem;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;white-space:nowrap;vertical-align:.1em}
 
 /* A whole daf at a phone's width is legible to nobody, and no amount of frame
    height fixes that — zooming inside a small frame is worse than the browser's
