@@ -34,13 +34,31 @@ forgotten on the command line.
 restates them, so the two files cannot disagree about which day it is. Display dates are
 formatted per language from the one ISO value.
 
-Both languages are baked into a single page as `data-lang` blocks and switched by CSS on
+Every language is baked into a single page as `data-lang` blocks and switched by CSS on
 the root `<html lang>`, which `lang.js` sets in `<head>` before the first paint. A daf with
-no translation emits its English body **once**, marked `data-lang="en es"`, with a short
+no Hebrew sheet emits its English body **once**, marked `data-lang="en he"`, with a short
 note above it.
 
-Adding a language is a key in `i18n.LANGS` / `i18n.UI`, a `STR` entry in `quiz.js`,
-`cards.js` and `zman.js`, and `<Tractate>_<page>.<lang>.md` sheets. Nothing hardcodes `es`.
+The site is English, Spanish and Hebrew, and the 🌐 button is a cycle through them rather
+than a pair. Adding another is a key in `i18n.LANGS` / `i18n.UI` / `i18n.NAME` /
+`i18n.VIEW_IN`, a `STR` entry in `quiz.js`, `cards.js`, `zman.js` and `speak.js`, a section
+list in `validate.REQUIRED_SECTIONS`, one `html[lang="xx"] [data-lang~="xx"]` line in
+`daf.css`, and `<Tractate>_<page>.<lang>.md` sheets. Nothing hardcodes `es` or `he`.
+
+### Right to left
+
+`i18n.RTL` names the languages written the other way; `lang.js` puts `dir` on `<html>`
+beside `lang`, so the whole page turns with the switch. The stylesheet uses logical
+properties (`padding-inline-start`, `border-inline-start`, `text-align:start`) rather than
+physical ones, so one rule serves both directions.
+
+Direction follows the *text*, not the reader. A block carries its own `lang`/`dir` from the
+build, so a Hebrew reader on an untranslated daf gets an English sheet that still reads
+left to right inside a right-to-left page — and `quiz.js` and `cards.js` do the same, each
+standing in the whole English quiz or deck rather than framing English questions in Hebrew
+chrome. `hebrew_spans` leaves an RTL sheet alone for the same reason: it is already marked
+`he`/`rtl`, and marking every run inside it again would cut each one off from the
+punctuation between them.
 
 ## The four views
 

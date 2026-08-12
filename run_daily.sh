@@ -160,8 +160,10 @@ TODAY="$(date +%F)"
 if grep -lq "study_date: $TODAY" content/*.md 2>/dev/null; then
   SHEET="$(grep -l "study_date: $TODAY" content/*.md | head -1)"
   log "today's sheet: $SHEET"
-  ES="${SHEET%.md}.es.md"
-  [ -f "$ES" ] || log "WARN  no Spanish sheet for today ($ES)"
+  for L in es he; do
+    TR="${SHEET%.md}.$L.md"
+    [ -f "$TR" ] || log "WARN  no '$L' sheet for today ($TR)"
+  done
 else
   log "FAIL  no sheet in content/ with study_date: $TODAY"
   STATUS=1

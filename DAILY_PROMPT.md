@@ -10,9 +10,9 @@ is often switched off, so the buffer is what keeps a missed run from becoming an
 
 Work through steps 0–6 in order, then stop. Do not ask questions — make reasonable
 decisions and proceed. Do not skip the Sefaria fetch: accuracy comes from the real text,
-never from memory. Every daf ships in **two languages**: English in
-`content/<Tractate>_<page>.md` and Spanish in `content/<Tractate>_<page>.es.md`.
-Do not skip the Spanish sheet.
+never from memory. Every daf ships in **three languages**: English in
+`content/<Tractate>_<page>.md`, Spanish in `content/<Tractate>_<page>.es.md` and Hebrew in
+`content/<Tractate>_<page>.he.md`. Do not skip the translations.
 
 **You do not have to police the file format.** `build/validate.py` checks it and the build
 refuses to write anything if it fails, naming the file and the problem. Write the sheet,
@@ -39,13 +39,13 @@ run should attempt:
 ```
 5 item(s) to write; this run should do at most 3, oldest first:
   2026-08-08  es   (Chullin_100 has no es sheet)
-  2026-08-09  es   (Chullin_101 has no es sheet)
+  2026-08-09  he   (Chullin_101 has no he sheet)
   2026-08-10  en   (no sheet)
   … 2 more, left for the next run
 ```
 
-`en` means the daf itself does not exist yet — write both sheets for it. `es` means the
-English sheet is already there and only the translation is missing.
+`en` means the daf itself does not exist yet — write all three sheets for it. `es` or `he`
+means the English sheet is already there and only that translation is missing.
 
 **Work oldest first and do not exceed the cap.** The nearest dates matter most, and the job
 runs again every two hours, so anything you leave is picked up shortly. If it says the
@@ -284,6 +284,63 @@ the translation cannot disagree with the English about which day it is.
 Use `content/Chullin_98.es.md` and `content/Chullin_99.es.md` as the reference for tone and
 terminology.
 
+## Step 4b — Write `content/<Tractate>_<page>.he.md` (the Hebrew sheet)
+
+A full Hebrew sheet — same content, same structure, same depth. Everything said about the
+Spanish sheet above applies here too: the quiz is the same quiz in the same order with the
+same `correct` letter, the side-by-side grid keeps its shape, and the glossary keeps its
+row count. Validation compares all three and fails on a mismatch.
+
+### Front matter — only what differs
+
+```yaml
+---
+lang: he
+title: דף יומי — חולין קד
+chapter:
+  name: כל הבשר
+  gloss: כל בשר — דיני בשר בחלב
+summary: משפט אחד לתצוגה המקדימה ולחיפוש.
+tomorrow:
+  ref: חולין קה
+  teaser: …
+---
+```
+
+`tractate`, `page`, `daf_he`, `study_date` and `chapter.n` are **inherited — do not restate
+them.** The Hebrew `title` carries no bracketed reference: the Hebrew daf reference the
+other two languages put in brackets *is* the title here. The archive link text is whatever
+follows the em dash, so `דף יומי — חולין קד` gives `חולין קד`. File names never change —
+the file is `content/Chullin_<page>.he.md`.
+
+### What changes, and what does not
+
+- **This is a Hebrew sheet, not a transliterated one.** Drop the parenthetical
+  transliterations the English glossary carries — *(gezeirah ligzeirah)* beside
+  **גְּזֵירָה לִגְזֵירָה** says nothing to a reader of Hebrew. The term alone is the term.
+- **Keep the pointed quotations exactly as they are.** They are already Hebrew; only the
+  surrounding explanation is written afresh.
+- Register: the plain, direct second-person-plural of an Israeli daf-yomi explainer —
+  *קראו*, *בחנו את עצמכם*. Not academic, and not rabbinic-formal.
+- Arrows in prose point the other way. In an RTL line "back" is → and "next" is ←; the
+  build's own strings already do this, and a sheet that writes one should match.
+- Write the Gemara's own idiom in its own words. Where the English says "a decree to guard
+  a decree", the Hebrew simply says **גזירה לגזירה** — do not translate the translation.
+
+### Hebrew headings
+
+| English | Hebrew |
+|---|---|
+| The big picture (read this first) | התמונה הגדולה (לקרוא קודם) |
+| Walking through the sugya, step by step | עוברים על הסוגיה, צעד אחר צעד |
+| The distinctions, side by side | ההבחנות, זו מול זו |
+| Key concepts & terms | מושגים ומונחים מרכזיים |
+| Who's who in today's daf | מי ומי בדף של היום |
+| One line to carry with you | שורה אחת לקחת אתכם |
+| Chazara — test yourself | חזרה — בחנו את עצמכם |
+
+Use `content/Chullin_104.he.md` as the reference for tone and terminology.
+
 ## Step 5 — Build
 
 First cache the daf itself, which the Daf tab shows two ways — the printed page from
@@ -322,8 +379,8 @@ problem. Fix the sheet and run it again. Warnings are advisory; errors are not.
 Expect output like:
 
 ```
-Built 5 daf (3 translated, 5 with the daf text) + 1 legacy = 6 routed
-languages: en, es
+Built 5 daf (6 translated, 5 with the daf text) + 1 legacy = 6 routed
+languages: en, es, he
 index.html seeded with Chullin_102 (2026-08-10)
 rollover: sunset, location pinned to 31.7683,35.2137
 ```
@@ -340,8 +397,8 @@ Three things to know:
   rolls over at sunset on its own. Never delete a future daf's sheet.
 - The buffer does not have to be full when you finish. If it still reports items, you hit
   the per-run cap and the next run continues. It should be *shorter* than when you started.
-- A `warn` about a missing `es` sheet is only a reminder for a future daf, but it means you
-  skipped step 4 if it names one you just wrote.
+- A `warn` about a missing `es` or `he` sheet is only a reminder for a future daf, but it
+  means you skipped step 4 or 4b if it names one you just wrote.
 
 Optional, if a browser is available and you changed anything under `build/`:
 
