@@ -43,6 +43,24 @@ The daf falls into two very different halves, and then a seam:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **בַּהֲדֵי הֲדָדֵי** *(bahadei hadadei)* | "At one and the same moment." When prohibitions are born together, none has priority and all take effect. |
+| **בְּהֵמָה בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת** *(behemah bechayeha le'evarim omedet)* | "A living animal already stands divided into limbs" — the pivot deciding whether the limb-prohibition is present from birth or only at severance. |
+| **אִיסּוּר חָל עַל אִיסּוּר** *(issur chal al issur)* | Whether one prohibition can take effect on top of an already-existing one. |
+| **חֵלֶב** *(chelev)* | Forbidden fat; here the third prohibition that can stack, and the key to the whole analogy. |
+| **הוּתַּר מִכְּלָלוֹ** *(hutar mikelalo)* | "Permitted as an exception to its rule" — a loophole (fat of an undomesticated animal). A prohibition *with* a loophole is weaker, so a later one can land on it; *ever min hachai* has none. |
+| **נֶהֱנָה גְּרוֹנוֹ בִּכְזַיִת** *(nehenah grono bikzayit)* | "His throat took pleasure in an olive-bulk" — Rabbi Yochanan's measure: liability follows the pleasure of the throat. |
+| **אֲכִילָה בְּמֵעָיו בָּעֵינַן** *(achilah bemei'av ba'einan)* | "We require eating that reaches the stomach" — Reish Lakish's measure: the olive-bulk must arrive whole. |
+| **חִלְּקוֹ מִבַּחוּץ / מִבִּפְנִים** *(chilko mibachutz / mibifnim)* | Divided the olive-bulk outside the mouth (all agree exempt) versus inside it (the dispute). |
+| **גְּרוֹמִיתָא זְעֵירְתָּא** *(gromita ze'irta)* | A small bone swallowed whole, an olive-bulk of meat-bone-sinew together — how one can be liable even for Reish Lakish. |
+| **מְחוּסַּר קְרִיבָה** *(mechusar keriva)* | "Lacking proximity" — Rabbi Elazar's point that separated pieces are not like a missing act. |
+| **בֵּין הַשִּׁינַּיִם / בֵּין הַחֲנִיכַיִים** *(bein hashinayim / bein hachanichayim)* | Food stuck *between the teeth* (excluded by all) versus on the *gums/palate* (the disputed case). |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 103a — Three prohibitions, and the moment each is born
@@ -159,24 +177,6 @@ One question runs through the whole second half — does liability follow the **
 | Half an olive-bulk, vomited, then another half | **Liable** | Not stated |
 
 Two voices sit outside the grid: **Rabbi Elazar**, who convicts even in the first row — lacking mere *proximity* is not lacking an act — and **Rav Kahana**, who shows how Reish Lakish can ever convict at all, with a *גְּרוֹמִיתָא זְעֵירְתָּא* swallowed whole.
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **בַּהֲדֵי הֲדָדֵי** *(bahadei hadadei)* | "At one and the same moment." When prohibitions are born together, none has priority and all take effect. |
-| **בְּהֵמָה בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת** *(behemah bechayeha le'evarim omedet)* | "A living animal already stands divided into limbs" — the pivot deciding whether the limb-prohibition is present from birth or only at severance. |
-| **אִיסּוּר חָל עַל אִיסּוּר** *(issur chal al issur)* | Whether one prohibition can take effect on top of an already-existing one. |
-| **חֵלֶב** *(chelev)* | Forbidden fat; here the third prohibition that can stack, and the key to the whole analogy. |
-| **הוּתַּר מִכְּלָלוֹ** *(hutar mikelalo)* | "Permitted as an exception to its rule" — a loophole (fat of an undomesticated animal). A prohibition *with* a loophole is weaker, so a later one can land on it; *ever min hachai* has none. |
-| **נֶהֱנָה גְּרוֹנוֹ בִּכְזַיִת** *(nehenah grono bikzayit)* | "His throat took pleasure in an olive-bulk" — Rabbi Yochanan's measure: liability follows the pleasure of the throat. |
-| **אֲכִילָה בְּמֵעָיו בָּעֵינַן** *(achilah bemei'av ba'einan)* | "We require eating that reaches the stomach" — Reish Lakish's measure: the olive-bulk must arrive whole. |
-| **חִלְּקוֹ מִבַּחוּץ / מִבִּפְנִים** *(chilko mibachutz / mibifnim)* | Divided the olive-bulk outside the mouth (all agree exempt) versus inside it (the dispute). |
-| **גְּרוֹמִיתָא זְעֵירְתָּא** *(gromita ze'irta)* | A small bone swallowed whole, an olive-bulk of meat-bone-sinew together — how one can be liable even for Reish Lakish. |
-| **מְחוּסַּר קְרִיבָה** *(mechusar keriva)* | "Lacking proximity" — Rabbi Elazar's point that separated pieces are not like a missing act. |
-| **בֵּין הַשִּׁינַּיִם / בֵּין הַחֲנִיכַיִים** *(bein hashinayim / bein hachanichayim)* | Food stuck *between the teeth* (excluded by all) versus on the *gums/palate* (the disputed case). |
 
 ---
 

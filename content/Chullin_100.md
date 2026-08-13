@@ -41,6 +41,24 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **בְּרִיָּה** *(beriah)* | A complete entity. Because it is whole, it is significant, and it is never nullified in a majority. |
+| **חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ** *(chatichah hare'uyah lehiskabed bah)* | A piece fit to be set before a guest. Its social dignity makes it resist nullification. |
+| **כֹּל / אֶת שֶׁדַּרְכּוֹ לִימָּנוֹת** *(kol / es shedarko limanos)* | Two readings of which counted items resist nullification: anything sometimes sold by the unit, or only what is sold exclusively so. |
+| **חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה** *(chatichah atzmah na'aseis neveilah)* | A permitted piece that absorbs forbidden flavor becomes forbidden meat in its own right, and can forbid others. |
+| **רוֹטֶב / קִיפָּה / חֲתִיכוֹת** *(rotev / kipah / chatichos)* | Broth / the sediment settled in the pot / the pieces — the three components Rabbah bar bar Chana requires flavor to reach. |
+| **אוֹקֵי אָמוֹרָא עֲלֵיהּ** *(oki amora aleih)* | "He set a disseminator over him" — appointing a speaker to broadcast a ruling to a large audience. |
+| **בְּשֶׁקָּדַם וְסִלְּקוֹ** *(beshekadam vesilko)* | Where he removed the forbidden piece first, before the other pieces were added. |
+| **מִין וּמִינוֹ וְדָבָר אַחֵר** *(min umino vedavar acher)* | Forbidden food mixed with both its own kind and something else; disregard its own kind and measure only against the rest. |
+| **אֵין אִיסּוּר חָל עַל אִיסּוּר** *(ein issur chal al issur)* | A prohibition does not take effect where a prohibition already exists — so no second set of lashes. |
+| **בַּשָּׁלִיל** *(bashalil)* | In a fetus. Whether the *gid* prohibition reaches a fetus decides whether the two prohibitions arrive simultaneously. |
+| **נוֹהֵג בִּבְנֵי נֹחַ** *(noheg bivnei Noach)* | Applies to the descendants of Noah — the added stringency that lets the *gid* prohibition land on an existing one. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 100a — Two reasons a thing refuses to be nullified
@@ -184,24 +202,6 @@ Rav Safra asked one question — why should Rav care whether flavor reached the 
 |---|---|---|---|
 | **Abaye** | **בְּשֶׁקָּדַם וְסִלְּקוֹ** — cooked with one kosher piece, then removed before the others went in | The forbidden piece is gone; the only route left runs through the piece it flavored | That intermediary piece, now itself *neveilah* — and like is not nullified in like |
 | **Rava** | **מִין וּמִינוֹ וְדָבָר אַחֵר** — its own kind *plus* something else, the broth and spices | Flavor reached the second piece **before** the broth and spices did — so two forbidden pieces, not one | **סַלֵּק אֶת מִינוֹ**: sixty is counted against broth and spices alone, enough for one piece but not two |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **בְּרִיָּה** *(beriah)* | A complete entity. Because it is whole, it is significant, and it is never nullified in a majority. |
-| **חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ** *(chatichah hare'uyah lehiskabed bah)* | A piece fit to be set before a guest. Its social dignity makes it resist nullification. |
-| **כֹּל / אֶת שֶׁדַּרְכּוֹ לִימָּנוֹת** *(kol / es shedarko limanos)* | Two readings of which counted items resist nullification: anything sometimes sold by the unit, or only what is sold exclusively so. |
-| **חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה** *(chatichah atzmah na'aseis neveilah)* | A permitted piece that absorbs forbidden flavor becomes forbidden meat in its own right, and can forbid others. |
-| **רוֹטֶב / קִיפָּה / חֲתִיכוֹת** *(rotev / kipah / chatichos)* | Broth / the sediment settled in the pot / the pieces — the three components Rabbah bar bar Chana requires flavor to reach. |
-| **אוֹקֵי אָמוֹרָא עֲלֵיהּ** *(oki amora aleih)* | "He set a disseminator over him" — appointing a speaker to broadcast a ruling to a large audience. |
-| **בְּשֶׁקָּדַם וְסִלְּקוֹ** *(beshekadam vesilko)* | Where he removed the forbidden piece first, before the other pieces were added. |
-| **מִין וּמִינוֹ וְדָבָר אַחֵר** *(min umino vedavar acher)* | Forbidden food mixed with both its own kind and something else; disregard its own kind and measure only against the rest. |
-| **אֵין אִיסּוּר חָל עַל אִיסּוּר** *(ein issur chal al issur)* | A prohibition does not take effect where a prohibition already exists — so no second set of lashes. |
-| **בַּשָּׁלִיל** *(bashalil)* | In a fetus. Whether the *gid* prohibition reaches a fetus decides whether the two prohibitions arrive simultaneously. |
-| **נוֹהֵג בִּבְנֵי נֹחַ** *(noheg bivnei Noach)* | Applies to the descendants of Noah — the added stringency that lets the *gid* prohibition land on an existing one. |
 
 ---
 

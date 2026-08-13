@@ -20,11 +20,14 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import i18n                        # noqa: E402
 import sheet as sheet_mod          # noqa: E402
 
+# Listed in the order the sheet puts them in — the glossary sits above the
+# walkthrough, because it is the vocabulary the walkthrough uses. Presence is
+# what is checked here, not order; a reordered sheet is not an error.
 REQUIRED_SECTIONS = {
-    "en": ["The big picture", "Walking through the sugya", "Key concepts",
+    "en": ["The big picture", "Key concepts", "Walking through the sugya",
            "Who's who", "One line to carry with you"],
-    "es": ["panorama general", "paso a paso", "Conceptos", "Quién es quién", "Una línea"],
-    "he": ["התמונה הגדולה", "צעד אחר צעד", "מושגים", "מי ומי", "שורה אחת"],
+    "es": ["panorama general", "Conceptos", "paso a paso", "Quién es quién", "Una línea"],
+    "he": ["התמונה הגדולה", "מושגים", "צעד אחר צעד", "מי ומי", "שורה אחת"],
 }
 # The side-by-side grid is wanted on every daf but not required, because some
 # dapim are pure narrative and a forced matrix is worse than none. Missing is a

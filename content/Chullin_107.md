@@ -43,6 +43,26 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **כֹּחַ גַּבְרָא** *(koach gavra)* | "A person's force" — the water must reach the hands by a human act; channel water, moved by the current, fails this, so one washes from the bucket instead. |
+| **אֲרִיתָּא דְּדַלָּאֵי** *(arita dedalla'ei)* | An irrigation channel filled from a river by buckets — unfit for washing, since its water no longer comes by a person's force. |
+| **רְבִיעִית** *(revi'it)* | A quarter-*log*, the minimum measure of water for washing the hands; needed in full for one person, only as the vessel's capacity for two. |
+| **כּוֹנֵס מַשְׁקֶה** *(konness mashkeh)* | A hole large enough to let liquid in; a bucket so perforated joins channel to river for immersing, yet is no longer a vessel for pouring. |
+| **שְׁיָרֵי טָהֳרָה** *(shirei tahara)* | "The remainder of purity" — leftover water from an originally valid quarter-log, which is why one *revi'it* can wash even two people. |
+| **מְגוּפַת חָבִית** *(megufat chavit)* | A barrel-stopper hollowed out to hold a *revi'it* — an improvised but valid vessel for washing, unlike a sack or basket. |
+| **מַפָּה** *(mappa)* | A cloth used to hold food in place of washing — permitted to priests eating *teruma*, not to others eating ordinary food in purity. |
+| **דַּעְתִּי קְצָרָה** *(da'ati ketzara)* | "I am delicate" — Rav's reason for using a cloth *after* washing: he preferred not to touch the food bare-handed. |
+| **אוֹכֵל מֵחֲמַת מַאֲכִיל** *(ochel mechamat ma'achil)* | One who eats by being fed by another; the final halakha is that he must still wash his hands, though he never touches the food. |
+| **שַׁמָּשׁ** *(shamash)* | The attendant at a meal; he must wash because he is occupied (*tarid*) and may touch the food without noticing. |
+| **שִׁיבְתָּא** *(shivta)* | An evil spirit that rests on hands unwashed since morning; Abaye's reason for one washing that is *not* about the food itself. |
+| **צוֹנֵן בְּצוֹנֵן** *(tzonen betzonen)* | Cold food touching cold food — no flavor is absorbed, so no peeling is needed, only rinsing before eating. |
+| **אַכְסְנָאִין** *(achsena'in)* | Guests or travelers lodging together; strangers may share one table with meat and cheese, since neither will eat the other's food. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 107a — What water, what vessel
@@ -156,26 +176,6 @@ answers do not all run the same way:
 | One **fed** by another (*ochel mechamat ma'achil*) | **Yes** (final halakha) | the food enters *his* mouth; he is the eater |
 | One who **feeds** another (*ma'achil*) | **No** (final halakha) | his hands touch it, but he is not eating |
 | The meal's **attendant** (*shamash*) | Yes | occupied (*tarid*), he may touch the food unawares |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **כֹּחַ גַּבְרָא** *(koach gavra)* | "A person's force" — the water must reach the hands by a human act; channel water, moved by the current, fails this, so one washes from the bucket instead. |
-| **אֲרִיתָּא דְּדַלָּאֵי** *(arita dedalla'ei)* | An irrigation channel filled from a river by buckets — unfit for washing, since its water no longer comes by a person's force. |
-| **רְבִיעִית** *(revi'it)* | A quarter-*log*, the minimum measure of water for washing the hands; needed in full for one person, only as the vessel's capacity for two. |
-| **כּוֹנֵס מַשְׁקֶה** *(konness mashkeh)* | A hole large enough to let liquid in; a bucket so perforated joins channel to river for immersing, yet is no longer a vessel for pouring. |
-| **שְׁיָרֵי טָהֳרָה** *(shirei tahara)* | "The remainder of purity" — leftover water from an originally valid quarter-log, which is why one *revi'it* can wash even two people. |
-| **מְגוּפַת חָבִית** *(megufat chavit)* | A barrel-stopper hollowed out to hold a *revi'it* — an improvised but valid vessel for washing, unlike a sack or basket. |
-| **מַפָּה** *(mappa)* | A cloth used to hold food in place of washing — permitted to priests eating *teruma*, not to others eating ordinary food in purity. |
-| **דַּעְתִּי קְצָרָה** *(da'ati ketzara)* | "I am delicate" — Rav's reason for using a cloth *after* washing: he preferred not to touch the food bare-handed. |
-| **אוֹכֵל מֵחֲמַת מַאֲכִיל** *(ochel mechamat ma'achil)* | One who eats by being fed by another; the final halakha is that he must still wash his hands, though he never touches the food. |
-| **שַׁמָּשׁ** *(shamash)* | The attendant at a meal; he must wash because he is occupied (*tarid*) and may touch the food without noticing. |
-| **שִׁיבְתָּא** *(shivta)* | An evil spirit that rests on hands unwashed since morning; Abaye's reason for one washing that is *not* about the food itself. |
-| **צוֹנֵן בְּצוֹנֵן** *(tzonen betzonen)* | Cold food touching cold food — no flavor is absorbed, so no peeling is needed, only rinsing before eating. |
-| **אַכְסְנָאִין** *(achsena'in)* | Guests or travelers lodging together; strangers may share one table with meat and cheese, since neither will eat the other's food. |
 
 ---
 

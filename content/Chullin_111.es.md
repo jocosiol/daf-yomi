@@ -48,6 +48,25 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **קַנְיָא בְּקוֹפֵיהּ** *(kaniá bekofei)* | El **gaznate con todas sus adherencias** — pulmones, corazón e hígado — cocidos como una unidad; la comida de Rabí Zeriká, ofrecida como prueba de que la sangre del hígado no prohíbe la carne que lo rodea. |
+| **חָלֵיט** *(jalit)* | **Escaldar / sellar** en un líquido hirviente (vinagre o agua) desde el inicio, sellando la sangre dentro del hígado antes de que se difunda — la lectura alternativa de Rav Ashi de la comida del gaznate. |
+| **כִּי הֵיכִי דְּפָלֵיט הֲדַר בָּלַע** *(ki heiji depalit hadar bala)* | "Así como expulsa, absorbe de vuelta" — la palanca de Rava: si el escaldado sacara sangre, el hígado la reabsorbería y quedaría prohibido él mismo; como no lo está, nada se expulsó de entrada. |
+| **מְתוּבֶּלֶת** *(metubélet)* | Hígado **especiado**; según Rabí Ishmael hijo de R' Iojanán ben Beroká, el especiado (como la cocción intensa, *sheluká*) hace que el hígado reabsorba su sangre, y queda prohibido además de prohibir. |
+| **סִמְפּוֹנָא** *(simponá)* | El gran **vaso sanguíneo / arteria** del hígado; la sangre empapada en la carne está permitida, pero la sangre acumulada en la *simponá* está prohibida y debe drenarse. |
+| **שְׁתִי וָעֵרֶב** *(shetí vaérev)* | "**Urdimbre y trama**" — desgarrar el hígado **a lo largo y a lo ancho**, con el corte hacia abajo, para que la sangre de los vasos escurra al fuego. |
+| **מִשְׁרָק שָׁרֵיק** *(mishrak sharik)* | "Simplemente **resbala**" — por qué el hígado puesto sobre la carne no la prohíbe: la sangre se desliza por la superficie en vez de empaparse (a diferencia de la leche de la ubre, que *saroje mesarej*, se adhiere y penetra). |
+| **דִּיעֲבַד / לְכַתְּחִלָּה** *(diavad / lejatjilá)* | **A posteriori** frente a **de entrada**. El fallo de Mareimar: hígado o ubre puestos sobre la carne se toleran *diavad*, pero no se pueden disponer así *lejatjilá*. |
+| **מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ** *(maliaj kerotéaj)* | "**Lo salado es como lo hirviente**" (y *kavush kimvushal*, lo marinado como lo cocido) — el principio de Shmuel de que salar y encurtir transfieren sabor como el calor, así que una fuente que saló carne prohíbe la comida hirviente puesta en ella. |
+| **כּוּתָּח** *(kutaj)* | Un **aderezo babilónico** hecho con leche (y moho de pan y sal); la comida láctea contra la que se prueba cada caso aquí — ¿pueden comerse con él el rábano cortado con cuchillo cárnico, o el pescado? |
+| **נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם** *(notein taam bar notein taam)* | "**Sabor de un sabor**" — sabor que llegó a la comida solo de segunda mano, a través de un recipiente; Shmuel lo tiene por demasiado débil para prohibir (así el pescado está permitido), Rav lo tiene por prohibitivo. |
+| **קַפִּילָא** *(kapilá)* | Un **cocinero gentil** de quien puede fiarse que cate un plato e informe si lleva un sabor prohibido — la propuesta de Rav Papa, que Rava acepta donde tal cocinero está a mano. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 111a — La cuestión del hígado, llevada hasta el fondo
@@ -181,25 +200,6 @@ limpiamente según *cuál* prohibición —sangre o leche— pesa más para ella
 
 Debajo de la carne, toda opinión permite ambos; toda la disputa gira solo en torno al órgano puesto
 *encima*.
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **קַנְיָא בְּקוֹפֵיהּ** *(kaniá bekofei)* | El **gaznate con todas sus adherencias** — pulmones, corazón e hígado — cocidos como una unidad; la comida de Rabí Zeriká, ofrecida como prueba de que la sangre del hígado no prohíbe la carne que lo rodea. |
-| **חָלֵיט** *(jalit)* | **Escaldar / sellar** en un líquido hirviente (vinagre o agua) desde el inicio, sellando la sangre dentro del hígado antes de que se difunda — la lectura alternativa de Rav Ashi de la comida del gaznate. |
-| **כִּי הֵיכִי דְּפָלֵיט הֲדַר בָּלַע** *(ki heiji depalit hadar bala)* | "Así como expulsa, absorbe de vuelta" — la palanca de Rava: si el escaldado sacara sangre, el hígado la reabsorbería y quedaría prohibido él mismo; como no lo está, nada se expulsó de entrada. |
-| **מְתוּבֶּלֶת** *(metubélet)* | Hígado **especiado**; según Rabí Ishmael hijo de R' Iojanán ben Beroká, el especiado (como la cocción intensa, *sheluká*) hace que el hígado reabsorba su sangre, y queda prohibido además de prohibir. |
-| **סִמְפּוֹנָא** *(simponá)* | El gran **vaso sanguíneo / arteria** del hígado; la sangre empapada en la carne está permitida, pero la sangre acumulada en la *simponá* está prohibida y debe drenarse. |
-| **שְׁתִי וָעֵרֶב** *(shetí vaérev)* | "**Urdimbre y trama**" — desgarrar el hígado **a lo largo y a lo ancho**, con el corte hacia abajo, para que la sangre de los vasos escurra al fuego. |
-| **מִשְׁרָק שָׁרֵיק** *(mishrak sharik)* | "Simplemente **resbala**" — por qué el hígado puesto sobre la carne no la prohíbe: la sangre se desliza por la superficie en vez de empaparse (a diferencia de la leche de la ubre, que *saroje mesarej*, se adhiere y penetra). |
-| **דִּיעֲבַד / לְכַתְּחִלָּה** *(diavad / lejatjilá)* | **A posteriori** frente a **de entrada**. El fallo de Mareimar: hígado o ubre puestos sobre la carne se toleran *diavad*, pero no se pueden disponer así *lejatjilá*. |
-| **מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ** *(maliaj kerotéaj)* | "**Lo salado es como lo hirviente**" (y *kavush kimvushal*, lo marinado como lo cocido) — el principio de Shmuel de que salar y encurtir transfieren sabor como el calor, así que una fuente que saló carne prohíbe la comida hirviente puesta en ella. |
-| **כּוּתָּח** *(kutaj)* | Un **aderezo babilónico** hecho con leche (y moho de pan y sal); la comida láctea contra la que se prueba cada caso aquí — ¿pueden comerse con él el rábano cortado con cuchillo cárnico, o el pescado? |
-| **נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם** *(notein taam bar notein taam)* | "**Sabor de un sabor**" — sabor que llegó a la comida solo de segunda mano, a través de un recipiente; Shmuel lo tiene por demasiado débil para prohibir (así el pescado está permitido), Rav lo tiene por prohibitivo. |
-| **קַפִּילָא** *(kapilá)* | Un **cocinero gentil** de quien puede fiarse que cate un plato e informe si lleva un sabor prohibido — la propuesta de Rav Papa, que Rava acepta donde tal cocinero está a mano. |
 
 ---
 

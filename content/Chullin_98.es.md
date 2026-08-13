@@ -38,6 +38,30 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **בֵּיצַת אֶפְרוֹחַ — beitzat efróaj** | Un huevo con un pollito formado dentro. Toda la respuesta de Abaie: *eso* imparte sabor; un huevo no kosher sin pollito no. |
+| **פָּירוּשֵׁי קָא מְפָרֵשׁ — peirushei ka mefaresh** | "Está explicando" — la segunda cláusula de una baraita no es un caso nuevo sino una aclaración de la primera. Un arreglo talmúdico estándar. |
+| **אִי מִשּׁוּם הָא לָא אִירְיָא** | "Si es por eso, no prueba nada" — la fórmula para rechazar una inferencia sin rechazar la conclusión. |
+| **דִּיקּוּלָא — dikulá** | El recipiente de cocción, la olla (arameo). Su absorción no puede contarse solo del lado permitido. |
+| **כְּזֵיתָא תַּרְבָּא — kezeitá tarbá** | Un volumen de aceituna de grasa prohibida — la unidad estándar de una cantidad prohibida. |
+| **חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה** | R' Iojanán: **media medida** está prohibida por la Torá. De ahí que no haya descuento proporcional por un trozo pequeño — siguen siendo sesenta. |
+| **לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן** | "No tomes a la ligera las medidas rabínicas" — el reproche de Rav Ashi a su hijo. |
+| **בַּהֲדֵי דִּידַהּ / לְבַר מִינַּהּ** | "Incluyéndolo" / "además de él" — el dilema sin resolver sobre si los sesenta y uno cuentan el objeto prohibido. |
+| **דְּבֵי נְשִׂיאָה — devei Nesiá** | "La casa del Nasí" — la corte del Patriarca, citada como cuerpo halájico. |
+| **גּוּזְמָא — guzmá** | Exageración retórica. El rescate de R' Janiná de la línea de R' Jiiá "¿acaso hay siquiera treinta?". |
+| **בְּשִׁשִּׁים / בְּמֵאָה** | Anulación en **sesenta** o en **cien** — la disputa reportada en nombre de bar Kapará. |
+| **זְרוֹעַ בְּשֵׁלָה — zeróa beshelá** | La "pata delantera cocida" del nazir (Bamidbar 6:19) — la fuente de la Torá para **ambos** números. |
+| **הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר** | "Algo permitido que surge de una prohibición" — la descripción que la baraita hace del carnero del nazir. |
+| **מִין בְּמִינוֹ לֹא בָּטֵיל** | R' Iehudá: lo igual mezclado con lo igual nunca se anula (no puedes distinguir los sabores). |
+| **חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן** | "Es una anomalía, y de una anomalía no derivamos" — la objeción a usar el carnero en absoluto. |
+| **מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל** | Por ley de la Torá, la anulación es por simple **mayoría** — razón por la cual 60/100 cuentan como *estricteces*. |
+| **טַעַם כְּעִיקָּר — taam keikar** | El sabor tiene el estatus de sustancia. La lectura de Rava sobre qué excluye el "*esto*" de la baraita. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 98a — Abaie termina la respuesta del huevo (y lo aprietan fuerte)
@@ -218,30 +242,6 @@ Cada proporción que nombra el daf, en el orden en que la nombra — el arco de 
 | **1:30** | Rabí Jiiá | *"¿Acaso hay siquiera treinta?"* — y prohibió | No es umbral alguno: *guzmá*, dice R' Janiná |
 | **1:60** | bar Kapará, vía R' Iehoshúa ben Leví | Carne **y huesos** de la pata contra la carne y los huesos del carnero | El número que se fijó |
 | **1:100** | bar Kapará, vía R' Iehoshúa ben Leví | Carne contra **carne solamente** — huesos excluidos | El mismo versículo, otra contabilidad |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **בֵּיצַת אֶפְרוֹחַ — beitzat efróaj** | Un huevo con un pollito formado dentro. Toda la respuesta de Abaie: *eso* imparte sabor; un huevo no kosher sin pollito no. |
-| **פָּירוּשֵׁי קָא מְפָרֵשׁ — peirushei ka mefaresh** | "Está explicando" — la segunda cláusula de una baraita no es un caso nuevo sino una aclaración de la primera. Un arreglo talmúdico estándar. |
-| **אִי מִשּׁוּם הָא לָא אִירְיָא** | "Si es por eso, no prueba nada" — la fórmula para rechazar una inferencia sin rechazar la conclusión. |
-| **דִּיקּוּלָא — dikulá** | El recipiente de cocción, la olla (arameo). Su absorción no puede contarse solo del lado permitido. |
-| **כְּזֵיתָא תַּרְבָּא — kezeitá tarbá** | Un volumen de aceituna de grasa prohibida — la unidad estándar de una cantidad prohibida. |
-| **חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה** | R' Iojanán: **media medida** está prohibida por la Torá. De ahí que no haya descuento proporcional por un trozo pequeño — siguen siendo sesenta. |
-| **לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן** | "No tomes a la ligera las medidas rabínicas" — el reproche de Rav Ashi a su hijo. |
-| **בַּהֲדֵי דִּידַהּ / לְבַר מִינַּהּ** | "Incluyéndolo" / "además de él" — el dilema sin resolver sobre si los sesenta y uno cuentan el objeto prohibido. |
-| **דְּבֵי נְשִׂיאָה — devei Nesiá** | "La casa del Nasí" — la corte del Patriarca, citada como cuerpo halájico. |
-| **גּוּזְמָא — guzmá** | Exageración retórica. El rescate de R' Janiná de la línea de R' Jiiá "¿acaso hay siquiera treinta?". |
-| **בְּשִׁשִּׁים / בְּמֵאָה** | Anulación en **sesenta** o en **cien** — la disputa reportada en nombre de bar Kapará. |
-| **זְרוֹעַ בְּשֵׁלָה — zeróa beshelá** | La "pata delantera cocida" del nazir (Bamidbar 6:19) — la fuente de la Torá para **ambos** números. |
-| **הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר** | "Algo permitido que surge de una prohibición" — la descripción que la baraita hace del carnero del nazir. |
-| **מִין בְּמִינוֹ לֹא בָּטֵיל** | R' Iehudá: lo igual mezclado con lo igual nunca se anula (no puedes distinguir los sabores). |
-| **חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן** | "Es una anomalía, y de una anomalía no derivamos" — la objeción a usar el carnero en absoluto. |
-| **מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל** | Por ley de la Torá, la anulación es por simple **mayoría** — razón por la cual 60/100 cuentan como *estricteces*. |
-| **טַעַם כְּעִיקָּר — taam keikar** | El sabor tiene el estatus de sustancia. La lectura de Rava sobre qué excluye el "*esto*" de la baraita. |
 
 ---
 

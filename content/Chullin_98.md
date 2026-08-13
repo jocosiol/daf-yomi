@@ -42,6 +42,30 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **בֵּיצַת אֶפְרוֹחַ — beitzat efroach** | An egg with a chick formed inside. Abaye's whole answer: *this* imparts flavor; a chick-less non-kosher egg does not. |
+| **פָּירוּשֵׁי קָא מְפָרֵשׁ — peirushei ka mefaresh** | "It is explaining" — a baraita's second clause isn't a new case but a clarification of the first. A standard Talmudic repair. |
+| **אִי מִשּׁוּם הָא לָא אִירְיָא** | "If that's your reason, it proves nothing" — the formula for rejecting an inference without rejecting the conclusion. |
+| **דִּיקּוּלָא — dikula** | The cooking vessel/pot (Aramaic). Its absorption cannot be counted on the permitted side alone. |
+| **כְּזֵיתָא תַּרְבָּא — k'zeita tarba** | An olive-bulk of forbidden fat — the standard unit of a forbidden quantity. |
+| **חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה** | R' Yochanan: a **half-measure** is Torah-forbidden. Hence no proportional discount for a small piece — still sixty. |
+| **לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן** | "Don't treat rabbinic measures lightly" — Rav Ashi's rebuke to his son. |
+| **בַּהֲדֵי דִּידַהּ / לְבַר מִינַּהּ** | "Including it" / "besides it" — the unresolved dilemma about whether sixty-one counts the forbidden item. |
+| **דְּבֵי נְשִׂיאָה — d'vei Nesi'ah** | "The house of the Nasi" — the Patriarch's court, cited as a halachic body. |
+| **גּוּזְמָא — guzma** | Rhetorical exaggeration. R' Chanina's rescue of R' Chiyya's "is there even thirty?" |
+| **בְּשִׁשִּׁים / בְּמֵאָה** | Nullification in **sixty** or in **one hundred** — the dispute reported in bar Kappara's name. |
+| **זְרוֹעַ בְּשֵׁלָה — zeroa besheila** | The nazirite's "cooked foreleg" (Bamidbar 6:19) — the Torah source for **both** numbers. |
+| **הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר** | "A permitted thing emerging from a prohibition" — the baraita's description of the nazir's ram. |
+| **מִין בְּמִינוֹ לֹא בָּטֵיל** | R' Yehuda: like mixed into like is never nullified (you can't tell the flavors apart). |
+| **חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן** | "It is an anomaly, and we don't derive from an anomaly" — the objection to using the ram at all. |
+| **מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל** | By Torah law, nullification is by simple **majority** — which is why 60/100 count as *stringencies*. |
+| **טַעַם כְּעִיקָּר — taam k'ikar** | Flavor has the status of substance. Rava's reading of what the baraita's "*this*" excludes. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 98a — Abaye finishes the egg answer (and gets pushed hard)
@@ -217,30 +241,6 @@ Every ratio the daf names, in the order it names them — the arc from an elasti
 | **1:30** | Rabbi Chiyya | *"Is there even thirty?"* — and he forbade | No threshold at all: *guzma*, says R' Chanina |
 | **1:60** | bar Kappara, via R' Yehoshua ben Levi | Foreleg's meat **and bones** against the ram's meat and bones | The number that hardened |
 | **1:100** | bar Kappara, via R' Yehoshua ben Levi | Meat against **meat only** — bones excluded | Same verse, different accounting |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **בֵּיצַת אֶפְרוֹחַ — beitzat efroach** | An egg with a chick formed inside. Abaye's whole answer: *this* imparts flavor; a chick-less non-kosher egg does not. |
-| **פָּירוּשֵׁי קָא מְפָרֵשׁ — peirushei ka mefaresh** | "It is explaining" — a baraita's second clause isn't a new case but a clarification of the first. A standard Talmudic repair. |
-| **אִי מִשּׁוּם הָא לָא אִירְיָא** | "If that's your reason, it proves nothing" — the formula for rejecting an inference without rejecting the conclusion. |
-| **דִּיקּוּלָא — dikula** | The cooking vessel/pot (Aramaic). Its absorption cannot be counted on the permitted side alone. |
-| **כְּזֵיתָא תַּרְבָּא — k'zeita tarba** | An olive-bulk of forbidden fat — the standard unit of a forbidden quantity. |
-| **חֲצִי שִׁיעוּר אָסוּר מִן הַתּוֹרָה** | R' Yochanan: a **half-measure** is Torah-forbidden. Hence no proportional discount for a small piece — still sixty. |
-| **לָא תְּזַלְזֵל בְּשִׁיעוּרִין דְּרַבָּנַן** | "Don't treat rabbinic measures lightly" — Rav Ashi's rebuke to his son. |
-| **בַּהֲדֵי דִּידַהּ / לְבַר מִינַּהּ** | "Including it" / "besides it" — the unresolved dilemma about whether sixty-one counts the forbidden item. |
-| **דְּבֵי נְשִׂיאָה — d'vei Nesi'ah** | "The house of the Nasi" — the Patriarch's court, cited as a halachic body. |
-| **גּוּזְמָא — guzma** | Rhetorical exaggeration. R' Chanina's rescue of R' Chiyya's "is there even thirty?" |
-| **בְּשִׁשִּׁים / בְּמֵאָה** | Nullification in **sixty** or in **one hundred** — the dispute reported in bar Kappara's name. |
-| **זְרוֹעַ בְּשֵׁלָה — zeroa besheila** | The nazirite's "cooked foreleg" (Bamidbar 6:19) — the Torah source for **both** numbers. |
-| **הֶיתֵּר הַבָּא מִכְּלַל אִיסּוּר** | "A permitted thing emerging from a prohibition" — the baraita's description of the nazir's ram. |
-| **מִין בְּמִינוֹ לֹא בָּטֵיל** | R' Yehuda: like mixed into like is never nullified (you can't tell the flavors apart). |
-| **חִידּוּשׁ הוּא, וּמֵחִידּוּשׁ לָא גָּמְרִינַן** | "It is an anomaly, and we don't derive from an anomaly" — the objection to using the ram at all. |
-| **מִדְּאוֹרָיְיתָא בְּרוּבָּא בָּטֵיל** | By Torah law, nullification is by simple **majority** — which is why 60/100 count as *stringencies*. |
-| **טַעַם כְּעִיקָּר — taam k'ikar** | Flavor has the status of substance. Rava's reading of what the baraita's "*this*" excludes. |
 
 ---
 

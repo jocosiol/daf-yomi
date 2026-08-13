@@ -44,6 +44,25 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **נוֹתֵן טַעַם** *(notein ta'am)* | "Imparting flavor" — the threshold of prohibition in a mixture: a forbidden food forbids only if enough remains to be *tasted* (roughly one part in sixty). |
+| **טַעַם וְלֹא מַמָּשׁ** *(ta'am velo mamash)* | Flavor with no actual forbidden *substance* left; Abaye holds it forbids by Torah law everywhere, Rava that this is special to cooking. |
+| **חֲתִיכָה נַעֲשֵׂית נְבֵלָה** *(chatichah naaseit neveila)* | Rav's rule: a piece that absorbs a forbidden flavor does not merely *carry* the ban — it *itself* turns non-kosher, and can then forbid others. |
+| **מִין בְּמִינוֹ** *(min b'mino)* | A forbidden food inside more of its own type; per Rabbi Yehuda it is *never nullified*, which is how one neveila-piece forbids all the meat. |
+| **אֶפְשָׁר לְסוֹחֲטוֹ** *(efshar lisochato)* | "It is possible to wring it out" — a piece whose absorbed forbidden substance could in principle be squeezed back out; is it still forbidden, or permitted? |
+| **רוֹטֶב עָבֶה / רַכָּה** *(rotev ave / raka)* | Thick gravy (concentrated meat, hence the meat's own *type*) versus thin gravy (a different substance that *can* nullify the piece). |
+| **חִדּוּשׁ** *(chidush)* | A novelty — meat and milk each permitted alone, forbidden only together; "from a novelty we do not derive" a rule for ordinary cases. |
+| **דֶּרֶךְ בִּשּׁוּל** *(derech bishul)* | "The manner of cooking" — Rava's point that the Torah banned meat-in-milk *as cooking*, and cooking simply *is* the transfer of flavor. |
+| **חֲצִי שִׁיעוּר** *(chatzi shiur)* | Half of the minimum measure; one is not flogged for it — the lever used to show Rav must hold the *milk*, not only the meat, is forbidden. |
+| **גְּדִי אָסְרָה תּוֹרָה** *(gedi asra Torah)* | "The Torah forbade the *kid*" — the first reading of the verse, that only the meat is rendered non-kosher, not the milk it cooked in. |
+| **קֵיפָה** *(kipa)* | The spice-and-froth layer floating on the stew; the Rabbis require the milk to flavor even *it* before the pot is forbidden. |
+| **נִיעֵר וְכִסָּה** *(niár v'kisa)* | Stirred and covered — the two acts that speed the drop's diffusion through the pot, and so decide between Rabbi Yehuda and the Rabbis. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 108a — Does flavor alone forbid by Torah law?
@@ -168,25 +187,6 @@ forbid the entire pot?* Three answers, each asked the same two questions —
 | **Rabbi Yehuda** | The moment the drop gives flavor to **that one piece** | *min b'mino* — the piece is now neveila, and its own type cannot nullify it |
 | **The Rabbis** | Only if the milk flavors the **gravy, spices, and all the pieces** | the milk diffuses through the pot; judge the whole, not one piece |
 | **Rabbi (compromise)** | Rabbi Yehuda's rule when **unstirred and uncovered**; the Rabbis' when **stirred and covered** | stirring and covering decide whether the drop stayed put or spread |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **נוֹתֵן טַעַם** *(notein ta'am)* | "Imparting flavor" — the threshold of prohibition in a mixture: a forbidden food forbids only if enough remains to be *tasted* (roughly one part in sixty). |
-| **טַעַם וְלֹא מַמָּשׁ** *(ta'am velo mamash)* | Flavor with no actual forbidden *substance* left; Abaye holds it forbids by Torah law everywhere, Rava that this is special to cooking. |
-| **חֲתִיכָה נַעֲשֵׂית נְבֵלָה** *(chatichah naaseit neveila)* | Rav's rule: a piece that absorbs a forbidden flavor does not merely *carry* the ban — it *itself* turns non-kosher, and can then forbid others. |
-| **מִין בְּמִינוֹ** *(min b'mino)* | A forbidden food inside more of its own type; per Rabbi Yehuda it is *never nullified*, which is how one neveila-piece forbids all the meat. |
-| **אֶפְשָׁר לְסוֹחֲטוֹ** *(efshar lisochato)* | "It is possible to wring it out" — a piece whose absorbed forbidden substance could in principle be squeezed back out; is it still forbidden, or permitted? |
-| **רוֹטֶב עָבֶה / רַכָּה** *(rotev ave / raka)* | Thick gravy (concentrated meat, hence the meat's own *type*) versus thin gravy (a different substance that *can* nullify the piece). |
-| **חִדּוּשׁ** *(chidush)* | A novelty — meat and milk each permitted alone, forbidden only together; "from a novelty we do not derive" a rule for ordinary cases. |
-| **דֶּרֶךְ בִּשּׁוּל** *(derech bishul)* | "The manner of cooking" — Rava's point that the Torah banned meat-in-milk *as cooking*, and cooking simply *is* the transfer of flavor. |
-| **חֲצִי שִׁיעוּר** *(chatzi shiur)* | Half of the minimum measure; one is not flogged for it — the lever used to show Rav must hold the *milk*, not only the meat, is forbidden. |
-| **גְּדִי אָסְרָה תּוֹרָה** *(gedi asra Torah)* | "The Torah forbade the *kid*" — the first reading of the verse, that only the meat is rendered non-kosher, not the milk it cooked in. |
-| **קֵיפָה** *(kipa)* | The spice-and-froth layer floating on the stew; the Rabbis require the milk to flavor even *it* before the pot is forbidden. |
-| **נִיעֵר וְכִסָּה** *(niár v'kisa)* | Stirred and covered — the two acts that speed the drop's diffusion through the pot, and so decide between Rabbi Yehuda and the Rabbis. |
 
 ---
 

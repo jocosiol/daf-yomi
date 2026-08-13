@@ -50,6 +50,24 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **בִּקְעָה מָצָא וְגָדַר בָּהּ גָּדֵר** *(bik'a matza v'gadar ba gader)* | "He found an open valley and fenced it in" — the image for a sage who imposes a protective decree precisely where he finds a community lax, as Rav did with the udder in Tatlefush. |
+| **תְּנָא נָמֵי רֵישָׁא** *(tena nami reisha)* | "The *tanna* stated the opening clause the same way too" — here, phrasing the permitted udder as "one *cooked*" only for symmetry with the forbidden stomach-clause, not to limit it to after-the-fact. |
+| **חוּמְרֵי הַמָּקוֹם** *(chumrei hamakom)* | "The stringencies of the place" — a traveler adopts the strict customs both of the place he left and of the place he enters; Rami escaped this only by eating outside Sura's boundary. |
+| **תְּחוּם** *(techum)* | The **boundary** around a town; beyond it, Rami argued, Sura's local custom against udders no longer bound him. |
+| **יֵין נֶסֶךְ** *(yayin nesech)* | **Libation wine** poured for idolatry — forbidden even to derive benefit from; the grape seeds might have been soaked in it, but after twelve months any residue is gone. |
+| **פּוּרְצָנֵי** *(purtzenei)* | **Grape seeds / pressings** left after winemaking, which Rami used as roasting fuel — the trigger for the libation-wine and theft challenges. |
+| **יֵאוּשׁ בְּעָלִים** *(ye'ush be'alim)* | The **owners' despair** of recovering lost or abandoned property; once they give up (here, grass grew among the seeds), a finder may keep it. |
+| **חוֹלֵי מֵעַיִין** *(cholei me'ayin)* | One with an **intestinal illness**; Rav Yehuda ruled him exempt from tefillin, which require a clean body he cannot keep. |
+| **טַלִּית שְׁאוּלָה** *(tallit she'ula)* | A **borrowed robe**; per Rav Yehuda, it is exempt from ritual fringes for the first **thirty days** of the loan. |
+| **מִצְוָה שֶׁמַּתַּן שְׂכָרָהּ בְּצִדָּהּ** *(mitzva shematan secharah b'tzidah)* | A **positive mitzva whose reward is stated beside it** in the verse — such as honoring parents; the earthly court is not charged with enforcing it by punishment. |
+| **פּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת** *(poletet v'eina bola'at)* | "**Expels but does not absorb**" — the *Terumot* mishna's reason that liver forbids other food cooked with it (its blood diffuses out) yet is never itself forbidden. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 110a — The baraita, and where Rav's stringency was born
@@ -161,24 +179,6 @@ did looked forbidden, and five times he named the exact rule that cleared him.
 | **Took the grape seeds** | They might be **stolen** property | The owners had **despaired** — grass grew among them |
 | **Wore no tefillin** | Tefillin are obligatory | **Intestinal illness** exempts (Rav Yehuda) |
 | **Wore no tzitzit** | Fringes are obligatory | A **borrowed robe** is exempt for **thirty days** (Rav Yehuda) |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **בִּקְעָה מָצָא וְגָדַר בָּהּ גָּדֵר** *(bik'a matza v'gadar ba gader)* | "He found an open valley and fenced it in" — the image for a sage who imposes a protective decree precisely where he finds a community lax, as Rav did with the udder in Tatlefush. |
-| **תְּנָא נָמֵי רֵישָׁא** *(tena nami reisha)* | "The *tanna* stated the opening clause the same way too" — here, phrasing the permitted udder as "one *cooked*" only for symmetry with the forbidden stomach-clause, not to limit it to after-the-fact. |
-| **חוּמְרֵי הַמָּקוֹם** *(chumrei hamakom)* | "The stringencies of the place" — a traveler adopts the strict customs both of the place he left and of the place he enters; Rami escaped this only by eating outside Sura's boundary. |
-| **תְּחוּם** *(techum)* | The **boundary** around a town; beyond it, Rami argued, Sura's local custom against udders no longer bound him. |
-| **יֵין נֶסֶךְ** *(yayin nesech)* | **Libation wine** poured for idolatry — forbidden even to derive benefit from; the grape seeds might have been soaked in it, but after twelve months any residue is gone. |
-| **פּוּרְצָנֵי** *(purtzenei)* | **Grape seeds / pressings** left after winemaking, which Rami used as roasting fuel — the trigger for the libation-wine and theft challenges. |
-| **יֵאוּשׁ בְּעָלִים** *(ye'ush be'alim)* | The **owners' despair** of recovering lost or abandoned property; once they give up (here, grass grew among the seeds), a finder may keep it. |
-| **חוֹלֵי מֵעַיִין** *(cholei me'ayin)* | One with an **intestinal illness**; Rav Yehuda ruled him exempt from tefillin, which require a clean body he cannot keep. |
-| **טַלִּית שְׁאוּלָה** *(tallit she'ula)* | A **borrowed robe**; per Rav Yehuda, it is exempt from ritual fringes for the first **thirty days** of the loan. |
-| **מִצְוָה שֶׁמַּתַּן שְׂכָרָהּ בְּצִדָּהּ** *(mitzva shematan secharah b'tzidah)* | A **positive mitzva whose reward is stated beside it** in the verse — such as honoring parents; the earthly court is not charged with enforcing it by punishment. |
-| **פּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת** *(poletet v'eina bola'at)* | "**Expels but does not absorb**" — the *Terumot* mishna's reason that liver forbids other food cooked with it (its blood diffuses out) yet is never itself forbidden. |
 
 ---
 

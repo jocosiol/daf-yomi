@@ -45,6 +45,24 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **מְקַנֵּחַ / מֵדִיחַ** *(mekaneiach / mediach)* | Wiping the mouth with solid food versus rinsing it with water — Beit Shammai and Beit Hillel's two ways to clear the palate. |
+| **אֵין קִינּוּחַ אֶלָּא בְּפַת** *(ein kinuach ela be'fat)* | Rabbi Zeira's rule that only bread wipes the mouth effectively — and only wheat, cold, and soft. |
+| **חַלָּא בַּר חַמְרָא** *(chala bar chamra)* | "Vinegar, son of wine" — a modest son measuring himself as the lesser produce of a greater father. |
+| **סָיַיר נִכְסֵיהּ** *(sayar nichseih)* | Patrolling one's property; the sage's daily habit that "finds a coin" by heading off loss and theft. |
+| **מַיִם רִאשׁוֹנִים / אֶמְצָעִיִּים / אַחֲרוֹנִים** *(mayim rishonim / emtza'iyim / acharonim)* | The first (before bread), middle (between courses), and last (before Grace) washings of the hands. |
+| **חוֹבָה / מִצְוָה / רְשׁוּת** *(chova / mitzva / reshut)* | Obligation, mitzva, and optional — the three grades the daf assigns to the three waters. |
+| **זוּהֲמָא** *(zuhama)* | The greasy filth on the hands that last waters must remove — which hot water fails to carry off. |
+| **הַיָּד סוֹלֶדֶת בּוֹ** *(hayad soledet bo)* | "The hand recoils from it" — the threshold at which water is too hot to use. |
+| **מֶלַח סְדוֹמִית** *(melach sedomit)* | Sodomite salt, a trace of which can blind the eyes — the reason last waters are an obligation. |
+| **מֵרֵישׁ הֲוָה אָמֵינָא** *(mereish hava amina)* | "At first I would say" — Abaye's refrain, giving the surface reason before the Master's deeper one. |
+| **רוּחַ רָעָה** *(ruach ra'a)* | An evil spirit — said to rest on the used last-waters if poured on the ground. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 105a — Clearing the palate, and how long to wait
@@ -140,24 +158,6 @@ Three washings, four questions, and the prose spends three paragraphs getting th
 | **First** — before bread | **Mitzva** (the baraita's *chova* is only relative to the optional middle) | A vessel **or** the ground | Hot or cold — up to *הַיָּד סוֹלֶדֶת בָּהֶן*, where the hand recoils |
 | **Middle** — between dishes | **Optional** — but Rav Nachman: an **obligation** between a cooked dish and cheese | — | — |
 | **Last** — before *bircat hamazon* | **Obligation** (*chova*) — Sodomite salt on the hands can blind the eyes | A vessel only; the practical difference is wood slivers | Cold only — hot *מְפַעְפְּעִין אֶת הַיָּדַיִם*, softens the hands and leaves the *zuhama* |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **מְקַנֵּחַ / מֵדִיחַ** *(mekaneiach / mediach)* | Wiping the mouth with solid food versus rinsing it with water — Beit Shammai and Beit Hillel's two ways to clear the palate. |
-| **אֵין קִינּוּחַ אֶלָּא בְּפַת** *(ein kinuach ela be'fat)* | Rabbi Zeira's rule that only bread wipes the mouth effectively — and only wheat, cold, and soft. |
-| **חַלָּא בַּר חַמְרָא** *(chala bar chamra)* | "Vinegar, son of wine" — a modest son measuring himself as the lesser produce of a greater father. |
-| **סָיַיר נִכְסֵיהּ** *(sayar nichseih)* | Patrolling one's property; the sage's daily habit that "finds a coin" by heading off loss and theft. |
-| **מַיִם רִאשׁוֹנִים / אֶמְצָעִיִּים / אַחֲרוֹנִים** *(mayim rishonim / emtza'iyim / acharonim)* | The first (before bread), middle (between courses), and last (before Grace) washings of the hands. |
-| **חוֹבָה / מִצְוָה / רְשׁוּת** *(chova / mitzva / reshut)* | Obligation, mitzva, and optional — the three grades the daf assigns to the three waters. |
-| **זוּהֲמָא** *(zuhama)* | The greasy filth on the hands that last waters must remove — which hot water fails to carry off. |
-| **הַיָּד סוֹלֶדֶת בּוֹ** *(hayad soledet bo)* | "The hand recoils from it" — the threshold at which water is too hot to use. |
-| **מֶלַח סְדוֹמִית** *(melach sedomit)* | Sodomite salt, a trace of which can blind the eyes — the reason last waters are an obligation. |
-| **מֵרֵישׁ הֲוָה אָמֵינָא** *(mereish hava amina)* | "At first I would say" — Abaye's refrain, giving the surface reason before the Master's deeper one. |
-| **רוּחַ רָעָה** *(ruach ra'a)* | An evil spirit — said to rest on the used last-waters if poured on the ground. |
 
 ---
 

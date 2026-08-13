@@ -41,6 +41,24 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **מְקַנֵּחַ / מֵדִיחַ** *(mekaneaj / mediaj)* | Limpiar la boca con un alimento sólido versus enjuagarla con agua — las dos maneras de Beit Shamai y Beit Hilel de despejar el paladar. |
+| **אֵין קִינּוּחַ אֶלָּא בְּפַת** *(ein kinuaj elá be'fat)* | La regla de Rabí Zeirá de que solo el pan limpia la boca eficazmente — y solo de trigo, frío y blando. |
+| **חַלָּא בַּר חַמְרָא** *(jalá bar jamrá)* | "Vinagre, hijo de vino" — un hijo modesto que se mide como el producto menor de un padre mayor. |
+| **סָיַיר נִכְסֵיהּ** *(sayar nijseih)* | Patrullar la propia propiedad; el hábito diario del sabio que "encuentra una moneda" al atajar la pérdida y el robo. |
+| **מַיִם רִאשׁוֹנִים / אֶמְצָעִיִּים / אַחֲרוֹנִים** *(máyim rishonim / emtza'iyim / ajaronim)* | Las lavados de manos primeros (antes del pan), intermedios (entre platos) y últimos (antes de la Bendición). |
+| **חוֹבָה / מִצְוָה / רְשׁוּת** *(jová / mitzvá / reshut)* | Obligación, mitzvá y opción — los tres grados que el daf asigna a las tres aguas. |
+| **זוּהֲמָא** *(zuhamá)* | La mugre grasienta de las manos que las aguas últimas deben quitar — que el agua caliente no logra arrastrar. |
+| **הַיָּד סוֹלֶדֶת בּוֹ** *(hayad soledet bo)* | "La mano se retrae de ella" — el umbral en que el agua está demasiado caliente para usarse. |
+| **מֶלַח סְדוֹמִית** *(mélaj sedomit)* | La sal de Sodoma, un rastro de la cual puede cegar los ojos — la razón por la que las aguas últimas son obligación. |
+| **מֵרֵישׁ הֲוָה אָמֵינָא** *(mereish havá aminá)* | "Al principio yo diría" — el estribillo de Abaie, que da la razón superficial antes de la más profunda del Maestro. |
+| **רוּחַ רָעָה** *(rúaj ra'á)* | Un espíritu maligno — que se dice reposa sobre las aguas últimas usadas si se vierten en el suelo. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 105a — Limpiar el paladar, y cuánto esperar
@@ -138,24 +156,6 @@ Tres lavados, cuatro preguntas — y a la prosa le lleva tres párrafos llegar h
 | **Primeras** — antes del pan | **Mitzvá** (la *jová* de la baraita es solo en relación con las intermedias, opcionales) | Un recipiente **o** el suelo | Calientes o frías — hasta *הַיָּד סוֹלֶדֶת בָּהֶן*, donde la mano se retrae |
 | **Intermedias** — entre platos | **Opcional** — pero Rav Najmán: **obligación** entre un plato cocido y el queso | — | — |
 | **Últimas** — antes de *bircat hamazón* | **Obligación** (*jová*) — la sal de Sodoma en las manos puede cegar los ojos | Solo un recipiente; la diferencia práctica son las astillas de madera | Solo frías — el agua caliente *מְפַעְפְּעִין אֶת הַיָּדַיִם*, ablanda las manos y deja la *zuhamá* |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **מְקַנֵּחַ / מֵדִיחַ** *(mekaneaj / mediaj)* | Limpiar la boca con un alimento sólido versus enjuagarla con agua — las dos maneras de Beit Shamai y Beit Hilel de despejar el paladar. |
-| **אֵין קִינּוּחַ אֶלָּא בְּפַת** *(ein kinuaj elá be'fat)* | La regla de Rabí Zeirá de que solo el pan limpia la boca eficazmente — y solo de trigo, frío y blando. |
-| **חַלָּא בַּר חַמְרָא** *(jalá bar jamrá)* | "Vinagre, hijo de vino" — un hijo modesto que se mide como el producto menor de un padre mayor. |
-| **סָיַיר נִכְסֵיהּ** *(sayar nijseih)* | Patrullar la propia propiedad; el hábito diario del sabio que "encuentra una moneda" al atajar la pérdida y el robo. |
-| **מַיִם רִאשׁוֹנִים / אֶמְצָעִיִּים / אַחֲרוֹנִים** *(máyim rishonim / emtza'iyim / ajaronim)* | Las lavados de manos primeros (antes del pan), intermedios (entre platos) y últimos (antes de la Bendición). |
-| **חוֹבָה / מִצְוָה / רְשׁוּת** *(jová / mitzvá / reshut)* | Obligación, mitzvá y opción — los tres grados que el daf asigna a las tres aguas. |
-| **זוּהֲמָא** *(zuhamá)* | La mugre grasienta de las manos que las aguas últimas deben quitar — que el agua caliente no logra arrastrar. |
-| **הַיָּד סוֹלֶדֶת בּוֹ** *(hayad soledet bo)* | "La mano se retrae de ella" — el umbral en que el agua está demasiado caliente para usarse. |
-| **מֶלַח סְדוֹמִית** *(mélaj sedomit)* | La sal de Sodoma, un rastro de la cual puede cegar los ojos — la razón por la que las aguas últimas son obligación. |
-| **מֵרֵישׁ הֲוָה אָמֵינָא** *(mereish havá aminá)* | "Al principio yo diría" — el estribillo de Abaie, que da la razón superficial antes de la más profunda del Maestro. |
-| **רוּחַ רָעָה** *(rúaj ra'á)* | Un espíritu maligno — que se dice reposa sobre las aguas últimas usadas si se vierten en el suelo. |
 
 ---
 

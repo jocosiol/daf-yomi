@@ -41,6 +41,23 @@ Cuatro movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **מַיִם רִאשׁוֹנִים / אַחֲרוֹנִים** *(maim rishonim / ajaronim)* | Las primeras aguas (antes del pan) y las últimas aguas (antes del Bircat Hamazón); descuidarlas, advierte el daf, llevó una vez a carne prohibida y a un matrimonio arruinado. |
+| **חַמֵּי הָאוּר** *(jamei haur)* | Agua calentada al fuego — Jizkiiá la veda para lavarse las manos, Rabí Iojanán la permite. |
+| **חַמֵּי טְבֶרְיָא** *(jamei Tveria)* | Los manantiales termales naturales de Tiberias — aptos para inmersión, disputados para lavarse las manos. |
+| **בַּת בִּירְתָּא** *(bat birtá)* | Agua desviada por una zanja o canal — el único caso en que la disputa de Tiberias realmente gira. |
+| **גָּזְרִינַן / לָא גָּזְרִינַן** *(gazrinán / lo gazrinán)* | "Decretamos / no decretamos" — si se prohíbe el agua de la zanja no sea que se llegue a usar un recipiente. |
+| **חוֹצֵץ** *(jotzetz)* | Una interposición entre la piel y el agua que arruina la inmersión — y arruina por igual el lavado de las manos. |
+| **סֶרֶךְ תְּרוּמָה** *(sérej trumá)* | "Una salvaguarda de la *trumá*" — la razón por la que los Sabios hicieron que todos se lavaran antes de la comida ordinaria: para que los cohanim no se descuiden con la porción sacerdotal. |
+| **עַד הַפֶּרֶק** *(ad haperek)* | "Hasta la articulación" — hasta dónde de los dedos debe llegar el agua; el lugar exacto de la articulación es en sí mismo disputado. |
+| **מִגַּסֵּי הָרוּחַ** *(migasei harúaj)* | "De los arrogantes" — el veredicto de Rav Najmán sobre quien insiste en lavarse antes de comer fruta. |
+| **רְשׁוּת** *(reshut)* | Opcional — el grado de Rava para lavarse antes de la fruta: ni obligación ni mitzvá. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 106a — Lo que está en juego, y luego el agua
@@ -138,23 +155,6 @@ que la brecha es más estrecha de lo que parece:
 
 *La lectura de Rav Papa sobre Tiberias:* agua en su lugar — todos permiten; agua en un recipiente — todos
 prohíben; solo el agua **conducida por una zanja** se disputa, y solo sobre si **decretar** contra ella.
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **מַיִם רִאשׁוֹנִים / אַחֲרוֹנִים** *(maim rishonim / ajaronim)* | Las primeras aguas (antes del pan) y las últimas aguas (antes del Bircat Hamazón); descuidarlas, advierte el daf, llevó una vez a carne prohibida y a un matrimonio arruinado. |
-| **חַמֵּי הָאוּר** *(jamei haur)* | Agua calentada al fuego — Jizkiiá la veda para lavarse las manos, Rabí Iojanán la permite. |
-| **חַמֵּי טְבֶרְיָא** *(jamei Tveria)* | Los manantiales termales naturales de Tiberias — aptos para inmersión, disputados para lavarse las manos. |
-| **בַּת בִּירְתָּא** *(bat birtá)* | Agua desviada por una zanja o canal — el único caso en que la disputa de Tiberias realmente gira. |
-| **גָּזְרִינַן / לָא גָּזְרִינַן** *(gazrinán / lo gazrinán)* | "Decretamos / no decretamos" — si se prohíbe el agua de la zanja no sea que se llegue a usar un recipiente. |
-| **חוֹצֵץ** *(jotzetz)* | Una interposición entre la piel y el agua que arruina la inmersión — y arruina por igual el lavado de las manos. |
-| **סֶרֶךְ תְּרוּמָה** *(sérej trumá)* | "Una salvaguarda de la *trumá*" — la razón por la que los Sabios hicieron que todos se lavaran antes de la comida ordinaria: para que los cohanim no se descuiden con la porción sacerdotal. |
-| **עַד הַפֶּרֶק** *(ad haperek)* | "Hasta la articulación" — hasta dónde de los dedos debe llegar el agua; el lugar exacto de la articulación es en sí mismo disputado. |
-| **מִגַּסֵּי הָרוּחַ** *(migasei harúaj)* | "De los arrogantes" — el veredicto de Rav Najmán sobre quien insiste en lavarse antes de comer fruta. |
-| **רְשׁוּת** *(reshut)* | Opcional — el grado de Rava para lavarse antes de la fruta: ni obligación ni mitzvá. |
 
 ---
 

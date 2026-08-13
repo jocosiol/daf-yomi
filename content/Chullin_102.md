@@ -42,6 +42,24 @@ Four movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **אֵבֶר מִן הַחַי** *(ever min hachai)* | A limb — flesh, sinew and bone together — severed from a living animal and eaten. The prohibition surveyed all daf. |
+| **כֹּל שֶׁאַתָּה מְצֻוֶּה עַל דָּמוֹ** *(kol she'atah metzuveh al damo)* | "Any animal whose blood you are commanded about": Rabbi Elazar's reading, extending *ever min hachai* to non-kosher species. |
+| **בָּשָׂר לְחוֹדֵיהּ** *(basar lechudeih)* | "The flesh alone": the Rabbis' reading, confining the prohibition to species whose flesh can become permitted. |
+| **אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ** *(issuro noheg bivnei Noach)* | The prohibition binds descendants of Noah too — its added stringency, and the one point on which all agree it covers non-kosher species. |
+| **בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת** *(bechayeha le'evarim omedet)* | "In its lifetime it stands divided into limbs" — the pivot that decides whether eating a whole live creature counts as eating a limb. |
+| **כְּזַיִת** *(kezayit)* | An olive-bulk, the measure "eating" implies; Rav requires it even for a limb. |
+| **בְּמַשֶּׁהוּ בָּשָׂר גִּידִין וַעֲצָמוֹת** *(bemashehu basar gidin va'atzamot)* | An olive-bulk made of a trace of meat plus sinews and bones — how a limb reaches the shiur without an olive-bulk of edible flesh. |
+| **קְלָנִיתָא** *(kelanita)* | A tiny, scrawny bird — the case of a body with no olive-bulk of meat but a limb that reaches one with sinew and bone. |
+| **מַחְשֶׁבֶת אֳכָלִין שְׁמָהּ מַחְשָׁבָה** *(machsheves ochlin shemah machshavah)* | "Thought about food is [significant] thought" — the premise of Rava's twin cases. |
+| **זֶה לְפִי מַחְשַׁבְתּוֹ** *(zeh lefi machshavto)* | "Each according to his own thought" — the same act can be liable for one person and not another. |
+| **בָּשָׂר מִן הַחַי / בְּשַׂר טְרֵפָה** *(basar min hachai / besar tereifa)* | Flesh (less than a whole limb) torn from the living / flesh of a *tereifa* — the two neighbours whose verses Rabbi Yochanan and Reish Lakish divide differently. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 102a — Whose blood, whose flesh: the two readings
@@ -169,24 +187,6 @@ Two verses, three prohibitions — and the whole dispute is only about which ver
 | A limb from the living **+** flesh from the living | **Two** sets | **One** set | Two verses for R' Yochanan; for Reish Lakish both sit in the same one |
 | Flesh from the living **+** flesh of a *tereifa* | **One** set | **Two** sets | R' Yochanan puts both in *וּבָשָׂר בַּשָּׂדֶה*; Reish Lakish reads that verse as *tereifa* alone |
 | A limb from the living **+** flesh of a *tereifa* | **Two** sets | **Two** sets | Different verses on either reading — and it is against *this* agreement that tomorrow's contradiction is raised |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **אֵבֶר מִן הַחַי** *(ever min hachai)* | A limb — flesh, sinew and bone together — severed from a living animal and eaten. The prohibition surveyed all daf. |
-| **כֹּל שֶׁאַתָּה מְצֻוֶּה עַל דָּמוֹ** *(kol she'atah metzuveh al damo)* | "Any animal whose blood you are commanded about": Rabbi Elazar's reading, extending *ever min hachai* to non-kosher species. |
-| **בָּשָׂר לְחוֹדֵיהּ** *(basar lechudeih)* | "The flesh alone": the Rabbis' reading, confining the prohibition to species whose flesh can become permitted. |
-| **אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ** *(issuro noheg bivnei Noach)* | The prohibition binds descendants of Noah too — its added stringency, and the one point on which all agree it covers non-kosher species. |
-| **בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת** *(bechayeha le'evarim omedet)* | "In its lifetime it stands divided into limbs" — the pivot that decides whether eating a whole live creature counts as eating a limb. |
-| **כְּזַיִת** *(kezayit)* | An olive-bulk, the measure "eating" implies; Rav requires it even for a limb. |
-| **בְּמַשֶּׁהוּ בָּשָׂר גִּידִין וַעֲצָמוֹת** *(bemashehu basar gidin va'atzamot)* | An olive-bulk made of a trace of meat plus sinews and bones — how a limb reaches the shiur without an olive-bulk of edible flesh. |
-| **קְלָנִיתָא** *(kelanita)* | A tiny, scrawny bird — the case of a body with no olive-bulk of meat but a limb that reaches one with sinew and bone. |
-| **מַחְשֶׁבֶת אֳכָלִין שְׁמָהּ מַחְשָׁבָה** *(machsheves ochlin shemah machshavah)* | "Thought about food is [significant] thought" — the premise of Rava's twin cases. |
-| **זֶה לְפִי מַחְשַׁבְתּוֹ** *(zeh lefi machshavto)* | "Each according to his own thought" — the same act can be liable for one person and not another. |
-| **בָּשָׂר מִן הַחַי / בְּשַׂר טְרֵפָה** *(basar min hachai / besar tereifa)* | Flesh (less than a whole limb) torn from the living / flesh of a *tereifa* — the two neighbours whose verses Rabbi Yochanan and Reish Lakish divide differently. |
 
 ---
 

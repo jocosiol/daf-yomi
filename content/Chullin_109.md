@@ -44,6 +44,24 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **כְּחָל** *(kachal)* | The **udder** of a slaughtered animal; full of milk, yet permitted because that milk never became milk — one tears it and presses the milk out before cooking. |
+| **קֵבָה** *(keiva)* | The **stomach** (abomasum) of a suckling calf or lamb, holding milk it actually nursed; that milk is real milk, so the stomach cooked in it is forbidden. |
+| **לֵב** *(lev)* | The **heart**; being *smooth*, it barely absorbs blood in cooking, so removing its blood by tearing works even after the fact. |
+| **כָּנוּס בְּמֵעָיו** *(kanus b'me'av)* | "**Collected in the innards**" — the test that separates the forbidden stomach (its milk was gathered inside as milk) from the permitted udder (its milk never was). |
+| **אֶפְשָׁר לְסוֹחֲטוֹ** *(efshar lisochato)* | "It can be wrung out" — whether an absorbed forbidden substance that could in principle be squeezed back out still forbids; settled here as **asur**, it does. |
+| **מִין בְּמִינוֹ** *(min bemino)* | A forbidden food inside more of **its own type**; per Rabbi Yehuda, and now Rabbi, it is *never nullified*, so one tainted piece forbids all the rest. |
+| **אֵינוֹ עוֹבֵר עָלָיו** *(eino over alav)* | "**He does not transgress by it**" — the mishna's guarded phrase, read by Rav either as *fully permitted* or as *exempt from the Torah but rabbinically forbidden*. |
+| **חֲצִי שִׁיעוּר** *(chatzi shiur)* | A **half-measure** — here, less than a *kezayit* of blood in the heart; forbidden by Torah law though it carries no lashes or *karet*. |
+| **קוֹרְעוֹ שְׁתִי וָעֵרֶב** *(kore'o sheti va'erev)* | Tearing an udder "**lengthwise and crosswise**" and pressing it to the wall — Rav Yehuda's thorough method, which Rabbi Elazar says is more than required. |
+| **וְתוּ לָא מִידֵּי** *(vetu la midi)* | "**And nothing more**" — the Gemara's own sign-off that a line of argument is closed and the ruling settled. |
+| **דַּם טוֹהַר** *(dam tohar)* | "**Blood of purity**" — the post-childbirth flow that does not render a woman impure; Yalta's example of a permitted counterpart to the forbidden *niddah*. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 109a — The wringing dispute, finally settled
@@ -185,24 +203,6 @@ milk or blood, and what you must do about it:
 | **Udder** (*kachal*) | milk soaked through the flesh | **No** — never *collected in the innards* | No Torah violation; tear once and press the milk out (rabbinic, before cooking in a pot) |
 | **Stomach** (*keiva*) | milk the calf actually suckled | **Yes** — *collected in the innards* | Forbidden — this is true milk, and may not be cooked in it |
 | **Heart** (*lev*) | blood | Blood — but the heart is *smooth* and barely absorbs | Tear and remove the blood; a tear even *after* cooking suffices |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **כְּחָל** *(kachal)* | The **udder** of a slaughtered animal; full of milk, yet permitted because that milk never became milk — one tears it and presses the milk out before cooking. |
-| **קֵבָה** *(keiva)* | The **stomach** (abomasum) of a suckling calf or lamb, holding milk it actually nursed; that milk is real milk, so the stomach cooked in it is forbidden. |
-| **לֵב** *(lev)* | The **heart**; being *smooth*, it barely absorbs blood in cooking, so removing its blood by tearing works even after the fact. |
-| **כָּנוּס בְּמֵעָיו** *(kanus b'me'av)* | "**Collected in the innards**" — the test that separates the forbidden stomach (its milk was gathered inside as milk) from the permitted udder (its milk never was). |
-| **אֶפְשָׁר לְסוֹחֲטוֹ** *(efshar lisochato)* | "It can be wrung out" — whether an absorbed forbidden substance that could in principle be squeezed back out still forbids; settled here as **asur**, it does. |
-| **מִין בְּמִינוֹ** *(min bemino)* | A forbidden food inside more of **its own type**; per Rabbi Yehuda, and now Rabbi, it is *never nullified*, so one tainted piece forbids all the rest. |
-| **אֵינוֹ עוֹבֵר עָלָיו** *(eino over alav)* | "**He does not transgress by it**" — the mishna's guarded phrase, read by Rav either as *fully permitted* or as *exempt from the Torah but rabbinically forbidden*. |
-| **חֲצִי שִׁיעוּר** *(chatzi shiur)* | A **half-measure** — here, less than a *kezayit* of blood in the heart; forbidden by Torah law though it carries no lashes or *karet*. |
-| **קוֹרְעוֹ שְׁתִי וָעֵרֶב** *(kore'o sheti va'erev)* | Tearing an udder "**lengthwise and crosswise**" and pressing it to the wall — Rav Yehuda's thorough method, which Rabbi Elazar says is more than required. |
-| **וְתוּ לָא מִידֵּי** *(vetu la midi)* | "**And nothing more**" — the Gemara's own sign-off that a line of argument is closed and the ruling settled. |
-| **דַּם טוֹהַר** *(dam tohar)* | "**Blood of purity**" — the post-childbirth flow that does not render a woman impure; Yalta's example of a permitted counterpart to the forbidden *niddah*. |
 
 ---
 

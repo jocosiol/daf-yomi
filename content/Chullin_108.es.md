@@ -41,6 +41,25 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **נוֹתֵן טַעַם** *(noten táam)* | "Impartir sabor" — el umbral de prohibición en una mezcla: una comida prohibida prohíbe solo si queda lo suficiente para ser *saboreada* (grosso modo, una parte en sesenta). |
+| **טַעַם וְלֹא מַמָּשׁ** *(táam veló mamash)* | Sabor sin *sustancia* prohibida alguna que quede; Abaie sostiene que prohíbe por ley de la Torá en todos lados, Rava que esto es propio de la cocción. |
+| **חֲתִיכָה נַעֲשֵׂית נְבֵלָה** *(jatijá naasét neveilá)* | La regla de Rav: un trozo que absorbe un sabor prohibido no solo *carga* con la prohibición — él *mismo* se vuelve no kosher, y puede entonces prohibir a otros. |
+| **מִין בְּמִינוֹ** *(min bemino)* | Una comida prohibida dentro de más comida de su propia especie; según Rabí Iehudá *nunca se anula*, que es cómo un trozo-neveilá prohíbe toda la carne. |
+| **אֶפְשָׁר לְסוֹחֲטוֹ** *(efshar lisojató)* | "Es posible exprimirlo" — un trozo cuya sustancia prohibida absorbida podría en principio exprimirse de vuelta; ¿sigue prohibido, o permitido? |
+| **רוֹטֶב עָבֶה / רַכָּה** *(rótev avé / racá)* | Salsa espesa (carne concentrada, por ende de la *especie* misma de la carne) frente a salsa rala (una sustancia distinta que *sí* puede anular el trozo). |
+| **חִדּוּשׁ** *(jidush)* | Una anomalía — carne y leche permitidas cada una sola, prohibidas solo juntas; "de una anomalía no aprendemos" una regla para casos comunes. |
+| **דֶּרֶךְ בִּשּׁוּל** *(dérej bishul)* | "El modo de la cocción" — el punto de Rava de que la Torá prohibió la carne con leche *en cuanto cocción*, y cocinar simplemente *es* la transferencia de sabor. |
+| **חֲצִי שִׁיעוּר** *(jatzí shiur)* | La mitad de la medida mínima; no se recibe azotes por ella — la palanca que se usa para mostrar que Rav debe sostener que la *leche*, no solo la carne, está prohibida. |
+| **גְּדִי אָסְרָה תּוֹרָה** *(guedí asrá Torá)* | "La Torá prohibió el *cabrito*" — la primera lectura del versículo, que solo la carne se vuelve no kosher, no la leche en la que se coció. |
+| **קֵיפָה** *(keipá)* | La capa de especias y espuma que flota sobre el guiso; los Sabios exigen que la leche dé sabor aun a *ella* antes de que la olla quede prohibida. |
+| **נִיעֵר וְכִסָּה** *(niér vejisá)* | Revolver y tapar — los dos actos que aceleran la difusión de la gota por la olla, y así deciden entre Rabí Iehudá y los Sabios. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 108a — ¿Prohíbe el sabor solo por ley de la Torá?
@@ -166,25 +185,6 @@ contaminado la olla entera?* Tres respuestas, a cada una se le hacen las mismas 
 | **Rabí Iehudá** | En el momento en que la gota le da sabor a **ese único trozo** | *min bemino* — el trozo es ahora neveilá, y su propia especie no puede anularlo |
 | **Los Sabios** | Solo si la leche da sabor a la **salsa, las especias y todos los trozos** | la leche se difunde por la olla; se juzga el todo, no un trozo |
 | **Rabí (acuerdo)** | La regla de Rabí Iehudá si **no se revolvió ni tapó**; la de los Sabios si **se revolvió y tapó** | revolver y tapar deciden si la gota se quedó quieta o se difundió |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **נוֹתֵן טַעַם** *(noten táam)* | "Impartir sabor" — el umbral de prohibición en una mezcla: una comida prohibida prohíbe solo si queda lo suficiente para ser *saboreada* (grosso modo, una parte en sesenta). |
-| **טַעַם וְלֹא מַמָּשׁ** *(táam veló mamash)* | Sabor sin *sustancia* prohibida alguna que quede; Abaie sostiene que prohíbe por ley de la Torá en todos lados, Rava que esto es propio de la cocción. |
-| **חֲתִיכָה נַעֲשֵׂית נְבֵלָה** *(jatijá naasét neveilá)* | La regla de Rav: un trozo que absorbe un sabor prohibido no solo *carga* con la prohibición — él *mismo* se vuelve no kosher, y puede entonces prohibir a otros. |
-| **מִין בְּמִינוֹ** *(min bemino)* | Una comida prohibida dentro de más comida de su propia especie; según Rabí Iehudá *nunca se anula*, que es cómo un trozo-neveilá prohíbe toda la carne. |
-| **אֶפְשָׁר לְסוֹחֲטוֹ** *(efshar lisojató)* | "Es posible exprimirlo" — un trozo cuya sustancia prohibida absorbida podría en principio exprimirse de vuelta; ¿sigue prohibido, o permitido? |
-| **רוֹטֶב עָבֶה / רַכָּה** *(rótev avé / racá)* | Salsa espesa (carne concentrada, por ende de la *especie* misma de la carne) frente a salsa rala (una sustancia distinta que *sí* puede anular el trozo). |
-| **חִדּוּשׁ** *(jidush)* | Una anomalía — carne y leche permitidas cada una sola, prohibidas solo juntas; "de una anomalía no aprendemos" una regla para casos comunes. |
-| **דֶּרֶךְ בִּשּׁוּל** *(dérej bishul)* | "El modo de la cocción" — el punto de Rava de que la Torá prohibió la carne con leche *en cuanto cocción*, y cocinar simplemente *es* la transferencia de sabor. |
-| **חֲצִי שִׁיעוּר** *(jatzí shiur)* | La mitad de la medida mínima; no se recibe azotes por ella — la palanca que se usa para mostrar que Rav debe sostener que la *leche*, no solo la carne, está prohibida. |
-| **גְּדִי אָסְרָה תּוֹרָה** *(guedí asrá Torá)* | "La Torá prohibió el *cabrito*" — la primera lectura del versículo, que solo la carne se vuelve no kosher, no la leche en la que se coció. |
-| **קֵיפָה** *(keipá)* | La capa de especias y espuma que flota sobre el guiso; los Sabios exigen que la leche dé sabor aun a *ella* antes de que la olla quede prohibida. |
-| **נִיעֵר וְכִסָּה** *(niér vejisá)* | Revolver y tapar — los dos actos que aceleran la difusión de la gota por la olla, y así deciden entre Rabí Iehudá y los Sabios. |
 
 ---
 

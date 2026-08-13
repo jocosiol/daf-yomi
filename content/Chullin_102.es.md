@@ -39,6 +39,24 @@ Cuatro movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **אֵבֶר מִן הַחַי** *(éver min hajai)* | Un miembro — carne, nervio y hueso juntos — cortado de un animal vivo y comido. La prohibición recorrida todo el daf. |
+| **כֹּל שֶׁאַתָּה מְצֻוֶּה עַל דָּמוֹ** *(kol sheatá metzuvé al damó)* | "Todo animal sobre cuya sangre estás mandado": la lectura de Rabí Elazar, que extiende el *éver min hajai* a las especies no kosher. |
+| **בָּשָׂר לְחוֹדֵיהּ** *(basar lejudeih)* | "La carne sola": la lectura de los Sabios, que confina la prohibición a especies cuya carne puede llegar a permitirse. |
+| **אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ** *(isuró noheg bivnei Nóaj)* | La prohibición obliga también a los descendientes de Nóaj — su estrictez añadida, y el único punto en que todos concuerdan en que abarca especies no kosher. |
+| **בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת** *(bejaieha leevarim omedet)* | "En su vida se sostiene dividida en miembros" — el gozne que decide si comer una criatura viva entera cuenta como comer un miembro. |
+| **כְּזַיִת** *(kezait)* | Un volumen de aceituna, la medida que "comer" implica; Rav lo requiere incluso para un miembro. |
+| **בְּמַשֶּׁהוּ בָּשָׂר גִּידִין וַעֲצָמוֹת** *(bemashehu basar guidín vaatzamot)* | Un volumen de aceituna hecho de una traza de carne más nervios y huesos — cómo un miembro alcanza la medida sin un volumen de aceituna de carne comestible. |
+| **קְלָנִיתָא** *(kelanita)* | Un ave diminuta y esmirriada — el caso de un cuerpo sin un volumen de aceituna de carne pero con un miembro que lo alcanza con nervio y hueso. |
+| **מַחְשֶׁבֶת אֳכָלִין שְׁמָהּ מַחְשָׁבָה** *(majshévet ojalín shemá majshavá)* | "El pensamiento sobre la comida es pensamiento [significativo]" — la premisa de los dos casos de Rava. |
+| **זֶה לְפִי מַחְשַׁבְתּוֹ** *(ze lefí majshavtó)* | "Cada uno según su propio pensamiento" — el mismo acto puede ser responsable para una persona y no para otra. |
+| **בָּשָׂר מִן הַחַי / בְּשַׂר טְרֵפָה** *(basar min hajai / besar taref)* | Carne (menos que un miembro entero) arrancada de lo vivo / carne de un *taref* — los dos vecinos cuyos versículos Rabí Iojanán y Reish Lakish reparten de modo distinto. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 102a — De quién es la sangre, de quién es la carne: las dos lecturas
@@ -171,24 +189,6 @@ Dos versículos, tres prohibiciones — y toda la disputa es solo sobre cuál ve
 | Un miembro de lo vivo **+** carne de lo vivo | **Dos** series | **Una** serie | Dos versículos para R' Iojanán; para Reish Lakish ambos caen en el mismo |
 | Carne de lo vivo **+** carne de un *taref* | **Una** serie | **Dos** series | R' Iojanán pone ambos en *וּבָשָׂר בַּשָּׂדֶה*; Reish Lakish lee ese versículo como solo *taref* |
 | Un miembro de lo vivo **+** carne de un *taref* | **Dos** series | **Dos** series | Versículos distintos en cualquiera de las dos lecturas — y es contra *este* acuerdo que mañana se plantea la contradicción |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **אֵבֶר מִן הַחַי** *(éver min hajai)* | Un miembro — carne, nervio y hueso juntos — cortado de un animal vivo y comido. La prohibición recorrida todo el daf. |
-| **כֹּל שֶׁאַתָּה מְצֻוֶּה עַל דָּמוֹ** *(kol sheatá metzuvé al damó)* | "Todo animal sobre cuya sangre estás mandado": la lectura de Rabí Elazar, que extiende el *éver min hajai* a las especies no kosher. |
-| **בָּשָׂר לְחוֹדֵיהּ** *(basar lejudeih)* | "La carne sola": la lectura de los Sabios, que confina la prohibición a especies cuya carne puede llegar a permitirse. |
-| **אִיסּוּרוֹ נוֹהֵג בִּבְנֵי נֹחַ** *(isuró noheg bivnei Nóaj)* | La prohibición obliga también a los descendientes de Nóaj — su estrictez añadida, y el único punto en que todos concuerdan en que abarca especies no kosher. |
-| **בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת** *(bejaieha leevarim omedet)* | "En su vida se sostiene dividida en miembros" — el gozne que decide si comer una criatura viva entera cuenta como comer un miembro. |
-| **כְּזַיִת** *(kezait)* | Un volumen de aceituna, la medida que "comer" implica; Rav lo requiere incluso para un miembro. |
-| **בְּמַשֶּׁהוּ בָּשָׂר גִּידִין וַעֲצָמוֹת** *(bemashehu basar guidín vaatzamot)* | Un volumen de aceituna hecho de una traza de carne más nervios y huesos — cómo un miembro alcanza la medida sin un volumen de aceituna de carne comestible. |
-| **קְלָנִיתָא** *(kelanita)* | Un ave diminuta y esmirriada — el caso de un cuerpo sin un volumen de aceituna de carne pero con un miembro que lo alcanza con nervio y hueso. |
-| **מַחְשֶׁבֶת אֳכָלִין שְׁמָהּ מַחְשָׁבָה** *(majshévet ojalín shemá majshavá)* | "El pensamiento sobre la comida es pensamiento [significativo]" — la premisa de los dos casos de Rava. |
-| **זֶה לְפִי מַחְשַׁבְתּוֹ** *(ze lefí majshavtó)* | "Cada uno según su propio pensamiento" — el mismo acto puede ser responsable para una persona y no para otra. |
-| **בָּשָׂר מִן הַחַי / בְּשַׂר טְרֵפָה** *(basar min hajai / besar taref)* | Carne (menos que un miembro entero) arrancada de lo vivo / carne de un *taref* — los dos vecinos cuyos versículos Rabí Iojanán y Reish Lakish reparten de modo distinto. |
 
 ---
 

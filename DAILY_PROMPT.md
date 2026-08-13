@@ -136,11 +136,25 @@ the new chapter begins.
 **(a) `## The big picture (read this first)`** — what today's page is really about, and why
 it matters. A blockquote for the central idea works well.
 
-**(b) `## Walking through the sugya, step by step`** — the argument in order, with `### `
+**(b) `## Key concepts & terms`** — a markdown table, `| Term | Meaning |`, with the
+Hebrew/Aramaic term, its transliteration, and what it means on this daf.
+
+It sits here, before the walkthrough, because it is the vocabulary the walkthrough is about
+to use: read the terms first and the argument is followable. Write it *after* the walkthrough
+even so — you only know which words carry the daf once you have laid the argument out — then
+put it above.
+
+This table is also the daf's **flashcard deck**: the build turns each row into a card,
+term on the front and meaning on the back. So write each side to stand on its own — a
+meaning that only makes sense while looking at the row above it makes a poor card. The
+translation must have the same terms in the same order; `validate.py` rejects a glossary
+that has gained or lost a row.
+
+**(c) `## Walking through the sugya, step by step`** — the argument in order, with `### `
 subheadings per amud (`### 102a — …`). Bold the moves (**The objection.**, **The answer.**)
 so it can be skimmed. Quote key Aramaic inline with its translation.
 
-**(c) `## The distinctions, side by side`** — one markdown table that collapses the daf's
+**(d) `## The distinctions, side by side`** — one markdown table that collapses the daf's
 central distinction into a grid you can take in at a glance.
 
 This is **not** the terms table. That one is a glossary: term → meaning, one row per word.
@@ -168,15 +182,6 @@ Rules that keep it useful:
 - **If the daf genuinely has no clean matrix** — a pure narrative or aggadic stretch — use
   the section for an ordered table of the sugya's moves instead
   (`| Move | The claim | How it ends |`), and keep it short. Do not force a grid.
-
-**(d) `## Key concepts & terms`** — a markdown table, `| Term | Meaning |`, with the
-Hebrew/Aramaic term, its transliteration, and what it means on this daf.
-
-This table is also the daf's **flashcard deck**: the build turns each row into a card,
-term on the front and meaning on the back. So write each side to stand on its own — a
-meaning that only makes sense while looking at the row above it makes a poor card. The
-translation must have the same terms in the same order; `validate.py` rejects a glossary
-that has gained or lost a row.
 
 **(e) `## Who's who in today's daf`** — for **every** sage named, a one-line ID: era
 (**Tanna** / **Babylonian Amora** / **Eretz-Yisrael Amora**), approximate generation, where
@@ -274,9 +279,9 @@ the translation cannot disagree with the English about which day it is.
 | English | Spanish |
 |---|---|
 | The big picture (read this first) | El panorama general (leer esto primero) |
+| Key concepts & terms | Conceptos y términos clave |
 | Walking through the sugya, step by step | Recorriendo la suguiá, paso a paso |
 | The distinctions, side by side | Las distinciones, lado a lado |
-| Key concepts & terms | Conceptos y términos clave |
 | Who's who in today's daf | Quién es quién en el daf de hoy |
 | One line to carry with you | Una línea para llevarte |
 | Chazara — test yourself | Chazará — ponte a prueba |
@@ -332,9 +337,9 @@ the file is `content/Chullin_<page>.he.md`.
 | English | Hebrew |
 |---|---|
 | The big picture (read this first) | התמונה הגדולה (לקרוא קודם) |
+| Key concepts & terms | מושגים ומונחים מרכזיים |
 | Walking through the sugya, step by step | עוברים על הסוגיה, צעד אחר צעד |
 | The distinctions, side by side | ההבחנות, זו מול זו |
-| Key concepts & terms | מושגים ומונחים מרכזיים |
 | Who's who in today's daf | מי ומי בדף של היום |
 | One line to carry with you | שורה אחת לקחת אתכם |
 | Chazara — test yourself | חזרה — בחנו את עצמכם |

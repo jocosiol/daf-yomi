@@ -44,6 +44,23 @@ Four movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **אִיסּוּר כּוֹלֵל** *(issur kolel)* | An "inclusive" prohibition — broader in scope than the existing one. Whether breadth alone lets it take effect is the day's central dispute. |
+| **אִיסּוּר חָמוּר** *(issur chamur)* | A more severe prohibition. Even one who rejects *issur kolel* might allow severity to override. |
+| **מִגּוֹ** *(migo)* | "Since" — the mechanism of *issur kolel*: since the prohibition binds him in the wider case, it binds him here too. Rabbi Yosei HaGelili: מִגּוֹ לָא אָמְרִינַן. |
+| **טוּמְאַת הַגּוּף / טוּמְאַת בָּשָׂר** *(tumas haguf / tumas basar)* | Impurity of the person's body (punishable by *karet*) against impurity of the meat (lashes) — and which is graver is not obvious. |
+| **הַצָּעָה שֶׁל מִשְׁנָה** *(hatza'ah shel mishnah)* | The correct *presentation* of a teaching — the wording is right but the attributions must be exchanged. |
+| **קְבִיעָא וְקַיְימָא** *(kevi'a vekaima)* | Fixed and standing — Shabbos falls of itself on the seventh day, unlike Yom Kippur, which the court fixes. |
+| **שְׁעַת הַגְּזֵרָה** *(she'as hagezeirah)* | A time of persecution — the historical circumstance in which Yom Kippur was displaced onto Shabbos. |
+| **שׁוֹר הַנִּסְקָל / עוֹלָה** *(shor hanniskal / olah)* | An ox condemned to stoning / a burnt offering. Both forbid all benefit, not only eating, so they stack onto the *gid*. |
+| **לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים** | "The Torah was not given in instalments" — Rav Ashi's principle that the law began at Sinai, in one act. |
+| **אֵבֶר מִן הַחַי** *(ever min hachai)* | A limb severed from a living animal; forbidden to Noahides too, which is why its scope parallels the *gid*. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 101a — How can Rabbi Shimon exempt entirely?
@@ -198,23 +215,6 @@ Three ways a second prohibition might still get in, and who lets each one throug
 | **אִיסּוּר כּוֹלֵל** — broader in scope | The second prohibition covers more ground than the first, so it sweeps this in too | The *gid* of a **נְבֵלָה** — the carcass prohibition covers the whole animal, nerve included | **R' Meir**: two sets of lashes. The Rabbis give one; R' Yosei HaGelili rejects it outright — *מִגּוֹ לָא אָמְרִינַן* |
 | **אִיסּוּר חָמוּר** — more severe | Sheer weight lets it take hold on what is already forbidden | The *gid* of an **עוֹלָה** or a **שׁוֹר הַנִּסְקָל** — all benefit forbidden, not only eating | **The Rabbis concede** here. R' Yosei HaGelili still refuses — and Rav Ashi asks who says which is severer anyway |
 | **״שַׁבָּת הִיא״ / ״יוֹם הַכִּפּוּרִים הוּא״** | Each day is marked as standing on its own, so neither is the "second" one | Unwitting labour on a Yom Kippur that fell on Shabbos | On the **reversed** attribution: **R' Akiva**, two sin offerings. R' Yosei HaGelili — one |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **אִיסּוּר כּוֹלֵל** *(issur kolel)* | An "inclusive" prohibition — broader in scope than the existing one. Whether breadth alone lets it take effect is the day's central dispute. |
-| **אִיסּוּר חָמוּר** *(issur chamur)* | A more severe prohibition. Even one who rejects *issur kolel* might allow severity to override. |
-| **מִגּוֹ** *(migo)* | "Since" — the mechanism of *issur kolel*: since the prohibition binds him in the wider case, it binds him here too. Rabbi Yosei HaGelili: מִגּוֹ לָא אָמְרִינַן. |
-| **טוּמְאַת הַגּוּף / טוּמְאַת בָּשָׂר** *(tumas haguf / tumas basar)* | Impurity of the person's body (punishable by *karet*) against impurity of the meat (lashes) — and which is graver is not obvious. |
-| **הַצָּעָה שֶׁל מִשְׁנָה** *(hatza'ah shel mishnah)* | The correct *presentation* of a teaching — the wording is right but the attributions must be exchanged. |
-| **קְבִיעָא וְקַיְימָא** *(kevi'a vekaima)* | Fixed and standing — Shabbos falls of itself on the seventh day, unlike Yom Kippur, which the court fixes. |
-| **שְׁעַת הַגְּזֵרָה** *(she'as hagezeirah)* | A time of persecution — the historical circumstance in which Yom Kippur was displaced onto Shabbos. |
-| **שׁוֹר הַנִּסְקָל / עוֹלָה** *(shor hanniskal / olah)* | An ox condemned to stoning / a burnt offering. Both forbid all benefit, not only eating, so they stack onto the *gid*. |
-| **לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים** | "The Torah was not given in instalments" — Rav Ashi's principle that the law began at Sinai, in one act. |
-| **אֵבֶר מִן הַחַי** *(ever min hachai)* | A limb severed from a living animal; forbidden to Noahides too, which is why its scope parallels the *gid*. |
 
 ---
 

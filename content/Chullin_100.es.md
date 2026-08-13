@@ -40,6 +40,24 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **בְּרִיָּה** *(beriá)* | Una entidad completa. Por ser entera, es importante, y nunca se anula en una mayoría. |
+| **חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ** *(jatijá hareuiá lehitkabed bah)* | Un trozo apto para poner delante de un invitado. Su dignidad social lo hace resistir la anulación. |
+| **כֹּל / אֶת שֶׁדַּרְכּוֹ לִימָּנוֹת** *(kol / et shedarkó limanot)* | Dos lecturas de qué cosas contadas resisten la anulación: todo lo que a veces se vende por unidad, o solo lo que se vende exclusivamente así. |
+| **חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה** *(jatijá atzmá naasét nevelá)* | Un trozo permitido que absorbe sabor prohibido se convierte en carne prohibida por derecho propio, y puede prohibir a otros. |
+| **רוֹטֶב / קִיפָּה / חֲתִיכוֹת** *(rotev / kipá / jatijot)* | Caldo / el sedimento asentado en la olla / los trozos — los tres componentes a los que Rabá bar bar Janá exige que llegue el sabor. |
+| **אוֹקֵי אָמוֹרָא עֲלֵיהּ** *(oki amorá aleih)* | "Colocó un divulgador sobre él" — designar a un orador para difundir un dictamen a un público grande. |
+| **בְּשֶׁקָּדַם וְסִלְּקוֹ** *(beshekadam vesilkó)* | Donde retiró primero el trozo prohibido, antes de que se añadieran los demás trozos. |
+| **מִין וּמִינוֹ וְדָבָר אַחֵר** *(min uminó vedavar ajer)* | Alimento prohibido mezclado tanto con su propia especie como con algo distinto; se desestima su propia especie y se mide solo contra el resto. |
+| **אֵין אִיסּוּר חָל עַל אִיסּוּר** *(ein isur jal al isur)* | Una prohibición no entra en vigor allí donde ya existe una prohibición — así que no hay una segunda serie de azotes. |
+| **בַּשָּׁלִיל** *(bashalil)* | En un feto. Que la prohibición del *guid* alcance a un feto decide si las dos prohibiciones llegan simultáneamente. |
+| **נוֹהֵג בִּבְנֵי נֹחַ** *(noheg bivnei Nóaj)* | Se aplica a los descendientes de Nóaj — la estrictez añadida que permite a la prohibición del *guid* posarse sobre una existente. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 100a — Dos razones por las que una cosa se niega a anularse
@@ -187,24 +205,6 @@ Rav Safra hizo una sola pregunta — ¿por qué habría de importarle a Rav si e
 |---|---|---|---|
 | **Abaie** | **בְּשֶׁקָּדַם וְסִלְּקוֹ** — cocinado con un solo trozo kosher, y retirado antes de que entraran los demás | El trozo prohibido ya no está; la única vía que queda pasa por el trozo al que dio sabor | Ese trozo intermediario, ahora *nevelá* él mismo — y lo igual no se anula en lo igual |
 | **Rava** | **מִין וּמִינוֹ וְדָבָר אַחֵר** — su propia especie *más* otra cosa, el caldo y las especias | El sabor llegó al segundo trozo **antes** que el caldo y las especias — así que hay dos trozos prohibidos, no uno | **סַלֵּק אֶת מִינוֹ**: los sesenta se cuentan solo contra caldo y especias, suficientes para un trozo pero no para dos |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **בְּרִיָּה** *(beriá)* | Una entidad completa. Por ser entera, es importante, y nunca se anula en una mayoría. |
-| **חֲתִיכָה הָרְאוּיָה לְהִתְכַּבֵּד בָּהּ** *(jatijá hareuiá lehitkabed bah)* | Un trozo apto para poner delante de un invitado. Su dignidad social lo hace resistir la anulación. |
-| **כֹּל / אֶת שֶׁדַּרְכּוֹ לִימָּנוֹת** *(kol / et shedarkó limanot)* | Dos lecturas de qué cosas contadas resisten la anulación: todo lo que a veces se vende por unidad, o solo lo que se vende exclusivamente así. |
-| **חֲתִיכָה עַצְמָהּ נַעֲשֵׂת נְבֵלָה** *(jatijá atzmá naasét nevelá)* | Un trozo permitido que absorbe sabor prohibido se convierte en carne prohibida por derecho propio, y puede prohibir a otros. |
-| **רוֹטֶב / קִיפָּה / חֲתִיכוֹת** *(rotev / kipá / jatijot)* | Caldo / el sedimento asentado en la olla / los trozos — los tres componentes a los que Rabá bar bar Janá exige que llegue el sabor. |
-| **אוֹקֵי אָמוֹרָא עֲלֵיהּ** *(oki amorá aleih)* | "Colocó un divulgador sobre él" — designar a un orador para difundir un dictamen a un público grande. |
-| **בְּשֶׁקָּדַם וְסִלְּקוֹ** *(beshekadam vesilkó)* | Donde retiró primero el trozo prohibido, antes de que se añadieran los demás trozos. |
-| **מִין וּמִינוֹ וְדָבָר אַחֵר** *(min uminó vedavar ajer)* | Alimento prohibido mezclado tanto con su propia especie como con algo distinto; se desestima su propia especie y se mide solo contra el resto. |
-| **אֵין אִיסּוּר חָל עַל אִיסּוּר** *(ein isur jal al isur)* | Una prohibición no entra en vigor allí donde ya existe una prohibición — así que no hay una segunda serie de azotes. |
-| **בַּשָּׁלִיל** *(bashalil)* | En un feto. Que la prohibición del *guid* alcance a un feto decide si las dos prohibiciones llegan simultáneamente. |
-| **נוֹהֵג בִּבְנֵי נֹחַ** *(noheg bivnei Nóaj)* | Se aplica a los descendientes de Nóaj — la estrictez añadida que permite a la prohibición del *guid* posarse sobre una existente. |
 
 ---
 

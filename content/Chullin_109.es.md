@@ -41,6 +41,24 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **כְּחָל** *(kajal)* | La **ubre** de un animal faenado; llena de leche, pero permitida porque esa leche nunca fue leche — uno la rasga y le exprime la leche antes de cocinar. |
+| **קֵבָה** *(keivá)* | El **estómago** (abomaso) de un ternero o cordero lactante, con la leche que de veras mamó; esa leche es leche real, así que el estómago cocido en ella está prohibido. |
+| **לֵב** *(lev)* | El **corazón**; siendo *liso*, apenas absorbe sangre al cocinarse, así que quitarle la sangre por rasgado sirve aun después del hecho. |
+| **כָּנוּס בְּמֵעָיו** *(kanus bemeav)* | "**Reunido en las entrañas**" — la prueba que separa el estómago prohibido (su leche se juntó adentro como leche) de la ubre permitida (su leche nunca lo fue). |
+| **אֶפְשָׁר לְסוֹחֲטוֹ** *(efshar lisojató)* | "Se puede exprimir" — si una sustancia prohibida absorbida que en principio podría exprimirse de vuelta sigue prohibiendo; resuelto aquí como **asur**, sí lo hace. |
+| **מִין בְּמִינוֹ** *(min bemino)* | Una comida prohibida dentro de más comida de **su propia especie**; según Rabí Iehudá, y ahora Rabí, *nunca se anula*, así que un trozo contaminado prohíbe a todo el resto. |
+| **אֵינוֹ עוֹבֵר עָלָיו** *(eino over alav)* | "**No transgrede por ello**" — la frase cautelosa de la mishná, leída por Rav o como *plenamente permitida* o como *exenta de la Torá pero rabínicamente prohibida*. |
+| **חֲצִי שִׁיעוּר** *(jatzí shiur)* | Una **media medida** — aquí, menos de un *kezáit* de sangre en el corazón; prohibida por ley de la Torá aunque no acarree azotes ni *karet*. |
+| **קוֹרְעוֹ שְׁתִי וָעֵרֶב** *(kore'ó shetí vaérev)* | Rasgar una ubre "**a lo largo y a lo ancho**" y apretarla contra la pared — el método a fondo de Rav Iehudá, que Rabí Elazar dice que es más de lo necesario. |
+| **וְתוּ לָא מִידֵּי** *(vetu la midí)* | "**Y nada más**" — el propio cierre de la Guemará de que una línea de argumento queda concluida y el fallo asentado. |
+| **דַּם טוֹהַר** *(dam tohar)* | "**Sangre de pureza**" — el flujo posparto que no vuelve impura a la mujer; el ejemplo de Ialtá de una contraparte permitida a la *nidá* prohibida. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 109a — La disputa del exprimido, resuelta por fin
@@ -184,24 +202,6 @@ como leche o sangre real, y qué hay que hacer al respecto:
 | **Ubre** (*kajal*) | leche empapada en la carne | **No** — nunca *reunida en las entrañas* | Sin violación de la Torá; rasgar una vez y exprimir la leche (rabínico, antes de cocer en olla) |
 | **Estómago** (*keivá*) | leche que el ternero de veras mamó | **Sí** — *reunida en las entrañas* | Prohibido — es leche real, y no puede cocerse en ella |
 | **Corazón** (*lev*) | sangre | Sangre — pero el corazón es *liso* y apenas absorbe | Rasgar y sacar la sangre; un corte aun *después* de cocido basta |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **כְּחָל** *(kajal)* | La **ubre** de un animal faenado; llena de leche, pero permitida porque esa leche nunca fue leche — uno la rasga y le exprime la leche antes de cocinar. |
-| **קֵבָה** *(keivá)* | El **estómago** (abomaso) de un ternero o cordero lactante, con la leche que de veras mamó; esa leche es leche real, así que el estómago cocido en ella está prohibido. |
-| **לֵב** *(lev)* | El **corazón**; siendo *liso*, apenas absorbe sangre al cocinarse, así que quitarle la sangre por rasgado sirve aun después del hecho. |
-| **כָּנוּס בְּמֵעָיו** *(kanus bemeav)* | "**Reunido en las entrañas**" — la prueba que separa el estómago prohibido (su leche se juntó adentro como leche) de la ubre permitida (su leche nunca lo fue). |
-| **אֶפְשָׁר לְסוֹחֲטוֹ** *(efshar lisojató)* | "Se puede exprimir" — si una sustancia prohibida absorbida que en principio podría exprimirse de vuelta sigue prohibiendo; resuelto aquí como **asur**, sí lo hace. |
-| **מִין בְּמִינוֹ** *(min bemino)* | Una comida prohibida dentro de más comida de **su propia especie**; según Rabí Iehudá, y ahora Rabí, *nunca se anula*, así que un trozo contaminado prohíbe a todo el resto. |
-| **אֵינוֹ עוֹבֵר עָלָיו** *(eino over alav)* | "**No transgrede por ello**" — la frase cautelosa de la mishná, leída por Rav o como *plenamente permitida* o como *exenta de la Torá pero rabínicamente prohibida*. |
-| **חֲצִי שִׁיעוּר** *(jatzí shiur)* | Una **media medida** — aquí, menos de un *kezáit* de sangre en el corazón; prohibida por ley de la Torá aunque no acarree azotes ni *karet*. |
-| **קוֹרְעוֹ שְׁתִי וָעֵרֶב** *(kore'ó shetí vaérev)* | Rasgar una ubre "**a lo largo y a lo ancho**" y apretarla contra la pared — el método a fondo de Rav Iehudá, que Rabí Elazar dice que es más de lo necesario. |
-| **וְתוּ לָא מִידֵּי** *(vetu la midí)* | "**Y nada más**" — el propio cierre de la Guemará de que una línea de argumento queda concluida y el fallo asentado. |
-| **דַּם טוֹהַר** *(dam tohar)* | "**Sangre de pureza**" — el flujo posparto que no vuelve impura a la mujer; el ejemplo de Ialtá de una contraparte permitida a la *nidá* prohibida. |
 
 ---
 

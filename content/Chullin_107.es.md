@@ -42,6 +42,26 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **כֹּחַ גַּבְרָא** *(kóaj gavra)* | "La fuerza de una persona" — el agua debe llegar a las manos por un acto humano; el agua del canal, movida por la corriente, no lo cumple, así que uno se lava del balde. |
+| **אֲרִיתָּא דְּדַלָּאֵי** *(aritá dedalaéi)* | Un canal de riego llenado desde un río con baldes — inepto para lavarse, ya que su agua no llega por la fuerza de una persona. |
+| **רְבִיעִית** *(revi'it)* | Un cuarto de *log*, la medida mínima de agua para lavarse las manos; se necesita entera para una persona, y solo como capacidad del recipiente para dos. |
+| **כּוֹנֵס מַשְׁקֶה** *(konés mashké)* | Un agujero lo bastante grande para dejar entrar líquido; un balde así perforado une canal y río para sumergir, pero ya no es recipiente para verter. |
+| **שְׁיָרֵי טָהֳרָה** *(shiaréi tahorá)* | "El remanente de la pureza" — agua sobrante de un cuarto de log originalmente válido, razón por la que un *revi'it* puede lavar aun a dos personas. |
+| **מְגוּפַת חָבִית** *(megufat javit)* | Un tapón de barril ahuecado para contener un *revi'it* — recipiente improvisado pero válido para lavarse, a diferencia de un saco o una cesta. |
+| **מַפָּה** *(mapá)* | Un paño usado para sostener la comida en vez de lavarse — permitido a los cohanim que comen *trumá*, no a otros que comen comida ordinaria en pureza. |
+| **דַּעְתִּי קְצָרָה** *(daatí ketzará)* | "Soy delicado" — la razón de Rav para usar un paño *después* de lavarse: prefería no tocar la comida con las manos desnudas. |
+| **אוֹכֵל מֵחֲמַת מַאֲכִיל** *(ojel mejamat maajil)* | El que come por ser alimentado por otro; la halajá final es que aun así debe lavarse las manos, aunque nunca toque la comida. |
+| **שַׁמָּשׁ** *(shamash)* | El sirviente de la comida; debe lavarse porque está ocupado (*tarid*) y puede tocar la comida sin notarlo. |
+| **שִׁיבְתָּא** *(Shivtá)* | Un espíritu maligno que se posa sobre las manos no lavadas desde la mañana; la razón de Abaie para un lavado que *no* es por la comida misma. |
+| **צוֹנֵן בְּצוֹנֵן** *(tzonén betzonén)* | Comida fría que toca comida fría — no se absorbe sabor, así que no hace falta pelar, solo enjuagar antes de comer. |
+| **אַכְסְנָאִין** *(ajsenaín)* | Huéspedes o viajeros alojados juntos; los extraños pueden compartir una mesa con carne y queso, pues ninguno comerá la comida del otro. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 107a — Qué agua, qué recipiente
@@ -156,26 +176,6 @@ lavarse?* — y las respuestas no corren todas igual:
 | El que es **alimentado** por otro (*ojel mejamat maajil*) | **Sí** (halajá final) | la comida entra en *su* boca; él es el que come |
 | El que **alimenta** a otro (*maajil*) | **No** (halajá final) | sus manos la tocan, pero él no come |
 | El **sirviente** de la comida (*shamash*) | Sí | ocupado (*tarid*), puede tocar la comida sin advertirlo |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **כֹּחַ גַּבְרָא** *(kóaj gavra)* | "La fuerza de una persona" — el agua debe llegar a las manos por un acto humano; el agua del canal, movida por la corriente, no lo cumple, así que uno se lava del balde. |
-| **אֲרִיתָּא דְּדַלָּאֵי** *(aritá dedalaéi)* | Un canal de riego llenado desde un río con baldes — inepto para lavarse, ya que su agua no llega por la fuerza de una persona. |
-| **רְבִיעִית** *(revi'it)* | Un cuarto de *log*, la medida mínima de agua para lavarse las manos; se necesita entera para una persona, y solo como capacidad del recipiente para dos. |
-| **כּוֹנֵס מַשְׁקֶה** *(konés mashké)* | Un agujero lo bastante grande para dejar entrar líquido; un balde así perforado une canal y río para sumergir, pero ya no es recipiente para verter. |
-| **שְׁיָרֵי טָהֳרָה** *(shiaréi tahorá)* | "El remanente de la pureza" — agua sobrante de un cuarto de log originalmente válido, razón por la que un *revi'it* puede lavar aun a dos personas. |
-| **מְגוּפַת חָבִית** *(megufat javit)* | Un tapón de barril ahuecado para contener un *revi'it* — recipiente improvisado pero válido para lavarse, a diferencia de un saco o una cesta. |
-| **מַפָּה** *(mapá)* | Un paño usado para sostener la comida en vez de lavarse — permitido a los cohanim que comen *trumá*, no a otros que comen comida ordinaria en pureza. |
-| **דַּעְתִּי קְצָרָה** *(daatí ketzará)* | "Soy delicado" — la razón de Rav para usar un paño *después* de lavarse: prefería no tocar la comida con las manos desnudas. |
-| **אוֹכֵל מֵחֲמַת מַאֲכִיל** *(ojel mejamat maajil)* | El que come por ser alimentado por otro; la halajá final es que aun así debe lavarse las manos, aunque nunca toque la comida. |
-| **שַׁמָּשׁ** *(shamash)* | El sirviente de la comida; debe lavarse porque está ocupado (*tarid*) y puede tocar la comida sin notarlo. |
-| **שִׁיבְתָּא** *(Shivtá)* | Un espíritu maligno que se posa sobre las manos no lavadas desde la mañana; la razón de Abaie para un lavado que *no* es por la comida misma. |
-| **צוֹנֵן בְּצוֹנֵן** *(tzonén betzonén)* | Comida fría que toca comida fría — no se absorbe sabor, así que no hace falta pelar, solo enjuagar antes de comer. |
-| **אַכְסְנָאִין** *(ajsenaín)* | Huéspedes o viajeros alojados juntos; los extraños pueden compartir una mesa con carne y queso, pues ninguno comerá la comida del otro. |
 
 ---
 

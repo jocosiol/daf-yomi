@@ -39,6 +39,24 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **כׇּל הַבָּשָׂר** *(Kol HaBasar)* | "Toda la carne" — el capítulo, sobre cocinar y comer carne con leche. |
+| **חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה** *(jaiá va'of eino min haTorá)* | La opinión de Rabí Akivá de que los animales salvajes y las aves en leche están prohibidos solo rabínicamente, no por la Torá. |
+| **גְּזֵירָה לִגְזֵירָה** *(gezerá ligzerá)* | "Un decreto [para resguardar] un decreto." Los Sabios por lo general no construyen una valla rabínica sobre otra — la palanca central del daf. |
+| **נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי** *(naseiv lah alibá d'tanái)* | Registrar las cláusulas de una mishná cada una según un tana distinto — la manera en que Rav Iosef mantiene a Rebí como autor único. |
+| **כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ** *(kol milei d'mimlij alei shalíaj)* | La regla de Rabí Akivá sobre los votos: todo aquello por lo que un agente se detendría a preguntar cuenta como esa categoría — así una calabaza limítrofe es una "verdura". |
+| **הַעֲלָאָה** *(ha'alaá)* | "Subir" a la mesa — el acto que prohíbe la valla rabínica, distinto de comer. |
+| **צוֹנֵן בְּצוֹנֵן** *(tzonen betzonen)* | Frío-sobre-frío: dos comidas frías en contacto, que no cocinan y por eso son en sí mismas solo rabínicas. |
+| **אִילְפָּס רִאשׁוֹן / כְּלִי שֵׁנִי** *(ilpás rishón / kli shení)* | Una cacerola primaria recién sacada del fuego, que cocina (nivel de Torá), contra un recipiente secundario, que no. |
+| **מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל** *(mikulei Bet Shamái)* | Una disputa en la que Bet Shamái son indulgentes y Bet Hilel estrictos — lo inverso del patrón usual. |
+| **בְּאַפִּיקוֹרַן** *(be'apikoran)* | "Libremente" — el dictamen de Agrá de que el ave y el queso no requieren lavado de manos ni limpieza de boca entre uno y otro. |
+| **דָּבָר בְּשֵׁם אוֹמְרוֹ** *(davar beshem omró)* | Reportar una enseñanza en el nombre de quien la dijo — lo que "trae redención al mundo". |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 104a — Una mishná, ¿dos tanaím?
@@ -144,24 +162,6 @@ La pregunta del daf en una sola cuadrícula — qué carne, y por autoridad de q
 | **בְּהֵמָה** — animal doméstico | Prohibida por ley de la **Torá**, en toda opinión | Prohibida — la cerca de los Sabios alrededor del comer | Sí |
 | **חַיָּה וָעוֹף** — animal salvaje y ave | **R' Akivá:** solo rabínico. **Rav Iosef:** Torá — si no, la cerca de la mesa sería una cerca alrededor de una cerca | Prohibida (Bet Hilel). **Bet Shamái:** puede subirse, solo que no comerse | Sí — un agente se detendría a preguntar, así que cuenta como carne |
 | **דָּגִים וַחֲגָבִים** — pescados y saltamontes | Permitidos de plano | Permitidos | No — puede comerlos |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **כׇּל הַבָּשָׂר** *(Kol HaBasar)* | "Toda la carne" — el capítulo, sobre cocinar y comer carne con leche. |
-| **חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה** *(jaiá va'of eino min haTorá)* | La opinión de Rabí Akivá de que los animales salvajes y las aves en leche están prohibidos solo rabínicamente, no por la Torá. |
-| **גְּזֵירָה לִגְזֵירָה** *(gezerá ligzerá)* | "Un decreto [para resguardar] un decreto." Los Sabios por lo general no construyen una valla rabínica sobre otra — la palanca central del daf. |
-| **נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי** *(naseiv lah alibá d'tanái)* | Registrar las cláusulas de una mishná cada una según un tana distinto — la manera en que Rav Iosef mantiene a Rebí como autor único. |
-| **כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ** *(kol milei d'mimlij alei shalíaj)* | La regla de Rabí Akivá sobre los votos: todo aquello por lo que un agente se detendría a preguntar cuenta como esa categoría — así una calabaza limítrofe es una "verdura". |
-| **הַעֲלָאָה** *(ha'alaá)* | "Subir" a la mesa — el acto que prohíbe la valla rabínica, distinto de comer. |
-| **צוֹנֵן בְּצוֹנֵן** *(tzonen betzonen)* | Frío-sobre-frío: dos comidas frías en contacto, que no cocinan y por eso son en sí mismas solo rabínicas. |
-| **אִילְפָּס רִאשׁוֹן / כְּלִי שֵׁנִי** *(ilpás rishón / kli shení)* | Una cacerola primaria recién sacada del fuego, que cocina (nivel de Torá), contra un recipiente secundario, que no. |
-| **מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל** *(mikulei Bet Shamái)* | Una disputa en la que Bet Shamái son indulgentes y Bet Hilel estrictos — lo inverso del patrón usual. |
-| **בְּאַפִּיקוֹרַן** *(be'apikoran)* | "Libremente" — el dictamen de Agrá de que el ave y el queso no requieren lavado de manos ni limpieza de boca entre uno y otro. |
-| **דָּבָר בְּשֵׁם אוֹמְרוֹ** *(davar beshem omró)* | Reportar una enseñanza en el nombre de quien la dijo — lo que "trae redención al mundo". |
 
 ---
 

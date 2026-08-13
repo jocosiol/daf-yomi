@@ -48,6 +48,25 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **קַנְיָא בְּקוֹפֵיהּ** *(kanya b'kofei)* | The **windpipe with all its attachments** — lungs, heart, and liver — cooked as one; Rabbi Zerika's meal, offered as proof that liver's blood does not forbid the meat around it. |
+| **חָלֵיט** *(chalit)* | To **scald / sear** in a boiling liquid (vinegar or water) at the outset, sealing the blood inside the liver before it can diffuse — Rav Ashi's alternative reading of the windpipe meal. |
+| **כִּי הֵיכִי דְּפָלֵיט הֲדַר בָּלַע** *(ki heichi d'palit hadar bala)* | "Just as it expels, it absorbs back" — Rava's lever: were the scald to draw blood out, the liver would draw it back and be forbidden itself; since it is not, nothing was expelled. |
+| **מְתוּבֶּלֶת** *(metubelet)* | **Spiced** liver; per Rabbi Yishmael b. R' Yoḥanan b. Beroka, spicing (like heavy stewing, *sheluka*) makes the liver reabsorb its blood, so it is forbidden as well as forbidding. |
+| **סִמְפּוֹנָא** *(simpona)* | The large **blood vessel / artery** in the liver; blood soaked into the flesh is permitted, but blood standing in the *simpona* is forbidden and must be drained. |
+| **שְׁתִי וָעֵרֶב** *(shesi va'erev)* | "**Warp and woof**" — tearing the liver **lengthwise and crosswise**, cut side down, so the vessel-blood runs out onto the fire. |
+| **מִשְׁרָק שָׁרֵיק** *(mishrak sharik)* | "It merely **slides off**" — why liver set above meat does not forbid it: the blood glides over the surface rather than soaking in (contrast the udder's milk, which *saroche mesarech*, clings and absorbs). |
+| **דִּיעֲבַד / לְכַתְּחִלָּה** *(di'avad / l'chatchila)* | **After the fact** vs. **at the outset**. Mareimar's ruling: liver or udder set over meat is tolerated *di'avad* but may not be arranged that way *l'chatchila*. |
+| **מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ** *(maliach k'rotei'ach)* | "**Salted is like boiling**" (and *kavush k'mevushal*, marinated like cooked) — Shmuel's principle that salting and pickling transfer flavor as heat does, so a bowl that salted meat forbids boiling food placed in it. |
+| **כּוּתָּח** *(kutaḥ)* | A **Babylonian dip** made with milk (and bread-mold and salt); the milk food against which every case here is tested — may the meaty knife-cut radish, or the fish, be eaten with it? |
+| **נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם** *(notein ta'am bar notein ta'am)* | "**Flavor of a flavor**" — taste that reached the food only second-hand, through a vessel; Shmuel holds it too weak to forbid (so the fish is permitted), Rav holds it forbids. |
+| **קַפִּילָא** *(kapila)* | A **gentile cook** who can be trusted to taste a dish and report whether it carries a forbidden flavor — Rav Pappa's proposal, which Rava accepts where such a cook is on hand. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 111a — The liver question, run to ground
@@ -175,25 +194,6 @@ cleanly by *which* prohibition — blood or milk — they weight more heavily.
 | **Udder** — milk, rabbinic | **Forbidden** — milk clings | Permitted | *Di'avad* yes, *l'chatchila* no |
 
 Underneath the meat, every view permits both; the whole dispute is only about the organ set *above*.
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **קַנְיָא בְּקוֹפֵיהּ** *(kanya b'kofei)* | The **windpipe with all its attachments** — lungs, heart, and liver — cooked as one; Rabbi Zerika's meal, offered as proof that liver's blood does not forbid the meat around it. |
-| **חָלֵיט** *(chalit)* | To **scald / sear** in a boiling liquid (vinegar or water) at the outset, sealing the blood inside the liver before it can diffuse — Rav Ashi's alternative reading of the windpipe meal. |
-| **כִּי הֵיכִי דְּפָלֵיט הֲדַר בָּלַע** *(ki heichi d'palit hadar bala)* | "Just as it expels, it absorbs back" — Rava's lever: were the scald to draw blood out, the liver would draw it back and be forbidden itself; since it is not, nothing was expelled. |
-| **מְתוּבֶּלֶת** *(metubelet)* | **Spiced** liver; per Rabbi Yishmael b. R' Yoḥanan b. Beroka, spicing (like heavy stewing, *sheluka*) makes the liver reabsorb its blood, so it is forbidden as well as forbidding. |
-| **סִמְפּוֹנָא** *(simpona)* | The large **blood vessel / artery** in the liver; blood soaked into the flesh is permitted, but blood standing in the *simpona* is forbidden and must be drained. |
-| **שְׁתִי וָעֵרֶב** *(shesi va'erev)* | "**Warp and woof**" — tearing the liver **lengthwise and crosswise**, cut side down, so the vessel-blood runs out onto the fire. |
-| **מִשְׁרָק שָׁרֵיק** *(mishrak sharik)* | "It merely **slides off**" — why liver set above meat does not forbid it: the blood glides over the surface rather than soaking in (contrast the udder's milk, which *saroche mesarech*, clings and absorbs). |
-| **דִּיעֲבַד / לְכַתְּחִלָּה** *(di'avad / l'chatchila)* | **After the fact** vs. **at the outset**. Mareimar's ruling: liver or udder set over meat is tolerated *di'avad* but may not be arranged that way *l'chatchila*. |
-| **מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ** *(maliach k'rotei'ach)* | "**Salted is like boiling**" (and *kavush k'mevushal*, marinated like cooked) — Shmuel's principle that salting and pickling transfer flavor as heat does, so a bowl that salted meat forbids boiling food placed in it. |
-| **כּוּתָּח** *(kutaḥ)* | A **Babylonian dip** made with milk (and bread-mold and salt); the milk food against which every case here is tested — may the meaty knife-cut radish, or the fish, be eaten with it? |
-| **נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם** *(notein ta'am bar notein ta'am)* | "**Flavor of a flavor**" — taste that reached the food only second-hand, through a vessel; Shmuel holds it too weak to forbid (so the fish is permitted), Rav holds it forbids. |
-| **קַפִּילָא** *(kapila)* | A **gentile cook** who can be trusted to taste a dish and report whether it carries a forbidden flavor — Rav Pappa's proposal, which Rava accepts where such a cook is on hand. |
 
 ---
 

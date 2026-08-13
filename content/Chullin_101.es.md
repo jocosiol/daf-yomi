@@ -40,6 +40,23 @@ Cuatro movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **אִיסּוּר כּוֹלֵל** *(isur kolel)* | Una prohibición "inclusiva" — más amplia en alcance que la existente. Si la amplitud por sí sola le permite surtir efecto es la disputa central del día. |
+| **אִיסּוּר חָמוּר** *(isur jamur)* | Una prohibición más severa. Incluso quien rechaza el *isur kolel* podría permitir que la severidad prevalezca. |
+| **מִגּוֹ** *(migó)* | "Dado que" — el mecanismo del *isur kolel*: dado que la prohibición lo obliga en el caso más amplio, lo obliga también aquí. Rabí Iosí HaGuelilí: מִגּוֹ לָא אָמְרִינַן. |
+| **טוּמְאַת הַגּוּף / טוּמְאַת בָּשָׂר** *(tumat haguf / tumat basar)* | Impureza del cuerpo de la persona (punible con *karet*) contra impureza de la carne (azotes) — y cuál es más grave no es obvio. |
+| **הַצָּעָה שֶׁל מִשְׁנָה** *(hatzaá shel mishná)* | La *presentación* correcta de una enseñanza — la formulación es correcta pero las atribuciones hay que intercambiarlas. |
+| **קְבִיעָא וְקַיְימָא** *(kevía vekaimá)* | Fijo y permanente — Shabat cae por sí mismo en el séptimo día, a diferencia de Iom Kipur, que fija el tribunal. |
+| **שְׁעַת הַגְּזֵרָה** *(sheat haguezerá)* | Un tiempo de persecución — la circunstancia histórica en que Iom Kipur fue desplazado a Shabat. |
+| **שׁוֹר הַנִּסְקָל / עוֹלָה** *(shor hanniskal / olá)* | Un buey condenado a la lapidación / una ofrenda quemada. Ambos prohíben todo beneficio, no solo comer, así que se apilan sobre el *guid*. |
+| **לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים** | "La Torá no se dio en cuotas" — el principio de Rav Ashi de que la ley empezó en el Sinaí, en un solo acto. |
+| **אֵבֶר מִן הַחַי** *(éver min hajai)* | Un miembro separado de un animal vivo; prohibido también a los noájidas, y por eso su alcance corre paralelo al del *guid*. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 101a — ¿Cómo puede Rabí Shimón eximir por completo?
@@ -199,23 +216,6 @@ Tres vías por las que una segunda prohibición podría entrar de todos modos, y
 | **אִיסּוּר כּוֹלֵל** — más amplia en alcance | La segunda prohibición abarca más terreno que la primera, así que arrastra también esto | El *guid* de una **נְבֵלָה** — la prohibición del cadáver cubre todo el animal, nervio incluido | **R' Meir**: dos series de azotes. Los Sabios dan una; R' Iosí HaGuelilí la rechaza de plano — *מִגּוֹ לָא אָמְרִינַן* |
 | **אִיסּוּר חָמוּר** — más severa | El puro peso le permite posarse sobre lo ya prohibido | El *guid* de una **עוֹלָה** o de un **שׁוֹר הַנִּסְקָל** — todo beneficio prohibido, no solo comer | **Los Sabios conceden** aquí. R' Iosí HaGuelilí sigue negándose — y Rav Ashi pregunta quién dice cuál es la más severa |
 | **״שַׁבָּת הִיא״ / ״יוֹם הַכִּפּוּרִים הוּא״** | Cada día queda marcado como valiéndose por sí mismo, así que ninguno es el "segundo" | Labor involuntaria en un Iom Kipur que cayó en Shabat | Con la atribución **invertida**: **R' Akivá**, dos ofrendas de pecado. R' Iosí HaGuelilí — una |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **אִיסּוּר כּוֹלֵל** *(isur kolel)* | Una prohibición "inclusiva" — más amplia en alcance que la existente. Si la amplitud por sí sola le permite surtir efecto es la disputa central del día. |
-| **אִיסּוּר חָמוּר** *(isur jamur)* | Una prohibición más severa. Incluso quien rechaza el *isur kolel* podría permitir que la severidad prevalezca. |
-| **מִגּוֹ** *(migó)* | "Dado que" — el mecanismo del *isur kolel*: dado que la prohibición lo obliga en el caso más amplio, lo obliga también aquí. Rabí Iosí HaGuelilí: מִגּוֹ לָא אָמְרִינַן. |
-| **טוּמְאַת הַגּוּף / טוּמְאַת בָּשָׂר** *(tumat haguf / tumat basar)* | Impureza del cuerpo de la persona (punible con *karet*) contra impureza de la carne (azotes) — y cuál es más grave no es obvio. |
-| **הַצָּעָה שֶׁל מִשְׁנָה** *(hatzaá shel mishná)* | La *presentación* correcta de una enseñanza — la formulación es correcta pero las atribuciones hay que intercambiarlas. |
-| **קְבִיעָא וְקַיְימָא** *(kevía vekaimá)* | Fijo y permanente — Shabat cae por sí mismo en el séptimo día, a diferencia de Iom Kipur, que fija el tribunal. |
-| **שְׁעַת הַגְּזֵרָה** *(sheat haguezerá)* | Un tiempo de persecución — la circunstancia histórica en que Iom Kipur fue desplazado a Shabat. |
-| **שׁוֹר הַנִּסְקָל / עוֹלָה** *(shor hanniskal / olá)* | Un buey condenado a la lapidación / una ofrenda quemada. Ambos prohíben todo beneficio, no solo comer, así que se apilan sobre el *guid*. |
-| **לֹא נִיתְּנָה תּוֹרָה פְּעָמִים פְּעָמִים** | "La Torá no se dio en cuotas" — el principio de Rav Ashi de que la ley empezó en el Sinaí, en un solo acto. |
-| **אֵבֶר מִן הַחַי** *(éver min hajai)* | Un miembro separado de un animal vivo; prohibido también a los noájidas, y por eso su alcance corre paralelo al del *guid*. |
 
 ---
 

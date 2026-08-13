@@ -42,6 +42,24 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **כׇּל הַבָּשָׂר** *(Kol HaBasar)* | "All meat" — the chapter, on cooking and eating meat with milk. |
+| **חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה** *(chaya va'of eino min haTorah)* | Rabbi Akiva's view that wild animals and birds in milk are forbidden only rabbinically, not by the Torah. |
+| **גְּזֵירָה לִגְזֵירָה** *(gezeirah ligzeirah)* | "A decree [to guard] a decree." The Sages generally do not build one rabbinic fence on top of another — the daf's central lever. |
+| **נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי** *(naseiv lah aliba d'tannai)* | Recording a mishnah's clauses each according to a different Tanna — Rav Yosef's way to keep Rebbi as sole author. |
+| **כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ** *(kol milei d'mimlich alei shaliach)* | Rabbi Akiva's rule on vows: whatever an agent would pause to ask about counts as that category — so a borderline gourd is a "vegetable." |
+| **הַעֲלָאָה** *(ha'ala'ah)* | "Bringing up" onto the table — the act the rabbinic fence forbids, distinct from eating. |
+| **צוֹנֵן בְּצוֹנֵן** *(tzonen betzonen)* | Cold-on-cold: two cold foods touching, which does not cook and so is itself only rabbinic. |
+| **אִילְפָּס רִאשׁוֹן / כְּלִי שֵׁנִי** *(ilpas rishon / keli sheni)* | A primary stewpot straight off the fire, which cooks (Torah-level), versus a secondary vessel, which does not. |
+| **מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל** *(mikulei Beit Shammai)* | A dispute in which Beit Shammai are lenient and Beit Hillel strict — the reverse of the usual pattern. |
+| **בְּאַפִּיקוֹרַן** *(be'apikoran)* | "Freely" — Agra's ruling that fowl and cheese need no hand-washing or mouth-wiping in between. |
+| **דָּבָר בְּשֵׁם אוֹמְרוֹ** *(davar beshem omro)* | Reporting a teaching in the name of the one who said it — which "brings redemption to the world." |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 104a — One mishnah, two Tannaim?
@@ -143,24 +161,6 @@ The daf's question in one grid — which flesh, and on whose authority:
 | **בְּהֵמָה** — domesticated animal | Forbidden by **Torah** law, on every view | Forbidden — the Sages' fence around eating | Yes |
 | **חַיָּה וָעוֹף** — wild animal and bird | **R' Akiva:** rabbinic only. **Rav Yosef:** Torah — else the table-fence would be a fence around a fence | Forbidden (Beit Hillel). **Beit Shammai:** may be brought up, only not eaten | Yes — an agent would pause to ask about it, so it counts as meat |
 | **דָּגִים וַחֲגָבִים** — fish and grasshoppers | Permitted outright | Permitted | No — he may eat them |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **כׇּל הַבָּשָׂר** *(Kol HaBasar)* | "All meat" — the chapter, on cooking and eating meat with milk. |
-| **חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה** *(chaya va'of eino min haTorah)* | Rabbi Akiva's view that wild animals and birds in milk are forbidden only rabbinically, not by the Torah. |
-| **גְּזֵירָה לִגְזֵירָה** *(gezeirah ligzeirah)* | "A decree [to guard] a decree." The Sages generally do not build one rabbinic fence on top of another — the daf's central lever. |
-| **נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי** *(naseiv lah aliba d'tannai)* | Recording a mishnah's clauses each according to a different Tanna — Rav Yosef's way to keep Rebbi as sole author. |
-| **כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ** *(kol milei d'mimlich alei shaliach)* | Rabbi Akiva's rule on vows: whatever an agent would pause to ask about counts as that category — so a borderline gourd is a "vegetable." |
-| **הַעֲלָאָה** *(ha'ala'ah)* | "Bringing up" onto the table — the act the rabbinic fence forbids, distinct from eating. |
-| **צוֹנֵן בְּצוֹנֵן** *(tzonen betzonen)* | Cold-on-cold: two cold foods touching, which does not cook and so is itself only rabbinic. |
-| **אִילְפָּס רִאשׁוֹן / כְּלִי שֵׁנִי** *(ilpas rishon / keli sheni)* | A primary stewpot straight off the fire, which cooks (Torah-level), versus a secondary vessel, which does not. |
-| **מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל** *(mikulei Beit Shammai)* | A dispute in which Beit Shammai are lenient and Beit Hillel strict — the reverse of the usual pattern. |
-| **בְּאַפִּיקוֹרַן** *(be'apikoran)* | "Freely" — Agra's ruling that fowl and cheese need no hand-washing or mouth-wiping in between. |
-| **דָּבָר בְּשֵׁם אוֹמְרוֹ** *(davar beshem omro)* | Reporting a teaching in the name of the one who said it — which "brings redemption to the world." |
 
 ---
 

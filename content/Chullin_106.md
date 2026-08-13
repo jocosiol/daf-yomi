@@ -43,6 +43,23 @@ Four movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **מַיִם רִאשׁוֹנִים / אַחֲרוֹנִים** *(mayim rishonim / acharonim)* | The first waters (before bread) and last waters (before Grace); neglecting them, the daf warns, once led to forbidden meat and a ruined marriage. |
+| **חַמֵּי הָאוּר** *(chamei ha'ur)* | Water heated over fire — Chizkiyya bars it for washing the hands, Rabbi Yochanan permits it. |
+| **חַמֵּי טְבֶרְיָא** *(chamei Teveria)* | The natural hot springs of Tiberias — fit for immersion, disputed for washing the hands. |
+| **בַּת בִּירְתָּא** *(bat birta)* | Water drawn off through a ditch or channel — the one case in which the Tiberias dispute actually turns. |
+| **גָּזְרִינַן / לָא גָּזְרִינַן** *(gazrinan / la gazrinan)* | "We decree / we do not decree" — whether ditch water is banned lest one come to use a vessel. |
+| **חוֹצֵץ** *(chotzetz)* | An interposition between skin and water that spoils immersion — and equally spoils the washing of the hands. |
+| **סֶרֶךְ תְּרוּמָה** *(serech teruma)* | "A guard on *teruma*" — the reason the Sages had everyone wash before ordinary food: to keep priests from growing lax with the priestly portion. |
+| **עַד הַפֶּרֶק** *(ad haperek)* | "Up to the joint" — how far along the fingers the water must reach; the joint's exact place is itself disputed. |
+| **מִגַּסֵּי הָרוּחַ** *(migasei haruach)* | "Of the arrogant" — Rav Nachman's verdict on one who insists on washing before eating fruit. |
+| **רְשׁוּת** *(reshut)* | Optional — Rava's grade for washing before fruit: neither obligation nor mitzva. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 106a — The stakes, then the water
@@ -133,23 +150,6 @@ narrower than it looks:
 
 *Rav Pappa's reading of Tiberias:* standing water — all permit; water in a vessel — all forbid; only
 water **drawn through a ditch** is disputed, and only over whether to **decree** against it.
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **מַיִם רִאשׁוֹנִים / אַחֲרוֹנִים** *(mayim rishonim / acharonim)* | The first waters (before bread) and last waters (before Grace); neglecting them, the daf warns, once led to forbidden meat and a ruined marriage. |
-| **חַמֵּי הָאוּר** *(chamei ha'ur)* | Water heated over fire — Chizkiyya bars it for washing the hands, Rabbi Yochanan permits it. |
-| **חַמֵּי טְבֶרְיָא** *(chamei Teveria)* | The natural hot springs of Tiberias — fit for immersion, disputed for washing the hands. |
-| **בַּת בִּירְתָּא** *(bat birta)* | Water drawn off through a ditch or channel — the one case in which the Tiberias dispute actually turns. |
-| **גָּזְרִינַן / לָא גָּזְרִינַן** *(gazrinan / la gazrinan)* | "We decree / we do not decree" — whether ditch water is banned lest one come to use a vessel. |
-| **חוֹצֵץ** *(chotzetz)* | An interposition between skin and water that spoils immersion — and equally spoils the washing of the hands. |
-| **סֶרֶךְ תְּרוּמָה** *(serech teruma)* | "A guard on *teruma*" — the reason the Sages had everyone wash before ordinary food: to keep priests from growing lax with the priestly portion. |
-| **עַד הַפֶּרֶק** *(ad haperek)* | "Up to the joint" — how far along the fingers the water must reach; the joint's exact place is itself disputed. |
-| **מִגַּסֵּי הָרוּחַ** *(migasei haruach)* | "Of the arrogant" — Rav Nachman's verdict on one who insists on washing before eating fruit. |
-| **רְשׁוּת** *(reshut)* | Optional — Rava's grade for washing before fruit: neither obligation nor mitzva. |
 
 ---
 

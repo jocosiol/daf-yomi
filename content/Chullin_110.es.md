@@ -47,6 +47,24 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **בִּקְעָה מָצָא וְגָדַר בָּהּ גָּדֵר** *(bik'á matzá vegadar ba gader)* | "Encontró un valle abierto y lo cercó" — la imagen del sabio que impone un decreto protector justo donde halla laxa a una comunidad, como hizo Rav con la ubre en Tatlefush. |
+| **תְּנָא נָמֵי רֵישָׁא** *(tena namí reisha)* | "El *tana* enunció también la cláusula inicial del mismo modo" — aquí, formular la ubre permitida como "uno *coció*" solo por simetría con la cláusula del estómago prohibido, no para limitarla a lo hecho a posteriori. |
+| **חוּמְרֵי הַמָּקוֹם** *(jumrei hamakom)* | "Las severidades del lugar" — un viajero adopta las costumbres estrictas tanto del lugar que dejó como del que entra; Ramí escapó a esto solo comiendo fuera del límite de Sura. |
+| **תְּחוּם** *(tejum)* | El **límite** en torno a un pueblo; más allá de él, argumentó Ramí, la costumbre local de Sura contra las ubres ya no lo ataba. |
+| **יֵין נֶסֶךְ** *(iein nések)* | **Vino de libación** vertido para la idolatría — prohibido incluso de aprovechar; los orujos podían haberse empapado en él, pero tras doce meses cualquier residuo ya se ha ido. |
+| **פּוּרְצָנֵי** *(purtzenei)* | **Orujos / hollejos de uva** que quedan tras hacer vino, que Ramí usó como combustible para asar — el disparador de los desafíos del vino de libación y el robo. |
+| **יֵאוּשׁ בְּעָלִים** *(ieúsh bealim)* | El **desistimiento de los dueños** de recuperar propiedad perdida o abandonada; una vez que renuncian (aquí, creció hierba entre los orujos), quien la halla puede quedársela. |
+| **חוֹלֵי מֵעַיִין** *(jolé meaín)* | Quien padece **enfermedad intestinal**; Rav Iehudá lo dictaminó exento de tefilín, que requieren un cuerpo limpio que él no puede mantener. |
+| **טַלִּית שְׁאוּלָה** *(talit sheulá)* | Una **túnica prestada**; según Rav Iehudá, está exenta de flecos rituales durante los primeros **treinta días** del préstamo. |
+| **מִצְוָה שֶׁמַּתַּן שְׂכָרָהּ בְּצִדָּהּ** *(mitzvá shematán sejará betzidá)* | Un **mandamiento positivo cuya recompensa está enunciada a su lado** en el versículo — como honrar a los padres; el tribunal terrenal no está encargado de hacerlo cumplir por castigo. |
+| **פּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת** *(poletet veeiná bolaat)* | "**Expele pero no absorbe**" — la razón de la mishná de Trumot de que el hígado prohíbe la comida cocida con él (su sangre se difunde hacia afuera) pero nunca queda él mismo prohibido. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 110a — La baraita, y de dónde nació la severidad de Rav
@@ -158,24 +176,6 @@ bar Tamrei pareció prohibido, y cinco veces él nombró la regla exacta que lo 
 | **Tomó los orujos** | Podían ser propiedad **robada** | Los dueños habían **desistido** — crecía hierba entre ellos |
 | **No llevaba tefilín** | Los tefilín son obligatorios | La **enfermedad intestinal** exime (Rav Iehudá) |
 | **No llevaba tzitzit** | Los flecos son obligatorios | Una **túnica prestada** está exenta por **treinta días** (Rav Iehudá) |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **בִּקְעָה מָצָא וְגָדַר בָּהּ גָּדֵר** *(bik'á matzá vegadar ba gader)* | "Encontró un valle abierto y lo cercó" — la imagen del sabio que impone un decreto protector justo donde halla laxa a una comunidad, como hizo Rav con la ubre en Tatlefush. |
-| **תְּנָא נָמֵי רֵישָׁא** *(tena namí reisha)* | "El *tana* enunció también la cláusula inicial del mismo modo" — aquí, formular la ubre permitida como "uno *coció*" solo por simetría con la cláusula del estómago prohibido, no para limitarla a lo hecho a posteriori. |
-| **חוּמְרֵי הַמָּקוֹם** *(jumrei hamakom)* | "Las severidades del lugar" — un viajero adopta las costumbres estrictas tanto del lugar que dejó como del que entra; Ramí escapó a esto solo comiendo fuera del límite de Sura. |
-| **תְּחוּם** *(tejum)* | El **límite** en torno a un pueblo; más allá de él, argumentó Ramí, la costumbre local de Sura contra las ubres ya no lo ataba. |
-| **יֵין נֶסֶךְ** *(iein nések)* | **Vino de libación** vertido para la idolatría — prohibido incluso de aprovechar; los orujos podían haberse empapado en él, pero tras doce meses cualquier residuo ya se ha ido. |
-| **פּוּרְצָנֵי** *(purtzenei)* | **Orujos / hollejos de uva** que quedan tras hacer vino, que Ramí usó como combustible para asar — el disparador de los desafíos del vino de libación y el robo. |
-| **יֵאוּשׁ בְּעָלִים** *(ieúsh bealim)* | El **desistimiento de los dueños** de recuperar propiedad perdida o abandonada; una vez que renuncian (aquí, creció hierba entre los orujos), quien la halla puede quedársela. |
-| **חוֹלֵי מֵעַיִין** *(jolé meaín)* | Quien padece **enfermedad intestinal**; Rav Iehudá lo dictaminó exento de tefilín, que requieren un cuerpo limpio que él no puede mantener. |
-| **טַלִּית שְׁאוּלָה** *(talit sheulá)* | Una **túnica prestada**; según Rav Iehudá, está exenta de flecos rituales durante los primeros **treinta días** del préstamo. |
-| **מִצְוָה שֶׁמַּתַּן שְׂכָרָהּ בְּצִדָּהּ** *(mitzvá shematán sejará betzidá)* | Un **mandamiento positivo cuya recompensa está enunciada a su lado** en el versículo — como honrar a los padres; el tribunal terrenal no está encargado de hacerlo cumplir por castigo. |
-| **פּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת** *(poletet veeiná bolaat)* | "**Expele pero no absorbe**" — la razón de la mishná de Trumot de que el hígado prohíbe la comida cocida con él (su sangre se difunde hacia afuera) pero nunca queda él mismo prohibido. |
 
 ---
 

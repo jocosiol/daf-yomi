@@ -40,6 +40,24 @@ El daf se divide en dos mitades muy distintas, y luego una costura:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **בַּהֲדֵי הֲדָדֵי** *(bahadei hadadei)* | "En un solo y mismo instante." Cuando las prohibiciones nacen juntas, ninguna tiene prioridad y todas prenden. |
+| **בְּהֵמָה בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת** *(behemá bejaieha le'evarim omédet)* | "Un animal vivo ya está dividido en miembros" — el gozne que decide si la prohibición del miembro está presente desde el nacimiento o solo al cortarse. |
+| **אִיסּוּר חָל עַל אִיסּוּר** *(isur jal al isur)* | Si una prohibición puede prender sobre otra ya existente. |
+| **חֵלֶב** *(jélev)* | Sebo prohibido; aquí la tercera prohibición que puede acumularse, y la clave de toda la analogía. |
+| **הוּתַּר מִכְּלָלוֹ** *(hutar mikelaló)* | "Permitido como excepción a su regla" — una fisura (el sebo de un animal no domesticado). Una prohibición *con* fisura es más débil, así que una posterior puede caer sobre ella; *éver min hajái* no tiene ninguna. |
+| **נֶהֱנָה גְּרוֹנוֹ בִּכְזַיִת** *(nehená gronó bikzáit)* | "Su garganta gozó de un volumen de aceituna" — la medida de Rabí Iojanán: la responsabilidad sigue al placer de la garganta. |
+| **אֲכִילָה בְּמֵעָיו בָּעֵינַן** *(ajilá bemeav ba'einan)* | "Exigimos un comer que llegue al estómago" — la medida de Reish Lakish: el volumen de aceituna debe llegar entero. |
+| **חִלְּקוֹ מִבַּחוּץ / מִבִּפְנִים** *(jilkó mibajutz / mibifnim)* | Dividió el volumen de aceituna fuera de la boca (todos exentos) contra dentro de ella (la disputa). |
+| **גְּרוֹמִיתָא זְעֵירְתָּא** *(gromitá ze'ertá)* | Un huesecillo tragado entero, un volumen de aceituna de carne-hueso-nervio juntos — cómo uno puede ser responsable incluso para Reish Lakish. |
+| **מְחוּסַּר קְרִיבָה** *(mejusar kerivá)* | "Falta de cercanía" — el argumento de Rabí Elazar de que trozos separados no equivalen a un acto ausente. |
+| **בֵּין הַשִּׁינַּיִם / בֵּין הַחֲנִיכַיִים** *(bein hashináim / bein hajanijáim)* | Comida atascada *entre los dientes* (excluida por todos) contra en las *encías/paladar* (el caso en disputa). |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 103a — Tres prohibiciones, y el momento en que nace cada una
@@ -160,24 +178,6 @@ Una sola pregunta recorre toda la segunda mitad — ¿la responsabilidad sigue a
 | Medio volumen de aceituna, vomitado, y luego otro medio | **Responsable** | No se enuncia |
 
 Dos voces quedan fuera de la cuadrícula: **Rabí Elazar**, que condena incluso en la primera fila — que falte mera *proximidad* no es que falte un acto — y **Rav Kahaná**, que muestra cómo Reish Lakish puede condenar alguna vez, con una *גְּרוֹמִיתָא זְעֵירְתָּא* tragada entera.
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **בַּהֲדֵי הֲדָדֵי** *(bahadei hadadei)* | "En un solo y mismo instante." Cuando las prohibiciones nacen juntas, ninguna tiene prioridad y todas prenden. |
-| **בְּהֵמָה בְּחַיֶּיהָ לְאֵבָרִים עוֹמֶדֶת** *(behemá bejaieha le'evarim omédet)* | "Un animal vivo ya está dividido en miembros" — el gozne que decide si la prohibición del miembro está presente desde el nacimiento o solo al cortarse. |
-| **אִיסּוּר חָל עַל אִיסּוּר** *(isur jal al isur)* | Si una prohibición puede prender sobre otra ya existente. |
-| **חֵלֶב** *(jélev)* | Sebo prohibido; aquí la tercera prohibición que puede acumularse, y la clave de toda la analogía. |
-| **הוּתַּר מִכְּלָלוֹ** *(hutar mikelaló)* | "Permitido como excepción a su regla" — una fisura (el sebo de un animal no domesticado). Una prohibición *con* fisura es más débil, así que una posterior puede caer sobre ella; *éver min hajái* no tiene ninguna. |
-| **נֶהֱנָה גְּרוֹנוֹ בִּכְזַיִת** *(nehená gronó bikzáit)* | "Su garganta gozó de un volumen de aceituna" — la medida de Rabí Iojanán: la responsabilidad sigue al placer de la garganta. |
-| **אֲכִילָה בְּמֵעָיו בָּעֵינַן** *(ajilá bemeav ba'einan)* | "Exigimos un comer que llegue al estómago" — la medida de Reish Lakish: el volumen de aceituna debe llegar entero. |
-| **חִלְּקוֹ מִבַּחוּץ / מִבִּפְנִים** *(jilkó mibajutz / mibifnim)* | Dividió el volumen de aceituna fuera de la boca (todos exentos) contra dentro de ella (la disputa). |
-| **גְּרוֹמִיתָא זְעֵירְתָּא** *(gromitá ze'ertá)* | Un huesecillo tragado entero, un volumen de aceituna de carne-hueso-nervio juntos — cómo uno puede ser responsable incluso para Reish Lakish. |
-| **מְחוּסַּר קְרִיבָה** *(mejusar kerivá)* | "Falta de cercanía" — el argumento de Rabí Elazar de que trozos separados no equivalen a un acto ausente. |
-| **בֵּין הַשִּׁינַּיִם / בֵּין הַחֲנִיכַיִים** *(bein hashináim / bein hajanijáim)* | Comida atascada *entre los dientes* (excluida por todos) contra en las *encías/paladar* (el caso en disputa). |
 
 ---
 

@@ -39,6 +39,23 @@ Three movements:
 
 ---
 
+## Key concepts & terms
+
+| Term | Meaning |
+|---|---|
+| **מֵחִדּוּשׁ לָא גָּמְרִינַן** *(mechiddush lo gamrinan)* | We do not derive general rules from an anomalous case — but only when deriving a leniency. |
+| **לְקוּלָּא / לְחוּמְרָא** *(lekula / lechumra)* | Toward leniency / toward stringency. The direction of a derivation decides whether the anomaly objection applies. |
+| **בְּרוּבָּא בָּטֵיל** *(berubba batel)* | Nullified in a simple majority — what Torah law would say without the derivation from the nazirite's ram. |
+| **מְקוֹם הַחֲתָךְ** *(mekom hachatach)* | The surface of the cut where a forbidden piece was severed from a permitted one; normally forbidden. |
+| **גְּרִיסִין** *(grisin)* | Split beans — the teruma food in the *Orla* case, cooked with non-sacred lentils. |
+| **שְׂאוֹר דְּחִימּוּצוֹ קָשֶׁה** *(se'or dechimutzo kasheh)* | Leaven whose leavening power is harsh — potent enough to act even in a very large mixture. |
+| **צִיר** *(tzir)* | Fish brine. Its measure is close to 200, showing that measures are not uniform. |
+| **זֵיעָה בְּעָלְמָא** *(zei'ah be'alma)* | "Mere sweat" — brine is a secretion, not the fish itself, so it is not "its own kind." |
+| **מִין בְּמִינוֹ לֹא בָּטֵיל** *(min bemino lo batel)* | Rabbi Yehuda's rule: a forbidden food mixed with its own kind is never nullified. |
+| **אֵין בְּגִידִין בְּנוֹתֵן טַעַם** *(ein begidin benoten ta'am)* | Sinews impart no taste — the accepted halacha, which makes the *gid* removable without forbidding the meat. |
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 99a — Why the anomaly objection does not sink sixty
@@ -164,23 +181,6 @@ nullified by the majority! The answer waits for tomorrow's first line.
 | **1:60** | Torah prohibitions generally | The nazirite's ram, meat **and bones** | Abaye's reading of the *Orla* beans: under 101, no flavor, still permitted |
 | **1:100** | Rav Shmuel bar Rav Yitzchak's claim, taught by Rav Dimi | The same ram, meat against meat | Cornered by Abaye until **אִישְׁתִּיק** — Rav Dimi fell silent |
 | **≈1:192** | *צִיר*, the brine of a non-kosher fish | R' Yehuda: a quarter-*log* forbids two *se'ah* | The measures are not one system; and brine is only *זֵיעָה בְּעָלְמָא*, mere sweat |
-
----
-
-## Key concepts & terms
-
-| Term | Meaning |
-|---|---|
-| **מֵחִדּוּשׁ לָא גָּמְרִינַן** *(mechiddush lo gamrinan)* | We do not derive general rules from an anomalous case — but only when deriving a leniency. |
-| **לְקוּלָּא / לְחוּמְרָא** *(lekula / lechumra)* | Toward leniency / toward stringency. The direction of a derivation decides whether the anomaly objection applies. |
-| **בְּרוּבָּא בָּטֵיל** *(berubba batel)* | Nullified in a simple majority — what Torah law would say without the derivation from the nazirite's ram. |
-| **מְקוֹם הַחֲתָךְ** *(mekom hachatach)* | The surface of the cut where a forbidden piece was severed from a permitted one; normally forbidden. |
-| **גְּרִיסִין** *(grisin)* | Split beans — the teruma food in the *Orla* case, cooked with non-sacred lentils. |
-| **שְׂאוֹר דְּחִימּוּצוֹ קָשֶׁה** *(se'or dechimutzo kasheh)* | Leaven whose leavening power is harsh — potent enough to act even in a very large mixture. |
-| **צִיר** *(tzir)* | Fish brine. Its measure is close to 200, showing that measures are not uniform. |
-| **זֵיעָה בְּעָלְמָא** *(zei'ah be'alma)* | "Mere sweat" — brine is a secretion, not the fish itself, so it is not "its own kind." |
-| **מִין בְּמִינוֹ לֹא בָּטֵיל** *(min bemino lo batel)* | Rabbi Yehuda's rule: a forbidden food mixed with its own kind is never nullified. |
-| **אֵין בְּגִידִין בְּנוֹתֵן טַעַם** *(ein begidin benoten ta'am)* | Sinews impart no taste — the accepted halacha, which makes the *gid* removable without forbidding the meat. |
 
 ---
 

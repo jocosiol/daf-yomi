@@ -35,6 +35,23 @@ Tres movimientos:
 
 ---
 
+## Conceptos y términos clave
+
+| Término | Significado |
+|---|---|
+| **מֵחִדּוּשׁ לָא גָּמְרִינַן** *(mejidush lo gamrinan)* | No derivamos reglas generales de un caso anómalo — pero solo cuando se deriva una indulgencia. |
+| **לְקוּלָּא / לְחוּמְרָא** *(lekulá / lejumrá)* | Hacia la indulgencia / hacia la estrictez. La dirección de una derivación decide si aplica la objeción de la anomalía. |
+| **בְּרוּבָּא בָּטֵיל** *(berubá batel)* | Anulado en una simple mayoría — lo que diría la ley de la Torá sin la derivación del carnero del nazir. |
+| **מְקוֹם הַחֲתָךְ** *(mekom hajatáj)* | La superficie del corte por donde se separó un trozo prohibido de uno permitido; normalmente prohibida. |
+| **גְּרִיסִין** *(grisín)* | Habas partidas — la comida de trumá del caso de *Orlá*, cocida con lentejas no consagradas. |
+| **שְׂאוֹר דְּחִימּוּצוֹ קָשֶׁה** *(seor dejimutzó kashé)* | Levadura cuyo poder de leudar es fuerte — lo bastante potente para actuar incluso en una mezcla muy grande. |
+| **צִיר** *(tzir)* | Salmuera de pescado. Su medida es cercana a 200, lo que muestra que las medidas no son uniformes. |
+| **זֵיעָה בְּעָלְמָא** *(zeiá bealmá)* | "Mero sudor" — la salmuera es una secreción, no el pescado mismo, así que no es "su propia especie". |
+| **מִין בְּמִינוֹ לֹא בָּטֵיל** *(min bemino lo batel)* | La regla de Rabí Iehudá: una comida prohibida mezclada con su propia especie nunca se anula. |
+| **אֵין בְּגִידִין בְּנוֹתֵן טַעַם** *(ein beguidín benotén taam)* | Los nervios no imparten sabor — la halajá aceptada, que permite quitar el *guid* sin prohibir la carne. |
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 99a — Por qué la objeción de la anomalía no hunde a sesenta
@@ -162,23 +179,6 @@ se anule por la mayoría! La respuesta espera a la primera línea de mañana.
 | **1:60** | Las prohibiciones de la Torá en general | El carnero del nazir, carne **y huesos** | La lectura de Abaie de las habas de *Orlá*: menos de 101, sin sabor, y permitido igual |
 | **1:100** | La afirmación de Rav Shmuel bar Rav Itzjak, enseñada por Rav Dimi | El mismo carnero, carne contra carne | Acorralada por Abaie hasta que **אִישְׁתִּיק** — Rav Dimi calló |
 | **≈1:192** | *צִיר*, la salmuera de un pescado no kosher | R' Iehudá: un cuarto de *log* prohíbe dos *seá* | Las medidas no son un solo sistema; y la salmuera es solo *זֵיעָה בְּעָלְמָא*, mero sudor |
-
----
-
-## Conceptos y términos clave
-
-| Término | Significado |
-|---|---|
-| **מֵחִדּוּשׁ לָא גָּמְרִינַן** *(mejidush lo gamrinan)* | No derivamos reglas generales de un caso anómalo — pero solo cuando se deriva una indulgencia. |
-| **לְקוּלָּא / לְחוּמְרָא** *(lekulá / lejumrá)* | Hacia la indulgencia / hacia la estrictez. La dirección de una derivación decide si aplica la objeción de la anomalía. |
-| **בְּרוּבָּא בָּטֵיל** *(berubá batel)* | Anulado en una simple mayoría — lo que diría la ley de la Torá sin la derivación del carnero del nazir. |
-| **מְקוֹם הַחֲתָךְ** *(mekom hajatáj)* | La superficie del corte por donde se separó un trozo prohibido de uno permitido; normalmente prohibida. |
-| **גְּרִיסִין** *(grisín)* | Habas partidas — la comida de trumá del caso de *Orlá*, cocida con lentejas no consagradas. |
-| **שְׂאוֹר דְּחִימּוּצוֹ קָשֶׁה** *(seor dejimutzó kashé)* | Levadura cuyo poder de leudar es fuerte — lo bastante potente para actuar incluso en una mezcla muy grande. |
-| **צִיר** *(tzir)* | Salmuera de pescado. Su medida es cercana a 200, lo que muestra que las medidas no son uniformes. |
-| **זֵיעָה בְּעָלְמָא** *(zeiá bealmá)* | "Mero sudor" — la salmuera es una secreción, no el pescado mismo, así que no es "su propia especie". |
-| **מִין בְּמִינוֹ לֹא בָּטֵיל** *(min bemino lo batel)* | La regla de Rabí Iehudá: una comida prohibida mezclada con su propia especie nunca se anula. |
-| **אֵין בְּגִידִין בְּנוֹתֵן טַעַם** *(ein beguidín benotén taam)* | Los nervios no imparten sabor — la halajá aceptada, que permite quitar el *guid* sin prohibir la carne. |
 
 ---
 
