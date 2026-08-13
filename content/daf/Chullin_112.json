@@ -1,0 +1,203 @@
+{
+ "tractate": "Chullin",
+ "page": 112,
+ "fetched": "2026-08-13",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 112a",
+   "he_ref": "חולין קי״ב.",
+   "url": "https://www.sefaria.org/Chullin.112a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=112&amud=a",
+   "segments": [
+    {
+     "he": "דְּאַגַּב חוּרְפֵּיהּ בָּלַע, אֲבָל קִישּׁוּת – גָּרֵיר לְבֵי פְסָקֵיהּ וְאָכֵיל.",
+     "en": "<b>as due to its sharpness it absorbs</b> the fat on the knife. <b>But</b> if one cut <b>a cucumber</b> with the same knife, it does not absorb the fat to the same extent. One may therefore simply <b>scrape the place of the cut</b> to remove any fat residue, <b>and</b> then one may <b>eat</b> the cucumber with <i>kutaḥ</i>.",
+     "rashi": [
+      "<b>קישות</b> — מתוקה היא ואינו נבלע בתוכה אלא השמנונית צף ועומד על מקום החתך הלכך גריר לבי פסקיה למקום חתך גורר מעט בסכין ואכיל אף בכותח. הלכך דגים שעלו בקערה מותר לאוכלן בכותח כדאמר דאין נותן טעם הבא מן הממש אלא נותן טעם הבא מנותן טעם דסתם קערה מקנחין אותה משומן הקרוש עליה משום מיאוס אבל לסכין פעמים שהשמנונית קרוש עליו ואינו ניכר וכשחותך בצנון הוי נותן טעם הבא מן הממש ועוד דמשום חורפיה בלע טפי מדגים הרותחים ואגב דוחקא דסכינא פליט סכינא ובלע צנון:"
+     ],
+     "tosafot": [
+      "<b>אגב חורפיה בלע</b> — יש ליזהר שלא לחתוך שומין כרישין ובצלים בסכין חולבת משום דחריפי טובא והיכא דחתך ונתנן בקדרה מלאה מים רותחת מותר בששים לבטל טעם הבלוע בירק ונפלט מן הסכין אבל חתכו בסכין של עובד כוכבים נעשה הירק כולו נבלה וצריך ששים לבטל הירק וצריך עיון אם הסכין מקונח ואין בן יומו אי חורפא דידהו מחליא לשבח כדאמר גבי חלתית פרק אין מעמידין (ע\"ז דף לט.):"
+     ]
+    },
+    {
+     "he": "קִילְחֵי דְּלִיפְתָּא – שְׁרֵי, דְּסִילְקָא – אֲסִירי, וְאִי פְּתַךְ בְּהוּ דְּלִיפְתָּא – שַׁפִּיר דָּמֵי.",
+     "en": "Likewise, <b>turnip stalks</b> cut with such a knife are <b>permitted</b> for consumption with <i>kutaḥ</i>. But <b>chard</b> cut with such a knife is <b>prohibited</b> for consumption with <i>kutaḥ</i>, as it absorbs flavor from the knife. <b>And if one alternated between</b> cutting chard <b>and turnip</b> stalks it is <b>permitted,</b> as the turnip stalks nullify the taste of the meat in the knife.",
+     "rashi": [
+      "<b>קלחי</b> — קלחים:",
+      "<b>ליפתא</b> — לפת אינו חריף אלא מתוק ואין טעם שומן ניכר בו:",
+      "<b>דסילקא אסירי</b> — לפי שנותן טעם בהן:",
+      "<b>ואי פתך בהו דליפתא</b> — ערבן בעת חתוכן שחתך אחת של לפת ואחת של תרדין הלפת מבטל טעם השמנונית מן הסכין ואין התרדין מקבלין טעם הימנו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בְּעָא מִינֵּיהּ רַב דִּימִי מֵרַב נַחְמָן: מַהוּ לְאַנּוֹחֵי כַּדָּא דְמִלְחָא גַּבֵּי כַּדָּא דְכַמְכָּא? אֲמַר לֵיהּ: אָסוּר. דְּחַלָּא מַאי? אֲמַר לֵיהּ: שְׁרֵי.",
+     "en": "§ <b>Rav Dimi inquired of Rav Naḥman: What is</b> the <i>halakha</i> with regard <b>to placing a jug of salt,</b> used to salt meat, <b>alongside a jug of <i>kamka</i>,</b> i.e., <i>kutaḥ</i>, a milk dish? Need one be concerned lest some of the <i>kutaḥ</i> fall on the salt without his knowledge and ultimately contaminate his meat? Rav Naḥman <b>said to him: It is prohibited</b> to place the two jugs next to each other. Rav Dimi further inquired: <b>What</b> is the <i>halakha</i> with regard to a similar case involving a jug <b>of vinegar</b> used to season meat? Need one be concerned lest the <i>kutaḥ</i> fall into the vinegar? Rav Naḥman <b>said to him: It is permitted</b> to place these two jugs next to each other.",
+     "rashi": [
+      "<b>כמכא</b> — כותח. מי חיישינן שמא יפול מן הכותח במלח והוא לא ידע וימלחו ממנו קדרת בשר:",
+      "<b>דחלא מאי</b> — דרך לתת חומץ לתוך התבשיל. מי חיישינן שמא יפול מן הכותח בחומץ ויחזור ויתן ממנו לתבשיל:"
+     ],
+     "tosafot": [
+      "<b>מהו לאנוחי כדא דמלחא בהדי כדא דכמכא א\"ל אסור</b> — אין לאסור מטעם זה להניח בתבה אחת כד של בשר אצל כד של חלב דהתם נזהר יפה שלא יפול מזה על זה אבל הכא לא מסקי אדעתייהו ליזהר שלא יפול מן הכותח במלח ולא ידע וימלח ממנו בשר וכן דחלא כי דרך לתת חומץ בתבשיל וחיישינן שמא יפול מן הכותח לתוכו ויחזור ויתן לתוך התבשיל:"
+     ]
+    },
+    {
+     "he": "וּמַאי שְׁנָא לְכִי תֵּיכוּל עֲלַהּ כּוֹרָא דְמִלְחָא? מַאי טַעְמָא? הַאי – אִיתֵיהּ (איסורא) [לְאִיסּוּרָא] בְּעֵינֵיהּ, וְהַאי – לֵיתֵיהּ (איסורא) [לְאִיסּוּרָא] בְּעֵינֵיהּ.",
+     "en": "Rav Dimi asked: <b>And what is different</b> about the vinegar? Rav Naḥman responded: <b>When you</b> have thought <b>about it</b> long enough to <b>eat a <i>kor</i> of salt,</b> you will know the reason. The Gemara clarifies: <b>What is the reason</b> then? In <b>this</b> case of the salt, <b>the prohibited</b> substance <b>is substantive,</b> as the traces of <i>kutaḥ</i> are discernible and not nullified by the salt. <b>But</b> in <b>that</b> case of the vinegar, <b>the prohibited</b> substance <b>is not substantive,</b> since the <i>kutaḥ</i> melts away in the vinegar and will no longer impart flavor.",
+     "rashi": [
+      "<b>לכי תיכול</b> — כשתמדוד לי עליה כור של מלח בשכרי אומר לך טעמו של דבר:",
+      "<b>האי</b> — כותח הנופל במלח נראה וניכר מפני שהוא עב ולא בטיל אבל כותח הנופל בחומץ ליתיה בעיניה וטעמא נמי לא יהיב כותח בחומץ:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָהוּא בַּר גּוֹזָלָא דִּנְפַל לְכַדָּא דְּכַמְכָּא, שַׁרְיֵיהּ רַב חִינָּנָא בְּרֵיהּ דְּרָבָא מִפַּשְׁרוּנְיָא. אָמַר רָבָא: מַאן חַכִּים לְמִישְׁרֵי כִּי הַאי גַוְונָא, אִי לָאו רַב חִינָּנָא בְּרֵיהּ דְּרָבָא מִפַּשְׁרוּנְיָא? קָסָבַר: כִּי אָמַר שְׁמוּאֵל ״מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ״, הָנֵי מִילֵּי הֵיכָא דְּאֵינוֹ נֶאֱכָל מֵחֲמַת מִלְחוֹ, אֲבָל הַאי כּוּתָּחָא הֲרֵי נֶאֱכָל מֵחֲמַת מִלְחוֹ.",
+     "en": "The Gemara relates: There was <b>a certain young bird that fell into a jug of <i>kamka</i>,</b> i.e., <i>kutaḥ</i>. <b>Rav Ḥinnana, son of Rava of</b> the city of <b>Pashronya, permitted</b> the bird. <b>Rava said</b> about this: <b>Who is wise</b> enough <b>to</b> discern reasons to <b>permit</b> the food in difficult <b>cases like this, if not Rav Ḥinnana, son of Rava of Pashronya? He maintains</b> that <b>when Shmuel said</b> that <b>a salted</b> food imparts flavor <b>like a boiling</b> food, <b>that statement</b> applies only to a food so salty <b>that it is not eaten due to its salt, but this <i>kutaḥ</i></b> can still be <b>eaten due to,</b> i.e., despite, <b>its salt.</b> Therefore, it is as if both foods are cold and unsalted, and they do not impart flavor to one another, provided one rinses the area of contact.",
+     "rashi": [
+      "<b>שרייה רב חיננא</b> — אע\"פ שהכותח מליח הוא:",
+      "<b>דאינו נאכל מחמת מלחו</b> — אינו נוח ליאכל מרוב מלח שבו עד ששורין ומדיחין אותו במים כעין מליחת בשר להצניע:",
+      "<b>נאכל מחמת מלחו הוא</b> — כלומר נאכל במלחו הוא:"
+     ],
+     "tosafot": [
+      "<b>הני מילי דאינו נאכל מחמת מלחו</b> — הר\"ר יעקב ישראל התיר פעם אחת גיגית מלאה בשר שנמלחה יפה עם חתיכת נבלה ואמר דלא חשיב אינו נאכל מחמת מלחו אא\"כ נמלח כעין עבוד כדאמר פרק כלל גדול (שבת דף עה:) האי מאן דמלח בישרא בשבת חייב משום מעבד ומוקי לה דבעי לאורחא אבל לביתא לא משוי איניש מיכליה עץ ובקונטרס נמי פירש אינו נאכל מרוב מלח שבו עד ששורהו ומדיחו במים כעין בשר שמולחים להצניע וקשיא לר\"ת דאטו הנהו אטמהתא דאימליחו בגידא דנשיא בי ריש גלותא בפרק גיד הנשה (לעיל חולין דף צז:) דמייתי עלה מליח הרי הוא כרותח וכי נמלחו לאורחא וכן (לעיל חולין דף קיא:) קערה שנמלח בה בשר אסור לאכול בה רותח וההיא פינכא דהוה בי רבי אמי וכן רב מרי דאימלח ליה בשר שחוטה בהדי טרפה בסמוך אטו כל הני הוו לאורחא או להצניע כפי' הקונטרס ואור\"ת דכל מליחות שאנו עושין לקדרה חשיבי אין נאכלין מחמת מלחן מדפירש בהלכות גדולות דשיעור מליחה כשיעור צלייה משום דמליח הרי הוא כרותח דצלי וכן משמע בהקומץ רבה (מנחות דף כא.) דקאמר טעמא דמעטיה קרא הא לאו הכי [הו\"א] דם ליבעי מלח והא נפק ליה מתורת דם דאמר רב יהודה דם שמלחו אינו עובר עליו אלמא מליחת קדשים הוי אין נאכל מחמת מלחו מדפטר דם שמלחו כמו דם שבשלו דאמרינן התם דאין עובר עליו וקאמר התם רבה על מליחת קדשים וכן לקדרה אלמא למליחת קדרות צריך שלא יהו נאכלים מחמת מלחן:"
+     ]
+    },
+    {
+     "he": "וְהָנֵי מִילֵּי חַי, אֲבָל צָלִי – בָּעֵי קְלִיפָה, וְאִי אִית בֵּיהּ פִּילֵי – כּוּלֵּיהּ אָסוּר, וְאִי מְתַבַּל בְּתַבְלִין – כּוּלֵּיהּ אָסוּר.",
+     "en": "The Gemara adds: <b>And this statement</b> applies only if the bird is <b>raw, but</b> if it is <b>roasted, it requires peeling</b> to remove the outer layer, since roasting softens the meat and causes it to absorb more flavor. <b>And if it has cracks [<i>pilei</i>], it is entirely forbidden,</b> because the milk is absorbed into the cracks. <b>And if it has been flavored with spices it is</b> likewise <b>entirely forbidden,</b> because the spices soften the meat and render it absorbent.",
+     "rashi": [
+      "<b>קליפה</b> — מלמעלה סביב:",
+      "<b>ואי אית ביה פילי</b> — בקעים והוא צלי לא סגיא ליה בקליפה לפי שבולע דרך הנקבים וכולו אסור:",
+      "<b>ואי מתבל בתבלין</b> — התבלין שנתבשלו עמו מרככין אותו ונוח לבלוע וכשנפל לכותח היה צמא לבלוע ובלע:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב נַחְמָן, אָמַר שְׁמוּאֵל: כִּכָּר שֶׁחָתַךְ עָלֶיהָ בָּשָׂר – אָסוּר לְאׇכְלָהּ, וְהָנֵי מִילֵּי דְּאַסְמֵיק, וְהָנֵי מִילֵּי דְּאַבְרְיֵהּ, וְהָנֵי מִילֵּי דְּאַסְמְכֵיהּ, אֲבָל קְלִישְׁתָּא – לֵית לַן בַּהּ.",
+     "en": "<b>Rav Naḥman said</b> that <b>Shmuel says: It is prohibited to eat a loaf</b> of bread <b>upon which one cut</b> unsalted roasted <b>meat,</b> since the blood expelled from the roasted meat is absorbed in the loaf. The Gemara adds: <b>And this statement</b> applies only <b>if</b> the meat <b>is ruddy</b> from the blood it contains. <b>And</b> furthermore, <b>this statement</b> applies only <b>if</b> so much blood was absorbed in the loaf that <b>it passed through</b> from one side of the loaf to the other and was visible from both sides. <b>And</b> furthermore, <b>this statement</b> applies only <b>if</b> the liquid emitted by the roasted meat <b>is viscous. But</b> if it is <b>runny, we have no</b> problem <b>with it,</b> i.e., the loaf is permitted.",
+     "rashi": [
+      "<b>שחתך עליה בשר</b> — כשהוא חותך מן הצלי:",
+      "<b>אסור לאכלה</b> — מפני שהדם יוצא ונבלע בו:",
+      "<b>וה\"מ דאסמיק</b> — שהיה הבשר אדום שנקטרוד\"א:",
+      "<b>והני מילי דאבריה</b> — שנקב הדם את הככר כלומר עבר מצדו לצדו עד שנראה משני צדדין:",
+      "<b>הכי גרסינן והני מילי דאסמכיה</b> — שהיה אותו מוהל היוצא מן הבשר עבה אבל צלול לאו דם הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "שְׁמוּאֵל שָׁדֵי לֵיהּ לְכַלְבֵּיהּ, רַב הוּנָא יָהֵיב לֵיהּ לְשַׁמָּעֵיהּ. מָה נַפְשָׁךְ? אִי שְׁרֵי – לְכוּלֵּי עָלְמָא שְׁרֵי, אִי אֲסִיר – לְכוּלֵּי עָלְמָא אֲסִיר! שָׁאנֵי רַב הוּנָא דַּאֲנִינָא דַּעְתֵּיהּ. רָבָא אָכֵיל לֵיהּ, וְקָרֵי לֵיהּ ״חֲמַר בָּשָׂר״.",
+     "en": "The Gemara relates: <b>Shmuel would throw to his dog</b> such a loaf of bread that he held was prohibited. <b>Rav Huna</b> would not eat the loaf himself but <b>would</b> rather <b>give it to his attendant.</b> The Gemara objects: <b>Whichever way you</b> look at it, Rav Huna’s behavior is problematic: <b>If</b> the loaf <b>is permitted, it is permitted for everyone,</b> including Rav Huna himself. And <b>if it is prohibited, then it is prohibited for everyone,</b> and he should not give it to his attendant. The Gemara explains: In fact, the loaf is permitted for consumption, and <b>Rav Huna is different, as he is of delicate constitution</b> and did not want to eat the loaf himself. The Gemara further relates: <b>Rava would eat</b> a loaf of this type, <b>and he would call</b> the red liquid <b>meat wine.</b>",
+     "rashi": [
+      "<b>שדי ליה לכלביה</b> — לההוא ככר:",
+      "<b>מה נפשך</b> — דאיהו לא בעי למיכליה ולשמעיה ספי ליה איסורא:",
+      "<b>דאנינא דעתיה</b> — האי דלא אכיל ליה משום דאיסטניס הוה ולאו משום איסורא:",
+      "<b>חמר בשר</b> — יין הבשר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב נַחְמָן, אָמַר שְׁמוּאֵל: אֵין מַנִּיחִין כְּלִי תַּחַת בָּשָׂר עַד שֶׁיִּכְלֶה כׇּל מַרְאֵה אַדְמוּמִית שֶׁבּוֹ. מְנָא יָדְעִינַן? מָר זוּטְרָא מִשְּׁמֵיהּ דְּרַב פָּפָּא אָמַר: מִשֶּׁתַּעֲלֶה תִּימְרָתוֹ.",
+     "en": "<b>Rav Naḥman says</b> that <b>Shmuel says: One may not place a vessel under</b> roasting <b>meat</b> to catch the drippings of fat <b>until all the ruddiness of</b> the meat’s <b>appearance has dissipated.</b> Beforehand, though, one must be concerned that blood will fall with the drippings into the vessel, rendering the mixture and the vessel prohibited. The Gemara asks: <b>How do we know</b> when all the meat’s redness has disappeared? <b>Mar Zutra said in the name of Rav Pappa: As soon as its smoke rises,</b> one can be sure that all the blood has been expelled from the meat.",
+     "rashi": [
+      "<b>אין מניחין כלי</b> — בי דוגי דלעיל (חולין דף קיא:):",
+      "<b>עד שיכלה</b> — שיהא כל דמו כבר נפלט ממנו:",
+      "<b>משתעלה תימרתו</b> — שהבשר מעלה עשן. לישנא אחרינא שיהו הגחלים מעלין עשן שכל זמן שהדם שותת עליהן אינן אלא כבין והולכים אבל כשהשומן נוטף הן מעלין עשן. לשון מורי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַתְקֵיף לַהּ רַב אָשֵׁי: וְדִלְמָא תַּתָּאָה מְטָא, עִילָּאָה לָא מְטָא? אֶלָּא אָמַר רַב אָשֵׁי: לֵית לֵיהּ תַּקַּנְתָּא, אֶלָּא מִשְׁדֵּא בֵּיהּ תַּרְתֵּי גַּלְלֵי מִלְחָא,",
+     "en": "<b>Rav Ashi objects to this: But perhaps the underside</b> of the meat, which is closest to the coals, has been fully <b>roasted,</b> but its <b>upper</b> part is still <b>not roasted</b> and still expels blood at this stage. <b>Rather, Rav Ashi said:</b> One who wishes to collect the drippings <b>has no remedy except</b> to <b>place two lumps of salt in it,</b> i.e., one in the receptacle under the meat and one on top, in the meat itself.",
+     "rashi": [
+      "<b>ודילמא תתאה מטא</b> — צד התחתון של צד גחלים נצלה והעליון לא נצלה:",
+      "<b>תרי גללי דמלחא</b> — בין על הבשר ובין בתוך הכלי והדם נגרר אצל המלח לשוליים:"
+     ],
+     "tosafot": [
+      "<b>תרי גללי דמלחא ומשפייה</b> — שהדם נגרר אצל המלח בשולים ואפילו למ\"ד (לעיל חולין דף קח:) אפשר לסוחטו אסור יש להתיר כאן ולא אמרינן מיד כשנוטף השומן מן הבשר נאסר מחמת דם המעורב בו ושוב לא יועיל לו תרי גללי דמלחא דכיון שהדם נפרש ממנו לגמרי אין נשאר בו טעם ואפילו משהו דכך היו בקיאין בדבר המותר ולא דמי לאפשר לסוחטו דלעיל דהתם אין האיסור יוצא לגמרי אלא שמתבטל ועכשיו אין להתיר על ידי תרי גללי דמלחא לפי מה שפירש בהלכות גדולות דדוקא נקט תרי גללי אבל הרבה מלח פוסק כח הדם ואין אנו בקיאין בדבר שלא להרבות ושלא למעט:"
+     ]
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 112b",
+   "he_ref": "חולין קי״ב:",
+   "url": "https://www.sefaria.org/Chullin.112b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=112&amud=b",
+   "segments": [
+    {
+     "he": "וּמִשְׁפְּיֵיהּ.",
+     "en": "Doing this will allow the blood dripping from the meat to stick to the salt on the sides of the vessel, while the fat will float to the top. <b>And</b> when emptying the receptacle, he should <b>tilt it</b> gently to pour the fat into another vessel without it mixing with the blood.",
+     "rashi": [
+      "<b>ומשפייה</b> — כמו (ב\"מ דף ס.) השופה יין לחבירו קולי\"ר כלומר יערה השומן העליון בנחת מכלי אל כלי כדי שלא יתערב הדם בו. וראיתי בהלכות גדולות דדוקא נקט תרי גללי כלומר מעט מלח אבל מלח הרבה פוסק כח הדם ועושהו כמים והוא נעכר ומתערב עם השומן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַב אַחָא בְּרֵיהּ דְּרַב אִיקָא לְרַב אָשֵׁי: וּמִי אָמַר שְׁמוּאֵל הָכִי? וְהָאָמַר שְׁמוּאֵל: כִּכָּר שֶׁחָתַךְ עָלֶיהָ בָּשָׂר אָסוּר לְאׇכְלָהּ! שָׁאנֵי הָתָם, דְּאַגַּב דּוּחְקָא דְסַכִּינָא פָּלֵיט.",
+     "en": "<b>Rav Aḥa, son of Rav Ika, said to Rav Ashi: And did Shmuel</b> really <b>say this,</b> that once the meat’s ruddiness has dissipated it is permitted to place a receptacle underneath it? <b>But didn’t Shmuel say: It is prohibited to eat a loaf</b> of bread <b>upon which one cut</b> roasted <b>meat?</b> Apparently he holds that meat contains blood even after it has finished roasting. Rav Ashi replied: Shmuel holds that the meat no longer emits blood after its ruddiness has dissipated. And as for his ruling with regard to a loaf of bread, it <b>is different there, as due to the pressure of the knife</b> the meat <b>expels</b> more blood.",
+     "rashi": [
+      "<b>ומי אמר שמואל הכי</b> — דלאחר שיכלה כל מראה אדמומית שבו מותר:",
+      "<b>והאמר שמואל כו'</b> — והאי בשר כבר נצלה:",
+      "<b>שאני התם דאגב דוחקא דסכינא פליט</b> — לעולם כשתעלה תמרתו אין הדם יוצא ממנו ע\"י האור ושמנונית הוא ומותר אבל כשחותכו וכובש עליו את הסכין הוא דוחקו ואם נשאר בו דם דוחקו והוא יוצא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב נַחְמָן: דָּגִים וְעוֹפוֹת שֶׁמְּלָחָן זֶה עִם זֶה – אֲסוּרִין. הֵיכִי דָמֵי? אִי בִּכְלִי שֶׁאֵינוֹ מְנוּקָּב – אֲפִילּוּ עוֹפוֹת וְעוֹפוֹת נָמֵי אֲסִירִי, אִי בִּכְלִי מְנוּקָּב – אֲפִילּוּ דָּגִים וְעוֹפוֹת נָמֵי שְׁרֵי.",
+     "en": "§ <b>Rav Naḥman says:</b> If <b>one salted fish and birds together,</b> the fish <b>are prohibited</b> for consumption due to the blood they absorb from the birds. The Gemara asks: <b>What are the circumstances</b> of this ruling? <b>If</b> they were placed <b>in an unperforated vessel,</b> in which the blood emitted by the birds will pool, then <b>even</b> if one salted <b>a bird and</b> another <b>bird</b> together they should be <b>prohibited,</b> as the blood expelled from one bird will be absorbed by the other. And <b>if</b> the case involves <b>a perforated vessel,</b> out of which the blood can flow, then <b>even</b> if <b>fish</b> are salted with <b>birds</b> the fish should be <b>permitted.</b>",
+     "rashi": [
+      "<b>דגים ועופות</b> — לאו דווקא עופות דכל שכן בשר אחר לפי שהוא קשה מבשר עופות:",
+      "<b>אסורין</b> — [הדגים לבדן] שהדם יוצא מן הבשר ונבלע בדגים:",
+      "<b>אפילו עופות ועופות [נמי] אסירי</b> — כדאמרינן לקמן (חולין דף קיג.) אין מולחין בשר אלא על גבי כלי מנוקב לפי שהדם היוצא נשאר בכלי וחוזר ונבלע בבשר:",
+      "<b>אפילו עופות ודגים [נמי] שרי</b> — שהרי הדם יוצא דמה לי דגים ומה לי שאר שתי חתיכות הנמלחות זו על גב זו שאע\"ג שהדם יוצא מעליונה לתחתונה אין נאסרין אם הכלי מנוקב:"
+     ],
+     "tosafot": [
+      "<b>דגים ועופות שמלחן זה עם זה אסורין</b> — הדגים לבדן והקשה רבינו שמואל דא\"כ הול\"ל דגים שמלחן עם עופות אסורין וי\"ל דא\"כ הוה משמע אפילו העופות תפל והדגים מלוחים כמו דג טהור שמלחו עם דג טמא דבסמוך דמיירי בטהור מליח וטמא תפל וזה אינו כי בענין זה לא היו הדגים אסורין ונראה דאין העופות נאסרים מהדגים שנאסרו אפילו לאותו פירוש שבכל איסורין אמרינן חתיכה עצמה נעשית נבלה אם האיסור עצמו הולך ומתפשט ונאמר שגם מן הדם שנבלע בדגים נפלט מקצת עם ציר הדגים ונבלע בעופות אף על פי שכולה אין פולטין להיות מותרין על ידי כן כיון דכבר גמרו פליטתן דמ\"מ אין סברא לאסור העופות דדם משרק שריק במליחה כמו בצליה ובדגים דרפו קרמייהו הוא דאמר לעיל דלא שריק דם עופות מינייהו:"
+     ]
+    },
+    {
+     "he": "לְעוֹלָם בִּכְלִי מְנוּקָּב, וְדָגִים מִשּׁוּם דִּרְפוּ קְרָמַיְיהוּ קָדְמִי וּפָלְטִי, וְעוֹפוֹת קְמִיטִי, בָּתַר דְּנָיְחִי דָּגִים פָּלְיטִי עוֹפוֹת, וַהֲדַר בָּלְעִי מִינֵּיהּ.",
+     "en": "The Gemara answers: <b>Actually,</b> the ruling is referring <b>to a perforated vessel. And</b> the <b>fish</b> are prohibited <b>because their skin is soft,</b> and therefore when they are salted <b>they expel</b> their blood <b>first, whereas</b> the skin of <b>birds</b> is <b>hard. After</b> the <b>fish finish</b> expelling their blood, the <b>birds</b> continue to <b>expel</b> their blood, <b>and then</b> the fish <b>absorb</b> blood <b>from them.</b> If one salts two birds together, they expel their blood simultaneously, and neither will absorb blood from outside while expelling its own.",
+     "rashi": [
+      "<b>לעולם בכלי מנוקב</b> — והיינו טעמא דדגים אסורין:",
+      "<b>משום דדגים רפו קרמייהו</b> — קרום שלהן רך:",
+      "<b>וקדמי ופלטי</b> — ממהרין לפלוט ציר שלהן:",
+      "<b>ועופות קמיטי</b> — צומתין אשטרינ\"ט. כלומר אין ממהרין לפלוט וכבר נחו הדגים מלפלוט ועדיין עופות פולטין הלכך בלעי דגים אבל בשר ובשר כמה שזה שוהה לפלוט כך זה שוהה לפלוט ושניהם פולטין יחד וכל זמן שהתחתון טרוד בפליטה אינו בולע:"
+     ],
+     "tosafot": [
+      "<b>ודגים רפו קרמייהו ופלטי ועופות קמיטי</b> — פירש בקונטרס אבל בשר ובשר כמו שזה שוהה לפלוט כך זה שוהה לפלוט ושניהם פולטין יחד וכל זמן שתחתון טרוד לפלוט אינו בולע וכמו כן פירש בסמוך (לקמן חולין דף קיג.) גבי רב ששת דמלח גרמא גרמא דמסיק אלא לא שנא ופירש בקונטרס ל\"ש ומותר דכל זמן שטרודים לפלוט אינן בולעים וכשנח זה כבר נח זה ולפירושו תימה כשמולחין הרבה חתיכות יחד זו אחר זו ומניחין שניה על הראשונה וכן שלישית וכן רביעית אפילו יש כמה חתיכות אע\"פ שהראשונה גומרת פליטתה תחלה ופשטיה דאלא לא שנא (נמי) משמע (שמותר למלוח כל אחד ואחד בפני עצמו וכן מפרש ר\"ת אלא לא שנא) שאע\"פ שהתחתון פולט תחלה אינו נאסר ולמה מותר כיון שפליטת התחתון קודמת ונראה דהיינו טעמא משום דדם מישרק שריק במליחה כמו בצליה וכי היכי דשרי בצלי בשרא עלוי בשרא אפילו לכתחלה אע\"פ שכלה תחלה פליטתה בצד התחתון של צד האש משום דמשרק שריק הוא הדין נמי במליחה דשרי כה\"ג ודגים דוקא משום דרפו קרמייהו אסירי משום דרכיכי ונבלע הדם בתוכן ולא שריק מינייהו ומיהו היכא דאיכא גומות בצד עליון של תחתונות דלא מצי שריק קשה למה יהא מותרין דמעשים בכל יום שמוצאין גומות [בחתיכות] התחתונות מלאות ציר ונוהגין בדבר היתר וי\"מ משום דפליטת ציר מושכת הרבה אחר פליטת הדם וכל זמן שמושך פליטת הציר פולטות מה שבולעות מן העליונות אחר פליטת דמן ומה שנמצא בגומות ציר הוא ולא דם אבל בדגים אין לומר כן לפי שפליטת דם העופות מושכת אחר פליטת ציר הדגים וה\"ר יוסף מאורלינ\"ש היה אומר לפי שפליטת הדגים נגמר קודם התחלת פליטת העופות לכך אינן פולטין עוד מה שבולעין מן העופות אבל בשר ובשר כיון שלא נגמר פליטת דם תחתון קודם התחלת בליעתה מן העליון אין דרך פליטתה נסתמת דהואיל ופתוח לפלוט לא יסתם עד גמר פליטת החתיכה שעליה וכן אם מלחו שלישית ונתנו על העליונות קודם גמר פליטתה התחתונה פולטת עד שתגמור השלישית פליטתה וכן לעולם כל מה שיתנו עליה תבלע ותפלוט כיון שלא נחה רגע אחת וא\"ת נהי דלפי שני הטעמים האלו אין לאסור מחמת פליטת חתיכה העליונה מ\"מ נאסור מחמת דם הבלוע במלח שבין חתיכה לחתיכה שנמחה בציר שבגומות אחר פליטת כל הדם והציר דבשלמא בכל חתיכה מלוחה דעלמא אין המלח שעליה אוסרה לפי שמועט הוא הדם הבלוע במלח ואינו יכול עוד לזוז משם כלל אבל כאן שנמחה המלח בציר שבגומא ונעשה צלול היה לו לדם זה לאסור כדי קליפה ושמא לא אמרינן מליח הרי הוא כרותח אלא בשעת פליטה אבל אחר גמר פליטה לא חשיב כרותח דפסק כח המלח מחמת שהפליט את הבשר ויוצא כח המלח עם הדם אי נמי י\"ל שהמלח שעל הבשר מעכב הדם הזה מליכנס בבשר ולפי אותן השני טעמים שפירשתי דכל זמן שהתחתונה פולטת ציר בולעת ופולטת דם העליונות עם ציר שלה אז כל זמן שפתוחה לפלוט בולעת ופולטת צריך להמתין לתחתונה עד שתשהה העליונה שיעור צליה שעד אותה שעה אין התחתונה יוצאת מידי דמה ומיהו עדיין י\"ל טעם אחר דכל זמן שהבשר טרוד לפלוט ציר אין בולע דם וזמן פליטת הציר אינו כלה כל כך מהרה ומכל מקום בשר שבתוך הציר כגון בכלי שאינו מנוקב אין להתיר מטעם זה דאין לו שם כח לפלוט מחמת שהוא שקוע בתוך הציר ובולע והיינו טעמא דשמואל דאמר לקמן (חולין דף קיג.) אין מולחין אלא בכלי מנוקב דאע\"ג דעדיין לא גמר הבשר פליטת דמו בולע כדפרישית והיכא דחציה של חתיכה בתוך הציר וחציה בחוץ מה שבתוכו אסור ומה שבחוץ מותר כדפרישית לעיל בפרק גיד הנשה (חולין דף צו:) גבי גדי שצלאו בחלבו והיכא ששהה הבשר במלח כשיעור צליה על דף אחד ואח\"כ הושם בגיגית ושהה שם כל הלילה ואחר כך נמצא הכלי מלא מיץ מן המליח שיצא מן הבשר אירע מעשה בביתו של רש\"י והשיב דמאחר ששהה הבשר במלח כדי שיעור קודם שהושם בכלי אין המים הנמצאים בכלי מין דם אלא מוחל בעלמא וכן נראה ותדע שאותו המוחל הוא היתר מיד כששהה שיעור צליה הוא מותר להדיחו ולבשלו בקדרה אע\"פ שלא נפלט ממנו המוחל היוצא אח\"כ ואין לאסור נמי המוחל מחמת המלח שעל הבשר שנמחה בתוכו דאם מכח זה באנו לאסור בשר הנופל באותו מוחל לפי שיש בו רוב מלח שעל הבשר ואין נאכל מחמת מלחו ליחשב כרותח ואוסר את הבשר א\"כ גם מטעם זה יאסר כל הבשר שבעולם כשמניחין אותו בתוך הכלי להדיחו שנמחה המלח שעל הבשר במים דמה לי מים מה לי מוחל כיון דשניהם של היתר אלא צריך לומר שהדם שבמלח מתייבש בו ואין בו כח ליבלע בבשר אלא עומד במקומו אע\"פ שנמחה בתוך אותו מוחל כמו שפי' גבי אותן גומות שבבשר דמה לי גומא מלאה ציר ומה לי כל הבשר בתוך הציר או מטעם שפסק כח המלח מחמת שהפליט הבשר ולא חשיב כרותח כדפרישית לעיל ומ\"מ אין להקל שכבר נהגו העם איסור:"
+     ]
+    },
+    {
+     "he": "רַב מָרִי בַּר רָחֵל אִימְּלַח לֵיהּ בְּשַׂר שְׁחוּטָה בַּהֲדֵי בְּשַׂר טְרֵפָה, אֲתָא לְקַמֵּיהּ דְּרָבָא.",
+     "en": "The Gemara relates: <b>Meat of a slaughtered</b> animal <b>was salted for Rav Mari bar Raḥel together with</b> prohibited <b>meat of an animal that had a wound that would have caused it to die within twelve months [<i>tereifa</i>],</b> in a perforated vessel, as meat is generally salted. <b>He came before Rava</b> to ask whether the kosher meat was prohibited, as perhaps it would not have absorbed flavor from the non-kosher meat while itself expelling blood.",
+     "rashi": [
+      "<b>אימלח ליה בשר שחוטה בהדי בשר נבלה</b> — ובכלי מנוקב כמשפט המולחים בשר וקמיבעיא ליה מי אמרינן כי היכי דגבי דם לא חיישינן לדלמא פלט עליון ובלע תחתון דאמרינן כל זמן שטרודים בפליטה אינן בולעין ושניהם נחין יחד מפליטתן ה\"נ לא שנא או לא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ: ״הַטְּמֵאִים״ – לֶאֱסוֹר צִירָן, וְרוֹטְבָן, וְקֵיפֶה שֶׁלָּהֶן.",
+     "en": "Rava <b>said to him:</b> When the verse states, with regard to forbidden foods: “These are <b>the unclean</b> to you” (Leviticus 11:31), the added definite article serves <b>to prohibit</b> not only their flesh but also <b>their juice</b> emitted by salting, <b>and their gravy, and their spices</b> with which they are cooked. Even while the kosher meat is emitting its blood, it still absorbs the juices of the non-kosher meat, which are absorbed more easily than blood.",
+     "rashi": [
+      "<b>אמר ליה הטמאים</b> — ה\"א יתירא דגבי הטמאים לכם בכל השרץ (ויקרא יא):",
+      "<b>לאסור צירן ורוטבן וקיפה</b> — פירמא בשר ותבלין הנקפה בשולי הקדירה וכיון דצירן אסור מיתסר הבשר השחוט מחמת ציר הטרפה שהוא נוח ליבלע מן הדם:"
+     ],
+     "tosafot": [
+      "<b>הטמאים לאסור צירן</b> — דרשה גמורה היא גבי שרצים ובהמה חוץ מגבי דגים כדפרישית בפרק גיד הנשה (לעיל חולין דף צט:) גבי שאני ציר דזיעה בעלמא הוא:",
+      "<b>ורוטבן וקיפה שלהן</b> — וא\"ת ותיפוק ליה ממשרת ליתן טעם כעיקר דמשם אתה דן לכל התורה כדאיתא פרק אלו עוברין (פסחים דף מד:) וי\"ל דעיקר דרשה לא איצטריך אלא לצירן ושאר הוו אסמכתא בעלמא כדאמר פרק אלו מציאות (ב\"מ דף ל:) גבי והתעלמת דעיקר קרא לזקן ואינו לפי כבודו אי נמי איצטריך נמי לרוטבן וקיפה ואשמעינן דמחוי כממש אם המחה השרץ וגמעו דהוי כאכילה דס\"ד דבשתיה לא מיחייב כיון דאכילה כתיבא ביה והכי איתא בהעור והרוטב (לקמן חולין דף קכ.) דמייתי לה אהמחה את החלב וגמעו ואם תאמר אם כן היכי דריש מינה דצירן אסור כיון דאיצטריך להכי ויש לומר דשקולים הם ומציר גופיה לא הוה שמעינן דלהוי שתיה כאכילה דהוי מצינן לאוקומי כשהקפהו ואכלו:",
+      "<b>וקיפה שלהן</b> — בהעור והרוטב (גז\"ש) מפרש קיפה פירמא ופריך הוא עצמו ליטמא טומאת אוכלין אלא מאי קיפה תבלין והיה יכול להיות בין פירמא בין תבלין דאתא לאשמועינן דשתייתה כאכילתה וכן פירש בקונטרס פירמא בשר ותבלין הנקפה בשולי הקדרה ומיהו לא היה לו לומר הנקפה:"
+     ]
+    }
+   ]
+  }
+ ]
+}
