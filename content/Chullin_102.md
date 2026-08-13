@@ -60,6 +60,63 @@ Four movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Yehuda** (bar Ilai) — fourth generation, student of Rabbi Akiva. Holds *issur chal al
+  issur*, so he needs no verse to extend *ever min hachai* to non-kosher species.
+- **Rabbi Elazar** (ben Shammua) — fourth generation, student of Rabbi Akiva. The one for whom the
+  verse is truly needed; the daf reassigns the derivation to him. Not the Amora Rabbi Elazar ben
+  Pedat, and not Rabbi Elazar bar Rabbi Shimon below.
+- **Rabbi Meir** — fourth generation, student of Rabbi Akiva. Limits *ever min hachai* to a kosher
+  domesticated animal.
+- **The Rabbis** (*chachamim*) — confine the prohibition to kosher species, including birds and wild
+  animals.
+- **Rabbi Yehuda HaNasi** (Rebbi) — fifth generation, redactor of the Mishnah. Exempts for a whole
+  live bird under an olive-bulk: in life it is *not* yet divided into limbs.
+- **Rabbi Elazar bar Rabbi Shimon** — fifth generation, son of Rabbi Shimon bar Yochai. Holds one
+  liable by *kal vachomer*: in life it already stands divided into limbs. (Not Rabbi Elazar ben
+  Shammua above.)
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of Tiberias. Assigns *ever min hachai*
+  and *tereifa*/flesh to two separate verses.
+- **Reish Lakish** (Rabbi Shimon ben Lakish) — second generation, Tiberias; Rabbi Yochanan's
+  brother-in-law and great disputant. Divides the same two verses the other way.
+- **Rabbi Mani bar Pattish** — a later Eretz-Yisrael figure; resolves the *Teharot* mishnah as Jew
+  versus Noahide. Beyond that I would not press his biography.
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of Sura. Requires an olive-bulk for a limb, and
+  the source of the graded shiurim for kosher and non-kosher birds.
+- **Rav Giddel** — second/third generation, a faithful transmitter of Rav's rulings. Reports that
+  all agree a descendant of Noah is bound regarding non-kosher species.
+- **Rabba bar Shmuel / bar Sheila / bar Shimi** — the uncertain name (hence the mnemonic) behind
+  Rabbi Meir's reason; reported from Rav Chisda or Rav Yosef.
+- **Rav Chisda** — third generation, Sura. **Rav Yosef** — third generation, Pumbedita. Cited as the
+  two possible sources of that same teaching.
+- **Rav Amram** — third generation, Nehardea/Pumbedita; a student of Rav Sheshet. Objects that the
+  *Teharot* mishnah already implies an olive-bulk.
+- **Rav Nachman** (bar Yaakov) — third generation, Nehardea. Supplies "a trace of meat with sinews
+  and bones."
+- **Rav Sheizvi** and **Rav Sherevya** — later Babylonian *amoraim* of the school; the first brings
+  the *Teharot* proof, the second the *kelanita*. Both comparatively minor; I would not guess
+  further at their generations.
+- **Rava** — fourth generation, Machoza. The twin *im timtzi lomar* on thought and food.
+- **Abaye** — fourth generation, head of Pumbedita; Rava's lifelong disputant. Presses the "same act,
+  different person" objection both times.
+
+*Look-alikes worth flagging:* three men named **Elazar** are in play — Rabbi Elazar **ben Shammua**
+(Tanna, paired with Rabbi Yehuda), Rabbi Elazar **bar Rabbi Shimon** (Tanna, the *kal vachomer*), and
+the Amora Rabbi Elazar **ben Pedat** (not on this daf). **Rabba bar Shmuel/Sheila/Shimi** is a
+transmitter, not **Rabbah** the head of Pumbedita. And **Rabbi Yehuda** the Tanna is not **Rav
+Yehuda** the Amora.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 102a — Whose blood, whose flesh: the two readings
@@ -187,63 +244,6 @@ Two verses, three prohibitions — and the whole dispute is only about which ver
 | A limb from the living **+** flesh from the living | **Two** sets | **One** set | Two verses for R' Yochanan; for Reish Lakish both sit in the same one |
 | Flesh from the living **+** flesh of a *tereifa* | **One** set | **Two** sets | R' Yochanan puts both in *וּבָשָׂר בַּשָּׂדֶה*; Reish Lakish reads that verse as *tereifa* alone |
 | A limb from the living **+** flesh of a *tereifa* | **Two** sets | **Two** sets | Different verses on either reading — and it is against *this* agreement that tomorrow's contradiction is raised |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Yehuda** (bar Ilai) — fourth generation, student of Rabbi Akiva. Holds *issur chal al
-  issur*, so he needs no verse to extend *ever min hachai* to non-kosher species.
-- **Rabbi Elazar** (ben Shammua) — fourth generation, student of Rabbi Akiva. The one for whom the
-  verse is truly needed; the daf reassigns the derivation to him. Not the Amora Rabbi Elazar ben
-  Pedat, and not Rabbi Elazar bar Rabbi Shimon below.
-- **Rabbi Meir** — fourth generation, student of Rabbi Akiva. Limits *ever min hachai* to a kosher
-  domesticated animal.
-- **The Rabbis** (*chachamim*) — confine the prohibition to kosher species, including birds and wild
-  animals.
-- **Rabbi Yehuda HaNasi** (Rebbi) — fifth generation, redactor of the Mishnah. Exempts for a whole
-  live bird under an olive-bulk: in life it is *not* yet divided into limbs.
-- **Rabbi Elazar bar Rabbi Shimon** — fifth generation, son of Rabbi Shimon bar Yochai. Holds one
-  liable by *kal vachomer*: in life it already stands divided into limbs. (Not Rabbi Elazar ben
-  Shammua above.)
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of Tiberias. Assigns *ever min hachai*
-  and *tereifa*/flesh to two separate verses.
-- **Reish Lakish** (Rabbi Shimon ben Lakish) — second generation, Tiberias; Rabbi Yochanan's
-  brother-in-law and great disputant. Divides the same two verses the other way.
-- **Rabbi Mani bar Pattish** — a later Eretz-Yisrael figure; resolves the *Teharot* mishnah as Jew
-  versus Noahide. Beyond that I would not press his biography.
-
-**Babylonian Amoraim**
-
-- **Rav** (Abba Arikha) — first generation, founder of Sura. Requires an olive-bulk for a limb, and
-  the source of the graded shiurim for kosher and non-kosher birds.
-- **Rav Giddel** — second/third generation, a faithful transmitter of Rav's rulings. Reports that
-  all agree a descendant of Noah is bound regarding non-kosher species.
-- **Rabba bar Shmuel / bar Sheila / bar Shimi** — the uncertain name (hence the mnemonic) behind
-  Rabbi Meir's reason; reported from Rav Chisda or Rav Yosef.
-- **Rav Chisda** — third generation, Sura. **Rav Yosef** — third generation, Pumbedita. Cited as the
-  two possible sources of that same teaching.
-- **Rav Amram** — third generation, Nehardea/Pumbedita; a student of Rav Sheshet. Objects that the
-  *Teharot* mishnah already implies an olive-bulk.
-- **Rav Nachman** (bar Yaakov) — third generation, Nehardea. Supplies "a trace of meat with sinews
-  and bones."
-- **Rav Sheizvi** and **Rav Sherevya** — later Babylonian *amoraim* of the school; the first brings
-  the *Teharot* proof, the second the *kelanita*. Both comparatively minor; I would not guess
-  further at their generations.
-- **Rava** — fourth generation, Machoza. The twin *im timtzi lomar* on thought and food.
-- **Abaye** — fourth generation, head of Pumbedita; Rava's lifelong disputant. Presses the "same act,
-  different person" objection both times.
-
-*Look-alikes worth flagging:* three men named **Elazar** are in play — Rabbi Elazar **ben Shammua**
-(Tanna, paired with Rabbi Yehuda), Rabbi Elazar **bar Rabbi Shimon** (Tanna, the *kal vachomer*), and
-the Amora Rabbi Elazar **ben Pedat** (not on this daf). **Rabba bar Shmuel/Sheila/Shimi** is a
-transmitter, not **Rabbah** the head of Pumbedita. And **Rabbi Yehuda** the Tanna is not **Rav
-Yehuda** the Amora.
 
 ---
 

@@ -63,6 +63,67 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Beit Shammai and Beit Hillel** — the two great schools of the late Second Temple and early
+  post-Destruction generations; here shown, in the end, not to disagree about clearing the palate.
+- **Rabbi Elazar ben Arakh** and **Rabban Gamliel son of Rebbi** appear only at the very edge of the
+  daf as its argument spills into 106; the working cast of 105 is Amoraic.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the academy in Tiberias, the central
+  voice of the Jerusalem Talmud. Rules "no wait" between cheese and meat.
+- **Rabbi Zeira** — a Babylonian who ascended to Eretz Yisrael (third generation there); gives the
+  rule that only bread wipes the mouth.
+- **Rabbi Yannai** — first-generation Eretz-Yisrael Amora, a teacher of Rabbi Yochanan's circle;
+  supplies the "hand recoils" limit on hot water.
+- **Rav Asi** — a Babylonian who settled in Eretz Yisrael, close colleague of Rav Ami and a frequent
+  questioner of Rabbi Yochanan; he asks about waiting between meat and cheese, and is the sage of the
+  burst-channel story. **Not** Rav Ashi the redactor (below).
+
+**Babylonian Amoraim**
+
+- **Shmuel** — first generation, head of Nehardea; his "father" is Abba bar Abba. Source of the maxim
+  that patrolling your property daily "finds a coin."
+- **Mar Ukva** — first-generation Exilarch and judge, a contemporary of Shmuel; measures his caution
+  after meat against his stricter father's.
+- **Rav Chisda** — third generation, Sura; that meat-then-cheese must wait but not the reverse is his,
+  and he travels the boat with Rabba bar Rav Huna.
+- **Rav Acha bar Yosef** — a Babylonian Amora who asks Rav Chisda about meat between the teeth.
+- **Rabba bar Rav Huna** — third generation, son of Rav Huna of Sura; the sorceress cannot touch him
+  or Rav Chisda on the boat.
+- **Abaye** — fourth generation, head of Pumbedita; the whole "at first I would say" chain is his,
+  reporting what he learned from **the Master, Rabba** — his teacher and foster-father Rabba bar
+  Nachmani.
+- **Rav Nachman** (bar Yaakov) — third generation, Nehardea; narrows "optional" middle waters to
+  require washing before cheese.
+- **Rav Idi bar Avin** and **Rav Yitzchak bar Ashyan** — the pair behind the ruling that first waters
+  are a mitzva and last an obligation. Both are relatively minor tradents; I would not press their
+  biographies further.
+- **Rav Yitzchak bar Yosef** — a traveling Amora who carried Rabbi Yannai's teachings from Eretz
+  Yisrael to Babylonia. **Not** Rav Yitzchak bar Ashyan, despite the shared first name.
+- **Rav Yehuda son of Rabbi Chiyya** — gives the Sodomite-salt reason for last waters.
+- **Rav Ashi** — sixth generation, redactor of the Talmud at Sura; rules on one who handled salt.
+  **Not** Rav Asi above.
+- **Rav Acha son of Rava** — a later Babylonian who questions Rav Ashi here.
+- **Mar bar Rav Ashi** — son of Rav Ashi, a seventh-generation head at Sura; strict about the table
+  during drinking, and the sage who excommunicates the gutter-demon.
+- **Rav Pappa** — fifth generation, founder of the academy at Naresh; a demon-servant works in his
+  house.
+
+*Look-alikes worth flagging:*
+- **Rav Asi** (Eretz-Yisrael, asks Rabbi Yochanan, plugs the channel) is **not** **Rav Ashi** the
+  redactor — and both appear on this very daf.
+- **Rabba** — the "Master" whom Abaye quotes — is Rabba bar Nachmani, **not** **Rava**; and **Rabba
+  bar Rav Huna** on the boat is a third, distinct figure.
+- **Mar bar Rav Ashi** (son of Rav Ashi) is **not** Rav Acha bar Rav Ashi.
+- **Rav Yitzchak bar Ashyan** and **Rav Yitzchak bar Yosef** are two different tradents.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 105a — Clearing the palate, and how long to wait
@@ -158,67 +219,6 @@ Three washings, four questions, and the prose spends three paragraphs getting th
 | **First** — before bread | **Mitzva** (the baraita's *chova* is only relative to the optional middle) | A vessel **or** the ground | Hot or cold — up to *הַיָּד סוֹלֶדֶת בָּהֶן*, where the hand recoils |
 | **Middle** — between dishes | **Optional** — but Rav Nachman: an **obligation** between a cooked dish and cheese | — | — |
 | **Last** — before *bircat hamazon* | **Obligation** (*chova*) — Sodomite salt on the hands can blind the eyes | A vessel only; the practical difference is wood slivers | Cold only — hot *מְפַעְפְּעִין אֶת הַיָּדַיִם*, softens the hands and leaves the *zuhama* |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Beit Shammai and Beit Hillel** — the two great schools of the late Second Temple and early
-  post-Destruction generations; here shown, in the end, not to disagree about clearing the palate.
-- **Rabbi Elazar ben Arakh** and **Rabban Gamliel son of Rebbi** appear only at the very edge of the
-  daf as its argument spills into 106; the working cast of 105 is Amoraic.
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the academy in Tiberias, the central
-  voice of the Jerusalem Talmud. Rules "no wait" between cheese and meat.
-- **Rabbi Zeira** — a Babylonian who ascended to Eretz Yisrael (third generation there); gives the
-  rule that only bread wipes the mouth.
-- **Rabbi Yannai** — first-generation Eretz-Yisrael Amora, a teacher of Rabbi Yochanan's circle;
-  supplies the "hand recoils" limit on hot water.
-- **Rav Asi** — a Babylonian who settled in Eretz Yisrael, close colleague of Rav Ami and a frequent
-  questioner of Rabbi Yochanan; he asks about waiting between meat and cheese, and is the sage of the
-  burst-channel story. **Not** Rav Ashi the redactor (below).
-
-**Babylonian Amoraim**
-
-- **Shmuel** — first generation, head of Nehardea; his "father" is Abba bar Abba. Source of the maxim
-  that patrolling your property daily "finds a coin."
-- **Mar Ukva** — first-generation Exilarch and judge, a contemporary of Shmuel; measures his caution
-  after meat against his stricter father's.
-- **Rav Chisda** — third generation, Sura; that meat-then-cheese must wait but not the reverse is his,
-  and he travels the boat with Rabba bar Rav Huna.
-- **Rav Acha bar Yosef** — a Babylonian Amora who asks Rav Chisda about meat between the teeth.
-- **Rabba bar Rav Huna** — third generation, son of Rav Huna of Sura; the sorceress cannot touch him
-  or Rav Chisda on the boat.
-- **Abaye** — fourth generation, head of Pumbedita; the whole "at first I would say" chain is his,
-  reporting what he learned from **the Master, Rabba** — his teacher and foster-father Rabba bar
-  Nachmani.
-- **Rav Nachman** (bar Yaakov) — third generation, Nehardea; narrows "optional" middle waters to
-  require washing before cheese.
-- **Rav Idi bar Avin** and **Rav Yitzchak bar Ashyan** — the pair behind the ruling that first waters
-  are a mitzva and last an obligation. Both are relatively minor tradents; I would not press their
-  biographies further.
-- **Rav Yitzchak bar Yosef** — a traveling Amora who carried Rabbi Yannai's teachings from Eretz
-  Yisrael to Babylonia. **Not** Rav Yitzchak bar Ashyan, despite the shared first name.
-- **Rav Yehuda son of Rabbi Chiyya** — gives the Sodomite-salt reason for last waters.
-- **Rav Ashi** — sixth generation, redactor of the Talmud at Sura; rules on one who handled salt.
-  **Not** Rav Asi above.
-- **Rav Acha son of Rava** — a later Babylonian who questions Rav Ashi here.
-- **Mar bar Rav Ashi** — son of Rav Ashi, a seventh-generation head at Sura; strict about the table
-  during drinking, and the sage who excommunicates the gutter-demon.
-- **Rav Pappa** — fifth generation, founder of the academy at Naresh; a demon-servant works in his
-  house.
-
-*Look-alikes worth flagging:*
-- **Rav Asi** (Eretz-Yisrael, asks Rabbi Yochanan, plugs the channel) is **not** **Rav Ashi** the
-  redactor — and both appear on this very daf.
-- **Rabba** — the "Master" whom Abaye quotes — is Rabba bar Nachmani, **not** **Rava**; and **Rabba
-  bar Rav Huna** on the boat is a third, distinct figure.
-- **Mar bar Rav Ashi** (son of Rav Ashi) is **not** Rav Acha bar Rav Ashi.
-- **Rav Yitzchak bar Ashyan** and **Rav Yitzchak bar Yosef** are two different tradents.
 
 ---
 

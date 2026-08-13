@@ -31,6 +31,22 @@
   var NARROW = window.matchMedia("(max-width: 860px)");
   var chips = [].slice.call(root.querySelectorAll(".chip[data-daf]"));
   var modes = [].slice.call(root.querySelectorAll(".chip[data-mode]"));
+  var bar = root.querySelector(".daf-bar");
+
+  /* ---- who the translation is for --------------------------------------- */
+  /* There is one translation of the daf and it is in English, so outside the
+     English view it is not a translation of anything the reader asked for — it
+     is a third language in the middle of the daf. It is not shown there at all:
+     daf.css hides it and the chip, and what is left here is everything a
+     stylesheet cannot say — the remembered "show English" is not honoured, the
+     bar goes if that leaves it empty, and the passages under the printed page
+     stop folding, since they fold in order to open onto their English.
+
+     The language is read off the markup rather than named here: the build
+     stamps it on every translated element, and one fact should have one home. */
+  var trEl = root.querySelector(".g-en, .line-body");
+  var TR = (trEl && trEl.lang) || "en";
+  function translated() { return document.documentElement.lang === TR; }
 
   /* ---- what is shown ---------------------------------------------------- */
   /* The build decided which modes this daf has and marked one of them on the
@@ -52,12 +68,20 @@
     root.classList.toggle("mode-text", state.mode !== "scan");
     root.classList.toggle("hide-rashi", !state.rashi);
     root.classList.toggle("hide-tosafot", !state.tosafot);
-    root.classList.toggle("show-en", state.en);
+    root.classList.toggle("show-en", state.en && translated());
     chips.forEach(function (c) {
       var on = !!state[c.dataset.daf];
       c.classList.toggle("on", on);
       c.setAttribute("aria-pressed", on ? "true" : "false");
     });
+    /* The English chip is hidden outside its own view; where the margins are
+       empty too — Sefaria has no Rashi or Tosafot for this daf — that leaves a
+       bar reading "Show" and nothing after it, so the label goes with them. */
+    if (bar) {
+      bar.hidden = !chips.some(function (c) {
+        return c.dataset.daf !== "en" || translated();
+      });
+    }
     modes.forEach(function (m) {
       var on = m.dataset.mode === state.mode;
       m.classList.toggle("on", on);
@@ -129,13 +153,33 @@
      telling which words a click landed on. So the passages sit underneath it and
      each opens onto its English. Shut here rather than in the markup, for the
      same reason as the margins: the page never ships text it cannot reveal. */
-  root.querySelectorAll(".daf-lines .line-head").forEach(function (h) {
-    if (h.tagName !== "BUTTON") return;         // nothing to open: no translation
-    setOpen(h, false);
+  var lineHeads = [].slice.call(root.querySelectorAll(".daf-lines .line-head"))
+    .filter(function (h) { return h.tagName === "BUTTON"; });  // else: untranslated
+
+  /* A head is a control only where there is a translation for it to open onto.
+     Outside the English view there is none, so every passage is left open and
+     the head stops being a button: clamped to one line it would hide the daf
+     behind a control that reveals nothing, which is the one thing this tab must
+     never do. Disabled rather than rewritten, because the reader can change
+     language without leaving the page and it has to come back. */
+  function paintLines() {
+    var on = translated();
+    lineHeads.forEach(function (h) {
+      h.disabled = !on;
+      if (on) setOpen(h, false);
+      else {
+        setOpen(h, true);
+        h.removeAttribute("aria-expanded");
+      }
+    });
+  }
+
+  lineHeads.forEach(function (h) {
     h.addEventListener("click", function () {
       setOpen(h, h.parentNode.classList.contains("collapsed"));
     });
   });
+  paintLines();
 
   fold(NARROW.matches);
   /* addListener: Safari only grew addEventListener on MediaQueryList in 14. */
@@ -144,6 +188,14 @@
   } else if (NARROW.addListener) {
     NARROW.addListener(function (e) { fold(e.matches); });
   }
+
+  /* ---- a language chosen while this tab is open ------------------------- */
+  /* lang.js switches the page in place rather than reloading it, so the
+     translation has to appear and disappear under the reader's hands. */
+  document.addEventListener("daflang", function () {
+    paint();
+    paintLines();
+  });
 
   /* ---- the notice above the tabs --------------------------------------- */
   /* The AI-provenance line is true of every other tab and false of this one,

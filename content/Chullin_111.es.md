@@ -67,6 +67,70 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Eliezer** (ben Hurcanos) — *Tana* de segunda generación, discípulo de Rabán Iojanán ben Zakai;
+  sostiene que el hígado "prohíbe pero no queda prohibido". (Titulado *Rabí*; no el Amorá Rabí Elazar ben
+  Pedat, que también aparece abajo.)
+- **Rabí Ishmael, hijo de Rabí Iojanán ben Beroká** — *Tana* de cuarta generación; sostiene que el hígado
+  especiado o cocido queda también prohibido. Una figura menor, conocida sobre todo por tales fallos.
+- **Rabí Jiiá** (el Grande) — *Tana* de transición, tío y maestro de Rav; citado al final por la regla de
+  que el pan y el vino eximen a las demás comidas y bebidas de la comida de una bendición aparte.
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Iojanán** (bar Nafjá) — segunda generación, la autoridad señera de Tiberíades; Ravin lo reporta
+  sosteniendo que lo salado *no* es como lo hirviente, y Abaie argumenta que la cita es errónea.
+- **Rabí Zeriká** — tercera/cuarta generación; ofrece a Rav Safra la comida del gaznate como prueba.
+- **Rabí Amí** — tercera generación, autoridad principal en Tiberíades y discípulo de Rabí Iojanán; su
+  rotura de la fuente de salar es la evidencia de Abaie.
+- **Rabí Elazar** (ben Pedat) — tercera generación, discípulo principal de Rabí Iojanán; seguidor de las
+  enseñanzas de Rav que rechaza el pescado en la mesa de Shmuel. (Rabí *Elazar*; distinto del *Tana* Rabí
+  *Eliezer* de arriba.)
+- **Ravin** (Rav Avin) — cuarta generación, célebre portador de las tradiciones de Erretz Israel a
+  Babilonia (*ki atá Ravin*); su reporte en nombre de Rabí Iojanán se disputa aquí.
+
+**Amoraím de Babilonia**
+
+- **Rav** (Abá Arijá) — primera generación, fundador de Sura; prohíbe el pescado comido con kutaj (*notein
+  taam*), y tranquiliza a Rabí Elazar diciendo que Shmuel nunca le dio de comer nada que tuviera por
+  prohibido.
+- **Shmuel** (de Neardea) — primera generación, gran colega de Rav e hijo de **Abá bar Abá**; permite el
+  pescado (*notein taam bar notein taam*) y es la fuente de *maliaj kerotéaj*. Sus sirvientes le preparaban
+  bazo en sus días de sangría.
+- **Rav Iehudá** (bar Iejezkel) — segunda generación, fundador de Pumbedita; transmite a Shmuel sobre la
+  fuente salada. (Este **Rav** Iehudá el Amorá, no **Rabí** Iehudá el *Tana*.)
+- **Rav Huná** — segunda generación, cabeza de Sura tras Rav; su hígado se escaldaba con vinagre hirviendo.
+- **Rav Najmán** (bar Iaakov) — tercera generación, de Neardea; su hígado se escaldaba con agua hirviendo,
+  y ordenó "alimenten a Shabá contra su voluntad".
+- **Rav Kahana** — aquí especificado como **hermano de Rav Iehudá**; enseña el permitido rábano cortado con
+  cuchillo. (El nombre abarca varios sabios; a este lo fija solo la etiqueta "hermano de Rav Iehudá".)
+- **Rabá bar Rav Huná** — tercera generación, hijo de Rav Huná; el invitado que halló la arteria llena de
+  sangre. (No confundir con **Rav bar Shabá**, el invitado que rechazó el hígado hervido, justo encima de
+  él en el daf.)
+- **Rabá bar Rav Najmán** — el anfitrión de Shabat con el fino pan de aceite y miel.
+- **Rava** (bar Iosef bar Jama) — cuarta generación, de Mejozá; aporta la palanca de que no se expulsa
+  sangre, y la distinción del "puedes catar el rábano". (רבא; distinto de **Rabá** arriba — un clásico caso
+  de nombres parecidos.)
+- **Abaie** — cuarta generación, cabeza de Pumbedita; refuta a Ravin desde la fuente rota de Rabí Amí, y
+  (vía Jizkiiá) dicta la halajá sobre pescado y rábano. Suyo fue el dilema original del hígado.
+- **Rav Papa** — quinta generación, discípulo de Rava; propone que el hígado de vinagre hirviendo esté
+  prohibido (Rava lo revoca), y propone al cocinero gentil como catador.
+- **Rav Ashi** — sexta generación, redactor del Talmud en Sura-Matá Mejasiá; objeta la prueba del gaznate
+  y reprende al hijo de su suegro por el asador. (Rav *Ashi*, no Rav *Asi* el Amorá anterior.)
+- **Rav Dimi de Neardea** — Amorá tardío; enseñó el fallo invertido sobre hígado y ubre sobre la carne.
+- **Mareimar** — Amorá tardío de Sura; falla públicamente sobre hígado/ubre sobre la carne.
+- **Jizkiiá** — aquí el transmisor que enuncia, en nombre de Abaie, la halajá final sobre pescado y rábano.
+- **Rav bar Shabá** — figura menor; el invitado que ayunó antes que comer el hígado hervido de Rav Najmán.
+- **Rav Jiiá bar Ashi** — tercera generación, discípulo de Rav; uno de los dos sabios a ambos lados del
+  vado de Sura. (Rav *Jiiá bar Ashi*, un Amorá — no el *Tana* Rabí Jiiá de arriba.)
+- **Rav Shimí bar Jiiá** — bisnieto de Rav, en cuya casa ocurre el relato del ungüento para los ojos. No
+  presionaría más detalle biográfico sobre él.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 111a — La cuestión del hígado, llevada hasta el fondo
@@ -203,70 +267,6 @@ Debajo de la carne, toda opinión permite ambos; toda la disputa gira solo en to
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Eliezer** (ben Hurcanos) — *Tana* de segunda generación, discípulo de Rabán Iojanán ben Zakai;
-  sostiene que el hígado "prohíbe pero no queda prohibido". (Titulado *Rabí*; no el Amorá Rabí Elazar ben
-  Pedat, que también aparece abajo.)
-- **Rabí Ishmael, hijo de Rabí Iojanán ben Beroká** — *Tana* de cuarta generación; sostiene que el hígado
-  especiado o cocido queda también prohibido. Una figura menor, conocida sobre todo por tales fallos.
-- **Rabí Jiiá** (el Grande) — *Tana* de transición, tío y maestro de Rav; citado al final por la regla de
-  que el pan y el vino eximen a las demás comidas y bebidas de la comida de una bendición aparte.
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Iojanán** (bar Nafjá) — segunda generación, la autoridad señera de Tiberíades; Ravin lo reporta
-  sosteniendo que lo salado *no* es como lo hirviente, y Abaie argumenta que la cita es errónea.
-- **Rabí Zeriká** — tercera/cuarta generación; ofrece a Rav Safra la comida del gaznate como prueba.
-- **Rabí Amí** — tercera generación, autoridad principal en Tiberíades y discípulo de Rabí Iojanán; su
-  rotura de la fuente de salar es la evidencia de Abaie.
-- **Rabí Elazar** (ben Pedat) — tercera generación, discípulo principal de Rabí Iojanán; seguidor de las
-  enseñanzas de Rav que rechaza el pescado en la mesa de Shmuel. (Rabí *Elazar*; distinto del *Tana* Rabí
-  *Eliezer* de arriba.)
-- **Ravin** (Rav Avin) — cuarta generación, célebre portador de las tradiciones de Erretz Israel a
-  Babilonia (*ki atá Ravin*); su reporte en nombre de Rabí Iojanán se disputa aquí.
-
-**Amoraím de Babilonia**
-
-- **Rav** (Abá Arijá) — primera generación, fundador de Sura; prohíbe el pescado comido con kutaj (*notein
-  taam*), y tranquiliza a Rabí Elazar diciendo que Shmuel nunca le dio de comer nada que tuviera por
-  prohibido.
-- **Shmuel** (de Neardea) — primera generación, gran colega de Rav e hijo de **Abá bar Abá**; permite el
-  pescado (*notein taam bar notein taam*) y es la fuente de *maliaj kerotéaj*. Sus sirvientes le preparaban
-  bazo en sus días de sangría.
-- **Rav Iehudá** (bar Iejezkel) — segunda generación, fundador de Pumbedita; transmite a Shmuel sobre la
-  fuente salada. (Este **Rav** Iehudá el Amorá, no **Rabí** Iehudá el *Tana*.)
-- **Rav Huná** — segunda generación, cabeza de Sura tras Rav; su hígado se escaldaba con vinagre hirviendo.
-- **Rav Najmán** (bar Iaakov) — tercera generación, de Neardea; su hígado se escaldaba con agua hirviendo,
-  y ordenó "alimenten a Shabá contra su voluntad".
-- **Rav Kahana** — aquí especificado como **hermano de Rav Iehudá**; enseña el permitido rábano cortado con
-  cuchillo. (El nombre abarca varios sabios; a este lo fija solo la etiqueta "hermano de Rav Iehudá".)
-- **Rabá bar Rav Huná** — tercera generación, hijo de Rav Huná; el invitado que halló la arteria llena de
-  sangre. (No confundir con **Rav bar Shabá**, el invitado que rechazó el hígado hervido, justo encima de
-  él en el daf.)
-- **Rabá bar Rav Najmán** — el anfitrión de Shabat con el fino pan de aceite y miel.
-- **Rava** (bar Iosef bar Jama) — cuarta generación, de Mejozá; aporta la palanca de que no se expulsa
-  sangre, y la distinción del "puedes catar el rábano". (רבא; distinto de **Rabá** arriba — un clásico caso
-  de nombres parecidos.)
-- **Abaie** — cuarta generación, cabeza de Pumbedita; refuta a Ravin desde la fuente rota de Rabí Amí, y
-  (vía Jizkiiá) dicta la halajá sobre pescado y rábano. Suyo fue el dilema original del hígado.
-- **Rav Papa** — quinta generación, discípulo de Rava; propone que el hígado de vinagre hirviendo esté
-  prohibido (Rava lo revoca), y propone al cocinero gentil como catador.
-- **Rav Ashi** — sexta generación, redactor del Talmud en Sura-Matá Mejasiá; objeta la prueba del gaznate
-  y reprende al hijo de su suegro por el asador. (Rav *Ashi*, no Rav *Asi* el Amorá anterior.)
-- **Rav Dimi de Neardea** — Amorá tardío; enseñó el fallo invertido sobre hígado y ubre sobre la carne.
-- **Mareimar** — Amorá tardío de Sura; falla públicamente sobre hígado/ubre sobre la carne.
-- **Jizkiiá** — aquí el transmisor que enuncia, en nombre de Abaie, la halajá final sobre pescado y rábano.
-- **Rav bar Shabá** — figura menor; el invitado que ayunó antes que comer el hígado hervido de Rav Najmán.
-- **Rav Jiiá bar Ashi** — tercera generación, discípulo de Rav; uno de los dos sabios a ambos lados del
-  vado de Sura. (Rav *Jiiá bar Ashi*, un Amorá — no el *Tana* Rabí Jiiá de arriba.)
-- **Rav Shimí bar Jiiá** — bisnieto de Rav, en cuya casa ocurre el relato del ungüento para los ojos. No
-  presionaría más detalle biográfico sobre él.
-
----
-
 ## Una línea para llevarte
 
 > Antes de preguntar hasta dónde viaja un sabor, pregunta si alguna vez salió de casa: a veces, como con el
@@ -274,7 +274,7 @@ Debajo de la carne, toda opinión permite ambos; toda la disputa gira solo en to
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿Qué pretendía probar la comida de Rabí Zeriká del gaznate con sus adherencias?

@@ -66,6 +66,93 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim and the transitional generation**
+
+- **Rebbi** (רבי, quoted as "Abba" by his sons) — **Rabbi Yehuda HaNasi**, last-generation **Tanna**,
+  Beit Shearim then Tzippori, redactor of the Mishnah. Here he is the father who permitted at
+  forty-seven (and, per the next story, at forty-five). *Title tell: "Rebbi" standing alone always
+  means him.*
+- **Rabban Gamliel bar Rebbi** (רבן גמליאל בר רבי) — **Rabban Gamliel III**, son and successor of
+  R' Yehuda HaNasi as Nasi; transitional Tanna/first-generation Amora, Eretz Yisrael. Permits at 45.
+- **Rabbi Shimon bar Rebbi** (רבי שמעון בר רבי) — the other son of R' Yehuda HaNasi, brother of
+  Rabban Gamliel III, same transitional generation. Permits at 43.
+- **Rabbi Chiyya** (רבי חייא) — **Chiyya Rabbah**, transitional Tanna; born in Bavel, moved to
+  Eretz Yisrael, close colleague-disciple of Rebbi. He of the "is there even thirty?" line.
+  *Look-alike alert:* not to be confused with **Rabbi Chiyya bar Abba**, a much later Eretz-Yisrael
+  Amora who also appears on this daf.
+- **Rabbi Shimon ben Yochai** (רבי שמעון בן יוחאי, RaShBY) — **Tanna, 4th generation**, Eretz Yisrael,
+  a leading student of **Rabbi Akiva**. Here he reads "*besheila*" as "cooked with the whole ram."
+- **Rabbi Yehuda** (רבי יהודה) — **Rabbi Yehuda bar Ilai**, **Tanna, 4th generation**, Eretz Yisrael,
+  also a student of R' Akiva and RaShBY's frequent disputant. The daf's anonymous holder of
+  **min b'mino lo batel**.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yehoshua ben Levi** (רבי יהושע בן לוי) — **1st-generation Eretz-Yisrael Amora**, Lod;
+  senior contemporary of Rabbi Yochanan. Both the "sixty" and the "one hundred" traditions run
+  through him.
+- **Rabbi Chanina** (רבי חנינא) — **Rabbi Chanina bar Chama**, **1st-generation Eretz-Yisrael Amora**,
+  Tzippori, a disciple of Rebbi. He explains R' Chiyya's line as *guzma*.
+- **Rabbi Yochanan** (רבי יוחנן) — **2nd-generation Eretz-Yisrael Amora**, head of the academy in
+  Tiberias, the central figure of the Yerushalmi; famous disputant **Reish Lakish**. Quoted here for
+  **chatzi shiur asur min haTorah**.
+- **Rabbi Zeira** (רבי זירא) — **3rd-generation Amora**; born and trained in Bavel, then emigrated to
+  Eretz Yisrael (Tiberias), where he is the classic exemplar of Babylonian rigor meeting EY
+  tradition. He challenges Rav Shemen bar Abba.
+- **Rav Shemen bar Abba** (רב שמן בר אבא) — **3rd-generation Eretz-Yisrael Amora**, Tiberias, a
+  student of Rabbi Yochanan. Transmits the "sixty-one" ruling of the Nasi's house.
+- **Rabbi Yaakov bar Idi** (רבי יעקב בר אידי) — **3rd-generation Eretz-Yisrael Amora**, a leading
+  transmitter of **R' Yehoshua ben Levi**. *Look-alike alert:* distinct from **Rav Idi bar Avin** and
+  from **Rav Idi bar Idi bar Gershom**, both of whom also appear on this daf.
+- **Rabbi Shmuel bar Nachmani** (רבי שמואל בר נחמני) — **3rd-generation Eretz-Yisrael Amora**, the
+  great aggadist of his generation, also transmitting R' Yehoshua ben Levi. Paired here with
+  R' Yaakov bar Idi as "the two greatest of the generation."
+- **Rabbi Chiyya bar Abba** (רבי חייא בר אבא) — **3rd-generation Eretz-Yisrael Amora**, a student of
+  Rabbi Yochanan. He reports the **sixty** version. (See the look-alike note on Rabbi Chiyya above.)
+- **Rabbi Shmuel bar Rav Yitzchak** (רבי שמואל בר רב יצחק) — **3rd-generation Amora**, Bavel-born,
+  active in Eretz Yisrael. He confronts R' Chiyya bar Abba with the **hundred** version.
+- **Rav Asi** (רב אסי) — in the 60-vs-100 report, the Eretz-Yisrael **Rav Asi/Assi**, a colleague of
+  Rabbi Ami in Tiberias, **3rd generation**. *Look-alike alert:* spelled a hair away from **Rav Ashi**
+  (רב אשי) the Babylonian redactor, and from **Rav Assi** the Babylonian colleague of Rav Ami. In the
+  pot-of-fat story on 98a the texts read "Rav Asi" proposing and "Rav Ashi" answering, which most
+  commentators treat as one Babylonian figure; I'd flag this as a genuine textual uncertainty
+  rather than pretend it's settled.
+- **Rabbi Chelbo** (רבי חלבו) — **3rd-generation Amora**, Bavel-born and active in Eretz Yisrael, a
+  regular transmitter of **Rav Huna**. States the "sixty-one *besides* it" version.
+- **bar Kappara** (בר קפרא) — the Eretz-Yisrael sage in whose name **both** the sixty and the hundred
+  are reported. A genuinely obscure figure; the sources give us little beyond the name, and I would
+  not want to guess at his generation or teachers.
+- **Rabbi Nachum, Rabbi Biryam, Levi bar Perata, "a certain elder named Rabbi Yaakov"** — the middle
+  links in 98a's long chain of transmission. All appear to be Eretz-Yisrael figures of the earlier
+  Amoraic generations, but they are **minor and poorly documented**; honestly, the chain itself is
+  the main thing we know about them.
+
+**Babylonian Amoraim**
+
+- **Rav Huna** (רב הונא) — **2nd-generation Babylonian Amora**, head of the academy at **Sura**, the
+  foremost student of **Rav**. Quoted via R' Chelbo on the sixty-one count.
+- **Abaye** (אביי) — **4th-generation Babylonian Amora**, head of **Pumbedita**; raised by his uncle
+  **Rabbah bar Nachmani** (his principal teacher). His lifelong dialectic with **Rava** defines the
+  period. Here he narrows the baraita's "*this*" to R' Yehuda's *min b'mino*.
+- **Rava** (רבא) — **4th-generation Babylonian Amora** of **Machoza**, student of Rabbah and of Rav
+  Nachman, Abaye's great disputant (and the one whose view we usually follow). He reads the
+  baraita's "*this*" as being about **taam k'ikar** in *kodashim*. *Look-alike alert:* **רבא (Rava)** is a
+  different person from **רבה (Rabbah)** — Rabbah bar Nachmani, the 3rd-generation head of
+  Pumbedita and Abaye's teacher. One letter, one generation apart.
+- **Rav Idi bar Avin** (רב אידי בר אבין) — **4th-generation Babylonian Amora**, a contemporary of
+  Abaye and Rava. He is the one pressing Abaye on the eggs, carried over from 97b.
+- **Rav Ashi** (רב אשי) — **6th-generation Babylonian Amora**, head of the academy at **Mata Mechasya**
+  (Sura) for roughly half a century, and the principal **redactor of the Babylonian Talmud**.
+  Here, the father correcting his son on measures.
+- **Mar bar Rav Ashi** (מר בר רב אשי) — also called **Tavyomi**; **7th-generation Babylonian Amora**,
+  Rav Ashi's son, later head of Sura. He proposes the thirty-half-olives shortcut.
+  *Look-alike alert:* **Mar bar Rav Ashi** (the son) is not **Rav Acha bar Rav Ashi**, a separate,
+  earlier figure who appeared on 97b in the salted-thigh dispute.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 98a — Abaye finishes the egg answer (and gets pushed hard)
@@ -241,93 +328,6 @@ Every ratio the daf names, in the order it names them — the arc from an elasti
 | **1:30** | Rabbi Chiyya | *"Is there even thirty?"* — and he forbade | No threshold at all: *guzma*, says R' Chanina |
 | **1:60** | bar Kappara, via R' Yehoshua ben Levi | Foreleg's meat **and bones** against the ram's meat and bones | The number that hardened |
 | **1:100** | bar Kappara, via R' Yehoshua ben Levi | Meat against **meat only** — bones excluded | Same verse, different accounting |
-
----
-
-## Who's who in today's daf
-
-**Tannaim and the transitional generation**
-
-- **Rebbi** (רבי, quoted as "Abba" by his sons) — **Rabbi Yehuda HaNasi**, last-generation **Tanna**,
-  Beit Shearim then Tzippori, redactor of the Mishnah. Here he is the father who permitted at
-  forty-seven (and, per the next story, at forty-five). *Title tell: "Rebbi" standing alone always
-  means him.*
-- **Rabban Gamliel bar Rebbi** (רבן גמליאל בר רבי) — **Rabban Gamliel III**, son and successor of
-  R' Yehuda HaNasi as Nasi; transitional Tanna/first-generation Amora, Eretz Yisrael. Permits at 45.
-- **Rabbi Shimon bar Rebbi** (רבי שמעון בר רבי) — the other son of R' Yehuda HaNasi, brother of
-  Rabban Gamliel III, same transitional generation. Permits at 43.
-- **Rabbi Chiyya** (רבי חייא) — **Chiyya Rabbah**, transitional Tanna; born in Bavel, moved to
-  Eretz Yisrael, close colleague-disciple of Rebbi. He of the "is there even thirty?" line.
-  *Look-alike alert:* not to be confused with **Rabbi Chiyya bar Abba**, a much later Eretz-Yisrael
-  Amora who also appears on this daf.
-- **Rabbi Shimon ben Yochai** (רבי שמעון בן יוחאי, RaShBY) — **Tanna, 4th generation**, Eretz Yisrael,
-  a leading student of **Rabbi Akiva**. Here he reads "*besheila*" as "cooked with the whole ram."
-- **Rabbi Yehuda** (רבי יהודה) — **Rabbi Yehuda bar Ilai**, **Tanna, 4th generation**, Eretz Yisrael,
-  also a student of R' Akiva and RaShBY's frequent disputant. The daf's anonymous holder of
-  **min b'mino lo batel**.
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yehoshua ben Levi** (רבי יהושע בן לוי) — **1st-generation Eretz-Yisrael Amora**, Lod;
-  senior contemporary of Rabbi Yochanan. Both the "sixty" and the "one hundred" traditions run
-  through him.
-- **Rabbi Chanina** (רבי חנינא) — **Rabbi Chanina bar Chama**, **1st-generation Eretz-Yisrael Amora**,
-  Tzippori, a disciple of Rebbi. He explains R' Chiyya's line as *guzma*.
-- **Rabbi Yochanan** (רבי יוחנן) — **2nd-generation Eretz-Yisrael Amora**, head of the academy in
-  Tiberias, the central figure of the Yerushalmi; famous disputant **Reish Lakish**. Quoted here for
-  **chatzi shiur asur min haTorah**.
-- **Rabbi Zeira** (רבי זירא) — **3rd-generation Amora**; born and trained in Bavel, then emigrated to
-  Eretz Yisrael (Tiberias), where he is the classic exemplar of Babylonian rigor meeting EY
-  tradition. He challenges Rav Shemen bar Abba.
-- **Rav Shemen bar Abba** (רב שמן בר אבא) — **3rd-generation Eretz-Yisrael Amora**, Tiberias, a
-  student of Rabbi Yochanan. Transmits the "sixty-one" ruling of the Nasi's house.
-- **Rabbi Yaakov bar Idi** (רבי יעקב בר אידי) — **3rd-generation Eretz-Yisrael Amora**, a leading
-  transmitter of **R' Yehoshua ben Levi**. *Look-alike alert:* distinct from **Rav Idi bar Avin** and
-  from **Rav Idi bar Idi bar Gershom**, both of whom also appear on this daf.
-- **Rabbi Shmuel bar Nachmani** (רבי שמואל בר נחמני) — **3rd-generation Eretz-Yisrael Amora**, the
-  great aggadist of his generation, also transmitting R' Yehoshua ben Levi. Paired here with
-  R' Yaakov bar Idi as "the two greatest of the generation."
-- **Rabbi Chiyya bar Abba** (רבי חייא בר אבא) — **3rd-generation Eretz-Yisrael Amora**, a student of
-  Rabbi Yochanan. He reports the **sixty** version. (See the look-alike note on Rabbi Chiyya above.)
-- **Rabbi Shmuel bar Rav Yitzchak** (רבי שמואל בר רב יצחק) — **3rd-generation Amora**, Bavel-born,
-  active in Eretz Yisrael. He confronts R' Chiyya bar Abba with the **hundred** version.
-- **Rav Asi** (רב אסי) — in the 60-vs-100 report, the Eretz-Yisrael **Rav Asi/Assi**, a colleague of
-  Rabbi Ami in Tiberias, **3rd generation**. *Look-alike alert:* spelled a hair away from **Rav Ashi**
-  (רב אשי) the Babylonian redactor, and from **Rav Assi** the Babylonian colleague of Rav Ami. In the
-  pot-of-fat story on 98a the texts read "Rav Asi" proposing and "Rav Ashi" answering, which most
-  commentators treat as one Babylonian figure; I'd flag this as a genuine textual uncertainty
-  rather than pretend it's settled.
-- **Rabbi Chelbo** (רבי חלבו) — **3rd-generation Amora**, Bavel-born and active in Eretz Yisrael, a
-  regular transmitter of **Rav Huna**. States the "sixty-one *besides* it" version.
-- **bar Kappara** (בר קפרא) — the Eretz-Yisrael sage in whose name **both** the sixty and the hundred
-  are reported. A genuinely obscure figure; the sources give us little beyond the name, and I would
-  not want to guess at his generation or teachers.
-- **Rabbi Nachum, Rabbi Biryam, Levi bar Perata, "a certain elder named Rabbi Yaakov"** — the middle
-  links in 98a's long chain of transmission. All appear to be Eretz-Yisrael figures of the earlier
-  Amoraic generations, but they are **minor and poorly documented**; honestly, the chain itself is
-  the main thing we know about them.
-
-**Babylonian Amoraim**
-
-- **Rav Huna** (רב הונא) — **2nd-generation Babylonian Amora**, head of the academy at **Sura**, the
-  foremost student of **Rav**. Quoted via R' Chelbo on the sixty-one count.
-- **Abaye** (אביי) — **4th-generation Babylonian Amora**, head of **Pumbedita**; raised by his uncle
-  **Rabbah bar Nachmani** (his principal teacher). His lifelong dialectic with **Rava** defines the
-  period. Here he narrows the baraita's "*this*" to R' Yehuda's *min b'mino*.
-- **Rava** (רבא) — **4th-generation Babylonian Amora** of **Machoza**, student of Rabbah and of Rav
-  Nachman, Abaye's great disputant (and the one whose view we usually follow). He reads the
-  baraita's "*this*" as being about **taam k'ikar** in *kodashim*. *Look-alike alert:* **רבא (Rava)** is a
-  different person from **רבה (Rabbah)** — Rabbah bar Nachmani, the 3rd-generation head of
-  Pumbedita and Abaye's teacher. One letter, one generation apart.
-- **Rav Idi bar Avin** (רב אידי בר אבין) — **4th-generation Babylonian Amora**, a contemporary of
-  Abaye and Rava. He is the one pressing Abaye on the eggs, carried over from 97b.
-- **Rav Ashi** (רב אשי) — **6th-generation Babylonian Amora**, head of the academy at **Mata Mechasya**
-  (Sura) for roughly half a century, and the principal **redactor of the Babylonian Talmud**.
-  Here, the father correcting his son on measures.
-- **Mar bar Rav Ashi** (מר בר רב אשי) — also called **Tavyomi**; **7th-generation Babylonian Amora**,
-  Rav Ashi's son, later head of Sura. He proposes the thirty-half-olives shortcut.
-  *Look-alike alert:* **Mar bar Rav Ashi** (the son) is not **Rav Acha bar Rav Ashi**, a separate,
-  earlier figure who appeared on 97b in the salted-thigh dispute.
 
 ---
 

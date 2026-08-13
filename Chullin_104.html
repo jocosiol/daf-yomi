@@ -24,8 +24,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="assets/manifest.webmanifest?v=2ef7e323">
-<link rel="stylesheet" href="assets/daf.css?v=d7bde0c9">
-<script type="application/json" id="daf-config">{"langs":["en","es","he"],"rtl":["he"]}</script>
+<link rel="stylesheet" href="assets/daf.css?v=38e787e8">
+<script type="application/json" id="daf-config">{"langs":["en","es","he"],"rtl":["he"],"mail":"2f45404c405c464043044b4e49564042466f48424e4643014c4042"}</script>
 <script src="assets/lang.js?v=0042caf6"></script>
 </head>
 <body>
@@ -50,16 +50,14 @@
 
   <div class="tabs" role="tablist">
     <button class="tab active" type="button" role="tab" aria-selected="true"
-            aria-controls="learn" data-v="learn">📖&nbsp;<span data-lang="en">Learn</span><span data-lang="es">Aprender</span><span data-lang="he">לימוד</span></button>
-    <button class="tab" type="button" role="tab" aria-selected="false"
-            aria-controls="cards" data-v="cards">🃏&nbsp;<span data-lang="en">Flashcards</span><span data-lang="es">Tarjetas</span><span data-lang="he">כרטיסיות</span></button>
-    <button class="tab" type="button" role="tab" aria-selected="false"
-            aria-controls="quiz" data-v="quiz">🎯&nbsp;<span data-lang="en">Chazara Quiz</span><span data-lang="es">Repaso (Chazará)</span><span data-lang="he">חזרה</span></button>
+            aria-controls="intro" data-v="intro">📖&nbsp;<span data-lang="en">Introduction</span><span data-lang="es">Introducción</span><span data-lang="he">הקדמה</span></button>
     <button class="tab" type="button" role="tab" aria-selected="false"
             aria-controls="daf" data-v="daf">📜&nbsp;<span data-lang="en">The Daf</span><span data-lang="es">El Daf</span><span data-lang="he">הדף</span></button>
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="chazara" data-v="chazara">🎯&nbsp;<span data-lang="en">Chazara</span><span data-lang="es">Repaso (Jazará)</span><span data-lang="he">חזרה</span></button>
   </div>
 
-  <section class="view active" id="learn" role="tabpanel">
+  <section class="view active" id="intro" role="tabpanel">
     <div class="sheet" data-lang="en" data-speak-lang="en"
          lang="en" dir="ltr">
       <h2>The big picture (read this first)</h2>
@@ -141,163 +139,6 @@ would be one story too high.</p>
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 Study these as flashcards</button></p>
-
-<hr />
-<h2>Walking through the sugya, step by step</h2>
-<h3>104a — One mishnah, two Tannaim?</h3>
-<p>The Gemara reads the mishnah&rsquo;s two clauses against each other.</p>
-<p><strong>The first clause implies too much.</strong> &ldquo;All meat&rdquo; — with no distinction between animal and bird —
-means <strong>bird in milk is forbidden by Torah law</strong>. That cannot be <strong>Rabbi Akiva</strong>, who held that
-undomesticated animals and birds in milk are only rabbinic:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">דְּאִי רַבִּי עֲקִיבָא – הָאָמַר: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה</span>.</strong>
-For if it were Rabbi Akiva, did he not say that wild animal and bird are not [forbidden] by the
-Torah?</p>
-</blockquote>
-<p><strong>But the last clause implies the opposite.</strong> &ldquo;One who vows off meat may eat fish and grasshoppers&rdquo;
-— implying fowl <em>is</em> covered by his vow. That sounds like <strong>Rabbi Akiva</strong>, who held <strong><span lang="he" dir="rtl">כֹּל מִילֵּי
-דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — בַּר מִינֵיהּ הוּא</span></strong>: anything an agent would <em>pause to ask about</em> counts as
-that type. The proof is the gourds baraita: a person tells his agent &ldquo;buy vegetables,&rdquo; and the agent
-returns &ldquo;I found only gourds&rdquo; — he asks, because gourds are a borderline vegetable; he would never
-say &ldquo;I found only legumes.&rdquo; So one clause seems to be the Rabbis, the other Rabbi Akiva.</p>
-<p><strong>Two ways to make it one author.</strong></p>
-<ul>
-<li><strong>Rav Yosef:</strong> the whole mishnah is <strong>Rebbi</strong> (Rabbi Yehuda HaNasi), who <strong><span lang="he" dir="rtl">נָסֵיב לַהּ אַלִּיבָּא
-  דְתַנָּאֵי</span></strong> — records it following different Tannaim: on vows like Rabbi Akiva, on meat-and-milk
-  like the Rabbis.</li>
-<li><strong>Rav Ashi:</strong> the whole mishnah is <strong>Rabbi Akiva</strong>, and &ldquo;all meat&rdquo; simply means <em>some by Torah law</em>
-  (domesticated animals) and <em>some by rabbinic law</em> (wild animals and birds) — all forbidden, except
-  fish and grasshoppers, which are neither.</li>
-</ul>
-<h3>104a–104b — Torah or rabbinic? Read it off the table</h3>
-<p><strong>Rav Yosef&rsquo;s inference from the fence.</strong> The mishnah forbids even <em>bringing bird up onto the table</em>
-with cheese. Conclude, he says, that bird-in-milk is <strong>Torah law</strong>:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">דְּאִי סָלְקָא דַעְתָּךְ דְּרַבָּנַן – אֲכִילָה גּוּפַהּ גְּזֵירָה, וַאֲנַן נִגְזַר הַעֲלָאָה אַטּוּ אֲכִילָה</span>?</strong>
-For if you say it is only rabbinic, then <em>eating</em> it is already a decree — and would we then decree
-against <em>placing it on the table</em> to guard <em>eating</em>? We do not make <strong>a decree to guard a decree</strong>.</p>
-</blockquote>
-<p><strong>The proof that the Sages avoid stacked decrees</strong> comes from <em>challah</em> of the diaspora (<em>Challah</em>
-4:8): challah separated outside Eretz Yisrael — itself only a rabbinic obligation — <strong>may be eaten
-with a non-priest at the same table</strong>, and given to any priest. The Sages did not fence it, because
-fencing a fence is one decree too many.</p>
-<p><strong>Abaye&rsquo;s objection</strong> (104b): that proof would only work if the diaspora challah had been <em>brought
-into</em> Eretz Yisrael, where there would be a real reason to fence it (lest it be confused with true,
-Torah-level challah) and yet the Sages still did not. But the mishnah speaks of challah that <em>stays</em>
-in the diaspora, where there is simply nothing to fence — so it proves nothing about stacked decrees.
-Here, by contrast, permitting fowl-and-cheese on the table could lead to <strong>meat</strong>-and-cheese on the
-table and then to eating meat-in-milk, a Torah violation. So the fence around fowl is not a fence
-around a mere fence.</p>
-<p><strong>Rav Sheshet pushes back:</strong> even so, meat-and-cheese sitting cold beside each other is only
-<strong><span lang="he" dir="rtl">צוֹנֵן בְּצוֹנֵן</span></strong>, cold-on-cold — itself no more than rabbinic — so we are <em>still</em> fencing a fence.
-<strong>Abaye:</strong> no — the decree is <strong><span lang="he" dir="rtl">שֶׁמָּא יַעֲלֶה בְּאִילְפָּס רוֹתֵחַ</span></strong>, lest he set it down in a boiling
-stewpot. <strong>Objection:</strong> a stewpot is a <strong><span lang="he" dir="rtl">כְּלִי שֵׁנִי</span></strong>, a secondary vessel, and a secondary vessel
-does not cook. <strong>Resolution:</strong> the fear is an <strong><span lang="he" dir="rtl">אִילְפָּס רִאשׁוֹן</span></strong>, a primary vessel straight off the
-fire — that genuinely cooks meat in milk, a Torah prohibition. The fence stands.</p>
-<h3>104b — Beit Shammai, Beit Hillel, and citing your source</h3>
-<p>A new mishnah maps the table manners:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">הָעוֹף עוֹלֶה עִם הַגְּבִינָה עַל הַשּׁוּלְחָן, וְאֵינוֹ נֶאֱכָל — דִּבְרֵי בֵּית שַׁמַּאי. וּבֵית הִלֵּל אוֹמְרִים: לֹא עוֹלֶה וְלֹא נֶאֱכָל</span>.</strong>
-Fowl may be brought up with cheese onto the table but not eaten with it — Beit Shammai. Beit
-Hillel: neither brought up nor eaten.</p>
-</blockquote>
-<p><strong>Rabbi Yosei</strong> calls this <strong><span lang="he" dir="rtl">מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל</span></strong> — one of the rare cases
-where Beit Shammai are the lenient ones and Beit Hillel the strict. And the mishnah clarifies: this
-is only the table you <em>eat</em> on; on the table where you <em>plate the food</em>, you may set meat and cheese
-side by side without concern.</p>
-<p><strong>Isn&rsquo;t Rabbi Yosei just the anonymous first Tanna?</strong> The Gemara wonders if they differ over <em>eating</em>
-— but a baraita shows Rabbi Yosei&rsquo;s own list of <strong><span lang="he" dir="rtl">שִׁשָּׁה דְּבָרִים</span></strong>, six such disputes, includes this
-one in exactly the first Tanna&rsquo;s words. So they do not differ. Then why name him at all?</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם</span>.</strong>
-Whoever reports a thing in the name of the one who said it brings redemption to the world —</p>
-</blockquote>
-<p>as Esther told the king <strong><span lang="he" dir="rtl">בְּשֵׁם מׇרְדֳּכָי</span></strong>, in Mordechai&rsquo;s name, and the rescue of the Jews turned on
-it. The mishnah names Rabbi Yosei to teach that very lesson.</p>
-<p><strong>And the manners themselves.</strong> Agra, Rabbi Abba&rsquo;s father-in-law, taught that fowl and cheese may be
-eaten <strong><span lang="he" dir="rtl">בְּאַפִּיקוֹרַן</span></strong> — freely, without washing the hands or wiping the mouth between them. When Rav
-Yitzchak son of Rav Mesharshiya ate cheese and then <em>meat</em> at Rav Ashi&rsquo;s house without washing, they
-challenged him — Agra permitted only <em>fowl</em> after cheese, not <em>meat</em>. His answer: that caution is
-only <strong>at night</strong>, when you cannot see your hands; <strong><span lang="he" dir="rtl">בִּימָמָא הָא חָזֵינָא</span></strong>, by day I can see they are
-clean. The daf ends turning to the palate itself — Beit Shammai say <strong><span lang="he" dir="rtl">מְקַנֵּחַ</span></strong>, wipe; Beit Hillel say
-<strong><span lang="he" dir="rtl">מֵדִיחַ</span></strong>, rinse — which is where tomorrow begins.</p>
-<hr />
-<h2>The distinctions, side by side</h2>
-<p>The daf&rsquo;s question in one grid — which flesh, and on whose authority:</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>The flesh</th>
-<th>Cooked in milk</th>
-<th>Up on the table with cheese</th>
-<th>Covered by a vow off &ldquo;meat&rdquo;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong><span lang="he" dir="rtl">בְּהֵמָה</span></strong> — domesticated animal</td>
-<td>Forbidden by <strong>Torah</strong> law, on every view</td>
-<td>Forbidden — the Sages&rsquo; fence around eating</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td><strong><span lang="he" dir="rtl">חַיָּה וָעוֹף</span></strong> — wild animal and bird</td>
-<td><strong>R&rsquo; Akiva:</strong> rabbinic only. <strong>Rav Yosef:</strong> Torah — else the table-fence would be a fence around a fence</td>
-<td>Forbidden (Beit Hillel). <strong>Beit Shammai:</strong> may be brought up, only not eaten</td>
-<td>Yes — an agent would pause to ask about it, so it counts as meat</td>
-</tr>
-<tr>
-<td><strong><span lang="he" dir="rtl">דָּגִים וַחֲגָבִים</span></strong> — fish and grasshoppers</td>
-<td>Permitted outright</td>
-<td>Permitted</td>
-<td>No — he may eat them</td>
-</tr>
-</tbody>
-</table></div>
-<hr />
-<h2>Who&rsquo;s who in today&rsquo;s daf</h2>
-<p><strong>Tannaim</strong></p>
-<ul>
-<li><strong>Rabbi Akiva</strong> — third-generation Tanna, the towering figure of the Mishnah&rsquo;s structure. Here:
-  wild animals and birds in milk are only rabbinic, and his rule on vows via the &ldquo;agent&rsquo;s inquiry.&rdquo;</li>
-<li><strong>The Rabbis</strong> (<em>chachamim</em>) — Rabbi Akiva&rsquo;s disputants, who hold bird-in-milk is Torah law and
-  that gourds are not &ldquo;vegetables&rdquo; for a vow.</li>
-<li><strong>Rabbi Yehuda HaNasi</strong> (Rebbi) — fifth-generation Tanna, redactor of the Mishnah. Rav Yosef makes
-  him the mishnah&rsquo;s single author, following different Tannaim in each clause.</li>
-<li><strong>Beit Shammai and Beit Hillel</strong> — the two great schools of the late Second Temple / early
-  post-Destruction era. Here, unusually, Beit Shammai are the lenient side.</li>
-<li><strong>Rabbi Yosei</strong> (ben Chalafta) — fourth-generation Tanna, student of Rabbi Akiva. Lists this among
-  six &ldquo;leniencies of Beit Shammai,&rdquo; and is named to honour citing one&rsquo;s source.</li>
-</ul>
-<p><strong>Babylonian Amoraim</strong></p>
-<ul>
-<li><strong>Rav Yosef</strong> (bar Chiyya) — third generation, Pumbedita. Both the &ldquo;Rebbi as author&rdquo; reading and
-  the inference that bird-in-milk is Torah law are his.</li>
-<li><strong>Rav Ashi</strong> — sixth generation, the great redactor of the Talmud at Sura. Reads the whole mishnah
-  as Rabbi Akiva. (Not Rabbi Asi the Eretz-Yisrael Amora of 103.)</li>
-<li><strong>Abaye</strong> — fourth generation, head of Pumbedita. Dismantles Rav Yosef&rsquo;s <em>challah</em> proof, then
-  supplies the &ldquo;boiling stewpot&rdquo; that keeps the fence standing.</li>
-<li><strong>Rav Sheshet</strong> — third generation, a blind master of tradition at Nehardea/Mechoza. Objects that
-  cold-on-cold is still only rabbinic.</li>
-<li><strong>Agra</strong> — described only as the <strong>father-in-law of Rabbi Abba</strong>; a minor figure best known for
-  this ruling on fowl and cheese. I would not press his identity further.</li>
-<li><strong>Rav Yitzchak son of Rav Mesharshiya</strong> — a later Babylonian Amora; the guest at Rav Ashi&rsquo;s table
-  who ate by daylight. A relatively minor figure.</li>
-</ul>
-<p><em>Look-alikes worth flagging:</em> <strong>Rav Ashi</strong> the redactor (Babylonian) is not <strong>Rabbi Asi</strong> the
-Eretz-Yisrael Amora met on 103. <strong>Rabbi Yosei</strong> here is the Tanna ben Chalafta, not any of the later
-Amoraim named Yosei. And <strong>Rabbi Akiva</strong> the Tanna should not be confused with the many <em>Rav</em>-titled
-Amoraim.</p>
-<hr />
-<h2>One line to carry with you</h2>
-<blockquote>
-<p>The Sages fenced the law, but they did not fence their fences — a rule that keeps rabbinic caution
-from climbing forever. Read carefully, one line about a shared table tells you whether the pot
-forbids fowl by the Torah&rsquo;s word or only theirs.</p>
-</blockquote>
-      <p class="tomorrow">Tomorrow (Thu, 13 August 2026):
-        <strong>Chullin 105</strong> — how to clear the palate between meat and milk — **מְקַנֵּחַ** or **מֵדִיחַ**, wipe or rinse — and Rabbi Zeira&#39;s rule that only bread will do the wiping.</p>
     </div>
     <div class="sheet" data-lang="es" data-speak-lang="es"
          lang="es" dir="ltr">
@@ -381,168 +222,6 @@ alrededor de <em>esa</em> valla sería un piso de más.</p>
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 Estudiar estos con tarjetas</button></p>
-
-<hr />
-<h2>Recorriendo la suguiá, paso a paso</h2>
-<h3>104a — Una mishná, ¿dos tanaím?</h3>
-<p>La Guemará lee las dos cláusulas de la mishná una contra la otra.</p>
-<p><strong>La primera cláusula implica demasiado.</strong> &ldquo;Toda carne&rdquo; — sin distinción entre animal y ave —
-significa que <strong>el ave en leche está prohibida por ley de la Torá</strong>. Eso no puede ser <strong>Rabí Akivá</strong>,
-que sostenía que los animales no domesticados y las aves en leche son solo rabínicos:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">דְּאִי רַבִּי עֲקִיבָא – הָאָמַר: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה</span>.</strong>
-Pues si fuera Rabí Akivá, ¿no dijo acaso que el animal salvaje y el ave no están [prohibidos] por
-la Torá?</p>
-</blockquote>
-<p><strong>Pero la última cláusula implica lo opuesto.</strong> &ldquo;Quien hace voto de abstenerse de carne puede comer
-pescados y saltamontes&rdquo; — lo que implica que el ave <em>sí</em> queda cubierta por su voto. Eso suena a
-<strong>Rabí Akivá</strong>, que sostenía <strong><span lang="he" dir="rtl">כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — בַּר מִינֵיהּ הוּא</span></strong>: todo aquello por
-lo que un agente <em>se detendría a preguntar</em> cuenta como de ese tipo. La prueba es la baraita de las
-calabazas: una persona le dice a su agente &ldquo;compra verduras&rdquo;, y el agente vuelve &ldquo;solo encontré
-calabazas&rdquo; — pregunta, porque la calabaza es una verdura limítrofe; nunca diría &ldquo;solo encontré
-legumbres&rdquo;. Así que una cláusula parece de los Rabinos, la otra de Rabí Akivá.</p>
-<p><strong>Dos maneras de hacerla de un solo autor.</strong></p>
-<ul>
-<li><strong>Rav Iosef:</strong> toda la mishná es de <strong>Rebí</strong> (Rabí Iehudá HaNasí), que <strong><span lang="he" dir="rtl">נָסֵיב לַהּ אַלִּיבָּא
-  דְתַנָּאֵי</span></strong> — la registra siguiendo a distintos tanaím: en los votos como Rabí Akivá, en
-  carne-y-leche como los Rabinos.</li>
-<li><strong>Rav Ashi:</strong> toda la mishná es de <strong>Rabí Akivá</strong>, y &ldquo;toda carne&rdquo; simplemente significa <em>algunas
-  por ley de la Torá</em> (animales domesticados) y <em>algunas por ley rabínica</em> (animales salvajes y
-  aves) — todas prohibidas, salvo pescados y saltamontes, que no son ni lo uno ni lo otro.</li>
-</ul>
-<h3>104a–104b — ¿Torá o rabínico? Léelo en la mesa</h3>
-<p><strong>La inferencia de Rav Iosef a partir de la valla.</strong> La mishná prohíbe incluso <em>subir el ave a la
-mesa</em> con queso. Concluye, dice, que el ave en leche es <strong>ley de la Torá</strong>:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">דְּאִי סָלְקָא דַעְתָּךְ דְּרַבָּנַן – אֲכִילָה גּוּפַהּ גְּזֵירָה, וַאֲנַן נִגְזַר הַעֲלָאָה אַטּוּ אֲכִילָה</span>?</strong>
-Pues si dices que es solo rabínico, entonces <em>comerla</em> ya es un decreto — ¿y decretaríamos
-entonces contra <em>ponerla en la mesa</em> para resguardar el <em>comerla</em>? No hacemos <strong>un decreto para
-resguardar un decreto</strong>.</p>
-</blockquote>
-<p><strong>La prueba de que los Sabios evitan los decretos apilados</strong> viene de la <em>jalá</em> de la diáspora
-(<em>Jalá</em> 4:8): la jalá separada fuera de Erretz Israel — ella misma solo una obligación rabínica —
-<strong>puede comerse con un no-cohén en la misma mesa</strong>, y darse a cualquier cohén. Los Sabios no la
-cercaron, porque cercar una valla es un decreto de más.</p>
-<p><strong>La objeción de Abaie</strong> (104b): esa prueba solo funcionaría si la jalá de la diáspora hubiera sido
-<em>traída a</em> Erretz Israel, donde habría una razón real para cercarla (no sea que se confunda con la
-jalá verdadera, de nivel de Torá) y aun así los Sabios no lo hicieron. Pero la mishná habla de una
-jalá que <em>permanece</em> en la diáspora, donde simplemente no hay nada que cercar — así que no prueba
-nada sobre los decretos apilados. Aquí, en cambio, permitir ave-y-queso en la mesa podría llevar a
-<strong>carne</strong>-y-queso en la mesa y luego a comer carne-en-leche, una transgresión de la Torá. Así que la
-valla en torno al ave no es una valla en torno a una mera valla.</p>
-<p><strong>Rav Sheshet replica:</strong> aun así, carne y queso frío uno junto al otro es solo <strong><span lang="he" dir="rtl">צוֹנֵן בְּצוֹנֵן</span></strong>,
-frío-sobre-frío — ella misma nada más que rabínica — así que <em>seguimos</em> cercando una valla.
-<strong>Abaie:</strong> no — el decreto es <strong><span lang="he" dir="rtl">שֶׁמָּא יַעֲלֶה בְּאִילְפָּס רוֹתֵחַ</span></strong>, no sea que la ponga en una cacerola
-hirviente. <strong>Objeción:</strong> una cacerola es un <strong><span lang="he" dir="rtl">כְּלִי שֵׁנִי</span></strong>, un recipiente secundario, y un recipiente
-secundario no cocina. <strong>Resolución:</strong> el temor es un <strong><span lang="he" dir="rtl">אִילְפָּס רִאשׁוֹן</span></strong>, un recipiente primario recién
-sacado del fuego — eso sí cocina de verdad carne en leche, una prohibición de la Torá. La valla se
-mantiene.</p>
-<h3>104b — Bet Shamái, Bet Hilel y citar tu fuente</h3>
-<p>Una mishná nueva traza los modales de la mesa:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">הָעוֹף עוֹלֶה עִם הַגְּבִינָה עַל הַשּׁוּלְחָן, וְאֵינוֹ נֶאֱכָל — דִּבְרֵי בֵּית שַׁמַּאי. וּבֵית הִלֵּל אוֹמְרִים: לֹא עוֹלֶה וְלֹא נֶאֱכָל</span>.</strong>
-El ave puede subirse con queso a la mesa pero no comerse con él — Bet Shamái. Bet Hilel: ni subirse
-ni comerse.</p>
-</blockquote>
-<p><strong>Rabí Iosí</strong> llama a esto <strong><span lang="he" dir="rtl">מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל</span></strong> — uno de los raros casos en
-que Bet Shamái son los indulgentes y Bet Hilel los estrictos. Y la mishná aclara: esto es solo la
-mesa en la que <em>comes</em>; en la mesa donde <em>preparas la comida</em>, puedes poner carne y queso uno junto
-al otro sin preocuparte.</p>
-<p><strong>¿No es Rabí Iosí simplemente el primer tana anónimo?</strong> La Guemará se pregunta si discrepan sobre el
-<em>comer</em> — pero una baraita muestra que la propia lista de Rabí Iosí de <strong><span lang="he" dir="rtl">שִׁשָּׁה דְּבָרִים</span></strong>, seis
-disputas de este tipo, incluye esta en las palabras exactas del primer tana. Así que no discrepan.
-¿Entonces por qué nombrarlo?</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם</span>.</strong>
-Quien reporta algo en el nombre de quien lo dijo trae redención al mundo —</p>
-</blockquote>
-<p>como Ester le dijo al rey <strong><span lang="he" dir="rtl">בְּשֵׁם מׇרְדֳּכָי</span></strong>, en nombre de Mordejai, y de ello dependió la salvación
-de los judíos. La mishná nombra a Rabí Iosí para enseñar esa misma lección.</p>
-<p><strong>Y los modales mismos.</strong> Agrá, el suegro de Rabí Aba, enseñó que el ave y el queso pueden comerse
-<strong><span lang="he" dir="rtl">בְּאַפִּיקוֹרַן</span></strong> — libremente, sin lavarse las manos ni limpiarse la boca entre uno y otro. Cuando Rav
-Itzjak hijo de Rav Mesharshiiá comió queso y luego <em>carne</em> en casa de Rav Ashi sin lavarse, lo
-cuestionaron — Agrá permitió solo <em>ave</em> después de queso, no <em>carne</em>. Su respuesta: esa cautela es
-solo <strong>de noche</strong>, cuando no puedes verte las manos; <strong><span lang="he" dir="rtl">בִּימָמָא הָא חָזֵינָא</span></strong>, de día veo que están
-limpias. El daf termina volviéndose hacia el paladar mismo — Bet Shamái dicen <strong><span lang="he" dir="rtl">מְקַנֵּחַ</span></strong>, limpiar;
-Bet Hilel dicen <strong><span lang="he" dir="rtl">מֵדִיחַ</span></strong>, enjuagar — que es donde empieza mañana.</p>
-<hr />
-<h2>Las distinciones, lado a lado</h2>
-<p>La pregunta del daf en una sola cuadrícula — qué carne, y por autoridad de quién:</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>La carne</th>
-<th>Cocida en leche</th>
-<th>Subida a la mesa con queso</th>
-<th>Cubierta por un voto de abstenerse de &ldquo;carne&rdquo;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong><span lang="he" dir="rtl">בְּהֵמָה</span></strong> — animal doméstico</td>
-<td>Prohibida por ley de la <strong>Torá</strong>, en toda opinión</td>
-<td>Prohibida — la cerca de los Sabios alrededor del comer</td>
-<td>Sí</td>
-</tr>
-<tr>
-<td><strong><span lang="he" dir="rtl">חַיָּה וָעוֹף</span></strong> — animal salvaje y ave</td>
-<td><strong>R&rsquo; Akivá:</strong> solo rabínico. <strong>Rav Iosef:</strong> Torá — si no, la cerca de la mesa sería una cerca alrededor de una cerca</td>
-<td>Prohibida (Bet Hilel). <strong>Bet Shamái:</strong> puede subirse, solo que no comerse</td>
-<td>Sí — un agente se detendría a preguntar, así que cuenta como carne</td>
-</tr>
-<tr>
-<td><strong><span lang="he" dir="rtl">דָּגִים וַחֲגָבִים</span></strong> — pescados y saltamontes</td>
-<td>Permitidos de plano</td>
-<td>Permitidos</td>
-<td>No — puede comerlos</td>
-</tr>
-</tbody>
-</table></div>
-<hr />
-<h2>Quién es quién en el daf de hoy</h2>
-<p><strong>Tanaím</strong></p>
-<ul>
-<li><strong>Rabí Akivá</strong> — tana de la tercera generación, la figura colosal de la estructura de la Mishná.
-  Aquí: los animales salvajes y las aves en leche son solo rabínicos, y su regla sobre los votos por
-  la &ldquo;consulta del agente&rdquo;.</li>
-<li><strong>Los Rabinos</strong> (<em>jajamim</em>) — los contrincantes de Rabí Akivá, que sostienen que el ave en leche es
-  ley de la Torá y que la calabaza no es &ldquo;verdura&rdquo; para un voto.</li>
-<li><strong>Rabí Iehudá HaNasí</strong> (Rebí) — tana de la quinta generación, redactor de la Mishná. Rav Iosef lo
-  hace autor único de la mishná, siguiendo a distintos tanaím en cada cláusula.</li>
-<li><strong>Bet Shamái y Bet Hilel</strong> — las dos grandes escuelas de fines del Segundo Templo / comienzos de la
-  época posterior a la Destrucción. Aquí, inusualmente, Bet Shamái son el lado indulgente.</li>
-<li><strong>Rabí Iosí</strong> (ben Jalafta) — tana de la cuarta generación, alumno de Rabí Akivá. Enumera esto
-  entre seis &ldquo;indulgencias de Bet Shamái&rdquo;, y es nombrado para honrar el citar la propia fuente.</li>
-</ul>
-<p><strong>Amoraím de Babilonia</strong></p>
-<ul>
-<li><strong>Rav Iosef</strong> (bar Jiiá) — tercera generación, Pumbedita. Tanto la lectura de &ldquo;Rebí como autor&rdquo;
-  como la inferencia de que el ave en leche es ley de la Torá son suyas.</li>
-<li><strong>Rav Ashi</strong> — sexta generación, el gran redactor del Talmud en Sura. Lee toda la mishná como de
-  Rabí Akivá. (No es Rabí Asi, el amorá de Erretz Israel de 103.)</li>
-<li><strong>Abaie</strong> — cuarta generación, cabeza de Pumbedita. Desarma la prueba de la <em>jalá</em> de Rav Iosef, y
-  luego aporta la &ldquo;cacerola hirviente&rdquo; que mantiene la valla en pie.</li>
-<li><strong>Rav Sheshet</strong> — tercera generación, un maestro ciego de la tradición en Nehardea/Majoza. Objeta
-  que frío-sobre-frío sigue siendo solo rabínico.</li>
-<li><strong>Agrá</strong> — descrito solo como el <strong>suegro de Rabí Aba</strong>; una figura menor conocida sobre todo por
-  este dictamen sobre el ave y el queso. No querría aventurar más sobre su identidad.</li>
-<li><strong>Rav Itzjak hijo de Rav Mesharshiiá</strong> — un amorá babilónico posterior; el huésped en la mesa de
-  Rav Ashi que comía de día. Una figura relativamente menor.</li>
-</ul>
-<p><em>Parecidos que vale señalar:</em> <strong>Rav Ashi</strong> el redactor (babilónico) no es <strong>Rabí Asi</strong> el amorá de
-Erretz Israel que vimos en 103. <strong>Rabí Iosí</strong> aquí es el tana ben Jalafta, no ninguno de los amoraím
-posteriores llamados Iosí. Y <strong>Rabí Akivá</strong> el tana no debe confundirse con los muchos amoraím con
-título de <em>Rav</em>.</p>
-<hr />
-<h2>Una línea para llevarte</h2>
-<blockquote>
-<p>Los Sabios cercaron la ley, pero no cercaron sus vallas — una regla que impide que la cautela
-rabínica trepe para siempre. Leída con cuidado, una sola línea sobre una mesa compartida te dice si
-la olla prohíbe el ave por palabra de la Torá o solo por la de ellos.</p>
-</blockquote>
-      <p class="tomorrow">Mañana (jue, 13 de agosto de 2026):
-        <strong>Julín 105</strong> — cómo limpiar el paladar entre carne y leche — **מְקַנֵּחַ** o **מֵדִיחַ**, limpiar o enjuagar — y la regla de Rabí Zeira de que solo el pan sirve para limpiar.</p>
     </div>
     <div class="sheet" data-lang="he" data-speak-lang="he"
          lang="he" dir="rtl">
@@ -621,109 +300,91 @@ la olla prohíbe el ave por palabra de la Torá o solo por la de ellos.</p>
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 ללמוד את המונחים האלה בכרטיסיות</button></p>
+    </div>
 
-<hr />
-<h2>עוברים על הסוגיה, צעד אחר צעד</h2>
-<h3>קד ע״א — משנה אחת, שני תנאים?</h3>
-<p>הגמרא מעמידה את שתי בבות המשנה זו מול זו.</p>
-<p><strong>הרישא משתמעת יותר מדי.</strong> ״כל הבשר״ — בלי לחלק בין בהמה לעוף — משמע ש<strong>עוף בחלב אסור מן התורה</strong>.
-זו אינה יכולה להיות שיטת <strong>רבי עקיבא</strong>, שסבר שחיה ועוף בחלב אינם אלא מדרבנן:</p>
-<blockquote>
-<p><strong>דְּאִי רַבִּי עֲקִיבָא – הָאָמַר: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה.</strong>
-שאם זה רבי עקיבא — הרי הוא אמר שחיה ועוף אינם מן התורה.</p>
-</blockquote>
-<p><strong>אבל הסיפא משתמעת להפך.</strong> ״הנודר מן הבשר מותר בדגים ובחגבים״ — משמע שהעוף <em>כן</em> בכלל נדרו. וזו נשמעת
-כשיטת <strong>רבי עקיבא</strong>, שסבר <strong>כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — בַּר מִינֵיהּ הוּא</strong>: כל דבר
-שהשליח <em>נעצר לשאול עליו</em> נחשב מאותו המין. הראיה היא ברייתת הדלועין: אדם אומר לשלוחו ״קנה לי ירק״,
-והשליח חוזר ואומר ״לא מצאתי אלא דלועין״ — הוא שואל, מפני שהדלעת היא ירק גבולי; לעולם לא יאמר ״לא
-מצאתי אלא קטניות״. נמצא שבבא אחת כרבנן והשנייה כרבי עקיבא.</p>
-<p><strong>שתי דרכים להעמידה בחבר אחד.</strong></p>
+    <div class="deck-inline">
+      <h2>🃏&nbsp;<span data-lang="en">Flashcards</span><span data-lang="es">Tarjetas</span><span data-lang="he">כרטיסיות</span></h2>
+      <p class="deck-intro"><span data-lang="en">The terms above, one per card. Read the term, recall what it means on this daf, then turn the card over and say whether you had it. Whatever you flag comes back at the end in a shorter second round.</span><span data-lang="es">Los términos de arriba, uno por tarjeta. Lee el término, recuerda qué significa en este daf, luego gira la tarjeta y di si lo sabías. Lo que marques vuelve al final en una segunda ronda, más corta.</span><span data-lang="he">המונחים שלמעלה, אחד לכל כרטיס. קראו את המונח, נסו להיזכר מה משמעותו בדף הזה, ואז הפכו את הכרטיס ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף בסיבוב שני, קצר יותר.</span></p>
+      <div class="deck" id="deckCard"></div>
+      <div class="hint"><span data-lang="en">Tip: click the card, then space flips it, ← → move, 1 / 2 rate it.</span><span data-lang="es">Consejo: pulsa en la tarjeta; la barra espaciadora la gira, ← → navegan, 1 / 2 califican.</span><span data-lang="he">טיפ: הקישו על הכרטיס; מקש הרווח הופך אותו, ← → מדפדפים, 1 / 2 מדרגים.</span></div>
+    </div>
+
+    <div class="sheet" data-lang="en" data-speak-lang="en"
+         lang="en" dir="ltr">
+      <h2>Who&rsquo;s who in today&rsquo;s daf</h2>
+<p><strong>Tannaim</strong></p>
 <ul>
-<li><strong>רב יוסף:</strong> כל המשנה היא <strong>רבי</strong> (רבי יהודה הנשיא), ש<strong>נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי</strong> — שונה
-  אותה לפי תנאים שונים: בנדרים כרבי עקיבא, ובבשר בחלב כרבנן.</li>
-<li><strong>רב אשי:</strong> כל המשנה היא <strong>רבי עקיבא</strong>, ו״כל הבשר״ פירושו שמקצתו אסור מן התורה (בהמה) ומקצתו
-  מדרבנן (חיה ועוף) — הכול אסור, חוץ מדגים וחגבים שאינם לא זה ולא זה.</li>
+<li><strong>Rabbi Akiva</strong> — third-generation Tanna, the towering figure of the Mishnah&rsquo;s structure. Here:
+  wild animals and birds in milk are only rabbinic, and his rule on vows via the &ldquo;agent&rsquo;s inquiry.&rdquo;</li>
+<li><strong>The Rabbis</strong> (<em>chachamim</em>) — Rabbi Akiva&rsquo;s disputants, who hold bird-in-milk is Torah law and
+  that gourds are not &ldquo;vegetables&rdquo; for a vow.</li>
+<li><strong>Rabbi Yehuda HaNasi</strong> (Rebbi) — fifth-generation Tanna, redactor of the Mishnah. Rav Yosef makes
+  him the mishnah&rsquo;s single author, following different Tannaim in each clause.</li>
+<li><strong>Beit Shammai and Beit Hillel</strong> — the two great schools of the late Second Temple / early
+  post-Destruction era. Here, unusually, Beit Shammai are the lenient side.</li>
+<li><strong>Rabbi Yosei</strong> (ben Chalafta) — fourth-generation Tanna, student of Rabbi Akiva. Lists this among
+  six &ldquo;leniencies of Beit Shammai,&rdquo; and is named to honour citing one&rsquo;s source.</li>
 </ul>
-<h3>קד ע״א–ע״ב — תורה או דרבנן? קוראים את זה מעל השולחן</h3>
-<p><strong>דיוקו של רב יוסף מן הסייג.</strong> המשנה אוסרת אפילו <em>להעלות</em> עוף עם גבינה על השולחן. מכאן, אומר רב יוסף,
-שבשר עוף בחלב אסור <strong>מן התורה</strong>:</p>
-<blockquote>
-<p><strong>דְּאִי סָלְקָא דַעְתָּךְ דְּרַבָּנַן – אֲכִילָה גּוּפַהּ גְּזֵירָה, וַאֲנַן נִגְזַר הַעֲלָאָה אַטּוּ אֲכִילָה?</strong>
-שאם תעלה על דעתך שאינו אלא מדרבנן — הרי <em>האכילה</em> עצמה גזירה היא, ונגזור <em>העלאה</em> כדי לשמור על
-<em>אכילה</em>? אין גוזרים <strong>גזירה לגזירה</strong>.</p>
-</blockquote>
-<p><strong>הראיה שחכמים נמנעים מגזירות מוערמות</strong> באה מחלת חוץ לארץ (<em>חלה</em> ד, ח): חלה שהופרשה בחוץ לארץ —
-שחיובה עצמו אינו אלא מדרבנן — <strong>נאכלת עם הזר על שולחן אחד</strong>, וניתנת לכל כהן. לא גזרו עליה חכמים,
-משום שסייג לסייג הוא גזירה אחת יותר מדי.</p>
-<p><strong>קושיית אביי</strong> (קד ע״ב): הראיה הייתה עומדת רק אילו הכניסו את חלת חוץ לארץ <em>לתוך</em> ארץ ישראל, ששם יש
-טעם אמיתי לגזור (שמא תתחלף בחלה של תורה) ואף על פי כן לא גזרו. אבל המשנה מדברת בחלה ה<em>נשארת</em> בחוץ
-לארץ, ששם אין כלל מה לגזור — ואין מכאן ראיה לגזירה לגזירה. וכאן, לעומת זאת, אם נתיר עוף וגבינה על
-השולחן נגיע לבשר וגבינה על השולחן ומשם לאכילת בשר בחלב, שהוא איסור תורה. נמצא שהסייג בעוף אינו סייג
-לסייג בעלמא.</p>
-<p><strong>רב ששת דוחה:</strong> ואף על פי כן, בשר וגבינה המונחים זה בצד זה בצונן אינם אלא <strong>צוֹנֵן בְּצוֹנֵן</strong> —
-ואף הוא אינו אלא מדרבנן — ונמצאנו <em>עדיין</em> גוזרים גזירה לגזירה. <strong>אביי:</strong> לא — הגזירה היא
-<strong>שֶׁמָּא יַעֲלֶה בְּאִילְפָּס רוֹתֵחַ</strong>, שמא יניחם באילפס רותח. <strong>קושיה:</strong> אילפס הוא <strong>כְּלִי שֵׁנִי</strong>,
-וכלי שני אינו מבשל. <strong>תירוץ:</strong> החשש הוא ל<strong>אִילְפָּס רִאשׁוֹן</strong>, כלי ראשון שירד מעל האש — וזה מבשל
-באמת בשר בחלב, איסור תורה. הסייג עומד.</p>
-<h3>קד ע״ב — בית שמאי, בית הלל, וציטוט המקור</h3>
-<p>משנה חדשה משרטטת את הנהגת השולחן:</p>
-<blockquote>
-<p><strong>הָעוֹף עוֹלֶה עִם הַגְּבִינָה עַל הַשּׁוּלְחָן, וְאֵינוֹ נֶאֱכָל — דִּבְרֵי בֵּית שַׁמַּאי. וּבֵית הִלֵּל אוֹמְרִים: לֹא עוֹלֶה וְלֹא נֶאֱכָל.</strong>
-העוף עולה עם הגבינה על השולחן ואינו נאכל — דברי בית שמאי. ובית הלל אומרים: לא עולה ולא נאכל.</p>
-</blockquote>
-<p><strong>רבי יוסי</strong> קורא לזה <strong>מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל</strong> — אחד מן המקרים הנדירים
-שבהם בית שמאי הם המקילים ובית הלל המחמירים. והמשנה מדייקת: כל זה בשולחן שהוא <em>אוכל</em> עליו, אבל בשולחן
-שהוא <em>סודר</em> עליו את התבשיל — מניח בשר וגבינה זה בצד זה ואינו חושש.</p>
-<p><strong>והרי רבי יוסי הוא הוא התנא קמא?</strong> הגמרא מסתפקת שמא נחלקו ב<em>אכילה</em> — אבל ברייתא מביאה את רשימתו של
-רבי יוסי עצמו, <strong>שִׁשָּׁה דְּבָרִים</strong>, שישה מקרים כאלה, ובה המקרה הזה בלשונו של התנא קמא ממש. נמצא
-שאינם חלוקים. ואם כן, למה להזכיר את שמו?</p>
-<blockquote>
-<p><strong>כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם.</strong>
-כל האומר דבר בשם אומרו מביא גאולה לעולם —</p>
-</blockquote>
-<p>כאסתר שאמרה למלך <strong>בְּשֵׁם מׇרְדֳּכָי</strong>, ובזה נתלתה הצלתם של ישראל. המשנה מזכירה את רבי יוסי כדי ללמד
-את הלקח הזה עצמו.</p>
-<p><strong>וההנהגה עצמה.</strong> אגרא חמיו של רבי אבא לימד שעוף וגבינה נאכלים <strong>בְּאַפִּיקוֹרַן</strong> — בלא נטילת ידיים
-ובלא קינוח הפה ביניהם. כשאכל רב יצחק בריה דרב משרשיא גבינה ואחריה <em>בשר</em> בביתו של רב אשי בלא נטילה,
-הקשו לו — אגרא לא התיר אלא <em>עוף</em> אחר גבינה, ולא <em>בשר</em>. תשובתו: אותה זהירות אינה אלא <strong>בלילה</strong>, שאין
-אדם רואה את ידיו; <strong>בִּימָמָא הָא חָזֵינָא</strong>, ביום הרי אני רואה שהן נקיות. הדף מסיים בפנייה אל הפה
-עצמו — בית שמאי אומרים <strong>מְקַנֵּחַ</strong>, מנגב; ובית הלל אומרים <strong>מֵדִיחַ</strong>, שוטף — ומשם מתחיל מחר.</p>
-<hr />
-<h2>ההבחנות, זו מול זו</h2>
-<p>שאלת הדף בטבלה אחת — איזה בשר, ומכוח מי:</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>הבשר</th>
-<th>בישולו בחלב</th>
-<th>העלאה על השולחן עם גבינה</th>
-<th>בכלל נדר מן ״הבשר״</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>בְּהֵמָה</strong> — בהמה מבויתת</td>
-<td>אסור מן <strong>התורה</strong>, לכל הדעות</td>
-<td>אסור — סייג חכמים סביב האכילה</td>
-<td>כן</td>
-</tr>
-<tr>
-<td><strong>חַיָּה וָעוֹף</strong> — חיה ועוף</td>
-<td><strong>ר׳ עקיבא:</strong> מדרבנן בלבד. <strong>רב יוסף:</strong> מן התורה — שאם לא כן, סייג השולחן היה סייג לסייג</td>
-<td>אסור (בית הלל). <strong>בית שמאי:</strong> עולה, ורק אינו נאכל</td>
-<td>כן — השליח נעצר לשאול עליו, ולכן הוא בכלל בשר</td>
-</tr>
-<tr>
-<td><strong>דָּגִים וַחֲגָבִים</strong> — דגים וחגבים</td>
-<td>מותר לגמרי</td>
-<td>מותר</td>
-<td>לא — מותר לו לאוכלם</td>
-</tr>
-</tbody>
-</table></div>
-<hr />
-<h2>מי ומי בדף של היום</h2>
+<p><strong>Babylonian Amoraim</strong></p>
+<ul>
+<li><strong>Rav Yosef</strong> (bar Chiyya) — third generation, Pumbedita. Both the &ldquo;Rebbi as author&rdquo; reading and
+  the inference that bird-in-milk is Torah law are his.</li>
+<li><strong>Rav Ashi</strong> — sixth generation, the great redactor of the Talmud at Sura. Reads the whole mishnah
+  as Rabbi Akiva. (Not Rabbi Asi the Eretz-Yisrael Amora of 103.)</li>
+<li><strong>Abaye</strong> — fourth generation, head of Pumbedita. Dismantles Rav Yosef&rsquo;s <em>challah</em> proof, then
+  supplies the &ldquo;boiling stewpot&rdquo; that keeps the fence standing.</li>
+<li><strong>Rav Sheshet</strong> — third generation, a blind master of tradition at Nehardea/Mechoza. Objects that
+  cold-on-cold is still only rabbinic.</li>
+<li><strong>Agra</strong> — described only as the <strong>father-in-law of Rabbi Abba</strong>; a minor figure best known for
+  this ruling on fowl and cheese. I would not press his identity further.</li>
+<li><strong>Rav Yitzchak son of Rav Mesharshiya</strong> — a later Babylonian Amora; the guest at Rav Ashi&rsquo;s table
+  who ate by daylight. A relatively minor figure.</li>
+</ul>
+<p><em>Look-alikes worth flagging:</em> <strong>Rav Ashi</strong> the redactor (Babylonian) is not <strong>Rabbi Asi</strong> the
+Eretz-Yisrael Amora met on 103. <strong>Rabbi Yosei</strong> here is the Tanna ben Chalafta, not any of the later
+Amoraim named Yosei. And <strong>Rabbi Akiva</strong> the Tanna should not be confused with the many <em>Rav</em>-titled
+Amoraim.</p>
+    </div>
+    <div class="sheet" data-lang="es" data-speak-lang="es"
+         lang="es" dir="ltr">
+      <h2>Quién es quién en el daf de hoy</h2>
+<p><strong>Tanaím</strong></p>
+<ul>
+<li><strong>Rabí Akivá</strong> — tana de la tercera generación, la figura colosal de la estructura de la Mishná.
+  Aquí: los animales salvajes y las aves en leche son solo rabínicos, y su regla sobre los votos por
+  la &ldquo;consulta del agente&rdquo;.</li>
+<li><strong>Los Rabinos</strong> (<em>jajamim</em>) — los contrincantes de Rabí Akivá, que sostienen que el ave en leche es
+  ley de la Torá y que la calabaza no es &ldquo;verdura&rdquo; para un voto.</li>
+<li><strong>Rabí Iehudá HaNasí</strong> (Rebí) — tana de la quinta generación, redactor de la Mishná. Rav Iosef lo
+  hace autor único de la mishná, siguiendo a distintos tanaím en cada cláusula.</li>
+<li><strong>Bet Shamái y Bet Hilel</strong> — las dos grandes escuelas de fines del Segundo Templo / comienzos de la
+  época posterior a la Destrucción. Aquí, inusualmente, Bet Shamái son el lado indulgente.</li>
+<li><strong>Rabí Iosí</strong> (ben Jalafta) — tana de la cuarta generación, alumno de Rabí Akivá. Enumera esto
+  entre seis &ldquo;indulgencias de Bet Shamái&rdquo;, y es nombrado para honrar el citar la propia fuente.</li>
+</ul>
+<p><strong>Amoraím de Babilonia</strong></p>
+<ul>
+<li><strong>Rav Iosef</strong> (bar Jiiá) — tercera generación, Pumbedita. Tanto la lectura de &ldquo;Rebí como autor&rdquo;
+  como la inferencia de que el ave en leche es ley de la Torá son suyas.</li>
+<li><strong>Rav Ashi</strong> — sexta generación, el gran redactor del Talmud en Sura. Lee toda la mishná como de
+  Rabí Akivá. (No es Rabí Asi, el amorá de Erretz Israel de 103.)</li>
+<li><strong>Abaie</strong> — cuarta generación, cabeza de Pumbedita. Desarma la prueba de la <em>jalá</em> de Rav Iosef, y
+  luego aporta la &ldquo;cacerola hirviente&rdquo; que mantiene la valla en pie.</li>
+<li><strong>Rav Sheshet</strong> — tercera generación, un maestro ciego de la tradición en Nehardea/Majoza. Objeta
+  que frío-sobre-frío sigue siendo solo rabínico.</li>
+<li><strong>Agrá</strong> — descrito solo como el <strong>suegro de Rabí Aba</strong>; una figura menor conocida sobre todo por
+  este dictamen sobre el ave y el queso. No querría aventurar más sobre su identidad.</li>
+<li><strong>Rav Itzjak hijo de Rav Mesharshiiá</strong> — un amorá babilónico posterior; el huésped en la mesa de
+  Rav Ashi que comía de día. Una figura relativamente menor.</li>
+</ul>
+<p><em>Parecidos que vale señalar:</em> <strong>Rav Ashi</strong> el redactor (babilónico) no es <strong>Rabí Asi</strong> el amorá de
+Erretz Israel que vimos en 103. <strong>Rabí Iosí</strong> aquí es el tana ben Jalafta, no ninguno de los amoraím
+posteriores llamados Iosí. Y <strong>Rabí Akivá</strong> el tana no debe confundirse con los muchos amoraím con
+título de <em>Rav</em>.</p>
+    </div>
+    <div class="sheet" data-lang="he" data-speak-lang="he"
+         lang="he" dir="rtl">
+      <h2>מי ומי בדף של היום</h2>
 <p><strong>תנאים</strong></p>
 <ul>
 <li><strong>רבי עקיבא</strong> — תנא מן הדור השלישי, דמות המפתח במבנה המשנה. כאן: חיה ועוף בחלב מדרבנן בלבד, וכללו
@@ -753,26 +414,7 @@ la olla prohíbe el ave por palabra de la Torá o solo por la de ellos.</p>
 <p><em>דומים שכדאי להיזהר בהם:</em> <strong>רב אשי</strong> העורך (בבלי) אינו <strong>רבי אסי</strong> אמורא ארץ ישראל שנפגשנו בו בדף
 קג. <strong>רבי יוסי</strong> כאן הוא התנא בן חלפתא, ולא אחד מן האמוראים המאוחרים ששמם יוסי. ואת <strong>רבי עקיבא</strong>
 התנא אין לבלבל ברבים מן האמוראים שתוארם ״רב״.</p>
-<hr />
-<h2>שורה אחת לקחת אתכם</h2>
-<blockquote>
-<p>חכמים גדרו את הדין, אבל לא גדרו את גדריהם — כלל ששומר על זהירות דרבנן מלטפס עד אין סוף. בקריאה
-מדוקדקת, שורה אחת על שולחן משותף מגלה לכם אם הקדרה אוסרת את העוף מדבר תורה או רק מדבריהם.</p>
-</blockquote>
-      <p class="tomorrow">מחר (יום ה׳, 13 באוגוסט 2026):
-        <strong>חולין קה</strong> — כיצד מנקים את הפה בין בשר לחלב — **מְקַנֵּחַ** או **מֵדִיחַ**, מנגב או שוטף — וכללו של רבי זירא שרק הפת מנגבת.</p>
     </div>
-  </section>
-
-  <section class="view" id="cards" role="tabpanel">
-    <p class="deck-intro"><span data-lang="en">Today&#39;s key terms, one per card — the same glossary as in Learn. Read the term, recall what it means on this daf, then turn the card over and say whether you had it. Whatever you flag comes back at the end in a shorter second round.</span><span data-lang="es">Los términos clave de hoy, uno por tarjeta — el mismo glosario que en Aprender. Lee el término, recuerda qué significa en este daf, luego gira la tarjeta y di si lo sabías. Lo que marques vuelve al final en una segunda ronda, más corta.</span><span data-lang="he">המונחים המרכזיים של היום, אחד לכל כרטיס — אותו מילון שבלשונית הלימוד. קראו את המונח, נסו להיזכר מה משמעותו בדף הזה, ואז הפכו את הכרטיס ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף בסיבוב שני, קצר יותר.</span></p>
-    <div class="deck" id="deckCard"></div>
-    <div class="hint"><span data-lang="en">Tip: space flips the card, ← → move, 1 / 2 rate it.</span><span data-lang="es">Consejo: la barra espaciadora gira la tarjeta, ← → navegan, 1 / 2 califican.</span><span data-lang="he">טיפ: מקש הרווח הופך את הכרטיס, ← → מדפדפים, 1 / 2 מדרגים.</span></div>
-  </section>
-
-  <section class="view" id="quiz" role="tabpanel">
-    <div class="quiz" id="quizCard"></div>
-    <div class="hint"><span data-lang="en">Tip: press keys 1–4 to answer, Enter for next.</span><span data-lang="es">Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.</span><span data-lang="he">טיפ: הקישו 1–4 כדי לענות, ו-Enter כדי להמשיך.</span></div>
   </section>
 
 
@@ -783,7 +425,7 @@ la olla prohíbe el ave por palabra de la Torá o solo por la de ellos.</p>
       <button class="chip mode" type="button" data-mode="text" aria-pressed="false">🔤&nbsp;<span data-lang="en">Text</span><span data-lang="es">Texto</span><span data-lang="he">טקסט</span></button>
     </div>
 
-    <p class="daf-intro for-scan"><span data-lang="en">The whole Vilna page as it is printed — Gemara in the middle, Rashi and Tosafot in the margins, Mesoras HaShas and Ein Mishpat down the sides. Open it full size to read it comfortably, and tap any line underneath it for the English of that passage.</span><span data-lang="es">La página de Vilna completa, tal como está impresa — la Guemará en el centro, Rashi y Tosafot en los márgenes, Masoret HaShas y Ein Mishpat a los lados. Ábrela a tamaño completo para leerla con comodidad, y toca cualquier línea de abajo para ver ese pasaje traducido al inglés.</span><span data-lang="he">דף וילנא כולו כפי שהוא מודפס — הגמרא באמצע, רש״י ותוספות בשוליים, מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות, והקישו על כל שורה שמתחתיו כדי לראות את אותו קטע באנגלית.</span></p>
+    <p class="daf-intro for-scan"><span data-lang="en">The whole Vilna page as it is printed — Gemara in the middle, Rashi and Tosafot in the margins, Mesoras HaShas and Ein Mishpat down the sides. Open it full size to read it comfortably, and tap any line underneath it for the English of that passage.</span><span data-lang="es">La página de Vilna completa, tal como está impresa — la Guemará en el centro, Rashi y Tosafot en los márgenes, Masoret HaShas y Ein Mishpat a los lados. Ábrela a tamaño completo para leerla con comodidad; debajo está su texto, pasaje por pasaje.</span><span data-lang="he">דף וילנא כולו כפי שהוא מודפס — הגמרא באמצע, רש״י ותוספות בשוליים, מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות; מתחתיו מופיע הטקסט שלו, קטע אחר קטע.</span></p>
     <div class="daf-scan">
       <figure class="scan">
         <figcaption>
@@ -794,7 +436,7 @@ la olla prohíbe el ave por palabra de la Torá o solo por la de ellos.</p>
                 title="Chullin 104a" loading="lazy"></iframe>
       </figure>
       <div class="daf-lines">
-        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">Línea por línea — toca una para verla en inglés</span><span data-lang="he">שורה אחר שורה — הקישו על שורה כדי לראות אותה באנגלית</span></p>
+        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">El texto de la página, pasaje por pasaje</span><span data-lang="he">טקסט הדף, קטע אחר קטע</span></p>
         <div class="line">
           <button class="line-head" type="button" aria-expanded="true">
             <i>1</i>
@@ -868,7 +510,7 @@ la olla prohíbe el ave por palabra de la Torá o solo por la de ellos.</p>
                 title="Chullin 104b" loading="lazy"></iframe>
       </figure>
       <div class="daf-lines">
-        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">Línea por línea — toca una para verla en inglés</span><span data-lang="he">שורה אחר שורה — הקישו על שורה כדי לראות אותה באנגלית</span></p>
+        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">El texto de la página, pasaje por pasaje</span><span data-lang="he">טקסט הדף, קטע אחר קטע</span></p>
         <div class="line">
           <button class="line-head" type="button" aria-expanded="true">
             <i>1</i>
@@ -1362,14 +1004,388 @@ la olla prohíbe el ave por palabra de la Torá o solo por la de ellos.</p>
     <p class="daf-credit for-text"><span data-lang="en">Text from <a href="https://www.sefaria.org" target="_blank" rel="noopener">Sefaria</a>. Gemara and translation from the William Davidson Talmud, with commentary by Rabbi Adin Even-Israel Steinsaltz, <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. Rashi and Tosafot are the Vilna edition, public domain.</span><span data-lang="es">Texto de <a href="https://www.sefaria.org" target="_blank" rel="noopener">Sefaria</a>. La Guemará y su traducción provienen del Talmud William Davidson, con comentario del rabino Adin Even-Israel Steinsaltz (traducción al inglés), <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. Rashi y Tosafot son de la edición de Vilna, de dominio público.</span><span data-lang="he">הטקסט מתוך <a href="https://www.sefaria.org" target="_blank" rel="noopener">ספריא</a>. הגמרא והתרגום מתוך תלמוד ויליאם דוידסון, עם פירושו של הרב עדין אבן־ישראל שטיינזלץ (התרגום לאנגלית), <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. רש״י ותוספות הם ממהדורת וילנא, נחלת הכלל.</span></p>
   </section>
 
+  <section class="view" id="chazara" role="tabpanel">
+    <div class="sheet" data-lang="en" data-speak-lang="en"
+         lang="en" dir="ltr">
+      <h2>Walking through the sugya, step by step</h2>
+<h3>104a — One mishnah, two Tannaim?</h3>
+<p>The Gemara reads the mishnah&rsquo;s two clauses against each other.</p>
+<p><strong>The first clause implies too much.</strong> &ldquo;All meat&rdquo; — with no distinction between animal and bird —
+means <strong>bird in milk is forbidden by Torah law</strong>. That cannot be <strong>Rabbi Akiva</strong>, who held that
+undomesticated animals and birds in milk are only rabbinic:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">דְּאִי רַבִּי עֲקִיבָא – הָאָמַר: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה</span>.</strong>
+For if it were Rabbi Akiva, did he not say that wild animal and bird are not [forbidden] by the
+Torah?</p>
+</blockquote>
+<p><strong>But the last clause implies the opposite.</strong> &ldquo;One who vows off meat may eat fish and grasshoppers&rdquo;
+— implying fowl <em>is</em> covered by his vow. That sounds like <strong>Rabbi Akiva</strong>, who held <strong><span lang="he" dir="rtl">כֹּל מִילֵּי
+דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — בַּר מִינֵיהּ הוּא</span></strong>: anything an agent would <em>pause to ask about</em> counts as
+that type. The proof is the gourds baraita: a person tells his agent &ldquo;buy vegetables,&rdquo; and the agent
+returns &ldquo;I found only gourds&rdquo; — he asks, because gourds are a borderline vegetable; he would never
+say &ldquo;I found only legumes.&rdquo; So one clause seems to be the Rabbis, the other Rabbi Akiva.</p>
+<p><strong>Two ways to make it one author.</strong></p>
+<ul>
+<li><strong>Rav Yosef:</strong> the whole mishnah is <strong>Rebbi</strong> (Rabbi Yehuda HaNasi), who <strong><span lang="he" dir="rtl">נָסֵיב לַהּ אַלִּיבָּא
+  דְתַנָּאֵי</span></strong> — records it following different Tannaim: on vows like Rabbi Akiva, on meat-and-milk
+  like the Rabbis.</li>
+<li><strong>Rav Ashi:</strong> the whole mishnah is <strong>Rabbi Akiva</strong>, and &ldquo;all meat&rdquo; simply means <em>some by Torah law</em>
+  (domesticated animals) and <em>some by rabbinic law</em> (wild animals and birds) — all forbidden, except
+  fish and grasshoppers, which are neither.</li>
+</ul>
+<h3>104a–104b — Torah or rabbinic? Read it off the table</h3>
+<p><strong>Rav Yosef&rsquo;s inference from the fence.</strong> The mishnah forbids even <em>bringing bird up onto the table</em>
+with cheese. Conclude, he says, that bird-in-milk is <strong>Torah law</strong>:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">דְּאִי סָלְקָא דַעְתָּךְ דְּרַבָּנַן – אֲכִילָה גּוּפַהּ גְּזֵירָה, וַאֲנַן נִגְזַר הַעֲלָאָה אַטּוּ אֲכִילָה</span>?</strong>
+For if you say it is only rabbinic, then <em>eating</em> it is already a decree — and would we then decree
+against <em>placing it on the table</em> to guard <em>eating</em>? We do not make <strong>a decree to guard a decree</strong>.</p>
+</blockquote>
+<p><strong>The proof that the Sages avoid stacked decrees</strong> comes from <em>challah</em> of the diaspora (<em>Challah</em>
+4:8): challah separated outside Eretz Yisrael — itself only a rabbinic obligation — <strong>may be eaten
+with a non-priest at the same table</strong>, and given to any priest. The Sages did not fence it, because
+fencing a fence is one decree too many.</p>
+<p><strong>Abaye&rsquo;s objection</strong> (104b): that proof would only work if the diaspora challah had been <em>brought
+into</em> Eretz Yisrael, where there would be a real reason to fence it (lest it be confused with true,
+Torah-level challah) and yet the Sages still did not. But the mishnah speaks of challah that <em>stays</em>
+in the diaspora, where there is simply nothing to fence — so it proves nothing about stacked decrees.
+Here, by contrast, permitting fowl-and-cheese on the table could lead to <strong>meat</strong>-and-cheese on the
+table and then to eating meat-in-milk, a Torah violation. So the fence around fowl is not a fence
+around a mere fence.</p>
+<p><strong>Rav Sheshet pushes back:</strong> even so, meat-and-cheese sitting cold beside each other is only
+<strong><span lang="he" dir="rtl">צוֹנֵן בְּצוֹנֵן</span></strong>, cold-on-cold — itself no more than rabbinic — so we are <em>still</em> fencing a fence.
+<strong>Abaye:</strong> no — the decree is <strong><span lang="he" dir="rtl">שֶׁמָּא יַעֲלֶה בְּאִילְפָּס רוֹתֵחַ</span></strong>, lest he set it down in a boiling
+stewpot. <strong>Objection:</strong> a stewpot is a <strong><span lang="he" dir="rtl">כְּלִי שֵׁנִי</span></strong>, a secondary vessel, and a secondary vessel
+does not cook. <strong>Resolution:</strong> the fear is an <strong><span lang="he" dir="rtl">אִילְפָּס רִאשׁוֹן</span></strong>, a primary vessel straight off the
+fire — that genuinely cooks meat in milk, a Torah prohibition. The fence stands.</p>
+<h3>104b — Beit Shammai, Beit Hillel, and citing your source</h3>
+<p>A new mishnah maps the table manners:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">הָעוֹף עוֹלֶה עִם הַגְּבִינָה עַל הַשּׁוּלְחָן, וְאֵינוֹ נֶאֱכָל — דִּבְרֵי בֵּית שַׁמַּאי. וּבֵית הִלֵּל אוֹמְרִים: לֹא עוֹלֶה וְלֹא נֶאֱכָל</span>.</strong>
+Fowl may be brought up with cheese onto the table but not eaten with it — Beit Shammai. Beit
+Hillel: neither brought up nor eaten.</p>
+</blockquote>
+<p><strong>Rabbi Yosei</strong> calls this <strong><span lang="he" dir="rtl">מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל</span></strong> — one of the rare cases
+where Beit Shammai are the lenient ones and Beit Hillel the strict. And the mishnah clarifies: this
+is only the table you <em>eat</em> on; on the table where you <em>plate the food</em>, you may set meat and cheese
+side by side without concern.</p>
+<p><strong>Isn&rsquo;t Rabbi Yosei just the anonymous first Tanna?</strong> The Gemara wonders if they differ over <em>eating</em>
+— but a baraita shows Rabbi Yosei&rsquo;s own list of <strong><span lang="he" dir="rtl">שִׁשָּׁה דְּבָרִים</span></strong>, six such disputes, includes this
+one in exactly the first Tanna&rsquo;s words. So they do not differ. Then why name him at all?</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם</span>.</strong>
+Whoever reports a thing in the name of the one who said it brings redemption to the world —</p>
+</blockquote>
+<p>as Esther told the king <strong><span lang="he" dir="rtl">בְּשֵׁם מׇרְדֳּכָי</span></strong>, in Mordechai&rsquo;s name, and the rescue of the Jews turned on
+it. The mishnah names Rabbi Yosei to teach that very lesson.</p>
+<p><strong>And the manners themselves.</strong> Agra, Rabbi Abba&rsquo;s father-in-law, taught that fowl and cheese may be
+eaten <strong><span lang="he" dir="rtl">בְּאַפִּיקוֹרַן</span></strong> — freely, without washing the hands or wiping the mouth between them. When Rav
+Yitzchak son of Rav Mesharshiya ate cheese and then <em>meat</em> at Rav Ashi&rsquo;s house without washing, they
+challenged him — Agra permitted only <em>fowl</em> after cheese, not <em>meat</em>. His answer: that caution is
+only <strong>at night</strong>, when you cannot see your hands; <strong><span lang="he" dir="rtl">בִּימָמָא הָא חָזֵינָא</span></strong>, by day I can see they are
+clean. The daf ends turning to the palate itself — Beit Shammai say <strong><span lang="he" dir="rtl">מְקַנֵּחַ</span></strong>, wipe; Beit Hillel say
+<strong><span lang="he" dir="rtl">מֵדִיחַ</span></strong>, rinse — which is where tomorrow begins.</p>
+<hr />
+<h2>The distinctions, side by side</h2>
+<p>The daf&rsquo;s question in one grid — which flesh, and on whose authority:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>The flesh</th>
+<th>Cooked in milk</th>
+<th>Up on the table with cheese</th>
+<th>Covered by a vow off &ldquo;meat&rdquo;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span lang="he" dir="rtl">בְּהֵמָה</span></strong> — domesticated animal</td>
+<td>Forbidden by <strong>Torah</strong> law, on every view</td>
+<td>Forbidden — the Sages&rsquo; fence around eating</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">חַיָּה וָעוֹף</span></strong> — wild animal and bird</td>
+<td><strong>R&rsquo; Akiva:</strong> rabbinic only. <strong>Rav Yosef:</strong> Torah — else the table-fence would be a fence around a fence</td>
+<td>Forbidden (Beit Hillel). <strong>Beit Shammai:</strong> may be brought up, only not eaten</td>
+<td>Yes — an agent would pause to ask about it, so it counts as meat</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">דָּגִים וַחֲגָבִים</span></strong> — fish and grasshoppers</td>
+<td>Permitted outright</td>
+<td>Permitted</td>
+<td>No — he may eat them</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>One line to carry with you</h2>
+<blockquote>
+<p>The Sages fenced the law, but they did not fence their fences — a rule that keeps rabbinic caution
+from climbing forever. Read carefully, one line about a shared table tells you whether the pot
+forbids fowl by the Torah&rsquo;s word or only theirs.</p>
+</blockquote>
+    </div>
+    <div class="sheet" data-lang="es" data-speak-lang="es"
+         lang="es" dir="ltr">
+      <h2>Recorriendo la suguiá, paso a paso</h2>
+<h3>104a — Una mishná, ¿dos tanaím?</h3>
+<p>La Guemará lee las dos cláusulas de la mishná una contra la otra.</p>
+<p><strong>La primera cláusula implica demasiado.</strong> &ldquo;Toda carne&rdquo; — sin distinción entre animal y ave —
+significa que <strong>el ave en leche está prohibida por ley de la Torá</strong>. Eso no puede ser <strong>Rabí Akivá</strong>,
+que sostenía que los animales no domesticados y las aves en leche son solo rabínicos:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">דְּאִי רַבִּי עֲקִיבָא – הָאָמַר: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה</span>.</strong>
+Pues si fuera Rabí Akivá, ¿no dijo acaso que el animal salvaje y el ave no están [prohibidos] por
+la Torá?</p>
+</blockquote>
+<p><strong>Pero la última cláusula implica lo opuesto.</strong> &ldquo;Quien hace voto de abstenerse de carne puede comer
+pescados y saltamontes&rdquo; — lo que implica que el ave <em>sí</em> queda cubierta por su voto. Eso suena a
+<strong>Rabí Akivá</strong>, que sostenía <strong><span lang="he" dir="rtl">כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — בַּר מִינֵיהּ הוּא</span></strong>: todo aquello por
+lo que un agente <em>se detendría a preguntar</em> cuenta como de ese tipo. La prueba es la baraita de las
+calabazas: una persona le dice a su agente &ldquo;compra verduras&rdquo;, y el agente vuelve &ldquo;solo encontré
+calabazas&rdquo; — pregunta, porque la calabaza es una verdura limítrofe; nunca diría &ldquo;solo encontré
+legumbres&rdquo;. Así que una cláusula parece de los Rabinos, la otra de Rabí Akivá.</p>
+<p><strong>Dos maneras de hacerla de un solo autor.</strong></p>
+<ul>
+<li><strong>Rav Iosef:</strong> toda la mishná es de <strong>Rebí</strong> (Rabí Iehudá HaNasí), que <strong><span lang="he" dir="rtl">נָסֵיב לַהּ אַלִּיבָּא
+  דְתַנָּאֵי</span></strong> — la registra siguiendo a distintos tanaím: en los votos como Rabí Akivá, en
+  carne-y-leche como los Rabinos.</li>
+<li><strong>Rav Ashi:</strong> toda la mishná es de <strong>Rabí Akivá</strong>, y &ldquo;toda carne&rdquo; simplemente significa <em>algunas
+  por ley de la Torá</em> (animales domesticados) y <em>algunas por ley rabínica</em> (animales salvajes y
+  aves) — todas prohibidas, salvo pescados y saltamontes, que no son ni lo uno ni lo otro.</li>
+</ul>
+<h3>104a–104b — ¿Torá o rabínico? Léelo en la mesa</h3>
+<p><strong>La inferencia de Rav Iosef a partir de la valla.</strong> La mishná prohíbe incluso <em>subir el ave a la
+mesa</em> con queso. Concluye, dice, que el ave en leche es <strong>ley de la Torá</strong>:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">דְּאִי סָלְקָא דַעְתָּךְ דְּרַבָּנַן – אֲכִילָה גּוּפַהּ גְּזֵירָה, וַאֲנַן נִגְזַר הַעֲלָאָה אַטּוּ אֲכִילָה</span>?</strong>
+Pues si dices que es solo rabínico, entonces <em>comerla</em> ya es un decreto — ¿y decretaríamos
+entonces contra <em>ponerla en la mesa</em> para resguardar el <em>comerla</em>? No hacemos <strong>un decreto para
+resguardar un decreto</strong>.</p>
+</blockquote>
+<p><strong>La prueba de que los Sabios evitan los decretos apilados</strong> viene de la <em>jalá</em> de la diáspora
+(<em>Jalá</em> 4:8): la jalá separada fuera de Erretz Israel — ella misma solo una obligación rabínica —
+<strong>puede comerse con un no-cohén en la misma mesa</strong>, y darse a cualquier cohén. Los Sabios no la
+cercaron, porque cercar una valla es un decreto de más.</p>
+<p><strong>La objeción de Abaie</strong> (104b): esa prueba solo funcionaría si la jalá de la diáspora hubiera sido
+<em>traída a</em> Erretz Israel, donde habría una razón real para cercarla (no sea que se confunda con la
+jalá verdadera, de nivel de Torá) y aun así los Sabios no lo hicieron. Pero la mishná habla de una
+jalá que <em>permanece</em> en la diáspora, donde simplemente no hay nada que cercar — así que no prueba
+nada sobre los decretos apilados. Aquí, en cambio, permitir ave-y-queso en la mesa podría llevar a
+<strong>carne</strong>-y-queso en la mesa y luego a comer carne-en-leche, una transgresión de la Torá. Así que la
+valla en torno al ave no es una valla en torno a una mera valla.</p>
+<p><strong>Rav Sheshet replica:</strong> aun así, carne y queso frío uno junto al otro es solo <strong><span lang="he" dir="rtl">צוֹנֵן בְּצוֹנֵן</span></strong>,
+frío-sobre-frío — ella misma nada más que rabínica — así que <em>seguimos</em> cercando una valla.
+<strong>Abaie:</strong> no — el decreto es <strong><span lang="he" dir="rtl">שֶׁמָּא יַעֲלֶה בְּאִילְפָּס רוֹתֵחַ</span></strong>, no sea que la ponga en una cacerola
+hirviente. <strong>Objeción:</strong> una cacerola es un <strong><span lang="he" dir="rtl">כְּלִי שֵׁנִי</span></strong>, un recipiente secundario, y un recipiente
+secundario no cocina. <strong>Resolución:</strong> el temor es un <strong><span lang="he" dir="rtl">אִילְפָּס רִאשׁוֹן</span></strong>, un recipiente primario recién
+sacado del fuego — eso sí cocina de verdad carne en leche, una prohibición de la Torá. La valla se
+mantiene.</p>
+<h3>104b — Bet Shamái, Bet Hilel y citar tu fuente</h3>
+<p>Una mishná nueva traza los modales de la mesa:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">הָעוֹף עוֹלֶה עִם הַגְּבִינָה עַל הַשּׁוּלְחָן, וְאֵינוֹ נֶאֱכָל — דִּבְרֵי בֵּית שַׁמַּאי. וּבֵית הִלֵּל אוֹמְרִים: לֹא עוֹלֶה וְלֹא נֶאֱכָל</span>.</strong>
+El ave puede subirse con queso a la mesa pero no comerse con él — Bet Shamái. Bet Hilel: ni subirse
+ni comerse.</p>
+</blockquote>
+<p><strong>Rabí Iosí</strong> llama a esto <strong><span lang="he" dir="rtl">מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל</span></strong> — uno de los raros casos en
+que Bet Shamái son los indulgentes y Bet Hilel los estrictos. Y la mishná aclara: esto es solo la
+mesa en la que <em>comes</em>; en la mesa donde <em>preparas la comida</em>, puedes poner carne y queso uno junto
+al otro sin preocuparte.</p>
+<p><strong>¿No es Rabí Iosí simplemente el primer tana anónimo?</strong> La Guemará se pregunta si discrepan sobre el
+<em>comer</em> — pero una baraita muestra que la propia lista de Rabí Iosí de <strong><span lang="he" dir="rtl">שִׁשָּׁה דְּבָרִים</span></strong>, seis
+disputas de este tipo, incluye esta en las palabras exactas del primer tana. Así que no discrepan.
+¿Entonces por qué nombrarlo?</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם</span>.</strong>
+Quien reporta algo en el nombre de quien lo dijo trae redención al mundo —</p>
+</blockquote>
+<p>como Ester le dijo al rey <strong><span lang="he" dir="rtl">בְּשֵׁם מׇרְדֳּכָי</span></strong>, en nombre de Mordejai, y de ello dependió la salvación
+de los judíos. La mishná nombra a Rabí Iosí para enseñar esa misma lección.</p>
+<p><strong>Y los modales mismos.</strong> Agrá, el suegro de Rabí Aba, enseñó que el ave y el queso pueden comerse
+<strong><span lang="he" dir="rtl">בְּאַפִּיקוֹרַן</span></strong> — libremente, sin lavarse las manos ni limpiarse la boca entre uno y otro. Cuando Rav
+Itzjak hijo de Rav Mesharshiiá comió queso y luego <em>carne</em> en casa de Rav Ashi sin lavarse, lo
+cuestionaron — Agrá permitió solo <em>ave</em> después de queso, no <em>carne</em>. Su respuesta: esa cautela es
+solo <strong>de noche</strong>, cuando no puedes verte las manos; <strong><span lang="he" dir="rtl">בִּימָמָא הָא חָזֵינָא</span></strong>, de día veo que están
+limpias. El daf termina volviéndose hacia el paladar mismo — Bet Shamái dicen <strong><span lang="he" dir="rtl">מְקַנֵּחַ</span></strong>, limpiar;
+Bet Hilel dicen <strong><span lang="he" dir="rtl">מֵדִיחַ</span></strong>, enjuagar — que es donde empieza mañana.</p>
+<hr />
+<h2>Las distinciones, lado a lado</h2>
+<p>La pregunta del daf en una sola cuadrícula — qué carne, y por autoridad de quién:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>La carne</th>
+<th>Cocida en leche</th>
+<th>Subida a la mesa con queso</th>
+<th>Cubierta por un voto de abstenerse de &ldquo;carne&rdquo;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span lang="he" dir="rtl">בְּהֵמָה</span></strong> — animal doméstico</td>
+<td>Prohibida por ley de la <strong>Torá</strong>, en toda opinión</td>
+<td>Prohibida — la cerca de los Sabios alrededor del comer</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">חַיָּה וָעוֹף</span></strong> — animal salvaje y ave</td>
+<td><strong>R&rsquo; Akivá:</strong> solo rabínico. <strong>Rav Iosef:</strong> Torá — si no, la cerca de la mesa sería una cerca alrededor de una cerca</td>
+<td>Prohibida (Bet Hilel). <strong>Bet Shamái:</strong> puede subirse, solo que no comerse</td>
+<td>Sí — un agente se detendría a preguntar, así que cuenta como carne</td>
+</tr>
+<tr>
+<td><strong><span lang="he" dir="rtl">דָּגִים וַחֲגָבִים</span></strong> — pescados y saltamontes</td>
+<td>Permitidos de plano</td>
+<td>Permitidos</td>
+<td>No — puede comerlos</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>Una línea para llevarte</h2>
+<blockquote>
+<p>Los Sabios cercaron la ley, pero no cercaron sus vallas — una regla que impide que la cautela
+rabínica trepe para siempre. Leída con cuidado, una sola línea sobre una mesa compartida te dice si
+la olla prohíbe el ave por palabra de la Torá o solo por la de ellos.</p>
+</blockquote>
+    </div>
+    <div class="sheet" data-lang="he" data-speak-lang="he"
+         lang="he" dir="rtl">
+      <h2>עוברים על הסוגיה, צעד אחר צעד</h2>
+<h3>קד ע״א — משנה אחת, שני תנאים?</h3>
+<p>הגמרא מעמידה את שתי בבות המשנה זו מול זו.</p>
+<p><strong>הרישא משתמעת יותר מדי.</strong> ״כל הבשר״ — בלי לחלק בין בהמה לעוף — משמע ש<strong>עוף בחלב אסור מן התורה</strong>.
+זו אינה יכולה להיות שיטת <strong>רבי עקיבא</strong>, שסבר שחיה ועוף בחלב אינם אלא מדרבנן:</p>
+<blockquote>
+<p><strong>דְּאִי רַבִּי עֲקִיבָא – הָאָמַר: חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה.</strong>
+שאם זה רבי עקיבא — הרי הוא אמר שחיה ועוף אינם מן התורה.</p>
+</blockquote>
+<p><strong>אבל הסיפא משתמעת להפך.</strong> ״הנודר מן הבשר מותר בדגים ובחגבים״ — משמע שהעוף <em>כן</em> בכלל נדרו. וזו נשמעת
+כשיטת <strong>רבי עקיבא</strong>, שסבר <strong>כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — בַּר מִינֵיהּ הוּא</strong>: כל דבר
+שהשליח <em>נעצר לשאול עליו</em> נחשב מאותו המין. הראיה היא ברייתת הדלועין: אדם אומר לשלוחו ״קנה לי ירק״,
+והשליח חוזר ואומר ״לא מצאתי אלא דלועין״ — הוא שואל, מפני שהדלעת היא ירק גבולי; לעולם לא יאמר ״לא
+מצאתי אלא קטניות״. נמצא שבבא אחת כרבנן והשנייה כרבי עקיבא.</p>
+<p><strong>שתי דרכים להעמידה בחבר אחד.</strong></p>
+<ul>
+<li><strong>רב יוסף:</strong> כל המשנה היא <strong>רבי</strong> (רבי יהודה הנשיא), ש<strong>נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי</strong> — שונה
+  אותה לפי תנאים שונים: בנדרים כרבי עקיבא, ובבשר בחלב כרבנן.</li>
+<li><strong>רב אשי:</strong> כל המשנה היא <strong>רבי עקיבא</strong>, ו״כל הבשר״ פירושו שמקצתו אסור מן התורה (בהמה) ומקצתו
+  מדרבנן (חיה ועוף) — הכול אסור, חוץ מדגים וחגבים שאינם לא זה ולא זה.</li>
+</ul>
+<h3>קד ע״א–ע״ב — תורה או דרבנן? קוראים את זה מעל השולחן</h3>
+<p><strong>דיוקו של רב יוסף מן הסייג.</strong> המשנה אוסרת אפילו <em>להעלות</em> עוף עם גבינה על השולחן. מכאן, אומר רב יוסף,
+שבשר עוף בחלב אסור <strong>מן התורה</strong>:</p>
+<blockquote>
+<p><strong>דְּאִי סָלְקָא דַעְתָּךְ דְּרַבָּנַן – אֲכִילָה גּוּפַהּ גְּזֵירָה, וַאֲנַן נִגְזַר הַעֲלָאָה אַטּוּ אֲכִילָה?</strong>
+שאם תעלה על דעתך שאינו אלא מדרבנן — הרי <em>האכילה</em> עצמה גזירה היא, ונגזור <em>העלאה</em> כדי לשמור על
+<em>אכילה</em>? אין גוזרים <strong>גזירה לגזירה</strong>.</p>
+</blockquote>
+<p><strong>הראיה שחכמים נמנעים מגזירות מוערמות</strong> באה מחלת חוץ לארץ (<em>חלה</em> ד, ח): חלה שהופרשה בחוץ לארץ —
+שחיובה עצמו אינו אלא מדרבנן — <strong>נאכלת עם הזר על שולחן אחד</strong>, וניתנת לכל כהן. לא גזרו עליה חכמים,
+משום שסייג לסייג הוא גזירה אחת יותר מדי.</p>
+<p><strong>קושיית אביי</strong> (קד ע״ב): הראיה הייתה עומדת רק אילו הכניסו את חלת חוץ לארץ <em>לתוך</em> ארץ ישראל, ששם יש
+טעם אמיתי לגזור (שמא תתחלף בחלה של תורה) ואף על פי כן לא גזרו. אבל המשנה מדברת בחלה ה<em>נשארת</em> בחוץ
+לארץ, ששם אין כלל מה לגזור — ואין מכאן ראיה לגזירה לגזירה. וכאן, לעומת זאת, אם נתיר עוף וגבינה על
+השולחן נגיע לבשר וגבינה על השולחן ומשם לאכילת בשר בחלב, שהוא איסור תורה. נמצא שהסייג בעוף אינו סייג
+לסייג בעלמא.</p>
+<p><strong>רב ששת דוחה:</strong> ואף על פי כן, בשר וגבינה המונחים זה בצד זה בצונן אינם אלא <strong>צוֹנֵן בְּצוֹנֵן</strong> —
+ואף הוא אינו אלא מדרבנן — ונמצאנו <em>עדיין</em> גוזרים גזירה לגזירה. <strong>אביי:</strong> לא — הגזירה היא
+<strong>שֶׁמָּא יַעֲלֶה בְּאִילְפָּס רוֹתֵחַ</strong>, שמא יניחם באילפס רותח. <strong>קושיה:</strong> אילפס הוא <strong>כְּלִי שֵׁנִי</strong>,
+וכלי שני אינו מבשל. <strong>תירוץ:</strong> החשש הוא ל<strong>אִילְפָּס רִאשׁוֹן</strong>, כלי ראשון שירד מעל האש — וזה מבשל
+באמת בשר בחלב, איסור תורה. הסייג עומד.</p>
+<h3>קד ע״ב — בית שמאי, בית הלל, וציטוט המקור</h3>
+<p>משנה חדשה משרטטת את הנהגת השולחן:</p>
+<blockquote>
+<p><strong>הָעוֹף עוֹלֶה עִם הַגְּבִינָה עַל הַשּׁוּלְחָן, וְאֵינוֹ נֶאֱכָל — דִּבְרֵי בֵּית שַׁמַּאי. וּבֵית הִלֵּל אוֹמְרִים: לֹא עוֹלֶה וְלֹא נֶאֱכָל.</strong>
+העוף עולה עם הגבינה על השולחן ואינו נאכל — דברי בית שמאי. ובית הלל אומרים: לא עולה ולא נאכל.</p>
+</blockquote>
+<p><strong>רבי יוסי</strong> קורא לזה <strong>מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל</strong> — אחד מן המקרים הנדירים
+שבהם בית שמאי הם המקילים ובית הלל המחמירים. והמשנה מדייקת: כל זה בשולחן שהוא <em>אוכל</em> עליו, אבל בשולחן
+שהוא <em>סודר</em> עליו את התבשיל — מניח בשר וגבינה זה בצד זה ואינו חושש.</p>
+<p><strong>והרי רבי יוסי הוא הוא התנא קמא?</strong> הגמרא מסתפקת שמא נחלקו ב<em>אכילה</em> — אבל ברייתא מביאה את רשימתו של
+רבי יוסי עצמו, <strong>שִׁשָּׁה דְּבָרִים</strong>, שישה מקרים כאלה, ובה המקרה הזה בלשונו של התנא קמא ממש. נמצא
+שאינם חלוקים. ואם כן, למה להזכיר את שמו?</p>
+<blockquote>
+<p><strong>כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם.</strong>
+כל האומר דבר בשם אומרו מביא גאולה לעולם —</p>
+</blockquote>
+<p>כאסתר שאמרה למלך <strong>בְּשֵׁם מׇרְדֳּכָי</strong>, ובזה נתלתה הצלתם של ישראל. המשנה מזכירה את רבי יוסי כדי ללמד
+את הלקח הזה עצמו.</p>
+<p><strong>וההנהגה עצמה.</strong> אגרא חמיו של רבי אבא לימד שעוף וגבינה נאכלים <strong>בְּאַפִּיקוֹרַן</strong> — בלא נטילת ידיים
+ובלא קינוח הפה ביניהם. כשאכל רב יצחק בריה דרב משרשיא גבינה ואחריה <em>בשר</em> בביתו של רב אשי בלא נטילה,
+הקשו לו — אגרא לא התיר אלא <em>עוף</em> אחר גבינה, ולא <em>בשר</em>. תשובתו: אותה זהירות אינה אלא <strong>בלילה</strong>, שאין
+אדם רואה את ידיו; <strong>בִּימָמָא הָא חָזֵינָא</strong>, ביום הרי אני רואה שהן נקיות. הדף מסיים בפנייה אל הפה
+עצמו — בית שמאי אומרים <strong>מְקַנֵּחַ</strong>, מנגב; ובית הלל אומרים <strong>מֵדִיחַ</strong>, שוטף — ומשם מתחיל מחר.</p>
+<hr />
+<h2>ההבחנות, זו מול זו</h2>
+<p>שאלת הדף בטבלה אחת — איזה בשר, ומכוח מי:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>הבשר</th>
+<th>בישולו בחלב</th>
+<th>העלאה על השולחן עם גבינה</th>
+<th>בכלל נדר מן ״הבשר״</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>בְּהֵמָה</strong> — בהמה מבויתת</td>
+<td>אסור מן <strong>התורה</strong>, לכל הדעות</td>
+<td>אסור — סייג חכמים סביב האכילה</td>
+<td>כן</td>
+</tr>
+<tr>
+<td><strong>חַיָּה וָעוֹף</strong> — חיה ועוף</td>
+<td><strong>ר׳ עקיבא:</strong> מדרבנן בלבד. <strong>רב יוסף:</strong> מן התורה — שאם לא כן, סייג השולחן היה סייג לסייג</td>
+<td>אסור (בית הלל). <strong>בית שמאי:</strong> עולה, ורק אינו נאכל</td>
+<td>כן — השליח נעצר לשאול עליו, ולכן הוא בכלל בשר</td>
+</tr>
+<tr>
+<td><strong>דָּגִים וַחֲגָבִים</strong> — דגים וחגבים</td>
+<td>מותר לגמרי</td>
+<td>מותר</td>
+<td>לא — מותר לו לאוכלם</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>שורה אחת לקחת אתכם</h2>
+<blockquote>
+<p>חכמים גדרו את הדין, אבל לא גדרו את גדריהם — כלל ששומר על זהירות דרבנן מלטפס עד אין סוף. בקריאה
+מדוקדקת, שורה אחת על שולחן משותף מגלה לכם אם הקדרה אוסרת את העוף מדבר תורה או רק מדבריהם.</p>
+</blockquote>
+    </div>
+
+    <div class="quiz-inline">
+      <h2>🎯&nbsp;<span data-lang="en">Test yourself</span><span data-lang="es">Ponte a prueba</span><span data-lang="he">בחנו את עצמכם</span></h2>
+      <div class="quiz" id="quizCard"></div>
+      <div class="hint"><span data-lang="en">Tip: click the card, then keys 1–4 answer and Enter moves on.</span><span data-lang="es">Consejo: pulsa en la tarjeta; luego 1–4 responden y Enter continúa.</span><span data-lang="he">טיפ: הקישו על הכרטיס; אחר כך 1–4 עונים ו-Enter ממשיך.</span></div>
+    </div>
+
+    <p class="tomorrow" data-lang="en" lang="en" dir="ltr">
+      Tomorrow (Thu, 13 August 2026):
+      <strong>Chullin 105</strong> — how to clear the palate between meat and milk — **מְקַנֵּחַ** or **מֵדִיחַ**, wipe or rinse — and Rabbi Zeira&#39;s rule that only bread will do the wiping.</p>
+    <p class="tomorrow" data-lang="es" lang="es" dir="ltr">
+      Mañana (jue, 13 de agosto de 2026):
+      <strong>Julín 105</strong> — cómo limpiar el paladar entre carne y leche — **מְקַנֵּחַ** o **מֵדִיחַ**, limpiar o enjuagar — y la regla de Rabí Zeira de que solo el pan sirve para limpiar.</p>
+    <p class="tomorrow" data-lang="he" lang="he" dir="rtl">
+      מחר (יום ה׳, 13 באוגוסט 2026):
+      <strong>חולין קה</strong> — כיצד מנקים את הפה בין בשר לחלב — **מְקַנֵּחַ** או **מֵדִיחַ**, מנגב או שוטף — וכללו של רבי זירא שרק הפת מנגבת.</p>
+  </section>
+
   <footer class="disclaimer foot" role="note"><span data-lang="en">This sheet was written by AI from the text of the daf. It can be incomplete or mistaken, and it is only a helper for your learning — not a substitute for learning the actual daf in the Gemara. Check anything you rely on against the source.</span><span data-lang="es">Esta hoja fue escrita por una inteligencia artificial a partir del texto del daf. Puede contener errores u omisiones, y es solo una ayuda para tu estudio, no un sustituto de aprender el daf mismo en la Guemará. Verifica en la fuente todo aquello en lo que te apoyes.</span><span data-lang="he">הדף הזה נכתב בידי בינה מלאכותית מתוך טקסט הדף. הוא עלול להיות חלקי או שגוי, והוא רק עזר ללימוד — לא תחליף ללימוד הדף עצמו בגמרא. בדקו במקור כל דבר שאתם נסמכים עליו.</span></footer>
+  <p class="feedback" hidden>✉️&nbsp;<span data-lang="en"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20104&amp;body=What%20is%20wrong%2C%20or%20what%20is%20missing%3F%20Be%20as%20precise%20as%20you%20can%20%E2%80%94%20which%20section%2C%20and%20what%20it%20should%20say.%0A%0A%0A%E2%80%94%20Chullin%20104%20%28en%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_104.html%3Flang%3Den%0A">Found a mistake? Tell me</a></span><span data-lang="es"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20104&amp;body=%C2%BFQu%C3%A9%20est%C3%A1%20mal%2C%20o%20qu%C3%A9%20falta%3F%20S%C3%A9%20lo%20m%C3%A1s%20preciso%20posible:%20en%20qu%C3%A9%20secci%C3%B3n%2C%20y%20qu%C3%A9%20deber%C3%ADa%20decir.%0A%0A%0A%E2%80%94%20Chullin%20104%20%28es%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_104.html%3Flang%3Des%0A">¿Encontraste un error? Avísame</a></span><span data-lang="he"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20104&amp;body=%D7%9E%D7%94%20%D7%A9%D7%92%D7%95%D7%99%2C%20%D7%90%D7%95%20%D7%9E%D7%94%20%D7%97%D7%A1%D7%A8%3F%20%D7%9B%D7%AA%D7%91%D7%95%20%D7%91%D7%9E%D7%93%D7%95%D7%99%D7%A7%20%D7%9B%D7%9E%D7%94%20%D7%A9%D7%90%D7%A4%D7%A9%D7%A8%20%E2%80%94%20%D7%91%D7%90%D7%99%D7%96%D7%94%20%D7%97%D7%9C%D7%A7%2C%20%D7%95%D7%9E%D7%94%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%9C%D7%94%D7%99%D7%95%D7%AA%20%D7%9B%D7%AA%D7%95%D7%91.%0A%0A%0A%E2%80%94%20Chullin%20104%20%28he%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_104.html%3Flang%3Dhe%0A">מצאתם טעות? כתבו לי</a></span></p>
 </div>
-<script src="assets/tabs.js?v=9fe78958"></script>
-<script src="assets/daf.js?v=5a1b9cc6"></script>
+<script src="assets/tabs.js?v=ed43694b"></script>
+<script src="assets/daf.js?v=8d69a133"></script>
 <script>window.CARDS_BY_LANG = {"en":{"lang":"en","cards":[{"t":"<strong><span lang=\"he\" dir=\"rtl\">כׇּל הַבָּשָׂר<\/span><\/strong> <em>(Kol HaBasar)<\/em>","m":"&quot;All meat&quot; — the chapter, on cooking and eating meat with milk."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה<\/span><\/strong> <em>(chaya va&#x27;of eino min haTorah)<\/em>","m":"Rabbi Akiva&#x27;s view that wild animals and birds in milk are forbidden only rabbinically, not by the Torah."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">גְּזֵירָה לִגְזֵירָה<\/span><\/strong> <em>(gezeirah ligzeirah)<\/em>","m":"&quot;A decree [to guard] a decree.&quot; The Sages generally do not build one rabbinic fence on top of another — the daf&#x27;s central lever."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי<\/span><\/strong> <em>(naseiv lah aliba d&#x27;tannai)<\/em>","m":"Recording a mishnah&#x27;s clauses each according to a different Tanna — Rav Yosef&#x27;s way to keep Rebbi as sole author."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ<\/span><\/strong> <em>(kol milei d&#x27;mimlich alei shaliach)<\/em>","m":"Rabbi Akiva&#x27;s rule on vows: whatever an agent would pause to ask about counts as that category — so a borderline gourd is a &quot;vegetable.&quot;"},{"t":"<strong><span lang=\"he\" dir=\"rtl\">הַעֲלָאָה<\/span><\/strong> <em>(ha&#x27;ala&#x27;ah)<\/em>","m":"&quot;Bringing up&quot; onto the table — the act the rabbinic fence forbids, distinct from eating."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">צוֹנֵן בְּצוֹנֵן<\/span><\/strong> <em>(tzonen betzonen)<\/em>","m":"Cold-on-cold: two cold foods touching, which does not cook and so is itself only rabbinic."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">אִילְפָּס רִאשׁוֹן<\/span> / <span lang=\"he\" dir=\"rtl\">כְּלִי שֵׁנִי<\/span><\/strong> <em>(ilpas rishon / keli sheni)<\/em>","m":"A primary stewpot straight off the fire, which cooks (Torah-level), versus a secondary vessel, which does not."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל<\/span><\/strong> <em>(mikulei Beit Shammai)<\/em>","m":"A dispute in which Beit Shammai are lenient and Beit Hillel strict — the reverse of the usual pattern."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">בְּאַפִּיקוֹרַן<\/span><\/strong> <em>(be&#x27;apikoran)<\/em>","m":"&quot;Freely&quot; — Agra&#x27;s ruling that fowl and cheese need no hand-washing or mouth-wiping in between."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">דָּבָר בְּשֵׁם אוֹמְרוֹ<\/span><\/strong> <em>(davar beshem omro)<\/em>","m":"Reporting a teaching in the name of the one who said it — which &quot;brings redemption to the world.&quot;"}]},"es":{"lang":"es","cards":[{"t":"<strong><span lang=\"he\" dir=\"rtl\">כׇּל הַבָּשָׂר<\/span><\/strong> <em>(Kol HaBasar)<\/em>","m":"&quot;Toda la carne&quot; — el capítulo, sobre cocinar y comer carne con leche."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה<\/span><\/strong> <em>(jaiá va&#x27;of eino min haTorá)<\/em>","m":"La opinión de Rabí Akivá de que los animales salvajes y las aves en leche están prohibidos solo rabínicamente, no por la Torá."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">גְּזֵירָה לִגְזֵירָה<\/span><\/strong> <em>(gezerá ligzerá)<\/em>","m":"&quot;Un decreto [para resguardar] un decreto.&quot; Los Sabios por lo general no construyen una valla rabínica sobre otra — la palanca central del daf."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי<\/span><\/strong> <em>(naseiv lah alibá d&#x27;tanái)<\/em>","m":"Registrar las cláusulas de una mishná cada una según un tana distinto — la manera en que Rav Iosef mantiene a Rebí como autor único."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ<\/span><\/strong> <em>(kol milei d&#x27;mimlij alei shalíaj)<\/em>","m":"La regla de Rabí Akivá sobre los votos: todo aquello por lo que un agente se detendría a preguntar cuenta como esa categoría — así una calabaza limítrofe es una &quot;verdura&quot;."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">הַעֲלָאָה<\/span><\/strong> <em>(ha&#x27;alaá)<\/em>","m":"&quot;Subir&quot; a la mesa — el acto que prohíbe la valla rabínica, distinto de comer."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">צוֹנֵן בְּצוֹנֵן<\/span><\/strong> <em>(tzonen betzonen)<\/em>","m":"Frío-sobre-frío: dos comidas frías en contacto, que no cocinan y por eso son en sí mismas solo rabínicas."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">אִילְפָּס רִאשׁוֹן<\/span> / <span lang=\"he\" dir=\"rtl\">כְּלִי שֵׁנִי<\/span><\/strong> <em>(ilpás rishón / kli shení)<\/em>","m":"Una cacerola primaria recién sacada del fuego, que cocina (nivel de Torá), contra un recipiente secundario, que no."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל<\/span><\/strong> <em>(mikulei Bet Shamái)<\/em>","m":"Una disputa en la que Bet Shamái son indulgentes y Bet Hilel estrictos — lo inverso del patrón usual."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">בְּאַפִּיקוֹרַן<\/span><\/strong> <em>(be&#x27;apikoran)<\/em>","m":"&quot;Libremente&quot; — el dictamen de Agrá de que el ave y el queso no requieren lavado de manos ni limpieza de boca entre uno y otro."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">דָּבָר בְּשֵׁם אוֹמְרוֹ<\/span><\/strong> <em>(davar beshem omró)<\/em>","m":"Reportar una enseñanza en el nombre de quien la dijo — lo que &quot;trae redención al mundo&quot;."}]},"he":{"lang":"he","cards":[{"t":"<strong>כׇּל הַבָּשָׂר<\/strong>","m":"״כל הבשר״ — שם הפרק, בבישול בשר בחלב ובאכילתו."},{"t":"<strong>חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה<\/strong>","m":"שיטת רבי עקיבא שחיה ועוף בחלב אסורים מדרבנן בלבד ולא מן התורה."},{"t":"<strong>גְּזֵירָה לִגְזֵירָה<\/strong>","m":"״גזירה לגזירה״. אין חכמים בונים סייג דרבנן על גבי סייג דרבנן — המנוף המרכזי של הדף."},{"t":"<strong>נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי<\/strong>","m":"ששונה כל בבא של המשנה לפי תנא אחר — דרכו של רב יוסף להעמיד את רבי כחבר יחיד."},{"t":"<strong>כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ<\/strong>","m":"כללו של רבי עקיבא בנדרים: כל שהשליח נעצר לשאול עליו נחשב מאותו המין — ולכן דלעת גבולית היא ״ירק״."},{"t":"<strong>הַעֲלָאָה<\/strong>","m":"״העלאה״ על השולחן — המעשה שסייג חכמים אוסר, ושאינו אכילה."},{"t":"<strong>צוֹנֵן בְּצוֹנֵן<\/strong>","m":"צונן בצונן: שני מאכלים קרים הנוגעים זה בזה, שאינם מבשלים ולכן אינם אלא מדרבנן."},{"t":"<strong>אִילְפָּס רִאשׁוֹן / כְּלִי שֵׁנִי<\/strong>","m":"אילפס שהוא כלי ראשון שירד מעל האש, שמבשל (איסור תורה), לעומת כלי שני שאינו מבשל."},{"t":"<strong>מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל<\/strong>","m":"מחלוקת שבה בית שמאי הם המקילים ובית הלל המחמירים — היפוכו של הרגיל."},{"t":"<strong>בְּאַפִּיקוֹרַן<\/strong>","m":"״באפיקורן״ — הוראתו של אגרא שעוף וגבינה אינם צריכים נטילת ידיים וקינוח הפה ביניהם."},{"t":"<strong>דָּבָר בְּשֵׁם אוֹמְרוֹ<\/strong>","m":"אמירת דבר בשם אומרו — ש״מביא גאולה לעולם״."}]}};</script>
-<script src="assets/cards.js?v=603f9514"></script>
+<script src="assets/cards.js?v=a0e3e21f"></script>
 <script>window.QUIZ_BY_LANG = {"en":{"lang":"en","qs":[{"n":1,"q":"Why does the first clause of the mishnah, &quot;all meat,&quot; seem not to fit Rabbi Akiva?","opts":["Because he holds that wild animals and birds in milk are forbidden only rabbinically, not by the Torah.","Because he reads &quot;all meat&quot; as covering fish and grasshoppers along with everything else.","Because in his view the prohibition attaches to cooking alone and never to eating what was cooked.","Because he confines the whole prohibition to the meat of a domesticated animal cooked in its own mother&#x27;s milk."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה<\/span>; &quot;all meat&quot; as a flat Torah rule would exclude his view."},{"n":2,"q":"How does the gourds baraita support Rabbi Akiva&#x27;s rule about vows?","opts":["An agent told to buy vegetables asks about gourds but never about legumes, so gourds are a borderline vegetable.","An agent told to buy vegetables buys gourds without stopping to ask, which shows they are plainly vegetables.","The baraita rules that one who vows off vegetables may nonetheless still eat gourds, which settles the category.","The baraita counts gourds among the legumes, and legumes are excluded from a vow about vegetables."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ<\/span> — what the agent pauses to ask about counts as the type."},{"n":3,"q":"According to Rav Yosef, how can one author (Rebbi) hold both clauses?","opts":["He rules like Rabbi Akiva throughout, and the second clause is a later addition to the text.","He records each clause following a different Tanna — Rabbi Akiva on vows, the Rabbis on meat-and-milk.","He holds that vows and meat-and-milk are governed by two entirely unrelated principles.","He reads the second clause as rabbinic and the first as Torah law, so the two can stand together after all."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי<\/span> — the mishnah quotes different Tannaim in its two clauses."},{"n":4,"q":"On what does Rav Yosef base his claim that bird-in-milk is forbidden by Torah law?","opts":["On a tradition from Sinai that extends the verse to every creature whose flesh is eaten.","On the threefold repetition of the verse, which is read as covering birds as well.","On the fact that the mishnah forbids even placing fowl with cheese on the table.","On Rabbi Akiva&#x27;s ruling, which he understands as being about wild animals only."],"correct":2,"why":"if eating fowl-in-milk were itself only a decree, the Sages would not add a table-decree to guard it — no <span lang=\"he\" dir=\"rtl\">גְּזֵירָה לִגְזֵירָה<\/span>."},{"n":5,"q":"Why does Abaye say the diaspora-challah mishnah does not actually prove that the Sages avoid stacked decrees?","opts":["Because challah outside the Land is a Torah obligation, so no decree is involved at all.","Because that challah stays in the diaspora, where there is nothing to fence in the first place.","Because the mishnah is speaking of teruma rather than of challah, so it is beside the point.","Because the Sages did in fact stack decrees in that case, which undercuts the whole of the objection."],"correct":1,"why":"only diaspora challah brought into Eretz Yisrael would give a reason to fence; challah that stays outside has no such reason, so it proves nothing."},{"n":6,"q":"How does Abaye ultimately justify the fence against fowl and cheese on the table?","opts":["Lest one place them in a primary stewpot off the fire, which genuinely cooks — a Torah violation.","Lest an onlooker seeing them together conclude that meat and milk may be cooked in a single pot.","Lest the two touch one another on the table and each absorb something of the other&#x27;s flavour into itself.","Lest a person forget which dish is which and eat them in the wrong order entirely."],"correct":0,"why":"not the <span lang=\"he\" dir=\"rtl\">כְּלִי שֵׁנִי<\/span>, which does not cook, but the <span lang=\"he\" dir=\"rtl\">אִילְפָּס רִאשׁוֹן<\/span>, which does — so the fence guards a Torah prohibition, not another decree."},{"n":7,"q":"What is unusual about the Beit Shammai / Beit Hillel dispute over fowl on the table?","opts":["Beit Shammai and Beit Hillel are recorded as agreeing, which almost never happens.","Beit Hillel withdrew their view entirely once they heard Beit Shammai&#x27;s reasoning.","Beit Shammai are lenient and Beit Hillel strict, the reverse of the usual.","The dispute concerns a rabbinic decree, and the two houses normally argue Torah law."],"correct":2,"why":"Rabbi Yosei lists it among the <span lang=\"he\" dir=\"rtl\">מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל<\/span>."},{"n":8,"q":"Why does the mishnah bother to attribute the ruling to Rabbi Yosei if he agrees with the first Tanna?","opts":["To show that Rabbi Yosei&#x27;s reasoning differed even where his conclusion did not.","To settle the halacha, since a ruling named for a sage always carries more weight.","To record that Rabbi Yosei was the first to state it, before the anonymous Tanna ever did.","To teach that reporting a teaching in its author&#x27;s name brings redemption to the world."],"correct":3,"why":"<span lang=\"he\" dir=\"rtl\">כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם<\/span> — as with Esther speaking <span lang=\"he\" dir=\"rtl\">בְּשֵׁם מׇרְדֳּכָי<\/span>."},{"n":9,"q":"What did Agra permit regarding fowl and cheese?","opts":["Eating them freely, without washing the hands or wiping the mouth in between.","Cooking them together, provided the two are afterwards kept quite separate.","Placing them on one table, though not eating them at the same sitting.","Eating them in either order, so long as the hands are washed carefully in between them."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">נֶאֱכָלִין בְּאַפִּיקוֹרַן — בְּלֹא נְטִילַת יָדַיִם וּבְלֹא קִינּוּחַ הַפֶּה<\/span>."},{"n":10,"q":"How did Rav Yitzchak son of Rav Mesharshiya justify eating meat after cheese without washing his hands?","opts":["He said the caution is only at night; by day one can see the hands are clean.","He said the caution applies only to hard cheese, and his had been soft.","He said that washing is required before cheese but never before meat.","He said he had wiped his hands on bread, which serves well enough in place of washing."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">הָנֵי מִילֵּי בְּלֵילְיָא, אֲבָל בִּימָמָא הָא חָזֵינָא<\/span> — by daylight there is no doubt about the hands."}]},"es":{"lang":"es","qs":[{"n":1,"q":"¿Por qué la primera cláusula de la mishná, &quot;toda carne&quot;, parece no encajar con Rabí Akivá?","opts":["Porque sostiene que los animales salvajes y las aves en leche están prohibidos solo rabínicamente, no por la Torá.","Porque lee &quot;toda carne&quot; como abarcando también al pescado y a los saltamontes junto con todo lo demás que llega a comerse.","Porque a su juicio la prohibición recae solo en cocinar y nunca en comer lo que se ha cocinado.","Porque limita toda la prohibición a la carne de un animal doméstico cocida en la leche de su propia madre."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה<\/span>; &quot;toda carne&quot; como regla tajante de la Torá excluiría su opinión."},{"n":2,"q":"¿Cómo apoya la baraita de las calabazas la regla de Rabí Akivá sobre los votos?","opts":["Un agente al que le mandan comprar verduras pregunta por las calabazas pero nunca por las legumbres, así que la calabaza es una verdura limítrofe.","Un agente al que le mandan comprar verduras compra calabazas sin detenerse a preguntar por ellas, lo que muestra que son verduras sin más y sin matiz alguno.","La baraita dictamina que quien hace voto contra las verduras aún puede comer calabazas, y eso zanja del todo la categoría a la que pertenecen.","La baraita cuenta las calabazas entre las legumbres, y las legumbres quedan fuera de un voto sobre verduras."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ<\/span> — aquello por lo que el agente se detiene a preguntar cuenta como del tipo."},{"n":3,"q":"Según Rav Iosef, ¿cómo puede un solo autor (Rebí) sostener ambas cláusulas?","opts":["Dictamina como Rabí Akivá en todo, y la segunda cláusula es un añadido posterior al texto.","Registra cada cláusula siguiendo a un tana distinto — Rabí Akivá en los votos, los Rabinos en carne-y-leche.","Sostiene que los votos y la carne-y-leche se rigen por dos principios enteramente ajenos entre sí.","Lee la segunda cláusula como rabínica y la primera como ley de la Torá, y así ambas se sostienen juntas sin choque."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי<\/span> — la mishná cita a distintos tanaím en sus dos cláusulas."},{"n":4,"q":"¿En qué basa Rav Iosef su afirmación de que el ave en leche está prohibida por ley de la Torá?","opts":["En una tradición del Sinaí que extiende el versículo a toda criatura cuya carne se come.","En la triple repetición del versículo, que se lee como abarcando también a las aves.","En el hecho de que la mishná prohíbe incluso poner el ave con queso en la mesa.","En el dictamen de Rabí Akivá, que él entiende referido solo a los animales salvajes."],"correct":2,"why":"si comer ave-en-leche fuera en sí mismo solo un decreto, los Sabios no agregarían un decreto-de-mesa para resguardarlo — no hay <span lang=\"he\" dir=\"rtl\">גְּזֵירָה לִגְזֵירָה<\/span>."},{"n":5,"q":"¿Por qué dice Abaie que la mishná de la jalá de la diáspora no prueba en realidad que los Sabios evitan los decretos apilados?","opts":["Porque la jalá fuera de la Tierra es obligación de la Torá, así que no hay decreto alguno de por medio.","Porque esa jalá permanece en la diáspora, donde no hay nada que cercar en primer lugar.","Porque la mishná habla de trumá y no de jalá, así que viene al margen de la cuestión.","Porque los Sabios sí apilaron decretos allí, cosa que socava toda la objeción planteada."],"correct":1,"why":"solo la jalá de la diáspora traída a Erretz Israel daría una razón para cercar; la jalá que permanece fuera no tiene tal razón, así que no prueba nada."},{"n":6,"q":"¿Cómo justifica Abaie finalmente la valla contra el ave y el queso en la mesa?","opts":["No sea que uno los ponga en una cacerola primaria recién sacada del fuego, que sí cocina — una transgresión de la Torá.","No sea que quien esté mirando desde fuera concluya que la carne y la leche pueden cocinarse juntas dentro de una sola olla.","No sea que los dos se toquen el uno al otro sobre la mesa y cada uno absorba algo del sabor del otro en sí.","No sea que una persona olvide cuál plato es cuál y los coma en el orden equivocado."],"correct":0,"why":"no el <span lang=\"he\" dir=\"rtl\">כְּלִי שֵׁנִי<\/span>, que no cocina, sino el <span lang=\"he\" dir=\"rtl\">אִילְפָּס רִאשׁוֹן<\/span>, que sí — así que la valla resguarda una prohibición de la Torá, no otro decreto."},{"n":7,"q":"¿Qué tiene de inusual la disputa de Bet Shamái / Bet Hilel sobre el ave en la mesa?","opts":["Que Bet Shamái y Bet Hilel constan como coincidiendo, cosa que casi nunca ocurre.","Que Bet Hilel retiró su postura del todo al oír el razonamiento de Bet Shamái.","Bet Shamái son indulgentes y Bet Hilel estrictos, lo inverso de lo usual.","Que la disputa versa sobre un decreto rabínico, y las dos casas suelen discutir ley de la Torá."],"correct":2,"why":"Rabí Iosí lo enumera entre las <span lang=\"he\" dir=\"rtl\">מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל<\/span>."},{"n":8,"q":"¿Por qué se molesta la mishná en atribuir el dictamen a Rabí Iosí si coincide con el primer tana?","opts":["Para mostrar que el razonamiento de Rabí Iosí difería aunque su conclusión no lo hiciera.","Para fijar la halajá, ya que un dictamen con nombre de sabio siempre pesa más que uno anónimo.","Para dejar constancia de que Rabí Iosí lo dijo primero, antes que el tana anónimo.","Para enseñar que reportar una enseñanza en el nombre de su autor trae redención al mundo."],"correct":3,"why":"<span lang=\"he\" dir=\"rtl\">כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם<\/span> — como Ester al hablar <span lang=\"he\" dir=\"rtl\">בְּשֵׁם מׇרְדֳּכָי<\/span>."},{"n":9,"q":"¿Qué permitió Agrá respecto del ave y el queso?","opts":["Comerlos libremente, sin lavarse las manos ni limpiarse la boca entre uno y otro.","Cocinarlos juntos, siempre que después se mantengan bien separados el uno del otro.","Ponerlos sobre una misma mesa, aunque no comerlos en la misma sentada.","Comerlos en cualquier orden, con tal de lavarse las manos entre uno y otro."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">נֶאֱכָלִין בְּאַפִּיקוֹרַן — בְּלֹא נְטִילַת יָדַיִם וּבְלֹא קִינּוּחַ הַפֶּה<\/span>."},{"n":10,"q":"¿Cómo justificó Rav Itzjak hijo de Rav Mesharshiiá comer carne después de queso sin lavarse las manos?","opts":["Dijo que la cautela es solo de noche; de día uno puede ver que las manos están limpias.","Dijo que la cautela vale solo para el queso duro, y el suyo había sido blando.","Dijo que hace falta lavarse antes del queso pero jamás antes de la carne.","Dijo que se había limpiado las manos con pan, cosa que sirve bastante bien en lugar del lavado."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">הָנֵי מִילֵּי בְּלֵילְיָא, אֲבָל בִּימָמָא הָא חָזֵינָא<\/span> — a la luz del día no hay duda sobre las manos."}]},"he":{"lang":"he","qs":[{"n":1,"q":"מדוע נראה שהרישא של המשנה, ״כל הבשר״, אינה מתאימה לרבי עקיבא?","opts":["מפני שהוא סובר שחיה ועוף בחלב אסורים מדרבנן בלבד ולא מן התורה.","מפני שהוא קורא ״כל הבשר״ ככולל גם דגים וחגבים יחד עם השאר.","מפני שלדעתו האיסור תלוי בבישול בלבד ולעולם אינו באכילת מה שנתבשל.","מפני שהוא מצמצם את כל האיסור לבשר בהמה שנתבשל בחלב אמו שלו."],"correct":0,"why":"חַיָּה וָעוֹף אֵינוֹ מִן הַתּוֹרָה; ״כל הבשר״ ככלל של תורה מוציא את שיטתו."},{"n":2,"q":"כיצד ברייתת הדלועין מסייעת לכללו של רבי עקיבא בנדרים?","opts":["שליח שנשלח לקנות ירק שואל על הדלועין ולעולם אינו שואל על הקטניות, ומכאן שהדלעת ירק גבולי היא.","שליח שנשלח לקנות ירק קונה דלועין בלא לשאול, ומכאן שהן ירק גמור.","הברייתא פוסקת שהנודר מן הירק מותר בכל זאת בדלועין, וזה מכריע את המין.","הברייתא מונה את הדלועין עם הקטניות, והקטניות אינן בכלל נדר על ירק."],"correct":0,"why":"כֹּל מִילֵּי דְּמִימְּלִיךְ עֲלֵיהּ שָׁלִיחַ — מה שהשליח נעצר לשאול עליו נחשב מאותו המין."},{"n":3,"q":"לדעת רב יוסף, כיצד יכול חבר אחד (רבי) להחזיק בשתי הבבות?","opts":["הוא פוסק כרבי עקיבא בכל, והבבא השנייה היא תוספת מאוחרת לנוסח.","הוא שונה כל בבא אחר תנא אחר — בנדרים כרבי עקיבא, ובבשר בחלב כרבנן.","הוא סובר שנדרים ובשר בחלב נידונים בשני עקרונות שאין ביניהם ולא כלום.","הוא קורא את הבבא השנייה כדרבנן ואת הראשונה כדין תורה, וכך שתיהן עומדות."],"correct":1,"why":"נָסֵיב לַהּ אַלִּיבָּא דְתַנָּאֵי — המשנה שונה תנאים שונים בשתי בבותיה."},{"n":4,"q":"על מה מבסס רב יוסף את קביעתו שעוף בחלב אסור מן התורה?","opts":["על מסורת מסיני המרחיבה את הפסוק לכל בריה שבשרה נאכל.","על שילוש הכתוב, הנדרש ככולל גם את העופות.","על כך שהמשנה אוסרת אפילו להעלות עוף עם גבינה על השולחן.","על פסיקת רבי עקיבא, שהוא מבין אותה כמדברת בחיה בלבד."],"correct":2,"why":"אילו הייתה אכילת עוף בחלב עצמה גזירה, לא היו חכמים מוסיפים עליה גזירת שולחן לשומרה — שאין גְּזֵירָה לִגְזֵירָה."},{"n":5,"q":"מדוע אומר אביי שמשנת חלת חוץ לארץ אינה מוכיחה באמת שחכמים נמנעים מגזירות מוערמות?","opts":["מפני שחלת חוץ לארץ חיובה מן התורה, ואין כאן גזירה כלל.","מפני שאותה חלה נשארת בחוץ לארץ, ששם אין כלל מה לגזור מלכתחילה.","מפני שהמשנה מדברת בתרומה ולא בחלה, ואין זה עניין לכאן.","מפני שחכמים אכן הערימו שם גזירה על גזירה, וזה סותר את כל הקושיה."],"correct":1,"why":"רק חלת חוץ לארץ שהוכנסה לארץ ישראל הייתה נותנת טעם לגזור; חלה הנשארת בחוץ לארץ אין בה טעם כזה, ואין ממנה ראיה."},{"n":6,"q":"כיצד מיישב אביי לבסוף את הסייג על עוף וגבינה בשולחן?","opts":["שמא יניחם באילפס ראשון שירד מעל האש, שמבשל באמת — ואיסור תורה הוא.","שמא יראה הרואה אותם יחד ויסיק שמותר לבשל בשר וחלב בקדרה אחת.","שמא ייגעו זה בזה על השולחן וייבלע כל אחד מטעמו של חברו.","שמא ישכח אדם איזו קערה היא איזו ויאכלם בסדר הפוך לגמרי."],"correct":0,"why":"לא כְּלִי שֵׁנִי, שאינו מבשל, אלא אִילְפָּס רִאשׁוֹן שמבשל — ונמצא שהסייג שומר על איסור תורה ולא על גזירה אחרת."},{"n":7,"q":"מה יוצא דופן במחלוקת בית שמאי ובית הלל בעוף שעל השולחן?","opts":["בית שמאי ובית הלל שנויים כמסכימים, וזה כמעט אינו קורה.","בית הלל חזרו בהם לגמרי משנשמעו להם טעמי בית שמאי.","בית שמאי מקילים ובית הלל מחמירים, היפוכו של הרגיל.","המחלוקת היא בגזירה דרבנן, ואילו שני הבתים נחלקים בדרך כלל בדין תורה."],"correct":2,"why":"רבי יוסי מונה זאת בין מִקּוּלֵּי בֵּית שַׁמַּאי וּמֵחוּמְרֵי בֵּית הִלֵּל."},{"n":8,"q":"אם רבי יוסי מסכים לתנא קמא, למה טורחת המשנה להזכיר את שמו?","opts":["להראות שטעמו של רבי יוסי היה שונה אף במקום שמסקנתו הייתה שווה.","להכריע את ההלכה, שהרי דין הנקרא על שם חכם משקלו גדול יותר.","לרשום שרבי יוסי אמרו ראשון, עוד לפני שאמרו התנא הסתמי.","ללמד שהאומר דבר בשם אומרו מביא גאולה לעולם."],"correct":3,"why":"כׇּל הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְּאוּלָּה לָעוֹלָם — כאסתר שאמרה בְּשֵׁם מׇרְדֳּכָי."},{"n":9,"q":"מה התיר אגרא בעוף וגבינה?","opts":["לאוכלם בלא נטילת ידיים ובלא קינוח הפה ביניהם.","לבשלם יחד, ובלבד שיישמרו אחר כך בנפרד גמור.","להניחם על שולחן אחד, אף שאין אוכלים אותם בסעודה אחת.","לאוכלם בכל סדר, ובלבד שייטול ידיו יפה ביניהם."],"correct":0,"why":"נֶאֱכָלִין בְּאַפִּיקוֹרַן — בְּלֹא נְטִילַת יָדַיִם וּבְלֹא קִינּוּחַ הַפֶּה."},{"n":10,"q":"כיצד הצדיק רב יצחק בריה דרב משרשיא את אכילת הבשר אחר הגבינה בלא נטילת ידיים?","opts":["אמר שאין הזהירות אלא בלילה; ביום אדם רואה שידיו נקיות.","אמר שאין הזהירות אלא בגבינה קשה, ושלו הייתה רכה.","אמר שנטילה נדרשת לפני גבינה ולעולם לא לפני בשר.","אמר שקינח את ידיו בפת, וזה עולה יפה במקום נטילה."],"correct":0,"why":"הָנֵי מִילֵּי בְּלֵילְיָא, אֲבָל בִּימָמָא הָא חָזֵינָא — לאור היום אין ספק בידיים."}]}};</script>
-<script src="assets/quiz.js?v=58d36ebd"></script>
+<script src="assets/quiz.js?v=16f2d3c3"></script>
 <script src="assets/speak.js?v=4f9f5f22"></script>
+<script src="assets/feedback.js?v=1d205ae6"></script>
 </body>
 </html>

@@ -19,5 +19,11 @@
   <div class="home"><a href="index.html">
   {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].back }}</span>{% endfor -%}
   </a></div>
+  {% if feedback %}
+  {# No href and hidden until feedback.js fills the address in; see daf.html. #}
+  <p class="feedback" hidden>✉️&nbsp;
+  {%- for l in langs %}<span data-lang="{{ l }}"><a data-q="{{ feedback[l] }}">{{ ui[l].feedback }}</a></span>{% endfor -%}
+  </p>
+  {% endif %}
 </div>
 {% endblock %}

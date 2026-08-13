@@ -62,6 +62,43 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Yehuda** (bar Ilai) — fourth-generation Tanna, leading student of Rabbi Akiva; the voice, here
+  vindicated, of *efshar lisochato asur* and *min bemino lo batil*.
+- **The Rabbis** (*Chachamim*) — the anonymous majority he disputes, holding a wrung-out piece permitted
+  and like nullified by like.
+- **Rabbi** (Yehuda HaNasi, *Rebbi*) — fifth/sixth-generation Tanna, redactor of the Mishna; his
+  even-handed compromise is shown to rest on the *wringing* question, and he comes down with Rabbi Yehuda.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Zeira** — third generation; a Babylonian who ascended to Eretz Yisrael, he transmits Rav's
+  ruling on the udder in both its versions.
+- **Rabbi Elazar** (ben Pedat) — third generation, a leading student of Rabbi Yoḥanan; teaches that a
+  single tear suffices for the udder. (Not the Tanna *Rabbi Elazar ben Shamua*, nor Rabbi Eliezer.)
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of Sura; source of the two readings of "he does not
+  transgress," and, through Rashi, of the ruling that follows Rabbi Yehuda.
+- **Rav Yehuda** (bar Yeḥezkel) — second generation, founder of Pumbedita, student of Rav and Shmuel;
+  prescribes tearing the udder *sheti va'erev*. (Note the clash of names: this **Rav** Yehuda the Amora
+  is not **Rabbi** Yehuda bar Ilai the Tanna, who also appears on this very daf.)
+- **Rav Naḥman** (bar Yaakov) — third generation, at Nehardea; Yalta's husband, who has the udders
+  roasted for her.
+- **Yalta** — Rav Naḥman's wife and daughter of the Exilarch's house (of Rabbah bar Avuha); a learned and
+  forceful figure, author of the principle that every prohibition has a permitted twin.
+- **Rav Aḥa of Difti** — a late Amora, frequent study-partner of Ravina; presses the challenge that the
+  dispute might be about like-in-like rather than wringing. (*Of Difti* — from Be-Difti; not to be
+  confused with Rav Aḥa bar Rav Ashi or the other many "Rav Aḥa"s.)
+- **Ravina** — the answer from the *shape* of Rabbi's ruling that closes the sugya. (Whether the elder
+  Ravina or his nephew, the Gemara does not fix; I would not press it.)
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 109a — The wringing dispute, finally settled
@@ -203,43 +240,6 @@ milk or blood, and what you must do about it:
 | **Udder** (*kachal*) | milk soaked through the flesh | **No** — never *collected in the innards* | No Torah violation; tear once and press the milk out (rabbinic, before cooking in a pot) |
 | **Stomach** (*keiva*) | milk the calf actually suckled | **Yes** — *collected in the innards* | Forbidden — this is true milk, and may not be cooked in it |
 | **Heart** (*lev*) | blood | Blood — but the heart is *smooth* and barely absorbs | Tear and remove the blood; a tear even *after* cooking suffices |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Yehuda** (bar Ilai) — fourth-generation Tanna, leading student of Rabbi Akiva; the voice, here
-  vindicated, of *efshar lisochato asur* and *min bemino lo batil*.
-- **The Rabbis** (*Chachamim*) — the anonymous majority he disputes, holding a wrung-out piece permitted
-  and like nullified by like.
-- **Rabbi** (Yehuda HaNasi, *Rebbi*) — fifth/sixth-generation Tanna, redactor of the Mishna; his
-  even-handed compromise is shown to rest on the *wringing* question, and he comes down with Rabbi Yehuda.
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Zeira** — third generation; a Babylonian who ascended to Eretz Yisrael, he transmits Rav's
-  ruling on the udder in both its versions.
-- **Rabbi Elazar** (ben Pedat) — third generation, a leading student of Rabbi Yoḥanan; teaches that a
-  single tear suffices for the udder. (Not the Tanna *Rabbi Elazar ben Shamua*, nor Rabbi Eliezer.)
-
-**Babylonian Amoraim**
-
-- **Rav** (Abba Arikha) — first generation, founder of Sura; source of the two readings of "he does not
-  transgress," and, through Rashi, of the ruling that follows Rabbi Yehuda.
-- **Rav Yehuda** (bar Yeḥezkel) — second generation, founder of Pumbedita, student of Rav and Shmuel;
-  prescribes tearing the udder *sheti va'erev*. (Note the clash of names: this **Rav** Yehuda the Amora
-  is not **Rabbi** Yehuda bar Ilai the Tanna, who also appears on this very daf.)
-- **Rav Naḥman** (bar Yaakov) — third generation, at Nehardea; Yalta's husband, who has the udders
-  roasted for her.
-- **Yalta** — Rav Naḥman's wife and daughter of the Exilarch's house (of Rabbah bar Avuha); a learned and
-  forceful figure, author of the principle that every prohibition has a permitted twin.
-- **Rav Aḥa of Difti** — a late Amora, frequent study-partner of Ravina; presses the challenge that the
-  dispute might be about like-in-like rather than wringing. (*Of Difti* — from Be-Difti; not to be
-  confused with Rav Aḥa bar Rav Ashi or the other many "Rav Aḥa"s.)
-- **Ravina** — the answer from the *shape* of Rabbi's ruling that closes the sugya. (Whether the elder
-  Ravina or his nephew, the Gemara does not fix; I would not press it.)
 
 ---
 

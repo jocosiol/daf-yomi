@@ -60,6 +60,43 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Akiva** — third-generation Tanna, the towering figure of the Mishnah's structure. Here:
+  wild animals and birds in milk are only rabbinic, and his rule on vows via the "agent's inquiry."
+- **The Rabbis** (*chachamim*) — Rabbi Akiva's disputants, who hold bird-in-milk is Torah law and
+  that gourds are not "vegetables" for a vow.
+- **Rabbi Yehuda HaNasi** (Rebbi) — fifth-generation Tanna, redactor of the Mishnah. Rav Yosef makes
+  him the mishnah's single author, following different Tannaim in each clause.
+- **Beit Shammai and Beit Hillel** — the two great schools of the late Second Temple / early
+  post-Destruction era. Here, unusually, Beit Shammai are the lenient side.
+- **Rabbi Yosei** (ben Chalafta) — fourth-generation Tanna, student of Rabbi Akiva. Lists this among
+  six "leniencies of Beit Shammai," and is named to honour citing one's source.
+
+**Babylonian Amoraim**
+
+- **Rav Yosef** (bar Chiyya) — third generation, Pumbedita. Both the "Rebbi as author" reading and
+  the inference that bird-in-milk is Torah law are his.
+- **Rav Ashi** — sixth generation, the great redactor of the Talmud at Sura. Reads the whole mishnah
+  as Rabbi Akiva. (Not Rabbi Asi the Eretz-Yisrael Amora of 103.)
+- **Abaye** — fourth generation, head of Pumbedita. Dismantles Rav Yosef's *challah* proof, then
+  supplies the "boiling stewpot" that keeps the fence standing.
+- **Rav Sheshet** — third generation, a blind master of tradition at Nehardea/Mechoza. Objects that
+  cold-on-cold is still only rabbinic.
+- **Agra** — described only as the **father-in-law of Rabbi Abba**; a minor figure best known for
+  this ruling on fowl and cheese. I would not press his identity further.
+- **Rav Yitzchak son of Rav Mesharshiya** — a later Babylonian Amora; the guest at Rav Ashi's table
+  who ate by daylight. A relatively minor figure.
+
+*Look-alikes worth flagging:* **Rav Ashi** the redactor (Babylonian) is not **Rabbi Asi** the
+Eretz-Yisrael Amora met on 103. **Rabbi Yosei** here is the Tanna ben Chalafta, not any of the later
+Amoraim named Yosei. And **Rabbi Akiva** the Tanna should not be confused with the many *Rav*-titled
+Amoraim.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 104a — One mishnah, two Tannaim?
@@ -161,43 +198,6 @@ The daf's question in one grid — which flesh, and on whose authority:
 | **בְּהֵמָה** — domesticated animal | Forbidden by **Torah** law, on every view | Forbidden — the Sages' fence around eating | Yes |
 | **חַיָּה וָעוֹף** — wild animal and bird | **R' Akiva:** rabbinic only. **Rav Yosef:** Torah — else the table-fence would be a fence around a fence | Forbidden (Beit Hillel). **Beit Shammai:** may be brought up, only not eaten | Yes — an agent would pause to ask about it, so it counts as meat |
 | **דָּגִים וַחֲגָבִים** — fish and grasshoppers | Permitted outright | Permitted | No — he may eat them |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Akiva** — third-generation Tanna, the towering figure of the Mishnah's structure. Here:
-  wild animals and birds in milk are only rabbinic, and his rule on vows via the "agent's inquiry."
-- **The Rabbis** (*chachamim*) — Rabbi Akiva's disputants, who hold bird-in-milk is Torah law and
-  that gourds are not "vegetables" for a vow.
-- **Rabbi Yehuda HaNasi** (Rebbi) — fifth-generation Tanna, redactor of the Mishnah. Rav Yosef makes
-  him the mishnah's single author, following different Tannaim in each clause.
-- **Beit Shammai and Beit Hillel** — the two great schools of the late Second Temple / early
-  post-Destruction era. Here, unusually, Beit Shammai are the lenient side.
-- **Rabbi Yosei** (ben Chalafta) — fourth-generation Tanna, student of Rabbi Akiva. Lists this among
-  six "leniencies of Beit Shammai," and is named to honour citing one's source.
-
-**Babylonian Amoraim**
-
-- **Rav Yosef** (bar Chiyya) — third generation, Pumbedita. Both the "Rebbi as author" reading and
-  the inference that bird-in-milk is Torah law are his.
-- **Rav Ashi** — sixth generation, the great redactor of the Talmud at Sura. Reads the whole mishnah
-  as Rabbi Akiva. (Not Rabbi Asi the Eretz-Yisrael Amora of 103.)
-- **Abaye** — fourth generation, head of Pumbedita. Dismantles Rav Yosef's *challah* proof, then
-  supplies the "boiling stewpot" that keeps the fence standing.
-- **Rav Sheshet** — third generation, a blind master of tradition at Nehardea/Mechoza. Objects that
-  cold-on-cold is still only rabbinic.
-- **Agra** — described only as the **father-in-law of Rabbi Abba**; a minor figure best known for
-  this ruling on fowl and cheese. I would not press his identity further.
-- **Rav Yitzchak son of Rav Mesharshiya** — a later Babylonian Amora; the guest at Rav Ashi's table
-  who ate by daylight. A relatively minor figure.
-
-*Look-alikes worth flagging:* **Rav Ashi** the redactor (Babylonian) is not **Rabbi Asi** the
-Eretz-Yisrael Amora met on 103. **Rabbi Yosei** here is the Tanna ben Chalafta, not any of the later
-Amoraim named Yosei. And **Rabbi Akiva** the Tanna should not be confused with the many *Rav*-titled
-Amoraim.
 
 ---
 

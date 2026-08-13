@@ -50,16 +50,17 @@ UI = {
     "en": {
         # the word in the subtitle, before the chapter number
         "chapter": "Chapter",
-        "learn": "Learn",
-        "quiz": "Chazara Quiz",
+        # The three tabs, which are the three moments of learning a daf: what you
+        # want before you open it, the daf itself, and what you do afterwards.
+        "intro": "Introduction",
+        "chazara": "Chazara",
         "cards": "Flashcards",
-        "cards_cta": "Study these as flashcards",
-        "cards_intro": "Today's key terms, one per card — the same glossary as in Learn. "
-                       "Read the term, recall what it means on this daf, then turn the card "
-                       "over and say whether you had it. Whatever you flag comes back at the "
-                       "end in a shorter second round.",
-        "tip": "Tip: press keys 1–4 to answer, Enter for next.",
-        "cards_tip": "Tip: space flips the card, ← → move, 1 / 2 rate it.",
+        "quiz_head": "Test yourself",
+        "cards_intro": "The terms above, one per card. Read the term, recall what it means "
+                       "on this daf, then turn the card over and say whether you had it. "
+                       "Whatever you flag comes back at the end in a shorter second round.",
+        "tip": "Tip: click the card, then keys 1–4 answer and Enter moves on.",
+        "cards_tip": "Tip: click the card, then space flips it, ← → move, 1 / 2 rate it.",
         "daf": "The Daf",
         "daf_mode_scan": "Printed page",
         "daf_mode_text": "Text",
@@ -71,6 +72,11 @@ UI = {
                      "the inner margin and Tosafot on the outer one. Nothing here was written "
                      "by us.",
         "daf_show": "Show",
+        # The chip for Sefaria's translation, which exists only in English and is
+        # therefore shown only in the English view — daf.css hides it in the
+        # others. The label is still written in every language, since it is the
+        # reader's chrome and not the translation, and it is what would be shown
+        # if a second translation ever made the chip worth offering to them.
         "daf_en": "English",
         "daf_sefaria": "Open on Sefaria",
         "daf_open_pdf": "Open full size",
@@ -105,27 +111,34 @@ UI = {
                            "incomplete or mistaken, and it is only a helper for your learning "
                            "— not a substitute for learning the actual daf in the Gemara. "
                            "Check anything you rely on against the source.",
+        # The link under the footer, and the one line of the mail it opens that
+        # the sender reads. Everything else in that mail is addressed to whoever
+        # receives it, so the build writes it in English; see feedback_links.
+        "feedback": "Found a mistake? Tell me",
+        "feedback_prompt": "What is wrong, or what is missing? Be as precise as you can — "
+                           "which section, and what it should say.",
     },
     "es": {
         "chapter": "Capítulo",
-        "learn": "Aprender",
-        "quiz": "Repaso (Chazará)",
+        "intro": "Introducción",
+        "chazara": "Repaso (Jazará)",
         "cards": "Tarjetas",
-        "cards_cta": "Estudiar estos con tarjetas",
-        "cards_intro": "Los términos clave de hoy, uno por tarjeta — el mismo glosario que "
-                       "en Aprender. Lee el término, recuerda qué significa en este daf, "
-                       "luego gira la tarjeta y di si lo sabías. Lo que marques vuelve al "
-                       "final en una segunda ronda, más corta.",
-        "tip": "Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.",
-        "cards_tip": "Consejo: la barra espaciadora gira la tarjeta, ← → navegan, 1 / 2 califican.",
+        "quiz_head": "Ponte a prueba",
+        "cards_intro": "Los términos de arriba, uno por tarjeta. Lee el término, recuerda "
+                       "qué significa en este daf, luego gira la tarjeta y di si lo sabías. "
+                       "Lo que marques vuelve al final en una segunda ronda, más corta.",
+        "tip": "Consejo: pulsa en la tarjeta; luego 1–4 responden y Enter continúa.",
+        "cards_tip": "Consejo: pulsa en la tarjeta; la barra espaciadora la gira, ← → navegan, 1 / 2 califican.",
         "daf": "El Daf",
         "daf_mode_scan": "Página impresa",
         "daf_mode_text": "Texto",
+        # La única traducción del daf está en inglés, así que no se muestra a
+        # quien lee en español: nada aquí la ofrece. Debajo de la página está su
+        # texto, pasaje por pasaje, en hebreo y arameo.
         "daf_intro_scan": "La página de Vilna completa, tal como está impresa — la Guemará en "
                           "el centro, Rashi y Tosafot en los márgenes, Masoret HaShas y Ein "
                           "Mishpat a los lados. Ábrela a tamaño completo para leerla con "
-                          "comodidad, y toca cualquier línea de abajo para ver ese pasaje "
-                          "traducido al inglés.",
+                          "comodidad; debajo está su texto, pasaje por pasaje.",
         "daf_intro": "El daf con la disposición de la página impresa: la Guemará en el centro, "
                      "Rashi en el margen interior y Tosafot en el exterior. Nada de esto fue "
                      "escrito por nosotros.",
@@ -133,7 +146,7 @@ UI = {
         "daf_en": "Inglés",
         "daf_sefaria": "Abrir en Sefaria",
         "daf_open_pdf": "Abrir a tamaño completo",
-        "daf_lines": "Línea por línea — toca una para verla en inglés",
+        "daf_lines": "El texto de la página, pasaje por pasaje",
         "daf_note": "Este es el daf mismo — la página de Vilna, no nuestra redacción. "
                     "No está generado por IA.",
         "daf_credit_scan": 'La página de Vilna servida por <a href="https://www.shas.org" '
@@ -160,34 +173,39 @@ UI = {
                            "texto del daf. Puede contener errores u omisiones, y es solo una "
                            "ayuda para tu estudio, no un sustituto de aprender el daf mismo en "
                            "la Guemará. Verifica en la fuente todo aquello en lo que te apoyes.",
+        "feedback": "¿Encontraste un error? Avísame",
+        "feedback_prompt": "¿Qué está mal, o qué falta? Sé lo más preciso posible: en qué "
+                           "sección, y qué debería decir.",
     },
     # Hebrew reads right to left, so an arrow in a label points the other way:
     # "back" is → and "next" is ←. The glyph is not mirrored by the browser —
     # only its position in the line is — so the right one has to be written here.
     "he": {
         "chapter": "פרק",
-        "learn": "לימוד",
-        "quiz": "חזרה",
+        "intro": "הקדמה",
+        "chazara": "חזרה",
         "cards": "כרטיסיות",
-        "cards_cta": "ללמוד את המונחים האלה בכרטיסיות",
-        "cards_intro": "המונחים המרכזיים של היום, אחד לכל כרטיס — אותו מילון שבלשונית הלימוד. "
-                       "קראו את המונח, נסו להיזכר מה משמעותו בדף הזה, ואז הפכו את הכרטיס "
-                       "ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף בסיבוב שני, קצר יותר.",
-        "tip": "טיפ: הקישו 1–4 כדי לענות, ו-Enter כדי להמשיך.",
-        "cards_tip": "טיפ: מקש הרווח הופך את הכרטיס, ← → מדפדפים, 1 / 2 מדרגים.",
+        "quiz_head": "בחנו את עצמכם",
+        "cards_intro": "המונחים שלמעלה, אחד לכל כרטיס. קראו את המונח, נסו להיזכר מה משמעותו "
+                       "בדף הזה, ואז הפכו את הכרטיס ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף "
+                       "בסיבוב שני, קצר יותר.",
+        "tip": "טיפ: הקישו על הכרטיס; אחר כך 1–4 עונים ו-Enter ממשיך.",
+        "cards_tip": "טיפ: הקישו על הכרטיס; מקש הרווח הופך אותו, ← → מדפדפים, 1 / 2 מדרגים.",
         "daf": "הדף",
         "daf_mode_scan": "הדף המודפס",
         "daf_mode_text": "טקסט",
+        # התרגום היחיד של הדף הוא לאנגלית, ולכן אינו מוצג למי שקורא בעברית —
+        # ואין כאן מה שמציע אותו. מתחת לדף מופיע הטקסט שלו, קטע אחר קטע.
         "daf_intro_scan": "דף וילנא כולו כפי שהוא מודפס — הגמרא באמצע, רש״י ותוספות בשוליים, "
-                          "מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות, "
-                          "והקישו על כל שורה שמתחתיו כדי לראות את אותו קטע באנגלית.",
+                          "מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות; "
+                          "מתחתיו מופיע הטקסט שלו, קטע אחר קטע.",
         "daf_intro": "הדף בעימוד שבו הוא מודפס: הגמרא באמצע, רש״י בשוליים הפנימיים ותוספות "
                      "בחיצוניים. שום דבר כאן לא נכתב על ידינו.",
         "daf_show": "הצגה",
         "daf_en": "אנגלית",
         "daf_sefaria": "פתיחה בספריא",
         "daf_open_pdf": "פתיחה בגודל מלא",
-        "daf_lines": "שורה אחר שורה — הקישו על שורה כדי לראות אותה באנגלית",
+        "daf_lines": "טקסט הדף, קטע אחר קטע",
         "daf_note": "זהו הדף עצמו — דף וילנא, ולא כתיבה שלנו. "
                     "הוא אינו מיוצר בבינה מלאכותית.",
         "daf_credit_scan": 'דף וילנא מוגש על ידי <a href="https://www.shas.org" '
@@ -212,6 +230,9 @@ UI = {
         "disclaimer_foot": "הדף הזה נכתב בידי בינה מלאכותית מתוך טקסט הדף. הוא עלול להיות "
                            "חלקי או שגוי, והוא רק עזר ללימוד — לא תחליף ללימוד הדף עצמו "
                            "בגמרא. בדקו במקור כל דבר שאתם נסמכים עליו.",
+        "feedback": "מצאתם טעות? כתבו לי",
+        "feedback_prompt": "מה שגוי, או מה חסר? כתבו במדויק כמה שאפשר — באיזה חלק, "
+                           "ומה צריך להיות כתוב.",
     },
 }
 

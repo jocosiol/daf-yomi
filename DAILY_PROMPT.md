@@ -133,28 +133,50 @@ the new chapter begins.
 
 ### Then the prose, as `## ` sections in this order
 
+**The order is not presentation — the build cuts the sheet into tabs at these headings.**
+The page reads as three moments, in this order:
+
+| Tab | What is in it |
+|---|---|
+| 📖 **Introduction** | (a) the big picture, (b) the terms — with the flashcard deck under them — and (c) who's who |
+| 📜 **The Daf** | the Vilna page and its text. Not written by you; the build fetches it |
+| 🎯 **Chazara** | (d) the walkthrough, (e) the grid, (f) the line to carry — then the test |
+
+The cut is the `## Walking through the sugya` heading: everything above it is the
+Introduction, and that heading and everything after it is Chazara. So a section in the
+wrong place opens in the wrong tab. Write the seven sections in the order below and the
+three tabs fall out on their own — there is nothing else to do to build them.
+
 **(a) `## The big picture (read this first)`** — what today's page is really about, and why
 it matters. A blockquote for the central idea works well.
 
 **(b) `## Key concepts & terms`** — a markdown table, `| Term | Meaning |`, with the
 Hebrew/Aramaic term, its transliteration, and what it means on this daf.
 
-It sits here, before the walkthrough, because it is the vocabulary the walkthrough is about
-to use: read the terms first and the argument is followable. Write it *after* the walkthrough
-even so — you only know which words carry the daf once you have laid the argument out — then
-put it above.
+It sits in the Introduction because it is the vocabulary the daf is about to use: read the
+terms first and the argument is followable. Write it *after* the walkthrough even so — you
+only know which words carry the daf once you have laid the argument out — then put it here.
 
-This table is also the daf's **flashcard deck**: the build turns each row into a card,
-term on the front and meaning on the back. So write each side to stand on its own — a
-meaning that only makes sense while looking at the row above it makes a poor card. The
-translation must have the same terms in the same order; `validate.py` rejects a glossary
-that has gained or lost a row.
+This table is also the daf's **flashcard deck**: the build turns each row into a card, term
+on the front and meaning on the back, and drops the deck into the page directly beneath the
+table. So write each side to stand on its own — a meaning that only makes sense while
+looking at the row above it makes a poor card. The translation must have the same terms in
+the same order; `validate.py` rejects a glossary that has gained or lost a row.
 
-**(c) `## Walking through the sugya, step by step`** — the argument in order, with `### `
+**(c) `## Who's who in today's daf`** — for **every** sage named, a one-line ID: era
+(**Tanna** / **Babylonian Amora** / **Eretz-Yisrael Amora**), approximate generation, where
+they lived, and a teacher or famous disputant. Group by era if the list is long.
+- Title tells: **Rav** = Babylonian Amora; **Rabbi** = Tanna or Eretz-Yisrael Amora;
+  **Rebbi** alone = R' Yehuda HaNasi.
+- Flag look-alikes explicitly: Rabbah (רבה) vs Rava (רבא); Mar bar Rav Ashi vs Rav Acha bar
+  Rav Ashi; Rabbi Chiyya vs Rabbi Chiyya bar Abba; Rav Asi vs Rav Ashi.
+- **If you are unsure about a minor figure, say so plainly.** Never invent a biography.
+
+**(d) `## Walking through the sugya, step by step`** — the argument in order, with `### `
 subheadings per amud (`### 102a — …`). Bold the moves (**The objection.**, **The answer.**)
 so it can be skimmed. Quote key Aramaic inline with its translation.
 
-**(d) `## The distinctions, side by side`** — one markdown table that collapses the daf's
+**(e) `## The distinctions, side by side`** — one markdown table that collapses the daf's
 central distinction into a grid you can take in at a glance.
 
 This is **not** the terms table. That one is a glossary: term → meaning, one row per word.
@@ -182,15 +204,6 @@ Rules that keep it useful:
 - **If the daf genuinely has no clean matrix** — a pure narrative or aggadic stretch — use
   the section for an ordered table of the sugya's moves instead
   (`| Move | The claim | How it ends |`), and keep it short. Do not force a grid.
-
-**(e) `## Who's who in today's daf`** — for **every** sage named, a one-line ID: era
-(**Tanna** / **Babylonian Amora** / **Eretz-Yisrael Amora**), approximate generation, where
-they lived, and a teacher or famous disputant. Group by era if the list is long.
-- Title tells: **Rav** = Babylonian Amora; **Rabbi** = Tanna or Eretz-Yisrael Amora;
-  **Rebbi** alone = R' Yehuda HaNasi.
-- Flag look-alikes explicitly: Rabbah (רבה) vs Rava (רבא); Mar bar Rav Ashi vs Rav Acha bar
-  Rav Ashi; Rabbi Chiyya vs Rabbi Chiyya bar Abba; Rav Asi vs Rav Ashi.
-- **If you are unsure about a minor figure, say so plainly.** Never invent a biography.
 
 **(f) `## One line to carry with you`** — one memorable takeaway, as a blockquote.
 
@@ -269,7 +282,8 @@ the translation cannot disagree with the English about which day it is.
   in the same order, only the words translated. Do not add a row the English sheet does not
   have, or merge two of them. Validation compares the shape and fails on a mismatch.
 - Names use Spanish-Hebrew convention: Abaie, Rabá, Rava, Iehudá, Iojanán, Iehoshúa, Jiiá,
-  Janiná, Itzjak, Erretz Israel, cohén, Guemará, baraita, mishná, halajá, trumá, suguiá.
+  Janiná, Itzjak, Erretz Israel, cohén, Guemará, baraita, mishná, halajá, trumá, suguiá,
+  jazará.
   The tractate name in `title` is transliterated (`Julín`), but **file names never change** —
   they stay `content/Chullin_<page>.es.md`.
 - Register: the warm, direct "tú" voice of the English sheet. Not academic Spanish.
@@ -280,11 +294,11 @@ the translation cannot disagree with the English about which day it is.
 |---|---|
 | The big picture (read this first) | El panorama general (leer esto primero) |
 | Key concepts & terms | Conceptos y términos clave |
+| Who's who in today's daf | Quién es quién en el daf de hoy |
 | Walking through the sugya, step by step | Recorriendo la suguiá, paso a paso |
 | The distinctions, side by side | Las distinciones, lado a lado |
-| Who's who in today's daf | Quién es quién en el daf de hoy |
 | One line to carry with you | Una línea para llevarte |
-| Chazara — test yourself | Chazará — ponte a prueba |
+| Chazara — test yourself | Jazará — ponte a prueba |
 
 Use `content/Chullin_98.es.md` and `content/Chullin_99.es.md` as the reference for tone and
 terminology.
@@ -338,9 +352,9 @@ the file is `content/Chullin_<page>.he.md`.
 |---|---|
 | The big picture (read this first) | התמונה הגדולה (לקרוא קודם) |
 | Key concepts & terms | מושגים ומונחים מרכזיים |
+| Who's who in today's daf | מי ומי בדף של היום |
 | Walking through the sugya, step by step | עוברים על הסוגיה, צעד אחר צעד |
 | The distinctions, side by side | ההבחנות, זו מול זו |
-| Who's who in today's daf | מי ומי בדף של היום |
 | One line to carry with you | שורה אחת לקחת אתכם |
 | Chazara — test yourself | חזרה — בחנו את עצמכם |
 

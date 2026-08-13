@@ -56,6 +56,50 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Yehuda** (bar Ilai) — fourth-generation Tanna, student of Rabbi Akiva; the anonymous
+  "Rabbi Yehuda" of the Mishnah. Here: brine's measure, and *min bemino* is never nullified.
+- **Rabbi Yishmael b'Rabbi Yochanan ben Beroka** — fourth-generation Tanna, son of Rabbi
+  Yochanan ben Beroka. His ruling that sinews have no taste becomes the halacha.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Chanina** (bar Chama) — first generation, Tzippori; a leading colleague-student of
+  Rebbi. Here: permits the thigh, twice.
+- **Rabbi Yehoshua ben Levi** — first generation, Lod; contemporary of Rabbi Yochanan. The
+  lenient ruling is transmitted in his name.
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy. Named
+  here only as background to the transmission.
+- **Rabbi Ami** (Rabbi Ammi) — third generation, succeeded Rabbi Yochanan's circle in Tiberias.
+  Sends questioners to a more lenient colleague rather than rule strictly for them.
+- **Rabbi Yosei b'Rabbi Chanina** — second generation, Caesarea; student of Rabbi Yochanan.
+  Source of "not all measures are equal."
+- **Rabbi Yitzchak ben Chalov** — a minor figure known mainly as a transmitter of lenient rulings
+  in Rabbi Yehoshua ben Levi's name; I would not want to guess at more than that.
+- **Rabbi Yehuda bar Zevina** — an obscure figure; he appears here as the sceptic at the gate,
+  and I would not want to place his generation confidently.
+
+**Babylonian Amoraim**
+
+- **Rav Huna** — second generation, head of the academy at Sura and the foremost student of Rav.
+  Here: the mishnah's measure means meat cooked with turnip-heads.
+- **Abaye** — fourth generation, head of Pumbedita; the great disputant of Rava. Here he both
+  demolishes Rav Dimi's position and then supplies its defence.
+- **Rav Dimi** — fourth generation; a traveller between Eretz Yisrael and Babylonia who
+  transmitted Eretz-Yisrael teachings. Here on the receiving end of Abaye's questioning.
+- **Rav Shmuel bar Rav Yitzchak** — third generation; his "one hundred" is the position under
+  examination all through 99a–99b.
+- **Ravina** — fifth/sixth generation, of the circle that redacted the Talmud. Here: the word
+  **זֶה** teaches about the place of the cut.
+
+*A look-alike worth flagging:* **Rabbi Chanina** (Eretz-Yisrael Amora, above) is not **Rabbi Yosei
+b'Rabbi Chanina**, who is his junior by a generation and belongs to Caesarea.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 99a — Why the anomaly objection does not sink sixty
@@ -181,50 +225,6 @@ nullified by the majority! The answer waits for tomorrow's first line.
 | **1:60** | Torah prohibitions generally | The nazirite's ram, meat **and bones** | Abaye's reading of the *Orla* beans: under 101, no flavor, still permitted |
 | **1:100** | Rav Shmuel bar Rav Yitzchak's claim, taught by Rav Dimi | The same ram, meat against meat | Cornered by Abaye until **אִישְׁתִּיק** — Rav Dimi fell silent |
 | **≈1:192** | *צִיר*, the brine of a non-kosher fish | R' Yehuda: a quarter-*log* forbids two *se'ah* | The measures are not one system; and brine is only *זֵיעָה בְּעָלְמָא*, mere sweat |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Yehuda** (bar Ilai) — fourth-generation Tanna, student of Rabbi Akiva; the anonymous
-  "Rabbi Yehuda" of the Mishnah. Here: brine's measure, and *min bemino* is never nullified.
-- **Rabbi Yishmael b'Rabbi Yochanan ben Beroka** — fourth-generation Tanna, son of Rabbi
-  Yochanan ben Beroka. His ruling that sinews have no taste becomes the halacha.
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Chanina** (bar Chama) — first generation, Tzippori; a leading colleague-student of
-  Rebbi. Here: permits the thigh, twice.
-- **Rabbi Yehoshua ben Levi** — first generation, Lod; contemporary of Rabbi Yochanan. The
-  lenient ruling is transmitted in his name.
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy. Named
-  here only as background to the transmission.
-- **Rabbi Ami** (Rabbi Ammi) — third generation, succeeded Rabbi Yochanan's circle in Tiberias.
-  Sends questioners to a more lenient colleague rather than rule strictly for them.
-- **Rabbi Yosei b'Rabbi Chanina** — second generation, Caesarea; student of Rabbi Yochanan.
-  Source of "not all measures are equal."
-- **Rabbi Yitzchak ben Chalov** — a minor figure known mainly as a transmitter of lenient rulings
-  in Rabbi Yehoshua ben Levi's name; I would not want to guess at more than that.
-- **Rabbi Yehuda bar Zevina** — an obscure figure; he appears here as the sceptic at the gate,
-  and I would not want to place his generation confidently.
-
-**Babylonian Amoraim**
-
-- **Rav Huna** — second generation, head of the academy at Sura and the foremost student of Rav.
-  Here: the mishnah's measure means meat cooked with turnip-heads.
-- **Abaye** — fourth generation, head of Pumbedita; the great disputant of Rava. Here he both
-  demolishes Rav Dimi's position and then supplies its defence.
-- **Rav Dimi** — fourth generation; a traveller between Eretz Yisrael and Babylonia who
-  transmitted Eretz-Yisrael teachings. Here on the receiving end of Abaye's questioning.
-- **Rav Shmuel bar Rav Yitzchak** — third generation; his "one hundred" is the position under
-  examination all through 99a–99b.
-- **Ravina** — fifth/sixth generation, of the circle that redacted the Talmud. Here: the word
-  **זֶה** teaches about the place of the cut.
-
-*A look-alike worth flagging:* **Rabbi Chanina** (Eretz-Yisrael Amora, above) is not **Rabbi Yosei
-b'Rabbi Chanina**, who is his junior by a generation and belongs to Caesarea.
 
 ---
 

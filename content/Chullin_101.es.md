@@ -57,6 +57,54 @@ Cuatro movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Shimón** (bar Iojái) — cuarta generación, alumno de Rabí Akivá. Exime por completo; Rava
+  explica cómo.
+- **Rabí Iehudá** (bar Ilai) — cuarta generación, alumno de Rabí Akivá. La voz estricta tanto sobre
+  el *guid* como sobre el *éver min hajai*.
+- **Rabí Meir** — cuarta generación, alumno de Rabí Akivá; dos series de azotes por el *guid* de un
+  cadáver.
+- **Rabí Akivá** — tercera generación, Bnei Brak; maestro de los cuatro anteriores. Tras la
+  inversión, es quien sostiene que cada día se sostiene de forma independiente.
+- **Rabí Iosí HaGuelilí** — tercera generación, contemporáneo de Rabí Akivá, de la Galilea. El tana
+  que no acepta ni el *isur kolel* ni la severidad como fundamento para una segunda prohibición.
+- **Rabí Elazar** (ben Shamúa) — cuarta generación, alumno de Rabí Akivá. Se une a Rabí Iehudá sobre
+  el *éver min hajai*. No confundir con el amorá Rabí Elazar ben Pedat.
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberias. Tanto el
+  dictamen sobre Shabat y Iom Kipur como la observación de que ambos bandos leen un versículo.
+- **Rabí Iosí b'Rabí Janiná** — segunda generación, Cesarea; alumno de Rabí Iojanán. Fuente de
+  "invierte las atribuciones".
+- **Rav Itzjak bar Iaakov bar Guiorei** — una figura menor, conocida como transmisor de los
+  dictámenes de Rabí Iojanán a Babilonia por carta; no querría aventurar más.
+
+**Amoraím de Babilonia**
+
+- **Rav** (Aba Arijá) — primera generación, fundador de Sura. Fuente de la tradición de Rabí Meir,
+  vía Rav Iehudá.
+- **Rav Iehudá** (bar Iejezkel) — segunda generación, cabeza de Pumbedita; alumno de Rav y Shmuel.
+- **Abaie** — cuarta generación, cabeza de Pumbedita. Explica a Rabí Iojanán con "Shabat es fijo".
+- **Rava** — cuarta generación, Majoza. Refuta a Abaie y reemplaza la explicación con el año de
+  persecución; también explica a Rabí Shimón y a Rabí Iosí HaGuelilí.
+- **Rav Ashi** — sexta generación, cabeza de Sura y uno de los principales redactores del Talmud.
+  "¿Quién dice que la impureza del cuerpo es peor?" y "¿acaso la Torá se dio en cuotas?".
+- **Rav Aja hijo de Rava** — sexta generación, colega de Rav Ashi. Presiona la pregunta sobre el
+  momento en que empieza el nombre "Israel".
+- **Ravin** (Rav Avin) — cuarta generación; uno de los *nejutei*, los sabios que bajaban de Erretz
+  Israel llevando sus enseñanzas a Babilonia.
+
+*Parecidos que vale señalar:* **Rabí Iosí HaGuelilí** (tana) no es **Rabí Iosí b'Rabí Janiná**
+(amorá), ni tampoco **Rabí Iosí** de la Mishná. **Rav Aja hijo de Rava** no es **Rav Aja bar
+Iaakov**, ni **Mar bar Rav Ashi**. Y una vez más: **Rabá** (רבה) y **Rava** (רבא) difieren en una
+sola letra.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 101a — ¿Cómo puede Rabí Shimón eximir por completo?
@@ -219,54 +267,6 @@ Tres vías por las que una segunda prohibición podría entrar de todos modos, y
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Shimón** (bar Iojái) — cuarta generación, alumno de Rabí Akivá. Exime por completo; Rava
-  explica cómo.
-- **Rabí Iehudá** (bar Ilai) — cuarta generación, alumno de Rabí Akivá. La voz estricta tanto sobre
-  el *guid* como sobre el *éver min hajai*.
-- **Rabí Meir** — cuarta generación, alumno de Rabí Akivá; dos series de azotes por el *guid* de un
-  cadáver.
-- **Rabí Akivá** — tercera generación, Bnei Brak; maestro de los cuatro anteriores. Tras la
-  inversión, es quien sostiene que cada día se sostiene de forma independiente.
-- **Rabí Iosí HaGuelilí** — tercera generación, contemporáneo de Rabí Akivá, de la Galilea. El tana
-  que no acepta ni el *isur kolel* ni la severidad como fundamento para una segunda prohibición.
-- **Rabí Elazar** (ben Shamúa) — cuarta generación, alumno de Rabí Akivá. Se une a Rabí Iehudá sobre
-  el *éver min hajai*. No confundir con el amorá Rabí Elazar ben Pedat.
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberias. Tanto el
-  dictamen sobre Shabat y Iom Kipur como la observación de que ambos bandos leen un versículo.
-- **Rabí Iosí b'Rabí Janiná** — segunda generación, Cesarea; alumno de Rabí Iojanán. Fuente de
-  "invierte las atribuciones".
-- **Rav Itzjak bar Iaakov bar Guiorei** — una figura menor, conocida como transmisor de los
-  dictámenes de Rabí Iojanán a Babilonia por carta; no querría aventurar más.
-
-**Amoraím de Babilonia**
-
-- **Rav** (Aba Arijá) — primera generación, fundador de Sura. Fuente de la tradición de Rabí Meir,
-  vía Rav Iehudá.
-- **Rav Iehudá** (bar Iejezkel) — segunda generación, cabeza de Pumbedita; alumno de Rav y Shmuel.
-- **Abaie** — cuarta generación, cabeza de Pumbedita. Explica a Rabí Iojanán con "Shabat es fijo".
-- **Rava** — cuarta generación, Majoza. Refuta a Abaie y reemplaza la explicación con el año de
-  persecución; también explica a Rabí Shimón y a Rabí Iosí HaGuelilí.
-- **Rav Ashi** — sexta generación, cabeza de Sura y uno de los principales redactores del Talmud.
-  "¿Quién dice que la impureza del cuerpo es peor?" y "¿acaso la Torá se dio en cuotas?".
-- **Rav Aja hijo de Rava** — sexta generación, colega de Rav Ashi. Presiona la pregunta sobre el
-  momento en que empieza el nombre "Israel".
-- **Ravin** (Rav Avin) — cuarta generación; uno de los *nejutei*, los sabios que bajaban de Erretz
-  Israel llevando sus enseñanzas a Babilonia.
-
-*Parecidos que vale señalar:* **Rabí Iosí HaGuelilí** (tana) no es **Rabí Iosí b'Rabí Janiná**
-(amorá), ni tampoco **Rabí Iosí** de la Mishná. **Rav Aja hijo de Rava** no es **Rav Aja bar
-Iaakov**, ni **Mar bar Rav Ashi**. Y una vez más: **Rabá** (רבה) y **Rava** (רבא) difieren en una
-sola letra.
-
----
-
 ## Una línea para llevarte
 
 > Antes de rankear dos prohibiciones, pregúntate si puedes. La respuesta de Rav Ashi no es que la
@@ -275,7 +275,7 @@ sola letra.
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: Según Rava, ¿por qué exime Rabí Shimón de todo azote a quien come el nervio sciático de un animal

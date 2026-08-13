@@ -68,6 +68,58 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaitic / transitional**
+
+- **Rav Chiyya** (Rabbi Chiyya the Great) — a *tanna* of the generation bridging Mishna and Gemara,
+  uncle and teacher of Rav; invoked here for his "sharp mind," which supposedly let a narrow teaching be
+  given to Rav unspecified. (Titled *Rabbi* Chiyya as a rule; not to be confused with the Amora **Rabbi
+  Chiyya bar Abba**.)
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Elazar** (ben Pedat) — third generation, leading student of Rabbi Yoḥanan; opens the inquiry
+  into Rav's source on ascending to Eretz Yisrael. (Not Rabbi Eliezer the Tanna, nor Rabbi Elazar ben
+  Shamua.)
+- **Rabbi Yitzḥak Nappaḥa** — third generation; named only as the father of Rav Pappi's wife and "a
+  master of good deeds," the guarantor of her kitchen.
+- **Rav Zerika** — third/fourth generation; reports to Rav Safra that he cooked liver for Rabbi Ami.
+- **Rabbi Ami** — third generation, a leading authority in Tiberias after Rabbi Yoḥanan; ate the liver
+  Rav Zerika cooked.
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of Sura; the stringency on the udder is traced to
+  him, whether as his own fence or as an over-generalized teaching.
+- **Ze'eiri** — first/second generation, a Babylonian who settled in Eretz Yisrael; directs Rabbi Elazar
+  to the source of Rav's teaching.
+- **Rav Yitzḥak bar Avudimi** — early Amora; the *tanna* said to have taught (or not taught) Rav about
+  the udder. A relatively minor figure; I would not press details of his biography.
+- **Rav Kahana** — a common name across generations; here simply the tradent of the first version. Which
+  Rav Kahana is not fixed, so I leave it open.
+- **Rav Yosei bar Abba** — a minor tradent, source of the second version of the teaching; little is known
+  of him beyond such transmissions.
+- **Ravin** (Rav Avin) — fourth generation, famous for carrying Eretz-Yisrael traditions down to Babylonia
+  (*ki ata Ravin*); declines the udder at Rav Pappi's until reassured. (Written רבין; distinct from Rabin
+  vs. the many "Ravina"s.)
+- **Rav Yitzḥak bar Yosef** — fourth generation, another Eretz-Yisrael-to-Babylonia tradent; eats the
+  udder without hesitation.
+- **Rav Pappi** — fourth/fifth generation, student of Rava; host of the udder dish, married to Rabbi
+  Yitzḥak Nappaḥa's daughter.
+- **Abaye** — fourth generation, head of Pumbedita; reassures Ravin and later frames the liver dilemma.
+- **Rami bar Tamrei** (= **Rami bar Dikulei**) — a Pumbeditan folk-sage; the hero of the daf's central
+  story, who out-argues Rav Chisda point by point.
+- **Rav Yehuda** (bar Yeḥezkel) — second generation, founder of Pumbedita; his rulings (intestinal
+  illness and tefillin, borrowed robe and fringes) are Rami's authorities. (This **Rav** Yehuda the
+  Amora, not **Rabbi** Yehuda bar Ilai the Tanna.)
+- **Rav Chisda** — third generation, of Sura; the judge who cross-examines Rami and concedes his
+  sharpness.
+- **Rav Safra** — third/fourth generation, a merchant-scholar who traveled between Babylonia and Eretz
+  Yisrael; Abaye's messenger for the liver question.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 110a — The baraita, and where Rav's stringency was born
@@ -179,58 +231,6 @@ did looked forbidden, and five times he named the exact rule that cleared him.
 | **Took the grape seeds** | They might be **stolen** property | The owners had **despaired** — grass grew among them |
 | **Wore no tefillin** | Tefillin are obligatory | **Intestinal illness** exempts (Rav Yehuda) |
 | **Wore no tzitzit** | Fringes are obligatory | A **borrowed robe** is exempt for **thirty days** (Rav Yehuda) |
-
----
-
-## Who's who in today's daf
-
-**Tannaitic / transitional**
-
-- **Rav Chiyya** (Rabbi Chiyya the Great) — a *tanna* of the generation bridging Mishna and Gemara,
-  uncle and teacher of Rav; invoked here for his "sharp mind," which supposedly let a narrow teaching be
-  given to Rav unspecified. (Titled *Rabbi* Chiyya as a rule; not to be confused with the Amora **Rabbi
-  Chiyya bar Abba**.)
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Elazar** (ben Pedat) — third generation, leading student of Rabbi Yoḥanan; opens the inquiry
-  into Rav's source on ascending to Eretz Yisrael. (Not Rabbi Eliezer the Tanna, nor Rabbi Elazar ben
-  Shamua.)
-- **Rabbi Yitzḥak Nappaḥa** — third generation; named only as the father of Rav Pappi's wife and "a
-  master of good deeds," the guarantor of her kitchen.
-- **Rav Zerika** — third/fourth generation; reports to Rav Safra that he cooked liver for Rabbi Ami.
-- **Rabbi Ami** — third generation, a leading authority in Tiberias after Rabbi Yoḥanan; ate the liver
-  Rav Zerika cooked.
-
-**Babylonian Amoraim**
-
-- **Rav** (Abba Arikha) — first generation, founder of Sura; the stringency on the udder is traced to
-  him, whether as his own fence or as an over-generalized teaching.
-- **Ze'eiri** — first/second generation, a Babylonian who settled in Eretz Yisrael; directs Rabbi Elazar
-  to the source of Rav's teaching.
-- **Rav Yitzḥak bar Avudimi** — early Amora; the *tanna* said to have taught (or not taught) Rav about
-  the udder. A relatively minor figure; I would not press details of his biography.
-- **Rav Kahana** — a common name across generations; here simply the tradent of the first version. Which
-  Rav Kahana is not fixed, so I leave it open.
-- **Rav Yosei bar Abba** — a minor tradent, source of the second version of the teaching; little is known
-  of him beyond such transmissions.
-- **Ravin** (Rav Avin) — fourth generation, famous for carrying Eretz-Yisrael traditions down to Babylonia
-  (*ki ata Ravin*); declines the udder at Rav Pappi's until reassured. (Written רבין; distinct from Rabin
-  vs. the many "Ravina"s.)
-- **Rav Yitzḥak bar Yosef** — fourth generation, another Eretz-Yisrael-to-Babylonia tradent; eats the
-  udder without hesitation.
-- **Rav Pappi** — fourth/fifth generation, student of Rava; host of the udder dish, married to Rabbi
-  Yitzḥak Nappaḥa's daughter.
-- **Abaye** — fourth generation, head of Pumbedita; reassures Ravin and later frames the liver dilemma.
-- **Rami bar Tamrei** (= **Rami bar Dikulei**) — a Pumbeditan folk-sage; the hero of the daf's central
-  story, who out-argues Rav Chisda point by point.
-- **Rav Yehuda** (bar Yeḥezkel) — second generation, founder of Pumbedita; his rulings (intestinal
-  illness and tefillin, borrowed robe and fringes) are Rami's authorities. (This **Rav** Yehuda the
-  Amora, not **Rabbi** Yehuda bar Ilai the Tanna.)
-- **Rav Chisda** — third generation, of Sura; the judge who cross-examines Rami and concedes his
-  sharpness.
-- **Rav Safra** — third/fourth generation, a merchant-scholar who traveled between Babylonia and Eretz
-  Yisrael; Abaye's messenger for the liver question.
 
 ---
 

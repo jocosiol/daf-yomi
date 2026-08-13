@@ -48,7 +48,8 @@ import yaml
 import i18n
 
 FRONT_MATTER = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?", re.S)
-CHAZARA_H2 = re.compile(r"^##\s+(?:Chazar[aá]|חזרה)\b.*$", re.M | re.I)
+# Chazara in English, Jazará in Spanish (chet transliterates to j there), חזרה in Hebrew.
+CHAZARA_H2 = re.compile(r"^##\s+(?:Chazar[aá]|Jazar[aá]|חזרה)\b.*$", re.M | re.I)
 YAML_FENCE = re.compile(r"```ya?ml\r?\n(.*?)```", re.S)
 # Chullin_98.es.md -> ("Chullin_98", "es");  Chullin_98.md -> ("Chullin_98", None)
 STEM = re.compile(r"^(?P<base>.+?)(?:\.(?P<lang>[a-z]{2}(?:-[a-z]{2})?))?$", re.I)

@@ -58,6 +58,74 @@ Cuatro movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Shimón ben Elazar** — tana de la quinta generación, alumno de Rabí Meir; aporta la baraita
+  sobre el agua no apta para animales que refleja la disputa de Tiberias.
+- **Rabí Elazar ben Araj** — el célebre tana, alumno preeminente de Rabán Iojanán ben Zakai; citado por
+  Rava como la fuente que ancló el lavado de manos en el versículo del *zav* de la Torá. (La atribución
+  de una derivación del lavado de manos a una figura tan temprana la discuten los comentaristas; no
+  construiría sobre ella más de lo que hace la Guemará.)
+- **Rabán Gamliel hijo de Rebí** — Rabán Gamliel III, hijo de Rabí Iehudá HaNasí, que lo sucedió como
+  Nasí; Rabí Iojanán cita su práctica sobre el agua caliente.
+
+**Amoraím de Erretz Israel**
+
+- **Jizkiiá** — hijo de Rabí Jiiá, figura de la primera generación a caballo entre las eras tanaítica y
+  amoraica; aquí la voz estricta tanto sobre el agua caliente como sobre los manantiales de Tiberias.
+- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberias; la voz
+  indulgente, respaldada por la práctica de los grandes de la Galilea.
+- **Rabí Iehoshúa ben Leví** — amorá de la primera generación de Lod; nombrado como el abuelo del levita
+  Rabí Meiashá.
+- **Rabí Meiashá** — nieto de Rabí Iehoshúa ben Leví, un levita; su dictamen muestra que la postura
+  estricta no era mera cautela sacerdotal.
+- **Rabí Oshaiá** (Rabá) — amorá de la primera generación, maestro de baraitot; fuente (vía Rabí Elazar)
+  de que lavarse antes de la fruta es solo por limpieza.
+- **Rabí Elazar** (ben Pedat) — amorá de la tercera generación, alumno de Rabí Iojanán; transmite el
+  dictamen de Rabí Oshaiá. **No** es Rabí Elazar ben Araj, el tana de arriba.
+- **Rabí Amí y Rabí Así** — colegas de la tercera generación, sabios principales de Tiberias; Rabá bar
+  bar Janá aprende tres dictámenes al verlos comer fruta.
+
+**Amoraím de Babilonia**
+
+- **Rav Dimí** y **Ravín** — *najutei* de la cuarta generación, sabios que trasladaban enseñanzas de
+  Erretz Israel a Babilonia; dan las dos versiones de las catástrofes del lavado.
+- **Rabí Abá** — sabio nacido en Babilonia que se asentó en Erretz Israel (tercera generación); enseña
+  el detalle grave de cada versión.
+- **Rav Najmán bar Itzjak** — cuarta generación, más tarde cabeza de Pumbedita; autor de la regla
+  mnemotécnica.
+- **Rav Idí bar Avín** y **Rav Itzjak bar Ashián** — la pareja detrás de la razón del *sérej trumá*;
+  ambos son transmisores menores, y no forzaría más sus biografías.
+- **Abaie** — cuarta generación, cabeza de Pumbedita; "la mitzvá de obedecer a los Sabios".
+- **Rava** — cuarta generación, cabeza de Majoza; "ni obligación ni mitzvá, sino opcional", y el lector
+  del versículo de Rabí Elazar ben Araj.
+- **Rav Najmán** (bar Iaacov) — tercera generación, Nehardea; lavarse antes de la fruta es "de los
+  arrogantes".
+- **Rabá bar bar Janá** — tercera generación, un babilonio que estudió con Rabí Iojanán en Erretz Israel;
+  el testigo ocular de Rabí Amí y Rabí Así.
+- **Rav** (Abá Arijá) — primera generación, fundador de Sura; la lectura de las dos articulaciones, y el
+  permiso de lavarse una vez por la mañana.
+- **Shmuel** — primera generación, cabeza de Nehardea; la línea única estricta para ambos.
+- **Rav Sheshet** — tercera generación, un maestro ciego de la tradición en Nehardea y Mejoza; la línea
+  única indulgente para ambos.
+- **Rav Papa** — quinta generación, fundador de la academia de Naresh; disuelve la disputa de Tiberias.
+- **Bar Hedia** — contemporáneo de Abaie y Rava (más conocido como intérprete de sueños); informa la
+  práctica de Rabí Amí.
+
+*Parecidos que vale señalar:*
+- **Rav Najmán** (bar Iaacov) y **Rav Najmán bar Itzjak** son dos sabios distintos — y ambos aparecen en
+  este daf.
+- **Rabí Elazar** (ben Pedat, el amorá) **no** es **Rabí Elazar ben Araj** (el tana) — de nuevo, ambos
+  están en este daf.
+- **Rabí Amí y Rabí Así** (la pareja de Erretz Israel) no son ni **Rav Así** el babilonio ni **Rav
+  Ashí** el redactor.
+- **Rav Dimí** y **Ravín** son viajeros distintos que a menudo transmiten la misma tradición de manera
+  diferente, como aquí.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 106a — Lo que está en juego, y luego el agua
@@ -158,74 +226,6 @@ prohíben; solo el agua **conducida por una zanja** se disputa, y solo sobre si 
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Shimón ben Elazar** — tana de la quinta generación, alumno de Rabí Meir; aporta la baraita
-  sobre el agua no apta para animales que refleja la disputa de Tiberias.
-- **Rabí Elazar ben Araj** — el célebre tana, alumno preeminente de Rabán Iojanán ben Zakai; citado por
-  Rava como la fuente que ancló el lavado de manos en el versículo del *zav* de la Torá. (La atribución
-  de una derivación del lavado de manos a una figura tan temprana la discuten los comentaristas; no
-  construiría sobre ella más de lo que hace la Guemará.)
-- **Rabán Gamliel hijo de Rebí** — Rabán Gamliel III, hijo de Rabí Iehudá HaNasí, que lo sucedió como
-  Nasí; Rabí Iojanán cita su práctica sobre el agua caliente.
-
-**Amoraím de Erretz Israel**
-
-- **Jizkiiá** — hijo de Rabí Jiiá, figura de la primera generación a caballo entre las eras tanaítica y
-  amoraica; aquí la voz estricta tanto sobre el agua caliente como sobre los manantiales de Tiberias.
-- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberias; la voz
-  indulgente, respaldada por la práctica de los grandes de la Galilea.
-- **Rabí Iehoshúa ben Leví** — amorá de la primera generación de Lod; nombrado como el abuelo del levita
-  Rabí Meiashá.
-- **Rabí Meiashá** — nieto de Rabí Iehoshúa ben Leví, un levita; su dictamen muestra que la postura
-  estricta no era mera cautela sacerdotal.
-- **Rabí Oshaiá** (Rabá) — amorá de la primera generación, maestro de baraitot; fuente (vía Rabí Elazar)
-  de que lavarse antes de la fruta es solo por limpieza.
-- **Rabí Elazar** (ben Pedat) — amorá de la tercera generación, alumno de Rabí Iojanán; transmite el
-  dictamen de Rabí Oshaiá. **No** es Rabí Elazar ben Araj, el tana de arriba.
-- **Rabí Amí y Rabí Así** — colegas de la tercera generación, sabios principales de Tiberias; Rabá bar
-  bar Janá aprende tres dictámenes al verlos comer fruta.
-
-**Amoraím de Babilonia**
-
-- **Rav Dimí** y **Ravín** — *najutei* de la cuarta generación, sabios que trasladaban enseñanzas de
-  Erretz Israel a Babilonia; dan las dos versiones de las catástrofes del lavado.
-- **Rabí Abá** — sabio nacido en Babilonia que se asentó en Erretz Israel (tercera generación); enseña
-  el detalle grave de cada versión.
-- **Rav Najmán bar Itzjak** — cuarta generación, más tarde cabeza de Pumbedita; autor de la regla
-  mnemotécnica.
-- **Rav Idí bar Avín** y **Rav Itzjak bar Ashián** — la pareja detrás de la razón del *sérej trumá*;
-  ambos son transmisores menores, y no forzaría más sus biografías.
-- **Abaie** — cuarta generación, cabeza de Pumbedita; "la mitzvá de obedecer a los Sabios".
-- **Rava** — cuarta generación, cabeza de Majoza; "ni obligación ni mitzvá, sino opcional", y el lector
-  del versículo de Rabí Elazar ben Araj.
-- **Rav Najmán** (bar Iaacov) — tercera generación, Nehardea; lavarse antes de la fruta es "de los
-  arrogantes".
-- **Rabá bar bar Janá** — tercera generación, un babilonio que estudió con Rabí Iojanán en Erretz Israel;
-  el testigo ocular de Rabí Amí y Rabí Así.
-- **Rav** (Abá Arijá) — primera generación, fundador de Sura; la lectura de las dos articulaciones, y el
-  permiso de lavarse una vez por la mañana.
-- **Shmuel** — primera generación, cabeza de Nehardea; la línea única estricta para ambos.
-- **Rav Sheshet** — tercera generación, un maestro ciego de la tradición en Nehardea y Mejoza; la línea
-  única indulgente para ambos.
-- **Rav Papa** — quinta generación, fundador de la academia de Naresh; disuelve la disputa de Tiberias.
-- **Bar Hedia** — contemporáneo de Abaie y Rava (más conocido como intérprete de sueños); informa la
-  práctica de Rabí Amí.
-
-*Parecidos que vale señalar:*
-- **Rav Najmán** (bar Iaacov) y **Rav Najmán bar Itzjak** son dos sabios distintos — y ambos aparecen en
-  este daf.
-- **Rabí Elazar** (ben Pedat, el amorá) **no** es **Rabí Elazar ben Araj** (el tana) — de nuevo, ambos
-  están en este daf.
-- **Rabí Amí y Rabí Así** (la pareja de Erretz Israel) no son ni **Rav Así** el babilonio ni **Rav
-  Ashí** el redactor.
-- **Rav Dimí** y **Ravín** son viajeros distintos que a menudo transmiten la misma tradición de manera
-  diferente, como aquí.
-
----
-
 ## Una línea para llevarte
 
 > Antes de ser una cuestión de qué agua y hasta dónde de la mano, lavarse es una cuestión de qué está en
@@ -234,7 +234,7 @@ prohíben; solo el agua **conducida por una zanja** se disputa, y solo sobre si 
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: Según Rav Dimí, ¿cuáles fueron las dos consecuencias de descuidar las primeras y las últimas aguas?

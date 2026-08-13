@@ -60,6 +60,72 @@ Four movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Shimon ben Elazar** — fifth-generation Tanna, a student of Rabbi Meir; supplies the baraita
+  about water unfit for animals that mirrors the Tiberias dispute.
+- **Rabbi Elazar ben Arakh** — the celebrated Tanna, foremost student of Rabban Yochanan ben Zakkai;
+  cited by Rava as the source who anchored hand-washing in the Torah's *zav* verse. (The attribution of
+  a hand-washing derivation to so early a figure is discussed by the commentators; I would not build
+  more on it than the Gemara does.)
+- **Rabban Gamliel son of Rebbi** — Rabban Gamliel III, son of Rabbi Yehuda HaNasi, who succeeded him
+  as Nasi; Rabbi Yochanan cites his practice on heated water.
+
+**Eretz-Yisrael Amoraim**
+
+- **Chizkiyya** — son of Rabbi Chiyya, a first-generation figure straddling the Tannaitic and Amoraic
+  eras; here the stringent voice on both heated water and the Tiberias springs.
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the academy in Tiberias; the lenient
+  voice, backed by the practice of the Galilee's great men.
+- **Rabbi Yehoshua ben Levi** — first-generation Amora of Lod; named as the grandfather of the Levite
+  Rabbi Meyasha.
+- **Rabbi Meyasha** — grandson of Rabbi Yehoshua ben Levi, a Levite; his ruling shows the strict view
+  was not merely priestly caution.
+- **Rabbi Oshaya** (Rabba) — first-generation Amora, a master of baraitot; source (via Rabbi Elazar)
+  that washing before fruit is only for cleanliness.
+- **Rabbi Elazar** (ben Pedat) — third-generation Amora, student of Rabbi Yochanan; transmits Rabbi
+  Oshaya's ruling. **Not** Rabbi Elazar ben Arakh, the Tanna above.
+- **Rabbi Ami and Rabbi Asi** — third-generation colleagues, leading sages of Tiberias; Rabba bar bar
+  Chana learns three rulings from watching them eat fruit.
+
+**Babylonian Amoraim**
+
+- **Rav Dimi** and **Ravin** — fourth-generation *nachutei*, sages who ferried Eretz-Yisrael teachings
+  down to Babylonia; they give the two versions of the washing catastrophes.
+- **Rabbi Abba** — a Babylonian-born sage who settled in Eretz Yisrael (third generation); teaches the
+  severe detail from each version.
+- **Rav Nachman bar Yitzchak** — fourth generation, later head of Pumbedita; author of the mnemonic.
+- **Rav Idi bar Avin** and **Rav Yitzchak bar Ashian** — the pair behind the *serech teruma* reason;
+  both are minor tradents, and I would not press their biographies further.
+- **Abaye** — fourth generation, head of Pumbedita; "the mitzva to obey the Sages."
+- **Rava** — fourth generation, head of Machoza; "neither obligation nor mitzva, but optional," and the
+  reader of Rabbi Elazar ben Arakh's verse.
+- **Rav Nachman** (bar Yaakov) — third generation, Nehardea; washing before fruit is "of the arrogant."
+- **Rabba bar bar Chana** — third generation, a Babylonian who studied under Rabbi Yochanan in Eretz
+  Yisrael; the eyewitness to Rabbi Ami and Rabbi Asi.
+- **Rav** (Abba Arikha) — first generation, founder of Sura; the two-joint reading, and leave to wash
+  once in the morning.
+- **Shmuel** — first generation, head of Nehardea; the strict single line for both.
+- **Rav Sheshet** — third generation, a blind master of tradition at Nehardea and Mechoza; the lenient
+  single line for both.
+- **Rav Pappa** — fifth generation, founder of the academy at Naresh; dissolves the Tiberias dispute.
+- **Bar Hedya** — a contemporary of Abaye and Rava (better known as a dream-interpreter); reports Rabbi
+  Ami's practice.
+
+*Look-alikes worth flagging:*
+- **Rav Nachman** (bar Yaakov) and **Rav Nachman bar Yitzchak** are two different sages — and both
+  appear on this daf.
+- **Rabbi Elazar** (ben Pedat, the Amora) is **not** **Rabbi Elazar ben Arakh** (the Tanna) — again,
+  both are on this daf.
+- **Rabbi Ami and Rabbi Asi** (the Eretz-Yisrael pair) are neither **Rav Asi** the Babylonian nor **Rav
+  Ashi** the redactor.
+- **Rav Dimi** and **Ravin** are distinct travelers who often report the same tradition differently, as
+  here.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 106a — The stakes, then the water
@@ -150,72 +216,6 @@ narrower than it looks:
 
 *Rav Pappa's reading of Tiberias:* standing water — all permit; water in a vessel — all forbid; only
 water **drawn through a ditch** is disputed, and only over whether to **decree** against it.
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Shimon ben Elazar** — fifth-generation Tanna, a student of Rabbi Meir; supplies the baraita
-  about water unfit for animals that mirrors the Tiberias dispute.
-- **Rabbi Elazar ben Arakh** — the celebrated Tanna, foremost student of Rabban Yochanan ben Zakkai;
-  cited by Rava as the source who anchored hand-washing in the Torah's *zav* verse. (The attribution of
-  a hand-washing derivation to so early a figure is discussed by the commentators; I would not build
-  more on it than the Gemara does.)
-- **Rabban Gamliel son of Rebbi** — Rabban Gamliel III, son of Rabbi Yehuda HaNasi, who succeeded him
-  as Nasi; Rabbi Yochanan cites his practice on heated water.
-
-**Eretz-Yisrael Amoraim**
-
-- **Chizkiyya** — son of Rabbi Chiyya, a first-generation figure straddling the Tannaitic and Amoraic
-  eras; here the stringent voice on both heated water and the Tiberias springs.
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the academy in Tiberias; the lenient
-  voice, backed by the practice of the Galilee's great men.
-- **Rabbi Yehoshua ben Levi** — first-generation Amora of Lod; named as the grandfather of the Levite
-  Rabbi Meyasha.
-- **Rabbi Meyasha** — grandson of Rabbi Yehoshua ben Levi, a Levite; his ruling shows the strict view
-  was not merely priestly caution.
-- **Rabbi Oshaya** (Rabba) — first-generation Amora, a master of baraitot; source (via Rabbi Elazar)
-  that washing before fruit is only for cleanliness.
-- **Rabbi Elazar** (ben Pedat) — third-generation Amora, student of Rabbi Yochanan; transmits Rabbi
-  Oshaya's ruling. **Not** Rabbi Elazar ben Arakh, the Tanna above.
-- **Rabbi Ami and Rabbi Asi** — third-generation colleagues, leading sages of Tiberias; Rabba bar bar
-  Chana learns three rulings from watching them eat fruit.
-
-**Babylonian Amoraim**
-
-- **Rav Dimi** and **Ravin** — fourth-generation *nachutei*, sages who ferried Eretz-Yisrael teachings
-  down to Babylonia; they give the two versions of the washing catastrophes.
-- **Rabbi Abba** — a Babylonian-born sage who settled in Eretz Yisrael (third generation); teaches the
-  severe detail from each version.
-- **Rav Nachman bar Yitzchak** — fourth generation, later head of Pumbedita; author of the mnemonic.
-- **Rav Idi bar Avin** and **Rav Yitzchak bar Ashian** — the pair behind the *serech teruma* reason;
-  both are minor tradents, and I would not press their biographies further.
-- **Abaye** — fourth generation, head of Pumbedita; "the mitzva to obey the Sages."
-- **Rava** — fourth generation, head of Machoza; "neither obligation nor mitzva, but optional," and the
-  reader of Rabbi Elazar ben Arakh's verse.
-- **Rav Nachman** (bar Yaakov) — third generation, Nehardea; washing before fruit is "of the arrogant."
-- **Rabba bar bar Chana** — third generation, a Babylonian who studied under Rabbi Yochanan in Eretz
-  Yisrael; the eyewitness to Rabbi Ami and Rabbi Asi.
-- **Rav** (Abba Arikha) — first generation, founder of Sura; the two-joint reading, and leave to wash
-  once in the morning.
-- **Shmuel** — first generation, head of Nehardea; the strict single line for both.
-- **Rav Sheshet** — third generation, a blind master of tradition at Nehardea and Mechoza; the lenient
-  single line for both.
-- **Rav Pappa** — fifth generation, founder of the academy at Naresh; dissolves the Tiberias dispute.
-- **Bar Hedya** — a contemporary of Abaye and Rava (better known as a dream-interpreter); reports Rabbi
-  Ami's practice.
-
-*Look-alikes worth flagging:*
-- **Rav Nachman** (bar Yaakov) and **Rav Nachman bar Yitzchak** are two different sages — and both
-  appear on this daf.
-- **Rabbi Elazar** (ben Pedat, the Amora) is **not** **Rabbi Elazar ben Arakh** (the Tanna) — again,
-  both are on this daf.
-- **Rabbi Ami and Rabbi Asi** (the Eretz-Yisrael pair) are neither **Rav Asi** the Babylonian nor **Rav
-  Ashi** the redactor.
-- **Rav Dimi** and **Ravin** are distinct travelers who often report the same tradition differently, as
-  here.
 
 ---
 

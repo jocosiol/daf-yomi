@@ -62,6 +62,72 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabán Shimón ben Gamliel** — Tana de cuarta generación, padre de Rabí Iehudá HaNasí; la voz indulgente
+  de la mishná sobre dos huéspedes que comparten mesa.
+- **Rabí Tzadok** — un Tana cuya vida abarcó la destrucción del Templo; citado de una mishná de Sucá por
+  comer menos de un huevo de volumen en un paño.
+- **Shamai el Anciano** (*Shamai HaZakén*) — el Tana, gran colega y contrincante de Hilel; no alimentaba a
+  sus hijos con una sola mano en Iom Kipur.
+- **Baitos ben Zunín** — un mercader-erudito de la era tanaítica; sus tortas de Pésaj lujosamente
+  decoradas son el proverbio de "no permitir excepción alguna que el ojo pueda ver".
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Iojanán** (bar Nafjá) — segunda generación, cabeza de la academia de Tiberias; sostiene que el
+  sirviente vuelve a bendecir por cada trozo.
+- **Rabí Zeira** — tercera generación, un babilonio que subió a Erretz Israel; reprendió a Amí y Así antes
+  de recordar la indulgencia de los cohanim.
+- **Rabí Amí** y **Rabí Así** — colegas de tercera generación, sabios principales de Tiberias y
+  **cohanim** — que es exactamente por qué se les permitió el paño.
+
+**Amoraím de Babilonia**
+
+- **Rav** (Abá Arijá) — primera generación, fundador de Sura; la estipulación matutina, el trozo del
+  sirviente, y una de las partes de la historia del paño.
+- **Shmuel** — primera generación, cabeza de Nehardea; desafió a Rav por el paño, y la fuente (vía Rav
+  Tajlifá) de la indulgencia solo para cohanim.
+- **Rabí Avina** — un Amorá que aplicó la estipulación matutina de Rav al valle de Aravot; el "algunos
+  dicen / otros dicen" trata de si concuerda con Rav. (Un tradente menor — no forzaría la identificación
+  más allá de lo que hace la Guemará.)
+- **Abá bar Abá** — *"el padre de Shmuel"*, primera generación, Nehardea; corrigió al maestro que golpeó
+  al joven Shmuel, y así fijó la halajá de que el que alimenta no necesita lavarse.
+- **Rav Papa** — quinta generación, fundador de Naresh; el *kóaj gavra* y el canal de riego, y el
+  reconciliador de Rav y Rabí Iojanán sobre las bendiciones del sirviente.
+- **Rava** — cuarta generación, cabeza de Mejozá; el balde perforado, las reglas del cuarto de log, y el
+  tapón de barril.
+- **Rav Sheshet** — tercera generación, un maestro ciego de la tradición en Nehardea y Mejozá; presiona a
+  Ameimar sobre las tres exigencias.
+- **Ameimar** — sexta generación, un sabio principal de Nehardea; estricto con el recipiente, la
+  apariencia del agua y (en la primera versión) su medida.
+- **Rav Iaakov de Nehar Pekod** — un Amorá de la región de Nehar Pekod; se hizo un vidrio de un cuarto de
+  log.
+- **Rav Ashi** — sexta generación, cabeza de Sura y redactor principal del Talmud; se hizo una jarra de
+  barro de un cuarto de log en Huzal.
+- **Rav Tajlifá bar Avimí** — un tradente de la enseñanza de Shmuel sobre el paño; una figura menor, y no
+  construiría una biografía sobre el nombre.
+- **Rav Huna bar Sejorá** — un discípulo que alimentó a Rav Hamnuná; distinto del gran Rav Huna de Sura.
+- **Rav Hamnuná** — un alumno de Rav; el alimentado trozo a trozo.
+- **Rav Janán bar Amí** — transmite el fallo de Shmuel de que solo los *extraños* pueden compartir la
+  mesa; un tradente menor.
+- **Rav Iemar bar Shelemiá** — un contemporáneo que planteó a Abaie la pregunta de los "dos hermanos".
+- **Abaie** — cuarta generación, cabeza de Pumbedita; *kelipá* frente a *hadajá*, la respuesta de Shivtá, y
+  el paradigma de Baitos.
+- **La escuela de Menashé** (*deveí Menashé*) — un círculo de tradentes que preservó baraitot; fuente de la
+  enseñanza de enjuagarse una mano.
+
+*Parecidos que conviene señalar:*
+- **Rabí Amí y Rabí Así** (la pareja de Erretz Israel, y cohanim) **no** son **Rav Ashi** el redactor
+  babilonio — y los tres aparecen en este daf.
+- **Rav Huna bar Sejorá** no es el famoso **Rav Huna**, cabeza de Sura.
+- **Rava** (bar Iosef bar Jama, de Mejozá) aquí — no **Rabá**.
+- **Shamai el Anciano** el Tana no es un Amorá posterior; la historia se pone deliberadamente en su boca.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 107a — Qué agua, qué recipiente
@@ -179,72 +245,6 @@ lavarse?* — y las respuestas no corren todas igual:
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabán Shimón ben Gamliel** — Tana de cuarta generación, padre de Rabí Iehudá HaNasí; la voz indulgente
-  de la mishná sobre dos huéspedes que comparten mesa.
-- **Rabí Tzadok** — un Tana cuya vida abarcó la destrucción del Templo; citado de una mishná de Sucá por
-  comer menos de un huevo de volumen en un paño.
-- **Shamai el Anciano** (*Shamai HaZakén*) — el Tana, gran colega y contrincante de Hilel; no alimentaba a
-  sus hijos con una sola mano en Iom Kipur.
-- **Baitos ben Zunín** — un mercader-erudito de la era tanaítica; sus tortas de Pésaj lujosamente
-  decoradas son el proverbio de "no permitir excepción alguna que el ojo pueda ver".
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Iojanán** (bar Nafjá) — segunda generación, cabeza de la academia de Tiberias; sostiene que el
-  sirviente vuelve a bendecir por cada trozo.
-- **Rabí Zeira** — tercera generación, un babilonio que subió a Erretz Israel; reprendió a Amí y Así antes
-  de recordar la indulgencia de los cohanim.
-- **Rabí Amí** y **Rabí Así** — colegas de tercera generación, sabios principales de Tiberias y
-  **cohanim** — que es exactamente por qué se les permitió el paño.
-
-**Amoraím de Babilonia**
-
-- **Rav** (Abá Arijá) — primera generación, fundador de Sura; la estipulación matutina, el trozo del
-  sirviente, y una de las partes de la historia del paño.
-- **Shmuel** — primera generación, cabeza de Nehardea; desafió a Rav por el paño, y la fuente (vía Rav
-  Tajlifá) de la indulgencia solo para cohanim.
-- **Rabí Avina** — un Amorá que aplicó la estipulación matutina de Rav al valle de Aravot; el "algunos
-  dicen / otros dicen" trata de si concuerda con Rav. (Un tradente menor — no forzaría la identificación
-  más allá de lo que hace la Guemará.)
-- **Abá bar Abá** — *"el padre de Shmuel"*, primera generación, Nehardea; corrigió al maestro que golpeó
-  al joven Shmuel, y así fijó la halajá de que el que alimenta no necesita lavarse.
-- **Rav Papa** — quinta generación, fundador de Naresh; el *kóaj gavra* y el canal de riego, y el
-  reconciliador de Rav y Rabí Iojanán sobre las bendiciones del sirviente.
-- **Rava** — cuarta generación, cabeza de Mejozá; el balde perforado, las reglas del cuarto de log, y el
-  tapón de barril.
-- **Rav Sheshet** — tercera generación, un maestro ciego de la tradición en Nehardea y Mejozá; presiona a
-  Ameimar sobre las tres exigencias.
-- **Ameimar** — sexta generación, un sabio principal de Nehardea; estricto con el recipiente, la
-  apariencia del agua y (en la primera versión) su medida.
-- **Rav Iaakov de Nehar Pekod** — un Amorá de la región de Nehar Pekod; se hizo un vidrio de un cuarto de
-  log.
-- **Rav Ashi** — sexta generación, cabeza de Sura y redactor principal del Talmud; se hizo una jarra de
-  barro de un cuarto de log en Huzal.
-- **Rav Tajlifá bar Avimí** — un tradente de la enseñanza de Shmuel sobre el paño; una figura menor, y no
-  construiría una biografía sobre el nombre.
-- **Rav Huna bar Sejorá** — un discípulo que alimentó a Rav Hamnuná; distinto del gran Rav Huna de Sura.
-- **Rav Hamnuná** — un alumno de Rav; el alimentado trozo a trozo.
-- **Rav Janán bar Amí** — transmite el fallo de Shmuel de que solo los *extraños* pueden compartir la
-  mesa; un tradente menor.
-- **Rav Iemar bar Shelemiá** — un contemporáneo que planteó a Abaie la pregunta de los "dos hermanos".
-- **Abaie** — cuarta generación, cabeza de Pumbedita; *kelipá* frente a *hadajá*, la respuesta de Shivtá, y
-  el paradigma de Baitos.
-- **La escuela de Menashé** (*deveí Menashé*) — un círculo de tradentes que preservó baraitot; fuente de la
-  enseñanza de enjuagarse una mano.
-
-*Parecidos que conviene señalar:*
-- **Rabí Amí y Rabí Así** (la pareja de Erretz Israel, y cohanim) **no** son **Rav Ashi** el redactor
-  babilonio — y los tres aparecen en este daf.
-- **Rav Huna bar Sejorá** no es el famoso **Rav Huna**, cabeza de Sura.
-- **Rava** (bar Iosef bar Jama, de Mejozá) aquí — no **Rabá**.
-- **Shamai el Anciano** el Tana no es un Amorá posterior; la historia se pone deliberadamente en su boca.
-
----
-
 ## Una línea para llevarte
 
 > La mesa ordena a las personas por lo que están haciendo: el que come debe lavarse, el que solo sirve la
@@ -252,7 +252,7 @@ lavarse?* — y las respuestas no corren todas igual:
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿Por qué no puede uno lavarse las manos de un canal de riego (aritá dedalaéi)?

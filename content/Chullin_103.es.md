@@ -58,6 +58,48 @@ El daf se divide en dos mitades muy distintas, y luego una costura:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de Tiberias. El "placer de la garganta"
+  decide; dos series por miembro-y-tereifá.
+- **Reish Lakish** (Rabí Shimón ben Lakish) — segunda generación, Tiberias; cuñado de Rabí Iojanán y
+  su gran contrincante. Exige que el volumen de aceituna llegue al estómago.
+- **Rabí Jiiá bar Aba** — tercera generación, Tiberias; destacado transmisor de las enseñanzas de
+  Rabí Iojanán. Reporta "dos" por sebo de una tereifá viva. No es Rabí Jiiá el tana, ni Rabí Jiiá bar
+  Iosef.
+- **Rabí Amí** — tercera generación, cabeza de la academia de Tiberias tras el círculo de Rabí
+  Iojanán. Insiste en que la cuenta es tres.
+- **Rabí Abahu** — tercera generación, Cesarea; destacado alumno de Rabí Iojanán. Reformula el
+  dictamen como tres.
+- **Rabí Asi** — tercera generación, Tiberias, a menudo emparejado con Rabí Amí. El que "olvidó" su
+  propia tradición; **no** es Rav Ashi el redactor babilónico.
+- **Rabí Elazar** (ben Pedat) — tercera generación, pasó de Babilonia a Erretz Israel; aquí extiende
+  la responsabilidad a un miembro partido fuera de la boca, y con suavidad le recuerda a Rabí Asi. No
+  es ninguno de los tanaím llamados Elazar que vimos en 102.
+
+**Amoraím de Babilonia**
+
+- **Rav Iosef** (bar Jiiá) — tercera generación, Pumbedita. Resuelve la contradicción separando un
+  animal de dos.
+- **Abaie** — cuarta generación, cabeza de Pumbedita; contrincante de por vida de Rava. Plantea el
+  caso del "nacido en el momento".
+- **Rava** — cuarta generación, Majoza. Ofrece el caso invertido: arrancar un miembro *es* lo que
+  convierte a la bestia en tereifá.
+- **Rav Dimi** y **Ravin** — viajeros (*najotéi*) de la cuarta generación que llevaron enseñanzas de
+  Erretz Israel a Babilonia, aquí en versiones ligeramente distintas del mismo intercambio.
+- **Rav Kahaná** — un nombre común a lo largo de varias generaciones; aquí el que aporta el caso del
+  hueso tragado. Dada la ambigüedad, no querría precisar de qué Rav Kahaná se trata.
+- **Rav Papa** — quinta generación, fundador de la academia de Naresh. Acota la disputa
+  dientes-contra-encías.
+
+*Parecidos que vale señalar:* **Rabí Asi** el amorá de Erretz Israel (con *Rabí*) no es **Rav Ashi**
+el babilónico. **Rabí Elazar** aquí es el amorá ben Pedat, no los tanaím Elazar ben Shamúa o Elazar
+bar Rabí Shimón de 102. Y **Rabí Jiiá bar Aba** el amorá no es **Rabí Jiiá** el tana.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 103a — Tres prohibiciones, y el momento en que nace cada una
@@ -181,48 +223,6 @@ Dos voces quedan fuera de la cuadrícula: **Rabí Elazar**, que condena incluso 
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de Tiberias. El "placer de la garganta"
-  decide; dos series por miembro-y-tereifá.
-- **Reish Lakish** (Rabí Shimón ben Lakish) — segunda generación, Tiberias; cuñado de Rabí Iojanán y
-  su gran contrincante. Exige que el volumen de aceituna llegue al estómago.
-- **Rabí Jiiá bar Aba** — tercera generación, Tiberias; destacado transmisor de las enseñanzas de
-  Rabí Iojanán. Reporta "dos" por sebo de una tereifá viva. No es Rabí Jiiá el tana, ni Rabí Jiiá bar
-  Iosef.
-- **Rabí Amí** — tercera generación, cabeza de la academia de Tiberias tras el círculo de Rabí
-  Iojanán. Insiste en que la cuenta es tres.
-- **Rabí Abahu** — tercera generación, Cesarea; destacado alumno de Rabí Iojanán. Reformula el
-  dictamen como tres.
-- **Rabí Asi** — tercera generación, Tiberias, a menudo emparejado con Rabí Amí. El que "olvidó" su
-  propia tradición; **no** es Rav Ashi el redactor babilónico.
-- **Rabí Elazar** (ben Pedat) — tercera generación, pasó de Babilonia a Erretz Israel; aquí extiende
-  la responsabilidad a un miembro partido fuera de la boca, y con suavidad le recuerda a Rabí Asi. No
-  es ninguno de los tanaím llamados Elazar que vimos en 102.
-
-**Amoraím de Babilonia**
-
-- **Rav Iosef** (bar Jiiá) — tercera generación, Pumbedita. Resuelve la contradicción separando un
-  animal de dos.
-- **Abaie** — cuarta generación, cabeza de Pumbedita; contrincante de por vida de Rava. Plantea el
-  caso del "nacido en el momento".
-- **Rava** — cuarta generación, Majoza. Ofrece el caso invertido: arrancar un miembro *es* lo que
-  convierte a la bestia en tereifá.
-- **Rav Dimi** y **Ravin** — viajeros (*najotéi*) de la cuarta generación que llevaron enseñanzas de
-  Erretz Israel a Babilonia, aquí en versiones ligeramente distintas del mismo intercambio.
-- **Rav Kahaná** — un nombre común a lo largo de varias generaciones; aquí el que aporta el caso del
-  hueso tragado. Dada la ambigüedad, no querría precisar de qué Rav Kahaná se trata.
-- **Rav Papa** — quinta generación, fundador de la academia de Naresh. Acota la disputa
-  dientes-contra-encías.
-
-*Parecidos que vale señalar:* **Rabí Asi** el amorá de Erretz Israel (con *Rabí*) no es **Rav Ashi**
-el babilónico. **Rabí Elazar** aquí es el amorá ben Pedat, no los tanaím Elazar ben Shamúa o Elazar
-bar Rabí Shimón de 102. Y **Rabí Jiiá bar Aba** el amorá no es **Rabí Jiiá** el tana.
-
----
-
 ## Una línea para llevarte
 
 > Que una segunda prohibición pueda prender rara vez depende de cuán severa sea — depende de si llegó
@@ -230,7 +230,7 @@ bar Rabí Shimón de 102. Y **Rabí Jiiá bar Aba** el amorá no es **Rabí Jii�
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿Cómo reconcilia Rav Iosef el "una" de Reish Lakish aquí con su aparente acuerdo en "dos" por

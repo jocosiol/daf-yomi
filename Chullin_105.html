@@ -24,8 +24,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="assets/manifest.webmanifest?v=2ef7e323">
-<link rel="stylesheet" href="assets/daf.css?v=d7bde0c9">
-<script type="application/json" id="daf-config">{"langs":["en","es","he"],"rtl":["he"]}</script>
+<link rel="stylesheet" href="assets/daf.css?v=38e787e8">
+<script type="application/json" id="daf-config">{"langs":["en","es","he"],"rtl":["he"],"mail":"2f45404c405c464043044b4e49564042466f48424e4643014c4042"}</script>
 <script src="assets/lang.js?v=0042caf6"></script>
 </head>
 <body>
@@ -50,16 +50,14 @@
 
   <div class="tabs" role="tablist">
     <button class="tab active" type="button" role="tab" aria-selected="true"
-            aria-controls="learn" data-v="learn">📖&nbsp;<span data-lang="en">Learn</span><span data-lang="es">Aprender</span><span data-lang="he">לימוד</span></button>
-    <button class="tab" type="button" role="tab" aria-selected="false"
-            aria-controls="cards" data-v="cards">🃏&nbsp;<span data-lang="en">Flashcards</span><span data-lang="es">Tarjetas</span><span data-lang="he">כרטיסיות</span></button>
-    <button class="tab" type="button" role="tab" aria-selected="false"
-            aria-controls="quiz" data-v="quiz">🎯&nbsp;<span data-lang="en">Chazara Quiz</span><span data-lang="es">Repaso (Chazará)</span><span data-lang="he">חזרה</span></button>
+            aria-controls="intro" data-v="intro">📖&nbsp;<span data-lang="en">Introduction</span><span data-lang="es">Introducción</span><span data-lang="he">הקדמה</span></button>
     <button class="tab" type="button" role="tab" aria-selected="false"
             aria-controls="daf" data-v="daf">📜&nbsp;<span data-lang="en">The Daf</span><span data-lang="es">El Daf</span><span data-lang="he">הדף</span></button>
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="chazara" data-v="chazara">🎯&nbsp;<span data-lang="en">Chazara</span><span data-lang="es">Repaso (Jazará)</span><span data-lang="he">חזרה</span></button>
   </div>
 
-  <section class="view active" id="learn" role="tabpanel">
+  <section class="view active" id="intro" role="tabpanel">
     <div class="sheet" data-lang="en" data-speak-lang="en"
          lang="en" dir="ltr">
       <h2>The big picture (read this first)</h2>
@@ -142,184 +140,6 @@ unseen world.</p>
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 Study these as flashcards</button></p>
-
-<hr />
-<h2>Walking through the sugya, step by step</h2>
-<h3>105a — Clearing the palate, and how long to wait</h3>
-<p><strong>Resolving Beit Shammai and Beit Hillel.</strong> The Gemara tries three readings of their dispute over
-clearing the mouth after meat. The first two fail — one would make Rabbi Zeira rule like Beit Shammai
-(unlikely), the other would demand the case be listed in <em>Eduyyot</em> among the &ldquo;leniencies of Beit
-Shammai.&rdquo; The third holds:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">בֵּית שַׁמַּאי אוֹמְרִים: מְקַנֵּחַ, וְהוּא הַדִּין לְמֵדִיחַ, וּבֵית הִלֵּל אוֹמְרִים: מֵדִיחַ, וְהוּא הַדִּין לִמְקַנֵּחַ. מָר אָמַר חֲדָא, וּמָר אָמַר חֲדָא, וְלָא פְּלִיגִי</span>.</strong>
-Beit Shammai say <em>wipe</em> — and the same is true of rinsing; Beit Hillel say <em>rinse</em> — and the same is
-true of wiping. One Sage stated one thing and one the other, and they do not disagree.</p>
-</blockquote>
-<p><strong>Rabbi Zeira on wiping.</strong> Cited in passing, now examined for itself: <strong><span lang="he" dir="rtl">אֵין קִינּוּחַ הַפֶּה אֶלָּא
-בְּפַת</span></strong> — the mouth is wiped only with <strong>bread</strong>. And only wheat bread (barley crumbles), only cold
-(warm bread softens and sticks), only soft (hard bread will not clean). The bottom line: <strong>everything</strong>
-serves to wipe <strong>except flour, dates, and vegetables</strong>.</p>
-<p><strong>How long between meat and cheese?</strong> Rav Asi asked Rabbi Yochanan how long to wait — &ldquo;no time at
-all,&rdquo; came the answer. But that clashes with Rav Chisda, so the question is re-read: it was about
-<strong>cheese, then meat</strong> — there, no wait. Meat first is different:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">אָכַל בָּשָׂר – אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה – מוּתָּר לֶאֱכוֹל בָּשָׂר</span>.</strong>
-If one ate meat, he may not eat cheese [at once]; if he ate cheese, he may eat meat.</p>
-</blockquote>
-<p>Rav Acha bar Yosef pressed: what about <strong>meat lodged between the teeth</strong>? Rav Chisda answered by
-quoting the verse of the quail — <strong>&ldquo;the meat was still between their teeth&rdquo;</strong> (Bamidbar 11:33) — it
-is still meat.</p>
-<p><strong>&ldquo;Vinegar, son of wine.&rdquo;</strong> Two sages rate themselves below their fathers. <strong>Mar Ukva:</strong> my father,
-after meat, would not eat cheese until the same hour the next day; I only skip it for <em>this</em> meal.
-<strong>Shmuel:</strong> my father patrolled his fields twice a day; I only once — for <strong><span lang="he" dir="rtl">מַאן דְּסָיַיר נִכְסֵיהּ כֹּל
-יוֹמָא מַשְׁכַּח אִסְתֵּירָא</span></strong>, one who inspects his property daily finds a coin. Two vignettes follow:
-<strong>Abaye</strong> caught his sharecropper carrying off firewood (&ldquo;to the Master&rsquo;s house,&rdquo; he lied) — &ldquo;the
-Sages preempted you.&rdquo; And <strong>Rav Asi</strong>, skeptical there was any coin to be found, one day plugged a
-burst irrigation channel with his own cloak and saved his field: &ldquo;<em>Now</em> I have found all of Mar
-Shmuel&rsquo;s coins.&rdquo;</p>
-<p><strong>The three waters.</strong> Rav Idi bar Avin in the name of Rav Yitzchak bar Ashyan: <strong>first waters</strong> (before
-bread) are a <strong>mitzva</strong>; <strong>last waters</strong> (before <em>bircat hamazon</em>) an <strong>obligation</strong> (<em>chova</em>). A
-baraita calls the first waters <em>chova</em> too — resolved: relative to the <strong>optional</strong> middle waters, a
-mitzva may be called an obligation. The baraita is then unpacked: first waters may be poured into a
-vessel <strong>or onto the ground</strong>; last waters only into a vessel (the practical difference: wood
-slivers). First waters may be <strong>hot or cold</strong>; last waters only cold, since hot water <strong><span lang="he" dir="rtl">מְפַעְפְּעִין
-אֶת הַיָּדַיִם</span></strong> — softens the hands and fails to carry off the grease (<em>zuhama</em>). Rabbi Yannai, via
-Rav Yitzchak bar Yosef, adds the limit: hot is fine unless <strong><span lang="he" dir="rtl">הַיָּד סוֹלֶדֶת בָּהֶן</span></strong>, the hand recoils
-from the heat.</p>
-<h3>105b — The reasons hiding inside the customs</h3>
-<p><strong>Middle waters.</strong> &ldquo;Optional,&rdquo; said the baraita — but Rav Nachman narrows it: only <strong>between one dish
-and another</strong>; between a <strong>cooked dish and cheese</strong>, washing is an <strong>obligation</strong>.</p>
-<p><strong>Why are last waters obligatory?</strong> Rav Yehuda son of Rabbi Chiyya: because <strong><span lang="he" dir="rtl">מֶלַח סְדוֹמִית</span></strong>,
-Sodomite salt, may cling to the hands and <strong>blind the eyes</strong>. Abaye: it turns up as little as a pinch
-in a whole <em>kor</em> — and yet, Rav Ashi rules, even someone who merely <em>handled</em> salt must wash.</p>
-<p><strong>Abaye&rsquo;s chain of &ldquo;at first I would say.&rdquo;</strong> Here the daf becomes a litany. For each ordinary custom
-Abaye offers the tidy, rational reason he once assumed — and then reports the deeper reason <strong>the
-Master</strong> (Rabba) gave him:</p>
-<ul>
-<li><strong>Not pouring last waters on the ground</strong> — not mere messiness, but <strong><span lang="he" dir="rtl">רוּחַ רָעָה</span></strong>, an evil spirit,
-  rests on them.</li>
-<li><strong>Not removing anything from the table while someone holds his cup to drink</strong> — not fear of a mishap,
-  but that it is bad for the health, bringing on <strong><span lang="he" dir="rtl">רוּחַ צְרָדָא</span></strong>, a migraine. (Only if you take and
-  do not return it, only beyond four cubits, only something needed for the meal. Mar bar Rav Ashi was
-  strict even about a mortar and pestle.)</li>
-<li><strong>Gathering up the crumbs</strong> — not tidiness, but because leaving them <strong>invites poverty</strong>. A man the
-  angel of poverty could not touch — so careful was he with crumbs — nearly slipped when crumbs fell
-  in the grass; he uprooted and drowned the grass, and heard the angel wail that he had been evicted
-  from his home.</li>
-<li><strong>Not drinking the foam</strong> off a drink — not distaste, but because it is bad for <strong>catarrh</strong>; blowing
-  it off harms the head, brushing it aside invites poverty; the remedy is to sink it back in.</li>
-<li><strong>Not eating vegetables from a bundle the gardener tied</strong> — not the look of gluttony, but that it is
-  bad for <strong>witchcraft</strong>. When a sorceress could not bewitch Rav Chisda and Rabba bar Rav Huna on a
-  boat, she named three habits that shielded them — and this was one.</li>
-<li><strong>Not eating vegetables that fell on the table</strong> — not repulsiveness, but bad breath.</li>
-<li><strong>Not sitting under a gutter</strong> (<em>marzeiv</em>) — not the runoff, but that <strong>demons</strong> frequent it. Porters
-  who rested a wine barrel under a gutter had it burst; Mar bar Rav Ashi sounded the horns and
-  excommunicated the demon, who protested, &ldquo;they set the barrel on my ear!&rdquo; — and was ordered to pay.</li>
-<li><strong>Pouring a little water from the mouth of a pitcher</strong> before drinking — not twigs, but <strong>foul
-  waters</strong>. A demon-servant in Rav Pappa&rsquo;s house explained his delay at the river the same way: he
-  had waited &ldquo;for the bad waters to pass.&rdquo;</li>
-</ul>
-<hr />
-<h2>The distinctions, side by side</h2>
-<p>Three washings, four questions, and the prose spends three paragraphs getting there:</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>The waters</th>
-<th>Grade</th>
-<th>Poured into</th>
-<th>Temperature</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>First</strong> — before bread</td>
-<td><strong>Mitzva</strong> (the baraita&rsquo;s <em>chova</em> is only relative to the optional middle)</td>
-<td>A vessel <strong>or</strong> the ground</td>
-<td>Hot or cold — up to <em><span lang="he" dir="rtl">הַיָּד סוֹלֶדֶת בָּהֶן</span></em>, where the hand recoils</td>
-</tr>
-<tr>
-<td><strong>Middle</strong> — between dishes</td>
-<td><strong>Optional</strong> — but Rav Nachman: an <strong>obligation</strong> between a cooked dish and cheese</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr>
-<td><strong>Last</strong> — before <em>bircat hamazon</em></td>
-<td><strong>Obligation</strong> (<em>chova</em>) — Sodomite salt on the hands can blind the eyes</td>
-<td>A vessel only; the practical difference is wood slivers</td>
-<td>Cold only — hot <em><span lang="he" dir="rtl">מְפַעְפְּעִין אֶת הַיָּדַיִם</span></em>, softens the hands and leaves the <em>zuhama</em></td>
-</tr>
-</tbody>
-</table></div>
-<hr />
-<h2>Who&rsquo;s who in today&rsquo;s daf</h2>
-<p><strong>Tannaim</strong></p>
-<ul>
-<li><strong>Beit Shammai and Beit Hillel</strong> — the two great schools of the late Second Temple and early
-  post-Destruction generations; here shown, in the end, not to disagree about clearing the palate.</li>
-<li><strong>Rabbi Elazar ben Arakh</strong> and <strong>Rabban Gamliel son of Rebbi</strong> appear only at the very edge of the
-  daf as its argument spills into 106; the working cast of 105 is Amoraic.</li>
-</ul>
-<p><strong>Eretz-Yisrael Amoraim</strong></p>
-<ul>
-<li><strong>Rabbi Yochanan</strong> (bar Nappacha) — second generation, head of the academy in Tiberias, the central
-  voice of the Jerusalem Talmud. Rules &ldquo;no wait&rdquo; between cheese and meat.</li>
-<li><strong>Rabbi Zeira</strong> — a Babylonian who ascended to Eretz Yisrael (third generation there); gives the
-  rule that only bread wipes the mouth.</li>
-<li><strong>Rabbi Yannai</strong> — first-generation Eretz-Yisrael Amora, a teacher of Rabbi Yochanan&rsquo;s circle;
-  supplies the &ldquo;hand recoils&rdquo; limit on hot water.</li>
-<li><strong>Rav Asi</strong> — a Babylonian who settled in Eretz Yisrael, close colleague of Rav Ami and a frequent
-  questioner of Rabbi Yochanan; he asks about waiting between meat and cheese, and is the sage of the
-  burst-channel story. <strong>Not</strong> Rav Ashi the redactor (below).</li>
-</ul>
-<p><strong>Babylonian Amoraim</strong></p>
-<ul>
-<li><strong>Shmuel</strong> — first generation, head of Nehardea; his &ldquo;father&rdquo; is Abba bar Abba. Source of the maxim
-  that patrolling your property daily &ldquo;finds a coin.&rdquo;</li>
-<li><strong>Mar Ukva</strong> — first-generation Exilarch and judge, a contemporary of Shmuel; measures his caution
-  after meat against his stricter father&rsquo;s.</li>
-<li><strong>Rav Chisda</strong> — third generation, Sura; that meat-then-cheese must wait but not the reverse is his,
-  and he travels the boat with Rabba bar Rav Huna.</li>
-<li><strong>Rav Acha bar Yosef</strong> — a Babylonian Amora who asks Rav Chisda about meat between the teeth.</li>
-<li><strong>Rabba bar Rav Huna</strong> — third generation, son of Rav Huna of Sura; the sorceress cannot touch him
-  or Rav Chisda on the boat.</li>
-<li><strong>Abaye</strong> — fourth generation, head of Pumbedita; the whole &ldquo;at first I would say&rdquo; chain is his,
-  reporting what he learned from <strong>the Master, Rabba</strong> — his teacher and foster-father Rabba bar
-  Nachmani.</li>
-<li><strong>Rav Nachman</strong> (bar Yaakov) — third generation, Nehardea; narrows &ldquo;optional&rdquo; middle waters to
-  require washing before cheese.</li>
-<li><strong>Rav Idi bar Avin</strong> and <strong>Rav Yitzchak bar Ashyan</strong> — the pair behind the ruling that first waters
-  are a mitzva and last an obligation. Both are relatively minor tradents; I would not press their
-  biographies further.</li>
-<li><strong>Rav Yitzchak bar Yosef</strong> — a traveling Amora who carried Rabbi Yannai&rsquo;s teachings from Eretz
-  Yisrael to Babylonia. <strong>Not</strong> Rav Yitzchak bar Ashyan, despite the shared first name.</li>
-<li><strong>Rav Yehuda son of Rabbi Chiyya</strong> — gives the Sodomite-salt reason for last waters.</li>
-<li><strong>Rav Ashi</strong> — sixth generation, redactor of the Talmud at Sura; rules on one who handled salt.
-  <strong>Not</strong> Rav Asi above.</li>
-<li><strong>Rav Acha son of Rava</strong> — a later Babylonian who questions Rav Ashi here.</li>
-<li><strong>Mar bar Rav Ashi</strong> — son of Rav Ashi, a seventh-generation head at Sura; strict about the table
-  during drinking, and the sage who excommunicates the gutter-demon.</li>
-<li><strong>Rav Pappa</strong> — fifth generation, founder of the academy at Naresh; a demon-servant works in his
-  house.</li>
-</ul>
-<p><em>Look-alikes worth flagging:</em>
-- <strong>Rav Asi</strong> (Eretz-Yisrael, asks Rabbi Yochanan, plugs the channel) is <strong>not</strong> <strong>Rav Ashi</strong> the
-  redactor — and both appear on this very daf.
-- <strong>Rabba</strong> — the &ldquo;Master&rdquo; whom Abaye quotes — is Rabba bar Nachmani, <strong>not</strong> <strong>Rava</strong>; and <strong>Rabba
-  bar Rav Huna</strong> on the boat is a third, distinct figure.
-- <strong>Mar bar Rav Ashi</strong> (son of Rav Ashi) is <strong>not</strong> Rav Acha bar Rav Ashi.
-- <strong>Rav Yitzchak bar Ashyan</strong> and <strong>Rav Yitzchak bar Yosef</strong> are two different tradents.</p>
-<hr />
-<h2>One line to carry with you</h2>
-<blockquote>
-<p>A daf that starts by wiping crumbs from your mouth ends by teaching that the small, half-forgotten
-habits of a table — save the crumbs, pour off the first water, don&rsquo;t sit under the gutter — are
-never only about tidiness. Under each one, the Sages saw health, fortune, and a whole unseen world.</p>
-</blockquote>
-      <p class="tomorrow">Tomorrow (Fri, 14 August 2026):
-        <strong>Chullin 106</strong> — Rav Dimi and Ravin on the terrible consequences of skipping the first and last waters — a Jew fed pig meat, a wife lost — and whether one may wash with fire-heated water or the hot springs of Tiberias.</p>
     </div>
     <div class="sheet" data-lang="es" data-speak-lang="es"
          lang="es" dir="ltr">
@@ -403,187 +223,6 @@ en un mapa de la salud, el peligro y el mundo invisible.</p>
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 Estudiar estos con tarjetas</button></p>
-
-<hr />
-<h2>Recorriendo la suguiá, paso a paso</h2>
-<h3>105a — Limpiar el paladar, y cuánto esperar</h3>
-<p><strong>Reconciliar a Beit Shamai y Beit Hilel.</strong> La Guemará prueba tres lecturas de su disputa sobre limpiar
-la boca después de la carne. Las dos primeras fracasan — una haría que Rabí Zeirá dictaminara como Beit
-Shamai (poco probable), la otra exigiría que el caso figurara en <em>Eduiot</em> entre las &ldquo;indulgencias de
-Beit Shamai&rdquo;. La tercera se sostiene:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">בֵּית שַׁמַּאי אוֹמְרִים: מְקַנֵּחַ, וְהוּא הַדִּין לְמֵדִיחַ, וּבֵית הִלֵּל אוֹמְרִים: מֵדִיחַ, וְהוּא הַדִּין לִמְקַנֵּחַ. מָר אָמַר חֲדָא, וּמָר אָמַר חֲדָא, וְלָא פְּלִיגִי</span>.</strong>
-Beit Shamai dice <em>limpiar</em> — y lo mismo vale para enjuagar; Beit Hilel dice <em>enjuagar</em> — y lo mismo
-vale para limpiar. Un Sabio expuso una cosa y el otro la otra, y no discrepan.</p>
-</blockquote>
-<p><strong>Rabí Zeirá sobre limpiar.</strong> Citado de pasada, ahora se lo examina por sí mismo: <strong><span lang="he" dir="rtl">אֵין קִינּוּחַ הַפֶּה
-אֶלָּא בְּפַת</span></strong> — la boca se limpia solo con <strong>pan</strong>. Y solo pan de trigo (el de cebada se desmenuza),
-solo frío (el pan caliente se ablanda y se pega), solo blando (el pan duro no limpia). La conclusión:
-<strong>todo</strong> sirve para limpiar <strong>excepto la harina, los dátiles y las verduras</strong>.</p>
-<p><strong>¿Cuánto entre la carne y el queso?</strong> Rav Asi preguntó a Rabí Iojanán cuánto esperar — &ldquo;nada de
-tiempo&rdquo;, fue la respuesta. Pero eso choca con Rav Jisdá, así que la pregunta se relee: era sobre
-<strong>queso y luego carne</strong> — ahí, ninguna espera. La carne primero es distinta:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">אָכַל בָּשָׂר – אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה – מוּתָּר לֶאֱכוֹל בָּשָׂר</span>.</strong>
-Si uno comió carne, no puede comer queso [enseguida]; si comió queso, puede comer carne.</p>
-</blockquote>
-<p>Rav Ajá bar Iosef presionó: ¿y la <strong>carne alojada entre los dientes</strong>? Rav Jisdá respondió citando el
-versículo de las codornices — <strong>&ldquo;la carne aún estaba entre sus dientes&rdquo;</strong> (Bamidbar 11:33) — sigue
-siendo carne.</p>
-<p><strong>&ldquo;Vinagre, hijo de vino.&rdquo;</strong> Dos sabios se califican por debajo de sus padres. <strong>Mar Ukvá:</strong> mi padre,
-después de la carne, no comía queso hasta la misma hora del día siguiente; yo solo lo omito en <em>esta</em>
-comida. <strong>Shmuel:</strong> mi padre patrullaba sus campos dos veces al día; yo solo una — porque <strong><span lang="he" dir="rtl">מַאן
-דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא</span></strong>, quien inspecciona su propiedad a diario encuentra una moneda.
-Siguen dos viñetas: <strong>Abaie</strong> sorprendió a su aparcero llevándose leña (&ldquo;a la casa del Maestro&rdquo;,
-mintió) — &ldquo;los Sabios se te adelantaron&rdquo;. Y <strong>Rav Asi</strong>, escéptico de que hubiera moneda alguna que
-encontrar, un día tapó un canal de riego reventado con su propia capa y salvó su campo: &ldquo;<em>Ahora</em> he
-encontrado todas las monedas de Mar Shmuel&rdquo;.</p>
-<p><strong>Las tres aguas.</strong> Rav Idi bar Avín en nombre de Rav Itzjak bar Ashián: las <strong>aguas primeras</strong> (antes
-del pan) son una <strong>mitzvá</strong>; las <strong>aguas últimas</strong> (antes de <em>bircat hamazón</em>) una <strong>obligación</strong>
-(<em>jová</em>). Una baraita llama <em>jová</em> también a las aguas primeras — se resuelve: en relación con las
-<strong>opcionales</strong> aguas intermedias, una mitzvá puede llamarse obligación. La baraita se desglosa después:
-las aguas primeras pueden verterse en un recipiente <strong>o sobre el suelo</strong>; las últimas solo en un
-recipiente (la diferencia práctica: astillas de madera). Las aguas primeras pueden ser <strong>calientes o
-frías</strong>; las últimas solo frías, ya que el agua caliente <strong><span lang="he" dir="rtl">מְפַעְפְּעִין אֶת הַיָּדַיִם</span></strong> — ablanda las manos y
-no arrastra la grasa (<em>zuhamá</em>). Rabí Ianai, vía Rav Itzjak bar Iosef, añade el límite: caliente está
-bien salvo que <strong><span lang="he" dir="rtl">הַיָּד סוֹלֶדֶת בָּהֶן</span></strong>, la mano se retraiga del calor.</p>
-<h3>105b — Las razones que se esconden dentro de las costumbres</h3>
-<p><strong>Aguas intermedias.</strong> &ldquo;Opcionales&rdquo;, dijo la baraita — pero Rav Najmán lo acota: solo <strong>entre un plato
-y otro</strong>; entre un <strong>plato cocido y el queso</strong>, lavarse es una <strong>obligación</strong>.</p>
-<p><strong>¿Por qué son obligatorias las aguas últimas?</strong> Rav Iehudá hijo de Rabí Jiiá: porque <strong><span lang="he" dir="rtl">מֶלַח
-סְדוֹמִית</span></strong>, la sal de Sodoma, puede adherirse a las manos y <strong>cegar los ojos</strong>. Abaie: aparece en tan
-poca cantidad como una pizca en todo un <em>kor</em> — y aun así, dictamina Rav Ashi, incluso quien solo
-<em>manipuló</em> sal debe lavarse.</p>
-<p><strong>La cadena de Abaie de &ldquo;al principio yo diría&rdquo;.</strong> Aquí el daf se vuelve una letanía. Para cada
-costumbre corriente Abaie ofrece la razón pulcra y racional que alguna vez supuso — y luego reporta la
-razón más profunda que le dio <strong>el Maestro</strong> (Rabá):</p>
-<ul>
-<li><strong>No verter las aguas últimas en el suelo</strong> — no mera suciedad, sino que <strong><span lang="he" dir="rtl">רוּחַ רָעָה</span></strong>, un espíritu
-  maligno, reposa sobre ellas.</li>
-<li><strong>No retirar nada de la mesa mientras alguien sostiene su copa para beber</strong> — no por temor a un
-  percance, sino porque es malo para la salud, provocando <strong><span lang="he" dir="rtl">רוּחַ צְרָדָא</span></strong>, una jaqueca. (Solo si
-  tomas y no lo devuelves, solo más allá de cuatro codos, solo algo necesario para la comida. Mar bar
-  Rav Ashi era estricto incluso con un mortero y su mano.)</li>
-<li><strong>Recoger las migas</strong> — no por pulcritud, sino porque dejarlas <strong>invita a la pobreza</strong>. Un hombre al
-  que el ángel de la pobreza no podía tocar — tan cuidadoso era con las migas — casi cae cuando unas
-  migas cayeron entre la hierba; arrancó y ahogó la hierba, y oyó al ángel lamentarse de que había
-  sido desalojado de su hogar.</li>
-<li><strong>No beber la espuma</strong> de una bebida — no por desagrado, sino porque es mala para el <strong>catarro</strong>;
-  soplarla daña la cabeza, apartarla invita a la pobreza; el remedio es hundirla de nuevo.</li>
-<li><strong>No comer verduras de un manojo que ató el hortelano</strong> — no por la apariencia de glotonería, sino
-  porque es malo para la <strong>brujería</strong>. Cuando una hechicera no pudo embrujar a Rav Jisdá y a Rabá bar
-  Rav Huná en un bote, nombró tres hábitos que los protegían — y este era uno.</li>
-<li><strong>No comer verduras que cayeron sobre la mesa</strong> — no por repulsión, sino por el mal aliento.</li>
-<li><strong>No sentarse bajo un canalón</strong> (<em>marzev</em>) — no por el chorreo, sino porque los <strong>demonios</strong> lo
-  frecuentan. A unos cargadores que apoyaron un barril de vino bajo un canalón se les reventó; Mar bar
-  Rav Ashi tocó los cuernos y excomulgó al demonio, que protestó: &ldquo;¡pusieron el barril sobre mi oreja!&rdquo;
-  — y se le ordenó pagar.</li>
-<li><strong>Verter un poco de agua de la boca de un jarro</strong> antes de beber — no por ramitas, sino por <strong>aguas
-  malas</strong>. Un demonio-sirviente en la casa de Rav Papa explicó su demora en el río del mismo modo:
-  había esperado &ldquo;a que pasaran las aguas malas&rdquo;.</li>
-</ul>
-<hr />
-<h2>Las distinciones, lado a lado</h2>
-<p>Tres lavados, cuatro preguntas — y a la prosa le lleva tres párrafos llegar hasta ahí:</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>Las aguas</th>
-<th>Grado</th>
-<th>Vertidas en</th>
-<th>Temperatura</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Primeras</strong> — antes del pan</td>
-<td><strong>Mitzvá</strong> (la <em>jová</em> de la baraita es solo en relación con las intermedias, opcionales)</td>
-<td>Un recipiente <strong>o</strong> el suelo</td>
-<td>Calientes o frías — hasta <em><span lang="he" dir="rtl">הַיָּד סוֹלֶדֶת בָּהֶן</span></em>, donde la mano se retrae</td>
-</tr>
-<tr>
-<td><strong>Intermedias</strong> — entre platos</td>
-<td><strong>Opcional</strong> — pero Rav Najmán: <strong>obligación</strong> entre un plato cocido y el queso</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr>
-<td><strong>Últimas</strong> — antes de <em>bircat hamazón</em></td>
-<td><strong>Obligación</strong> (<em>jová</em>) — la sal de Sodoma en las manos puede cegar los ojos</td>
-<td>Solo un recipiente; la diferencia práctica son las astillas de madera</td>
-<td>Solo frías — el agua caliente <em><span lang="he" dir="rtl">מְפַעְפְּעִין אֶת הַיָּדַיִם</span></em>, ablanda las manos y deja la <em>zuhamá</em></td>
-</tr>
-</tbody>
-</table></div>
-<hr />
-<h2>Quién es quién en el daf de hoy</h2>
-<p><strong>Tanaim</strong></p>
-<ul>
-<li><strong>Beit Shamai y Beit Hilel</strong> — las dos grandes escuelas del final del Segundo Templo y de las primeras
-  generaciones posteriores a la Destrucción; aquí se muestra, al final, que no discrepan sobre limpiar
-  el paladar.</li>
-<li><strong>Rabí Elazar ben Araj</strong> y <strong>Rabán Gamliel hijo de Rebbi</strong> aparecen solo en el borde mismo del daf,
-  cuando su argumento se derrama en 106; el elenco de trabajo de 105 es amoraico.</li>
-</ul>
-<p><strong>Amoraim de Erretz Israel</strong></p>
-<ul>
-<li><strong>Rabí Iojanán</strong> (bar Napajá) — segunda generación, cabeza de la academia de Tiberíades, la voz
-  central del Talmud de Jerusalén. Dictamina &ldquo;ninguna espera&rdquo; entre el queso y la carne.</li>
-<li><strong>Rabí Zeirá</strong> — un babilonio que ascendió a Erretz Israel (tercera generación allí); da la regla de
-  que solo el pan limpia la boca.</li>
-<li><strong>Rabí Ianai</strong> — amorá de Erretz Israel de primera generación, maestro del círculo de Rabí Iojanán;
-  aporta el límite de &ldquo;la mano se retrae&rdquo; para el agua caliente.</li>
-<li><strong>Rav Asi</strong> — un babilonio que se asentó en Erretz Israel, colega cercano de Rav Amí y frecuente
-  interrogador de Rabí Iojanán; pregunta sobre la espera entre carne y queso, y es el sabio de la
-  historia del canal reventado. <strong>No</strong> es Rav Ashi el redactor (abajo).</li>
-</ul>
-<p><strong>Amoraim de Babilonia</strong></p>
-<ul>
-<li><strong>Shmuel</strong> — primera generación, cabeza de Nehardea; su &ldquo;padre&rdquo; es Abá bar Abá. Fuente de la máxima
-  de que patrullar la propiedad a diario &ldquo;encuentra una moneda&rdquo;.</li>
-<li><strong>Mar Ukvá</strong> — Exilarca y juez de primera generación, contemporáneo de Shmuel; mide su cautela
-  después de la carne frente a la de su padre, más estricto.</li>
-<li><strong>Rav Jisdá</strong> — tercera generación, Sura; que la carne-luego-queso deba esperar pero no al revés es
-  suyo, y viaja en el bote con Rabá bar Rav Huná.</li>
-<li><strong>Rav Ajá bar Iosef</strong> — un amorá babilonio que pregunta a Rav Jisdá sobre la carne entre los dientes.</li>
-<li><strong>Rabá bar Rav Huná</strong> — tercera generación, hijo de Rav Huná de Sura; la hechicera no puede tocarlo a
-  él ni a Rav Jisdá en el bote.</li>
-<li><strong>Abaie</strong> — cuarta generación, cabeza de Pumbedita; toda la cadena de &ldquo;al principio yo diría&rdquo; es suya,
-  reportando lo que aprendió del <strong>Maestro, Rabá</strong> — su maestro y padre adoptivo Rabá bar Najmaní.</li>
-<li><strong>Rav Najmán</strong> (bar Iaakov) — tercera generación, Nehardea; acota las &ldquo;opcionales&rdquo; aguas intermedias
-  para exigir el lavado antes del queso.</li>
-<li><strong>Rav Idi bar Avín</strong> y <strong>Rav Itzjak bar Ashián</strong> — la pareja detrás del dictamen de que las aguas
-  primeras son mitzvá y las últimas obligación. Ambos son tradentes relativamente menores; no forzaría
-  más sus biografías.</li>
-<li><strong>Rav Itzjak bar Iosef</strong> — un amorá viajero que llevó las enseñanzas de Rabí Ianai desde Erretz
-  Israel a Babilonia. <strong>No</strong> es Rav Itzjak bar Ashián, pese al nombre compartido.</li>
-<li><strong>Rav Iehudá hijo de Rabí Jiiá</strong> — da la razón de la sal de Sodoma para las aguas últimas.</li>
-<li><strong>Rav Ashi</strong> — sexta generación, redactor del Talmud en Sura; dictamina sobre quien manipuló sal.
-  <strong>No</strong> es Rav Asi arriba.</li>
-<li><strong>Rav Ajá hijo de Rava</strong> — un babilonio posterior que interroga a Rav Ashi aquí.</li>
-<li><strong>Mar bar Rav Ashi</strong> — hijo de Rav Ashi, cabeza de séptima generación en Sura; estricto sobre la mesa
-  durante la bebida, y el sabio que excomulga al demonio del canalón.</li>
-<li><strong>Rav Papa</strong> — quinta generación, fundador de la academia de Naresh; un demonio-sirviente trabaja en
-  su casa.</li>
-</ul>
-<p><em>Parecidos que vale la pena señalar:</em>
-- <strong>Rav Asi</strong> (de Erretz Israel, pregunta a Rabí Iojanán, tapa el canal) <strong>no</strong> es <strong>Rav Ashi</strong> el
-  redactor — y ambos aparecen en este mismo daf.
-- <strong>Rabá</strong> — el &ldquo;Maestro&rdquo; a quien Abaie cita — es Rabá bar Najmaní, <strong>no</strong> <strong>Rava</strong>; y <strong>Rabá bar Rav
-  Huná</strong> en el bote es un tercero, figura distinta.
-- <strong>Mar bar Rav Ashi</strong> (hijo de Rav Ashi) <strong>no</strong> es Rav Ajá bar Rav Ashi.
-- <strong>Rav Itzjak bar Ashián</strong> y <strong>Rav Itzjak bar Iosef</strong> son dos tradentes diferentes.</p>
-<hr />
-<h2>Una línea para llevarte</h2>
-<blockquote>
-<p>Un daf que empieza limpiándote las migas de la boca termina enseñando que los pequeños hábitos medio
-olvidados de una mesa — guardar las migas, verter la primera agua, no sentarse bajo el canalón — nunca
-son solo cuestión de pulcritud. Bajo cada uno, los Sabios vieron salud, fortuna y todo un mundo
-invisible.</p>
-</blockquote>
-      <p class="tomorrow">Mañana (vie, 14 de agosto de 2026):
-        <strong>Julín 106</strong> — Rav Dimi y Ravín sobre las terribles consecuencias de saltarse las aguas primeras y últimas — un judío al que hacen comer carne de cerdo, una esposa perdida — y si uno puede lavarse con agua calentada al fuego o con las aguas termales de Tiberíades.</p>
     </div>
     <div class="sheet" data-lang="he" data-speak-lang="he"
          lang="he" dir="rtl">
@@ -663,104 +302,138 @@ invisible.</p>
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 ללמוד את המונחים האלה בכרטיסיות</button></p>
+    </div>
 
-<hr />
-<h2>עוברים על הסוגיה, צעד אחר צעד</h2>
-<h3>קה ע״א — ניקוי החיך, וכמה ממתינים</h3>
-<p><strong>יישוב בית שמאי ובית הלל.</strong> הגמרא מנסה שלוש קריאות במחלוקתם על ניקוי הפה אחר בשר. שתיים נופלות —
-האחת הייתה עושה את רבי זירא כפוסק כבית שמאי (ולא מסתבר), והשנייה הייתה מחייבת שהמקרה יימנה ב<em>עדויות</em>
-בין ״קולי בית שמאי״. השלישית עומדת:</p>
-<blockquote>
-<p><strong>בֵּית שַׁמַּאי אוֹמְרִים: מְקַנֵּחַ, וְהוּא הַדִּין לְמֵדִיחַ, וּבֵית הִלֵּל אוֹמְרִים: מֵדִיחַ, וְהוּא הַדִּין לִמְקַנֵּחַ. מָר אָמַר חֲדָא, וּמָר אָמַר חֲדָא, וְלָא פְּלִיגִי.</strong>
-בית שמאי אומרים מנגב — והוא הדין לשוטף; ובית הלל אומרים שוטף — והוא הדין למנגב. מר אמר דבר אחד ומר
-אמר דבר אחד, ואינם חלוקים.</p>
-</blockquote>
-<p><strong>רבי זירא על הקינוח.</strong> הובא דרך אגב, וכעת נבחן לעצמו: <strong>אֵין קִינּוּחַ הַפֶּה אֶלָּא בְּפַת</strong> — אין
-מקנחים את הפה אלא ב<strong>פת</strong>. ורק פת חיטים (של שעורים מתפוררת), ורק צוננת (חמה מתרככת ונדבקת), ורק רכה
-(קשה אינה מנקה). שורה תחתונה: <strong>הכול</strong> מקנחים <strong>חוץ מקמח, תמרים וירק</strong>.</p>
-<p><strong>כמה ממתינים בין בשר לגבינה?</strong> רב אסי שאל את רבי יוחנן כמה ממתינים — ״כלום״, השיב. אבל זה סותר את
-רב חסדא, ולכן השאלה נקראת מחדש: מדובר ב<strong>גבינה ואחריה בשר</strong> — ושם אין המתנה. בשר תחילה שונה:</p>
-<blockquote>
-<p><strong>אָכַל בָּשָׂר – אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה – מוּתָּר לֶאֱכוֹל בָּשָׂר.</strong>
-אכל בשר — אסור לאכול גבינה; אכל גבינה — מותר לאכול בשר.</p>
-</blockquote>
-<p>רב אחא בר יוסף הקשה: ומה בבשר שנשאר <strong>בין השיניים</strong>? השיב לו רב חסדא בפסוק של השליו — <strong>״הַבָּשָׂר
-עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם״</strong> (במדבר יא, לג) — עדיין בשר הוא.</p>
-<p><strong>״חלא בר חמרא״.</strong> שני חכמים מעמידים עצמם למטה מאבותיהם. <strong>מר עוקבא:</strong> אבא, אחר בשר, לא היה אוכל
-גבינה עד אותה שעה למחרת; ואילו אני נמנע רק ב<em>אותה סעודה</em>. <strong>שמואל:</strong> אבא היה מסייר בשדותיו פעמיים
-ביום, ואני רק פעם אחת — ש<strong>מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא</strong>, המסייר
-בנכסיו בכל יום מוצא מטבע. ומכאן שתי תמונות: <strong>אביי</strong> תפס את אריסו נושא עצים (״לבית מר״, שיקר) —
-״הקדימוך רבנן״. ו<strong>רב אסי</strong>, שפקפק שיש שם מטבע למצוא, סתם יום אחד אמת מים שנפרצה בטליתו והציל את
-שדהו: ״<em>עכשיו</em> מצאתי את כל מטבעותיו של מר שמואל״.</p>
-<p><strong>שלושת המים.</strong> רב אידי בר אבין בשם רב יצחק בר אשיאן: <strong>מים ראשונים</strong> (לפני הפת) — <strong>מצווה</strong>; <strong>מים
-אחרונים</strong> (לפני ברכת המזון) — <strong>חובה</strong>. ברייתא קוראת גם לראשונים חובה, ומיושב: ביחס לאמצעיים שהם
-<strong>רשות</strong>, אף מצווה נקראת חובה. ומכאן נפרשת הברייתא: ראשונים ניטלים לתוך כלי <strong>או על גבי קרקע</strong>;
-אחרונים לתוך כלי בלבד (וההבדל המעשי: קיסמי עץ). ראשונים ב<strong>חמין או בצונן</strong>; אחרונים בצונן בלבד,
-שהחמין <strong>מְפַעְפְּעִין אֶת הַיָּדַיִם</strong> — מרככים את הידיים ואינם מעבירים את הזוהמה. רבי ינאי, מפי רב
-יצחק בר יוסף, מוסיף את הגבול: חמין כשרים כל עוד אין <strong>הַיָּד סוֹלֶדֶת בָּהֶן</strong>.</p>
-<h3>קה ע״ב — הטעמים המסתתרים בתוך המנהגים</h3>
-<p><strong>מים אמצעיים.</strong> ״רשות״, אמרה הברייתא — ורב נחמן מצמצם: רק <strong>בין תבשיל לתבשיל</strong>; אבל בין <strong>תבשיל
-לגבינה</strong> הנטילה <strong>חובה</strong>.</p>
-<p><strong>למה מים אחרונים חובה?</strong> רב יהודה בריה דרבי חייא: מפני <strong>מֶלַח סְדוֹמִית</strong>, שמא ידבק בידיים
-ו<strong>יסמא את העיניים</strong>. אביי: אינו מצוי אלא כקורט אחד בכור שלם — ואף על פי כן, פוסק רב אשי, אף מי
-שרק <em>נגע</em> במלח חייב ליטול.</p>
-<p><strong>שרשרת ה״מריש הוה אמינא״ של אביי.</strong> כאן הדף נעשה ליטניה. על כל מנהג רגיל מציע אביי את הטעם המסודר
-וההגיוני שסבר בתחילה — ואחר כך מוסר את הטעם העמוק יותר ש<strong>מר</strong> (רבה) אמר לו:</p>
+    <div class="deck-inline">
+      <h2>🃏&nbsp;<span data-lang="en">Flashcards</span><span data-lang="es">Tarjetas</span><span data-lang="he">כרטיסיות</span></h2>
+      <p class="deck-intro"><span data-lang="en">The terms above, one per card. Read the term, recall what it means on this daf, then turn the card over and say whether you had it. Whatever you flag comes back at the end in a shorter second round.</span><span data-lang="es">Los términos de arriba, uno por tarjeta. Lee el término, recuerda qué significa en este daf, luego gira la tarjeta y di si lo sabías. Lo que marques vuelve al final en una segunda ronda, más corta.</span><span data-lang="he">המונחים שלמעלה, אחד לכל כרטיס. קראו את המונח, נסו להיזכר מה משמעותו בדף הזה, ואז הפכו את הכרטיס ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף בסיבוב שני, קצר יותר.</span></p>
+      <div class="deck" id="deckCard"></div>
+      <div class="hint"><span data-lang="en">Tip: click the card, then space flips it, ← → move, 1 / 2 rate it.</span><span data-lang="es">Consejo: pulsa en la tarjeta; la barra espaciadora la gira, ← → navegan, 1 / 2 califican.</span><span data-lang="he">טיפ: הקישו על הכרטיס; מקש הרווח הופך אותו, ← → מדפדפים, 1 / 2 מדרגים.</span></div>
+    </div>
+
+    <div class="sheet" data-lang="en" data-speak-lang="en"
+         lang="en" dir="ltr">
+      <h2>Who&rsquo;s who in today&rsquo;s daf</h2>
+<p><strong>Tannaim</strong></p>
 <ul>
-<li><strong>שאין שופכים מים אחרונים על גבי קרקע</strong> — לא מפני הלכלוך, אלא ש<strong>רוּחַ רָעָה</strong> שורה עליהם.</li>
-<li><strong>שאין מסלקים דבר מן השולחן בשעה שאדם אוחז כוסו לשתות</strong> — לא מחשש תקלה, אלא מפני שקשה לבריאות
-  ומביא <strong>רוּחַ צְרָדָא</strong>, כאב ראש. (ורק בנוטל ואינו מחזיר, ורק מעבר לארבע אמות, ורק בדבר הצריך
-  לסעודה. מר בר רב אשי החמיר אפילו במכתשת ובעלי.)</li>
-<li><strong>שמלקטים את הפירורים</strong> — לא מפני הסדר, אלא שהשארתם <strong>מביאה לידי עניות</strong>. אדם שמלאך העוני לא יכול
-  היה לו — מרוב זהירותו בפירורים — כמעט נכשל כשנפלו פירורים בעשבים; עקר את העשבים והטביעם, ושמע את
-  המלאך זועק שגורש מביתו.</li>
-<li><strong>שאין שותים את הקצף</strong> שעל המשקה — לא מפני מיאוס, אלא שקשה ל<strong>נזלת</strong>; ולנשוף עליו קשה לראש,
-  ולהסיטו הצדה מביא לידי עניות; והתקנה היא להשקיעו בחזרה.</li>
-<li><strong>שאין אוכלים ירק מאגודה שקשר הגנן</strong> — לא מפני מראית עין של גרגרנות, אלא שקשה ל<strong>כשפים</strong>. כשלא
-  יכלה מכשפה לרב חסדא ולרבה בר רב הונא בספינה, מנתה שלושה מנהגים שהגנו עליהם — וזה אחד מהם.</li>
-<li><strong>שאין אוכלים ירק שנפל על השולחן</strong> — לא מפני המיאוס, אלא מפני ריח הפה.</li>
-<li><strong>שאין יושבים תחת המרזב</strong> — לא מפני הנוטף, אלא ש<strong>מזיקים</strong> מצויים שם. סבלים שהניחו חבית יין תחת
-  מרזב נבקעה להם; מר בר רב אשי תקע ונידה את המזיק, וזה טען ״הרי הניחו את החבית על אוזני!״ — ונצטווה
-  לשלם.</li>
-<li><strong>ששופכים מעט מים מפי הקנקן</strong> לפני השתייה — לא מפני קיסמים, אלא מפני <strong>מים הרעים</strong>. שד ששימש
-  בביתו של רב פפא הסביר כך את איחורו על הנהר: המתין ״עד שיעברו המים הרעים״.</li>
+<li><strong>Beit Shammai and Beit Hillel</strong> — the two great schools of the late Second Temple and early
+  post-Destruction generations; here shown, in the end, not to disagree about clearing the palate.</li>
+<li><strong>Rabbi Elazar ben Arakh</strong> and <strong>Rabban Gamliel son of Rebbi</strong> appear only at the very edge of the
+  daf as its argument spills into 106; the working cast of 105 is Amoraic.</li>
 </ul>
-<hr />
-<h2>ההבחנות, זו מול זו</h2>
-<p>שלוש נטילות, ארבע שאלות, והפרוזה מגיעה לשם בשלוש פסקאות:</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>המים</th>
-<th>דרגה</th>
-<th>לתוך מה</th>
-<th>חום</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>ראשונים</strong> — לפני הפת</td>
-<td><strong>מצווה</strong> (וה״חובה״ שבברייתא אינו אלא ביחס לאמצעיים שהם רשות)</td>
-<td>כלי <strong>או</strong> קרקע</td>
-<td>חמין או צוננים — עד ש<em>הַיָּד סוֹלֶדֶת בָּהֶן</em></td>
-</tr>
-<tr>
-<td><strong>אמצעיים</strong> — בין תבשיל לתבשיל</td>
-<td><strong>רשות</strong> — ורב נחמן: <strong>חובה</strong> בין תבשיל לגבינה</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr>
-<td><strong>אחרונים</strong> — לפני ברכת המזון</td>
-<td><strong>חובה</strong> — מלח סדומית שעל הידיים מסמא את העיניים</td>
-<td>כלי בלבד; וההבדל המעשי הוא קיסמי עץ</td>
-<td>צוננים בלבד — שחמין <em>מְפַעְפְּעִין אֶת הַיָּדַיִם</em> ומשאירים את הזוהמה</td>
-</tr>
-</tbody>
-</table></div>
-<hr />
-<h2>מי ומי בדף של היום</h2>
+<p><strong>Eretz-Yisrael Amoraim</strong></p>
+<ul>
+<li><strong>Rabbi Yochanan</strong> (bar Nappacha) — second generation, head of the academy in Tiberias, the central
+  voice of the Jerusalem Talmud. Rules &ldquo;no wait&rdquo; between cheese and meat.</li>
+<li><strong>Rabbi Zeira</strong> — a Babylonian who ascended to Eretz Yisrael (third generation there); gives the
+  rule that only bread wipes the mouth.</li>
+<li><strong>Rabbi Yannai</strong> — first-generation Eretz-Yisrael Amora, a teacher of Rabbi Yochanan&rsquo;s circle;
+  supplies the &ldquo;hand recoils&rdquo; limit on hot water.</li>
+<li><strong>Rav Asi</strong> — a Babylonian who settled in Eretz Yisrael, close colleague of Rav Ami and a frequent
+  questioner of Rabbi Yochanan; he asks about waiting between meat and cheese, and is the sage of the
+  burst-channel story. <strong>Not</strong> Rav Ashi the redactor (below).</li>
+</ul>
+<p><strong>Babylonian Amoraim</strong></p>
+<ul>
+<li><strong>Shmuel</strong> — first generation, head of Nehardea; his &ldquo;father&rdquo; is Abba bar Abba. Source of the maxim
+  that patrolling your property daily &ldquo;finds a coin.&rdquo;</li>
+<li><strong>Mar Ukva</strong> — first-generation Exilarch and judge, a contemporary of Shmuel; measures his caution
+  after meat against his stricter father&rsquo;s.</li>
+<li><strong>Rav Chisda</strong> — third generation, Sura; that meat-then-cheese must wait but not the reverse is his,
+  and he travels the boat with Rabba bar Rav Huna.</li>
+<li><strong>Rav Acha bar Yosef</strong> — a Babylonian Amora who asks Rav Chisda about meat between the teeth.</li>
+<li><strong>Rabba bar Rav Huna</strong> — third generation, son of Rav Huna of Sura; the sorceress cannot touch him
+  or Rav Chisda on the boat.</li>
+<li><strong>Abaye</strong> — fourth generation, head of Pumbedita; the whole &ldquo;at first I would say&rdquo; chain is his,
+  reporting what he learned from <strong>the Master, Rabba</strong> — his teacher and foster-father Rabba bar
+  Nachmani.</li>
+<li><strong>Rav Nachman</strong> (bar Yaakov) — third generation, Nehardea; narrows &ldquo;optional&rdquo; middle waters to
+  require washing before cheese.</li>
+<li><strong>Rav Idi bar Avin</strong> and <strong>Rav Yitzchak bar Ashyan</strong> — the pair behind the ruling that first waters
+  are a mitzva and last an obligation. Both are relatively minor tradents; I would not press their
+  biographies further.</li>
+<li><strong>Rav Yitzchak bar Yosef</strong> — a traveling Amora who carried Rabbi Yannai&rsquo;s teachings from Eretz
+  Yisrael to Babylonia. <strong>Not</strong> Rav Yitzchak bar Ashyan, despite the shared first name.</li>
+<li><strong>Rav Yehuda son of Rabbi Chiyya</strong> — gives the Sodomite-salt reason for last waters.</li>
+<li><strong>Rav Ashi</strong> — sixth generation, redactor of the Talmud at Sura; rules on one who handled salt.
+  <strong>Not</strong> Rav Asi above.</li>
+<li><strong>Rav Acha son of Rava</strong> — a later Babylonian who questions Rav Ashi here.</li>
+<li><strong>Mar bar Rav Ashi</strong> — son of Rav Ashi, a seventh-generation head at Sura; strict about the table
+  during drinking, and the sage who excommunicates the gutter-demon.</li>
+<li><strong>Rav Pappa</strong> — fifth generation, founder of the academy at Naresh; a demon-servant works in his
+  house.</li>
+</ul>
+<p><em>Look-alikes worth flagging:</em>
+- <strong>Rav Asi</strong> (Eretz-Yisrael, asks Rabbi Yochanan, plugs the channel) is <strong>not</strong> <strong>Rav Ashi</strong> the
+  redactor — and both appear on this very daf.
+- <strong>Rabba</strong> — the &ldquo;Master&rdquo; whom Abaye quotes — is Rabba bar Nachmani, <strong>not</strong> <strong>Rava</strong>; and <strong>Rabba
+  bar Rav Huna</strong> on the boat is a third, distinct figure.
+- <strong>Mar bar Rav Ashi</strong> (son of Rav Ashi) is <strong>not</strong> Rav Acha bar Rav Ashi.
+- <strong>Rav Yitzchak bar Ashyan</strong> and <strong>Rav Yitzchak bar Yosef</strong> are two different tradents.</p>
+    </div>
+    <div class="sheet" data-lang="es" data-speak-lang="es"
+         lang="es" dir="ltr">
+      <h2>Quién es quién en el daf de hoy</h2>
+<p><strong>Tanaim</strong></p>
+<ul>
+<li><strong>Beit Shamai y Beit Hilel</strong> — las dos grandes escuelas del final del Segundo Templo y de las primeras
+  generaciones posteriores a la Destrucción; aquí se muestra, al final, que no discrepan sobre limpiar
+  el paladar.</li>
+<li><strong>Rabí Elazar ben Araj</strong> y <strong>Rabán Gamliel hijo de Rebbi</strong> aparecen solo en el borde mismo del daf,
+  cuando su argumento se derrama en 106; el elenco de trabajo de 105 es amoraico.</li>
+</ul>
+<p><strong>Amoraim de Erretz Israel</strong></p>
+<ul>
+<li><strong>Rabí Iojanán</strong> (bar Napajá) — segunda generación, cabeza de la academia de Tiberíades, la voz
+  central del Talmud de Jerusalén. Dictamina &ldquo;ninguna espera&rdquo; entre el queso y la carne.</li>
+<li><strong>Rabí Zeirá</strong> — un babilonio que ascendió a Erretz Israel (tercera generación allí); da la regla de
+  que solo el pan limpia la boca.</li>
+<li><strong>Rabí Ianai</strong> — amorá de Erretz Israel de primera generación, maestro del círculo de Rabí Iojanán;
+  aporta el límite de &ldquo;la mano se retrae&rdquo; para el agua caliente.</li>
+<li><strong>Rav Asi</strong> — un babilonio que se asentó en Erretz Israel, colega cercano de Rav Amí y frecuente
+  interrogador de Rabí Iojanán; pregunta sobre la espera entre carne y queso, y es el sabio de la
+  historia del canal reventado. <strong>No</strong> es Rav Ashi el redactor (abajo).</li>
+</ul>
+<p><strong>Amoraim de Babilonia</strong></p>
+<ul>
+<li><strong>Shmuel</strong> — primera generación, cabeza de Nehardea; su &ldquo;padre&rdquo; es Abá bar Abá. Fuente de la máxima
+  de que patrullar la propiedad a diario &ldquo;encuentra una moneda&rdquo;.</li>
+<li><strong>Mar Ukvá</strong> — Exilarca y juez de primera generación, contemporáneo de Shmuel; mide su cautela
+  después de la carne frente a la de su padre, más estricto.</li>
+<li><strong>Rav Jisdá</strong> — tercera generación, Sura; que la carne-luego-queso deba esperar pero no al revés es
+  suyo, y viaja en el bote con Rabá bar Rav Huná.</li>
+<li><strong>Rav Ajá bar Iosef</strong> — un amorá babilonio que pregunta a Rav Jisdá sobre la carne entre los dientes.</li>
+<li><strong>Rabá bar Rav Huná</strong> — tercera generación, hijo de Rav Huná de Sura; la hechicera no puede tocarlo a
+  él ni a Rav Jisdá en el bote.</li>
+<li><strong>Abaie</strong> — cuarta generación, cabeza de Pumbedita; toda la cadena de &ldquo;al principio yo diría&rdquo; es suya,
+  reportando lo que aprendió del <strong>Maestro, Rabá</strong> — su maestro y padre adoptivo Rabá bar Najmaní.</li>
+<li><strong>Rav Najmán</strong> (bar Iaakov) — tercera generación, Nehardea; acota las &ldquo;opcionales&rdquo; aguas intermedias
+  para exigir el lavado antes del queso.</li>
+<li><strong>Rav Idi bar Avín</strong> y <strong>Rav Itzjak bar Ashián</strong> — la pareja detrás del dictamen de que las aguas
+  primeras son mitzvá y las últimas obligación. Ambos son tradentes relativamente menores; no forzaría
+  más sus biografías.</li>
+<li><strong>Rav Itzjak bar Iosef</strong> — un amorá viajero que llevó las enseñanzas de Rabí Ianai desde Erretz
+  Israel a Babilonia. <strong>No</strong> es Rav Itzjak bar Ashián, pese al nombre compartido.</li>
+<li><strong>Rav Iehudá hijo de Rabí Jiiá</strong> — da la razón de la sal de Sodoma para las aguas últimas.</li>
+<li><strong>Rav Ashi</strong> — sexta generación, redactor del Talmud en Sura; dictamina sobre quien manipuló sal.
+  <strong>No</strong> es Rav Asi arriba.</li>
+<li><strong>Rav Ajá hijo de Rava</strong> — un babilonio posterior que interroga a Rav Ashi aquí.</li>
+<li><strong>Mar bar Rav Ashi</strong> — hijo de Rav Ashi, cabeza de séptima generación en Sura; estricto sobre la mesa
+  durante la bebida, y el sabio que excomulga al demonio del canalón.</li>
+<li><strong>Rav Papa</strong> — quinta generación, fundador de la academia de Naresh; un demonio-sirviente trabaja en
+  su casa.</li>
+</ul>
+<p><em>Parecidos que vale la pena señalar:</em>
+- <strong>Rav Asi</strong> (de Erretz Israel, pregunta a Rabí Iojanán, tapa el canal) <strong>no</strong> es <strong>Rav Ashi</strong> el
+  redactor — y ambos aparecen en este mismo daf.
+- <strong>Rabá</strong> — el &ldquo;Maestro&rdquo; a quien Abaie cita — es Rabá bar Najmaní, <strong>no</strong> <strong>Rava</strong>; y <strong>Rabá bar Rav
+  Huná</strong> en el bote es un tercero, figura distinta.
+- <strong>Mar bar Rav Ashi</strong> (hijo de Rav Ashi) <strong>no</strong> es Rav Ajá bar Rav Ashi.
+- <strong>Rav Itzjak bar Ashián</strong> y <strong>Rav Itzjak bar Iosef</strong> son dos tradentes diferentes.</p>
+    </div>
+    <div class="sheet" data-lang="he" data-speak-lang="he"
+         lang="he" dir="rtl">
+      <h2>מי ומי בדף של היום</h2>
 <p><strong>תנאים</strong></p>
 <ul>
 <li><strong>בית שמאי ובית הלל</strong> — שתי הישיבות הגדולות של סוף בית שני וראשית הדורות שאחר החורבן; כאן מתברר
@@ -809,27 +482,7 @@ invisible.</p>
   שלישי ונפרד משניהם.
 - <strong>מר בר רב אשי</strong> (בנו של רב אשי) <strong>אינו</strong> רב אחא בר רב אשי.
 - <strong>רב יצחק בר אשיאן</strong> ו<strong>רב יצחק בר יוסף</strong> הם שני מוסרים שונים.</p>
-<hr />
-<h2>שורה אחת לקחת אתכם</h2>
-<blockquote>
-<p>דף שפותח בניגוב פירורים מן הפה מסיים בכך שההרגלים הקטנים וחצי־השכוחים של שולחן — לקט את הפירורים,
-שפוך מעט מן המים הראשונים, אל תשב תחת המרזב — אינם לעולם עניין של סדר בלבד. תחת כל אחד מהם ראו
-חכמים בריאות, מזל, ועולם שלם שאינו נראה.</p>
-</blockquote>
-      <p class="tomorrow">מחר (יום ו׳, 14 באוגוסט 2026):
-        <strong>חולין קו</strong> — רב דימי ורבין על התוצאות הקשות של הזלזול במים ראשונים ואחרונים — יהודי שהאכילוהו בשר חזיר, אישה שאבדה — והאם מותר ליטול בחמין שהוחמו באש או במימי טבריה.</p>
     </div>
-  </section>
-
-  <section class="view" id="cards" role="tabpanel">
-    <p class="deck-intro"><span data-lang="en">Today&#39;s key terms, one per card — the same glossary as in Learn. Read the term, recall what it means on this daf, then turn the card over and say whether you had it. Whatever you flag comes back at the end in a shorter second round.</span><span data-lang="es">Los términos clave de hoy, uno por tarjeta — el mismo glosario que en Aprender. Lee el término, recuerda qué significa en este daf, luego gira la tarjeta y di si lo sabías. Lo que marques vuelve al final en una segunda ronda, más corta.</span><span data-lang="he">המונחים המרכזיים של היום, אחד לכל כרטיס — אותו מילון שבלשונית הלימוד. קראו את המונח, נסו להיזכר מה משמעותו בדף הזה, ואז הפכו את הכרטיס ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף בסיבוב שני, קצר יותר.</span></p>
-    <div class="deck" id="deckCard"></div>
-    <div class="hint"><span data-lang="en">Tip: space flips the card, ← → move, 1 / 2 rate it.</span><span data-lang="es">Consejo: la barra espaciadora gira la tarjeta, ← → navegan, 1 / 2 califican.</span><span data-lang="he">טיפ: מקש הרווח הופך את הכרטיס, ← → מדפדפים, 1 / 2 מדרגים.</span></div>
-  </section>
-
-  <section class="view" id="quiz" role="tabpanel">
-    <div class="quiz" id="quizCard"></div>
-    <div class="hint"><span data-lang="en">Tip: press keys 1–4 to answer, Enter for next.</span><span data-lang="es">Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.</span><span data-lang="he">טיפ: הקישו 1–4 כדי לענות, ו-Enter כדי להמשיך.</span></div>
   </section>
 
 
@@ -840,7 +493,7 @@ invisible.</p>
       <button class="chip mode" type="button" data-mode="text" aria-pressed="false">🔤&nbsp;<span data-lang="en">Text</span><span data-lang="es">Texto</span><span data-lang="he">טקסט</span></button>
     </div>
 
-    <p class="daf-intro for-scan"><span data-lang="en">The whole Vilna page as it is printed — Gemara in the middle, Rashi and Tosafot in the margins, Mesoras HaShas and Ein Mishpat down the sides. Open it full size to read it comfortably, and tap any line underneath it for the English of that passage.</span><span data-lang="es">La página de Vilna completa, tal como está impresa — la Guemará en el centro, Rashi y Tosafot en los márgenes, Masoret HaShas y Ein Mishpat a los lados. Ábrela a tamaño completo para leerla con comodidad, y toca cualquier línea de abajo para ver ese pasaje traducido al inglés.</span><span data-lang="he">דף וילנא כולו כפי שהוא מודפס — הגמרא באמצע, רש״י ותוספות בשוליים, מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות, והקישו על כל שורה שמתחתיו כדי לראות את אותו קטע באנגלית.</span></p>
+    <p class="daf-intro for-scan"><span data-lang="en">The whole Vilna page as it is printed — Gemara in the middle, Rashi and Tosafot in the margins, Mesoras HaShas and Ein Mishpat down the sides. Open it full size to read it comfortably, and tap any line underneath it for the English of that passage.</span><span data-lang="es">La página de Vilna completa, tal como está impresa — la Guemará en el centro, Rashi y Tosafot en los márgenes, Masoret HaShas y Ein Mishpat a los lados. Ábrela a tamaño completo para leerla con comodidad; debajo está su texto, pasaje por pasaje.</span><span data-lang="he">דף וילנא כולו כפי שהוא מודפס — הגמרא באמצע, רש״י ותוספות בשוליים, מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות; מתחתיו מופיע הטקסט שלו, קטע אחר קטע.</span></p>
     <div class="daf-scan">
       <figure class="scan">
         <figcaption>
@@ -851,7 +504,7 @@ invisible.</p>
                 title="Chullin 105a" loading="lazy"></iframe>
       </figure>
       <div class="daf-lines">
-        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">Línea por línea — toca una para verla en inglés</span><span data-lang="he">שורה אחר שורה — הקישו על שורה כדי לראות אותה באנגלית</span></p>
+        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">El texto de la página, pasaje por pasaje</span><span data-lang="he">טקסט הדף, קטע אחר קטע</span></p>
         <div class="line">
           <button class="line-head" type="button" aria-expanded="true">
             <i>1</i>
@@ -981,7 +634,7 @@ invisible.</p>
                 title="Chullin 105b" loading="lazy"></iframe>
       </figure>
       <div class="daf-lines">
-        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">Línea por línea — toca una para verla en inglés</span><span data-lang="he">שורה אחר שורה — הקישו על שורה כדי לראות אותה באנגלית</span></p>
+        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">El texto de la página, pasaje por pasaje</span><span data-lang="he">טקסט הדף, קטע אחר קטע</span></p>
         <div class="line">
           <button class="line-head" type="button" aria-expanded="true">
             <i>1</i>
@@ -1705,14 +1358,377 @@ invisible.</p>
     <p class="daf-credit for-text"><span data-lang="en">Text from <a href="https://www.sefaria.org" target="_blank" rel="noopener">Sefaria</a>. Gemara and translation from the William Davidson Talmud, with commentary by Rabbi Adin Even-Israel Steinsaltz, <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. Rashi and Tosafot are the Vilna edition, public domain.</span><span data-lang="es">Texto de <a href="https://www.sefaria.org" target="_blank" rel="noopener">Sefaria</a>. La Guemará y su traducción provienen del Talmud William Davidson, con comentario del rabino Adin Even-Israel Steinsaltz (traducción al inglés), <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. Rashi y Tosafot son de la edición de Vilna, de dominio público.</span><span data-lang="he">הטקסט מתוך <a href="https://www.sefaria.org" target="_blank" rel="noopener">ספריא</a>. הגמרא והתרגום מתוך תלמוד ויליאם דוידסון, עם פירושו של הרב עדין אבן־ישראל שטיינזלץ (התרגום לאנגלית), <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. רש״י ותוספות הם ממהדורת וילנא, נחלת הכלל.</span></p>
   </section>
 
+  <section class="view" id="chazara" role="tabpanel">
+    <div class="sheet" data-lang="en" data-speak-lang="en"
+         lang="en" dir="ltr">
+      <h2>Walking through the sugya, step by step</h2>
+<h3>105a — Clearing the palate, and how long to wait</h3>
+<p><strong>Resolving Beit Shammai and Beit Hillel.</strong> The Gemara tries three readings of their dispute over
+clearing the mouth after meat. The first two fail — one would make Rabbi Zeira rule like Beit Shammai
+(unlikely), the other would demand the case be listed in <em>Eduyyot</em> among the &ldquo;leniencies of Beit
+Shammai.&rdquo; The third holds:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">בֵּית שַׁמַּאי אוֹמְרִים: מְקַנֵּחַ, וְהוּא הַדִּין לְמֵדִיחַ, וּבֵית הִלֵּל אוֹמְרִים: מֵדִיחַ, וְהוּא הַדִּין לִמְקַנֵּחַ. מָר אָמַר חֲדָא, וּמָר אָמַר חֲדָא, וְלָא פְּלִיגִי</span>.</strong>
+Beit Shammai say <em>wipe</em> — and the same is true of rinsing; Beit Hillel say <em>rinse</em> — and the same is
+true of wiping. One Sage stated one thing and one the other, and they do not disagree.</p>
+</blockquote>
+<p><strong>Rabbi Zeira on wiping.</strong> Cited in passing, now examined for itself: <strong><span lang="he" dir="rtl">אֵין קִינּוּחַ הַפֶּה אֶלָּא
+בְּפַת</span></strong> — the mouth is wiped only with <strong>bread</strong>. And only wheat bread (barley crumbles), only cold
+(warm bread softens and sticks), only soft (hard bread will not clean). The bottom line: <strong>everything</strong>
+serves to wipe <strong>except flour, dates, and vegetables</strong>.</p>
+<p><strong>How long between meat and cheese?</strong> Rav Asi asked Rabbi Yochanan how long to wait — &ldquo;no time at
+all,&rdquo; came the answer. But that clashes with Rav Chisda, so the question is re-read: it was about
+<strong>cheese, then meat</strong> — there, no wait. Meat first is different:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">אָכַל בָּשָׂר – אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה – מוּתָּר לֶאֱכוֹל בָּשָׂר</span>.</strong>
+If one ate meat, he may not eat cheese [at once]; if he ate cheese, he may eat meat.</p>
+</blockquote>
+<p>Rav Acha bar Yosef pressed: what about <strong>meat lodged between the teeth</strong>? Rav Chisda answered by
+quoting the verse of the quail — <strong>&ldquo;the meat was still between their teeth&rdquo;</strong> (Bamidbar 11:33) — it
+is still meat.</p>
+<p><strong>&ldquo;Vinegar, son of wine.&rdquo;</strong> Two sages rate themselves below their fathers. <strong>Mar Ukva:</strong> my father,
+after meat, would not eat cheese until the same hour the next day; I only skip it for <em>this</em> meal.
+<strong>Shmuel:</strong> my father patrolled his fields twice a day; I only once — for <strong><span lang="he" dir="rtl">מַאן דְּסָיַיר נִכְסֵיהּ כֹּל
+יוֹמָא מַשְׁכַּח אִסְתֵּירָא</span></strong>, one who inspects his property daily finds a coin. Two vignettes follow:
+<strong>Abaye</strong> caught his sharecropper carrying off firewood (&ldquo;to the Master&rsquo;s house,&rdquo; he lied) — &ldquo;the
+Sages preempted you.&rdquo; And <strong>Rav Asi</strong>, skeptical there was any coin to be found, one day plugged a
+burst irrigation channel with his own cloak and saved his field: &ldquo;<em>Now</em> I have found all of Mar
+Shmuel&rsquo;s coins.&rdquo;</p>
+<p><strong>The three waters.</strong> Rav Idi bar Avin in the name of Rav Yitzchak bar Ashyan: <strong>first waters</strong> (before
+bread) are a <strong>mitzva</strong>; <strong>last waters</strong> (before <em>bircat hamazon</em>) an <strong>obligation</strong> (<em>chova</em>). A
+baraita calls the first waters <em>chova</em> too — resolved: relative to the <strong>optional</strong> middle waters, a
+mitzva may be called an obligation. The baraita is then unpacked: first waters may be poured into a
+vessel <strong>or onto the ground</strong>; last waters only into a vessel (the practical difference: wood
+slivers). First waters may be <strong>hot or cold</strong>; last waters only cold, since hot water <strong><span lang="he" dir="rtl">מְפַעְפְּעִין
+אֶת הַיָּדַיִם</span></strong> — softens the hands and fails to carry off the grease (<em>zuhama</em>). Rabbi Yannai, via
+Rav Yitzchak bar Yosef, adds the limit: hot is fine unless <strong><span lang="he" dir="rtl">הַיָּד סוֹלֶדֶת בָּהֶן</span></strong>, the hand recoils
+from the heat.</p>
+<h3>105b — The reasons hiding inside the customs</h3>
+<p><strong>Middle waters.</strong> &ldquo;Optional,&rdquo; said the baraita — but Rav Nachman narrows it: only <strong>between one dish
+and another</strong>; between a <strong>cooked dish and cheese</strong>, washing is an <strong>obligation</strong>.</p>
+<p><strong>Why are last waters obligatory?</strong> Rav Yehuda son of Rabbi Chiyya: because <strong><span lang="he" dir="rtl">מֶלַח סְדוֹמִית</span></strong>,
+Sodomite salt, may cling to the hands and <strong>blind the eyes</strong>. Abaye: it turns up as little as a pinch
+in a whole <em>kor</em> — and yet, Rav Ashi rules, even someone who merely <em>handled</em> salt must wash.</p>
+<p><strong>Abaye&rsquo;s chain of &ldquo;at first I would say.&rdquo;</strong> Here the daf becomes a litany. For each ordinary custom
+Abaye offers the tidy, rational reason he once assumed — and then reports the deeper reason <strong>the
+Master</strong> (Rabba) gave him:</p>
+<ul>
+<li><strong>Not pouring last waters on the ground</strong> — not mere messiness, but <strong><span lang="he" dir="rtl">רוּחַ רָעָה</span></strong>, an evil spirit,
+  rests on them.</li>
+<li><strong>Not removing anything from the table while someone holds his cup to drink</strong> — not fear of a mishap,
+  but that it is bad for the health, bringing on <strong><span lang="he" dir="rtl">רוּחַ צְרָדָא</span></strong>, a migraine. (Only if you take and
+  do not return it, only beyond four cubits, only something needed for the meal. Mar bar Rav Ashi was
+  strict even about a mortar and pestle.)</li>
+<li><strong>Gathering up the crumbs</strong> — not tidiness, but because leaving them <strong>invites poverty</strong>. A man the
+  angel of poverty could not touch — so careful was he with crumbs — nearly slipped when crumbs fell
+  in the grass; he uprooted and drowned the grass, and heard the angel wail that he had been evicted
+  from his home.</li>
+<li><strong>Not drinking the foam</strong> off a drink — not distaste, but because it is bad for <strong>catarrh</strong>; blowing
+  it off harms the head, brushing it aside invites poverty; the remedy is to sink it back in.</li>
+<li><strong>Not eating vegetables from a bundle the gardener tied</strong> — not the look of gluttony, but that it is
+  bad for <strong>witchcraft</strong>. When a sorceress could not bewitch Rav Chisda and Rabba bar Rav Huna on a
+  boat, she named three habits that shielded them — and this was one.</li>
+<li><strong>Not eating vegetables that fell on the table</strong> — not repulsiveness, but bad breath.</li>
+<li><strong>Not sitting under a gutter</strong> (<em>marzeiv</em>) — not the runoff, but that <strong>demons</strong> frequent it. Porters
+  who rested a wine barrel under a gutter had it burst; Mar bar Rav Ashi sounded the horns and
+  excommunicated the demon, who protested, &ldquo;they set the barrel on my ear!&rdquo; — and was ordered to pay.</li>
+<li><strong>Pouring a little water from the mouth of a pitcher</strong> before drinking — not twigs, but <strong>foul
+  waters</strong>. A demon-servant in Rav Pappa&rsquo;s house explained his delay at the river the same way: he
+  had waited &ldquo;for the bad waters to pass.&rdquo;</li>
+</ul>
+<hr />
+<h2>The distinctions, side by side</h2>
+<p>Three washings, four questions, and the prose spends three paragraphs getting there:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>The waters</th>
+<th>Grade</th>
+<th>Poured into</th>
+<th>Temperature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>First</strong> — before bread</td>
+<td><strong>Mitzva</strong> (the baraita&rsquo;s <em>chova</em> is only relative to the optional middle)</td>
+<td>A vessel <strong>or</strong> the ground</td>
+<td>Hot or cold — up to <em><span lang="he" dir="rtl">הַיָּד סוֹלֶדֶת בָּהֶן</span></em>, where the hand recoils</td>
+</tr>
+<tr>
+<td><strong>Middle</strong> — between dishes</td>
+<td><strong>Optional</strong> — but Rav Nachman: an <strong>obligation</strong> between a cooked dish and cheese</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Last</strong> — before <em>bircat hamazon</em></td>
+<td><strong>Obligation</strong> (<em>chova</em>) — Sodomite salt on the hands can blind the eyes</td>
+<td>A vessel only; the practical difference is wood slivers</td>
+<td>Cold only — hot <em><span lang="he" dir="rtl">מְפַעְפְּעִין אֶת הַיָּדַיִם</span></em>, softens the hands and leaves the <em>zuhama</em></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>One line to carry with you</h2>
+<blockquote>
+<p>A daf that starts by wiping crumbs from your mouth ends by teaching that the small, half-forgotten
+habits of a table — save the crumbs, pour off the first water, don&rsquo;t sit under the gutter — are
+never only about tidiness. Under each one, the Sages saw health, fortune, and a whole unseen world.</p>
+</blockquote>
+    </div>
+    <div class="sheet" data-lang="es" data-speak-lang="es"
+         lang="es" dir="ltr">
+      <h2>Recorriendo la suguiá, paso a paso</h2>
+<h3>105a — Limpiar el paladar, y cuánto esperar</h3>
+<p><strong>Reconciliar a Beit Shamai y Beit Hilel.</strong> La Guemará prueba tres lecturas de su disputa sobre limpiar
+la boca después de la carne. Las dos primeras fracasan — una haría que Rabí Zeirá dictaminara como Beit
+Shamai (poco probable), la otra exigiría que el caso figurara en <em>Eduiot</em> entre las &ldquo;indulgencias de
+Beit Shamai&rdquo;. La tercera se sostiene:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">בֵּית שַׁמַּאי אוֹמְרִים: מְקַנֵּחַ, וְהוּא הַדִּין לְמֵדִיחַ, וּבֵית הִלֵּל אוֹמְרִים: מֵדִיחַ, וְהוּא הַדִּין לִמְקַנֵּחַ. מָר אָמַר חֲדָא, וּמָר אָמַר חֲדָא, וְלָא פְּלִיגִי</span>.</strong>
+Beit Shamai dice <em>limpiar</em> — y lo mismo vale para enjuagar; Beit Hilel dice <em>enjuagar</em> — y lo mismo
+vale para limpiar. Un Sabio expuso una cosa y el otro la otra, y no discrepan.</p>
+</blockquote>
+<p><strong>Rabí Zeirá sobre limpiar.</strong> Citado de pasada, ahora se lo examina por sí mismo: <strong><span lang="he" dir="rtl">אֵין קִינּוּחַ הַפֶּה
+אֶלָּא בְּפַת</span></strong> — la boca se limpia solo con <strong>pan</strong>. Y solo pan de trigo (el de cebada se desmenuza),
+solo frío (el pan caliente se ablanda y se pega), solo blando (el pan duro no limpia). La conclusión:
+<strong>todo</strong> sirve para limpiar <strong>excepto la harina, los dátiles y las verduras</strong>.</p>
+<p><strong>¿Cuánto entre la carne y el queso?</strong> Rav Asi preguntó a Rabí Iojanán cuánto esperar — &ldquo;nada de
+tiempo&rdquo;, fue la respuesta. Pero eso choca con Rav Jisdá, así que la pregunta se relee: era sobre
+<strong>queso y luego carne</strong> — ahí, ninguna espera. La carne primero es distinta:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">אָכַל בָּשָׂר – אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה – מוּתָּר לֶאֱכוֹל בָּשָׂר</span>.</strong>
+Si uno comió carne, no puede comer queso [enseguida]; si comió queso, puede comer carne.</p>
+</blockquote>
+<p>Rav Ajá bar Iosef presionó: ¿y la <strong>carne alojada entre los dientes</strong>? Rav Jisdá respondió citando el
+versículo de las codornices — <strong>&ldquo;la carne aún estaba entre sus dientes&rdquo;</strong> (Bamidbar 11:33) — sigue
+siendo carne.</p>
+<p><strong>&ldquo;Vinagre, hijo de vino.&rdquo;</strong> Dos sabios se califican por debajo de sus padres. <strong>Mar Ukvá:</strong> mi padre,
+después de la carne, no comía queso hasta la misma hora del día siguiente; yo solo lo omito en <em>esta</em>
+comida. <strong>Shmuel:</strong> mi padre patrullaba sus campos dos veces al día; yo solo una — porque <strong><span lang="he" dir="rtl">מַאן
+דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא</span></strong>, quien inspecciona su propiedad a diario encuentra una moneda.
+Siguen dos viñetas: <strong>Abaie</strong> sorprendió a su aparcero llevándose leña (&ldquo;a la casa del Maestro&rdquo;,
+mintió) — &ldquo;los Sabios se te adelantaron&rdquo;. Y <strong>Rav Asi</strong>, escéptico de que hubiera moneda alguna que
+encontrar, un día tapó un canal de riego reventado con su propia capa y salvó su campo: &ldquo;<em>Ahora</em> he
+encontrado todas las monedas de Mar Shmuel&rdquo;.</p>
+<p><strong>Las tres aguas.</strong> Rav Idi bar Avín en nombre de Rav Itzjak bar Ashián: las <strong>aguas primeras</strong> (antes
+del pan) son una <strong>mitzvá</strong>; las <strong>aguas últimas</strong> (antes de <em>bircat hamazón</em>) una <strong>obligación</strong>
+(<em>jová</em>). Una baraita llama <em>jová</em> también a las aguas primeras — se resuelve: en relación con las
+<strong>opcionales</strong> aguas intermedias, una mitzvá puede llamarse obligación. La baraita se desglosa después:
+las aguas primeras pueden verterse en un recipiente <strong>o sobre el suelo</strong>; las últimas solo en un
+recipiente (la diferencia práctica: astillas de madera). Las aguas primeras pueden ser <strong>calientes o
+frías</strong>; las últimas solo frías, ya que el agua caliente <strong><span lang="he" dir="rtl">מְפַעְפְּעִין אֶת הַיָּדַיִם</span></strong> — ablanda las manos y
+no arrastra la grasa (<em>zuhamá</em>). Rabí Ianai, vía Rav Itzjak bar Iosef, añade el límite: caliente está
+bien salvo que <strong><span lang="he" dir="rtl">הַיָּד סוֹלֶדֶת בָּהֶן</span></strong>, la mano se retraiga del calor.</p>
+<h3>105b — Las razones que se esconden dentro de las costumbres</h3>
+<p><strong>Aguas intermedias.</strong> &ldquo;Opcionales&rdquo;, dijo la baraita — pero Rav Najmán lo acota: solo <strong>entre un plato
+y otro</strong>; entre un <strong>plato cocido y el queso</strong>, lavarse es una <strong>obligación</strong>.</p>
+<p><strong>¿Por qué son obligatorias las aguas últimas?</strong> Rav Iehudá hijo de Rabí Jiiá: porque <strong><span lang="he" dir="rtl">מֶלַח
+סְדוֹמִית</span></strong>, la sal de Sodoma, puede adherirse a las manos y <strong>cegar los ojos</strong>. Abaie: aparece en tan
+poca cantidad como una pizca en todo un <em>kor</em> — y aun así, dictamina Rav Ashi, incluso quien solo
+<em>manipuló</em> sal debe lavarse.</p>
+<p><strong>La cadena de Abaie de &ldquo;al principio yo diría&rdquo;.</strong> Aquí el daf se vuelve una letanía. Para cada
+costumbre corriente Abaie ofrece la razón pulcra y racional que alguna vez supuso — y luego reporta la
+razón más profunda que le dio <strong>el Maestro</strong> (Rabá):</p>
+<ul>
+<li><strong>No verter las aguas últimas en el suelo</strong> — no mera suciedad, sino que <strong><span lang="he" dir="rtl">רוּחַ רָעָה</span></strong>, un espíritu
+  maligno, reposa sobre ellas.</li>
+<li><strong>No retirar nada de la mesa mientras alguien sostiene su copa para beber</strong> — no por temor a un
+  percance, sino porque es malo para la salud, provocando <strong><span lang="he" dir="rtl">רוּחַ צְרָדָא</span></strong>, una jaqueca. (Solo si
+  tomas y no lo devuelves, solo más allá de cuatro codos, solo algo necesario para la comida. Mar bar
+  Rav Ashi era estricto incluso con un mortero y su mano.)</li>
+<li><strong>Recoger las migas</strong> — no por pulcritud, sino porque dejarlas <strong>invita a la pobreza</strong>. Un hombre al
+  que el ángel de la pobreza no podía tocar — tan cuidadoso era con las migas — casi cae cuando unas
+  migas cayeron entre la hierba; arrancó y ahogó la hierba, y oyó al ángel lamentarse de que había
+  sido desalojado de su hogar.</li>
+<li><strong>No beber la espuma</strong> de una bebida — no por desagrado, sino porque es mala para el <strong>catarro</strong>;
+  soplarla daña la cabeza, apartarla invita a la pobreza; el remedio es hundirla de nuevo.</li>
+<li><strong>No comer verduras de un manojo que ató el hortelano</strong> — no por la apariencia de glotonería, sino
+  porque es malo para la <strong>brujería</strong>. Cuando una hechicera no pudo embrujar a Rav Jisdá y a Rabá bar
+  Rav Huná en un bote, nombró tres hábitos que los protegían — y este era uno.</li>
+<li><strong>No comer verduras que cayeron sobre la mesa</strong> — no por repulsión, sino por el mal aliento.</li>
+<li><strong>No sentarse bajo un canalón</strong> (<em>marzev</em>) — no por el chorreo, sino porque los <strong>demonios</strong> lo
+  frecuentan. A unos cargadores que apoyaron un barril de vino bajo un canalón se les reventó; Mar bar
+  Rav Ashi tocó los cuernos y excomulgó al demonio, que protestó: &ldquo;¡pusieron el barril sobre mi oreja!&rdquo;
+  — y se le ordenó pagar.</li>
+<li><strong>Verter un poco de agua de la boca de un jarro</strong> antes de beber — no por ramitas, sino por <strong>aguas
+  malas</strong>. Un demonio-sirviente en la casa de Rav Papa explicó su demora en el río del mismo modo:
+  había esperado &ldquo;a que pasaran las aguas malas&rdquo;.</li>
+</ul>
+<hr />
+<h2>Las distinciones, lado a lado</h2>
+<p>Tres lavados, cuatro preguntas — y a la prosa le lleva tres párrafos llegar hasta ahí:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Las aguas</th>
+<th>Grado</th>
+<th>Vertidas en</th>
+<th>Temperatura</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primeras</strong> — antes del pan</td>
+<td><strong>Mitzvá</strong> (la <em>jová</em> de la baraita es solo en relación con las intermedias, opcionales)</td>
+<td>Un recipiente <strong>o</strong> el suelo</td>
+<td>Calientes o frías — hasta <em><span lang="he" dir="rtl">הַיָּד סוֹלֶדֶת בָּהֶן</span></em>, donde la mano se retrae</td>
+</tr>
+<tr>
+<td><strong>Intermedias</strong> — entre platos</td>
+<td><strong>Opcional</strong> — pero Rav Najmán: <strong>obligación</strong> entre un plato cocido y el queso</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Últimas</strong> — antes de <em>bircat hamazón</em></td>
+<td><strong>Obligación</strong> (<em>jová</em>) — la sal de Sodoma en las manos puede cegar los ojos</td>
+<td>Solo un recipiente; la diferencia práctica son las astillas de madera</td>
+<td>Solo frías — el agua caliente <em><span lang="he" dir="rtl">מְפַעְפְּעִין אֶת הַיָּדַיִם</span></em>, ablanda las manos y deja la <em>zuhamá</em></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>Una línea para llevarte</h2>
+<blockquote>
+<p>Un daf que empieza limpiándote las migas de la boca termina enseñando que los pequeños hábitos medio
+olvidados de una mesa — guardar las migas, verter la primera agua, no sentarse bajo el canalón — nunca
+son solo cuestión de pulcritud. Bajo cada uno, los Sabios vieron salud, fortuna y todo un mundo
+invisible.</p>
+</blockquote>
+    </div>
+    <div class="sheet" data-lang="he" data-speak-lang="he"
+         lang="he" dir="rtl">
+      <h2>עוברים על הסוגיה, צעד אחר צעד</h2>
+<h3>קה ע״א — ניקוי החיך, וכמה ממתינים</h3>
+<p><strong>יישוב בית שמאי ובית הלל.</strong> הגמרא מנסה שלוש קריאות במחלוקתם על ניקוי הפה אחר בשר. שתיים נופלות —
+האחת הייתה עושה את רבי זירא כפוסק כבית שמאי (ולא מסתבר), והשנייה הייתה מחייבת שהמקרה יימנה ב<em>עדויות</em>
+בין ״קולי בית שמאי״. השלישית עומדת:</p>
+<blockquote>
+<p><strong>בֵּית שַׁמַּאי אוֹמְרִים: מְקַנֵּחַ, וְהוּא הַדִּין לְמֵדִיחַ, וּבֵית הִלֵּל אוֹמְרִים: מֵדִיחַ, וְהוּא הַדִּין לִמְקַנֵּחַ. מָר אָמַר חֲדָא, וּמָר אָמַר חֲדָא, וְלָא פְּלִיגִי.</strong>
+בית שמאי אומרים מנגב — והוא הדין לשוטף; ובית הלל אומרים שוטף — והוא הדין למנגב. מר אמר דבר אחד ומר
+אמר דבר אחד, ואינם חלוקים.</p>
+</blockquote>
+<p><strong>רבי זירא על הקינוח.</strong> הובא דרך אגב, וכעת נבחן לעצמו: <strong>אֵין קִינּוּחַ הַפֶּה אֶלָּא בְּפַת</strong> — אין
+מקנחים את הפה אלא ב<strong>פת</strong>. ורק פת חיטים (של שעורים מתפוררת), ורק צוננת (חמה מתרככת ונדבקת), ורק רכה
+(קשה אינה מנקה). שורה תחתונה: <strong>הכול</strong> מקנחים <strong>חוץ מקמח, תמרים וירק</strong>.</p>
+<p><strong>כמה ממתינים בין בשר לגבינה?</strong> רב אסי שאל את רבי יוחנן כמה ממתינים — ״כלום״, השיב. אבל זה סותר את
+רב חסדא, ולכן השאלה נקראת מחדש: מדובר ב<strong>גבינה ואחריה בשר</strong> — ושם אין המתנה. בשר תחילה שונה:</p>
+<blockquote>
+<p><strong>אָכַל בָּשָׂר – אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה – מוּתָּר לֶאֱכוֹל בָּשָׂר.</strong>
+אכל בשר — אסור לאכול גבינה; אכל גבינה — מותר לאכול בשר.</p>
+</blockquote>
+<p>רב אחא בר יוסף הקשה: ומה בבשר שנשאר <strong>בין השיניים</strong>? השיב לו רב חסדא בפסוק של השליו — <strong>״הַבָּשָׂר
+עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם״</strong> (במדבר יא, לג) — עדיין בשר הוא.</p>
+<p><strong>״חלא בר חמרא״.</strong> שני חכמים מעמידים עצמם למטה מאבותיהם. <strong>מר עוקבא:</strong> אבא, אחר בשר, לא היה אוכל
+גבינה עד אותה שעה למחרת; ואילו אני נמנע רק ב<em>אותה סעודה</em>. <strong>שמואל:</strong> אבא היה מסייר בשדותיו פעמיים
+ביום, ואני רק פעם אחת — ש<strong>מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא</strong>, המסייר
+בנכסיו בכל יום מוצא מטבע. ומכאן שתי תמונות: <strong>אביי</strong> תפס את אריסו נושא עצים (״לבית מר״, שיקר) —
+״הקדימוך רבנן״. ו<strong>רב אסי</strong>, שפקפק שיש שם מטבע למצוא, סתם יום אחד אמת מים שנפרצה בטליתו והציל את
+שדהו: ״<em>עכשיו</em> מצאתי את כל מטבעותיו של מר שמואל״.</p>
+<p><strong>שלושת המים.</strong> רב אידי בר אבין בשם רב יצחק בר אשיאן: <strong>מים ראשונים</strong> (לפני הפת) — <strong>מצווה</strong>; <strong>מים
+אחרונים</strong> (לפני ברכת המזון) — <strong>חובה</strong>. ברייתא קוראת גם לראשונים חובה, ומיושב: ביחס לאמצעיים שהם
+<strong>רשות</strong>, אף מצווה נקראת חובה. ומכאן נפרשת הברייתא: ראשונים ניטלים לתוך כלי <strong>או על גבי קרקע</strong>;
+אחרונים לתוך כלי בלבד (וההבדל המעשי: קיסמי עץ). ראשונים ב<strong>חמין או בצונן</strong>; אחרונים בצונן בלבד,
+שהחמין <strong>מְפַעְפְּעִין אֶת הַיָּדַיִם</strong> — מרככים את הידיים ואינם מעבירים את הזוהמה. רבי ינאי, מפי רב
+יצחק בר יוסף, מוסיף את הגבול: חמין כשרים כל עוד אין <strong>הַיָּד סוֹלֶדֶת בָּהֶן</strong>.</p>
+<h3>קה ע״ב — הטעמים המסתתרים בתוך המנהגים</h3>
+<p><strong>מים אמצעיים.</strong> ״רשות״, אמרה הברייתא — ורב נחמן מצמצם: רק <strong>בין תבשיל לתבשיל</strong>; אבל בין <strong>תבשיל
+לגבינה</strong> הנטילה <strong>חובה</strong>.</p>
+<p><strong>למה מים אחרונים חובה?</strong> רב יהודה בריה דרבי חייא: מפני <strong>מֶלַח סְדוֹמִית</strong>, שמא ידבק בידיים
+ו<strong>יסמא את העיניים</strong>. אביי: אינו מצוי אלא כקורט אחד בכור שלם — ואף על פי כן, פוסק רב אשי, אף מי
+שרק <em>נגע</em> במלח חייב ליטול.</p>
+<p><strong>שרשרת ה״מריש הוה אמינא״ של אביי.</strong> כאן הדף נעשה ליטניה. על כל מנהג רגיל מציע אביי את הטעם המסודר
+וההגיוני שסבר בתחילה — ואחר כך מוסר את הטעם העמוק יותר ש<strong>מר</strong> (רבה) אמר לו:</p>
+<ul>
+<li><strong>שאין שופכים מים אחרונים על גבי קרקע</strong> — לא מפני הלכלוך, אלא ש<strong>רוּחַ רָעָה</strong> שורה עליהם.</li>
+<li><strong>שאין מסלקים דבר מן השולחן בשעה שאדם אוחז כוסו לשתות</strong> — לא מחשש תקלה, אלא מפני שקשה לבריאות
+  ומביא <strong>רוּחַ צְרָדָא</strong>, כאב ראש. (ורק בנוטל ואינו מחזיר, ורק מעבר לארבע אמות, ורק בדבר הצריך
+  לסעודה. מר בר רב אשי החמיר אפילו במכתשת ובעלי.)</li>
+<li><strong>שמלקטים את הפירורים</strong> — לא מפני הסדר, אלא שהשארתם <strong>מביאה לידי עניות</strong>. אדם שמלאך העוני לא יכול
+  היה לו — מרוב זהירותו בפירורים — כמעט נכשל כשנפלו פירורים בעשבים; עקר את העשבים והטביעם, ושמע את
+  המלאך זועק שגורש מביתו.</li>
+<li><strong>שאין שותים את הקצף</strong> שעל המשקה — לא מפני מיאוס, אלא שקשה ל<strong>נזלת</strong>; ולנשוף עליו קשה לראש,
+  ולהסיטו הצדה מביא לידי עניות; והתקנה היא להשקיעו בחזרה.</li>
+<li><strong>שאין אוכלים ירק מאגודה שקשר הגנן</strong> — לא מפני מראית עין של גרגרנות, אלא שקשה ל<strong>כשפים</strong>. כשלא
+  יכלה מכשפה לרב חסדא ולרבה בר רב הונא בספינה, מנתה שלושה מנהגים שהגנו עליהם — וזה אחד מהם.</li>
+<li><strong>שאין אוכלים ירק שנפל על השולחן</strong> — לא מפני המיאוס, אלא מפני ריח הפה.</li>
+<li><strong>שאין יושבים תחת המרזב</strong> — לא מפני הנוטף, אלא ש<strong>מזיקים</strong> מצויים שם. סבלים שהניחו חבית יין תחת
+  מרזב נבקעה להם; מר בר רב אשי תקע ונידה את המזיק, וזה טען ״הרי הניחו את החבית על אוזני!״ — ונצטווה
+  לשלם.</li>
+<li><strong>ששופכים מעט מים מפי הקנקן</strong> לפני השתייה — לא מפני קיסמים, אלא מפני <strong>מים הרעים</strong>. שד ששימש
+  בביתו של רב פפא הסביר כך את איחורו על הנהר: המתין ״עד שיעברו המים הרעים״.</li>
+</ul>
+<hr />
+<h2>ההבחנות, זו מול זו</h2>
+<p>שלוש נטילות, ארבע שאלות, והפרוזה מגיעה לשם בשלוש פסקאות:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>המים</th>
+<th>דרגה</th>
+<th>לתוך מה</th>
+<th>חום</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ראשונים</strong> — לפני הפת</td>
+<td><strong>מצווה</strong> (וה״חובה״ שבברייתא אינו אלא ביחס לאמצעיים שהם רשות)</td>
+<td>כלי <strong>או</strong> קרקע</td>
+<td>חמין או צוננים — עד ש<em>הַיָּד סוֹלֶדֶת בָּהֶן</em></td>
+</tr>
+<tr>
+<td><strong>אמצעיים</strong> — בין תבשיל לתבשיל</td>
+<td><strong>רשות</strong> — ורב נחמן: <strong>חובה</strong> בין תבשיל לגבינה</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>אחרונים</strong> — לפני ברכת המזון</td>
+<td><strong>חובה</strong> — מלח סדומית שעל הידיים מסמא את העיניים</td>
+<td>כלי בלבד; וההבדל המעשי הוא קיסמי עץ</td>
+<td>צוננים בלבד — שחמין <em>מְפַעְפְּעִין אֶת הַיָּדַיִם</em> ומשאירים את הזוהמה</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2>שורה אחת לקחת אתכם</h2>
+<blockquote>
+<p>דף שפותח בניגוב פירורים מן הפה מסיים בכך שההרגלים הקטנים וחצי־השכוחים של שולחן — לקט את הפירורים,
+שפוך מעט מן המים הראשונים, אל תשב תחת המרזב — אינם לעולם עניין של סדר בלבד. תחת כל אחד מהם ראו
+חכמים בריאות, מזל, ועולם שלם שאינו נראה.</p>
+</blockquote>
+    </div>
+
+    <div class="quiz-inline">
+      <h2>🎯&nbsp;<span data-lang="en">Test yourself</span><span data-lang="es">Ponte a prueba</span><span data-lang="he">בחנו את עצמכם</span></h2>
+      <div class="quiz" id="quizCard"></div>
+      <div class="hint"><span data-lang="en">Tip: click the card, then keys 1–4 answer and Enter moves on.</span><span data-lang="es">Consejo: pulsa en la tarjeta; luego 1–4 responden y Enter continúa.</span><span data-lang="he">טיפ: הקישו על הכרטיס; אחר כך 1–4 עונים ו-Enter ממשיך.</span></div>
+    </div>
+
+    <p class="tomorrow" data-lang="en" lang="en" dir="ltr">
+      Tomorrow (Fri, 14 August 2026):
+      <strong>Chullin 106</strong> — Rav Dimi and Ravin on the terrible consequences of skipping the first and last waters — a Jew fed pig meat, a wife lost — and whether one may wash with fire-heated water or the hot springs of Tiberias.</p>
+    <p class="tomorrow" data-lang="es" lang="es" dir="ltr">
+      Mañana (vie, 14 de agosto de 2026):
+      <strong>Julín 106</strong> — Rav Dimi y Ravín sobre las terribles consecuencias de saltarse las aguas primeras y últimas — un judío al que hacen comer carne de cerdo, una esposa perdida — y si uno puede lavarse con agua calentada al fuego o con las aguas termales de Tiberíades.</p>
+    <p class="tomorrow" data-lang="he" lang="he" dir="rtl">
+      מחר (יום ו׳, 14 באוגוסט 2026):
+      <strong>חולין קו</strong> — רב דימי ורבין על התוצאות הקשות של הזלזול במים ראשונים ואחרונים — יהודי שהאכילוהו בשר חזיר, אישה שאבדה — והאם מותר ליטול בחמין שהוחמו באש או במימי טבריה.</p>
+  </section>
+
   <footer class="disclaimer foot" role="note"><span data-lang="en">This sheet was written by AI from the text of the daf. It can be incomplete or mistaken, and it is only a helper for your learning — not a substitute for learning the actual daf in the Gemara. Check anything you rely on against the source.</span><span data-lang="es">Esta hoja fue escrita por una inteligencia artificial a partir del texto del daf. Puede contener errores u omisiones, y es solo una ayuda para tu estudio, no un sustituto de aprender el daf mismo en la Guemará. Verifica en la fuente todo aquello en lo que te apoyes.</span><span data-lang="he">הדף הזה נכתב בידי בינה מלאכותית מתוך טקסט הדף. הוא עלול להיות חלקי או שגוי, והוא רק עזר ללימוד — לא תחליף ללימוד הדף עצמו בגמרא. בדקו במקור כל דבר שאתם נסמכים עליו.</span></footer>
+  <p class="feedback" hidden>✉️&nbsp;<span data-lang="en"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20105&amp;body=What%20is%20wrong%2C%20or%20what%20is%20missing%3F%20Be%20as%20precise%20as%20you%20can%20%E2%80%94%20which%20section%2C%20and%20what%20it%20should%20say.%0A%0A%0A%E2%80%94%20Chullin%20105%20%28en%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_105.html%3Flang%3Den%0A">Found a mistake? Tell me</a></span><span data-lang="es"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20105&amp;body=%C2%BFQu%C3%A9%20est%C3%A1%20mal%2C%20o%20qu%C3%A9%20falta%3F%20S%C3%A9%20lo%20m%C3%A1s%20preciso%20posible:%20en%20qu%C3%A9%20secci%C3%B3n%2C%20y%20qu%C3%A9%20deber%C3%ADa%20decir.%0A%0A%0A%E2%80%94%20Chullin%20105%20%28es%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_105.html%3Flang%3Des%0A">¿Encontraste un error? Avísame</a></span><span data-lang="he"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20105&amp;body=%D7%9E%D7%94%20%D7%A9%D7%92%D7%95%D7%99%2C%20%D7%90%D7%95%20%D7%9E%D7%94%20%D7%97%D7%A1%D7%A8%3F%20%D7%9B%D7%AA%D7%91%D7%95%20%D7%91%D7%9E%D7%93%D7%95%D7%99%D7%A7%20%D7%9B%D7%9E%D7%94%20%D7%A9%D7%90%D7%A4%D7%A9%D7%A8%20%E2%80%94%20%D7%91%D7%90%D7%99%D7%96%D7%94%20%D7%97%D7%9C%D7%A7%2C%20%D7%95%D7%9E%D7%94%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%9C%D7%94%D7%99%D7%95%D7%AA%20%D7%9B%D7%AA%D7%95%D7%91.%0A%0A%0A%E2%80%94%20Chullin%20105%20%28he%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_105.html%3Flang%3Dhe%0A">מצאתם טעות? כתבו לי</a></span></p>
 </div>
-<script src="assets/tabs.js?v=9fe78958"></script>
-<script src="assets/daf.js?v=5a1b9cc6"></script>
+<script src="assets/tabs.js?v=ed43694b"></script>
+<script src="assets/daf.js?v=8d69a133"></script>
 <script>window.CARDS_BY_LANG = {"en":{"lang":"en","cards":[{"t":"<strong><span lang=\"he\" dir=\"rtl\">מְקַנֵּחַ<\/span> / <span lang=\"he\" dir=\"rtl\">מֵדִיחַ<\/span><\/strong> <em>(mekaneiach / mediach)<\/em>","m":"Wiping the mouth with solid food versus rinsing it with water — Beit Shammai and Beit Hillel&#x27;s two ways to clear the palate."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">אֵין קִינּוּחַ אֶלָּא בְּפַת<\/span><\/strong> <em>(ein kinuach ela be&#x27;fat)<\/em>","m":"Rabbi Zeira&#x27;s rule that only bread wipes the mouth effectively — and only wheat, cold, and soft."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">חַלָּא בַּר חַמְרָא<\/span><\/strong> <em>(chala bar chamra)<\/em>","m":"&quot;Vinegar, son of wine&quot; — a modest son measuring himself as the lesser produce of a greater father."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">סָיַיר נִכְסֵיהּ<\/span><\/strong> <em>(sayar nichseih)<\/em>","m":"Patrolling one&#x27;s property; the sage&#x27;s daily habit that &quot;finds a coin&quot; by heading off loss and theft."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מַיִם רִאשׁוֹנִים<\/span> / <span lang=\"he\" dir=\"rtl\">אֶמְצָעִיִּים<\/span> / <span lang=\"he\" dir=\"rtl\">אַחֲרוֹנִים<\/span><\/strong> <em>(mayim rishonim / emtza&#x27;iyim / acharonim)<\/em>","m":"The first (before bread), middle (between courses), and last (before Grace) washings of the hands."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">חוֹבָה<\/span> / <span lang=\"he\" dir=\"rtl\">מִצְוָה<\/span> / <span lang=\"he\" dir=\"rtl\">רְשׁוּת<\/span><\/strong> <em>(chova / mitzva / reshut)<\/em>","m":"Obligation, mitzva, and optional — the three grades the daf assigns to the three waters."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">זוּהֲמָא<\/span><\/strong> <em>(zuhama)<\/em>","m":"The greasy filth on the hands that last waters must remove — which hot water fails to carry off."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">הַיָּד סוֹלֶדֶת בּוֹ<\/span><\/strong> <em>(hayad soledet bo)<\/em>","m":"&quot;The hand recoils from it&quot; — the threshold at which water is too hot to use."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מֶלַח סְדוֹמִית<\/span><\/strong> <em>(melach sedomit)<\/em>","m":"Sodomite salt, a trace of which can blind the eyes — the reason last waters are an obligation."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מֵרֵישׁ הֲוָה אָמֵינָא<\/span><\/strong> <em>(mereish hava amina)<\/em>","m":"&quot;At first I would say&quot; — Abaye&#x27;s refrain, giving the surface reason before the Master&#x27;s deeper one."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">רוּחַ רָעָה<\/span><\/strong> <em>(ruach ra&#x27;a)<\/em>","m":"An evil spirit — said to rest on the used last-waters if poured on the ground."}]},"es":{"lang":"es","cards":[{"t":"<strong><span lang=\"he\" dir=\"rtl\">מְקַנֵּחַ<\/span> / <span lang=\"he\" dir=\"rtl\">מֵדִיחַ<\/span><\/strong> <em>(mekaneaj / mediaj)<\/em>","m":"Limpiar la boca con un alimento sólido versus enjuagarla con agua — las dos maneras de Beit Shamai y Beit Hilel de despejar el paladar."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">אֵין קִינּוּחַ אֶלָּא בְּפַת<\/span><\/strong> <em>(ein kinuaj elá be&#x27;fat)<\/em>","m":"La regla de Rabí Zeirá de que solo el pan limpia la boca eficazmente — y solo de trigo, frío y blando."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">חַלָּא בַּר חַמְרָא<\/span><\/strong> <em>(jalá bar jamrá)<\/em>","m":"&quot;Vinagre, hijo de vino&quot; — un hijo modesto que se mide como el producto menor de un padre mayor."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">סָיַיר נִכְסֵיהּ<\/span><\/strong> <em>(sayar nijseih)<\/em>","m":"Patrullar la propia propiedad; el hábito diario del sabio que &quot;encuentra una moneda&quot; al atajar la pérdida y el robo."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מַיִם רִאשׁוֹנִים<\/span> / <span lang=\"he\" dir=\"rtl\">אֶמְצָעִיִּים<\/span> / <span lang=\"he\" dir=\"rtl\">אַחֲרוֹנִים<\/span><\/strong> <em>(máyim rishonim / emtza&#x27;iyim / ajaronim)<\/em>","m":"Las lavados de manos primeros (antes del pan), intermedios (entre platos) y últimos (antes de la Bendición)."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">חוֹבָה<\/span> / <span lang=\"he\" dir=\"rtl\">מִצְוָה<\/span> / <span lang=\"he\" dir=\"rtl\">רְשׁוּת<\/span><\/strong> <em>(jová / mitzvá / reshut)<\/em>","m":"Obligación, mitzvá y opción — los tres grados que el daf asigna a las tres aguas."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">זוּהֲמָא<\/span><\/strong> <em>(zuhamá)<\/em>","m":"La mugre grasienta de las manos que las aguas últimas deben quitar — que el agua caliente no logra arrastrar."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">הַיָּד סוֹלֶדֶת בּוֹ<\/span><\/strong> <em>(hayad soledet bo)<\/em>","m":"&quot;La mano se retrae de ella&quot; — el umbral en que el agua está demasiado caliente para usarse."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מֶלַח סְדוֹמִית<\/span><\/strong> <em>(mélaj sedomit)<\/em>","m":"La sal de Sodoma, un rastro de la cual puede cegar los ojos — la razón por la que las aguas últimas son obligación."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מֵרֵישׁ הֲוָה אָמֵינָא<\/span><\/strong> <em>(mereish havá aminá)<\/em>","m":"&quot;Al principio yo diría&quot; — el estribillo de Abaie, que da la razón superficial antes de la más profunda del Maestro."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">רוּחַ רָעָה<\/span><\/strong> <em>(rúaj ra&#x27;á)<\/em>","m":"Un espíritu maligno — que se dice reposa sobre las aguas últimas usadas si se vierten en el suelo."}]},"he":{"lang":"he","cards":[{"t":"<strong>מְקַנֵּחַ / מֵדִיחַ<\/strong>","m":"ניגוב הפה במאכל מוצק לעומת שטיפתו במים — שתי הדרכים של בית שמאי ובית הלל לנקות את החיך."},{"t":"<strong>אֵין קִינּוּחַ אֶלָּא בְּפַת<\/strong>","m":"כללו של רבי זירא שאין מקנחים את הפה אלא בפת — ורק של חיטים, צוננת ורכה."},{"t":"<strong>חַלָּא בַּר חַמְרָא<\/strong>","m":"״חומץ בן יין״ — בן צנוע המודד את עצמו כתוצרת הפחותה של אב גדול ממנו."},{"t":"<strong>סָיַיר נִכְסֵיהּ<\/strong>","m":"סיור בנכסים; הרגלו היומי של החכם ש״מוצא מטבע״ בכך שהוא מקדים ומונע הפסד וגניבה."},{"t":"<strong>מַיִם רִאשׁוֹנִים / אֶמְצָעִיִּים / אַחֲרוֹנִים<\/strong>","m":"הנטילות שלפני הפת, שבין המנות, ושלפני ברכת המזון."},{"t":"<strong>חוֹבָה / מִצְוָה / רְשׁוּת<\/strong>","m":"שלוש הדרגות שהדף מחלק לשלוש הנטילות."},{"t":"<strong>זוּהֲמָא<\/strong>","m":"השומן והלכלוך שעל הידיים שמים אחרונים באים להעביר — ושהחמין אינם מעבירים."},{"t":"<strong>הַיָּד סוֹלֶדֶת בּוֹ<\/strong>","m":"״היד סולדת בו״ — הגבול שממנו ואילך המים חמים מכדי ליטול בהם."},{"t":"<strong>מֶלַח סְדוֹמִית<\/strong>","m":"מלח סדומית, שכל שהוא ממנו מסמא את העיניים — הטעם שמים אחרונים חובה."},{"t":"<strong>מֵרֵישׁ הֲוָה אָמֵינָא<\/strong>","m":"״מריש הוה אמינא״ — לשונו החוזרת של אביי, המקדימה את הטעם הפשוט לטעמו העמוק של מר."},{"t":"<strong>רוּחַ רָעָה<\/strong>","m":"רוח רעה — השורה, כדברי מר, על מים אחרונים ששפכום על גבי קרקע."}]}};</script>
-<script src="assets/cards.js?v=603f9514"></script>
+<script src="assets/cards.js?v=a0e3e21f"></script>
 <script>window.QUIZ_BY_LANG = {"en":{"lang":"en","qs":[{"n":1,"q":"How does the Gemara finally reconcile Beit Shammai and Beit Hillel on clearing the mouth after meat?","opts":["Beit Shammai require wiping and Beit Hillel forbid it outright, so the dispute is a real one.","The dispute is left standing, and later authorities are divided on which to follow.","Each named one method — wiping or rinsing — but both agree one should do both; they do not disagree.","They differ only about fowl, and agree entirely where the meat of an animal is concerned."],"correct":2,"why":"<span lang=\"he\" dir=\"rtl\">מָר אָמַר חֲדָא וּמָר אָמַר חֲדָא וְלָא פְּלִיגִי<\/span> — one mentioned wiping, the other rinsing, and both hold &quot;the same is true&quot; of the other."},{"n":2,"q":"With what, and in what state, does Rabbi Zeira say the mouth is best wiped?","opts":["With any food that happens to be warm and soft enough to gather the grease.","With bread — specifically wheat bread that is cold and soft.","With barley bread, which is coarse enough to scour the mouth properly.","With vegetables or with dates, which are soft and readily to hand."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">אֵין קִינּוּחַ אֶלָּא בְּפַת<\/span> — wheat, not barley; cold, not warm; soft, not hard. Flour, dates, and vegetables do not wipe."},{"n":3,"q":"According to Rav Chisda, what is the rule about the order of meat and cheese?","opts":["One may eat them in either order, and no waiting is called for at all.","After meat one must wait before cheese, but after cheese one may eat meat at once.","After cheese one must wait, while after meat there is no concern whatever.","Both directions require waiting, and the wait is a full day in each of the two cases."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">אָכַל בָּשָׂר אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה מוּתָּר לֶאֱכוֹל בָּשָׂר<\/span> — meat leaves a lingering fat and flavor; cheese does not."},{"n":4,"q":"What did Rav Chisda answer when asked about meat stuck between the teeth?","opts":["That it is no longer meat, since it has already left the mouth&#x27;s reckoning.","That it counts as meat only where it amounts to a full olive-bulk.","He quoted &quot;the meat was still between their teeth&quot; — it is still meat.","That one must wipe the mouth, after which it no longer counts as meat."],"correct":2,"why":"<span lang=\"he\" dir=\"rtl\">הַבָּשָׂר עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם<\/span> (Bamidbar 11:33) — even lodged in the teeth it counts as meat."},{"n":5,"q":"What does &quot;vinegar, son of wine&quot; (<span lang=\"he\" dir=\"rtl\">חַלָּא בַּר חַמְרָא<\/span>) express in the mouths of Mar Ukva and Shmuel?","opts":["That a son may rule more strictly than his father did before him.","That they see themselves as the lesser product of a greater father.","That the custom had soured over the generations and needed reviving.","That wine and vinegar, like meat and milk, must be kept well apart."],"correct":1,"why":"each contrasts his own lesser practice — waiting less after meat, patrolling once instead of twice — with his father&#x27;s."},{"n":6,"q":"Why, per Shmuel, is it worth patrolling one&#x27;s property daily?","opts":["One who inspects his property daily &quot;finds a coin&quot; — heading off loss and theft.","One who walks his land daily fulfils the mitzva of settling the Land of Israel.","One who guards his property daily is spared the need to hire a watchman at all.","One who tours his fields daily learns the seasons and so plants at the right time."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא<\/span> — illustrated by Abaye&#x27;s firewood thief and Rav Asi&#x27;s burst channel."},{"n":7,"q":"How does the daf grade the first, middle, and last washings of the hands?","opts":["All three alike are an outright obligation, with no distinction between them.","First an obligation, middle a mitzva, last optional and left to the individual.","First a mitzva, middle optional, last an obligation.","First optional, middle an obligation, last a mitzva of rabbinic standing."],"correct":2,"why":"Rav Idi bar Avin — <span lang=\"he\" dir=\"rtl\">רִאשׁוֹנִים מִצְוָה, אַחֲרוֹנִים חוֹבָה<\/span>; the baraita adds that the middle (emtza&#x27;iyim) are reshut."},{"n":8,"q":"Why may last waters be washed only with cold water?","opts":["Hot water is scarce, and the Sages did not wish to burden the household.","Hot water softens the hands and does not carry off the grease (zuhama).","Hot water was reserved for the first waters, which come before the bread.","Hot water would cook whatever meat remained clinging to the fingers."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">חַמִּין מְפַעְפְּעִין אֶת הַיָּדַיִם וְאֵין מַעֲבִירִין אֶת הַזּוּהֲמָא<\/span> — and even then only once the hand recoils from the heat."},{"n":9,"q":"Why does Rav Yehuda son of Rabbi Chiyya say the last waters are an obligation?","opts":["Because the hands must be clean before one may recite a blessing at all.","Because Sodomite salt may cling to the hands and blind the eyes.","Because grease left on the hands would render the next meal&#x27;s bread unfit.","Because the priests washed after eating teruma, and the table is like an altar."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">מֶלַח סְדוֹמִית<\/span> … <span lang=\"he\" dir=\"rtl\">שֶׁמְּסַמֵּא אֶת הָעֵינַיִם<\/span> — a pinch in a whole kor is enough to be a danger."},{"n":10,"q":"In Abaye&#x27;s &quot;at first I would say&quot; chain, what deeper reason did the Master give for gathering up the crumbs?","opts":["Leaving crumbs invites poverty.","Leaving crumbs shows contempt for the blessing said over the bread.","Leaving crumbs draws mice and other vermin into the house at night.","Leaving crumbs makes it impossible to say the blessing after the meal."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">מִשּׁוּם דְּקָשֵׁי לְעַנְיוּתָא<\/span> — dramatized by the man the angel of poverty could not touch because he was so careful with crumbs."}]},"es":{"lang":"es","qs":[{"n":1,"q":"¿Cómo reconcilia finalmente la Guemará a Beit Shamai y Beit Hilel sobre limpiar la boca después de la carne?","opts":["Beit Shamai exigen limpiar y Beit Hilel lo prohíben de plano, así que la disputa es real y de fondo entre ellos.","La disputa queda en pie, y las autoridades posteriores se dividen sobre a quién seguir.","Cada uno nombró un método — limpiar o enjuagar — pero ambos coinciden en que hay que hacer ambos; no discrepan.","Difieren solo respecto del ave, y coinciden del todo cuando se trata de carne de animal."],"correct":2,"why":"<span lang=\"he\" dir=\"rtl\">מָר אָמַר חֲדָא וּמָר אָמַר חֲדָא וְלָא פְּלִיגִי<\/span> — uno mencionó limpiar, el otro enjuagar, y ambos sostienen que &quot;lo mismo vale&quot; del otro."},{"n":2,"q":"¿Con qué, y en qué estado, dice Rabí Zeirá que se limpia mejor la boca?","opts":["Con cualquier alimento que resulte estar tibio y blando como para recoger la grasa.","Con pan — específicamente pan de trigo que esté frío y blando.","Con pan de cebada, que es lo bastante áspero como para restregar bien la boca.","Con verduras o con dátiles, que son blandos y se tienen fácilmente a mano."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">אֵין קִינּוּחַ אֶלָּא בְּפַת<\/span> — trigo, no cebada; frío, no caliente; blando, no duro. La harina, los dátiles y las verduras no limpian."},{"n":3,"q":"Según Rav Jisdá, ¿cuál es la regla sobre el orden de la carne y el queso?","opts":["Se pueden comer en cualquier orden, y no hace falta esperar nada en absoluto.","Después de la carne hay que esperar antes del queso, pero después del queso se puede comer carne enseguida.","Después del queso hay que esperar, mientras que después de la carne no hay reparo alguno.","Ambos sentidos exigen espera, y la espera es de un día entero en cada uno de los dos casos."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">אָכַל בָּשָׂר אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה מוּתָּר לֶאֱכוֹל בָּשָׂר<\/span> — la carne deja una grasa y un sabor persistentes; el queso no."},{"n":4,"q":"¿Qué respondió Rav Jisdá cuando le preguntaron por la carne atascada entre los dientes?","opts":["Que ya no es carne, puesto que ha salido del cómputo de la boca.","Que cuenta como carne solo cuando alcanza un volumen entero de aceituna.","Citó &quot;la carne aún estaba entre sus dientes&quot; — sigue siendo carne.","Que hay que limpiarse la boca, y después de eso ya no cuenta como carne."],"correct":2,"why":"<span lang=\"he\" dir=\"rtl\">הַבָּשָׂר עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם<\/span> (Bamidbar 11:33) — incluso alojada en los dientes cuenta como carne."},{"n":5,"q":"¿Qué expresa &quot;vinagre, hijo de vino&quot; (<span lang=\"he\" dir=\"rtl\">חַלָּא בַּר חַמְרָא<\/span>) en boca de Mar Ukvá y Shmuel?","opts":["Que un hijo puede dictaminar con más estrictez de la que dictaminó su padre.","Que se ven a sí mismos como el producto menor de un padre mayor.","Que la costumbre se había agriado con las generaciones y había que revivirla.","Que el vino y el vinagre, como la carne y la leche, deben mantenerse bien aparte."],"correct":1,"why":"cada uno contrasta su propia práctica menor — esperar menos tras la carne, patrullar una vez en lugar de dos — con la de su padre."},{"n":6,"q":"Según Shmuel, ¿por qué vale la pena patrullar la propia propiedad a diario?","opts":["Quien inspecciona su propiedad a diario &quot;encuentra una moneda&quot; — atajando la pérdida y el robo.","Quien recorre su tierra a diario cumple la mitzvá de asentar la Tierra de Israel.","Quien guarda su propiedad a diario se ahorra tener que contratar a un vigilante.","Quien recorre sus campos a diario aprende las estaciones y así siembra en el momento justo del año."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא<\/span> — ilustrado por el ladrón de leña de Abaie y el canal reventado de Rav Asi."},{"n":7,"q":"¿Cómo gradúa el daf los lavados de manos primero, intermedio y último?","opts":["Los tres por igual son obligación tajante, sin distinción ninguna entre ellos.","El primero obligación, el intermedio mitzvá, el último opcional y a criterio de cada uno.","El primero una mitzvá, el intermedio opcional, el último una obligación.","El primero opcional, el intermedio obligación, el último mitzvá de rango rabínico."],"correct":2,"why":"Rav Idi bar Avín — <span lang=\"he\" dir=\"rtl\">רִאשׁוֹנִים מִצְוָה, אַחֲרוֹנִים חוֹבָה<\/span>; la baraita añade que las intermedias (emtza&#x27;iyim) son reshut."},{"n":8,"q":"¿Por qué las aguas últimas solo pueden hacerse con agua fría?","opts":["El agua caliente escasea, y los Sabios no quisieron cargar a la casa con eso.","El agua caliente ablanda las manos y no arrastra la grasa (zuhamá).","El agua caliente quedaba reservada para las aguas primeras, antes del pan.","El agua caliente cocería la carne que quedara adherida a los dedos."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">חַמִּין מְפַעְפְּעִין אֶת הַיָּדַיִם וְאֵין מַעֲבִירִין אֶת הַזּוּהֲמָא<\/span> — y aun así solo una vez que la mano se retrae del calor."},{"n":9,"q":"¿Por qué dice Rav Iehudá hijo de Rabí Jiiá que las aguas últimas son una obligación?","opts":["Porque las manos han de estar limpias antes de poder recitar bendición alguna.","Porque la sal de Sodoma puede adherirse a las manos y cegar los ojos.","Porque la grasa dejada en las manos volvería no apto el pan de la comida siguiente.","Porque los cohanim se lavaban tras comer trumá, y la mesa es como un altar."],"correct":1,"why":"<span lang=\"he\" dir=\"rtl\">מֶלַח סְדוֹמִית<\/span> … <span lang=\"he\" dir=\"rtl\">שֶׁמְּסַמֵּא אֶת הָעֵינַיִם<\/span> — una pizca en todo un kor basta para ser un peligro."},{"n":10,"q":"En la cadena de Abaie de &quot;al principio yo diría&quot;, ¿qué razón más profunda dio el Maestro para recoger las migas?","opts":["Dejar migas invita a la pobreza.","Dejar migas muestra desprecio por la bendición dicha sobre el pan.","Dejar migas atrae ratones y otras alimañas a la casa por la noche.","Dejar migas hace imposible decir la bendición posterior a la comida."],"correct":0,"why":"<span lang=\"he\" dir=\"rtl\">מִשּׁוּם דְּקָשֵׁי לְעַנְיוּתָא<\/span> — dramatizado por el hombre al que el ángel de la pobreza no podía tocar porque era tan cuidadoso con las migas."}]},"he":{"lang":"he","qs":[{"n":1,"q":"כיצד מיישבת הגמרא לבסוף את בית שמאי ובית הלל בניקוי הפה אחר בשר?","opts":["בית שמאי מחייבים קינוח ובית הלל אוסרים אותו לגמרי, ונמצא שהמחלוקת אמיתית.","המחלוקת נשארת על מקומה, והפוסקים שאחריהם נחלקו כמי לנהוג.","כל אחד נקט דרך אחת — קינוח או הדחה — ושניהם מודים שיש לעשות את שתיהן; ואינם חלוקים.","הם נחלקים רק בעוף, ומודים לגמרי בכל הנוגע לבשר בהמה."],"correct":2,"why":"מָר אָמַר חֲדָא וּמָר אָמַר חֲדָא וְלָא פְּלִיגִי — זה הזכיר קינוח וזה הדחה, ושניהם אומרים ״והוא הדין״ לשנייה."},{"n":2,"q":"במה, ובאיזה מצב, אומר רבי זירא שמקנחים את הפה?","opts":["בכל מאכל שיזדמן, ובלבד שיהיה חם ורך דיו לאסוף את השומן.","בפת — ודווקא פת חיטים צוננת ורכה.","בפת שעורים, שהיא גסה דייה לשפשף את הפה כראוי.","בירק או בתמרים, שהם רכים ומצויים בהישג יד."],"correct":1,"why":"אֵין קִינּוּחַ אֶלָּא בְּפַת — חיטים ולא שעורים, צוננת ולא חמה, רכה ולא קשה. קמח, תמרים וירק אינם מקנחים."},{"n":3,"q":"לדעת רב חסדא, מה הדין בסדר הבשר והגבינה?","opts":["מותר לאוכלם בכל סדר, ואין צריך להמתין כלל.","אחר בשר צריך להמתין לפני גבינה, ואחר גבינה אוכל בשר מיד.","אחר גבינה צריך להמתין, ואילו אחר בשר אין חשש כלל.","שני הכיוונים צריכים המתנה, וההמתנה יום שלם בכל אחד משניהם."],"correct":1,"why":"אָכַל בָּשָׂר אָסוּר לֶאֱכוֹל גְּבִינָה, גְּבִינָה מוּתָּר לֶאֱכוֹל בָּשָׂר — הבשר מותיר שומן וטעם נמשכים; הגבינה אינה מותירה."},{"n":4,"q":"מה השיב רב חסדא כשנשאל על בשר שנשאר בין השיניים?","opts":["שאינו בשר עוד, שכבר יצא מכלל חשבונו של הפה.","שנחשב בשר רק במקום שיש בו כזית שלם.","הביא ״הבשר עודנו בין שיניהם״ — עדיין בשר הוא.","שיקנח את פיו, ומשעשה כן אינו נחשב בשר עוד."],"correct":2,"why":"הַבָּשָׂר עוֹדֶנּוּ בֵּין שִׁנֵּיהֶם (במדבר יא, לג) — אף התקוע בין השיניים בשר הוא."},{"n":5,"q":"מה מבטא ״חלא בר חמרא״ בפי מר עוקבא ושמואל?","opts":["שהבן רשאי להחמיר יותר משהחמיר אביו לפניו.","שהם רואים את עצמם כתוצרת הפחותה של אב גדול מהם.","שהמנהג החמיץ בדורות ונזקק לחידוש.","שיין וחומץ, כבשר וחלב, צריכים הרחקה זה מזה."],"correct":1,"why":"כל אחד מעמיד את מנהגו הפחות — המתנה קצרה יותר אחר בשר, סיור אחד במקום שניים — מול מנהג אביו."},{"n":6,"q":"מדוע, לדברי שמואל, כדאי לסייר בנכסים בכל יום?","opts":["המסייר בנכסיו בכל יום ״מוצא מטבע״ — מקדים ומונע הפסד וגניבה.","המהלך בשדותיו בכל יום מקיים מצוות יישוב ארץ ישראל.","השומר על נכסיו בכל יום נפטר מלשכור שומר כלל.","הסובב בשדותיו בכל יום לומד את העונות וזורע בזמן הנכון."],"correct":0,"why":"מַאן דְּסָיַיר נִכְסֵיהּ כֹּל יוֹמָא מַשְׁכַּח אִסְתֵּירָא — ומודגם באריס הגונב עצים אצל אביי ובאמת המים שנפרצה אצל רב אסי."},{"n":7,"q":"כיצד מדרג הדף את המים הראשונים, האמצעיים והאחרונים?","opts":["שלושתם כאחד חובה גמורה, ואין ביניהם הבדל.","ראשונים חובה, אמצעיים מצווה, ואחרונים רשות המסורה לכל אדם.","ראשונים מצווה, אמצעיים רשות, ואחרונים חובה.","ראשונים רשות, אמצעיים חובה, ואחרונים מצווה מדברי חכמים."],"correct":2,"why":"רב אידי בר אבין — רִאשׁוֹנִים מִצְוָה, אַחֲרוֹנִים חוֹבָה; והברייתא מוסיפה שהאמצעיים רשות."},{"n":8,"q":"מדוע אין נוטלים מים אחרונים אלא בצונן?","opts":["החמין מצויים במיעוט, ולא רצו חכמים להטריח את בני הבית.","החמין מפעפעים את הידיים ואינם מעבירים את הזוהמה.","החמין נשמרו למים ראשונים, הבאים לפני הפת.","החמין היו מבשלים את שיירי הבשר הדבוקים באצבעות."],"correct":1,"why":"חַמִּין מְפַעְפְּעִין אֶת הַיָּדַיִם וְאֵין מַעֲבִירִין אֶת הַזּוּהֲמָא — ואף זה רק משהיד סולדת בהן."},{"n":9,"q":"מדוע אומר רב יהודה בריה דרבי חייא שמים אחרונים חובה?","opts":["מפני שהידיים צריכות להיות נקיות קודם שיברך אדם ברכה כלשהי.","מפני שמלח סדומית עלול להידבק בידיים ולסמא את העיניים.","מפני ששומן שנשאר על הידיים פוסל את פת הסעודה הבאה.","מפני שהכוהנים נטלו אחר אכילת תרומה, והשולחן דומה למזבח."],"correct":1,"why":"מֶלַח סְדוֹמִית … שֶׁמְּסַמֵּא אֶת הָעֵינַיִם — די בקורט בכור שלם כדי שיהיה בו סכנה."},{"n":10,"q":"בשרשרת ה״מריש הוה אמינא״ של אביי, איזה טעם עמוק יותר נתן מר ללקיטת הפירורים?","opts":["שהשארת פירורים מביאה לידי עניות.","שהשארת פירורים היא ביזיון לברכה שברכו על הפת.","שהשארת פירורים מושכת עכברים ושרצים לבית בלילה.","שהשארת פירורים מונעת את האפשרות לברך ברכת המזון."],"correct":0,"why":"מִשּׁוּם דְּקָשֵׁי לְעַנְיוּתָא — ומודגם באדם שמלאך העוני לא יכול היה לו מרוב זהירותו בפירורים."}]}};</script>
-<script src="assets/quiz.js?v=58d36ebd"></script>
+<script src="assets/quiz.js?v=16f2d3c3"></script>
 <script src="assets/speak.js?v=4f9f5f22"></script>
+<script src="assets/feedback.js?v=1d205ae6"></script>
 </body>
 </html>

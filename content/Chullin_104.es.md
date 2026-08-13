@@ -57,6 +57,44 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Akivá** — tana de la tercera generación, la figura colosal de la estructura de la Mishná.
+  Aquí: los animales salvajes y las aves en leche son solo rabínicos, y su regla sobre los votos por
+  la "consulta del agente".
+- **Los Rabinos** (*jajamim*) — los contrincantes de Rabí Akivá, que sostienen que el ave en leche es
+  ley de la Torá y que la calabaza no es "verdura" para un voto.
+- **Rabí Iehudá HaNasí** (Rebí) — tana de la quinta generación, redactor de la Mishná. Rav Iosef lo
+  hace autor único de la mishná, siguiendo a distintos tanaím en cada cláusula.
+- **Bet Shamái y Bet Hilel** — las dos grandes escuelas de fines del Segundo Templo / comienzos de la
+  época posterior a la Destrucción. Aquí, inusualmente, Bet Shamái son el lado indulgente.
+- **Rabí Iosí** (ben Jalafta) — tana de la cuarta generación, alumno de Rabí Akivá. Enumera esto
+  entre seis "indulgencias de Bet Shamái", y es nombrado para honrar el citar la propia fuente.
+
+**Amoraím de Babilonia**
+
+- **Rav Iosef** (bar Jiiá) — tercera generación, Pumbedita. Tanto la lectura de "Rebí como autor"
+  como la inferencia de que el ave en leche es ley de la Torá son suyas.
+- **Rav Ashi** — sexta generación, el gran redactor del Talmud en Sura. Lee toda la mishná como de
+  Rabí Akivá. (No es Rabí Asi, el amorá de Erretz Israel de 103.)
+- **Abaie** — cuarta generación, cabeza de Pumbedita. Desarma la prueba de la *jalá* de Rav Iosef, y
+  luego aporta la "cacerola hirviente" que mantiene la valla en pie.
+- **Rav Sheshet** — tercera generación, un maestro ciego de la tradición en Nehardea/Majoza. Objeta
+  que frío-sobre-frío sigue siendo solo rabínico.
+- **Agrá** — descrito solo como el **suegro de Rabí Aba**; una figura menor conocida sobre todo por
+  este dictamen sobre el ave y el queso. No querría aventurar más sobre su identidad.
+- **Rav Itzjak hijo de Rav Mesharshiiá** — un amorá babilónico posterior; el huésped en la mesa de
+  Rav Ashi que comía de día. Una figura relativamente menor.
+
+*Parecidos que vale señalar:* **Rav Ashi** el redactor (babilónico) no es **Rabí Asi** el amorá de
+Erretz Israel que vimos en 103. **Rabí Iosí** aquí es el tana ben Jalafta, no ninguno de los amoraím
+posteriores llamados Iosí. Y **Rabí Akivá** el tana no debe confundirse con los muchos amoraím con
+título de *Rav*.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 104a — Una mishná, ¿dos tanaím?
@@ -165,44 +203,6 @@ La pregunta del daf en una sola cuadrícula — qué carne, y por autoridad de q
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Akivá** — tana de la tercera generación, la figura colosal de la estructura de la Mishná.
-  Aquí: los animales salvajes y las aves en leche son solo rabínicos, y su regla sobre los votos por
-  la "consulta del agente".
-- **Los Rabinos** (*jajamim*) — los contrincantes de Rabí Akivá, que sostienen que el ave en leche es
-  ley de la Torá y que la calabaza no es "verdura" para un voto.
-- **Rabí Iehudá HaNasí** (Rebí) — tana de la quinta generación, redactor de la Mishná. Rav Iosef lo
-  hace autor único de la mishná, siguiendo a distintos tanaím en cada cláusula.
-- **Bet Shamái y Bet Hilel** — las dos grandes escuelas de fines del Segundo Templo / comienzos de la
-  época posterior a la Destrucción. Aquí, inusualmente, Bet Shamái son el lado indulgente.
-- **Rabí Iosí** (ben Jalafta) — tana de la cuarta generación, alumno de Rabí Akivá. Enumera esto
-  entre seis "indulgencias de Bet Shamái", y es nombrado para honrar el citar la propia fuente.
-
-**Amoraím de Babilonia**
-
-- **Rav Iosef** (bar Jiiá) — tercera generación, Pumbedita. Tanto la lectura de "Rebí como autor"
-  como la inferencia de que el ave en leche es ley de la Torá son suyas.
-- **Rav Ashi** — sexta generación, el gran redactor del Talmud en Sura. Lee toda la mishná como de
-  Rabí Akivá. (No es Rabí Asi, el amorá de Erretz Israel de 103.)
-- **Abaie** — cuarta generación, cabeza de Pumbedita. Desarma la prueba de la *jalá* de Rav Iosef, y
-  luego aporta la "cacerola hirviente" que mantiene la valla en pie.
-- **Rav Sheshet** — tercera generación, un maestro ciego de la tradición en Nehardea/Majoza. Objeta
-  que frío-sobre-frío sigue siendo solo rabínico.
-- **Agrá** — descrito solo como el **suegro de Rabí Aba**; una figura menor conocida sobre todo por
-  este dictamen sobre el ave y el queso. No querría aventurar más sobre su identidad.
-- **Rav Itzjak hijo de Rav Mesharshiiá** — un amorá babilónico posterior; el huésped en la mesa de
-  Rav Ashi que comía de día. Una figura relativamente menor.
-
-*Parecidos que vale señalar:* **Rav Ashi** el redactor (babilónico) no es **Rabí Asi** el amorá de
-Erretz Israel que vimos en 103. **Rabí Iosí** aquí es el tana ben Jalafta, no ninguno de los amoraím
-posteriores llamados Iosí. Y **Rabí Akivá** el tana no debe confundirse con los muchos amoraím con
-título de *Rav*.
-
----
-
 ## Una línea para llevarte
 
 > Los Sabios cercaron la ley, pero no cercaron sus vallas — una regla que impide que la cautela
@@ -211,7 +211,7 @@ título de *Rav*.
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿Por qué la primera cláusula de la mishná, "toda carne", parece no encajar con Rabí Akivá?

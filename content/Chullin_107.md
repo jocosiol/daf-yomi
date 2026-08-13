@@ -63,6 +63,71 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabban Shimon ben Gamliel** — fourth-generation Tanna, father of Rabbi Yehuda HaNasi; the mishna's
+  lenient voice on two guests sharing a table.
+- **Rabbi Tzadok** — a Tanna whose life spanned the Temple's destruction; cited from a Sukka mishna for
+  eating less than an egg-bulk in a cloth.
+- **Shammai the Elder** (*Shammai HaZaken*) — the Tanna, Hillel's great colleague and disputant; would
+  not feed his children with a single hand on Yom Kippur.
+- **Baitos ben Zunin** — a merchant-scholar of the Tannaitic era; his elaborately decorated Passover
+  cakes are the byword for "allow no exception the eye can see."
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy; holds the
+  attendant re-blesses each slice.
+- **Rabbi Zeira** — third generation, a Babylonian who went up to Eretz Yisrael; rebuked Ami and Asi
+  before recalling the priestly leniency.
+- **Rabbi Ami** and **Rabbi Asi** — third-generation colleagues, leading sages of Tiberias and
+  **priests** — which is exactly why the cloth was permitted them.
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of Sura; the morning stipulation, the attendant's
+  slice, and one party to the cloth story.
+- **Shmuel** — first generation, head of Nehardea; challenged Rav over the cloth, and the source (via
+  Rav Tachlifa) of the priest-only leniency.
+- **Rabbi Avina** — an Amora who applied Rav's morning-stipulation to the valley of Aravot; the "some
+  say / others say" concerns whether he agrees with Rav. (A minor tradent — I would not press the
+  identification further than the Gemara does.)
+- **Abba bar Abba** — *"Shmuel's father,"* first generation, Nehardea; corrected the teacher who struck
+  young Shmuel, and so fixed the halakha that the feeder need not wash.
+- **Rav Pappa** — fifth generation, founder of Naresh; *koach gavra* and the irrigation channel, and
+  the reconciler of Rav and Rabbi Yochanan on the attendant's blessings.
+- **Rava** — fourth generation, head of Machoza; the perforated bucket, the quarter-log rules, and the
+  barrel-stopper.
+- **Rav Sheshet** — third generation, a blind master of tradition at Nehardea and Mechoza; presses
+  Ameimar on the three particulars.
+- **Ameimar** — sixth generation, a leading sage of Nehardea; strict about the vessel, the water's
+  appearance, and (in the first version) its measure.
+- **Rav Yaakov of Nehar Pekod** — an Amora of the Nehar Pekod region; made himself a quarter-log glass.
+- **Rav Ashi** — sixth generation, head of Sura and chief redactor of the Talmud; made a quarter-log
+  earthenware jug in Huzal.
+- **Rav Tachlifa bar Avimi** — a tradent of Shmuel's teaching on the cloth; a minor figure, and I would
+  not build a biography on the name.
+- **Rav Huna bar Sechora** — a disciple who fed Rav Hamnuna; distinct from the great Rav Huna of Sura.
+- **Rav Hamnuna** — a student of Rav; the one fed slice by slice.
+- **Rav Chanan bar Ami** — transmits Shmuel's ruling that only *strangers* may share the table; a minor
+  tradent.
+- **Rav Yeimar bar Shelemya** — a contemporary who put the "two brothers" question to Abaye.
+- **Abaye** — fourth generation, head of Pumbedita; *kelipa* vs *hadacha*, the Shivta answer, and the
+  Baitos paradigm.
+- **The school of Menashe** (*dvei Menashe*) — a tradent circle preserving baraitot; source of the
+  one-hand-rinsing teaching.
+
+*Look-alikes worth flagging:*
+- **Rabbi Ami and Rabbi Asi** (the Eretz-Yisrael pair, and priests) are **not** **Rav Ashi** the
+  Babylonian redactor — and all three appear on this daf.
+- **Rav Huna bar Sechora** is not the famous **Rav Huna**, head of Sura.
+- **Rava** (bar Yosef bar Chama, of Machoza) here — not **Rabba**.
+- **Shammai the Elder** the Tanna is not a later Amora; the story is deliberately set in his mouth.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 107a — What water, what vessel
@@ -176,71 +241,6 @@ answers do not all run the same way:
 | One **fed** by another (*ochel mechamat ma'achil*) | **Yes** (final halakha) | the food enters *his* mouth; he is the eater |
 | One who **feeds** another (*ma'achil*) | **No** (final halakha) | his hands touch it, but he is not eating |
 | The meal's **attendant** (*shamash*) | Yes | occupied (*tarid*), he may touch the food unawares |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabban Shimon ben Gamliel** — fourth-generation Tanna, father of Rabbi Yehuda HaNasi; the mishna's
-  lenient voice on two guests sharing a table.
-- **Rabbi Tzadok** — a Tanna whose life spanned the Temple's destruction; cited from a Sukka mishna for
-  eating less than an egg-bulk in a cloth.
-- **Shammai the Elder** (*Shammai HaZaken*) — the Tanna, Hillel's great colleague and disputant; would
-  not feed his children with a single hand on Yom Kippur.
-- **Baitos ben Zunin** — a merchant-scholar of the Tannaitic era; his elaborately decorated Passover
-  cakes are the byword for "allow no exception the eye can see."
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy; holds the
-  attendant re-blesses each slice.
-- **Rabbi Zeira** — third generation, a Babylonian who went up to Eretz Yisrael; rebuked Ami and Asi
-  before recalling the priestly leniency.
-- **Rabbi Ami** and **Rabbi Asi** — third-generation colleagues, leading sages of Tiberias and
-  **priests** — which is exactly why the cloth was permitted them.
-
-**Babylonian Amoraim**
-
-- **Rav** (Abba Arikha) — first generation, founder of Sura; the morning stipulation, the attendant's
-  slice, and one party to the cloth story.
-- **Shmuel** — first generation, head of Nehardea; challenged Rav over the cloth, and the source (via
-  Rav Tachlifa) of the priest-only leniency.
-- **Rabbi Avina** — an Amora who applied Rav's morning-stipulation to the valley of Aravot; the "some
-  say / others say" concerns whether he agrees with Rav. (A minor tradent — I would not press the
-  identification further than the Gemara does.)
-- **Abba bar Abba** — *"Shmuel's father,"* first generation, Nehardea; corrected the teacher who struck
-  young Shmuel, and so fixed the halakha that the feeder need not wash.
-- **Rav Pappa** — fifth generation, founder of Naresh; *koach gavra* and the irrigation channel, and
-  the reconciler of Rav and Rabbi Yochanan on the attendant's blessings.
-- **Rava** — fourth generation, head of Machoza; the perforated bucket, the quarter-log rules, and the
-  barrel-stopper.
-- **Rav Sheshet** — third generation, a blind master of tradition at Nehardea and Mechoza; presses
-  Ameimar on the three particulars.
-- **Ameimar** — sixth generation, a leading sage of Nehardea; strict about the vessel, the water's
-  appearance, and (in the first version) its measure.
-- **Rav Yaakov of Nehar Pekod** — an Amora of the Nehar Pekod region; made himself a quarter-log glass.
-- **Rav Ashi** — sixth generation, head of Sura and chief redactor of the Talmud; made a quarter-log
-  earthenware jug in Huzal.
-- **Rav Tachlifa bar Avimi** — a tradent of Shmuel's teaching on the cloth; a minor figure, and I would
-  not build a biography on the name.
-- **Rav Huna bar Sechora** — a disciple who fed Rav Hamnuna; distinct from the great Rav Huna of Sura.
-- **Rav Hamnuna** — a student of Rav; the one fed slice by slice.
-- **Rav Chanan bar Ami** — transmits Shmuel's ruling that only *strangers* may share the table; a minor
-  tradent.
-- **Rav Yeimar bar Shelemya** — a contemporary who put the "two brothers" question to Abaye.
-- **Abaye** — fourth generation, head of Pumbedita; *kelipa* vs *hadacha*, the Shivta answer, and the
-  Baitos paradigm.
-- **The school of Menashe** (*dvei Menashe*) — a tradent circle preserving baraitot; source of the
-  one-hand-rinsing teaching.
-
-*Look-alikes worth flagging:*
-- **Rabbi Ami and Rabbi Asi** (the Eretz-Yisrael pair, and priests) are **not** **Rav Ashi** the
-  Babylonian redactor — and all three appear on this daf.
-- **Rav Huna bar Sechora** is not the famous **Rav Huna**, head of Sura.
-- **Rava** (bar Yosef bar Chama, of Machoza) here — not **Rabba**.
-- **Shammai the Elder** the Tanna is not a later Amora; the story is deliberately set in his mouth.
 
 ---
 

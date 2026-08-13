@@ -61,6 +61,55 @@ Four movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Shimon** (bar Yochai) — fourth generation, student of Rabbi Akiva. Exempts entirely;
+  Rava explains how.
+- **Rabbi Yehuda** (bar Ilai) — fourth generation, student of Rabbi Akiva. The stringent voice on
+  both the *gid* and *ever min hachai*.
+- **Rabbi Meir** — fourth generation, student of Rabbi Akiva; two sets of lashes for the *gid* of a
+  carcass.
+- **Rabbi Akiva** — third generation, Bnei Brak; teacher of the four above. After the reversal, he
+  is the one holding each day stands independently.
+- **Rabbi Yosei HaGelili** — third generation, a contemporary of Rabbi Akiva from the Galilee. The
+  tanna who accepts neither *issur kolel* nor severity as grounds for a second prohibition.
+- **Rabbi Elazar** (ben Shammua) — fourth generation, student of Rabbi Akiva. Joins Rabbi Yehuda on
+  *ever min hachai*. Not to be confused with the Amora Rabbi Elazar ben Pedas.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy. Both the
+  ruling about Shabbos and Yom Kippur and the observation that both sides read one verse.
+- **Rabbi Yosei b'Rabbi Chanina** — second generation, Caesarea; student of Rabbi Yochanan. Source
+  of "reverse the attributions."
+- **Rav Yitzchak bar Yaakov bar Giyorei** — a minor figure known as a transmitter of Rabbi
+  Yochanan's rulings to Babylonia by letter; I would not want to guess at more.
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of Sura. Source of the Rabbi Meir tradition,
+  via Rav Yehuda.
+- **Rav Yehuda** (bar Yechezkel) — second generation, head of Pumbedita; student of Rav and
+  Shmuel.
+- **Abaye** — fourth generation, head of Pumbedita. Explains Rabbi Yochanan by "Shabbos is fixed."
+- **Rava** — fourth generation, Machoza. Refutes Abaye and replaces the explanation with the year
+  of persecution; also explains Rabbi Shimon and Rabbi Yosei HaGelili.
+- **Rav Ashi** — sixth generation, head of Sura and a principal redactor of the Talmud. "Who says
+  impurity of the body is worse?" and "was the Torah given in instalments?"
+- **Rav Acha son of Rava** — sixth generation, a colleague of Rav Ashi. Presses the question about
+  the moment the name "Israel" begins.
+- **Ravin** (Rav Avin) — fourth generation; one of the *nechusei*, the sages who travelled down
+  from Eretz Yisrael carrying its teachings to Babylonia.
+
+*Look-alikes worth flagging:* **Rabbi Yosei HaGelili** (Tanna) is not **Rabbi Yosei b'Rabbi
+Chanina** (Amora), and neither is **Rabbi Yosei** of the Mishnah. **Rav Acha son of Rava** is not
+**Rav Acha bar Yaakov**, nor **Mar bar Rav Ashi**. And once more: **Rabbah** (רבה) and **Rava**
+(רבא) differ by a single letter.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 101a — How can Rabbi Shimon exempt entirely?
@@ -215,55 +264,6 @@ Three ways a second prohibition might still get in, and who lets each one throug
 | **אִיסּוּר כּוֹלֵל** — broader in scope | The second prohibition covers more ground than the first, so it sweeps this in too | The *gid* of a **נְבֵלָה** — the carcass prohibition covers the whole animal, nerve included | **R' Meir**: two sets of lashes. The Rabbis give one; R' Yosei HaGelili rejects it outright — *מִגּוֹ לָא אָמְרִינַן* |
 | **אִיסּוּר חָמוּר** — more severe | Sheer weight lets it take hold on what is already forbidden | The *gid* of an **עוֹלָה** or a **שׁוֹר הַנִּסְקָל** — all benefit forbidden, not only eating | **The Rabbis concede** here. R' Yosei HaGelili still refuses — and Rav Ashi asks who says which is severer anyway |
 | **״שַׁבָּת הִיא״ / ״יוֹם הַכִּפּוּרִים הוּא״** | Each day is marked as standing on its own, so neither is the "second" one | Unwitting labour on a Yom Kippur that fell on Shabbos | On the **reversed** attribution: **R' Akiva**, two sin offerings. R' Yosei HaGelili — one |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Shimon** (bar Yochai) — fourth generation, student of Rabbi Akiva. Exempts entirely;
-  Rava explains how.
-- **Rabbi Yehuda** (bar Ilai) — fourth generation, student of Rabbi Akiva. The stringent voice on
-  both the *gid* and *ever min hachai*.
-- **Rabbi Meir** — fourth generation, student of Rabbi Akiva; two sets of lashes for the *gid* of a
-  carcass.
-- **Rabbi Akiva** — third generation, Bnei Brak; teacher of the four above. After the reversal, he
-  is the one holding each day stands independently.
-- **Rabbi Yosei HaGelili** — third generation, a contemporary of Rabbi Akiva from the Galilee. The
-  tanna who accepts neither *issur kolel* nor severity as grounds for a second prohibition.
-- **Rabbi Elazar** (ben Shammua) — fourth generation, student of Rabbi Akiva. Joins Rabbi Yehuda on
-  *ever min hachai*. Not to be confused with the Amora Rabbi Elazar ben Pedas.
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy. Both the
-  ruling about Shabbos and Yom Kippur and the observation that both sides read one verse.
-- **Rabbi Yosei b'Rabbi Chanina** — second generation, Caesarea; student of Rabbi Yochanan. Source
-  of "reverse the attributions."
-- **Rav Yitzchak bar Yaakov bar Giyorei** — a minor figure known as a transmitter of Rabbi
-  Yochanan's rulings to Babylonia by letter; I would not want to guess at more.
-
-**Babylonian Amoraim**
-
-- **Rav** (Abba Arikha) — first generation, founder of Sura. Source of the Rabbi Meir tradition,
-  via Rav Yehuda.
-- **Rav Yehuda** (bar Yechezkel) — second generation, head of Pumbedita; student of Rav and
-  Shmuel.
-- **Abaye** — fourth generation, head of Pumbedita. Explains Rabbi Yochanan by "Shabbos is fixed."
-- **Rava** — fourth generation, Machoza. Refutes Abaye and replaces the explanation with the year
-  of persecution; also explains Rabbi Shimon and Rabbi Yosei HaGelili.
-- **Rav Ashi** — sixth generation, head of Sura and a principal redactor of the Talmud. "Who says
-  impurity of the body is worse?" and "was the Torah given in instalments?"
-- **Rav Acha son of Rava** — sixth generation, a colleague of Rav Ashi. Presses the question about
-  the moment the name "Israel" begins.
-- **Ravin** (Rav Avin) — fourth generation; one of the *nechusei*, the sages who travelled down
-  from Eretz Yisrael carrying its teachings to Babylonia.
-
-*Look-alikes worth flagging:* **Rabbi Yosei HaGelili** (Tanna) is not **Rabbi Yosei b'Rabbi
-Chanina** (Amora), and neither is **Rabbi Yosei** of the Mishnah. **Rav Acha son of Rava** is not
-**Rav Acha bar Yaakov**, nor **Mar bar Rav Ashi**. And once more: **Rabbah** (רבה) and **Rava**
-(רבא) differ by a single letter.
 
 ---
 

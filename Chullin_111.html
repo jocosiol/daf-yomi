@@ -24,8 +24,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="assets/manifest.webmanifest?v=2ef7e323">
-<link rel="stylesheet" href="assets/daf.css?v=d7bde0c9">
-<script type="application/json" id="daf-config">{"langs":["en","es","he"],"rtl":["he"]}</script>
+<link rel="stylesheet" href="assets/daf.css?v=38e787e8">
+<script type="application/json" id="daf-config">{"langs":["en","es","he"],"rtl":["he"],"mail":"2f45404c405c464043044b4e49564042466f48424e4643014c4042"}</script>
 <script src="assets/lang.js?v=0042caf6"></script>
 </head>
 <body>
@@ -50,16 +50,14 @@
 
   <div class="tabs" role="tablist">
     <button class="tab active" type="button" role="tab" aria-selected="true"
-            aria-controls="learn" data-v="learn">📖&nbsp;<span data-lang="en">Learn</span><span data-lang="es">Aprender</span><span data-lang="he">לימוד</span></button>
-    <button class="tab" type="button" role="tab" aria-selected="false"
-            aria-controls="cards" data-v="cards">🃏&nbsp;<span data-lang="en">Flashcards</span><span data-lang="es">Tarjetas</span><span data-lang="he">כרטיסיות</span></button>
-    <button class="tab" type="button" role="tab" aria-selected="false"
-            aria-controls="quiz" data-v="quiz">🎯&nbsp;<span data-lang="en">Chazara Quiz</span><span data-lang="es">Repaso (Chazará)</span><span data-lang="he">חזרה</span></button>
+            aria-controls="intro" data-v="intro">📖&nbsp;<span data-lang="en">Introduction</span><span data-lang="es">Introducción</span><span data-lang="he">הקדמה</span></button>
     <button class="tab" type="button" role="tab" aria-selected="false"
             aria-controls="daf" data-v="daf">📜&nbsp;<span data-lang="en">The Daf</span><span data-lang="es">El Daf</span><span data-lang="he">הדף</span></button>
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="chazara" data-v="chazara">🎯&nbsp;<span data-lang="en">Chazara</span><span data-lang="es">Repaso (Jazará)</span><span data-lang="he">חזרה</span></button>
   </div>
 
-  <section class="view active" id="learn" role="tabpanel">
+  <section class="view active" id="intro" role="tabpanel">
     <div class="sheet" data-lang="en" data-speak-lang="en"
          lang="en" dir="ltr">
       <h2>The big picture (read this first)</h2>
@@ -148,208 +146,6 @@ reaching your food — still strong enough to forbid?</p>
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 Study these as flashcards</button></p>
-
-<hr />
-<h2>Walking through the sugya, step by step</h2>
-<h3>111a — The liver question, run to ground</h3>
-<p>The page opens mid-argument. The worry about liver cooked with meat is really two worries: the meat
-might drink in the liver&rsquo;s <strong>fat</strong>, or it might drink in its <strong>blood</strong> — and the Gemara suggests blood
-may be <strong>absorbed less easily</strong> than fat. So the dilemma narrows: does permitted liver&rsquo;s blood cross
-into the meat at all?</p>
-<p><strong>A meal offered as proof.</strong> When <strong>Rav Safra</strong> went up to Eretz Yisrael again he found <strong>Rabbi Zerika</strong>,
-who told him the question needs no asking: he and Yannai, son of Rabbi Ami, were once served a whole
-<strong>windpipe with everything hanging from it</strong> — lungs, heart, and liver cooked together —</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">קָרִיבוּ לַן קַנְיָא בְּקוֹפֵיהּ, וַאֲכַלְנָא</span>.</strong> &ldquo;They brought us the windpipe with its attachments,
-and we ate it.&rdquo;</p>
-</blockquote>
-<p>— and no one worried that the liver&rsquo;s blood had forbidden the rest.</p>
-<p><strong>The proof is picked apart.</strong> <strong>Rav Ashi</strong> (some say <strong>Rabbi Shmuel of Zerokinya</strong>) objects: maybe the
-<strong>mouth of the windpipe stuck out of the pot</strong>, so the liver&rsquo;s blood drained off instead of soaking in;
-or maybe they <strong>scalded</strong> the liver first (<em>chalit</em>) — like <strong>Rav Huna</strong>, whose liver was doused with
-boiling vinegar, and <strong>Rav Naḥman</strong>, whose was doused with boiling water — searing the blood inside
-before it could spread. Abaye&rsquo;s question stands unresolved.</p>
-<p><strong>The scald generates its own ruling.</strong> <strong>Rav Pappa</strong>, before <strong>Rava</strong>, thought the boiling <strong>vinegar</strong>
-becomes forbidden, having absorbed the liver&rsquo;s blood. Rava overturns it with a lever:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">אִי חַלָּא אֲסִיר — אִיהוּ נָמֵי אֲסִיר, כִּי הֵיכִי דְּפָלֵיט — הֲדַר בָּלַע</span>.</strong> &ldquo;If the vinegar is
-forbidden, the liver is forbidden too — for just as it expels, it absorbs back.&rdquo;</p>
-</blockquote>
-<p>Since everyone agrees the scalded liver stays permitted, the only coherent reading is that <strong>no blood is
-expelled at all</strong>. (Then a small table-scene: <strong>Rav bar Shabba</strong> declined the boiled liver at Rav
-Naḥman&rsquo;s; told a Torah scholar was fasting on it, Rav Naḥman said, &ldquo;<strong>Feed Shabba against his will</strong>.&rdquo;)</p>
-<p><strong>The dispute behind it all.</strong> Abaye&rsquo;s question, the Gemara notes, is really <em>tannaitic</em>:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">הַכָּבֵד אוֹסֶרֶת וְאֵינָהּ נֶאֱסֶרֶת</span>&hellip; <span lang="he" dir="rtl">שֶׁפּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת</span>.</strong> <strong>Rabbi Eliezer:</strong> liver
-forbids others but is never forbidden — it expels and does not absorb. <strong>Rabbi Yishmael son of Rabbi
-Yoḥanan ben Beroka:</strong> if it was <strong>spiced</strong> (<em>metubelet</em>) or <strong>thoroughly stewed</strong> (<em>sheluka</em>), it
-forbids others <em>and</em> is itself forbidden — the spices and heavy cooking drive the blood back in.</p>
-</blockquote>
-<h3>111a — Preparing a liver, and the spit</h3>
-<p><strong>Rabba bar Rav Huna</strong> dined at <strong>Rabba bar Rav Naḥman&rsquo;s</strong> on Shabbat — three <em>se&rsquo;a</em> of fine bread
-kneaded in oil and honey — and found among the dishes a liver with an <strong>artery</strong> (<em>simpona</em>) still full
-of blood. He objected: the blood <strong>soaked through</strong> the liver is permitted, but blood <strong>standing in the
-vessels</strong> is forbidden. The fix:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">קְרַעוּ שְׁתִי וָעֵרֶב, וְחִיתּוּכָא לְתַחַת</span>.</strong> &ldquo;Tear it lengthwise and crosswise, and lay the cut
-side downward&rdquo; — so the vessel-blood runs out onto the fire.</p>
-</blockquote>
-<p><strong>And only the liver.</strong> The <strong>spleen</strong> (<em>techala</em>) needs no such tearing — it holds only <strong>fat</strong>, not
-pooled blood, which is why Shmuel&rsquo;s servants would make him a spleen dish on his bloodletting days.</p>
-<p><strong>On the spit.</strong> An anonymous ruling: liver skewered <strong>above</strong> meat in the oven leaves the meat
-<strong>permitted</strong>, because the blood merely <strong>slides off</strong> (<em>mishrak sharik</em>); an <strong>udder</strong> above the meat
-<strong>forbids</strong> it, because the milk <strong>clings and soaks in</strong> (<em>saroche mesarech</em>). <strong>Rav Dimi of Neharde&rsquo;a</strong>
-taught the reverse: an udder on top is <strong>permitted</strong> (its milk-in-meat is only <strong>rabbinic</strong>), while a
-liver on top is <strong>forbidden</strong> (blood is <strong>Torah law</strong>). <strong>Mareimar</strong> ruled publicly for the public:
-liver or udder, <strong>underneath</strong> the meat is permitted; <strong>on top</strong>, only <em>after the fact</em> (<em>di&rsquo;avad</em>), not
-<em>ab initio</em> (<em>l&rsquo;chatchila</em>). When <strong>Rav Ashi</strong> saw his father-in-law Rami bar Abba&rsquo;s son skewering liver
-over meat —</p>
-<h3>111b — Blood that floats, and flavor through vessels</h3>
-<p>— he scolded, &ldquo;<strong>How haughty this scholar!</strong> Granted the Sages permitted meat roasted under liver
-<em>after the fact</em> — did they permit doing it <em>ab initio</em>?&rdquo; And he adds: if there is a <strong>drip-pan</strong>
-(<em>bei dugei</em>) beneath the spit, even meat placed <strong>above</strong> the liver is forbidden — the blood falls into
-the collected fat and one may come to eat the mixture. Why is this worse than roasting <strong>plain meat</strong>
-over such a pan?</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">דְּמָא דְּבִשְׂרָא — שָׁכֵן, דְּמָא דְּכַבְדָּא — קָפֵי</span>.</strong> &ldquo;The blood of meat <strong>sinks</strong>; the blood of
-liver <strong>floats</strong>.&rdquo; Meat&rsquo;s blood settles below the fat and can be skimmed away; liver&rsquo;s blood rides on
-top and cannot be separated — so the whole panful is forbidden.</p>
-</blockquote>
-<p><strong>Now the pivot to vessels.</strong> <strong>Rav Naḥman in Shmuel&rsquo;s name:</strong> the <strong>slaughtering knife</strong> absorbs blood
-from the animal&rsquo;s heat, so one may not cut <strong>boiling</strong> food with it; for <strong>cold</strong> food, some require a
-rinse of the cut piece, some do not. <strong>Rav Yehuda in Shmuel&rsquo;s name:</strong> a <strong>bowl in which meat was
-salted</strong> may not hold boiling food — and this is Shmuel to his own principle:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ, וְכָבוּשׁ הֲרֵי הוּא כִּמְבוּשָּׁל</span>.</strong> &ldquo;<strong>Salted</strong> is like <strong>boiling</strong>,
-and <strong>marinated</strong> is like <strong>cooked</strong>&rdquo; — salt and pickling drive flavor as heat does.</p>
-</blockquote>
-<p><strong>Ravin</strong> reported the opposite in <strong>Rabbi Yoḥanan&rsquo;s</strong> name — salted is <em>not</em> like boiling. <strong>Abaye</strong>
-refutes the citation: a bowl in <strong>Rabbi Ami&rsquo;s</strong> house, used to salt meat, was <strong>smashed</strong> by Rabbi Ami —
-a student of Rabbi Yoḥanan. Why smash it, if not because he heard from Rabbi Yoḥanan that <strong>salted is
-like boiling</strong>? So Ravin&rsquo;s version must be mistaken.</p>
-<p><strong>The radish and the taste-test.</strong> <strong>Rav Kahana</strong>, Rav Yehuda&rsquo;s brother, taught that a <strong>radish</strong>
-(<em>tzenon</em>) cut with a meat knife may be eaten with <strong>kutaḥ</strong> — even though its sharpness absorbs the
-knife&rsquo;s fat. Why does the bowl forbid but the radish not? <strong>Abaye:</strong> the radish absorbed a <strong>permitted</strong>
-substance (fat), the bowl a <strong>forbidden</strong> one (blood). <strong>Rava</strong> rejects this — permitted fat that leads
-to eating meat-and-milk is no better — and offers the real distinction: <strong>you can taste the radish</strong>
-before eating it with milk, but you cannot taste the contents of the bowl. <strong>Rav Pappa:</strong> then let a
-<strong>gentile cook</strong> (<em>kapila</em>) taste it — as we say about a <em>teruma</em> pot, where a priest tastes! <strong>Rava</strong>
-concedes: indeed, where a gentile cook is available he tastes; I spoke of where none is to be had.</p>
-<p><strong>Fish in a meat dish — Rav vs. Shmuel.</strong> A hot <strong>fish</strong> set into a bowl <strong>in which meat was eaten</strong>,
-then eaten with <strong>kutaḥ</strong>:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">רַב אָמַר: אָסוּר</span>&hellip; <span lang="he" dir="rtl">נוֹתֵן טַעַם הוּא; וּשְׁמוּאֵל אָמַר: מוּתָּר, נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם הוּא</span>.</strong>
-<strong>Rav:</strong> forbidden — the meat-flavor passes straight into the fish. <strong>Shmuel:</strong> permitted — the flavor
-went first into the <strong>bowl</strong> and only then into the fish: <strong>flavor of a flavor</strong>, too weak to forbid.</p>
-</blockquote>
-<p>Rav&rsquo;s view, the Gemara notes, was only <strong>inferred</strong> — from his remark, when an eye-ointment&rsquo;s taste
-carried through into a later dish, &ldquo;<strong>it gives so much flavor!</strong>&rdquo; — and even that is discounted, since
-the ointment was exceptionally bitter. Two stories seal it: <strong>Rabbi Elazar</strong>, Rav&rsquo;s disciple, refused
-the fish at Shmuel&rsquo;s table until Rav himself assured him, &ldquo;God forbid the seed of Abba bar Abba would
-feed me what I hold forbidden&rdquo;; and two sages <strong>across the Sura ford</strong> traded the jibe &ldquo;<strong>Orphan!</strong>&rdquo; —
-one holding like Shmuel on the fish, the other like Rabbi Ḥiyya, that bread and wine exempt all the foods
-and drinks of the meal from a separate blessing. <strong>Chizkiya in Abaye&rsquo;s name</strong> rules the halakha: the
-<strong>fish is permitted</strong> with kutaḥ, but the <strong>radish is forbidden</strong> — and <em>that</em> qualification runs into
-tomorrow&rsquo;s daf.</p>
-<hr />
-<h2>The distinctions, side by side</h2>
-<p>The hinge of the daf is what sits <strong>on top of the meat</strong> on the spit, and the three authorities split
-cleanly by <em>which</em> prohibition — blood or milk — they weight more heavily.</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>On top of the meat</th>
-<th>Anonymous ruling</th>
-<th>Rav Dimi of Neharde&rsquo;a</th>
-<th>Mareimar (halakha)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Liver</strong> — blood, Torah law</td>
-<td>Permitted — blood slides off</td>
-<td><strong>Forbidden</strong></td>
-<td><em>Di&rsquo;avad</em> yes, <em>l&rsquo;chatchila</em> no</td>
-</tr>
-<tr>
-<td><strong>Udder</strong> — milk, rabbinic</td>
-<td><strong>Forbidden</strong> — milk clings</td>
-<td>Permitted</td>
-<td><em>Di&rsquo;avad</em> yes, <em>l&rsquo;chatchila</em> no</td>
-</tr>
-</tbody>
-</table></div>
-<p>Underneath the meat, every view permits both; the whole dispute is only about the organ set <em>above</em>.</p>
-<hr />
-<h2>Who&rsquo;s who in today&rsquo;s daf</h2>
-<p><strong>Tannaim</strong></p>
-<ul>
-<li><strong>Rabbi Eliezer</strong> (ben Hyrcanus) — second-generation <em>Tanna</em>, student of Rabban Yoḥanan ben Zakkai;
-  holds liver &ldquo;forbids but is not forbidden.&rdquo; (Titled <em>Rabbi</em>; not the Amora Rabbi Elazar ben Pedat, who
-  also appears below.)</li>
-<li><strong>Rabbi Yishmael son of Rabbi Yoḥanan ben Beroka</strong> — fourth-generation <em>Tanna</em>; holds spiced or stewed
-  liver becomes forbidden as well. A minor figure, known mainly from such rulings.</li>
-<li><strong>Rabbi Ḥiyya</strong> (the Great) — transitional <em>Tanna</em>, uncle and teacher of Rav; cited at the end for the
-  rule that bread and wine exempt the meal&rsquo;s other foods and drinks from a separate blessing.</li>
-</ul>
-<p><strong>Eretz-Yisrael Amoraim</strong></p>
-<ul>
-<li><strong>Rabbi Yoḥanan</strong> (bar Nappaḥa) — second generation, the towering authority of Tiberias; Ravin reports
-  him as holding salted is <em>not</em> like boiling, and Abaye argues the citation is wrong.</li>
-<li><strong>Rabbi Zerika</strong> — third/fourth generation; offers Rav Safra the windpipe meal as proof.</li>
-<li><strong>Rabbi Ami</strong> — third generation, a leading authority in Tiberias and a student of Rabbi Yoḥanan; his
-  smashing of the salting-bowl is Abaye&rsquo;s evidence.</li>
-<li><strong>Rabbi Elazar</strong> (ben Pedat) — third generation, foremost student of Rabbi Yoḥanan; a disciple of Rav&rsquo;s
-  teachings who declines the fish at Shmuel&rsquo;s table. (Rabbi <em>Elazar</em>; distinct from the <em>Tanna</em> Rabbi
-  <em>Eliezer</em> above.)</li>
-<li><strong>Ravin</strong> (Rav Avin) — fourth generation, famed carrier of Eretz-Yisrael traditions to Babylonia
-  (<em>ki ata Ravin</em>); his report in Rabbi Yoḥanan&rsquo;s name is here disputed.</li>
-</ul>
-<p><strong>Babylonian Amoraim</strong></p>
-<ul>
-<li><strong>Rav</strong> (Abba Arikha) — first generation, founder of Sura; forbids the fish eaten with kutaḥ (<em>notein
-  ta&rsquo;am</em>), and reassures Rabbi Elazar that Shmuel never fed him anything he held forbidden.</li>
-<li><strong>Shmuel</strong> (of Nehardea) — first generation, Rav&rsquo;s great colleague and son of <strong>Abba bar Abba</strong>;
-  permits the fish (<em>notein ta&rsquo;am bar notein ta&rsquo;am</em>) and is the source of <em>maliach k&rsquo;rotei&rsquo;ach</em>. His
-  servants prepared spleen for him on bloodletting days.</li>
-<li><strong>Rav Yehuda</strong> (bar Yeḥezkel) — second generation, founder of Pumbedita; transmits Shmuel on the salted
-  bowl. (This <strong>Rav</strong> Yehuda the Amora, not <strong>Rabbi</strong> Yehuda the <em>Tanna</em>.)</li>
-<li><strong>Rav Huna</strong> — second generation, head of Sura after Rav; his liver was scalded with boiling vinegar.</li>
-<li><strong>Rav Naḥman</strong> (bar Yaakov) — third generation, of Nehardea; his liver was scalded with boiling water,
-  and he ordered &ldquo;feed Shabba against his will.&rdquo;</li>
-<li><strong>Rav Kahana</strong> — here specified as <strong>the brother of Rav Yehuda</strong>; teaches the permitted knife-cut
-  radish. (The name spans several sages; this one is fixed only by the &ldquo;brother of Rav Yehuda&rdquo; tag.)</li>
-<li><strong>Rabba bar Rav Huna</strong> — third generation, son of Rav Huna; the guest who found the blood-filled artery.
-  (Not to be confused with <strong>Rav bar Shabba</strong>, the guest who declined the boiled liver just above him in
-  the daf.)</li>
-<li><strong>Rabba bar Rav Naḥman</strong> — the Shabbat host with the fine oil-and-honey bread.</li>
-<li><strong>Rava</strong> (bar Yosef bar Ḥama) — fourth generation, of Meḥoza; supplies the lever that no blood is
-  expelled, and the &ldquo;you can taste the radish&rdquo; distinction. (<span lang="he" dir="rtl">רבא</span>; distinct from <strong>Rabba</strong> above — a
-  classic look-alike.)</li>
-<li><strong>Abaye</strong> — fourth generation, head of Pumbedita; refutes Ravin from Rabbi Ami&rsquo;s smashed bowl, and (via
-  Chizkiya) rules the halakha on fish and radish. His was the original liver dilemma.</li>
-<li><strong>Rav Pappa</strong> — fifth generation, student of Rava; proposes the boiling-vinegar liver is forbidden (Rava
-  overrules), and proposes the gentile cook as taster.</li>
-<li><strong>Rav Ashi</strong> — sixth generation, redactor of the Talmud at Sura-Mata Meḥasya; objects to the windpipe
-  proof and scolds his father-in-law&rsquo;s son over the spit. (Rav <em>Ashi</em>, not Rav <em>Asi</em> the earlier Amora.)</li>
-<li><strong>Rav Dimi of Neharde&rsquo;a</strong> — late Amora; taught the reversed ruling on liver and udder over meat.</li>
-<li><strong>Mareimar</strong> — late Amora of Sura; rules publicly on liver/udder over meat.</li>
-<li><strong>Chizkiya</strong> — here the tradent who states, in Abaye&rsquo;s name, the final halakha on fish and radish.</li>
-<li><strong>Rav bar Shabba</strong> — a minor figure; the guest who fasted rather than eat Rav Naḥman&rsquo;s boiled liver.</li>
-<li><strong>Rav Ḥiyya bar Ashi</strong> — third generation, student of Rav; one of the two sages across the Sura ford.
-  (Rav <em>Ḥiyya bar Ashi</em>, an Amora — not the <em>Tanna</em> Rabbi Ḥiyya above.)</li>
-<li><strong>Rav Shimi bar Ḥiyya</strong> — Rav&rsquo;s great-grandson, at whose house the eye-ointment story occurs. I would
-  not press further biographical detail on him.</li>
-</ul>
-<hr />
-<h2>One line to carry with you</h2>
-<blockquote>
-<p>Before you ask how far a flavor travels, ask whether it ever left home: sometimes, as with the liver
-that &ldquo;expels and absorbs right back,&rdquo; the cleanest answer is that nothing was ever given off at all.</p>
-</blockquote>
-      <p class="tomorrow">Tomorrow (Thu, 20 August 2026):
-        <strong>Chullin 112</strong> — The sharp radish is pinned down — scrape the knife-cut and it may be eaten with kutaḥ, but chard may not — and the concern widens from taste to mere proximity — a jug of salt set beside a jug of kutaḥ.</p>
     </div>
     <div class="sheet" data-lang="es" data-speak-lang="es"
          lang="es" dir="ltr">
@@ -441,215 +237,6 @@ recipiente antes de llegar a tu comida— todavía lo bastante fuerte para prohi
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 Estudiar estos con tarjetas</button></p>
-
-<hr />
-<h2>Recorriendo la suguiá, paso a paso</h2>
-<h3>111a — La cuestión del hígado, llevada hasta el fondo</h3>
-<p>La página abre a mitad del argumento. La inquietud sobre el hígado cocido con carne son en realidad dos
-inquietudes: la carne podría beberse la <strong>grasa</strong> del hígado, o podría beberse su <strong>sangre</strong> — y la
-Guemará sugiere que la sangre acaso se <strong>absorba con más dificultad</strong> que la grasa. Así el dilema se
-estrecha: ¿cruza siquiera a la carne la sangre del hígado permitido?</p>
-<p><strong>Una comida ofrecida como prueba.</strong> Cuando <strong>Rav Safra</strong> subió de nuevo a Erretz Israel encontró a
-<strong>Rabí Zeriká</strong>, que le dijo que la pregunta no hace falta hacerla: él y Ianai, hijo de Rabí Amí, fueron
-servidos una vez con un <strong>gaznate entero con todo lo que le cuelga</strong> — pulmones, corazón e hígado cocidos
-juntos —</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">קָרִיבוּ לַן קַנְיָא בְּקוֹפֵיהּ, וַאֲכַלְנָא</span>.</strong> &ldquo;Nos trajeron el gaznate con sus adherencias, y
-comimos.&rdquo;</p>
-</blockquote>
-<p>— y nadie se preocupó de que la sangre del hígado hubiera prohibido el resto.</p>
-<p><strong>La prueba se desarma.</strong> <strong>Rav Ashi</strong> (algunos dicen <strong>Rabí Shmuel de Zerokinia</strong>) objeta: quizás la
-<strong>boca del gaznate sobresalía de la olla</strong>, y así la sangre del hígado escurrió afuera en vez de empaparse;
-o quizás <strong>escaldaron</strong> el hígado primero (<em>jalit</em>) — como a <strong>Rav Huná</strong>, cuyo hígado rociaban con vinagre
-hirviendo, y <strong>Rav Najmán</strong>, cuyo hígado rociaban con agua hirviendo — sellando la sangre adentro antes de
-que pudiera esparcirse. La pregunta de Abaie queda sin resolver.</p>
-<p><strong>El escaldado genera su propio fallo.</strong> <strong>Rav Papa</strong>, ante <strong>Rava</strong>, pensó que el <strong>vinagre</strong> hirviendo
-queda prohibido, por haber absorbido la sangre del hígado. Rava lo revierte con una palanca:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">אִי חַלָּא אֲסִיר — אִיהוּ נָמֵי אֲסִיר, כִּי הֵיכִי דְּפָלֵיט — הֲדַר בָּלַע</span>.</strong> &ldquo;Si el vinagre está
-prohibido, el hígado también lo está — pues así como expulsa, absorbe de vuelta.&rdquo;</p>
-</blockquote>
-<p>Como todos coinciden en que el hígado escaldado sigue permitido, la única lectura coherente es que <strong>no se
-expulsa sangre en absoluto</strong>. (Luego una pequeña escena de mesa: <strong>Rav bar Shabá</strong> rechazó el hígado
-hervido en casa de Rav Najmán; al decírsele que un erudito de la Torá ayunaba con él, Rav Najmán dijo:
-&ldquo;<strong>Alimenten a Shabá contra su voluntad</strong>.&rdquo;)</p>
-<p><strong>La disputa que hay detrás de todo.</strong> La pregunta de Abaie, señala la Guemará, es en realidad de
-<em>tanaím</em>:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">הַכָּבֵד אוֹסֶרֶת וְאֵינָהּ נֶאֱסֶרֶת</span>&hellip; <span lang="he" dir="rtl">שֶׁפּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת</span>.</strong> <strong>Rabí Eliezer:</strong> el hígado
-prohíbe a los demás pero nunca queda prohibido — expulsa y no absorbe. <strong>Rabí Ishmael, hijo de Rabí
-Iojanán ben Beroká:</strong> si fue <strong>especiado</strong> (<em>metubélet</em>) o <strong>muy cocido</strong> (<em>sheluká</em>), prohíbe a los
-demás <em>y</em> queda prohibido él mismo — las especias y la cocción intensa devuelven la sangre adentro.</p>
-</blockquote>
-<h3>111a — Preparar un hígado, y el asador</h3>
-<p><strong>Rabá bar Rav Huná</strong> comió en casa de <strong>Rabá bar Rav Najmán</strong> en Shabat — tres <em>seá</em> de pan fino amasado
-con aceite y miel — y halló entre los platos un hígado con una <strong>arteria</strong> (<em>simponá</em>) aún llena de sangre.
-Objetó: la sangre <strong>empapada</strong> en el hígado está permitida, pero la sangre <strong>acumulada en los vasos</strong> está
-prohibida. La solución:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">קְרַעוּ שְׁתִי וָעֵרֶב, וְחִיתּוּכָא לְתַחַת</span>.</strong> &ldquo;Desgárrenlo a lo largo y a lo ancho, y pongan el lado
-del corte hacia abajo&rdquo; — para que la sangre de los vasos escurra al fuego.</p>
-</blockquote>
-<p><strong>Y solo el hígado.</strong> El <strong>bazo</strong> (<em>tejalá</em>) no necesita ese desgarro — contiene solo <strong>grasa</strong>, no sangre
-acumulada, por lo que los sirvientes de Shmuel le preparaban un plato de bazo en sus días de sangría.</p>
-<p><strong>En el asador.</strong> Un fallo anónimo: hígado ensartado <strong>encima</strong> de la carne en el horno deja la carne
-<strong>permitida</strong>, porque la sangre simplemente <strong>resbala</strong> (<em>mishrak sharik</em>); una <strong>ubre</strong> encima de la carne
-la <strong>prohíbe</strong>, porque la leche <strong>se adhiere y penetra</strong> (<em>saroje mesarej</em>). <strong>Rav Dimi de Neardea</strong> enseñó
-lo contrario: una ubre encima está <strong>permitida</strong> (su leche-en-carne es solo <strong>rabínica</strong>), mientras que un
-hígado encima está <strong>prohibido</strong> (la sangre es de la <strong>Torá</strong>). <strong>Mareimar</strong> falló públicamente para el
-público: hígado o ubre, <strong>debajo</strong> de la carne está permitido; <strong>encima</strong>, solo <em>a posteriori</em> (<em>diavad</em>),
-no <em>de entrada</em> (<em>lejatjilá</em>). Cuando <strong>Rav Ashi</strong> vio al hijo de su suegro Ramí bar Abá ensartando hígado
-sobre carne —</p>
-<h3>111b — Sangre que flota, y sabor a través de recipientes</h3>
-<p>— reprendió: &ldquo;<strong>¡Qué arrogante este erudito!</strong> Concedido que los Sabios permitieron carne asada bajo el
-hígado <em>a posteriori</em> — ¿acaso permitieron hacerlo <em>de entrada</em>?&rdquo; Y añade: si hay un <strong>recipiente
-receptor</strong> (<em>bei duguei</em>) bajo el asador, hasta la carne puesta <strong>encima</strong> del hígado está prohibida — la
-sangre cae en la grasa acumulada y uno podría comer la mezcla. ¿Por qué es esto peor que asar <strong>carne
-sola</strong> sobre tal recipiente?</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">דְּמָא דְּבִשְׂרָא — שָׁכֵן, דְּמָא דְּכַבְדָּא — קָפֵי</span>.</strong> &ldquo;La sangre de la carne <strong>se hunde</strong>; la sangre
-del hígado <strong>flota</strong>.&rdquo; La sangre de la carne se asienta bajo la grasa y puede retirarse; la sangre del
-hígado cabalga encima y no puede separarse — así que toda la sartén queda prohibida.</p>
-</blockquote>
-<p><strong>Ahora el giro hacia los recipientes.</strong> <strong>Rav Najmán en nombre de Shmuel:</strong> el <strong>cuchillo de degüello</strong>
-absorbe sangre por el calor del animal, así que no se puede cortar comida <strong>hirviente</strong> con él; para comida
-<strong>fría</strong>, algunos exigen enjuagar la pieza cortada, otros no. <strong>Rav Iehudá en nombre de Shmuel:</strong> una
-<strong>fuente en la que se saló carne</strong> no puede contener comida hirviente — y esto es Shmuel según su propio
-principio:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ, וְכָבוּשׁ הֲרֵי הוּא כִּמְבוּשָּׁל</span>.</strong> &ldquo;<strong>Lo salado</strong> es como <strong>lo
-hirviente</strong>, y <strong>lo marinado</strong> es como <strong>lo cocido</strong>&rdquo; — la sal y el encurtido impulsan el sabor como lo
-hace el calor.</p>
-</blockquote>
-<p><strong>Ravin</strong> reportó lo contrario en nombre de <strong>Rabí Iojanán</strong> — lo salado <em>no</em> es como lo hirviente.
-<strong>Abaie</strong> refuta la cita: una fuente en casa de <strong>Rabí Amí</strong>, usada para salar carne, fue <strong>rota</strong> por
-Rabí Amí — discípulo de Rabí Iojanán. ¿Por qué romperla, si no porque oyó de Rabí Iojanán que <strong>lo salado
-es como lo hirviente</strong>? Así que la versión de Ravin ha de ser errónea.</p>
-<p><strong>El rábano y la cata.</strong> <strong>Rav Kahana</strong>, hermano de Rav Iehudá, enseñó que un <strong>rábano</strong> (<em>tzenón</em>) cortado
-con un cuchillo cárnico puede comerse con <strong>kutaj</strong> — aunque su acritud absorba la grasa del cuchillo.
-¿Por qué la fuente prohíbe pero el rábano no? <strong>Abaie:</strong> el rábano absorbió una sustancia <strong>permitida</strong>
-(grasa), la fuente una <strong>prohibida</strong> (sangre). <strong>Rava</strong> lo rechaza — la grasa permitida que lleva a comer
-carne-con-leche no vale más — y ofrece la distinción real: <strong>al rábano puedes catarlo</strong> antes de comerlo
-con leche, pero el contenido de la fuente no puedes catarlo. <strong>Rav Papa:</strong> entonces que lo cate un
-<strong>cocinero gentil</strong> (<em>kapilá</em>) — ¡como decimos de una olla de <em>trumá</em>, que un cohén cata! <strong>Rava</strong> concede:
-en efecto, donde hay cocinero gentil disponible, él cata; yo hablé de donde no lo hay.</p>
-<p><strong>Pescado en un plato de carne — Rav frente a Shmuel.</strong> Un <strong>pescado</strong> caliente puesto en una fuente <strong>en
-la que se comió carne</strong>, y luego comido con <strong>kutaj</strong>:</p>
-<blockquote>
-<p><strong><span lang="he" dir="rtl">רַב אָמַר: אָסוּר</span>&hellip; <span lang="he" dir="rtl">נוֹתֵן טַעַם הוּא; וּשְׁמוּאֵל אָמַר: מוּתָּר, נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם הוּא</span>.</strong>
-<strong>Rav:</strong> prohibido — el sabor cárnico pasa directo al pescado. <strong>Shmuel:</strong> permitido — el sabor fue
-primero a la <strong>fuente</strong> y solo luego al pescado: <strong>sabor de un sabor</strong>, demasiado débil para prohibir.</p>
-</blockquote>
-<p>La opinión de Rav, señala la Guemará, solo fue <strong>inferida</strong> — de su comentario, cuando el sabor de un
-ungüento para los ojos pasó a un plato posterior, &ldquo;<strong>¡da tanto sabor!</strong>&rdquo; — y hasta eso se descarta, pues
-el ungüento era excepcionalmente amargo. Dos relatos lo sellan: <strong>Rabí Elazar</strong>, discípulo de Rav, rechazó
-el pescado en la mesa de Shmuel hasta que Rav mismo le aseguró: &ldquo;Dios libre que la simiente de Abá bar Abá
-me diera de comer lo que tengo por prohibido&rdquo;; y dos sabios <strong>a ambos lados del vado de Sura</strong> se lanzaron
-la pulla &ldquo;<strong>¡Huérfano!</strong>&rdquo; — uno sosteniendo como Shmuel sobre el pescado, el otro como Rabí Jiiá, que el
-pan y el vino eximen de una bendición aparte a todas las comidas y bebidas de la comida. <strong>Jizkiiá en
-nombre de Abaie</strong> dicta la halajá: el <strong>pescado está permitido</strong> con kutaj, pero el <strong>rábano está
-prohibido</strong> — y <em>esa</em> salvedad corre hacia el daf de mañana.</p>
-<hr />
-<h2>Las distinciones, lado a lado</h2>
-<p>El eje del daf es lo que se pone <strong>encima de la carne</strong> en el asador, y las tres autoridades se separan
-limpiamente según <em>cuál</em> prohibición —sangre o leche— pesa más para ellas.</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>Encima de la carne</th>
-<th>Fallo anónimo</th>
-<th>Rav Dimi de Neardea</th>
-<th>Mareimar (halajá)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Hígado</strong> — sangre, ley de la Torá</td>
-<td>Permitido — la sangre resbala</td>
-<td><strong>Prohibido</strong></td>
-<td><em>Diavad</em> sí, <em>lejatjilá</em> no</td>
-</tr>
-<tr>
-<td><strong>Ubre</strong> — leche, rabínica</td>
-<td><strong>Prohibido</strong> — la leche se adhiere</td>
-<td>Permitido</td>
-<td><em>Diavad</em> sí, <em>lejatjilá</em> no</td>
-</tr>
-</tbody>
-</table></div>
-<p>Debajo de la carne, toda opinión permite ambos; toda la disputa gira solo en torno al órgano puesto
-<em>encima</em>.</p>
-<hr />
-<h2>Quién es quién en el daf de hoy</h2>
-<p><strong>Tanaím</strong></p>
-<ul>
-<li><strong>Rabí Eliezer</strong> (ben Hurcanos) — <em>Tana</em> de segunda generación, discípulo de Rabán Iojanán ben Zakai;
-  sostiene que el hígado &ldquo;prohíbe pero no queda prohibido&rdquo;. (Titulado <em>Rabí</em>; no el Amorá Rabí Elazar ben
-  Pedat, que también aparece abajo.)</li>
-<li><strong>Rabí Ishmael, hijo de Rabí Iojanán ben Beroká</strong> — <em>Tana</em> de cuarta generación; sostiene que el hígado
-  especiado o cocido queda también prohibido. Una figura menor, conocida sobre todo por tales fallos.</li>
-<li><strong>Rabí Jiiá</strong> (el Grande) — <em>Tana</em> de transición, tío y maestro de Rav; citado al final por la regla de
-  que el pan y el vino eximen a las demás comidas y bebidas de la comida de una bendición aparte.</li>
-</ul>
-<p><strong>Amoraím de Erretz Israel</strong></p>
-<ul>
-<li><strong>Rabí Iojanán</strong> (bar Nafjá) — segunda generación, la autoridad señera de Tiberíades; Ravin lo reporta
-  sosteniendo que lo salado <em>no</em> es como lo hirviente, y Abaie argumenta que la cita es errónea.</li>
-<li><strong>Rabí Zeriká</strong> — tercera/cuarta generación; ofrece a Rav Safra la comida del gaznate como prueba.</li>
-<li><strong>Rabí Amí</strong> — tercera generación, autoridad principal en Tiberíades y discípulo de Rabí Iojanán; su
-  rotura de la fuente de salar es la evidencia de Abaie.</li>
-<li><strong>Rabí Elazar</strong> (ben Pedat) — tercera generación, discípulo principal de Rabí Iojanán; seguidor de las
-  enseñanzas de Rav que rechaza el pescado en la mesa de Shmuel. (Rabí <em>Elazar</em>; distinto del <em>Tana</em> Rabí
-  <em>Eliezer</em> de arriba.)</li>
-<li><strong>Ravin</strong> (Rav Avin) — cuarta generación, célebre portador de las tradiciones de Erretz Israel a
-  Babilonia (<em>ki atá Ravin</em>); su reporte en nombre de Rabí Iojanán se disputa aquí.</li>
-</ul>
-<p><strong>Amoraím de Babilonia</strong></p>
-<ul>
-<li><strong>Rav</strong> (Abá Arijá) — primera generación, fundador de Sura; prohíbe el pescado comido con kutaj (<em>notein
-  taam</em>), y tranquiliza a Rabí Elazar diciendo que Shmuel nunca le dio de comer nada que tuviera por
-  prohibido.</li>
-<li><strong>Shmuel</strong> (de Neardea) — primera generación, gran colega de Rav e hijo de <strong>Abá bar Abá</strong>; permite el
-  pescado (<em>notein taam bar notein taam</em>) y es la fuente de <em>maliaj kerotéaj</em>. Sus sirvientes le preparaban
-  bazo en sus días de sangría.</li>
-<li><strong>Rav Iehudá</strong> (bar Iejezkel) — segunda generación, fundador de Pumbedita; transmite a Shmuel sobre la
-  fuente salada. (Este <strong>Rav</strong> Iehudá el Amorá, no <strong>Rabí</strong> Iehudá el <em>Tana</em>.)</li>
-<li><strong>Rav Huná</strong> — segunda generación, cabeza de Sura tras Rav; su hígado se escaldaba con vinagre hirviendo.</li>
-<li><strong>Rav Najmán</strong> (bar Iaakov) — tercera generación, de Neardea; su hígado se escaldaba con agua hirviendo,
-  y ordenó &ldquo;alimenten a Shabá contra su voluntad&rdquo;.</li>
-<li><strong>Rav Kahana</strong> — aquí especificado como <strong>hermano de Rav Iehudá</strong>; enseña el permitido rábano cortado con
-  cuchillo. (El nombre abarca varios sabios; a este lo fija solo la etiqueta &ldquo;hermano de Rav Iehudá&rdquo;.)</li>
-<li><strong>Rabá bar Rav Huná</strong> — tercera generación, hijo de Rav Huná; el invitado que halló la arteria llena de
-  sangre. (No confundir con <strong>Rav bar Shabá</strong>, el invitado que rechazó el hígado hervido, justo encima de
-  él en el daf.)</li>
-<li><strong>Rabá bar Rav Najmán</strong> — el anfitrión de Shabat con el fino pan de aceite y miel.</li>
-<li><strong>Rava</strong> (bar Iosef bar Jama) — cuarta generación, de Mejozá; aporta la palanca de que no se expulsa
-  sangre, y la distinción del &ldquo;puedes catar el rábano&rdquo;. (<span lang="he" dir="rtl">רבא</span>; distinto de <strong>Rabá</strong> arriba — un clásico caso
-  de nombres parecidos.)</li>
-<li><strong>Abaie</strong> — cuarta generación, cabeza de Pumbedita; refuta a Ravin desde la fuente rota de Rabí Amí, y
-  (vía Jizkiiá) dicta la halajá sobre pescado y rábano. Suyo fue el dilema original del hígado.</li>
-<li><strong>Rav Papa</strong> — quinta generación, discípulo de Rava; propone que el hígado de vinagre hirviendo esté
-  prohibido (Rava lo revoca), y propone al cocinero gentil como catador.</li>
-<li><strong>Rav Ashi</strong> — sexta generación, redactor del Talmud en Sura-Matá Mejasiá; objeta la prueba del gaznate
-  y reprende al hijo de su suegro por el asador. (Rav <em>Ashi</em>, no Rav <em>Asi</em> el Amorá anterior.)</li>
-<li><strong>Rav Dimi de Neardea</strong> — Amorá tardío; enseñó el fallo invertido sobre hígado y ubre sobre la carne.</li>
-<li><strong>Mareimar</strong> — Amorá tardío de Sura; falla públicamente sobre hígado/ubre sobre la carne.</li>
-<li><strong>Jizkiiá</strong> — aquí el transmisor que enuncia, en nombre de Abaie, la halajá final sobre pescado y rábano.</li>
-<li><strong>Rav bar Shabá</strong> — figura menor; el invitado que ayunó antes que comer el hígado hervido de Rav Najmán.</li>
-<li><strong>Rav Jiiá bar Ashi</strong> — tercera generación, discípulo de Rav; uno de los dos sabios a ambos lados del
-  vado de Sura. (Rav <em>Jiiá bar Ashi</em>, un Amorá — no el <em>Tana</em> Rabí Jiiá de arriba.)</li>
-<li><strong>Rav Shimí bar Jiiá</strong> — bisnieto de Rav, en cuya casa ocurre el relato del ungüento para los ojos. No
-  presionaría más detalle biográfico sobre él.</li>
-</ul>
-<hr />
-<h2>Una línea para llevarte</h2>
-<blockquote>
-<p>Antes de preguntar hasta dónde viaja un sabor, pregunta si alguna vez salió de casa: a veces, como con el
-hígado que &ldquo;expulsa y absorbe de vuelta&rdquo;, la respuesta más limpia es que nunca se dio nada.</p>
-</blockquote>
-      <p class="tomorrow">Mañana (jue, 20 de agosto de 2026):
-        <strong>Julín 112</strong> — Se precisa el rábano picante — raspa el corte del cuchillo y podrá comerse con kutaj, pero la acelga no — y la preocupación se amplía del sabor a la mera cercanía — un jarro de sal puesto junto a un jarro de kutaj.</p>
     </div>
     <div class="sheet" data-lang="he" data-speak-lang="he"
          lang="he" dir="rtl">
@@ -735,120 +322,145 @@ hígado que &ldquo;expulsa y absorbe de vuelta&rdquo;, la respuesta más limpia 
 </tr>
 </tbody>
 </table></div>
-<p class="deck-cta"><button class="btn ghost" type="button" data-open="cards">🃏 ללמוד את המונחים האלה בכרטיסיות</button></p>
+    </div>
 
-<hr />
-<h2>עוברים על הסוגיה, צעד אחר צעד</h2>
-<h3>קיא ע״א — שאלת הכבד, עד הסוף</h3>
-<p>הדף נפתח באמצע הטיעון. החשש מכבד המתבשל עם בשר הוא בעצם שני חששות: הבשר עלול לבלוע את <strong>שומן</strong> הכבד,
-או לבלוע את <strong>דמו</strong> — והגמרא מציעה שהדם אולי <strong>נבלע בקושי רב יותר</strong> מן השומן. כך מצטמצמת השאלה: האם דם
-הכבד המותר חוצה אל הבשר בכלל?</p>
-<p><strong>סעודה המוצעת כראיה.</strong> כשעלה <strong>רב ספרא</strong> לארץ ישראל שוב, מצא את <strong>רבי זריקא</strong>, שאמר לו שאין צורך
-לשאול: הוא וינאי בנו של רבי אמי הוגש להם פעם <strong>קנה שלם עם כל התלוי בו</strong> — ריאה, לב וכבד שבושלו יחד —</p>
-<blockquote>
-<p><strong>קָרִיבוּ לַן קַנְיָא בְּקוֹפֵיהּ, וַאֲכַלְנָא.</strong> הביאו לנו את הקנה עם אבריו, ואכלנו.</p>
-</blockquote>
-<p>— ואיש לא חשש שדם הכבד אסר את השאר.</p>
-<p><strong>הראיה מתפרקת.</strong> <strong>רב אשי</strong> (ויש אומרים <strong>רבי שמואל מזרוקיניא</strong>) משיג: שמא <strong>פי הקנה היה מחוץ לקדרה</strong>,
-ודם הכבד נשפך החוצה במקום להיספג; או שמא <strong>חלטו</strong> את הכבד תחילה — כמו <strong>רב הונא</strong>, שחלטו לו את הכבד
-בחומץ רותח, ו<strong>רב נחמן</strong>, שחלטו לו ברותחין — צוֹרבים את הדם בפנים בטרם יתפשט. שאלת אביי נותרה בלא הכרעה.</p>
-<p><strong>החליטה מולידה הלכה משלה.</strong> <strong>רב פפא</strong>, לפני <strong>רבא</strong>, סבר לומר שה<strong>חומץ</strong> הרותח נאסר, לאחר שבלע את דם
-הכבד. רבא הופך זאת במנוף:</p>
-<blockquote>
-<p><strong>אִי חַלָּא אֲסִיר — אִיהוּ נָמֵי אֲסִיר, כִּי הֵיכִי דְּפָלֵיט — הֲדַר בָּלַע.</strong> אם החומץ אסור, הכבד
-אסור אף הוא — שכשם שהוא פולט, כך הוא בולע בחזרה.</p>
-</blockquote>
-<p>וכיוון שהכול מודים שהכבד החלוט נותר מותר, הקריאה היחידה המתיישבת היא ש<strong>אין נפלט דם כלל</strong>. (ואז סצנת
-שולחן קטנה: <strong>רב בר שבא</strong> סירב לכבד המבושל בבית רב נחמן; משנאמר לרב נחמן שתלמיד חכם צם עליו, אמר:
-&ldquo;<strong>גַּאמוּ לְשַׁבָּא</strong>&rdquo; — האכילוהו לשבא בעל כורחו.)</p>
-<p><strong>המחלוקת שמאחורי הכול.</strong> שאלת אביי, מציינת הגמרא, היא באמת מחלוקת תנאים:</p>
-<blockquote>
-<p><strong>הַכָּבֵד אוֹסֶרֶת וְאֵינָהּ נֶאֱסֶרֶת&hellip; שֶׁפּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת.</strong> <strong>רבי אליעזר:</strong> הכבד אוסרת
-אחרים אך לעולם אינה נאסרת — פולטת ואינה בולעת. <strong>רבי ישמעאל בנו של רבי יוחנן בן ברוקה:</strong> אם הייתה
-<strong>מתובלת</strong> או <strong>שלוקה</strong> היטב, היא אוסרת אחרים <em>וגם</em> נאסרת — התבלין והבישול הכבד מחזירים את הדם פנימה.</p>
-</blockquote>
-<h3>קיא ע״א — הכנת כבד, והשיפוד</h3>
-<p><strong>רבה בר רב הונא</strong> סעד אצל <strong>רבה בר רב נחמן</strong> בשבת — שלוש סאין של פת נקייה הלושה בשמן ובדבש — ומצא בין
-המאכלים כבד שבו <strong>סמפון</strong> (עורק) עודנו מלא דם. הוא השיג: הדם ה<strong>בלוע</strong> בכבד מותר, אך הדם ה<strong>עומד בעורקים</strong>
-אסור. הפתרון:</p>
-<blockquote>
-<p><strong>קְרַעוּ שְׁתִי וָעֵרֶב, וְחִיתּוּכָא לְתַחַת.</strong> קרעו אותו לאורכו ולרוחבו, וצד החתך כלפי מטה — כדי שדם
-העורקים יזוב אל האש.</p>
-</blockquote>
-<p><strong>ורק הכבד.</strong> ה<strong>טחול</strong> אינו צריך קריעה כזו — אין בו אלא <strong>שומן</strong>, לא דם עומד, ולכן משרתי שמואל היו
-מכינים לו תבשיל של טחול בימי הקזת הדם שלו.</p>
-<p><strong>בשיפוד.</strong> הוראה סתמית: כבד התחוב <strong>מעל</strong> לבשר בתנור מותיר את הבשר <strong>מותר</strong>, שכן הדם פשוט <strong>מחליק</strong> ואינו
-נבלע; <strong>כחל</strong> מעל לבשר <strong>אוסר</strong> אותו, שכן החלב <strong>נסרך ונבלע</strong>. <strong>רב דימי מנהרדעא</strong> שנה להפך: כחל מלמעלה
-<strong>מותר</strong> (בשר בחלב של שחוטה אינו אלא <strong>מדרבנן</strong>), ואילו כבד מלמעלה <strong>אסור</strong> (דם הוא <strong>מן התורה</strong>).
-<strong>מרימר</strong> דרש ברבים: כבד או כחל, <strong>מתחת</strong> לבשר — מותר; <strong>מעל</strong> לבשר — <strong>בדיעבד</strong> אין, <strong>לכתחילה</strong> לא.
-כשראה <strong>רב אשי</strong> את בנו של חמיו רמי בר אבא תוחב כבד מעל בשר —</p>
-<h3>קיא ע״ב — דם שצף, וטעם דרך כלים</h3>
-<p>— גער: &ldquo;<strong>כמה יהיר</strong> חכם זה! נניח שהתירו חכמים בשר הצלוי תחת כבד <em>בדיעבד</em> — וכי התירו לעשות כן <em>לכתחילה</em>?&rdquo;
-ומוסיף: אם יש <strong>בֵּי דוּגֵי</strong> (כלי קיבול) תחת השיפוד, אף בשר המונח <strong>מעל</strong> לכבד אסור — הדם נופל אל השומן
-הנקווה ועלול אדם לאכול את התערובת. במה שונה זה מצליית <strong>בשר לבדו</strong> מעל כלי כזה?</p>
-<blockquote>
-<p><strong>דְּמָא דְּבִשְׂרָא — שָׁכֵן, דְּמָא דְּכַבְדָּא — קָפֵי.</strong> דם הבשר <strong>שוקע</strong>; דם הכבד <strong>צף</strong>. דם הבשר
-יורד מתחת לשומן וניתן להסירו; דם הכבד רוכב מעליו ואי אפשר להפרידו — ולכן כל המחבת אסורה.</p>
-</blockquote>
-<p><strong>כעת המעבר אל הכלים.</strong> <strong>רב נחמן בשם שמואל:</strong> ה<strong>סכין ששחט</strong> בה בולעת דם מחום הבהמה, ואסור לחתוך בה
-דבר <strong>רותח</strong>; דבר <strong>צונן</strong> — יש אומרים שהחתיכה שנחתכה צריכה <strong>הדחה</strong>, ויש אומרים שאינה צריכה. <strong>רב יהודה
-בשם שמואל:</strong> <strong>קערה שמלחו בה בשר</strong> אסור לאכול בה דבר רותח — וזה שמואל לשיטתו:</p>
-<blockquote>
-<p><strong>מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ, וְכָבוּשׁ הֲרֵי הוּא כִּמְבוּשָּׁל.</strong> המלח והכבישה מוליכים טעם כשם שהחום
-מוליך אותו.</p>
-</blockquote>
-<p><strong>רבין</strong> מסר את ההפך בשם <strong>רבי יוחנן</strong> — מליח <em>אינו</em> כרותח. <strong>אביי</strong> מפריך את המסירה: קערה בבית <strong>רבי אמי</strong>,
-ששימשה למליחת בשר, <strong>נשברה</strong> בידי רבי אמי — תלמידו של רבי יוחנן. מדוע שברה, אם לא מפני ששמע מרבי יוחנן
-ש<strong>מליח הרי הוא כרותח</strong>? מכאן שגרסת רבין מוטעית.</p>
-<p><strong>הצנון והטעימה.</strong> <strong>רב כהנא</strong>, אחיו של רב יהודה, שנה ש<strong>צנון</strong> שחתכוהו בסכין של בשר מותר לאוכלו ב<strong>כותח</strong> —
-אף שחריפותו בולעת את שומן הסכין. מדוע הקערה אוסרת אך הצנון לא? <strong>אביי:</strong> הצנון בלע דבר <strong>היתר</strong> (שומן),
-הקערה דבר <strong>איסור</strong> (דם). <strong>רבא</strong> דוחה זאת — היתר הבלוע המביא לאכילת בשר בחלב אינו טוב יותר — ומציע את
-ההבחנה האמיתית: את <strong>הצנון אפשר לטעום</strong> קודם אכילתו עם חלב, אך את תוכן הקערה אי אפשר לטעום. <strong>רב פפא:</strong>
-אם כן, <strong>יטעמנו קפילא</strong> (טבח נוכרי) — כמו שאמרנו על קדרת תרומה, שכהן טועמה! <strong>רבא</strong> מודה: אכן, במקום שיש
-קפילא הוא טועם; אני דיברתי במקום שאין.</p>
-<p><strong>דג בכלי של בשר — רב מול שמואל.</strong> דג חם שהוצב בקערה <strong>שאכלו בה בשר</strong>, ואז נאכל עם <strong>כותח</strong>:</p>
-<blockquote>
-<p><strong>רַב אָמַר: אָסוּר&hellip; נוֹתֵן טַעַם הוּא; וּשְׁמוּאֵל אָמַר: מוּתָּר, נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם הוּא.</strong>
-<strong>רב:</strong> אסור — טעם הבשר עובר ישר אל הדג. <strong>שמואל:</strong> מותר — הטעם עבר תחילה אל ה<strong>קערה</strong> ורק אחר כך אל
-הדג: <strong>טעם של טעם</strong>, חלש מכדי לאסור.</p>
-</blockquote>
-<p>שיטת רב, מציינת הגמרא, לא נאמרה במפורש אלא <strong>מכללא</strong> נלמדה — מדבריו, כשטעם משחת עיניים חלף אל תבשיל
-שלאחריו, &ldquo;<strong>כמה טעם הוא נותן!</strong>&rdquo; — ואף זה נדחה, שכן המשחה הייתה מרה במיוחד. שני סיפורים חותמים: <strong>רבי
-אלעזר</strong>, תלמידו של רב, סירב לדג בשולחן שמואל עד שרב עצמו הרגיעו, &ldquo;חס לזרעו של אבא בר אבא שיאכילני דבר
-שאיני מחזיקו במותר&rdquo;; ושני חכמים <strong>משני עברי מעברת הנהר של סורא</strong> הטיחו זה בזה &ldquo;<strong>יתמא!</strong>&rdquo; — האחד סבור
-כשמואל בדג, האחר כרבי חייא, שהפת והיין פוטרים מברכה נפרדת את כל מיני המאכל והמשקה שבסעודה. <strong>חזקיה בשם
-אביי</strong> פוסק הלכה: ה<strong>דג מותר</strong> בכותח, אך ה<strong>צנון אסור</strong> — ואותה הסתייגות נכנסת אל דף המחר.</p>
-<hr />
-<h2>ההבחנות, זו מול זו</h2>
-<p>ציר הדף הוא מה שמונח <strong>מעל הבשר</strong> בשיפוד, ושלוש הדעות נחלקות בבירור לפי <em>איזה</em> איסור — דם או חלב — כבד
-יותר בעיניהן.</p>
-<div class="table-scroll"><table>
-<thead>
-<tr>
-<th>מעל הבשר</th>
-<th>הוראה סתמית</th>
-<th>רב דימי מנהרדעא</th>
-<th>מרימר (הלכה)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>כבד</strong> — דם, מן התורה</td>
-<td>מותר — הדם מחליק</td>
-<td><strong>אסור</strong></td>
-<td><em>בדיעבד</em> כן, <em>לכתחילה</em> לא</td>
-</tr>
-<tr>
-<td><strong>כחל</strong> — חלב, מדרבנן</td>
-<td><strong>אסור</strong> — החלב נסרך</td>
-<td>מותר</td>
-<td><em>בדיעבד</em> כן, <em>לכתחילה</em> לא</td>
-</tr>
-</tbody>
-</table></div>
-<p>מתחת לבשר, כל הדעות מתירות את שניהם; כל המחלוקת סובבת רק סביב האבר המונח <em>מלמעלה</em>.</p>
-<hr />
-<h2>מי ומי בדף של היום</h2>
+    <div class="deck-inline">
+      <h2>🃏&nbsp;<span data-lang="en">Flashcards</span><span data-lang="es">Tarjetas</span><span data-lang="he">כרטיסיות</span></h2>
+      <p class="deck-intro"><span data-lang="en">The terms above, one per card. Read the term, recall what it means on this daf, then turn the card over and say whether you had it. Whatever you flag comes back at the end in a shorter second round.</span><span data-lang="es">Los términos de arriba, uno por tarjeta. Lee el término, recuerda qué significa en este daf, luego gira la tarjeta y di si lo sabías. Lo que marques vuelve al final en una segunda ronda, más corta.</span><span data-lang="he">המונחים שלמעלה, אחד לכל כרטיס. קראו את המונח, נסו להיזכר מה משמעותו בדף הזה, ואז הפכו את הכרטיס ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף בסיבוב שני, קצר יותר.</span></p>
+      <div class="deck" id="deckCard"></div>
+      <div class="hint"><span data-lang="en">Tip: click the card, then space flips it, ← → move, 1 / 2 rate it.</span><span data-lang="es">Consejo: pulsa en la tarjeta; la barra espaciadora la gira, ← → navegan, 1 / 2 califican.</span><span data-lang="he">טיפ: הקישו על הכרטיס; מקש הרווח הופך אותו, ← → מדפדפים, 1 / 2 מדרגים.</span></div>
+    </div>
+
+    <div class="sheet" data-lang="en" data-speak-lang="en"
+         lang="en" dir="ltr">
+      <h2>Who&rsquo;s who in today&rsquo;s daf</h2>
+<p><strong>Tannaim</strong></p>
+<ul>
+<li><strong>Rabbi Eliezer</strong> (ben Hyrcanus) — second-generation <em>Tanna</em>, student of Rabban Yoḥanan ben Zakkai;
+  holds liver &ldquo;forbids but is not forbidden.&rdquo; (Titled <em>Rabbi</em>; not the Amora Rabbi Elazar ben Pedat, who
+  also appears below.)</li>
+<li><strong>Rabbi Yishmael son of Rabbi Yoḥanan ben Beroka</strong> — fourth-generation <em>Tanna</em>; holds spiced or stewed
+  liver becomes forbidden as well. A minor figure, known mainly from such rulings.</li>
+<li><strong>Rabbi Ḥiyya</strong> (the Great) — transitional <em>Tanna</em>, uncle and teacher of Rav; cited at the end for the
+  rule that bread and wine exempt the meal&rsquo;s other foods and drinks from a separate blessing.</li>
+</ul>
+<p><strong>Eretz-Yisrael Amoraim</strong></p>
+<ul>
+<li><strong>Rabbi Yoḥanan</strong> (bar Nappaḥa) — second generation, the towering authority of Tiberias; Ravin reports
+  him as holding salted is <em>not</em> like boiling, and Abaye argues the citation is wrong.</li>
+<li><strong>Rabbi Zerika</strong> — third/fourth generation; offers Rav Safra the windpipe meal as proof.</li>
+<li><strong>Rabbi Ami</strong> — third generation, a leading authority in Tiberias and a student of Rabbi Yoḥanan; his
+  smashing of the salting-bowl is Abaye&rsquo;s evidence.</li>
+<li><strong>Rabbi Elazar</strong> (ben Pedat) — third generation, foremost student of Rabbi Yoḥanan; a disciple of Rav&rsquo;s
+  teachings who declines the fish at Shmuel&rsquo;s table. (Rabbi <em>Elazar</em>; distinct from the <em>Tanna</em> Rabbi
+  <em>Eliezer</em> above.)</li>
+<li><strong>Ravin</strong> (Rav Avin) — fourth generation, famed carrier of Eretz-Yisrael traditions to Babylonia
+  (<em>ki ata Ravin</em>); his report in Rabbi Yoḥanan&rsquo;s name is here disputed.</li>
+</ul>
+<p><strong>Babylonian Amoraim</strong></p>
+<ul>
+<li><strong>Rav</strong> (Abba Arikha) — first generation, founder of Sura; forbids the fish eaten with kutaḥ (<em>notein
+  ta&rsquo;am</em>), and reassures Rabbi Elazar that Shmuel never fed him anything he held forbidden.</li>
+<li><strong>Shmuel</strong> (of Nehardea) — first generation, Rav&rsquo;s great colleague and son of <strong>Abba bar Abba</strong>;
+  permits the fish (<em>notein ta&rsquo;am bar notein ta&rsquo;am</em>) and is the source of <em>maliach k&rsquo;rotei&rsquo;ach</em>. His
+  servants prepared spleen for him on bloodletting days.</li>
+<li><strong>Rav Yehuda</strong> (bar Yeḥezkel) — second generation, founder of Pumbedita; transmits Shmuel on the salted
+  bowl. (This <strong>Rav</strong> Yehuda the Amora, not <strong>Rabbi</strong> Yehuda the <em>Tanna</em>.)</li>
+<li><strong>Rav Huna</strong> — second generation, head of Sura after Rav; his liver was scalded with boiling vinegar.</li>
+<li><strong>Rav Naḥman</strong> (bar Yaakov) — third generation, of Nehardea; his liver was scalded with boiling water,
+  and he ordered &ldquo;feed Shabba against his will.&rdquo;</li>
+<li><strong>Rav Kahana</strong> — here specified as <strong>the brother of Rav Yehuda</strong>; teaches the permitted knife-cut
+  radish. (The name spans several sages; this one is fixed only by the &ldquo;brother of Rav Yehuda&rdquo; tag.)</li>
+<li><strong>Rabba bar Rav Huna</strong> — third generation, son of Rav Huna; the guest who found the blood-filled artery.
+  (Not to be confused with <strong>Rav bar Shabba</strong>, the guest who declined the boiled liver just above him in
+  the daf.)</li>
+<li><strong>Rabba bar Rav Naḥman</strong> — the Shabbat host with the fine oil-and-honey bread.</li>
+<li><strong>Rava</strong> (bar Yosef bar Ḥama) — fourth generation, of Meḥoza; supplies the lever that no blood is
+  expelled, and the &ldquo;you can taste the radish&rdquo; distinction. (<span lang="he" dir="rtl">רבא</span>; distinct from <strong>Rabba</strong> above — a
+  classic look-alike.)</li>
+<li><strong>Abaye</strong> — fourth generation, head of Pumbedita; refutes Ravin from Rabbi Ami&rsquo;s smashed bowl, and (via
+  Chizkiya) rules the halakha on fish and radish. His was the original liver dilemma.</li>
+<li><strong>Rav Pappa</strong> — fifth generation, student of Rava; proposes the boiling-vinegar liver is forbidden (Rava
+  overrules), and proposes the gentile cook as taster.</li>
+<li><strong>Rav Ashi</strong> — sixth generation, redactor of the Talmud at Sura-Mata Meḥasya; objects to the windpipe
+  proof and scolds his father-in-law&rsquo;s son over the spit. (Rav <em>Ashi</em>, not Rav <em>Asi</em> the earlier Amora.)</li>
+<li><strong>Rav Dimi of Neharde&rsquo;a</strong> — late Amora; taught the reversed ruling on liver and udder over meat.</li>
+<li><strong>Mareimar</strong> — late Amora of Sura; rules publicly on liver/udder over meat.</li>
+<li><strong>Chizkiya</strong> — here the tradent who states, in Abaye&rsquo;s name, the final halakha on fish and radish.</li>
+<li><strong>Rav bar Shabba</strong> — a minor figure; the guest who fasted rather than eat Rav Naḥman&rsquo;s boiled liver.</li>
+<li><strong>Rav Ḥiyya bar Ashi</strong> — third generation, student of Rav; one of the two sages across the Sura ford.
+  (Rav <em>Ḥiyya bar Ashi</em>, an Amora — not the <em>Tanna</em> Rabbi Ḥiyya above.)</li>
+<li><strong>Rav Shimi bar Ḥiyya</strong> — Rav&rsquo;s great-grandson, at whose house the eye-ointment story occurs. I would
+  not press further biographical detail on him.</li>
+</ul>
+    </div>
+    <div class="sheet" data-lang="es" data-speak-lang="es"
+         lang="es" dir="ltr">
+      <h2>Quién es quién en el daf de hoy</h2>
+<p><strong>Tanaím</strong></p>
+<ul>
+<li><strong>Rabí Eliezer</strong> (ben Hurcanos) — <em>Tana</em> de segunda generación, discípulo de Rabán Iojanán ben Zakai;
+  sostiene que el hígado &ldquo;prohíbe pero no queda prohibido&rdquo;. (Titulado <em>Rabí</em>; no el Amorá Rabí Elazar ben
+  Pedat, que también aparece abajo.)</li>
+<li><strong>Rabí Ishmael, hijo de Rabí Iojanán ben Beroká</strong> — <em>Tana</em> de cuarta generación; sostiene que el hígado
+  especiado o cocido queda también prohibido. Una figura menor, conocida sobre todo por tales fallos.</li>
+<li><strong>Rabí Jiiá</strong> (el Grande) — <em>Tana</em> de transición, tío y maestro de Rav; citado al final por la regla de
+  que el pan y el vino eximen a las demás comidas y bebidas de la comida de una bendición aparte.</li>
+</ul>
+<p><strong>Amoraím de Erretz Israel</strong></p>
+<ul>
+<li><strong>Rabí Iojanán</strong> (bar Nafjá) — segunda generación, la autoridad señera de Tiberíades; Ravin lo reporta
+  sosteniendo que lo salado <em>no</em> es como lo hirviente, y Abaie argumenta que la cita es errónea.</li>
+<li><strong>Rabí Zeriká</strong> — tercera/cuarta generación; ofrece a Rav Safra la comida del gaznate como prueba.</li>
+<li><strong>Rabí Amí</strong> — tercera generación, autoridad principal en Tiberíades y discípulo de Rabí Iojanán; su
+  rotura de la fuente de salar es la evidencia de Abaie.</li>
+<li><strong>Rabí Elazar</strong> (ben Pedat) — tercera generación, discípulo principal de Rabí Iojanán; seguidor de las
+  enseñanzas de Rav que rechaza el pescado en la mesa de Shmuel. (Rabí <em>Elazar</em>; distinto del <em>Tana</em> Rabí
+  <em>Eliezer</em> de arriba.)</li>
+<li><strong>Ravin</strong> (Rav Avin) — cuarta generación, célebre portador de las tradiciones de Erretz Israel a
+  Babilonia (<em>ki atá Ravin</em>); su reporte en nombre de Rabí Iojanán se disputa aquí.</li>
+</ul>
+<p><strong>Amoraím de Babilonia</strong></p>
+<ul>
+<li><strong>Rav</strong> (Abá Arijá) — primera generación, fundador de Sura; prohíbe el pescado comido con kutaj (<em>notein
+  taam</em>), y tranquiliza a Rabí Elazar diciendo que Shmuel nunca le dio de comer nada que tuviera por
+  prohibido.</li>
+<li><strong>Shmuel</strong> (de Neardea) — primera generación, gran colega de Rav e hijo de <strong>Abá bar Abá</strong>; permite el
+  pescado (<em>notein taam bar notein taam</em>) y es la fuente de <em>maliaj kerotéaj</em>. Sus sirvientes le preparaban
+  bazo en sus días de sangría.</li>
+<li><strong>Rav Iehudá</strong> (bar Iejezkel) — segunda generación, fundador de Pumbedita; transmite a Shmuel sobre la
+  fuente salada. (Este <strong>Rav</strong> Iehudá el Amorá, no <strong>Rabí</strong> Iehudá el <em>Tana</em>.)</li>
+<li><strong>Rav Huná</strong> — segunda generación, cabeza de Sura tras Rav; su hígado se escaldaba con vinagre hirviendo.</li>
+<li><strong>Rav Najmán</strong> (bar Iaakov) — tercera generación, de Neardea; su hígado se escaldaba con agua hirviendo,
+  y ordenó &ldquo;alimenten a Shabá contra su voluntad&rdquo;.</li>
+<li><strong>Rav Kahana</strong> — aquí especificado como <strong>hermano de Rav Iehudá</strong>; enseña el permitido rábano cortado con
+  cuchillo. (El nombre abarca varios sabios; a este lo fija solo la etiqueta &ldquo;hermano de Rav Iehudá&rdquo;.)</li>
+<li><strong>Rabá bar Rav Huná</strong> — tercera generación, hijo de Rav Huná; el invitado que halló la arteria llena de
+  sangre. (No confundir con <strong>Rav bar Shabá</strong>, el invitado que rechazó el hígado hervido, justo encima de
+  él en el daf.)</li>
+<li><strong>Rabá bar Rav Najmán</strong> — el anfitrión de Shabat con el fino pan de aceite y miel.</li>
+<li><strong>Rava</strong> (bar Iosef bar Jama) — cuarta generación, de Mejozá; aporta la palanca de que no se expulsa
+  sangre, y la distinción del &ldquo;puedes catar el rábano&rdquo;. (<span lang="he" dir="rtl">רבא</span>; distinto de <strong>Rabá</strong> arriba — un clásico caso
+  de nombres parecidos.)</li>
+<li><strong>Abaie</strong> — cuarta generación, cabeza de Pumbedita; refuta a Ravin desde la fuente rota de Rabí Amí, y
+  (vía Jizkiiá) dicta la halajá sobre pescado y rábano. Suyo fue el dilema original del hígado.</li>
+<li><strong>Rav Papa</strong> — quinta generación, discípulo de Rava; propone que el hígado de vinagre hirviendo esté
+  prohibido (Rava lo revoca), y propone al cocinero gentil como catador.</li>
+<li><strong>Rav Ashi</strong> — sexta generación, redactor del Talmud en Sura-Matá Mejasiá; objeta la prueba del gaznate
+  y reprende al hijo de su suegro por el asador. (Rav <em>Ashi</em>, no Rav <em>Asi</em> el Amorá anterior.)</li>
+<li><strong>Rav Dimi de Neardea</strong> — Amorá tardío; enseñó el fallo invertido sobre hígado y ubre sobre la carne.</li>
+<li><strong>Mareimar</strong> — Amorá tardío de Sura; falla públicamente sobre hígado/ubre sobre la carne.</li>
+<li><strong>Jizkiiá</strong> — aquí el transmisor que enuncia, en nombre de Abaie, la halajá final sobre pescado y rábano.</li>
+<li><strong>Rav bar Shabá</strong> — figura menor; el invitado que ayunó antes que comer el hígado hervido de Rav Najmán.</li>
+<li><strong>Rav Jiiá bar Ashi</strong> — tercera generación, discípulo de Rav; uno de los dos sabios a ambos lados del
+  vado de Sura. (Rav <em>Jiiá bar Ashi</em>, un Amorá — no el <em>Tana</em> Rabí Jiiá de arriba.)</li>
+<li><strong>Rav Shimí bar Jiiá</strong> — bisnieto de Rav, en cuya casa ocurre el relato del ungüento para los ojos. No
+  presionaría más detalle biográfico sobre él.</li>
+</ul>
+    </div>
+    <div class="sheet" data-lang="he" data-speak-lang="he"
+         lang="he" dir="rtl">
+      <h2>מי ומי בדף של היום</h2>
 <p><strong>תנאים</strong></p>
 <ul>
 <li><strong>רבי אליעזר</strong> (בן הורקנוס) — תנא בדור השני, תלמיד רבן יוחנן בן זכאי; סובר שהכבד &ldquo;אוסרת ואינה נאסרת&rdquo;.
@@ -899,26 +511,7 @@ hígado que &ldquo;expulsa y absorbe de vuelta&rdquo;, la respuesta más limpia 
   — לא ה<em>תנא</em> רבי חייא לעיל.)</li>
 <li><strong>רב שימי בר חייא</strong> — נין של רב, שבביתו מתרחש סיפור משחת העיניים. לא הייתי מרחיב בפרטים ביוגרפיים עליו.</li>
 </ul>
-<hr />
-<h2>שורה אחת לקחת אתכם</h2>
-<blockquote>
-<p>בטרם תשאלו עד כמה מרחיק טעם, שאלו אם עזב את הבית מלכתחילה: לעתים, כמו בכבד ש&rdquo;פולט ובולע בחזרה&rdquo;, התשובה
-הנקייה ביותר היא שמעולם לא ניתן דבר.</p>
-</blockquote>
-      <p class="tomorrow">מחר (יום ה׳, 20 באוגוסט 2026):
-        <strong>חולין קיב</strong> — הצנון החריף מתברר — מגרדים את מקום החתך והוא מותר בכותח, אך התרדין אסור — והחשש מתרחב מן הטעם אל עצם הקִרבה — קיתון של מלח המונח בצד קיתון של כותח.</p>
     </div>
-  </section>
-
-  <section class="view" id="cards" role="tabpanel">
-    <p class="deck-intro"><span data-lang="en">Today&#39;s key terms, one per card — the same glossary as in Learn. Read the term, recall what it means on this daf, then turn the card over and say whether you had it. Whatever you flag comes back at the end in a shorter second round.</span><span data-lang="es">Los términos clave de hoy, uno por tarjeta — el mismo glosario que en Aprender. Lee el término, recuerda qué significa en este daf, luego gira la tarjeta y di si lo sabías. Lo que marques vuelve al final en una segunda ronda, más corta.</span><span data-lang="he">המונחים המרכזיים של היום, אחד לכל כרטיס — אותו מילון שבלשונית הלימוד. קראו את המונח, נסו להיזכר מה משמעותו בדף הזה, ואז הפכו את הכרטיס ואמרו אם ידעתם. כל מה שתסמנו יחזור בסוף בסיבוב שני, קצר יותר.</span></p>
-    <div class="deck" id="deckCard"></div>
-    <div class="hint"><span data-lang="en">Tip: space flips the card, ← → move, 1 / 2 rate it.</span><span data-lang="es">Consejo: la barra espaciadora gira la tarjeta, ← → navegan, 1 / 2 califican.</span><span data-lang="he">טיפ: מקש הרווח הופך את הכרטיס, ← → מדפדפים, 1 / 2 מדרגים.</span></div>
-  </section>
-
-  <section class="view" id="quiz" role="tabpanel">
-    <div class="quiz" id="quizCard"></div>
-    <div class="hint"><span data-lang="en">Tip: press keys 1–4 to answer, Enter for next.</span><span data-lang="es">Consejo: pulsa las teclas 1–4 para responder y Enter para continuar.</span><span data-lang="he">טיפ: הקישו 1–4 כדי לענות, ו-Enter כדי להמשיך.</span></div>
   </section>
 
 
@@ -929,7 +522,7 @@ hígado que &ldquo;expulsa y absorbe de vuelta&rdquo;, la respuesta más limpia 
       <button class="chip mode" type="button" data-mode="text" aria-pressed="false">🔤&nbsp;<span data-lang="en">Text</span><span data-lang="es">Texto</span><span data-lang="he">טקסט</span></button>
     </div>
 
-    <p class="daf-intro for-scan"><span data-lang="en">The whole Vilna page as it is printed — Gemara in the middle, Rashi and Tosafot in the margins, Mesoras HaShas and Ein Mishpat down the sides. Open it full size to read it comfortably, and tap any line underneath it for the English of that passage.</span><span data-lang="es">La página de Vilna completa, tal como está impresa — la Guemará en el centro, Rashi y Tosafot en los márgenes, Masoret HaShas y Ein Mishpat a los lados. Ábrela a tamaño completo para leerla con comodidad, y toca cualquier línea de abajo para ver ese pasaje traducido al inglés.</span><span data-lang="he">דף וילנא כולו כפי שהוא מודפס — הגמרא באמצע, רש״י ותוספות בשוליים, מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות, והקישו על כל שורה שמתחתיו כדי לראות את אותו קטע באנגלית.</span></p>
+    <p class="daf-intro for-scan"><span data-lang="en">The whole Vilna page as it is printed — Gemara in the middle, Rashi and Tosafot in the margins, Mesoras HaShas and Ein Mishpat down the sides. Open it full size to read it comfortably, and tap any line underneath it for the English of that passage.</span><span data-lang="es">La página de Vilna completa, tal como está impresa — la Guemará en el centro, Rashi y Tosafot en los márgenes, Masoret HaShas y Ein Mishpat a los lados. Ábrela a tamaño completo para leerla con comodidad; debajo está su texto, pasaje por pasaje.</span><span data-lang="he">דף וילנא כולו כפי שהוא מודפס — הגמרא באמצע, רש״י ותוספות בשוליים, מסורת הש״ס ועין משפט בצדדים. פתחו אותו בגודל מלא כדי לקרוא בנוחות; מתחתיו מופיע הטקסט שלו, קטע אחר קטע.</span></p>
     <div class="daf-scan">
       <figure class="scan">
         <figcaption>
@@ -940,7 +533,7 @@ hígado que &ldquo;expulsa y absorbe de vuelta&rdquo;, la respuesta más limpia 
                 title="Chullin 111a" loading="lazy"></iframe>
       </figure>
       <div class="daf-lines">
-        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">Línea por línea — toca una para verla en inglés</span><span data-lang="he">שורה אחר שורה — הקישו על שורה כדי לראות אותה באנגלית</span></p>
+        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">El texto de la página, pasaje por pasaje</span><span data-lang="he">טקסט הדף, קטע אחר קטע</span></p>
         <div class="line">
           <button class="line-head" type="button" aria-expanded="true">
             <i>1</i>
@@ -1042,7 +635,7 @@ hígado que &ldquo;expulsa y absorbe de vuelta&rdquo;, la respuesta más limpia 
                 title="Chullin 111b" loading="lazy"></iframe>
       </figure>
       <div class="daf-lines">
-        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">Línea por línea — toca una para verla en inglés</span><span data-lang="he">שורה אחר שורה — הקישו על שורה כדי לראות אותה באנגלית</span></p>
+        <p class="lines-head"><span data-lang="en">Line by line — tap one for its English</span><span data-lang="es">El texto de la página, pasaje por pasaje</span><span data-lang="he">טקסט הדף, קטע אחר קטע</span></p>
         <div class="line">
           <button class="line-head" type="button" aria-expanded="true">
             <i>1</i>
@@ -1736,14 +1329,437 @@ hígado que &ldquo;expulsa y absorbe de vuelta&rdquo;, la respuesta más limpia 
     <p class="daf-credit for-text"><span data-lang="en">Text from <a href="https://www.sefaria.org" target="_blank" rel="noopener">Sefaria</a>. Gemara and translation from the William Davidson Talmud, with commentary by Rabbi Adin Even-Israel Steinsaltz, <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. Rashi and Tosafot are the Vilna edition, public domain.</span><span data-lang="es">Texto de <a href="https://www.sefaria.org" target="_blank" rel="noopener">Sefaria</a>. La Guemará y su traducción provienen del Talmud William Davidson, con comentario del rabino Adin Even-Israel Steinsaltz (traducción al inglés), <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. Rashi y Tosafot son de la edición de Vilna, de dominio público.</span><span data-lang="he">הטקסט מתוך <a href="https://www.sefaria.org" target="_blank" rel="noopener">ספריא</a>. הגמרא והתרגום מתוך תלמוד ויליאם דוידסון, עם פירושו של הרב עדין אבן־ישראל שטיינזלץ (התרגום לאנגלית), <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>. רש״י ותוספות הם ממהדורת וילנא, נחלת הכלל.</span></p>
   </section>
 
+  <section class="view" id="chazara" role="tabpanel">
+    <div class="sheet" data-lang="en" data-speak-lang="en"
+         lang="en" dir="ltr">
+      <h2>Walking through the sugya, step by step</h2>
+<h3>111a — The liver question, run to ground</h3>
+<p>The page opens mid-argument. The worry about liver cooked with meat is really two worries: the meat
+might drink in the liver&rsquo;s <strong>fat</strong>, or it might drink in its <strong>blood</strong> — and the Gemara suggests blood
+may be <strong>absorbed less easily</strong> than fat. So the dilemma narrows: does permitted liver&rsquo;s blood cross
+into the meat at all?</p>
+<p><strong>A meal offered as proof.</strong> When <strong>Rav Safra</strong> went up to Eretz Yisrael again he found <strong>Rabbi Zerika</strong>,
+who told him the question needs no asking: he and Yannai, son of Rabbi Ami, were once served a whole
+<strong>windpipe with everything hanging from it</strong> — lungs, heart, and liver cooked together —</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">קָרִיבוּ לַן קַנְיָא בְּקוֹפֵיהּ, וַאֲכַלְנָא</span>.</strong> &ldquo;They brought us the windpipe with its attachments,
+and we ate it.&rdquo;</p>
+</blockquote>
+<p>— and no one worried that the liver&rsquo;s blood had forbidden the rest.</p>
+<p><strong>The proof is picked apart.</strong> <strong>Rav Ashi</strong> (some say <strong>Rabbi Shmuel of Zerokinya</strong>) objects: maybe the
+<strong>mouth of the windpipe stuck out of the pot</strong>, so the liver&rsquo;s blood drained off instead of soaking in;
+or maybe they <strong>scalded</strong> the liver first (<em>chalit</em>) — like <strong>Rav Huna</strong>, whose liver was doused with
+boiling vinegar, and <strong>Rav Naḥman</strong>, whose was doused with boiling water — searing the blood inside
+before it could spread. Abaye&rsquo;s question stands unresolved.</p>
+<p><strong>The scald generates its own ruling.</strong> <strong>Rav Pappa</strong>, before <strong>Rava</strong>, thought the boiling <strong>vinegar</strong>
+becomes forbidden, having absorbed the liver&rsquo;s blood. Rava overturns it with a lever:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">אִי חַלָּא אֲסִיר — אִיהוּ נָמֵי אֲסִיר, כִּי הֵיכִי דְּפָלֵיט — הֲדַר בָּלַע</span>.</strong> &ldquo;If the vinegar is
+forbidden, the liver is forbidden too — for just as it expels, it absorbs back.&rdquo;</p>
+</blockquote>
+<p>Since everyone agrees the scalded liver stays permitted, the only coherent reading is that <strong>no blood is
+expelled at all</strong>. (Then a small table-scene: <strong>Rav bar Shabba</strong> declined the boiled liver at Rav
+Naḥman&rsquo;s; told a Torah scholar was fasting on it, Rav Naḥman said, &ldquo;<strong>Feed Shabba against his will</strong>.&rdquo;)</p>
+<p><strong>The dispute behind it all.</strong> Abaye&rsquo;s question, the Gemara notes, is really <em>tannaitic</em>:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">הַכָּבֵד אוֹסֶרֶת וְאֵינָהּ נֶאֱסֶרֶת</span>&hellip; <span lang="he" dir="rtl">שֶׁפּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת</span>.</strong> <strong>Rabbi Eliezer:</strong> liver
+forbids others but is never forbidden — it expels and does not absorb. <strong>Rabbi Yishmael son of Rabbi
+Yoḥanan ben Beroka:</strong> if it was <strong>spiced</strong> (<em>metubelet</em>) or <strong>thoroughly stewed</strong> (<em>sheluka</em>), it
+forbids others <em>and</em> is itself forbidden — the spices and heavy cooking drive the blood back in.</p>
+</blockquote>
+<h3>111a — Preparing a liver, and the spit</h3>
+<p><strong>Rabba bar Rav Huna</strong> dined at <strong>Rabba bar Rav Naḥman&rsquo;s</strong> on Shabbat — three <em>se&rsquo;a</em> of fine bread
+kneaded in oil and honey — and found among the dishes a liver with an <strong>artery</strong> (<em>simpona</em>) still full
+of blood. He objected: the blood <strong>soaked through</strong> the liver is permitted, but blood <strong>standing in the
+vessels</strong> is forbidden. The fix:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">קְרַעוּ שְׁתִי וָעֵרֶב, וְחִיתּוּכָא לְתַחַת</span>.</strong> &ldquo;Tear it lengthwise and crosswise, and lay the cut
+side downward&rdquo; — so the vessel-blood runs out onto the fire.</p>
+</blockquote>
+<p><strong>And only the liver.</strong> The <strong>spleen</strong> (<em>techala</em>) needs no such tearing — it holds only <strong>fat</strong>, not
+pooled blood, which is why Shmuel&rsquo;s servants would make him a spleen dish on his bloodletting days.</p>
+<p><strong>On the spit.</strong> An anonymous ruling: liver skewered <strong>above</strong> meat in the oven leaves the meat
+<strong>permitted</strong>, because the blood merely <strong>slides off</strong> (<em>mishrak sharik</em>); an <strong>udder</strong> above the meat
+<strong>forbids</strong> it, because the milk <strong>clings and soaks in</strong> (<em>saroche mesarech</em>). <strong>Rav Dimi of Neharde&rsquo;a</strong>
+taught the reverse: an udder on top is <strong>permitted</strong> (its milk-in-meat is only <strong>rabbinic</strong>), while a
+liver on top is <strong>forbidden</strong> (blood is <strong>Torah law</strong>). <strong>Mareimar</strong> ruled publicly for the public:
+liver or udder, <strong>underneath</strong> the meat is permitted; <strong>on top</strong>, only <em>after the fact</em> (<em>di&rsquo;avad</em>), not
+<em>ab initio</em> (<em>l&rsquo;chatchila</em>). When <strong>Rav Ashi</strong> saw his father-in-law Rami bar Abba&rsquo;s son skewering liver
+over meat —</p>
+<h3>111b — Blood that floats, and flavor through vessels</h3>
+<p>— he scolded, &ldquo;<strong>How haughty this scholar!</strong> Granted the Sages permitted meat roasted under liver
+<em>after the fact</em> — did they permit doing it <em>ab initio</em>?&rdquo; And he adds: if there is a <strong>drip-pan</strong>
+(<em>bei dugei</em>) beneath the spit, even meat placed <strong>above</strong> the liver is forbidden — the blood falls into
+the collected fat and one may come to eat the mixture. Why is this worse than roasting <strong>plain meat</strong>
+over such a pan?</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">דְּמָא דְּבִשְׂרָא — שָׁכֵן, דְּמָא דְּכַבְדָּא — קָפֵי</span>.</strong> &ldquo;The blood of meat <strong>sinks</strong>; the blood of
+liver <strong>floats</strong>.&rdquo; Meat&rsquo;s blood settles below the fat and can be skimmed away; liver&rsquo;s blood rides on
+top and cannot be separated — so the whole panful is forbidden.</p>
+</blockquote>
+<p><strong>Now the pivot to vessels.</strong> <strong>Rav Naḥman in Shmuel&rsquo;s name:</strong> the <strong>slaughtering knife</strong> absorbs blood
+from the animal&rsquo;s heat, so one may not cut <strong>boiling</strong> food with it; for <strong>cold</strong> food, some require a
+rinse of the cut piece, some do not. <strong>Rav Yehuda in Shmuel&rsquo;s name:</strong> a <strong>bowl in which meat was
+salted</strong> may not hold boiling food — and this is Shmuel to his own principle:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ, וְכָבוּשׁ הֲרֵי הוּא כִּמְבוּשָּׁל</span>.</strong> &ldquo;<strong>Salted</strong> is like <strong>boiling</strong>,
+and <strong>marinated</strong> is like <strong>cooked</strong>&rdquo; — salt and pickling drive flavor as heat does.</p>
+</blockquote>
+<p><strong>Ravin</strong> reported the opposite in <strong>Rabbi Yoḥanan&rsquo;s</strong> name — salted is <em>not</em> like boiling. <strong>Abaye</strong>
+refutes the citation: a bowl in <strong>Rabbi Ami&rsquo;s</strong> house, used to salt meat, was <strong>smashed</strong> by Rabbi Ami —
+a student of Rabbi Yoḥanan. Why smash it, if not because he heard from Rabbi Yoḥanan that <strong>salted is
+like boiling</strong>? So Ravin&rsquo;s version must be mistaken.</p>
+<p><strong>The radish and the taste-test.</strong> <strong>Rav Kahana</strong>, Rav Yehuda&rsquo;s brother, taught that a <strong>radish</strong>
+(<em>tzenon</em>) cut with a meat knife may be eaten with <strong>kutaḥ</strong> — even though its sharpness absorbs the
+knife&rsquo;s fat. Why does the bowl forbid but the radish not? <strong>Abaye:</strong> the radish absorbed a <strong>permitted</strong>
+substance (fat), the bowl a <strong>forbidden</strong> one (blood). <strong>Rava</strong> rejects this — permitted fat that leads
+to eating meat-and-milk is no better — and offers the real distinction: <strong>you can taste the radish</strong>
+before eating it with milk, but you cannot taste the contents of the bowl. <strong>Rav Pappa:</strong> then let a
+<strong>gentile cook</strong> (<em>kapila</em>) taste it — as we say about a <em>teruma</em> pot, where a priest tastes! <strong>Rava</strong>
+concedes: indeed, where a gentile cook is available he tastes; I spoke of where none is to be had.</p>
+<p><strong>Fish in a meat dish — Rav vs. Shmuel.</strong> A hot <strong>fish</strong> set into a bowl <strong>in which meat was eaten</strong>,
+then eaten with <strong>kutaḥ</strong>:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">רַב אָמַר: אָסוּר</span>&hellip; <span lang="he" dir="rtl">נוֹתֵן טַעַם הוּא; וּשְׁמוּאֵל אָמַר: מוּתָּר, נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם הוּא</span>.</strong>
+<strong>Rav:</strong> forbidden — the meat-flavor passes straight into the fish. <strong>Shmuel:</strong> permitted — the flavor
+went first into the <strong>bowl</strong> and only then into the fish: <strong>flavor of a flavor</strong>, too weak to forbid.</p>
+</blockquote>
+<p>Rav&rsquo;s view, the Gemara notes, was only <strong>inferred</strong> — from his remark, when an eye-ointment&rsquo;s taste
+carried through into a later dish, &ldquo;<strong>it gives so much flavor!</strong>&rdquo; — and even that is discounted, since
+the ointment was exceptionally bitter. Two stories seal it: <strong>Rabbi Elazar</strong>, Rav&rsquo;s disciple, refused
+the fish at Shmuel&rsquo;s table until Rav himself assured him, &ldquo;God forbid the seed of Abba bar Abba would
+feed me what I hold forbidden&rdquo;; and two sages <strong>across the Sura ford</strong> traded the jibe &ldquo;<strong>Orphan!</strong>&rdquo; —
+one holding like Shmuel on the fish, the other like Rabbi Ḥiyya, that bread and wine exempt all the foods
+and drinks of the meal from a separate blessing. <strong>Chizkiya in Abaye&rsquo;s name</strong> rules the halakha: the
+<strong>fish is permitted</strong> with kutaḥ, but the <strong>radish is forbidden</strong> — and <em>that</em> qualification runs into
+tomorrow&rsquo;s daf.</p>
+<hr />
+<h2>The distinctions, side by side</h2>
+<p>The hinge of the daf is what sits <strong>on top of the meat</strong> on the spit, and the three authorities split
+cleanly by <em>which</em> prohibition — blood or milk — they weight more heavily.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>On top of the meat</th>
+<th>Anonymous ruling</th>
+<th>Rav Dimi of Neharde&rsquo;a</th>
+<th>Mareimar (halakha)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Liver</strong> — blood, Torah law</td>
+<td>Permitted — blood slides off</td>
+<td><strong>Forbidden</strong></td>
+<td><em>Di&rsquo;avad</em> yes, <em>l&rsquo;chatchila</em> no</td>
+</tr>
+<tr>
+<td><strong>Udder</strong> — milk, rabbinic</td>
+<td><strong>Forbidden</strong> — milk clings</td>
+<td>Permitted</td>
+<td><em>Di&rsquo;avad</em> yes, <em>l&rsquo;chatchila</em> no</td>
+</tr>
+</tbody>
+</table></div>
+<p>Underneath the meat, every view permits both; the whole dispute is only about the organ set <em>above</em>.</p>
+<hr />
+<h2>One line to carry with you</h2>
+<blockquote>
+<p>Before you ask how far a flavor travels, ask whether it ever left home: sometimes, as with the liver
+that &ldquo;expels and absorbs right back,&rdquo; the cleanest answer is that nothing was ever given off at all.</p>
+</blockquote>
+    </div>
+    <div class="sheet" data-lang="es" data-speak-lang="es"
+         lang="es" dir="ltr">
+      <h2>Recorriendo la suguiá, paso a paso</h2>
+<h3>111a — La cuestión del hígado, llevada hasta el fondo</h3>
+<p>La página abre a mitad del argumento. La inquietud sobre el hígado cocido con carne son en realidad dos
+inquietudes: la carne podría beberse la <strong>grasa</strong> del hígado, o podría beberse su <strong>sangre</strong> — y la
+Guemará sugiere que la sangre acaso se <strong>absorba con más dificultad</strong> que la grasa. Así el dilema se
+estrecha: ¿cruza siquiera a la carne la sangre del hígado permitido?</p>
+<p><strong>Una comida ofrecida como prueba.</strong> Cuando <strong>Rav Safra</strong> subió de nuevo a Erretz Israel encontró a
+<strong>Rabí Zeriká</strong>, que le dijo que la pregunta no hace falta hacerla: él y Ianai, hijo de Rabí Amí, fueron
+servidos una vez con un <strong>gaznate entero con todo lo que le cuelga</strong> — pulmones, corazón e hígado cocidos
+juntos —</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">קָרִיבוּ לַן קַנְיָא בְּקוֹפֵיהּ, וַאֲכַלְנָא</span>.</strong> &ldquo;Nos trajeron el gaznate con sus adherencias, y
+comimos.&rdquo;</p>
+</blockquote>
+<p>— y nadie se preocupó de que la sangre del hígado hubiera prohibido el resto.</p>
+<p><strong>La prueba se desarma.</strong> <strong>Rav Ashi</strong> (algunos dicen <strong>Rabí Shmuel de Zerokinia</strong>) objeta: quizás la
+<strong>boca del gaznate sobresalía de la olla</strong>, y así la sangre del hígado escurrió afuera en vez de empaparse;
+o quizás <strong>escaldaron</strong> el hígado primero (<em>jalit</em>) — como a <strong>Rav Huná</strong>, cuyo hígado rociaban con vinagre
+hirviendo, y <strong>Rav Najmán</strong>, cuyo hígado rociaban con agua hirviendo — sellando la sangre adentro antes de
+que pudiera esparcirse. La pregunta de Abaie queda sin resolver.</p>
+<p><strong>El escaldado genera su propio fallo.</strong> <strong>Rav Papa</strong>, ante <strong>Rava</strong>, pensó que el <strong>vinagre</strong> hirviendo
+queda prohibido, por haber absorbido la sangre del hígado. Rava lo revierte con una palanca:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">אִי חַלָּא אֲסִיר — אִיהוּ נָמֵי אֲסִיר, כִּי הֵיכִי דְּפָלֵיט — הֲדַר בָּלַע</span>.</strong> &ldquo;Si el vinagre está
+prohibido, el hígado también lo está — pues así como expulsa, absorbe de vuelta.&rdquo;</p>
+</blockquote>
+<p>Como todos coinciden en que el hígado escaldado sigue permitido, la única lectura coherente es que <strong>no se
+expulsa sangre en absoluto</strong>. (Luego una pequeña escena de mesa: <strong>Rav bar Shabá</strong> rechazó el hígado
+hervido en casa de Rav Najmán; al decírsele que un erudito de la Torá ayunaba con él, Rav Najmán dijo:
+&ldquo;<strong>Alimenten a Shabá contra su voluntad</strong>.&rdquo;)</p>
+<p><strong>La disputa que hay detrás de todo.</strong> La pregunta de Abaie, señala la Guemará, es en realidad de
+<em>tanaím</em>:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">הַכָּבֵד אוֹסֶרֶת וְאֵינָהּ נֶאֱסֶרֶת</span>&hellip; <span lang="he" dir="rtl">שֶׁפּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת</span>.</strong> <strong>Rabí Eliezer:</strong> el hígado
+prohíbe a los demás pero nunca queda prohibido — expulsa y no absorbe. <strong>Rabí Ishmael, hijo de Rabí
+Iojanán ben Beroká:</strong> si fue <strong>especiado</strong> (<em>metubélet</em>) o <strong>muy cocido</strong> (<em>sheluká</em>), prohíbe a los
+demás <em>y</em> queda prohibido él mismo — las especias y la cocción intensa devuelven la sangre adentro.</p>
+</blockquote>
+<h3>111a — Preparar un hígado, y el asador</h3>
+<p><strong>Rabá bar Rav Huná</strong> comió en casa de <strong>Rabá bar Rav Najmán</strong> en Shabat — tres <em>seá</em> de pan fino amasado
+con aceite y miel — y halló entre los platos un hígado con una <strong>arteria</strong> (<em>simponá</em>) aún llena de sangre.
+Objetó: la sangre <strong>empapada</strong> en el hígado está permitida, pero la sangre <strong>acumulada en los vasos</strong> está
+prohibida. La solución:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">קְרַעוּ שְׁתִי וָעֵרֶב, וְחִיתּוּכָא לְתַחַת</span>.</strong> &ldquo;Desgárrenlo a lo largo y a lo ancho, y pongan el lado
+del corte hacia abajo&rdquo; — para que la sangre de los vasos escurra al fuego.</p>
+</blockquote>
+<p><strong>Y solo el hígado.</strong> El <strong>bazo</strong> (<em>tejalá</em>) no necesita ese desgarro — contiene solo <strong>grasa</strong>, no sangre
+acumulada, por lo que los sirvientes de Shmuel le preparaban un plato de bazo en sus días de sangría.</p>
+<p><strong>En el asador.</strong> Un fallo anónimo: hígado ensartado <strong>encima</strong> de la carne en el horno deja la carne
+<strong>permitida</strong>, porque la sangre simplemente <strong>resbala</strong> (<em>mishrak sharik</em>); una <strong>ubre</strong> encima de la carne
+la <strong>prohíbe</strong>, porque la leche <strong>se adhiere y penetra</strong> (<em>saroje mesarej</em>). <strong>Rav Dimi de Neardea</strong> enseñó
+lo contrario: una ubre encima está <strong>permitida</strong> (su leche-en-carne es solo <strong>rabínica</strong>), mientras que un
+hígado encima está <strong>prohibido</strong> (la sangre es de la <strong>Torá</strong>). <strong>Mareimar</strong> falló públicamente para el
+público: hígado o ubre, <strong>debajo</strong> de la carne está permitido; <strong>encima</strong>, solo <em>a posteriori</em> (<em>diavad</em>),
+no <em>de entrada</em> (<em>lejatjilá</em>). Cuando <strong>Rav Ashi</strong> vio al hijo de su suegro Ramí bar Abá ensartando hígado
+sobre carne —</p>
+<h3>111b — Sangre que flota, y sabor a través de recipientes</h3>
+<p>— reprendió: &ldquo;<strong>¡Qué arrogante este erudito!</strong> Concedido que los Sabios permitieron carne asada bajo el
+hígado <em>a posteriori</em> — ¿acaso permitieron hacerlo <em>de entrada</em>?&rdquo; Y añade: si hay un <strong>recipiente
+receptor</strong> (<em>bei duguei</em>) bajo el asador, hasta la carne puesta <strong>encima</strong> del hígado está prohibida — la
+sangre cae en la grasa acumulada y uno podría comer la mezcla. ¿Por qué es esto peor que asar <strong>carne
+sola</strong> sobre tal recipiente?</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">דְּמָא דְּבִשְׂרָא — שָׁכֵן, דְּמָא דְּכַבְדָּא — קָפֵי</span>.</strong> &ldquo;La sangre de la carne <strong>se hunde</strong>; la sangre
+del hígado <strong>flota</strong>.&rdquo; La sangre de la carne se asienta bajo la grasa y puede retirarse; la sangre del
+hígado cabalga encima y no puede separarse — así que toda la sartén queda prohibida.</p>
+</blockquote>
+<p><strong>Ahora el giro hacia los recipientes.</strong> <strong>Rav Najmán en nombre de Shmuel:</strong> el <strong>cuchillo de degüello</strong>
+absorbe sangre por el calor del animal, así que no se puede cortar comida <strong>hirviente</strong> con él; para comida
+<strong>fría</strong>, algunos exigen enjuagar la pieza cortada, otros no. <strong>Rav Iehudá en nombre de Shmuel:</strong> una
+<strong>fuente en la que se saló carne</strong> no puede contener comida hirviente — y esto es Shmuel según su propio
+principio:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ, וְכָבוּשׁ הֲרֵי הוּא כִּמְבוּשָּׁל</span>.</strong> &ldquo;<strong>Lo salado</strong> es como <strong>lo
+hirviente</strong>, y <strong>lo marinado</strong> es como <strong>lo cocido</strong>&rdquo; — la sal y el encurtido impulsan el sabor como lo
+hace el calor.</p>
+</blockquote>
+<p><strong>Ravin</strong> reportó lo contrario en nombre de <strong>Rabí Iojanán</strong> — lo salado <em>no</em> es como lo hirviente.
+<strong>Abaie</strong> refuta la cita: una fuente en casa de <strong>Rabí Amí</strong>, usada para salar carne, fue <strong>rota</strong> por
+Rabí Amí — discípulo de Rabí Iojanán. ¿Por qué romperla, si no porque oyó de Rabí Iojanán que <strong>lo salado
+es como lo hirviente</strong>? Así que la versión de Ravin ha de ser errónea.</p>
+<p><strong>El rábano y la cata.</strong> <strong>Rav Kahana</strong>, hermano de Rav Iehudá, enseñó que un <strong>rábano</strong> (<em>tzenón</em>) cortado
+con un cuchillo cárnico puede comerse con <strong>kutaj</strong> — aunque su acritud absorba la grasa del cuchillo.
+¿Por qué la fuente prohíbe pero el rábano no? <strong>Abaie:</strong> el rábano absorbió una sustancia <strong>permitida</strong>
+(grasa), la fuente una <strong>prohibida</strong> (sangre). <strong>Rava</strong> lo rechaza — la grasa permitida que lleva a comer
+carne-con-leche no vale más — y ofrece la distinción real: <strong>al rábano puedes catarlo</strong> antes de comerlo
+con leche, pero el contenido de la fuente no puedes catarlo. <strong>Rav Papa:</strong> entonces que lo cate un
+<strong>cocinero gentil</strong> (<em>kapilá</em>) — ¡como decimos de una olla de <em>trumá</em>, que un cohén cata! <strong>Rava</strong> concede:
+en efecto, donde hay cocinero gentil disponible, él cata; yo hablé de donde no lo hay.</p>
+<p><strong>Pescado en un plato de carne — Rav frente a Shmuel.</strong> Un <strong>pescado</strong> caliente puesto en una fuente <strong>en
+la que se comió carne</strong>, y luego comido con <strong>kutaj</strong>:</p>
+<blockquote>
+<p><strong><span lang="he" dir="rtl">רַב אָמַר: אָסוּר</span>&hellip; <span lang="he" dir="rtl">נוֹתֵן טַעַם הוּא; וּשְׁמוּאֵל אָמַר: מוּתָּר, נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם הוּא</span>.</strong>
+<strong>Rav:</strong> prohibido — el sabor cárnico pasa directo al pescado. <strong>Shmuel:</strong> permitido — el sabor fue
+primero a la <strong>fuente</strong> y solo luego al pescado: <strong>sabor de un sabor</strong>, demasiado débil para prohibir.</p>
+</blockquote>
+<p>La opinión de Rav, señala la Guemará, solo fue <strong>inferida</strong> — de su comentario, cuando el sabor de un
+ungüento para los ojos pasó a un plato posterior, &ldquo;<strong>¡da tanto sabor!</strong>&rdquo; — y hasta eso se descarta, pues
+el ungüento era excepcionalmente amargo. Dos relatos lo sellan: <strong>Rabí Elazar</strong>, discípulo de Rav, rechazó
+el pescado en la mesa de Shmuel hasta que Rav mismo le aseguró: &ldquo;Dios libre que la simiente de Abá bar Abá
+me diera de comer lo que tengo por prohibido&rdquo;; y dos sabios <strong>a ambos lados del vado de Sura</strong> se lanzaron
+la pulla &ldquo;<strong>¡Huérfano!</strong>&rdquo; — uno sosteniendo como Shmuel sobre el pescado, el otro como Rabí Jiiá, que el
+pan y el vino eximen de una bendición aparte a todas las comidas y bebidas de la comida. <strong>Jizkiiá en
+nombre de Abaie</strong> dicta la halajá: el <strong>pescado está permitido</strong> con kutaj, pero el <strong>rábano está
+prohibido</strong> — y <em>esa</em> salvedad corre hacia el daf de mañana.</p>
+<hr />
+<h2>Las distinciones, lado a lado</h2>
+<p>El eje del daf es lo que se pone <strong>encima de la carne</strong> en el asador, y las tres autoridades se separan
+limpiamente según <em>cuál</em> prohibición —sangre o leche— pesa más para ellas.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Encima de la carne</th>
+<th>Fallo anónimo</th>
+<th>Rav Dimi de Neardea</th>
+<th>Mareimar (halajá)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hígado</strong> — sangre, ley de la Torá</td>
+<td>Permitido — la sangre resbala</td>
+<td><strong>Prohibido</strong></td>
+<td><em>Diavad</em> sí, <em>lejatjilá</em> no</td>
+</tr>
+<tr>
+<td><strong>Ubre</strong> — leche, rabínica</td>
+<td><strong>Prohibido</strong> — la leche se adhiere</td>
+<td>Permitido</td>
+<td><em>Diavad</em> sí, <em>lejatjilá</em> no</td>
+</tr>
+</tbody>
+</table></div>
+<p>Debajo de la carne, toda opinión permite ambos; toda la disputa gira solo en torno al órgano puesto
+<em>encima</em>.</p>
+<hr />
+<h2>Una línea para llevarte</h2>
+<blockquote>
+<p>Antes de preguntar hasta dónde viaja un sabor, pregunta si alguna vez salió de casa: a veces, como con el
+hígado que &ldquo;expulsa y absorbe de vuelta&rdquo;, la respuesta más limpia es que nunca se dio nada.</p>
+</blockquote>
+    </div>
+    <div class="sheet" data-lang="he" data-speak-lang="he"
+         lang="he" dir="rtl">
+      <h2>עוברים על הסוגיה, צעד אחר צעד</h2>
+<h3>קיא ע״א — שאלת הכבד, עד הסוף</h3>
+<p>הדף נפתח באמצע הטיעון. החשש מכבד המתבשל עם בשר הוא בעצם שני חששות: הבשר עלול לבלוע את <strong>שומן</strong> הכבד,
+או לבלוע את <strong>דמו</strong> — והגמרא מציעה שהדם אולי <strong>נבלע בקושי רב יותר</strong> מן השומן. כך מצטמצמת השאלה: האם דם
+הכבד המותר חוצה אל הבשר בכלל?</p>
+<p><strong>סעודה המוצעת כראיה.</strong> כשעלה <strong>רב ספרא</strong> לארץ ישראל שוב, מצא את <strong>רבי זריקא</strong>, שאמר לו שאין צורך
+לשאול: הוא וינאי בנו של רבי אמי הוגש להם פעם <strong>קנה שלם עם כל התלוי בו</strong> — ריאה, לב וכבד שבושלו יחד —</p>
+<blockquote>
+<p><strong>קָרִיבוּ לַן קַנְיָא בְּקוֹפֵיהּ, וַאֲכַלְנָא.</strong> הביאו לנו את הקנה עם אבריו, ואכלנו.</p>
+</blockquote>
+<p>— ואיש לא חשש שדם הכבד אסר את השאר.</p>
+<p><strong>הראיה מתפרקת.</strong> <strong>רב אשי</strong> (ויש אומרים <strong>רבי שמואל מזרוקיניא</strong>) משיג: שמא <strong>פי הקנה היה מחוץ לקדרה</strong>,
+ודם הכבד נשפך החוצה במקום להיספג; או שמא <strong>חלטו</strong> את הכבד תחילה — כמו <strong>רב הונא</strong>, שחלטו לו את הכבד
+בחומץ רותח, ו<strong>רב נחמן</strong>, שחלטו לו ברותחין — צוֹרבים את הדם בפנים בטרם יתפשט. שאלת אביי נותרה בלא הכרעה.</p>
+<p><strong>החליטה מולידה הלכה משלה.</strong> <strong>רב פפא</strong>, לפני <strong>רבא</strong>, סבר לומר שה<strong>חומץ</strong> הרותח נאסר, לאחר שבלע את דם
+הכבד. רבא הופך זאת במנוף:</p>
+<blockquote>
+<p><strong>אִי חַלָּא אֲסִיר — אִיהוּ נָמֵי אֲסִיר, כִּי הֵיכִי דְּפָלֵיט — הֲדַר בָּלַע.</strong> אם החומץ אסור, הכבד
+אסור אף הוא — שכשם שהוא פולט, כך הוא בולע בחזרה.</p>
+</blockquote>
+<p>וכיוון שהכול מודים שהכבד החלוט נותר מותר, הקריאה היחידה המתיישבת היא ש<strong>אין נפלט דם כלל</strong>. (ואז סצנת
+שולחן קטנה: <strong>רב בר שבא</strong> סירב לכבד המבושל בבית רב נחמן; משנאמר לרב נחמן שתלמיד חכם צם עליו, אמר:
+&ldquo;<strong>גַּאמוּ לְשַׁבָּא</strong>&rdquo; — האכילוהו לשבא בעל כורחו.)</p>
+<p><strong>המחלוקת שמאחורי הכול.</strong> שאלת אביי, מציינת הגמרא, היא באמת מחלוקת תנאים:</p>
+<blockquote>
+<p><strong>הַכָּבֵד אוֹסֶרֶת וְאֵינָהּ נֶאֱסֶרֶת&hellip; שֶׁפּוֹלֶטֶת וְאֵינָהּ בּוֹלַעַת.</strong> <strong>רבי אליעזר:</strong> הכבד אוסרת
+אחרים אך לעולם אינה נאסרת — פולטת ואינה בולעת. <strong>רבי ישמעאל בנו של רבי יוחנן בן ברוקה:</strong> אם הייתה
+<strong>מתובלת</strong> או <strong>שלוקה</strong> היטב, היא אוסרת אחרים <em>וגם</em> נאסרת — התבלין והבישול הכבד מחזירים את הדם פנימה.</p>
+</blockquote>
+<h3>קיא ע״א — הכנת כבד, והשיפוד</h3>
+<p><strong>רבה בר רב הונא</strong> סעד אצל <strong>רבה בר רב נחמן</strong> בשבת — שלוש סאין של פת נקייה הלושה בשמן ובדבש — ומצא בין
+המאכלים כבד שבו <strong>סמפון</strong> (עורק) עודנו מלא דם. הוא השיג: הדם ה<strong>בלוע</strong> בכבד מותר, אך הדם ה<strong>עומד בעורקים</strong>
+אסור. הפתרון:</p>
+<blockquote>
+<p><strong>קְרַעוּ שְׁתִי וָעֵרֶב, וְחִיתּוּכָא לְתַחַת.</strong> קרעו אותו לאורכו ולרוחבו, וצד החתך כלפי מטה — כדי שדם
+העורקים יזוב אל האש.</p>
+</blockquote>
+<p><strong>ורק הכבד.</strong> ה<strong>טחול</strong> אינו צריך קריעה כזו — אין בו אלא <strong>שומן</strong>, לא דם עומד, ולכן משרתי שמואל היו
+מכינים לו תבשיל של טחול בימי הקזת הדם שלו.</p>
+<p><strong>בשיפוד.</strong> הוראה סתמית: כבד התחוב <strong>מעל</strong> לבשר בתנור מותיר את הבשר <strong>מותר</strong>, שכן הדם פשוט <strong>מחליק</strong> ואינו
+נבלע; <strong>כחל</strong> מעל לבשר <strong>אוסר</strong> אותו, שכן החלב <strong>נסרך ונבלע</strong>. <strong>רב דימי מנהרדעא</strong> שנה להפך: כחל מלמעלה
+<strong>מותר</strong> (בשר בחלב של שחוטה אינו אלא <strong>מדרבנן</strong>), ואילו כבד מלמעלה <strong>אסור</strong> (דם הוא <strong>מן התורה</strong>).
+<strong>מרימר</strong> דרש ברבים: כבד או כחל, <strong>מתחת</strong> לבשר — מותר; <strong>מעל</strong> לבשר — <strong>בדיעבד</strong> אין, <strong>לכתחילה</strong> לא.
+כשראה <strong>רב אשי</strong> את בנו של חמיו רמי בר אבא תוחב כבד מעל בשר —</p>
+<h3>קיא ע״ב — דם שצף, וטעם דרך כלים</h3>
+<p>— גער: &ldquo;<strong>כמה יהיר</strong> חכם זה! נניח שהתירו חכמים בשר הצלוי תחת כבד <em>בדיעבד</em> — וכי התירו לעשות כן <em>לכתחילה</em>?&rdquo;
+ומוסיף: אם יש <strong>בֵּי דוּגֵי</strong> (כלי קיבול) תחת השיפוד, אף בשר המונח <strong>מעל</strong> לכבד אסור — הדם נופל אל השומן
+הנקווה ועלול אדם לאכול את התערובת. במה שונה זה מצליית <strong>בשר לבדו</strong> מעל כלי כזה?</p>
+<blockquote>
+<p><strong>דְּמָא דְּבִשְׂרָא — שָׁכֵן, דְּמָא דְּכַבְדָּא — קָפֵי.</strong> דם הבשר <strong>שוקע</strong>; דם הכבד <strong>צף</strong>. דם הבשר
+יורד מתחת לשומן וניתן להסירו; דם הכבד רוכב מעליו ואי אפשר להפרידו — ולכן כל המחבת אסורה.</p>
+</blockquote>
+<p><strong>כעת המעבר אל הכלים.</strong> <strong>רב נחמן בשם שמואל:</strong> ה<strong>סכין ששחט</strong> בה בולעת דם מחום הבהמה, ואסור לחתוך בה
+דבר <strong>רותח</strong>; דבר <strong>צונן</strong> — יש אומרים שהחתיכה שנחתכה צריכה <strong>הדחה</strong>, ויש אומרים שאינה צריכה. <strong>רב יהודה
+בשם שמואל:</strong> <strong>קערה שמלחו בה בשר</strong> אסור לאכול בה דבר רותח — וזה שמואל לשיטתו:</p>
+<blockquote>
+<p><strong>מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ, וְכָבוּשׁ הֲרֵי הוּא כִּמְבוּשָּׁל.</strong> המלח והכבישה מוליכים טעם כשם שהחום
+מוליך אותו.</p>
+</blockquote>
+<p><strong>רבין</strong> מסר את ההפך בשם <strong>רבי יוחנן</strong> — מליח <em>אינו</em> כרותח. <strong>אביי</strong> מפריך את המסירה: קערה בבית <strong>רבי אמי</strong>,
+ששימשה למליחת בשר, <strong>נשברה</strong> בידי רבי אמי — תלמידו של רבי יוחנן. מדוע שברה, אם לא מפני ששמע מרבי יוחנן
+ש<strong>מליח הרי הוא כרותח</strong>? מכאן שגרסת רבין מוטעית.</p>
+<p><strong>הצנון והטעימה.</strong> <strong>רב כהנא</strong>, אחיו של רב יהודה, שנה ש<strong>צנון</strong> שחתכוהו בסכין של בשר מותר לאוכלו ב<strong>כותח</strong> —
+אף שחריפותו בולעת את שומן הסכין. מדוע הקערה אוסרת אך הצנון לא? <strong>אביי:</strong> הצנון בלע דבר <strong>היתר</strong> (שומן),
+הקערה דבר <strong>איסור</strong> (דם). <strong>רבא</strong> דוחה זאת — היתר הבלוע המביא לאכילת בשר בחלב אינו טוב יותר — ומציע את
+ההבחנה האמיתית: את <strong>הצנון אפשר לטעום</strong> קודם אכילתו עם חלב, אך את תוכן הקערה אי אפשר לטעום. <strong>רב פפא:</strong>
+אם כן, <strong>יטעמנו קפילא</strong> (טבח נוכרי) — כמו שאמרנו על קדרת תרומה, שכהן טועמה! <strong>רבא</strong> מודה: אכן, במקום שיש
+קפילא הוא טועם; אני דיברתי במקום שאין.</p>
+<p><strong>דג בכלי של בשר — רב מול שמואל.</strong> דג חם שהוצב בקערה <strong>שאכלו בה בשר</strong>, ואז נאכל עם <strong>כותח</strong>:</p>
+<blockquote>
+<p><strong>רַב אָמַר: אָסוּר&hellip; נוֹתֵן טַעַם הוּא; וּשְׁמוּאֵל אָמַר: מוּתָּר, נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם הוּא.</strong>
+<strong>רב:</strong> אסור — טעם הבשר עובר ישר אל הדג. <strong>שמואל:</strong> מותר — הטעם עבר תחילה אל ה<strong>קערה</strong> ורק אחר כך אל
+הדג: <strong>טעם של טעם</strong>, חלש מכדי לאסור.</p>
+</blockquote>
+<p>שיטת רב, מציינת הגמרא, לא נאמרה במפורש אלא <strong>מכללא</strong> נלמדה — מדבריו, כשטעם משחת עיניים חלף אל תבשיל
+שלאחריו, &ldquo;<strong>כמה טעם הוא נותן!</strong>&rdquo; — ואף זה נדחה, שכן המשחה הייתה מרה במיוחד. שני סיפורים חותמים: <strong>רבי
+אלעזר</strong>, תלמידו של רב, סירב לדג בשולחן שמואל עד שרב עצמו הרגיעו, &ldquo;חס לזרעו של אבא בר אבא שיאכילני דבר
+שאיני מחזיקו במותר&rdquo;; ושני חכמים <strong>משני עברי מעברת הנהר של סורא</strong> הטיחו זה בזה &ldquo;<strong>יתמא!</strong>&rdquo; — האחד סבור
+כשמואל בדג, האחר כרבי חייא, שהפת והיין פוטרים מברכה נפרדת את כל מיני המאכל והמשקה שבסעודה. <strong>חזקיה בשם
+אביי</strong> פוסק הלכה: ה<strong>דג מותר</strong> בכותח, אך ה<strong>צנון אסור</strong> — ואותה הסתייגות נכנסת אל דף המחר.</p>
+<hr />
+<h2>ההבחנות, זו מול זו</h2>
+<p>ציר הדף הוא מה שמונח <strong>מעל הבשר</strong> בשיפוד, ושלוש הדעות נחלקות בבירור לפי <em>איזה</em> איסור — דם או חלב — כבד
+יותר בעיניהן.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>מעל הבשר</th>
+<th>הוראה סתמית</th>
+<th>רב דימי מנהרדעא</th>
+<th>מרימר (הלכה)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>כבד</strong> — דם, מן התורה</td>
+<td>מותר — הדם מחליק</td>
+<td><strong>אסור</strong></td>
+<td><em>בדיעבד</em> כן, <em>לכתחילה</em> לא</td>
+</tr>
+<tr>
+<td><strong>כחל</strong> — חלב, מדרבנן</td>
+<td><strong>אסור</strong> — החלב נסרך</td>
+<td>מותר</td>
+<td><em>בדיעבד</em> כן, <em>לכתחילה</em> לא</td>
+</tr>
+</tbody>
+</table></div>
+<p>מתחת לבשר, כל הדעות מתירות את שניהם; כל המחלוקת סובבת רק סביב האבר המונח <em>מלמעלה</em>.</p>
+<hr />
+<h2>שורה אחת לקחת אתכם</h2>
+<blockquote>
+<p>בטרם תשאלו עד כמה מרחיק טעם, שאלו אם עזב את הבית מלכתחילה: לעתים, כמו בכבד ש&rdquo;פולט ובולע בחזרה&rdquo;, התשובה
+הנקייה ביותר היא שמעולם לא ניתן דבר.</p>
+</blockquote>
+    </div>
+
+    <div class="quiz-inline">
+      <h2>🎯&nbsp;<span data-lang="en">Test yourself</span><span data-lang="es">Ponte a prueba</span><span data-lang="he">בחנו את עצמכם</span></h2>
+      <div class="quiz" id="quizCard"></div>
+      <div class="hint"><span data-lang="en">Tip: click the card, then keys 1–4 answer and Enter moves on.</span><span data-lang="es">Consejo: pulsa en la tarjeta; luego 1–4 responden y Enter continúa.</span><span data-lang="he">טיפ: הקישו על הכרטיס; אחר כך 1–4 עונים ו-Enter ממשיך.</span></div>
+    </div>
+
+    <p class="tomorrow" data-lang="en" lang="en" dir="ltr">
+      Tomorrow (Thu, 20 August 2026):
+      <strong>Chullin 112</strong> — The sharp radish is pinned down — scrape the knife-cut and it may be eaten with kutaḥ, but chard may not — and the concern widens from taste to mere proximity — a jug of salt set beside a jug of kutaḥ.</p>
+    <p class="tomorrow" data-lang="es" lang="es" dir="ltr">
+      Mañana (jue, 20 de agosto de 2026):
+      <strong>Julín 112</strong> — Se precisa el rábano picante — raspa el corte del cuchillo y podrá comerse con kutaj, pero la acelga no — y la preocupación se amplía del sabor a la mera cercanía — un jarro de sal puesto junto a un jarro de kutaj.</p>
+    <p class="tomorrow" data-lang="he" lang="he" dir="rtl">
+      מחר (יום ה׳, 20 באוגוסט 2026):
+      <strong>חולין קיב</strong> — הצנון החריף מתברר — מגרדים את מקום החתך והוא מותר בכותח, אך התרדין אסור — והחשש מתרחב מן הטעם אל עצם הקִרבה — קיתון של מלח המונח בצד קיתון של כותח.</p>
+  </section>
+
   <footer class="disclaimer foot" role="note"><span data-lang="en">This sheet was written by AI from the text of the daf. It can be incomplete or mistaken, and it is only a helper for your learning — not a substitute for learning the actual daf in the Gemara. Check anything you rely on against the source.</span><span data-lang="es">Esta hoja fue escrita por una inteligencia artificial a partir del texto del daf. Puede contener errores u omisiones, y es solo una ayuda para tu estudio, no un sustituto de aprender el daf mismo en la Guemará. Verifica en la fuente todo aquello en lo que te apoyes.</span><span data-lang="he">הדף הזה נכתב בידי בינה מלאכותית מתוך טקסט הדף. הוא עלול להיות חלקי או שגוי, והוא רק עזר ללימוד — לא תחליף ללימוד הדף עצמו בגמרא. בדקו במקור כל דבר שאתם נסמכים עליו.</span></footer>
+  <p class="feedback" hidden>✉️&nbsp;<span data-lang="en"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20111&amp;body=What%20is%20wrong%2C%20or%20what%20is%20missing%3F%20Be%20as%20precise%20as%20you%20can%20%E2%80%94%20which%20section%2C%20and%20what%20it%20should%20say.%0A%0A%0A%E2%80%94%20Chullin%20111%20%28en%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_111.html%3Flang%3Den%0A">Found a mistake? Tell me</a></span><span data-lang="es"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20111&amp;body=%C2%BFQu%C3%A9%20est%C3%A1%20mal%2C%20o%20qu%C3%A9%20falta%3F%20S%C3%A9%20lo%20m%C3%A1s%20preciso%20posible:%20en%20qu%C3%A9%20secci%C3%B3n%2C%20y%20qu%C3%A9%20deber%C3%ADa%20decir.%0A%0A%0A%E2%80%94%20Chullin%20111%20%28es%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_111.html%3Flang%3Des%0A">¿Encontraste un error? Avísame</a></span><span data-lang="he"><a data-q="subject=Daf%20Yomi%20feedback%20%E2%80%94%20Chullin%20111&amp;body=%D7%9E%D7%94%20%D7%A9%D7%92%D7%95%D7%99%2C%20%D7%90%D7%95%20%D7%9E%D7%94%20%D7%97%D7%A1%D7%A8%3F%20%D7%9B%D7%AA%D7%91%D7%95%20%D7%91%D7%9E%D7%93%D7%95%D7%99%D7%A7%20%D7%9B%D7%9E%D7%94%20%D7%A9%D7%90%D7%A4%D7%A9%D7%A8%20%E2%80%94%20%D7%91%D7%90%D7%99%D7%96%D7%94%20%D7%97%D7%9C%D7%A7%2C%20%D7%95%D7%9E%D7%94%20%D7%A6%D7%A8%D7%99%D7%9A%20%D7%9C%D7%94%D7%99%D7%95%D7%AA%20%D7%9B%D7%AA%D7%95%D7%91.%0A%0A%0A%E2%80%94%20Chullin%20111%20%28he%29%0Ahttps://jocosiol.github.io/daf-yomi/Chullin_111.html%3Flang%3Dhe%0A">מצאתם טעות? כתבו לי</a></span></p>
 </div>
-<script src="assets/tabs.js?v=9fe78958"></script>
-<script src="assets/daf.js?v=5a1b9cc6"></script>
+<script src="assets/tabs.js?v=ed43694b"></script>
+<script src="assets/daf.js?v=8d69a133"></script>
 <script>window.CARDS_BY_LANG = {"en":{"lang":"en","cards":[{"t":"<strong><span lang=\"he\" dir=\"rtl\">קַנְיָא בְּקוֹפֵיהּ<\/span><\/strong> <em>(kanya b&#x27;kofei)<\/em>","m":"The <strong>windpipe with all its attachments<\/strong> — lungs, heart, and liver — cooked as one; Rabbi Zerika&#x27;s meal, offered as proof that liver&#x27;s blood does not forbid the meat around it."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">חָלֵיט<\/span><\/strong> <em>(chalit)<\/em>","m":"To <strong>scald / sear<\/strong> in a boiling liquid (vinegar or water) at the outset, sealing the blood inside the liver before it can diffuse — Rav Ashi&#x27;s alternative reading of the windpipe meal."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">כִּי הֵיכִי דְּפָלֵיט הֲדַר בָּלַע<\/span><\/strong> <em>(ki heichi d&#x27;palit hadar bala)<\/em>","m":"&quot;Just as it expels, it absorbs back&quot; — Rava&#x27;s lever: were the scald to draw blood out, the liver would draw it back and be forbidden itself; since it is not, nothing was expelled."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מְתוּבֶּלֶת<\/span><\/strong> <em>(metubelet)<\/em>","m":"<strong>Spiced<\/strong> liver; per Rabbi Yishmael b. R&#x27; Yoḥanan b. Beroka, spicing (like heavy stewing, <em>sheluka<\/em>) makes the liver reabsorb its blood, so it is forbidden as well as forbidding."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">סִמְפּוֹנָא<\/span><\/strong> <em>(simpona)<\/em>","m":"The large <strong>blood vessel / artery<\/strong> in the liver; blood soaked into the flesh is permitted, but blood standing in the <em>simpona<\/em> is forbidden and must be drained."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">שְׁתִי וָעֵרֶב<\/span><\/strong> <em>(shesi va&#x27;erev)<\/em>","m":"&quot;<strong>Warp and woof<\/strong>&quot; — tearing the liver <strong>lengthwise and crosswise<\/strong>, cut side down, so the vessel-blood runs out onto the fire."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מִשְׁרָק שָׁרֵיק<\/span><\/strong> <em>(mishrak sharik)<\/em>","m":"&quot;It merely <strong>slides off<\/strong>&quot; — why liver set above meat does not forbid it: the blood glides over the surface rather than soaking in (contrast the udder&#x27;s milk, which <em>saroche mesarech<\/em>, clings and absorbs)."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">דִּיעֲבַד<\/span> / <span lang=\"he\" dir=\"rtl\">לְכַתְּחִלָּה<\/span><\/strong> <em>(di&#x27;avad / l&#x27;chatchila)<\/em>","m":"<strong>After the fact<\/strong> vs. <strong>at the outset<\/strong>. Mareimar&#x27;s ruling: liver or udder set over meat is tolerated <em>di&#x27;avad<\/em> but may not be arranged that way <em>l&#x27;chatchila<\/em>."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ<\/span><\/strong> <em>(maliach k&#x27;rotei&#x27;ach)<\/em>","m":"&quot;<strong>Salted is like boiling<\/strong>&quot; (and <em>kavush k&#x27;mevushal<\/em>, marinated like cooked) — Shmuel&#x27;s principle that salting and pickling transfer flavor as heat does, so a bowl that salted meat forbids boiling food placed in it."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">כּוּתָּח<\/span><\/strong> <em>(kutaḥ)<\/em>","m":"A <strong>Babylonian dip<\/strong> made with milk (and bread-mold and salt); the milk food against which every case here is tested — may the meaty knife-cut radish, or the fish, be eaten with it?"},{"t":"<strong><span lang=\"he\" dir=\"rtl\">נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם<\/span><\/strong> <em>(notein ta&#x27;am bar notein ta&#x27;am)<\/em>","m":"&quot;<strong>Flavor of a flavor<\/strong>&quot; — taste that reached the food only second-hand, through a vessel; Shmuel holds it too weak to forbid (so the fish is permitted), Rav holds it forbids."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">קַפִּילָא<\/span><\/strong> <em>(kapila)<\/em>","m":"A <strong>gentile cook<\/strong> who can be trusted to taste a dish and report whether it carries a forbidden flavor — Rav Pappa&#x27;s proposal, which Rava accepts where such a cook is on hand."}]},"es":{"lang":"es","cards":[{"t":"<strong><span lang=\"he\" dir=\"rtl\">קַנְיָא בְּקוֹפֵיהּ<\/span><\/strong> <em>(kaniá bekofei)<\/em>","m":"El <strong>gaznate con todas sus adherencias<\/strong> — pulmones, corazón e hígado — cocidos como una unidad; la comida de Rabí Zeriká, ofrecida como prueba de que la sangre del hígado no prohíbe la carne que lo rodea."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">חָלֵיט<\/span><\/strong> <em>(jalit)<\/em>","m":"<strong>Escaldar / sellar<\/strong> en un líquido hirviente (vinagre o agua) desde el inicio, sellando la sangre dentro del hígado antes de que se difunda — la lectura alternativa de Rav Ashi de la comida del gaznate."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">כִּי הֵיכִי דְּפָלֵיט הֲדַר בָּלַע<\/span><\/strong> <em>(ki heiji depalit hadar bala)<\/em>","m":"&quot;Así como expulsa, absorbe de vuelta&quot; — la palanca de Rava: si el escaldado sacara sangre, el hígado la reabsorbería y quedaría prohibido él mismo; como no lo está, nada se expulsó de entrada."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מְתוּבֶּלֶת<\/span><\/strong> <em>(metubélet)<\/em>","m":"Hígado <strong>especiado<\/strong>; según Rabí Ishmael hijo de R&#x27; Iojanán ben Beroká, el especiado (como la cocción intensa, <em>sheluká<\/em>) hace que el hígado reabsorba su sangre, y queda prohibido además de prohibir."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">סִמְפּוֹנָא<\/span><\/strong> <em>(simponá)<\/em>","m":"El gran <strong>vaso sanguíneo / arteria<\/strong> del hígado; la sangre empapada en la carne está permitida, pero la sangre acumulada en la <em>simponá<\/em> está prohibida y debe drenarse."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">שְׁתִי וָעֵרֶב<\/span><\/strong> <em>(shetí vaérev)<\/em>","m":"&quot;<strong>Urdimbre y trama<\/strong>&quot; — desgarrar el hígado <strong>a lo largo y a lo ancho<\/strong>, con el corte hacia abajo, para que la sangre de los vasos escurra al fuego."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מִשְׁרָק שָׁרֵיק<\/span><\/strong> <em>(mishrak sharik)<\/em>","m":"&quot;Simplemente <strong>resbala<\/strong>&quot; — por qué el hígado puesto sobre la carne no la prohíbe: la sangre se desliza por la superficie en vez de empaparse (a diferencia de la leche de la ubre, que <em>saroje mesarej<\/em>, se adhiere y penetra)."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">דִּיעֲבַד<\/span> / <span lang=\"he\" dir=\"rtl\">לְכַתְּחִלָּה<\/span><\/strong> <em>(diavad / lejatjilá)<\/em>","m":"<strong>A posteriori<\/strong> frente a <strong>de entrada<\/strong>. El fallo de Mareimar: hígado o ubre puestos sobre la carne se toleran <em>diavad<\/em>, pero no se pueden disponer así <em>lejatjilá<\/em>."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ<\/span><\/strong> <em>(maliaj kerotéaj)<\/em>","m":"&quot;<strong>Lo salado es como lo hirviente<\/strong>&quot; (y <em>kavush kimvushal<\/em>, lo marinado como lo cocido) — el principio de Shmuel de que salar y encurtir transfieren sabor como el calor, así que una fuente que saló carne prohíbe la comida hirviente puesta en ella."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">כּוּתָּח<\/span><\/strong> <em>(kutaj)<\/em>","m":"Un <strong>aderezo babilónico<\/strong> hecho con leche (y moho de pan y sal); la comida láctea contra la que se prueba cada caso aquí — ¿pueden comerse con él el rábano cortado con cuchillo cárnico, o el pescado?"},{"t":"<strong><span lang=\"he\" dir=\"rtl\">נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם<\/span><\/strong> <em>(notein taam bar notein taam)<\/em>","m":"&quot;<strong>Sabor de un sabor<\/strong>&quot; — sabor que llegó a la comida solo de segunda mano, a través de un recipiente; Shmuel lo tiene por demasiado débil para prohibir (así el pescado está permitido), Rav lo tiene por prohibitivo."},{"t":"<strong><span lang=\"he\" dir=\"rtl\">קַפִּילָא<\/span><\/strong> <em>(kapilá)<\/em>","m":"Un <strong>cocinero gentil<\/strong> de quien puede fiarse que cate un plato e informe si lleva un sabor prohibido — la propuesta de Rav Papa, que Rava acepta donde tal cocinero está a mano."}]},"he":{"lang":"he","cards":[{"t":"<strong>קַנְיָא בְּקוֹפֵיהּ<\/strong>","m":"ה<strong>קנה עם כל אבריו<\/strong> — ריאה, לב וכבד — שבושלו כיחידה אחת; סעודת רבי זריקא, המוצעת כראיה שדם הכבד אינו אוסר את הבשר שסביבו."},{"t":"<strong>חָלֵיט<\/strong>","m":"ל<strong>צרוב / לחלוט<\/strong> בנוזל רותח (חומץ או מים) מלכתחילה, כדי לצרוב את הדם בתוך הכבד בטרם יתפשט — קריאתו החלופית של רב אשי לסעודת הקנה."},{"t":"<strong>כִּי הֵיכִי דְּפָלֵיט הֲדַר בָּלַע<\/strong>","m":"&quot;כשם שהוא פולט, כך הוא בולע בחזרה&quot; — המנוף של רבא: אילו החליטה הוציאה דם, היה הכבד בולעו בחזרה ונאסר אף הוא; כיוון שאינו נאסר, לא נפלט דבר מלכתחילה."},{"t":"<strong>מְתוּבֶּלֶת<\/strong>","m":"כבד <strong>מתובל<\/strong>; לדעת רבי ישמעאל בנו של ר&#x27; יוחנן בן ברוקה, התיבול (כמו הבישול הכבד, <em>שלוקה<\/em>) גורם לכבד לבלוע חזרה את דמו, ונאסר בנוסף לאסור."},{"t":"<strong>סִמְפּוֹנָא<\/strong>","m":"ה<strong>עורק / כלי הדם<\/strong> הגדול שבכבד; הדם הבלוע בבשר מותר, אך הדם העומד בסמפון אסור וצריך להוציאו."},{"t":"<strong>שְׁתִי וָעֵרֶב<\/strong>","m":"קריעת הכבד <strong>לאורכו ולרוחבו<\/strong>, צד החתך כלפי מטה, כדי שדם העורקים יזוב אל האש."},{"t":"<strong>מִשְׁרָק שָׁרֵיק<\/strong>","m":"&quot;פשוט <strong>מחליק<\/strong>&quot; — מדוע כבד המונח מעל בשר אינו אוסרו: הדם גולש על פני השטח ואינו נספג (לעומת חלב הכחל, ש<em>נסרך<\/em> — נדבק ונבלע)."},{"t":"<strong>דִּיעֲבַד / לְכַתְּחִלָּה<\/strong>","m":"<strong>לאחר מעשה<\/strong> מול <strong>מראש<\/strong>. הוראת מרימר: כבד או כחל המונחים מעל בשר נסבלים <em>בדיעבד<\/em>, אך אין לסדרם כך <em>לכתחילה<\/em>."},{"t":"<strong>מָלִיחַ הֲרֵי הוּא כְּרוֹתֵחַ<\/strong>","m":"(ו<em>כבוש הרי הוא כמבושל<\/em>) — עיקרון שמואל שהמליחה והכבישה מוליכות טעם כשם שהחום מוליך, ולכן קערה שמלחו בה בשר אוסרת דבר רותח שהונח בה."},{"t":"<strong>כּוּתָּח<\/strong>","m":"<strong>טיבול בבלי<\/strong> העשוי מחלב (ופירורי לחם מעופש ומלח); המאכל החלבי שכנגדו נבחן כל מקרה כאן — האם מותר לאכול עמו את הצנון שנחתך בסכין בשרי, או את הדג?"},{"t":"<strong>נוֹתֵן טַעַם בַּר נוֹתֵן טַעַם<\/strong>","m":"טעם שהגיע למאכל רק ממדרגה שנייה, דרך כלי; שמואל מחזיקו חלש מכדי לאסור (ולכן הדג מותר), רב מחזיקו כאוסר."},{"t":"<strong>קַפִּילָא<\/strong>","m":"<strong>טבח נוכרי<\/strong> שאפשר לסמוך עליו שיטעם תבשיל ויודיע אם יש בו טעם אסור — הצעת רב פפא, שרבא מקבל במקום שטבח כזה מצוי."}]}};</script>
-<script src="assets/cards.js?v=603f9514"></script>
+<script src="assets/cards.js?v=a0e3e21f"></script>
 <script>window.QUIZ_BY_LANG = {"en":{"lang":"en","qs":[{"n":1,"q":"What did Rabbi Zerika&#x27;s meal of the windpipe with its attachments purport to prove?","opts":["That a liver may be eaten together with its own vessel-blood if roasted.","That the blood of a liver does not forbid the other meat cooked with it.","That the spleen, unlike the liver, need never be torn before cooking.","That lungs and heart may be cooked together only outside the pot&#x27;s rim."],"correct":1,"why":"Zerika and Yannai ate the whole windpipe — lungs, heart, and liver cooked together — with no concern that the liver&#x27;s blood had forbidden the rest, answering Abaye&#x27;s dilemma."},{"n":2,"q":"How did Rav Ashi undercut the proof from that windpipe meal?","opts":["He said the liver had first been salted, which draws out all its blood.","He argued that lungs and heart cannot absorb blood the way meat does.","He noted the diners were in Eretz Yisrael, where the custom is more lenient.","He suggested its mouth lay outside the pot, or the liver was scalded first."],"correct":3,"why":"Perhaps the windpipe&#x27;s mouth stuck out so the blood drained off, or the liver was scalded (chalit) at the outset — either way the meal proves nothing, and the question stands."},{"n":3,"q":"What did Rava conclude from the case of scalding a liver in boiling vinegar?","opts":["That the vinegar is forbidden but the liver itself remains permitted to eat.","That the liver expels blood only when the scalding liquid is water, not vinegar.","That no blood is expelled from the liver at all, since it would only absorb it back.","That scalding a liver renders both the liver and the vinegar forbidden together."],"correct":2,"why":"Were the vinegar forbidden by absorbed blood, the liver would reabsorb that blood and be forbidden too; since it is not, Rava concludes nothing is expelled in the first place."},{"n":4,"q":"According to Rabbi Yishmael son of Rabbi Yoḥanan ben Beroka, when does the liver itself become forbidden?","opts":["When it is cooked in a sealed pot rather than roasted on an open spit.","When it was spiced or heavily stewed, so it reabsorbs the blood it expels.","Whenever it is cooked together with any second piece of permitted meat.","Only when its central artery was left uncut and full of standing blood."],"correct":1,"why":"Rabbi Yishmael holds that spicing (metubelet) or heavy stewing (sheluka) drives the expelled blood back into the liver, so it is forbidden as well as forbidding."},{"n":5,"q":"What was wrong with the liver Rabba bar Rav Huna found at his Shabbat host&#x27;s table?","opts":["It had been cooked in milk together with a suckling animal&#x27;s udder.","It was stewed with spices, which had driven its blood back inside.","It contained an artery still full of standing, undrained blood.","It had been roasted above the meat rather than beneath it on the spit."],"correct":2,"why":"Blood soaked through the liver&#x27;s flesh is permitted, but blood standing in the vessels (the simpona) is forbidden; he told them to tear it warp-and-woof, cut side down, to drain it."},{"n":6,"q":"Why does the spleen, unlike the liver, not need to be torn before cooking?","opts":["Because it is always eaten cold, and cold food does not absorb blood.","Because it holds only fat, not the standing vessel-blood a liver holds.","Because it is rabbinically forbidden, so a lesser preparation suffices.","Because its blood sinks below the fat and can simply be skimmed away."],"correct":1,"why":"The Gemara says this rule applies only to liver, because of its vessel-blood; the spleen is merely fat, so Shmuel&#x27;s servants could prepare it freely on his bloodletting days."},{"n":7,"q":"On the spit, how did the anonymous ruling treat a liver versus an udder placed above the meat?","opts":["Both forbid the meat, since blood and milk alike soak downward into it.","Both permit the meat, since anything above it merely drips off the surface.","Liver forbids the meat, but an udder above it is permitted after the fact.","Liver permits the meat, its blood sliding off, but an udder forbids it, its milk clinging."],"correct":3,"why":"The anonymous ruling says liver&#x27;s blood merely slides off (mishrak sharik) while the udder&#x27;s milk clings and is absorbed (saroche mesarech); Rav Dimi later taught the reverse."},{"n":8,"q":"Why is meat roasted over a drip-pan permitted, but meat set over a dripping liver forbidden?","opts":["Because meat&#x27;s blood sinks below the fat and can be skimmed, but liver&#x27;s blood floats and cannot.","Because a drip-pan collects only fat, whereas liver drippings are pure forbidden blood.","Because roasting plain meat is a Torah act while roasting it with liver is only rabbinic.","Because the liver&#x27;s blood, being hot, cooks into the fat, while the meat&#x27;s blood stays raw."],"correct":0,"why":"Meat&#x27;s blood settles beneath the fat and is separable, so the fat is permitted; the liver&#x27;s blood floats on top (kafei) and cannot be removed, so the whole panful is forbidden."},{"n":9,"q":"How did Abaye refute Ravin&#x27;s report that Rabbi Yoḥanan held &quot;salted is not like boiling&quot;?","opts":["By citing a baraita in which Rabbi Yoḥanan explicitly equates salting with boiling.","By noting that Rabbi Ami, Rabbi Yoḥanan&#x27;s student, smashed a bowl used to salt meat.","By showing that Shmuel and Rabbi Yoḥanan never in fact disagreed on this point.","By proving that marinated food, unlike salted food, is universally treated as cooked."],"correct":1,"why":"Rabbi Ami, a student of Rabbi Yoḥanan, broke a meat-salting bowl — evidently because he had heard from Rabbi Yoḥanan that salted is like boiling, so Ravin&#x27;s opposite citation must be mistaken."},{"n":10,"q":"Over the fish placed hot into a bowl in which meat had been eaten, how did Rav and Shmuel divide?","opts":["Rav permitted it as flavor-of-a-flavor; Shmuel forbade it as direct imparted flavor.","Both forbade it, differing only over whether a gentile cook could taste and clear it.","Rav forbade it as imparted flavor; Shmuel permitted it as flavor of a flavor.","Both permitted it, differing only over whether it then needed a rinse before eating."],"correct":2,"why":"Rav holds the meat-flavor passes straight into the fish (notein ta&#x27;am) and forbids; Shmuel holds it passed first into the bowl and only then to the fish (notein ta&#x27;am bar notein ta&#x27;am), so it is permitted."}]},"es":{"lang":"es","qs":[{"n":1,"q":"¿Qué pretendía probar la comida de Rabí Zeriká del gaznate con sus adherencias?","opts":["Que un hígado puede comerse junto con su propia sangre de los vasos si se asa.","Que la sangre de un hígado no prohíbe la otra carne cocida con él.","Que el bazo, a diferencia del hígado, nunca necesita desgarrarse antes de cocer.","Que pulmones y corazón solo pueden cocerse juntos fuera del borde de la olla."],"correct":1,"why":"Zeriká y Ianai comieron el gaznate entero — pulmones, corazón e hígado cocidos juntos — sin preocuparse de que la sangre del hígado hubiera prohibido el resto, respondiendo al dilema de Abaie."},{"n":2,"q":"¿Cómo socavó Rav Ashi la prueba de esa comida del gaznate?","opts":["Dijo que el hígado se había salado primero, lo que extrae toda su sangre.","Argumentó que pulmones y corazón no absorben sangre como lo hace la carne.","Señaló que los comensales estaban en Erretz Israel, donde la costumbre es más laxa.","Sugirió que su boca quedaba fuera de la olla, o que el hígado se escaldó primero."],"correct":3,"why":"Quizás la boca del gaznate sobresalía y la sangre escurrió, o el hígado se escaldó (jalit) de entrada — de cualquier modo la comida nada prueba, y la pregunta sigue en pie."},{"n":3,"q":"¿Qué concluyó Rava del caso de escaldar un hígado en vinagre hirviendo?","opts":["Que el vinagre queda prohibido pero el hígado mismo sigue permitido para comer.","Que el hígado expulsa sangre solo cuando el líquido de escaldado es agua, no vinagre.","Que no se expulsa sangre alguna del hígado, pues solo la reabsorbería de vuelta.","Que escaldar un hígado deja prohibidos tanto el hígado como el vinagre juntos."],"correct":2,"why":"Si el vinagre quedara prohibido por sangre absorbida, el hígado reabsorbería esa sangre y quedaría prohibido él mismo; como no lo está, Rava concluye que nada se expulsa de entrada."},{"n":4,"q":"Según Rabí Ishmael hijo de Rabí Iojanán ben Beroká, ¿cuándo queda prohibido el hígado mismo?","opts":["Cuando se cuece en una olla sellada en vez de asarse en un asador abierto.","Cuando fue especiado o muy cocido, de modo que reabsorbe la sangre que expulsa.","Siempre que se cuece junto con cualquier segunda pieza de carne permitida.","Solo cuando su arteria central quedó sin cortar y llena de sangre acumulada."],"correct":1,"why":"Rabí Ishmael sostiene que el especiado (metubélet) o la cocción intensa (sheluká) devuelven la sangre expulsada al hígado, y queda prohibido además de prohibir."},{"n":5,"q":"¿Qué tenía de malo el hígado que Rabá bar Rav Huná halló en la mesa de su anfitrión de Shabat?","opts":["Había sido cocido en leche junto con la ubre de un animal lactante.","Estaba cocido con especias, que habían devuelto su sangre adentro.","Contenía una arteria aún llena de sangre acumulada, sin drenar.","Había sido asado encima de la carne en vez de debajo, en el asador."],"correct":2,"why":"La sangre empapada en la carne del hígado está permitida, pero la sangre acumulada en los vasos (la simponá) está prohibida; les dijo que lo desgarraran en cruz, con el corte hacia abajo, para drenarla."},{"n":6,"q":"¿Por qué el bazo, a diferencia del hígado, no necesita desgarrarse antes de cocer?","opts":["Porque siempre se come frío, y la comida fría no absorbe sangre.","Porque contiene solo grasa, no la sangre de los vasos que tiene un hígado.","Porque está rabínicamente prohibido, y basta una preparación menor.","Porque su sangre se hunde bajo la grasa y puede simplemente retirarse."],"correct":1,"why":"La Guemará dice que esta regla vale solo para el hígado, por su sangre en los vasos; el bazo es mera grasa, por lo que los sirvientes de Shmuel podían prepararlo en sus días de sangría."},{"n":7,"q":"En el asador, ¿cómo trató el fallo anónimo a un hígado frente a una ubre puestos encima de la carne?","opts":["Ambos prohíben la carne, ya que sangre y leche por igual penetran hacia abajo en ella.","Ambos permiten la carne, ya que todo lo puesto encima solo resbala por la superficie.","El hígado prohíbe la carne, pero una ubre encima está permitida a posteriori.","El hígado la permite, su sangre resbala, pero la ubre la prohíbe, su leche se adhiere."],"correct":3,"why":"El fallo anónimo dice que la sangre del hígado solo resbala (mishrak sharik) mientras la leche de la ubre se adhiere y penetra (saroje mesarej); Rav Dimi enseñó luego lo contrario."},{"n":8,"q":"¿Por qué la carne asada sobre un recipiente de goteo está permitida, pero la carne sobre un hígado que gotea está prohibida?","opts":["Porque la sangre de la carne se hunde bajo la grasa y puede retirarse, la del hígado flota y no.","Porque un recipiente de goteo recoge solo grasa, y el goteo del hígado es pura sangre prohibida.","Porque asar carne sola es acto de la Torá y asarla con hígado es solo rabínico.","Porque la sangre del hígado, caliente, se cuece en la grasa, y la de la carne queda cruda."],"correct":0,"why":"La sangre de la carne se asienta bajo la grasa y es separable, así la grasa está permitida; la del hígado flota encima (kafei) y no puede retirarse, así toda la sartén queda prohibida."},{"n":9,"q":"¿Cómo refutó Abaie el reporte de Ravin de que Rabí Iojanán sostenía &quot;lo salado no es como lo hirviente&quot;?","opts":["Citando una baraita en que Rabí Iojanán equipara explícitamente salar con hervir.","Señalando que Rabí Amí, discípulo de Rabí Iojanán, rompió una fuente usada para salar carne.","Mostrando que Shmuel y Rabí Iojanán nunca discreparon en realidad sobre este punto.","Probando que lo marinado, a diferencia de lo salado, se trata universalmente como cocido."],"correct":1,"why":"Rabí Amí, discípulo de Rabí Iojanán, rompió una fuente de salar carne — evidentemente porque había oído de Rabí Iojanán que lo salado es como lo hirviente, así la cita opuesta de Ravin ha de ser errónea."},{"n":10,"q":"Sobre el pescado puesto caliente en una fuente en la que se comió carne, ¿cómo se dividieron Rav y Shmuel?","opts":["Rav lo permitió como sabor de un sabor; Shmuel lo prohibió como sabor impartido directo.","Ambos lo prohibieron, difiriendo solo en si un cocinero gentil podía catarlo y liberarlo.","Rav lo prohibió como sabor impartido; Shmuel lo permitió como sabor de un sabor.","Ambos lo permitieron, difiriendo solo en si luego necesitaba un enjuague antes de comer."],"correct":2,"why":"Rav sostiene que el sabor cárnico pasa directo al pescado (notein taam) y prohíbe; Shmuel sostiene que pasó primero a la fuente y solo luego al pescado (notein taam bar notein taam), así está permitido."}]},"he":{"lang":"he","qs":[{"n":1,"q":"מה ביקשה סעודת רבי זריקא בקנה עם אבריו להוכיח?","opts":["שמותר לאכול כבד יחד עם דם עורקיו אם צלוהו.","שדם הכבד אינו אוסר את שאר הבשר המתבשל עמו.","שהטחול, שלא כמו הכבד, לעולם אינו צריך קריעה קודם בישול.","שריאה ולב מותר לבשל יחד רק מחוץ לשפת הקדרה."],"correct":1,"why":"זריקא וינאי אכלו את הקנה כולו — ריאה, לב וכבד שבושלו יחד — בלא חשש שדם הכבד אסר את השאר, ובכך השיבו על שאלת אביי."},{"n":2,"q":"כיצד ערער רב אשי את הראיה מסעודת הקנה?","opts":["אמר שהכבד נמלח תחילה, מה שמוציא את כל דמו.","טען שריאה ולב אינם בולעים דם כמו שהבשר בולע.","ציין שהסועדים היו בארץ ישראל, שם המנהג מקל יותר.","הציע שפיו היה מחוץ לקדרה, או שהכבד נחלט תחילה."],"correct":3,"why":"שמא פי הקנה בלט והדם נשפך החוצה, או שהכבד נחלט מלכתחילה — כך או כך אין הסעודה מוכיחה דבר, והשאלה נותרה בעינה."},{"n":3,"q":"מה הסיק רבא מן המקרה של חליטת כבד בחומץ רותח?","opts":["שהחומץ אסור אך הכבד עצמו נשאר מותר באכילה.","שהכבד פולט דם רק כשנוזל החליטה הוא מים, לא חומץ.","שאין נפלט דם כלל מן הכבד, שכן היה בולעו בחזרה.","שחליטת כבד אוסרת את הכבד ואת החומץ כאחד."],"correct":2,"why":"אילו נאסר החומץ מדם בלוע, היה הכבד בולע דם זה בחזרה ונאסר אף הוא; כיוון שאינו נאסר, רבא מסיק שלא נפלט דבר מלכתחילה."},{"n":4,"q":"לפי רבי ישמעאל בנו של רבי יוחנן בן ברוקה, מתי נאסר הכבד עצמו?","opts":["כשמבשלים אותו בקדרה סגורה במקום לצלותו בשיפוד פתוח.","כשהיה מתובל או שלוק היטב, כך שהוא בולע בחזרה את הדם שהוא פולט.","בכל פעם שהוא מתבשל יחד עם כל חתיכת בשר מותרת שנייה.","רק כשעורקו המרכזי נותר בלא חתך ומלא דם עומד."],"correct":1,"why":"רבי ישמעאל סובר שהתיבול (מתובלת) או הבישול הכבד (שלוקה) מחזירים את הדם הנפלט אל הכבד, ונאסר בנוסף לאסור."},{"n":5,"q":"מה היה פגום בכבד שמצא רבה בר רב הונא בשולחן מארחו בשבת?","opts":["הוא בושל בחלב יחד עם כחל של בהמה מיניקה.","הוא בושל עם תבלינים, שהחזירו את דמו פנימה.","היה בו עורק עודנו מלא דם עומד, בלא שנוקז.","הוא נצלה מעל הבשר במקום מתחת לו, בשיפוד."],"correct":2,"why":"הדם הבלוע בבשר הכבד מותר, אך הדם העומד בעורקים (הסמפון) אסור; הוא אמר להם לקרעו שתי וערב, צד החתך למטה, כדי לנקזו."},{"n":6,"q":"מדוע הטחול, שלא כמו הכבד, אינו צריך קריעה קודם בישול?","opts":["מפני שהוא נאכל תמיד צונן, ומאכל צונן אינו בולע דם.","מפני שאין בו אלא שומן, לא דם העורקים שיש בכבד.","מפני שהוא אסור מדרבנן, ודי בהכנה קלה יותר.","מפני שדמו שוקע מתחת לשומן וניתן פשוט להסירו."],"correct":1,"why":"הגמרא אומרת שכלל זה נאמר רק בכבד, מפני דם עורקיו; הטחול אינו אלא שומן, ולכן יכלו משרתי שמואל להכינו בימי הקזתו."},{"n":7,"q":"בשיפוד, כיצד התייחסה ההוראה הסתמית לכבד מול כחל המונחים מעל הבשר?","opts":["שניהם אוסרים את הבשר, שכן דם וחלב כאחד חודרים כלפי מטה לתוכו.","שניהם מתירים את הבשר, שכן כל המונח מעליו רק מחליק על פני השטח.","הכבד אוסר את הבשר, אך כחל מעליו מותר בדיעבד.","הכבד מתירו, דמו מחליק, אך הכחל אוסרו, חלבו נסרך."],"correct":3,"why":"ההוראה הסתמית אומרת שדם הכבד רק מחליק (משרק שריק) ואילו חלב הכחל נסרך ונבלע; רב דימי שנה אחר כך להפך."},{"n":8,"q":"מדוע בשר הנצלה מעל כלי קיבול לשומן מותר, אך בשר המונח מעל כבד מטפטף אסור?","opts":["מפני שדם הבשר שוקע מתחת לשומן וניתן להסירו, ודם הכבד צף ואינו ניתן.","מפני שכלי הקיבול אוסף שומן בלבד, וטפטוף הכבד הוא דם אסור טהור.","מפני שצליית בשר לבדו היא מעשה תורה וצלייתו עם כבד היא רק מדרבנן.","מפני שדם הכבד, בהיותו חם, מתבשל בשומן, ודם הבשר נותר גולמי."],"correct":0,"why":"דם הבשר שוקע מתחת לשומן וניתן להפרידו, ולכן השומן מותר; דם הכבד צף מעליו (קפי) ואי אפשר להסירו, ולכן כל המחבת אסורה."},{"n":9,"q":"כיצד הפריך אביי את מסירת רבין שרבי יוחנן סבר &quot;מליח אינו כרותח&quot;?","opts":["בהביאו ברייתא שבה רבי יוחנן משווה במפורש מליחה לרתיחה.","בציינו שרבי אמי, תלמיד רבי יוחנן, שבר קערה ששימשה למליחת בשר.","בהראותו ששמואל ורבי יוחנן מעולם לא נחלקו למעשה בנקודה זו.","בהוכיחו שהכבוש, שלא כמליח, נחשב בכל מקום כמבושל."],"correct":1,"why":"רבי אמי, תלמיד רבי יוחנן, שבר קערת מליחת בשר — כנראה מפני ששמע מרבי יוחנן שמליח הרי הוא כרותח, ולכן מסירת רבין ההפוכה מוטעית."},{"n":10,"q":"על הדג שהונח חם בקערה שאכלו בה בשר, כיצד נחלקו רב ושמואל?","opts":["רב התירו כטעם של טעם; שמואל אסרו כנתינת טעם ישירה.","שניהם אסרוהו, ונחלקו רק אם טבח נוכרי יכול לטועמו ולהתירו.","רב אסרו כנותן טעם; שמואל התירו כנותן טעם בר נותן טעם.","שניהם התירוהו, ונחלקו רק אם הוא צריך אחר כך הדחה קודם אכילה."],"correct":2,"why":"רב סובר שטעם הבשר עובר ישר אל הדג (נותן טעם) ואוסר; שמואל סובר שעבר תחילה אל הקערה ורק אחר כך אל הדג (נותן טעם בר נותן טעם), ולכן מותר."}]}};</script>
-<script src="assets/quiz.js?v=58d36ebd"></script>
+<script src="assets/quiz.js?v=16f2d3c3"></script>
 <script src="assets/speak.js?v=4f9f5f22"></script>
+<script src="assets/feedback.js?v=1d205ae6"></script>
 </body>
 </html>

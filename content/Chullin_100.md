@@ -59,6 +59,41 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Yehuda** (bar Ilai) — fourth generation, student of Rabbi Akiva. Holds the *gid* applies
+  even to a non-kosher animal, and gives two sets of lashes.
+- **Rabbi Shimon** (bar Yochai) — fourth generation, student of Rabbi Akiva and Rabbi Yehuda's
+  contemporary. Exempts entirely; his reasoning is unpacked tomorrow.
+- **The Rabbis** (*chachamim*) — the majority view of the mishnah: stated at Sinai, written in its place.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy. Explains
+  the *Nazir* mishnah about the fetus whose limbs are not yet bound by sinews.
+- **Rabbah bar bar Chana** — second generation by training; a nephew of Rabbi Chiyya who
+  transmitted Eretz-Yisrael teachings in Babylonia. His version requires flavor in broth, sediment
+  and pieces alike.
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of the academy at Sura; the towering authority
+  of early Babylonian halacha. Author of *chatichah atzmah na'aseis neveilah*.
+- **Abaye** — fourth generation, head of Pumbedita. Answers Rav Safra with "he removed it first."
+- **Rava** — fourth generation, Machoza; Abaye's great disputant. Answers instead with the rule of
+  *min umino vedavar acher*.
+- **Rav Safra** — fourth generation, a colleague in Abaye and Rava's circle. Raises the objection
+  to Rav's ruling.
+
+*Look-alikes worth flagging:* **Rabbah bar bar Chana** (רבה בר בר חנה) is not **Rabbah** (רבה)
+the head of Pumbedita, and neither is **Rava** (רבא) — in an unvocalised text רבה and רבא are
+distinguished only by context. **Rav Safra** is a comparatively minor figure; beyond his place in
+Abaye and Rava's circle I would not want to guess at his biography.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 100a — Two reasons a thing refuses to be nullified
@@ -202,41 +237,6 @@ Rav Safra asked one question — why should Rav care whether flavor reached the 
 |---|---|---|---|
 | **Abaye** | **בְּשֶׁקָּדַם וְסִלְּקוֹ** — cooked with one kosher piece, then removed before the others went in | The forbidden piece is gone; the only route left runs through the piece it flavored | That intermediary piece, now itself *neveilah* — and like is not nullified in like |
 | **Rava** | **מִין וּמִינוֹ וְדָבָר אַחֵר** — its own kind *plus* something else, the broth and spices | Flavor reached the second piece **before** the broth and spices did — so two forbidden pieces, not one | **סַלֵּק אֶת מִינוֹ**: sixty is counted against broth and spices alone, enough for one piece but not two |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Yehuda** (bar Ilai) — fourth generation, student of Rabbi Akiva. Holds the *gid* applies
-  even to a non-kosher animal, and gives two sets of lashes.
-- **Rabbi Shimon** (bar Yochai) — fourth generation, student of Rabbi Akiva and Rabbi Yehuda's
-  contemporary. Exempts entirely; his reasoning is unpacked tomorrow.
-- **The Rabbis** (*chachamim*) — the majority view of the mishnah: stated at Sinai, written in its place.
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of the Tiberias academy. Explains
-  the *Nazir* mishnah about the fetus whose limbs are not yet bound by sinews.
-- **Rabbah bar bar Chana** — second generation by training; a nephew of Rabbi Chiyya who
-  transmitted Eretz-Yisrael teachings in Babylonia. His version requires flavor in broth, sediment
-  and pieces alike.
-
-**Babylonian Amoraim**
-
-- **Rav** (Abba Arikha) — first generation, founder of the academy at Sura; the towering authority
-  of early Babylonian halacha. Author of *chatichah atzmah na'aseis neveilah*.
-- **Abaye** — fourth generation, head of Pumbedita. Answers Rav Safra with "he removed it first."
-- **Rava** — fourth generation, Machoza; Abaye's great disputant. Answers instead with the rule of
-  *min umino vedavar acher*.
-- **Rav Safra** — fourth generation, a colleague in Abaye and Rava's circle. Raises the objection
-  to Rav's ruling.
-
-*Look-alikes worth flagging:* **Rabbah bar bar Chana** (רבה בר בר חנה) is not **Rabbah** (רבה)
-the head of Pumbedita, and neither is **Rava** (רבא) — in an unvocalised text רבה and רבא are
-distinguished only by context. **Rav Safra** is a comparatively minor figure; beyond his place in
-Abaye and Rava's circle I would not want to guess at his biography.
 
 ---
 

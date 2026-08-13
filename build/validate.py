@@ -20,14 +20,30 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import i18n                        # noqa: E402
 import sheet as sheet_mod          # noqa: E402
 
-# Listed in the order the sheet puts them in — the glossary sits above the
-# walkthrough, because it is the vocabulary the walkthrough uses. Presence is
-# what is checked here, not order; a reordered sheet is not an error.
+# Listed in the order the sheet puts them in: the three that make up the
+# Introduction tab, then the three the Chazara tab reviews. Presence is what is
+# checked here, not order — but the build *does* cut the body at the
+# walkthrough (see WALK_SECTION), so a sheet that puts its sections in some
+# other order will split into the wrong two tabs.
 REQUIRED_SECTIONS = {
-    "en": ["The big picture", "Key concepts", "Walking through the sugya",
-           "Who's who", "One line to carry with you"],
-    "es": ["panorama general", "Conceptos", "paso a paso", "Quién es quién", "Una línea"],
-    "he": ["התמונה הגדולה", "מושגים", "צעד אחר צעד", "מי ומי", "שורה אחת"],
+    "en": ["The big picture", "Key concepts", "Who's who",
+           "Walking through the sugya", "One line to carry with you"],
+    "es": ["panorama general", "Conceptos", "Quién es quién", "paso a paso", "Una línea"],
+    "he": ["התמונה הגדולה", "מושגים", "מי ומי", "צעד אחר צעד", "שורה אחת"],
+}
+# Where the build cuts. Everything above the walkthrough is the Introduction
+# tab; the walkthrough and what follows it is the Chazara tab. The glossary is
+# the last section of the Introduction proper — the deck is spliced in under it,
+# above Who's who.
+WALK_SECTION = {
+    "en": "Walking through the sugya",
+    "es": "paso a paso",
+    "he": "צעד אחר צעד",
+}
+WHO_SECTION = {
+    "en": "Who's who",
+    "es": "Quién es quién",
+    "he": "מי ומי",
 }
 # The side-by-side grid is wanted on every daf but not required, because some
 # dapim are pure narrative and a forced matrix is worse than none. Missing is a
@@ -163,6 +179,19 @@ def section_span(body_md, needle):
             continue
         nxt = re.search(r"^##\s+", body_md[m.end():], re.M)
         return m.end(), (m.end() + nxt.start() if nxt else len(body_md))
+    return None
+
+
+def section_start(body_md, needle):
+    """Offset of the `## …needle…` heading itself, or None.
+
+    section_span starts *after* the heading, which is what splicing into a
+    section wants. Cutting the body into two tabs wants the other edge: the
+    heading belongs to the part that follows it.
+    """
+    for m in re.finditer(r"^##\s+(.*)$", body_md, re.M):
+        if needle.lower() in m.group(1).strip().lower():
+            return m.start()
     return None
 
 

@@ -11,5 +11,8 @@
   "buffer_days": 7,
 
   "_max_per_run": "Most dapim to write in a single run, so one run stays bounded. The job retries every two hours, so a deep gap fills over the course of a day.",
-  "max_per_run": 3
+  "max_per_run": 3,
+
+  "_feedback_email": "Where 'found a mistake?' writes to. Rendered into the page as a mailto, so the address is public to anything that reads HTML — use an alias you can filter or retire. null removes the link from every page.",
+  "feedback_email": "jocosiol+dafyomi@gmail.com"
 }

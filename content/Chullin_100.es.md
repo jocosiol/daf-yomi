@@ -58,6 +58,42 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Iehudá** (bar Ilai) — cuarta generación, alumno de Rabí Akivá. Sostiene que el *guid* se
+  aplica incluso a un animal no kosher, y da dos series de azotes.
+- **Rabí Shimón** (bar Iojái) — cuarta generación, alumno de Rabí Akivá y contemporáneo de Rabí
+  Iehudá. Exime por completo; su razonamiento se desmenuza mañana.
+- **Los Sabios** (*jajamim*) — la opinión mayoritaria de la mishná: enunciada en el Sinaí, escrita
+  en su lugar.
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberias. Explica la
+  mishná de *Nazir* sobre el feto cuyos miembros aún no están ligados por nervios.
+- **Rabá bar bar Janá** — segunda generación por formación; un sobrino de Rabí Jiiá que transmitió
+  enseñanzas de Erretz Israel en Babilonia. Su versión exige sabor en caldo, sedimento y trozos por
+  igual.
+
+**Amoraím de Babilonia**
+
+- **Rav** (Aba Arijá) — primera generación, fundador de la academia de Sura; la autoridad
+  descollante de la halajá babilónica temprana. Autor de *jatijá atzmá naasét nevelá*.
+- **Abaie** — cuarta generación, cabeza de Pumbedita. Responde a Rav Safra con "lo retiró primero".
+- **Rava** — cuarta generación, Majoza; el gran contrincante de Abaie. Responde en cambio con la
+  regla de *min uminó vedavar ajer*.
+- **Rav Safra** — cuarta generación, un colega del círculo de Abaie y Rava. Plantea la objeción al
+  dictamen de Rav.
+
+*Parecidos que vale señalar:* **Rabá bar bar Janá** (רבה בר בר חנה) no es **Rabá** (רבה) el jefe de
+Pumbedita, ni tampoco **Rava** (רבא) — en un texto sin vocalizar רבה y רבא se distinguen solo por
+el contexto. **Rav Safra** es una figura comparativamente menor; más allá de su lugar en el círculo
+de Abaie y Rava no querría aventurar su biografía.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 100a — Dos razones por las que una cosa se niega a anularse
@@ -208,42 +244,6 @@ Rav Safra hizo una sola pregunta — ¿por qué habría de importarle a Rav si e
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Iehudá** (bar Ilai) — cuarta generación, alumno de Rabí Akivá. Sostiene que el *guid* se
-  aplica incluso a un animal no kosher, y da dos series de azotes.
-- **Rabí Shimón** (bar Iojái) — cuarta generación, alumno de Rabí Akivá y contemporáneo de Rabí
-  Iehudá. Exime por completo; su razonamiento se desmenuza mañana.
-- **Los Sabios** (*jajamim*) — la opinión mayoritaria de la mishná: enunciada en el Sinaí, escrita
-  en su lugar.
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberias. Explica la
-  mishná de *Nazir* sobre el feto cuyos miembros aún no están ligados por nervios.
-- **Rabá bar bar Janá** — segunda generación por formación; un sobrino de Rabí Jiiá que transmitió
-  enseñanzas de Erretz Israel en Babilonia. Su versión exige sabor en caldo, sedimento y trozos por
-  igual.
-
-**Amoraím de Babilonia**
-
-- **Rav** (Aba Arijá) — primera generación, fundador de la academia de Sura; la autoridad
-  descollante de la halajá babilónica temprana. Autor de *jatijá atzmá naasét nevelá*.
-- **Abaie** — cuarta generación, cabeza de Pumbedita. Responde a Rav Safra con "lo retiró primero".
-- **Rava** — cuarta generación, Majoza; el gran contrincante de Abaie. Responde en cambio con la
-  regla de *min uminó vedavar ajer*.
-- **Rav Safra** — cuarta generación, un colega del círculo de Abaie y Rava. Plantea la objeción al
-  dictamen de Rav.
-
-*Parecidos que vale señalar:* **Rabá bar bar Janá** (רבה בר בר חנה) no es **Rabá** (רבה) el jefe de
-Pumbedita, ni tampoco **Rava** (רבא) — en un texto sin vocalizar רבה y רבא se distinguen solo por
-el contexto. **Rav Safra** es una figura comparativamente menor; más allá de su lugar en el círculo
-de Abaie y Rava no querría aventurar su biografía.
-
----
-
 ## Una línea para llevarte
 
 > La anulación no es solo aritmética. Una cosa que es entera, o un trozo lo bastante digno para
@@ -251,7 +251,7 @@ de Abaie y Rava no querría aventurar su biografía.
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿Por qué un nervio sciático no identificado entre otros nervios no se anula por la mayoría?

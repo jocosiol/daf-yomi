@@ -65,6 +65,57 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaítico / de transición**
+
+- **Rav Jiiá** (Rabí Jiiá el Grande) — un *tana* de la generación que une Mishná y Guemará, tío y maestro
+  de Rav; invocado aquí por su "mente aguda", que supuestamente permitió dar a Rav una enseñanza estrecha
+  sin especificar. (Por regla titulado *Rabí* Jiiá; no confundir con el Amorá **Rabí Jiiá bar Abá**.)
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Elazar** (ben Pedat) — tercera generación, discípulo principal de Rabí Iojanán; abre la
+  indagación sobre la fuente de Rav al ascender a Erretz Israel. (No Rabí Eliézer el Tana, ni Rabí Elazar
+  ben Shamúa.)
+- **Rabí Itzjak Napajá** — tercera generación; nombrado solo como el padre de la esposa de Rav Papi y "un
+  maestro de buenas obras", el garante de su cocina.
+- **Rav Zriká** — tercera/cuarta generación; le reporta a Rav Safrá que cocinó hígado para Rabí Amí.
+- **Rabí Amí** — tercera generación, autoridad principal en Tiberíades tras Rabí Iojanán; comió el hígado
+  que cocinó Rav Zriká.
+
+**Amoraím de Babilonia**
+
+- **Rav** (Abá Arijá) — primera generación, fundador de Sura; la severidad sobre la ubre se le atribuye,
+  sea como cerca propia o como enseñanza sobre-generalizada.
+- **Zeirí** — primera/segunda generación, un babilonio que se estableció en Erretz Israel; dirige a Rabí
+  Elazar hacia la fuente de la enseñanza de Rav.
+- **Rav Itzjak bar Avudimí** — Amorá temprano; el *tana* que se dice enseñó (o no enseñó) a Rav sobre la
+  ubre. Figura relativamente menor; no forzaría los detalles de su biografía.
+- **Rav Kahaná** — nombre común a lo largo de las generaciones; aquí simplemente el tradente de la primera
+  versión. Cuál Rav Kahaná no está fijado, así que lo dejo abierto.
+- **Rav Iosí bar Abá** — un tradente menor, fuente de la segunda versión de la enseñanza; poco se sabe de
+  él más allá de tales transmisiones.
+- **Ravín** (Rav Avín) — cuarta generación, célebre por llevar las tradiciones de Erretz Israel a
+  Babilonia (*ki atá Ravín*); rechaza la ubre en casa de Rav Papi hasta que se lo tranquiliza. (Escrito
+  רבין; distinto de las muchas "Raviná".)
+- **Rav Itzjak bar Iosef** — cuarta generación, otro tradente de Erretz Israel a Babilonia; come la ubre
+  sin vacilar.
+- **Rav Papi** — cuarta/quinta generación, discípulo de Rava; anfitrión del plato de ubre, casado con la
+  hija de Rabí Itzjak Napajá.
+- **Abaie** — cuarta generación, cabeza de Pumbedita; tranquiliza a Ravín y luego plantea el dilema del
+  hígado.
+- **Ramí bar Tamrei** (= **Ramí bar Dikulei**) — un sabio popular pumbeditano; el héroe del relato central
+  del daf, que vence a Rav Jisdá punto por punto.
+- **Rav Iehudá** (bar Iejezkel) — segunda generación, fundador de Pumbedita; sus fallos (enfermedad
+  intestinal y tefilín, túnica prestada y flecos) son las autoridades de Ramí. (Este **Rav** Iehudá el
+  Amorá, no **Rabí** Iehudá bar Ilai el Tana.)
+- **Rav Jisdá** — tercera generación, de Sura; el juez que interroga a Ramí y concede su agudeza.
+- **Rav Safrá** — tercera/cuarta generación, un mercader-erudito que viajaba entre Babilonia y Erretz
+  Israel; el mensajero de Abaie para la cuestión del hígado.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 110a — La baraita, y de dónde nació la severidad de Rav
@@ -179,57 +230,6 @@ bar Tamrei pareció prohibido, y cinco veces él nombró la regla exacta que lo 
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaítico / de transición**
-
-- **Rav Jiiá** (Rabí Jiiá el Grande) — un *tana* de la generación que une Mishná y Guemará, tío y maestro
-  de Rav; invocado aquí por su "mente aguda", que supuestamente permitió dar a Rav una enseñanza estrecha
-  sin especificar. (Por regla titulado *Rabí* Jiiá; no confundir con el Amorá **Rabí Jiiá bar Abá**.)
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Elazar** (ben Pedat) — tercera generación, discípulo principal de Rabí Iojanán; abre la
-  indagación sobre la fuente de Rav al ascender a Erretz Israel. (No Rabí Eliézer el Tana, ni Rabí Elazar
-  ben Shamúa.)
-- **Rabí Itzjak Napajá** — tercera generación; nombrado solo como el padre de la esposa de Rav Papi y "un
-  maestro de buenas obras", el garante de su cocina.
-- **Rav Zriká** — tercera/cuarta generación; le reporta a Rav Safrá que cocinó hígado para Rabí Amí.
-- **Rabí Amí** — tercera generación, autoridad principal en Tiberíades tras Rabí Iojanán; comió el hígado
-  que cocinó Rav Zriká.
-
-**Amoraím de Babilonia**
-
-- **Rav** (Abá Arijá) — primera generación, fundador de Sura; la severidad sobre la ubre se le atribuye,
-  sea como cerca propia o como enseñanza sobre-generalizada.
-- **Zeirí** — primera/segunda generación, un babilonio que se estableció en Erretz Israel; dirige a Rabí
-  Elazar hacia la fuente de la enseñanza de Rav.
-- **Rav Itzjak bar Avudimí** — Amorá temprano; el *tana* que se dice enseñó (o no enseñó) a Rav sobre la
-  ubre. Figura relativamente menor; no forzaría los detalles de su biografía.
-- **Rav Kahaná** — nombre común a lo largo de las generaciones; aquí simplemente el tradente de la primera
-  versión. Cuál Rav Kahaná no está fijado, así que lo dejo abierto.
-- **Rav Iosí bar Abá** — un tradente menor, fuente de la segunda versión de la enseñanza; poco se sabe de
-  él más allá de tales transmisiones.
-- **Ravín** (Rav Avín) — cuarta generación, célebre por llevar las tradiciones de Erretz Israel a
-  Babilonia (*ki atá Ravín*); rechaza la ubre en casa de Rav Papi hasta que se lo tranquiliza. (Escrito
-  רבין; distinto de las muchas "Raviná".)
-- **Rav Itzjak bar Iosef** — cuarta generación, otro tradente de Erretz Israel a Babilonia; come la ubre
-  sin vacilar.
-- **Rav Papi** — cuarta/quinta generación, discípulo de Rava; anfitrión del plato de ubre, casado con la
-  hija de Rabí Itzjak Napajá.
-- **Abaie** — cuarta generación, cabeza de Pumbedita; tranquiliza a Ravín y luego plantea el dilema del
-  hígado.
-- **Ramí bar Tamrei** (= **Ramí bar Dikulei**) — un sabio popular pumbeditano; el héroe del relato central
-  del daf, que vence a Rav Jisdá punto por punto.
-- **Rav Iehudá** (bar Iejezkel) — segunda generación, fundador de Pumbedita; sus fallos (enfermedad
-  intestinal y tefilín, túnica prestada y flecos) son las autoridades de Ramí. (Este **Rav** Iehudá el
-  Amorá, no **Rabí** Iehudá bar Ilai el Tana.)
-- **Rav Jisdá** — tercera generación, de Sura; el juez que interroga a Ramí y concede su agudeza.
-- **Rav Safrá** — tercera/cuarta generación, un mercader-erudito que viajaba entre Babilonia y Erretz
-  Israel; el mensajero de Abaie para la cuestión del hígado.
-
----
-
 ## Una línea para llevarte
 
 > Un decreto no siempre se hereda; a veces un maestro entra en un valle, ve dónde ha caído la cerca, y
@@ -237,7 +237,7 @@ bar Tamrei pareció prohibido, y cinco veces él nombró la regla exacta que lo 
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: Según Rav Itzjak bar Avudimí en la primera versión, ¿cómo surgió la severidad de Rav sobre la ubre?

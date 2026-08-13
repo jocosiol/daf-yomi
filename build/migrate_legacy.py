@@ -155,7 +155,7 @@ def dump(meta, quiz, body, dst):
                         default_flow_style=False, width=95)
     qy = yaml.safe_dump(quiz, allow_unicode=True, sort_keys=False,
                         default_flow_style=False, width=95)
-    heading = ("Chazará — ponte a prueba" if meta.get("lang") == "es"
+    heading = ("Jazará — ponte a prueba" if meta.get("lang") == "es"
                else "Chazara — test yourself")
     open(dst, "w", encoding="utf-8").write(
         f"---\n{fm}---\n\n{body}\n\n---\n\n## {heading}\n\n```yaml\n{qy}```\n")

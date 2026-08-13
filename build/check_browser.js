@@ -46,10 +46,16 @@ async function open(browser, url) {
     check('daf: no console errors', errors.length === 0, errors.join(' | ') || 'none');
     check('daf: html lang defaults to en', await page.evaluate(() => document.documentElement.lang) === 'en');
 
+    // A sheet is now several blocks in two panels — the Introduction shows it
+    // in two, with the deck between them — so what has to be unique is the
+    // language on screen, not the number of blocks carrying it. offsetParent
+    // rules out both the other languages and the panel that is not open;
+    // getComputedStyle would not, since display is not inherited and a block
+    // inside a hidden panel still computes to block.
     const visible = () => page.evaluate(() =>
-      [...document.querySelectorAll('.sheet')]
-        .filter(e => getComputedStyle(e).display !== 'none')
-        .map(e => e.getAttribute('data-lang')));
+      [...new Set([...document.querySelectorAll('.sheet')]
+        .filter(e => e.offsetParent !== null)
+        .map(e => e.getAttribute('data-lang')))]);
     // One sheet on screen, and it is the one that covers this language — a
     // group may stand in for several ("en he" on a daf with no Hebrew sheet),
     // so the attribute is not the language, it is the set the block serves.
@@ -68,16 +74,24 @@ async function open(browser, url) {
       }));
 
     // ---------- flashcards ----------
-    // The button under the glossary table is the entry point the reader meets
-    // first, so open the deck through it rather than through the tab.
-    await page.evaluate(() => [...document.querySelectorAll('.deck-cta button')]
-      .find(b => b.offsetParent !== null).click());
+    // The deck has no tab: it is inside the Introduction, under the glossary it
+    // is built from, and is dealt before anyone asks for it.
     await page.waitForSelector('.flashcard');
-    check('cards: the glossary button opens the deck',
-      await page.evaluate(() => document.getElementById('cards').classList.contains('active')));
-    check('cards: the tab followed',
-      await page.evaluate(() =>
-        document.querySelector('.tab[data-v="cards"]').getAttribute('aria-selected') === 'true'));
+    check('cards: the deck is inside the Introduction, not a tab of its own',
+      await page.evaluate(() => !!document.querySelector('#intro .deck-inline .flashcard') &&
+                                !document.querySelector('.tab[data-v="cards"]')));
+    // Between the terms it is made of and the sages that follow them — the
+    // whole reason the Introduction is built in two blocks.
+    check('cards: it sits under the glossary and above Who\'s who',
+      await page.evaluate(() => {
+        const kids = [...document.getElementById('intro').children];
+        const deck = kids.findIndex(e => e.classList.contains('deck-inline'));
+        const terms = kids.findIndex(e => e.matches('.sheet[data-lang~="en"]') &&
+          [...e.querySelectorAll('table')].some(t => /^term$/i.test(t.rows[0].cells[0].textContent.trim())));
+        const who = kids.findIndex(e => e.matches('.sheet[data-lang~="en"]') &&
+          /who.s who/i.test(e.textContent));
+        return terms > -1 && terms < deck && deck < who;
+      }));
 
     const nCards = await page.evaluate(() => +document.querySelector('.dnum').innerText.split('/')[1]);
     const nTerms = await page.evaluate(() => {
@@ -141,8 +155,22 @@ async function open(browser, url) {
       await page.evaluate(() => document.querySelector('.dnum').innerText.includes('2 /') &&
                                 document.querySelector('.dbar .pill').textContent === '1'));
 
+    // Sharing the tab with the sheet means the deck cannot simply own the
+    // keyboard: space belongs to whoever is reading until the deck is touched.
+    const atCard = () => page.evaluate(() => document.querySelector('.dnum').innerText);
+    const before = await atCard();
+    await page.evaluate(() => document.querySelector('#intro .sheet p').click());
+    await page.keyboard.press('Space');
+    check('cards: clicking back into the sheet gives the keyboard back',
+      await page.evaluate(() => document.querySelector('.flashcard.flipped') === null) &&
+      (await atCard()) === before);
+    await page.click('#flip');                     // and taking it back works
+    check('cards: touching the deck takes it again',
+      await page.evaluate(() => document.querySelector('.flashcard.flipped') !== null));
+    await page.click('#flip');
+
     // quiz
-    await page.click('.tab[data-v="quiz"]');
+    await page.click('.tab[data-v="chazara"]');
     await page.waitForSelector('.opt');
     const nOpts = await page.evaluate(() => document.querySelectorAll('.opt').length);
     check('daf: quiz renders 4 options', nOpts === 4, nOpts);
@@ -219,14 +247,14 @@ async function open(browser, url) {
       await page.evaluate(() => document.documentElement.dir === 'rtl' &&
                                 getComputedStyle(document.body).direction === 'rtl'));
     check('daf: the tabs are labelled in Hebrew',
-      await page.evaluate(() => document.querySelector('.tab[data-v="learn"]').innerText.includes('לימוד')));
+      await page.evaluate(() => document.querySelector('.tab[data-v="intro"]').innerText.includes('הקדמה')));
     check('daf: the button names Hebrew, in Hebrew', (await named() || '').includes('עברית'), await named());
     check('daf: and the menu ticks Hebrew', (await ticked()) === 'he', await ticked());
     // Chullin 98 has no Hebrew sheet, so the English one stands in — and it has
     // to keep reading left to right inside a page that runs the other way.
     check('daf: the stand-in English sheet is still shown once', await onlyFor('he'), JSON.stringify(await visible()));
     check('daf: and it stays left to right', await page.evaluate(() => {
-      const s = [...document.querySelectorAll('.sheet')].find(e => getComputedStyle(e).display !== 'none');
+      const s = [...document.querySelectorAll('.sheet')].find(e => e.offsetParent !== null);
       return getComputedStyle(s).direction === 'ltr';
     }));
     // There is no Hebrew quiz or deck either, so both stand in whole — the

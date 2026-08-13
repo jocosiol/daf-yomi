@@ -26,32 +26,30 @@
   </div>
   {% endif %}
 
+  {# Three tabs, in the order the daf is meant to be learnt: meet it, read it,
+     review it. Nothing is a tab because it is a different kind of thing — the
+     deck sits under the glossary it is made of, and the quiz at the end of the
+     review — so what the tabs offer is three moments, not four features. #}
   <div class="tabs" role="tablist">
     <button class="tab active" type="button" role="tab" aria-selected="true"
-            aria-controls="learn" data-v="learn">📖&nbsp;
-      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].learn }}</span>{% endfor -%}
+            aria-controls="intro" data-v="intro">📖&nbsp;
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].intro }}</span>{% endfor -%}
     </button>
-    {% if has_cards %}
-    <button class="tab" type="button" role="tab" aria-selected="false"
-            aria-controls="cards" data-v="cards">🃏&nbsp;
-      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards }}</span>{% endfor -%}
-    </button>
-    {% endif %}
-    {% if has_quiz %}
-    <button class="tab" type="button" role="tab" aria-selected="false"
-            aria-controls="quiz" data-v="quiz">🎯&nbsp;
-      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].quiz }}</span>{% endfor -%}
-    </button>
-    {% endif %}
     {% if daf %}
     <button class="tab" type="button" role="tab" aria-selected="false"
             aria-controls="daf" data-v="daf">📜&nbsp;
       {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].daf }}</span>{% endfor -%}
     </button>
     {% endif %}
+    <button class="tab" type="button" role="tab" aria-selected="false"
+            aria-controls="chazara" data-v="chazara">🎯&nbsp;
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].chazara }}</span>{% endfor -%}
+    </button>
   </div>
 
-  <section class="view active" id="learn" role="tabpanel">
+  {# The big picture, the terms, the deck made of them, and the sages — what you
+     want in front of you before you open the daf itself. #}
+  <section class="view active" id="intro" role="tabpanel">
     {% for l in untranslated %}
     <div class="untranslated" data-lang="{{ l }}">{{ ui[l].untranslated }}</div>
     {% endfor %}
@@ -61,35 +59,39 @@
        reader, and speak.js must pick a voice for what is written here. #}
     <div class="sheet" data-lang="{{ g.langs }}" data-speak-lang="{{ g.lang }}"
          lang="{{ g.lang }}" dir="{{ g.dir }}">
-      {{ g.learn_html|safe }}
-      {% if g.tomorrow.ref %}
-      <p class="tomorrow">{{ ui[g.lang].tomorrow }}{% if g.tomorrow.display %} ({{ g.tomorrow.display }}){% endif %}:
-        <strong>{{ g.tomorrow.ref }}</strong>{% if g.tomorrow.teaser %} — {{ g.tomorrow.teaser }}{% endif %}</p>
-      {% endif %}
+      {{ g.intro_html|safe }}
     </div>
     {% endfor %}
-  </section>
 
-  {% if has_cards %}
-  <section class="view" id="cards" role="tabpanel">
-    <p class="deck-intro">
-    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards_intro }}</span>{% endfor -%}
-    </p>
-    <div class="deck" id="deckCard"></div>
-    <div class="hint">
-    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards_tip }}</span>{% endfor -%}
+    {% if has_cards %}
+    {# One deck for the page, sitting between the two halves of every language's
+       Introduction — under the glossary it is built from, above Who's who. It
+       can be emitted once because only one language's sheet is on screen at a
+       time and cards.js re-picks the deck when the language changes; a mount
+       per language would mean the same id several times over. #}
+    <div class="deck-inline">
+      <h2>🃏&nbsp;
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards }}</span>{% endfor -%}
+      </h2>
+      <p class="deck-intro">
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards_intro }}</span>{% endfor -%}
+      </p>
+      <div class="deck" id="deckCard"></div>
+      <div class="hint">
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].cards_tip }}</span>{% endfor -%}
+      </div>
     </div>
-  </section>
-  {% endif %}
+    {% endif %}
 
-  {% if has_quiz %}
-  <section class="view" id="quiz" role="tabpanel">
-    <div class="quiz" id="quizCard"></div>
-    <div class="hint">
-    {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].tip }}</span>{% endfor -%}
+    {% for g in groups %}
+    {% if g.who_html %}
+    <div class="sheet" data-lang="{{ g.langs }}" data-speak-lang="{{ g.lang }}"
+         lang="{{ g.lang }}" dir="{{ g.dir }}">
+      {{ g.who_html|safe }}
     </div>
+    {% endif %}
+    {% endfor %}
   </section>
-  {% endif %}
 
   {% if daf %}
   {# Tzurat hadaf: Gemara down the middle, Rashi on the inner margin and Tosafot
@@ -256,16 +258,63 @@
   </section>
   {% endif %}
 
+  {# Everything you do once the daf is read: the argument walked through, the
+     distinctions in a grid, the line to carry — and then the test, which is the
+     last thing on the page because it is the last thing you do. #}
+  <section class="view" id="chazara" role="tabpanel">
+    {% for l in untranslated %}
+    <div class="untranslated" data-lang="{{ l }}">{{ ui[l].untranslated }}</div>
+    {% endfor %}
+    {% for g in groups %}
+    {% if g.chazara_html %}
+    <div class="sheet" data-lang="{{ g.langs }}" data-speak-lang="{{ g.lang }}"
+         lang="{{ g.lang }}" dir="{{ g.dir }}">
+      {{ g.chazara_html|safe }}
+    </div>
+    {% endif %}
+    {% endfor %}
+
+    {% if has_quiz %}
+    <div class="quiz-inline">
+      <h2>🎯&nbsp;
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].quiz_head }}</span>{% endfor -%}
+      </h2>
+      <div class="quiz" id="quizCard"></div>
+      <div class="hint">
+      {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].tip }}</span>{% endfor -%}
+      </div>
+    </div>
+    {% endif %}
+
+    {# Last of all, and outside the sheets, so it closes the page rather than
+       the prose: what is coming tomorrow. #}
+    {% for g in groups %}
+    {% if g.tomorrow.ref %}
+    <p class="tomorrow" data-lang="{{ g.langs }}" lang="{{ g.lang }}" dir="{{ g.dir }}">
+      {{ ui[g.lang].tomorrow }}{% if g.tomorrow.display %} ({{ g.tomorrow.display }}){% endif %}:
+      <strong>{{ g.tomorrow.ref }}</strong>{% if g.tomorrow.teaser %} — {{ g.tomorrow.teaser }}{% endif %}</p>
+    {% endif %}
+    {% endfor %}
+  </section>
+
   <footer class="disclaimer foot" role="note">
   {%- for l in langs %}<span data-lang="{{ l }}">{{ ui[l].disclaimer_foot }}</span>{% endfor -%}
   </footer>
+  {% if feedback %}
+  {# Directly under the notice that says the sheet can be wrong, because this is
+     the answer to it — but outside that block rather than inside, since the Daf
+     view hides it and a broken page is worth hearing about there too. One link
+     per language, each carrying its own prefilled mail — but no address, and so
+     no href: feedback.js adds both and unhides the block. #}
+  <p class="feedback" hidden>✉️&nbsp;
+  {%- for l in langs %}<span data-lang="{{ l }}"><a data-q="{{ feedback[l] }}">{{ ui[l].feedback }}</a></span>{% endfor -%}
+  </p>
+  {% endif %}
 </div>
-{# tabs.js owns switching for every view, so a daf can have a deck without a
-   quiz — the handler used to live in quiz.js, which only loads when there is
-   one. It must come first: quiz.js and cards.js listen for its "dafview". #}
-{% if has_quiz or has_cards or daf %}
+{# tabs.js owns switching for every view. Unconditional: every sheet has at
+   least the Introduction and Chazara tabs, whatever else the daf turned out to
+   have. It must come first — quiz.js and cards.js listen for its "dafview". #}
 <script src="{{ asset('tabs.js') }}"></script>
-{% endif %}
 {% if daf %}
 <script src="{{ asset('daf.js') }}"></script>
 {% endif %}

@@ -60,6 +60,60 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Iehudá** (bar Ilái) — Taná de cuarta generación, discípulo destacado de Rabí Akivá; aquí la voz
+  de *min bemino lo batel* y del trozo que "se vuelve neveilá", y la fuente que Rav sigue.
+- **Los Sabios** (*Jajamim*) — la mayoría anónima contra Rabí Iehudá: se juzga la olla entera, no el
+  trozo único.
+- **Rabí** (Iehudá HaNasí, *Rebí*) — Taná de quinta/sexta generación, redactor de la Mishná; media el
+  acuerdo entre Rabí Iehudá y los Sabios según si la olla se revolvió y se tapó.
+- **Rabí Shimón hijo de Rabí** (*Rabí Shimón beRabí*) — un hijo de Rabí Iehudá HaNasí; sostiene *efshar
+  lisojató mutar*.
+- **Leví** (bar Sisí) — un Taná tardío / figura de transición, discípulo de Rabí, que mantenía su propia
+  colección de baraitot; sostiene que uno recibe azotes aun por la *cocción*.
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de Tiberias; sostiene *efshar lisojató asur*.
+- **Reish Lakish** (Rabí Shimón ben Lakish) — segunda generación, gran contrincante y cuñado de Rabí
+  Iojanán; sostiene *efshar lisojató mutar*.
+- **Rabí Janiná** (bar Jamá) — Amorá de Erretz Israel de primera generación, en Tzipori; sostiene *efshar
+  lisojató asur*.
+
+**Amoraím de Babilonia**
+
+- **Rav** (Aba Arijá) — primera generación, fundador de Sura; el trozo "se vuelve neveilá", y *efshar
+  lisojató asur*.
+- **Shmuel** — primera generación, cabeza de Nehardea, contraparte constante de Rav; sostiene *efshar
+  lisojató mutar*.
+- **Abaie** — cuarta generación, cabeza de Pumbedita; que el sabor prohíbe por ley de la Torá en todos
+  lados.
+- **Rava** (bar Iosef bar Jamá) — cuarta generación, cabeza de Majoza; "la Torá lo prohibió al modo de la
+  cocción", y la lectura más fina de Rabí Iehudá sobre la mezcla de tres partes.
+- **Ravina** — la respuesta de que la salsa espesa es *igual* y la rala *distinta*. (Cuál Ravina — el
+  contemporáneo mayor de Rav Ashi o su sobrino — la Guemará no lo fija; yo no lo forzaría.)
+- **Mar Zutrá, hijo de Rav Marí** — un Amorá posterior; le plantea a Ravina la objeción de que Rav parece
+  discutir con Rava. (Una figura menor bajo este patronímico; no construiría una biografía sobre el
+  nombre.)
+- **Mar, hijo de Rav Ashi** (*Mar bar Rav Ashi*) — sexta/séptima generación, cabeza de la academia de
+  Sura; la resolución de "su cinturón es prueba" arrastrada desde la discusión de ayer sobre las tortas
+  de Baitos.
+
+*Parecidos que conviene señalar:*
+- **Rava** (bar Iosef bar Jamá, de Majoza) no es **Rabá** (bar Najmaní); ambos aparecen a lo largo de
+  Julín.
+- Dos "Rabí Shimón" están en una misma disputa aquí: **Rabí Shimón hijo de Rabí** (el Taná, hijo de
+  Rebí) y **Reish Lakish**, cuyo nombre es *Rabí Shimón ben Lakish* — hombres distintos, mismo bando de
+  *efshar lisojató mutar*.
+- **Mar bar Rav Ashi** (hijo del redactor) no es **Rav Ajá bar Rav Ashi**.
+- **Rav** no es **Rava**; y aquí es **Rabí Janiná** el Amorá, no los muchos *Janiná* tradentes
+  posteriores.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 108a — ¿Prohíbe el sabor solo por ley de la Torá?
@@ -188,60 +242,6 @@ contaminado la olla entera?* Tres respuestas, a cada una se le hacen las mismas 
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Iehudá** (bar Ilái) — Taná de cuarta generación, discípulo destacado de Rabí Akivá; aquí la voz
-  de *min bemino lo batel* y del trozo que "se vuelve neveilá", y la fuente que Rav sigue.
-- **Los Sabios** (*Jajamim*) — la mayoría anónima contra Rabí Iehudá: se juzga la olla entera, no el
-  trozo único.
-- **Rabí** (Iehudá HaNasí, *Rebí*) — Taná de quinta/sexta generación, redactor de la Mishná; media el
-  acuerdo entre Rabí Iehudá y los Sabios según si la olla se revolvió y se tapó.
-- **Rabí Shimón hijo de Rabí** (*Rabí Shimón beRabí*) — un hijo de Rabí Iehudá HaNasí; sostiene *efshar
-  lisojató mutar*.
-- **Leví** (bar Sisí) — un Taná tardío / figura de transición, discípulo de Rabí, que mantenía su propia
-  colección de baraitot; sostiene que uno recibe azotes aun por la *cocción*.
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de Tiberias; sostiene *efshar lisojató asur*.
-- **Reish Lakish** (Rabí Shimón ben Lakish) — segunda generación, gran contrincante y cuñado de Rabí
-  Iojanán; sostiene *efshar lisojató mutar*.
-- **Rabí Janiná** (bar Jamá) — Amorá de Erretz Israel de primera generación, en Tzipori; sostiene *efshar
-  lisojató asur*.
-
-**Amoraím de Babilonia**
-
-- **Rav** (Aba Arijá) — primera generación, fundador de Sura; el trozo "se vuelve neveilá", y *efshar
-  lisojató asur*.
-- **Shmuel** — primera generación, cabeza de Nehardea, contraparte constante de Rav; sostiene *efshar
-  lisojató mutar*.
-- **Abaie** — cuarta generación, cabeza de Pumbedita; que el sabor prohíbe por ley de la Torá en todos
-  lados.
-- **Rava** (bar Iosef bar Jamá) — cuarta generación, cabeza de Majoza; "la Torá lo prohibió al modo de la
-  cocción", y la lectura más fina de Rabí Iehudá sobre la mezcla de tres partes.
-- **Ravina** — la respuesta de que la salsa espesa es *igual* y la rala *distinta*. (Cuál Ravina — el
-  contemporáneo mayor de Rav Ashi o su sobrino — la Guemará no lo fija; yo no lo forzaría.)
-- **Mar Zutrá, hijo de Rav Marí** — un Amorá posterior; le plantea a Ravina la objeción de que Rav parece
-  discutir con Rava. (Una figura menor bajo este patronímico; no construiría una biografía sobre el
-  nombre.)
-- **Mar, hijo de Rav Ashi** (*Mar bar Rav Ashi*) — sexta/séptima generación, cabeza de la academia de
-  Sura; la resolución de "su cinturón es prueba" arrastrada desde la discusión de ayer sobre las tortas
-  de Baitos.
-
-*Parecidos que conviene señalar:*
-- **Rava** (bar Iosef bar Jamá, de Majoza) no es **Rabá** (bar Najmaní); ambos aparecen a lo largo de
-  Julín.
-- Dos "Rabí Shimón" están en una misma disputa aquí: **Rabí Shimón hijo de Rabí** (el Taná, hijo de
-  Rebí) y **Reish Lakish**, cuyo nombre es *Rabí Shimón ben Lakish* — hombres distintos, mismo bando de
-  *efshar lisojató mutar*.
-- **Mar bar Rav Ashi** (hijo del redactor) no es **Rav Ajá bar Rav Ashi**.
-- **Rav** no es **Rava**; y aquí es **Rabí Janiná** el Amorá, no los muchos *Janiná* tradentes
-  posteriores.
-
----
-
 ## Una línea para llevarte
 
 > Un sabor prohibido que se empapa en la carne no se queda ahí esperando a ser diluido — para Rav, el
@@ -249,7 +249,7 @@ contaminado la olla entera?* Tres respuestas, a cada una se le hacen las mismas 
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: En la mishná, ¿cuándo queda prohibido el trozo único de carne por la gota de leche que cayó sobre él?

@@ -59,6 +59,43 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Iehudá** (bar Ilái) — Taná de cuarta generación, discípulo destacado de Rabí Akivá; la voz, aquí
+  reivindicada, de *efshar lisojató asur* y *min bemino lo batil*.
+- **Los Sabios** (*Jajamim*) — la mayoría anónima que él disputa, que sostiene que un trozo exprimido está
+  permitido y que lo igual se anula en lo igual.
+- **Rabí** (Iehudá HaNasí, *Rebí*) — Taná de quinta/sexta generación, redactor de la Mishná; se muestra
+  que su acuerdo equilibrado descansa sobre la cuestión del *exprimido*, y se decide con Rabí Iehudá.
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Zeirá** — tercera generación; un babilonio que ascendió a Erretz Israel, transmite el fallo de
+  Rav sobre la ubre en sus dos versiones.
+- **Rabí Elazar** (ben Pedat) — tercera generación, discípulo destacado de Rabí Iojanán; enseña que un
+  solo corte basta para la ubre. (No el Taná *Rabí Elazar ben Shamúa*, ni Rabí Eliézer.)
+
+**Amoraím de Babilonia**
+
+- **Rav** (Aba Arijá) — primera generación, fundador de Sura; fuente de las dos lecturas de "no transgrede
+  por ello", y, vía Rashi, del fallo que sigue a Rabí Iehudá.
+- **Rav Iehudá** (bar Iejezkel) — segunda generación, fundador de Pumbedita, discípulo de Rav y Shmuel;
+  prescribe rasgar la ubre *shetí vaérev*. (Nota el choque de nombres: este **Rav** Iehudá el Amorá no es
+  **Rabí** Iehudá bar Ilái el Taná, que también aparece en este mismísimo daf.)
+- **Rav Najmán** (bar Iaakov) — tercera generación, en Nehardea; esposo de Ialtá, que hace asar las ubres
+  para ella.
+- **Ialtá** — esposa de Rav Najmán e hija de la casa del Exilarca (de Rabá bar Avuhá); una figura culta y
+  enérgica, autora del principio de que toda prohibición tiene una gemela permitida.
+- **Rav Ajá de Difti** — un Amorá tardío, frecuente compañero de estudio de Ravina; plantea el desafío de
+  que la disputa podría ser sobre lo igual-en-lo-igual y no sobre el exprimido. (*De Difti* — de
+  Be-Difti; no confundir con Rav Ajá bar Rav Ashi ni con los muchos otros "Rav Ajá".)
+- **Ravina** — la respuesta desde la *forma* del fallo de Rabí que cierra la suguiá. (Si el Ravina mayor o
+  su sobrino, la Guemará no lo fija; yo no lo forzaría.)
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 109a — La disputa del exprimido, resuelta por fin
@@ -205,43 +242,6 @@ como leche o sangre real, y qué hay que hacer al respecto:
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Iehudá** (bar Ilái) — Taná de cuarta generación, discípulo destacado de Rabí Akivá; la voz, aquí
-  reivindicada, de *efshar lisojató asur* y *min bemino lo batil*.
-- **Los Sabios** (*Jajamim*) — la mayoría anónima que él disputa, que sostiene que un trozo exprimido está
-  permitido y que lo igual se anula en lo igual.
-- **Rabí** (Iehudá HaNasí, *Rebí*) — Taná de quinta/sexta generación, redactor de la Mishná; se muestra
-  que su acuerdo equilibrado descansa sobre la cuestión del *exprimido*, y se decide con Rabí Iehudá.
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Zeirá** — tercera generación; un babilonio que ascendió a Erretz Israel, transmite el fallo de
-  Rav sobre la ubre en sus dos versiones.
-- **Rabí Elazar** (ben Pedat) — tercera generación, discípulo destacado de Rabí Iojanán; enseña que un
-  solo corte basta para la ubre. (No el Taná *Rabí Elazar ben Shamúa*, ni Rabí Eliézer.)
-
-**Amoraím de Babilonia**
-
-- **Rav** (Aba Arijá) — primera generación, fundador de Sura; fuente de las dos lecturas de "no transgrede
-  por ello", y, vía Rashi, del fallo que sigue a Rabí Iehudá.
-- **Rav Iehudá** (bar Iejezkel) — segunda generación, fundador de Pumbedita, discípulo de Rav y Shmuel;
-  prescribe rasgar la ubre *shetí vaérev*. (Nota el choque de nombres: este **Rav** Iehudá el Amorá no es
-  **Rabí** Iehudá bar Ilái el Taná, que también aparece en este mismísimo daf.)
-- **Rav Najmán** (bar Iaakov) — tercera generación, en Nehardea; esposo de Ialtá, que hace asar las ubres
-  para ella.
-- **Ialtá** — esposa de Rav Najmán e hija de la casa del Exilarca (de Rabá bar Avuhá); una figura culta y
-  enérgica, autora del principio de que toda prohibición tiene una gemela permitida.
-- **Rav Ajá de Difti** — un Amorá tardío, frecuente compañero de estudio de Ravina; plantea el desafío de
-  que la disputa podría ser sobre lo igual-en-lo-igual y no sobre el exprimido. (*De Difti* — de
-  Be-Difti; no confundir con Rav Ajá bar Rav Ashi ni con los muchos otros "Rav Ajá".)
-- **Ravina** — la respuesta desde la *forma* del fallo de Rabí que cierra la suguiá. (Si el Ravina mayor o
-  su sobrino, la Guemará no lo fija; yo no lo forzaría.)
-
----
-
 ## Una línea para llevarte
 
 > "Para todo lo que el Misericordioso nos prohibió, nos permitió su semejante." — y la ubre, con su sabor
@@ -249,7 +249,7 @@ como leche o sangre real, y qué hay que hacer al respecto:
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: Según Ravina, ¿por qué Rabí Iehudá y los Sabios deben estar disputando si un trozo exprimido está prohibido?

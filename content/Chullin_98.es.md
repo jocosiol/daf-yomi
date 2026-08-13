@@ -62,6 +62,92 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím y la generación de transición**
+
+- **Rebí** (רבי, citado como "mi padre" por sus hijos) — **Rabí Iehudá HaNasí**, **tana** de la última
+  generación, Beit Shearim y luego Tzipori, redactor de la Mishná. Aquí es el padre que permitía con
+  cuarenta y siete (y, según la historia siguiente, con cuarenta y cinco). *Pista del título: "Rebí"
+  a solas siempre se refiere a él.*
+- **Rabán Gamliel bar Rebí** (רבן גמליאל בר רבי) — **Rabán Gamliel III**, hijo y sucesor de R' Iehudá
+  HaNasí como Nasí; tana/amorá de primera generación de transición, Erretz Israel. Permite con 45.
+- **Rabí Shimón bar Rebí** (רבי שמעון בר רבי) — el otro hijo de R' Iehudá HaNasí, hermano de Rabán
+  Gamliel III, la misma generación de transición. Permite con 43.
+- **Rabí Jiiá** (רבי חייא) — **Jiiá Rabá**, tana de transición; nacido en Bavel, se trasladó a Erretz
+  Israel, cercano colega-discípulo de Rebí. El de la línea "¿acaso hay siquiera treinta?".
+  *Alerta de parecido:* no confundir con **Rabí Jiiá bar Aba**, un amorá de Erretz Israel mucho
+  posterior que también aparece en este daf.
+- **Rabí Shimón ben Iojái** (רבי שמעון בן יוחאי, RaSHBI) — **tana de 4ª generación**, Erretz Israel,
+  alumno destacado de **Rabí Akivá**. Aquí lee "*beshelá*" como "cocida con todo el carnero".
+- **Rabí Iehudá** (רבי יהודה) — **Rabí Iehudá bar Ilai**, **tana de 4ª generación**, Erretz Israel,
+  también alumno de R' Akivá y contrincante frecuente de RaSHBI. El sostenedor anónimo de
+  **min bemino lo batel** en el daf.
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Iehoshúa ben Leví** (רבי יהושע בן לוי) — **amorá de Erretz Israel de 1ª generación**, Lod;
+  contemporáneo mayor de Rabí Iojanán. Tanto la tradición de "sesenta" como la de "cien" pasan por él.
+- **Rabí Janiná** (רבי חנינא) — **Rabí Janiná bar Jama**, **amorá de Erretz Israel de 1ª generación**,
+  Tzipori, discípulo de Rebí. Explica la línea de R' Jiiá como *guzmá*.
+- **Rabí Iojanán** (רבי יוחנן) — **amorá de Erretz Israel de 2ª generación**, cabeza de la academia de
+  Tiberias, figura central del Ierushalmi; contrincante famoso: **Reish Lakish**. Citado aquí por
+  **jatzí shiur asur min haTorá**.
+- **Rabí Zeirá** (רבי זירא) — **amorá de 3ª generación**; nacido y formado en Bavel, luego emigró a
+  Erretz Israel (Tiberias), donde es el ejemplo clásico del rigor babilonio encontrándose con la
+  tradición de Erretz Israel. Desafía a Rav Shemen bar Aba.
+- **Rav Shemen bar Aba** (רב שמן בר אבא) — **amorá de Erretz Israel de 3ª generación**, Tiberias,
+  alumno de Rabí Iojanán. Transmite el dictamen de "sesenta y uno" de la casa del Nasí.
+- **Rabí Iaacov bar Idi** (רבי יעקב בר אידי) — **amorá de Erretz Israel de 3ª generación**, transmisor
+  destacado de **R' Iehoshúa ben Leví**. *Alerta de parecido:* distinto de **Rav Idi bar Avín** y de
+  **Rav Idi bar Idi bar Guershom**, que también aparecen en este daf.
+- **Rabí Shmuel bar Najmaní** (רבי שמואל בר נחמני) — **amorá de Erretz Israel de 3ª generación**, el
+  gran agadista de su generación, también transmisor de R' Iehoshúa ben Leví. Emparejado aquí con
+  R' Iaacov bar Idi como "los dos más grandes de la generación".
+- **Rabí Jiiá bar Aba** (רבי חייא בר אבא) — **amorá de Erretz Israel de 3ª generación**, alumno de
+  Rabí Iojanán. Reporta la versión de **sesenta**. (Ver la nota de parecido sobre Rabí Jiiá, arriba.)
+- **Rabí Shmuel bar Rav Itzjak** (רבי שמואל בר רב יצחק) — **amorá de 3ª generación**, nacido en Bavel,
+  activo en Erretz Israel. Confronta a R' Jiiá bar Aba con la versión de **cien**.
+- **Rav Asi** (רב אסי) — en el reporte de 60-contra-100, el **Rav Asi/Así** de Erretz Israel, colega de
+  Rabí Amí en Tiberias, **3ª generación**. *Alerta de parecido:* se escribe a un pelo de **Rav Ashi**
+  (רב אשי), el redactor babilonio, y de **Rav Así**, el colega babilonio de Rav Amí. En la historia de
+  la olla de grasa en 98a los textos leen "Rav Asi" proponiendo y "Rav Ashi" respondiendo, lo que la
+  mayoría de los comentaristas trata como una sola figura babilonia; lo señalaría como una
+  incertidumbre textual genuina y no pretendería que está resuelto.
+- **Rabí Jelbó** (רבי חלבו) — **amorá de 3ª generación**, nacido en Bavel y activo en Erretz Israel,
+  transmisor habitual de **Rav Huna**. Enuncia la versión de "sesenta y uno *además* de él".
+- **bar Kapará** (בר קפרא) — el sabio de Erretz Israel en cuyo nombre se reportan **ambas** versiones,
+  sesenta y cien. Una figura genuinamente oscura; las fuentes nos dan poco más que el nombre, y no
+  querría aventurar su generación ni sus maestros.
+- **Rabí Najum, Rabí Biriam, Leví bar Peratá, "un cierto anciano llamado Rabí Iaacov"** — los
+  eslabones intermedios de la larga cadena de transmisión de 98a. Todos parecen ser figuras de
+  Erretz Israel de las generaciones amoraicas más tempranas, pero son **menores y mal documentados**;
+  honestamente, la cadena misma es lo principal que sabemos de ellos.
+
+**Amoraím de Babilonia**
+
+- **Rav Huna** (רב הונא) — **amorá babilonio de 2ª generación**, cabeza de la academia de **Sura**, el
+  alumno más destacado de **Rav**. Citado vía R' Jelbó sobre la cuenta de sesenta y uno.
+- **Abaie** (אביי) — **amorá babilonio de 4ª generación**, cabeza de **Pumbedita**; criado por su tío
+  **Rabá bar Najmaní** (su maestro principal). Su dialéctica de toda la vida con **Rava** define el
+  período. Aquí reduce el "*esto*" de la baraita al *min bemino* de R' Iehudá.
+- **Rava** (רבא) — **amorá babilonio de 4ª generación** de **Majozá**, alumno de Rabá y de Rav Najmán,
+  el gran contrincante de Abaie (y aquel cuya opinión suele seguirse). Lee el "*esto*" de la baraita
+  como referido a **taam keikar** en *kodashim*. *Alerta de parecido:* **רבא (Rava)** es una persona
+  distinta de **רבה (Rabá)** — Rabá bar Najmaní, cabeza de Pumbedita de la 3ª generación y maestro de
+  Abaie. Una letra y una generación de diferencia.
+- **Rav Idi bar Avín** (רב אידי בר אבין) — **amorá babilonio de 4ª generación**, contemporáneo de Abaie
+  y Rava. Es quien aprieta a Abaie con los huevos, viniendo de 97b.
+- **Rav Ashi** (רב אשי) — **amorá babilonio de 6ª generación**, cabeza de la academia de
+  **Matá Mejasiá** (Sura) durante casi medio siglo, y el principal **redactor del Talmud Babilonio**.
+  Aquí, el padre corrigiendo a su hijo sobre las medidas.
+- **Mar bar Rav Ashi** (מר בר רב אשי) — también llamado **Taviomi**; **amorá babilonio de 7ª
+  generación**, hijo de Rav Ashi, más tarde cabeza de Sura. Propone el atajo de las treinta medias
+  aceitunas. *Alerta de parecido:* **Mar bar Rav Ashi** (el hijo) no es **Rav Aja bar Rav Ashi**, una
+  figura distinta y anterior que apareció en 97b en la disputa del muslo salado.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 98a — Abaie termina la respuesta del huevo (y lo aprietan fuerte)
@@ -245,92 +331,6 @@ Cada proporción que nombra el daf, en el orden en que la nombra — el arco de 
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím y la generación de transición**
-
-- **Rebí** (רבי, citado como "mi padre" por sus hijos) — **Rabí Iehudá HaNasí**, **tana** de la última
-  generación, Beit Shearim y luego Tzipori, redactor de la Mishná. Aquí es el padre que permitía con
-  cuarenta y siete (y, según la historia siguiente, con cuarenta y cinco). *Pista del título: "Rebí"
-  a solas siempre se refiere a él.*
-- **Rabán Gamliel bar Rebí** (רבן גמליאל בר רבי) — **Rabán Gamliel III**, hijo y sucesor de R' Iehudá
-  HaNasí como Nasí; tana/amorá de primera generación de transición, Erretz Israel. Permite con 45.
-- **Rabí Shimón bar Rebí** (רבי שמעון בר רבי) — el otro hijo de R' Iehudá HaNasí, hermano de Rabán
-  Gamliel III, la misma generación de transición. Permite con 43.
-- **Rabí Jiiá** (רבי חייא) — **Jiiá Rabá**, tana de transición; nacido en Bavel, se trasladó a Erretz
-  Israel, cercano colega-discípulo de Rebí. El de la línea "¿acaso hay siquiera treinta?".
-  *Alerta de parecido:* no confundir con **Rabí Jiiá bar Aba**, un amorá de Erretz Israel mucho
-  posterior que también aparece en este daf.
-- **Rabí Shimón ben Iojái** (רבי שמעון בן יוחאי, RaSHBI) — **tana de 4ª generación**, Erretz Israel,
-  alumno destacado de **Rabí Akivá**. Aquí lee "*beshelá*" como "cocida con todo el carnero".
-- **Rabí Iehudá** (רבי יהודה) — **Rabí Iehudá bar Ilai**, **tana de 4ª generación**, Erretz Israel,
-  también alumno de R' Akivá y contrincante frecuente de RaSHBI. El sostenedor anónimo de
-  **min bemino lo batel** en el daf.
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Iehoshúa ben Leví** (רבי יהושע בן לוי) — **amorá de Erretz Israel de 1ª generación**, Lod;
-  contemporáneo mayor de Rabí Iojanán. Tanto la tradición de "sesenta" como la de "cien" pasan por él.
-- **Rabí Janiná** (רבי חנינא) — **Rabí Janiná bar Jama**, **amorá de Erretz Israel de 1ª generación**,
-  Tzipori, discípulo de Rebí. Explica la línea de R' Jiiá como *guzmá*.
-- **Rabí Iojanán** (רבי יוחנן) — **amorá de Erretz Israel de 2ª generación**, cabeza de la academia de
-  Tiberias, figura central del Ierushalmi; contrincante famoso: **Reish Lakish**. Citado aquí por
-  **jatzí shiur asur min haTorá**.
-- **Rabí Zeirá** (רבי זירא) — **amorá de 3ª generación**; nacido y formado en Bavel, luego emigró a
-  Erretz Israel (Tiberias), donde es el ejemplo clásico del rigor babilonio encontrándose con la
-  tradición de Erretz Israel. Desafía a Rav Shemen bar Aba.
-- **Rav Shemen bar Aba** (רב שמן בר אבא) — **amorá de Erretz Israel de 3ª generación**, Tiberias,
-  alumno de Rabí Iojanán. Transmite el dictamen de "sesenta y uno" de la casa del Nasí.
-- **Rabí Iaacov bar Idi** (רבי יעקב בר אידי) — **amorá de Erretz Israel de 3ª generación**, transmisor
-  destacado de **R' Iehoshúa ben Leví**. *Alerta de parecido:* distinto de **Rav Idi bar Avín** y de
-  **Rav Idi bar Idi bar Guershom**, que también aparecen en este daf.
-- **Rabí Shmuel bar Najmaní** (רבי שמואל בר נחמני) — **amorá de Erretz Israel de 3ª generación**, el
-  gran agadista de su generación, también transmisor de R' Iehoshúa ben Leví. Emparejado aquí con
-  R' Iaacov bar Idi como "los dos más grandes de la generación".
-- **Rabí Jiiá bar Aba** (רבי חייא בר אבא) — **amorá de Erretz Israel de 3ª generación**, alumno de
-  Rabí Iojanán. Reporta la versión de **sesenta**. (Ver la nota de parecido sobre Rabí Jiiá, arriba.)
-- **Rabí Shmuel bar Rav Itzjak** (רבי שמואל בר רב יצחק) — **amorá de 3ª generación**, nacido en Bavel,
-  activo en Erretz Israel. Confronta a R' Jiiá bar Aba con la versión de **cien**.
-- **Rav Asi** (רב אסי) — en el reporte de 60-contra-100, el **Rav Asi/Así** de Erretz Israel, colega de
-  Rabí Amí en Tiberias, **3ª generación**. *Alerta de parecido:* se escribe a un pelo de **Rav Ashi**
-  (רב אשי), el redactor babilonio, y de **Rav Así**, el colega babilonio de Rav Amí. En la historia de
-  la olla de grasa en 98a los textos leen "Rav Asi" proponiendo y "Rav Ashi" respondiendo, lo que la
-  mayoría de los comentaristas trata como una sola figura babilonia; lo señalaría como una
-  incertidumbre textual genuina y no pretendería que está resuelto.
-- **Rabí Jelbó** (רבי חלבו) — **amorá de 3ª generación**, nacido en Bavel y activo en Erretz Israel,
-  transmisor habitual de **Rav Huna**. Enuncia la versión de "sesenta y uno *además* de él".
-- **bar Kapará** (בר קפרא) — el sabio de Erretz Israel en cuyo nombre se reportan **ambas** versiones,
-  sesenta y cien. Una figura genuinamente oscura; las fuentes nos dan poco más que el nombre, y no
-  querría aventurar su generación ni sus maestros.
-- **Rabí Najum, Rabí Biriam, Leví bar Peratá, "un cierto anciano llamado Rabí Iaacov"** — los
-  eslabones intermedios de la larga cadena de transmisión de 98a. Todos parecen ser figuras de
-  Erretz Israel de las generaciones amoraicas más tempranas, pero son **menores y mal documentados**;
-  honestamente, la cadena misma es lo principal que sabemos de ellos.
-
-**Amoraím de Babilonia**
-
-- **Rav Huna** (רב הונא) — **amorá babilonio de 2ª generación**, cabeza de la academia de **Sura**, el
-  alumno más destacado de **Rav**. Citado vía R' Jelbó sobre la cuenta de sesenta y uno.
-- **Abaie** (אביי) — **amorá babilonio de 4ª generación**, cabeza de **Pumbedita**; criado por su tío
-  **Rabá bar Najmaní** (su maestro principal). Su dialéctica de toda la vida con **Rava** define el
-  período. Aquí reduce el "*esto*" de la baraita al *min bemino* de R' Iehudá.
-- **Rava** (רבא) — **amorá babilonio de 4ª generación** de **Majozá**, alumno de Rabá y de Rav Najmán,
-  el gran contrincante de Abaie (y aquel cuya opinión suele seguirse). Lee el "*esto*" de la baraita
-  como referido a **taam keikar** en *kodashim*. *Alerta de parecido:* **רבא (Rava)** es una persona
-  distinta de **רבה (Rabá)** — Rabá bar Najmaní, cabeza de Pumbedita de la 3ª generación y maestro de
-  Abaie. Una letra y una generación de diferencia.
-- **Rav Idi bar Avín** (רב אידי בר אבין) — **amorá babilonio de 4ª generación**, contemporáneo de Abaie
-  y Rava. Es quien aprieta a Abaie con los huevos, viniendo de 97b.
-- **Rav Ashi** (רב אשי) — **amorá babilonio de 6ª generación**, cabeza de la academia de
-  **Matá Mejasiá** (Sura) durante casi medio siglo, y el principal **redactor del Talmud Babilonio**.
-  Aquí, el padre corrigiendo a su hijo sobre las medidas.
-- **Mar bar Rav Ashi** (מר בר רב אשי) — también llamado **Taviomi**; **amorá babilonio de 7ª
-  generación**, hijo de Rav Ashi, más tarde cabeza de Sura. Propone el atajo de las treinta medias
-  aceitunas. *Alerta de parecido:* **Mar bar Rav Ashi** (el hijo) no es **Rav Aja bar Rav Ashi**, una
-  figura distinta y anterior que apareció en 97b en la disputa del muslo salado.
-
----
-
 ## Una línea para llevarte
 
 > El número sesenta no es una tradición recibida — es un acto de *lectura*: una pata delantera
@@ -344,7 +344,7 @@ Cada proporción que nombra el daf, en el orden en que la nombra — el arco de 
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿Cómo defiende Abaie la afirmación de que un huevo no kosher no imparte sabor?

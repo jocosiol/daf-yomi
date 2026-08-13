@@ -205,12 +205,26 @@
   });
 
   document.addEventListener("dafview", function (e) {
-    if (e.detail.view === "cards" && ALL.length && !deck.innerHTML.trim()) start(ALL, 1);
+    if (e.detail.view === "intro" && ALL.length && !deck.innerHTML.trim()) start(ALL, 1);
+  });
+
+  /* The deck lives inside the Introduction tab rather than owning one, so it
+     cannot simply take the keyboard: space would flip a card under someone
+     scrolling the sheet above it. It gets the keys once you touch it, and
+     loses them the moment you go back to reading. Tracked as a flag rather
+     than read off document.activeElement, because rating a card rewrites the
+     deck and the focus goes with it. */
+  var hasKeys = false;
+  document.addEventListener("click", function (e) {
+    hasKeys = !!(e.target.closest && e.target.closest("#deckCard"));
+  });
+  document.addEventListener("focusin", function (e) {
+    if (e.target.closest && e.target.closest("#deckCard")) hasKeys = true;
   });
 
   document.addEventListener("keydown", function (e) {
-    var v = document.getElementById("cards");
-    if (!v || !v.classList.contains("active")) return;
+    var v = document.getElementById("intro");
+    if (!hasKeys || !v || !v.classList.contains("active")) return;
     if (e.key === " " || e.key === "Enter") {
       // a focused button activates itself on these; don't also act on them here
       if (e.target && e.target.closest && e.target.closest("button")) return;

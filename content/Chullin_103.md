@@ -61,6 +61,49 @@ The daf falls into two very different halves, and then a seam:
 
 ---
 
+## Who's who in today's daf
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of Tiberias. "Throat pleasure" decides;
+  two sets for limb-and-tereifa.
+- **Reish Lakish** (Rabbi Shimon ben Lakish) — second generation, Tiberias; Rabbi Yochanan's
+  brother-in-law and great disputant. Requires the olive-bulk to reach the stomach.
+- **Rabbi Chiyya bar Abba** — third generation, Tiberias; a leading transmitter of Rabbi Yochanan's
+  teachings. Reports "two" for fat from a living tereifa. Not Rabbi Chiyya the Tanna, and not Rabbi
+  Chiyya bar Yosef.
+- **Rabbi Ami** — third generation, a head of the Tiberias academy after Rabbi Yochanan's circle.
+  Insists the count is three.
+- **Rabbi Abbahu** — third generation, Caesarea; a prominent student of Rabbi Yochanan. Restates the
+  ruling as three.
+- **Rabbi Asi** — third generation, Tiberias, often paired with Rabbi Ami. The one who "forgot" his
+  own tradition; **not** Rav Ashi the Babylonian redactor.
+- **Rabbi Elazar** (ben Pedat) — third generation, moved from Babylonia to Eretz Yisrael; here he
+  extends liability to a limb split outside the mouth, and gently reminds Rabbi Asi. Not the Tannaim
+  named Elazar met on 102.
+
+**Babylonian Amoraim**
+
+- **Rav Yosef** (bar Chiyya) — third generation, Pumbedita. Resolves the contradiction by splitting
+  one animal from two.
+- **Abaye** — fourth generation, head of Pumbedita; Rava's lifelong disputant. Frames the "born at
+  birth" case.
+- **Rava** — fourth generation, Machoza. Offers the reversed case: tearing a limb *is* what makes the
+  beast a tereifa.
+- **Rav Dimi** and **Ravin** — fourth generation travellers (*nachotei*) who carried Eretz-Yisrael
+  teachings to Babylonia, here in slightly different versions of the same exchange.
+- **Rav Kahana** — a common name across several generations; here the one who supplies the
+  swallowed-bone case. Given the ambiguity I would not pin down which Rav Kahana this is.
+- **Rav Pappa** — fifth generation, founder of the academy at Naresh. Narrows the teeth-versus-gums
+  dispute.
+
+*Look-alikes worth flagging:* **Rabbi Asi** the Eretz-Yisrael Amora (with a *Rabbi*) is not **Rav
+Ashi** the Babylonian. **Rabbi Elazar** here is the Amora ben Pedat, not the Tannaim Elazar ben
+Shammua or Elazar bar Rabbi Shimon from 102. And **Rabbi Chiyya bar Abba** the Amora is not **Rabbi
+Chiyya** the Tanna.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 103a — Three prohibitions, and the moment each is born
@@ -177,49 +220,6 @@ One question runs through the whole second half — does liability follow the **
 | Half an olive-bulk, vomited, then another half | **Liable** | Not stated |
 
 Two voices sit outside the grid: **Rabbi Elazar**, who convicts even in the first row — lacking mere *proximity* is not lacking an act — and **Rav Kahana**, who shows how Reish Lakish can ever convict at all, with a *גְּרוֹמִיתָא זְעֵירְתָּא* swallowed whole.
-
----
-
-## Who's who in today's daf
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of Tiberias. "Throat pleasure" decides;
-  two sets for limb-and-tereifa.
-- **Reish Lakish** (Rabbi Shimon ben Lakish) — second generation, Tiberias; Rabbi Yochanan's
-  brother-in-law and great disputant. Requires the olive-bulk to reach the stomach.
-- **Rabbi Chiyya bar Abba** — third generation, Tiberias; a leading transmitter of Rabbi Yochanan's
-  teachings. Reports "two" for fat from a living tereifa. Not Rabbi Chiyya the Tanna, and not Rabbi
-  Chiyya bar Yosef.
-- **Rabbi Ami** — third generation, a head of the Tiberias academy after Rabbi Yochanan's circle.
-  Insists the count is three.
-- **Rabbi Abbahu** — third generation, Caesarea; a prominent student of Rabbi Yochanan. Restates the
-  ruling as three.
-- **Rabbi Asi** — third generation, Tiberias, often paired with Rabbi Ami. The one who "forgot" his
-  own tradition; **not** Rav Ashi the Babylonian redactor.
-- **Rabbi Elazar** (ben Pedat) — third generation, moved from Babylonia to Eretz Yisrael; here he
-  extends liability to a limb split outside the mouth, and gently reminds Rabbi Asi. Not the Tannaim
-  named Elazar met on 102.
-
-**Babylonian Amoraim**
-
-- **Rav Yosef** (bar Chiyya) — third generation, Pumbedita. Resolves the contradiction by splitting
-  one animal from two.
-- **Abaye** — fourth generation, head of Pumbedita; Rava's lifelong disputant. Frames the "born at
-  birth" case.
-- **Rava** — fourth generation, Machoza. Offers the reversed case: tearing a limb *is* what makes the
-  beast a tereifa.
-- **Rav Dimi** and **Ravin** — fourth generation travellers (*nachotei*) who carried Eretz-Yisrael
-  teachings to Babylonia, here in slightly different versions of the same exchange.
-- **Rav Kahana** — a common name across several generations; here the one who supplies the
-  swallowed-bone case. Given the ambiguity I would not pin down which Rav Kahana this is.
-- **Rav Pappa** — fifth generation, founder of the academy at Naresh. Narrows the teeth-versus-gums
-  dispute.
-
-*Look-alikes worth flagging:* **Rabbi Asi** the Eretz-Yisrael Amora (with a *Rabbi*) is not **Rav
-Ashi** the Babylonian. **Rabbi Elazar** here is the Amora ben Pedat, not the Tannaim Elazar ben
-Shammua or Elazar bar Rabbi Shimon from 102. And **Rabbi Chiyya bar Abba** the Amora is not **Rabbi
-Chiyya** the Tanna.
 
 ---
 

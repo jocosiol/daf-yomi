@@ -63,19 +63,37 @@ chrome. `hebrew_spans` leaves an RTL sheet alone for the same reason: it is alre
 `he`/`rtl`, and marking every run inside it again would cut each one off from the
 punctuation between them.
 
-## The four views
+## The three views
+
+The tabs are the order the daf is meant to be learnt in — meet it, read it, review it — not
+a menu of features:
+
+| Tab | What is in it |
+|---|---|
+| 📖 **Introduction** | the big picture, the glossary, the deck built from it, and who's who |
+| 📜 **The Daf** | the daf itself: the printed page, or the text as tzurat hadaf; below |
+| 🎯 **Chazara** | the walkthrough, the grid, the line to carry — and then the test |
 
 `tabs.js` switches between them and announces the one it opened as a `dafview` event; each
-panel wakes itself up on that. **Learn** is the rendered sheet. **Chazara Quiz** is the
-`yaml` block under `## Chazara`. **Flashcards** is the `| Term | Meaning |` table under
-`## Key concepts`, read out of the same markdown the Learn view renders — the deck cannot
+panel wakes itself up on that.
+
+The two prose tabs are one sheet, cut in two. `build.split_body` cuts it at the
+`## Walking through the sugya` heading — named per language in `validate.WALK_SECTION` — and
+again at Who's who, so the deck can be dropped between the glossary and the sages. The
+sheet decides where the cut falls by where it puts its sections; nothing in the build knows
+which section is which beyond those headings.
+
+The deck and the test are inside those panels rather than tabs of their own, because neither
+is a thing you go to: the cards are the glossary you have just read, and the test is what
+you do at the end of the review. **Flashcards** is the `| Term | Meaning |` table under
+`## Key concepts`, read out of the same markdown the Introduction renders — the deck cannot
 drift from the sheet, because the glossary is written once. A daf with fewer than
-`build.MIN_CARDS` terms gets no deck and no tab. **The Daf** is the daf itself — the
-printed page, or the text laid out as tzurat hadaf; below.
+`build.MIN_CARDS` terms gets no deck at all. The test is the `yaml` block under
+`## Chazara`, which `sheet.split_quiz` lifts out of the body.
 
 ## The Daf
 
-The other three views are things we wrote *about* the daf. This one is the daf, in two
+The other two views are things we wrote *about* the daf. This one is the daf, in two
 readings of it, switched by a pair of chips at the top of the tab.
 
 **Printed page** — the default — is the Vilna daf itself, one PDF per amud, served by
@@ -86,7 +104,8 @@ appearances — the PDFs are typeset, with no images and 47 embedded font subset
 matters below.
 
 Under each page are its **passages, line by line**: one row per Sefaria segment in printed
-order, the Hebrew clamped to a single line, tapping one to open its English. That is there
+order, the Hebrew clamped to a single line, tapping one to open its English (in the English
+view — below). That is there
 because the obvious thing — tap a line *on the page* — cannot be built. Two independent
 reasons: a cross-origin iframe hands us no events at all, and even rendering the PDF
 ourselves with pdf.js would not help, because only 8 of those 47 font subsets carry a
@@ -107,6 +126,35 @@ that has the translation, that a phone can render, and that a reader can search.
 The two are independent, and the build offers only what each daf actually has: the last daf
 of a tractate has no amud bet of either, and Shekalim, Kinnim and Middot are printed dapim
 that Sefaria has no Bavli text for at all — a page, and no text.
+
+### The translation is English, and only English
+
+Both readings carry Sefaria's translation, and there is only the one — Steinsaltz in
+English. To a reader who asked for Spanish or Hebrew that is not a translation of anything
+they asked for, it is a third language in the middle of the daf, so **outside the English
+view it is not shown at all**: not the column in the text mode, not the line each passage
+opens onto under the printed page, and not the chip that would ask for it. The Hebrew and
+Aramaic of the daf, its Rashi and its Tosafot are of course untouched — they are the daf.
+
+Three consequences, and each is handled where it belongs:
+
+- `daf.css` hides the translation and the chip on `html:not([lang="en"])`, so the rule holds
+  whether or not `daf.js` ran. This is the one place in the stylesheet that names the
+  language the translation is in; adding a fourth site language needs nothing here.
+- `daf.js` does what a stylesheet cannot. A remembered "show English" is not honoured; the
+  bar goes if hiding the chip leaves it with nothing but its label (a daf with no margins);
+  and the passages under the printed page stop folding — they fold in order to open onto
+  their English, and clamped to one line with nothing to open they would hide the daf behind
+  a control that reveals nothing. It reads which language the translation is in off the
+  markup (`lang` on `.g-en` / `.line-body`) rather than repeating it, and redoes all of this
+  on `daflang`, since the language can change without leaving the tab.
+- `i18n.py` drops the promise from the copy in those languages: the Spanish and Hebrew
+  `daf_intro_scan` and `daf_lines` say what the strip under the page *is* — the text of the
+  daf, passage by passage — instead of offering an English the reader will not be shown.
+
+The Davidson credit stays in every language regardless: the Hebrew text of the Gemara comes
+from the same **CC BY-NC 4.0** edition as the translation, and that credit is a licence
+condition, not a courtesy.
 
 ```bash
 python3 build/daftext.py Chullin 108   # one daf into content/daf/Chullin_108.json
@@ -163,7 +211,8 @@ domain.
 
 ## Read aloud
 
-`speak.js` puts a 🔊 button in every heading of the Learn sheet and reads the section under
+`speak.js` puts a 🔊 button in every heading of the written sheet — both prose tabs — and
+reads the section under
 it — heading first, then each paragraph, quote, list item and table row until the next
 heading of the same or higher level, highlighting whichever one is being said. It uses the
 browser's own speech synthesis, so nothing is generated at build time.
@@ -211,6 +260,64 @@ the free **(Enhanced)** and **(Premium)** voices are a different era of synthesi
 Spoken Content → System Voice → Manage Voices**. Genuinely natural speech means neural TTS,
 which means pre-generating audio at build time: a paid API per character, and ~10–25 MB per
 daf per language, which a git-backed Pages site cannot carry for long.
+
+## Feedback
+
+Under the footer notice on every daf, and at the foot of the archive, is a
+**Found a mistake? Tell me** link. The notice says the sheet can be wrong; this
+is the reply to it, which is why it sits directly beneath.
+
+It is a `mailto:` and nothing else — the site is static files on Pages, so a form
+would mean a third-party endpoint, an account and a cross-origin POST from a page
+that currently makes none. The address is `feedback_email` in `content/site.json`;
+`null` removes the link everywhere, and the build says which of the two it did
+rather than leaving an absent link to look like an absent feature. An address
+without an `@` fails the build instead of publishing a link that goes nowhere.
+
+The mail arrives prefilled. `feedback_queries` bakes one per language, the same
+way every other translated string on the page is baked. Only the prompt is in the
+reader's language; the subject and the trailer that names the page are English
+whatever the page is, because they are read by whoever opens the inbox — and a
+subject that changed with the sender's language could not be filtered on. The
+trailer's URL is the daf's own permalink even when the reader was on the homepage,
+which is a different daf tomorrow, and carries `?lang=` so opening it lands on the
+sheet they were actually reading.
+
+    ✉️ Found a mistake? Tell me
+    →  To:      dafyomi@example.com
+       Subject: Daf Yomi feedback — Chullin 111
+       Body:    What is wrong, or what is missing? …
+
+                — Chullin 111 (en)
+                https://jocosiol.github.io/daf-yomi/Chullin_111.html?lang=en
+
+### The address is not in the page
+
+An address published in the markup of every page is an address that gets
+harvested, so the HTML carries the prefilled mail with nobody to send it to: the
+link has no `href`, only its subject and body in `data-q`. The address is in the
+config block as hex, XOR'd with a key written in front of it (`hide_email`), and
+`feedback.js` joins the two on load.
+
+Obfuscation, not secrecy — `feedback.js` is served to everyone, so anything that
+executes it can read the address back, and it has to be able to: the mail client
+is the thing that opens it. What it stops is the crawler that regexes HTML for
+`something@something`, which is what actually collects addresses at this scale.
+Withholding it until someone writes needs a server to write *to* — a form
+endpoint holding the address on its side, which is a third party, an account and
+a cross-origin POST. Still use an alias you can retire.
+
+The key is fixed rather than per-build, because this repo is the web server: a
+random key would rewrite the address in every page in git every morning and show
+up as 2,700 changed files.
+
+The block is hidden in the markup and revealed by the script, rather than shown
+and then repaired. With JavaScript off the link would have nowhere to go, and an
+invitation that does nothing when tapped is worse than none. It is the one part
+of the sheet that needs JS, which is the price of keeping the address out.
+
+What the link does **not** carry is which tab was open — the prompt asks for the
+section instead.
 
 ## Why the sheets look like this
 

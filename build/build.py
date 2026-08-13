@@ -29,6 +29,7 @@ import os
 import re
 import shutil
 import sys
+import urllib.parse
 
 import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -171,28 +172,39 @@ def daf_payload(data):
                 has_scan=any(a.get("pdf") for a in data["amudim"]))
 
 
-def with_deck_cta(body_md, lang):
-    """Splice a 'study these as flashcards' button under the glossary table.
+def split_body(body_md, lang):
+    """Cut a sheet into the three pieces the two prose tabs are built from.
 
-    The deck has a tab like Learn and Quiz do, but the moment you actually want
-    it is while reading the terms — so the button sits there too, and switches
-    to the tab. Inserted as markdown (python-markdown passes a block of raw HTML
-    through) rather than patched into the rendered fragment, which would mean
-    parsing our own output back.
+    The page is read in one order — meet the daf, read the daf, review it — and
+    the tabs are that order: **Introduction** is everything above the
+    walkthrough (the big picture, the glossary, who's who), the Daf itself sits
+    between them, and **Chazara** is the walkthrough and everything after it.
+    The cut is the walkthrough heading, so a sheet decides where it falls by
+    where it puts its sections; validate.py names the headings that mark it.
+
+    Who's who comes back separately from the rest of the Introduction so the
+    deck can be dropped between the two: the terms are read, then turned into
+    cards, then the sages. Returned as markdown rather than rendered, so each
+    piece is still one parse of a well-formed document.
+
+    A sheet missing either heading degrades instead of failing — whatever is
+    not found leaves its piece empty, and the rest keeps its place.
     """
-    needle = validate_mod.TERMS_SECTION.get(lang, validate_mod.TERMS_SECTION[i18n.DEFAULT])
-    span = validate_mod.section_span(body_md, needle)
-    if not span:
-        return body_md
-    start, end = span
-    seg = body_md[start:end]
-    # above the horizontal rule that closes the section, not below it
-    rule = re.search(r"(?:\s*^---\s*$\s*)+\Z", seg, re.M)
-    at = start + (rule.start() if rule else len(seg.rstrip()))
-    label = html_mod.escape(i18n.t(lang, "cards_cta"))
-    return (f'{body_md[:at]}\n\n<p class="deck-cta">'
-            f'<button class="btn ghost" type="button" data-open="cards">🃏 {label}</button>'
-            f'</p>\n\n{body_md[at:]}')
+    def cut_at(md, table):
+        needle = table.get(lang, table[i18n.DEFAULT])
+        return validate_mod.section_start(md, needle)
+
+    # The rule a section ends with divides it from the next one. Where the cut
+    # falls there is no next one — the piece ends, and the gap between two cards
+    # says it better than a line drawn inside one.
+    def trim(md):
+        return re.sub(r"(?:\s*^---\s*$)+\s*\Z", "\n", md, flags=re.M)
+
+    at = cut_at(body_md, validate_mod.WALK_SECTION)
+    head, chazara = (body_md[:at], body_md[at:]) if at is not None else (body_md, "")
+    at = cut_at(head, validate_mod.WHO_SECTION)
+    intro, who = (head[:at], head[at:]) if at is not None else (head, "")
+    return trim(intro), trim(who), trim(chazara)
 
 
 def script_json(obj):
@@ -205,8 +217,73 @@ def script_json(obj):
     return json.dumps(obj, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
+FEEDBACK_SUBJECT = "Daf Yomi feedback — {what}"
+# XOR'd against the address before it is written out, and written in front of it
+# so feedback.js reads it back rather than carrying a copy of it. Fixed, not
+# random: this repo *is* the web server, and a per-build key would rewrite the
+# address in every page every morning for no gain.
+MAIL_KEY = 0x2f
+
+
+def hide_email(email):
+    """The address as hex, each byte XOR'd with a key stored in front of it.
+
+    Not encryption, and not meant to be: anything that runs the page's
+    JavaScript gets the address back, which is the point — the reader's mail
+    client has to be able to open it. What it defeats is the thing that actually
+    harvests addresses, a crawler that reads the HTML and regexes it for
+    something@something. That address would otherwise sit in the markup of every
+    page on the site, in triplicate.
+
+    Truly withholding it until someone writes needs a server to write *to* — a
+    form endpoint that holds the address on its side. That is a third party, an
+    account and a cross-origin POST; this is the static-site answer.
+    """
+    return "%02x" % MAIL_KEY + "".join(
+        "%02x" % (b ^ MAIL_KEY) for b in email.encode("utf-8"))
+
+
+def feedback_queries(email, what, url):
+    """{lang: mailto query} for the "found a mistake?" link, or None if unset.
+
+    The query only — subject and body, no address. feedback.js joins the two on
+    load, so the HTML carries a prefilled mail with nobody to send it to.
+
+    Baked one per language, like every other translated string on the page: the
+    CSS has already picked the reader's language by the time they see the link,
+    so nothing here has to be assembled per reader.
+
+    The mail is addressed to one inbox, so the subject and the trailer that says
+    which page it came from are English whatever the page is — the recipient does
+    not read three languages, and a subject that changes with the sender's
+    language cannot be filtered on. Only the prompt is translated, because it is
+    the one line the *sender* reads.
+
+    `what` names the page for both, and stays English for the same reason: it is
+    the tractate and page as the repo spells them, not the reader's label. The
+    URL is the daf's own permalink even on the homepage, which is a different
+    daf tomorrow.
+    """
+    if not email:
+        return None
+    out = {}
+    for lang in i18n.LANGS:
+        # ?lang= so opening the link lands on the sheet the sender was reading,
+        # whatever the recipient's own saved language is.
+        where = f"{url}?lang={lang}" if url else ""
+        body = (f"{i18n.t(lang, 'feedback_prompt')}\n\n\n"
+                f"— {what} ({lang})\n{where}\n")
+        out[lang] = urllib.parse.urlencode(
+            {"subject": FEEDBACK_SUBJECT.format(what=what), "body": body},
+            # quote, not quote_plus: a "+" in a mailto body is read literally by
+            # some clients and as a space by others, so encode spaces as %20 and
+            # leave no plus signs to be guessed at.
+            quote_via=urllib.parse.quote, safe="/:")
+    return out
+
+
 def load_settings(content_dir):
-    settings = {"site_url": "", "pin": None, "offset": 0}
+    settings = {"site_url": "", "pin": None, "offset": 0, "feedback_email": None}
     path = os.path.join(content_dir, "site.json")
     if os.path.exists(path):
         settings.update(json.load(open(path, encoding="utf-8")))
@@ -251,12 +328,16 @@ def build_assets(out_dir):
     return urls
 
 
-def language_groups(s, has_cards=False):
+def language_groups(s):
     """Collapse languages onto the sheet each one actually renders.
 
     A daf with a Spanish translation yields two groups; one without yields a
     single group marked data-lang="en es", so an untranslated daf carries its
     English body once rather than twice.
+
+    Each group carries its sheet already cut into the pieces the tabs place
+    (see split_body), because the cut is per language: the heading that marks
+    it is written in the language of the sheet.
     """
     order, by_variant = [], {}
     for lang in i18n.LANGS:
@@ -270,7 +351,7 @@ def language_groups(s, has_cards=False):
     for key in order:
         g = by_variant[key]
         v = g["sheet"]
-        body_md = with_deck_cta(v.body_md, v.lang) if has_cards else v.body_md
+        intro_md, who_md, chazara_md = split_body(v.body_md, v.lang)
         groups.append({
             "langs": " ".join(g["langs"]),
             "lang": v.lang,
@@ -280,7 +361,9 @@ def language_groups(s, has_cards=False):
             "dir": i18n.dir_of(v.lang),
             "title_html": hebrew_spans(html_mod.escape(v.title), v.lang),
             "subtitle": hebrew_spans(v.subtitle, v.lang),
-            "learn_html": render_body(body_md, v.lang),
+            "intro_html": render_body(intro_md, v.lang),
+            "who_html": render_body(who_md, v.lang) if who_md.strip() else "",
+            "chazara_html": render_body(chazara_md, v.lang) if chazara_md.strip() else "",
             "tomorrow": v.tomorrow,
         })
     return groups
@@ -317,6 +400,12 @@ def main():
     if args.offset is not None:
         settings["offset"] = args.offset
 
+    # A typo here would publish a "tell me" link that silently goes nowhere on
+    # every page, which is worse than having no link at all.
+    email = str(settings.get("feedback_email") or "").strip()
+    if email and ("@" not in email or " " in email):
+        sys.exit(f"feedback_email in content/site.json is not an address: {email!r}")
+
     sheets = sheet_mod.load_all(content)
     if not sheets:
         sys.exit(f"No sheets found in {content}")
@@ -344,6 +433,10 @@ def main():
         """Only index and archive need the manifest; a daf page needs the
         language list and nothing more."""
         cfg = {"langs": i18n.LANGS, "rtl": i18n.RTL}
+        # The feedback address, obscured — once per page, since the three links
+        # share it. See hide_email.
+        if email:
+            cfg["mail"] = hide_email(email)
         if with_manifest:
             cfg.update(pin=settings["pin"], offset=settings["offset"], dapim=dapim)
         if self_file:
@@ -358,6 +451,12 @@ def main():
         "lang_menu": LANG_MENU,
         "site_url": settings["site_url"],
     }
+
+    def page_url(name):
+        """A page's absolute URL, or its filename when site_url is unset — a
+        local build still produces a mailto that says which page it came from."""
+        base = settings["site_url"].rstrip("/")
+        return f"{base}/{name}" if base else name
     # The text of the daf, cached by build/daftext.py. Loaded once per daf
     # rather than per rendered page, so the index does not read it twice and a
     # broken cache is reported once.
@@ -384,7 +483,7 @@ def main():
                 cards_by_lang[l] = {"lang": v.lang, "cards": deck}
         has_cards = bool(cards_by_lang)
         return daf_tpl.render(
-            groups=language_groups(s, has_cards),
+            groups=language_groups(s),
             untranslated=[l for l in i18n.LANGS if l != s.lang and l not in s.translations],
             page_title=s.title,
             description=s.summary,
@@ -398,6 +497,7 @@ def main():
             is_archive=False,
             needs_zman=is_index,
             config_json=config(s.out_name if is_index else None, with_manifest=is_index),
+            feedback=feedback_queries(email, f"{s.tractate} {s.page}", page_url(s.out_name)),
             **common,
         )
 
@@ -420,6 +520,7 @@ def main():
             canonical="archive.html",
             is_index=False, is_archive=True, needs_zman=True,
             config_json=config(with_manifest=True),
+            feedback=feedback_queries(email, "archive", page_url("archive.html")),
             **common,
         ))
 
@@ -471,6 +572,9 @@ def main():
     print(f"languages: {', '.join(i18n.LANGS)}")
     print(f"index.html seeded with {seed.slug} ({seed.iso})")
     print(f"rollover: sunset{off}, location {where}")
+    # Said every build rather than warned about once: a link that is quietly
+    # absent from every page looks exactly like a site nobody has feedback for.
+    print(f"feedback: {email or 'off — set feedback_email in content/site.json'}")
     if dapim:
         print(f"schedule: {dapim[0]['d']} … {dapim[-1]['d']}")
 

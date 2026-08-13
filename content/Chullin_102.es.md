@@ -57,6 +57,63 @@ Cuatro movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Iehudá** (bar Ilai) — cuarta generación, alumno de Rabí Akivá. Sostiene *isur jal al isur*,
+  así que no necesita versículo para extender el *éver min hajai* a las especies no kosher.
+- **Rabí Elazar** (ben Shamúa) — cuarta generación, alumno de Rabí Akivá. Aquel para quien el
+  versículo realmente hace falta; el daf le reasigna la derivación. No es el amorá Rabí Elazar ben
+  Pedat, ni Rabí Elazar bar Rabí Shimón, más abajo.
+- **Rabí Meir** — cuarta generación, alumno de Rabí Akivá. Limita el *éver min hajai* a un animal
+  doméstico kosher.
+- **Los Sabios** (*jajamim*) — confinan la prohibición a especies kosher, incluidas aves y animales
+  salvajes.
+- **Rabí Iehudá HaNasí** (Rebbi) — quinta generación, redactor de la Mishná. Exime por un ave viva
+  entera menor que un volumen de aceituna: en vida *aún no* está dividida en miembros.
+- **Rabí Elazar bar Rabí Shimón** — quinta generación, hijo de Rabí Shimón bar Iojái. Hace
+  responsable por *kal vajómer*: en vida ya se sostiene dividida en miembros. (No es Rabí Elazar ben
+  Shamúa, más arriba.)
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de Tiberias. Asigna el *éver min hajai*
+  y el *taref*/carne a dos versículos separados.
+- **Reish Lakish** (Rabí Shimón ben Lakish) — segunda generación, Tiberias; cuñado y gran
+  contrincante de Rabí Iojanán. Reparte los mismos dos versículos al revés.
+- **Rabí Maní bar Patish** — una figura posterior de Erretz Israel; resuelve la mishná de *Teharot*
+  como judío contra noájida. Más allá de eso no querría forzar su biografía.
+
+**Amoraím de Babilonia**
+
+- **Rav** (Aba Arijá) — primera generación, fundador de Sura. Requiere un volumen de aceituna para
+  un miembro, y es la fuente de las medidas graduadas para aves kosher y no kosher.
+- **Rav Guidel** — segunda/tercera generación, fiel transmisor de los dictámenes de Rav. Informa que
+  todos concuerdan en que un descendiente de Nóaj está obligado respecto de las especies no kosher.
+- **Rabá bar Shmuel / bar Sheila / bar Shimi** — el nombre incierto (de ahí el mnemónico) detrás de
+  la razón de Rabí Meir; transmitido de Rav Jisda o Rav Iosef.
+- **Rav Jisda** — tercera generación, Sura. **Rav Iosef** — tercera generación, Pumbedita. Citados
+  como las dos posibles fuentes de esa misma enseñanza.
+- **Rav Amram** — tercera generación, Nehardea/Pumbedita; alumno de Rav Sheshet. Objeta que la
+  mishná de *Teharot* ya implica un volumen de aceituna.
+- **Rav Najmán** (bar Iaakov) — tercera generación, Nehardea. Aporta "una traza de carne con nervios
+  y huesos".
+- **Rav Sheizvi** y **Rav Sherevia** — *amoraím* babilonios posteriores de la academia; el primero
+  trae la prueba de *Teharot*, el segundo la *kelanita*. Ambos comparativamente menores; no querría
+  aventurar más sus generaciones.
+- **Rava** — cuarta generación, Majoza. Los dos *im timtzé lomar* sobre el pensamiento y la comida.
+- **Abaie** — cuarta generación, cabeza de Pumbedita; contrincante de toda la vida de Rava. Presiona
+  la objeción de "mismo acto, distinta persona" las dos veces.
+
+*Parecidos que vale señalar:* hay tres hombres llamados **Elazar** en juego — Rabí Elazar **ben
+Shamúa** (tana, emparejado con Rabí Iehudá), Rabí Elazar **bar Rabí Shimón** (tana, el del *kal
+vajómer*), y el amorá Rabí Elazar **ben Pedat** (no en este daf). **Rabá bar Shmuel/Sheila/Shimi** es
+un transmisor, no **Rabá** el jefe de Pumbedita. Y **Rabí Iehudá** el tana no es **Rav Iehudá** el
+amorá.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 102a — De quién es la sangre, de quién es la carne: las dos lecturas
@@ -192,63 +249,6 @@ Dos versículos, tres prohibiciones — y toda la disputa es solo sobre cuál ve
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Iehudá** (bar Ilai) — cuarta generación, alumno de Rabí Akivá. Sostiene *isur jal al isur*,
-  así que no necesita versículo para extender el *éver min hajai* a las especies no kosher.
-- **Rabí Elazar** (ben Shamúa) — cuarta generación, alumno de Rabí Akivá. Aquel para quien el
-  versículo realmente hace falta; el daf le reasigna la derivación. No es el amorá Rabí Elazar ben
-  Pedat, ni Rabí Elazar bar Rabí Shimón, más abajo.
-- **Rabí Meir** — cuarta generación, alumno de Rabí Akivá. Limita el *éver min hajai* a un animal
-  doméstico kosher.
-- **Los Sabios** (*jajamim*) — confinan la prohibición a especies kosher, incluidas aves y animales
-  salvajes.
-- **Rabí Iehudá HaNasí** (Rebbi) — quinta generación, redactor de la Mishná. Exime por un ave viva
-  entera menor que un volumen de aceituna: en vida *aún no* está dividida en miembros.
-- **Rabí Elazar bar Rabí Shimón** — quinta generación, hijo de Rabí Shimón bar Iojái. Hace
-  responsable por *kal vajómer*: en vida ya se sostiene dividida en miembros. (No es Rabí Elazar ben
-  Shamúa, más arriba.)
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de Tiberias. Asigna el *éver min hajai*
-  y el *taref*/carne a dos versículos separados.
-- **Reish Lakish** (Rabí Shimón ben Lakish) — segunda generación, Tiberias; cuñado y gran
-  contrincante de Rabí Iojanán. Reparte los mismos dos versículos al revés.
-- **Rabí Maní bar Patish** — una figura posterior de Erretz Israel; resuelve la mishná de *Teharot*
-  como judío contra noájida. Más allá de eso no querría forzar su biografía.
-
-**Amoraím de Babilonia**
-
-- **Rav** (Aba Arijá) — primera generación, fundador de Sura. Requiere un volumen de aceituna para
-  un miembro, y es la fuente de las medidas graduadas para aves kosher y no kosher.
-- **Rav Guidel** — segunda/tercera generación, fiel transmisor de los dictámenes de Rav. Informa que
-  todos concuerdan en que un descendiente de Nóaj está obligado respecto de las especies no kosher.
-- **Rabá bar Shmuel / bar Sheila / bar Shimi** — el nombre incierto (de ahí el mnemónico) detrás de
-  la razón de Rabí Meir; transmitido de Rav Jisda o Rav Iosef.
-- **Rav Jisda** — tercera generación, Sura. **Rav Iosef** — tercera generación, Pumbedita. Citados
-  como las dos posibles fuentes de esa misma enseñanza.
-- **Rav Amram** — tercera generación, Nehardea/Pumbedita; alumno de Rav Sheshet. Objeta que la
-  mishná de *Teharot* ya implica un volumen de aceituna.
-- **Rav Najmán** (bar Iaakov) — tercera generación, Nehardea. Aporta "una traza de carne con nervios
-  y huesos".
-- **Rav Sheizvi** y **Rav Sherevia** — *amoraím* babilonios posteriores de la academia; el primero
-  trae la prueba de *Teharot*, el segundo la *kelanita*. Ambos comparativamente menores; no querría
-  aventurar más sus generaciones.
-- **Rava** — cuarta generación, Majoza. Los dos *im timtzé lomar* sobre el pensamiento y la comida.
-- **Abaie** — cuarta generación, cabeza de Pumbedita; contrincante de toda la vida de Rava. Presiona
-  la objeción de "mismo acto, distinta persona" las dos veces.
-
-*Parecidos que vale señalar:* hay tres hombres llamados **Elazar** en juego — Rabí Elazar **ben
-Shamúa** (tana, emparejado con Rabí Iehudá), Rabí Elazar **bar Rabí Shimón** (tana, el del *kal
-vajómer*), y el amorá Rabí Elazar **ben Pedat** (no en este daf). **Rabá bar Shmuel/Sheila/Shimi** es
-un transmisor, no **Rabá** el jefe de Pumbedita. Y **Rabí Iehudá** el tana no es **Rav Iehudá** el
-amorá.
-
----
-
 ## Una línea para llevarte
 
 > Que tragarse un ave diminuta entera sea "comer un miembro de lo vivo" no depende del que come sino
@@ -256,7 +256,7 @@ amorá.
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿De qué lectura derivan Rabí Elazar (y Rabí Iehudá) que el éver min hajai se aplica incluso

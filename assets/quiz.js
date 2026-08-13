@@ -202,12 +202,26 @@
   /* tabs.js owns the switching; this only has to notice the quiz being opened
      for the first time, in case it was never rendered. */
   document.addEventListener("dafview", function (e) {
-    if (e.detail.view === "quiz" && QUIZ.length && !card.innerHTML.trim()) renderQuestion();
+    if (e.detail.view === "chazara" && QUIZ.length && !card.innerHTML.trim()) renderQuestion();
+  });
+
+  /* The test is the end of the Chazara tab rather than a tab of its own, so it
+     cannot simply take the keyboard: 1–4 would answer the current question
+     under someone reading the walkthrough above it. It gets the keys once you
+     touch it, and loses them when you go back to the prose. A flag rather than
+     document.activeElement, because answering rewrites the card and the focus
+     goes with it. */
+  var hasKeys = false;
+  document.addEventListener("click", function (e) {
+    hasKeys = !!(e.target.closest && e.target.closest("#quizCard"));
+  });
+  document.addEventListener("focusin", function (e) {
+    if (e.target.closest && e.target.closest("#quizCard")) hasKeys = true;
   });
 
   document.addEventListener("keydown", function (e) {
-    var q = document.getElementById("quiz");
-    if (!q || !q.classList.contains("active")) return;
+    var q = document.getElementById("chazara");
+    if (!hasKeys || !q || !q.classList.contains("active")) return;
     if (["1", "2", "3", "4"].indexOf(e.key) !== -1) {
       var b = card.querySelector('.opt[data-pos="' + (+e.key - 1) + '"]');
       if (b) b.click();

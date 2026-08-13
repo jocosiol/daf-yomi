@@ -63,6 +63,55 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Yehuda** (bar Ilai) — fourth-generation Tanna, a leading student of Rabbi Akiva; here the
+  voice of *min b'mino lo batel* and the piece that "becomes neveila," and the source Rav follows.
+- **The Rabbis** (*Chachamim*) — the anonymous majority against Rabbi Yehuda: judge the whole pot, not
+  the single piece.
+- **Rabbi** (Yehuda HaNasi, *Rebbi*) — fifth/sixth-generation Tanna, redactor of the Mishna; brokers the
+  compromise between Rabbi Yehuda and the Rabbis by whether the pot was stirred and covered.
+- **Rabbi Shimon son of Rabbi** (*Rabbi Shimon b'Rabbi*) — a son of Rabbi Yehuda HaNasi; holds *efshar
+  lisochato mutar*.
+- **Levi** (bar Sisi) — a late Tanna / transitional figure, disciple of Rabbi, who kept his own
+  collection of baraitot; holds one is flogged even for the *cooking*.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yochanan** (bar Nappacha) — second generation, head of Tiberias; holds *efshar lisochato asur*.
+- **Reish Lakish** (Rabbi Shimon ben Lakish) — second generation, Rabbi Yochanan's great disputant and
+  brother-in-law; holds *efshar lisochato mutar*.
+- **Rabbi Ḥanina** (bar Ḥama) — first-generation Eretz-Yisrael Amora at Tzippori; holds *efshar
+  lisochato asur*.
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of Sura; the piece "becomes neveila," and *efshar
+  lisochato asur*.
+- **Shmuel** — first generation, head of Nehardea, Rav's constant counterpart; holds *efshar lisochato
+  mutar*.
+- **Abaye** — fourth generation, head of Pumbedita; that flavor forbids by Torah law everywhere.
+- **Rava** (bar Yosef bar Ḥama) — fourth generation, head of Machoza; "the Torah forbade it in the manner
+  of cooking," and the finer reading of Rabbi Yehuda on the three-part mixture.
+- **Ravina** — the answer that thick gravy is *like* and thin gravy *unlike*. (Which Ravina — the elder
+  contemporary of Rav Ashi, or his nephew — the Gemara does not fix; I would not press it.)
+- **Mar Zutra, son of Rav Mari** — a later Amora; puts the objection to Ravina that Rav seems to argue
+  with Rava. (A minor figure by this patronymic; I would not build a biography on the name.)
+- **Mar, son of Rav Ashi** (*Mar bar Rav Ashi*) — sixth/seventh generation, a head of the Sura academy;
+  the "his belt is proof" resolution carried over from yesterday's Baitos-cakes discussion.
+
+*Look-alikes worth flagging:*
+- **Rava** (bar Yosef bar Ḥama, of Machoza) is not **Rabbah** (bar Naḥmani); both appear across Chullin.
+- Two "Rabbi Shimon"s sit in one dispute here: **Rabbi Shimon son of Rabbi** (the Tanna, Rebbi's son)
+  and **Reish Lakish**, whose name is *Rabbi Shimon ben Lakish* — different men, same *efshar lisochato
+  mutar* side.
+- **Mar bar Rav Ashi** (son of the redactor) is not **Rav Aḥa bar Rav Ashi**.
+- **Rav** is not **Rava**; and here **Rabbi Ḥanina** the Amora, not the many later *Ḥanina* tradents.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 108a — Does flavor alone forbid by Torah law?
@@ -187,55 +236,6 @@ forbid the entire pot?* Three answers, each asked the same two questions —
 | **Rabbi Yehuda** | The moment the drop gives flavor to **that one piece** | *min b'mino* — the piece is now neveila, and its own type cannot nullify it |
 | **The Rabbis** | Only if the milk flavors the **gravy, spices, and all the pieces** | the milk diffuses through the pot; judge the whole, not one piece |
 | **Rabbi (compromise)** | Rabbi Yehuda's rule when **unstirred and uncovered**; the Rabbis' when **stirred and covered** | stirring and covering decide whether the drop stayed put or spread |
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Yehuda** (bar Ilai) — fourth-generation Tanna, a leading student of Rabbi Akiva; here the
-  voice of *min b'mino lo batel* and the piece that "becomes neveila," and the source Rav follows.
-- **The Rabbis** (*Chachamim*) — the anonymous majority against Rabbi Yehuda: judge the whole pot, not
-  the single piece.
-- **Rabbi** (Yehuda HaNasi, *Rebbi*) — fifth/sixth-generation Tanna, redactor of the Mishna; brokers the
-  compromise between Rabbi Yehuda and the Rabbis by whether the pot was stirred and covered.
-- **Rabbi Shimon son of Rabbi** (*Rabbi Shimon b'Rabbi*) — a son of Rabbi Yehuda HaNasi; holds *efshar
-  lisochato mutar*.
-- **Levi** (bar Sisi) — a late Tanna / transitional figure, disciple of Rabbi, who kept his own
-  collection of baraitot; holds one is flogged even for the *cooking*.
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yochanan** (bar Nappacha) — second generation, head of Tiberias; holds *efshar lisochato asur*.
-- **Reish Lakish** (Rabbi Shimon ben Lakish) — second generation, Rabbi Yochanan's great disputant and
-  brother-in-law; holds *efshar lisochato mutar*.
-- **Rabbi Ḥanina** (bar Ḥama) — first-generation Eretz-Yisrael Amora at Tzippori; holds *efshar
-  lisochato asur*.
-
-**Babylonian Amoraim**
-
-- **Rav** (Abba Arikha) — first generation, founder of Sura; the piece "becomes neveila," and *efshar
-  lisochato asur*.
-- **Shmuel** — first generation, head of Nehardea, Rav's constant counterpart; holds *efshar lisochato
-  mutar*.
-- **Abaye** — fourth generation, head of Pumbedita; that flavor forbids by Torah law everywhere.
-- **Rava** (bar Yosef bar Ḥama) — fourth generation, head of Machoza; "the Torah forbade it in the manner
-  of cooking," and the finer reading of Rabbi Yehuda on the three-part mixture.
-- **Ravina** — the answer that thick gravy is *like* and thin gravy *unlike*. (Which Ravina — the elder
-  contemporary of Rav Ashi, or his nephew — the Gemara does not fix; I would not press it.)
-- **Mar Zutra, son of Rav Mari** — a later Amora; puts the objection to Ravina that Rav seems to argue
-  with Rava. (A minor figure by this patronymic; I would not build a biography on the name.)
-- **Mar, son of Rav Ashi** (*Mar bar Rav Ashi*) — sixth/seventh generation, a head of the Sura academy;
-  the "his belt is proof" resolution carried over from yesterday's Baitos-cakes discussion.
-
-*Look-alikes worth flagging:*
-- **Rava** (bar Yosef bar Ḥama, of Machoza) is not **Rabbah** (bar Naḥmani); both appear across Chullin.
-- Two "Rabbi Shimon"s sit in one dispute here: **Rabbi Shimon son of Rabbi** (the Tanna, Rebbi's son)
-  and **Reish Lakish**, whose name is *Rabbi Shimon ben Lakish* — different men, same *efshar lisochato
-  mutar* side.
-- **Mar bar Rav Ashi** (son of the redactor) is not **Rav Aḥa bar Rav Ashi**.
-- **Rav** is not **Rava**; and here **Rabbi Ḥanina** the Amora, not the many later *Ḥanina* tradents.
 
 ---
 

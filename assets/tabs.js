@@ -1,11 +1,11 @@
-/* The Learn / Flashcards / Quiz tabs.
+/* The Introduction / The Daf / Chazara tabs.
 
    This used to live at the bottom of quiz.js, which meant tab switching only
    existed on a daf that had a quiz. It is now its own file, and announces the
    view it opened as a "dafview" event so each panel can wake itself up.
 
-   Anything with data-open="<view id>" acts as a link to a tab — that is how the
-   button under the glossary table opens the deck. */
+   Anything with data-open="<view id>" acts as a link to a tab, for a control
+   inside one panel that means to send the reader to another. */
 (function () {
   var tabs = [].slice.call(document.querySelectorAll(".tab"));
   if (!tabs.length) return;

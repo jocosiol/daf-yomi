@@ -67,6 +67,69 @@ Three movements:
 
 ---
 
+## Who's who in today's daf
+
+**Tannaim**
+
+- **Rabbi Eliezer** (ben Hyrcanus) — second-generation *Tanna*, student of Rabban Yoḥanan ben Zakkai;
+  holds liver "forbids but is not forbidden." (Titled *Rabbi*; not the Amora Rabbi Elazar ben Pedat, who
+  also appears below.)
+- **Rabbi Yishmael son of Rabbi Yoḥanan ben Beroka** — fourth-generation *Tanna*; holds spiced or stewed
+  liver becomes forbidden as well. A minor figure, known mainly from such rulings.
+- **Rabbi Ḥiyya** (the Great) — transitional *Tanna*, uncle and teacher of Rav; cited at the end for the
+  rule that bread and wine exempt the meal's other foods and drinks from a separate blessing.
+
+**Eretz-Yisrael Amoraim**
+
+- **Rabbi Yoḥanan** (bar Nappaḥa) — second generation, the towering authority of Tiberias; Ravin reports
+  him as holding salted is *not* like boiling, and Abaye argues the citation is wrong.
+- **Rabbi Zerika** — third/fourth generation; offers Rav Safra the windpipe meal as proof.
+- **Rabbi Ami** — third generation, a leading authority in Tiberias and a student of Rabbi Yoḥanan; his
+  smashing of the salting-bowl is Abaye's evidence.
+- **Rabbi Elazar** (ben Pedat) — third generation, foremost student of Rabbi Yoḥanan; a disciple of Rav's
+  teachings who declines the fish at Shmuel's table. (Rabbi *Elazar*; distinct from the *Tanna* Rabbi
+  *Eliezer* above.)
+- **Ravin** (Rav Avin) — fourth generation, famed carrier of Eretz-Yisrael traditions to Babylonia
+  (*ki ata Ravin*); his report in Rabbi Yoḥanan's name is here disputed.
+
+**Babylonian Amoraim**
+
+- **Rav** (Abba Arikha) — first generation, founder of Sura; forbids the fish eaten with kutaḥ (*notein
+  ta'am*), and reassures Rabbi Elazar that Shmuel never fed him anything he held forbidden.
+- **Shmuel** (of Nehardea) — first generation, Rav's great colleague and son of **Abba bar Abba**;
+  permits the fish (*notein ta'am bar notein ta'am*) and is the source of *maliach k'rotei'ach*. His
+  servants prepared spleen for him on bloodletting days.
+- **Rav Yehuda** (bar Yeḥezkel) — second generation, founder of Pumbedita; transmits Shmuel on the salted
+  bowl. (This **Rav** Yehuda the Amora, not **Rabbi** Yehuda the *Tanna*.)
+- **Rav Huna** — second generation, head of Sura after Rav; his liver was scalded with boiling vinegar.
+- **Rav Naḥman** (bar Yaakov) — third generation, of Nehardea; his liver was scalded with boiling water,
+  and he ordered "feed Shabba against his will."
+- **Rav Kahana** — here specified as **the brother of Rav Yehuda**; teaches the permitted knife-cut
+  radish. (The name spans several sages; this one is fixed only by the "brother of Rav Yehuda" tag.)
+- **Rabba bar Rav Huna** — third generation, son of Rav Huna; the guest who found the blood-filled artery.
+  (Not to be confused with **Rav bar Shabba**, the guest who declined the boiled liver just above him in
+  the daf.)
+- **Rabba bar Rav Naḥman** — the Shabbat host with the fine oil-and-honey bread.
+- **Rava** (bar Yosef bar Ḥama) — fourth generation, of Meḥoza; supplies the lever that no blood is
+  expelled, and the "you can taste the radish" distinction. (רבא; distinct from **Rabba** above — a
+  classic look-alike.)
+- **Abaye** — fourth generation, head of Pumbedita; refutes Ravin from Rabbi Ami's smashed bowl, and (via
+  Chizkiya) rules the halakha on fish and radish. His was the original liver dilemma.
+- **Rav Pappa** — fifth generation, student of Rava; proposes the boiling-vinegar liver is forbidden (Rava
+  overrules), and proposes the gentile cook as taster.
+- **Rav Ashi** — sixth generation, redactor of the Talmud at Sura-Mata Meḥasya; objects to the windpipe
+  proof and scolds his father-in-law's son over the spit. (Rav *Ashi*, not Rav *Asi* the earlier Amora.)
+- **Rav Dimi of Neharde'a** — late Amora; taught the reversed ruling on liver and udder over meat.
+- **Mareimar** — late Amora of Sura; rules publicly on liver/udder over meat.
+- **Chizkiya** — here the tradent who states, in Abaye's name, the final halakha on fish and radish.
+- **Rav bar Shabba** — a minor figure; the guest who fasted rather than eat Rav Naḥman's boiled liver.
+- **Rav Ḥiyya bar Ashi** — third generation, student of Rav; one of the two sages across the Sura ford.
+  (Rav *Ḥiyya bar Ashi*, an Amora — not the *Tanna* Rabbi Ḥiyya above.)
+- **Rav Shimi bar Ḥiyya** — Rav's great-grandson, at whose house the eye-ointment story occurs. I would
+  not press further biographical detail on him.
+
+---
+
 ## Walking through the sugya, step by step
 
 ### 111a — The liver question, run to ground
@@ -194,69 +257,6 @@ cleanly by *which* prohibition — blood or milk — they weight more heavily.
 | **Udder** — milk, rabbinic | **Forbidden** — milk clings | Permitted | *Di'avad* yes, *l'chatchila* no |
 
 Underneath the meat, every view permits both; the whole dispute is only about the organ set *above*.
-
----
-
-## Who's who in today's daf
-
-**Tannaim**
-
-- **Rabbi Eliezer** (ben Hyrcanus) — second-generation *Tanna*, student of Rabban Yoḥanan ben Zakkai;
-  holds liver "forbids but is not forbidden." (Titled *Rabbi*; not the Amora Rabbi Elazar ben Pedat, who
-  also appears below.)
-- **Rabbi Yishmael son of Rabbi Yoḥanan ben Beroka** — fourth-generation *Tanna*; holds spiced or stewed
-  liver becomes forbidden as well. A minor figure, known mainly from such rulings.
-- **Rabbi Ḥiyya** (the Great) — transitional *Tanna*, uncle and teacher of Rav; cited at the end for the
-  rule that bread and wine exempt the meal's other foods and drinks from a separate blessing.
-
-**Eretz-Yisrael Amoraim**
-
-- **Rabbi Yoḥanan** (bar Nappaḥa) — second generation, the towering authority of Tiberias; Ravin reports
-  him as holding salted is *not* like boiling, and Abaye argues the citation is wrong.
-- **Rabbi Zerika** — third/fourth generation; offers Rav Safra the windpipe meal as proof.
-- **Rabbi Ami** — third generation, a leading authority in Tiberias and a student of Rabbi Yoḥanan; his
-  smashing of the salting-bowl is Abaye's evidence.
-- **Rabbi Elazar** (ben Pedat) — third generation, foremost student of Rabbi Yoḥanan; a disciple of Rav's
-  teachings who declines the fish at Shmuel's table. (Rabbi *Elazar*; distinct from the *Tanna* Rabbi
-  *Eliezer* above.)
-- **Ravin** (Rav Avin) — fourth generation, famed carrier of Eretz-Yisrael traditions to Babylonia
-  (*ki ata Ravin*); his report in Rabbi Yoḥanan's name is here disputed.
-
-**Babylonian Amoraim**
-
-- **Rav** (Abba Arikha) — first generation, founder of Sura; forbids the fish eaten with kutaḥ (*notein
-  ta'am*), and reassures Rabbi Elazar that Shmuel never fed him anything he held forbidden.
-- **Shmuel** (of Nehardea) — first generation, Rav's great colleague and son of **Abba bar Abba**;
-  permits the fish (*notein ta'am bar notein ta'am*) and is the source of *maliach k'rotei'ach*. His
-  servants prepared spleen for him on bloodletting days.
-- **Rav Yehuda** (bar Yeḥezkel) — second generation, founder of Pumbedita; transmits Shmuel on the salted
-  bowl. (This **Rav** Yehuda the Amora, not **Rabbi** Yehuda the *Tanna*.)
-- **Rav Huna** — second generation, head of Sura after Rav; his liver was scalded with boiling vinegar.
-- **Rav Naḥman** (bar Yaakov) — third generation, of Nehardea; his liver was scalded with boiling water,
-  and he ordered "feed Shabba against his will."
-- **Rav Kahana** — here specified as **the brother of Rav Yehuda**; teaches the permitted knife-cut
-  radish. (The name spans several sages; this one is fixed only by the "brother of Rav Yehuda" tag.)
-- **Rabba bar Rav Huna** — third generation, son of Rav Huna; the guest who found the blood-filled artery.
-  (Not to be confused with **Rav bar Shabba**, the guest who declined the boiled liver just above him in
-  the daf.)
-- **Rabba bar Rav Naḥman** — the Shabbat host with the fine oil-and-honey bread.
-- **Rava** (bar Yosef bar Ḥama) — fourth generation, of Meḥoza; supplies the lever that no blood is
-  expelled, and the "you can taste the radish" distinction. (רבא; distinct from **Rabba** above — a
-  classic look-alike.)
-- **Abaye** — fourth generation, head of Pumbedita; refutes Ravin from Rabbi Ami's smashed bowl, and (via
-  Chizkiya) rules the halakha on fish and radish. His was the original liver dilemma.
-- **Rav Pappa** — fifth generation, student of Rava; proposes the boiling-vinegar liver is forbidden (Rava
-  overrules), and proposes the gentile cook as taster.
-- **Rav Ashi** — sixth generation, redactor of the Talmud at Sura-Mata Meḥasya; objects to the windpipe
-  proof and scolds his father-in-law's son over the spit. (Rav *Ashi*, not Rav *Asi* the earlier Amora.)
-- **Rav Dimi of Neharde'a** — late Amora; taught the reversed ruling on liver and udder over meat.
-- **Mareimar** — late Amora of Sura; rules publicly on liver/udder over meat.
-- **Chizkiya** — here the tradent who states, in Abaye's name, the final halakha on fish and radish.
-- **Rav bar Shabba** — a minor figure; the guest who fasted rather than eat Rav Naḥman's boiled liver.
-- **Rav Ḥiyya bar Ashi** — third generation, student of Rav; one of the two sages across the Sura ford.
-  (Rav *Ḥiyya bar Ashi*, an Amora — not the *Tanna* Rabbi Ḥiyya above.)
-- **Rav Shimi bar Ḥiyya** — Rav's great-grandson, at whose house the eye-ointment story occurs. I would
-  not press further biographical detail on him.
 
 ---
 

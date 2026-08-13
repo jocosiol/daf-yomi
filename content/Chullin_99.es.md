@@ -52,6 +52,50 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaím**
+
+- **Rabí Iehudá** (bar Ilai) — tana de la cuarta generación, alumno de Rabí Akivá; el "Rabí Iehudá"
+  anónimo de la Mishná. Aquí: la medida de la salmuera, y que *min bemino* nunca se anula.
+- **Rabí Ishmael hijo de Rabí Iojanán ben Beroká** — tana de la cuarta generación, hijo de Rabí
+  Iojanán ben Beroká. Su dictamen de que los nervios no tienen sabor se convierte en la halajá.
+
+**Amoraím de Erretz Israel**
+
+- **Rabí Janiná** (bar Jama) — primera generación, Tzipori; destacado colega-alumno de Rebí.
+  Aquí: permite el muslo, dos veces.
+- **Rabí Iehoshúa ben Leví** — primera generación, Lod; contemporáneo de Rabí Iojanán. El
+  dictamen indulgente se transmite en su nombre.
+- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberias. Nombrado
+  aquí solo como trasfondo de la transmisión.
+- **Rabí Amí** (Rabí Amí) — tercera generación, sucedió al círculo de Rabí Iojanán en Tiberias.
+  Envía a quienes preguntan a un colega más indulgente en lugar de dictaminar con estrictez para ellos.
+- **Rabí Iosí bar Rabí Janiná** — segunda generación, Cesarea; alumno de Rabí Iojanán. Fuente de
+  "no todas las medidas son iguales".
+- **Rabí Itzjak ben Jalov** — una figura menor, conocida sobre todo como transmisor de dictámenes
+  indulgentes en nombre de Rabí Iehoshúa ben Leví; no querría aventurar más que eso.
+- **Rabí Iehudá bar Zevina** — una figura oscura; aparece aquí como el escéptico en la puerta, y no
+  querría situar su generación con confianza.
+
+**Amoraím de Babilonia**
+
+- **Rav Huna** — segunda generación, cabeza de la academia de Sura y el alumno más destacado de Rav.
+  Aquí: la medida de la mishná significa carne cocida con cabezas de nabo.
+- **Abaie** — cuarta generación, cabeza de Pumbedita; el gran contrincante de Rava. Aquí demuele la
+  posición de Rav Dimi y luego aporta su defensa.
+- **Rav Dimi** — cuarta generación; un viajero entre Erretz Israel y Babilonia que transmitía
+  enseñanzas de Erretz Israel. Aquí, del lado que recibe las preguntas de Abaie.
+- **Rav Shmuel bar Rav Itzjak** — tercera generación; su "cien" es la posición bajo examen a lo
+  largo de todo 99a–99b.
+- **Ravina** — quinta/sexta generación, del círculo que redactó el Talmud. Aquí: la palabra
+  **זֶה** enseña sobre el lugar del corte.
+
+*Un parecido que vale señalar:* **Rabí Janiná** (amorá de Erretz Israel, arriba) no es **Rabí Iosí
+bar Rabí Janiná**, que es una generación menor que él y pertenece a Cesarea.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 99a — Por qué la objeción de la anomalía no hunde a sesenta
@@ -182,50 +226,6 @@ se anule por la mayoría! La respuesta espera a la primera línea de mañana.
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaím**
-
-- **Rabí Iehudá** (bar Ilai) — tana de la cuarta generación, alumno de Rabí Akivá; el "Rabí Iehudá"
-  anónimo de la Mishná. Aquí: la medida de la salmuera, y que *min bemino* nunca se anula.
-- **Rabí Ishmael hijo de Rabí Iojanán ben Beroká** — tana de la cuarta generación, hijo de Rabí
-  Iojanán ben Beroká. Su dictamen de que los nervios no tienen sabor se convierte en la halajá.
-
-**Amoraím de Erretz Israel**
-
-- **Rabí Janiná** (bar Jama) — primera generación, Tzipori; destacado colega-alumno de Rebí.
-  Aquí: permite el muslo, dos veces.
-- **Rabí Iehoshúa ben Leví** — primera generación, Lod; contemporáneo de Rabí Iojanán. El
-  dictamen indulgente se transmite en su nombre.
-- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberias. Nombrado
-  aquí solo como trasfondo de la transmisión.
-- **Rabí Amí** (Rabí Amí) — tercera generación, sucedió al círculo de Rabí Iojanán en Tiberias.
-  Envía a quienes preguntan a un colega más indulgente en lugar de dictaminar con estrictez para ellos.
-- **Rabí Iosí bar Rabí Janiná** — segunda generación, Cesarea; alumno de Rabí Iojanán. Fuente de
-  "no todas las medidas son iguales".
-- **Rabí Itzjak ben Jalov** — una figura menor, conocida sobre todo como transmisor de dictámenes
-  indulgentes en nombre de Rabí Iehoshúa ben Leví; no querría aventurar más que eso.
-- **Rabí Iehudá bar Zevina** — una figura oscura; aparece aquí como el escéptico en la puerta, y no
-  querría situar su generación con confianza.
-
-**Amoraím de Babilonia**
-
-- **Rav Huna** — segunda generación, cabeza de la academia de Sura y el alumno más destacado de Rav.
-  Aquí: la medida de la mishná significa carne cocida con cabezas de nabo.
-- **Abaie** — cuarta generación, cabeza de Pumbedita; el gran contrincante de Rava. Aquí demuele la
-  posición de Rav Dimi y luego aporta su defensa.
-- **Rav Dimi** — cuarta generación; un viajero entre Erretz Israel y Babilonia que transmitía
-  enseñanzas de Erretz Israel. Aquí, del lado que recibe las preguntas de Abaie.
-- **Rav Shmuel bar Rav Itzjak** — tercera generación; su "cien" es la posición bajo examen a lo
-  largo de todo 99a–99b.
-- **Ravina** — quinta/sexta generación, del círculo que redactó el Talmud. Aquí: la palabra
-  **זֶה** enseña sobre el lugar del corte.
-
-*Un parecido que vale señalar:* **Rabí Janiná** (amorá de Erretz Israel, arriba) no es **Rabí Iosí
-bar Rabí Janiná**, que es una generación menor que él y pertenece a Cesarea.
-
----
-
 ## Una línea para llevarte
 
 > "De una anomalía no aprendemos" no es una regla sobre *fuentes* — es una regla sobre
@@ -233,7 +233,7 @@ bar Rabí Janiná**, que es una generación menor que él y pertenece a Cesarea.
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿Cómo rescata la Guemará la derivación de sesenta de la objeción de que no aprendemos de una

@@ -77,6 +77,15 @@ html[lang="he"] [data-lang~="he"]{display:revert}
 .disclaimer.top{margin:10px 0 4px;text-align:center}
 .disclaimer.foot{margin-top:26px;border-style:dashed;background:none}
 
+/* ---- feedback ----
+   The counterpart to the notice above it: the sheet can be wrong, and this is
+   how you say so. Quiet by design — a reader who has no correction should not
+   have to read past a button, and one who does is looking for it. */
+.feedback{margin:12px 0 0;text-align:center;font-size:.86rem;color:var(--muted)}
+.feedback a{color:var(--muted);text-decoration:none;
+  border-bottom:1px dashed var(--line);padding-bottom:1px}
+.feedback a:hover,.feedback a:focus-visible{color:var(--accent);border-bottom-color:var(--accent)}
+
 /* ---- site nav ---- */
 #site-nav{position:fixed;top:12px;inset-inline-end:14px;z-index:50;display:flex;gap:8px}
 #site-nav a,#lang-btn{
@@ -196,8 +205,17 @@ header.top .sub{color:var(--muted);font-size:1rem;font-style:italic}
 .sheet tr.speaking{background:none;box-shadow:none}
 .sheet tr.speaking td{background:var(--gold-soft)}
 
-/* the jump to the deck, sitting under the glossary table that feeds it */
-.deck-cta{margin:18px 0 2px;text-align:center}
+/* Each prose tab is a stack of cards now — the sheet, the deck it is made of,
+   the next stretch of sheet — where it used to be one block, so the space
+   between them belongs to the panel rather than to any one thing in it.
+   A gap rather than margins between siblings: every language's copy of the
+   sheet is in the panel and all but one are display:none, and a hidden block
+   is not a flex item, so no gap is left where it would have been. */
+#intro.active,#chazara.active{display:flex;flex-direction:column;gap:22px}
+/* The deck under the glossary, and the test at the end of the review: neither
+   is a tab of its own any more, so each says what it is where it sits. */
+.deck-inline > h2,.quiz-inline > h2{font-size:1.4rem;color:var(--accent2);
+  text-align:center;margin:0 0 14px}
 .tomorrow{margin-top:24px;padding-top:16px;border-top:1px solid var(--line);
   color:var(--muted);font-style:italic;font-size:.96rem}
 
@@ -341,6 +359,25 @@ figure.scan:has(+ .daf-lines){margin-bottom:10px}
   font-size:1rem;cursor:pointer}
 .line.bare>.line-head{cursor:default}
 .line-head:hover{color:var(--accent2)}
+/* ---- the translation is English, and only English ----
+   There is one translation of the daf and it is the Davidson Talmud's, so to a
+   reader who asked for Spanish or Hebrew it is not a translation at all — it is
+   a third language dropped into the middle of the daf. Outside the English view
+   it is not shown, and neither is the chip that would ask for it.
+
+   Keyed on the root language, like the data-lang switch at the top of this file
+   and hardcoding "en" for the same reason: this is the one place the stylesheet
+   says which language the translation is in. Stated here rather than left to
+   daf.js so that it holds whether or not daf.js ran. */
+html:not([lang="en"]) .line-body,
+html:not([lang="en"]) #daf .g-en,
+html:not([lang="en"]) #daf .chip[data-daf="en"]{display:none}
+/* Closed, a passage is one clamped line that opens onto its English. With no
+   English to open onto there is nothing to clamp it for: every passage stays
+   open and its head is inert — daf.js takes the button semantics off it, and
+   these two rules are the same thing said to a browser that never ran it. */
+html:not([lang="en"]) .line.collapsed .line-he{white-space:normal;overflow:visible}
+html:not([lang="en"]) .line-head{cursor:default;color:var(--ink)}
 .line-head:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .line-head i{flex:0 0 auto;font-style:normal;font-size:.72rem;color:var(--faint);
   min-width:1.4em}
@@ -377,6 +414,10 @@ figure.scan:has(+ .daf-lines){margin-bottom:10px}
 }
 .daf-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;
   margin:0 0 18px}
+/* daf.js hides the bar when every chip in it is: a daf Sefaria has no margins
+   for, read outside the English view, would otherwise show "Show" and nothing
+   after it. An author display always beats the UA's [hidden], so say it here. */
+.daf-bar[hidden]{display:none}
 .daf-bar-label{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
 .chip{border:1px solid var(--line);background:var(--panel);color:var(--muted);
   border-radius:999px;padding:6px 15px;font-family:inherit;font-size:.92rem;
@@ -512,7 +553,16 @@ body.view-daf .disclaimer.top.source{display:block}
 .tomorrow:lang(he),blockquote:lang(he){font-style:normal}
 
 @media print{
-  #site-nav,.tabs,#quiz,#cards,#daf,.deck-cta,.hint,.speak{display:none!important}
+  /* Paper has no tabs, so it gets the whole sheet in the order it was written:
+     both prose panels, whichever one happened to be open. What goes is what
+     cannot be printed — the daf's own iframes, the two things you drive rather
+     than read, and a mailto nobody can click (the footer notice above it
+     survives into print on its own). */
+  .view{display:block!important}
+  #site-nav,.tabs,#daf,.deck-inline,.quiz-inline,.hint,.speak,
+  .feedback{display:none!important}
+  /* the panels' gap goes with their flex layout, so paper sets its own */
+  .sheet + .sheet,#chazara{margin-top:18px}
   body{background:#fff;color:#000}
   .sheet{border:none;box-shadow:none;padding:0}
 }

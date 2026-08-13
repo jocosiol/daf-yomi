@@ -81,5 +81,11 @@
 {% endif %}
 </nav>
 {% block body %}{% endblock %}
+{% if feedback %}
+{# End of the body, not <head>: it reaches into the page for the links it
+   completes. Shared by the daf pages and the archive, which is why it is here
+   and not in either of them. #}
+<script src="{{ asset('feedback.js') }}"></script>
+{% endif %}
 </body>
 </html>

@@ -59,6 +59,67 @@ Tres movimientos:
 
 ---
 
+## Quién es quién en el daf de hoy
+
+**Tanaim**
+
+- **Beit Shamai y Beit Hilel** — las dos grandes escuelas del final del Segundo Templo y de las primeras
+  generaciones posteriores a la Destrucción; aquí se muestra, al final, que no discrepan sobre limpiar
+  el paladar.
+- **Rabí Elazar ben Araj** y **Rabán Gamliel hijo de Rebbi** aparecen solo en el borde mismo del daf,
+  cuando su argumento se derrama en 106; el elenco de trabajo de 105 es amoraico.
+
+**Amoraim de Erretz Israel**
+
+- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberíades, la voz
+  central del Talmud de Jerusalén. Dictamina "ninguna espera" entre el queso y la carne.
+- **Rabí Zeirá** — un babilonio que ascendió a Erretz Israel (tercera generación allí); da la regla de
+  que solo el pan limpia la boca.
+- **Rabí Ianai** — amorá de Erretz Israel de primera generación, maestro del círculo de Rabí Iojanán;
+  aporta el límite de "la mano se retrae" para el agua caliente.
+- **Rav Asi** — un babilonio que se asentó en Erretz Israel, colega cercano de Rav Amí y frecuente
+  interrogador de Rabí Iojanán; pregunta sobre la espera entre carne y queso, y es el sabio de la
+  historia del canal reventado. **No** es Rav Ashi el redactor (abajo).
+
+**Amoraim de Babilonia**
+
+- **Shmuel** — primera generación, cabeza de Nehardea; su "padre" es Abá bar Abá. Fuente de la máxima
+  de que patrullar la propiedad a diario "encuentra una moneda".
+- **Mar Ukvá** — Exilarca y juez de primera generación, contemporáneo de Shmuel; mide su cautela
+  después de la carne frente a la de su padre, más estricto.
+- **Rav Jisdá** — tercera generación, Sura; que la carne-luego-queso deba esperar pero no al revés es
+  suyo, y viaja en el bote con Rabá bar Rav Huná.
+- **Rav Ajá bar Iosef** — un amorá babilonio que pregunta a Rav Jisdá sobre la carne entre los dientes.
+- **Rabá bar Rav Huná** — tercera generación, hijo de Rav Huná de Sura; la hechicera no puede tocarlo a
+  él ni a Rav Jisdá en el bote.
+- **Abaie** — cuarta generación, cabeza de Pumbedita; toda la cadena de "al principio yo diría" es suya,
+  reportando lo que aprendió del **Maestro, Rabá** — su maestro y padre adoptivo Rabá bar Najmaní.
+- **Rav Najmán** (bar Iaakov) — tercera generación, Nehardea; acota las "opcionales" aguas intermedias
+  para exigir el lavado antes del queso.
+- **Rav Idi bar Avín** y **Rav Itzjak bar Ashián** — la pareja detrás del dictamen de que las aguas
+  primeras son mitzvá y las últimas obligación. Ambos son tradentes relativamente menores; no forzaría
+  más sus biografías.
+- **Rav Itzjak bar Iosef** — un amorá viajero que llevó las enseñanzas de Rabí Ianai desde Erretz
+  Israel a Babilonia. **No** es Rav Itzjak bar Ashián, pese al nombre compartido.
+- **Rav Iehudá hijo de Rabí Jiiá** — da la razón de la sal de Sodoma para las aguas últimas.
+- **Rav Ashi** — sexta generación, redactor del Talmud en Sura; dictamina sobre quien manipuló sal.
+  **No** es Rav Asi arriba.
+- **Rav Ajá hijo de Rava** — un babilonio posterior que interroga a Rav Ashi aquí.
+- **Mar bar Rav Ashi** — hijo de Rav Ashi, cabeza de séptima generación en Sura; estricto sobre la mesa
+  durante la bebida, y el sabio que excomulga al demonio del canalón.
+- **Rav Papa** — quinta generación, fundador de la academia de Naresh; un demonio-sirviente trabaja en
+  su casa.
+
+*Parecidos que vale la pena señalar:*
+- **Rav Asi** (de Erretz Israel, pregunta a Rabí Iojanán, tapa el canal) **no** es **Rav Ashi** el
+  redactor — y ambos aparecen en este mismo daf.
+- **Rabá** — el "Maestro" a quien Abaie cita — es Rabá bar Najmaní, **no** **Rava**; y **Rabá bar Rav
+  Huná** en el bote es un tercero, figura distinta.
+- **Mar bar Rav Ashi** (hijo de Rav Ashi) **no** es Rav Ajá bar Rav Ashi.
+- **Rav Itzjak bar Ashián** y **Rav Itzjak bar Iosef** son dos tradentes diferentes.
+
+---
+
 ## Recorriendo la suguiá, paso a paso
 
 ### 105a — Limpiar el paladar, y cuánto esperar
@@ -159,67 +220,6 @@ Tres lavados, cuatro preguntas — y a la prosa le lleva tres párrafos llegar h
 
 ---
 
-## Quién es quién en el daf de hoy
-
-**Tanaim**
-
-- **Beit Shamai y Beit Hilel** — las dos grandes escuelas del final del Segundo Templo y de las primeras
-  generaciones posteriores a la Destrucción; aquí se muestra, al final, que no discrepan sobre limpiar
-  el paladar.
-- **Rabí Elazar ben Araj** y **Rabán Gamliel hijo de Rebbi** aparecen solo en el borde mismo del daf,
-  cuando su argumento se derrama en 106; el elenco de trabajo de 105 es amoraico.
-
-**Amoraim de Erretz Israel**
-
-- **Rabí Iojanán** (bar Napajá) — segunda generación, cabeza de la academia de Tiberíades, la voz
-  central del Talmud de Jerusalén. Dictamina "ninguna espera" entre el queso y la carne.
-- **Rabí Zeirá** — un babilonio que ascendió a Erretz Israel (tercera generación allí); da la regla de
-  que solo el pan limpia la boca.
-- **Rabí Ianai** — amorá de Erretz Israel de primera generación, maestro del círculo de Rabí Iojanán;
-  aporta el límite de "la mano se retrae" para el agua caliente.
-- **Rav Asi** — un babilonio que se asentó en Erretz Israel, colega cercano de Rav Amí y frecuente
-  interrogador de Rabí Iojanán; pregunta sobre la espera entre carne y queso, y es el sabio de la
-  historia del canal reventado. **No** es Rav Ashi el redactor (abajo).
-
-**Amoraim de Babilonia**
-
-- **Shmuel** — primera generación, cabeza de Nehardea; su "padre" es Abá bar Abá. Fuente de la máxima
-  de que patrullar la propiedad a diario "encuentra una moneda".
-- **Mar Ukvá** — Exilarca y juez de primera generación, contemporáneo de Shmuel; mide su cautela
-  después de la carne frente a la de su padre, más estricto.
-- **Rav Jisdá** — tercera generación, Sura; que la carne-luego-queso deba esperar pero no al revés es
-  suyo, y viaja en el bote con Rabá bar Rav Huná.
-- **Rav Ajá bar Iosef** — un amorá babilonio que pregunta a Rav Jisdá sobre la carne entre los dientes.
-- **Rabá bar Rav Huná** — tercera generación, hijo de Rav Huná de Sura; la hechicera no puede tocarlo a
-  él ni a Rav Jisdá en el bote.
-- **Abaie** — cuarta generación, cabeza de Pumbedita; toda la cadena de "al principio yo diría" es suya,
-  reportando lo que aprendió del **Maestro, Rabá** — su maestro y padre adoptivo Rabá bar Najmaní.
-- **Rav Najmán** (bar Iaakov) — tercera generación, Nehardea; acota las "opcionales" aguas intermedias
-  para exigir el lavado antes del queso.
-- **Rav Idi bar Avín** y **Rav Itzjak bar Ashián** — la pareja detrás del dictamen de que las aguas
-  primeras son mitzvá y las últimas obligación. Ambos son tradentes relativamente menores; no forzaría
-  más sus biografías.
-- **Rav Itzjak bar Iosef** — un amorá viajero que llevó las enseñanzas de Rabí Ianai desde Erretz
-  Israel a Babilonia. **No** es Rav Itzjak bar Ashián, pese al nombre compartido.
-- **Rav Iehudá hijo de Rabí Jiiá** — da la razón de la sal de Sodoma para las aguas últimas.
-- **Rav Ashi** — sexta generación, redactor del Talmud en Sura; dictamina sobre quien manipuló sal.
-  **No** es Rav Asi arriba.
-- **Rav Ajá hijo de Rava** — un babilonio posterior que interroga a Rav Ashi aquí.
-- **Mar bar Rav Ashi** — hijo de Rav Ashi, cabeza de séptima generación en Sura; estricto sobre la mesa
-  durante la bebida, y el sabio que excomulga al demonio del canalón.
-- **Rav Papa** — quinta generación, fundador de la academia de Naresh; un demonio-sirviente trabaja en
-  su casa.
-
-*Parecidos que vale la pena señalar:*
-- **Rav Asi** (de Erretz Israel, pregunta a Rabí Iojanán, tapa el canal) **no** es **Rav Ashi** el
-  redactor — y ambos aparecen en este mismo daf.
-- **Rabá** — el "Maestro" a quien Abaie cita — es Rabá bar Najmaní, **no** **Rava**; y **Rabá bar Rav
-  Huná** en el bote es un tercero, figura distinta.
-- **Mar bar Rav Ashi** (hijo de Rav Ashi) **no** es Rav Ajá bar Rav Ashi.
-- **Rav Itzjak bar Ashián** y **Rav Itzjak bar Iosef** son dos tradentes diferentes.
-
----
-
 ## Una línea para llevarte
 
 > Un daf que empieza limpiándote las migas de la boca termina enseñando que los pequeños hábitos medio
@@ -229,7 +229,7 @@ Tres lavados, cuatro preguntas — y a la prosa le lleva tres párrafos llegar h
 
 ---
 
-## Chazará — ponte a prueba
+## Jazará — ponte a prueba
 
 ```yaml
 - q: ¿Cómo reconcilia finalmente la Guemará a Beit Shamai y Beit Hilel sobre limpiar la boca después
