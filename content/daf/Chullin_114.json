@@ -1,0 +1,326 @@
+{
+ "tractate": "Chullin",
+ "page": 114,
+ "fetched": "2026-08-15",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 114a",
+   "he_ref": "חולין קי״ד.",
+   "url": "https://www.sefaria.org/Chullin.114a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=114&amud=a",
+   "segments": [
+    {
+     "he": "כֵּיוָן דְּעַל אֲכִילָה לָא לָקֵי, אַבִּישּׁוּל נָמֵי לָא לָקֵי.",
+     "en": "This link between cooking and eating indicates that <b>since one is not flogged for eating</b> forbidden fat cooked in milk, as agreed upon above, one <b>also is not flogged for cooking</b> the two together.",
+     "rashi": [],
+     "tosafot": [
+      "<b>כיון דעל אכילה לא לקי</b> — תימה אימא איפכא כדאמר בסמוך כיון דאבשול לקי אאכילה נמי לקי:"
+     ]
+    },
+    {
+     "he": "וְאִיכָּא דְּאָמְרִי: אַבִּישּׁוּל – כּוּלֵּי עָלְמָא לָא פְּלִיגִי דְּלָקֵי, כִּי פְּלִיגִי אַאֲכִילָה. מַאן דְּאָמַר אֵינוֹ לוֹקֶה – דְּהָא אֵין אִיסּוּר חָל עַל אִיסּוּר, וּמַאן דְּאָמַר לוֹקֶה – לְהָכִי אַפְּקַהּ רַחֲמָנָא לַאֲכִילָה בִּלְשׁוֹן בִּישּׁוּל, כֵּיוָן דְּאַבִּישּׁוּל לָקֵי – אַאֲכִילָה נָמֵי לָקֵי.",
+     "en": "<b>And some say</b> the opposite: <b>With regard to cooking, everyone agrees that</b> one <b>is flogged</b> for this act, since the principle of a prohibition not taking effect where another prohibition already exists is not relevant. <b>When they disagree,</b> it is <b>with regard to eating. The one who says he is not flogged</b> applies the principle <b>that a prohibition does not take effect</b> where another <b>prohibition</b> already exists, and the fat was already prohibited for consumption in its own right before being cooked with milk. <b>And the one who says he is flogged</b> holds that it was <b>for this</b> reason that <b>the Merciful One expressed</b> the prohibition of <b>eating</b> meat cooked in milk using <b>the language of cooking,</b> to teach that <b>since one is flogged for cooking</b> forbidden fat in milk, one <b>also is flogged for eating</b> the product.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְאִיבָּעֵית אֵימָא: מָר אֲמַר חֲדָא, וּמָר אֲמַר חֲדָא, וְלָא פְּלִיגִי.",
+     "en": "The Gemara suggests a third explanation of the dispute between Rabbi Ami and Rabbi Asi: <b>And if you wish, say</b> that <b>one Sage said one</b> statement <b>and one Sage said another</b> statement, <b>and they do not disagree,</b> as they are referring to different cases. The Sage who said that one is flogged is referring to the transgression of cooking forbidden fat with milk, whereas the one who said one is not flogged is referring to the consumption of forbidden fat with milk. Everyone agrees that a prohibition does not take effect where another prohibition already exists, and therefore one is flogged only for cooking forbidden fat in milk, but not for eating the two together.",
+     "rashi": [
+      "<b>ומר אמר חדא כו'</b> — מ\"ד לוקה קאי אבישול דחדא איסורא הוא ומ\"ד אין לוקה קאי אאכילה דאם לא התרו בו משום אכילת חלב אלא משום בשר בחלב אינו לוקה דלא אתי איסור בשר בחלב וחייל אאיסור חלב:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מֵיתִיבִי: הַמְבַשֵּׁל בְּמֵי חָלָב – פָּטוּר, דָּם שֶׁבִּשְּׁלוֹ בְּחָלָב – פָּטוּר, הַעֲצָמוֹת וְהַגִּידִים וְהַקַּרְנַיִם וְהַטְּלָפַיִם שֶׁבִּשְּׁלָן בְּחָלָב – פָּטוּר.",
+     "en": "The Gemara <b>raises an objection</b> from a <i>Tosefta</i> (8:3): <b>One who cooks</b> meat <b>in whey,</b> the liquid leftover after milk has been curdled, is <b>exempt</b> from lashes, as whey is not defined as milk for purposes of the prohibition. Likewise, for <b>blood that one cooked in milk,</b> he is <b>exempt,</b> as blood is not considered meat. Similarly, with regard to <b>the bones, the tendons, the horns, and the hooves that one cooked in milk,</b> he is <b>exempt.</b>",
+     "rashi": [
+      "<b>במי חלב</b> — מישג\"א בלע\"ז:"
+     ],
+     "tosafot": [
+      "<b>המבשל במי חלב פטור</b> — איסורא מיהא איכא דהא כותח מנסיובי דחלבא עבדי ליה כדאמר בריש אלו עוברין (פסחים דף מב.) ואמרינן לעיל (חולין דף קיא:) דאסור לאכול בשר בכותח:"
+     ]
+    },
+    {
+     "he": "הַפִּגּוּל, וְהַנּוֹתָר, וְהַטָּמֵא, שֶׁבִּשְּׁלָן בְּחָלָב – חַיָּיב!",
+     "en": "The <i>Tosefta</i> continues: By contrast, with regard to prohibited <b><i>piggul</i></b> meat, i.e., meat from an offering that was sacrificed with the intent to sprinkle its blood or partake of its meat beyond its designated time, <b>and</b> similarly prohibited <b><i>notar</i>,</b> meat from an offering whose period for consumption has expired, <b>and</b> the prohibited <b>impure</b> meat of an offering, <b>that one cooked in milk,</b> he is <b>liable</b> to be flogged for violating the prohibition of meat cooked in milk. This indicates that the prohibition applies to items already prohibited for consumption, contrary to the above opinion attributed to Rabbi Ami and Rabbi Asi.",
+     "rashi": [
+      "<b>הפגול והנותר</b> — אלמא אע\"ג דאסירי וקיימי אתי איסור בשר בחלב וחייל עלייהו והוא הדין נמי אם בשל חלב בחלב אלמא מרבויא דגדי נפקא לן דחייל על כל איסורין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הַאי תַּנָּא סָבַר אִיסּוּר חָל עַל אִיסּוּר.",
+     "en": "The Gemara answers: <b>This <i>tanna</i></b> of the <i>baraita</i> <b>maintains</b> in general that <b>a prohibition takes effect</b> where another <b>prohibition</b> already exists, whereas Rabbi Ami and Rabbi Asi are of the opposite opinion. It is conceivable that these Sages, who are <i>amora’im</i>, disagree with that <i>tanna</i>, as the issue of whether a prohibition takes effect where another prohibition already exists is a well-known dispute among the <i>tanna’im</i> themselves.",
+     "rashi": [
+      "<b>האי תנא</b> — נמי סבר בכל איסורין דאיסור חל על איסור ואינהו סברי לה כמ\"ד אין איסור חל על איסור ותנאי טובא איפליגו בה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הַמְבַשֵּׁל בְּמֵי חָלָב פָּטוּר, מְסַיַּיע לֵיהּ לְרֵישׁ לָקִישׁ, דִּתְנַן: מֵי חָלָב הֲרֵי הֵן כְּחָלָב, וְהַמּוֹחַל הֲרֵי הוּא כְּשֶׁמֶן. אָמַר רֵישׁ לָקִישׁ: לֹא שָׁנוּ אֶלָּא לְהַכְשִׁיר אֶת הַזְּרָעִים, אֲבָל לְעִנְיַן בִּישּׁוּל בָּשָׂר בְּחָלָב – מֵי חָלָב אֵינוֹ כְּחָלָב.",
+     "en": "§ It was stated in the above <i>baraita</i>: <b>One who cooks</b> meat <b>in whey is exempt</b> from lashes. The Gemara comments: This ruling <b>supports</b> the opinion <b>of Reish Lakish, as we learned</b> in a mishna, with regard to liquids that render food susceptible to ritual impurity (<i>Makhshirin</i> 6:5): The halakhic status of <b>whey is like</b> that of <b>milk,</b> which is one of the liquids that render food susceptible to impurity, <b>and</b> the halakhic status of olive <b>secretion is like</b> that of <b>oil,</b> which also renders food susceptible to impurity. With regard to this mishna, <b>Reish Lakish says: They taught</b> this <i>halakha</i> <b>only</b> with regard to <b>rendering seeds,</b> i.e., produce, <b>susceptible</b> to impurity. <b>But with regard to cooking meat in milk,</b> the halakhic status of <b>whey is not like</b> that of <b>milk.</b>",
+     "rashi": [
+      "<b>הרי הן כחלב</b> — להכשיר את הזרעים וחלב נקרא משקה דכתיב (שופטים ד) ותפתח את נאד החלב ותשקהו:",
+      "<b>והמוחל</b> — משקה הזב מן הזיתים:",
+      "<b>הרי הוא כשמן</b> — ושמן איקרי משקה דכתיב (ישעיהו כה) משתה שמנים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּנוּ רַבָּנַן: ״בַּחֲלֵב אִמּוֹ״ – אֵין לִי אֶלָּא בַּחֲלֵב אִמּוֹ, בַּחֲלֵב פָּרָה וְרָחֵל מִנַּיִן?",
+     "en": "§ <b>The Sages taught</b> in a <i>baraita</i>: From the phrase <b>“in its mother’s milk” I have</b> derived <b>only</b> that the prohibition applies <b>to</b> the <b>mother</b> goat’s <b>milk. From where</b> do I derive that it also applies <b>to the milk of a cow and a ewe?</b>",
+     "rashi": [
+      "<b>אין לי אלא בחלב אמו</b> — כלומר עז:"
+     ],
+     "tosafot": [
+      "<b>בחלב פרה ורחל מנין</b> — לא איצטריך ליה אלא לרבות בשאין מינו כגון פרה בחלב גדי או גדי בחלב פרה אבל פרה בחלב עצמה הא דרשינן לעיל (חולין דף קיג:) כל מקום שנאמר גדי אפילו פרה ורחל במשמע ובחנם דחק בקונטרס:"
+     ]
+    },
+    {
+     "he": "אָמַרְתָּ, קַל וָחוֹמֶר: וּמָה אִמּוֹ, שֶׁלֹּא נֶאֶסְרָה עִמּוֹ בְּהַרְבָּעָה – נֶאֶסְרָה עִמּוֹ בְּבִשּׁוּלוֹ, פָּרָה וְרָחֵל, שֶׁנֶּאֶסְרוּ עִמּוֹ בְּהַרְבָּעָה – אֵינוֹ דִּין שֶׁנֶּאֶסְרוּ עִמּוֹ בְּבִשּׁוּלוֹ! תַּלְמוּד לוֹמַר ״בַּחֲלֵב אִמּוֹ״.",
+     "en": "<b>You</b> can <b>say an <i>a fortiori</i></b> inference: <b>Just as</b> a kid’s <b>mother, which is not prohibited for mating with</b> the kid, as they are of the same species, <b>is</b> nevertheless <b>prohibited for cooking with it,</b> as stated in the verse, <b>is it not right that a cow or a ewe, which are prohibited for mating with it,</b> as they are of different species, <b>should be prohibited for cooking with it?</b> Therefore, <b>the verse states</b> elsewhere: <b>“In its mother’s milk,”</b> a second time, to include a cow and a ewe.",
+     "rashi": [
+      "<b>ת\"ל</b> — מקרא שני:",
+      "<b>בחלב אמו</b> — דמייתר לרבויי כל חלב בהמה טהורה דהאי תנא לא מצריך ליה לכדשמואל דחלב זכר וחלב שחוטה וחלב טמאה מחד קרא דלגופי' נפקי דהא אמו כתיב ולא שחוטה ולא זכר ולא טמאה דהא גדי כתיב ובטהורה משתעי כדאמרן להוציא את הטמאה ועל כרחיך אמו נמי טהורה דאי אמו טמאה לא הוי איהו טהור הלכך להכי לא אתא וגדי משמע ליה גדי דווקא ובשר חיה ושאר בהמות מגדי יתירא נפקי לאיסורא דאי סבירא ליה גדי הכל במשמע אפילו עגל וטלה למה ליה לרבויי חלב פרה ורחל והא אמו כתיב ולקמן (חולין דף קטז.) דמשמע לן יתורא דגדי גדי לר\"ע למעוטי חיה ועוף הני מילי למאן דמשמע ליה גדי ואפילו עגל וטלה אתי קרא יתירא למעוטי אבל למאן דמשמע ליה גדי דווקא קראי יתירי לרבויי אתו דאי למעוטי לא איצטריך וחד למעוטי טמאה ולשליל לא איצטריך קרא דממשמעות יליף ליה כדאשכחנא גבי ר\"ע לקמן דאמר שליל גדי מעליא:"
+     ],
+     "tosafot": [
+      "<b>פרה ורחל שנאסרו עמה בהרבעה</b> — וא\"ת חיה ועוף יוכיחו לר' עקיבא או עוף לחודיה לר' יוסי הגלילי דנאסרו בהרבעה עם שאינו מינו כדאמרינן בסוף שור שנגח את הפרה (ב\"ק דף נה.) ולא נאסרו בבשול וי\"ל דעדיפא פריך:"
+     ]
+    },
+    {
+     "he": "וְהָא לְמָה לִי קְרָא? הָא אָתְיָא לֵיהּ!",
+     "en": "The Gemara challenges the conclusion of the <i>baraita</i>. <b>But why do I</b> need <b>a verse? It was</b> just <b>derived</b> through the <i>a fortiori</i> inference.",
+     "rashi": [
+      "<b>הא אתיא ליה</b> — שפיר בק\"ו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב אָשֵׁי: מִשּׁוּם דְּאִיכָּא לְמֵימַר מֵעִיקָּרָא דְּדִינָא פִּירְכָא, מֵהֵיכָא קָא מַיְיתֵית לַהּ? מֵאִמּוֹ, מָה לְאִמּוֹ שֶׁכֵּן נֶאֶסְרָה עִמּוֹ בִּשְׁחִיטָה, תֹּאמַר בְּפָרָה שֶׁלֹּא נֶאֶסְרָה עִמּוֹ בִּשְׁחִיטָה? תַּלְמוּד לוֹמַר ״בַּחֲלֵב אִמּוֹ״.",
+     "en": "<b>Rav Ashi said:</b> It is needed <b>because one can say that</b> the <b>refutation of the</b> <i>a fortiori</i> <b>inference</b> is present <b>from the outset,</b> i.e., there is a difficulty with the comparison: <b>From where do you derive</b> the inference? It is derived <b>from its mother</b> goat, which the <i>baraita</i> presents as being treated more leniently than a cow or ewe since it may be mated with a kid. But there is a stringent aspect of the mother goat not shared by a cow or ewe: <b>What</b> is unique <b>about its mother?</b> It is unique <b>in that it is prohibited for slaughter with it,</b> since one may not slaughter an animal and its mother on the same day (see Leviticus 22:28). <b>Will you say</b> the same <b>about a cow, which is not prohibited for slaughter with it?</b> Therefore, <b>the verse states: “In its mother’s milk,”</b> to include a cow and a ewe.",
+     "rashi": [
+      "<b>מעיקרא דדינא</b> — מתחלת הדין דקתני מה אמו שלא נאסרה עמו בהרבעה נאסרה עמו בבשול זהו תחלתו של ק\"ו ויש להקשות מה לאמו שכן נאסרה לישחט עמו ביום אחד. ולהכי נקט מעיקרא דדינא פירכא משום דפעמים מקשה על סוף הדין כגון דקתני סיפא פרה ורחל שנאסרו עמו בהרבעה אינו דין שנאסרו עמו בבשול זהו סוף הדין ואם היה מקשה ואומר בהמה טמאה תוכיח שנאסרה עמו בהרבעה ולא נאסרה עמו בבישול אף אתה אל תתמה על פרה ורחל כו' זו היא פירכא על סוף הדין:"
+     ],
+     "tosafot": [
+      "<b>מה לאמו שכן נאסרה עמו בשחיטה</b> — תימה לרבנן חיה תוכיח דאין אותו ואת בנו נוהג בחיה:",
+      "<b>תלמוד לומר בחלב אמו</b> — עוד דריש מינה בסמוך היא עצמה בחלבה אע\"ג דשמואל דריש ליה למלתייהו לעיל (חולין דף קיג:) הכא דריש מבחלב דתרי מינייהו מייתרי דהוה מצי למכתב באמו ואנא ידענא דבחלב אמו קאמר כיון דבחד מינייהו הוה כתיבא בחלב אמו ורבי יוסי הגלילי דממעט עוף שאין לו חלב אם מוי\"ו דאמו קא דריש:"
+     ]
+    },
+    {
+     "he": "תַּנְיָא אִידַּךְ: ״בַּחֲלֵב אִמּוֹ״ – אֵין לִי אֶלָּא בַּחֲלֵב אִמּוֹ, בַּחֲלֵב אֲחוֹתוֹ גְּדוֹלָה מִנַּיִן?",
+     "en": "§ The above <i>baraita</i> accounts for two of the Torah’s three mentions of the phrase “in its mother’s milk.” The Gemara now addresses the third. It <b>is taught</b> in <b>another</b> <i>baraita</i>: From one instance of the phrase <b>“in its mother’s milk” I have</b> derived <b>only</b> that the prohibition applies <b>to the milk of its mother,</b> if the mother is less than a year old and has not yet entered the pen for the purpose of its owner’s separating the annual animal tithe. <b>From where</b> do I derive that it also applies <b>to the milk of its older sister,</b> i.e., one that is more than a year old that has already entered the pen for the animal tithe in the previous year?",
+     "rashi": [
+      "<b>חלב אחותו גדולה מנין</b> — אני שמעתי דהיינו פרה שהיא מין בהמה כמותה אבל מין גדול הוא ומהאי קרא גופיה דריש ותנא אחרינא הוא ולישניה הוא דשני ועוד דלא נפק ליה פרה ורחל מיתורא דחד קרא אלא פרה לחודה דחלוקה מן הגדי בשני חילוקין חדא דנאסרה עמו בהרבעה וחדא דאין נכנסת עמו לדיר להתעשר אבל רחל שנכנסת עמו לדיר להתעשר דהא מעשר בקר וצאן כתיב (ויקרא כז) וכל צאן במשמע לא נפקא ליה מיניה שתאסר עמו בבישול הלכך יליף ברישא פרה והדר אתיא ליה רחל בהצד השוה כדלקמן. בקר אינו נכנס עם הצאן להתעשר בפרק בתרא דבכורות (דף נג.):"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַרְתָּ קַל וָחוֹמֶר, וּמָה אִמּוֹ שֶׁנִּכְנְסָה עִמּוֹ לְדִיר לְהִתְעַשֵּׂר – נֶאֶסְרָה עִמּוֹ בְּבִשּׁוּל, אֲחוֹתוֹ שֶׁלֹּא נִכְנְסָה עִמּוֹ לְדִיר לְהִתְעַשֵּׂר – אֵינוֹ דִּין שֶׁנֶּאֶסְרָה עִמּוֹ בְּבִשּׁוּל! תַּלְמוּד לוֹמַר ״בַּחֲלֵב אִמּוֹ״.",
+     "en": "<b>You</b> can <b>say an <i>a fortiori</i></b> inference: <b>Just as</b> a kid’s <b>mother, which enters the pen to be tithed with it, is</b> nevertheless <b>prohibited for cooking with it, is it not right that its sister, which does not enter the pen to be tithed with it, should be prohibited for cooking with it?</b> Therefore, <b>the verse states</b> elsewhere: <b>“In its mother’s milk,”</b> a third time, to include the older sister in the prohibition.",
+     "rashi": [
+      "<b>ומה אמו</b> — שאינה חלוקה ממנו לענין מעשר דהא מינה היא ואע\"פ שכבר ילדה עדיין היא ראויה ליכנס עמו לדיר להתעשר דגדייה יולדת בתוך שנתה ונכנסת עם בנה לדיר להתעשר כשעדיין לא נכנסה להתעשר כדתניא בבכורות (דף כ:) גדייה שילדה שלש בנות וכל בנותיה ילדו שלש [שלש] כולן נכנסות לדיר להתעשר ואפ\"ה חלקה הכתוב ממנו לאוסרה עמו בבישול:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָא לְמָה לִי קְרָא, הָא אָתְיָא לַיהּ? אָמַר רַב אָשֵׁי: מִשּׁוּם דְּאִיכָּא לְמֵימַר מֵעִיקָּרָא דְּדִינָא פִּירְכָא, מֵהֵיכָא קָא מַיְיתֵית לַהּ? מֵאִמּוֹ, מָה לְאִמּוֹ, שֶׁכֵּן נֶאֶסְרָה עִמּוֹ בִּשְׁחִיטָה, תֹּאמַר בַּאֲחוֹתוֹ גְּדוֹלָה, שֶׁלֹּא נֶאֶסְרָה עִמּוֹ בִּשְׁחִיטָה? תַּלְמוּד לוֹמַר ״בַּחֲלֵב אִמּוֹ״.",
+     "en": "The Gemara asks: <b>But why do I</b> need <b>a verse? It was</b> just <b>derived</b> from the <i>a fortiori</i> inference. <b>Rav Ashi said:</b> It is needed <b>because one can say</b> that the <b>refutation of</b> that <i>a fortiori</i> <b>inference</b> is present <b>from the outset. From where do you derive</b> the inference? It is derived <b>from its mother.</b> But one may respond: <b>What</b> is unique <b>about its mother?</b> It is unique <b>in that it is prohibited for slaughter with it</b> on the same day. <b>Will you say</b> the same <i>halakhot</i> apply <b>to its older sister, which is not prohibited for slaughter with it?</b> Therefore, <b>the verse states: “In its mother’s milk,”</b> including the older sister.",
+     "rashi": [
+      "<b>אחותו גדולה</b> — פרה שאינה נכנסת כו':",
+      "<b>תלמוד לומר בחלב אמו</b> — קרא יתירא לרבויי כל חלב וממילא איתרבאי פרה דאשכחן דנחלקה ממנו לענין מעשר תיחלק ממנו לבישול:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַשְׁכְּחַן אֲחוֹתוֹ גְּדוֹלָה, אֲחוֹתוֹ קְטַנָּה מִנַּיִן? אָתְיָא מִבֵּינַיָּא.",
+     "en": "The Gemara continues: <b>We have found</b> a source for the <i>halakha</i> that <b>its older sister</b> is included in the prohibition of meat cooked in milk. <b>From where</b> is it derived that the same applies to <b>its younger sister,</b> one that has not yet entered the pen for the tithe? The Gemara responds: <b>It is derived from between them,</b> i.e., from the combination of the mother and the older sister.",
+     "rashi": [
+      "<b>אחותו קטנה</b> — רחל:",
+      "<b>מביניא</b> — מאמו ומאחותו גדולה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מֵהֵי תֵּיתֵי? תֵּיתֵי מֵאִמּוֹ – מָה לְאִמּוֹ שֶׁכֵּן נֶאֶסְרָה עִמּוֹ בִּשְׁחִיטָה? אֲחוֹתוֹ גְּדוֹלָה תּוֹכִיחַ. מָה לַאֲחוֹתוֹ גְּדוֹלָה שֶׁלֹּא נִכְנְסָה עִמּוֹ לְדִיר לְהִתְעַשֵּׂר? אִמּוֹ תּוֹכִיחַ.",
+     "en": "The Gemara elaborates on the need for both cases in order to derive the third: <b>From which</b> of the two cases <b>should it be derived?</b> If <b>it should be derived from its mother,</b> one can claim: <b>What</b> is unique <b>about its mother?</b> It is unique <b>in that it is prohibited for slaughter with it</b> on the same day, unlike the younger sister. One may respond: <b>Its older sister can prove</b> the point, since it is not prohibited for slaughter with the kid, but it is still included in the prohibition of meat cooked in milk. But this can be refuted as well: <b>What</b> is unique <b>about its older sister?</b> It is unique <b>in that it does not enter the pen to be tithed with it,</b> unlike the younger sister. One may respond that <b>its mother can</b> then <b>prove</b> the point, as it can enter the pen to be tithed with the kid and is still included in the prohibition.",
+     "rashi": [
+      "<b>תיתי מאמו</b> — דמה אמו שלא נאסרה עמו בהרבעה נאסרה עמו בבישול אחותו קטנה שנאסרה עמו בהרבעה אינו דין שנאסרה עמו בבישול:",
+      "מה לאמו כו':"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְחָזַר הַדִּין, לֹא רְאִי זֶה כִּרְאִי זֶה, וְלֹא רְאִי זֶה כִּרְאִי זֶה, הַצַּד הַשָּׁוֶה שֶׁבָּהֶן: שֶׁהוּא בָּשָׂר, וְאָסוּר לְבַשֵּׁל בְּחָלָב, אַף אֲנִי אָבִיא אֲחוֹתוֹ קְטַנָּה, שֶׁהוּא בָּשָׂר, וְאָסוּר לְבַשֵּׁל בְּחָלָב.",
+     "en": "<b>And</b> consequently, <b>the inference has reverted</b> to its starting point: <b>The aspect of this</b> case <b>is not like the aspect of that</b> case <b>and the aspect of that</b> case <b>is not like the aspect of this</b> case; <b>their common element</b> is <b>that</b> both the mother and older sister are <b>meat and</b> it is <b>prohibited to cook</b> them <b>in milk.</b> If so, <b>I will also include its younger sister</b> in the prohibition, <b>since it is</b> also <b>meat, and</b> therefore it is <b>prohibited to cook</b> it <b>in milk.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אִי הָכִי, אֲחוֹתוֹ גְּדוֹלָה נָמֵי תֵּיתֵי מִבֵּינַיָּא.",
+     "en": "The Gemara challenges: <b>If so,</b> the inclusion of <b>its older sister</b> in the prohibition can <b>also be derived from between them,</b> i.e., from the combination of the kid’s mother and a cow. Although both a cow and the mother possess unique stringencies not shared by the older sister, i.e., the prohibition of mating and of slaughtering with the kid, respectively, neither possesses both stringencies, and the <i>halakha</i> with regard to the older sister can be derived from their common element, i.e., that they are both meat and prohibited to cook in milk, as stated above. If so, what need is there to derive this <i>halakha</i> from the verse?",
+     "rashi": [
+      "<b>אי הכי אחותו גדולה נמי תיתי מביניא</b> — מאמו ומאחותו קטנה ומחצי הדין שהרי אין להשיב עליו והכי דנינן מה אמו שנכנסת עמו לדיר נאסרה עמו בבשול אחותו גדולה לא כל שכן וכי פרכת מה לאמו שכן נאסרה עמו בשחיטה תאמר באחותו גדולה אחותו קטנה תוכיח ותו ליכא למיפרך מה לאחותו קטנה שכן לא נכנסה כו' אלמא מפלגי דינא נפקא לן כך שמעתי וקשיא לי היכי נימא אחותו קטנה תוכיח הא אכתי לא קיימא לן אחותו קטנה לאיסורא. ואני שמעתי דהכי פריך מאי חזית דאחותו גדולה נפקא לן מקרא וקטנה מביניא תיפוק ליה אחותו קטנה מרבויא דקרא וגדולה מביניא וקשיא לי חדא דמסתברא קרא כי רבי לאחותו גדולה לאיסורא רבי שנאסרה עמו במעשר אבל קטנה לא ועוד מאי קא מותיב לקמיה בחלב אמו למאי אתא טובא איצטריך לאחותו קטנה. ורואה אני את דברי ר' יוסף טוב עלם ז\"ל שראיתי תשובת כתב ידו דאחותו גדולה ואחותו קטנה אמינו ממש קאמר שהן מין גדי כמותו וגדולה זו היא זקנה שכבר נתעשרה וקטנה זו היא גדייה שלא נתעשרה עדיין והאי תנא היינו תנא גופיה דלעיל דאתיא ליה פרה ורחל מחד מקראי יתירי והשתא קא דריש לאידך וה\"ק אחותו גדולה שנתעשרה כבר מנין וע\"כ נקט גדולה משום דסופו יליף לה מרבויא וקטנה לא מיתרביא ליה מיניה משום דמסתברא כי רבי קרא לאיסורא גדולה רבי דנאסרה עמו במעשר דאילו מקרא יתירא קמא לא מצי לרבויי דאיכא למימר כי רבי לאיסורא לא רבי אלא פרה ורחל דאסורין עמו בהרבעה אבל אחותו לא ולהכי אשמעינן קרא אחרינא לאחותו גדולה וקטנה אתיא מביניא:",
+      "<b>אי הכי</b> — דקטנה אתיא לה מביניא:",
+      "<b>אחותו גדולה נמי</b> — לא תיבעי קרא ותיתי מביניא דאמו ופרה ודרוש הכי מה אמו שנכנסה עמו לדיר נאסרה עמו בבשול אחותו גדולה לא כ\"ש מה לאמו שכן נאסרה עמו בשחיטה פרה תוכיח מה לפרה שכן נאסרה עמו בהרבעה ובמעשר אמו תוכיח שמותרת עמו בהרבעה ובמעשר וחזר הדין הצד השוה שבהן שהם חלב כו' ואתיא מביניא בין אחותו גדולה ובין קטנה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִין הָכִי נָמֵי, אֶלָּא ״בַּחֲלֵב אִמּוֹ״ לְמָה לִי? מִבְּעֵי לֵיהּ לְכִדְתַנְיָא: ״בַּחֲלֵב אִמּוֹ״ – אֵין לִי אֶלָּא בַּחֲלֵב אִמּוֹ,",
+     "en": "The Gemara responds: <b>Yes,</b> it <b>is indeed so;</b> the <i>halakha</i> with regard to the older sister is derived from the common denominator of the mother and a cow. <b>Rather, why do I</b> need the verse’s additional mention of the phrase <b>“in its mother’s milk?” It is necessary for that which is taught</b> in a <i>baraita</i>: When the verse states: <b>“In its mother’s milk,” I have</b> derived <b>only</b> the prohibition to cook the kid <b>in its mother’s milk;</b>",
+     "rashi": [
+      "<b>אלא</b> — קרא שלישי למאי אתא קמא לגופיה תניינא לפרה ורחל ואידך למאי:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 114b",
+   "he_ref": "חולין קי״ד:",
+   "url": "https://www.sefaria.org/Chullin.114b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=114&amud=b",
+   "segments": [
+    {
+     "he": "הִיא עַצְמָהּ בַּחֲלָבָהּ מִנַּיִן? אָמַרְתָּ קַל וְחוֹמֶר: וּמָה בִּמְקוֹם שֶׁלֹּא נֶאֱסַר פְּרִי עִם פְּרִי בִּשְׁחִיטָה, נֶאֱסָר פְּרִי עִם הָאֵם בִּשְׁחִיטָה, מְקוֹם שֶׁנֶּאֱסַר פְּרִי עִם פְּרִי בְּבִשּׁוּל – אֵינוֹ דִּין שֶׁנֶּאֱסַר פְּרִי עִם הָאֵם בְּבִשּׁוּל? תַּלְמוּד לוֹמַר ״בַּחֲלֵב אִמּוֹ״.",
+     "en": "<b>from where</b> is it derived that the meat of a mother animal may not <b>itself</b> be cooked <b>in its</b> own <b>milk? Say an <i>a fortiori</i></b> inference: <b>Just as</b> with regard to an issue <b>where</b> the <b>fruit is not prohibited with</b> the <b>fruit,</b> i.e., <b>slaughter,</b> as it is permitted to slaughter two offspring of one mother on one day, the <b>fruit is</b> nevertheless <b>prohibited for slaughter with the mother, is it not right that</b> with regard to an issue <b>where</b> the <b>fruit is prohibited with</b> the <b>fruit,</b> i.e., <b>cooking,</b> as it is prohibited to cook a mother’s offspring with its milk, the <b>fruit,</b> i.e., the milk, <b>should be prohibited for cooking with the mother?</b> Therefore, <b>the verse states: “In its mother’s milk,”</b> to prohibit the cooking of the meat of the mother in its own milk.",
+     "rashi": [
+      "<b>היא עצמה בחלבה</b> — שיצא ממנה בעודה חיה מנין כו'. ואף מדרשה זו נראין הדברים דלאחותו ממש מצריך תלמודא או מקרא או מביניא דהא אפילו להיא עצמה מצרכינן תלמודא אלמא לא נפקא לן מקרא דלגופיה כל מין גדי אלא אמו דווקא אבל היא עצמה לא וה\"ה אחותו גדולה וקטנה:",
+      "<b>פרי עם פרי בשחיטה</b> — ששוחטין שני בני פרה אחת ביום אחד:",
+      "<b>פרי עם פרי בבישול</b> — גדי עם החלב:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָא לְמָה לִי קְרָא, הָא אָתְיָא לַהּ? אָמַר רַב אַחָדְבוּי בַּר אַמֵּי: מִשּׁוּם דְּאִיכָּא לְמֵימַר, סוּס בֶּן סוּסְיָא אֲחִי פִּרְדָּה יוֹכִיחַ, שֶׁאָסוּר פְּרִי עִם פְּרִי, וּמוּתָּר פְּרִי עִם הָאֵם.",
+     "en": "The Gemara asks: <b>Why do I</b> need <b>a verse? It was</b> just <b>derived</b> <i>a fortiori</i>. <b>Rav Aḥadvoi bar Ami said:</b> The verse is necessary <b>because one can say</b> that the case of <b>a horse born of</b> both a stallion and <b>mare</b> but which is <b>the brother of a mule,</b> i.e., its mother also bore a mule after being impregnated by a donkey, <b>proves</b> this <i>a fortiori</i> inference invalid. <b>As</b> here the <b>fruit is prohibited with</b> the <b>fruit, but</b> the <b>fruit is permitted with the mother.</b> One may not mate a horse with a mule, but one may mate a horse with its mother.",
+     "rashi": [
+      "<b>אמר רב אחדבוי כו'</b> — הכא לא אמרי מעיקרא דדינא פירכא כדלעיל משום דמקשי על סוף הדין:",
+      "<b>אחי פרדה</b> — שילדתה הסוסיא מן החמור והיה לה בן אחר מן הסוס הרי בן מותר עם אמו ואסור עם אחותו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָתָם, זֶרַע הָאָב הוּא דְּקָא גָרֵים.",
+     "en": "The Gemara rejects this: <b>There it is the seed of the father that effects</b> the prohibition of mating the mule with the daughter horse. The two may not be paired for reasons unrelated to their status as offspring of one mother. This ruling therefore proves nothing about the hypothesis that if two fruit cannot be paired, one can learn by <i>a fortiori</i> inference that the fruit cannot be paired with the mother.",
+     "rashi": [
+      "<b>התם זרע אב קא גרים</b> — ואיסורא לאו משום פרי עם פרי הוא אלא משום פרי עם שאינו פרי כלומר משום צד אביהן שהוא חלוק אבל גדי בחלב אמו שניהם על שם אמן קראן הכתוב ואפ\"ה אסרינהו. ותדע דטעמא משום חלוק האב הוא דהא זימנין דהוי איסור איפכא דפרי עם האם אסור ופרי עם פרי מותר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּהָא פֶּרֶד בֶּן סוּסְיָא אֲחִי פִּרְדָּה יוֹכִיחַ, שֶׁמּוּתָּר פְּרִי עִם פְּרִי, וְאָסוּר פְּרִי עִם הָאֵם.",
+     "en": "And this explanation must be true, <b>as</b> the case of <b>a mule born of</b> a donkey and <b>a mare</b> and which is <b>the brother of a female mule proves. As</b> here one <b>fruit is permitted with</b> the other <b>fruit,</b> i.e., one may mate the male and female mules since they are of the same species, <b>and</b> yet the <b>fruit is prohibited</b> to be mated <b>with the mother,</b> i.e., the mare. This case illustrates that the prohibition of crossbreeding is contingent on paternity, and does not rest solely on the relation between the mother and the fruit.",
+     "rashi": [
+      "<b>דהא פרד בן סוסיא</b> — שילדתו מן החמור והוא אחי פרדה שהיתה לה לסוסיא זו עוד בת אחת מן החמור:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא אָמַר מָר בְּרֵיהּ דְּרָבִינָא: מִשּׁוּם דְּאִיכָּא לְמֵימַר, עֶבֶד בֶּן שִׁפְחָה אֲחִי מְשׁוּחְרֶרֶת יוֹכִיחַ, שֶׁאָסוּר פְּרִי עִם פְּרִי, וּמוּתָּר פְּרִי עִם הָאֵם!",
+     "en": "<b>Rather, Mar, son of Ravina, said:</b> The <i>a fortiori</i> inference is invalid <b>because one can say that</b> the case of a male Canaanite <b>slave born of a female slave</b> and who is <b>the brother of a female freed</b> slave <b>proves</b> it invalid. <b>As</b> here the <b>fruit is prohibited with</b> the <b>fruit,</b> i.e., the slave may not engage in sexual intercourse with his freed sister, <b>and</b> yet the <b>fruit is permitted with</b> his slave <b>mother.</b>",
+     "rashi": [
+      "<b>עבד בן שפחה</b> — מותר במין אמו ואסור בבת חורין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָתָם גֵּט שִׁיחְרוּר הוּא דְּקָא גָרֵים, דְּהָא עֶבֶד בֶּן מְשׁוּחְרֶרֶת אֲחִי שִׁפְחָה יוֹכִיחַ, שֶׁמּוּתָּר פְּרִי עִם פְּרִי, וְאָסוּר פְּרִי עִם הָאֵם.",
+     "en": "The Gemara rejects this as well: <b>There it is the bill of manumission that effects</b> the prohibition. The slave is prohibited to his sister only because she has been freed, not because they are both fruit of one mother, <b>as</b> the case of a male <b>slave, son of a female freed</b> slave, and <b>the brother of a female slave proves. As</b> here the <b>fruit is permitted with</b> the <b>fruit,</b> i.e., he is permitted to his sister, since they are both slaves, <b>and</b> yet the <b>fruit is prohibited with</b> his released <b>mother,</b> as she is now considered a full-fledged Jew. Clearly the prohibition is entirely contingent on the emancipation of one of the slaves, irrespective of their relationship.",
+     "rashi": [
+      "<b>ופרכינן התם גט שחרור קא גרים</b> — ולאו משום פרי עם פרי הוא דהא זימנין דהוי איפכא ומיתסר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא אָמַר רַב אִידִי בַּר אָבִין: מִשּׁוּם דְּאִיכָּא לְמֵימַר, כִּלְאֵי זְרָעִים יוֹכִיחוּ, שֶׁאָסוּר פְּרִי עִם פְּרִי, וּמוּתָּר פְּרִי עִם הָאֵם. כְּלוּם נֶאֱסָר פְּרִי עִם פְּרִי אֶלָּא עַל יְדֵי הָאֵם? דְּהָא חִיטֵּי וּשְׂעָרֵי בְּכַדָּא וְלָא מִיתַּסְרוּ.",
+     "en": "<b>Rather, Rav Idi bar Avin said:</b> The <i>a fortiori</i> inference is invalid <b>because one can say</b> that the case of <b>diverse kinds of seeds proves</b> it invalid. <b>As</b> it <b>is prohibited</b> to sow <b>fruit</b> of one species <b>with fruit</b> of another species, <b>and</b> yet it is <b>permitted</b> to sow all types of <b>fruit with the mother,</b> i.e., the ground, from which all fruit grows. The Gemara rejects this as well: <b>Isn’t fruit</b> of one species <b>with fruit</b> of another species <b>prohibited only by means of the mother,</b> i.e., the ground? The prohibition of sowing diverse seeds applies only when they are both sown in the ground, <b>as wheat and barley</b> can be placed <b>in</b> a single <b>jug and they are not prohibited.</b>",
+     "rashi": [
+      "<b>כלאי זרעים</b> — חטין עם עדשין שאסור לזרוע זה עם זה:",
+      "<b>ומותר</b> — לזרוע כל אחד עם אמו עם הקרקע:",
+      "<b>ופרכינן התם פרי עם פרי מי מיתסר</b> — כלום נאסר פרי עם פרי אלא בזריעה דהיינו ע\"י האם:",
+      "<b>הא חטי ושערי בכדא</b> — שהניח בכד להצניע שם:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא אָמַר רַב אָשֵׁי: מִשּׁוּם דְּאִיכָּא לְמֵימַר, מָה לִפְרִי עִם פְּרִי, שֶׁכֵּן שְׁנֵי גּוּפִים, תֹּאמַר בִּפְרִי עִם הָאֵם, שֶׁכֵּן גּוּף אֶחָד, מִשּׁוּם הָכִי אִיצְטְרִיךְ קְרָא.",
+     "en": "<b>Rather, Rav Ashi said:</b> The <i>a fortiori</i> inference is invalid <b>because one can say: What</b> is unique <b>about fruit with fruit,</b> e.g., the kid and its mother’s milk, which are prohibited for cooking together? They are unique <b>in that</b> they are <b>two</b> separate <b>bodies</b> that were never unified. Must <b>you say</b> the same prohibition of pairing applies <b>to</b> the <b>fruit with the mother,</b> i.e., the mother’s meat and its milk, <b>which</b> were once <b>one body? Due to this</b> reason, <b>the</b> extra <b>verse</b> stating: “In its mother’s milk,” <b>was necessary</b> to include the meat and milk of the same animal in the prohibition.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב אָשֵׁי: מִנַּיִן לְבָשָׂר בְּחָלָב שֶׁאָסוּר בַּאֲכִילָה? שֶׁנֶּאֱמַר ״לֹא תֹאכַל כׇּל תּוֹעֵבָה״ – כֹּל שֶׁתִּעַבְתִּי לָךְ הֲרֵי הוּא בְּבַל תֹּאכַל.",
+     "en": "§ <b>Rav Ashi says: From where</b> is it derived <b>that meat</b> cooked <b>in milk is prohibited for consumption,</b> even though the verse explicitly prohibits only cooking? It is derived from a verse, <b>as it is stated</b> elsewhere: <b>“You shall not eat any abominable thing”</b> (Deuteronomy 14:3). This verse teaches that with regard to <b>any</b> practice <b>that I have made abominable,</b> i.e., forbidden, <b>to you,</b> the product <b>is prohibited for consumption.</b>",
+     "rashi": [
+      "<b>כל שתיעבתי לך</b> — כל שאסרתי לך לתעבו ולהתרחק ממנו:",
+      "<b>הרי הוא בבל תאכל</b> — עולמית בכל ענינין שהוא בין שבא בעבירה ובין שלא בא בעבירה כגון ע\"י קטן או ע\"י עובד כוכבים מאחר שתיעבתי לך אסור והאי הרי תיעבתיו לך להתרחק מבשולו שלא לבשלם יחד:"
+     ],
+     "tosafot": [
+      "<b>(לעיל) כל שתיעבתי לך הרי הוא בבל תאכל</b> — וא\"ת היאך אנו אוכלין אילים אפילו סירסן עובד כוכבים מ\"ש מבשר בחלב וי\"ל מדאסר רחמנא מעוך וכתות לגבוה מכלל דלהדיוט שרי וא\"ת צורם אוזן בכור ליתסר אפילו צרמו עובד כוכבים וי\"ל דשרי רחמנא קדשים שהוממו כצבי ואיל א\"כ אינו דבר מתועב:"
+     ]
+    },
+    {
+     "he": "וְאֵין לִי אֶלָּא בַּאֲכִילָה, בַּהֲנָאָה מִנַּיִן? כִּדְרַבִּי אֲבָהוּ, דְּאָמַר רַבִּי אֲבָהוּ אָמַר רַבִּי אֶלְעָזָר: כׇּל מָקוֹם שֶׁנֶּאֱמַר ״לֹא יֹאכַל״, ״לֹא תֹאכַל״, ״לֹא תֹּאכְלוּ״ – אֶחָד אִיסּוּר אֲכִילָה וְאֶחָד אִיסּוּר הֲנָאָה בַּמַּשְׁמָע, עַד שֶׁיִּפְרוֹט לְךָ הַכָּתוּב, כְּדֶרֶךְ שֶׁפָּרַט לְךָ בִּנְבֵלָה לַגֵּר בִּנְתִינָה וְלַגּוֹי בִּמְכִירָה.",
+     "en": "<b>And I have</b> derived <b>only</b> that meat cooked in milk is prohibited <b>with regard to consumption; from where</b> do I derive that it is also prohibited <b>with regard to benefit?</b> It is derived <b>in accordance with</b> the statement <b>of Rabbi Abbahu, as Rabbi Abbahu says</b> that <b>Rabbi Elazar says: Wherever it is stated, “He shall not eat,”</b> or <b>“you,”</b> in the singular, <b>“shall not eat,”</b> or <b>“you,”</b> in the plural, <b>“shall not eat,” both a prohibition</b> against <b>eating and a prohibition</b> against deriving <b>benefit</b> are indicated. This is so <b>unless the verse specifies for you</b> that one may derive benefit, <b>in the manner that it specified for you with regard to an animal carcass,</b> from which the verse explicitly permits one to derive benefit, as it states: “You may sell it to a foreigner” (Deuteronomy 14:21). Accordingly, one may provide such meat <b>to</b> a gentile <b>resident alien</b> in Eretz Yisrael <b>by giving</b> it to him as a gift, <b>and to</b> any other <b>gentile by sale.</b>",
+     "rashi": [
+      "<b>עד שיפרוט לך הכתוב שהוא מותר בהנאה כדרך שפרט לך בנבלה</b> — שאע\"פ שלא כתב לך אלא לא תאכל הוצרך לפרש בה היתר הנאה הא כל מקום שלא פירש לך בה היתר הנאה הוי במשמע איסור הנאה מלא תאכל: מדכתיב מכירה ונתינה באמצע שמע מינה אחד מכירה ואחד נתינה קיימי בין אגר ובין אעובד כוכבים דאי דוקא כתיב הוה ליה למכתב הכי תתננה לגר ותמכרנה לעובד כוכבים:"
+     ],
+     "tosafot": [
+      "<b>עד שיפרוט לך הכתוב כדרך שפרט לך בנבלה</b> — בפרק כל שעה (פסחים דף כא:) אמרינן דלא מתוקמא דרבי אבהו אלא כר\"מ דלרבי יהודה איצטריך לדברים ככתבן ולר' יהודה נפקא לן מלכלב תשליכון אותו אותו אתה משליך לכלב ואי אתה משליך לכלב כל איסורין שבתורה וא\"ת לר\"מ נמי היכי יליף מיניה דלא תאכלו משמע איסור הנאה מדפרט היתר הא איצטריך קרא להקדים נתינת גר למכירת עובד כוכבים וי\"ל דמסברא בלא שום קרא הוה ידעינן להקדים אלא השתא דכתיב נתינה ומכירה ללמד בעלמא איסור הנאה אי לאו דכתיב או להקדים ה\"א דאתא קרא להשוותם וא\"ת ולא ליכתוב אלא חד מינייהו או מכירה דעובד כוכבים או נתינה דגר ולא יצטרך או להקדים כיון דידעי ליה מסברא וי\"ל דה\"א דאתי קרא למעוטי נתינה דעובד כוכבים וא\"ת ויכתוב נתינה דעובד כוכבים וי\"ל דה\"א דאתי למעוטי נתינה דגר דלא ליספו ליה אע\"פ דלא קבל עליו אלא לאכול נבלות כדי שימהר להתגייר ודוקא נבלה בא\"י שאין עובדי כוכבים מצויין שם ואם בא למוכרה לעובד כוכבים צריך ליתנה בדמים מועטין נתינת גר קודמת אבל פשיטא שאם יש חפץ לאדם למכור קודם ימכרנו לעובד כוכבים ממה שיתננו אפילו לישראל חברו:",
+      "<b>כדרך שפרט לך בנבלה</b> — לא גרס לגר בנתינה ולעובד כוכבים במכירה כדפירש בקונט' בפסחים (שם) דא\"כ הוה משמע דאיירי אליבא דר' יהודה דאמר דברים ככתבן ודר' אבהו לא מתוקמא אלא כר\"מ כדפרישית ואי גרס ליה יש לפרש דלישנא דקרא בעלמא נקט ולא משום דלהוו דברים ככתבן אי נמי נקט הכי משום דנתינת הגר קודמת:"
+     ]
+    },
+    {
+     "he": "דְּתַנְיָא: ״לֹא תֹאכְלוּ כׇּל נְבֵלָה לַגֵּר אֲשֶׁר בִּשְׁעָרֶיךָ תִּתְּנֶנָּה וַאֲכָלָהּ אוֹ מָכוֹר לְנׇכְרִי״ – אֵין לִי אֶלָּא לְגֵר בִּנְתִינָה, וּלְגוֹי בִּמְכִירָה; לְגֵר בִּמְכִירָה מִנַּיִן? תַּלְמוּד לוֹמַר: ״לַגֵּר תִּתְּנֶנָּה אוֹ מָכוֹר״.",
+     "en": "<b>As it is taught</b> in a <i>baraita</i>: The verse states: <b>“You shall not eat of any unslaughtered animal carcass; you may give it to the resident alien who is within your gates, that he may eat it; or you may sell it to a foreigner;</b> for you are a sacred people to the Lord your God.” From this verse <b>I have</b> derived <b>only</b> that it is permitted to provide such meat <b>to a resident alien through giving and to a gentile through selling. From where</b> is it derived that it is permitted to transfer an unslaughtered animal <b>to a resident alien through selling</b> as well? <b>The verse states: “You may give it to the stranger…or you may sell it,”</b> indicating that one has the option to do either of these.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "לְגוֹי בִּנְתִינָה מִנַּיִן? תַּלְמוּד לוֹמַר: ״תִּתְּנֶנָּה… אוֹ מָכוֹר לְנׇכְרִי״. נִמְצָא אֶחָד גֵּר וְאֶחָד גּוֹי, בֵּין בִּמְכִירָה בֵּין בִּנְתִינָה, דִּבְרֵי רַבִּי מֵאִיר. רַבִּי יְהוּדָה אוֹמֵר: דְּבָרִים כִּכְתָבָן, לְגֵר בִּנְתִינָה וְלַגּוֹי בִּמְכִירָה.",
+     "en": "The <i>baraita</i> continues: <b>From where</b> is it derived that it is permitted <b>to a gentile through giving</b> as well? <b>The verse states: “You may give it</b>…<b>or you may sell it to a foreigner.”</b> Consequently, <b>one finds</b> that he may transfer an animal carcass to <b>both a resident alien and a gentile, both through selling or through giving.</b> This is <b>the statement of Rabbi Meir. Rabbi Yehuda says:</b> These <b>matters are</b> to be understood <b>as they are written;</b> one may transfer an unslaughtered animal carcass <b>to a resident alien</b> only <b>through giving, and to a gentile</b> only <b>through selling.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>רבי יהודה אומר דברים ככתבן</b> — ואסור ליתן לכנעני עובד כוכבים מתנת חנם ועל זה מביאה בפ\"ק דמסכת ע\"ז (דף כ.) וא\"ת והתנן (לעיל חולין דף צג:) שולח אדם לעובד כוכבים ירך שגיד הנשה בתוכה ושולח משמע בחנם ובפרק כל שעה (פסחים דף כב.) משמע דאתיא אפילו כר' יהודה ויש לומר דתניא בתוספתא אם היה שכנו מותר מפני שהוא כמוכרו לו:"
+     ]
+    },
+    {
+     "he": "מַאי טַעְמָא דְּרַבִּי יְהוּדָה? אִי סָלְקָא דַעְתָּךְ כִּדְקָאָמַר רַבִּי מֵאִיר, לִכְתּוֹב רַחֲמָנָא ״לֹא תֹאכְלוּ כׇל נְבֵלָה לַגֵּר אֲשֶׁר בִּשְׁעָרֶיךָ תִּתְּנֶנָּה וַאֲכָלָהּ וּמָכוֹר״ – ״אוֹ״ לְמָה לִי? שְׁמַע מִינַּהּ לִדְבָרִים כִּכְתָבָן הוּא דַּאֲתָא: לְגֵר בִּנְתִינָה, וְלַגּוֹי בִּמְכִירָה.",
+     "en": "The Gemara asks: <b>What is the reason for</b> the opinion of <b>Rabbi Yehuda?</b> The Gemara responds: Rabbi Yehuda holds that <b>if it enters your mind</b> to understand the verse <b>in accordance</b> with that which <b>Rabbi Meir says,</b> then <b>let the Merciful One write: You shall not eat of any animal carcass, you may give it to the resident alien who is within your gates that he may eat it and</b> also <b>you may sell it</b> to a foreigner. <b>Why do I</b> need the word <b>“or”</b> between these two options? <b>Learn from it that it comes to</b> teach that the <b>matters are</b> to be understood <b>as they are written: To a resident alien through giving</b> alone, <b>and to</b> any other <b>gentile through selling.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>או למה לי ש\"מ לדברים ככתבן</b> — משמע דאי לאו או הוה אמינא תתננה ומכור אגר דלעיל  ואעובד כוכבים והכי נמי אמרינן בריש איזהו נשך (ב\"מ דף סא.) ובמרבית קאי אכסף ואאוכל דבתריה ותימה דבפרק קמא דקדושין (דף לב:) איכא פלוגתא דתנאי גבי קימה והדור דשיבה וזקן דאיכא למ\"ד דלא קיימי אתרוייהו משום דכתיב מפני שיבה תקום והדרת פני זקן ויש לומר משום דאין לשון מפני נופל על והדרת ולא לשון פני נופל על תקום ואם תאמר דבפרק הוציאו לו (יומא נב.) קאמר איסי בן יהודה חמש פסוקים אין להם הכרע שאת מחר ארור משוקדים וקם ואמאי לא קאי אלעיל ולתחת ועוד דאיסי גופיה סבר בקדושין דקימה והדור קיימי אתרוייהו ויש לומר דהכא ובאיזהו נשך (ב\"מ סא.) ופרק קמא דקדושין (דף לב:) דאיכא תרי מילי קאי חד ודאי אלעיל וחד ודאי אלתחת אית לן למימר דתרוייהו קיימי אהכא והכא אבל התם אית לן למימר דקאי אחד דוכתא או אלעיל או אלתחת ובזבחים בפ\"ב (דף כד.) דפליגי תנאי גבי ולקח הכהן מדם החטאת באצבעו ונתן דאיכא דמוקי אצבע אשלפניו אולקח ולא אנתינה של אחריו ואיכא דמוקי לה אנתינה של אחריו ולא אלקיחה דלפניו ואיכא דמוקי לה אתרוייהו היינו טעמא דפשטיה דקרא משמע טפי אלקיחה דלקמיה ואשכחן בדוכתא אחרינא ולקחת מדם הפר ונתת על קרנות המזבח באצבעך דהוי אצבע אנתינה והשתא פליגי דחד מוקי אלקיחה כמשמעותיה דקרא וחד מוקי לה אנתינה דיליף סתום מן המפורש ולא בעי נמי לאוקומי אלקיחה דלא שייך לקיחה אאצבע אלא בדעבד אוזן לשפת המזרק והך דמוקי אתרוייהו אלקיחה משום משמעותא ואנתינה דיליף נמי מן המפורש וצריך עיון כל היכא דאמר מקרא נדרש לפניו ולאחריו אם נוכל ליישב שלא יקשה למה ידרשנו לפניו ולאחריו יותר מאותם שאין להם הכרע:"
+     ]
+    },
+    {
+     "he": "וְרַבִּי מֵאִיר אָמַר לָךְ: הַאי ״אוֹ״ לְהַקְדִּים נְתִינָה דְּגֵר לִמְכִירָה דְּגוֹי. וְרַבִּי יְהוּדָה, לְהַקְדִּים נְתִינָה דְגֵר לִמְכִירָה דְּגוֹי לָא צְרִיךְ קְרָא, סְבָרָא הוּא: זֶה אַתָּה מְצוֶּּוה לְהַחְיוֹתוֹ, וְזֶה אִי אַתָּה מְצוֶּּוה לְהַחֲיוֹתוֹ.",
+     "en": "The Gemara asks: <b>And</b> how does <b>Rabbi Meir</b> explain the wording of the verse? The Gemara answers: Rabbi Meir could <b>say to you</b> that <b>this</b> word <b>“or”</b> teaches one <b>to prioritize to giving to a resident alien over selling to a gentile. And Rabbi Yehuda</b> holds that the <b>priority of giving to a resident alien over selling to a gentile does not require a verse,</b> as <b>it is</b> based on <b>logical reasoning: You are commanded</b> by the Torah <b>to sustain this</b> resident alien, <b>but you are not commanded to sustain that</b> gentile.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "(סִימָן: שַׁבָּת, חוֹרֵשׁ, וְכִלְאֵי זְרָעִים, אוֹתוֹ וְאֶת בְּנוֹ, וְשִׁילּוּחַ הַקֵּן).",
+     "en": "§ The Gemara provides <b>a mnemonic</b> device for the topics that will be discussed: <b>Shabbat; plows; and diverse kinds of seeds; a mother and its offspring; and sending</b> away of the mother bird from <b>the nest.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא מֵעַתָּה,",
+     "en": "Rav Ashi stated above that the product of any practice described in the Torah as abominable is prohibited for consumption. The Gemara asks: <b>If that is so,</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
