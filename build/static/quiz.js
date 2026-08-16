@@ -149,12 +149,22 @@
     card.querySelector(".qbar .pill").textContent = score;
   }
 
+  /* Moving on rewrites the card in place, so the reader is already looking at
+     the next question — jumping the page to the top would only take the daf's
+     header back, and take the question they asked for off the screen. The one
+     case worth a scroll is a card that has grown taller than the viewport and
+     left its own top above it; then, and only then, bring that top back. */
+  function keepCardInView() {
+    if (card.getBoundingClientRect().top < 0)
+      card.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   function next() {
     if (!answered) return;
     if (idx < QUIZ.length - 1) {
       idx++;
       renderQuestion();
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      keepCardInView();
     } else {
       endScreen();
     }
@@ -185,12 +195,13 @@
         (best > 1 ? " &nbsp;·&nbsp; " + T.best + " 🔥 " + best : "") + "</div>" +
       '<button class="btn" id="again" type="button">' + T.again + "</button></div>" + review;
     document.getElementById("again").addEventListener("click", restart);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    keepCardInView();
   }
 
   function restart() {
     idx = 0; score = 0; streak = 0; best = 0; results = [];
     renderQuestion();
+    keepCardInView();
   }
 
   document.addEventListener("daflang", function () {
