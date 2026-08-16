@@ -10,12 +10,13 @@ the way the Vilna page lays them out.
   python3 build/daftext.py --all         # fetch whatever content/ is missing
   python3 build/daftext.py --all --force # refetch even what is already cached
 
-Why a cache and not a fetch at build time: `build.py` must work with no network
-— it runs on a laptop that is often only briefly awake, and a build that reached
-for six URLs per daf would turn a flaky connection into a broken site. The text
-of a daf printed in Vilna in 1886 is also not going to change, so fetching it
-again on every build would buy nothing. A daf with no cached text simply has no
-Daf tab, and the build says which ones those are.
+Why a cache and not a fetch at build time: `build.py` must work with no network.
+The rule was written for a laptop that was often only briefly awake; it still
+holds now that the build runs in CI, because a build that reached for six URLs
+per daf would put Sefaria's uptime in the path of every deploy, and the nightly
+rebuild would refetch everything daily to learn nothing. The text of a daf
+printed in Vilna in 1886 is not going to change. A daf with no cached text
+simply has no Daf tab, and the build says which ones those are.
 
 Cache shape (content/daf/Chullin_108.json):
 

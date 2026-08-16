@@ -224,8 +224,9 @@ def script_json(obj):
 FEEDBACK_SUBJECT = "Daf Yomi feedback — {what}"
 # XOR'd against the address before it is written out, and written in front of it
 # so feedback.js reads it back rather than carrying a copy of it. Fixed, not
-# random: this repo *is* the web server, and a per-build key would rewrite the
-# address in every page every morning for no gain.
+# random, so that the same sources build the same bytes: a scheduled rebuild
+# that changed nothing would otherwise produce a different page every day, and
+# "did this change anything?" would stop being answerable with diff.
 MAIL_KEY = 0x2f
 
 

@@ -2,9 +2,10 @@
 """What still needs writing to keep the site a week ahead.
 
 The site rolls over at sunset from a manifest baked into every page, so it does
-not need a build every day — it needs a buffer. Keeping several days in hand
-turns a missed run from an outage into a non-event, which matters when the
-machine that builds it is a laptop that is often switched off.
+not need a build every day — it needs a buffer. What can run dry is the writing,
+not the publishing: CI rebuilds and deploys on every push, but the sheets come
+from a laptop that is often switched off. Keeping several days in hand turns a
+missed run into a non-event instead of a homepage with no daf for today.
 
   python3 build/buffer.py            # report; exit 0 if full, 1 if short
   python3 build/buffer.py --missing  # one "YYYY-MM-DD lang" pair per line

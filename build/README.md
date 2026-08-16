@@ -190,9 +190,12 @@ python3 build/daftext.py --all         # whatever content/ is missing
 python3 build/dafpdf.py --all          # check the tractate-name table against shas.org
 ```
 
-**The build never fetches.** It runs on a laptop that is often only briefly awake, and
-eight URLs per daf would turn a flaky connection into a broken site; a page printed in
-Vilna in 1886 is also not going to change. So `daftext.py` caches it once under
+**The build never fetches.** It used to run on a laptop that was often only briefly awake,
+and that is why the rule exists — but it is worth keeping now that the build runs in CI, for
+better reasons. A build that reached for eight URLs per daf would make every deploy depend on
+Sefaria being up, so an outage there would become a failed deploy here; the nightly rebuild
+would refetch the whole cache daily to learn nothing; and a page printed in Vilna in 1886 is
+not going to change. So `daftext.py` caches it once under
 `content/daf/` — the text, and the page's URL after checking that it answers 200 — and the
 build reads what is there. A daf with nothing cached simply has no Daf tab, and the build
 says which ones those are and how to fix it. **Run it after writing a sheet and before
@@ -287,7 +290,10 @@ the free **(Enhanced)** and **(Premium)** voices are a different era of synthesi
 `speak.js` already prefers one the moment it exists — **System Settings → Accessibility →
 Spoken Content → System Voice → Manage Voices**. Genuinely natural speech means neural TTS,
 which means pre-generating audio at build time: a paid API per character, and ~10–25 MB per
-daf per language, which a git-backed Pages site cannot carry for long.
+daf per language — 30–75 MB a daf across the three. A Pages site is capped at 1 GB published,
+so the archive would hit the ceiling before it finished a single tractate. Moving the build
+into CI did not change this: the artifact is smaller than the git history was, but it is the
+*served* size that is capped.
 
 ## Feedback
 
@@ -335,9 +341,11 @@ Withholding it until someone writes needs a server to write *to* — a form
 endpoint holding the address on its side, which is a third party, an account and
 a cross-origin POST. Still use an alias you can retire.
 
-The key is fixed rather than per-build, because this repo is the web server: a
-random key would rewrite the address in every page in git every morning and show
-up as 2,700 changed files.
+The key is fixed rather than per-build, so that the same sources build the same
+bytes. The nightly rebuild would otherwise emit a different address encoding on
+every page every day, and a build that is not reproducible cannot be diffed
+against the last one to answer "did anything actually change?" — which is how
+the move to CI was checked in the first place.
 
 The block is hidden in the markup and revealed by the script, rather than shown
 and then repaired. With JavaScript off the link would have nowhere to go, and an

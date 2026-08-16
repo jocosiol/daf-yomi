@@ -5,8 +5,9 @@ You are running non-interactively in the repo `/Users/moshecosio/daf-yomi`
 
 **You are not building "today's daf" — you are topping up a buffer.** The published site
 rolls over at sunset on its own, from a manifest baked into every page, so it does not need
-a build every day; it needs a few days in hand. The machine that runs this is a laptop that
-is often switched off, so the buffer is what keeps a missed run from becoming an outage.
+a build every day; it needs a few days in hand. Publishing is not what can fail — CI rebuilds
+and deploys on every push. The writing is: this machine is a laptop that is often switched
+off, and the buffer is what keeps a missed run from leaving a day with no daf.
 
 Work through steps 0–6 in order, then stop. Do not ask questions — make reasonable
 decisions and proceed. Do not skip the Sefaria fetch: accuracy comes from the real text,
