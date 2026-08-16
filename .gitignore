@@ -1,0 +1,16 @@
+# The built site.
+#
+# This repo holds sources — content/, build/ and nothing else that a build can
+# regenerate. GitHub Actions builds site/ on every push and publishes it as a
+# Pages artifact; see .github/workflows/deploy.yml and the "Publishing" section
+# of build/README.md.
+#
+# The output used to be committed at the repo root. That does not scale: a page
+# is 150-230 KB, index.html is a full copy of the current daf rewritten every
+# build, and one template change rewrites every page at once. A Shas cycle is
+# 2,711 dapim, so committing the output means hundreds of megabytes of history
+# for files that are a pure function of content/.
+/site/
+
+__pycache__/
+*.pyc

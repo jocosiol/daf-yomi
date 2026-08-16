@@ -1,0 +1,75 @@
+# Build the site from content/ and publish it to GitHub Pages.
+#
+# The repo holds sources only. Nothing here commits anything back: the built
+# tree is uploaded as a Pages artifact and deployed from there, so a Shas cycle
+# of dapim costs the repo its markdown and not 500 MB of generated HTML.
+#
+# One-time setup: Settings -> Pages -> Build and deployment -> Source must be
+# "GitHub Actions". While it still says "Deploy from a branch", this workflow
+# runs green and changes nothing that is served.
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+    # A docs-only commit changes nothing that is served. If a commit touches one
+    # of these *and* anything else, it still builds — the skip needs every
+    # changed path to match.
+    paths-ignore:
+      - "DAILY_PROMPT.md"
+      - "README.md"
+      - "build/README.md"
+      - "**/*.plist"
+      - "run_daily.sh"
+  # index.html is seeded with whichever daf is current at build time. The router
+  # baked into the page corrects that in the browser at sunset, so this is only
+  # about what the HTML says before any JavaScript runs — crawlers, previews and
+  # the first paint. 18:00 UTC is after sunset in Jerusalem year-round.
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race. The newer commit is the one worth publishing, so
+# an in-flight older run is cancelled rather than queued.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install markdown jinja2 pyyaml
+
+      # build.py validates first and writes nothing if a sheet is malformed, so
+      # a bad commit fails here instead of publishing a broken page.
+      - name: Build
+        run: python3 build/build.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

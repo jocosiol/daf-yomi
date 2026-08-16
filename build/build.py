@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """Build the Daf Yomi site from content/.
 
-  python3 build/build.py                    # validate, then rebuild everything
+  python3 build/build.py                    # validate, then rebuild into site/
   python3 build/build.py --out /tmp/preview # build somewhere else to compare
   python3 build/build.py --no-validate      # skip the gate (local fiddling only)
 
 Settings live in content/site.json, not in flags, so the sunset pin can no
 longer be forgotten on the command line and silently change behaviour.
 
-Output (flat at the repo root, so existing URLs keep working):
+Output — flat inside site/, which is the published root, so existing URLs keep
+working. site/ is git-ignored: the site is built and deployed by
+.github/workflows/deploy.yml from the sources, never committed. See the
+"Publishing" section of build/README.md for why.
+
   Chullin_98.html    one page per daf, every language baked in — content only;
                      the chrome is in assets/
   index.html         the daf current at build time, plus a router that
@@ -17,10 +21,10 @@ Output (flat at the repo root, so existing URLs keep working):
   dapim.json         the manifest, for anything else that wants it
   assets/            daf.css, lang.js, quiz.js, zman.js — served once and
                      cached across days instead of inlined into every page
+  Chullin_97.html    copied verbatim from content/legacy/ — see load_legacy
 """
 import argparse
 import datetime
-import filecmp
 import glob
 import hashlib
 import html as html_mod
@@ -293,9 +297,11 @@ def load_settings(content_dir):
 def load_legacy(content_dir):
     """Pages that predate content/ and have no markdown source.
 
-    They are already-built HTML sitting at the root; listing them here keeps
-    them in the archive and the routing without the build having to glob
-    *.html and guess.
+    They are already-built HTML, kept in content/legacy/ because they are the
+    only HTML in this repo that is a *source*: nothing can regenerate them.
+    Listing them here keeps them in the archive and the routing without the
+    build having to glob *.html and guess, and copy_legacy puts them back at
+    the published root beside the pages that do get built.
     """
     path = os.path.join(content_dir, "legacy.json")
     if not os.path.exists(path):
@@ -311,6 +317,21 @@ def load_legacy(content_dir):
             "display": {l: i18n.fmt_date(d, l) for l in i18n.LANGS},
         })
     return out
+
+
+def copy_legacy(content_dir, out_dir, entries):
+    """Put the source-less pages at the published root, verbatim.
+
+    Fatal if one is missing: it is listed in the archive and routed to by every
+    page's manifest, so a build that quietly omitted it would publish a link to
+    a 404 on the whole site rather than on one page.
+    """
+    for e in entries:
+        src = os.path.join(content_dir, "legacy", e["file"])
+        if not os.path.exists(src):
+            sys.exit(f"content/legacy.json lists {e['file']}, but {src} does not "
+                     f"exist — restore it, or drop the entry.")
+        shutil.copyfile(src, os.path.join(out_dir, e["file"]))
 
 
 def build_assets(out_dir):
@@ -373,7 +394,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--content", default=os.path.join(REPO, "content"))
-    ap.add_argument("--out", default=REPO)
+    ap.add_argument("--out", default=os.path.join(REPO, "site"))
     ap.add_argument("--at", metavar="LAT,LON", help="override the sunset pin from site.json")
     ap.add_argument("--offset", type=int, help="override minutes after sunset")
     ap.add_argument("--no-validate", action="store_true")
@@ -420,12 +441,14 @@ def main():
     env.globals["asset"] = lambda name: asset_urls.get(name, f"assets/{name}")
 
     # ---- manifest: the sources decide what exists, not a glob of the output ----
+    legacy = load_legacy(content)
+    copy_legacy(content, out_dir, legacy)
     entries = [{
         "file": s.out_name,
         "iso": s.iso or "",
         "label": {l: s.variant(l).label for l in i18n.LANGS},
         "display": {l: i18n.fmt_date(s.study_date, l) for l in i18n.LANGS},
-    } for s in sheets] + load_legacy(content)
+    } for s in sheets] + legacy
     entries.sort(key=lambda e: (e["iso"], e["label"][i18n.DEFAULT]))
     dapim = [{"f": e["file"], "d": e["iso"]} for e in entries if e["iso"]]
 
@@ -541,26 +564,14 @@ def main():
     for p in sorted(glob.glob(os.path.join(out_dir, "*.html"))):
         base = os.path.basename(p)
         if base not in expected:
-            print(f"  warn   {base} is at the root but has no source in content/ "
-                  f"— delete it, or list it in content/legacy.json")
+            print(f"  warn   {base} is left over in {out_dir} from an earlier build "
+                  f"— it has no source in content/. Delete it, or list it in "
+                  f"content/legacy.json. (A clean CI build never sees this.)")
 
-    # ---- a preview build leaves the published tree behind ----
-    # Easy to edit static/, build only to --out to look at it, and commit: the
-    # source moves, the served assets do not, and the site quietly runs the old
-    # code. Say so, and name what is actually stale.
-    # A brand-new asset has no published copy at all — that is the most stale a
-    # file can be, so say so rather than dying in filecmp.
-    def stale_asset(name):
-        published = os.path.join(REPO, "assets", name)
-        return (not os.path.exists(published) or
-                not filecmp.cmp(os.path.join(HERE, "static", name), published, shallow=False))
-
-    if os.path.abspath(out_dir) != os.path.abspath(REPO):
-        stale = [n for n in sorted(asset_urls) if stale_asset(n)]
-        print(f"\nPreview build — {out_dir}. The published tree at {REPO} was not touched.")
-        if stale:
-            print(f"  warn   {', '.join(stale)} differ(s) from assets/ there "
-                  f"— rerun without --out before committing")
+    # The whole tree is rebuilt from source on every run and published from the
+    # artifact, so there is no longer a "published copy" for a preview build to
+    # drift from — the check that used to compare build/static against a
+    # committed assets/ went with the committed output.
 
     where = (f"pinned to {settings['pin']['lat']},{settings['pin']['lon']}"
              if settings["pin"] else "per-visitor (browser timezone)")

@@ -395,6 +395,11 @@ That is the whole build. No arguments: the sunset pin and the site URL live in
 It validates first and **writes nothing if validation fails** — it prints the file and the
 problem. Fix the sheet and run it again. Warnings are advisory; errors are not.
 
+You are running this as a **check, not as the publishing step.** It writes `site/`, which is
+git-ignored and never committed; GitHub Actions rebuilds the same tree from your pushed
+sources and deploys that. So run it to prove the sheets you just wrote actually build — but
+do not go looking for output to add to the commit, and never commit `site/`.
+
 Expect output like:
 
 ```
@@ -422,12 +427,16 @@ Three things to know:
 Optional, if a browser is available and you changed anything under `build/`:
 
 ```bash
-python3 -m http.server 8891 --directory . & sleep 1
+python3 -m http.server 8891 --directory site & sleep 1
 node build/check_browser.js       # needs puppeteer-core; skip if not installed
 kill %1
 ```
 
 ## Step 6 — Publish
+
+Publishing is a push and nothing else. `.github/workflows/deploy.yml` rebuilds the site from
+the sources you are about to push and deploys it to Pages; the build you just ran locally is
+not what gets served.
 
 ```bash
 git add -A
@@ -435,19 +444,27 @@ git commit -m "<Tractate> <page> — <ISO date>"
 git push origin main
 ```
 
+`git add -A` is safe: `site/` is git-ignored, so the commit is markdown and cached daf text.
+**If `git status` is showing you built HTML, stop** — something wrote to the repo root, which
+nothing should any more.
+
 One commit for the run is fine when you wrote several dapim; name the range in the subject,
 e.g. `Chullin 102-104 — 2026-08-10..12`. Commit even if you only got part way through the
 list: a partial top-up is worth publishing, and the next run continues from there.
 
-Then confirm it went live (Pages takes 30–90s):
+Then confirm it went live. Actions has to build before Pages serves anything, so allow ~2
+minutes rather than the 30–90s a branch deploy took:
 
 ```bash
-sleep 60
-curl -s https://jocosiol.github.io/daf-yomi/ | grep -o '<title>[^<]*</title>'
+sleep 120
+curl -s "https://jocosiol.github.io/daf-yomi/?cb=$$" | grep -o '<title>[^<]*</title>'
+gh run list --workflow deploy.yml --limit 1   # if gh is available
 ```
 
-It should name today's daf. If the push failed on a non-fast-forward, `git pull --rebase
-origin main` and push again.
+It should name today's daf. A stale title with a green workflow run usually means Pages is
+still set to "Deploy from a branch" instead of "GitHub Actions" — say so in the report rather
+than trying to fix it. If the push failed on a non-fast-forward, `git pull --rebase origin
+main` and push again.
 
 Finish with a two-line report: what you wrote and what the buffer is now, and whether the
 live site confirmed today's daf.

@@ -2,6 +2,11 @@
 # Daily Daf Yomi build. Feeds DAILY_PROMPT.md to Claude Code in headless mode;
 # Claude does the whole pipeline.
 #
+# This machine writes and pushes sheets; it does not publish. GitHub Actions
+# (.github/workflows/deploy.yml) rebuilds the site from the pushed sources and
+# deploys it to Pages, so the only thing a run has to get right is a clean
+# commit on main. Nothing built ever enters the repo.
+#
 # launchd (com.jocosiol.dafyomi) fires this every two hours from 06:00 to 22:00,
 # and at login — not once at 06:00 — because the Mac is often switched off then
 # and launchd does not run a missed job for a machine that was powered down.
@@ -177,6 +182,11 @@ if [ -n "$(git status --porcelain)" ]; then
   STATUS=1
 fi
 
+# Logged, never failed on. Publishing is now a CI build behind the push, so a
+# title one daf behind here usually means Actions has not finished yet rather
+# than that anything is wrong; the next run's line is the one to read. A title
+# that is still stale hours later is the real signal — most likely Pages is set
+# to "Deploy from a branch" instead of "GitHub Actions".
 DAF_LIVE="$(curl -s -m 20 "https://jocosiol.github.io/daf-yomi/?cb=$$" \
             | sed -n 's/.*<title>\(.*\)<\/title>.*/\1/p')"
 LOCAL_HEAD="$(git log --oneline -1 2>/dev/null)"

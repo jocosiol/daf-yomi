@@ -3,12 +3,40 @@
 Turns `content/` into the published site.
 
 ```bash
-python3 build/build.py         # validate, then rebuild everything
+python3 build/build.py              # validate, then rebuild into site/
 python3 build/validate.py content   # just the checks
+python3 -m http.server -d site 8891 # look at it
 ```
 
 No arguments: the sunset pin and site URL live in `content/site.json`, so they cannot be
 forgotten on the command line.
+
+## Publishing
+
+**The built site is not in this repo.** `build.py` writes `site/`, which is git-ignored, and
+[`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml) rebuilds it from source on
+every push to `main` and publishes it as a Pages artifact. Git holds `content/`, `build/` and
+nothing that a build can regenerate.
+
+It used to hold the output, flat at the root, and that does not scale. A page is 150–230 KB;
+`index.html` is a *full copy* of the current daf and is rewritten every build; and one
+template edit rewrites every page at once — commit `255eb12` touched fourteen pages to
+reorder the tabs, and at three hundred dapim the same edit is sixty megabytes in a single
+commit. A Shas cycle is 2,711 dapim. Building in CI keeps the history proportional to what is
+actually written by hand, and takes the laptop off the critical path: a push is now the whole
+publishing act.
+
+Two consequences worth knowing:
+
+- **Pages must be set to deploy from Actions** — Settings → Pages → Source → *GitHub Actions*.
+  Left on "Deploy from a branch" the workflow still runs green while serving the old committed
+  tree, which is the failure mode to watch for on the first deploy.
+- **A daily `schedule:` rebuild exists**, and it is only about `index.html`'s seed — the daf
+  that the raw HTML names before any JavaScript runs. The sunset rollover is still done in the
+  browser from the baked manifest and needs no build.
+
+Local builds write to the same `site/`, which is not cleaned between runs; a page whose sheet
+you deleted lingers there and the build says so. CI always starts from an empty checkout.
 
 ## Layout
 
@@ -19,9 +47,9 @@ forgotten on the command line.
 | `i18n.py` | every string the build itself renders, plus per-language date formatting |
 | `daftext.py` | caches the daf itself into `content/daf/`: Sefaria's text, and the printed page's URL. Not run by the build |
 | `dafpdf.py` | where the printed page lives: tractate name -> shas.org's, and does it answer |
-| `build.py` | renders the pages, the archive, the manifest and `assets/` |
+| `build.py` | renders the pages, the archive, the manifest and `assets/` into `site/` |
 | `templates/` | Jinja: `base.html`, `daf.html`, `archive.html` |
-| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `daf.js`, `speak.js`, `zman.js`, the `icon-*.png` set and `manifest.webmanifest` — copied to `assets/` with a content hash |
+| `static/` | `daf.css`, `lang.js`, `tabs.js`, `cards.js`, `quiz.js`, `daf.js`, `speak.js`, `zman.js`, the `icon-*.png` set and `manifest.webmanifest` — the source of the chrome, copied to `site/assets/` with a content hash. Edit these, never the copies |
 | `icons.py` | draws the home-screen icons into `static/`. Run by hand after a design change, not by the build |
 | `check_browser.js` | drives the built site in headless Chrome (needs `puppeteer-core`) |
 | `migrate_legacy.py` | one-off, already run; its inputs no longer exist. Deletable |
@@ -336,7 +364,9 @@ Now the facts are declared, the quiz's `correct` sits next to its options, and
 
 ## Not yet under the pipeline
 
-`Chullin_97.html` predates `content/` and has no markdown source. It is listed in
-`content/legacy.json`, which keeps it in the archive and the routing while leaving the
-built page alone. Regenerate it from Sefaria into `content/Chullin_97.md` and delete the
-entry to bring it in.
+`content/legacy/Chullin_97.html` predates `content/` and has no markdown source — it is the
+one piece of HTML in this repo that is a *source*, since nothing can regenerate it. It is
+listed in `content/legacy.json`, which keeps it in the archive and the routing, and the build
+copies it to the published root beside the pages it renders. A listed file that is missing
+fails the build rather than publishing an archive that links to a 404. Regenerate it from
+Sefaria into `content/Chullin_97.md`, delete the HTML and drop the entry to bring it in.
