@@ -12,5 +12,13 @@
 # for files that are a pure function of content/.
 /site/
 
+# Where that output used to live. Ignored so a checkout from before the split
+# does not quietly re-commit it. The only HTML that is a source now lives in
+# content/legacy/, because nothing can regenerate it.
+/*.html
+/dapim.json
+/assets/
+/.nojekyll
+
 __pycache__/
 *.pyc
