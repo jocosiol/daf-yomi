@@ -1,0 +1,305 @@
+{
+ "tractate": "Chullin",
+ "page": 115,
+ "fetched": "2026-08-17",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 115a",
+   "he_ref": "חולין קט״ו.",
+   "url": "https://www.sefaria.org/Chullin.115a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=115&amud=a",
+   "segments": [
+    {
+     "he": "מַעֲשֵׂה שַׁבָּת לִיתַּסְרוּ, דְּהָא ״תִּיעַבְתִּי לְךָ״ הוּא.",
+     "en": "then <b>let</b> the product of <b>an action</b> that desecrates <b>Shabbat,</b> e.g., food cooked on Shabbat, <b>be prohibited</b> for consumption, <b>as</b> desecration of Shabbat <b>is</b> a practice of which God states: <b>I have made</b> it <b>abominable to you,</b> in that it is prohibited to cook on Shabbat. How can this food be prohibited only to the one who cooked it as a penalty by rabbinic law, but be permitted to others (see 15a)?",
+     "rashi": [
+      "<b>מעשה שבת</b> — כגון המבשל בשבת ליתסרו באכילה לכל ישראל דהא הזהרתיך לתעבו ולהתרחק ממנו ואנן תנן במזיד לא יאכל הוא משום קנס אבל אחרים אוכלין בפ\"ק (לעיל חולין טו.):",
+      "<b>ליתסרו</b> — הזרעים והדישה דהא הרחקתיך מהם כל הנך דקאמר ליתסרו באכילה ובהנאה קאמר דליתסרו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר קְרָא: ״כִּי קֹדֶשׁ הִיא לָכֶם״ – הִיא קֹדֶשׁ, וְאֵין מַעֲשֶׂיהָ קֹדֶשׁ.",
+     "en": "The Gemara answers: A product of the desecration of Shabbat is an exception to the rule, as <b>the verse states</b> with regard to Shabbat: <b>“For it is sacred to you”</b> (Exodus 31:14). One may infer: <b>It,</b> Shabbat itself, <b>is sacred, but</b> the products of <b>actions</b> that desecrate <b>it are not sacred,</b> i.e., not prohibited.",
+     "rashi": [],
+     "tosafot": [
+      "<b>היא קדש ואין מעשיה קדש</b> — וא\"ת ואימא למשרי בהנאה אבל באכילה אסירי כדפריך בסמוך גבי זרעים וי\"ל דהיתר הנאה נפקא לן מלכם כדאמר במרובה (ב\"ק דף עא.) ובאלו נערות (כתובות לד.) אפילו לרבי יוחנן הסנדלר דאוסר במבשל בשבת וקצת תימה לרבי יוחנן למה ליה למימר מקדש דמעשה שבת אסירי תיפוק ליה מכל שתיעבתי והיתר הנאה מלכם:"
+     ]
+    },
+    {
+     "he": "חוֹרֵשׁ בְּשׁוֹר וּבַחֲמוֹר, וְחוֹסֵם פִּי פָרָה וְדָשׁ בָּהּ, לִיתַּסְרוּ, דְּהָא ״תִּיעַבְתִּי לְךָ״ הוּא!",
+     "en": "The Gemara raises another difficulty: If <b>one plows with an ox and with a donkey</b> together, thereby violating the prohibition in Deuteronomy 22:10, <b>or</b> if <b>one muzzles the mouth of a cow and threshes with it,</b> thereby violating the prohibition in Deuteronomy 25:4, the seeds or threshed grain <b>should be prohibited</b> for consumption according to the above principle, <b>as</b> these are both practices <b>I have made abominable to you.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>חורש בשור וחמור וחוסם פי פרה ודש בה ליתסרו</b> — פי' השור והחמור ויש ספרים דגרסי השתא לגבוה שרו להדיוט מבעיא ולגבוה מנא לן דשרו דכתיב (ויקרא כג) ומיד בן נכר לא תקריבו את לחם אלהיכם מכל אלה מכל אלה אי אתה מקריב פי' מעוך וכתות ונתוק וכרות אבל אתה מקריב קדשים שנעבדה בהן עבירה וא\"ת הזרעים והדישה ליתסרו דמקרא דאלה על כרחך לא מישתרו לגבוה אלא בעלי חיים דאי כל מילי א\"כ כל מעשה שבת נמי תיפוק ליה מאלה ול\"ל היא קדש וי\"ל דלא שייך מכל שתיעבתי לך הזרעים והדישה דלא תחסום אסור משום בהמה וכן לא תחרוש ולא משום חרישה וזריעה דאפילו בלאו חרישה אסור להנהיג בשור וחמור וא\"ת ובסמוך בסוגיין פריך שילוח הקן ליתסר תיפוק ליה דאף לגבוה שרי מהאי קרא דאלה וי\"ל דקרא דאלה בבהמה כתיב ולא בעופות ועוף מבהמה לא אתי משום דאין גדלות וקטנות פוסל בבהמה כמו בתורים ובני יונה וא\"ת למה לי קרא דאלה הא מדאיצטריך קרא בפרק כל האסורין (תמורה כח:) מן הבהמה להוציא הרובע והנרבע מכלל דשאר קדשים שנעבדה בהן עבירה לא אסירי מכל שתיעבתי וכי תימא דלא אתא מן הבהמה אלא לאשמעינן מכלל דלהדיוט שרי ולא מיתסר מכל שתיעבתי מ\"מ נילף חורש בשור וחמור וחוסם פי פרה בק\"ו מרובע ונרבע דבמיתה ושרי להדיוט וי\"ל דאי לאו אלה הוה אסרינן להו מדכתיב מן הבקר כי היכי דממעטינן מיניה נעבד ואית ספרים דגרסי ומה שבת דחמירא אמרת היא קדש ואין מעשיה קדש הני לא כל שכן וכן גריס בקונטרס ופי' דבבשר וחלב לא אמרינן האי קושיא דמסתברא דכל שתיעבתי עליה רמינן דקא אכיל תועבה גופה אבל האי לא אכיל החרישה עצמה וכן חוסם לאו חסימה גופה קאכיל אלא הבא על ידה ממנה וילפינן משבת דאין הבא מכחה קודש וקשה דלמה לא יחשב בישול של שבת תועבה גופה כמו בישול של בשר בחלב ונראה דהיינו טעמא משום דבבשר בחלב הבישול ניכר אבל מעשה שבת אין ניכר שנעשה בשבת ואותו ואת בנו ושילוח הקן דפריך ליה מינייהו צ\"ל דניכר בהם האיסור יותר ממה שניכר בחורש בשור וחמור וחוסם פי פרה ודש בה:"
+     ]
+    },
+    {
+     "he": "הַשְׁתָּא, וּמָה שַׁבָּת דַּחֲמִירָא, מַעֲשֶׂיהָ מוּתָּרִים; הָנֵי, לֹא כׇּל שֶׁכֵּן?",
+     "en": "The Gemara responds: <b>Now</b> that it has been established that products of desecration of Shabbat are permitted, one can derive the following using an <i>a fortiori</i> inference: <b>Just as</b> with regard to <b>Shabbat, which is</b> treated more <b>stringently,</b> the products of prohibited <b>actions are permitted;</b> is it <b>not all the more so</b> with regard to <b>these</b> prohibitions of plowing with an ox and a donkey and threshing with a muzzled animal, which are treated less stringently, that the products of prohibited actions should be permitted?",
+     "rashi": [
+      "<b>הני לא כ\"ש</b> — אבל בבשר בחלב לא אמרינן האי ק\"ו דהא כתיב לא תאכל כל שתיעבתי לך ומסתברא דאיסורא דקרא עליה קאמר דהא אכיל תועבה גופה אבל האי לא אכיל החרישה עצמה אלא הבא ממנה והחוסם והדש נמי לאו חסימה גופה קאכיל אלא מעשה הבא על ידה וילפינן משבת דאין הבא מכחה קדש:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כִּלְאֵי זְרָעִים לִיתַּסְרוּ, דְּהָא ״תִּיעַבְתִּי לְךָ״ הוּא! מִדְּגַלִּי רַחֲמָנָא גַּבֵּי כִּלְאֵי הַכֶּרֶם ״פֶּן תִּקְדַּשׁ״ – ״פֶּן תּוּקַד אֵשׁ״, מִכְּלָל דְּכִלְאֵי זְרָעִים שְׁרוּ.",
+     "en": "The Gemara challenges: <b>Diverse kinds of seeds</b> sown together <b>should be prohibited</b> for consumption, <b>as</b> this <b>is</b> a matter whose practice <b>I have made abominable to you.</b> The Gemara explains: One learns otherwise <b>from</b> the fact <b>that the Merciful One revealed with regard to diverse kinds in a vineyard:</b> “You shall not sow your vineyard with two kinds of seed; <b>lest</b> the growth of the seed that you will sow <b>be forfeited [<i>pen tikdash</i>]”</b> (Deuteronomy 22:9). The Sages read the phrase “be forfeited [<i>pen tikdash</i>]” as though it states: <b>Lest it be burned [<i>pen tukad esh</i>],</b> indicating that diverse kinds in a vineyard must be destroyed so that no benefit is derived from them. Since this is stated specifically with regard to a vineyard, one can conclude <b>by inference that</b> other <b>diverse kinds of seeds are permitted.</b>",
+     "rashi": [
+      "<b>כלאי זרעים</b> — הן עצמן תועבה וליתסרו:"
+     ],
+     "tosafot": [
+      "<b>פן תקדש פן תוקד אש</b> — וא\"ת והא איצטריך לאשמועינן דמצותו בשריפה הא כלאי זרעים אין מצותן בשריפה אבל בהנאה אסירי וי\"ל דבלאו הכי פריך שפיר א\"נ ליכתוב פן תשרף ומדכתיב תקדש משמע דאתא לאסור הנאה כקדש:"
+     ]
+    },
+    {
+     "he": "וְאֵימָא: כִּלְאֵי כֶרֶם אֲסוּרִין בֵּין בַּאֲכִילָה בֵּין בַּהֲנָאָה, כִּלְאֵי זְרָעִים בַּאֲכִילָה אֲסִירִי, בַּהֲנָאָה שְׁרוּ. אִיתַּקּוּשׁ לְכִלְאֵי בְהֵמָה, דִּכְתִיב: ״בְּהֶמְתְּךָ לֹא תַרְבִּיעַ כִּלְאַיִם שָׂדְךָ לֹא תִזְרַע כִּלְאָיִם״, מָה בְּהֶמְתְּךָ – הַיּוֹצֵא מִמֶּנָּה מוּתֶּרֶת, אַף שָׂדְךָ – הַיּוֹצֵא מִמֶּנּוּ מוּתָּר.",
+     "en": "The Gemara objects: <b>But say</b> instead that the uniqueness of <b>diverse kinds in a vineyard</b> is that they <b>are prohibited both for consumption and for benefit,</b> whereas <b>diverse kinds of seeds are prohibited for consumption</b> but <b>are permitted for benefit.</b> The Gemara responds: One cannot say that diverse kinds of seeds are prohibited for consumption, as <b>they are juxtaposed</b> in the Torah <b>to diverse kinds of animals,</b> whose offspring are permitted. <b>As it is written: “You shall not let your cattle mate with a diverse kind; you shall not sow your field with two kinds of seed”</b> (Leviticus 19:19). The juxtaposition teaches that <b>just as</b> with regard to <b>your cattle,</b> the animal <b>that comes from</b> diverse species <b>is permitted, so too,</b> with regard to <b>your field, that</b> produce <b>that comes from</b> diverse seeds <b>is permitted.</b>",
+     "rashi": [
+      "<b>כלאים</b> — אסירי לגבוה דתניא שור או כשב או עז פרט לכלאים בגמרא דהשוחט (לעיל חולין לח:):"
+     ],
+     "tosafot": [
+      "<b>כלאי זרעים באכילה אסירי בהנאה שרו</b> — וא\"ת לקמן (חולין דף קטז.) גבי מעביר עציץ דלא מיתסר כי אם בהוסיף מאתים אבל לא הוסיף שרי באכילה מדכתיב תרי קראי המלאה והזרע נימא ה\"מ בהנאה אבל באכילה אסירי מכל שתעבתי לך כדבעי למימר הכא וי\"ל דמאחר דאשכחן כלאי זרעים דשרו באכילה דאיתקוש לבהמה וכלאי הכרם אסורין אם כן סברא הוא בלא הוסיף כיון דלא מיתסר לגמרי כשאר כל כלאי הכרם יש לו להתיר אף באכילה כמו בכלאי זרעים:"
+     ]
+    },
+    {
+     "he": "וְכִלְאֵי בְהֵמָה גּוּפַיְיהוּ מְנָא לַן? מִדַּאֲסַר רַחֲמָנָא כִּלְאַיִם לַגָּבוֹהַּ, מִכְּלָל דִּלְהֶדְיוֹט שְׁרֵי.",
+     "en": "The Gemara asks: <b>And</b> with regard to <b>diverse kinds of animals themselves, from where do we</b> derive that their offspring is permitted? The Gemara answers: <b>From</b> the fact <b>that the Merciful One prohibits</b> the offspring of <b>diverse kinds</b> of animals for sacrifice <b>to the Most High</b> upon the altar (see 38b), learn <b>by inference that they are permitted to ordinary</b> people for consumption.",
+     "rashi": [],
+     "tosafot": [
+      "<b>מדאסר רחמנא כלאים לגבוה מכלל דלהדיוט שרי</b> — וא\"ת ודלמא איצטריך קרא להקדישה ואח\"כ הרביעה כלאים כדאמר פרק כל האסורים (תמורה כט.) גבי טרפה דאיצטריך לאסור לגבוה היכא דהקדישה ואח\"כ נטרפה וי\"ל דמ\"מ הכא אי אתינן למיסר של הדיוט מכל שתעבתי לך כ\"ש דלגבוה אסירא מכל שתעבתי לך אע\"ג דהוקדש תחלה וכן י\"ל גבי אותו ואת בנו בסמוך אי נמי מדגלי לך בטרפה שאין חילוק ה\"ה בכלאים ומחוסר זמן:"
+     ]
+    },
+    {
+     "he": "אוֹתוֹ וְאֶת בְּנוֹ לִיתְּסַר! מִדַּאֲסַר רַחֲמָנָא מְחוּסַּר זְמַן לַגָּבוֹהַּ, מִכְּלָל דִּלְהֶדְיוֹט שְׁרֵי.",
+     "en": "The Gemara raises another difficulty: <b>A mother and its offspring</b> slaughtered on the same day <b>should be prohibited</b> for consumption, as this too is a practice made abominable. The Gemara answers: <b>From</b> the fact <b>that the Merciful One prohibits</b> an animal <b>whose time has not yet</b> arrived, i.e., that is less than eight days old, as an offering <b>to the Most High</b> (Leviticus 22:27), learn <b>by inference that</b> such animals are <b>permitted to ordinary</b> people for consumption. The offspring of a mother slaughtered that day is also considered an animal whose time has not yet arrived, since the prohibition against slaughtering it is limited to that day.",
+     "rashi": [
+      "<b>אותו ואת בנו</b> — אינו אלא מחוסר זמן שהיום אסור ומחר מותר:"
+     ],
+     "tosafot": [
+      "<b>מדאסר רחמנא מחוסר זמן לגבוה</b> — דכתיב ומיום השמיני והלאה ירצה דאמר לעיל בפרק אותו ואת בנו (חולין דף פא.) נתקו הכתוב ללאו דאותו ואת בנו לעשה:"
+     ]
+    },
+    {
+     "he": "שִׁילּוּחַ הַקֵּן לִיתְּסַר! לֹא אָמְרָה תּוֹרָה ״שַׁלַּח״ לְתַקָּלָה.",
+     "en": "The Gemara raises a final difficulty: If one violated the mitzva that mandates <b>sending</b> away the mother bird from <b>the nest,</b> as it is stated: “You shall not take the mother with the young. You shall in any way let the mother go” (Deuteronomy 22:6–7), and the court instructed him to set the mother bird free, that mother bird <b>should be prohibited</b> to all, as this practice is also abominable. The Gemara responds: <b>The Torah did not say: Send</b> it away, if doing so could lead <b>to a mishap.</b> If the bird were prohibited, the Torah would not have commanded one to send it away, as others might eat it unwittingly.",
+     "rashi": [
+      "<b>שילוח הקן ליתסר</b> — כגון נטל את האם מעל הבנים ובא לפנינו וחייבנוהו לשלח כדתנן לקמן (חולין דף קמא.) משלח ואינו לוקה תאסר לאכילה עולמית דהא נעבדה בה עבירה:",
+      "<b>לא אמרה תורה שלח לתקלה</b> — וכאן הרי אמרה שלח דכתיב (דברים כב) לא תקח האם והדר שלח תשלח דאם לקחת אותה חזור ושלחה ואם היתה אסורה לא היה אומר לך שלחנה ויכשלו בה בני אדם וה\"ה דמצי למימר נמי בכל הני מה שבת דחמירא כו' ומיהו מידי דמשכח פירוקא מגופיה לא יליף מאחריני לישנא אחרינא שילוח הקן ליתסר כל שילוח הקן ליתסר האם לעולם ואפילו שלחה דהא כל שתיעבתי לך הרי הוא לך לעולם בבל תאכל והרי אסרתיה לך באותה שעה וזה נראה לי עיקר דהא לא קאמר רב אשי דכל דבר שנעבדה בו עבירה ומתחלה הוא מותר אסור דאם כן החורש בשור וחמור והמרביע כלאים והחוסם יאסרו הבהמות ואנן לא פרכינן מינייהו מידי אלא מן היוצא מהן:"
+     ],
+     "tosafot": [
+      "<b>לא אמרה תורה שלח לתקלה</b> — תימה דשרינן הכא מהא סברא בלא שום קרא ובסוף פרק שני דקדושין (דף נז.) גבי צפרי מצורע דריש כל צפור טהורה תאכלו לרבות המשולחת וזאת אשר לא תאכלו לרבות השחוטה ופריך ואיפוך אנא ומשני רבא לא אמרה תורה שלח לתקלה והשתא למה לן קרא דכל צפור טהורה תאכלו להתיר דהכא שרינן מהאי טעמא שילוח הקן וי\"ל דהתם כיון דכתיב לא תאכלו לאסור האחת הוה אמינא דאידך נמי אסירא משום דאתקוש צפרים אהדדי ולא הוה שרינן מטעם דלא אמרה תורה שלח לתקלה אי לאו דאיכא עדיין יתורא דכל צפור טהורה תאכלו ולא דמי לכל שתעבתי לך דהכא דלא כתיב בהדיא אשלוח הקן ומהך סברא איכא לאוקומי במילי אחריני:"
+     ]
+    },
+    {
+     "he": "אָמַר רֵישׁ לָקִישׁ: מִנַּיִן לְבָשָׂר בְּחָלָב שֶׁאָסוּר? תַּלְמוּד לוֹמַר ״אַל תֹּאכְלוּ מִמֶּנּוּ נָא וּבָשֵׁל מְבֻשָּׁל״, שֶׁאֵין תַּלְמוּד לוֹמַר ״מְבֻשָּׁל״. מָה תַּלְמוּד לוֹמַר ״מְבֻשָּׁל״? לוֹמַר לְךָ יֵשׁ לְךָ בִּשּׁוּל אַחֵר שֶׁהוּא כָּזֶה, וְאֵי זֶה – זֶה בָּשָׂר בְּחָלָב.",
+     "en": "§ <b>Reish Lakish says: From where</b> is it derived <b>that meat</b> cooked <b>in milk is prohibited</b> for consumption? <b>The verse states</b> with regard to the Paschal offering: <b>“You shall not eat it partially roasted, nor boiled in any way”</b> (Exodus 12:9). <b>As</b> there is <b>no</b> need for <b>the verse to state:</b> “Boiled <b>in any way,”</b> since it could simply have stated: “Boiled.” <b>What</b> is the meaning when <b>the verse states:</b> “Boiled <b>in any way?”</b> It is included <b>to tell you</b> that <b>there is another</b> manner of <b>cooking,</b> the product of <b>which is</b> prohibited <b>like this one. And which</b> cooking <b>is this? This is meat</b> cooked <b>in milk.</b>",
+     "rashi": [
+      "<b>שהוא כזה</b> — שאסור באכילה כזה:"
+     ],
+     "tosafot": [
+      "<b>שאין ת\"ל מבושל</b> — לית ליה לר\"ל הנך דרשות דדרשינן בסוף פרק כל שעה (פסחים דף מא.) מינה צלאו ואח\"כ בשלו או לשאר משקים כו':"
+     ]
+    },
+    {
+     "he": "אָמַר לוֹ רַבִּי יוֹחָנָן:",
+     "en": "<b>Rabbi Yoḥanan said to</b> Reish Lakish:",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 115b",
+   "he_ref": "חולין קט״ו:",
+   "url": "https://www.sefaria.org/Chullin.115b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=115&amud=b",
+   "segments": [
+    {
+     "he": "כְּעוּרָה זוֹ שֶׁשָּׁנָה רַבִּי? ״לֹא תֹּאכְלֶנּוּ״ – בְּבָשָׂר בְּחָלָב הַכָּתוּב מְדַבֵּר.",
+     "en": "<b>Is that</b> derivation <b>that Rabbi</b> Yehuda HaNasi <b>taught ugly,</b> that you derive a new one? The verse states with regard to an animal’s blood: “You shall not eat it; you shall pour it upon the earth as water” (Deuteronomy 12:24), and the next verse adds: <b>“You shall not eat it;</b> that it may go well with you, and with your children after you.” Rabbi Yehuda HaNasi teaches that the redundant second verse is not referring to the prohibition of blood. Rather, <b>the verse is speaking of</b> the prohibition of <b>meat</b> cooked <b>in milk,</b> teaching that it is prohibited for consumption.",
+     "rashi": [
+      "<b>כעורה זו ששנה רבי</b> — כלומר וכי מכוערת היא בעיניך משנה זו ששנה רבי ולמדה לבשר בחלב ממקרא הזה:",
+      "<b>לא תאכלנו</b> — יתירא דכתיב בראה אנכי גבי פסולי המוקדשין שנפדו (דברים יב, טז) רק הדם לא תאכלנו על הארץ תשפכנו כמים והדר כתיב (דברים יב, כה) לא תאכלנו למען ייטב לך וגו' לדם לא איצטריך דהא כתיבי קראי טובא ומוקי ליה לבשר בחלב:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַתָּה אוֹמֵר בְּבָשָׂר בְּחָלָב הַכָּתוּב מְדַבֵּר, אוֹ אֵינוֹ אֶלָּא בְּאֶחָד מִכׇּל הָאִיסּוּרִין שֶׁבַּתּוֹרָה? אָמַרְתָּ: צֵא וּלְמַד מִשְּׁלֹשׁ עֶשְׂרֵה מִדּוֹת שֶׁהַתּוֹרָה נִדְרֶשֶׁת בָּהֶן, דָּבָר הַלָּמֵד מֵעִנְיָנוֹ. בַּמֶּה הַכָּתוּב מְדַבֵּר? בִּשְׁנֵי מִינִין, אַף כָּאן בִּשְׁנֵי מִינִין.",
+     "en": "<b>Do you say</b> that <b>the verse is speaking of</b> the prohibition of <b>meat</b> cooked <b>in milk? Or</b> perhaps <b>it is only</b> referring <b>to one of the</b> other <b>prohibitions in the Torah? You say: Go out and learn from the thirteen hermeneutical principles,</b> one of which is: <b>A matter that is derived from its context. To what are the</b> adjacent <b>verses referring?</b> They are referring <b>to</b> consecrated animals that were redeemed, which are a combination of <b>two types:</b> They are non-sacred in that they may be eaten, but they are prohibited for shearing and work, like consecrated animals. <b>Here too,</b> one may conclude that the verse is referring <b>to</b> a prohibition that involves <b>two types</b> of food, i.e., the prohibition of meat cooked in milk.",
+     "rashi": [
+      "<b>דבר הלמד מענינו</b> — דבר סתום שאין מפורש בו במה מדבר הוי לומדו מן הענין פרשה שנכתב בה במה הענין מיירי:",
+      "<b>בשני מינין</b> — פסולי המוקדשין שנפדו שני מינין הן מותרין באכילה כחולין ואסורין בגיזה ועבודה כקדשים כדאמר בבכורות (דף טו.) תזבח ולא גיזה בשר ולא חלב:"
+     ],
+     "tosafot": [
+      "<b>בשני מינין</b> — פי' בקונטרס מותרין באכילה כחולין ואסורין בגיזה ועבודה כקדשים ואין נראה דלא שייך משום הכי דמקרי שני מינים אלא נראה משום דאיתקש לצבי ואיל חשיב להו כשני מינין כדאמר פ' אלו הן הלוקין (מכות דף כב.) אמר רבי יצחק המרביע שור פסולי המוקדשין לוקה ור' אושעיא נמי קאמר המנהיג שור פסולי המוקדשין לוקה גוף אחד הוא ועשאו הכתוב ב' גופים פירוש שעשאו הכתוב כצבי ואיל ובהכי מיישב ר\"ת הא דאמר בפ' כל פסולי המוקדשין (בכורות לג.) תלת צבי ואיל כתיבי חד לכדרבי יצחק ורבי אושעיא ופי' שם בקונטרס דלא אתפרש היכא:"
+     ]
+    },
+    {
+     "he": "אִי מֵהַהִיא – הֲוָה אָמֵינָא: הָנֵי מִילֵּי בַּאֲכִילָה, אֲבָל בַּהֲנָאָה – לָא; קָמַשְׁמַע לַן.",
+     "en": "Reish Lakish replied to Rabbi Yoḥanan: My exposition is still necessary, since <b>if</b> the source for the prohibition of eating meat cooked in milk were <b>from that</b> verse cited by Rabbi Yehuda HaNasi alone, <b>I would say</b> that <b>this statement</b> applies only <b>to</b> the prohibition of <b>eating</b> meat cooked in milk, <b>but not to</b> that of deriving <b>benefit</b> from it. The verse cited with regard to the Paschal offering <b>teaches us</b> that even deriving benefit is prohibited, just as it is prohibited to derive benefit from a disqualified Paschal offering.",
+     "rashi": [
+      "<b>אבל בהנאה לא קמ\"ל</b> — מהאי קרא דכתיבא אזהרה דידיה גבי פסח מה פסח מבושל אסור באכילה ובהנאה דכל קדשים שאינם ראוים לאכילה תעובר צורתן ויצאו לבית השריפה אף זה אסור בהנאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְרַבִּי, בַּהֲנָאָה מְנָא לֵיהּ? נָפְקָא לֵיהּ מֵהָכָא: נֶאֱמַר כָּאן ״כִּי עַם קָדוֹשׁ אַתָּה לַה׳״, וְנֶאֱמַר לְהַלָּן ״וְלֹא יִהְיֶה קָדֵשׁ בִּבְנֵי יִשְׂרָאֵל״, מָה לְהַלָּן בַּהֲנָאָה, אַף כָּאן בַּהֲנָאָה.",
+     "en": "The Gemara asks: <b>And Rabbi</b> Yehuda HaNasi, <b>from where</b> does he derive that meat cooked in milk is prohibited <b>for benefit?</b> The Gemara responds: <b>He derives it from here,</b> as <b>it is stated here: “For you are a sacred [<i>kadosh</i>] people unto the Lord</b> your God. You shall not cook a kid in its mother’s milk” (Deuteronomy 14:21). <b>And it is stated below: “Neither shall there be a sodomite [<i>kadesh</i>] of the sons of Israel”</b> (Deuteronomy 23:18). The similar expressions teach that <b>just as below,</b> the prohibition of sodomy is a prohibition that involves enjoyment, i.e., deriving <b>benefit,</b> not eating, <b>so too here,</b> meat cooked in milk is prohibited <b>with regard to</b> deriving <b>benefit.</b>",
+     "rashi": [
+      "<b>כי עם קדוש אתה</b> — לא תבשל גדי:",
+      "<b>מה להלן בהנאה</b> — [בעילה] הנאה היא:"
+     ],
+     "tosafot": [
+      "<b>ונאמר להלן לא יהיה קדש</b> — ואי לאו קרא דלא תאכלנו ה\"א דהנאת הגוף בלא אכילה אסר הכתוב:"
+     ]
+    },
+    {
+     "he": "דְּבֵי רַבִּי אֱלִיעֶזֶר תָּנָא: ״לֹא תֹאכְלוּ כׇל נְבֵלָה [וְגוֹ׳]״, אָמְרָה תּוֹרָה: כְּשֶׁתִּמְכְּרֶנָּה – לֹא תְּבַשְּׁלֶנָּה וְתִמְכְּרֶנָּה.",
+     "en": "<b>The school of Rabbi Eliezer taught:</b> The verse states: <b>“You shall not eat of any animal carcass;</b> you may give it to the stranger who is within your gates, that he may eat it; or you may sell it to a foreigner; for you are a sacred people to the Lord your God; you shall not cook a kid in its mother’s milk” (Deuteronomy 14:21). <b>The Torah stated</b> the prohibition of meat cooked in milk after the <i>halakha</i> of an animal carcass to teach that <b>when you sell</b> a carcass to a gentile, <b>you shall not cook it</b> in milk <b>and</b> then <b>sell it,</b> i.e., meat cooked in milk is prohibited for benefit and may not be sold.",
+     "rashi": [
+      "<b>לא תאכלו כל נבלה</b> — בסיפיה דקרא כתיב בשר בחלב:",
+      "<b>לא תבשלנה</b> — בחלבו ותמכרנה אלמא אסורה בהנאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּבֵי רַבִּי יִשְׁמָעֵאל תָּנָא: ״לֹא תְבַשֵּׁל גְּדִי בַּחֲלֵב אִמּוֹ״ שָׁלֹשׁ פְּעָמִים, אֶחָד לְאִיסּוּר אֲכִילָה, וְאֶחָד לְאִיסּוּר הֲנָאָה, וְאֶחָד לְאִיסּוּר בִּשּׁוּל.",
+     "en": "<b>The school of Rabbi Yishmael taught:</b> The Torah states <b>three times: “You shall not cook a kid in its mother’s milk”</b> (Exodus 23:19, 34:26; Deuteronomy 14:21). <b>One</b> verse serves <b>to</b> teach <b>the prohibition</b> against <b>eating</b> meat cooked in milk, <b>and one</b> serves <b>to</b> teach <b>the prohibition</b> against deriving <b>benefit</b> from it, <b>and one</b> serves <b>to</b> teach <b>the prohibition</b> against <b>cooking</b> meat in milk.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תַּנְיָא, אִיסִי בֶּן יְהוּדָה אוֹמֵר: מִנַּיִן לְבָשָׂר בְּחָלָב שֶׁאָסוּר? נֶאֱמַר כָּאן ״כִּי עַם קָדוֹשׁ אַתָּה״, וְנֶאֱמַר לְהַלָּן ״וְאַנְשֵׁי קֹדֶשׁ תִּהְיוּן לִי וּבָשָׂר בַּשָּׂדֶה טְרֵפָה לֹא תֹאכֵלוּ״, מָה לְהַלָּן אָסוּר, אַף כָּאן אָסוּר.",
+     "en": "<b>It is taught</b> in a <i>baraita</i>: <b>Isi ben Yehuda says: From where</b> is it derived <b>that it is prohibited</b> to eat <b>meat</b> cooked <b>in milk? It is stated here: “For you are a sacred people</b> unto the Lord your God. You shall not cook a kid in its mother’s milk” (Deuteronomy 14:21). <b>And it is stated below: “And you shall be sacred men unto Me; therefore you shall not eat any flesh that is torn of animals in the field [<i>tereifa</i>];</b> you shall cast it to the dogs” (Exodus 22:30). <b>Just as below it is prohibited</b> to eat a <i>tereifa</i>, <b>so too here it is prohibited</b> to eat meat cooked in milk.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְאֵין לִי אֶלָּא בַּאֲכִילָה, בַּהֲנָאָה מִנַּיִן? אָמַרְתָּ קַל וְחוֹמֶר: וּמָה עׇרְלָה שֶׁלֹּא נֶעֶבְדָה בָּהּ עֲבֵירָה – אֲסוּרָה בַּהֲנָאָה, בָּשָׂר בְּחָלָב שֶׁנֶּעֶבְדָה בּוֹ עֲבֵירָה – אֵינוֹ דִּין שֶׁאָסוּר בַּהֲנָאָה!",
+     "en": "<b>And</b> from this <b>I have</b> derived <b>only</b> that it is prohibited <b>for consumption. From where</b> do I derive that it is prohibited <b>for benefit</b> as well? <b>You</b> can <b>say</b> it can be derived by <b>an <i>a fortiori</i></b> inference: <b>Just as</b> with regard to the prohibition against eating <b>the fruit of a tree during the first three years after its planting [<i>orla</i>],</b> which is treated less stringently <b>as no sin has been committed in</b> the planting of the tree and its production of fruit, <b>it is prohibited for benefit, is it not right that meat</b> cooked <b>in milk, with regard to which a sin has been committed, should be prohibited for benefit?</b>",
+     "rashi": [
+      "<b>שנעבדה בו עבירה</b> — בבישול:"
+     ],
+     "tosafot": [
+      "<b>ומה ערלה</b> — ליכא למפרך מה לערלה שכן צריך מאתים לבטלה דמדרבנן הוא דצריך מאתים:"
+     ]
+    },
+    {
+     "he": "מָה לְעׇרְלָה, שֶׁכֵּן לֹא הָיְתָה לָהּ שְׁעַת הַכּוֹשֶׁר.",
+     "en": "The Gemara rejects this, as <i>orla</i> exhibits a unique stringency: <b>What</b> is unique <b>about <i>orla</i>?</b> It is unique <b>in that it never had a time when it was fit.</b> The same cannot be said about meat and milk, which were each permitted on their own before being cooked together.",
+     "rashi": [
+      "<b>לא היתה לו שעת הכושר</b> — פרי הערלה באיסור גדל אבל בשר בחלב היתה לו שעת הכושר קודם שניתן בשר בחלב:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "חָמֵץ בַּפֶּסַח יוֹכִיחַ, שֶׁהָיְתָה לוֹ שְׁעַת הַכּוֹשֶׁר, וְאָסוּר בַּהֲנָאָה. מָה לְחָמֵץ בַּפֶּסַח, שֶׁכֵּן עָנוּשׁ כָּרֵת.",
+     "en": "The Gemara suggests: <b>Let leavened bread on Passover prove</b> the point, <b>as it had a time when it was fit,</b> before Passover, <b>and</b> yet <b>it is prohibited for benefit.</b> The Gemara rejects this inference as well: <b>What</b> is unique <b>about</b> consumption of <b>leavened bread on Passover?</b> It is unique <b>in that it is punishable by <i>karet</i>,</b> unlike the prohibition of meat cooked in milk.",
+     "rashi": [],
+     "tosafot": [
+      "<b>מה לחמץ בפסח שכן כרת</b> — וכרת גופיה לא שייך למילף שאין עונשין מן הדין:"
+     ]
+    },
+    {
+     "he": "כִּלְאֵי הַכֶּרֶם יוֹכִיחוּ, שֶׁאֵין עָנוּשׁ כָּרֵת, וְאָסוּר בַּהֲנָאָה.",
+     "en": "The Gemara comments: <b>Let</b> the prohibition of <b>diverse kinds in a vineyard prove</b> the point, <b>as</b> it <b>is not punishable by <i>karet</i>, and</b> yet <b>it is prohibited to</b> derive <b>benefit</b> from the product.",
+     "rashi": [
+      "<b>כלאי הכרם יוכיחו</b> — לקמן פריך ל\"ל כלאי הכרם נימא ערלה תוכיח וחזר הדין ועוד פריך נימא מה לכלאי הכרם שכן לא היתה [להן] שעת הכושר:"
+     ],
+     "tosafot": [
+      "<b>כלאי הכרם יוכיחו</b> — מכלאי הכרם גרידא הוה מצי למילף במה מצינו אלא ניחא ליה למעבד תחלת הדין בק\"ו ואין להקשות מה לערלה וחמץ וכלאי הכרם שכן בשריפה כדתנן בתמורה (דף לג:) דהיא גופה נילף ועוד דהיינו דוקא לרבי יהודה דאמר אין ביעור חמץ אלא שריפה אבל לרבנן לא הוי חמץ בשריפה הקשה ה\"ר יעקב מאורליינ\"ש מה לכולהו שכן לא הותרו מכללן תאמר בבשר בחלב שהותר מכללו אצל בהמה טמאה וחלב בהמה טמאה וטובא דאמר לעיל וי\"ל דאין זה קרוי הותר מכללו דדוקא חלב דכתיב (ויקרא ג) כל חלב דמשמע אפילו דחיה והדר שרא דחיה זה חשיב הותר מכללו אבל בבשר בחלב לא כתיב כל:"
+     ]
+    },
+    {
+     "he": "לְמָה לִי גְּזֵירָה שָׁוָה? לַיְיתֵי כּוּלַּהּ בְּקַל וָחוֹמֶר מֵעׇרְלָה: וּמָה עׇרְלָה, שֶׁלֹּא נֶעֶבְדָה בָּהּ עֲבֵירָה, אֲסוּרָה בֵּין בַּאֲכִילָה בֵּין בַּהֲנָאָה; בָּשָׂר בְּחָלָב, שֶׁנֶּעֶבְדָה בּוֹ עֲבֵירָה, אֵינוֹ דִּין שֶׁאָסוּר בֵּין בַּאֲכִילָה בֵּין בַּהֲנָאָה!",
+     "en": "The Gemara asks: <b>Why do I</b> need both Isi ben Yehuda’s <b>verbal analogy</b> to teach the prohibition of consumption and the <i>a fortiori</i> inference to teach the prohibition of benefit? <b>Let all of it,</b> both the prohibition of consumption and the prohibition against deriving benefit, <b>be derived</b> by an <b><i>a fortiori</i></b> inference <b>from <i>orla</i>: Just as <i>orla</i>,</b> which is treated less stringently, <b>as no sin has been committed in</b> the tree’s planting, is nevertheless <b>prohibited both for consumption and for benefit; is it not right that meat</b> cooked <b>in milk, with regard to which a sin has been committed,</b> should be <b>prohibited both for consumption and for benefit?</b>",
+     "rashi": [
+      "<b>למה לי גז\"ש</b> — לאיסור אכילה כי היכי דיליף לאיסור הנאה מערלה נילף נמי לאיסור אכילה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מִשּׁוּם דְּאִיכָּא לְמֵימַר: חוֹרֵשׁ בְּשׁוֹר וּבַחֲמוֹר, וְחוֹסֵם פִּי פָרָה וְדָשׁ בָּהּ יוֹכִיחַ, שֶׁנֶּעֶבְדָה בָּהֶם עֲבֵירָה וּשְׁרוּ.",
+     "en": "The Gemara responds: That inference would be invalid <b>because one could say:</b> The cases of one <b>who plows with an ox and with a donkey, and</b> one <b>who muzzles the mouth of a cow and threshes with it prove</b> it invalid. <b>As</b> in those cases, <b>a sin has been committed through them, and</b> yet benefit from the products of these actions is <b>permitted.</b> One cannot refute a verbal analogy with logical reasoning.",
+     "rashi": [
+      "<b>משום דאיכא למימר חורש בשור ובחמור יוכיח</b> — שנעבדה בו עבירה ומותר באכילה אבל השתא דקיימא לן אכילה מג\"ש ילפינן הנאה בק\"ו וליכא למימר חורש בשור וחמור יוכיח דמה לחורש בשור וחמור דמותר באכילה תאמר בבשר בחלב שאסור באכילה:"
+     ],
+     "tosafot": [
+      "<b>חורש בשור וחמור כו'</b> — אבל השתא עבדינן ק\"ו דכשם שאסור באכילה אסור בהנאה:"
+     ]
+    },
+    {
+     "he": "לְמָה לִי לְמֵימַר ״כִּלְאֵי הַכֶּרֶם יוֹכִיחוּ״, לֵימָא ״עׇרְלָה תּוֹכִיחַ״, וְלִיהְדַּר דִּינָא וְלֵיתֵי בְּמָה הַצַּד.",
+     "en": "The Gemara asks further: <b>Why do I</b> need <b>to say,</b> as was stated above, that the case of <b>diverse kinds in a vineyard proves</b> that benefit from meat and milk is prohibited? At that point, two other cases, <i>orla</i> and leavened bread on Passover, had already been offered as proof. Although they were rejected because they both possess a unique stringency, each lacks the stringency possessed by the other. Therefore, <b>let us say</b> that the case of <b><i>orla</i> proves</b> that the stringency for consumption of leavened bread on Passover, i.e., the penalty of <i>karet</i>, is irrelevant, and vice versa. <b>And let the inference revert</b> to its starting point, <b>and let</b> the <i>halakha</i> with regard to meat cooked in milk <b>be derived by</b> analogy from <b>the common element</b> of the two sources, i.e., the prohibition against both consumption and benefit.",
+     "rashi": [
+      "<b>למה ליה למימר</b> — לעיל כלאים יוכיח דאיצטריך ליה לאהדורי אכלאים דהוה ליה למד חדא מתלת בשר בחלב מערלה וחמץ וכלאים לימא ערלה תוכיח ותיתי חדא מתרתי שפיר:",
+      "<b>וליהדר דינא</b> — וכשיחזור הדין מה לערלה שכן לא היתה לה שעת הכושר חמץ יוכיח מה לחמץ שכן כרת ערלה תוכיח וגמרינן ומייתינן לה במה הצד כגון לא ראי ערלה כראי חמץ ולא ראי חמץ כראי ערלה הצד השוה שבהן שאסורין באכילה ואסורין בהנאה אף אני אביא בשר בחלב דהואיל ואסור באכילה מגז\"ש יהא אסור אף בהנאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב אָשֵׁי: מִשּׁוּם דְּאִיכָּא לְמֵימַר, נְבֵלָה תּוֹכִיחַ, שֶׁאֲסוּרָה בַּאֲכִילָה וּמוּתֶּרֶת בַּהֲנָאָה.",
+     "en": "<b>Rav Ashi said:</b> Such a derivation cannot be suggested, <b>because one can say</b> that the case of an unslaughtered <b>animal carcass proves</b> it invalid, <b>as</b> an animal carcass <b>is prohibited for consumption and</b> yet <b>it is permitted for benefit.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַב מָרְדֳּכַי לְרַב אָשֵׁי: הָכִי אָמְרִינַן מִשְּׁמֵיהּ דְּרֵישׁ לָקִישׁ: כֹּל ״מָה הַצַּד״ – מִגּוּפוֹ פָּרְכִינַן, מֵעָלְמָא לָא פָּרְכִינַן.",
+     "en": "<b>Rav Mordekhai said to Rav Ashi: We say in the name of Reish Lakish as follows:</b> For <b>any</b> analogy derived from <b>the common element</b> of two sources, <b>one can refute</b> the analogy only <b>by</b> invoking conflicting details of the two sources <b>themselves,</b> e.g., here, some stringency shared by <i>orla</i> and leavened bread, but not by meat cooked in milk. <b>One cannot refute</b> the analogy <b>from an external</b> case, as you do.",
+     "rashi": [
+      "<b>הכי אמרינן משמיה דר\"ל</b> — האי נבלה תוכיח אינה תשובה דכל הבאה במה הצד מגופיה פרכינן אם יש להשיב בשניהם מה להצד השוה שבשניהם שכן כך וכך יש בהם תאמר בזה שלא הושווה להן במדה זו (היא) פרכינן אבל מעלמא כגון פלוני יוכיח לא פרכינן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִי הָכִי, תֵּיתֵי בְּמָה הַצַּד? מִשּׁוּם דְּאִיכָּא לְמִיפְרַךְ: מָה לְהַצַּד הַשָּׁוֶה שֶׁבָּהֶן – שֶׁכֵּן גִּדּוּלֵי קַרְקַע.",
+     "en": "The Gemara asks: <b>If so,</b> then the question remains: Why not <b>let</b> the <i>halakha</i> <b>be derived by</b> analogy from <b>the common element</b> of <i>orla</i> and leavened bread on Passover? The Gemara responds: <b>Because</b> the analogy <b>can be refuted</b> as follows: <b>What</b> is unique <b>about the common element of</b> <i>orla</i> and leavened bread? It is unique <b>in that</b> they both involve produce <b>that grows from the ground,</b> whereas meat and milk do not grow from the ground.",
+     "rashi": [
+      "<b>שכן גדולי קרקע</b> — אע\"ג דאין חומר להיות נאסרין בכך אפ\"ה אמרינן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִי הָכִי, הַשְׁתָּא נָמֵי אִיכָּא לְמִיפְרַךְ: מָה לְכִלְאֵי הַכֶּרֶם, שֶׁכֵּן גִּדּוּלֵי קַרְקַע?",
+     "en": "The Gemara counters: <b>If so,</b> then <b>even now</b> that the Gemara has invoked diverse kinds in a vineyard to prove the point, the derivation <b>can be refuted</b> in the same manner: <b>What</b> is unique <b>about</b> the prohibition of <b>diverse kinds in a vineyard?</b> It is unique <b>in that</b> it involves produce <b>that grows from the ground.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַב מָרְדֳּכַי לְרַב אָשֵׁי: הָכִי אָמְרִינַן מִשְּׁמֵיהּ דְּרֵישׁ לָקִישׁ: כֹּל מָה הַצַּד פָּרְכִינַן כֹּל דְּהוּ, לֹא אִם אָמַרְתָּ חֲדָא מֵחֲדָא – קַל וָחוֹמֶר פָּרְכִינַן, כֹּל דְּהוּ – לָא פָּרְכִינַן.",
+     "en": "<b>Rav Mordekhai said to Rav Ashi: We say in the name of Reish Lakish as follows:</b> For <b>any</b> analogy derived from <b>the common element</b> of two sources, <b>one can refute</b> the analogy by invoking <b>any</b> factor shared by the two source cases but not by the target case. But this is insufficient to refute an analogy to <b>a single</b> source <b>from a single</b> source using the standard formulation: <b>No, if you say</b> the <i>halakha</i> applies to the source case, which possesses a unique factor X, must you say the same of the target case, which does not? <b>One can refute</b> such analogies using this formulation only by way of <b>an <i>a fortiori</i></b> inference, i.e., if the unique factor X is a stringency. But <b>one cannot refute</b> it by simply mentioning <b>any</b> unique factor, e.g., that diverse kinds in a vineyard grow from the ground.",
+     "rashi": [
+      "<b>כל מה הצד פרכינן כל דהו</b> — כל דבר הלמד בהצד השוה ויש להשיב שום דבר שהמלמדין שוין בו והלמד אינו שוה להן בו אפילו שאינו לא קל ולא חמור פרכינן ליה:",
+      "<b>לא אם אמרת כו'</b> — אי הוה הדר דינא ואתי במה הצד הוה פרכינן כל דהו אבל השתא דאתי מכלאים ואתה בא להשיב לא אם אמרת בכלאים שכן גדולי קרקע אין זו תשובה דקולא וחומרא פרכינן אם אנו צריכין ללמוד קולא יש לך להשיב לא אם אמרת בזה שכן יש בו צד קל אחר ואם אנו לומדים חומר צריך אתה להשיב לא אם אמרת בזה שכן יש בו צד חמור כגון הני דאמרינן לעיל מה לערלה שכן לא היתה לה שעת הכושר וכגון חמץ בפסח שהשבנו לא אם אמרת בחמץ בפסח שכן כרת אבל כל דהו כי האי שכן גדולי קרקע לאו פירכא היא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְלִיפְרוֹךְ לְכוּלְּהוּ, מָה לְכוּלְּהוּ שֶׁכֵּן גִּדּוּלֵי קַרְקַע!",
+     "en": "The Gemara counters: <b>But</b> one need not invoke the case of diverse kinds in a vineyard by itself, since it is invoked in addition to the cases of <i>orla</i> and leavened bread. Consequently, this is effectively a derivation from the common element of all three sources, not from one single case to another. If so, <b>let us refute</b> the derivation from <b>all of them: What</b> is unique <b>about all of</b> the cases? They are unique <b>in that</b> they involve produce <b>that grows from the ground.</b>",
+     "rashi": [
+      "<b>וליפרוך לכולהו כו'</b> — דכיון דלאו חדא מחדא היא אלא חד מתלת כמה הצד דמי הלכך ליפרוך בכולהו ואע\"ג דלאו קולא וחומרא היא דקא ס\"ד דכי אמרינן בלא אם אמרת דלא פרכינן ביה כל דהו ה\"מ היכא דאתיא חדא מחדא כגון בריש מלתא דבעי לאתויי מערלה לחודה אבל חדא מתרתי או מתלת כמה הצד דמיא ואף על גב דלא אמרינן וחזר הדין פרכינן לכולהו פירכא כל דהו:"
+     ],
+     "tosafot": [
+      "<b>וליפרוך מה לכולהו שכן גדולי קרקע</b> — ואע\"ג דמכלאי הכרם איכא למילף במה מצינו ולא פרכינן כל דהו מ\"מ אהא דיליף בק\"ו משלשתן פריך:"
+     ]
+    },
+    {
+     "he": "אֶלָּא, אֲמַר לֵיהּ רַב מָרְדֳּכַי לְרַב אָשֵׁי, הָכִי אָמְרִינַן מִשְּׁמֵיהּ דְּרֵישׁ לָקִישׁ:",
+     "en": "<b>Rather, Rav Mordekhai said to Rav Ashi: We say in the name of Reish Lakish as follows:</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
