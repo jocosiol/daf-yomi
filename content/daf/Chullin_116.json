@@ -1,0 +1,328 @@
+{
+ "tractate": "Chullin",
+ "page": 116,
+ "fetched": "2026-08-18",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 116a",
+   "he_ref": "חולין קט״ז.",
+   "url": "https://www.sefaria.org/Chullin.116a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=116&amud=a",
+   "segments": [
+    {
+     "he": "חֲדָא מֵחֲדָא קוּלָּא וְחוּמְרָא פָּרְכִינַן, כֹּל דְּהוּ לָא פָּרְכִינַן, חֲדָא מִתַּרְתֵּי אֲפִילּוּ כֹּל דְּהוּ פָּרְכִינַן.",
+     "en": "As stated above, for any <i>a fortiori</i> inference of <b>a single</b> source <b>from a single</b> source, <b>one can refute</b> the derivation by invoking a unique <b>leniency</b> in the supposedly stringent case <b>and a stringency</b> in the lenient one, but <b>one cannot refute</b> it by simply mentioning <b>any</b> aspect unique to the first source. And for inferences of <b>one</b> source from <b>two other</b> sources <b>one can even refute</b> the derivation by mentioning <b>any</b> aspect unique to the first source.",
+     "rashi": [
+      "<b>חדא מחדא</b> — כגון בריש מילתא דבעי לאתויי מערלה לחודה פרכינן קולא וחומרא ולא כל דהו:",
+      "<b>חדא מתרתי</b> — כגון שהשבנו מה לערלה שכן לא היתה כו' וסייעתנו ראיית דברינו בדבר אחר כגון חמץ בפסח יוכיח פרכינן אפילו כל דהו אם לא היה בידינו תשובת קולא וחומרא שהשבנו מה לחמץ בפסח שכן כרת והיה בידינו תשובה כל דהו השוה בשני המלמדין היינו משיבין אותה אע\"פ שלא חזר הדין ולא באנו להצד השוה:"
+     ],
+     "tosafot": [
+      "<b>חדא מתרתי אפילו כל דהו פרכינן</b> — משמע אע\"ג דלא הדר דינא וא\"ת א\"כ מיד כשאמר חמץ בפסח יוכיח נפרוך שכן גדולי קרקע ושוב לא יוכל לומר כלאי הכרם יוכיח וי\"ל דמתחלה היה יכול לומר חמץ בפסח וכלאי הכרם יוכיחו דהוו להו תלתא ועוד דהוה מצי למימר בשר תקרובת עבודת כוכבים יוכיח וכי תימא מה לתקרובת שכן מטמא הא דמטמא היינו מדרבנן כדפרישית בפ\"ק (לעיל חולין דף יג: ד\"ה תקרובת):"
+     ]
+    },
+    {
+     "he": "חֲדָא מִתְּלָת, אִי הָדַר דִּינָא וְאָתֵי בְּמָה הַצַּד – פָּרְכִינַן כֹּל דְּהוּ, וְאִי לָא – קוּלָּא וְחוּמְרָא פָּרְכִינַן, כֹּל דְּהוּ לָא פָּרְכִינַן.",
+     "en": "For inferences of <b>one</b> source <b>from three</b> other sources, as suggested here, only <b>if the inference reverts</b> to its starting point, as each source possesses its own unique stringency, <b>and</b> the <i>halakha</i> <b>is</b> then <b>derived by</b> analogy from <b>the common element</b> of all of them, <b>can one refute</b> the inference by mentioning <b>any</b> factor unique to the source cases. <b>But if</b> the inference does <b>not</b> revert, <b>one can refute</b> the derivation only by invoking <b>a leniency and a stringency,</b> but <b>one cannot refute</b> it by mentioning <b>any</b> unique factor. The suggested inference does not revert, since the prohibition of diverse kinds in a vineyard possesses no stringent element that the other sources lack. Therefore, the fact that all the source cases involve produce is immaterial, and the inference from diverse kinds in a vineyard stands.",
+     "rashi": [
+      "<b>אבל חדא מתלת</b> — כגון זו שאמרנו כלאים יוכיחו אי הדר דינא ואתי במה הצד אם היה בידינו תשובת קולא וחומרא להשיב על כלאים כגון מה לכלאים שכן כך וכך דליצטריך מיהדר דינא ומייתי במה הצד פרכינן כל דהו על מה הצד אבל כל כמה דלא הדר דינא לא פרכינן כל דהו אפילו שוים בכולהו כך המדות מסורות בידינו מסיני:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְלִפְרוֹךְ: מָה לְכִלְאֵי הַכֶּרֶם, שֶׁכֵּן לֹא הָיְתָה לָהֶן שְׁעַת הַכּוֹשֶׁר? אָמַר רַב אַדָּא בַּר אַהֲבָה: זֹאת אוֹמֶרֶת – כִּלְאֵי הַכֶּרֶם עִיקָּרָן נֶאֱסָר, וְהָיְתָה לָהֶן שְׁעַת הַכּוֹשֶׁר קוֹדֶם הַשְׁרָשָׁה.",
+     "en": "The Gemara suggests: <b>But let one refute</b> the inference as follows: <b>What</b> is unique <b>about diverse kinds in a vineyard?</b> They are unique <b>in that they had no time that they were fit.</b> The produce is forbidden as soon as it begins to grow, whereas meat and milk are prohibited only when they are cooked together. <b>Rav Adda bar Ahava said:</b> If this suggestion was not employed, <b>that is to say that</b> even <b>the roots of diverse kinds in a vineyard are prohibited,</b> including the seeds and saplings from which the hybrid plants grow. <b>And they</b> too <b>had a time when they were fit, before taking root.</b> Consequently, the premise of the question must be false.",
+     "rashi": [
+      "<b>ולפרוך מה לכלאי הכרם שכן לא היתה להם שעת הכושר</b> — דקס\"ד אין הזריעה נאסרת אלא הגידולים ולהם לא היתה שעת הכושר מעולם:",
+      "<b>זאת אומרת</b> — מדלא פריך הכי ש\"מ כלאי הכרם עיקרן נאסר אפילו הזריעה עצמה נאסרת משנשרשה:",
+      "<b>עיקרן</b> — השרשתן נאסרת ולזריעה הזאת היתה לה שעת היתר כל ימיה משבאה לעולם עד שנשרשה:"
+     ],
+     "tosafot": [
+      "<b>עיקרן נאסר</b> — משמע שאף הקשים והעץ נאסרין וכן משמע בפרק כל שעה (פסחים דף כו:) דאמרינן תנור שהסיקוהו בקליפי ערלה או בקשים של כלאי הכרם חדש יותץ ותימה דבפרק האשה שנפלו לה נכסים (כתובות דף פ.) משמע דשרו גבי המוציא הוצאות על נכסי אשתו עבד רב יהודה עובדא בחבילי זמורות רב יהודה לטעמיה דאמר אכלה ערלה שביעית וכלאים הרי זו חזקה פירוש דאז אינו יכול לאכול אלא זמורות וי\"ל דקשין ועץ שהיו קודם שנזרע כלאים מותר עד שיוסיף מאתים ורוב פעמים שהפרי הוסיף מאתים ונאסרו הקשין והעץ שהיו מקודם כבר גדולין ושוב לא יוסיפו מאתים אבל ודאי כל מה שגדל אחר שנזרע כלאים אסור אף הקשין והעץ:",
+      "<b>והיתה להם שעת הכושר קודם השרשה</b> — הקשה הרב רבי משה כהן דבפ\"ק דמנחות (דף ו.) אמר אי ממשקה ישראל ה\"א היכא דלא היתה להן שעת הכושר דומיא דערלה וכלאי הכרם והכא משמע דהיתה להן שעת הכושר וי\"ל דהתם מיירי ביין שעושין ממנו נסכים למזבח דבעי שיהיה ממשקה ישראל ואותו לא היה לו שעת הכושר דמה שגדל לאחר זריעת הכלאים הוא אסור (ואותו לא היתה לו שעת הכושר) ומה שגדל קודם מותר ואינו נאסר כשהוסיף מאתים אלא משום תערובת שנתערב עם מה שגדל אח\"כ והגרעינים שנזרעו הוא דהיתה להן שעת הכושר:"
+     ]
+    },
+    {
+     "he": "מֵתִיב רַב שְׁמַעְיָה בַּר זְעֵירָא: הַמַּעֲבִיר עָצִיץ נָקוּב בַּכֶּרֶם, אִם הוֹסִיף מָאתַיִם – אָסוּר. הוֹסִיף – אִין, לֹא הוֹסִיף – לָא.",
+     "en": "<b>Rav Shemaya bar Zeira raises an objection</b> to this conclusion from a mishna (<i>Kilayim</i> 7:8): If <b>one transfers a perforated pot</b> with seeds in it <b>into a vineyard, if</b> the size of the plant growing in the pot <b>increases</b> by one <b>two-hundredth</b> of its previous size, such that the permitted original plant is less than two hundred times the amount of the prohibited growth and insufficient to nullify it, the produce is <b>prohibited,</b> due to the prohibition against planting diverse kinds in a vineyard. One may infer: If it <b>increases, yes,</b> it is prohibited; but if it <b>does not increase, no,</b> it is permitted. Apparently, only the additional growth is prohibited, not the planted seeds or saplings.",
+     "rashi": [
+      "<b>עציץ נקוב</b> — וזרעים בו והעבירו בכרם וכיון דנקוב הוא יונק מן הכרם:",
+      "<b>הוסיף מאתים</b> — הוסיף בתוך הכרם אחד ממאתים שגדל הירק או גרעיני הזרעים בתוכו דהוו להו מאה ותשעים ותשעה דהיתר וחלק המאתים הוי איסור אסור וכל שכן אם הוסיף יותר דכלאי הכרם אין בטלים עד שיהו בו מאתים דהיתר והאחד (ומאתים) של איסור:",
+      "<b>לא הוסיף</b> — מאתים אלא פחות כל דהו וכגון שיש בהיתר מאתים בו דהוי איהו אחד ומאתים מותר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: תְּרֵי קְרָאֵי כְּתִיבִי, כְּתִיב ״פֶּן תִּקְדַּשׁ הַמְּלֵאָה״, וּכְתִיב ״הַזֶּרַע״.",
+     "en": "<b>Abaye said: Two verses are written,</b> i.e., two separate terms in one verse indicate two separate prohibitions: The verse states: “You shall not sow your vineyard with two kinds of seed, lest the growth of the seed that you will sow be forfeited together with the increase of the vineyard” (Deuteronomy 22:9). <b>It is written: “Lest the growth be forfeited,”</b> indicating that it is prohibited only if it has grown, <b>and it is written: “Of the seed,”</b> from which it can be inferred that it is prohibited immediately when it is planted and takes root.",
+     "rashi": [
+      "<b>המלאה</b> — משמע מילויו ותוספתו:",
+      "<b>וכתיב הזרע</b> — דמשמע זריעה עצמה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָא כֵּיצַד? זָרוּעַ מֵעִיקָּרוֹ – בְּהַשְׁרָשָׁה, זָרוּעַ וּבָא, הוֹסִיף – אִין, לֹא הוֹסִיף – לָא.",
+     "en": "<b>How</b> can <b>these</b> texts be reconciled? Abaye explains: If it was <b>planted initially</b> in the vineyard, it becomes prohibited immediately <b>upon taking root.</b> But in a case where it was <b>planted</b> elsewhere <b>and brought</b> into the vineyard later, e.g., in a perforated pot, then one must distinguish: If its size <b>increases</b> in the vineyard, <b>yes,</b> the growth is prohibited; if its size <b>does not increase, no,</b> it is not prohibited.",
+     "rashi": [
+      "<b>זרוע מעיקרו</b> — בתוך הכרם נאסר מיד בהשרשה:",
+      "<b>זרוע ובא</b> — שהיה נשרש כבר בהיתר חוץ לכרם בעינן מלאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַתְנִיתִין דְּלָא כִּי הַאי תַּנָּא, דְּתַנְיָא: רַבִּי שִׁמְעוֹן בֶּן יְהוּדָה אוֹמֵר מִשּׁוּם רַבִּי שִׁמְעוֹן: בָּשָׂר בְּחָלָב אָסוּר בַּאֲכִילָה וּמוּתָּר בַּהֲנָאָה, שֶׁנֶּאֱמַר: ״כִּי עַם קָדוֹשׁ אַתָּה״, וְנֶאֱמַר לְהַלָּן: ״וְאַנְשֵׁי קֹדֶשׁ תִּהְיוּן לִי״.",
+     "en": "The Gemara notes: <b>The mishna,</b> which states that meat cooked in milk is prohibited for benefit, <b>is not in accordance with</b> the opinion of <b>this <i>tanna</i>, as it is taught</b> in a <i>baraita</i>: <b>Rabbi Shimon ben Yehuda says in the name of Rabbi Shimon:</b> It is <b>prohibited to eat meat</b> cooked <b>in milk but</b> it is <b>permitted to</b> derive <b>benefit</b> from it, <b>as it is stated: “For you are a holy people</b> to the Lord your God; you shall not cook a kid in its mother’s milk” (Deuteronomy 14:21). And the verse <b>states elsewhere: “And you shall be holy people to Me;</b> therefore you shall not eat any flesh that is torn by animals [<i>tereifa</i>] in the field; you shall throw it to the dogs” (Exodus 22:30).",
+     "rashi": [
+      "<b>מתניתין</b> — דקתני בשר בחלב אסור בהנאה דלא כי האי תנא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מָה לְהַלָּן אָסוּר בַּאֲכִילָה וּמוּתָּר בַּהֲנָאָה, אַף כָּאן אָסוּר בַּאֲכִילָה וּמוּתָּר בַּהֲנָאָה.",
+     "en": "The use of the word “holy” in both verses indicates that <b>just as there,</b> with regard to a <i>tereifa</i>, it <b>is prohibited to eat</b> it <b>but</b> one <b>is permitted to</b> derive <b>benefit</b> from it, as one may give it to the dogs, <b>so too here,</b> with regard to meat cooked in milk, it <b>is prohibited to eat</b> it <b>but</b> one is <b>permitted to</b> derive <b>benefit</b> from it.",
+     "rashi": [
+      "<b>מה להלן מותר בהנאה</b> — דכתיב ביה לכלב תשליכון אותו:"
+     ],
+     "tosafot": [
+      "<b>מה להלן אסור באכילה ומותר בהנאה</b> — אע\"ג דאיכא למילף איסור הנאה בקל וחומר כדלעיל קא סבר אין ג\"ש למחצה ויליף מיניה אף היתר הנאה וההוא דלעיל סבר דאהני ג\"ש ואהני ק\"ו אי נמי משום דבההוא קרא דטרפה איירי נמי בקדשים שיצאו חוץ למחיצתן כדאמר פרק בהמה המקשה (לעיל חולין דף סח:) דאסירי אף בהנאה וגלי לן ק\"ו דילפינן מינייהו ור\"ש דהכא סבר דפשטיה דקרא בטרפה מיירי:"
+     ]
+    },
+    {
+     "he": "רַבִּי עֲקִיבָא אוֹמֵר: חַיָּה וָעוֹף וְכוּ׳. הָנֵי – הָא אַפְּקִינְהוּ לִכְדִשְׁמוּאֵל.",
+     "en": "§ The mishna states: <b>Rabbi Akiva says:</b> Cooking the meat of <b>an undomesticated animal or a bird</b> in milk is not prohibited by Torah law, as it is stated: “You shall not cook a kid in its mother’s milk” (Exodus 23:19, 34:26; Deuteronomy 14:21), three times, excluding an undomesticated animal, a bird, and a non-kosher animal. The Gemara raises a difficulty: Other <i>halakhot</i> have already <b>been derived from these</b> mentions of the word “kid,” <b>in accordance with</b> the statement <b>of Shmuel</b> (see 113b).",
+     "rashi": [
+      "<b>הא דרשינהו לכדשמואל</b> — חד לחלב ומתה וחד לרבות שליל וחד להוציא טמאה (לעיל חולין דף קיג:):"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "קָסָבַר רַבִּי עֲקִיבָא: אִיסּוּר חָל עַל אִיסּוּר, חֵלֶב וּמֵתָה לָא צְרִיכִי קְרָא, שְׁלִיל – גְּדִי מְעַלְּיָא הוּא, אִיַּיתַּרוּ לְהוּ כּוּלְּהוּ – פְּרָט לְחַיָּה, וְעוֹף, וְלִבְהֵמָה טְמֵאָה.",
+     "en": "The Gemara answers: <b>Rabbi Akiva maintains</b> in general that <b>a prohibition takes effect</b> even where another <b>prohibition</b> already exists, <b>and</b> therefore forbidden <b>fat and</b> the meat of <b>a dead</b> animal, which are already prohibited, <b>do not require a verse</b> to teach that the prohibition of meat and milk applies to them. Furthermore, there is no need to derive from a verse that <b>a fetus</b> is included, as <b>it is a full-fledged kid.</b> Consequently, <b>all</b> three mentions of the word <b>remain for him</b> to expound that they serve <b>to exclude an undomesticated animal and a bird and a non-kosher animal.</b>",
+     "rashi": [
+      "<b>קסבר ר\"ע כו'</b> — וכל הני גדי קראי יתירי נינהו לדרשה מדהוה ליה למיכתב בכולהו לא תבשל בהמה וכתב גדי שמע מינה לדרשה פרט לבהמה טמאה ולחיה ולעוף וחלב ומתה ממשמעותיה דגדי משמע נמי חלב ומתה ואי משום דאסירי וקיימי ואין איסור חל על איסור אי לא כתיב רבויא קסבר ר\"ע איסור חל על איסור הילכך חלב ומתה לא צריכי קרא לרבויי ואתו ממשמעותא וכן שליל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי יוֹסֵי הַגְּלִילִי אוֹמֵר: נֶאֱמַר ״לֹא תֹאכְלוּ״. מַאי אִיכָּא בֵּין רַבִּי יוֹסֵי הַגְּלִילִי לְרַבִּי עֲקִיבָא?",
+     "en": "§ The mishna further teaches that <b>Rabbi Yosei HaGelili says: It is stated: “You shall not eat</b> of any animal carcass” (Deuteronomy 14:21), and in the same verse it is stated: “You shall not cook a kid in its mother’s milk.” This indicates that the meat of an animal that is subject to be prohibited due to the prohibition of eating an unslaughtered carcass is prohibited to cook in milk. Consequently, one might have thought it is prohibited to cook in milk the meat of a bird, which is subject to this prohibition. Therefore, the verse states: “In its mother’s milk,” to exclude a bird, which has no mother’s milk. The Gemara asks: <b>What</b> difference <b>is there between</b> the opinion of <b>Rabbi Yosei HaGelili,</b> who excludes a bird from the prohibition of meat and milk due to the phrase “in its mother’s milk,” <b>and</b> the opinion of <b>Rabbi Akiva,</b> who comes to the same conclusion as Rabbi Yosei HaGelili based upon the phrase “You shall not cook a kid”?",
+     "rashi": [
+      "<b>מאי איכא בין ר\"ע</b> — דנפקא ליה מגדי פרט לעוף ובין רבי יוסי הגלילי דנפקא ליה מבחלב אמו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִיכָּא בֵּינַיְיהוּ חַיָּה: רַבִּי יוֹסֵי הַגְּלִילִי סָבַר חַיָּה דְּאוֹרָיְיתָא, וְרַבִּי עֲקִיבָא סָבַר חַיָּה דְּרַבָּנַן.",
+     "en": "The Gemara explains: <b>There is</b> a difference <b>between them</b> with regard to <b>an undomesticated animal. Rabbi Yosei HaGelili maintains</b> that the prohibition of cooking the meat of <b>an undomesticated animal</b> in milk applies <b>by Torah law,</b> as an undomesticated animal has mother’s milk, <b>but Rabbi Akiva maintains</b> that the prohibition of cooking the meat of <b>an undomesticated animal</b> in milk applies only <b>by rabbinic law,</b> as it is excluded by the phrase: “You shall not cook a kid.”",
+     "rashi": [
+      "<b>רבי יוסי הגלילי סבר חיה דאורייתא</b> — דכל שהוא אסור משום נבלה נוהג בו בשר בחלב חוץ מן העוף שאין לו חלב אם:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִיבָּעֵית אֵימָא, עוֹף אִיכָּא בֵּינַיְיהוּ: רַבִּי עֲקִיבָא סָבַר חַיָּה וָעוֹף אֵינָן מִן הַתּוֹרָה, הָא מִדְּרַבָּנַן אֲסִירִי, וְרַבִּי יוֹסֵי הַגְּלִילִי סָבַר עוֹף אֲפִילּוּ מִדְּרַבָּנַן נָמֵי לָא אֲסִיר.",
+     "en": "<b>If you wish, say</b> instead that there is a difference <b>between them</b> with regard to the meat of <b>a bird</b> itself: <b>Rabbi Akiva maintains</b> that the prohibitions of <b>an undomesticated animal and a bird do not</b> apply <b>by Torah law; but</b> it may be inferred from his statement that <b>they are prohibited by rabbinic law. And Rabbi Yosei HaGelili maintains</b> that <b>a bird is not prohibited even by rabbinic law.</b>",
+     "rashi": [
+      "<b>עוף איכא בינייהו</b> — ר\"ע דפריש דאינו מן התורה משמע הא מדרבנן יש לו אבל רבי יוסי הגלילי דלא פריש האי לישנא שרי ליה לגמרי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תַּנְיָא נָמֵי הָכִי: בִּמְקוֹמוֹ שֶׁל רַבִּי אֱלִיעֶזֶר הָיוּ כּוֹרְתִין עֵצִים לַעֲשׂוֹת פֶּחָמִין לַעֲשׂוֹת בַּרְזֶל, בִּמְקוֹמוֹ שֶׁל רַבִּי יוֹסֵי הַגְּלִילִי הָיוּ אוֹכְלִין בְּשַׂר עוֹף בְּחָלָב.",
+     "en": "The Gemara notes: <b>That</b> distinction <b>is also taught</b> in a <i>baraita</i>: <b>In the locale of Rabbi Eliezer,</b> where his ruling was followed, <b>they would cut down trees</b> on Shabbat <b>to prepare charcoal</b> from them with which to light a fire <b>to fashion iron</b> tools with which to circumcise a child on Shabbat. In Rabbi Eliezer’s opinion, not only does the mitzva of circumcision override Shabbat, but also any action required for the preparation of the tools necessary for the circumcision likewise overrides Shabbat. The <i>baraita</i> adds: <b>In the locale of Rabbi Yosei HaGelili they would eat bird meat</b> cooked <b>in milk.</b> Evidently, Rabbi Yosei HaGelili maintains that the prohibition of meat cooked in milk does not include birds.",
+     "rashi": [
+      "<b>תניא נמי הכי</b> — דלרבי יוסי הגלילי אפילו איסורא דרבנן לית ליה בעוף:",
+      "<b>רבי אליעזר</b> — אית ליה מכשירי מצוה דוחין את השבת במצוה שדוחה את השבת ואם אין לו אזמל למולו בשבת כורתין עצים לעשות פחמין ועושין אזמל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "לֵוִי אִיקְּלַע לְבֵי יוֹסֵף רִישְׁבָּא, אַיְיתוֹ לְקַמֵּיהּ רֵישָׁא דְּטַוָּוסָא בַּחֲלָבָא, וְלָא אֲמַר לְהוּ וְלָא מִידֵּי. כִּי אֲתָא לְקַמֵּיהּ דְּרַבִּי, אֲמַר לֵיהּ: אַמַּאי לָא תְּשַׁמְּתִינְהוּ?",
+     "en": "The Gemara relates: <b>Levi happened</b> to come <b>to the house of Yosef the bird hunter [<i>rishba</i>]. They served him the head of a peacock [<i>tayvasa</i>] in milk and he did not say anything to them. When</b> Levi <b>came before Rabbi</b> Yehuda HaNasi, Rabbi Yehuda HaNasi <b>said to him: Why did you not excommunicate</b> these people who eat bird meat cooked in milk, contrary to the decree of the Sages?",
+     "rashi": [
+      "<b>רישבא</b> — צייד עופות רישבא לשון אין פורסין רישבין ליונים:",
+      "<b>טווסא</b> — פואו\"ן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ: אַתְרֵיהּ דְּרַבִּי יְהוּדָה בֶּן בְּתֵירָא הוּא, וְאָמֵינָא: דְּרַשׁ לְהוּ כְּרַבִּי יוֹסֵי הַגְּלִילִי, דְּאָמַר: יָצָא עוֹף שֶׁאֵין לוֹ חֲלֵב אֵם.",
+     "en": "Levi <b>said to him: It was</b> in <b>the locale</b> of <b>Rabbi Yehuda ben Beteira, and I said:</b> Perhaps <b>he taught them</b> that the <i>halakha</i> is <b>in accordance with</b> the opinion of <b>Rabbi Yosei HaGelili, who said</b> that the phrase “in its mother’s milk” serves to <b>exclude a bird, which does not have mother’s milk.</b> If so, I could not prohibit it to them, and I certainly could not excommunicate them for following their ruling.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> קֵבַת גּוֹי וְשֶׁל נְבֵלָה – הֲרֵי זוֹ אֲסוּרָה. הַמַּעֲמִיד בְּעוֹר שֶׁל קֵבָה כְּשֵׁרָה,",
+     "en": "<strong>MISHNA:</strong> The congealed milk in <b>the stomach</b> of the animal <b>of a gentile and of an</b> unslaughtered <b>animal carcass is prohibited.</b> With regard to <b>one who curdled milk by</b> using <b>the skin of the stomach of a kosher</b> animal as a coagulant to make cheese, which may then have the taste of meat cooked in milk,",
+     "rashi": [
+      "<b>מתני' קבה</b> — זהו חלב קרוש שבתוך הקבה:",
+      "<b>ושל נבלה</b> — בגמרא פריך אטו דעובד כוכבים לאו נבלה היא:",
+      "<b>המעמיד</b> — חלב:",
+      "<b>בעור הקבה</b> — דהוא בשר:"
+     ],
+     "tosafot": [
+      "<b>המעמיד בעור של קבה אם יש בה כו'</b> — תימה דבגמרא מפרש טעמא דאסרו גבינות העובדי כוכבים מפני שמעמידין אותם בעור קבת נבלה מאי איריא נבלה אפילו כשרה נמי ויש לומר דמשום בשר בחלב לא היו אסורין מספק משום דליכא אלא איסורא דרבנן דדרך בישול אסרה תורה:"
+     ]
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 116b",
+   "he_ref": "חולין קט״ז:",
+   "url": "https://www.sefaria.org/Chullin.116b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=116&amud=b",
+   "segments": [
+    {
+     "he": "אִם יֵשׁ בְּנוֹתֵן טַעַם – הֲרֵי זוֹ אֲסוּרָה. כְּשֵׁרָה שֶׁיָּנְקָה מִן הַטְּרֵפָה – קֵבָתָהּ אֲסוּרָה. טְרֵפָה שֶׁיָּנְקָה מִן הֶכְשֵׁרָהּ – קֵבָתָהּ מוּתֶּרֶת, מִפְּנֵי שֶׁכָּנוּס בְּמֵעֶיהָ.",
+     "en": "<b>if</b> the measure of the skin is enough <b>to impart flavor</b> to the milk, <b>that</b> cheese <b>is prohibited.</b> In the case of <b>a kosher</b> animal <b>that suckled</b> milk <b>from a <i>tereifa</i>,</b> the milk in <b>its stomach is prohibited,</b> as the milk is from the <i>tereifa</i>. If it was <b>a <i>tereifa</i> that suckled</b> milk <b>from a kosher</b> animal, the milk in <b>its stomach is permitted,</b> as the milk is from the kosher animal. In both cases, the milk that an animal suckles has the status of the animal from which it was suckled, and not that of the animal which suckled, <b>because</b> the milk <b>is collected in its innards</b> and is not an integral part of its body.",
+     "rashi": [
+      "<b>אם יש בה</b> — ליתן טעם בחלב:",
+      "<b>הרי זו אסורה</b> — וחלב הנמצא קרוש בעור הקבה שמולחין אותה בעורה בין שנותנין עמו חלב אחר ובין שמולחין אותה עמה נראה בעיני איסור גמור כבשר בחלב ממש לאסור הגבינה איסור גמור ואין בידי כח להתיר ויש מתירין אותו ומביאין ראיה מדגים שעלו בקערה שפסקנו (לעיל חולין דף קיא:) שמותר לאוכלן בכותח משום דהוה ליה נותן טעם בר נותן טעם שחלב הקבה לא נאסר אלא משום נתינת טעם וכי הדר יהיב טעמא בגבינה הוה ליה נותן טעם בר נותן טעם ורחוקות זו מזו כרחוק מזרח ממערב מהאי טעמא דדגים שעלו בקערה אע\"פ שבלעו את טעמה עדיין היתר גמור הן לאוכלן וכשבא לאוכלן בכותח למה אתה אוסר עליו מפני טעם בשר שלה ההוא טעם בשר לאו טעם הוא שהרי לא בא מן הממש אלא מנ\"ט אחר אבל חלב הנמלח בבשר משנתנו טעם זה בזה נעשו שניהם איסור כדקיימא לן (לעיל חולין דף קח.) חתיכה עצמה נעשית נבלה וכל טעם היוצא עוד מן החלב בין טעם חלב שבו בין טעם בשר שבו הכל אסור לפי שכולה נבלה וכשמתערב חלב זה עם חלב הגבינות הוה ליה מין במינו חלב נבלה בחלב היתר וכבר פסקנו חתיכה עצמה נעשית נבלה ואוסרת כל החתיכות כולן ולא אמרינן נותן טעם בר נותן טעם הוא מפני שאף טעם חלב שבו שהיה מתחלה נעשה כולו נבלה וכן הלכה כרב וגם פסקנו בפסחים (דף כט:) הלכה דמין במינו בכל שהוא ואני הייתי נוהג היתר עד הנה ובלבד שלא יתנו בה חלב אחר וטועה הייתי בכך שהייתי סבור כדאמרינן בע\"ז (דף כט:) גבי קבת עולה כהן שדעתו יפה שורפה חיה שמע מינה פירשא בעלמא היא ולא מיתסרא ולא היא חלב גמור הוא מדתנא במתניתין כשרה שינקה מן הטרפה קבתה אסורה שמע מינה חלב הוא ותניא נמי קבה שבשלה בחלבה אסורה וקבת עולה דשריא משום דלאו גופה היא אלא שינקתו מאמו והוה ליה כנוס במעיה כנתון בקערה ומותר כדתניא טרפה שינקה מן הכשרה קבתה מותרת מפני שכנוס במעיה ודמייתי ראיה במסכת ע\"ז מינה דאיסורי הנאה שרי פירשייהו וגבי עגלי עבודת כוכבים דאסור פירשייהו מדקתני קבת עגלי עבודת כוכבים אסירא לאו משום דקבה פירשא חשיב לה לענין עיכול דתיהוי כפירשא למפקע שם חלב מינה אלא הכי מייתי ראייה מינה מדאסר קבת עבודת כוכבים ש\"מ פירשא אסור דהא קבתה נמי לאו גופה היא ומיתסר משום דניחא ליה בנפח כשהבמה נראת שמנה ויפה לעבודה זרה וה\"ה לשאר הפרש ומדשרי לה גבי עולה ש\"מ לא מיתסר אלא גופה אבל פירשא שרי כי האי גוונא דאין קדושה חלה אלא על הראוי ממנה למזבח מידי דהוי אעור של עולה שהוא מתחלק לכהנים כן מצאתי בנימוקי רבינו שלמה ברבי מאיר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> אַטּוּ קֵבַת גּוֹי לָאו נְבֵלָה הִיא? אָמַר רַב הוּנָא: הָכָא בְּלוֹקֵחַ גְּדִי מִן הַגּוֹי עָסְקִינַן, וְחָיְישִׁינַן שֶׁמָּא יָנַק מִן הַטְּרֵפָה.",
+     "en": "<strong>GEMARA:</strong> The mishna makes reference to the stomach of the animal of a gentile and that of an unslaughtered carcass. The Gemara asks: <b>Is that to say</b> that <b>the stomach of</b> an animal slaughtered by <b>a gentile is not</b> itself <b>a carcass?</b> Why does the <i>tanna</i> of the mishna differentiate between them? <b>Rav Huna said:</b> The mishna <b>here</b> is not referring to an animal slaughtered by a gentile. Rather, <b>we are dealing with</b> a Jew who <b>purchases a kid from a gentile</b> and slaughters it himself. Therefore, the kid is not prohibited as a carcass, <b>but we are concerned</b> that <b>perhaps it suckled from a <i>tereifa</i></b> animal, and it is therefore prohibited.",
+     "rashi": [
+      "<b>גמ' בלוקח גדי מן העובד כוכבים</b> — ושחטו קרי ליה קבת עובד כוכבים ואסורה:",
+      "<b>חיישינן שמא ינק</b> — חלב זה מן הטרפה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּמִי חָיְישִׁינַן שֶׁמָּא יָנַק מִן הַטְּרֵפָה? וְהָתְנַן: לוֹקְחִים בֵּיצִים מִן הַגּוֹיִם, וְאֵין חוֹשְׁשִׁין לֹא מִשּׁוּם נְבֵלָה וְלֹא מִשּׁוּם טְרֵפָה! אֶלָּא אֵימָא: חָיְישִׁינַן שֶׁמָּא יָנַק מִן הַטְּמֵאָה.",
+     "en": "The Gemara asks: <b>And are we concerned</b> that <b>perhaps it suckled from</b> an animal that is <b>a <i>tereifa</i>? But didn’t we learn</b> in a <i>baraita</i> (<i>Tosefta</i> 3:8): <b>One may purchase eggs from gentiles, and we are not concerned</b> that perhaps the eggs came <b>from a carcass nor</b> that they came <b>from a <i>tereifa</i>.</b> The Gemara answers: Indeed, there is no concern that the kid might have suckled from a <i>tereifa</i>. <b>Rather, say</b> that <b>we are concerned</b> that <b>perhaps it suckled from a non-kosher</b> animal, and therefore the milk in its stomach is prohibited.",
+     "rashi": [
+      "<b>לא משום נבלות</b> — שמא נמצא בתרנגולת נבלה:",
+      "<b>ולא משום טרפה</b> — שמא מעוף טרפה היא דאמרינן באלו טרפות (לעיל חולין דף נח.) ומודים בביצת טרפה שאסורה:"
+     ],
+     "tosafot": [
+      "<b>חיישינן שמא ינק מן הטמאה</b> — לא קיימא לן הכי דהלכה כשמואל דמשני מתניתין בשינויא אחרינא ואנו מעמידין בקבת עגלים שאנו לוקחים מן העובדי כוכבים ולא חיישינן שמא ינק מן הטמאה:"
+     ]
+    },
+    {
+     "he": "וּמַאי שְׁנָא טְרֵפָה דְּלָא חָיְישִׁינַן, וּמַאי שְׁנָא טְמֵאָה דְּחָיְישִׁינַן? טְרֵפָה לָא שְׁכִיחָא, טְמֵאָה שְׁכִיחָא.",
+     "en": "The Gemara asks: <b>And what is different</b> about <b>a <i>tereifa</i> that we are not concerned</b> that perhaps the animal suckled from it, <b>and what is different</b> about <b>a non-kosher</b> animal <b>that we are concerned?</b> The Gemara answers: <b>A <i>tereifa</i></b> animal <b>is not common,</b> whereas <b>a non-kosher</b> animal <b>is common,</b> and it is therefore more likely that the young animal suckled from one.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אִי שְׁכִיחָא, אֲפִילּוּ גַּבֵּי דִּידַן נֵיחוּשׁ! אֲנַן דְּבָדְלִינַן מִינַּיְיהוּ, וְכִי חָזֵינַן לְהוּ מַפְרְשִׁינַן לְהוּ – לָא גְּזַרוּ בְּהוּ רַבָּנַן. אִינְהוּ דְּלָא בְּדִילִי מִינַּיְיהוּ, וְכִי חָזוּ לְהוּ לָא מַפְרְשִׁי לְהוּ – גְּזַרוּ בְּהוּ רַבָּנַן.",
+     "en": "The Gemara raises a difficulty: <b>If</b> suckling from a non-kosher animal is <b>common,</b> then <b>let us be concerned even with regard to our</b> own animals. The Gemara responds: <b>We</b> Jews, <b>who separate ourselves from</b> non-kosher animals, <b>when we see them we</b> immediately <b>distance</b> our suckling animals from them. Therefore, <b>the Sages did not issue a decree with regard to</b> animals purchased from Jews. But as for the gentiles, <b>who do not separate themselves from</b> non-kosher animals, <b>when they see them they do not distance</b> their kosher animals from them. Consequently, <b>the Sages issued a decree with regard to</b> animals purchased from a gentile.",
+     "rashi": [
+      "<b>גבי דידן</b> — גדיים שלנו נמי תהא אסורה קבתן משום דחיישינן שמא ינק חלב זה מן (הטמאה) בהמה טמאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּשְׁמוּאֵל אָמַר: חֲדָא קָתָנֵי, קֵבַת שְׁחִיטַת גּוֹי – נְבֵלָה.",
+     "en": "<b>And Shmuel said</b> a different explanation of the mishna’s language: The <i>tanna</i> of the mishna <b>is teaching</b> only <b>one</b> <i>halakha</i>: The congealed milk in <b>the stomach of</b> an animal <b>slaughtered by a gentile is</b> like <b>a carcass,</b> and it is therefore prohibited.",
+     "rashi": [
+      "<b>חדא קתני</b> — משום דשל נבלה היא אסר לה:"
+     ],
+     "tosafot": [
+      "<b>חדא קתני</b> — תימה מאי קא משמע לן דקבת עובד כוכבים נבלה הא שמעינן מפרק קמא במתניתין ולא הוה ליה למיתני הכא אלא קבת עובד כוכבים אסורה:"
+     ]
+    },
+    {
+     "he": "וּמִי אָמַר שְׁמוּאֵל הָכִי? וְהָאָמַר שְׁמוּאֵל: מִפְּנֵי מָה אָסְרוּ גְּבִינַת הַגּוֹיִם – מִפְּנֵי שֶׁמַּעֲמִידִין אוֹתָהּ בְּעוֹר קֵבַת נְבֵלָה. הָא קֵבָה גּוּפַהּ שַׁרְיָא!",
+     "en": "The Gemara asks: <b>And did Shmuel</b> actually <b>say this?</b> Does he hold that the milk in the stomach of an unslaughtered animal is prohibited as if it were part of its body? <b>But didn’t Shmuel say: For what</b> reason did the Sages <b>prohibit the cheese of gentiles?</b> It is <b>because they curdle it with the skin of the stomach of a carcass.</b> One may infer <b>consequently</b> that congealed milk, or rennet, from the <b>stomach</b> of a gentile’s animal <b>is itself permitted</b> and would not render the cheese prohibited if used as a coagulant.",
+     "rashi": [
+      "<b>ומי אמר שמואל</b> — קבת נבלה אסורה אלמא כגופה דמי:",
+      "<b>והאמר שמואל</b> — במסכת ע\"ז מפני שמעמידין אותה בעור קבת נבלה הא קבה גופה חלב הקרוש קרי קבה וקאמר דשריא:"
+     ],
+     "tosafot": [
+      "<b>ומי אמר שמואל הכי</b> — בלאו הכי הוה מצי למיפרך ממתניתין על שמואל אלא הא עדיפא ליה דמדמפרש שמואל מתניתין אלמא סבר כוותה:"
+     ]
+    },
+    {
+     "he": "לָא קַשְׁיָא: כָּאן – קוֹדֶם חֲזָרָה, כָּאן – לְאַחַר חֲזָרָה.",
+     "en": "The Gemara answers: That is <b>not difficult.</b> Elsewhere (<i>Avoda Zara</i> 29b), Rabbi Yehoshua teaches two reasons for the prohibition on gentile cheese. Initially, he held it to be prohibited because it is curdled using rennet from the stomach of an animal carcass. He later adopted the opinion that such rennet is permitted, and that the cheese is prohibited because it is curdled using rennet from the stomach of calves used for idol worship, which is prohibited. Therefore, the mishna <b>here,</b> which states that the rennet in a carcass’s stomach is itself prohibited, was taught <b>before</b> Rabbi Yehoshua’s <b>retraction,</b> while Shmuel’s statement <b>there,</b> that the Sages prohibited gentile cheese only because it is curdled with the skin of the stomach of a carcass, was <b>after</b> Rabbi Yehoshua’s <b>retraction.</b>",
+     "rashi": [
+      "<b>כאן קודם חזרה כו'</b> — בפרק אין מעמידין (ע\"ז דף כט:) שאל רבי ישמעאל את רבי יהושע מפני מה אסורין גבינות העובדי כוכבים אמר לו מפני שמעמידין אותה בקבת נבלה כלומר בחלב הקרוש שבה אמר לו והלא קבת העולה חמורה מקבת נבלה ואמרו כל כהן שדעתו יפה שורפה חיה אמר לו מפני שמעמידין אותה בקבת עגלי עבודה זרה אלמא חזר בו מקבת נבלה משום דלאו גופה היא ואסורה משום עבודה זרה דאפילו פירשא דידה אסור כדמפרש התם משום דניחא ליה בנפחיה הלכך משנתינו זאת נשנית קודם חזרה ומשום הכי אסר וכי אתמר דשמואל דעור קבה הוא דאסור הא קבה שריא לאחר חזרה קאמר ומשנתינו זאת מכיון שנשנית אף על פי שחזר בו לא זזה ממקומה ולא סילקוה ולא אמרו שלא לשנותה עוד:"
+     ],
+     "tosafot": [
+      "<b>כאן לאחר חזרה</b> — ולפי זה שריא קבת נבלה אלא עכשיו נהגו העולם הדבר לאיסור ואין להקל ליקח קבת עובד כוכבים ובדיעבד מותר דאפילו לכתחלה שרי היכא דידעינן שלא נמלחה בעורה אם לא שמכוער הדבר הואיל והחזיקו בו איסור ומיהו היכא דנמלחה הקבה בעורה אסורה ודאי משום בשר בחלב:"
+     ]
+    },
+    {
+     "he": "כְּשֵׁרָה שֶׁיָּנְקָה מִן הַטְּרֵפָה [וְכוּ׳]. וְהָא קָתָנֵי רֵישָׁא: קֵבַת גּוֹי וְשֶׁל נְבֵלָה הֲרֵי זוֹ אֲסוּרָה?",
+     "en": "§ The mishna teaches: In the case of <b>a kosher</b> animal <b>that suckled</b> milk <b>from a <i>tereifa</i>,</b> the milk in its stomach is prohibited, whereas if a <i>tereifa</i> suckled milk from a kosher animal, the milk in its stomach is permitted. The Gemara raises a difficulty: <b>But doesn’t the first clause</b> of the mishna <b>teach:</b> The congealed milk in <b>the stomach</b> of the animal <b>of a gentile and of a carcass is prohibited?</b> What is the difference between the milk found in the stomach of a <i>tereifa</i> in the second clause and the milk found in the stomach of an unslaughtered carcass in the first clause?",
+     "rashi": [
+      "<b>והא קתני רישא קבת נבלה אסורה</b> — והדר קתני קבת טרפה מותרת דקתני טרפה שינקה מן הכשרה קבתה מותרת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב חִסְדָּא: רֵישָׁא נִרְאֶה כְּאוֹכֵל נְבֵלוֹת, הָכָא אִיכָּא שְׁחִיטָה.",
+     "en": "<b>Rav Ḥisda said:</b> In fact, milk found in the stomach of a carcass is not itself prohibited. <b>The first clause</b> of the mishna prohibits it only because one who partakes of it <b>looks like one who eats carcasses,</b> which is repulsive. By contrast, <b>here,</b> with regard to a <i>tereifa</i>, the consumption of milk found in its stomach is less repulsive, as here <b>there is</b> at least <b>slaughter</b> of the animal.",
+     "rashi": [
+      "<b>איכא שחיטה</b> — ולא מאיסה כולי האי כנבלה ואיסור אין כאן לא בזו ולא בזו כדקתני מפני שכנוס במעיה נאסף הוא במעיה מן אחרים ולא משל עצמה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רָבָא: וְלָאו כֹּל דְּכֵן הוּא? וּמָה נְבֵלָה דִּמְאִיסָה, דְּאִי שָׁרֵית לֵיהּ קֵבָתָהּ לָא אָתֵי לְמֵיכַל מִינַּהּ, אָמְרַתְּ לָא. טְרֵפָה שְׁחוּטָה, דְּאִי שָׁרֵית אָתֵי לְמֵיכַל מִינַּהּ, לֹא כׇּל שֶׁכֵּן?",
+     "en": "<b>Rava said to</b> Rav Ḥisda: <b>But is it not</b> possible to claim <b><i>a fortiori</i></b> that milk found in the stomach of a <i>tereifa</i> should be prohibited? <b>Just as</b> with regard to <b>a carcass, which is</b> so <b>repulsive that</b> even <b>if you permit</b> the milk in <b>its stomach</b> people <b>will not come to partake of</b> the meat, <b>you</b> nevertheless <b>said</b> the milk is <b>not</b> permitted for consumption, is it <b>not all the more so</b> with regard to <b>a <i>tereifa</i></b> that has been <b>slaughtered,</b> which is not as repulsive, <b>such that if you permit</b> the milk in its stomach people might <b>come to partake of it?</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא אָמַר רַב יִצְחָק, אָמַר רַבִּי יוֹחָנָן: לָא קַשְׁיָא, כָּאן קוֹדֶם חֲזָרָה, כָּאן לְאַחַר חֲזָרָה, וּמִשְׁנָה לֹא זָזָה מִמְּקוֹמָהּ.",
+     "en": "<b>Rather, Rav Yitzḥak said</b> that <b>Rabbi Yoḥanan says:</b> This question is <b>not difficult.</b> The first clause of the mishna <b>here,</b> which teaches that the milk in the stomach of a carcass is prohibited, was taught <b>before</b> Rabbi Yehoshua’s <b>retraction</b> cited above, whereas the latter clause <b>there,</b> that milk from the stomach of a <i>tereifa</i> is permitted, was taught <b>after</b> Rabbi Yehoshua’s <b>retraction.</b> A mishna can sometimes preserve an older ruling and then immediately teach a contradictory later ruling, because <b>a mishna does not move from its place.</b> Since the first clause of the mishna was already canonized, it was not removed, despite Rabbi Yehoshua’s change of opinion.",
+     "rashi": [
+      "<b>משנה הראשונה</b> — קודם חזרה נשנית וכיון שנשנית לא זזה ממקומה וחזרו ושנו אחרונה להיתר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי חִיָּיא בַּר אַבָּא, אָמַר רַבִּי יוֹחָנָן: מַעֲמִידִין בְּקֵבַת נְבֵלוֹת, וְאֵין מַעֲמִידִין בְּקֵבַת שְׁחִיטַת גּוֹי. אָמַר לְפָנָיו רַבִּי שִׁמְעוֹן בַּר אַבָּא: כְּמַאן? כְּרַבִּי אֱלִיעֶזֶר, דְּאָמַר סְתָם מַחְשֶׁבֶת גּוֹי לַעֲבוֹדָה זָרָה.",
+     "en": "§ <b>Rabbi Ḥiyya bar Abba says</b> that <b>Rabbi Yoḥanan says: One may curdle</b> milk <b>with</b> rennet extracted from <b>the stomach of carcasses, but one may not curdle</b> milk <b>with</b> rennet from <b>the stomach of</b> animals <b>slaughtered by a gentile. Rabbi Shimon bar Abba said before</b> Rabbi Ḥiyya bar Abba: <b>In accordance with whose</b> opinion is this ruling? It is <b>in accordance with</b> the opinion of <b>Rabbi Eliezer, who said: A gentile’s presumed intention</b> during slaughter <b>is for idol worship.</b> Therefore, the prohibition against deriving benefit from an animal slaughtered in idol worship applies to it, and this prohibition includes the contents of its stomach that are not actually part of its body. By contrast, a carcass is prohibited only for consumption, and the prohibition does not extend to the contents of its stomach.",
+     "rashi": [
+      "<b>מחשבת עובד כוכבים לעבודת כוכבים</b> — הילכך אף על גב דלאו גופה הוא מיתסר כדפרישית דאפילו פירשא מיתסר משום דניחא ליה בניפחיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ: וְאֶלָּא כְּמַאן?",
+     "en": "Rabbi Ḥiyya bar Abba <b>said to</b> Rabbi Shimon bar Abba: <b>Rather, in accordance with whose</b> opinion could this ruling be? Of course it is the opinion of Rabbi Eliezer.",
+     "rashi": [
+      "<b>ואלא כמאן</b> — כלומר לא הוצרכת לשאול:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כִּי אֲתָא רַב שְׁמוּאֵל בַּר רַב יִצְחָק, אָמַר רַבִּי יוֹחָנָן: מַעֲמִידִין בֵּין בְּקֵבַת נְבֵלָה, בֵּין בְּקֵבַת שְׁחִיטַת גּוֹי, שֶׁלֹּא לָחוֹשׁ לְדִבְרֵי רַבִּי אֱלִיעֶזֶר.",
+     "en": "The Gemara relates: <b>When Rav Shmuel bar Rav Yitzḥak came</b> from Eretz Yisrael to Babylonia, he said that <b>Rabbi Yoḥanan said: One may curdle</b> milk <b>both with</b> rennet from <b>the stomach of a carcass and with</b> rennet from <b>the stomach of</b> an animal <b>slaughtered by a gentile, as</b> there is <b>no</b> need <b>to be concerned for the statement of Rabbi Eliezer.</b> According to this account, Rabbi Yoḥanan does not maintain that a gentile’s presumed intention is for idol worship.",
+     "rashi": [
+      "<b>מעמידין בין בקבת נבלה כו'</b> — דלאו מגופה הוא אלא כנוס במעיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהִלְכְתָא: אֵין מַעֲמִידִין בָּעוֹר קֵבַת נְבֵלָה, אֲבָל מַעֲמִידִין בְּקֵבַת נְבֵלָה, וּבְקֵבַת שְׁחִיטַת גּוֹי, וּבְקֵבַת כְּשֵׁרָה שֶׁיָּנְקָה מִן הַטְּרֵפָה, וְכׇל שֶׁכֵּן בְּקֵבַת טְרֵפָה שֶׁיָּנְקָה מִן הַכְּשֵׁרָה. מַאי טַעְמָא? חָלָב הַמְכוּנָּס בָּהּ פִּירְשָׁא בְּעָלְמָא הוּא.",
+     "en": "The Gemara concludes: <b>And</b> the <b><i>halakha</i></b> is: <b>One may not curdle</b> milk <b>with the skin of the stomach of a carcass, but one may curdle</b> milk <b>with</b> rennet from <b>the stomach of a carcass and with</b> rennet from <b>the stomach of</b> an animal <b>slaughtered by a gentile, and with</b> rennet from <b>the stomach of a kosher</b> animal <b>that suckled from a <i>tereifa</i>, and all the more so with</b> rennet from <b>the stomach of a <i>tereifa</i></b> animal <b>that suckled from a kosher</b> animal. <b>What is the reason</b> for these lenient rulings? <b>The milk collected in</b> a stomach <b>is merely secretion</b> and is not considered food that can be prohibited.",
+     "rashi": [],
+     "tosafot": [
+      "<b>הכי גרסינן ברוב ספרים</b> — והלכתא אין מעמידין בעור קבת נבלה אבל מעמידין בקבת נבלה ובקבת שחיטת עובד כוכבים ובקבת כשרה שינקה מן הטרפה וכ\"ש בקבת טרפה שינקה מן הכשרה מ\"ט חלב המכונס בה פירשא בעלמא הוא ולכאורה לגירסא זו קשיא מתני' דתנא כשרה שינקה מן הטרפה קבתה אסורה וכן ברייתא דלעיל בפירקין (חולין דף קט:) קבה שבשלה בחלבה אסורה ואומר ר\"ת דהני מילי חלב צלול שבתוך הקבה דלא חשוב פירשא אבל הקרוש שבתוך הקבה חשוב פירשא ואותו הקרוש לפי דבריו אפילו נמלח בתוך הקבה מותר:"
+     ]
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> חוֹמֶר בַּחֵלֶב מִבַּדָּם, וְחוֹמֶר בַּדָּם מִבַּחֵלֶב. חוֹמֶר בַּחֵלֶב – שֶׁהַחֵלֶב",
+     "en": "<strong>MISHNA:</strong> Although animal fats and blood are similar in that they are both prohibited by Torah law and punishable by <i>karet</i>, there are elements more <b>stringent in</b> the prohibition of <b>fat than in</b> that of <b>blood, and</b> likewise there are elements more <b>stringent in</b> the prohibition of <b>blood than in</b> that of <b>fat.</b> The elements more <b>stringent in</b> the prohibition of <b>fat are</b> the following: The first is <b>that</b> with regard to <b>fat</b> of an offering,",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
