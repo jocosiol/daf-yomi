@@ -1,0 +1,442 @@
+{
+ "tractate": "Chullin",
+ "page": 119,
+ "fetched": "2026-08-20",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 119a",
+   "he_ref": "חולין קי״ט.",
+   "url": "https://www.sefaria.org/Chullin.119a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=119&amud=a",
+   "segments": [
+    {
+     "he": "וְרַב הַאי בְּמַאי מוֹקֵים לַהּ? אִי בְּיָד, קַשְׁיָא רֵישָׁא!",
+     "en": "The Gemara explains the objection: <b>And</b> according to <b>Rav,</b> who holds that a handle that is attached to less than an olive-bulk of food or protection that is attached to less than a bean-bulk of food is not considered a handle or protection with regard to imparting impurity, <b>in what</b> manner <b>does he interpret this</b> <i>baraita</i>? <b>If</b> the <i>baraita</i> is discussing the case of a bone without marrow, and therefore the bone constitutes merely <b>a handle</b> for the flesh, which measures less than an olive-bulk, then <b>the first clause</b> of the <i>baraita</i> <b>is difficult,</b> because it indicates that a handle that is attached to less than an olive-bulk of food is considered a handle with regard to imparting impurity.",
+     "rashi": [
+      "<b>ורב האי במאי מוקים לה</b> — שלא יהא אחד מאלו חלוק עליו:",
+      "<b>אי ביד</b> — שבעצם הזה אין בו מוח אבל בשר יש בראשו האחד:",
+      "<b>קשיא רישא</b> — דקתני הבית טמא אלמא יש יד לפחות מכזית:"
+     ],
+     "tosafot": [
+      "<b>ורב במאי מוקי לה אי ביד קשיא רישא</b> — ה\"מ למימר לר' יוחנן אי ביד אי בשומר קשיא סיפא ולאו קושיא גמורה היא דמקשה לרב אלא פירוש בעלמא דמפרש מילתיה אליבא דכולהו תנאי:"
+     ]
+    },
+    {
+     "he": "אִי בְּשׁוֹמֵר – קַשְׁיָא סֵיפָא.",
+     "en": "<b>If</b> the <i>baraita</i> is discussing the case of a bone containing marrow, and therefore the bone constitutes <b>protection</b> for food measuring less than an olive-bulk, then <b>the last clause</b> of the <i>baraita</i> <b>is difficult</b> because Yehuda ben Nekosa apparently holds that protection that is attached to less than an olive-bulk of food is not considered protection with regard to imparting impurity, contrary to the opinion of Rav, who holds that it is protection unless it is attached to less than a bean-bulk of food.",
+     "rashi": [
+      "<b>ואי בשומר</b> — כגון בעצמות שיש בהן מוח והכניס שני ראשיהן הריקנין לבית ומשום הכי הבית טמא דיש שומר לחצי זית ואע\"פ שאין המוח בבית שומר מכניס ומוציא טומאה ומביאה לבית. וא\"ת עצם הזה הנכנס לבית אינו שומר למוח שהרי אין המוח כנגדו אלא בראשו האחר ואנן תנן הנוגע כנגד הבשר מאחוריו דלא הוי שומר אלא מה שכנגד האוכל על כרחך שומר הוא שכל זמן שהקולית סתומה אוכל שבתוכה נשמר נפתחה אין מה שבתוכה נשמר:",
+      "<b>קשיא סיפא</b> — דקא מטהר ר' יהודה בן נקוסא ורב אמר לעיל אין שומר לפחות מכפול הא לכפול יש שומר וחצי זית יתר על כפול. ואר' יוחנן נמי הוה מצי לאקשויי מרבי יהודה בן נקוסא כל היכי דמוקמת לה אי ביד אי בשומר מתנא קמא אי בשומר מוקמינן לה דמדנקט שני חצאי זיתים משמע דבד' וה' עצמות ובכל אחת פחות מכפול מודי הוא דטהור ור' יוחנן אמר יש שומר לפחות מכפול ומיהו לחד מינייהו פריך והדר מתרצי לה תרוייהו מר לטעמיה ומר לטעמיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִיבָּעֵית אֵימָא בְּשׁוֹמֵר, אִיבָּעֵית אֵימָא בְּיָד.",
+     "en": "The Gemara answers: <b>If you wish, say</b> that Rav interprets the <i>baraita</i> as discussing the case of a bone that constitutes <b>protection. If you wish, say</b> instead that Rav interprets the <i>baraita</i> as discussing the case of a bone that constitutes <b>a handle.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אִיבָּעֵית אֵימָא בְּיָד, וְהוּא דְּאָמַר כְּרַבִּי יְהוּדָה בֶּן נָקוֹסָא, וְאִיבָּעֵית אֵימָא בְּשׁוֹמֵר, וְהוּא דְּאָמַר כְּתַנָּא קַמָּא.",
+     "en": "The Gemara explains its answers: <b>If you wish, say</b> that the <i>baraita</i> is discussing the case of a bone that constitutes <b>a handle, and</b> Rav <b>stated</b> his opinion <b>in accordance with</b> the opinion of <b>Rabbi Yehuda ben Nekosa,</b> who maintains that the house does not become impure because he holds that a handle that is attached to less than an olive-bulk of flesh does not impart impurity. <b>And If you wish, say</b> that the <i>baraita</i> is discussing the case of a bone that constitutes <b>protection, and</b> Rav <b>stated</b> his opinion <b>in accordance with</b> the opinion of <b>the first <i>tanna</i>,</b> who maintains that the house is impure because he holds that protection attached to less than an olive-bulk of flesh imparts impurity if the flesh measures at least a bean-bulk.",
+     "rashi": [
+      "<b>איבעית אימא ביד כו'</b> — בין ביד בין בשומר ליכא לאוקמא דא\"כ רב דאמר כמאן הא רב ביד מטהר ובשומר מטמא ות\"ק מטמא בתרוייהו ורבי יהודה בן נקוסא מטהר בתרוייהו אלא כחדא מוקים וקאים כחד מינייהו. איבעית אימא ביד קאי והוא דאמר כרבי יהודה אבל בשומר אפילו רבי יהודה מודי:",
+      "<b>ואיבעית אימא בשומר</b> — מוקי לה:",
+      "<b>והוא דאמר כתנא קמא</b> — וביד אפילו תנא קמא מודי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְרַבִּי יוֹחָנָן אָמַר: כּוּלַּהּ בְּיָד, וְהוּא דְּאָמַר כְּתַנָּא קַמָּא.",
+     "en": "<b>And Rabbi Yoḥanan</b> could have <b>said</b> that <b>the entire</b> <i>baraita</i> is discussing the case of a bone that constitutes <b>a handle, and</b> Rabbi Yoḥanan <b>stated</b> his opinion <b>in accordance with</b> the opinion of <b>the first <i>tanna</i>,</b> who maintains that the house becomes impure because he holds that a handle that is attached to less than an olive-bulk of food imparts impurity. But he did not state his opinion in accordance with the opinion of Yehuda ben Nekosa, who maintains that the house does not become impure.",
+     "rashi": [
+      "<b>ור' יוחנן</b> — מוקי לה ביד ואשמעינן תנא קמא דיש יד לפחות מכזית דאי בשומר אפילו בד' עצמות נמי הוי מטמא דיש שומר לפחות מכפול אלא ביד קאי הילכך בעי חצי זית דניהוי מיהא כפול דמודי ר' יוחנן דאין יד לפחות מכפול כדפרישית לעיל מדלא עריב ותנא להו בשומר לא מצי לאוקומה דקשיא ליה אם כן אפילו ד' עצמות נמי דיש שומר לפחות מכפול:"
+     ],
+     "tosafot": [
+      "<b>ורבי יוחנן אמר כולה ביד וכת\"ק</b> — ה\"מ למימר כולה בשומר וכת\"ק דלת\"ק אפילו בשלשה עצמות שיש בכל אחד פחות מכפול מצטרפין לכזית ושני עצמות דנקט להודיעך כחו דר' יהודה בן נקוסא אלא משום דאמר הש\"ס לרב אי ביד קשיא רישא קאמר דרבי יוחנן מוקי לה ביד ולא קשיא רישא הוא הדין בשומר ומשום דלרבי יוחנן א\"ש בין ביד בין בשומר כת\"ק דייק מעיקרא אליבא דרב:"
+     ]
+    },
+    {
+     "he": "תָּא שְׁמַע: רַבִּי יְהוּדָה אוֹמֵר, קוּלִית שֶׁיֵּשׁ עָלֶיהָ כְּזַיִת בָּשָׂר – גּוֹרֶרֶת כּוּלָּהּ לְטוּמְאָה. אֲחֵרִים אוֹמְרִים: אֲפִילּוּ אֵין עָלֶיהָ אֶלָּא כְּפוֹל – גּוֹרֶרֶת כּוּלָּהּ לְטוּמְאָה.",
+     "en": "<b>Come</b> and <b>hear</b> another objection to the opinions of Rav and Rabbi Yoḥanan from the <i>Tosefta</i> (<i>Okatzin</i> 2:5): <b>Rabbi Yehuda says:</b> With regard to <b>a femur that has an olive-bulk of flesh upon it,</b> the flesh <b>draws the entire</b> femur <b>into ritual impurity</b> if any part of the femur comes into contact with a dead creeping animal. The Sage referred to as <b>Aḥerim says: Even</b> if <b>there is only a bean-bulk</b> of flesh <b>upon</b> the femur, <b>it draws the entire</b> femur <b>into impurity.</b>",
+     "rashi": [
+      "<b>קולית</b> — הוא עצם עליון של ירך ובו מוח תמיד רדונדי\"ל בלע\"ז:",
+      "<b>גורר את כולה לטומאה</b> — אותו זית גורר את כל הקולית לטומאה שאם היה עם כביצה אוכלין ונגע השרץ בה בכל מקום שבה טמא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְרַב הַאי בְּמַאי מוֹקֵים לַהּ? אִי בְּיָד – קַשְׁיָא סֵיפָא, אִי בְּשׁוֹמֵר – קַשְׁיָא רֵישָׁא.",
+     "en": "The Gemara asks: <b>In what</b> manner <b>does Rav interpret this</b> <i>baraita</i>? <b>If</b> the <i>baraita</i> is discussing the case of a femur that constitutes merely <b>a handle</b> for the flesh, then <b>the latter clause</b> of the <i>baraita</i> <b>is difficult,</b> because Aḥerim apparently maintains that a handle that is attached to less than an olive-bulk of flesh imparts impurity, contrary to the opinion of Rav. <b>If</b> the <i>baraita</i> is discussing the case of a femur that constitutes <b>protection,</b> then <b>the first clause</b> of the <i>baraita</i> <b>is difficult,</b> because Rabbi Yehuda apparently holds that protection that is attached to less than an olive-bulk of flesh does not impart impurity, contrary to the opinion of Rav.",
+     "rashi": [
+      "<b>קשיא סיפא</b> — דאחרים דהאמר רב אין יד לפחות מכזית:",
+      "<b>אי בשומר קשיא רישא</b> — דקאמר ת\"ק כזית אין בציר מכזית לא ורב אמר אין שומר לפחות מכפול הא לכפול יש שומר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִיבָּעֵית אֵימָא בְּיָד – וְהוּא דְּאָמַר כְּרַבִּי יְהוּדָה, וְאִיבָּעֵית אֵימָא בְּשׁוֹמֵר – כַּאֲחֵרִים.",
+     "en": "The Gemara answers: <b>If you wish, say</b> that the <i>baraita</i> is discussing the case of a femur that constitutes <b>a handle, and</b> Rav <b>stated</b> his opinion <b>in accordance with</b> the opinion of <b>Rabbi Yehuda,</b> who maintains that a handle attached to less than an olive-bulk of flesh does not impart impurity. <b>And if you wish, say</b> instead that the <i>baraita</i> is discussing the case of a femur that constitutes <b>protection, and</b> Rav <b>stated</b> his opinion <b>in accordance with</b> the opinion introduced with the words: <b>Aḥerim</b> says, according to which even protection attached to less than an olive-bulk of flesh imparts impurity.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְרַבִּי יוֹחָנָן אָמַר: כּוּלַּהּ בְּשׁוֹמֵר, וְהוּא דְּאָמַר כַּאֲחֵרִים.",
+     "en": "<b>And Rabbi Yoḥanan</b> could have <b>said</b> that <b>the entire</b> <i>baraita</i> is referring to case of a femur that constitutes <b>protection, and</b> Rabbi Yoḥanan <b>stated</b> his opinion <b>in accordance with</b> the opinion referred to as: <b>Aḥerim</b> says, according to which even protection that is attached to a bean-bulk of flesh imparts impurity.",
+     "rashi": [
+      "<b>ורבי יוחנן אמר לך כולה בשומר והוא דאמר כאחרים</b> — דיש שומר מיהא לפחות מכזית:"
+     ],
+     "tosafot": [
+      "<b>ורבי יוחנן אמר כולה בשומר והוא דאמר כאחרים</b> — וביד לא בעי לאוקומי אע\"ג דהוה ניחא טפי כדפירש בקונטרס משום דמשמע דבשומר מיירי והא דמוקי לה ביד לרב כי היכי דליקום כרבי יהודה דהלכתא כוותיה לגבי ר\"מ דאחרים היינו ר' מאיר:"
+     ]
+    },
+    {
+     "he": "אֲחֵרִים, הָא ״כְּפוֹל״ קָא אָמְרִי!",
+     "en": "The Gemara asks: How is Rabbi Yoḥanan’s opinion consistent with the opinion referred to as: <b>Aḥerim</b> says? <b>Don’t</b> they <b>say</b> that protection that is attached to <b>a bean-bulk</b> of flesh imparts impurity, and Rabbi Yoḥanan holds that even protection that is attached to less than a bean-bulk of food imparts impurity?",
+     "rashi": [
+      "<b>הא כפול קאמרי</b> — ורבי יוחנן אמר יש שומר לפחות מכפול:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַיְּידֵי דְּקָאָמַר תַּנָּא קַמָּא שִׁיעוּרָא, קָאָמְרִי אִינְהוּ נָמֵי שִׁיעוּרָא.",
+     "en": "The Gemara answers: Aḥerim agrees that even protection that is attached to less than a bean-bulk imparts impurity. Nevertheless, <b>since the first <i>tanna</i> states</b> the specific <b>measure</b> of an olive-bulk, Aḥerim <b>also states</b> the specific <b>measure</b> of a bean-bulk even though he maintains his opinion with regard to a measure of less than a bean-bulk as well.",
+     "rashi": [
+      "<b>אמרי אינהו נמי שיעור</b> — ולעולם לפחות מכפול נמי אמרי. וכל שכן דאי הוה מוקי לה ר' יוחנן ביד הוה ניחא ליה טפי הואיל והוא דאמר כאחרים אלא משום דקתני קולית ולא נקט עצם אחר אי הוה מוקי לה ביד ודוקא כפול קאמרי אחרים הוה מקשינן ליה והא קולית קתני וסתם קולית שומר היא ואפילו הכי קאמרי אחרים כפול ורבי יוחנן הכי גמיר לה דאחרים לאו דוקא כפול אמרו כדאמר לקמן רבי יוחנן אמר אין זה שיעור הילכך מוקי לה בשומר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רָבָא: דַּיְקָא נָמֵי דִּבְשׁוֹמֵר עָסְקִינַן, דְּקָתָנֵי ״קוּלִית״, שְׁמַע מִינַּהּ.",
+     "en": "<b>Rava said:</b> The language of the <i>baraita</i> <b>is also precise,</b> indicating <b>that we are dealing with protection</b> and not a handle, <b>as it teaches</b> the case of <b>a femur,</b> which contains marrow, and therefore the bone provides protection for the food inside. If the <i>baraita</i> were discussing a handle, it would have taught this <i>halakha</i> with regard to any other bone that is attached to flesh and not specifically a femur. <b>Conclude from it</b> that the <i>baraita</i> is discussing the <i>halakha</i> of protection.",
+     "rashi": [
+      "<b>דיקא נמי דבשומר עסקינן מדקתני קולית</b> — וסתם קולית יש בה מוח:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִיתְּמַר, רַבִּי חֲנִינָא אָמַר: זֶהוּ שִׁיעוּר, וְרַבִּי יוֹחָנָן אָמַר: אֵין זֶה שִׁיעוּר.",
+     "en": "§The <i>baraita</i> cited above teaches that Aḥerim says: Even if there is only a bean-bulk of flesh attached to the femur it causes the entire femur to become impure. A dispute <b>was stated</b> with regard to this opinion. <b>Rabbi Ḥanina says:</b> When Aḥerim stated the measure of a bean-bulk, <b>this is</b> a specific <b>measure,</b> and Aḥerim holds that the <i>halakha</i> of protection applies to an appendage only if a bean-bulk of food is attached to it. <b>And Rabbi Yoḥanan says: This is not</b> a specific <b>measure.</b> Aḥerim holds that the <i>halakha</i> of protection applies even if it is attached to less than a bean-bulk of food.",
+     "rashi": [
+      "<b>אתמר רבי חנינא אמר</b> — האי כפול דקאמרי אחרים דוקא קאמרי וזה הוא שיעור דבציר מכפול ליכא שומר כרב:",
+      "<b>אין זה שיעור</b> — לאו דוקא קאמרי:"
+     ],
+     "tosafot": [
+      "<b>רבי יוחנן אמר אין זה שיעור</b> — אין להקשות הא א\"ר יוחנן לעיל (חולין קיח:) יש יד לפחות מכזית ושומר לפחות מכפול וא\"כ ע\"כ אחרים לאו שיעורא קאמרי כדאקשינן ושנינן לעיל דהכא אתא לפרושי מילתא דאחרים דלא תטעה לאוקמיה ביד ולמימר דהוי דוקא ומהך מילתא לא הוה שמעינן דסבירא ליה כאחרים דדלמא הא דאיצטריך לאחרים דאין זה שיעור משום דהכי הוה שמיע ליה מרביה דהשתא נמי דסבר ר' יוחנן הכי צ\"ל כדפי' מדלא מוקי לה ביד והוי כפול דוקא כי היכי דמוקי לה רב ביד למיקם כר' יהודה אף ע\"ג דמשמע דבשומר מיירי הכי נמי ה\"ל לר' יוחנן לאוקומי ביד כי היכי דלהוי כפול דוקא:"
+     ]
+    },
+    {
+     "he": "אֵין זֶה שִׁיעוּר, וְהָא קָתָנֵי ״כְּפוֹל״! אַיְּידֵי דְּקָאָמַר תַּנָּא קַמָּא שִׁיעוּרָא, קָאָמְרִי אִינְהוּ נָמֵי שִׁיעוּרָא.",
+     "en": "The Gemara asks: How is it possible for Rabbi Yoḥanan to hold that <b>this is not</b> a specific <b>measure? But doesn’t</b> the <i>baraita</i> explicitly <b>teach</b> the measure of <b>a bean-bulk?</b> The Gemara answers: Indeed, Aḥerim holds that protection that is attached to even less than a bean-bulk of food imparts impurity. But <b>since the first <i>tanna</i> states</b> the specific <b>measure</b> of an olive-bulk, Aḥerim <b>also states</b> the specific <b>measure</b> of a bean-bulk even though he maintains his opinion with regard to a measure of less than a bean-bulk as well.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה מְטַהֵר בְּשֶׁל פּוֹל, וּמְטַמֵּא בְּשֶׁל קִטְנִית, מִפְּנֵי שֶׁרוֹצֶה בְּמִשְׁמֻישָׁן!",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> proof against the opinion of Rav from that which is taught in a mishna (<i>Okatzin</i> 1:5): <b>Rabbi Elazar ben Azarya deems</b> a pod containing <b>beans</b> that came in contact with a dead creeping animal <b>ritually pure.</b> Since beans are large and do not require the protection of the pod, the pod is not considered protection for the beans and therefore does not impart impurity. <b>But he deems</b> a pod containing smaller <b>legumes</b> that came in contact with a dead creeping animal <b>ritually impure</b> if even only one grain is attached to the pod, <b>because one desires</b> the use of the pod <b>when handling</b> the legumes so that he will not damage them, and it is therefore considered protection, which imparts impurity. Apparently, Rabbi Elazar ben Azarya holds that even protection that is attached to less than a bean-bulk of food imparts impurity, contrary to the opinion of Rabbi Ḥanina and Rav.",
+     "rashi": [
+      "<b>רבי אלעזר בן עזריה מטהר</b> — בשומר של פול דלאו שומר הוא כגון אותן השרביטים שהפולים גדלין בהן קוש\"ט בלע\"ז מפני שהפולין גסין ואין צריכין לשומר דנוח למשמשן ולנקרן לפיכך אין שומר זה מכניס ומוציא ומצטרף כשאר שומרין:",
+      "<b>ומטמא בשל קטנית</b> — דשומר הוא דדקים הן ואין יכולין לנקרן וניחא ליה שיהו באותם שרביטין ואל יתערב בהן פסולת:"
+     ],
+     "tosafot": [
+      "<b>שרביט שריקנו</b> — פירש בקונטרס קופא קוש\"ט ולא משמע כן דהא כתיב בכל הספרים שייר גרגיר אחד בכל שומר טמא מכלל דשרביט לאו היינו קופא שהוא שומר עצמו אלא הוא הקלח שהשומרים דבוקים בו שקורין ריי\"ס שריקנו שהוציא האוכל מן השומרים טהור:",
+      "<b>שייר גרגיר אחד לכל שומר ושומר טמא</b> — וקס\"ד המקשה דמיירי כשנגע טומאה בשומר וכל הגרגרין שבשאר שומרים מצטרפין לכביצה אלמא יש שומר לפחות מכפול וקשיא לרבי חנינא דאמר הרי זה שיעור ואע\"ג דאליבא דאחרים קאמר מ\"מ פריך ה\"ל לפרושי מלתייהו כמו שמפרש רבי יוחנן דאין זה שיעור ולא לפלוגי אחרים אהך ברייתא ומשני בקולחא דנגע  בקולחא ומשום יד ולא בשומר ולפי מה שפי' מייתי מינה שפיר ראייה לקמן גבי אוכל דקס\"ד דמיירי כגון שנגע בשומרים ומשום שומר ומצטרפין כל השומרים יחד אבל לפירוש הקונטרס דגריס שייר בה גרגיר אחד טמא צ\"ל דלקמן ס\"ד דמיירי בהרבה שרביטים כדפירש בקונטרס לקמן דאי לא מיירי אלא בחד א\"כ לא איירי מידי בצירוף דלא איירי אלא בשומר אחד:"
+     ]
+    },
+    {
+     "he": "כִּדְאָמַר רַב אַחָא בְּרֵיהּ דְּרָבָא, בְּקוּלְחָא, וּמִשּׁוּם יָד.",
+     "en": "The Gemara rejects this proof: The explanation of that mishna is <b>in accordance with that which Rav Aḥa, son of Rava, said</b> in the context of a different discussion: That mishna is discussing a case <b>where</b> a dead creeping animal came into contact with <b>the stalk</b> to which the pod is attached, but not with the pod itself. <b>And</b> therefore the <i>halakha</i> in the mishna is not with regard to the matter of protection; rather, it is <b>with regard to</b> the matter of <b>a handle,</b> as the stalk serves as a handle for the pod and its attached grain.",
+     "rashi": [],
+     "tosafot": [
+      "<b>הכא נמי בקולחא ומשום יד</b> — ואם תאמר א\"כ מ\"ל ריקנו ומה לי לא ריקנו כיון דקולחא הוי יד ליותר מכזית דלמאי דס\"ד מעיקרא ניחא דקמשמע לן דאף על גב דליכא כפול הוי שומר ויש לומר דקמשמע לן דאף על גב דליכא כזית במקום אחד אלא כאן גרגיר וכאן גרגיר הוי קולחא יד:"
+     ]
+    },
+    {
+     "he": "הָכָא נָמֵי בְּקוּלְחָא, וּמִשּׁוּם יָד, וּמַאי ״בְּמִשְׁמֻישָׁן״? בְּתַשְׁמִישָׁן.",
+     "en": "<b>Here, too,</b> with regard to this proof one can respond that the mishna is discussing a case <b>where</b> a dead creeping animal came in contact with <b>the stalk and</b> therefore the <i>halakha</i> in the mishna is <b>with regard to</b> the matter of <b>a handle.</b> Since the mishna is referring to a stalk, and the stalk has many pods on it, it serves as a handle to more than an olive-bulk of food, and is consistent with the opinions of Rabbi Ḥanina and Rav. <b>And what</b> does Rabbi Elazar ben Azarya mean when he says that in the case of legumes, the stalk is impure because one desires the use of the stalk <b>when handling [<i>bemashmishan</i>]</b> the legumes? He is referring <b>to using [<i>betashmishan</i>],</b> i.e., carrying, the legumes with the stalk.",
+     "rashi": [
+      "<b>במשמישן</b> — שממשמש בהן על ידי השרביטין. ורישא דהך מתניתין הכי שרביט שריקנו טהור שייר בו גרגיר אחד טמא שיש שרביטין הרבה וכגון שיש בין השרביט והפול כביצה ר' אלעזר בן עזריה מטהר בשל פול דאין שומר מצטרף לו לכביצה ומטמא בשל קטניות. אלמא יש שומר לפחות מכפול:",
+      "<b>בקולחא</b> — הא דמטמא בשל קטנית לאו בשרביט ומשום שומר אלא בקלח נגעה טומאה ומשום יד דהשתא הוי האי יד יד לדבר חשוב שהוא יותר מכזית שהרי כל השרביטים מחוברין בו ובפול הואיל וגסים הן לא איכפת ליה דליהוי להו יד:",
+      "<b>בתשמישן</b> — שמטלטלן באותו קלח ואותו קלח תשמיש לאוכל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע, דְּתָנָא דְּבֵי רַבִּי יִשְׁמָעֵאל: ״עַל כׇּל זֶרַע זֵרוּעַ אֲשֶׁר יִזָּרֵעַ״, כְּדֶרֶךְ שֶׁבְּנֵי אָדָם מוֹצִיאִין – חִטָּה בִּקְלִיפָּתָהּ, וּשְׂעוֹרָה בִּקְלִיפָּתָהּ, וַעֲדָשִׁים בִּקְלִיפָּתָן!",
+     "en": "<b>Come</b> and <b>hear</b> proof from that <b>which the school of Rabbi Yishmael taught:</b> With regard to the impurity of food the verse states: <b>“On any sowing seed that is sown”</b> (Leviticus 11:37), indicating that the entire seed is susceptible to impurity when it is in a state where it is <b>typical for people to take it out</b> to the field for sowing: This applies to <b>wheat in its shell, and barley in its shell, and lentils in their shells.</b> It is derived from here that shells and other appendages that protect the food are considered part of the food. Since wheat, barley, and lentil grains are smaller than a bean-bulk, this statement indicates that even protection that is attached to less than a bean-bulk of food imparts impurity, contrary to the opinion of Rabbi Ḥanina and Rav.",
+     "rashi": [
+      "<b>עדשים בקליפתן</b> — אלמא יש שומר לפחות מכפול:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בְּרִיָּה – שָׁאנֵי.",
+     "en": "The Gemara rejects this proof: A grain is a distinct <b>entity,</b> and therefore its status <b>is different.</b> The <i>halakha</i> of protection is applicable to a distinct entity even if it measures less than a bean-bulk.",
+     "rashi": [
+      "<b>בריה שאני</b> — וכי קאמר רב שאין שומר לפחות מכפול כגון חצי פול שאין ברייתו שלמה או בשר שיעור חצי פול ועור עליו שמשלימו לכביצה. ולעיל נמי גבי שרביטין מצי לתרוצי בריה שאני:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בָּעֵי רַב אוֹשַׁעְיָא:",
+     "en": "§<b>Rav Oshaya raises a dilemma:</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 119b",
+   "he_ref": "חולין קי״ט:",
+   "url": "https://www.sefaria.org/Chullin.119b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=119&amud=b",
+   "segments": [
+    {
+     "he": "שְׁנֵי שׁוֹמְרִין מַהוּ שֶׁיִּצְטָרְפוּ?",
+     "en": "As the Gemara stated, protection joins together with the food to constitute the requisite measure to impart impurity. <b>What is</b> the <i>halakha</i> with regard to <b>two protections joining together</b> with the food to constitute the measure of an egg-bulk required to impart impurity?",
+     "rashi": [
+      "<b>שני שומרין מהו שיצטרפו</b> — לאוכל שבתוכן לכביצה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הֵיכִי דָמֵי? אִילֵּימָא בְּזֶה עַל גַּב זֶה – וּמִי אִיכָּא שׁוֹמֵר עַל גַּב שׁוֹמֵר?",
+     "en": "The Gemara asks: <b>What are the circumstances</b> of the dilemma? <b>If we say</b> that it is referring to a case <b>where</b> a food item has two layers of protection, and <b>this</b> outer protection <b>is on top of that</b> inner protection, <b>is</b> the <i>halakha</i> of protection applicable with regard to <b>protection</b> that is <b>on top of</b> another <b>protection?</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָתְנַן: רַבִּי יְהוּדָה אוֹמֵר: שָׁלֹשׁ קְלִיפּוֹת בְּבָצָל – פְּנִימִית, בֵּין שְׁלֵמָה בֵּין קְדוּרָה – מִצְטָרֶפֶת; אֶמְצָעִית, שְׁלֵמָה – מִצְטָרֶפֶת, קְדוּרָה – אֵין מִצְטָרֶפֶת; חִיצוֹנָה, בֵּין כָּךְ וּבֵין כָּךְ – טְהוֹרָה.",
+     "en": "<b>But didn’t we learn</b> in a mishna (<i>Okatzin</i> 2:4) that <b>Rabbi Yehuda says:</b> There are <b>three peels</b> surrounding <b>an onion.</b> The <b>inner</b> peel is considered like the food itself, and therefore, <b>whether whole or punctured, it joins together</b> with the onion to constitute the requisite measure to impart the impurity of food. With regard to the <b>middle</b> peel, when it is <b>whole</b> it provides protection and therefore <b>joins together</b> with the onion, but when it is <b>punctured</b> it does not provide protection and therefore <b>does not join together</b> with the onion. The <b>outer</b> peel does not join together with the onion at all, and <b>both</b> in <b>this</b> case, when it is whole, <b>and</b> in <b>that</b> case, when it is punctured, it remains <b>ritually pure.</b> Evidently, the <i>halakha</i> of protection is not applied to a protection that surrounds another protection.",
+     "rashi": [
+      "<b>פנימית</b> — היינו אותה לבנה הראשונה הראויה לאכול:",
+      "<b>קדורה</b> — נקובה:",
+      "<b>מצטרפת</b> — שהרי היא עצמה אוכל:",
+      "<b>אמצעית</b> — שומר היא:",
+      "<b>שלמה מצטרפת</b> — דהוי שומר:",
+      "<b>קדורה אינה מצטרפת</b> — דלא הויא שומר:",
+      "<b>חיצונה טהורה</b> — שאין שומר על גבי שומר חשוב שומר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַב אוֹשַׁעְיָא, שׁוֹמֵר אוֹכֶל שֶׁחִלְּקוֹ קָמִיבַּעְיָא לֵיהּ.",
+     "en": "The Gemara explains the dilemma: <b>Rav Oshaya</b> does not raise the dilemma with regard to a food item that has two layers of protection. Rather, he <b>raises the dilemma</b> with regard to <b>protection of food that one divided</b> such that the food is whole but the protection is divided into separate sections.",
+     "rashi": [
+      "<b>שומר אוכל שחלקו</b> — כגון אוכל כביצה ושומרו עליו וחלקו או כגון שני בצלים קטנים שאין בשניהם אלא כביצה עם שומריהם וקמבעיא ליה אי מצטרפי הני שומרין עם האוכל אי לא:"
+     ],
+     "tosafot": [
+      "<b>שומר אוכל שחלקו</b> — לא שחלקו לגמרי דא\"כ פשיטא דלא מצטרף כדפרישית לעיל ולהכי נקט נמי דוקא חלקו אבל שני אגוזים שהן שני אוכלים שלמים פשיטא דלא מצטרפין אלא מיירי כגון שיש כאן בשר ועליו עור וחלקו לעור והיה חציו מצד זה וחציו מצד זה ומייתי ראיה מר' אלעזר בן עזריה דמטמא בשל קטנית משום דכל השומרים שבשרביט מצטרפין אע\"ג דכל חד לא מגין אלא אדידיה וא\"ת ואמאי לא משני דאין השומרין מצטרפין ומיירי כגון שיש בין כל הגרגרין כביצה בלא שומרין והשומרין מכניסין ומוציאין ואין מצטרפין ואמאי משני ליה בקולחא ומשום יד וי\"ל דבלאו הכי ניחא ליה טפי לאוקומי בקולחא ומשום יד ומעיקרא לא הוה מוקי לה משום שומר אלא משום דבמשמישן הוה משמע ליה משום שומר אבל השתא דמפרש מאי במשמישן בתשמישן ניחא ליה טפי לאוקומא בקולחא:"
+     ]
+    },
+    {
+     "he": "כֵּיוָן דְּהַאי לָא מַגֵּין אַהַאי, וְהַאי לָא מַגֵּין אַהַאי, לָא מִצְטָרֵף.",
+     "en": "The dilemma is as follows: <b>Since this</b> section of the protection is protecting this part of the food but <b>does not provide protection for that</b> other part of the food, <b>and that</b> other section of the protection is protecting another part of the food but <b>does not provide protection for this</b> part of the food, must one conclude that the two protections <b>do not join together</b> to constitute the requisite measure for the impurity of food?",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אוֹ דִלְמָא, כֵּיוָן דְּהַאי מַגֵּין אַדִּידֵיהּ, וְהַאי מַגֵּין אַדִּידֵיהּ, מִצְטָרְפִין.",
+     "en": "<b>Or perhaps,</b> should one reason that <b>since this</b> section of the protection <b>provides protection for its</b> part of the food, <b>and that</b> section of the protection <b>provides protection for its</b> part of the food, and the two parts of the food are joined together, therefore the entire entity is considered unified and the two sections of the protection <b>join together</b> to constitute the requisite measure?",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה מְטַהֵר בְּשֶׁל פּוֹל, וּמְטַמֵּא בְּשֶׁל קִטְנִית, מִפְּנֵי שֶׁרוֹצֶה בְּמִשְׁמֻישָׁן.",
+     "en": "<b>Come</b> and <b>hear</b> a resolution to the dilemma from that which is taught in a mishna cited previously (<i>Okatzin</i> 1:5): <b>Rabbi Elazar ben Azarya deems</b> a pod containing <b>beans</b> that came in contact with a dead creeping animal <b>ritually pure. But he deems</b> a pod containing <b>legumes</b> that came in contact with a dead creeping animal <b>impure because one desires</b> the use of the pod <b>when handling</b> the legumes so that he will not damage them. Since the requisite volume for a food item to be susceptible to impurity is an egg-bulk, and the volume of one pod and its legumes is less than an egg-bulk, this statement must be discussing multiple pods joined together. Evidently, protection of food that is divided into separate sections joins together to constitute the requisite measure to impart impurity.",
+     "rashi": [
+      "<b>ומטמא בשל קטנית</b> — קא סלקא דעתיה ששנים ושלשה שרביטים מצטרפין לכביצה עם אוכלין שבהן דודאי אין בשרביט אחד כביצה אלמא שני שומרין מצטרפין עם שני אוכלין לכביצה אע\"ג דהאי לא מגין אהאי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב אַחָא בְּרֵיהּ דְּרָבָא: בְּקוּלְחָא, וּמִשּׁוּם יָד, וּמַאי ״בְּמִשְׁמֻישָׁן״ – בְּתַשְׁמִישָׁן.",
+     "en": "<b>Rav Aḥa, son of Rava, said</b> in rejection of this resolution: That mishna is discussing a case <b>where</b> a creeping animal touched <b>the stalk</b> to which the pods are attached but not the pods themselves. <b>And</b> the <i>halakha</i> in that mishna is not referring to the matter of protection; rather, it is <b>with regard to</b> the matter of <b>a handle,</b> as the stalk serves as a handle for the pod and its attached grain. <b>And what</b> does Rabbi Elazar ben Azarya mean when he says that in the case of legumes, the stalk is impure because one desires the use of the stalk <b>when handling [<i>bemashmishan</i>]</b> the legumes? He is referring <b>to using [<i>betashmishan</i>],</b> i.e., carrying, the legumes with the stalk.",
+     "rashi": [
+      "<b>בקולחא</b> — האי מטמא ומטהר בקולחא קאי ומשום יד דהוי יד לכולהו שרביטין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע, דְּתָנָא דְּבֵי רַבִּי יִשְׁמָעֵאל: ״עַל כׇּל זֶרַע זֵרוּעַ (אֲשֶׁר יִזָּרֵעַ)״, כְּדֶרֶךְ שֶׁבְּנֵי אָדָם מוֹצִיאִין לִזְרִיעָה – חִטָּה בִּקְלִיפָּתָהּ, וּשְׂעוֹרָה בִּקְלִיפָּתָהּ, וַעֲדָשִׁים בִּקְלִיפָּתָן.",
+     "en": "<b>Come</b> and <b>hear</b> a resolution from that <b>which the school of Rabbi Yishmael taught:</b> With regard to the impurity of food the verse states: <b>“On any sowing seed that is sown”</b> (Leviticus 11:37), indicating that the entire seed is susceptible to ritual impurity when it is in a state where it is <b>typical for people to take it out</b> to the field <b>for sowing:</b> This applies to <b>wheat in its shell, and barley in its shell, and lentils in their shells.</b> It is derived from here that shells and other appendages that protect the food join together with the food to constitute the requisite measure to impart impurity. Since the measure of one grain and its shell is less than an egg-bulk, this statement must be discussing multiple grains and their shells joined together. Evidently, protection of food that is divided into separate sections joins together to impart impurity.",
+     "rashi": [
+      "<b>חטין בקליפתן</b> — אלמא חטין עם שומריהן מצטרפין לכביצה אלמא שני שומרין מצטרפין וה\"ה לאוכל שחלקו. וה\"נ הוה מצי לתרוצי בריה שאני אלא תירוצא דחיקא הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כִּדְאָמַר רַב אַחָא בְּרֵיהּ דְּרָבָא, בְּקוּלְחָא, וּמִשּׁוּם יָד.",
+     "en": "The Gemara rejects this resolution: One can explain this statement <b>in accordance with</b> that <b>which Rav Aḥa, son of Rava, said</b> with regard to the statement of Rabbi Elazar ben Azarya that was cited previously: The mishna is discussing a case <b>where</b> a creeping animal came in contact with <b>the stalk</b> to which the pods are attached but not the pods themselves. <b>And</b> therefore, the <i>halakha</i> in the mishna is not referring to the matter of protection; rather, it is <b>with regard to</b> the matter of <b>a handle.</b>",
+     "rashi": [
+      "<b>כדאמר רב אחא בקולחא ומשום יד</b> — דיד אחד הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָכָא נָמֵי, בְּשִׁדְרָה, וּמִשּׁוּם שׁוֹמֵר.",
+     "en": "<b>Here too,</b> the statement of the school of Rabbi Yishmael is not referring to independent grains of wheat and barley, but rather <b>to the stem</b> to which the grains are attached, <b>and</b> it is <b>with regard to</b> the status of all the shells of the grains on one stem as <b>protection.</b> All of the grains surrounding the stem protect each other, since if one shell with its grain falls it causes all of the other shells and their grains to fall as well. Therefore, this case is not similar to Rav Oshaya’s dilemma, where each protection protects only part of the food.",
+     "rashi": [
+      "<b>הך קליפה נמי בשדרה</b> — קאמר בסאסא דשבלתא שהחטין קבועין בשדרה בהיקף סביב ומשום שומר דכל השבולת שלמה וכל הסאסא הויא חד שומר דכולן צריכין זה לזה שאם יפול אחד כולם נופלין ולא הוו שומרין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בִּשְׁלָמָא עִילִּיָּתָא צְרִיכִי לְתַתָּיָתָא, אֶלָּא תְּתַּיָּתָא מַאי צְרִיכִי לְעִילִּיָּתָא? בְּחַד דָּרָא.",
+     "en": "The Gemara asks: <b>Granted,</b> the grains located <b>higher</b> on the stem <b>need</b> the grains located <b>lower</b> on the stem to remain in place in order to not fall. <b>But</b> for <b>what</b> purpose do the grains located <b>lower</b> on the stem <b>need</b> the grains located <b>higher</b> on the stem? The Gemara answers: The case is one where the grains are all positioned tightly around the stem <b>in one row</b> in such a manner that if even one located higher up on the stem were to fall, the remaining grains would fall too.",
+     "rashi": [
+      "<b>בשלמא עיליתא צריכי לתתייתא</b> — כלומר דשורות עליונות שהחטין קבועין בהן צריכות שיהו שורות התחתונות קיימות שאם נשרה הקליפה התחתונה של שבולת נושרת הקליפה הסמוכה לה עד שיפלו כל הקליפות והחטין עד ראש השבולת:",
+      "<b>אלא דרא תתייתא מי צריכי לעילייתא</b> — בלא עילייתא נמי מקיימי תתייתא ואפילו הכי מצטרפין שומרים דדרי עילייתא בהדי אוכלים תתאי ושומרין תתאי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּמִי אִיכָּא כְּבֵיצָה אֳכָלִין בְּחַד דָּרָא בְּחִטֵּי דְּשִׁמְעוֹן בֶּן שָׁטַח?",
+     "en": "The Gemara asks: <b>Is there</b> a volume of <b>an egg-bulk of food in one row</b> of grain? The Gemara answers: Yes, this <i>baraita</i> is stated <b>with regard to</b> large grains of <b>wheat,</b> such as those grown in the time <b>of Shimon ben Shataḥ.</b>",
+     "rashi": [
+      "<b>בחד דרא</b> — קאמר דמצטרפי שומרים דחד שומר הוא דמתוך שקבועים בדוחק מתקיימת ואם יטול אחד מבינתים יש ריוח לחבירו ליפול:",
+      "<b>חטי דשמעון בן שטח</b> — כשתי כליות של שור הגדול במס' תענית (ד' כג. ע\"ש):"
+     ],
+     "tosafot": [
+      "<b>בחטי דר\"ש בן שטח</b> — ועדשים נמי כעדשים דר' שמעון בן שטח שהיו כדינרי זהב ועם שומריהם יש בהם כביצה:"
+     ]
+    },
+    {
+     "he": "הַשְׁתָּא דְּאָתֵית לְהָכִי, חֲדָא חִטָּה נָמֵי בְּחִטֵּי דְּשִׁמְעוֹן בֶּן שָׁטַח.",
+     "en": "The Gemara points out: <b>Now that you have arrived at this</b> conclusion, it is not necessary to interpret the <i>baraita</i> as referring to many grains tightly packed around the stem. It is <b>even</b> possible to explain that the <i>baraita</i> is discussing the case of <b>one</b> grain of <b>wheat,</b> such as the large grains of <b>wheat</b> grown in the time <b>of Shimon ben Shataḥ.</b>",
+     "rashi": [
+      "<b>השתא דאתית להכי</b> — מתריצנא לך נמי דהא דקאמר חטין בקליפתן לאו דלצטרפו שני חטין עם שומריהם אלא אם יש בין חטה אחת וקליפתה כביצה כגון חטי דשמעון בן שטח מצטרף שומר לחטין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "גּוּפָא: שְׁנֵי עֲצָמוֹת וַעֲלֵיהֶן שְׁנֵי חֲצָאֵי זֵיתִים, וְהִכְנִיס רָאשֵׁיהֶן שְׁנַיִם לְבַיִת, וְהַבַּיִת מַאֲהִיל עֲלֵיהֶן – הַבַּיִת טָמֵא.",
+     "en": "§The Gemara proceeds to discuss the <i>Tosefta</i> <b>itself</b> that was cited earlier (118b): In a case of <b>two bones upon which there are two halves of an olive-bulk</b> of flesh of a corpse, i.e., half an olive-bulk of flesh is attached to one end of each bone, <b>and one placed the ends of both</b> bones that are not directly attached to the flesh <b>inside the house</b> in such a manner that <b>the house overlies those</b> ends of the bones but not the ends of the bones attached to the flesh, it is considered as though the house is overlying the flesh itself and <b>the house is impure.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "יְהוּדָה בֶּן נָקוֹסָא אוֹמֵר מִשּׁוּם רַבִּי יַעֲקֹב: הֵיאַךְ שְׁנֵי עֲצָמוֹת מִצְטָרְפִין לִכְזַיִת?",
+     "en": "<b>Yehuda ben Nekosa says in the name of Rabbi Ya’akov: How can two bones join together to</b> constitute <b>an olive-bulk</b> if the flesh attached to each bone is less than the measure of an olive-bulk? It may be inferred from here that according to all, if the end of a bone that is attached to an olive-bulk of flesh is outside the house, and the other end that is not directly attached to any flesh is inside the house, the house becomes impure with the ritual impurity of a corpse.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רֵישׁ לָקִישׁ: לֹא שָׁנוּ אֶלָּא עֶצֶם, דְּהָוֵי יָד, אֲבָל נִימָא לָא הָוְיָא יָד. וְרַבִּי יוֹחָנָן אָמַר: אֲפִילּוּ נִימָא נָמֵי הָוְיָא יָד.",
+     "en": "With regard to this matter <b>Reish Lakish said:</b> The Sages <b>taught</b> this <i>halakha</i> <b>only</b> with regard to <b>a bone, as it constitutes a handle</b> vis-à-vis the flesh, <b>but</b> if one <b>hair</b> of a corpse is attached to an olive-bulk of flesh at one end, and the other end of the hair is inside a house, it does not render the house impure, because the hair <b>does not constitute a handle</b> vis-à-vis the flesh. <b>And Rabbi Yoḥanan said: Even a hair constitutes a handle</b> vis-à-vis the flesh, and therefore the house is rendered impure.",
+     "rashi": [
+      "<b>לא שנו אלא עצם דהוי יד אבל נימא</b> — אחת לא חשיבא למיהוי יד דפסקא אלא שומר הויא ויש חומר ביד מבשומר דיד מביאה את הטומאה בכל ענין שהיא אבל שומר אם יש חתיכת עור ועליה בראשה אחד כזית בשר ונגע באחד מן הנימין בראש האחר טהור דשומר אין מביא טומאה כמעשה יד אא\"כ נגע כנגד הבשר כדאמרינן בריש פרקין (לעיל חולין דף קיח.) הנוגע כנגד הבשר מאחוריו:",
+      "<b>ורבי יוחנן אמר אפילו נימא הויא יד</b> — ומביאה טומאה אפילו נגע בנימא שלא כנגד הבשר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֵיתִיבֵיהּ רַבִּי יוֹחָנָן לְרֵישׁ לָקִישׁ: עוֹר שֶׁיֵּשׁ עָלָיו כְּזַיִת בָּשָׂר, הַנּוֹגֵעַ בְּצִיב הַיּוֹצֵא מִמֶּנּוּ, וּבִשְׂעָרָה שֶׁכְּנֶגְדּוֹ – טָמֵא. מַאי לָאו, מִשּׁוּם יָד?",
+     "en": "<b>Rabbi Yoḥanan raised an objection to</b> the opinion of <b>Reish Lakish</b> from the mishna taught later (124a): In the case of the <b>hide</b> of an unslaughtered animal carcass <b>upon which there is an olive-bulk of flesh, one who touches a strand</b> of flesh <b>emerging from</b> the flesh, <b>or</b> touches <b>a hair that is</b> on the side of the hide <b>opposite</b> the flesh, <b>is ritually impure</b> with the impurity of an unslaughtered carcass, even though he did not touch an olive-bulk of the flesh. <b>What</b> is the reason that one who touches the strand of flesh or the hair becomes impure? <b>Is it not because</b> they constitute <b>a handle</b> for the flesh, contrary to the opinion of Reish Lakish with regard to a hair?",
+     "rashi": [
+      "<b>בציב</b> — חוט הבשר:",
+      "<b>מאי לאו משום יד</b> — ושכנגדו לאו דוקא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "לָא, מִשּׁוּם שׁוֹמֵר. וּמִי אִיכָּא שׁוֹמֵר עַל גַּבֵּי שׁוֹמֵר? חַלְחוּלֵי מְחַלְחֵל.",
+     "en": "The Gemara answers: <b>No,</b> the ruling of that mishna is not because the hair serves as a handle for the flesh. Rather, it is <b>because</b> the hair serves as <b>protection</b> for the flesh. The Gemara asks: <b>But</b> the hide protects the flesh, and the hair is on top of the hide; <b>is</b> the <i>halakha</i> of protection applicable with regard to <b>protection</b> that is <b>on top of</b> another <b>protection?</b> The Gemara answers: The hair <b>penetrates through</b> the hide and touches the flesh, thereby providing protection directly for the flesh.",
+     "rashi": [
+      "<b>לא משום שומר</b> — כיון דאיכא כזית עביד שומר מעשה יד להכניס ולהוציא:",
+      "<b>שומר על גבי שומר</b> — נימא על גבי עור:",
+      "<b>חלחולי מחלחל</b> — ומנקיב נימא לעור ויורד על הבשר ולא הוי שומר ע\"ג שומר:"
+     ],
+     "tosafot": [
+      "<b>לא משום שומר</b> — וא\"ת אמאי קאמר ר\"ש לעיל אבל נימא לא הוי יד מטעם שומר מיהא ליטמא וי\"ל דלעיל מיירי בנוגע בנימא שלא כנגד הבשר וכן פירש בקונטרס וא\"ת ורבי יוחנן דמוקי לה משום יד אמאי נקט ובשער שכנגדו וצ\"ל דכשכנגדו לאו דוקא כדפירש בקונטרס:"
+     ]
+    },
+    {
+     "he": "מַתְקֵיף לַהּ רַב אַחָא בַּר יַעֲקֹב: אֶלָּא מֵעַתָּה, תְּפִילִּין הֵיכִי כָּתְבִינַן? הָא בָּעֵינַן כְּתִיבָה תַּמָּה, וְלֵיכָּא!",
+     "en": "<b>Rav Aḥa bar Ya’akov objects to this</b> answer: <b>If that is so,</b> that there are perforations in the hide through which the hairs penetrate, <b>how can we write phylacteries? Don’t we require</b> phylacteries to be written with <b>a perfect writing,</b> with no perforations in the letters? <b>And</b> that <b>is not</b> possible if there are perforations in the hide.",
+     "rashi": [
+      "<b>אי חלחולי מחלחל תפילין היכי כתבינן</b> — והלא העור חלול כנגד השער ובעינן כתיבה תמה שלמה ולא פסוקה דכתיב (דברים ו) וכתבתם שיהא כתיבה תמה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִשְׁתְּמִיטְתֵּיהּ הָא דְּאָמְרִי בְּמַעְרְבָא: כׇּל נֶקֶב שֶׁהַדְּיוֹ עוֹבֵר עָלָיו – אֵינוֹ נֶקֶב.",
+     "en": "The Gemara answers: Rav Aḥa bar Ya’akov <b>overlooked that</b> <i>halakha</i> <b>which they say in the West,</b> Eretz Yisrael: <b>Any perforation over which the ink passes</b> and which it covers <b>is not</b> considered <b>a perforation</b> that invalidates the writing.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְאִיבָּעֵית אֵימָא, כּוּלֵּיהּ מִשּׁוּם יָד, כִּדְאָמַר רַבִּי אִלְעָא: בִּמְלַאי שֶׁבֵּין הַמְּלָאִים.",
+     "en": "<b>And if you wish, say</b> instead a different answer to Rabbi Yoḥanan’s objection to Reish Lakish: <b>The entire</b> mishna teaches that one who touches either a strand of flesh or a hair becomes impure <b>because</b> these appendages serve the flesh as <b>a handle</b> and not as protection. Nevertheless, that statement does not contradict the opinion of Reish Lakish that a hair does not constitute a handle for the flesh, because one can explain this mishna <b>as Rabbi Ela stated</b> with regard to a different mishna: It is stated <b>with regard to</b> the case of <b>an awn among</b> many <b>awns.</b>",
+     "rashi": [
+      "<b>איבעית אימא כולה</b> — ציב ושערה משום יד וכי קאמר דהוי יד בנימא שבין הנימין דאיכא נימין הרבה דאי מטלטל הבשר ע\"י נימין לא פסקי:",
+      "<b>מלאי</b> — זקן העליון של שבולת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָכִי נָמֵי, בְּנִימָא שֶׁבֵּין הַנִּימִין.",
+     "en": "<b>So too,</b> the mishna taught later is stated <b>with regard to</b> the case of <b>a hair among</b> many <b>hairs</b> and not the case of a single hair. Therefore, the hair constitutes a handle for the flesh because one can hold the hair and lift the flesh without the hair becoming detached.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְהֵיכָא אִתְּמַר דְּרַבִּי אִלְעָא? אַהָא: מְלַאי שֶׁבַּשִּׁבֳּלִים מִיטַּמְּאִין וּמְטַמְּאִין, וְאֵינָן מִצְטָרְפִין. מְלַאי לְמַאי חֲזֵי? אָמַר רַבִּי אִלְעַאי: בִּמְלַאי שֶׁבֵּין הַמְּלָאִים.",
+     "en": "<b>And where was</b> the opinion <b>of Rabbi Ela stated?</b> It was stated <b>with regard to that</b> which is taught in a mishna (<i>Okatzin</i> 1:3): <b>An awn [<i>melai</i>] that is on top of a stalk</b> constitutes a handle for the stalk. Therefore, <b>it can become impure and impart impurity, but it does not join together</b> with the grains to constitute the requisite measure to impart impurity. It was asked: <b>For what</b> function <b>is an awn fit</b> such that it is considered to be a handle for the stalk? <b>Rabbi Ilai,</b> i.e., Rabbi Ela, <b>said:</b> That mishna is stated <b>with regard to</b> the case of <b>an awn among</b> many <b>awns</b> and not the case of a single awn. Therefore, the awns constitute a handle for the stalk because one can hold the awns and lift the stalk without the awns becoming detached from it.",
+     "rashi": [
+      "<b>מיטמאין ומטמאין ואין מצטרפין</b> — דיד היא ואינה שומר:",
+      "<b>למאי חזי</b> — הא נפסק מאליו כשאוחזין בו:",
+      "<b>שבין המלאין</b> — שאוחז בכל המלאין של שבולת ולא באחד מהן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "לִישָּׁנָא אַחֲרִינָא אָמְרִי לַהּ.",
+     "en": "<b>Some say another version</b> of this dispute between Rabbi Yoḥanan and Reish Lakish and the ensuing discussion with regard to the status of hairs vis-à-vis the flesh: Rabbi Yoḥanan and Reish Lakish agree that a single hair does not constitute a handle vis-à-vis the flesh connected to it, but they disagree with regard to several hairs. Rabbi Yoḥanan raises an objection to Reish Lakish’s opinion that hair is not considered a handle from the mishna taught later, which states that one who touches a hair emerging from the hide of an animal carcass opposite the flesh is impure, indicating that hair constitutes a handle.",
+     "rashi": [
+      "<b>לישנא אחרינא אמרי לה כו'</b> — מאן דתני הך לישנא סבר דבנימין הרבה אמר ריש לקיש נמי דלא הוי יד ולותביה מהא מתניתא ותריץ ליה משום (יד) שומר והכי נמי מסתברא דמשום שומר מדקתני שערה דאי משום יד נימא אחת למאי חזיא לעולם משום יד ומאי שערה דקתני נימא שבין הנימין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָכִי נָמֵי מִסְתַּבְּרָא, דְּמִשּׁוּם שׁוֹמֵר, דְּאִי סָלְקָא דַּעְתָּךְ מִשּׁוּם יָד – נִימָא אַחַת לְמַאי חֲזֵי?",
+     "en": "Reish Lakish answers that one who touches the hair is impure not because it is considered a handle, but rather because it is considered protection for the flesh. The Gemara adds: <b>So too it is reasonable</b> to explain that the person is impure <b>because</b> hair is considered <b>protection</b> and not because it is considered a handle, <b>as, if it enters your mind</b> that it is <b>because</b> hair is considered <b>a handle, for what</b> function <b>is one hair fit</b> such that it is considered a handle?",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "כִּדְאָמַר רַבִּי אִלְעָא: בִּמְלַאי שֶׁבֵּין הַמְּלָאִין, הָכָא נָמֵי – בְּנִימָא שֶׁבֵּין הַנִּימִין.",
+     "en": "The Gemara responds: One can explain that that mishna considers hair to constitute a handle, <b>as Rabbi Ela stated</b> in explanation of a different mishna: It is stated <b>with regard to</b> the case of <b>an awn among</b> many <b>awns. Here too,</b> that mishna is stated <b>with regard to</b> the case of <b>a hair among</b> many <b>hairs</b> and not the case of a single hair.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְהֵיכָא אִיתְּמַר דְּרַבִּי אִלְעַאי? אַהָא דִּתְנַן: הַמְּלַאי שֶׁבַּשִּׁבֳּלִים מִיטַּמְּאִין וּמְטַמְּאִין וְאֵין מִצְטָרְפִין. מְלַאי לְמַאי חֲזֵי? אָמַר רַבִּי אִלְעַאי: בִּמְלַאי שֶׁבֵּין הַמְּלָאִים.",
+     "en": "<b>And where was</b> the opinion <b>of Rabbi Ela stated?</b> It was stated <b>with regard to that which we learned</b> in a mishna: <b>An awn that is on top of a stalk can become impure and impart impurity, but it does not join together</b> with the grains to constitute the requisite measure to impart impurity. It was asked: <b>For what</b> function <b>is an awn fit</b> such that it is considered to be a handle for the stalk? <b>Rabbi Ilai said:</b> That mishna is stated <b>with regard to</b> the case of <b>an awn among</b> many <b>awns.</b>",
+     "rashi": [
+      "<b>המלאין שבשבלין מיטמאין ומטמאין</b> — מוציאין ומכניסין טומאה לשבולותיה ואין מצטרפין דאינן שומר אלא יד:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאִיכָּא דְּמַתְנֵי לַהּ",
+     "en": "<b>And there are</b> those <b>who teach</b> another version of this dispute between Rabbi Yoḥanan and Reish Lakish,",
+     "rashi": [
+      "<b>ואיכא דמתני לה</b> — להא פלוגתא דר' יוחנן ור\"ל:"
+     ],
+     "tosafot": [
+      "<b>איכא דמתני לה אמתניתין כו' עד לא שנו אלא עצם</b> — ה\"נ הוה מצי למימר לא שנו אלא קרנים וטלפים שהן עצמן משום שומר אלא איידי דנקט לעיל לא שנו אלא עצם נקט נמי הכא עצם:"
+     ]
+    }
+   ]
+  }
+ ]
+}
