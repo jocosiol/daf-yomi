@@ -1,0 +1,469 @@
+{
+ "tractate": "Chullin",
+ "page": 120,
+ "fetched": "2026-08-23",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 120a",
+   "he_ref": "חולין ק״כ.",
+   "url": "https://www.sefaria.org/Chullin.120a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=120&amud=a",
+   "segments": [
+    {
+     "he": "אַמַּתְנִיתִין: ״הָעוֹר וְהָרוֹטֶב וְהַקֵּיפֶה וְכוּ׳״ מִצְטָרְפִין לְטַמֵּא טוּמְאַת אֳכָלִין.",
+     "en": "maintaining that the dispute is <b>with regard to</b> that which is taught in <b>the mishna: The</b> attached <b>hide, and the</b> congealed <b>gravy</b> attached to the meat, <b>and the spices,</b> and the meat residue, and the bones, and the tendons, and the horns, and the hooves all <b>join together</b> with the meat to constitute the requisite egg-bulk <b>to impart the impurity of food.</b>",
+     "rashi": [
+      "<b>אמתניתין</b> — דקתני עצמות מצטרפין ועל כרחך משום שומר דהא יד לא מצטרף אבל נימא לא הוי שומר ולא מצטרף דאין שומר על גבי שומר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רֵישׁ לָקִישׁ: לֹא שָׁנוּ אֶלָּא עֶצֶם, דְּהָוֵי שׁוֹמֵר, אֲבָל נִימָא לָא הָוְיָא שׁוֹמֵר. וְרַבִּי יוֹחָנָן אָמַר: אֲפִילּוּ נִימָא נָמֵי הָוְיָא שׁוֹמֵר.",
+     "en": "<b>Reish Lakish said:</b> The Sages <b>taught</b> that <b>only a bone</b> and the other items mentioned in the mishna join together with the meat to constitute the requisite measure to impart impurity <b>because</b> they <b>constitute protection</b> for the meat. <b>But a hair</b> does not join together with the meat to constitute the requisite measure to impart impurity because it <b>is not protection</b> for the meat. <b>And Rabbi Yoḥanan said: Even a hair is protection</b> for the meat and therefore joins together with the meat to constitute the requisite measure to impart impurity.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רֵישׁ לָקִישׁ לְרַבִּי יוֹחָנָן: וּמִי אִיכָּא שׁוֹמֵר עַל גַּבֵּי שׁוֹמֵר? חַלְחוּלֵי מְחַלְחֵל.",
+     "en": "<b>Reish Lakish said to Rabbi Yoḥanan: But</b> the hide protects the flesh, and the hair is on top of the hide. <b>Is</b> the <i>halakha</i> of protection applicable with regard to <b>protection</b> that is <b>on top of</b> another <b>protection?</b> Rabbi Yoḥanan answered: The hair <b>penetrates through</b> the hide and touches the flesh, thereby providing protection directly for the flesh.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "מַתְקֵיף לַהּ רַב אַחָא: אֶלָּא מֵעַתָּה, תְּפִילִּין הֵיכִי כָּתְבִינַן? הָא בָּעֵינַן כְּתִיבָה תַּמָּה, וְלֵיכָּא!",
+     "en": "<b>Rav Aḥa objects to this</b> answer: <b>If that is so,</b> that there are perforations in the hide through which the hairs penetrate, <b>how can we write phylacteries? Don’t we require</b> phylacteries to be written with <b>a perfect writing</b> with no perforations in the letters? <b>And</b> that <b>is not</b> possible if there are perforations in the hide.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אִישְׁתְּמִיטְתֵּיהּ הָא דְּאָמְרִי בְּמַעְרְבָא: כׇּל נֶקֶב שֶׁהַדְּיוֹ עוֹבֵר עָלָיו – אֵינוֹ נֶקֶב.",
+     "en": "The Gemara answers: <b>That</b> <i>halakha</i> <b>which they say in the West,</b> Eretz Yisrael, <b>escaped</b> Rav Aḥa: <b>Any perforation over which the ink passes</b> and which it covers <b>is not</b> considered <b>a perforation</b> that invalidates the writing.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֵיתִיבֵיהּ רַבִּי יוֹחָנָן לְרֵישׁ לָקִישׁ: עוֹר שֶׁיֵּשׁ עָלָיו כְּזַיִת בָּשָׂר, הַנּוֹגֵעַ בְּצִיב הַיּוֹצֵא מִמֶּנּוּ, וּבְשַׂעֲרָה שֶׁכְּנֶגְדּוֹ – טָמֵא. מַאי לָאו מִשּׁוּם שׁוֹמֵר? לָא, מִשּׁוּם יָד.",
+     "en": "<b>Rabbi Yoḥanan raised an objection to</b> the opinion of <b>Reish Lakish</b> opinion from the mishna taught later (124a): In the case of the <b>hide</b> of an animal carcass <b>upon which there is an olive-bulk of flesh, one who touches a strand</b> of flesh <b>emerging from</b> the flesh <b>or</b> touches <b>a hair that is</b> on the side of the hide <b>opposite</b> the flesh <b>is ritually impure,</b> even though he did not touch an olive-bulk of the flesh. <b>What</b> is the reason that one who touches the strand of flesh or the hair becomes impure? <b>Is it not because</b> they constitute <b>protection</b> for the flesh? The Gemara answers: <b>No,</b> it is <b>because</b> the hair constitutes <b>a handle</b> for the flesh.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "נִימָא אַחַת לְמַאי חַזְיָא? כִּדְאָמַר רַבִּי אִילְעָא: בִּמְלַאי שֶׁבֵּין הַמְּלָאִין, הָכִי נָמֵי בְּנִימָא שֶׁבֵּין הַנִּימִין.",
+     "en": "The Gemara asks: <b>For what</b> function <b>is one hair fit</b> such that it constitutes a handle? The Gemara answers: One can explain that mishna <b>as Rabbi Ela said</b> in explanation of a different mishna: It is stated <b>with regard to</b> the case of <b>an awn among</b> many <b>awns. Here too,</b> the mishna is stated <b>with regard to</b> the case of <b>a hair among</b> many <b>hairs</b> and not the case of a single hair. The hair serves as a handle for the flesh because one can hold the hair and lift the flesh without the hair becoming detached.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְהֵיכָא אִיתְּמַר דְּרַבִּי אִילְעָא? אַהָא דִּתְנַן: הַמְּלַאי שֶׁבַּשִּׁבֳּלִין מְטַמְּאִין וּמִיטַּמְּאִין וְאֵין מִצְטָרְפִין. מְלַאי לְמַאי חֲזֵי? אָמַר רַבִּי אִילְעָא: בִּמְלַאי שֶׁבֵּין הַמְּלָאִין.",
+     "en": "<b>And where was</b> the opinion <b>of Rabbi Ela stated?</b> It <b>was stated with regard to that which we learned</b> in a mishna: <b>An awn that is on</b> top of <b>a stalk can become impure and impart impurity, but it does not join together</b> with the grains to constitute the requisite measure to impart impurity. It was asked: <b>For what</b> function <b>is an awn fit</b> such that it is considered to be a handle for the stalk? <b>Rabbi Ela said:</b> The mishna is stated <b>with regard to</b> the case of <b>an awn among</b> many <b>awns.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָרוֹטֶב. מַאי רוֹטֶב? אָמַר רָבָא: שׁוּמְנָא.",
+     "en": "§The mishna teaches: <b>The gravy [<i>rotev</i>]</b> joins together with the meat to constitute the requisite egg-bulk to impart the impurity of food, but an egg-bulk of gravy itself is not susceptible to impurity. The Gemara asks: To <b>what</b> is the term <b><i>rotev</i></b> referring? <b>Rava said:</b> The term <i>rotev</i> is referring to <b>the fat</b> that floats on top of a soup of cooked meat.",
+     "rashi": [
+      "<b>שומנא</b> — שומן שעל המרק:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ אַבָּיֵי: הוּא עַצְמוֹ יְטַמֵּא טוּמְאַת אֳכָלִין! אֶלָּא חֵלֶב דִּקְרִישׁ.",
+     "en": "<b>Abaye said</b> to Rava: That fat <b>itself</b> is eaten and <b>is</b> therefore susceptible to <b>impurity of food. Rather,</b> the term <i>rotev</i> is referring to <b>fat that</b> oozed out of the meat and <b>congealed.</b> That fat is not eaten, but it does join together with the meat to constitute the requisite egg-bulk to impart the impurity of food.",
+     "rashi": [
+      "<b>אמר ליה אביי</b> — שומן למה לי לאצטרופי דקתני מצטרפין לטמא טומאת אוכלין בהדי בשר הא בפני עצמו לא ושומן אמאי לא אוכל מעליא הוא:",
+      "<b>חלב דקריש</b> — לחה היוצאה מן הבשר שקורין גלייר\"א:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַאי אִירְיָא קְרִישׁ? כִּי לָא קְרִישׁ נָמֵי! דְּאָמַר רֵישׁ לָקִישׁ: צִיר שֶׁעַל גַּבֵּי יָרָק מִצְטָרֵף לִכְכוֹתֶבֶת בְּיוֹם הַכִּפּוּרִים.",
+     "en": "The Gemara asks: <b>Why</b> is the mishna referring <b>specifically</b> to <b>congealed</b> fat? <b>Even</b> in a case <b>where the fat did not congeal</b> it joins together with the meat to constitute the requisite egg-bulk to impart the impurity of food, <b>as Reish Lakish said: Brine on a vegetable,</b> even though it is a liquid, <b>combines</b> with the vegetable <b>to</b> constitute <b>a large date-bulk [<i>kakotevet</i>]</b> with regard to rendering one liable for violating the prohibition against eating <b>on Yom Kippur.</b> Similarly, liquid fat should combine with the meat to constitute the requisite volume to impart the impurity of food.",
+     "rashi": [
+      "<b>ציר שעל גבי ירק</b> — משקה היוצא מן הירק. ל\"א ציר שהיו מטבילין מאכלן בציר:",
+      "<b>מצטרפין לככותבת</b> — ואע\"ג דלא קריש כיון דבהדי אוכל מיחבר אוכל הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָתָם מִשּׁוּם יַתּוֹבֵי דַּעְתָּא הוּא, בְּכֹל דְּהוּ מְיַתְּבָא דַּעְתֵּיהּ.",
+     "en": "The Gemara answers: Liquids and solids do not join together to constitute the requisite egg-bulk to impart the impurity of food. The reason for the <i>halakha</i> <b>there,</b> with regard to Yom Kippur, <b>is because</b> one is liable even for the consumption of a liquid that is not characterized as food if the <b>mind</b> of the one who consumes it is <b>settled.</b> This is because with regard to the fast of Yom Kippur the Torah is concerned with a person’s affliction, as the verse states: “You shall afflict your souls” (Leviticus 23:27). Therefore, one is liable on Yom Kippur for <b>any</b> eating that <b>settles his mind.</b>",
+     "rashi": [
+      "<b>ומשני התם</b> — טעמא דיוה\"כ לאו משום אוכלא הוא דאי נמי לאו אוכלא כיון דמייתבא דעתיה מחייב דהא לא תעונה כתיב (ויקרא כג) וזה לא התענה אבל הכא אוכל ומשקה אין מצטרפין דהא לא שוו שיעורייהו. ואע\"ג דהתם נמי תנן (יומא דף עג:) אכל ושתה אין מצטרפין ה\"מ אכל ושתה דקים להו לרבנן דלא מייתבא דעתיה בהכי אבל ציר שע\"ג ירק קים להו לרבנן דמייתבא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָכָא מִשּׁוּם אִיצְטְרוֹפֵי הוּא, אִי קְרִישׁ – מִצְטָרֵף, אִי לָא קְרִישׁ – לָא מִצְטָרֵף.",
+     "en": "But that is not the case <b>here with regard to</b> impurity. For two substances to join together to impart impurity, <b>a combination</b> between substances that have a common requisite measure for imparting impurity <b>is</b> necessary. Liquid and solid foods do not have the same requisite measure. Therefore, <b>if</b> the fat <b>is congealed, it joins together</b> with the meat. <b>If it is not congealed, it does not join together</b> with the meat.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְהַקֵּיפֶה, מַאי קֵיפֶה? אָמַר רַבָּה: פִּירְמָא.",
+     "en": "§The mishna teaches: <b>The spices [<i>kifa</i>]</b> join together with the meat to constitute the requisite egg-bulk to impart the impurity of food, but an egg-bulk of <i>kifa</i> itself is not susceptible to impurity. The Gemara asks: To <b>what</b> is the term <b><i>kifa</i></b> referring? <b>Rabba said:</b> The term <i>kifa</i> is referring to a congealed <b>hash</b> of cooked meat that settled to the bottom of the pot.",
+     "rashi": [
+      "<b>קיפה</b> — פונדרייל\"א דק שבבשר שצולל ליסוד הקדרה שקורין פונדרייל\"א:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ אַבָּיֵי: הוּא עַצְמוֹ יְטַמֵּא טוּמְאַת אֳכָלִין! אֶלָּא אָמַר רַב פָּפָּא: תַּבְלִין.",
+     "en": "<b>Abaye said</b> to Rabba: That hash <b>itself is</b> eaten and is therefore susceptible to <b>the impurity of food. Rather, Rav Pappa said:</b> The term <i>kifa</i> is referring to <b>spices,</b> which are not eaten themselves but do join together with the meat to constitute the requisite egg-bulk to impart the impurity of food.",
+     "rashi": [
+      "<b>תבלין</b> — באנפי נפשייהו ולא אכלי להו אינשי:"
+     ],
+     "tosafot": [
+      "<b>הוא עצמו יטמא טומאת אוכלין</b> — הוה מצי למימר יטמא טומאת נבלות א\"נ טומאת נבלות לא מטמא דאיכא מילי טובא דמטמא טומאת אוכלין ולא מטמא טומאת נבלות כדתנן (לעיל חולין דף קיז:) השוחט בהמה לעובד כוכבים ומפרכסת כו':"
+     ]
+    },
+    {
+     "he": "תְּנַן הָתָם: הִקְפָּה אֶת הַדָּם וַאֲכָלוֹ, אוֹ שֶׁהִמְחָה אֶת הַחֵלֶב וּגְמָעוֹ – חַיָּיב.",
+     "en": "§Since the mishna mentions <i>kifa</i>, which, according to Rabba, is referring to a congealed substance, the Gemara discusses the <i>halakha</i> of one who congealed a forbidden substance and consumed it. <b>We learned</b> in a <i>baraita</i> <b>there:</b> One who <b>caused blood to coagulate and ate it or melted</b> forbidden <b>fat and swallowed it is liable.</b>",
+     "rashi": [
+      "<b>הקפה</b> — הקרישו על גבי האור:"
+     ],
+     "tosafot": [
+      "<b>הקפה הדם ואכלו</b> — הקפהו בחמה מיירי כדפרשינן בהקומץ רבה (מנחות דף כא.) אבל באור לא דדם שבשלו אינו עובר עליו:"
+     ]
+    },
+    {
+     "he": "בִּשְׁלָמָא הִקְפָּה אֶת הַדָּם וַאֲכָלוֹ, כֵּיוָן דְּאַקְפְּיֵהּ אַחְשׁוֹבֵי אַחְשְׁבֵיהּ, אֶלָּא הִמְחָה אֶת הַחֵלֶב וּגְמָעוֹ – אֲכִילָה כְּתִיבָא בֵּיהּ, וְהָא לָאו אֲכִילָה הִיא!",
+     "en": "The Gemara objects: <b>Granted,</b> one who <b>caused blood to coagulate and ate it</b> is liable. Although blood is not normally eaten in such a manner, <b>since he caused</b> the blood <b>to coagulate, he ascribed</b> the <b>significance</b> of food <b>to it,</b> and the Torah prohibits the eating of blood, as it is written: “You shall eat neither fat nor blood” (Leviticus 3:17). <b>But</b> why is one who <b>melted</b> forbidden <b>fat and swallowed it</b> liable? <b>Eating,</b> and not drinking, <b>is stated</b> in the Torah with regard to the prohibition against the consumption of forbidden fat, as it is written: “You shall eat no fat of ox or sheep or goat” (Leviticus 7:23), <b>and this</b> swallowing of a liquid <b>is not eating.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רֵישׁ לָקִישׁ: אָמַר קְרָא ״נֶפֶשׁ״ – לְרַבּוֹת אֶת הַשּׁוֹתֶה.",
+     "en": "<b>Reish Lakish said:</b> One is liable even for drinking the melted forbidden fat of an animal. <b>The verse states:</b> “For all who eat the fat of the animal that one could offer from it a fire offering to the Lord, the soul that eats it shall be cut off from his people” (Leviticus 7:25). The term <b>“soul”</b> is interpreted homiletically <b>to include</b> in the prohibition <b>one who drinks</b> the fat.",
+     "rashi": [
+      "<b>לרבות את השותה</b> — מדכתיב (ויקרא ז) ונכרתה הנפש נפש משמע כל דבר המיישב דעתו של אדם ואפילו שותה כמו (בראשית כג) אם יש את נפשכם שהיא לשון תאוה וקורת רוח שהנפש נהנה ממנו:"
+     ],
+     "tosafot": [
+      "<b>לרבות השותה</b> — וא\"ת ולמה לי קרא הא שתיה הויא בכלל אכילה כדדרשי' בפ\"ג דשבועות (דף כג.) מדכתיב ואכלת לפני וגו' מעשר דגנך תירושך וקרי תירוש אכילה וי\"ל דהתם במילי דשתיה כגון יין ושמן והכא במידי דבר אכילה דממחי להו ושתי להו:"
+     ]
+    },
+    {
+     "he": "תַּנְיָא נָמֵי גַּבֵּי חָמֵץ כְּהַאי גַּוְנָא: הִמְחָהוּ וּגְמָעוֹ – אִם חָמֵץ הוּא, עָנוּשׁ כָּרֵת; אִם מַצָּה הִיא, אֵין אָדָם יוֹצֵא בָּהּ יְדֵי חוֹבָתוֹ בַּפֶּסַח.",
+     "en": "The Gemara comments: A novelty <b>of this kind is also taught</b> in a <i>baraita</i> <b>with regard to</b> the prohibition against eating <b>leavened bread</b> on Passover: If one took bread, <b>dissolved it</b> in water, <b>and swallowed</b> this mixture on Passover, the <i>halakha</i> is as follows: <b>If it is leavened bread, he is punished with <i>karet</i>; if it is <i>matza</i>,</b> then <b>a person does not fulfill his obligation</b> to eat <i>matza</i> <b>on Passover with</b> this food.",
+     "rashi": [
+      "<b>המחהו</b> — התיכו לעוף טהור באור שקורין פונדר\"א וגמעו מטמא בגדים אבית הבליעה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בִּשְׁלָמָא אִם מַצָּה הִיא אֵין אָדָם יוֹצֵא בָּהּ יְדֵי חוֹבָתוֹ בַּפֶּסַח, ״לֶחֶם עֹנִי״ אָמַר רַחֲמָנָא, וְהַאי לָאו לֶחֶם עֹנִי הוּא. אֶלָּא אִם חָמֵץ הוּא עָנוּשׁ כָּרֵת, אֲכִילָה כְּתִיבָא בֵּיהּ!",
+     "en": "The Gemara objects: <b>Granted, if it is <i>matza</i>, a person does not fulfill his obligation</b> to eat <i>matza</i> <b>on Passover with</b> this food, as <b>the Merciful One states</b> with regard to the prohibition against eating leavened bread on Passover: “You shall eat no leavened bread with it; seven days you shall eat unleavened bread with it, even <b>the bread of affliction”</b> (Deuteronomy 16:3), indicating that one must eat the bread of affliction, <b>but this</b> bread dissolved in water <b>is not</b> considered <b>the bread of affliction. But if</b> the bread <b>is leavened bread,</b> why <b>is he punished with <i>karet</i>? Eating is written with regard to</b> the prohibition against leavened bread, and in this case he did not eat it but rather drank it.",
+     "rashi": [],
+     "tosafot": [
+      "<b>לחם עוני אמר רחמנא</b> — הוה מצי למימר נמי אכילה כתיב ביה:",
+      "<b>אלא אם חמץ הוא ענוש כרת הא אכילה כתיב ביה</b> — אע\"ג דהוא אסור בהנאה הנאת חמץ לית ביה כרת אלא לאו:"
+     ]
+    },
+    {
+     "he": "אָמַר רֵישׁ לָקִישׁ: אָמַר קְרָא ״נֶפֶשׁ״ – לְרַבּוֹת אֶת הַשּׁוֹתֶה.",
+     "en": "<b>Reish Lakish said:</b> One is liable even for drinking leavened bread. <b>The verse states:</b> “For all who eat leavened bread from the first day until the seventh day, that soul shall be cut off from Israel” (Exodus 12:15). The term <b>“soul”</b> is interpreted homiletically <b>to include</b> in the prohibition <b>one who drinks</b> leavened bread.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְתַנְיָא נָמֵי גַּבֵּי נִבְלַת עוֹף טָהוֹר כְּהַאי גַּוְנָא: הִמְחָהוּ בָּאוּר – טָמֵא, בַּחַמָּה – טָהוֹר. וְהָוֵינַן בַּהּ: אֲכִילָה כְּתִיב בֵּיהּ!",
+     "en": "The Gemara comments: A novelty <b>of this kind is also taught</b> in the <i>Tosefta</i> (<i>Zavim</i> 5:9) <b>with regard to</b> one who eats <b>the</b> unslaughtered <b>carcass of a kosher bird: One who liquefied</b> the carcass of an unslaughtered kosher bird <b>in fire</b> and drank the substance <b>is impure.</b> But one who liquefied it <b>in the sun</b> and drank it <b>is pure. And we discussed it: Eating</b> and not drinking <b>is stated</b> with regard to the impurity of a carcass, as it is written: “And every soul that eats an unslaughtered carcass or that which is mauled by an animal, whether he is native or stranger, he shall wash his garments, bathe in water, and shall be impure until the evening” (Leviticus 17:15). Why, then, does one who drinks a kosher bird carcass become impure?",
+     "rashi": [
+      "<b>המחהו בחמה</b> — וגמעו טהור וטעמא מפרש לקמן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רֵישׁ לָקִישׁ: אָמַר קְרָא ״נֶפֶשׁ״ – לְרַבּוֹת אֶת הַשּׁוֹתֶה. אִי הָכִי, בַּחַמָּה נָמֵי? בַּחַמָּה אַיסְרוֹחֵי מַסְרַח.",
+     "en": "<b>Reish Lakish said:</b> He becomes impure because <b>the verse states:</b> “And every <b>soul.”</b> The term “soul” is interpreted homiletically <b>to include one who drinks.</b> The Gemara objects: <b>If so,</b> one who drinks a carcass that is melted <b>in the sun</b> should <b>also</b> become impure. The Gemara explains: A carcass takes a long time to melt <b>in the sun.</b> Therefore, the liquid <b>becomes rotten</b> and unfit for consumption.",
+     "rashi": [
+      "<b>וכל נפש אשר תאכל נבלה וגו'</b> — גבי נבלת עוף טהור כתיב (ויקרא יז):"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּצְרִיכִי, דְּאִי כְּתַב רַחֲמָנָא חֵלֶב – חָמֵץ לָא אָתֵי מִינֵּיהּ, שֶׁכֵּן לֹא הָיְתָה לוֹ שְׁעַת הַכּוֹשֶׁר; נְבֵלָה לָא אָתֵי מִינֵּיהּ, שֶׁכֵּן עָנוּשׁ כָּרֵת.",
+     "en": "The Gemara cited three instances in which Reish Lakish interpreted the term “soul” as including one who drinks. The Gemara explains: All three mentions of the term “soul” <b>are necessary. As, if the Merciful One had written</b> the term “soul” only with regard to forbidden <b>fat,</b> liability for drinking liquefied <b>leavened bread could not have been derived from it, since</b> the prohibition against the consumption of forbidden fat has an element of stringency that does not apply to leavened bread in that the forbidden fat <b>had no period of fitness</b> for consumption. Leavened bread, on the other hand, may be consumed before Passover. Likewise, impurity contracted by drinking a liquefied <b>carcass could not be derived from</b> the <i>halakha</i> of forbidden fat <b>because</b> the consumption of forbidden fat is <b>punishable by <i>karet</i>,</b> which is not the case with regard to the consumption of a carcass.",
+     "rashi": [],
+     "tosafot": [
+      "<b>חמץ לא אתי מיניה שכן לא היתה לו שעת הכושר</b> — וא\"ת חלב נמי הוי לו שעת הכושר כשהיה במעי אמו דאפילו רבי יוחנן דאמר (לעיל חולין דף עה.) תלש חלב מבן ט' חי דחדשים גרמי בבן ח' מודה ויש לומר דחמץ כמו שהוא עתה היתה לו שעת הכושר ושוב לא נשתנה אבל חלב אחר שיצא לאויר העולם לא היתה לו שעת הכושר להיתר:"
+     ]
+    },
+    {
+     "he": "וְאִי כְּתַב רַחֲמָנָא חָמֵץ – חֵלֶב לָא אָתֵי מִינֵּיהּ, שֶׁכֵּן לֹא הוּתַּר מִכְּלָלוֹ, וּנְבֵלָה לָא אָתְיָא מִינֵּיהּ, שֶׁכֵּן עָנוּשׁ כָּרֵת.",
+     "en": "<b>And if the Merciful One had written</b> the term “soul” only with regard to <b>leavened bread,</b> liability for drinking melted forbidden <b>fat could not be derived from it, as</b> there are <b>no</b> circumstances in which <b>the general prohibition</b> against eating leavened bread <b>was permitted.</b> The consumption of forbidden fat, on the other hand, is permitted with regard to the fat of an undomesticated animal. <b>And</b> similarly, impurity contracted by drinking a liquefied <b>carcass could not be derived from</b> the <i>halakha</i> of leavened bread, <b>because</b> the <i>halakha</i> of leavened bread has an element of stringency that does not apply to a carcass in that its consumption is <b>punishable by <i>karet</i>.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>חלב לא אתי מיניה שלא הותר מכללו</b> — הקשה הר\"ר שמואל מוורדו\"ן לר' יוסי דלא חייש להא פירכא בפסחים (דף כג:) וחשיב חלב לא הותר מכללו דקאמר ורבי יוסי הגלילי אנן בבהמה קאמרינן בבהמה מיהא לא אשתרי וליכא למיפרך נמי מה לחמץ שכן אסור בהנאה דהא לר' יוסי הגלילי חמץ מותר בהנאה כדאמר התם וי\"ל דלרבי יוסי [הגלילי] ודאי אתא נפש לדרשה אחריתי:"
+     ]
+    },
+    {
+     "he": "וְאִי כְּתַב רַחֲמָנָא בִּנְבֵלָה – הָנָךְ לָא אָתְיָא מִינַּהּ, שֶׁכֵּן מְטַמְּאָה.",
+     "en": "<b>And if the Merciful One had written</b> the term “soul” only <b>with regard to a carcass, those</b> prohibitions against drinking melted fat and liquefied leavened bread <b>could not be derived from it, because</b> a carcass has an element of stringency that does not apply to those prohibitions in that <b>it transmits impurity</b> to one who eats it. Therefore, all three mentions of the term “soul” are necessary.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "חֲדָא מֵחֲדָא לָא אָתְיָא, תֵּיתֵי חֲדָא מִתַּרְתֵּי! הֵי תֵּיתֵי? לָא לִכְתּוֹב רַחֲמָנָא בִּנְבֵלָה וְתֵיתֵי מֵהָנָךְ – מָה לְהָנָךְ שֶׁכֵּן עָנוּשׁ כָּרֵת!",
+     "en": "The Gemara objects: It is true that <b>one</b> <i>halakha</i> <b>cannot be derived from</b> either <b>one</b> of the others, as detailed above. Nevertheless, one can <b>derive</b> the <i>halakha</i> of <b>one</b> of them <b>from</b> the other <b>two.</b> The Gemara responds: This is not possible, as <b>which</b> <i>halakha</i> can one <b>derive</b> from the others? <b>Let the Merciful One not write</b> this <i>halakha</i> <b>with regard to</b> a liquefied <b>carcass and derive</b> it <b>from these</b> other prohibitions against eating forbidden fat and leavened bread. One can refute this derivation: <b>What</b> is notable <b>about these</b> other prohibitions? They are notable <b>in that</b> one who transgresses them <b>is punished with <i>karet</i>,</b> contrary to one who eats a carcass.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "לָא לִכְתּוֹב רַחֲמָנָא בְּחָמֵץ, וְתֵיתֵי מֵהָנָךְ – מָה לְהָנָךְ, שֶׁכֵּן לֹא הָיְתָה לָהֶן שְׁעַת הַכּוֹשֶׁר!",
+     "en": "The Gemara suggests: <b>Let the Merciful One not write</b> this <i>halakha</i> <b>with regard to</b> dissolved <b>leavened bread and derive</b> it <b>from these</b> <i>halakhot</i> of forbidden fat and a carcass. The Gemara refutes the derivation: <b>What</b> is notable <b>about these</b> <i>halakhot</i>? They are notable <b>in that they had no period of fitness</b> for consumption, as opposed to leavened bread, which was fit for consumption before Passover.",
+     "rashi": [],
+     "tosafot": [
+      "<b>מה להנך שכן לא היתה להם שעת הכושר</b> — דנבלה כמו שהיא עתה מתה לא היה לה שעת הכושר א\"נ מחיים היה בה איסור אבר מן החי ואפילו למ\"ד (לאו) לאיברים עומדת היה בה איסור שאינה זבוחה:"
+     ]
+    },
+    {
+     "he": "לָא לִכְתּוֹב רַחֲמָנָא בְּחֵלֶב, וְתֵיתֵי מֵהָנָךְ – מָה לְהָנָךְ שֶׁכֵּן לֹא הוּתַּר מִכְּלָלָן, תֹּאמַר בְּחֵלֶב שֶׁהוּתַּר מִכְּלָלוֹ!",
+     "en": "The Gemara suggests: <b>Let the Merciful One not write</b> this <i>halakha</i> <b>with regard to</b> forbidden <b>fat and derive</b> it <b>from these</b> <i>halakhot</i> of consuming leavened bread and a carcass. The Gemara refutes the derivation: <b>What</b> is notable <b>about these</b> <i>halakhot</i>? They are notable <b>in that</b> there are <b>no</b> circumstances in which <b>their general prohibition was permitted. Shall you say</b> the same <b>with regard to</b> forbidden <b>fat, whose general prohibition was permitted</b> in certain circumstances? Therefore, all three mentions of the term “soul” are necessary.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וּמַאי נִיהוּ? אִילֵּימָא חֵלֶב בְּהֵמָה לַגָּבוֹהַּ – נְבֵלָה נָמֵי אִשְׁתְּרַאי מְלִיקַת עוֹף לַגָּבוֹהַּ.",
+     "en": "The Gemara asks: <b>And what is</b> the case in which forbidden fat is permitted? <b>If we say</b> that it is the <b>fat of a domesticated animal</b> that is permitted to be sacrificed in the Temple <b>to the Most High,</b> a bird <b>carcass is also permitted</b> to be sacrificed in the Temple. Although <b>pinching</b> the nape of the neck of <b>a bird</b> renders it an unslaughtered carcass and forbidden for consumption, bird offerings are sacrificed <b>to the Most High</b> in such a manner.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְאֶלָּא חֵלֶב חַיָּה לְהֶדְיוֹט – נְבֵלָה נָמֵי אִשְׁתְּרַאי מְלִיקָה דְּחַטַּאת הָעוֹף לַכֹּהֲנִים!",
+     "en": "<b>And</b> if the reference is <b>rather</b> to <b>the</b> forbidden <b>fat of an undomesticated animal,</b> which is permitted <b>to an ordinary</b> person, one may respond that <b>a carcass is also permitted</b> for a person’s consumption in a certain case, as <b>the pinching of</b> the nape of the neck of <b>a bird sin offering</b> renders it fit <b>for</b> consumption of <b>the priests.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "לְעוֹלָם חֵלֶב חַיָּה לְהֶדְיוֹט, וּדְקָא קַשְׁיָא לָךְ כֹּהֲנִים – כֹּהֲנִים מִשֻּׁלְחַן גָּבוֹהַּ קָא זָכוּ.",
+     "en": "The Gemara answers: <b>Actually,</b> the reference is to <b>the</b> forbidden <b>fat of an undomesticated animal,</b> which is permitted <b>to an ordinary</b> person. <b>And that which</b> is <b>difficult for you</b> with regard to the fact that the <b>priests</b> eat the carcass of a bird which is brought as a sin offering is not difficult, as the <b>priests receive</b> their portion <b>from the table of the Most High.</b> Since this carcass is permitted as an offering to God, it is permitted to the priests as well. Therefore, this does not qualify as a case of an unslaughtered carcass permitted to ordinary people.",
+     "rashi": [
+      "<b>משלחן גבוה זכו</b> — והיתרא משום גבוה הוא אבל לגבי הדיוט לא אשכחן דהותר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָא דְּתַנְיָא: ״הַטְּמֵאִים״ – לֶאֱסוֹר צִירָן וְרוֹטְבָן וְקֵיפֶה שֶׁלָּהֶן, לְמָה לִי? לִיגְמַר מֵהָנֵי!",
+     "en": "§The Gemara challenges: <b>But that which is taught</b> in the following <i>baraita</i> is difficult. The Torah states with regard to the prohibition against eating creeping animals: “These are they <b>that are impure [<i>hatteme’im</i>]</b> to you among all the creeping animals” (Leviticus 11:31). The Sages interpret the letter <i>heh</i> in the term “<i>hatteme’im</i>” <b>to forbid their juice</b> that oozes from their carcasses, <b>and their gravy</b> that is produced when they are cooked, <b>and sediments</b> of <b>their</b> flesh that congeal at the bottom of the dish when cooked. The Gemara explains the challenge: <b>Why do I</b> need a verse to teach this <i>halakha</i>? <b>Let</b> this <i>halakha</i> <b>be learned from these</b> <i>halakhot</i> of melted forbidden fat, a liquefied bird carcass, and dissolved leavened bread.",
+     "rashi": [
+      "<b>הטמאים</b> — בשרצים כתיב וה\"א יתירא קא דריש:",
+      "<b>ליגמר</b> — מחלב וחמץ ונבלה דמיחוי שלהם כמותם:"
+     ],
+     "tosafot": [
+      "<b>והא דתנן הטמאים כו'</b> — דתניא גרסינן דאינה משנה:"
+     ]
+    },
+    {
+     "he": "צְרִיכִי, דְּאִי לָא כְּתַב רַחֲמָנָא – הֲוָה אָמֵינָא: דַּיּוֹ לַבָּא מִן הַדִּין לִהְיוֹת כַּנִּדּוֹן, מָה הָתָם – עַד דְּאִיכָּא כְּזַיִת, אַף הָכָא נָמֵי – עַד דְּאִיכָּא כְּזַיִת.",
+     "en": "The Gemara answers: <b>It is necessary</b> for this <i>halakha</i> to be written, <b>as if the Merciful One had not written</b> this <i>halakha</i> with regard to creeping animals and instead the <i>halakha</i> was derived from the other <i>halakhot</i>, <b>I would say: It is sufficient for the</b> conclusion that <b>emerges from</b> an <i>a fortiori</i> <b>inference to be like</b> its <b>source.</b> Accordingly, <b>just as there,</b> one who consumes melted forbidden fat, a liquefied carcass, or dissolved leavened bread is not liable <b>until</b> he consumes <b>an olive-bulk, so too here,</b> with regard to consuming the juice, gravy, and sediments of creeping animals, one is not liable <b>until</b> he consumes <b>an olive-bulk.</b> Therefore, a separate verse is necessary to teach that one is liable even for consuming a lentil-bulk of the juice, gravy, or sediments of a creeping animal, just as one is liable for consuming this measure of the creeping animal itself.",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 120b",
+   "he_ref": "חולין ק״כ:",
+   "url": "https://www.sefaria.org/Chullin.120b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=120&amud=b",
+   "segments": [
+    {
+     "he": "וְלִיכְתּוֹב רַחֲמָנָא בִּשְׁרָצִים, וְלֵיתוֹ הָנָךְ וְלִיגְמְרוּ מִינַּיְיהוּ!",
+     "en": "The Gemara objects: <b>Let the Merciful One write</b> the prohibition against consuming the juice, gravy, and sediments of <b>creeping animals and let these</b> <i>halakhot</i> of consuming liquefied forbidden fat, dissolved leavened bread, and a melted carcass of a bird <b>come and be learned from</b> it. The Torah does not need to state those <i>halakhot</i> explicitly.",
+     "rashi": [
+      "שרצים איסור אכילתם בכעדשה כטומאתן דתני ר' יוסי בר' חנינא והבדלתם בין הבהמה הטהורה לטמאה וגו' פתח הכתוב באכילה וסיים בטומאה לומר לך מה טומאה בכעדשה אף אכילה בכעדשה במעילה בפרק קדשי מזבח (מעילה דף טז:) הילכך אי לא כתיב מיחוי בגופייהו ויליף מהנך ה\"א לא מחייב אמיחויין בפחות מכזית:"
+     ],
+     "tosafot": [
+      "<b>ליכתוב בשרצים וליתו הנך כו'</b> — ובמה הצד חד מכולהו לא אתי דחמץ מכולהו לא אתי שלא היה להם שעת הכושר וחלב נמי לא אתי מכולהו שכן לא הותרו מכללן אך קשה דתיתי נבלה מכולהו ושמא לא הייתי אומר אלא לענין איסור אכילה אבל לענין טומאת נבלת עוף טהור לא ואע\"ג דאפקיה בלשון אכילה לא יאכל לטמאה בה:"
+     ]
+    },
+    {
+     "he": "מִשּׁוּם דְּאִיכָּא לְמִיפְרַךְ: מָה לִשְׁרָצִים, שֶׁכֵּן טוּמְאָתָן בְּמַשֶּׁהוּ.",
+     "en": "The Gemara explains: It is not possible to derive those <i>halakhot</i> in such a manner <b>because</b> that derivation <b>can be refuted: What</b> is notable <b>about creeping animals?</b> They are notable <b>in that their impurity</b> is imparted <b>in any amount.</b> Those other <i>halakhot</i>, on the other hand, do not apply to less than an olive-bulk.",
+     "rashi": [
+      "<b>מה לשרצים</b> — דין הוא שיהא מיחוי שלהן כמותן:",
+      "<b>שכן טומאתן</b> — ואיסורן במשהו:"
+     ],
+     "tosafot": [
+      "<b>שכן טומאתן במשהו</b> — תימה דבכל מקום מזכיר כעדשה וכאן נקט משהו וכן בפרק השוחט והמעלה (זבחים דף קו:) דפריך לאו בחלב למה לי כו' תיתי משרצים טמאין מה לשרצים טמאין שכן מטמא בכל שהוא ומיהו בלאו הכי התם נראה דלא גרסינן ליה דלא אצטריך להזכיר משהו גבי חלב דהא חלב לא מטמא כלל וסופרים שבשו משום דבתר הכי קאמר ואי משרצים טהורים מה לשרצים טהורים שכן איסורן במשהו פירוש משום בריה וכתבו כמו כן גבי טמאים:"
+     ]
+    },
+    {
+     "he": "וְהָא דְּתַנְיָא: הַטֶּבֶל, וְהֶחָדָשׁ, וְהַהֶקְדֵּשׁ, וְהַשְּׁבִיעִית, וְהַכִּלְאַיִם – כּוּלָּן מַשְׁקִין הַיּוֹצְאִין מֵהֶן כְּמוֹתָן. מְנָלַן?",
+     "en": "§The Gemara continues to examine the source for the status of liquids with regard to various <i>halakhot</i> based on <b>that which is taught</b> in a <i>baraita</i>: With regard to <b>untithed produce; and the new crop</b> of grain of the year, which is forbidden until after the <i>omer</i> offering is brought on the sixteenth of Nisan (see Leviticus 23:14); <b>and consecrated</b> produce; <b>and</b> the produce of <b>the Sabbatical</b> Year after the designated time when it must be removed from one’s house; <b>and diverse kinds,</b> i.e., the produce of a vineyard in which grains were sown; with regard to <b>all of them,</b> it is prohibited to consume <b>liquid that emerges from them just as</b> it is prohibited to consume them <b>themselves.</b> The Gemara asks: <b>From where do we</b> derive this <i>halakha</i>?",
+     "rashi": [
+      "<b>החדש</b> — קודם שקרב העומר ועושה שכר מן השעורין:",
+      "<b>והשביעית</b> — משקין היוצאין מהן נוהגת בהן שביעית וחייבין בביעור כמותן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְכִי תֵּימָא: לִיגְמַר מֵהָנָךְ? מָה לְהָנָךְ – שֶׁכֵּן אִיסּוּר הַבָּא מֵאֵלָיו הָווּ.",
+     "en": "<b>And if you would say: Let</b> those prohibitions <b>be learned from these</b> prohibitions of consuming the liquid that seeps from creeping animals, liquefied fat, dissolved leavened bread, and liquefied bird carcasses, one can respond that this derivation can be refuted. <b>What</b> is notable <b>about these</b> prohibitions? They are notable <b>in that</b> each of them is <b>a prohibition that develops on its own</b> without any human intervention, as opposed to the prohibitions in the <i>baraita</i>, which do not necessarily share this element of stringency.",
+     "rashi": [
+      "<b>מהנך</b> — חלב וחמץ ונבלה:",
+      "<b>שכן איסור הבא מאליו</b> — ותינח למילף מינייהו טבל וחדש ושביעית וכלאי הכרם אבל הקדש לא אתי מינייהו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תִּינַח הֵיכָא דְּאִיסּוּר בָּא מֵאֵלָיו, הֵיכָא דְּלָאו אִיסּוּר הַבָּא מֵאֵלָיו – מְנָלַן?",
+     "en": "Therefore, <b>it works out well</b> to derive the prohibition against consuming liquids that emerged from a solid <b>where the prohibition</b> is one that <b>develops on its own,</b> such as untithed produce, the new crop, Sabbatical Year produce and diverse kinds. But with regard to consecrated produce, <b>where the prohibition does not develop on its own</b> but rather only after a person consecrates the produce, <b>from where do we</b> derive that it is prohibited to consume the liquid that emerges from the produce just as it is prohibited to consume the produce itself?",
+     "rashi": [],
+     "tosafot": [
+      "<b>היכא דלאו איסור הבא מאליו מנלן</b> — וא\"ת בהי מבעיא ליה דחדש ושביעית איסור הבא מאליו ואי טבל הא יליף חלול חלול מתרומה בסוף אלו הן הנשרפין (סנהדרין דף פד.) ותרומה ילפינן מבכורים ובסמוך משמע דצריך למילף במה הצד ואי כלאים הא לא כתיב בהו אכילה והקדש נמי לא כתיב ביה אכילה ועוד דאיכא למילף חטא חטא מתרומה וצ\"ל דאכלאים בעי דאע\"ג דלא כתיב בהו אכילה סברא היא דלא אסרה תורה אלא כשהאיסור בעין ולעיל דפריך אלא חלב אכילה כתיב ביה בלאו הכי ה\"מ למיפרך אלא כיון דכתב בה בהדיא אכילה פריך מינה וה\"ר שמואל היה אומר דגבי חלב שהמחהו אי לא הוה כתיב ביה אכילה הוה מחייבין כיון שהוא גוף החלב וכן החמץ אלא שנמוח אבל משקה היוצא מכלאים אפילו לא כתיב בהו אכילה כמאן דכתיב בהו דמי שאין זה גוף הפרי ומה שפירש בקונטרס דכולהו קרי איסור הבא מאליו לבר מהקדש אי אפשר לומר כן אלא אכלאים קאמר כדפירשתי שאין זה איסור הבא מאליו שע\"י מעשה של זריעה נאסרין הכלאים וגם העבירה היה בשעת זריעה וא\"ת ושביעית היכי אתי מכולהו דאית בהו לאו ובשביעית עשה כלה לחיה מן השדה כו' וי\"ל דילפינן מטומאת שרצים דלא שייך בהו לאו:"
+     ]
+    },
+    {
+     "he": "גָּמְרִינַן מִבִּכּוּרִים, וּבִכּוּרִים גּוּפַיְיהוּ מְנָלַן?",
+     "en": "The Gemara answers: <b>We learn</b> this <i>halakha</i> <b>from</b> the case of <b>first fruits.</b> Consumption of first fruits is a prohibition that does not develop on its own, because the owner must set aside the first fruits. And consumption of the liquid that emerges from first fruits is prohibited like consumption of the fruit itself. The Gemara asks: <b>And from where do we</b> derive this <i>halakha</i> with regard to <b>first fruits themselves?</b>",
+     "rashi": [
+      "<b>בכורים</b> — אין איסורן בא מאליו שע\"י שמפרישן הן קדושים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּתָנֵי רַבִּי יוֹסֵי: ״פְּרִי״ – פְּרִי אַתָּה מֵבִיא, וְאִי אַתָּה מֵבִיא מַשְׁקֶה. הֵבִיא עֲנָבִים וּדְרָכָן – מִנַּיִן? תַּלְמוּד לוֹמַר: ״תָּבִיא״.",
+     "en": "The Gemara answers that first fruits can be brought as wine, <b>as Rabbi Yosei teaches:</b> The verse states with regard to first fruits: “You shall take of the first of all the <b>fruit</b> of the ground, which you shall bring in from your land” (Deuteronomy 26:2). Since the verse mentions fruit, this indicates that <b>you must bring</b> actual <b>fruit, and you may not bring</b> the first fruits in the form of <b>beverages.</b> But if one <b>brought grapes and</b> he had already <b>pressed them</b> into wine, <b>from where</b> is it derived that he has fulfilled his obligation? <b>The verse states: “You shall bring in</b> from your land.” This superfluous term serves to teach that if one brings wine for the mitzva of first fruits, he has fulfilled his obligation.",
+     "rashi": [
+      "<b>פרי</b> — מראשית כל פרי:",
+      "<b>תביא</b> — אשר תביא מארצך דהוה ליה למיכתב אשר מארצך:"
+     ],
+     "tosafot": [
+      "<b>הביא ענבים ודרכן כו'</b> — אע\"ג דשתיה בכלל אכילה בענבים וזיתים לענין הבאת בכורים לא כתיבא אכילה דתהוי שתיה בכלל פרי:"
+     ]
+    },
+    {
+     "he": "אִיכָּא לְמִיפְרַךְ: מָה לְבִכּוּרִים שֶׁכֵּן טְעוּנִין קְרִיָּיה וְהַנָּחָה!",
+     "en": "But this derivation from the case of first fruits <b>can be refuted: What</b> is notable <b>about first fruits?</b> They are notable <b>in that they require reciting</b> the passage which begins: “My father was a wandering Aramean” (Deuteronomy 26:5), <b>and placing</b> the fruits in the Temple, whereas no such requirements exists with regard to consecrated produce.",
+     "rashi": [
+      "<b>בכורים טעונין קרייה</b> — ארמי אובד אבי:",
+      "<b>והנחה</b> — על הרצפה והנחתו לפני ה':"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא גָּמַר מִתְּרוּמָה.",
+     "en": "<b>Rather,</b> one can <b>derive</b> the prohibition against consuming the liquid that emerges from consecrated produce <b>from</b> the prohibition against consuming liquid that emerges from <b><i>teruma</i>,</b> i.e., the portion of produce designated for the priest.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וּתְרוּמָה גּוּפַהּ מְנָלַן? דְּאִיתַּקַּשׁ לְבִכּוּרִים, דְּאָמַר מָר: ״וּתְרוּמַת יָדֶךָ״ – אֵלּוּ בִּכּוּרִים.",
+     "en": "The Gemara asks: <b>And from where do we</b> derive this <i>halakha</i> with regard to <b><i>teruma</i> itself?</b> the Gemara answers: It is derived from the fact <b>that</b> <i>teruma</i> <b>is compared to first fruits, as</b> it is written: “You may not eat within your gates the tithe of your grain, or of your wine, or of your oil, or the firstborn of your cattle and of your flocks, or any of your vows that you will vow, or your pledges, nor the offering of your hand” (Deuteronomy 12:17), and <b>the Master said</b> with regard to the phrase <b>“nor the offering [<i>teruma</i>] of your hand”</b> that <b>these are</b> the <b>first fruits.</b> Since the verse uses the term “<i>teruma</i>” with regard to first fruits, the <i>halakha</i> of <i>teruma</i> is compared to the <i>halakha</i> of first fruits: Just as liquid that emerges from first fruits is forbidden like the fruit itself, so too liquid that emerges from <i>teruma</i> is forbidden like the produce itself. Consequently, the prohibition against consuming the liquid that emerges from consecrated produce can be derived from <i>teruma</i>.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "מָה לִתְרוּמָה, שֶׁכֵּן חַיָּיבִין עָלֶיהָ מִיתָה וָחוֹמֶשׁ?",
+     "en": "The Gemara refutes this derivation from <i>teruma</i>: <b>What</b> is notable <b>about <i>teruma</i>?</b> It is notable <b>in that</b> a non-priest <b>is liable</b> to receive the punishment of <b>death</b> at the hand of Heaven <b>for</b> consuming <i>teruma</i>, <b>and</b> he must restore the value of the produce he ate, adding <b>one-fifth</b> of its value as a fine. This element of stringency does not exist with regard to one who consumes consecrated produce.",
+     "rashi": [],
+     "tosafot": [
+      "<b>מה לתרומה שכן חייב עליה מיתה וחומש</b> — לרבי דאמר בסנהדרין (דף פג.) הזיד במעילה במיתה ע\"כ לאו אהקדש בעי לעיל כדפי' בקונט' דהא בהקדש נמי איכא מיתה וחומש לרבי:"
+     ]
+    },
+    {
+     "he": "אֶלָּא, גָּמַר מִתַּרְוַיְיהוּ, מִתְּרוּמָה וּבִכּוּרִים – מָה לִתְרוּמָה וּבִכּוּרִים, שֶׁכֵּן חַיָּיבִין עֲלֵיהֶם מִיתָה וָחוֹמֶשׁ!",
+     "en": "<b>Rather,</b> one can <b>learn</b> the prohibition against consuming the liquid that emerges from consecrated produce <b>from both <i>teruma</i> and first fruits.</b> The Gemara refutes this derivation: <b>What</b> is notable <b>about <i>teruma</i> and first fruits?</b> They are notable <b>in that</b> a non-priest <b>is liable</b> to receive the punishment of <b>death</b> at the hand of Heaven <b>for</b> consuming <i>teruma</i> or first fruits, <b>and</b> he must restore the value of the produce he ate, adding <b>one-fifth</b> of its value as a fine. This is not true with regard to one who consumes consecrated produce.",
+     "rashi": [
+      "<b>מה לתרומה ובכורים שכן חייבים עליהן מיתה</b> — במזיד וחומש בשוגג וכי פרכת מה לתרומה שכן חייבין עליה מיתה וחומש ליכא למימר בכורים יוכיחו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא, אָתְיָא מִתְּרוּמָה וְחַד מֵהָנָךְ, אוֹ מִבִּכּוּרִים וְחַד מֵהָנָךְ.",
+     "en": "<b>Rather,</b> the prohibition against consuming the liquid that emerges from consecrated produce <b>is derived from <i>teruma</i> and one of these</b> prohibitions, i.e., a liquefied carcass of a bird or dissolved leavened bread; <b>or</b> it can be derived <b>from first fruits and one of these</b> prohibitions.",
+     "rashi": [
+      "<b>מתרומה וחד מהנך</b> — חמץ או נבלה דכי פרכת מה לתרומה שכן מיתה נבלה תוכיח מה לנבלה שכן איסור הבא מאליו תרומה תוכיח וחזר הדין הצד השוה שבהן שאסורין הן עצמן ומשקין היוצאין מהן כמותן אף אני אביא את אלו:"
+     ],
+     "tosafot": [
+      "<b>אלא אי מתרומה וחד מהנך כו'</b> — פי' מנבלה ובכורים או תרומה או משרצים ובכורים או תרומה אבל לא כמו שפי' בקונטרס חמץ ובכורים או תרומה דמה להנך שכן יש בהן נטילת נשמה מיתה וכרת וכן מחלב ותרומה או בכורים לא אתי מהאי טעמא:"
+     ]
+    },
+    {
+     "he": "וְהָא דִּתְנַן: דְּבַשׁ תְּמָרִים, וְיֵין תַּפּוּחִים, וְחוֹמֶץ סִיתְוָונִיּוֹת, וּשְׁאָר מִינֵי פֵירוֹת שֶׁל תְּרוּמָה – רַבִּי אֱלִיעֶזֶר מְחַיֵּיב קֶרֶן וָחוֹמֶשׁ, וְרַבִּי יְהוֹשֻׁעַ פּוֹטֵר.",
+     "en": "§The Gemara elaborates on the comparison between <i>teruma</i> and first fruits with regard to the <i>halakha</i> that the status of liquid that emerges from produce is like that of the produce itself, <b>and</b> it explains <b>that which we learned</b> in a mishna (<i>Terumot</i> 11:2): If a non-priest ate <b>date honey, or apple wine, or vinegar</b> made <b>from grapes of autumn</b> that grow stunted at the end of the season and are unfit for wine production, <b>or</b> any of the <b>other types of</b> juice made from <b>fruits of <i>teruma</i>, Rabbi Eliezer deems</b> him <b>obligated</b> to repay <b>the principal and</b> an additional <b>fifth,</b> like the penalty for one who ate the <i>teruma</i> produce itself. <b>And Rabbi Yehoshua deems</b> him <b>exempt</b> from payment.",
+     "rashi": [
+      "<b>סיתווניות</b> — ענבים הנמצאין בגפנים בימות החורף שאין מתבשלין לעולם ועושין מהן חומץ:",
+      "<b>ושאר כל מיני פירות</b> — חוץ מענבים וזיתים שדרכן בכך:",
+      "<b>מחייב קרן וחומש</b> — אם אכלן בשוגג:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בְּמַאי פְּלִיגִי? בְּדוּן מִינַּהּ וּמִינַּהּ, וּבְדוּן מִינַּהּ וְאוֹקֵי בְּאַתְרַהּ קָמִיפַּלְגִי.",
+     "en": "The Gemara explains: <b>With regard to what</b> principle do Rabbi Eliezer and Rabbi Yehoshua <b>disagree? They disagree with regard to</b> the principles governing the process of deriving one <i>halakha</i> from another <i>halakha</i>. One maintains the exegetical principle: <b>Infer from it, and</b> again <b>from it,</b> i.e., when one case is derived from another all the details of the source case are applied to the other case; <b>and</b> one maintains the principle: <b>Infer from it but interpret</b> the <i>halakha</i> <b>according to its</b> own <b>place,</b> i.e., one derives only the basic principle of the source case, whereas all other aspects of the source case are not applied to the case at hand.",
+     "rashi": [
+      "<b>במאי קמיפלגי</b> — הואיל דילפינן תרומה מבכורים למשקין היוצאין מהן כמותן:",
+      "<b>בדון מינה ומינה</b> — בכל גזירות שוות ובנין אב שבתורה שאנו למדים דבר מחבירו אי דיינינן ליה וגמרינן ליה לכל מילי או דון מינה מה שאנו צריכין לו ואוקי באתרה למילי אחרנייתא דמיפרשי בגופיה קמיפלגי:"
+     ],
+     "tosafot": [
+      "<b>דון מינה ומינה</b> — פי' בקונטרס דלאו דוקא ומיהו אפשר דהוי דוקא משום דגן שהמחהו דתרומת דגן דאורייתא דרבי אליעזר מחייב דגן מדאורייתא ושאר מינין מדרבנן ורבי יהושע פוטר בדגן שהמחהו דדון מינה ואוקי באתרה תירוש ויצהר אין שאר מינין לא ואפילו דגן ולהכי פטר נמי בשאר מינין שאין להחמיר בהן יותר מדגן:"
+     ]
+    },
+    {
+     "he": "דְּרַבִּי אֱלִיעֶזֶר סָבַר: דּוּן מִינַּהּ וּמִינַּהּ, מָה בִּכּוּרִים – מַשְׁקִין הַיּוֹצֵא מֵהֶן כְּמוֹתָן, אַף תְּרוּמָה נָמֵי – מַשְׁקִין הַיּוֹצֵא מֵהֶן כְּמוֹתָן, וּמִינַּהּ – מָה בִּכּוּרִים אֲפִילּוּ שְׁאָר מִינִין, אַף תְּרוּמָה נָמֵי אֲפִילּוּ שְׁאָר מִינִין.",
+     "en": "<b>As Rabbi Eliezer holds: Infer from it, and</b> again <b>from it. Just as</b> with regard to <b>first fruits,</b> the status of the <b>liquid that emerges from them is like</b> that of the produce itself, <b>so too</b> with regard to <b><i>teruma</i>,</b> the status of the <b>liquid that emerges from it is like</b> that of the produce itself. <b>And</b> again infer <b>from it: Just as</b> the <i>halakha</i> of <b>first fruits</b> includes not only olives and grapes but <b>even other types</b> of produce from the seven species for which Eretz Yisrael is praised, and the status of liquid that emerges from that produce is like that of the produce itself, <b>so too</b> with regard to <b><i>teruma</i>,</b> although oil and wine are the only liquids from which one is obligated to separate <i>teruma</i>, <b>even</b> liquid that emerges from <b>other types</b> of produce designated as <i>teruma</i> besides olives and grapes has the same status as the produce itself.",
+     "rashi": [
+      "<b>בכורים</b> — מביאין מכל שבעת המינין:",
+      "<b>אף תרומה נמי</b> — שהפרישה בפירות כגון תמרים ותפוחים כיון דתרומה נוהגת בפרי אף על גב דאינה נוהגת במשקין שלהן אלא בתירוש ויצהר בלבד הנך משקין כיון דמפירות תרומה אתו הרי הן כתרומה. והאי דון מינה ומינה לאו דוקא קאמר דהא תמרים ותפוחים גופייהו אין תרומתן מן התורה אלא מדברי סופרים והכי הוא דקאמרינן כיון דבמידי דאורייתא אית לן דון מינה ומינה ואי הואי תרומת תמרים דאורייתא הוה גמרי לה מבכורים למשקין היוצאין מהן כמותן הכי נמי רבנן בדידהו כעין דאורייתא תקון:"
+     ],
+     "tosafot": [
+      "<b>אף תרומה אפילו שאר מינין</b> — ואם תאמר אכתי אימא דוקא שבעה מינים שהבכורים נוהגים בהן ויין תפוחים מנלן וי\"ל כיון דהויא אפילו במילי דרבנן הויא בכולהו:"
+     ]
+    },
+    {
+     "he": "וְרַבִּי יְהוֹשֻׁעַ סָבַר, דּוּן מִינַּהּ: מָה בִּכּוּרִים – מַשְׁקִין הַיּוֹצְאִין מֵהֶן כְּמוֹתָן, אַף תְּרוּמָה – מַשְׁקִין הַיּוֹצְאִין מֵהֶן כְּמוֹתָן. וְאוֹקֵי בְּאַתְרַהּ: מָה מַשְׁקִין דְּקָדָשִׁים בִּתְרוּמָה, תִּירוֹשׁ וְיִצְהָר – אִין, מִידֵּי אַחֲרִינָא – לָא, אַף מַשְׁקִין הַיּוֹצְאִין מֵהֶן כְּמוֹתָן, תִּירוֹשׁ וְיִצְהָר – אִין, מִידֵּי אַחֲרִינָא – לָא.",
+     "en": "<b>And Rabbi Yehoshua holds: Infer from it</b> that <b>just as</b> with regard to <b>first fruits</b> the status of the <b>liquid that emerges from them is like</b> that of the produce itself, <b>so too</b> with regard to <b><i>teruma</i>,</b> the status of the <b>liquid that emerges from it is like</b> that of the produce itself. <b>But interpret</b> the <i>halakha</i> <b>according to its</b> own <b>place: Just as</b> in the case of <b>liquids that are consecrated as <i>teruma</i>,</b> with regard to <b>wine and oil, yes,</b> they are included, <b>but other</b> types are <b>not</b> included, <b>so too</b> in the case of <b>liquid that emerges from</b> <i>teruma</i>, as with regard to <b>wine and oil, yes,</b> they <b>are like</b> the produce itself, <b>but any other</b> type of liquid that emerges from <i>teruma</i> is <b>not</b> like the produce itself. Therefore, Rabbi Yehoshua deems exempt a non-priest who consumed any of the beverages mentioned in the mishna.",
+     "rashi": [
+      "<b>ורבי יהושע סבר</b> — אי נמי הוא דאורייתא לא הויין משקין היוצאין מהן כמותן דאית לן דון מינה ומינה ואוקי באתרה דון מינה למה שהיא צריכה ללמוד הימנה דהיינו שיהו המשקין ממנה כמותה ותו לא תדון מינה אלא העמד אותה במקומה:",
+      "<b>תירוש ויצהר</b> — כתיבי בה ולא שאר משקין והנך משקין דנהגו בה תרומה הוא דילפינן מבכורים דאם קרא עליהן שם תרומה קודם שדרכן נאסרין משקה היוצא מהן אבל שאר משקין דלא כתיבא בהו תרומה אפילו היא כתיבא בפירות עצמן לא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָא דִּתְנַן: אֵין מְבִיאִין בִּכּוּרִים מַשְׁקֶה אֶלָּא הַיּוֹצֵא מִן הַזֵּיתִים וּמִן הָעֲנָבִים – מַנִּי?",
+     "en": "The Gemara cites <b>that which we learned</b> in a mishna (<i>Terumot</i> 11:3): <b>One may bring beverages</b> made from <b>first fruits</b> to the Temple <b>only</b> in the case of <b>that which emerges from the olives,</b> i.e., oil, <b>or from the grapes,</b> i.e., wine. The Gemara asks: In accordance with <b>whose</b> opinion is that mishna?",
+     "rashi": [
+      "<b>אין מביאין בכורים משקה</b> — לגמרי משמע אפילו הביא פירות ודרכן דאי בדרוכין ועומדין אפילו ענבים נמי לא דהא אמרן פרי אתה מביא ואי אתה מביא משקה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי יְהוֹשֻׁעַ הִיא, דְּאָמַר: דּוּן מִינַּהּ וְאוֹקֵי בְאַתְרַהּ, וְגָמַר לְהוּ לְבִכּוּרִים מִתְּרוּמָה.",
+     "en": "The Gemara answers: <b>It is</b> in accordance with the opinion of <b>Rabbi Yehoshua, who says: Infer from it but interpret</b> the <i>halakha</i> <b>according to its</b> own <b>place.</b> He derives the <i>halakha</i> of liquid that emerges from <i>teruma</i> from first fruits only with regard to wine and oil, <b>and</b> in the opposite direction, <b>he derives</b> the <i>halakha</i> <b>of</b> liquid that emerges from <b>first fruits from <i>teruma</i>.</b> Therefore, even with regard to first fruits the status of liquid that emerges from the produce is like that of the produce itself only with regard to wine and oil. But according to the opinion of Rabbi Eliezer, who holds that the <i>halakha</i> of liquid that emerges from <i>teruma</i> is derived from first fruits even with regard to other types of produce besides grapes and olives, contrary to the statement of that mishna, one may bring beverages extracted from other first fruits besides wine and oil to the Temple.",
+     "rashi": [
+      "<b>רבי יהושע היא דאמר</b> — גבי תרומה לא קדישי דאית ליה דון מינה ואוקי באתרה וכיון דבתרומה לא מתסרי הדר גמר לבכורים מינה דהא דרבי רחמנא בהו תביא זיתים וענבים הוא דרבי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָא דִּתְנַן: אֵין סוֹפְגִין אֶת הָאַרְבָּעִים מִשּׁוּם עׇרְלָה, אֶלָּא עַל הַיּוֹצֵא מִן הַזֵּיתִים וּמִן הָעֲנָבִים – מַנִּי?",
+     "en": "The Gemara cites <b>that which we learned</b> in the same mishna (<i>Terumot</i> 11:3): <b>One incurs the forty</b> lashes <b>due to</b> drinking the juice squeezed from <b><i>orla</i>,</b> i.e., the fruit of a tree during the first three years after its planting, <b>only for that which emerges from the olives or from the grapes.</b> The Gemara asks: In accordance with <b>whose</b> opinion is that mishna?",
+     "rashi": [
+      "<b>אין סופגין</b> — משום משקה הבא מפירות ערלה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי יְהוֹשֻׁעַ הִיא, דְּאָמַר: דּוּן מִינַּהּ וְאוֹקֵי בְּאַתְרַהּ, וְגָמַר לְהוּ לְבִכּוּרִים מִתְּרוּמָה,",
+     "en": "The Gemara answers: <b>It is</b> in accordance with the opinion of <b>Rabbi Yehoshua, who says: Infer from it but interpret</b> the <i>halakha</i> <b>according to its</b> own <b>place, and he derives</b> the <i>halakha</i> <b>of</b> liquid that emerges from <b>first fruits from <i>teruma</i>.</b> Therefore, even with regard to first fruits, the status of liquid that emerges from the produce is like that of the produce itself only with regard to wine and oil.",
+     "rashi": [
+      "<b>רבי יהושע היא דאמר</b> — בתרומה לא מיתסרי ואתו בכורים גמרי מתרומה בהיקשא דאיקרו תרומה ואתיא ערלה וגמר מבכורים מגזירה שוה:"
+     ],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}

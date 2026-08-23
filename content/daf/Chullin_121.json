@@ -1,0 +1,396 @@
+{
+ "tractate": "Chullin",
+ "page": 121,
+ "fetched": "2026-08-23",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 121a",
+   "he_ref": "חולין קכ״א.",
+   "url": "https://www.sefaria.org/Chullin.121a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=121&amud=a",
+   "segments": [
+    {
+     "he": "וַהֲדַר מַיְיתֵי לַהּ לְעׇרְלָה ״פְּרִי״ ״פְּרִי״ מִבִּכּוּרִים.",
+     "en": "<b>And then he derives</b> the <i>halakha</i> <b>of</b> liquid that emerges from <b><i>orla</i> from first fruits</b> via a verbal analogy between one instance of the word <b>fruit</b> and another instance of the word <b>fruit.</b> With regard to <i>orla</i> the verse states: “And you shall count the fruit thereof as forbidden” (Leviticus 19:23), and with regard to first fruits the verse states: “And you shall take of the first of all the fruit of the ground” (Deuteronomy 26:2). Therefore, just as with regard to first fruits the status of liquid that emerges from the produce is like that of the produce only with regard to grapes and olives, so too with regard to <i>orla</i> one receives lashes only for drinking the liquid of grapes and olives, but not for drinking the liquid of other types of produce.",
+     "rashi": [],
+     "tosafot": [
+      "<b>והדר מייתי [לה] לערלה פרי פרי מבכורים</b> — וא\"ת דבפ' כל שעה (פסחים כד:) פשיט מהך משנה דכל איסורים שבתורה אין לוקין עליהם אלא כדרך הנאתן והכא קאמר משום דגמר לה מבכורים וי\"ל דרבוי דהכא צריכי דלא נימא זיעה בעלמא הוא:"
+     ]
+    },
+    {
+     "he": "וְהָאָלָל. מַאי אָלָל? רַבִּי יוֹחָנָן אָמַר: מַרְטְקָא, וְרֵישׁ לָקִישׁ אָמַר: בָּשָׂר שֶׁפְּלָטַתּוּ סַכִּין.",
+     "en": "§The mishna teaches that <b>the <i>alal</i></b> joins together with the flesh to constitute the requisite egg-bulk to impart the impurity of food, despite not being considered food itself. The Gemara asks: To <b>what</b> is the term <b><i>alal</i></b> referring? <b>Rabbi Yoḥanan says:</b> It is referring to <b>the nuchal ligament [<i>marteka</i>]. And Reish Lakish says:</b> It is referring to the <b>meat</b> residue <b>that</b> is attached to the hide after <b>the knife has flayed</b> the flesh.",
+     "rashi": [
+      "<b>מרטקא</b> — גיד השדרה והצואר והוא רחב ולבן וקשה מאד וקורין אותו ייבו\"ל:",
+      "<b>בשר שפלטתו סכין</b> — כשמפשיטין את הבהמה פעמים שהסכין פולט מן הבשר אצל העור ולא חשיב. ולקמיה פריך היכי דמי דאצרופי מצרף ובאפי נפשיה אין מקבל טומאה:"
+     ],
+     "tosafot": [
+      "<b>מרטקא</b> — פי' ר\"ח בשר מת וכן נראה לר\"ת ולא כפי' הקונטרס שפי' גידי הצואר מדאמרינן פרק כל הפסולים (זבחים דף לה.) פגל באלל נתפגלה מוראה פגל במוראה לא נתפגלה אלל ובעוף אין גידי צואר קשין ומוראה לא שייך אלא בעוף ולמאן דמפרש בשר שפלטתו סכין לא קשה ליה מהתם דהא אמרי' בסמוך דלכ\"ע מרטקא נמי הוי אלל:"
+     ]
+    },
+    {
+     "he": "מֵיתִיבִי: ״וְאוּלָם אַתֶּם טֹפְלֵי שָׁקֶר רֹפְאֵי אֱלִל כֻּלְּכֶם״. בִּשְׁלָמָא לְמַאן דְּאָמַר מַרְטְקָא – הַיְינוּ דְּלָאו בַּר רְפוּאָה הוּא, אֶלָּא לְמַאן דְּאָמַר בָּשָׂר שֶׁפְּלָטַתּוּ סַכִּין – בַּר רְפוּאָה הוּא!",
+     "en": "The Gemara <b>raises an objection</b> to the explanation of Reish Lakish from that which is written: <b>“But you are plasterers of lies, you are all physicians of no value [<i>elil</i>]”</b> (Job 13:4). The term “no value [<i>elil</i>]” stems from the same linguistic root as the word <i>alal</i>. <b>Granted, according to the one who says</b> that the word <i>alal</i> is referring to <b>the nuchal ligament,</b> i.e., Rabbi Yoḥanan, <b>that is</b> why Job accused his companions of giving advice without merit by making an analogy to a physician who attempts to heal the nuchal ligament, <b>which cannot be healed. But according to the one who says</b> that the word <i>alal</i> is referring to the <b>meat</b> residue <b>that</b> is attached to the hide after <b>the knife has flayed</b> the flesh, i.e., Reish Lakish, flesh that is hanging from the hide <b>is able to be healed.</b>",
+     "rashi": [
+      "<b>ואולם אתם טופלי שקר</b> — איוב אמר לחביריו מחברי דברי שקר אתם ודבר שאין בו רפואה אתם אומרין לרפואתי. ומרטקא משנפסק אין לו רפואה להחבר עוד:",
+      "<b>בשר שפלטתו סכין בר רפואה הוא</b> — המדלדל בשר מן החי פעמים שקושרין אותו במקומו והוא נדבק ומעלה ארוכה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בָּאָלָל דִּקְרָא, דְּכוּלֵּי עָלְמָא לָא פְלִיגִי; כִּי פְּלִיגִי – בָּאָלָל דְּמַתְנִיתִין.",
+     "en": "The Gemara answers: <b>With regard to</b> the term <b><i>elil</i> in the verse, everyone agrees</b> that it is referring to the nuchal ligament. <b>When</b> Rabbi Yoḥanan and Reish Lakish <b>disagree,</b> it is <b>with regard to</b> the definition of the term <b><i>alal</i></b> employed by the Sages <b>in the mishna.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע, רַבִּי יְהוּדָה אוֹמֵר: הָאָלָל הַמְכוּנָּס, אִם יֵשׁ כְּזַיִת בְּמָקוֹם אֶחָד – חַיָּיבִין עָלָיו, וְאָמַר רַב הוּנָא: וְהוּא שֶׁכִּנְּסוֹ.",
+     "en": "<b>Come</b> and <b>hear</b> a resolution from that which is taught in the mishna: <b>Rabbi Yehuda says:</b> With regard to <b>the <i>alal</i> that</b> was <b>collected, if there is an olive-bulk</b> of it <b>in one place</b> it imparts the impurity of animal carcasses. Therefore, one who eats it or touches it and then eats consecrated food or enters the Temple <b>is liable</b> to receive <i>karet</i> <b>for it. And Rav Huna said:</b> This <i>halakha</i> <b>is</b> applicable only <b>when</b> a halakhically competent person <b>collected</b> the <i>alal</i> in one place, but not if the <i>alal</i> was collected by a child or without human intervention. By collecting it in one place, the person indicates that he considers it to be food.",
+     "rashi": [
+      "<b>המכונס</b> — הנאסף יחד יפה:",
+      "<b>חייבין עליו</b> — משום נבלה בין שאוכלו בין שנוגע בו ונכנס למקדש ופליג אמתני' דקתני אבל לא טומאת נבלות:",
+      "<b>והוא שכנסו</b> — דאחשביה וגלי דעתיה דלא בטליה מעיקרא אבל מתכנס מאליו או ע\"י תינוקות שלא במתכוין לא פליג ר' יהודה דליהוי נבלה:"
+     ],
+     "tosafot": [
+      "<b>ר' יהודה אומר חייבים עליו</b> — הא דלא קאמר מטמא טומאת נבלות דלא תימא מדרבנן להכי קאמר חייבין עליו:",
+      "<b>והוא שכנסו</b> — תימה מה שייכא מחשבה לאיסור דגבי טומאה שייך לחלק דאי מבטל ליה עץ בעלמא הוא אבל משום דבטליה לא משתרי באכילה לכך נראה דחייבין עליו לא מיירי לענין אכילה דלא צריך כנסו אלא לענין אם נכנס למקדש כמו שפי' בקונטרס בלשון אחר והא דלא נקט טמא דלא תימא מדרבנן כדפי' וכן נראה דאי אאכילה הא כיון דאכלו אין לך כינוס גדול מזה:"
+     ]
+    },
+    {
+     "he": "בִּשְׁלָמָא לְמַאן דְּאָמַר בָּשָׂר שֶׁפְּלָטַתּוּ סַכִּין, הַיְינוּ דְּכִי אִיכָּא כְּזַיִת מִיחַיַּיב, אֶלָּא לְמַאן דְּאָמַר מַרְטְקָא, כִּי אִיכָּא כְּזַיִת מַאי הָוֵי? עֵץ בְּעָלְמָא הוּא!",
+     "en": "<b>Granted, according to the one who says</b> that the word <i>alal</i> is referring to the <b>meat</b> residue <b>that</b> is attached to the hide after <b>the knife has flayed</b> the flesh, i.e., Reish Lakish, <b>that is</b> why Rabbi Yehuda says <b>that one is rendered liable when there is an olive-bulk</b> of <i>alal</i> collected in one place, because the person who collected it considers it to be food. <b>But according to the one who says</b> that the word <i>alal</i> is referring to <b>the nuchal ligament,</b> i.e., Rabbi Yoḥanan, even in a case <b>when there is an olive-bulk</b> of <i>alal</i> collected in one place, <b>what of it? It is merely wood,</b> i.e., it is unfit for consumption.",
+     "rashi": [
+      "<b>בשלמא למ\"ד</b> — אלל היינו בשר שפלטתו סכין היינו דמחייב דאיכא למימר כיון דכנסו אחשביה והדר למילתיה וגלי דעתיה דלא בטליה מעיקרא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַלִּיבָּא דְּרַבִּי יְהוּדָה לָא פְּלִיגִי, כִּי פְּלִיגִי אַלִּיבָּא דְּרַבָּנַן: רַבִּי יוֹחָנָן אָמַר: מַרְטְקָא נָמֵי מִצְטָרֵף, וְרֵישׁ לָקִישׁ אָמַר: דַּוְקָא בָּשָׂר שֶׁפְּלָטַתּוּ סַכִּין, אֲבָל מַרְטְקָא לָא מִצְטָרֵף.",
+     "en": "The Gemara answers: <b>According to</b> the opinion <b>of Rabbi Yehuda,</b> Rabbi Yoḥanan and Reish Lakish <b>do not disagree;</b> they agree that the term <i>alal</i> is referring to the meat residue attached to the hide after the knife has flayed the flesh. <b>When they disagree,</b> it is with regard to the definition of the word alal according to the opinion of the Rabbis. Rabbi Yoḥanan says: The Rabbis maintain that the nuchal ligament also joins together with the meat to constitute the requisite measure of an egg-bulk to impart the impurity of food. And Reish Lakish says: The Rabbis maintain that <b>specifically</b> the <b>meat</b> residue <b>that</b> is attached to the hide after <b>the knife has flayed</b> the meat joins together with the flesh, <b>but the nuchal ligament does not join together.</b>",
+     "rashi": [
+      "<b>באלל דר' יהודה לא פליגי</b> — דודאי רבי יהודה אבשר שפלטתו סכין קאי ורבי יוחנן נמי מודי דבשר שפלטתו סכין איקרי אלל ובמרטקא הוא דפליגי ולת\"ק ר' יוחנן אמר מרטקא נמי מקרי אלל כדאשכחן בקרא ואלל דמתני' דקאמר מצטרף בכולהו אלל קאמר דמצטרפי ובאפי נפשייהו לא מטמו ואתא רבי יהודה למימר באלל מרטקא מודינא דלא הוי בשר באנפי נפשיה לענין נבלות אבל בשר שפלטתו סכין אם חזר וכינסו גלי אדעתיה דלא בטליה וחייבין עליו משום נבלה:",
+      "<b>אבל מרטקא לא מצטרף</b> — דעץ בעלמא הוא:"
+     ],
+     "tosafot": [
+      "<b>ורבי יוחנן אמר אף מרטקא מצטרף</b> — ולאו בכה\"ג דהוי שומר דא\"כ מ\"ט דר\"ל עור ועצם מצטרפים משום שומר וצירוף שומר מקראי דרשינן לעיל (חולין דף קיח.) אלא מיירי כגון שיש בראשו כזית בשר דאע\"ג דלא הוי שומר מצטרף דראוי הוא שיאכל אגב בשר וריש לקיש סבר דלא מצטרף דאין ראוי לאכילה דעץ בעלמא הוא:"
+     ]
+    },
+    {
+     "he": "הַאי בָּשָׂר שֶׁפְּלָטַתּוּ סַכִּין, הֵיכִי דָמֵי? אִי דְּחַשֵּׁיב עֲלֵיהּ – אֲפִילּוּ בְּאַנְפֵּי נַפְשֵׁיהּ מִיטַּמֵּא, וְאִי דְּלָא חַשֵּׁיב עֲלֵיהּ – בַּטּוֹלֵיה בַּטְּלֵיהּ!",
+     "en": "<b>What are the circumstances</b> of <b>that</b> which is taught in the mishna, that the <b>meat</b> residue <b>that</b> is attached to the hide after <b>the knife flayed</b> the flesh joins together with the meat to constitute the measure of an egg-bulk required to impart the impurity of food? <b>If</b> it is a case <b>where one intends</b> to eat this meat residue, then it <b>can become impure</b> not only by joining together with the meat, but <b>even by itself,</b> like any other food. <b>And if</b> it is a case <b>where one does not intend</b> to eat this meat residue, why should it be susceptible to impurity at all? One has completely <b>nullified</b> its status as food.",
+     "rashi": [
+      "<b>אי דחשיב עליה</b> — אפילו בתר הכי:",
+      "<b>באנפי נפשיה</b> — נמי ליטמא טומאת אוכלין דקי\"ל דמחשבה שויא אוכלא כל מידי דמצי למיכליה ואע\"ג דלאו אורחיה כדאמרן בפרק בהמה המקשה (לעיל חולין דף עז:) עור ששלקו ושליא שחישב עליה מטמא טומאת אוכלין ונהי דתו לא הדר הוי בשר לענין טומאת נבלות דהא נעשה עור בבטולו הראשון אבל לאוכלו מיהא הוי לטמא טומאת אוכלין אם נגע בשרץ דלא גרע מעור ששלקו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי אָבִין וְרַבִּי מְיָישָׁא, חַד אָמַר: מִקְצָתוֹ חִישֵּׁב עָלָיו.",
+     "en": "<b>Rabbi Avin and Rabbi Meyasha</b> answered this dilemma. <b>One said:</b> It is a case where <b>one intends</b> to eat <b>part of</b> the meat residue, but it is uncertain which part. Therefore, the meat residue is not susceptible to impurity by itself because it is not entirely considered to be food, but the part that he intends to eat joins together with the meat to constitute the measure of an egg-bulk.",
+     "rashi": [
+      "<b>מקצתו חישב עליו</b> — ולא פי' איזה קצת הלכך כביצה מיניה לא מקבל טומאה דהא לא חישב על כולו אבל כי מצטרף בהדי שאר אוכלין מצטרף ההוא קצת מחשבה דאית ביה לאשלומי שיעורא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְחַד אָמַר: מִקְצָתוֹ פְּלָטַתּוּ חַיָּה, וּמִקְצָתוֹ פְּלָטַתּוּ סַכִּין.",
+     "en": "<b>And one said:</b> It is a case where one does not intend to eat any part of the meat residue. Rather, <b>an animal severed part of</b> the meat residue attached to the hide, and therefore that part of the meat residue retains its status as food. <b>And</b> the <b>knife severed part of</b> the meat residue, and one therefore nullified its status as food with regard to that part. Since it is uncertain which part was severed by a knife and which part by an animal, the meat residue itself is not susceptible to impurity, but the part that was severed by an animal joins together with the meat to constitute the measure of an egg-bulk.",
+     "rashi": [
+      "<b>פלטתו חיה</b> — נשכה כלב ודלדל מן הבשר לצד העור ואח\"כ שחטה והפליט גם הסכין עוד ואין ידוע אי זה מהן פלטה חיה ואיזה סכין וההוא דפלטתו חיה לא בטיל מסתמא וההוא דסכין בטליה מדעת וכולה בדלא חשיב עליה הלכך כי הוי בהדי שאר אוכלין מצטרף ההוא קצת דחיה בהדייהו ולטומאת נבלות לא ואע\"ג דפלטתו חיה דמתניתין רבי עקיבא היא דאמר העור מבטלו מטומאת נבלות ואפילו פלטתו חיה לקמן (חולין דף קכב.):"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תְּנַן הָתָם: הַחַרְטוֹם וְהַצִּפׇּרְנַיִם מִיטַּמְּאִין וּמְטַמְּאִין וּמִצְטָרְפִין. חַרְטוֹם – עֵץ בְּעָלְמָא הוּא!",
+     "en": "§The mishna stated that the horns join together with the flesh to constitute the requisite egg-bulk to impart the impurity of food. The Gemara comments that <b>we learned</b> in a mishna <b>elsewhere</b> (<i>Teharot</i> 1:2): <b>The beak and the talons</b> of a bird that come into contact with a creeping animal can <b>become impure, and transmit impurity</b> to food, <b>and join together</b> with the attached flesh to constitute the requisite measure to impart impurity. The Gemara asks: Why does <b>a beak</b> join together with the flesh to impart impurity? <b>It is merely wood,</b> i.e., it is unfit for consumption.",
+     "rashi": [
+      "<b>תנן התם</b> — במסכת טהרות (פ\"א מ\"ב) בסדר טהרות גבי נבלת עוף טהור:",
+      "<b>החרטום</b> — בי\"ק בלע\"ז:",
+      "<b>מיטמאין</b> — אם קבל העוף טומאה מן השרץ אלו נעשין יד להכניס ולהוציא טומאת. עוף אין לו טומאת מגע משום נבלה אא\"כ קבלה מאחרים שהרי אין לך אלא האמור בה טומאת אכילה לטמא בבית הבליעה:",
+      "<b>ומצטרפין</b> — לכביצה:"
+     ],
+     "tosafot": [
+      "<b>ה\"ג במשנה בטהרות החרטום והצפרנים מטמאין כו'</b> — ולא גרסינן בה קרנים וקרנים דמפרש בה רב פפא בסמוך אמתני' דהכא קאי:"
+     ]
+    },
+    {
+     "he": "אָמַר רַבִּי אֶלְעָזָר: בְּחַרְטוֹם תַּחְתּוֹן. תַּחְתּוֹן נָמֵי עֵץ בְּעָלְמָא הוּא! אָמַר רַב פָּפָּא: תַּחְתּוֹן שֶׁל עֶלְיוֹן.",
+     "en": "<b>Rabbi Elazar says:</b> The mishna is stated <b>with regard to the lower</b> half of the <b>beak,</b> i.e., the lower mandible. The Gemara objects: <b>The lower</b> mandible <b>is also merely wood. Rav Pappa says:</b> The mishna is discussing <b>the lower</b> section <b>of the upper</b> mandible and is referring to the membrane inside the mouth that is attached to the beak.",
+     "rashi": [
+      "<b>תחתון של עליון</b> — קליפת רצועה דקה יש בתוך הפה דבוקה לחרטום בעליון לארכו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "צִפׇּרְנַיִם, אָמַר רַבִּי אֶלְעָזָר: מָקוֹם (המובלעים) [הַמּוּבְלָע] בַּבָּשָׂר.",
+     "en": "Similarly, with regard to the <b>talons</b> mentioned in that mishna, <b>Rabbi Elazar says:</b> That mishna is not discussing the talons themselves, but rather <b>the place</b> at the base of the talon <b>that is subsumed within the flesh.</b>",
+     "rashi": [
+      "<b>צפרנים</b> — היכא הוו אוכל:",
+      "<b>מקום המובלע בבשר</b> — שרשי הצפרנים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "קַרְנַיִם, אָמַר רַב פָּפָּא: בִּמְקוֹם שֶׁחוֹתְכִין וְיוֹצֵא מֵהֶן דָּם.",
+     "en": "Similarly, with regard to the <b>horns</b> mentioned in the mishna, <b>Rav Pappa says:</b> The mishna is not discussing the hard substance of the horn, but rather is referring <b>to the place</b> at the base of the horns <b>where one severs</b> the horns <b>and blood flows from them.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "כְּיוֹצֵא בּוֹ, הַשּׁוֹחֵט בְּהֵמָה.",
+     "en": "§The mishna teaches: <b>Similarly,</b> in the case of <b>one who slaughters</b> a non-kosher <b>animal</b> for a gentile and the animal is still twitching and comes into contact with a source of impurity, it imparts impurity of food, but does not impart impurity of an animal carcass.",
+     "rashi": [
+      "<b>השוחט בהמה טמאה לעובד כוכבים</b> — הא פרישית לה (לעיל חולין קיז:) דכיון דדכוותה בשחיטת ישראל בטהורה משויא לה אוכלא בעודה מפרכסת ולישראל שריא דהא בשחיטה תליא להו מילתא השתא נמי הואיל וישראל שחטה שחיטה מעליא אע\"ג דבטמאה לא שייכא שחיטה ולעובד כוכבים לא משתרי עד שתמות דאבר מן החי הוא לגביה אפ\"ה מהניא מחשבת ישראל להאכילה לעובד כוכבים לשויא אוכלא בעודה מפרכסת וכ\"ש טהורה שאוכל היתר גמור הוא בעודה מפרכסת והא דאמרינן אסור לאכול מבהמה קודם שתצא נפשה מדרבנן הוא וכן עובד כוכבים בטהורה תניא נמי לקמן דהואיל וטהורה היא ואשכחן היתר בטהורה מפרכסת ששחטה ישראל השתא נמי כי שחטה עובד כוכבים הויא אוכל לטמא טומאת אוכלין מן השרץ שאם תחזור ותגע באוכלין אחרים קודם שתמות ותעשה נבלה תטמאם אבל ישראל בטהורה אין צריכה מחשבה ועובד כוכבים בטמאה לא מהניא לה מחשבה בעודה מפרכסת דלא אשכחן היתר בדכוותה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי אַסִּי: שׁוֹנִין יִשְׂרָאֵל בִּטְמֵאָה, וְגוֹי בִּטְהוֹרָה – צְרִיכִין מַחְשָׁבָה וְהֶכְשֵׁר מַיִם מִמָּקוֹם אַחֵר.",
+     "en": "<b>Rabbi Asi says:</b> Some Sages <b>teach</b> that when <b>a Jew</b> slaughters <b>a non-kosher</b> animal <b>or a gentile</b> slaughters <b>a kosher</b> animal, in order for it to be susceptible to impurity of food, it is <b>necessary</b> that the <b>intention</b> of the one performing the slaughter be that the flesh be designated as food while it is still twitching. <b>And</b> furthermore, in order for the animal to be <b>rendered susceptible</b> to impurity, it requires contact with <b>water</b> or another liquid that renders food susceptible to impurity that comes <b>from another place.</b> The blood of this slaughter is not considered a liquid that renders food susceptible to impurity because it flowed from a valid slaughter.",
+     "rashi": [
+      "<b>שונים</b> — יש תנאים ששונים שישראל בטמאה צריך מחשבה להאכילה לעובד כוכבים ואי לא חישב לא הויא אוכל עד שתמות וכן עובד כוכבים בטהורה:",
+      "<b>והכשר</b> — ממקום אחר הכשר מים דדם שחיטה דילה לא מכשר לה דלא איקרי משקה אלא דם חללים כדאמרינן בהשוחט (לעיל חולין דף לה:) ומיהו דם שחיטה הוגנת מכשיר דאיתקש למים דכתיב על הארץ תשפכנו כמים כדאמרינן בהשוחט (שם) אבל דעובד כוכבים לאו דם חללים הוא ולא דם שחיטה הוא והוי כדם מגפתו וכדם המת דחלל לא מיקרי אלא על ידי גיסטרא ומצואר כדאמרינן בסוטה (דף מה:) לתת אותה על צוארי חלל רשע:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הֶכְשֵׁר לְמָה לִי? סוֹפוֹ לְטַמֵּא טוּמְאָה חֲמוּרָה, וְכֹל שֶׁסּוֹפוֹ לְטַמֵּא טוּמְאָה חֲמוּרָה – לָא בָּעֵי הֶכְשֵׁר.",
+     "en": "The Gemara asks: <b>Why do I</b> need the animal to come in contact with liquid in order for it to be <b>rendered susceptible</b> to impurity of food? The flesh of the animal <b>will eventually become impure</b> with a more <b>severe</b> level of <b>impurity</b> when it dies, i.e., impurity of an animal carcass. <b>And any</b> food <b>that will eventually become impure</b> with a more <b>severe</b> level of <b>impurity does not require</b> contact with liquid to be <b>rendered susceptible</b> to impurity of food.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "דְּתָנֵי דְּבֵי רַבִּי יִשְׁמָעֵאל: ״וְכִי יֻתַּן מַיִם עַל זֶרַע״, מָה זְרָעִים שֶׁאֵין סוֹפָן לְטַמֵּא טוּמְאָה חֲמוּרָה צְרִיכִין הֶכְשֵׁר, אַף כֹּל שֶׁאֵין סוֹפוֹ לְטַמֵּא טוּמְאָה חֲמוּרָה צָרִיךְ הֶכְשֵׁר.",
+     "en": "The Gemara now explains the source of this principle. <b>As the school of Rabbi Yishmael teaches:</b> With regard to rendering food susceptible to impurity through contact with liquid, the verse states: <b>“But if water is put upon the seed,</b> and any of the carcass falls on it, it is impure for you” (Leviticus 11:38). <b>Just as seeds, which will never contract</b> a more <b>severe</b> level of <b>impurity,</b> because no form of severe impurity applies to foods other than meat, <b>require</b> contact with liquid to <b>render</b> them <b>susceptible</b> to their less severe level of impurity, <b>so too any</b> food <b>that will never contract</b> a more <b>severe</b> level of <b>impurity requires</b> contact with liquid to be <b>rendered susceptible</b> to impurity of food. By contrast, any food that will become impure with a more severe level of impurity does not require contact with liquid to be rendered susceptible to impurity of food.",
+     "rashi": [
+      "<b>הרי סופה לטמא טומאה חמורה</b> — אדם וכלים בכזית ואפילו במשא כשתמות:",
+      "<b>זרעים</b> — אינן נעשין אב הטומאה עולמית ואפילו נגעו במת שהוא אבי אבות ואינן נעשין אב לטמא אדם וכלים דמהיכא נפקא דנוגע במת מטמא אדם מהאי קרא דכתיב (במדבר יט) וכל אשר יגע בו הטמא יטמא והנפש הנוגעת באותו טמא תטמא עד הערב וכי כתיב האי קרא בדבר שיש לו טהרה בהזאה ובטבילה כתיב דכתיב לעיל מיניה והזה הטהור על הטמא וגו' ובההוא טמא קאי והנפש הנוגעת יצאו אוכלין ומשקין וכלי חרס הואיל ואין להם טהרה במקוה אין נעשין אב הטומאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְתַנְיָא, אָמַר רַבִּי יוֹסֵי: מִפְּנֵי מָה אָמְרוּ נִבְלַת עוֹף טָהוֹר צְרִיכָה מַחְשָׁבָה וְאֵינָהּ צְרִיכָה הֶכְשֵׁר? מִפְּנֵי",
+     "en": "<b>And</b> similarly, <b>it is taught</b> in a <i>baraita</i> that <b>Rabbi Yosei says: For what</b> reason <b>did</b> the Sages <b>say</b> that in order for <b>the carcass of a kosher bird</b> to become susceptible to impurity it <b>requires</b> that the <b>intention</b> of the one performing the slaughter be to designate the animal as food, <b>but it is not required</b> for the bird to be <b>rendered susceptible</b> to impurity through contact with liquid? The reason is <b>because</b>",
+     "rashi": [
+      "<b>נבלת עוף טהור צריכה מחשבה</b> — לקבל טומאת אוכלים מן השרץ שאם לא חישב עליה לאוכלה אינה מקבלת טומאה ואם חזרה ונגעה באוכלים לא נטמאו:",
+      "<b>ואינה צריכה הכשר</b> — משנה היא במסכת טהרות (פ\"א מ\"א) שלשה עשר דברים נאמרו בעוף טהור וזו אחת מהן:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 121b",
+   "he_ref": "חולין קכ״א:",
+   "url": "https://www.sefaria.org/Chullin.121b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=121&amud=b",
+   "segments": [
+    {
+     "he": "שֶׁסּוֹפָהּ לְטַמֵּא טוּמְאָה חֲמוּרָה!",
+     "en": "<b>eventually</b> the carcass of the bird <b>will impart</b> a more <b>severe impurity</b> when it is in the throat of the person who consumes it. Therefore, it is not necessary for the carcass of a kosher bird to come in contact with liquid in order for it to be susceptible to impurity.",
+     "rashi": [
+      "<b>שסופה לטמא טומאה חמורה</b> — אדם ובגדים אם יאכלנה הילכך אינה צריכה הכשר דילפינן מזרעים. וטעמא דמחשבה משום דסתמא לאו לאכילה קיימא ובכפרים קיימינן שאין רגילים לאכול עופות אבל בכרכים תנן (עוקצים פ\"ג משנה ג) דאין צריכין מחשבה דסתמא לאכילת עובדי כוכבים עומדת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר חִזְקִיָּה: הוֹאִיל וְיָכוֹל לְגוֹרְרָהּ, וּלְהַעֲמִידָהּ עַל פָּחוֹת מִכְּזַיִת.",
+     "en": "<b>Ḥizkiyya says</b> in response: The reason for the opinion of the Sages stated by Rabbi Asi is <b>since</b> the slaughterer <b>is able to chop</b> the animal into small pieces <b>and</b> thereby <b>establish</b> the volume of every piece of the animal <b>as less than an olive-bulk.</b> In such a scenario, the animal would not be susceptible to impurity. Therefore, it is not certain that the animal will eventually become impure with a more severe impurity.",
+     "rashi": [
+      "<b>אמר חזקיה</b> — שאני מתניתין דבמפרכסת קיימינן שעדיין אין בה טומאה חמורה וסופה נמי שמא לא תבא לידי טומאה חמורה שהרי הוא יכול לגוררה לגירורים דקים פחותים פחותים מכזית עד שתכלה כולה ושוב לא תטמא טומאת נבלות אבל נבלת עוף טהור כבר מתה וראויה לטמא טומאה חמורה:"
+     ],
+     "tosafot": [
+      "<b>הואיל ויכול לגוררה ולהעמידה על פחות מכזית</b> — פ\"ה שיכול לחותכה בחתיכות קטנות פחותות מכזית בעודה מפרכסת ולא היה צריך לפרש כן אלא אפילו חתיכות גדולות ובלבד שלא יהיו אברים דבשר מן החי לא מטמא כדאמר לקמן בפרקין (חולין דף קכח:) ועל הנבלה הוא דקאמר צריך שישייר ויעמיד על (טומאה) פחות מכזית:",
+      "<b>ולהעמידה על מידה על פחות מכזית</b> — וא\"ת השתא נמי סופו לטמא טומאה חמורה כיון דאילו מצטרף ליה עם חצי זית אחר מטמא כדאמר פ' דם שחיטה (כריתות דף כא.) וי\"ל דהתם בנבלה שמתה לגמרי מהני צירוף אבל הכא הואיל וסופו לטמא טומאה חמורה אחר שתמות שיצרפנה לכזית לא אמרי':"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַבִּי יִרְמְיָה לְרַבִּי זֵירָא: וּמִי אָמַר חִזְקִיָּה הָכִי? וְהָא אִיתְּמַר: שָׁחַט בָּהּ שְׁנַיִם אוֹ רוֹב שְׁנַיִם, וַעֲדַיִין הִיא מְפַרְכֶּסֶת – חִזְקִיָּה אָמַר: אֵינָהּ לְאֵבָרִים, רַבִּי יוֹחָנָן אָמַר: יֶשְׁנָהּ לְאֵבָרִים.",
+     "en": "<b>Rabbi Yirmeya said to Rabbi Zeira: And did Ḥizkiyya</b> actually <b>say such</b> a statement? <b>But wasn’t it stated:</b> If one <b>slaughtered</b> a non-kosher animal in a valid manner by cutting the <b>two</b> <i>simanim</i>, i.e., the windpipe and the gullet, <b>or the majority of</b> the <b>two</b> <i>simanim</i>, <b>and</b> the animal <b>is still twitching, Ḥizkiyya says: There is no</b> prohibition against eating the <b>limbs</b> from such a twitching animal. Therefore, a gentile, who is prohibited from consuming a limb from a living animal, may consume this animal. <b>Rabbi Yoḥanan says: There is</b> a prohibition against eating the <b>limbs</b> of such an animal.",
+     "rashi": [
+      "<b>ומי אמר חזקיה הכי</b> — אלמא סבירא ליה לחזקיה הא דתנן דאין טומאת נבלות במפרכסת:",
+      "<b>שחט בה</b> — בטמאה:",
+      "<b>אינה לאברים</b> — אין בן נח מוזהר עליה משום אבר מן החי וכ\"ש בטהורה דליכא מידי דלישראל שרי ולעובד כוכבים אסור ואפילו רבי יוחנן מודי בה בטהורה:"
+     ],
+     "tosafot": [
+      "<b>ומי אמר חזקיה הכי</b> — דחזקיה אחזקיה ניחא ליה לאקשויי אע\"ג דהוי מצי לאקשויי בלאו הכי ממתניתין דקתני אבל לא טומאת נבילות אחזקיה דאמר מתה היא:"
+     ]
+    },
+    {
+     "he": "חִזְקִיָּה אָמַר אֵינָהּ לְאֵבָרִים: מֵתָה הִיא. רַבִּי יוֹחָנָן אָמַר יֶשְׁנָהּ לְאֵבָרִים: לָאו מֵתָה הִיא.",
+     "en": "The Gemara explains the opinions: <b>Ḥizkiyya says</b> that <b>there is no</b> prohibition against eating the <b>limbs</b> of such an animal, as since it was slaughtered in a valid manner <b>it is</b> considered <b>dead. Rabbi Yoḥanan says</b> that <b>there is</b> a prohibition against eating the <b>limbs</b> of such an animal, as since it is twitching <b>it is not</b> yet <b>dead.</b> Therefore, since Ḥizkiyya maintains that a twitching animal is considered dead, it should have the impurity of a carcass, contrary to the opinion of the Sages cited by Rabbi Asi, as well as the mishna.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ: יָצְתָה מִכְּלַל חַיָּה, וְלִכְלַל מֵתָה לֹא בָּאת.",
+     "en": "Rabbi Zeira <b>said to</b> Rabbi Yirmeya in response: Ḥizkiyya maintains that such an animal has <b>left the category of a living</b> animal, <b>but has not entered the category of a dead</b> animal. Therefore, it is not prohibited for a gentile to consume such an animal, but the animal does not have the impurity of a carcass.",
+     "rashi": [
+      "<b>א\"ל</b> — מודה חזקיה דאינה מטמאה כנבילה ואע\"פ שמותרת לבני נח דיצאה מכלל חיה ולכלל מתה לא באת ובטומאת נבלות כתיב וכי ימות:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "גּוּפָא: שָׁחַט בָּהּ שְׁנַיִם, אוֹ רוֹב שְׁנַיִם, וַעֲדַיִין הִיא מְפַרְכֶּסֶת – חִזְקִיָּה אָמַר: אֵינָהּ לְאֵבָרִים, רַבִּי יוֹחָנָן אָמַר: יֶשְׁנָהּ לְאֵבָרִים. אָמַר רַבִּי אֶלְעָזָר: נְקוֹט לְהָא דְּרַבִּי יוֹחָנָן בְּיָדְךָ, דְּתָנֵי רַב אוֹשַׁעְיָא כְּוָותֵיהּ.",
+     "en": "§The Gemara discusses <b>the</b> matter <b>itself</b> of the dispute between Ḥizkiyya and Rabbi Yoḥanan: If one <b>slaughtered</b> a non-kosher animal by cutting the <b>two</b> <i>simanim</i>, <b>or the majority of</b> the <b>two</b> <i>simanim</i>, <b>and</b> the animal <b>is still twitching, Ḥizkiyya says: There is no</b> prohibition against eating its <b>limbs. Rabbi Yoḥanan says: There is</b> a prohibition against eating its <b>limbs. Rabbi Elazar said: Take that</b> opinion <b>of Rabbi Yoḥanan in your hand</b> and accept it, <b>as Rav Oshaya teaches</b> a <i>baraita</i> <b>in accordance with his</b> opinion.",
+     "rashi": [
+      "<b>דתני רב אושעיא כוותיה</b> — דאסורה לבני נח:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּתָנֵי רַב אוֹשַׁעְיָא: יִשְׂרָאֵל שֶׁשָּׁחַט בְּהֵמָה טְמֵאָה לְגוֹי, שָׁחַט בָּהּ שְׁנַיִם אוֹ רוֹב שְׁנַיִם, וּמְפַרְכֶּסֶת – מְטַמְּאָה טוּמְאַת אֳכָלִין, אֲבָל לֹא טוּמְאַת נְבֵלוֹת.",
+     "en": "<b>As Rav Oshaya teaches</b> (<i>Tosefta</i>, <i>Oholot</i> 2:1): In the case of <b>a Jew who slaughtered a non-kosher animal for</b> the consumption of <b>a gentile,</b> if <b>he slaughtered</b> it by cutting <b>two</b> <i>simanim</i> <b>or the majority of two</b> <i>simanim</i>, <b>and</b> the animal is still <b>twitching,</b> the animal <b>imparts impurity of food; but</b> so long as it is twitching it does <b>not</b> impart <b>the impurity of</b> animal <b>carcasses.</b>",
+     "rashi": [
+      "<b>מטמאה טומאת אוכלין</b> — אם נגעה בשרץ וחזרה ונגעה באוכלין הואיל וישראל שחטה שחיטה מעלייתא וחישב עליה להאכילה לעובד כוכבים כדפרישית לעיל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֵבֶר הַפּוֹרֵשׁ מִמֶּנָּה, כְּפוֹרֵשׁ מִן הַחַי, וּבָשָׂר הַפּוֹרֵשׁ מִמֶּנָּה, כְּבָשָׂר הַפּוֹרֵשׁ מִן הַחַי, וְאָסוּר לִבְנֵי נֹחַ, וַאֲפִילּוּ לְאַחַר שֶׁתֵּצֵא נַפְשָׁהּ.",
+     "en": "<b>A limb that separates from</b> this twitching animal is considered <b>like</b> a limb that <b>separates from a living</b> animal, and as such it imparts the impurity of a carcass. <b>And flesh that separates from</b> this twitching animal is considered <b>like flesh that separates from a living</b> animal, and as such it does not impart impurity. <b>And it is prohibited for the descendants of Noah</b> to consume the flesh that separates from this twitching animal, <b>and</b> this prohibition applies <b>even after its soul departs.</b> This ruling of Rav Oshaya is in accordance with the opinion of Rabbi Yoḥanan.",
+     "rashi": [
+      "<b>כפורש מן החי</b> — ומטמא מיד כאבר מן הנבלה דאמרי' בהאי פירקא (לקמן חולין דף קכח:) אבר מן החי מטמא כנבלה:",
+      "<b>ובשר הפורש ממנה כפורש מן החי</b> — אין בו טומאה דבשר הפורש מן החי טהור ולהכי הוי כמן החי שאסור לבני נח:",
+      "<b>אפילו לאחר שתצא נפשה</b> — הואיל ונחתך מחיים והיינו כר' יוחנן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "שָׁחַט בָּהּ אֶחָד, אוֹ רוֹב אֶחָד – אֵינָהּ מְטַמְּאָה טוּמְאַת אֳכָלִין; נְחָרָהּ – אֵין בָּהּ טוּמְאָה שֶׁל כְּלוּם.",
+     "en": "The Gemara cites the continuation of the <i>Tosefta</i>: In the case where a Jew slaughtered a non-kosher animal for a gentile’s consumption, if <b>he slaughtered</b> it by cutting only <b>one</b> <i>siman</i> <b>or the majority of one</b> <i>siman</i>, and the animal is still twitching, the animal <b>does not impart the impurity of food</b> because the slaughter was invalid. Similarly, if he did not perform a valid slaughter but rather <b>stabbed</b> the animal, the animal <b>has no impurity whatsoever</b> while it is still twitching.",
+     "rashi": [
+      "<b>שחט בה אחד אינה מטמאה טומאת אוכלין</b> — דלא אשכחן היתר אכילה בדכוותה לא לישראל ולא לבני נח וכן בנחרה ועודה מפרכסת:"
+     ],
+     "tosafot": [
+      "<b>נחרה אין בה טומאה של כלום</b> — היינו נמי אין מטמאה טומאת אוכלין דקתני גבי שחט בה סימן אחד אלא משום דלא עשה בה דרך שחיטה נקט האי לישנא כלומר נחרה והתם פשוט דאין בה טומאה כלל כיון דלא עבד כלל דרך שחיטה:"
+     ]
+    },
+    {
+     "he": "וְגוֹי שֶׁשָּׁחַט בְּהֵמָה טְהוֹרָה לְיִשְׂרָאֵל, וּמְפַרְכֶּסֶת – מְטַמְּאָה טוּמְאַת אֳכָלִין, אֲבָל לֹא טוּמְאַת נְבֵלָה.",
+     "en": "<b>And</b> similarly, in the case of <b>a gentile who slaughtered a kosher animal for</b> the consumption of <b>a Jew, and</b> the animal <b>is</b> still <b>twitching,</b> the animal <b>imparts the impurity of food</b> because it is considered to be food, <b>but</b> so long as it is twitching it does <b>not</b> impart <b>the impurity of an animal carcass.</b>",
+     "rashi": [
+      "<b>מטמאה טומאת אוכלין</b> — הואיל ויש היתר אכילה בדוגמתה אם שחטה ישראל השתא נמי מהניא לה הך מחשבת עובד כוכבים לצורך ישראל לשוייה אוכל:"
+     ],
+     "tosafot": [
+      "<b>ועובד כוכבים ששחט בהמה טהורה לישראל</b> — רבותא נקט דאפי' לישראל דבשחיטה תליא מילתא אבר הפורש ממנה כפורש מן החי:"
+     ]
+    },
+    {
+     "he": "אֵבֶר הַפּוֹרֵשׁ מִמֶּנָּה, כְּפוֹרֵשׁ מִן הַחַי, וּבָשָׂר הַפּוֹרֵשׁ מִמֶּנָּה, כְּפוֹרֵשׁ מִן הַחַי, וְאָסוּר לִבְנֵי נֹחַ, וַאֲפִילּוּ לְאַחַר שֶׁתֵּצֵא נַפְשָׁהּ.",
+     "en": "<b>A limb that separates from</b> this twitching animal is considered <b>like</b> a limb that <b>separates from a living</b> animal, and as such it imparts the impurity of a carcass. <b>And flesh that separates from</b> this twitching animal is considered <b>like</b> flesh that <b>separates from a living</b> animal, and as such it does not impart the impurity of food. <b>And it is prohibited for the descendants of Noah</b> to consume the flesh that separates from this twitching animal, <b>and</b> this prohibition applies <b>even after its soul departs.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "שָׁחַט בָּהּ אֶחָד אוֹ רוֹב אֶחָד – אֵינָהּ מְטַמְּאָה טוּמְאַת אֳכָלִין, נְחָרָהּ – אֵין בָּהּ טוּמְאָה שֶׁל כְּלוּם.",
+     "en": "If the gentile <b>slaughtered</b> the kosher animal by cutting only <b>one</b> <i>siman</i> <b>or the majority of one</b> <i>siman</i>, and the animal is still twitching, the animal <b>does not impart impurity of food</b> because the slaughter was not valid. Similarly, if he <b>stabbed</b> the animal rather than slaughtering it properly, <b>it has no impurity whatsoever.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "שָׁחַט גּוֹי בִּמְקוֹם שֶׁאֵין עוֹשֶׂה אוֹתָהּ טְרֵפָה, וּבָא יִשְׂרָאֵל וּגְמָרָהּ – כְּשֵׁרָה.",
+     "en": "If <b>a gentile</b> partially <b>slaughtered</b> a kosher animal <b>in a place that does not render</b> the animal <b>a <i>tereifa</i>,</b> i.e., unfit for consumption due to a mortal wound, e.g., he cut half of the windpipe, <b>and</b> then <b>a Jew came and completed</b> the slaughter, the animal is <b>fit</b> for consumption.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "שָׁחַט יִשְׂרָאֵל, בֵּין בִּמְקוֹם שֶׁעוֹשֶׂה אוֹתָהּ טְרֵפָה, וּבֵין בִּמְקוֹם שֶׁאֵין עוֹשֶׂה אוֹתָהּ טְרֵפָה, וּבָא גּוֹי וְגָמַר שְׁחִיטָתוֹ – פְּסוּלָה.",
+     "en": "But if <b>a Jew slaughtered</b> the animal, <b>either in a place that renders</b> the animal <b>a <i>tereifa</i>,</b> e.g., he cut the majority of the windpipe, <b>or in a place that does not render</b> the animal <b>a <i>tereifa</i>,</b> e.g., he only partially cut the windpipe, <b>and</b> then <b>a gentile came and completed</b> the slaughter, <b>his slaughter is not valid.</b>",
+     "rashi": [
+      "<b>במקום שאין עושה אותה טרפה</b> — כגון חצי קנה:",
+      "<b>שחט ישראל</b> — וגמר עובד כוכבים הואיל וגמרו ביד עובד כוכבים טרפה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָרוֹצֶה שֶׁיֹּאכַל מִבְּהֵמָה קוֹדֶם שֶׁתֵּצֵא נַפְשָׁהּ, חוֹתֵךְ כְּזַיִת בָּשָׂר מִבֵּית שְׁחִיטָתָהּ, וּמוֹלְחוֹ יָפֶה יָפֶה, וּמְדִיחוֹ יָפֶה יָפֶה, וּמַמְתִּין לַהּ עַד שֶׁתֵּצֵא נַפְשָׁהּ, וְאוֹכְלוֹ. אֶחָד גּוֹי וְאֶחָד יִשְׂרָאֵל מוּתָּרִין בּוֹ.",
+     "en": "The <i>baraita</i> continues: <b>One who wishes to eat from</b> the meat of a slaughtered <b>animal before its soul departs may cut an olive-bulk of meat from the area of its slaughter,</b> the neck, <b>and salt it very well,</b> i.e., more than is normally required, <b>and rinse it very well</b> in water to remove the salt and blood, <b>and</b> then <b>wait until</b> the animal’s <b>soul departs, and</b> then <b>eat it. Both a gentile and a Jew are permitted to</b> eat <b>it</b> because the prohibition against eating a limb from a living animal is not applicable in such a case.",
+     "rashi": [
+      "<b>יפה יפה</b> — יותר מבשר אחר מפני שלא הספיק דמו לצאת וכשחותכו נבלע בתוכה לפי שכשהבהמה מוציאה נשמה היא מתאנחת ומוציא דמה יפה:",
+      "<b>וממתין לה עד שתצא נפשה</b> — כדתניא בארבע מיתות (סנהדרין דף סג.) מנין לאוכל מבהמה קודם שתצא נפשה שהוא בלא תעשה שנאמר לא תאכלו על הדם ואסמכתא דרבנן בעלמא היא:",
+      "<b>אחד עובד כוכבים ואחד ישראל מותרים בו</b> — דהואיל ומותר לישראל הותר אף לעובד כוכבים דליכא מידי דלישראל שרי ולעובד כוכבים אסור. אבל הנך דלעיל שחיטת טמאה וכן שחיטת עובד כוכבים בטהורה אין בה היתר לישראל ולעובד כוכבים נמי לא משתריא דחיה היא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מְסַיַּיע לֵיהּ לְרַב אִידִי בַּר אָבִין, דְּאָמַר רַב אִידִי בַּר אָבִין אָמַר רַב יִצְחָק בַּר אַשְׁיָין: הָרוֹצֶה שֶׁיַּבְרִיא, חוֹתֵךְ כְּזַיִת בָּשָׂר מִבֵּית שְׁחִיטָה, וּמוֹלְחוֹ יָפֶה יָפֶה, וּמְדִיחוֹ יָפֶה יָפֶה, וּמַמְתִּין לָהּ עַד שֶׁתֵּצֵא נַפְשָׁהּ, אֶחָד גּוֹי וְאֶחָד יִשְׂרָאֵל מוּתָּרִים בּוֹ.",
+     "en": "The Gemara notes: This <i>baraita</i> <b>supports</b> the opinion of <b>Rav Idi bar Avin, as Rav Idi bar Avin said</b> that <b>Rav Yitzḥak bar Ashyan said: One who wants to be healthy should cut an olive-bulk of meat from the area of the slaughter, and salt it very well and rinse it very well, and</b> then <b>wait until</b> the animal’s <b>soul departs,</b> and then <b>both a gentile and a Jew are permitted to</b> eat <b>it.</b>",
+     "rashi": [
+      "<b>מסייע ליה לרב אידי</b> — הא דקתני שאף העובד כוכבים מותר בו:",
+      "<b>שיבריא</b> — בשר זה טוב לרפואה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בָּעֵי רַבִּי אֶלְעָזָר: שָׁהָה בָּהּ, דָּרַס בָּהּ – מַהוּ?",
+     "en": "§It was previously taught in the <i>baraita</i> that if a Jew slaughtered a non-kosher animal for a gentile’s consumption, or a gentile slaughtered a kosher animal for a Jew’s consumption, that animal imparts impurity of food when it is twitching after the slaughter. With regard to that <i>halakha</i>, <b>Rabbi Elazar raises a dilemma: What is</b> the <i>halakha</i> in such a case if <b>one interrupted</b> the slaughter or <b>pressed</b> on the knife during the slaughter? Do these acts, which normally invalidate slaughter, also invalidate this slaughter, or does the slaughter in this case not have to fulfill all of the halakhic requirements of valid slaughter in order to render the slaughtered animal as food with regard to imparting the impurity of food?",
+     "rashi": [
+      "<b>בעי רבי אלעזר</b> — מתניתין דישראל בטמאה ועובד כוכבים בטהורה דטעמא דמשוינן לה אוכלא משום שחיטה היא דהא נחרה אין בה טומאה:",
+      "<b>שהה בה או דרס מהו</b> — מי הוי כנחירה ולא מטמאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ הָהוּא סָבָא: הָכִי אָמַר רַבִּי יוֹחָנָן: צְרִיכָה הֶכְשֵׁר שְׁחִיטָה כִּבְהֵמָה טְהוֹרָה. הֶכְשֵׁר לְמַאי? אָמַר רַב שְׁמוּאֵל בַּר יִצְחָק: בְּדִיקַת סַכִּין.",
+     "en": "<b>A certain elder</b> resolved this dilemma and <b>said to him: Rabbi Yoḥanan said as follows:</b> This case <b>requires a valid slaughter</b> in every detail, <b>just like</b> a Jew slaughtering <b>a kosher animal.</b> The Gemara clarifies: <b>To what</b> requirement does <b>valid</b> slaughter just like a kosher animal refer? <b>Rav Shmuel bar Yitzḥak said:</b> It is referring to the requirement of <b>examining the knife</b> before the slaughter.",
+     "rashi": [
+      "<b>כבהמה טהורה</b> — כאילו מטהרה לאכילה:",
+      "<b>למאי</b> — הלכתא קא דייק כולי האי הכשר שחיטה בטהורה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בְּעָא מִינֵּיהּ רַבִּי זֵירָא מֵרַב שֵׁשֶׁת: מַהוּ שֶׁתַּצִּיל עַל הַבְּלוּעִין שֶׁבְּתוֹכָהּ?",
+     "en": "<b>Rabbi Zeira asked Rav Sheshet:</b> If a non-kosher animal slaughtered by a Jew is twitching under the same roof as a corpse, and the animal swallowed items before being slaughtered, <b>what is</b> the <i>halakha</i> <b>with regard to</b> those swallowed items that are inside the animal? Is the animal considered to be living and therefore <b>it should save</b> these items <b>that are swallowed inside it</b> from the impurity transmitted by the corpse to all items under the same roof? Or is the animal considered to be dead and therefore the items become impure?",
+     "rashi": [
+      "<b>מהו שתציל על הבלועין שבתוכה</b> — ישראל בטמאה ועובד כוכבים בטהורה ומפרכסת ובלעה כלים בחייה והרי היא באהל המת מהו שתציל עליהן כדאמרן בבהמה המקשה (לעיל חולין דף עא:) בלע טבעת טהורה ונכנס לאהל המת לא נטמאה הכא מאי כיון דאינה מטמאה טומאת נבלות חיה היא או דילמא כיון דמטמאה טומאת אוכלין אינה מצלת דלאו בלוע הוא. ובישראל בטהורה לא מיבעי לן דודאי אינה מצלת הואיל ואף באכילה מותרת ועובד כוכבים בטמאה פשיטא לן דמצלת הואיל ואין בה טומאה של כלום אלמא חיה היא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ מְטַמְּאָה טוּמְאַת אֳכָלִין, וּמַצֶּלֶת? אֲמַר לֵיהּ: אֵינָהּ מְטַמְּאָה טוּמְאַת נְבֵלוֹת, וְלֹא תַּצִּיל?",
+     "en": "<b>Rav Sheshet said to</b> Rabbi Zeira: Since it is established that such an animal is considered to be dead and <b>imparts impurity of food,</b> is it possible that it <b>saves</b> those items inside it from impurity? Certainly it does not. Rabbi Zeira <b>said to him</b> in response: It is also established that such an animal <b>does not impart impurity of carcasses and</b> is considered to be a living animal in that regard. How is it possible that the animal <b>does not save</b> those items inside it from impurity?",
+     "rashi": [
+      "<b>א\"ל מטמאה טומאת אוכלין</b> — אלמא מתה היא:",
+      "<b>ומצלת</b> — בתמיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: אֵינָהּ מַצֶּלֶת עַל הַבְּלוּעִים שֶׁבְּתוֹכָהּ, דְּהָא מְטַמְּאָה טוּמְאַת אֳכָלִין, וְהָרוֹבְעָהּ חַיָּיב, דְּהָא אֵינָהּ מְטַמְּאָה טוּמְאַת נְבֵלָה.",
+     "en": "<b>Abaye</b> resolved the dilemma and <b>said:</b> It is proper to treat this case stringently. Therefore, such an animal <b>does not save</b> the items <b>that are swallowed inside it because it imparts impurity of food. But one who engages in bestiality with</b> such an animal <b>is liable because</b> the animal <b>does not impart impurity of a carcass</b> and is considered to be living in that regard.",
+     "rashi": [
+      "<b>אמר אביי אינה מצלת כו'</b> — לחומרא:",
+      "<b>חייב</b> — מיתה במזיד וחטאת בשוגג:"
+     ],
+     "tosafot": [
+      "<b>אביי אמר אינה מצלת כו'</b> — וטעמא משום דכי חיה היא לכל דבריה ולכך רובעה חייב ומ\"מ מטמא טומאת אוכלין כיון דבת אכילה היא ובקונט' פירש משום דלחומרא ותימה אי ספיקא היא אמאי רובעה חייב:"
+     ]
+    },
+    {
+     "he": "רַבִּי יְהוּדָה אוֹמֵר: הָאָלָל [וְכוּ׳]. אָמַר רַב הוּנָא: וְהוּא שֶׁכִּנְּסוֹ.",
+     "en": "§The mishna teaches that <b>Rabbi Yehuda says:</b> With regard to <b>the meat residue</b> attached to the hide after flaying that was collected, if there is an olive-bulk of it in one place it imparts impurity of an animal carcass, and one who contracts impurity from it and eats consecrated foods or enters the Temple is liable to receive <i>karet</i> for it. <b>Rav Huna says</b> in explanation: This <i>halakha</i> <b>is</b> applicable only when a halakhically competent person <b>collected</b> the meat residue in one place, but not if the meat residue was collected by a child or without human intervention. By collecting it in one place, the person indicates that he considers it to be food.",
+     "rashi": [
+      "<b>והוא שכנסו</b> — דגלי דעתיה דלא בטליה מעיקרא אבל נתכנס מאליו כמו שכנסוהו תינוקות אחר הפשט לא הואיל ובטל מתחלה ונעשה עור תו לא הדר הוי בשר דלטומאת אוכלין הוא דמהניא מחשבה לשויה אוכלא דאפילו עור ששלקו מטמא טומאת אוכלין אחרי שעשאו רך אבל לשויה בשר לא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאָמַר רַב הוּנָא: שְׁנֵי חֲצָאֵי זֵיתִים שֶׁיֶּשְׁנָן עַל גַּבֵּי הָעוֹר – הָעוֹר מְבַטְּלָן,",
+     "en": "<b>And Rav Huna says:</b> In a case of <b>two</b> pieces of flesh of an animal carcass, each measuring <b>half an olive-</b>bulk, <b>that are</b> attached <b>to the hide, the hide nullifies them,</b> as the hide does not impart the impurity of a carcass. Consequently, these pieces do not impart impurity either.",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}

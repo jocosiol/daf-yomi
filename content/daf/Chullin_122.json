@@ -1,0 +1,414 @@
+{
+ "tractate": "Chullin",
+ "page": 122,
+ "fetched": "2026-08-23",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 122a",
+   "he_ref": "חולין קכ״ב.",
+   "url": "https://www.sefaria.org/Chullin.122a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=122&amud=a",
+   "segments": [
+    {
+     "he": "אַלִּיבָּא דְּמַאן?",
+     "en": "The Gemara asks: <b>In accordance with whose</b> opinion is the statement of Rav Huna? It is taught in the mishna (124a) that in a case where the hide of an unslaughtered carcass was attached to two half olive-bulks of flesh, Rabbi Yishmael says that the hide imparts the impurity of an unslaughtered carcass by means of carrying but not by means of contact with the flesh, because one touches them separately whereas one carries them together. Rabbi Akiva says: One contracts impurity neither by means of contact with the hide nor by means of carrying it.",
+     "rashi": [
+      "פלוגתא דר' ישמעאל ור\"ע בפירקין (לקמן חולין דף קכד.) במתני' דקתני היו עליו שני חצאי זיתים מטמאין במשא שהרי נשא כזית נבלה ואין מטמא במגע דאין נוגע וחוזר ונוגע ור\"ע אומר לא במגע ולא במשא אלמא לר' ישמעאל לא מבטל עור ולר\"ע מבטל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִי אַלִּיבָּא דְּרַבִּי יִשְׁמָעֵאל – הָאָמַר לֹא מְבַטֵּל עוֹר. וְאִי אַלִּיבָּא דְרַבִּי עֲקִיבָא – פְּשִׁיטָא, הָאָמַר מְבַטֵּל עוֹר.",
+     "en": "<b>If</b> one maintains that Rav Huna’s statement is <b>in accordance with</b> the opinion <b>of Rabbi Yishmael, didn’t</b> Rabbi Yishmael <b>say</b> that the <b>hide does not nullify</b> the attached flesh and therefore the one who carries it becomes impure with the impurity of a carcass? <b>And if</b> one maintains that Rav Huna’s statement is <b>in accordance with</b> the opinion <b>of Rabbi Akiva,</b> then it is <b>obvious,</b> as <b>didn’t</b> Rabbi Akiva <b>say</b> that <b>the hide nullifies</b> the flesh and therefore one who carries it does not become impure?",
+     "rashi": [
+      "<b>ה\"ג אי אליבא דר\"ע פשיטא</b> — דהא מתניתין היא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "לְעוֹלָם אַלִּיבָּא דְּרַבִּי יִשְׁמָעֵאל, וְכִי אָמַר רַבִּי יִשְׁמָעֵאל לֹא מְבַטֵּל עוֹר – הָנֵי מִילֵּי שֶׁפְּלָטַתּוּ חָיָה, אֲבָל פְּלָטַתּוּ סַכִּין – בָּטֵיל.",
+     "en": "The Gemara answers: <b>Actually,</b> the statement of Rav Huna is <b>in accordance with</b> the opinion <b>of Rabbi Yishmael. And when Rabbi Yishmael said</b> that <b>the hide does not nullify</b> the flesh, <b>that statement</b> applies to a case <b>where an animal severed</b> the hide. <b>But</b> in a case where a person used <b>a knife</b> to <b>flay</b> the hide, the hide <b>nullifies</b> the attached flesh.",
+     "rashi": [
+      "<b>לעולם אליבא דרבי ישמעאל</b> — ואשמועינן רב הונא דכי אמר רבי ישמעאל לא מבטל עור הני מילי בפלטתו חיה שנעשה שלא מדעת אבל פלטתו סכין מדעת ביטלו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע, רַבִּי יְהוּדָה אוֹמֵר: הָאָלָל הַמְכוּנָּס, אִם יֵשׁ כְּזַיִת בְּמָקוֹם אֶחָד – חַיָּיבִין עָלָיו, וְאָמַר רַב הוּנָא: וְהוּא שֶׁכִּנְּסוֹ.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a refutation to this explanation of the statement of Rav Huna from that which is taught in the mishna: <b>Rabbi Yehuda says:</b> With regard to <b>the meat residue</b> attached to the hide after flaying <b>that was collected, if there is an olive-bulk</b> of it <b>in one place</b> it imparts impurity of an animal carcass, and one who contracts impurity from it and eats consecrated foods or enters the Temple <b>is liable</b> to receive <i>karet</i> <b>for it. And Rav Huna says</b> in explanation of this statement of Rabbi Yehuda: This <i>halakha</i> <b>is</b> applicable only when a halakhically competent person <b>collected</b> the meat residue in one place, but not if the meat residue was collected by a child or without human intervention.",
+     "rashi": [
+      "<b>ואמר רב הונא והוא שכנסו</b> — אחר הפשט דגלי דעתיה דלא בטליה מעיקרא אבל לא כנסו לא. מדמוקים לה בשכנסו מכלל דבשפלטתו סכין בשנים ושלשה מקומות קאמר וקתני חייבין עליו אלמא אי בטלינהו איהו במתכוין בטילי אבל עור לא מבטל דאי בטלינהו עור תו לא הדרי למיהוי נבלה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִי אָמְרַתְּ בִּשְׁלָמָא פְּלָטַתּוּ סַכִּין, לְרַבִּי יִשְׁמָעֵאל נָמֵי לָא בָּטֵיל, רַב הוּנָא דְּאָמַר כְּרַבִּי יִשְׁמָעֵאל.",
+     "en": "Since Rav Huna interprets the statement of Rabbi Yehuda as referring to a case where a halakhically competent person collected the pieces of flesh, the mishna must be discussing a case where such a person flayed the hide with a knife in multiple places and then collected the pieces of flesh attached to the hide. Evidently, the hide does not nullify the flesh because if the hide did nullify the flesh, that flesh would not impart the impurity of a carcass even if it were later collected. Therefore, the Gemara challenges: <b>Granted, if you say</b> that <b>according to Rabbi Yishmael, even</b> in a case where a person used <b>a knife</b> to <b>flay</b> the hide, the hide <b>does not nullify</b> the flesh, accordingly, <b>Rav Huna said</b> his statement <b>in accordance with</b> the opinion of <b>Rabbi Yishmael</b> that a hide flayed by a knife does not nullify the flesh, and therefore the flesh imparts the impurity of a carcass if a person collected the pieces.",
+     "rashi": [
+      "<b>אי אמרת בשלמא פלטתו סכין לרבי ישמעאל נמי לא מבטל</b> — עור:",
+      "<b>רב הונא</b> — דאוקמה לרבי יהודה בשהיה זית מתחלה לחצאין ואפ\"ה לא בטלינהו עור מעיקרא הוא דאמר כרבי ישמעאל דאוקמיה לרבי יהודה אליבא דרבי ישמעאל ורבנן כר\"ע:"
+     ],
+     "tosafot": [
+      "<b>אי אמרת בשלמא פלטתו סכין לרבי ישמעאל לא בטלה רב הונא דאמר כר' ישמעאל</b> — וא\"ת והא ר' ישמעאל בלא כנסו קאמר ור' יהודה בעי כנוס כדאמר רב הונא וי\"ל דפלוגתייהו דר' ישמעאל ור\"ע בפלטתו חיה לכך לא בעי ר' ישמעאל כנוס אבל פלטתו סכין אי לא בטל לרבי ישמעאל צריך נמי כניסה ועוד דרבי ישמעאל נמי בכנסו איירי ואין זה דוחק כמו דמפרש מילתיה דרבי יהודה הכי:"
+     ]
+    },
+    {
+     "he": "אֶלָּא אִי אָמְרַתְּ פְּלָטַתּוּ סַכִּין, לְרַבִּי יִשְׁמָעֵאל בָּטֵיל, רַב הוּנָא דְּאָמַר כְּמַאן?",
+     "en": "<b>But if you say</b> that <b>according to Rabbi Yishmael,</b> in a case where a person used <b>a knife</b> to <b>flay</b> the hide, the hide <b>nullifies</b> the flesh and therefore the flesh does not impart the impurity of a carcass even if a halakhically competent person collected the pieces, then <b>in accordance with whose</b> opinion <b>did Rav Huna say</b> that the hide does not nullify the flesh and that the pieces of flesh that one collected impart the impurity of a carcass?",
+     "rashi": [
+      "<b>אלא אי אמרת פלטתו סכין</b> — רבי ישמעאל מודי דמבטל עור:",
+      "<b>רב הונא</b> — דאוקמה לדר' יהודה כשהיה זית זה מתחלה לחצאין ואפ\"ה לר' יהודה לא בטיל:",
+      "<b>דאמר כמאן</b> — בשלמא אי לא דרב הונא דאמר והוא שכנסו הוה מוקמינא לר' יהודה בשפלטתו תחלה ביחד ומש\"ה לא בטיל דכי פליגי רבי ישמעאל ור\"ע בשתי חצאי זיתים פליגי אבל בכזית שלם מודו כדתני ריש פלוגתייהו עור שיש עליו כזית בשר כו' ורבנן סברי כי מודו רבי ישמעאל ור\"ע בכזית שלם הני מילי בפלטתו חיה אבל פלטתו סכין אפילו כזית בטל אבל השתא דאוקמה רב הונא בשני חצאי זיתים דאמר כמאן:"
+     ],
+     "tosafot": [
+      "<b>רב הונא דאמר כמאן</b> — לעיל (חולין דף קכא.) כי קאמר וחד אמר מקצת פלטתו חיה ומקצת פלטתו סכין דבעי למימר דפלטתו סכין הוי פלוגתא דר' יהודה ורבנן דלר' יהודה לא בטל לא מצי למפרך דאמר כמאן אי אמרת לר' ישמעאל דבטל כדפריך הכא דאיכא לאוקומי דר' יהודה דאית ביה כזית יחד אבל לרב הונא פריך שפיר כדפי' בקונט':",
+      "<b>דאמר כמאן</b> — וא\"ת ודילמא הא דאמר רב הונא ב' חצאי זיתים שישנן על העור העור מבטלו מיירי בלא כנסו אבל כנסו מודה דלא בטל וי\"ל דהא פשיטא ולא איצטריך ליה לרב הונא לאשמועינן דעור מבטלן (ועוד דהעור מבטלן משמע מתחלה העור מבטל ותו לא מהני להו כנוס):"
+     ]
+    },
+    {
+     "he": "אֶלָּא לְעוֹלָם פְּלָטַתּוּ סַכִּין, לְרַבִּי יִשְׁמָעֵאל לֹא בָּטֵיל, וְרַב הוּנָא דְּאָמַר כְּרַבִּי עֲקִיבָא!",
+     "en": "The Gemara responds: <b>Rather,</b> it is necessary to explain the opinion of Rabbi Yishmael differently. <b>Actually, according to Rabbi Yishmael</b> even a hide <b>flayed by a knife does not nullify</b> the attached flesh. <b>And Rav Huna said</b> his statement that the hide nullifies attached pieces of flesh <b>in accordance with</b> the opinion of <b>Rabbi Akiva.</b>",
+     "rashi": [
+      "הכי גרסינן <b>אלא לעולם פלטתו סכין לרבי ישמעאל נמי לא בטיל ורב הונא דאמר אליבא דר\"ע </b>- כלומר הא דאמר רב הונא לעיל העור מבטלו אליבא דר\"ע אמרה וההיא דר' יהודה אליבא דר' ישמעאל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "פְּשִׁיטָא! מַהוּ דְּתֵימָא, כִּי קָאָמַר רַבִּי עֲקִיבָא – הָנֵי מִילֵּי פְּלָטַתּוּ סַכִּין, אֲבָל פְּלָטַתּוּ חַיָּה – לָא בָּטֵיל.",
+     "en": "The Gemara asks: Isn’t it <b>obvious</b> that the hide nullifies the flesh according to Rabbi Akiva? Rav Huna’s statement is unnecessary. The Gemara answers: Rav Huna’s statement is necessary <b>lest you say: When Rabbi Akiva said</b> that the hide nullifies the attached pieces of flesh, <b>that statement</b> applies only to a case where a person used <b>a knife</b> to <b>flay</b> the animal. <b>But</b> if <b>an animal severed</b> the hide, the hide <b>does not nullify</b> the flesh.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "קָא מַשְׁמַע לַן טַעְמָא דְּרַבִּי עֲקִיבָא מִפְּנֵי שֶׁהָעוֹר מְבַטְּלָן, לָא שְׁנָא (פלט) [פְּלָטַתּוּ] חַיָּה, וְלָא שְׁנָא (פלט) [פְּלָטַתּוּ] סַכִּין, כִּדְקָתָנֵי סֵיפָא: מִפְּנֵי מָה רַבִּי עֲקִיבָא מְטַהֵר בְּעוֹר? מִפְּנֵי שֶׁהָעוֹר מְבַטְּלָן.",
+     "en": "Therefore, Rav Huna <b>teaches us</b> that <b>the reason</b> for the opinion <b>of Rabbi Akiva</b> is <b>because the hide nullifies</b> the flesh, and there <b>is no difference</b> whether <b>an animal severed</b> the hide, <b>and</b> there <b>is no difference</b> whether a person used <b>a knife</b> to <b>flay</b> the hide. This statement of Rav Huna is therefore <b>in accordance with that which the latter clause</b> of that mishna <b>teaches: For what</b> reason <b>does Rabbi Akiva deem</b> one ritually <b>pure in</b> a case where he moved both half olive-bulks with <b>the hide?</b> It is <b>because the hide</b> separates between them and <b>nullifies them.</b>",
+     "rashi": [
+      "<b>קמ\"ל</b> — רב הונא דאפי' פלטתו חיה מפני שעור מבטלו משמע טעמא בעור תליא ואף על גב דלא בטלינהו איהו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> אֵלּוּ שֶׁעוֹרוֹתֵיהֶן כִּבְשָׂרָן: עוֹר הָאָדָם, וָעוֹר חֲזִיר שֶׁל יִשּׁוּב. רַבִּי יְהוּדָה אוֹמֵר: אַף עוֹר חֲזִיר הַבָּר.",
+     "en": "<strong>MISHNA:</strong> <b>These</b> are the entities <b>whose skin</b> has the same halakhic status <b>as their flesh: The skin of</b> a dead <b>person,</b> which imparts impurity like his flesh; <b>and the skin of a domesticated pig,</b> which is soft and eaten by gentiles, and imparts the impurity of an animal carcass like its flesh. <b>Rabbi Yehuda says: Even the skin of a wild boar</b> has the same status.",
+     "rashi": [
+      "<b>מתני' אלו שעורותיהן</b> — מטמאין כבשרן:",
+      "<b>ועור חזיר של ישוב</b> — מפני שהוא רך ואוכלין אותו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וָעוֹר חֲטֶרֶת שֶׁל גָּמָל הָרַכָּה, וְעוֹר הָרֹאשׁ שֶׁל עֵגֶל הָרַךְ, וָעוֹר הַפְּרָסוֹת, וְעוֹר בֵּית הַבּוֹשֶׁת, וָעוֹר הַשְּׁלִיל, וְעוֹר שֶׁל תַּחַת הָאַלְיָה, וָעוֹר הָאֲנָקָה וְהַכֹּחַ וְהַלְּטָאָה וְהַחוֹמֶט. רַבִּי יְהוּדָה אוֹמֵר: הַלְּטָאָה כְּחוּלְדָּה.",
+     "en": "<b>And</b> the halakhic status of the skin of all of the following animals is also like that of their flesh: <b>The skin of the hump of a young camel</b> that did not yet toughen; <b>and the skin of the head of a young calf; and the hide of the hooves; and the skin of the womb; and the skin of</b> an animal <b>fetus</b> in the womb of a slaughtered animal; <b>and the skin beneath the tail</b> of a ewe; <b>and the skin of the gecko [<i>anaka</i>], and the desert monitor [<i>ko’aḥ</i>], and the lizard [<i>leta’a</i>], and the skink [<i>ḥomet</i>],</b> four of the eight creeping animals that impart ritual impurity after death. <b>Rabbi Yehuda says:</b> The halakhic status of the skin of <b>the lizard</b> is <b>like</b> that of the skin of <b>the weasel</b> and is not like that of its flesh.",
+     "rashi": [
+      "<b>חטרת</b> — חלדרוב\"א שיש לו לגמל:",
+      "<b>גמל הרכה</b> — מפרש בגמרא עד כמה נקראת רכה:",
+      "<b>עגל הרך</b> — נמי מפרש בגמרא עד כמה:",
+      "<b>ועור הפרסות</b> — כעין שחותכין הרגלים וכל אותו העור רך הוא:",
+      "<b>בית הבושת</b> — בית הרחם של נקבה:",
+      "<b>ועור של תחת האליה</b> — עור הזנב מתחת מקום שאין שער מפני שהוא רך:",
+      "<b>האנקה</b> — הריצו\"ן:",
+      "<b>הלטאה</b> — ליתיירד\"א:",
+      "<b>חומט</b> — לימצ\"א שתחלת ברייתו בכעדשה צא ובדוק בתיק שלה שגדל והולך עמה תחלתו כעדשה ממש הוא בשוליו:",
+      "<b>הלטאה כחולדה</b> — עורה חלוק מבשרה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְכוּלָּן שֶׁעִבְּדָן, אוֹ שֶׁהִילֵּךְ בָּהֶן כְּדֵי עֲבוֹדָה – טְהוֹרִין, חוּץ מֵעוֹר הָאָדָם. רַבִּי יוֹחָנָן בֶּן נוּרִי אוֹמֵר: שְׁמוֹנָה שְׁרָצִים יֵשׁ לָהֶן עוֹרוֹת.",
+     "en": "<b>And</b> with regard to <b>all of</b> these skins, in a case <b>where one tanned them or</b> spread them on the ground and <b>trod upon them for the period of time required for tanning,</b> they are no longer classified as flesh and are <b>ritually pure, except for the skin of a person,</b> which maintains the status of flesh. <b>Rabbi Yoḥanan ben Nuri says:</b> All <b>eight creeping animals</b> enumerated in the Torah <b>have skins</b> whose halakhic status is not that of flesh.",
+     "rashi": [
+      "<b>וכולן שעיבדן</b> — כל אלו שאמרו שהן מטמאין כבשר אם עיבדן נעשה עור ובטלו מתורת בשר וטהורין:",
+      "<b>או שהילך בהן</b> — ששטחן לדרוס עליהן ברגלים שהוא קצת עיבודן:",
+      "<b>יש להן עורות</b> — ואין מטמאין כבשרן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> אָמַר עוּלָּא: דְּבַר תּוֹרָה עוֹר אָדָם טָהוֹר, וּמָה טַעַם אָמְרוּ טָמֵא? גְּזֵירָה שֶׁמָּא יַעֲשֶׂה אָדָם עוֹרוֹת אָבִיו וְאִמּוֹ שְׁטִיחִין.",
+     "en": "<strong>GEMARA:</strong> The first clause of the mishna teaches that the skin of a dead person imparts impurity like his flesh. With regard to this, <b>Ulla says: The skin of</b> a dead <b>person is pure by Torah law; and what</b> is the <b>reason</b> that the Sages <b>said</b> that it is <b>impure?</b> It is a rabbinic <b>decree lest a person fashion mats</b> from <b>the skins of his</b> deceased <b>father and mother.</b>",
+     "rashi": [
+      "<b>גמ' דבר תורה עור האדם טהור</b> — דלאו בשר הוא ולא הוי בכלל מת:",
+      "<b>שטיחין</b> — למטה ולקתדרא לישב עליהן ששוטחין עור על גבי מטה במקום חבלים:"
+     ],
+     "tosafot": [
+      "<b>עור אדם טהור</b> — כדמפרש טעמא בריש דם הנדה (נדה דף נה.) דלא הוי דומיא דעצם אדם דעור גזעו מחליף:",
+      "<b>עורות אביו ואמו שטיחין כו'</b> — ואע\"ג דמת אסור בהנאה ובכל אדם אסור לעשות מעורו שטיחין כו' מ\"מ לא הוו גזרי רבנן משום הך חששא שיהיה טמא אלא משום אביו ואמו דחמיר טובא וא\"צ לומר דנקט אביו ואמו משום דשכיחי גביה:"
+     ]
+    },
+    {
+     "he": "וְאִיכָּא דְּמַתְנֵי לַהּ אַסֵּיפָא, וְכוּלָּן שֶׁעִיבְּדָן אוֹ שֶׁהִילֵּךְ בָּהֶן כְּדֵי עֲבוֹדָה טְהוֹרִין, חוּץ מֵעוֹר אָדָם. אָמַר עוּלָּא: דְּבַר תּוֹרָה עוֹר אָדָם שֶׁעִבְּדוֹ טָהוֹר, וּמָה טַעַם אָמְרוּ טָמֵא? גְּזֵירָה שֶׁמָּא יַעֲשֶׂה אָדָם עוֹרוֹת אָבִיו וְאִמּוֹ שְׁטִיחִין.",
+     "en": "<b>And there are those who teach</b> this statement of Ulla <b>with regard to the latter clause</b> of the mishna: <b>And</b> with regard to <b>all of</b> these skins, in a case <b>where one tanned them or</b> spread them on the ground and <b>trod upon them for the period of time required for tanning,</b> they are no longer classified as flesh and are <b>ritually pure, except for the skin of a person,</b> which maintains the status of flesh. With regard to that clause, <b>Ulla says: The skin of</b> a dead <b>person that one tanned is pure by Torah law; and what</b> is the <b>reason</b> that the Sages <b>said</b> that it is <b>impure?</b> It is a rabbinic <b>decree lest a person fashion mats</b> from <b>the skins of his</b> deceased <b>father and mother.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "מַאן דְּמַתְנֵי לַהּ אַרֵישָׁא, כׇּל שֶׁכֵּן אַסֵּיפָא, וּמַאן דְּמַתְנֵי אַסֵּיפָא, אֲבָל אַרֵישָׁא – טוּמְאָה דְּאוֹרָיְיתָא.",
+     "en": "The Gemara comments: <b>The one who teaches</b> the statement of Ulla that the skin of a corpse is pure by Torah law <b>with regard to the first clause</b> of the mishna, which discusses a softer hide that is not tanned, <b>all the more so</b> would teach it <b>with regard to the latter clause</b> of the mishna. <b>But the one who teaches</b> this statement <b>with regard to the latter clause</b> of the mishna holds that only the tanned skin of a corpse is pure by Torah law, <b>but</b> does not teach it <b>with regard to the first clause</b> of the mishna because he holds that the <b>impurity</b> of the skin of a corpse that is not tanned is <b>by Torah law.</b>",
+     "rashi": [
+      "<b>מאן דמתני לה</b> — לדעולא:",
+      "<b>ארישא</b> — דאפילו כי לא עיבדו נמי לא מטמא אלא מדרבנן כל שכן אסיפא דהא דקתני חוץ מעור האדם דאף על גב דעיבדו טמא מדרבנן הוא ומשום דעולא:",
+      "<b>ומאן דמתני לה</b> — גזירה דעולא אסיפא:",
+      "<b>אבל ארישא</b> — כשלא עיבדו סבירא ליה דטומאתו מן התורה:"
+     ],
+     "tosafot": [
+      "<b>אבל רישא טומאה דאורייתא היא</b> — והשתא חשיב עור אין גזעו מחליף משום דמקומו נעשה צלקת על בשר כדאמרינן פרק דם הנדה (גז\"ש):"
+     ]
+    },
+    {
+     "he": "וְעוֹר חֲזִיר [וְכוּ׳]. בְּמַאי קָמִיפַּלְגִי? מָר סָבַר: הַאי אַשּׁוּן וְהַאי רַכִּיךְ, וּמָר סָבַר: הַאי נָמֵי רַכִּיךְ.",
+     "en": "§The mishna teaches that according to the first <i>tanna</i>, <b>the skin of</b> a domesticated <b>pig</b> imparts impurity of an animal carcass like its flesh, indicates that the skin of a wild boar does not impart impurity of a carcass. Rabbi Yehuda disagrees and holds that even the skin of a wild boar has the same status as its flesh. The Gemara asks: <b>With regard to what do</b> the first <i>tanna</i> and Rabbi Yehuda <b>disagree?</b> The Gemara answers: One <b>Sage,</b> the first <i>tanna</i>, <b>holds</b> that <b>this</b> skin of a wild boar <b>is tough</b> and therefore its status is not that of flesh, <b>but that</b> skin of a domesticated pig <b>is soft</b> and therefore its status is that of flesh. <b>And</b> one <b>Sage,</b> Rabbi Yehuda, <b>holds</b> that <b>this</b> skin of a wild boar <b>is also soft</b> and therefore its status is that of flesh.",
+     "rashi": [
+      "<b>אשון</b> — קשה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "עוֹר חֲטֶרֶת שֶׁל גָּמָל הָרַכָּה, וְכַמָּה גָּמָל הָרַכָּה? אָמַר עוּלָּא, אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי: כׇּל זְמַן שֶׁלֹּא טָעֲנָה.",
+     "en": "§The mishna teaches that the <b>skin of the hump of a young camel</b> that did not yet toughen imparts impurity of a carcass like its flesh. The Gemara asks: <b>And for how long is a camel</b> considered <b>young</b> and the status of the skin considered like that of the flesh? <b>Ulla says</b> that <b>Rabbi Yehoshua ben Levi says: As long as</b> the camel <b>has not carried</b> a burden.",
+     "rashi": [
+      "<b>שלא טענה</b> — משוי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בָּעֵי רַבִּי יִרְמְיָה: הִגִּיעַ זְמַנָּהּ לִטְעוֹן וְלֹא טָעֲנָה, מַהוּ? בָּעֵי אַבָּיֵי: לֹא הִגִּיעַ זְמַנָּהּ לִטְעוֹן וְטָעֲנָה, מַהוּ? תֵּיקוּ.",
+     "en": "<b>Rabbi Yirmeya raises a dilemma: What is</b> the <i>halakha</i> with regard to the skin of a camel <b>whose time,</b> i.e., age, <b>to carry</b> a burden <b>has arrived, but it has not</b> yet <b>carried</b> one? <b>Abaye raises a dilemma: What is</b> the <i>halakha</i> with regard to the skin of a camel <b>whose time to carry</b> a burden <b>has not arrived, but it has</b> nevertheless <b>carried</b> one? The Gemara answers: These dilemmas <b>shall stand</b> unresolved.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "יָתֵיב רֵישׁ לָקִישׁ וְקָמִיבַּעְיָא לֵיהּ: כַּמָּה גָּמָל הָרַכָּה? אֲמַר לֵיהּ רַבִּי יִשְׁמָעֵאל בַּר אַבָּא: הָכִי אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי: כׇּל זְמַן שֶׁלֹּא טָעֲנָה. אֲמַר לֵיהּ: תִּיב לְקִבְלִי.",
+     "en": "<b>Reish Lakish sat and raised a dilemma:</b> For <b>how long is a camel</b> considered <b>young? Rabbi Yishmael bar Abba said to him: This is what Rabbi Yehoshua ben Levi said: As long as</b> the camel <b>has not carried</b> a burden. In response to his answer, Reish Lakish honored him and <b>said to him: Sit opposite me.</b>",
+     "rashi": [
+      "<b>תיב לקבלי</b> — שאמרת לי דבר טעם ויישר כחך:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "יָתֵיב רַבִּי זֵירָא וְקָמִיבַּעְיָא לֵיהּ: כַּמָּה גָּמָל הָרַכָּה? אֲמַר לֵיהּ רָבִין בַּר חִינָּנָא: הָכִי אָמַר עוּלָּא, אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי: כׇּל זְמַן שֶׁלֹּא טָעֲנָה. הֲוָה קָתָנֵי לַהּ. אֲמַר לֵיהּ: חֲדָא הָוְיָא לָךְ אֲמַרְתְּ.",
+     "en": "<b>Rabbi Zeira sat and raised a dilemma:</b> For <b>how long is a camel</b> considered <b>young? Ravin bar Ḥinnana said to him: This is what Ulla said</b> that <b>Rabbi Yehoshua ben Levi said: As long as</b> the camel <b>has not carried</b> a burden. Ravin bar Ḥinnana then <b>repeated</b> his answer to Rabbi Zeira. Rabbi Zeira <b>said to him: Do you have</b> only <b>one</b> <i>halakha</i> to <b>say,</b> and that is why you are repeating it?",
+     "rashi": [
+      "<b>הוה קתני לה</b> — חוזר ושונה פעם שניה כסבור שלא שמעה:",
+      "<b>חדא הויא לך אמרת</b> — דבר חידוש אחד היה בידך שאין בידינו הרי אמרתו ולמה תחזור ותשננו פעם שניה להראות חכמתך:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא חֲזִי, מָה בֵּין תַּקִּיפֵי אַרְעָא דְיִשְׂרָאֵל, לַחֲסִידֵי דְבָבֶל.",
+     "en": "The Gemara points out: <b>Come</b> and <b>see what</b> the difference is <b>between the harsh</b> scholars <b>of Eretz Yisrael,</b> such as Reish Lakish, <b>and the saintly ones of Babylonia,</b> such as Rabbi Zeira. Although Reish Lakish was known for his harsh nature, he was the one who honored the Sage who resolved his dilemma, whereas Rabbi Zeira responded sharply to the one who taught him this <i>halakha</i>.",
+     "rashi": [
+      "ר\"ל מתקיפי דארעא דישראל הוה כדאמרינן בפרק קמא דיומא (דף ט:) מאן דמשתעי ריש לקיש בהדיה יהבי ליה עיסקא בלא סהדי והכא א\"ל תיב לקבלי ורבי זירא דמבבל סלק להכא כדאמרינן בהשוכר את הפועלים (ב\"מ דף פה.) רבי זירא אותיב ארבעין תעניתי דנשתכח מיניה תלמודא דבבלאי ומחסידי דבבל הוה כדאמרינן בהשוכר את הפועלים (שם) רבי זירא (אותיב) כל תלתין יומין בדיק נפשיה ושגר תנורא וסליק בגוה חזי מאי אכספיה לההוא מדרבנן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְעוֹר הָרֹאשׁ וְכוּ׳. וְכַמָּה עֵגֶל הָרַךְ? עוּלָּא אָמַר: בֶּן שְׁנָתוֹ, רַבִּי יוֹחָנָן אָמַר: כׇּל זְמַן שֶׁיּוֹנֵק. אִיבַּעְיָא לְהוּ: הֵיכִי קָאָמַר עוּלָּא? בֶּן שְׁנָתוֹ וְהוּא שֶׁיּוֹנֵק,",
+     "en": "§The mishna teaches: <b>And the skin of the head</b> of a young calf has the same halakhic status as the flesh with regard to impurity. The Gemara asks: <b>And</b> for <b>how long is a calf</b> considered <b>young? Ulla says:</b> It is considered young in <b>its</b> first <b>year of age. Rabbi Yoḥanan says:</b> For <b>as long as</b> the calf is <b>suckling. A dilemma was raised before</b> the Sages: With regard to <b>what</b> case <b>is Ulla speaking?</b> Is he referring to a calf that is in <b>its</b> first <b>year of age and is</b> still <b>suckling,</b>",
+     "rashi": [
+      "<b>והוא שיונק</b> — אבל פירש מלינק אף על פי שעדיין הוא בתוך שנתו כבר הוקשה עורו ואם עבר שנתו נמי אף על פי שיונק לא דתרתי בעינן:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 122b",
+   "he_ref": "חולין קכ״ב:",
+   "url": "https://www.sefaria.org/Chullin.122b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=122&amud=b",
+   "segments": [
+    {
+     "he": "וַאֲמַר לֵיהּ רַבִּי יוֹחָנָן: כׇּל זְמַן שֶׁיּוֹנֵק.",
+     "en": "<b>and Rabbi Yoḥanan</b> disagreed with Ulla and <b>said to him:</b> A calf is considered young <b>as long as it is suckling,</b> even after its first year of age? According to this explanation, Ulla considers a calf to be young only when it is both in its first year and suckling, and Rabbi Yoḥanan considers a calf that is suckling to be young even if it is beyond its first year.",
+     "rashi": [
+      "<b>וקאמר ליה ר' יוחנן כל זמן שיונק</b> — ואפילו לאחר שנתן דבהנקה נמי תליא מילתא דחדא הוא דבעינן וה\"ק ר' יוחנן בבן שנתו שפיר קאמרת דהוי רך אבל הנקה לא הוזכר לפחות דאם פירש בתוך שנתו לא יהא רך אלא להוסיף אפילו לאחר שנתו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אוֹ דִלְמָא, עוּלָּא בֶּן שְׁנָתוֹ קָאָמַר, בֵּין יוֹנֵק וּבֵין שֶׁאֵינוֹ יוֹנֵק, וַאֲמַר לֵיהּ רַבִּי יוֹחָנָן: בֶּן שְׁנָתוֹ וְהוּא שֶׁיּוֹנֵק?",
+     "en": "<b>Or perhaps, does Ulla say</b> that a calf is considered young if it is in <b>its</b> first <b>year of age, whether it is suckling or whether it is no</b> longer <b>suckling, and Rabbi Yoḥanan said to him:</b> The calf must be in <b>its</b> first <b>year of age and it</b> must also be <b>suckling</b> in order to be considered young?",
+     "rashi": [
+      "<b>או דילמא עולא בן שנתו קאמר</b> — אבל הנקה לא מעלה ולא מוריד וקאמר ליה ר' יוחנן אף הנקה נמי בעינן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע, רַבִּי יוֹחָנָן אָמַר: כׇּל זְמַן שֶׁיּוֹנֵק, וְאִם אִיתַהּ – ״וְהוּא שֶׁיּוֹנֵק״ מִיבְּעֵי לֵיהּ! שְׁמַע מִינַּהּ.",
+     "en": "<b>Come</b> and <b>hear</b> a resolution to this dilemma: <b>Rabbi Yoḥanan says:</b> The calf is considered young <b>the entire time that it is suckling. And if it is so</b> that Rabbi Yoḥanan requires a calf to be both in its first year and suckling to be considered young, Rabbi Yoḥanan <b>should have</b> said: <b>And</b> provided the calf <b>is suckling,</b> indicating an additional condition. <b>Conclude from it</b> that Rabbi Yoḥanan considers a calf that is suckling to be young even if it is beyond its first year, and that Ulla considers only a calf that is both in its first year and suckling to be young.",
+     "rashi": [
+      "<b>כל זמן</b> — משמע להוסיף בא:"
+     ],
+     "tosafot": [
+      "<b>ואם איתא והוא שיונק מבעי ליה</b> — תימה אכתי ה\"מ למבעי או דילמא ה\"ק עולא בן שנתו בין יונק בין שאין יונק ואמר ליה ר' יוחנן כל זמן שיונק בין בן שנתו בין שאין בן שנתו וי\"ל דלא מסתברא דבעי לאיפלוגי כולי האי ולהכי לא בעי הכי וה\"ר יעקב מקורבי\"ל תירץ דכולה שמעתין סברה דיותר קשה אפילו תוך שנתו כשאין יונק מיונק אחר שנתו ולכך כיון דר' יוחנן כל זמן שיונק קאמר א\"כ פשיטא דעולא והוא שיונק קאמר דאי תוך שנתו בין יונק בין שאינו יונק קאמר א\"כ כ\"ש לאחר שנתו אם הוא יונק דחשיב ליה רך א\"כ מה הוסיף ר' יוחנן כל זמן שיונק הא עולא מודה דכל שכן הוא:"
+     ]
+    },
+    {
+     "he": "בְּעָא מִינֵּיהּ רֵישׁ לָקִישׁ מֵרַבִּי יוֹחָנָן: עוֹר הָרֹאשׁ שֶׁל עֵגֶל הָרַךְ, מַהוּ שֶׁיְּטַמֵּא? אֲמַר לֵיהּ: אֵינוֹ מְטַמֵּא.",
+     "en": "§The Gemara continues to discuss the skin of the head of a young calf. <b>Reish Lakish asked Rabbi Yoḥanan: What is</b> the <i>halakha</i> with regard to whether <b>the skin of the head of a young calf</b> that is still fit to be eaten <b>imparts impurity?</b> Is the status of the skin like that of flesh or not? Rabbi Yoḥanan <b>said to him: It does not impart impurity.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>עור הראש של עגל הרך מהו שיטמא</b> — על מעשה היה שואל היאך הלכה דמתני' הוה ידע כדפריך מינה לרבי יוחנן בסמוך:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ, לִימַּדְתָּנוּ רַבֵּינוּ: אֵלּוּ שֶׁעוֹרוֹתֵיהֶן כִּבְשָׂרָן, וְעוֹר הָרֹאשׁ שֶׁל עֵגֶל הָרַךְ! אֲמַר לֵיהּ: אַל תַּקְנִיטֵנִי, בִּלְשׁוֹן יָחִיד אֲנִי שׁוֹנֶה אוֹתָהּ.",
+     "en": "Reish Lakish <b>said to him:</b> But didn’t <b>you teach us, our teacher,</b> that it says in the mishna: <b>These</b> are the entities <b>whose skin</b> has the same halakhic status <b>as their flesh, and the skin of the head of a young calf</b> is included among them? Rabbi Yoḥanan <b>said to</b> Reish Lakish: <b>Do not provoke me</b> by asking such a question. <b>I teach that</b> mishna <b>in the singular,</b> i.e., that mishna is in accordance with an individual opinion and is contrary to the majority opinion. Therefore, the <i>halakha</i> is not in accordance with it.",
+     "rashi": [
+      "<b>אל תקניטני</b> — להשיב לי ממנה:",
+      "<b>שבלשון יחיד אני שונה אותה</b> — משנה ולא בלשון סתם משנה שאני אומר אלעזר בן יהודה אמרה כדתניא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּתַנְיָא: הַשּׁוֹחֵט אֶת הָעוֹלָה לְהַקְטִיר כְּזַיִת מֵעוֹר שֶׁתַּחַת הָאַלְיָה, חוּץ לִמְקוֹמוֹ – פָּסוּל, וְאֵין בּוֹ כָּרֵת; חוּץ לִזְמַנּוֹ – פִּיגּוּל, וְחַיָּיבִין עָלָיו כָּרֵת.",
+     "en": "<b>As it is taught</b> in a <i>baraita</i>: <b>One who slaughters a burnt offering</b> with the intention <b>to burn an olive-bulk of the skin beneath the tail outside its</b> designated <b>area,</b> i.e., outside the Temple courtyard, renders the offering <b>unfit, but there is no</b> liability for <b><i>karet</i></b> for one who partakes of the offering. If he intended to burn it <b>beyond its</b> designated <b>time,</b> i.e., not on that day, then it is rendered <b><i>piggul</i>, and one is liable</b> to receive <b><i>karet</i> for</b> partaking of <b>it.</b> Since this particular area of the skin is soft, its status is therefore like that of flesh. This is the opinion of the Rabbis.",
+     "rashi": [
+      "המחשב בדבר שאין דרכו לאכול כגון לאכול למחר דבר שאין דרכו לכך כגון חלב או להקטיר למחר דבר שאין דרכו להקטיר כגון בשר שלמים וחטאת ואשם ושירי מנחה או עור העולה אינה לא לפסול ולא לפגל עד שישחט לאכול למחר דבר שדרכו לאכול או להקטיר למחר דבר שדרכו להקטיר ועור שתחת האליה הרי הוא כבשר ודבר שדרכו להקטיר קרינא ביה אם עולה היא ומועל לפגל את הקרבן במחשבת חוץ לזמנו או לפסול במחשבת חוץ למקומו:",
+      "<b>וחייבין עליו כרת</b> — האוכל ממנו אפילו בזמנו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלְעָזָר בֶּן יְהוּדָה אִישׁ אֶבְלַיִם אוֹמֵר מִשּׁוּם רַבִּי יַעֲקֹב, וְכֵן הָיָה רַבִּי שִׁמְעוֹן בֶּן יְהוּדָה אִישׁ כְּפַר עִיכּוּם אוֹמֵר מִשּׁוּם רַבִּי שִׁמְעוֹן: אֶחָד עוֹר פְּרָסוֹת, וְאֶחָד עוֹר הָרֹאשׁ שֶׁל עֵגֶל הָרַךְ, וְאֶחָד עוֹר שֶׁל תַּחַת הָאַלְיָה, וְכׇל שֶׁמָּנוּ חֲכָמִים גַּבֵּי טוּמְאָה שֶׁעוֹרוֹתֵיהֶן כִּבְשָׂרָן, לְהָבִיא עוֹר שֶׁל בֵּית הַבּוֹשֶׁת.",
+     "en": "<b>Elazar ben Yehuda of Aveilum says in the name of Rabbi Ya’akov, and so Rabbi Shimon ben Yehuda of Kefar Ikom says in the name of Rabbi Shimon:</b> This <i>halakha</i> applies <b>both</b> to <b>the hide of the hooves, and the skin of the head of a young calf, and the skin beneath the tail, and all</b> of the entities <b>that the Sages listed with regard to ritual impurity</b> that the halakhic status of <b>their skin is like that of their flesh, including the skin of the womb.</b>",
+     "rashi": [
+      "<b>וכל שמנו חכמים לענין טומאה</b> — שהוא כבשר שלא מצינו כאן וישנו בבהמה טהורה:",
+      "<b>להביא עור בית הבושת</b> — של נקבה בחטאת או בשלמים והאי דלא מנייה ברישא כי הנך משום דליתיה בעולה ותנא בעולה קאי. אלמא האי תנא הוא דחשיב להו בשר אבל ת\"ק לא קרי בשר אלא עור שתחת האליה לחודיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "חוּץ לִמְקוֹמוֹ – פָּסוּל, וְאֵין בּוֹ כָּרֵת. חוּץ לִזְמַנּוֹ – פִּיגּוּל, וְחַיָּיבִין עָלָיו כָּרֵת.",
+     "en": "Therefore, one who sacrifices a burnt offering with the intention to burn an olive-bulk of any of these skins <b>outside its</b> designated <b>area</b> renders the offering <b>unfit, but there is no</b> liability for <b><i>karet</i></b> for one who partakes of the offering. If he intended to burn it <b>beyond its</b> designated <b>time,</b> then it is rendered <b><i>piggul</i>, and one is liable</b> to receive <b><i>karet</i> for</b> eating <b>it.</b> Therefore, the mishna is in accordance with the individual opinion of Elazar ben Yehuda, who holds that all of the skins listed in the mishna have the status of flesh, and not in accordance with the Rabbis’ opinion that only the skin beneath the tail has the status of flesh.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְעוֹר בֵּית הַפְּרָסוֹת. מַאי בֵּית הַפְּרָסוֹת? רַב אָמַר: בֵּית הַפְּרָסוֹת מַמָּשׁ, רַבִּי חֲנִינָא אָמַר: רְכוּבָּה הַנִּמְכֶּרֶת עִם הָרֹאשׁ.",
+     "en": "§The mishna teaches: <b>And the hide of the hooves</b> has the status of flesh with regard to imparting impurity. The Gemara asks: To <b>what</b> is <b>the</b> term <b>hooves</b> referring? <b>Rav says:</b> It is <b>literally</b> referring to <b>the hooves. Rabbi Ḥanina says:</b> It is referring to the skin of the section of <b>the knee</b> at the top of the lower bone, <b>which is sold with the head.</b> This skin of the knee, and of the lower bone attached to it, has the status of flesh.",
+     "rashi": [
+      "<b>עור הפרסות ממש</b> — ולא עור שעל עצם השוק מן הקרסולים עד הארכובה:",
+      "<b>רכובה הנמכרת עם הראש</b> — כל עור שעל עצם השוק מרכובה התחתונה שחותכין בשעת הפשטת בהמה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וָעוֹר הָאֲנָקָה, תָּנוּ רַבָּנַן: ״הַטְּמֵאִים״ – לְרַבּוֹת עוֹרוֹתֵיהֶן כִּבְשָׂרָן.",
+     "en": "§The mishna teaches: <b>And</b> the halakhic status of <b>the skin of the gecko,</b> and the desert monitor, and the lizard, and the skink, four of the eight creeping animals that impart ritual impurity after death, is like that of their flesh with regard to imparting impurity. <b>The Sages taught</b> in a <i>baraita</i>: It is written: “And these are they which are impure for you among the creeping animals that creep upon the earth: The weasel, and the mouse, and the great lizard after its kinds. And the gecko, and the desert monitor, and the lizard, and the skink, and the chameleon. These are <b>they which are impure</b> for you among all that swarm; whosoever touches them, when they are dead, shall be impure until the evening” (Leviticus 11:29–32). The term “they which are” in the expression “they which are impure” seems superfluous, and serves <b>to include the skins of</b> these animals as having the same halakhic status <b>as their flesh.</b>",
+     "rashi": [
+      "<b>הטמאים</b> — ה\"א יתירא קדריש:",
+      "<b>לרבות</b> — עורות שרצים הרכין שיהו כבשר ומהאי ה\"א יתירא נמי רבינן (לעיל חולין דף קיב:) צירן ורוטבן וקיפה שלהן ועור הרך נמי איתא בהדייהו דהי מינייהו מפקת איהו נמי אוכלא הוא:",
+      "האי הטמאים בתר דחשבינהו לכולהו כתיב:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "יָכוֹל אֲפִילּוּ כּוּלָּן, תַּלְמוּד לוֹמַר ״אֵלֶּה״.",
+     "en": "One <b>might</b> have thought that this <i>halakha</i> applies <b>even</b> to <b>all</b> of the creeping animals listed in the verses. Therefore, <b>the verse states: “These,”</b> indicating that this <i>halakha</i> applies only to these animals mentioned in the mishna, i.e., the gecko, the desert monitor, the lizard, and the skink.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָא ״אֵלֶּה״ אַכּוּלְּהוּ כְּתִיבִי! אָמַר רַב: ״לְמִינֵהוּ״ הִפְסִיק הָעִנְיָן.",
+     "en": "The Gemara asks: <b>But isn’t</b> the term <b>“these” written with regard to all</b> eight of the creeping animals listed in the verse? <b>Rav says:</b> After mentioning the weasel, the mouse, and the great lizard the verse states: <b>“After its kinds.”</b> Therefore, the verse <b>interrupted the</b> previous <b>matter</b> and taught that the status of the skin is like that of the flesh only with regard to the creeping animals mentioned in the latter part of the verse.",
+     "rashi": [
+      "<b>הפסיק הענין</b> — ולא קאי האי אלה אלא אקרא בתרא האנקה והכח והלטאה והחומט והתנשמת אלה הטמאים וגו' ולאו אקרא קמא דלמינהו האמור בסוף פסוק ראשון הפסיקו לומר שאינן מין אחד אותן האמורים בפסוק ראשון חלוקים מהאמורים בפסוק השני:"
+     ],
+     "tosafot": [
+      "<b>למינהו הפסיק הענין</b> — תימה דאמר לעיל (חולין דף קיב:) דהאי הטמאים לאסור צירן ורוטבן דהתם נמי למינהו הפסיק הענין דפסוק אחד הוא לפירוש הקונט' וי\"ל דהכא כל הנהו דממעטינן אית להו גישתא סברא הוא לאוקומי אהנך דכתיב בתר למינהו ואע\"ג דכתיבא תנשמת בהדייהו דיש לה גישתא ומרבינן לה אבל צירן ורוטבן דלעיל סברא הוא לאוקומי בכולהו:",
+      "<b>למינהו הפסיק הענין</b> — קצת תימה כיון דהפסיק הענין למה לי אלה:"
+     ]
+    },
+    {
+     "he": "וְלִיחְשׁוֹב נָמֵי תִּנְשֶׁמֶת? אָמַר רַב שְׁמוּאֵל בַּר יִצְחָק: רַב תְּנָא הוּא, וְתָנֵי תִּנְשֶׁמֶת.",
+     "en": "The Gemara objects: <b>But</b> since the chameleon is listed in the latter part of the verse, <b>let</b> the <b>chameleon also be counted</b> among the animals whose skin has the status of flesh. <b>Rav Shmuel bar Yitzḥak said: Rav,</b> who interprets the verse in this manner, has the status of <b>a <i>tanna</i>, and</b> unlike the mishna, <b>he teaches</b> that the skin of the <b>chameleon</b> has the status of flesh.",
+     "rashi": [
+      "<b>וליחשב נמי</b> — במתניתין:",
+      "<b>תנשמת</b> — דהא איהו נמי בקרא בתרא כתיב:",
+      "<b>רב תנא הוא ותני תנשמת</b> — רב דמשני למינהו הפסיק אלמא הטמאים אכל הני דקרא בתרא קאי תנא הוא ותני תנשמת בעורותיהן כבשרן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָא תַּנָּא דִּידַן לָא תָּנֵי תִּנְשֶׁמֶת?",
+     "en": "The Gemara asks: <b>But the <i>tanna</i> of our</b> mishna <b>does not teach</b> this <i>halakha</i> with regard to the <b>chameleon.</b> According to his opinion, why doesn’t the skin of the chameleon have the status of flesh?",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב שֵׁשֶׁת בְּרֵיהּ דְּרַב אִידִי: תַּנָּא דִּידַן סָבַר לַהּ כְּרַבִּי יְהוּדָה, דְּאָזֵיל בָּתַר גִּישְׁתָּא.",
+     "en": "<b>Rav Sheshet, son of Rav Idi, said: The <i>tanna</i> of our</b> mishna <b>holds in accordance with</b> the opinion of <b>Rabbi Yehuda that</b> the halakhic status of the skin of the lizard, even though it is mentioned in the latter part of the verse, is like that of the skin of the weasel and is not like that of its flesh. Rabbi Yehuda does not derive that the status of the skin is like that of flesh from the verse that states: “They which are impure.” Rather, he <b>follows the texture</b> of the skin of each creeping animal when deciding whether the status of its skin is like that of its flesh.",
+     "rashi": [
+      "<b>תנא דידן סבר לה כרבי יהודה</b> — כלומר לא יליף טעמא מהטמאים אלא מסברא דגישתא כל שאין ממש בעורן שהוא רך ואין לו ממש עור קרי בשר כרבי יהודה דאמר הלטאה כחולדה אלמא לאו אקרא סמיך והאי דלא מודי ליה תנא דידן בהלטאה בהא פליגי תנא קמא סבר גישתא דידה לאו גישתא הוא ורבי יהודה סבר גישתא הוא:"
+     ],
+     "tosafot": [
+      "<b>כרבי יהודה דאזיל בתר גישתא</b> — פירש בקונטרס דלית ליה דרשה דהטמאים ולפירושו לא הוי תנא דברייתא לא רבי יהודה ולא בר פלוגתיה ובחנם קאמר רב תנא הוא ופליג דהא תנא דברייתא כוותיה ויש לפרש דכולהו אית להו דרשה דהטמאים ומוקי מסברא רבויא בהנהו דלית להו גישתא ומיעוטא בהנהו דאית להו גישתא ולית להו למינהו הפסיק הענין אבל רב דאית ליה למינהו הפסיק הענין ע\"כ פליג עלייהו וחשיב תנשמת:"
+     ]
+    },
+    {
+     "he": "וּבְגִישְׁתָּא דְּהַלְּטָאָה קָמִיפַּלְגִי.",
+     "en": "The first <i>tanna</i> of the mishna and Rabbi Yehuda agree that the texture of the skin of the gecko, the desert monitor, and the skink is soft and therefore the status of their skin is like that of their flesh; <b>and they disagree with regard to the texture</b> of the skin <b>of the lizard.</b> Rabbi Yehuda classifies its skin as tough, and the first <i>tanna</i> of the mishna classifies its skin as soft.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְכוּלָּן שֶׁעִיבְּדָן [וְכוּ׳]. הִילֵּךְ אִין, לֹא הִילֵּךְ לָא? וְהָא תָּנֵי רַבִּי חִיָּיא: אוֹזֶן חֲמוֹר שֶׁטְּלָאָהּ לְקוּפָּתוֹ טְהוֹרָה, טְלָאָהּ – אַף עַל גַּב דְּלָא הִילֵּךְ!",
+     "en": "§The mishna teaches: <b>And all of these</b> skins, in a case <b>where one tanned them</b> or spread them on the ground and trod upon them, are no longer classified as flesh and are ritually pure. The Gemara objects: The mishna indicates that if one <b>trod</b> upon them they <b>are</b> no longer classified as flesh, but if one <b>did not tread</b> upon them they do <b>not</b> cease being classified as flesh. <b>But doesn’t Rabbi Ḥiyya teach: The ear of a donkey that one sewed into his basket is pure</b> and is no longer classified as flesh. Just as the ear is no longer classified as flesh once it is <b>sewed</b> into a basket, so too skin that is spread on the ground, <b>even if</b> one <b>did not tread</b> upon it, should no longer be classified as flesh.",
+     "rashi": [
+      "<b>שטלאה</b> — לשון טלאי. אלמא מכיון שנטלה מתורת בשר ונתנה לתורת עור בטלה והאי נמי כיון ששטחן לפני הדורסן או שכרכן על רגלו להלוך בהן אף על פי שלא הילך:",
+      "<b>טלאה</b> — הוי מעשה לבטלו:"
+     ],
+     "tosafot": [
+      "<b>אוזן חמור שטלאה לקופה טהור</b> — ונתבטל הבשר שהיה באזן פ\"ה דפריך דהכא נמי במתני' להוי סגי בהנחה לפני הדורסן בלא הלוך ותימה א\"כ מאי משני טלאה אפילו דלא הילך דאכתי תקשה ליתני במתני' הנחה לפני הדורס בלא הלוך ע\"כ נראה דה\"פ הילך אין טלאה לא מדלא קתני במתניתין טלאה דס\"ד דטלאה גרע מהילן ומשני טלאה אף על גב דלא הילך כלומר כך לי זה כמו זה ואין חדוש בזה יותר מבזה:"
+     ]
+    },
+    {
+     "he": "לֹא: טְלָאָהּ, הִילֵּךְ – אִין, לֹא הִילֵּךְ – לָא.",
+     "en": "The Gemara explains: <b>No,</b> this is not difficult. <b>Sewing</b> the ear is an action that nullifies the ear’s classification as flesh. But spreading skin on the ground is not an action that nullifies the skin’s classification as flesh unless one trod upon the skin. Therefore, if one <b>trod</b> upon the skin it <b>is</b> no longer classified as flesh, but if one <b>did not tread</b> upon it, it does <b>not</b> cease being classified as flesh.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "כַּמָּה כְּדֵי עִבּוּד? אָמַר רַב הוּנָא אָמַר רַבִּי יַנַּאי: אַרְבַּעַת מִילִין.",
+     "en": "The mishna states that the skin must be trodden upon for the period required for tanning. The Gemara clarifies: <b>How long is the period</b> required <b>for tanning? Rav Huna says</b> that <b>Rabbi Yannai says:</b> The time which it takes one to walk <b>four <i>mil</i>.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי אֲבָהוּ מִשּׁוּם דְּרֵישׁ לָקִישׁ אָמַר: לְגַבָּל.",
+     "en": "§Since the period of time it takes to walk four <i>mil</i> was mentioned, the Gemara lists <i>halakhot</i> that employ this period of time. <b>Rabbi Abbahu says in the name of Reish Lakish: With regard to</b> a professional <b>kneader</b> who is careful to maintain the ritual purity of the dough that he kneads for others, he must walk up to four <i>mil</i> in order to purify the vessel he is using by immersing it in a ritual bath. He is not required to walk farther than this unless the person hiring him pays for him to do so.",
+     "rashi": [
+      "<b>(עבוד) לגבל</b> — הלש עיסתו בטהרה והוא שכיר לבעל הבית וצריך למים להטביל כליו יטריח עצמו ארבעה מילין עד שיגיע למקוה ויטביל ויותר מכאן אין עליו לטרוח מן הסתם אלא אם כן נותן לו בעל הבית שכר הליכה:"
+     ],
+     "tosafot": [
+      "<b>לגבל</b> — פ\"ה מי שיש לו לגבל עיסת חבירו בטהרה צריך לטרוח עד ד' מילין להטביל כליו ולפי זה לא קאי לפניו ולאחריו אגבל דאין רגילות להשכיר אדם בדרך לעשות לו עיסה ונראה כפירוש הערוך דפי' אם יש גבל העושה עיסה בטהרה ברחוק ד' מילין ימתין עד שיגיע לאותו גבל ומיירי באדם ההולך בדרך ומיהו מה שפירש בערוך לתפלה לרחוץ ידיו לתפלה אין נראה דהיכי דמי אי דמטא זמן צלויי הא לייט עלה אביי בברכות (דף טו.) אמאן דמהדר אמיא בעידן צלותא דכתיב ארחץ בנקיון כפי כל מידי דמנקי ואי לא מטא זמן תפלה מאי איריא ד' מילין אפילו טובא נמי ונראה כפירוש הקונטרס דלענין להתפלל בעשרה איירי ותימה דאמאי לא חשיב עבודה דבסמוך ועוד למאן דחשיב עבודה אמאי לא חשיב שלשים ריס דפרק לא יחפור (ב\"ב דף כג.) דמדת המיל ז' ומחצה ריס ור\"ח פי' לתפלה לטבול לתפלתו דאע\"ג דקי\"ל (לקמן חולין דף קלו:) כרבי יהודה בן בתירא בדברי תורה ה\"מ ללמוד ולק\"ש אבל לתפלה לא אי נמי לא סבירא ליה דרבי יהודה בן בתירא ולפירוש ר\"ח ניחא דלא חשיב עבודה דלא חשיב אלא הנך תלתא שהן ענין טהרה מאן דחשיב עבודה שהיא כמו מענין טהרה שמטהר העור מן הטומאה ולהכי חשיב לה ולא חשיב ההיא דשלשים ריס:"
+     ]
+    },
+    {
+     "he": "וְלִתְפִלָּה וְלִנְטִילַת יָדַיִם – אַרְבַּעַת מִילִין.",
+     "en": "<b>And</b> similarly, <b>with regard to prayer,</b> one who is traveling may not pray where he is if there is a synagogue within four <i>mil</i> ahead of him, but rather must continue traveling in order to pray in the synagogue. <b>And</b> similarly, <b>with regard to washing</b> one’s <b>hands</b> before eating, one who is traveling may not eat without washing his hands if there is water within <b>four <i>mil</i></b> ahead of him.",
+     "rashi": [
+      "<b>ולתפלה</b> — המהלך בדרך וגמר בלבו ורוצה ללון מבעוד יום אם יש בית הכנסת לפניו עד ארבעת מילין יטריח וילך שם כדי שיתפלל:",
+      "<b>ולנטילת ידים</b> — לאכילה ואין לו מים ויש מים לפניו לסוף ארבעה מילין ימתין עד שיגיע למים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב נַחְמָן בַּר יִצְחָק:",
+     "en": "With regard to this statement of Reish Lakish, <b>Rav Naḥman bar Yitzḥak said:</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
