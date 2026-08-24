@@ -1,0 +1,366 @@
+{
+ "tractate": "Chullin",
+ "page": 123,
+ "fetched": "2026-08-24",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 123a",
+   "he_ref": "חולין קכ״ג.",
+   "url": "https://www.sefaria.org/Chullin.123a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=123&amud=a",
+   "segments": [
+    {
+     "he": "אַיְבוּ אַמְרַהּ, וְאַרְבְּעֵי אֲמַר בַּהּ, וַחֲדָא מִינַּיְיהוּ עֲבוֹדָה.",
+     "en": "It was <b>Aivu</b> who <b>said</b> this statement in the name of Reish Lakish and not Rabbi Abbahu, <b>and he said four</b> <i>halakhot</i>, not three, with regard to the measure of four <i>mil</i>, <b>and</b> the fourth <b>one of them</b> is the <i>halakha</i> mentioned in the mishna: Skins that one spread on the ground and trod upon for the period required for <b>tanning,</b> i.e., the amount of time it takes to walk four <i>mil</i>, are no longer classified as flesh and are ritually pure.",
+     "rashi": [
+      "<b>איבו אמרה</b> — להא שמעתא משמיה דריש לקיש והשומע טעה בין איבו לאבהו:",
+      "<b>וארבעי אמר בה</b> — וארבעה דברים היה אומר בה בשיעור ד' מילין:",
+      "<b>עבודה</b> — האי כדי עבודה דמתניתין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי יוֹסֵי בְּרַבִּי חֲנִינָא: לֹא שָׁנוּ אֶלָּא לְפָנָיו, אֲבָל לְאַחֲרָיו – אֲפִילּוּ מִיל אֶחָד אֵינוֹ חוֹזֵר. רַב אַחָא בַּר יַעֲקֹב אָמַר, וּמִינַּהּ: מִיל הוּא דְּאֵינוֹ חוֹזֵר, הָא פָּחוֹת מִמִּיל – חוֹזֵר.",
+     "en": "<b>Rabbi Yosei, son of Rabbi Ḥanina, says:</b> With regard to prayer and washing one’s hands, the Sages <b>taught</b> that one must travel four <i>mil</i> to find a synagogue or water <b>only</b> if the synagogue or the water is <b>ahead of him,</b> in the direction that he is traveling. <b>But</b> if it is <b>behind him, he</b> need <b>not return even one <i>mil</i>. Rav Aḥa bar Yaakov said: From</b> this statement one may infer that <b>it is</b> specifically <b>a <i>mil</i> that one</b> need <b>not return; but one must return</b> for a synagogue or water that is at a distance of <b>less than</b> one <b><i>mil</i>.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּנוּ רַבָּנַן: לִיגְיוֹן הָעוֹבֵר מִמָּקוֹם לְמָקוֹם, וְנִכְנַס לְבַיִת – הַבַּיִת טָמֵא, שֶׁאֵין לָךְ כׇּל לִיגְיוֹן וְלִיגְיוֹן שֶׁאֵין לוֹ כַּמָּה קַרְקִפְלִין. וְאַל תִּתְמַהּ, שֶׁהֲרֵי קַרְקִפְלוֹ שֶׁל רַבִּי יִשְׁמָעֵאל מוּנָּח בְּרֹאשׁ מְלָכִים.",
+     "en": "§The mishna states that the skin of a human corpse is impure like its flesh. <b>The Sages taught</b> in the <i>Tosefta</i> (8:16): In the case of <b>a legion traveling</b> for warfare <b>from place to place, and</b> one member of the legion <b>enters a house, the house is impure, as there is no legion that does not have several scalps</b> that its soldiers carry around for witchcraft. <b>And you should not be surprised</b> that they do so, <b>as the scalp [<i>karkefal</i>] of Rabbi Yishmael</b> was <b>placed on the heads of kings.</b>",
+     "rashi": [
+      "<b>ליגיון</b> — גדוד העוברים להלחם על בית מלחמתם:",
+      "<b>קרקפלין</b> — עור ראש אדם מת וזה למכשפות במלחמה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> הַמַּפְשִׁיט בַּבְּהֵמָה וּבַחַיָּה, בַּטְּהוֹרָה וּבַטְּמֵאָה, בַּדַּקָּה וּבַגַּסָּה –",
+     "en": "<strong>MISHNA:</strong> The halakhic status of the hide of an animal after it was flayed is no longer like its flesh in terms of becoming impure and imparting impurity. Nevertheless, in the case of <b>one who flays</b> either <b>a domesticated animal or an undomesticated animal; a ritually pure</b> animal that was slaughtered properly and afterward came in contact with impurity, e.g., the one flaying it is impure, <b>or a ritually impure</b> unslaughtered carcass; <b>a small animal,</b> e.g., sheep, <b>or a large animal,</b> e.g., cattle; and even after flaying the animal’s hide is still partially attached to the flesh, the hide’s halakhic status remains that of flesh in some circumstances.",
+     "rashi": [
+      "<b>מתני' המפשיט בבהמה ובחיה בטהורה</b> — שחוטה והוא טמא או בטמאה נבלה והוא טהור אם מפשיטו לעשות מן העור שטיח למטה ושלחן דמפשיטו פשוט כדרך שאנו עושין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "לְשָׁטִיחַ, כְּדֵי אֲחִיזָה.",
+     "en": "These circumstances are: If he is flaying the animal <b>for</b> the purpose of using the hide as <b>a carpet,</b> a tablecloth, or to drape over a couch, in which case he would cut the hide along the length of the animal from head to tail and then remove the hide from both sides, its halakhic status remains that of flesh until he has flayed <b>the measure of grasping</b> the hide, i.e., two handbreadths.",
+     "rashi": [
+      "<b>כדי אחיזה</b> — הוי חבור יד להוציא טומאה מן הנבלה אם נוגע בו ולהכניס טומאה לבשר אם טהורה היא וטפי מהכא לא הוי יד להכניס ולהוציא טומאה. ולקמן מפרש כמה כדי אחיזה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּלְחֵמֶת – עַד שֶׁיַּפְשִׁיט אֶת הֶחָזֶה.",
+     "en": "<b>And</b> if he is flaying the animal <b>for</b> the purpose of crafting a leather <b>jug,</b> in which case he cuts a circle near the animal’s neck and removes the hide in a downward movement, its halakhic status remains that of flesh <b>until he flays the</b> animal’s entire <b>breast.</b>",
+     "rashi": [
+      "<b>ולחמת</b> — אם מפשיטו כפול לצורך חמת כעין אותן שעושין לצורך דבש ומתחיל מפיה והופכו כלפי זנבה:",
+      "<b>עד שיפשיט את החזה</b> — הוי חבור והנוגע בעור כנוגע בבשר בין ליטמא בין לטמא מפני שהחזה קשה להפשיט מכל האברים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הַמַּרְגִּיל – כּוּלּוֹ חִבּוּר לַטּוּמְאָה, לִיטַּמֵּא וּלְטַמֵּא. עוֹר שֶׁעַל הַצַּוָּאר – רַבִּי יוֹחָנָן בֶּן נוּרִי אוֹמֵר: אֵינוֹ חִבּוּר, וַחֲכָמִים אוֹמְרִים: חִבּוּר עַד שֶׁיַּפְשִׁיט אֶת כּוּלּוֹ.",
+     "en": "In the case of <b>one who</b> seeks to fashion a jug and begins <b>flaying from the legs,</b> until he removes the animal’s hide in <b>its entirety,</b> the entire hide is considered as having <b>a connection</b> with the flesh and its halakhic status remains that of flesh <b>with regard to impurity,</b> i.e., with regard <b>to becoming impure and with regard to imparting impurity.</b> If one removed the entire hide except for <b>the hide over the neck, Rabbi Yoḥanan ben Nuri says: It is not</b> considered to have <b>a connection</b> to the flesh, <b>and the Rabbis say:</b> It is considered to have <b>a connection</b> to the flesh <b>until he removes the</b> animal’s <b>hide in its entirety,</b> including the neck.",
+     "rashi": [
+      "<b>המרגיל</b> — שהתחיל לחותכו מרגליה כלפי ראשה ומפשיטה כפול לחמת כולו חבור מפני שהחזה לסוף הפשטו הוא לפיכך כולו חבור והנוגע אף בעור המופשט כנוגע בבשר:",
+      "<b>עור שעל הצואר</b> — מעצמו נפשט לפיכך אינו חבור לעשות המופשט הראשון חבור כדרך שהחזה עושה דהא כולו חבור דקתני לאו דוקא כולו אלא עד החזה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> מִכָּאן וְאֵילָךְ מַאי?",
+     "en": "<strong>GEMARA:</strong> The mishna teaches: If one flays an animal for the purpose of making a carpet out of it, the halakhic status of the hide remains that of flesh until he has flayed the measure of grasping the hide. The Gemara asks: <b>From that</b> point <b>forward,</b> i.e., when one has flayed more than the measure of grasping of the hide, <b>what</b> is the status of the hide?",
+     "rashi": [
+      "<b>גמ' מכאן ואילך</b> — משהפשיט כדי אחיזה בפשוט על פני כולו לאחר שסדקו מן הצואר עד הזנב באמצעית כדרך המפשיטין והפשיט כדי אחיזה סביבות כולו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב: טָהוֹר הַמּוּפְשָׁט, רַבִּי אַסִּי אָמַר: טֶפַח הַסָּמוּךְ לַבָּשָׂר טָמֵא.",
+     "en": "<b>Rav says:</b> The entire section of the hide <b>that has been flayed is pure</b> because it no longer serves the flesh as a handle. But the hide that is still attached to the flesh serves the flesh as protection, and therefore it transmits impurity to the flesh and from the flesh, and joins together with the flesh to constitute the requisite measure to impart the impurity of food. <b>Rabbi Asi says: One handbreadth</b> of the flayed hide <b>that is next to the flesh is susceptible to impurity.</b> Since the one who flays the hide holds this handbreadth of the hide while flaying, this section of the hide serves the flesh as a handle.",
+     "rashi": [
+      "<b>טהור המופשט</b> — עד מקום חבורו אבל מחבורו ואילך הוא טמא משום שומר כדאמרן בנוגע כנגד הבשר מאחוריו:",
+      "<b>טפח</b> — מן העור המופשט סמוך למקום חבור סביבות כולו הוי בית יד וטמא מפני שצריך לו שאוחז שם ומושך ומפשיט מאליו ולרב לאו יד חשיב ליה אא\"כ מטלטלין בו את האוכל:"
+     ],
+     "tosafot": [
+      "<b>טהור המופשט</b> — למאי דפירש בקונטרס דסבר רב דכל יד שאין מטלטלין בו את האוכל אינו יד תימה דאמאי עד כדי אחיזה חשיב יד טפי ונראה משום דבכדי אחיזה ואילך יכול לאחוז בבשר עצמו ולטלטלו אי נמי משום דכל זמן שלא הפשיט כדי אחיזה הוא קשה להפשיטו ופעמים שמניחו כך וצריך לו לטלטלו ממקום למקום אבל משהפשיט כדי אחיזה שוב אין קשה להפשיט ואין זז משם עד שיפשיט כולו וכן בחמת עד שיפשיט את החזה לפי שהחזה קשה להפשיט ולכך לפעמים מניחו כך שעה אחת ותוך כך יצטרך לטלטלו אבל משהופשט החזה אין דרך להניחו כך ועוד יש לפרש טעמא דרב דאמר מכאן ואילך טהור המופשט מפני שכדי אחיזה צריך העור להיות יד לצורך הפשטה אבל ביותר מכדי אחיזה לא לפי שאם מחזיק בשפת העור אין יכול למשוך בכח ולהפשיט ובכדי אחיזה סמוך לבשר אין יכול להחזיק בידו העור היטב ולמשוך הלכך עד [כדי] אחיזה יכול להחזיק ולמשוך בשפת העור טפי לא כדפי' הקונט' גבי הא דמשני בסמוך ההוא בטפח ראשון שכשהפשיט שלשה טפחים שאין יכול להחזיק לא בשפת העור ולא באמצע העור וי\"מ כולה מתני' משום שומר דעד כדי אחיזה הוי חבור וכ\"ש פחות אם נגע שרץ בעור המופשט מכניס טומאה לבשר משום שומר ואע\"ג דאמר לעיל (חולין דף קיח.) דעור כנגד הבשר דוקא הוי שומר הכא חשיב כנגד הבשר כיון דחשיב הכל כמחובר וכן לחמת כל זמן שהחזה מחובר חשיב הכל מחובר אבל משום יד אין לפרש דלרב אסי דאמר טפח סמוך לבשר טמא משום יד דלחמת אמאי כל העור חבור לא היה לטמא אלא טפח הסמוך לחזה דמאי שנא בין חזה לשאר אברים אלא ודאי משום שומר הוי דחשיב כל העור מחובר וכן לשון דהרי זה חבור משמע דהוי משום שומר דביד מה שייך לשון חבור והכי מוכח בת\"כ דתניא התם בנבלתה ולא במפשיט לשטיח כדי אחיזה ולחמת עד שיוציא כל החזה יכול שאני מוציא פחות מכשיעור ת\"ל יטמא אלמא דטעמא דשטיח כדי אחיזה הוי משום שומר דהא מיטמא דרשינן לעיל (שם) שומר דנבלה ויד דריש לעיל מלכם כך פי' הרב רבינו יעקב מאורלינ\"ש ואין הגי' כן בת\"כ ולפי פירושו לא מטמא בת\"כ וגם בשמעתין אלא עד כדי אחיזה ולא כדי אחיזה בכלל דהיינו פחות מכשיעור שמזכיר לשם:"
+     ]
+    },
+    {
+     "he": "מֵיתִיבִי: הַמַּפְשִׁיט כְּשִׁיעוּר הַזֶּה, מִכָּאן וְאֵילָךְ, הַנּוֹגֵעַ בַּמּוּפְשָׁט טָהוֹר. מַאי לָאו אֲפִילּוּ בְּטֶפַח הַסָּמוּךְ לַבָּשָׂר? לָא, לְבַר מִטֶּפַח הַסָּמוּךְ לַבָּשָׂר.",
+     "en": "The Gemara <b>raises an objection</b> to the statement of Rabbi Asi from a <i>baraita</i>: In the case of <b>one who flays</b> an unslaughtered animal carcass, once he has cut the hide along the length of the animal from head to tail and then removed <b>this measure</b> of the hide from both sides, then <b>from that</b> point <b>forward,</b> a person <b>who touches the flayed</b> hide <b>is pure,</b> because the flayed hide does not impart impurity of a carcass. <b>What, is it not</b> discussing <b>even the handbreadth</b> of hide <b>next to the flesh,</b> contrary to the opinion of Rabbi Asi? The Gemara answers: <b>No,</b> there is no proof from this <i>baraita</i>, as it may be discussing the flayed hide <b>except for the handbreadth next to the flesh.</b>",
+     "rashi": [
+      "<b>כשיעור הזה</b> — כדי אחיזה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: בְּעוֹר שֶׁכְּנֶגֶד הַבָּשָׂר – טָמֵא. עוֹר שֶׁכְּנֶגֶד הַבָּשָׂר – טָמֵא, הָא בְּטֶפַח הַסָּמוּךְ לַבָּשָׂר – טָהוֹר. תָּנָא: כׇּל טֶפַח הַסָּמוּךְ לַבָּשָׂר, עוֹר שֶׁכְּנֶגֶד הַבָּשָׂר קָרֵי לֵיהּ.",
+     "en": "<b>Come</b> and <b>hear</b> a refutation of the opinion of Rabbi Asi from a <i>baraita</i>: Once an animal carcass has been flayed more than the measure of grasping the hide, if one touches <b>the hide opposite the flesh</b> before that hide was flayed <b>he is impure.</b> This statement indicates that the attached <b>hide opposite the flesh is impure, but one handbreadth</b> of the flayed hide <b>that is next to the flesh is pure,</b> contrary to the opinion of Rabbi Asi. The Gemara answers: There is no proof from this <i>baraita</i>. <b>The <i>tanna</i></b> who taught this <i>baraita</i> was referring to <b>the entire handbreadth</b> of flayed hide <b>next to the flesh</b> by <b>calling it the hide opposite the flesh.</b>",
+     "rashi": [
+      "<b>בעור שכנגד הבשר</b> — שלא נפשט עדיין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: הַמַּפְשִׁיט בַּבְּהֵמָה וּבַחַיָּה, בַּטְּהוֹרָה וּבַטְּמֵאָה, בַּדַּקָּה וּבַגַּסָּה, לְשָׁטִיחַ – כְּדֵי אֲחִיזָה, וְטֶפַח הַסָּמוּךְ לַבָּשָׂר – טָהוֹר.",
+     "en": "<b>Come</b> and <b>hear</b> a refutation of the opinion of Rabbi Asi from a <i>baraita</i> (<i>Tosefta</i> 8:18): In the case of <b>one who flays a domesticated animal or an undomesticated animal, a ritually pure</b> animal <b>or a ritually impure</b> unslaughtered carcass, <b>a small animal or a large animal,</b> if he is flaying the animal <b>for</b> the purpose of using the hide as <b>a carpet,</b> the halakhic status of the hide remains that of flesh until he has flayed <b>the measure of grasping</b> it, <b>and</b> one who touches <b>one handbreadth</b> of the flayed hide <b>next to the flesh</b> remains <b>pure,</b> contrary to the opinion of Rabbi Asi.",
+     "rashi": [],
+     "tosafot": [
+      "<b>בפירוש ר\"ח גרסינן בטפח הסמוך לבשר טמא </b> ופריך לרב דאמר טהור המופשט ומשני  הכא במאי עסקינן בטפח ראשון פירוש טפח ראשון כשמתחיל להפשיט העור עד כדי אחיזה וטפח הוי טפח כפול כמו שמפרש בסמוך ופרושי קא מפרש עד כמה כדי אחיזה היינו טפח סמוך לבשר:"
+     ]
+    },
+    {
+     "he": "הָכָא בְּמַאי עָסְקִינַן? בְּטֶפַח רִאשׁוֹן.",
+     "en": "The Gemara answers: <b>Here we are dealing with the first handbreadth</b> of hide that is flayed in addition to the measure of grasping. In a case where only one handbreadth of hide has been flayed in addition to the measure of grasping, it is more comfortable for the one flaying the hide to grasp the edge of the hide rather than the handbreadth of hide that is nearest to the flesh. Furthermore, the most comfortable way to continue flaying is to do so with a knife without grasping the flayed hide at all. Therefore, Rabbi Asi concedes that the hide in this case does not serve the flesh as a handle and consequently does not impart impurity. But afterward, when one has already flayed more than three handbreadths of hide, one holds the handbreadth of hide next to the flesh while continuing to flay the animal, and since it serves the flesh as a handle it imparts impurity.",
+     "rashi": [
+      "<b>בטפח ראשון</b> — הסמוך לכדי אחיזה כגון שלא הפשיט אלא טפחיים דאותו טפח הסמוך לכדי אחיזה אינו אוחז בו ומושך לפי שנוח לו לאחוז בשפת העור ולמשוך ולא זה ולא זה טוב לו אלא מפשיט בסכין אבל לאחר שהפשיט קצת שלשה טפחים וארבעה והעור המופשט מכביד כלפי מטה אוחז בטפח הסמוך לבשר ומושך וכובד העור מסייעו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּנָא: כַּמָּה כְּדֵי אֲחִיזָה? טֶפַח. וְהָא תַּנְיָא: טִפְחַיִים!",
+     "en": "§The mishna teaches that the hide’s halakhic status remains that of flesh until he has flayed the measure of grasping the hide. It was <b>taught</b> in a <i>baraita</i>: <b>How much is the measure of grasping?</b> It is <b>one handbreadth.</b> The Gemara asks: <b>But isn’t it taught</b> in another <i>baraita</i>: The measure of grasping is <b>two handbreadths?</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: טֶפַח כָּפוּל. תַּנְיָא נָמֵי הָכִי: כַּמָּה כְּדֵי אֲחִיזָה? טֶפַח כָּפוּל.",
+     "en": "<b>Abaye says:</b> The first <i>baraita</i> is referring to one who grasps <b>a double handbreadth</b> by folding the first two handbreadths together and grasping them. <b>This</b> explanation of Abaye <b>is also taught</b> in the <i>Tosefta</i> (8:18): <b>How much is the measure of grasping?</b> It is <b>a double handbreadth.</b>",
+     "rashi": [
+      "יש טפח ששיעורו כפול:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תְּנַן הָתָם: טַלִּית שֶׁהִתְחִיל בָּהּ לְקוֹרְעָהּ, כֵּיוָן שֶׁנִּקְרַע רוּבָּהּ – שׁוּב אֵינוֹ חִבּוּר, וּטְהוֹרָה.",
+     "en": "§The Gemara discusses a matter similar to the previous discussion of a partially flayed hide. <b>We learned</b> in a mishna <b>elsewhere</b> (<i>Kelim</i> 28:8): A ritually impure garment that tears is rendered pure because it is no longer considered a useable garment. In the case of a ritually impure <b>garment that one began to tear, once the majority of</b> the garment <b>is torn,</b> the two sections are <b>no longer</b> considered as having <b>a connection, and</b> since it is no longer considered a useable garment, it <b>is pure.</b>",
+     "rashi": [
+      "<b>טלית שהתחיל בה לקורעה</b> — שנטמאה ובא לקורעה לבטלה מתורת טלית ומאחר שאינה ראויה למלאכה הראשונה ואין שמה עליה מטהרת אע\"פ שיש בשיריה שלש על שלש ועדיין ראויה לקבל טומאה טהורה מטומאתה ראשונה דומיא דכלי חרס דשבירתו מטהרתו ושבריו מקבלין טומאה כדאמרי' באלו טרפות (לעיל חולין דף נד:) הן וקרקרותיהן ודופנותיהן. ואף על גב דאמר בבהמה המקשה (לעיל חולין דף עב:) שלשה על שלשה שהיה טמא מדרס ומגע הזב וחלקו טהור מן המדרס ועדיין טמא מגע הזב אלמא טומאת שלשה על שלשה דחזי ליה לא בטלה מיניה התם הוא דהוו עליה ב' טומאות טומאת מדרס חמורה וטומאת מגע קלה אהניא ליה חלוקה לבטל ממנו טומאת מדרס דתו לא חזי ליה ופשה לה טומאת מגע דחזיא לשלש אצבעות אבל הכא חד שמא הוא כולה טומאה דשלשה על שלשה היא וקריעה מהניא לבטולי שמא מינה דתו לא פש עלה מידי:"
+     ],
+     "tosafot": [
+      "<b>טלית שהתחיל בה לקורעה כו'</b> — פר\"ת כיון שנקרע רובה הויא טהורה למפרע מתחלת קריעה ולשון שהתחיל לקורעה משמע כפירושו ומה שקשה לפירוש הקונטרס מפורש בפרק בהמה המקשה (לעיל חולין דף עב: ד\"ה בשעת):"
+     ]
+    },
+    {
+     "he": "אָמַר רַב נַחְמָן אָמַר רַבָּה בַּר אֲבוּהּ: לֹא שָׁנוּ אֶלָּא בְּטַלִּית טְבוּלַת יוֹם.",
+     "en": "<b>Rav Naḥman says</b> that <b>Rabba bar Avuh says:</b> The Sages <b>taught</b> this <i>halakha</i> <b>only with regard to</b> an impure <b>garment that was</b> already <b>immersed</b> in a ritual bath <b>that day,</b> but one must wait until nightfall for the purification process to be completed in order to wear the garment while eating ritually pure food. In such a case, tearing the majority of the garment renders it pure, and the Sages did not apply the requirement that the entire garment be torn.",
+     "rashi": [
+      "<b>לא שנו אלא בטלית טבולת יום</b> — שנטמאה והטבילה וצריך להשתמש בה טהרות קודם שיעריב שמשה ולפיכך בא לקורעה דהכא הוא דלא גזרינן דליקרעיה כולה אבל רובא לא דילמא חייס עלה ולא אתי למקרע רובא דכיון דלא חס עליה אטבילה שהמים קשין לה ולא חס לכך לא חייס עלה נמי וקרע רובא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּמִיגּוֹ דְּלָא חַס עֲלַהּ וְאַטְבְּלַהּ, לָא חָיֵיס עֲלַהּ וְקָרַע לַהּ רוּבַּהּ. אֲבָל טַלִּית שֶׁאֵינָהּ טְבוּלַת יוֹם – לָא, גְּזֵרָה דִּלְמָא לָא אָתֵי לְמִיקְרְעַהּ רוּבַּהּ.",
+     "en": "This is <b>because</b> the reason for this rabbinic decree is lest one tear only half of it out of concern for the damage to the garment. And <b>since</b> in this case, the owner of the garment showed <b>that he was not concerned about</b> damage to the garment by <b>immersing it</b> in a ritual bath, an act which damages the garment, so too <b>he is</b> presumably <b>not concerned about</b> the garment with regard to tearing <b>it, and he will</b> certainly <b>tear the majority of it. But a garment that was not immersed that day is not</b> rendered pure by tearing the majority of the garment due to a rabbinic <b>decree lest one come to not tear the majority</b> of the garment but only half of it.",
+     "rashi": [
+      "<b>אבל</b> — טמאה ולא הטבילה ובא לטהרה בקריעה זו לא סגי לה ברובא עד שיקרענה כולה:",
+      "<b>דילמא לא אתי</b> — למעבד רובא אלא פלגא ואמר רובא הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבָּה: שְׁתֵּי תְּשׁוּבוֹת בַּדָּבָר: חֲדָא – שֶׁמָּא יֹאמְרוּ טְבִילָה בַּת יוֹמָא עוֹלָה, וְעוֹד –",
+     "en": "<b>Rabba said:</b> There are <b>two refutations of</b> this <b>statement. One</b> is that the decree should apply even to a garment that was immersed that day, <b>lest</b> people who see one eating ritually pure food while wearing such a garment <b>say</b> that <b>immersion</b> of a garment <b>on the</b> same <b>day is sufficient</b> for the garment to be worn while eating ritually pure food, and there is no need to wait until nightfall. <b>And furthermore,</b> if a garment that was not immersed that day is rendered pure only by tearing the entire garment and not by tearing merely a majority of the garment, due to a decree lest one tear less than a majority of the garment,",
+     "rashi": [
+      "<b>חדא</b> — בטבולת יום ליכא לאוקומה ולהשתמש בה ביום שהטבילה שהרואה אינו מבין בה שנקרעה לטהר וסבור על ידי טבילתה משתמשין בה ויאמרו טבילה בת יומא עולה בלא הערב שמש ועל כרחך מתניתין לאו ביום טבילה עסקינן אלא בשלא הוטבלה כל עיקר וקרעה ביום המחרת לטומאתה דהרואהו משתמש בה אומר שהטבילה אתמול:",
+      "<b>ועוד</b> — דקאמרת גזירה רובה אטו חציה:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 123b",
+   "he_ref": "חולין קכ״ג:",
+   "url": "https://www.sefaria.org/Chullin.123b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=123&amud=b",
+   "segments": [
+    {
+     "he": "עוֹלַת הָעוֹף לְרַבִּי אֶלְעָזָר בְּרַבִּי שִׁמְעוֹן לִיגְזַר, דִּילְמָא לָא אָתֵי לְמֶעְבַּד רוֹב שְׁנַיִם.",
+     "en": "so too, with regard to <b>a bird burnt offering according to</b> the opinion of <b>Rabbi Elazar, son of Rabbi Shimon,</b> who holds that one is required to pinch merely a majority of two <i>simanim</i> in the nape of the neck in order to prepare it for sacrifice, <b>let him decree</b> against pinching the majority of two <i>simanim</i> <b>lest one come to not perform</b> the pinching on <b>the majority of two</b> <i>simanim</i>, but rather on merely half of them.",
+     "rashi": [
+      "<b>עולת העוף לרבי אלעזר ברבי שמעון</b> — דאמר (בהשוחט) בפ\"ק (לעיל חולין דף כא.) רוב שנים דוקא ואסור למלוק כל השנים דגמר מחטאת דכתיב ביה לא יבדיל היכי שרינן הכי ליגזור דילמא לא אתי למיעבד רובא:"
+     ],
+     "tosafot": [
+      "<b>עולת העוף לרבי אלעזר בר' שמעון לגזור</b> — וא\"ת ומאי קושיא שאני התם דגזירת הכתוב הוא שלא להבדיל וי\"ל דמשמע דלא מצריך אלא רוב מצומצם ולהכי פריך דלגזור וה\"ל לאצרוכי רוב הנראה לעינים:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַב יוֹסֵף: דְּקָא אָמְרַתְּ גְּזֵירָה שֶׁמָּא יֹאמְרוּ טְבִילָה בַּת יוֹמָא עוֹלָה – קִרְעָהּ מוֹכִיחַ עָלֶיהָ.",
+     "en": "<b>Rav Yosef</b> responded to Rabba’s two refutations and <b>said to him:</b> With regard to <b>that which you said,</b> that a rabbinic <b>decree</b> is necessary even with regard to a garment that was immersed that day <b>lest</b> onlookers <b>say</b> that <b>immersion</b> of a garment <b>on that</b> same <b>day is sufficient,</b> there is no reason for such a concern. This is because <b>its tear proves</b> that the garment is pure due to the tear, and not because one is allowed to wear an immersed garment while eating pure food before sunset.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וּדְקָא אָמְרַתְּ, עוֹלַת הָעוֹף לְרַבִּי אֶלְעָזָר בְּרַבִּי שִׁמְעוֹן לִיגְזַר – כֹּהֲנִים זְרִיזִים הֵן.",
+     "en": "<b>And</b> with regard to <b>that which you said,</b> that with regard to <b>a bird burnt offering according to</b> the opinion of <b>Rabbi Elazar, son of Rabbi Shimon, let him decree</b> against pinching the majority of the <i>simanim</i> lest one fail to pinch the majority, in fact there is no reason for such a concern. Rav Yosef explains: The reason there is no concern is that pinching is performed by <b>the priests,</b> who <b>are vigilant</b> with regard to mitzvot.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: הַמַּפְשִׁיט בַּבְּהֵמָה וּבַחַיָּה, בַּטְּמֵאָה וּבִטְהוֹרָה, בַּדַּקָּה וּבַגַּסָּה, לְשָׁטִיחַ – כְּדֵי אֲחִיזָה.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a refutation to Rabba bar Avuh’s explanation of the mishna in tractate <i>Kelim</i> from the mishna here: In the case of <b>one who flays a domesticated animal or an undomesticated animal, a ritually impure</b> animal <b>or a ritually pure</b> animal, <b>a small</b> animal <b>or a large</b> animal, if he is flaying the animal <b>for</b> the purpose of using the hide as <b>a carpet,</b> the halakhic status of the hide remains that of flesh until he has flayed <b>the measure of grasping</b> the hide.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "הָא יָתֵר מִכְּדֵי אֲחִיזָה – טָהוֹר, אַמַּאי? לִיגְזַר, דִּילְמָא לָא אָתֵי לְמֶעְבַּד אֶלָּא כְּדֵי אֲחִיזָה, וְקָא נְגַע בְּטוּמְאָה, וְקָא מְטַהֲרִינַן לֵיהּ!",
+     "en": "The Gemara infers: <b>But</b> after one has flayed <b>more than a measure of grasping</b> the hide, the hide is <b>pure. Why</b> is this so? <b>Let</b> the Sages <b>decree</b> that even a hide that was flayed more than the measure of grasping is susceptible to impurity <b>lest</b> one who intends to flay more than a measure of grasping <b>come to complete only a measure of grasping, and he is</b> thereby <b>touching</b> a source of <b>impurity, and we</b> might mistakenly <b>deem him pure.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>דלמא לא אתי למעבד כדי אחיזה</b> — תימה לר\"י דמאי פריך הא לא חייס עלה דמפשיט הבהמה והיה רוצה שיהיה כולה מופשט וי\"ל דהכא חייס שלא להפשיט הרבה שאז הוא נוח לטלטל ולהפשיט:"
+     ]
+    },
+    {
+     "he": "אִי בְּטוּמְאָה דְּאוֹרָיְיתָא – הָכִי נָמֵי, הָכָא בְּמַאי עָסְקִינַן? בְּטוּמְאָה דְּרַבָּנַן.",
+     "en": "The Gemara answers: <b>If</b> the mishna were discussing <b>impurity by Torah law, indeed</b> the Sages would issue such a decree. But <b>here we are dealing with impurity by rabbinic law,</b> and therefore the Sages did not issue such a decree.",
+     "rashi": [
+      "<b>בטומאה דרבנן</b> — שהיה המפשיט טמא טומאה דרבנן כגון הנך דגבי שמנה עשר דבר (שבת דף יג:) הבא ראשו ורובו במים שאובים ובהמה זו קדשים היא ואם נגע בה טמאה מדרבנן הלכך לא מחמרינן בה כולי האי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תִּינַח טָמֵא בַּטְּהוֹרָה, טָהוֹר בִּטְמֵאָה – טוּמְאָה דְּאוֹרָיְיתָא הִיא! בִּטְרֵפָה.",
+     "en": "The Gemara objects: According to this answer, the case in the mishna of <b>an impure</b> person who flays <b>a pure</b> animal <b>works out well.</b> That could be referring to a case of impurity by rabbinic law. But in every case of <b>a pure</b> person who flays <b>an impure</b> animal, i.e., an unslaughtered animal carcass, the <b>impurity</b> of the animal <b>is by Torah law.</b> Therefore, in such a case the Sages should have issued a decree. The Gemara explains: The case taught in the mishna of a person who flays an impure animal is referring <b>to</b> a pure animal that was properly slaughtered, but after the slaughter the animal was found to have a wound that would have caused it to die within twelve months, thereby rendering it <b>a <i>tereifa</i>.</b> Such an animal imparts impurity by rabbinic law.",
+     "rashi": [
+      "<b>תינח טמא בטהורה טהור בטמאה טומאה דאורייתא היא</b> — דהא מתניתין בין בטמאה בין בטהורה קתני תנא טהורה לענין הכנסת טומאה לקבלה מן המפשיט ותנא טמאה לענין הוצאת טומאה שתטמא היא את המפשיט הראשון הנוגע בכדי אחיזה ולטהר את השני המפשיט מכדי אחיזה ואילך ולא נגע בבשר והכא ליגזר דהא כל בהמה טמאה נבלה היא אפי' שחטה וטומאתה דאורייתא:",
+      "<b>בטרפה</b> — האי טמאה דמתני' לאו בהמה טמאה אלא בהמה טהורה טרפה ושחטה והיא מטמאתו אם נוגע בה כדמפרש ואזיל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "טְרֵפָה בַּת טַמּוֹיֵי הִיא? אִין, כְּדַאֲבוּהּ דִּשְׁמוּאֵל, דְּאָמַר אֲבוּהּ דִּשְׁמוּאֵל: טְרֵפָה שֶׁשְּׁחָטָהּ מְטַמְּאָה בְּמוּקְדָּשִׁין.",
+     "en": "The Gemara asks: <b>Is</b> a pure animal that is found to be <b>a <i>tereifa</i> capable of imparting impurity?</b> The Gemara answers: <b>Yes, in accordance with</b> the opinion <b>of Shmuel’s father, as Shmuel’s father said: A <i>tereifa</i> that one slaughtered imparts impurity</b> by rabbinic law <b>if</b> it is <b>a sacrificial</b> animal. Accordingly, the mishna is referring to the case of a sacrificial animal that was found to be a <i>tereifa</i>.",
+     "rashi": [
+      "<b>מטמאה במוקדשין</b> — כלומר אם של מוקדשין היא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: רַבִּי דּוֹסְתַּאי בֶּן יְהוּדָה מִשּׁוּם רַבִּי שִׁמְעוֹן אוֹמֵר: הַמַּפְשִׁיט בִּשְׁרָצִים – חִבּוּר, עַד שֶׁיַּפְשִׁיט אֶת כּוּלּוֹ.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a refutation of Rabba bar Avuh’s explanation of the mishna in tractate <i>Kelim</i> from a <i>baraita</i> (<i>Tosefta</i> 8:19): <b>Rabbi Dostai ben Yehuda says in the name of Rabbi Shimon:</b> With regard to <b>one who flays creeping animals,</b> its hide is considered to have <b>a connection</b> with the flesh, and it imparts impurity of a creeping animal <b>until he flays</b> the animal in <b>its entirety.</b>",
+     "rashi": [
+      "שרצים אין נוחין להפשיט:",
+      "<b>כולו</b> — חבור ואפילו יותר מכדי אחיזה הנוגע במופשט טמא. מדנקט שרצים טעמא משום דקשים להפשיט אבל גמל לא ואע\"פ שטומאתו דאורייתא היא שיעור הפשטה בכדי אחיזה ולא גזרינן משום פחות מכדי אחיזה וקשיא לרב נחמן דגזר דילמא לא אתי למעבד שיעורא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָא בְּגָמָל – אֵינוֹ חִבּוּר.",
+     "en": "The Gemara infers: This <i>halakha</i> applies only with regard to creeping animals, <b>but with regard to a camel</b> or other non-kosher animals, when the hide is flayed more than a measure of grasping it <b>is not</b> considered to have <b>a connection</b> with the flesh and is pure, even though when the measure of grasping is flayed it is impure. Apparently, there is no rabbinic decree that even a hide that was flayed more than the measure of grasping imparts impurity lest one who intends to flay more than a measure of grasping come to flay only a measure of grasping, contrary to the opinion of Rabba bar Avuh.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "לָא תֵּימָא הָא בְּגָמָל אֵינוֹ חִבּוּר, אֶלָּא אֵימָא: בְּעוֹר שֶׁעַל הַצַּוָּאר אֵינוֹ חִבּוּר, וְרַבִּי יוֹחָנָן בֶּן נוּרִי הִיא.",
+     "en": "The Gemara rejects this proof: <b>Do not say</b> that <b>this</b> statement indicates that <b>with regard to a camel,</b> when the hide is flayed more than a measure of grasping it <b>is not</b> considered to have <b>a connection</b> with the flesh. <b>Rather, say</b> that this statement indicates that only with regard to a creeping animal is the hide considered to have a connection with the flesh until one flays the animal in its entirety. But <b>with regard to</b> a camel carcass and other non-kosher animals, in a case where one seeks to fashion a jug and begins flaying from the legs, if he removed the entire hide except for <b>the hide over the neck, it is not</b> considered to have <b>a connection</b> to the flesh, <b>and</b> this statement <b>is</b> in accordance with the opinion of <b>Rabbi Yoḥanan ben Nuri</b> stated in the mishna.",
+     "rashi": [
+      "<b>לא תימא הא בגמל</b> — ביותר מכדי אחיזה אינו חבור אלא הך דיוקא דדייקינן למעוטי גמל אעור הצואר הוא דדייקינן והכי קאמר שרצים הוא דעד שיפשיט את כולו אבל גמל שהפשיט עד הצואר אינו חבור ובמפשיט לחמת ובמרגיל קאי ולעולם לשטיח אף ביותר מכדי אחיזה טמא דגזרינן בבהמה טמאה הואיל וטומאתה דאורייתא:",
+      "<b>ור' יוחנן בן נורי היא</b> — דאמר במתני' אינו חבור והכא ליכא למיגזר מידי דלמא לא אתי למעבד עד הצואר דהיכרא טובא איכא אבל בין פלגא לרובא לא מוכחא מילתא וכן בין כדי אחיזה לפחות מכדי אחיזה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב הוּנָא מִשּׁוּם רַבִּי שִׁמְעוֹן בְּרַבִּי יוֹסֵי: לֹא שָׁנוּ אֶלָּא שֶׁלֹּא שִׁיֵּיר בָּהּ כְּדֵי מַעְפּוֹרֶת, אֲבָל שִׁיֵּיר בָּהּ כְּדֵי מַעְפּוֹרֶת – חִבּוּר.",
+     "en": "§The Gemara returns to discuss, and limit the scope of, the previously cited mishna (<i>Kelim</i> 28:8): In the case of a ritually impure garment that one began to tear, once the majority of the garment is torn, the two sections are no longer considered to have a connection, and the garment is pure. <b>Rav Huna says in the name of Rabbi Shimon, son of Rabbi Yosei:</b> The mishna <b>taught</b> that an impure garment, most of which has been torn, is no longer impure <b>only when one did not leave</b> untorn a part of the garment that is <b>the measure of a scarf. But</b> if <b>he left</b> an untorn piece that is <b>the measure of a scarf, it is</b> considered to have <b>a connection,</b> and the garment remains ritually impure.",
+     "rashi": [
+      "<b>מעפורת</b> — סודר. ויתחפש באפר דכתיב גבי מיכה (מלכים א כ) מתרגמינן ואישתני במעפורתא:",
+      "<b>שייר</b> — בההוא מיעוט שלא נקרע כדי מעפורת חשוב הוא להיות חבור:",
+      "<b>לא שנו</b> — דכי לא שייר הוי חילוק:"
+     ],
+     "tosafot": [
+      "<b>אבל שייר בה כדי מעפורת לא</b> — בפרק דם חטאת (זבחים דף צד:) אמרינן אפילו שייר בה כדי מעפורת אינו טמא אלא מדרבנן:"
+     ]
+    },
+    {
+     "he": "אָמַר רֵישׁ לָקִישׁ: לֹא שָׁנוּ אֶלָּא טַלִּית, אֲבָל עוֹר – חֲלִים. וְרַבִּי יוֹחָנָן אָמַר: אֲפִילּוּ עוֹר נָמֵי לָא חֲלִים.",
+     "en": "<b>Reish Lakish said:</b> The mishna <b>taught only</b> with regard to an impure <b>garment,</b> most of which has been torn, that it is no longer impure, <b>but</b> an impure <b>hide</b> that was torn in such a manner remains impure because it is <b>repairable. And Rabbi Yoḥanan said: Even a hide</b> that was torn in such a manner is no longer impure because it <b>is not repairable.</b>",
+     "rashi": [
+      "<b>אלא טלית</b> — דכיון שנקרע בטל שמה דאפי' חוזר ותופרה אינה חוזרת לקדמותה:",
+      "<b>אבל עור</b> — שנטמא וסדקו ושייר מקצת:",
+      "<b>חלים</b> — חזק הוא ע\"י אותו מקצת וכשחוזר ותופרו הרי הוא כבתחלה הלכך לא בטל שמו מעליו:"
+     ],
+     "tosafot": [
+      "<b>לא שנו אלא טלית אבל עור חלים ור' יוחנן אמר אפילו עור נמי לא חלים</b> — נראה דר' יוחנן לא סגי בעור כדי מעפורת כמו בטלית אלא כל אחד למאי דחשיב לגבי דידיה סגי וצריך בעור ה' על ה' והשתא פריך שפיר בסמוך כי אמעט ליה מה' טפחים טהור דאי בעור נמי סגי לרבי יוחנן כדי מעפורת לא יתיישב בסמוך דאי כדי מעפורת פחות מה' כמו שמשמע באיכא דאמרי תקשה ליה לר' יוחנן אמאי טהור כי ממעט ליה מה' ואם הוא יותר מה' כשיש בו נמי ה' אמאי טמא הא אין בו כדי מעפורת ומיהו יש ליישב דלהאי לישנא סגי לר' יוחנן בעור בחשיבות מעפורת שהוא פחות מה' כדמשמע לקמן והא דקאמר וכי ממעט ליה מה' טהור אע\"פ שיש בו כדי מעפורת כגון דקא בעי ליה למושב זב כדאמר לקמן לר\"ל אבל לאיכא דאמרי לרבי יוחנן ודאי בעי ה':"
+     ]
+    },
+    {
+     "he": "אֵיתִיבֵיהּ רַבִּי יוֹחָנָן לְרֵישׁ לָקִישׁ: עוֹר טָמֵא מִדְרָס, חִישֵּׁב עָלָיו לִרְצוּעוֹת וְסַנְדָּלִים – כֵּיוָן שֶׁנָּתַן בּוֹ אִיזְמֵל טָהוֹר, דִּבְרֵי רַבִּי יְהוּדָה. וַחֲכָמִים אוֹמְרִים: עַד שֶׁיַּמְעִיטֶנּוּ מֵחֲמִשָּׁה טְפָחִים. כִּי מְמַעֵיט לֵיהּ מִיהָא טָהוֹר, אַמַּאי? לֵימָא חֲלִים!",
+     "en": "<b>Rabbi Yoḥanan raised an objection to</b> the opinion of <b>Reish Lakish</b> from a mishna (<i>Kelim</i> 26:9): In the case of <b>a hide</b> that is <b>impure</b> with impurity imparted by <b>treading,</b> if the owner <b>intended with regard to</b> the hide to make it <b>into straps and sandals, when he applies a scalpel [<i>izmel</i>] to</b> the hide, the hide becomes <b>pure;</b> this is <b>the statement of Rabbi Yehuda. And the Rabbis say:</b> The hide does not become pure <b>until he reduces</b> the size of the hide to a measure of less <b>than five handbreadths. In any event, when he reduces</b> the hide to a measure of less than five handbreadths, everyone agrees that it becomes <b>pure. Why</b> is this so? <b>Let us say</b> according the opinion of Reish Lakish that the hide should not become pure, as it is <b>repairable.</b>",
+     "rashi": [
+      "<b>שנתן בו איזמל</b> — שהתחיל לבטלו טהרו ואע\"פ שעדיין יש בגדול חמשה על חמשה טפחים שהן שיעור למדרס עור כדאמרינן בסוכה (דף יז:) הבגד שלשה על שלשה השק ד' על ד' העור ה' על ה':",
+      "<b>עד שימעיטנו</b> — דלא דמי לטלית דהתם קודם קריעה היה שמה טלית ועומדת להתכסות ובקריעתה בטל שמה הלכך אף על גב דשיריים בני קבולי טומאה טהרו מטומאה ראשונה אבל הכא כל שעה שם עור עליו הלכך עד שיבטלנו מכשיעור:",
+      "<b>כי מיעטו מיהא טהור</b> — ואע\"פ שלא סדקו כולו אלא באחד מראשיו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כִּי קָאָמְרִי דַּחֲלִים, הֵיכָא דְּקָא צָרֵי לֵיהּ לְהֶדְיָא, הָכָא בְּמַאי עָסְקִינַן – בִּמְקַצֵּעַ וּבָא לוֹ דֶּרֶךְ סְבִיבוֹתָיו.",
+     "en": "Reish Lakish responded to Rabbi Yoḥanan: <b>When I said that</b> a torn hide is <b>repairable,</b> I was referring to a case <b>where one cut</b> the hide in a <b>straight</b> line. By contrast, <b>here we are dealing with</b> a case <b>where one cut</b> the hide <b>in a circular manner.</b> In such a case, the hide is not repairable.",
+     "rashi": [
+      "<b>דקא צרי ליה להדיא</b> — סודקו לארכו או לרחבו. צרי לשון סדק כמו צרייא דחיטי בפסחים (דף מ.) וכמו טיליא חריפא דמצרי זיקי במס' ע\"ז (דף ל.):",
+      "<b>דרך סביבותיו</b> — דתו לא חלים שפיר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מֵתִיב רַבִּי יִרְמְיָה: הַמַּפְשִׁיט בַּבְּהֵמָה וּבַחַיָּה, בַּטְּהוֹרָה וּבַטְּמֵאָה, בַּדַּקָּה וּבַגַּסָּה, לְשָׁטִיחַ כְּדֵי אֲחִיזָה – הָא יָתֵר מִכְּדֵי אֲחִיזָה טָהוֹר, וְאַמַּאי? לֵימָא חֲלִים! תַּרְגְּמַהּ רַבִּי אָבִין: רִאשׁוֹן רִאשׁוֹן עוֹשֶׂה נִיפּוּל.",
+     "en": "<b>Rabbi Yirmeya raises an objection</b> to the opinion of Reish Lakish from the mishna: In the case of <b>one who flays</b> either <b>a domesticated animal or an undomesticated animal, a ritually pure</b> animal <b>or a ritually impure</b> animal, <b>a small</b> animal <b>or a large</b> animal, if he is flaying the animal <b>for</b> the purpose of using the hide as <b>a carpet,</b> the halakhic status of the hide remains that of flesh until he has flayed <b>the measure of grasping.</b> Rabbi Yirmeya infers: <b>But</b> once one has flayed <b>more than the measure of grasping,</b> the hide is <b>pure. But</b> according to Reish Lakish, <b>why</b> is this so? <b>Let us say</b> that the hide is <b>repairable,</b> i.e., it can be sewn back on. <b>Rabbi Avin interpreted</b> the mishna and explained that <b>one</b> piece after <b>one</b> piece, i.e., each piece that is flayed is <b>rendered fallen</b> and disconnected from the flesh, as it will never be reattached to the flesh, unlike the case of a torn hide, which may be sewn back together.",
+     "rashi": [
+      "<b>חלים</b> — מחובר ועומד הוא לבשר:",
+      "<b>ראשון ראשון</b> — המופשט עושה ניפול הוי כנפרש לגמרי דהא אין סופו לחזור לבשר עוד:"
+     ],
+     "tosafot": [
+      "<b>הא יותר מכדי אחיזה טהור ואמאי והא חלים</b> — תימה לר\"י דהיכי מדמה דין דיד להא דאיירי ביה לעיל וי\"ל דנראה לו לדמות דכי היכי דאמרינן דעור הקרוע חשוב כמחובר הכי נמי נימא דעור המופשט ליחשב כמחובר ולהוי יד כאילו לא הופשט:"
+     ]
+    },
+    {
+     "he": "מֵתִיב רַב יוֹסֵף: עוֹר שֶׁעַל הַצַּוָּאר, רַבִּי יוֹחָנָן בֶּן נוּרִי אוֹמֵר אֵינוֹ חִבּוּר. אַמַּאי? הָא חֲלִים וְקָאֵי!",
+     "en": "<b>Rav Yosef raises an objection</b> to the opinion of Reish Lakish from another ruling in the mishna: With regard to <b>the hide over the neck, Rabbi Yoḥanan ben Nuri says: It is not</b> considered to have <b>a connection</b> to the flesh, as the hide is merely loosely connected to the neck itself, and it is pure. According to Reish Lakish, <b>why</b> is this so? <b>Doesn’t</b> the hide <b>exist</b> in its <b>repaired</b> state, i.e., isn’t it still connected to the neck itself? If an impure hide that was torn and can be repaired remains impure, this should certainly be the <i>halakha</i> with regard to hide that was never moved from its initial state.",
+     "rashi": [
+      "<b>הא חלים וקאי</b> — דהא לא הופשט וקאמר דאינו חבור והנוגע בעור כנגד הצואר אינו טמא:"
+     ],
+     "tosafot": [
+      "<b>עור שעל הצואר רבי יוחנן בן נורי אומר אינו חבור ואמאי הא חלים וקאי</b> — וא\"ת לרבי יוחנן נמי דאמר עור לא חלים מודה היכא שכבר תפר שטמא וכ\"ש היכא שלא נקרע מעולם וי\"ל דקס\"ד שעל גב הצואר אע\"פ שהוא ניתק מאליו לא גרע מעור שעדיין לא נתפר ולא נתחבר דהוי כמחובר וכי היכי דעור הנקרע הוי כחלים עור שעל גב הצואר נמי אע\"ג דניתק מאליו הוי ליה למימר דהוי חבור ומשני כיון דעשוי לנתק מאליו גרע מעור הנקרע ולא הוי חבור:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ אַבָּיֵי: אֵימָא סֵיפָא, וַחֲכָמִים אוֹמְרִים: חִבּוּר.",
+     "en": "<b>Abaye said to</b> Rav Yosef: Instead of objecting to the opinion of Reish Lakish due to the statement of Rabbi Yoḥanan ben Nuri, <b>say the latter clause</b> of the mishna: <b>And the Rabbis say:</b> The hide covering the neck is considered to have <b>a connection</b> to the flesh, a statement that supports the opinion of Reish Lakish according to your reasoning.",
+     "rashi": [
+      "<b>א\"ל אביי</b> — ואדמותבת מדרבי יוחנן בן נורי סייעיה מדרבנן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא אָמַר אַבָּיֵי: בְּשׁוֹמֵר הֶעָשׂוּי לִנָּתֵק מֵאֵלָיו קָא מִיפַּלְגִי, מָר סָבַר: הָוֵי שׁוֹמֵר, וּמָר סָבַר: לָא הָוֵי שׁוֹמֵר.",
+     "en": "<b>Rather, Abaye said:</b> The dispute between Reish Lakish and Rabbi Yoḥanan is irrelevant to the dispute in the mishna between Rabbi Yoḥanan ben Nuri and the Rabbis. In the mishna, <b>they disagree with regard to</b> whether an appendage, such as the hide of the neck, that <b>protects</b> the flesh but is <b>prone to become detached by itself</b> is considered to be protection. One <b>Sage,</b> i.e., the Rabbis, <b>holds</b> that <b>it is</b> considered to be <b>protection, and</b> one <b>Sage,</b> Rabbi Yoḥanan ben Nuri, <b>holds</b> that <b>it is not</b> considered to be <b>protection.</b>",
+     "rashi": [
+      "<b>אלא אמר אביי</b> — אי סבירא לן דחלים דכולי עלמא הוי חבור והכא טעמא משום דלא חלים והוא שעשוי לינתק מאליו בשומר העשוי לנתק קא מיפלגי דרבנן סברי אפ\"ה לא בטיל תורת שומר מיניה כל זמן שלא ניתק:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מֵתִיב רַבִּי יִרְמְיָה: תַּנּוּר שֶׁנִּטְמָא כֵּיצַד מְטַהֲרִין אוֹתוֹ? חוֹלְקוֹ לִשְׁלֹשָׁה, וְגוֹרֵר אֶת הַטְּפֵילָה",
+     "en": "<b>Rabbi Yirmeya raises an objection</b> to the opinion of Reish Lakish from a mishna (<i>Kelim</i> 5:7): With regard to <b>an oven that has become impure, how does one purify it? One divides</b> the oven <b>into three</b> parts <b>and scrapes off the</b> layer of <b>plaster</b> that surrounds the oven",
+     "rashi": [
+      "<b>תנור</b> — תחלתו עשוי כלי כקדרה ומטלטל וכשבא לקובעו מעמידו בארץ ומדביק טיט סביביו ומעבהו וקרי ליה טפילה שמטפלה ומחברה לו פלשטר\"א בלע\"ז:",
+      "<b>חולקו לשלשה</b> — לכלי עצמו מבפנים דאי לשנים הגדול טמא דאיכא רובא:",
+      "<b>וגורר את הטפילה</b> — שדיבק עליו שגם הוא מחברתו ואע\"פ שעדיין הוא עומד טהור:"
+     ],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
