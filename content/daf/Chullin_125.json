@@ -1,0 +1,366 @@
+{
+ "tractate": "Chullin",
+ "page": 125,
+ "fetched": "2026-08-26",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 125a",
+   "he_ref": "חולין קכ״ה.",
+   "url": "https://www.sefaria.org/Chullin.125a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=125&amud=a",
+   "segments": [
+    {
+     "he": "וְקוּלִית הַמּוּקְדָּשִׁין, הַנּוֹגֵעַ בָּהֶן, בֵּין סְתוּמִים בֵּין נְקוּבִים – טָמֵא.",
+     "en": "<b>and the thigh bone of a sacrificial</b> animal that was rendered unfit as <i>piggul</i>, i.e., an offering that was sacrificed with the intent to consume it after its designated time, or <i>notar</i>, i.e., part of an offering left over after the time allotted for its consumption, <b>whether</b> these thigh bones were <b>sealed</b> and there was no access to the marrow, or <b>whether</b> they were <b>perforated</b> and there was access to the marrow, <b>one who touches them is ritually impure.</b> The reason is that a piece of bone of a corpse the size of a barley grain imparts impurity, and the bone of a sacrificial animal that was disqualified in this manner imparts impurity by rabbinic decree via contact.",
+     "rashi": [
+      "<b>וקולית המוקדשים</b> — במסכת פסחים (דף קכ:) תנן הפגול והנותר מטמאין את הידים דגזרי בהו רבנן משום חשדי כהונה ועצלי כהונה כדמפרש התם וגזרו אף בעצמות ששימשו נותר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "קוּלִית נְבֵלָה וְקוּלִית הַשֶּׁרֶץ, הַנּוֹגֵעַ בָּהֶם סְתוּמִים – טְהוֹרִים, נְקוּבִים כׇּל שֶׁהוּא – מְטַמֵּא בְּמַגָּע. מִנַּיִן שֶׁאַף בְּמַשָּׂא? תַּלְמוּד לוֹמַר ״הַנּוֹגֵעַ … וְהַנּוֹשֵׂא״, אֶת שֶׁבָּא לִכְלַל מַגָּע – בָּא לִכְלַל מַשָּׂא, לֹא בָּא לִכְלַל מַגָּע – לֹא בָּא לִכְלַל מַשָּׂא.",
+     "en": "With regard to <b>the thigh bone of an unslaughtered carcass and the thigh bone of a creeping animal, one who touches them</b> when they are <b>sealed</b> remains <b>ritually pure.</b> If one of these thigh bones was <b>perforated at all, it imparts impurity via contact,</b> as in that case contact with the bone is tantamount to contact with the marrow. <b>From where</b> is it derived <b>that even with regard to</b> impurity transmitted via <b>carrying</b> there is a distinction between sealed and perforated thigh bones? It is derived from a verse, as <b>the verse states: “One who touches</b> the carcass thereof shall be impure until the evening; <b>and one who carries</b> the carcass thereof shall be impure until the evening” (Leviticus 11:39–40), indicating: <b>That which enters the category of</b> impurity via <b>contact, enters the category of</b> impurity via <b>carrying; that which does not enter the category of</b> impurity via <b>contact, does not enter the category of</b> impurity via <b>carrying.</b>",
+     "rashi": [
+      "נבלה אין עצמותיה מטמאים דכתיב (ויקרא יא) בנבלתה ולא בעצמות וכן שרץ הלכך סתומים טהורים אף מלטמא במשא וכ\"ש מגע דאי אפשר לו ליגע ואע\"ג דשומר מכניס ומוציא טומאה ה\"מ בדבר שאפשר ליגע בטומאה עצמה ואפילו לא נגע בה אלא בשומר טמא אבל היכא דאי אפשר ליגע בטומאה עצמה אין שומר מטמא:",
+      "<b>נקובים כל שהוא</b> — אפילו כחוט השערה שאפשר להכניס בו חוט השערה של ראשו או זקנו והרי הוא מטמא בכך כדלקמן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> נוֹגֵעַ – אִין, אֲבָל מַאֲהִיל – לָא.",
+     "en": "<strong>GEMARA:</strong> The mishna teaches that one who touches the thigh bone of a human corpse is ritually impure, whether or not it was sealed. The Gemara infers that with regard to one who <b>touches</b> the bone, <b>yes,</b> he is impure, <b>but</b> one who <b>overlies</b> the thigh bone is <b>not</b> impure, as it does not transmit impurity to that which is above it or under the same roof.",
+     "rashi": [],
+     "tosafot": [
+      "<b>נוגע אין מאהיל לא</b> — וא\"ת מנא ליה למידק מאהיל לא אי משום דלא קתני לה הא לא קתני נמי משא אע\"ג דעצם כשעורה מטמא במשא וי\"ל דמשא לא אצטריך למתני אבל אהל הוה ליה למתני כיון דאין עצם מטמא באהל אע\"ג דלא מתני ליה במוקדשין מ\"מ הוה ליה למתני באפי נפשיה אמת אע\"ג דלא הוי אהל דומיא דנוגע דנוגע בכל מקום טמא אבל מאהיל לא מטמא אלא כנגד המוח מ\"מ במאי דהוי לתנייה ואם תאמר ולשני ליה הא מני רבי יוסי דלית ליה טומאה בוקעת ועולה לקמן בשמעתין ושמא לא מסתבר ליה לאוקמה כר' יוסי:"
+     ]
+    },
+    {
+     "he": "הֵיכִי דָמֵי? אִי דְּאִיכָּא כְּזַיִת בָּשָׂר – בְּאֹהֶל נָמֵי לִיטַמֵּא! דְּלֵיכָּא כְּזַיִת בָּשָׂר.",
+     "en": "The Gemara asks: <b>What are the circumstances? If there is an olive-bulk of flesh</b> attached to the bone then <b>it should transmit impurity in a tent,</b> i.e., to that which is under the same roof, <b>as well.</b> The Gemara answers: The mishna is discussing a case <b>where there is not an olive-bulk of flesh</b> attached to the bone.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְאִי דְּאִיכָּא כְּזַיִת מוֹחַ מִבִּפְנִים – טוּמְאָה בּוֹקַעַת וְעוֹלָה, בְּאֹהֶל נָמֵי לִיטַמֵּא! דְּלֵיכָּא כְּזַיִת מוֹחַ בִּפְנִים.",
+     "en": "The Gemara objects: <b>But if there is an olive-bulk of marrow inside</b> the bone, <b>the impurity breaks through</b> the bone, so to speak, <b>and ascends</b> beyond it. Therefore, <b>it should transmit impurity in a tent as well.</b> The Gemara explains: The mishna is discussing a case <b>where there is not an olive-bulk of marrow inside</b> the bone.",
+     "rashi": [
+      "<b>גמ' ואי דאיכא כזית מוח מבפנים טומאה בוקעת ועולה</b> — קושיא היא אמאי אין מטמא באהל הרי אין לה חלל טפח וקיימא לן בברכות (דף יט:) כל חלל שאין בו טפח אינו חוצץ בפני המת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאִי מוֹחַ מִבִּפְנִים מַעֲלֶה אֲרוּכָה מִבַּחוּץ, אֵבֶר מְעַלְּיָא הִיא, בְּאֹהֶל נָמֵי לִיטַמֵּא! אָמַר רַב יְהוּדָה בְּרֵיהּ דְּרַבִּי חִיָּיא: זֹאת אוֹמֶרֶת, מוֹחַ בִּפְנִים אֵינוֹ מַעֲלֶה אֲרוּכָה מִבַּחוּץ.",
+     "en": "The Gemara objects: <b>But if</b> the mishna maintains that <b>marrow inside</b> the bone of a living person <b>heals</b> the flesh <b>outside</b> the bone, then since the marrow could replenish itself and catalyze the growth of flesh on the bone <b>it is a proper limb.</b> Therefore, as is the case with any piece of a proper limb, even one less than the size of an olive-bulk, <b>it should transmit impurity in a tent as well. Rav Yehuda, son of Rabbi Ḥiyya, says: That is to say</b> that the mishna maintains that <b>marrow inside</b> the bone <b>does not heal</b> the flesh <b>outside</b> the bone.",
+     "rashi": [
+      "<b>ואי</b> — קסבר מוח שבפנים מעלה ארוכה לבשר מבחוץ אע\"ג דליכא מוח הואיל ובמחובר לחי סוף המוח לבא שהרי פעמים שהמוח כולו כלה וחוזר וע\"י המוח גדל הבשר מלמעלה א\"כ בלא בשר ובלא מוח חשיב אבר כל עצם חלול ותנן (אהלות פ\"א מ\"ז) האברים אין להן שיעור אפילו פחות מכזית מן המת ופחות מכעדשה מן השרץ:",
+      "<b>קסבר אין מוח שבפנים מעלה ארוכה</b> — לבשר מבחוץ והכא הואיל וליכא בשר אין סופו להעלות ארוכה בחי ולא אבר מיקרי:"
+     ],
+     "tosafot": [
+      "<b>ואי מוח שבפנים מעלה ארוכה מבחוץ</b> — פירש הקונטרס אע\"ג דליכא מוח כלל וזה דחקו מדלא מוקי לה דלית ביה מוח ובחנם דחק דמדנקט קולית משמע דמיירי דאיכא מוח קצת:"
+     ]
+    },
+    {
+     "he": "בְּמַאי אוֹקֵימְתַּהּ? דְּלֵיכָּא כְּזַיִת. אִי הָכִי, בְּמוּקְדָּשִׁים אַמַּאי מְטַמֵּא?",
+     "en": "The Gemara asks: <b>To what</b> case <b>did you interpret</b> the mishna to be referring? It is a case <b>where there is not an olive-bulk</b> of marrow. <b>If so, in</b> the case of <b>a sacrificial animal, why does</b> the thigh bone <b>impart impurity?</b> The Sages issued a decree that the bones of a sacrificial animal that are attached to flesh or contain marrow that became <i>piggul</i> or <i>notar</i> render those who touch them impure, as they serve as handles or protection for the flesh or marrow. By contrast, in this case there can be no <i>piggul</i> or <i>notar</i> because there is less than an olive-bulk of flesh or marrow.",
+     "rashi": [
+      "<b>א\"ה במוקדשין אמאי טמאים</b> — הרי לא שימשו נותר דאין נותר בפחות מכזית:"
+     ],
+     "tosafot": [
+      "<b>אי הכי מוקדשים כו'</b> — פירוש בשלמא אי איירי בדאיכא כזית א\"ש מוקדשין אפי' למ\"ד בערבי פסחים (פסחים קכא.) נותר בכביצה דכל חד איירי בשיעור דידיה אלא כיון דבמת איירי בדליכא שיעור מוקדשין אמאי כו' תימה דמאי קמ\"ל רב מרי מתניתין היא ועוד דבפ' כיצד צולין (פסחים דף פג.) מייתי סייעתא לרב מרי ודחי לה לייתי הך מתניתין דהכא ונראה דרב מרי אשמועינן עצמות ששמשו נותר כבר אפי' אין בהן עכשיו כלום ומתני' איכא לאוקומי בדאיכא אכתי כזית ומ\"מ חדוש הוא דאיכא שימוש נותר בעולם ובפסחים דבעי לאתויי מעצמות פסח דקאמר אלא לאו דאית ביה מוח היינו שהיה בה מוח כבר דעכשיו לא קאמר דפשיטא דטעונין שרפה משום מוח:"
+     ]
+    },
+    {
+     "he": "וְתוּ, קוּלִית נְבֵלָה וְקוּלִית הַשֶּׁרֶץ כִּי נִיקְּבוּ, אַמַּאי מְטַמְּאוּ?",
+     "en": "<b>And furthermore,</b> if the mishna is discussing a case where there is not an olive-bulk of marrow, <b>why do the thigh bone of an unslaughtered carcass and the thigh bone of a creeping animal impart impurity</b> in a case <b>when they were perforated?</b>",
+     "rashi": [
+      "<b>כי נקבו אמאי טמאין</b> — הא אמרת דאין שומרין מצטרפין לטומאה חמורה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָא לָא קַשְׁיָא, רֵישָׁא דְּלֵיכָּא כְּזַיִת, סֵיפָא דְּאִיכָּא כְּזַיִת. וּמַאי קָא מַשְׁמַע לַן? מִילֵּי מִילֵּי קָא מַשְׁמַע לַן.",
+     "en": "The Gemara answers: <b>That</b> is <b>not difficult. The first clause</b> of the mishna, which discusses the thigh bone of a corpse, is referring to a case <b>where there is not an olive-bulk</b> of marrow. <b>The latter clause</b> of the mishna, which discusses the thigh bones of a sacrificial animal, an unslaughtered carcass, and a creeping animal, is referring to a case <b>where there is an olive-bulk</b> of marrow. <b>And</b> accordingly, <b>what is</b> the <i>tanna</i> of the mishna <b>teaching us? He is teaching us several</b> distinct <b>matters</b> separately, as follows.",
+     "rashi": [
+      "<b>רישא</b> — דקולית המת:",
+      "<b>דליכא כזית</b> — לפיכך אין מטמא באהל:",
+      "<b>סיפא</b> — מוקדשים ושרץ ונבלה:",
+      "<b>דאיכא כזית</b> — לפיכך גבי מוקדשין איכא שיעור נותר וגבי נבלה ושרץ איכא שיעור לטמא:",
+      "<b>ומאי קמ\"ל</b> — כיון דרישא ליכא כזית אכתי לא אשמעינן דעצם כשעורה מטמא במגע ולא באהל וכזית מן הנבלה מטמא:",
+      "<b>מילי מילי</b> — כל דבר ששנה במשנתנו אשמעינן טעמא בכל חד וחד מה שהראה זה לא הראה זה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רֵישָׁא קָא מַשְׁמַע לַן דְּמוֹחַ מִבִּפְנִים אֵינוֹ מַעֲלֶה אֲרוּכָה מִבַּחוּץ. מוּקְדָּשִׁין מַאי קָא מַשְׁמַע לַן? שִׁימּוּשׁ נוֹתָר מִילְּתָא הִיא, דְּאָמַר מָרִי בַּר אֲבוּהּ אָמַר רַבִּי יִצְחָק: עַצְמוֹת קָדָשִׁים שֶׁשִּׁימְּשׁוּ נוֹתָר, מְטַמְּאִין אֶת הַיָּדַיִם, הוֹאִיל וְנַעֲשָׂה בָּסִיס לְדָבָר הָאָסוּר.",
+     "en": "In <b>the first clause he is teaching us that the marrow inside</b> the bone <b>does not heal</b> the flesh <b>outside</b> the bone. With regard to the thigh bone of <b>sacrificial</b> animals, <b>what is he teaching us?</b> He is teaching us that a bone that <b>serves</b> as a handle or protection for flesh or marrow that became <b><i>notar</i> is significant</b> and imparts impurity, <b>as Mari bar Avuh said</b> that <b>Rabbi Yitzḥak said: Bones of sacrificial</b> animals <b>that served</b> as a handle for <b><i>notar</i>,</b> meaning that they have leftover meat on them or inside them after the allotted time for its consumption, <b>transmit impurity to the hands</b> of those who handle them, just as the leftover sacrificial meat itself transmits impurity to the hands. <b>Since</b> the bones <b>have become a base for</b> an intrinsically <b>forbidden object,</b> they are treated in the same manner as the forbidden object itself.",
+     "rashi": [
+      "<b>רישא</b> — אשמעינן מדלא טימא באהל על כרחיך שמעת מינה דמוח שבפנים אין מעלה ארוכה מבחוץ דאי מעלה בין אית ביה בין לית ביה מטמא:",
+      "<b>מילתא היא</b> — כנותר עצמו ואיצטריך לאשמועינן דהכי הוא כדרב מרי משום דבפסחים (דף קכ:) לא תנן אלא הפגול והנותר אבל שמושו לא תנן ואשמעינן מתניתין דמשום דשימשו כזית נותר מטמאה אפי' כשהיא סתומה ולא נגע במוח טמא משום עצם ששימש את הנותר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "נְבֵלָה, אַף עַל גַּב דְּאִיכָּא כְּזַיִת, נִיקְּבָה – אִין, לֹא נִיקְּבָה – לָא.",
+     "en": "Next, the <i>tanna</i> of the mishna teaches that with regard to the thigh bone of <b>an unslaughtered carcass, even if there is an olive-bulk</b> of marrow inside, if it <b>was perforated</b> it <b>does</b> impart impurity, but if it <b>was not perforated,</b> it does <b>not</b> impart impurity.",
+     "rashi": [
+      "<b>לא ניקבה לא</b> — דבעינן אפשר ליגע כדתני טעמא בהדיא לקמן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַבָּיֵי אָמַר: לְעוֹלָם מוֹחַ מִבִּפְנִים מַעֲלֶה אֲרוּכָה מִבַּחוּץ, וְהָכָא בְּמַאי עָסְקִינַן – בְּשֶׁשִּׁפָּהּ.",
+     "en": "<b>Abaye said: Actually,</b> the <i>tanna</i> of the mishna maintains that <b>marrow inside</b> the bone <b>heals</b> the flesh <b>outside</b> the bone. <b>And</b> with regard to the consequent assertion: If so, the thigh bone should impart impurity in a tent as well, the explanation is that <b>here we are dealing with</b> a case <b>where one scraped</b> the bone. Therefore, the flesh and the marrow can no longer heal, and the bone is not considered a proper limb that imparts impurity in a tent.",
+     "rashi": [
+      "<b>אביי אמר לעולם מוח מעלה ארוכה</b> — ומתניתין בששפה נסרה במגל או בסכין דתו לא מעלה ארוכה והלכך כיון דליכא כזית מוח דמטמא באהל משום שיעור לא מטמא אבר ובמוקדשין נבלה ושרץ בדאיכא כזית כדאוקימנא ואביי לא פליג אלא במעלה ארוכה:"
+     ],
+     "tosafot": [
+      "<b>הכא במאי עסקינן בששיפה</b> — דתו לא מעלה ארוכה והלכך כיון דליכא כזית מוח לא מטמא באהל דליכא שיעור ולא הוי נמי אבר ואשמועינן דשיפה אינו מטמא באהל:"
+     ]
+    },
+    {
+     "he": "וְכִדְרַבִּי אֶלְעָזָר, דְּאָמַר רַבִּי אֶלְעָזָר: קוּלִית שֶׁשִּׁפָּהּ לְאׇרְכָּהּ – טְמֵאָה, לְרׇחְבָּהּ – טְהוֹרָה, וְסִימָנָיךְ – דִּיקְלָא.",
+     "en": "<b>And</b> this mishna is <b>in accordance with</b> the opinion <b>of Rabbi Elazar, as Rabbi Elazar said: A thigh bone that one scraped lengthwise is impure</b> like a limb. Even if it is not attached to flesh or marrow, a bone scraped in such a manner still has the ability to heal. But if one scraped it <b>widthwise</b> it will not heal and is therefore <b>pure. And your mnemonic</b> to remember which can heal and which cannot is <b>a palm tree,</b> because if one sawed a strip off of a palm tree lengthwise it can heal, but if one did so widthwise, i.e., one sawed a strip off of the circumference of the tree, the flow of sap is disrupted and the tree cannot heal.",
+     "rashi": [
+      "<b>לארכה</b> — דעכשיו שייר בה רצועה שלא שיפה:",
+      "<b>טמאה</b> — ואפילו אין בה לא בשר ולא מוח דמוח שהיה עתיד לבא מבפנים מעלה ארוכה וכיון דדכוותה בעלי חיים מעלה ארוכה השתא נמי אבר הוא ולא בעי שיעור:",
+      "<b>לרחבה</b> — סביב סביב ואפילו במקום אחד:",
+      "דקל אם תטול ממנו רצועה סביב הוא מתיבש שלא הנחת דרך לשרף לעלות מן הקרקע למעלה ממקום שנקלף ואם תקליפנו לארכו ותשייר צדו אחד יש דרך לשרף לעלות:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְרַבִּי יוֹחָנָן אָמַר: לְעוֹלָם דְּאִיכָּא כְּזַיִת, וּמוֹחַ מִבִּפְנִים מַעֲלֶה אֲרוּכָה מִבַּחוּץ, וּמַאי נוֹגֵעַ דְּקָתָנֵי – מַאֲהִיל.",
+     "en": "<b>And Rabbi Yoḥanan said: Actually,</b> the mishna is discussing a case <b>where there is an olive-bulk</b> of marrow in the bone. <b>And</b> the <i>tanna</i> of the mishna also holds that <b>marrow inside</b> the bone <b>heals</b> the flesh <b>outside</b> the bone. And as for the consequent assertion: If so, the bone should transmit impurity in a tent, in fact the bone does impart impurity in a tent. <b>And</b> to <b>what</b> is the mishna referring <b>when it teaches</b> that one who <b>touches</b> the bone is ritually impure? It is also referring to one who <b>overlies</b> the bone.",
+     "rashi": [
+      "<b>לעולם</b> — רישא דאיכא כזית דלא מוקמינן מתניתין בתרי טעמי וא\"נ ליכא כזית הויא מטמא באהל דמוח שבפנים מעלה ארוכה:",
+      "<b>ומאי נוגע מאהיל</b> — מאהיל נמי במשמע כדמפרש ואזיל דאיכא תנא דקרי למאהיל נוגע:"
+     ],
+     "tosafot": [
+      "<b>ומאי נוגע דקתני מאהיל</b> — וקמ\"ל דנוגע היינו מאהיל ומצטרפין וא\"ת ליתני כזית מן המת הנוגע בו טמא ואנא ידענא דנוגע היינו מאהיל וי\"ל דלא הוה שמעינן ליה מהכא אלא משום דקים לן בעלמא דכזית מן המת מטמא באהל אבל השתא דקתני קולית מן המת וקתני נוגע מוכיח דנוגע היינו מאהיל דאי אפשר ליגע במוח ממש בתוך הקולית אלא ע\"י אהל:"
+     ]
+    },
+    {
+     "he": "וְאִי מוֹחַ מִבִּפְנִים מַעֲלֶה אֲרוּכָה מִבַּחוּץ, קוּלִית נְבֵלָה וְקוּלִית הַשֶּׁרֶץ כִּי לֹא נִקְּבוּ, אַמַּאי טְהוֹרִים?",
+     "en": "The Gemara asks: <b>But if the marrow inside</b> the bone <b>heals</b> the flesh <b>outside</b> the bone, <b>why</b> does the mishna teach that <b>the thigh bone of a carcass and the thigh bone of a creeping animal are pure when they were not perforated?</b>",
+     "rashi": [
+      "<b>אמאי טהורים</b> — עצם גופיה אבר הוא ובלא מוח נמי מטמא וסתימה מאי אהניא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי בִּנְיָמִין בַּר גִּידֵּל, אָמַר רַבִּי יוֹחָנָן: הָכָא בְּמַאי עָסְקִינַן, כְּגוֹן דְּאִיכָּא כְּזַיִת מוֹחַ הַמִּתְקַשְׁקֵשׁ, גַּבֵּי מֵת – טוּמְאָה בּוֹקַעַת וְעוֹלָה, נְבֵלָה – כֵּיוָן דְּמִתְקַשְׁקֵשׁ הוּא, נִיקְּבָה – אִין, לֹא נִיקְּבָה – לָא.",
+     "en": "<b>Rabbi Binyamin bar Giddel said</b> that <b>Rabbi Yoḥanan said: Here we are dealing with</b> a case <b>where there is an olive-bulk of marrow that</b> has become detached and <b>is rattling</b> inside the bone. <b>With regard to</b> impurity imparted by <b>a corpse, the impurity breaks through</b> the bone <b>and ascends,</b> and it therefore transmits impurity in a tent. But with regard to the impurity of <b>a carcass, since</b> the marrow <b>is</b> loose and <b>rattling,</b> it will not heal. Therefore, if the bone <b>was perforated</b> and it is possible to touch the marrow, the bone <b>does</b> impart impurity. But if the bone <b>was not perforated</b> it does <b>not</b> impart impurity.",
+     "rashi": [
+      "<b>המתקשקש</b> — יבש ונעקר בתוך החלל דהוא לא מעלה ארוכה:",
+      "<b>גבי מת</b> — אף על גב דאינו מעלה ארוכה מטמא באהל דהא בלא חשיבות אבר הא איכא שיעור וסתימה לא מהניא ביה דטומאה בוקעת ועולה ומוקדשים הרי שמשו נותר:",
+      "<b>נבלה כיון דמתקשקש הוא</b> — ושוב אינו מעלה ארוכה לאו אבר הוא הלכך ניקבו דאפשר ליגע מטמאים משום שיעור לא ניקבו לא דלאו אבר הוא דהשתא גרע מקולית שיש בה בכעדשה מוח לח דההוא מעלה ארוכה הוא:"
+     ],
+     "tosafot": [
+      "<b>הכא במאי עסקינן בכזית מוח המתקשקש</b> — הא דלא קאמר כששיפה כדאמר לעיל אפשר דסבירא ליה דשיפה מעלה ארוכה מבחוץ:"
+     ]
+    },
+    {
+     "he": "אָמַר רַבִּי אָבִין, וְאִיתֵּימָא רַבִּי יוֹסֵי בַּר אָבִין: אַף אֲנַן נָמֵי תְּנֵינָא – הַנּוֹגֵעַ בְּכַחֲצִי זַיִת, וּמַאֲהִיל עַל חֲצִי זַיִת, אוֹ חֲצִי זַיִת מַאֲהִיל עָלָיו – טָמֵא.",
+     "en": "According to Rabbi Yoḥanan, overlying is referred to as touching in the mishna. <b>Rabbi Avin said, and some say</b> it was <b>Rabbi Yosei bar Avin</b> who said: <b>We learn</b> in a mishna <b>as well</b> (<i>Oholot</i> 3:1): In the case of <b>one who touches</b> with one hand <b>half an olive-bulk</b> of a corpse <b>and</b> simultaneously his other hand <b>overlies half an olive-bulk or half an olive-bulk</b> of flesh from a corpse <b>overlies him, he is impure.</b>",
+     "rashi": [
+      "<b>אף אנן נמי תנינא</b> — דקרי למאהיל נוגע:",
+      "<b>הנוגע בחצי זית ומאהיל על חצי זית</b> — בבת אחת ידו נוגעת כאן והשניה מאהלת כאן:",
+      "<b>או חצי זית מאהיל עליו</b> — כגון שנתון בקיסם ותחוב בכותל וזה עומד תחתיו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִי אָמְרַתְּ בִּשְׁלָמָא חַד שְׁמָא הוּא – מִשּׁוּם הָכִי מִצְטָרֵף.",
+     "en": "<b>Granted, if you say</b> that impurity via contact and impurity transmitted in a tent or to one overlying a part of the corpse are <b>one concept,</b> it <b>is due to that</b> reason that the half olive-bulk of impurity that he touched and the half olive-bulk of impurity that he overlaid <b>join together</b> to constitute the requisite measure of an olive-bulk.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא אִי אָמְרַתְּ תְּרֵי שְׁמֵי נִינְהוּ – מִי מִצְטָרֵף? וְהָתְנַן: זֶה הַכְּלָל, כֹּל שֶׁהוּא מִשֵּׁם אֶחָד – מִצְטָרֵף וְטָמֵא, מִשְּׁנֵי שֵׁמוֹת – טָהוֹר!",
+     "en": "<b>But if you say</b> that <b>they are two concepts,</b> how <b>can they join together? But didn’t we learn</b> in that mishna (<i>Oholot</i> 3:1): <b>This is the principle: Any</b> impure items lacking the requisite volume to have impure status on their own <b>that are of one concept join together and are impure;</b> if they are <b>of two concepts,</b> they do not join together and remain <b>pure?</b>Apparently, touching and overlying a corpse create the same type of impurity, and therefore overlying is referred to as touching in the mishna here.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא מַאי חַד שְׁמָא הוּא? אֵימָא סֵיפָא: אֲבָל",
+     "en": "The Gemara challenges: <b>Rather, what</b> is the alternative? <b>Is it one concept</b> that comprises both touching and overlying? <b>Say the latter clause</b> of the mishna in tractate <i>Oholot</i>: <b>But</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 125b",
+   "he_ref": "חולין קכ״ה:",
+   "url": "https://www.sefaria.org/Chullin.125b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=125&amud=b",
+   "segments": [
+    {
+     "he": "הַנּוֹגֵעַ בְּכַחֲצִי זַיִת, וְדָבָר אַחֵר מַאֲהִיל עָלָיו וְעַל כַּחֲצִי זַיִת – טָהוֹר.",
+     "en": "in the case of <b>one who touches half an olive-bulk</b> of flesh from a corpse <b>and</b> simultaneously <b>another item overlies</b> both <b>him and half an olive-bulk</b> of flesh from a corpse, he remains <b>pure.</b>",
+     "rashi": [
+      "ודבר אחר מאהיל עליו ועל כחצי זית כגון חצי זית מוטל ע\"ג קרקע והוא עומד אצלו ודף אחד מאהיל על שניהם:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאִי חַד שְׁמָא הוּא, אַמַּאי טָהוֹר? אֶלָּא, קַשְׁיָא רֵישָׁא.",
+     "en": "<b>But if</b> impurity via contact and via a tent are considered <b>one concept, why</b> does he remain <b>pure? Rather,</b> based on the latter clause of the mishna, <b>the first clause</b> of the mishna is <b>difficult,</b> because it indicates that these two categories of impurity are considered one concept and join together to constitute the requisite measure for impurity.",
+     "rashi": [
+      "<b>אמאי טהור</b> — הלא זה אהל גמור ועיקר אהל האמור בתורה זה הוא כל הבא אל האהל (במדבר י״ט:י״ד) שהבית מאהיל עליו ועל מת כאחד:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי זֵירָא: בְּטוּמְאָה רְצוּצָה בֵּין שְׁנֵי מִגְדָּלִים עָסְקִינַן, וְאֵין בֵּינֵיהֶן פּוֹתֵחַ טֶפַח, דְּכוּלַּהּ נְגִיעָה הִיא.",
+     "en": "<b>Rabbi Zeira said:</b> In the first clause of the mishna <b>we are dealing with</b> a case where the source of <b>impurity is pressed between two</b> wooden <b>chests and there is no opening of</b> one <b>handbreadth in between</b> the chests. When the hand of a person overlies the chests, the impurity of the pressed item rises beyond the chests and it transmits impurity to the person. Therefore, his interaction with <b>all</b> the sources <b>of</b> impurity is considered <b>as</b> though he <b>is touching</b> them simultaneously. Consequently, there is no proof in the mishna for the opinion of Rabbi Yoḥanan that imparting impurity via contact and via a tent are considered the same concept.",
+     "rashi": [
+      "<b>רצוצה</b> — כל דבר שאין לו מקום ריוח קרי רצוץ ופחות מטפח לאו חלל הוא ונקרא מה שבתוכו רצוץ:",
+      "<b>מגדלים</b> — של עץ:",
+      "<b>דכולה נגיעה היא</b> — אפילו הוא מאהיל למעלה מן הבשר הרבה כגון שהיו המגדלים גבוהים והטומאה למטה והוא מאהיל סמוך לראשיהן קרי נגיעה דכיון דהלמ\"מ היא דטומאה רצוצה בוקעת הוי כמאן דמלי טומאה כל חלל שבין שני המגדלים ומהא לא תסייעיה לרבי יוחנן:"
+     ],
+     "tosafot": [
+      "<b>אמר ר' זירא רישא בטומאה רצוצה בין ב' מגדלים עסקינן</b> — הוה מצי למימר בטומאה למטה מטפח עסקינן כדאמרינן בסמוך אלא משמעות אהל משמע ליה למעלה מטפח אי נמי לית ליה סברא דלקמן וא\"ת אי בטומאה רצוצה דווקא עסקינן אמאי נקט בסיפא המשכה ע\"י דבר אחר טהור ה\"ל למינקט אבל אם אינה רצוצה טהור וי\"ל דאתא לאשמועינן דאפילו בין שני מגדלים דומיא דרישא לא הוי טומאה רצוצה בהמשכה ע\"י דבר אחר דתרתי בעינן בין ב' מגדלים וגם שהוא עצמו מאהיל על הטומאה או הטומאה עליו:"
+     ]
+    },
+    {
+     "he": "וּמַאן תַּנָּא דְּקָרֵי לְאֹהֶל ״נוֹגֵעַ״? רַבִּי יוֹסֵי הִיא, דְּתַנְיָא: רַבִּי יוֹסֵי אוֹמֵר: מְלֹא תַרְוָוד רָקָב מְטַמֵּא בְּמַגָּע, וּבְמַשָּׂא, וּבְאֹהֶל.",
+     "en": "Therefore, the Gemara asks: <b>Who is the <i>tanna</i> who refers to</b> impurity imparted in <b>a tent</b> as one who <b>touches [<i>noge’a</i>]?</b> The Gemara answers: <b>It is Rabbi Yosei, as it is taught</b> in a <i>baraita</i> (<i>Tosefta</i>, <i>Oholot</i> 4:1): <b>Rabbi Yosei says: A full ladle [<i>tarvad</i>] of dust</b> from a corpse <b>imparts impurity</b> like the corpse itself in three ways: <b>By contact [<i>bemagga</i>], and by carrying, and in a tent.</b>",
+     "rashi": [
+      "<b>ומאן תנא</b> — דמתניתין לרבי יוחנן דאוקי דהנוגע היינו מאהיל:",
+      "<b>תרווד</b> — כף:",
+      "<b>רקב</b> — עפר הנמצא בארון של מת שהוא רקבוביתו של מת. ושיעור מלא תרווד הלמ\"מ:"
+     ],
+     "tosafot": [
+      "<b>ומאן תנא דקרי לאהל נוגע רבי יוסי היא</b> — פי' בקונט' דלא מייתי ראיה אלא אליבא דרבא וכן עיקר דהא לאביי מאי משני דע\"כ צריך לאוקומי מתניתין בכל ענין דאם לא כן מאי דחה רבי זירא לעיל בטומאה בין שני מגדלים נוקי נמי מתניתין בכה\"ג אלא ע\"כ צריך לפרש בכל ענין דלא תקשה אכתי נוגע אין מאהיל בלא טומאה רצוצה לא הילכך אליבא דאביי לא מיתוקמא כיון דאיכא אהל למעלה מטפח דלא הוי נגיעה אבל רבא דלא מפיק אלא אהל דהמשכה ליכא למיפרך מידי דמתני' לא איירי בהמשכה מדקתני הנוגע משמע אהל דומיא דנוגע דאיהו גופיה ולא ע\"י דבר אחר ואביי ורבא לית להו דרבי זירא דשני לעיל בטומאה בין שני מגדלים דאי אית להו מנא לן לפרש כדמפרש דלמא בטומאה רצוצה בין שני מגדלים עסקינן אלא ודאי לית להו וא\"ת וכיון דלית להו דרבי זירא וההוא דלעיל מתוקמא לאביי כדאית ליה ולרבא כדאית ליה ואתיא טפי שפיר לרבא דמתוקמא בפשיטות דרישא מצטרפין דכאילו נגיעה היא כיון שאין בהמשכה ובסיפא דאין מצטרפין כיון דע\"י המשכה היא וא\"כ אמאי איצטריך להביא מהכא מההיא דלעיל יכול להביא ראיה דקרי לאהל מגע לפי סברת רבא וי\"ל דניחא ליה טפי לאתויי מהכא שנזכר בה שם חכם:"
+     ]
+    },
+    {
+     "he": "בִּשְׁלָמָא בְּמַשָּׂא וּבְאֹהֶל, הָא קָא טָעֵין לֵיהּ לְכוּלֵּיהּ, וְהָא קָא מַאֲהֵיל אַכּוּלֵּיהּ. אֶלָּא נוֹגֵעַ – הָא לָא נָגַע בְּכוּלֵּיהּ! אֶלָּא לָאו שְׁמַע מִינַּהּ: מַאי ״נוֹגֵעַ״ – מַאֲהִיל.",
+     "en": "<b>Granted,</b> the dust of a corpse imparts impurity <b>via carrying and in a tent; this</b> one who carries it <b>carries the entire</b> amount of dust <b>and that</b> one who overlies the dust <b>overlies all of it. But</b> with regard to one who <b>touches</b> it, <b>one does not touch all of</b> the dust, and it should therefore be impossible for one to become impure via contact. <b>Rather, isn’t it</b> correct to <b>conclude from</b> this <i>baraita</i>: To <b>what</b> is the term <b><i>noge’a</i></b> referring? It is referring to one who <b>overlies</b> the dust.",
+     "rashi": [
+      "<b>הא לא נגע בכוליה</b> — דהא כל העפר אינו מחובר יחד והנוגע בצד זה לא נגע בצד זה וכל חד וחד עפרא באפי נפשיה הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָא קָתָנֵי ״נוֹגֵעַ״, וְהָא קָתָנֵי ״מַאֲהִיל״! אָמַר אַבָּיֵי: לְמַטָּה מִטֶּפַח – אֹהֶל נְגִיעָה, לְמַעְלָה מִטֶּפַח – אֹהֶל גְּרֵידָא.",
+     "en": "The Gemara asks: How is it possible to explain the <i>baraita</i> in such a manner? <b>But doesn’t</b> Rabbi Yosei <b>teach</b> the case of one who <b>touches</b> separately, <b>and doesn’t he teach</b> the case of one who <b>overlies</b> separately? Therefore, the term <i>noge’a</i> cannot be referring to overlying. <b>Abaye said:</b> That is not difficult because there are two types of overlying. With regard to a tent that overlies impurity at a height of <b>below</b> one <b>handbreadth,</b> that <b>tent</b> is referred to as <b>touching.</b> But a tent that overlies impurity at a height of <b>above</b> one <b>handbreadth</b> is referred to as <b>merely a tent.</b>",
+     "rashi": [
+      "<b>אמר אביי</b> — המאהיל למטה מטפח שאין טפח בין ידו לטומאה קרי לה אהל נגיעה. ולאביי לא מיתוקמא מתניתין כרבי יוחנן דלא מיקרי מאהיל נוגע אלא למטה מטפח דהוי כנגיעה ואכתי הדר דוקיין קמא לדוכתיה נוגע אין אבל מאהיל אהל גרידא למעלה מטפח לא ואי דאיכא כזית באהל נמי ליטמא. ואביי לא מהדר לאוקמא לדרבי יוחנן דהא אביי אוקמה למתניתין בשאין בה כזית ובששיפה והכא קא מהדר לתרוצי מילתיה דרבי יוסי דקתני גבי רקב מגע ואהל וקשיא לן הא לא נגע בכוליה ומוקי ליה אביי באהל נגיעה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רָבָא אָמַר: אֲפִילּוּ לְמַעְלָה מִטֶּפַח נָמֵי אֹהֶל נְגִיעָה הוּא, וְהֵיכִי דָּמֵי אֹהֶל גְּרֵידָא? בְּהַמְשָׁכָה.",
+     "en": "<b>Rava said:</b> According to Rabbi Yosei, <b>even a tent</b> that overlies impurity at a height <b>above</b> one <b>handbreadth is</b> referred to as <b>touching. And what are the circumstances of</b> a tent that is referred to as <b>merely a tent</b> and not as touching? The term tent is referring to the case of a structure that overlies both a person and a source of impurity, thereby <b>spreading</b> the impurity from its source to the person.",
+     "rashi": [
+      "<b>רבא אמר אפי' למעלה מטפח אהל נגיעה</b> — מיקרי ושפיר מיתוקמא מתני' כר' יוחנן ורבי יוסי היא:",
+      "<b>בהמשכה</b> — דבר אחר מאהיל עליו ועל הטומאה דהוא אינו מאהיל על הטומאה ולא הטומאה מאהלת עליו אלא דבר אחר ממשיך את הטומאה עליו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רָבָא: מְנָא אָמֵינָא לַהּ? דִּתְנַן, רַבִּי יוֹסֵי אוֹמֵר: חֲבִילֵי מִטָּה וּסְרִיגֵי חַלּוֹנוֹת חוֹצְצִין בֵּין הַבַּיִת לַעֲלִיָּיה, שֶׁלֹּא לְהַכְנִיס טוּמְאָה לְצַד שֵׁנִי.",
+     "en": "<b>Rava said: From where do I say</b> my opinion? It is <b>as we learned</b> in a <i>baraita</i> (<i>Tosefta</i>, <i>Oholot</i> 9:4) that <b>Rabbi Yosei says:</b> With regard to <b>bundles</b> that serve as <b>a bed and grilles</b> taken from <b>windows,</b> if one placed them between the ground floor and the upper floor of the house such that they serve as a ceiling, since they have become part of the building they are not susceptible to impurity. Therefore, even if there are holes in the bundles and the grilles, <b>they serve as a barrier between the house and the upper floor such that the impurity</b> of a corpse present in the area of the house <b>cannot enter the other side,</b> i.e., the upper floor.",
+     "rashi": [
+      "<b>מנא אמינא לה</b> — דאפילו למעלה מטפח קרי ליה רבי יוסי אהל נגיעה:",
+      "<b>חבלי מטה</b> — המסורגים שמסרגים מטות כמין קליעה. וכן סריגי חלונות שנותנים עצים דקים או טסי ברזל בחלונות בסירוג בקליעה שלא יכנס אדם בהן:",
+      "<b>חוצצין בין בית לעליה</b> — אם שטחו מקורה לחברתה נעשו תקרה ובטלו ואין מקבלין טומאה וחוצצין בפני הטומאה שלא תכנס טומאה לצד שני שעליה כלומר לעליה ואע\"פ שנקובים הרי אין בנקבים פותח טפח וכל נקב העשוי לאויר שיעורו כמלא אגרוף וכל נקב שבין בית לבית או בין בית לעליה שיעורו בפותח טפח ואף הנוגע כנגד הנקב טהור:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "פְּרָסָן עַל פְּנֵי הַמֵּת בַּאֲוִיר, הַנּוֹגֵעַ כְּנֶגֶד הַנֶּקֶב – טָמֵא, שֶׁלֹּא כְּנֶגֶד הַנֶּקֶב – טָהוֹר.",
+     "en": "And if <b>one spread out</b> the bundles and grilles outside the house in an impermanent manner by hanging them <b>over a corpse in the air</b> like a net, <b>one who touches,</b> i.e., overlies the corpse, <b>opposite a hole</b> in the netting becomes <b>impure.</b> By contrast, one who overlies it <b>not opposite a hole</b> remains <b>pure.</b>",
+     "rashi": [
+      "<b>היו פורסים על המת באויר</b> — שנטלו מן המטה כמו שהן מסורגות ופורסן על המת באויר:",
+      "<b>הנוגע כנגד הנקב טמא</b> — דעכשיו לא נעשו תקרה להיות הכל כסתום לפיכך הנוגע כנגד הנקב טמא שהרי מאהיל על המת. שלא כנגד הנקב טהור דחבלים בלא מטה אינן מקבלין טומאה הילכך חוצצין:"
+     ],
+     "tosafot": [
+      "<b>שלא כנגד הנקב טהור</b> — וא\"ת כיון דלא מבטל להו כדפי' בקונטרס יהא טמא אפילו שלא כנגד הנקב כדאמרינן פרק לא יחפור (ב\"ב דף יט:) דכל מידי דלא מבטל ליה אין חוצץ בפני הטומאה ומיהו שם פירש דכל דבר שסותם כל החלון א\"צ בטול ושם (כ. ד\"ה היא) מפורש:"
+     ]
+    },
+    {
+     "he": "הֵיכִי דָמֵי? אִילֵּימָא לְמַטָּה מִטֶּפַח, שֶׁלֹּא כְּנֶגֶד הַנֶּקֶב – אַמַּאי טָהוֹר? מֵת בִּכְסוּתוֹ הִיא, וּמֵת בִּכְסוּתוֹ מְטַמֵּא!",
+     "en": "Rava explains his proof: <b>What are the circumstances? If we say</b> that he spread out the netting <b>below</b> the height of one <b>handbreadth</b> above the corpse, <b>why</b> does one who overlies the corpse <b>not opposite a hole</b> in the netting remain <b>pure?</b> In such a case, the netting is close enough to the corpse to be considered part of the clothing of the corpse. Therefore, the case is tantamount to one where the <b>corpse is</b> dressed <b>in its clothing, and a corpse</b> dressed <b>in its clothing imparts impurity</b> to one who overlies it because the clothing does not act as a barrier.",
+     "rashi": [
+      "<b>אילימא</b> — ששוטחן על המת למטה מטפח שאין מהן ולמת טפח:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא לָאו לְמַעְלָה מִטֶּפַח, וְקָא קָרֵי לֵיהּ ״נוֹגֵעַ״.",
+     "en": "<b>Rather, is it not</b> the case that he spread out the netting more than one <b>handbreadth above</b> the corpse? <b>And</b> Rabbi Yosei <b>refers to</b> overlying the corpse <b>as touching.</b> Apparently, contrary to the opinion of Abaye, Rabbi Yosei refers to overlying as touching even when the overlying item is more than one handbreadth above the source of impurity.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: לְעוֹלָם לְמַטָּה מִטֶּפַח, וּדְקָאָמְרַתְּ: מֵת בִּכְסוּתוֹ הוּא – מֵת בִּכְסוּתוֹ מְבַטֵּל לֵיהּ, הַאי לָא מְבַטֵּל לֵיהּ.",
+     "en": "<b>Abaye</b> rejected Rava’s proof and <b>said: Actually,</b> the case is one where one spread the netting out <b>below</b> the height of one <b>handbreadth</b> above the corpse. <b>And</b> with regard to <b>that which you say:</b> If so, one who overlies the corpse not opposite a hole in the netting should also become impure as it <b>is</b> tantamount to a case of <b>a corpse</b> dressed <b>in its clothing,</b> this case is not similar to the case of a corpse dressed in its clothing. In the case of <b>a corpse</b> dressed <b>in its clothing</b> the clothing does not act as a barrier to the impurity because the one who dressed the corpse <b>nullified</b> the clothing by rendering its status as though it is a part of the corpse. But in <b>this</b> case in the <i>baraita</i>, the one who spread out the netting over the corpse intended to remove the bundles and grilles afterward and <b>he did not nullify</b> them.",
+     "rashi": [
+      "<b>לא מבטל ליה</b> — להיות כסותו של מת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְתֶהֱוֵי כְּטוּמְאָה טְמוּנָה בּוֹקַעַת וְעוֹלָה? קָסָבַר רַבִּי יוֹסֵי: טוּמְאָה טְמוּנָה אֵינָהּ בּוֹקַעַת.",
+     "en": "The Gemara objects with regard to Abaye’s explanation: <b>But</b> if the case is one where he spread out the netting less than one handbreadth above the corpse, even if it is not considered the clothing of the corpse, <b>let it be</b> considered <b>like</b> a source of <b>impurity hidden</b> underneath an overlying structure at a distance of less than one handbreadth. In such a case, the impurity <b>breaks through and ascends,</b> and therefore it should transmit impurity even to one who overlies it not opposite a hole in the netting. The Gemara explains: <b>Rabbi Yosei holds</b> that <b>hidden impurity does not break through</b> and ascend.",
+     "rashi": [
+      "<b>ותהוי כטומאה טמונה</b> — אי למטה מטפח עסקינן נהי נמי דלא מבטל ליה תיהוי מיהא טומאה טמונה שאין לה חלל טפח דקי\"ל (אהלות פי\"ד מ\"ו) בוקעת ועולה עד לרקיע אא\"כ תמצא חציצה למעלה מטפח:"
+     ],
+     "tosafot": [
+      "<b>קסבר רבי יוסי טומאה אינה בוקעת ועולה</b> — וא\"ת היכי מוקמינן לעיל מתניתין כוותיה והא מתניתין סבר דבוקעת ועולה דקתני בקולית סתומה הנוגע בה טמא ואוקמינן דמאי נוגע מאהיל וי\"ל אע\"ג דסבר רבי יוסי טומאה טמונה אינה בוקעת מודה בקולית סתומה שמטמא באהל כמו במת בכסותו דמודה רבי יוסי דמטמא:"
+     ]
+    },
+    {
+     "he": "וּמְנָא תֵּימְרָא? דִּתְנַן: תֵּיבַת הַמִּגְדָּל שֶׁיֵּשׁ בָּהּ פּוֹתֵחַ טֶפַח וְאֵין בִּיצִיאָתָהּ פּוֹתֵחַ טֶפַח, טוּמְאָה בְּתוֹכָהּ – הַבַּיִת טָמֵא; טוּמְאָה בַּבַּיִת – מַה שֶּׁבְּתוֹכָהּ טָהוֹר.",
+     "en": "<b>And from where do you say</b> that this is the opinion of Rabbi Yosei? It is <b>as we learned</b> in a mishna (<i>Oholot</i> 4:2): In the case of <b>a compartment</b> in <b>a chest</b> that is inside a house, in which the <b>open space</b> of the compartment itself <b>has</b> at least one cubic <b>handbreadth</b> in volume, <b>but</b> the <b>opening</b> of the compartment to the house does <b>not have</b> the area of one square <b>handbreadth,</b> and the volume of the entire chest is forty <i>se’a</i>, in that case, if there is a source of <b>impurity inside</b> the compartment, the compartment does not act as a barrier and <b>the house is impure.</b> If the source of <b>impurity is inside the house</b> but outside the chest, <b>whatever is inside</b> the compartment remains <b>pure,</b> because the opening of the compartment is less than one handbreadth.",
+     "rashi": [
+      "<b>תיבת מגדל</b> — של עץ משטיי\"ר ועושין אותו תיבות תיבות קטנות להצניע בהן כלים ומשקין:",
+      "<b>שיש בה</b> — בחלל פותח טפח. ה\"ג לה במשנה דאהלות שיש בה פותח טפח דלא הויא טומאה טמונה:",
+      "<b>ואין ביציאתה</b> — בחור פתח אין בו טפח:",
+      "<b>טומאה בתוכה הבית טמא</b> — ואע\"פ שפתחה קטן כדמפרש טעמא מפני שדרך טומאה לצאת על כרחך סופה לצאת דרך פתח זה לפיכך מטמאה מיד דרך יציאתה ומדרבנן:",
+      "<b>מה שבתוכה טהור</b> — הואיל ואין ביציאתה פותח טפח והרי אין סופו להכניס לה מת:"
+     ],
+     "tosafot": [
+      "<b>טומאה בבית מה שבתוכה טהור</b> — שהמגדל חוצץ בין הטומאה ובין מה שבתוכו דאינו מקבל טומאה דעשוי לנחת הוא:"
+     ]
+    },
+    {
+     "he": "מִפְּנֵי שֶׁדֶּרֶךְ טוּמְאָה לָצֵאת, וְאֵין דֶּרֶךְ טוּמְאָה לִיכָּנֵס.",
+     "en": "This differentiation exists <b>because it is typical for</b> a source of <b>impurity to exit</b> from its location, and therefore impurity can be transmitted out of the compartment and into the house. <b>But it is not typical for</b> a source of <b>impurity to enter</b> a location, and therefore an impure item that lies in the house does not transmit impurity into the compartment. Since the volume of the chest is forty <i>se’a</i> it constitutes a separate tent, and the compartment that is part of the chest is also considered part of this tent.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְרַבִּי יוֹסֵי מְטַהֵר, מִפְּנֵי שֶׁיָּכוֹל הוּא לְהוֹצִיאָהּ לַחֲצָאִין, אוֹ לְשׂוֹרְפָהּ בִּמְקוֹמָהּ.",
+     "en": "<b>And Rabbi Yosei deems</b> the house <b>pure</b> when the impure item is in the compartment. The item will not necessarily impart impurity outside of the compartment <b>because one can remove</b> the source of impurity from the compartment <b>in halves,</b> i.e., in pieces that each measure less than the requisite amount to impart impurity. <b>Or,</b> alternatively, one can <b>burn</b> the source of impurity while it still remains <b>in its place</b> inside the compartment.",
+     "rashi": [
+      "<b>רבי יוסי מטהר</b> — כדמפרש דשמא אין סופה לצאת דרך פתח זה שיהא בה שיעור טומאה שיכול להוציאה לחצאין או לשורפה במקומה:"
+     ],
+     "tosafot": [
+      "<b>יכול הוא להוציאה ולשורפה במקומה</b> — נראה דמודה רבי יוסי בהא דאמרינן בביצה (דף י.) המת בבית ולו פתחים הרבה כולן טמאים מפני שסוף טומאה לצאת דרך שם דהתם במת שלם דאין דרך לשורפו ולנתחו פחות מכזית:"
+     ]
+    },
+    {
+     "he": "וְקָתָנֵי סֵיפָא: הֶעֱמִידָהּ בַּפֶּתַח, וּפִתְחָהּ לַחוּץ – טוּמְאָה בְּתוֹכָהּ, הַבַּיִת טָהוֹר; טוּמְאָה בַּבַּיִת, מַה שֶּׁבְּתוֹכָהּ טָהוֹר.",
+     "en": "<b>And the latter clause</b> of that mishna <b>teaches:</b> If one <b>placed</b> the chest <b>in the entrance</b> to the house <b>and the opening of</b> the compartment is facing <b>out</b> of the house, if there is a source of <b>impurity inside</b> the chest, <b>the house</b> remains <b>pure</b> because the impure item will typically exit the house. If there is a source of <b>impurity in the house, whatever is inside</b> the chest remains <b>pure,</b> because the source of impurity will not enter the chest.",
+     "rashi": [
+      "<b>וקתני סיפא העמידה בפתח</b> — וכולה בבית אלא שפתחה לחוץ:",
+      "<b>טומאה בתוכה הבית טהור</b> — דמשום מאי איכא לטמויי הא טומאת אהל ליכא דיש בה פותח טפח ולא טמונה היא ומשום יציאה נמי לא מטמיא דהא אין יציאתה לפנים:"
+     ],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}

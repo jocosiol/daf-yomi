@@ -1,0 +1,470 @@
+{
+ "tractate": "Chullin",
+ "page": 124,
+ "fetched": "2026-08-26",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 124a",
+   "he_ref": "חולין קכ״ד.",
+   "url": "https://www.sefaria.org/Chullin.124a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=124&amud=a",
+   "segments": [
+    {
+     "he": "עַד שֶׁיְּהֵא בָּאָרֶץ. רַבִּי מֵאִיר אוֹמֵר: אֵינוֹ צָרִיךְ לֹא לִגְרוֹר אֶת הַטְּפֵילָה וְלֹא עַד שֶׁיְּהֵא בָּאָרֶץ, אֶלָּא מְמַעֲטוֹ מִבִּפְנִים (מארבע) [מֵאַרְבָּעָה] טְפָחִים.",
+     "en": "<b>until</b> the oven itself merely rests <b>on the ground</b> and is not held in place by plaster.Breaking the oven in such a manner renders the oven pure because it is no longer considered a vessel. <b>Rabbi Meir says: It is unnecessary to scrape off the</b> layer of <b>plaster, and</b> it is certainly <b>not</b> necessary to remove it <b>until</b> the oven rests <b>on the ground. Rather, one</b> makes cuts in the oven itself, <b>reducing</b> its size <b>from within</b> the layer of plaster, i.e., without removing the layer of plaster, until the unbroken part is less <b>than four handbreadths.</b>",
+     "rashi": [
+      "<b>עד שיהא בארץ</b> — כלומר עד הקרקע מפילה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כִּי מְמַעֵט לַהּ (מארבע) [מֵאַרְבָּעָה] מִיהָא טָהוֹר, אַמַּאי? לֵימָא: הָא חֲלִים וְקָאֵי!",
+     "en": "Rabbi Meir holds that although breaking off a minority of the structure of the oven is insufficient, <b>in any event when one reduces</b> the size of the oven to less <b>than four</b> handbreadths in height the oven is rendered <b>pure. Why</b> is this so, according to the opinion of Reish Lakish? <b>Let us say</b> that <b>this</b> oven <b>exists</b> in <b>a repairable</b> state, as the plaster holds it together, and according to Reish Lakish it should therefore be considered connected and remain impure.",
+     "rashi": [
+      "<b>הא חלים וקאי</b> — שהטפילה מעמידו יפה:"
+     ],
+     "tosafot": [
+      "<b>כי ממעט ליה מד' מיהא הוי טהור ואמאי והא חלים וקאי</b> — ה\"נ האי תנור דקאי ע\"י טפילה לא חשיב והוי כעור שלא נתחבר:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ רָבָא: וְאֵימָא מִדְּרַבָּנַן – גּוֹרֵר אֶת הַטְּפֵילָה עַד שֶׁיְּהֵא בָּאָרֶץ.",
+     "en": "<b>Rava said to</b> Rabbi Yirmeya: Instead of objecting to the opinion of Reish Lakish from the statement of Rabbi Meir, <b>state</b> a proof for his opinion <b>from</b> the statement <b>of the Rabbis</b> who disagree with Rabbi Meir and hold that the oven becomes pure only if <b>one scrapes off the</b> layer of <b>plaster until</b> the oven rests <b>on the ground.</b> Apparently, the Rabbis hold that the oven is rendered pure only if it is completely and irreparably broken, which supports the opinion of Reish Lakish according to your reasoning.",
+     "rashi": [
+      "<b>ואימא מדרבנן</b> — אדמותבת ליה מדר\"מ סייעיה מדרבנן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא אָמַר רָבָא: הָכִי קָאָמַר, תַּנּוּר שֶׁנִּטְמָא כֵּיצַד מְטַהֲרִין אוֹתוֹ? דִּבְרֵי הַכֹּל חוֹלְקוֹ לִשְׁלֹשָׁה, וְגוֹרֵר אֶת הַטְּפֵילָה עַד שֶׁיְּהֵא בָּאָרֶץ.",
+     "en": "<b>Rather, Rava said:</b> Not only is there no proof against the opinion of Reish Lakish from this mishna, as the statement of the Rabbis supports his opinion, but Rabbi Meir may even accept the opinion of Reish Lakish; as <b>this</b> is what the mishna <b>is saying: How does one purify an oven that became impure? Everyone,</b> even Rabbi Meir, <b>agrees</b> that one <b>divides it into three</b> parts <b>and scrapes off the</b> layer of <b>plaster until</b> the oven rests <b>on the ground.</b>",
+     "rashi": [
+      "<b>אלא אמר רבא</b> — בשנטמא כ\"ע לא פליגי דכל כמה דחלים לא טהר והכא הכי קאמר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָרוֹצֶה שֶׁלֹּא יָבֹא תַּנּוּרוֹ לִידֵי טוּמְאָה, כֵּיצַד הוּא עוֹשֶׂה? חוֹלְקוֹ לִשְׁלֹשָׁה, וְגוֹרֵר אֶת הַטְּפֵילָה עַד שֶׁיְּהֵא בָּאָרֶץ. רַבִּי מֵאִיר אוֹמֵר: אֵינוֹ צָרִיךְ לֹא לִגְרוֹר אֶת הַטְּפֵילָה וְלֹא עַד שֶׁיְּהֵא בָּאָרֶץ, אֶלָּא מְמַעֲטוֹ מִבִּפְנִים מֵאַרְבָּעָה טְפָחִים.",
+     "en": "<b>And</b> anyone <b>who wishes that his oven not become</b> susceptible to <b>impurity, how does he act?</b> The Rabbis hold that he goes through the same process as is necessary in order to purify an impure oven: From the outset, <b>he divides</b> the oven <b>into three</b> parts <b>and scrapes off the</b> layer of <b>plaster until</b> the oven rests <b>on the ground. Rabbi Meir says:</b> With regard to an oven that has not yet become impure, <b>it is unnecessary to scrape off the</b> layer of <b>plaster, and</b> it is certainly <b>not</b> necessary to remove it <b>until</b> the oven rests <b>on the ground. Rather, one reduces</b> the size of the oven <b>from within</b> the layer of plaster until the unbroken part is less <b>than four handbreadths</b> in height.",
+     "rashi": [
+      "<b>כיצד הוא עושה</b> — מתחלתו שלא יהא שם תנור עליו:",
+      "<b>ר\"מ אומר</b> — בהא שעדיין לא ירד טומאה אינו צריך לגרור כו':"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר מָר: חוֹלְקוֹ לִשְׁלֹשָׁה.",
+     "en": "§The Gemara discusses the mishna in tractate <i>Kelim</i> cited above. <b>The Master said:</b> An impure oven is rendered pure when one <b>divides it into three</b> parts, such that no one part contains the majority of the oven. But one cannot purify the oven by dividing it into two parts because one of the parts would contain the majority of the oven.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וּרְמִינְהוּ: תַּנּוּר, תְּחִלָּתוֹ אַרְבָּעָה, וּשְׁיָרָיו אַרְבָּעָה, דִּבְרֵי רַבִּי מֵאִיר.",
+     "en": "The Gemara <b>raises a contradiction</b> to this mishna from another mishna (<i>Kelim</i> 5:1): A clay <b>oven</b> in <b>its original state,</b> once it is finished being built, is susceptible to ritual impurity if it is <b>four</b> handbreadths tall. <b>And</b> with regard to an oven that became impure and was subsequently broken, if <b>its remains</b> include a piece <b>four</b> handbreadths tall, that piece remains impure. This is <b>the statement of Rabbi Meir.</b>",
+     "rashi": [
+      "<b>תנור תחלתו ד'</b> — אין תנור פחות מארבעה ואפילו נגמרה מלאכתו:",
+      "<b>ושיריו</b> — אם היה גדול ונטמא ושברו צריך שלא יהא בו שבר של ד':"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וַחֲכָמִים אוֹמְרִים: בַּמֶּה דְּבָרִים אֲמוּרִים בְּגָדוֹל, אֲבָל בְּקָטָן – תְּחִלָּתוֹ כׇּל שֶׁהוּא, מִשֶּׁתִּגָּמֵר מְלַאכְתּוֹ – שְׁיָרָיו בְּרוּבּוֹ.",
+     "en": "<b>And the Rabbis say: In what</b> case <b>is this statement said?</b> It is said <b>in</b> the case of <b>a large</b> oven, <b>but in</b> the case of <b>a small</b> oven, in <b>its original state, any size</b> is sufficient for it to be susceptible to impurity. <b>Once its construction is completed,</b> if the oven became impure and was subsequently broken, <b>its remains</b> are still impure <b>in</b> a case where they contain <b>the majority of</b> the oven.",
+     "rashi": [
+      "<b>בד\"א</b> — דתחלתו ארבעה ושיריו ד':",
+      "<b>בגדול</b> — התנורים העשויים לאפות ולצלות כדרכן. אבל קטן שעושין לתינוקות תחלתו כל שהוא:",
+      "<b>שתגמר מלאכתו</b> — לאחר שנגמר והסיקו אפילו הוא טפח מקבל טומאה: קתני מיהא בד\"א בגדול דשיריו ד' אבל בציר מארבעה לא טמא הוא והתם קתני חלקו לשלשה אבל לשתים לא סגי ואע\"ג דליכא בחציו ד' דמדקא מיקל ר\"מ ואומר אינו צריך אלא ממעטו מבפנים מד' מכלל דרבנן נמי בהא פליגי דאע\"ג דלא הוי השבר ד' אפ\"ה בעינן דלא ליהוי רובא:"
+     ],
+     "tosafot": [
+      "הכי גרסינן במשנת כלים (בפ\"ק) וחכ\"א בד\"א בגדול אבל בקטן תחלתו כל שהוא שיריו ברובו משתגמור מלאכתו ולא קאי משתגמור מלאכתו אשיריו ברובו אלא אשני תנורים גדול וקטן השנויים בה קאי דאין טמא עד שתגמור מלאכתו ובתר הכי מפרשה איזהו גמר מלאכתו:"
+     ]
+    },
+    {
+     "he": "וְכַמָּה ״כׇּל שֶׁהוּא״? אָמְרִי דְּבֵי רַבִּי יַנַּאי: טֶפַח, שֶׁכֵּן עוֹשִׂים (תנורים) [תַּנּוּרֵי] בָּנוֹת טֶפַח.",
+     "en": "The Gemara explains: <b>And how</b> small is the size defined by the mishna as <b>any size?</b> The <b>school of Rabbi Yannai says:</b> One <b>handbreadth, as</b> people <b>make</b> toy <b>ovens one handbreadth tall.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "טַעְמָא דְּאִיכָּא שְׁיָרָיו אַרְבַּע, הָא לֵיכָּא שְׁיָרָיו אַרְבַּע – טָהוֹר.",
+     "en": "The Gemara infers: The Rabbis in that mishna hold that with regard to a large impure oven that breaks, any remaining piece that measures four handbreadths remains impure. Evidently, <b>the reason</b> that the oven remains impure is <b>because there are</b> pieces of <b>its remains</b> that measure <b>four</b> handbreadths, <b>but</b> if <b>there are no remains</b> of the oven measuring <b>four</b> handbreadths, even if a piece contains the majority of the oven, the oven is rendered <b>pure.</b> This opinion is not consistent with the opinion of the Rabbis in the previously cited mishna.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמְרִי: הָתָם, דְּצַלְקֵיהּ מִצְלָק; הָכָא, דְּעַבְדֵיהּ גִּיסְטְרָא.",
+     "en": "The Sages <b>said</b> in response: <b>There,</b> with regard to the opinion of the Rabbis that if there are no remains measuring four handbreadths then the oven is pure, that mishna is discussing a case <b>where one cut</b> the oven horizontally such that the pieces do not stand one on top of the other in a stable manner. <b>Here,</b> with regard to the opinion of the Rabbis that an impure oven is rendered pure only when no one piece constitutes the majority of the oven, the mishna is discussing a case <b>where one rendered</b> the oven <b>a shard [<i>gistera</i>]</b> by cutting it in half vertically, in which case a piece that contains the majority of the oven can stand on its own.",
+     "rashi": [
+      "<b>התם</b> — דקתני דבעינן ד' ואי לא לא הוי טמא:",
+      "<b>דצלקיה מצלק</b> — לרחבו דשוב אינו עומד יפה:",
+      "<b>הכא</b> — דקתני ברובא טמא ואע\"ג דלא הוי ד':",
+      "<b>דעבדיה גיסטרא</b> — שחלקו לארכו בגובהו כזה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר מָר: שְׁיָרָיו בְּרוּבּוֹ, רוּבּוֹ דְּטֶפַח לְמַאי הָוֵי?",
+     "en": "§The Gemara discusses the previously cited mishna in tractate <i>Kelim</i>. <b>The Master said:</b> In the case of a small oven, in its original state, any size is sufficient for it to be susceptible to impurity. And once its construction is completed, if the oven became impure and was subsequently broken, <b>its remains</b> are still impure if they contain <b>the majority</b> of the oven. The Gemara asks: Rabbi Yannai explained that the phrase: Any size, is referring to a measure of one handbreadth. <b>For what</b> purpose <b>is</b> a piece of an oven the size of <b>the majority of</b> one <b>handbreadth</b> usable? Since such a small piece is not functional; why should it remain impure?",
+     "rashi": [
+      "ה\"ג אמר מר שיריו ברובו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: שְׁיָרֵי גָּדוֹל בְּרוּבּוֹ, וְהָאָמְרִי רַבָּנַן אַרְבָּעָה? לָא קַשְׁיָא: הָא בְּתַנּוּרָא בַּר תִּשְׁעָה, הָא בְּתַנּוּרָא בַּר שִׁבְעָה.",
+     "en": "<b>Abaye said:</b> The statement of the mishna: Its remains are still impure if they contain the majority of the oven, is not discussing a small oven, but rather is teaching that <b>the remains of a large</b> oven remain impure if they contain <b>the majority of</b> the oven. The Gemara asks: <b>But didn’t the Rabbis say</b> in the mishna that any remaining piece of a large oven measuring <b>four</b> handbreadths remains impure? The Gemara answers: That is <b>not difficult. That</b> statement of the Rabbis that the remains of a large oven remain impure if they contain the majority of the oven is referring <b>to an oven</b> measuring <b>nine</b> handbreadths. <b>That</b> statement of the Rabbis that any remaining piece of a large oven measuring four handbreadths remains impure is referring <b>to an oven</b> measuring <b>seven</b> handbreadths.",
+     "rashi": [
+      "<b>הא אמרי רבנן ד'</b> — דקתני בד\"א בגדול אלמא בין אתחלתו בין אשיריו מודו ליה לר\"מ בגדול:",
+      "<b>בתנורא בר שבעה</b> — קאמרי ד' הואיל ורובו בציר מד' הוא לא מטמינן ליה ברובו דלא חמירי שיריו מתחלתו דהא תחלתו כשהוא שלם לא הוי תנור בציר מארבעה:",
+      "<b>והאי</b> — דקתני רובו בתנור בר תשעה דאע\"ג דבחציו איכא ארבעה לא מטמא עד דהוי רובא ובהא רבנן לקולא:"
+     ],
+     "tosafot": [
+      "<b>הא בתנורא בר תשעה והא בתנורא בר שבעה</b> — כמו שפירש בקונטרס לקולא כן נראה דאין לפרש לחומרא דבר תשעה בארבעה ובר שבעה ברובו דלא עדיף שיריו מתחלתו דהוי בארבעה והכא לא בעי לשנויי הא דצלקיה מצלק בארבעה הא דעבדיה גיסטרא ברובו דכיון דמשנה אחת היא מסתבר בענין אחד מיירי או תרוייהו דצלקיה מצלק או תרוייהו דעבדיה גיסטרא הילכך הוצרך לתרץ בב' תנורים ובענין אחד ריב\"א:"
+     ]
+    },
+    {
+     "he": "לִישָּׁנָא אַחֲרִינָא אָמְרִי לַהּ: אָמַר רַב הוּנָא מִשּׁוּם רַבִּי יִשְׁמָעֵאל בְּרַבִּי יוֹסֵי: וַאֲפִילּוּ שִׁיֵּיר בָּהּ כְּדֵי מַעְפּוֹרֶת.",
+     "en": "§The Gemara returns to discuss the mishna in tractate <i>Kelim</i> (28:8) previously mentioned in the Gemara (123a–b): In the case of a ritually impure garment that one begins to tear, once the majority of the garment is torn, the two sections are no longer considered to have a connection, and the garment is pure. Rav Huna said in the name of Rabbi Shimon, son of Rabbi Yosei, that even if the majority of the garment is torn, if a part of the garment the measure of a scarf is left intact, the garment remains impure. <b>Some say another version</b> of Rav Huna’s statement: <b>Rav Huna said in the name of Rabbi Yishmael, son of Rabbi Yosei:</b> If the majority of the garment is torn, the garment is rendered pure <b>even</b> if one <b>left</b> an untorn piece <b>the measure of a scarf.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רֵישׁ לָקִישׁ: לֹא שָׁנוּ אֶלָּא טַלִּית, אֲבָל עוֹר – חֲשִׁיב, וְרַבִּי יוֹחָנָן אָמַר: אֲפִילּוּ עוֹר נָמֵי לָא חֲשִׁיב.",
+     "en": "With regard to that statement of Rav Huna, <b>Reish Lakish said:</b> The Sages <b>taught</b> that the garment is pure even if one left an untorn piece the measure of a scarf <b>only</b> with regard to a torn <b>garment. But</b> with regard to <b>a hide,</b> if the majority was torn and a piece the measure of a scarf remains, the piece is considered <b>significant</b> and the hide remains impure. <b>And Rabbi Yoḥanan said: Even</b> with regard to a torn <b>hide,</b> if a piece the size of a scarf remains it is <b>not</b> considered <b>significant</b> and the hide is therefore rendered pure.",
+     "rashi": [
+      "<b>לא שנו</b> — דאע\"ג דשייר בה כדי מעפורת בטלה אלא טלית:",
+      "<b>אבל עור</b> — כי האי שיעורא:",
+      "<b>חשיב</b> — ולא בטיל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֵיתִיבֵיהּ רַבִּי יוֹחָנָן לְרֵישׁ לָקִישׁ: עוֹר טָמֵא מִדְרָס, חִישֵּׁב עָלָיו לִרְצוּעָה וְסַנְדָּלִין – כֵּיוָן שֶׁנָּתַן בּוֹ אִיזְמֵל טָהוֹר, דִּבְרֵי רַבִּי יְהוּדָה. וַחֲכָמִים אוֹמְרִים: עַד שֶׁיַּמְעִיטֶנּוּ מֵחֲמִשָּׁה טְפָחִים.",
+     "en": "<b>Rabbi Yoḥanan raised an objection to</b> the opinion of <b>Reish Lakish</b> from that which is taught in the mishna (<i>Kelim</i> 26:9): With regard to <b>a hide</b> that is <b>impure</b> with impurity imparted by <b>treading,</b> if the owner <b>intended with regard to</b> the hide <b>to</b> fashion it into <b>straps and sandals,</b> then <b>when he applies a scalpel to</b> the hide, the hide becomes <b>pure;</b> this is <b>the statement of Rabbi Yehuda. And the Rabbis say:</b> The hide does not become pure <b>until he reduces</b> the hide to a measure of less <b>than five handbreadths.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "כִּי מְמַעֵט מִיהָא טָהוֹר, אַמַּאי? לֵימָא חֲשִׁיב! הָכָא בְּמַאי עָסְקִינַן – דְּקָא בָעֵי לֵיהּ לְמוֹשַׁב זָב.",
+     "en": "<b>In any event, when one reduces</b> the hide to a measure of less than five handbreadths, everyone agrees that it becomes <b>pure. Why</b> is this so? <b>Let us say</b> that the hide is considered <b>significant</b> and therefore remains impure. Reish Lakish answered: <b>Here, we are dealing with</b> a case <b>where one needs</b> the cut hide <b>for a seat</b> that he wishes to designate for <b>a man who experiences a gonorrhea-like discharge [<i>zav</i>].</b> Since a piece of hide measuring less than five handbreadths cannot be used for a seat, it is not considered significant in such a case.",
+     "rashi": [
+      "<b>למושב זב</b> — פלאדשטור\"א ובבציר מהכי לא חזי למילתיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> עוֹר שֶׁיֵּשׁ עָלָיו כְּזַיִת בָּשָׂר, הַנּוֹגֵעַ בְּצִיב הַיּוֹצֵא מִמֶּנּוּ, וּבְשַׂעֲרָה שֶׁכְּנֶגְדּוֹ – טָמֵא.",
+     "en": "<strong>MISHNA:</strong> In the case of <b>a hide</b> of an unslaughtered carcass <b>upon which there is an olive-bulk of flesh, one who touches a strand</b> of flesh <b>emerging from</b> the flesh <b>or a hair</b> that is on the side of the hide <b>opposite</b> the flesh <b>is ritually impure.</b> Although he did not touch an olive-bulk of the flesh, he is rendered impure with the impurity of an unslaughtered carcass. The reason is that the strand of flesh has the same status as the flesh itself, and the hair is considered protection to the flesh, which also has the same status as the flesh with regard to one who touches it.",
+     "rashi": [
+      "<b>מתני' עור שיש עליו כזית בשר</b> — במקום אחד:",
+      "<b>הנוגע בציב היוצא ממנו</b> — היינו באותו בשר או בשערה שכנגד אותו בשר:",
+      "<b>טמא</b> — דשערה הוי שומר כדאמרינן (לעיל חולין דף קיט:) חלחולי מחלחל:",
+      "<b>ציב</b> — רצועה ותלתל היוצא מאותו בשר ותלוי ודבוק במקצת ובאותו ציב ליכא כזית אבל מעורה הוא לכזית:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָיוּ עָלָיו כִּשְׁנֵי חֲצָאֵי זֵיתִים, מְטַמֵּא בְּמַשָּׂא וְלֹא בְּמַגָּע, דִּבְרֵי רַבִּי יִשְׁמָעֵאל. רַבִּי עֲקִיבָא אוֹמֵר: לֹא בְּמַגָּע וְלֹא בְּמַשָּׂא. וּמוֹדֶה רַבִּי עֲקִיבָא בִּשְׁנֵי חֲצָאֵי זֵיתִים שֶׁתְּחָבָן בְּקֵיסָם וֶהֱסִיטָן, שֶׁהוּא טָמֵא. וּמִפְּנֵי מָה רַבִּי עֲקִיבָא מְטַהֵר בָּעוֹר? מִפְּנֵי שֶׁהָעוֹר מְבַטְּלָן.",
+     "en": "If <b>upon</b> the hide <b>there were two half olive-bulks,</b> the hide <b>imparts the impurity</b> of an unslaughtered carcass <b>by means of carrying,</b> because one moves them together, <b>but not by means of contact</b> with the flesh, because one touches them separately; this is <b>the statement of Rabbi Yishmael. Rabbi Akiva says:</b> The hide does not impart impurity, <b>neither by means of contact nor by means of carrying. And Rabbi Akiva concedes in</b> the case of <b>two half olive-bulks where one skewered them with a wood chip and moved them that he is impure. And for what</b> reason <b>does Rabbi Akiva deem</b> one <b>ritually pure</b> in a case where he moved both half olive-bulks with <b>the hide,</b> as in that case, too, he moved them together? <b>It is because the hide</b> separates between them and <b>nullifies them.</b>",
+     "rashi": [
+      "<b>מטמא במשא</b> — שהרי נשא כזית נבלה:",
+      "<b>ולא במגע</b> — דאי אפשר ליגע ביחד ושתי נגיעות אין מצטרפות:",
+      "<b>לא במגע ולא במשא</b> — כדמפרש שהעור מבטלו:",
+      "<b>ומודה רבי עקיבא</b> — דאע\"ג דלא הוי כזית מעורה במקום אחד דלאו עור חיבור שהמסיט שתי חצאי זיתים ביחד טמא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> אָמַר עוּלָּא אָמַר רַבִּי יוֹחָנָן: לֹא שָׁנוּ אֶלָּא פְּלָטַתּוּ חַיָּה, אֲבָל פְּלָטַתּוּ סַכִּין – בָּטֵיל.",
+     "en": "<strong>GEMARA:</strong> The mishna teaches that in the case of a hide of an unslaughtered carcass upon which there is an olive-bulk of flesh, the flesh is not nullified by the hide, and therefore one who touches a strand of flesh emerging from the flesh is ritually impure. With regard to this section of the mishna, <b>Ulla said</b> that <b>Rabbi Yoḥanan said:</b> The Sages <b>taught</b> this <i>halakha</i> <b>only</b> in a case where <b>an animal severed</b> the piece of flesh, e.g., a dog bite. <b>But</b> if a person used <b>a knife</b> to <b>sever</b> the flesh, the flesh <b>is nullified</b> by the hide because the person nullified the flesh via his action.",
+     "rashi": [
+      "<b>גמ' לא שנו</b> — דכזית שלם דברי הכל לא בטיל אלא פלטתו חיה:"
+     ],
+     "tosafot": [
+      "<b>אבל פלטתו סכין בטל</b> — וא\"ת למאן דמשני לה ארישא דאפי' כזית פלטתו סכין בטליה היכי מוקי מילתיה דר' יהודה דאמר האלל המכונס כו' אי כשכנסו וכי עדיף כנסו מפלטתו יחד כזית וי\"ל דאין ה\"נ אי נמי לדידיה ר' יהודה פליג אר' ישמעאל ור' עקיבא וס\"ל בכזית אפילו פלטתו סכין לא בטל ות\"ק דר' יהודה כר' ישמעאל ור\"ע דאפי' בכזית בפלטתו סכין בטל ולמאן דתני לה אסיפא א\"ש דהא דקאמר הכא בטל היינו בלא כנסו אבל אם כנסו לא בטיל:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַב נַחְמָן לְעוּלָּא: אָמַר רַבִּי יוֹחָנָן אֲפִילּוּ כְּתַרְטָא? אֲמַר לֵיהּ: אִין. וַאֲפִילּוּ כְּנַפְיָא? אֲמַר לֵיהּ: אִין. אֲמַר לֵיהּ: הָאֱלֹהִים! אִם אָמַר לִי רַבִּי יוֹחָנָן מִפּוּמֵּיהּ – לָא צָיֵיתְנָא לֵיהּ.",
+     "en": "<b>Rav Naḥman said to Ulla: Did Rabbi Yoḥanan say</b> this <i>halakha</i> <b>even</b> with regard to a large piece of flesh the size of <b>a <i>tarta</i>,</b> i.e., a quarter of a <i>kav</i>? Ulla <b>said to him: Yes.</b> Rav Naḥman was surprised and asked: <b>And</b> did he say it <b>even</b> with regard to a piece of flesh the size of <b>a sifter?</b> Ulla <b>said to him: Yes.</b> Rav Naḥman swore and <b>said to him: By God!</b> Even <b>if Rabbi Yoḥanan had said</b> this statement <b>to me</b> directly <b>from his mouth, I would not have listened to him.</b>",
+     "rashi": [
+      "<b>כתרטא</b> — רובע הקב לשון מורי. ל\"א כף מאזנים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כִּי סְלֵיק רַב אוֹשַׁעְיָא, אַשְׁכְּחֵיהּ לֵיהּ לְרַבִּי אַמֵּי, אַמְרַהּ לִשְׁמַעְתָּיה קַמֵּיהּ: הָכִי אֲמַר עוּלָּא, וְהָכִי אַהְדַּר לֵיהּ רַב נַחְמָן. אֲמַר לֵיהּ: וּמִשּׁוּם דְּרַב נַחְמָן חַתְנֵיהּ דְּבֵי נְשִׂיאָה הוּא, מְזַלְזֵל בִּשְׁמַעְתֵּיהּ דְּרַבִּי יוֹחָנָן?!",
+     "en": "<b>When Rav Oshaya ascended</b> from Babylonia to Eretz Yisrael <b>he found Rabbi Ami,</b> and <b>he said this <i>halakha</i> before him: This is what Ulla said and this is what Rav Naḥman responded to him.</b> Rav Oshaya <b>said to</b> Rabbi Ami: <b>And</b> just <b>because Rav Naḥman is the son-in-law of the family of the <i>Nasi</i>, can he demean the halakhic statement of Rabbi Yoḥanan?</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "זִמְנִין אַשְׁכְּחֵיהּ דְּיָתֵיב וְקָאָמַר לַהּ אַסֵּיפָא: הָיוּ עָלָיו שְׁנֵי חֲצָאֵי זֵיתִים – מְטַמְּאִים בְּמַשָּׂא וְלֹא בְּמַגָּע, דִּבְרֵי רַבִּי יִשְׁמָעֵאל. רַבִּי עֲקִיבָא אוֹמֵר: לֹא בְּמַגָּע וְלֹא בְּמַשָּׂא.",
+     "en": "Another <b>time</b> Rav Oshaya <b>found</b> Rabbi Ami <b>sitting and saying this</b> <i>halakha</i> <b>with regard to the latter clause</b> of the mishna: If <b>upon</b> the hide <b>there were two half olive-bulks,</b> the hide <b>imparts</b> the <b>impurity</b> of an unslaughtered carcass <b>by means of carrying but not by means of contact</b> with the flesh, because he touches them separately and moves them together; this is <b>the statement of Rabbi Yishmael. Rabbi Akiva says:</b> It imparts impurity <b>neither by means of contact nor by means of carrying.</b>",
+     "rashi": [
+      "<b>זימנין</b> — פעם אחרת:",
+      "<b>אשכחיה</b> — רב אושעיא לר' אמי:",
+      "<b>דיתיב וקאמר</b> — לא שנו דשתי חצאי זיתים לר' ישמעאל לא בטלי אלא פלטתו חיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי יוֹחָנָן: לֹא שָׁנוּ אֶלָּא פְּלָטַתּוּ חַיָּה, אֲבָל פְּלָטַתּוּ סַכִּין – בָּטֵיל.",
+     "en": "With regard to this section of the mishna, <b>Rabbi Yoḥanan said:</b> The Sages <b>taught</b> Rabbi Yishmael’s opinion that the hide imparts the impurity of an unslaughtered carcass by means of carrying <b>only</b> in a case where <b>an animal severed</b> the half olive-bulks of flesh from the animal. <b>But</b> if a person used <b>a knife</b> to <b>sever</b> the half olive-bulks of flesh, the flesh <b>is nullified.</b> If Rav Naḥman had heard that the statement of Rabbi Yoḥanan was stated with regard to a case of half olive-bulks of flesh, he would not have been surprised that this <i>halakha</i> also applies to pieces of flesh that amount together to the size of a <i>tarta</i> or a sifter.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ מָר אַסֵּיפָא מַתְנֵי לַהּ? אֲמַר לֵיהּ: אִין. וְאֶלָּא עוּלָּא אַרֵישָׁא אַמְרַהּ נִיהֲלַיְכוּ? אֲמַר לֵיהּ: אִין. אֲמַר לֵיהּ: הָאֱלֹהִים, אִי אָמַר לִי יְהוֹשֻׁעַ בִּן נוּן מִשְּׁמֵיהּ – לָא צָיֵיתְנָא לֵיהּ!",
+     "en": "Rav Oshaya <b>said to</b> Rabbi Ami: <b>Does the Master teach</b> this <i>halakha</i> <b>with regard to the latter clause</b> of the mishna but not with regard to the first section of the mishna that discusses the case of a complete olive-bulk of flesh? Rabbi Ami <b>said to him: Yes. But did Ulla say to you</b> this halakhic statement of Rabbi Yoḥanan in Babylonia <b>with regard to the first clause</b> of the mishna? Rav Oshaya <b>said to him: Yes.</b> Rabbi Ami <b>said to him:</b> If so, Rav Naḥman was justified in his surprise at the <i>halakha</i> of Rabbi Yoḥanan. <b>By God,</b> even <b>if Joshua, son of Nun, had said</b> this <i>halakha</i> <b>to me in his name,</b> i.e., from his own mouth, <b>I would not have listened to him.</b>",
+     "rashi": [
+      "<b>מר אסיפא</b> — אשתי חצאי זיתים:",
+      "<b>מתני לה</b> — לדר' יוחנן דפלטתו סכין בטל הכי מתוקמא שפיר אי הוו תני לה קמיה דרב נחמן הכי לא הוה מזלזל בה:",
+      "<b>א\"ל ר' אמי</b> — ואלא עולא ארישא דמיירי בכזית שלם:",
+      "<b>מתני לה</b> — בתמיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כִּי אֲתָא רָבִין וְכׇל נָחוֹתֵי, אַמְרוּהָ אַרֵישָׁא. וְאֶלָּא קַשְׁיָא? כִּדְאָמַר רַב פָּפָּא:",
+     "en": "<b>When Ravin and all those descending</b> from Eretz Yisrael <b>came</b> to Babylonia, <b>they stated</b> this <i>halakha</i> of Rabbi Yoḥanan <b>with regard to the first clause</b> of the mishna. The Gemara objects: <b>But</b> the matter is <b>difficult.</b> If an olive-bulk of flesh is nullified by being severed with a knife, the same should be true for larger measurements, such as a <i>tarta</i>, which is unreasonable, as people would not usually disregard such a large amount. The Gemara resolves this difficulty <b>in accordance with that which Rav Pappa said</b> with regard to a different matter:",
+     "rashi": [
+      "<b>ואלא קשיא</b> — אי כזית שלם בטיל לעולם בטיל ואפילו כתרטא והא ליכא למימר דכולי האי מבטל איניש:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 124b",
+   "he_ref": "חולין קכ״ד:",
+   "url": "https://www.sefaria.org/Chullin.124b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=124&amud=b",
+   "segments": [
+    {
+     "he": "בִּמְרוּדָּד, הָכָא נָמֵי בִּמְרוּדָּד.",
+     "en": "The reference is <b>to a thin</b> layer of flesh attached to the hide. <b>Here, too,</b> the Gemara concludes that Rabbi Yoḥanan’s statement is referring <b>to a thin</b> layer of flesh attached to the hide. When a person severs such a piece of flesh along with the hide, even if the total volume of the flesh is an olive-bulk, or even a much larger measure, it is insignificant and is nullified by the hide.",
+     "rashi": [
+      "<b>במרודד</b> — דק וקלוש וארוך ורחב דכי מצרפת ליה הוי כזית ומיהו לא טרח איניש ומצרף ליה ומיהו פלטתו חיה דלאו איהו בטליה לא בטיל:",
+      "<b>מרודד</b> — לשון וירקעו (שמות לט) ורדידו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָיוּ עָלָיו.",
+     "en": "§The mishna teaches: If <b>upon</b> the hide <b>there were</b> two half olive-bulks, the hide imparts the impurity of an unslaughtered carcass by means of carrying but not by means of contact with the flesh; this is the statement of Rabbi Yishmael.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר בַּר פְּדָא: לֹא שָׁנוּ אֶלָּא מֵאַחֲרָיו, אֲבָל מִלְּפָנָיו – יֵשׁ נוֹגֵעַ וְחוֹזֵר וְנוֹגֵעַ.",
+     "en": "<b>Bar Padda says:</b> The Sages <b>taught</b> that Rabbi Yishmael holds that that hide does not impart impurity by means of contact <b>only</b> with regard to one who touched the hide <b>on the outside. But</b> if one directly touched the pieces of flesh <b>inside</b> the hide, even though he did not touch any one piece measuring an olive-bulk, he is impure. This is because <b>there is</b> a principle that if one <b>touches</b> an impure item measuring less than an olive-bulk <b>and again touches</b> another impure item measuring less than an olive-bulk, he becomes impure, as the two instances of contact join together to constitute contact with the requisite measure of an olive-bulk.",
+     "rashi": [
+      "<b>לא שנו</b> — לרבי ישמעאל דאמר דאע\"ג דלא בטלי לענין משא במגע לא מטמו:",
+      "<b>אלא מאחוריו</b> — שלא נוגע בבשר אלא בעור מאחוריו דכיון דלא הוי כזית שלם יחד אין לו יד ולא שומר. ואע\"ג דאמרן לעיל (חולין דף קיח:) אין שומר לפחות מכפול הא כפול יש שומר הא איכא ת\"ק דאחרים דפליג כדאמרינן לעיל אין זה שומר ורבי ישמעאל ס\"ל כת\"ק דאחרים:",
+      "<b>יש נוגע וחוזר ונוגע</b> — כלומר שתי נגיעות מצטרפות:"
+     ],
+     "tosafot": [
+      "<b>אבל מלפניו יש נוגע וחוזר ונוגע</b> — וסבר כת״ק דאחרים דריש פירקין (חולין דף קיט.) דאין שומר לפחות מכזית:"
+     ]
+    },
+    {
+     "he": "וְרַבִּי יוֹחָנָן אָמַר: אֵין נוֹגֵעַ וְחוֹזֵר וְנוֹגֵעַ, וְאַזְדָּא רַבִּי יוֹחָנָן לְטַעְמֵיהּ, דְּאָמַר רַבִּי יוֹחָנָן: רַבִּי יִשְׁמָעֵאל וְרַבִּי דּוֹסָא בֶּן הַרְכִּינָס אָמְרוּ דָּבָר אֶחָד.",
+     "en": "<b>And Rabbi Yoḥanan says: There is no</b> such principle that if one <b>touches</b> an impure item <b>and again touches</b> another impure item that the two instances of contact join together to constitute contact with the requisite measure of an olive-bulk. <b>And Rabbi Yoḥanan follows his</b> line of <b>reasoning, as Rabbi Yoḥanan said: Rabbi Yishmael and Rabbi Dosa ben Harkinas said the same thing,</b> i.e., maintained the same principle.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי יִשְׁמָעֵאל – הָא דַּאֲמַרַן; רַבִּי דּוֹסָא בֶּן הַרְכִּינָס – דִּתְנַן: כָּל הַמְטַמְּאִין בְּאֹהֶל, שֶׁנֶּחְלְקוּ וְהִכְנִיסָן לְתוֹךְ הַבַּיִת – רַבִּי דּוֹסָא בֶּן הַרְכִּינָס מְטַהֵר, וַחֲכָמִים מְטַמְּאִים.",
+     "en": "The statement of <b>Rabbi Yishmael is that which we said:</b> Two instances of contact do not join together to constitute contact with the requisite measure of impurity. The statement of <b>Rabbi Dosa ben Harkinas is</b> that <b>which we learned</b> in a mishna (<i>Oholot</i> 3:1): With regard to <b>any</b> part of a corpse that <b>imparts impurity in a tent,</b> i.e., that imparts impurity to any other item that is under the same roof, if that body part was <b>divided</b> into two pieces, each measuring less than an olive-bulk, but together they constitute an olive-bulk, <b>and one placed</b> both pieces <b>inside the house,Rabbi Dosa ben Harkinas</b> rules that the two pieces do not join together to constitute the requisite measure of an olive-bulk. Therefore, he <b>deems</b> everything inside the house <b>pure. And the Rabbis</b> rule that the two pieces of the corpse join together to constitute an olive-bulk, and therefore they <b>deem</b> everything inside the house <b>impure.</b>",
+     "rashi": [
+      "<b>כל המטמאים באהל</b> — כגון כזית מן המת ורובע עצמות ומלא תרווד רקב:",
+      "<b>שנחלקו</b> — השיעור נחלק לשנים והכניס שתי החצאים לתוך הבית:",
+      "<b>מטהר</b> — דאין לו אהילות מצטרפין שהבית מאהיל כאן וחוזר ומאהיל כאן. מדקאמר רבי יוחנן רבי ישמעאל ורבי דוסא אמרו דבר אחד אלמא טעמיה דרבי ישמעאל משום אין נוגע וחוזר ונוגע:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "לָאו אָמַר רַבִּי דּוֹסָא בֶּן הַרְכִּינָס הָתָם, אֵין מַאֲהִיל וְחוֹזֵר וּמַאֲהִיל, הָכָא נָמֵי אֵין נוֹגֵעַ וְחוֹזֵר וְנוֹגֵעַ.",
+     "en": "<b>Didn’t Rabbi Dosa ben Harkinas say</b> in that mishna <b>there</b> that <b>there is no</b> such principle that a tent <b>overlies</b> an impure item <b>and again overlies</b> another impure item such that the two instances join together to constitute the requisite measure for impurity imparted in a tent? <b>Here, too,</b> Rabbi Dosa ben Harkinas would agree with Rabbi Yishmael that <b>there is no</b> such principle that if one <b>touches</b> an impure item <b>and again touches</b> another impure item that the two instances join together to constitute contact with the requisite measure of an olive-bulk.",
+     "rashi": [],
+     "tosafot": [
+      "<b>אין מאהיל וחוזר ומאהיל</b> — וא״ת מ״ש אהל ממשא וי״ל דמשא מרבינן' בסמוך מיטמא דקתני יכול אף במשא כן ת״ל והנושא יטמא ואע״ג דבמגע נמי כתיב יטמא יתירא דאמרינן בריש פירקין (חולין דף קיח:) מילתא דאתיא בק״ו טרח וכתב לה קרא ולא מוקמינן לנוגע וחוזר ונוגע ונראה דגבי משא דרשינן מדהוה ליה למכתב והנוגע בנבלתה יטמא עד הערב והנושא יטמא דסיפא למה לי אלא לאוסופי טומאה בנושא שאין בנוגע:"
+     ]
+    },
+    {
+     "he": "וּמִדְּרַבִּי דּוֹסָא בֶּן הַרְכִּינָס כְּרַבִּי יִשְׁמָעֵאל, רַבָּנַן כְּרַבִּי עֲקִיבָא? וְהָא רַבִּי עֲקִיבָא טַהוֹרֵי קָא מְטַהַר!",
+     "en": "The Gemara objects to the statement of Rabbi Yoḥanan: <b>Since</b> the opinion of <b>Rabbi Dosa ben Harkinas is in accordance with</b> the opinion of <b>Rabbi Yishmael,</b> so too, the opinion of <b>the Rabbis</b> who disagree with Rabbi Dosa ben Harkinas must be <b>in accordance with</b> the opinion of <b>Rabbi Akiva,</b> who disagrees with Rabbi Yishmael. <b>But doesn’t Rabbi Akiva</b> rule more leniently than Rabbi Yishmael, as he <b>deems</b> one <b>pure</b> in both cases of contact and carrying, whereas the Rabbis rule more stringently than Rabbi Dosa ben Harkinas and deem everything in the house impure?",
+     "rashi": [
+      "<b>ופרכינן מדרבי דוסא כרבי ישמעאל</b> — מכלל דרבנן דפליגי עליה כרבי עקיבא קיימי והא ר\"ע טפי מיקל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "עַד כָּאן לָא קָא מְטַהַר רַבִּי עֲקִיבָא אֶלָּא בְּעוֹר, אֲבָל בְּעָלְמָא מְטַמֵּא, כִּדְקָתָנֵי סֵיפָא: וּמוֹדֶה רַבִּי עֲקִיבָא בִּשְׁנֵי חֲצָאֵי זֵיתִים שֶׁתְּחָבָן בְּקֵיסָם וֶהֱסִיטָן שֶׁהוּא טָמֵא. וּמִפְּנֵי מָה רַבִּי עֲקִיבָא מְטַהֵר בָּעוֹר? מִפְּנֵי שֶׁהָעוֹר מְבַטְּלָן.",
+     "en": "The Gemara answers: <b>Rabbi Akiva deems</b> one who touches or carries the pieces of flesh <b>pure only</b> because they are nullified <b>by the hide. But in general</b> he holds that items join together to <b>impart impurity, as the latter clause</b> of the mishna <b>teaches: And Rabbi Akiva concedes in</b> the case of <b>two half olive-bulks where one skewered them with a wood chip and moved them that he is impure. And for what</b> reason <b>does Rabbi Akiva deem one ritually pure in</b> a case where he moved both half olive-bulks with <b>the hide?</b> It is <b>because the hide</b> separates between them and <b>nullifies them.</b>",
+     "rashi": [
+      "<b>כדקתני סיפא</b> — דטעמיה דר\"ע דעור מבטלו הוא אבל בעלמא אפילו במגע נמי מטמא דאי לא מטמא במגע לא הוה מטמא במשא דהאמר ר\"ע לקמן את שבא לכלל מגע בא לכלל משא:",
+      "<b>ותחבן בקיסם</b> — נמי רחוקין זה מזה קאמר דנוגע וחוזר ונוגע הוא כדלקמן אמילתיה דעולא:"
+     ],
+     "tosafot": [
+      "<b>(לעיל) שהם תחובים בקיסם והסיטן</b> — וה\"ה בלא תחובים ונגע בהם דטמא דאי לא תימא הכי אפילו במשא לא ליטמו דאת שבא לכלל מגע בא לכלל משא לר\"ע כדאמר בגמרא וקסבר יש נוגע וחוזר ונוגע אלא משום דפליג ר\"ע ארבי ישמעאל בעור שיש עליו שתי חצאי זיתים קאמר דבקיסם כה\"ג מודה ליה:"
+     ]
+    },
+    {
+     "he": "מֵתִיב רַב עוּקְבָא בַּר חָמָא: ״בְּנִבְלָתָם״ – וְלֹא בְּעוֹר שֶׁיֵּשׁ עָלָיו שְׁנֵי חֲצָאֵי זֵיתִים.",
+     "en": "<b>Rav Ukva bar Ḥama raises an objection</b> to the statement of bar Padda that Rabbi Yishmael maintains that two instances of contact with two pieces measuring less than an olive-bulk join together to constitute contact with the requisite measure of an olive-bulk. His objection is based on that which is taught in a <i>baraita</i>: It is written: “And by these you shall become impure; whoever touches <b>their carcass</b> shall be impure until evening. And whoever carries the carcass of them shall wash his clothes and be impure until evening” (Leviticus 11:24–25). It is derived from the term “their carcass” that one who touches the carcass itself becomes impure, <b>but</b> one who touches <b>a hide that has upon it two half olive-bulks</b> of flesh does <b>not</b> become impure.",
+     "rashi": [
+      "<b>ולא בעור שיש עליו שני חצאים</b> — דלא קרינא ביה הנוגע בנבלתם (ויקרא יא) דאין בכל נגיעה כשיעור נבלה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "יָכוֹל אַף בְּמַשָּׂא? תַּלְמוּד לוֹמַר ״וְהַנּוֹשֵׂא יִטְמָא״ – דִּבְרֵי רַבִּי יִשְׁמָעֵאל. רַבִּי עֲקִיבָא אוֹמֵר: ״הַנּוֹגֵעַ״ ״וְהַנּוֹשֵׂא״ – אֶת שֶׁבָּא לִכְלַל מַגָּע, בָּא לִכְלַל מַשָּׂא; לֹא בָּא לִכְלַל מַגָּע, לֹא בָּא לִכְלַל מַשָּׂא.",
+     "en": "One <b>might</b> have thought that a hide that has upon it two half olive-bulks of flesh does not impart impurity <b>even by means of carrying.</b> Therefore, the continuation of <b>the verse states: “And whoever carries</b> the carcass of them <b>shall</b> wash his clothes and <b>be impure</b> until evening,” from which it is derived that one who carries a carcass, even by means of the hide, becomes impure; this is <b>the statement of Rabbi Yishmael. Rabbi Akiva says:</b> The verse juxtaposes <b>“whoever touches”</b> with <b>“and whoever carries,”</b> indicating that <b>that which enters the category of</b> impurity via <b>contact, enters the category of</b> impurity via <b>carrying; that which does not enter the category of</b> impurity via <b>contact, does not enter the category of</b> impurity via <b>carrying.</b>",
+     "rashi": [
+      "<b>יכול אף הנושא ת\"ל והנושא יטמא</b> — והרי זה נושא את הנבלה:",
+      "<b>והנוגע והנושא</b> — קראי גבי הדדי כתיבי בההיא נבלה דכתיב בה הנוגע יטמא אההיא קאי והנושא יטמא:",
+      "<b>לא בא לכלל מגע</b> — כלומר לדידך כיון דאמרת לא מטמא במגע תו לית לך לטמויי במשא:"
+     ],
+     "tosafot": [
+      "<b>רבי עקיבא אומר הנוגע והנושא כו'</b> — לר\"ע גופיה לא צריך קרא דאיהו ס\"ל דעור מבטלם אלא לדברי רבי ישמעאל קאמר לדידך דלית לך עור מבטלו תיפוק ליה מיהא דכיון דאין בא לכלל מגע כו':"
+     ]
+    },
+    {
+     "he": "וְאִם אִיתָא, הֲרֵי בָּא לִכְלַל מַגָּע מִלְּפָנָיו?",
+     "en": "Based on this <i>baraita</i>, one can object to the statement of bar Padda: <b>And if it is so</b> that Rabbi Yishmael maintains that two instances of contact with two pieces of flesh measuring less than an olive-bulk join together to constitute contact with the requisite measure of an olive-bulk, then the case of a hide that has upon it two half olive-bulks of flesh also <b>enters the category of</b> impurity transmitted by means of <b>contact</b> when one directly touches the flesh <b>inside</b> the hide. Therefore, why does Rabbi Akiva disagree with Rabbi Yishmael by stating that in this case there is no transmission of impurity by means of carrying because there is no transmission of impurity by means of contact?",
+     "rashi": [
+      "<b>ואם איתא</b> — לבר פדא מאי קמהדר ליה ר\"ע לרבי ישמעאל הא מודי דבא לכלל מגע מלפניו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רָבָא: הָכִי קָאָמַר, אֶת שֶׁבָּא לִכְלַל מַגָּע בְּכׇל צַד – בָּא לִכְלַל מַשָּׂא, לֹא בָּא לִכְלַל מַגָּע בְּכׇל צַד – לֹא בָּא לִכְלַל מַשָּׂא.",
+     "en": "<b>Rava said</b> that <b>this</b> is what Rabbi Akiva <b>is saying: That which enters the category of</b> impurity via <b>contact in every manner,</b> even by touching the hide on the outside, <b>enters the category of</b> impurity via <b>carrying; that which does not enter the category of</b> impurity via <b>contact in every manner, does not enter the category of</b> impurity via <b>carrying.</b>",
+     "rashi": [
+      "<b>בכל צד</b> — אף מאחוריו דהא בההוא קרא דלעיל כתיבא נמי נגיעת אחוריים כדאמרינן בריש פירקין (חולין דף קיח.) יכול אפילו יש עליו כזית הנוגע בעור שכנגד הבשר מאחריו לא יהא טמא ת״ל יטמא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בְּעָא מִינֵּיהּ רַב אַוְיָא סָבָא מֵרַבָּה בַּר רַב הוּנָא: קוּלִית סְתוּמָה, לְרַבִּי יִשְׁמָעֵאל, מַהוּ שֶׁתְּטַמֵּא?",
+     "en": "§The Gemara continues to discuss the opinion of Rabbi Yishmael. <b>Rav Avya the Elder asked Rabba bar Rav Huna:</b> The mishna below teaches that with regard to <b>a sealed thigh bone</b> of an unslaughtered carcass and of a creeping animal, where the bone is intact to the extent that there is no access to the marrow, which contains marrow inside but no flesh outside, one who touches it remains ritually pure because it does not enter the category of impurity via contact. <b>According to</b> the opinion of <b>Rabbi Yishmael, what is</b> the <i>halakha</i> as to whether it <b>imparts impurity</b> via carrying?",
+     "rashi": [
+      "<b>קולית סתומה</b> — ואין עליה בשר ויש בתוכה מוח ותנן במתניתין קולית נבלה וקולית השרץ סתומים טהורין אף מן המשא דלא באו לכלל מגע מי פליג עליה רבי ישמעאל או לא מי אמרינן אית ליה לרבי ישמעאל כו':"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִית לֵיהּ לְרַבִּי יִשְׁמָעֵאל: אֶת שֶׁבָּא לִכְלַל מַגָּע – בָּא לִכְלַל מַשָּׂא, לֹא בָּא לִכְלַל מַגָּע – לֹא בָּא לִכְלַל מַשָּׂא, וְהָכָא הַיְינוּ טַעְמָא מִשּׁוּם דְּבָא לִכְלַל מַגָּע מִלְּפָנָיו.",
+     "en": "Perhaps <b>Rabbi Yishmael maintains</b> the principle: <b>That which enters the category of</b> impurity via <b>contact, enters the category of</b> impurity via <b>carrying; that which does not enter the category of</b> impurity via <b>contact, does not enter the category of</b> impurity via <b>carrying. And</b> therefore, <b>here,</b> in the <i>baraita</i> cited above, <b>this is the reason</b> that Rabbi Yishmael taught that one who carries a hide that has upon it two half olive-bulks of flesh becomes impure even though it does not enter the category of impurity via contact if one touched the outside of the hide: It is <b>because it enters the category of</b> impurity via <b>contact</b> if one directly touched the flesh <b>inside</b> the hide. Therefore, a sealed thigh bone, which does not enter the category of impurity via contact in any manner, does not enter the category of impurity via carrying either.",
+     "rashi": [
+      "<b>והכא</b> — בעור של שני חצאין:",
+      "<b>היינו טעמא</b> — דמטמא במשא משום דבא לכלל מגע מלפניו אבל גבי קולית לא בא לכלל מגע כלל דהא עצמות נבלה אין להם טומאה כדאמרן בנבלתה ולא בעצמות ובמוח אינו יכול ליגע דהא סתומה היא:"
+     ],
+     "tosafot": [
+      "<b>והכא היינו טעמא משום דבא לכלל מגע לפניו</b> — רב אויא סבר כבר פדא דאית ליה נוגע וחוזר ונוגע:"
+     ]
+    },
+    {
+     "he": "אוֹ דִלְמָא לֵית לֵיהּ?",
+     "en": "<b>Or perhaps</b> Rabbi Yishmael <b>does not maintain</b> this principle, and he would maintain that one who carries a hide that has upon it two half olive-bulks of flesh becomes impure even if it were not the case that it enters the category of impurity via contact if one directly touched the flesh inside the hide. And therefore, Rabbi Yishmael holds that a sealed thigh bone imparts impurity via carrying even though it does not enter the category of impurity via contact in any manner.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ: עוֹרְבָא פָּרַח.",
+     "en": "In an effort to evade the question, Rabba bar Rav Huna distracted Rav Avya the Elder and <b>said to him:</b> Look, <b>a raven flies</b> in the sky.",
+     "rashi": [
+      "<b>עורבא פרח</b> — ראה עורב פורח באויר כלומר השיאו לדבר אחר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רָבָא בְּרֵיהּ: וְלָאו הַיְינוּ רַב אַוְיָא סָבָא מִפּוּמְבְּדִיתָא, דִּמְשַׁבַּח לַן מָר בְּגַוֵּיהּ דְּגַבְרָא רַבָּה הוּא? אֲמַר לֵיהּ: אֲנִי הַיּוֹם ״סַמְּכוּנִי בָּאֲשִׁישׁוֹת״, וּבְעָא מִינַּאי מִילְּתָא דְּבָעֵי טַעְמָא.",
+     "en": "<b>Rava, son of</b> Rabba bar Rav Huna, <b>said to</b> his father: <b>But isn’t this Rav Avya the Elder of Pumbedita, whom the Master would praise to us,</b> saying <b>that he is a great man?</b> If so, why did you treat him in that manner and evade his question? Rabba bar Rav Huna <b>said to him: Today I am</b> in a state best described by the verse: <b>“Let me lean against the stout trunks;</b> let me couch among the apple trees” (Song of Songs 2:5), meaning: I am tired, <b>and he asked me</b> about <b>a matter that requires reasoning</b> and careful examination, and therefore I could not provide an immediate answer.",
+     "rashi": [
+      "<b>סמכוני באשישות</b> — כלומר צריכני חיזוק לפי שסר כחי מכח הדרשה שדרשתי היום ברבים דשבת הרגל היתה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר עוּלָּא: שְׁנֵי חֲצָאֵי זֵיתִים שֶׁתְּחָבָן בְּקֵיסָם, אֲפִילּוּ מוֹלִיךְ וּמֵבִיא כׇּל הַיּוֹם כּוּלּוֹ – טָהוֹר.",
+     "en": "§<b>Ulla says:</b> With regard to <b>two half olive-bulks that one skewered with a wood chip, even</b> if one <b>moves them back and forth the entire day,</b> he does not contract impurity via carrying, and <b>he is pure.</b>",
+     "rashi": [
+      "<b>הוליך והביא</b> — שנשאן כל היום:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַאי טַעְמָא? כְּתִיב ״וְנִשָּׂא״ וְקָרֵינַן ״נוֹשֵׂא״, בָּעֵינַן ״נוֹשֵׂא״ וְהוּא דְּנִישָּׂא בְּבַת אַחַת.",
+     "en": "The Gemara explains: <b>What is the reason?</b> With regard to impurity transmitted by carrying <b>it is written:</b> “And one who carries [<i>vahannosei</i>] its carcass shall wash his clothes and be impure until evening” (Leviticus 11:40). The words “and who carries” in the term “and one who carries” is <b>written</b> <i>vav</i>, <i>nun</i>, <i>sin</i>, <i>alef</i>, which can be read <b><i>venisa</i>,</b> meaning: Is carried; <b>but</b> according to the traditional vocalization <b>we read</b> the word as <b><i>nosei</i>,</b> meaning: Carries. From here it is derived that with regard to impurity transmitted by carrying <b>we require</b> that one <b>carry [<i>nosei</i>]</b> the requisite measure of impurity of a carcass, i.e., an olive-bulk, <b>and that</b> that olive-bulk <b>be capable of being carried [<i>nissa</i>] all at once,</b> without the assistance of a utensil. This requirement is not met with regard to two half olive-bulks that one skewered with a wood chip, which are carried only with the assistance of a utensil.",
+     "rashi": [
+      "<b>כתיב נשא</b> — והנשא את נבלתה חסר הוא בלא וי\"ו וסתם קריאתו כיון דלא כתב וי\"ו נקרא נישא ואנן קרינן נושא:",
+      "<b>והוא דנישא</b> — שיהא כזית מחובר הניטל כולו כאחד בלא בית יד אחר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תְּנַן: הָיוּ עָלָיו שְׁנֵי חֲצָאֵי זֵיתִים – מְטַמְּאִין בְּמַשָּׂא וְלֹא בְּמַגָּע, דִּבְרֵי רַבִּי יִשְׁמָעֵאל. אַמַּאי? וְהָא לָאו נִישָּׂא הוּא!",
+     "en": "The Gemara objects to Ulla’s statement: <b>We learned</b> in the mishna that if <b>upon</b> the hide <b>there were two half olive-bulks,</b> the hide <b>imparts the impurity</b> of an unslaughtered carcass <b>by means of carrying but not by means of contact</b> with the flesh; this is <b>the statement of Rabbi Yishmael. Why</b> does it impart impurity by means of carrying? <b>This</b> case <b>does not</b> fulfill the requirement that an olive-bulk of impure flesh <b>be capable of being carried</b> all at once without the assistance of a utensil, as the hide is needed to carry them.",
+     "rashi": [
+      "<b>דברי רבי ישמעאל</b> — אלמא כיון דאין עור מבטלו מטמא במשא ואף על גב דלאו מחובר הוא ביחד:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב פָּפָּא: בִּמְרוּדָּד.",
+     "en": "<b>Rav Pappa says:</b> The mishna is discussing a case <b>where a thin</b> layer of flesh was attached to the hide. Despite the fact that there is not one piece of flesh the size of an olive-bulk, the two half olive-bulks are connected by a strip of thin flesh which enables the two pieces to be carried at once without the assistance of the hide. Therefore, the pieces impart impurity by means of carrying but not by means of contact.",
+     "rashi": [
+      "<b>במרודד</b> — שיש כאן חצי זית ורחוק ממנו חצי זית ורצועת בשר מרודד מזה לזה ומחברתו:"
+     ],
+     "tosafot": [
+      "<b>אמר רב פפא במרודד</b> — וא\"ת ואי חשיב מרודד לצרופינהו לשני חצאי זיתים כגון שאינו מרודד יותר מדאי במגע נמי ליטמא ואי לא חשיב במשא נמי לא ליטמא דלאו נישא הוא וכ\"ת דאתא כר\"א דאמר לא שנו אלא מלאחריו כו' וקסבר כיון דלא מצטרף אלא ע\"י מרודד לא חשיב למהוי שומר ומ\"מ נישא הוא מ\"מ תקשה דהא רישא דעור שיש עליו כזית בשר אוקימנא במרודד וקאמר הנוגע בשערה שכנגדו טמא אלמא דאיכא שומר אפילו למרודד ודוחק לומר דהאי מרודד דהכא גרע מאותו שלמעלה ונראה דקסבר אוחז בקטן ואין גדול עולה עמו אין כמוהו וה\"נ איירי באוחז בקטן ואין גדול עולה עמו לכך אין מטמא במגע אבל במשא מטמא דנישא הוא:"
+     ]
+    },
+    {
+     "he": "תָּא שְׁמַע: מוֹדֶה רַבִּי עֲקִיבָא בִּשְׁנֵי חֲצָאֵי זֵיתִים שֶׁתְּחָבָן בְּקֵיסָם וֶהֱסִיטָן שֶׁהוּא טָמֵא. אַמַּאי? וְהָא לָאו נִישָּׂא הוּא! הָכִי נָמֵי בִּמְרוּדָּד.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a refutation to the opinion of Ulla from that which is stated in the mishna: <b>Rabbi Akiva concedes in</b> the case of <b>two half olive-bulks where one skewered them with a wood chip and moved them that he is impure. Why? This</b> case <b>does not</b> fulfill the requirement that an olive-bulk of impure flesh <b>be capable of being carried</b> all at once without the assistance of a utensil. The Gemara rejects this refutation: <b>Here too,</b> with regard to the statement of Rabbi Akiva, the mishna is discussing a case <b>of a thin</b> layer of flesh connecting the two pieces.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "כְּתַנָּאֵי: אֶחָד הַנּוֹגֵעַ וְאֶחָד הַמֵּסִיט, רַבִּי אֱלִיעֶזֶר אוֹמֵר: אַף הַנּוֹשֵׂא. אַטּוּ נוֹשֵׂא לָאו מֵסִיט הוּא?",
+     "en": "The Gemara suggests: The opinion of Ulla is <b>like</b> one side of a dispute between <b><i>tanna’im</i>,</b> as it is taught in a <i>baraita</i>: With regard to two pieces of flesh, neither of which measures an olive-bulk, both <b>one who touches and one who moves</b> the pieces is impure. <b>Rabbi Eliezer says: Even one who carries</b> the pieces is impure. The Gemara asks: What is added by the statement of Rabbi Eliezer? <b>Is that to say</b> that <b>carrying is not</b> the same as <b>moving?</b>",
+     "rashi": [
+      "<b>אחד הנוגע</b> — בשני חצאי זיתים:",
+      "<b>ואחד המסיטן</b> — טמא בלא נישא אף על פי שאין מחוברין יחד:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא לָאו הָכִי קָאָמַר: אֶחָד הַנּוֹגֵעַ וְאֶחָד הַמֵּסִיט בְּלֹא נִישָּׂא, וַאֲתָא רַבִּי אֱלִיעֶזֶר לְמֵימַר: וְהוּא דְּנִישָּׂא, וּמַאי ״אַף״? אֵימָא: וְהוּא דְּנִישָּׂא.",
+     "en": "<b>Rather, isn’t this</b> what the <i>baraita</i> <b>is saying:</b> Both <b>one who touches and one who moves</b> pieces of flesh is impure even if an olive-bulk of flesh <b>is not capable of being carried</b> without the assistance of a utensil? <b>And Rabbi Eliezer comes to say:</b> One becomes impure only if an olive-bulk of flesh <b>is capable of being carried</b> without the assistance of a utensil. The Gemara asks: <b>But</b> if the intention of Rabbi Eliezer’s statement is to qualify the statement of the Rabbis, <b>what</b> is the meaning of the word <b>even?</b> Rather, <b>say</b> the statement of Rabbi Eliezer differently: One is impure only if an olive-bulk of flesh <b>is capable of being carried</b> without the assistance of a utensil.",
+     "rashi": [
+      "<b>והוא דנישא</b> — וקאי בין אמגע בין אמשא דאין מטמאין אפילו במשא אא\"כ מחוברין:"
+     ],
+     "tosafot": [
+      "<b>אימא והוא דנישא</b> — תימה אמאי מגיה הברייתא אימא איפכא דרבנן סברי אחד הנוגע ואחד המסיט והוא דנישא אבל לא נישא לא ואתא ר' אליעזר למימר אף הנושא אע\"פ שאין נישא ויתיישב שפיר לשון אף ונראה דסבר הש\"ס דמסיט בכל ענין אפילו אין נישא לכך דחק לפרש כן:"
+     ]
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> קוּלִית הַמֵּת",
+     "en": "<strong>MISHNA:</strong> With regard to <b>the thigh bone of</b> a human <b>corpse,</b>",
+     "rashi": [
+      "<b>מתני' קולית המת</b> — טמא דהא עצם כשעורה במת מטמא במגע ובמשא כדכתיב או בעצם אדם:"
+     ],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
