@@ -1,0 +1,330 @@
+{
+ "tractate": "Chullin",
+ "page": 126,
+ "fetched": "2026-08-28",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 126a",
+   "he_ref": "חולין קכ״ו.",
+   "url": "https://www.sefaria.org/Chullin.126a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=126&amud=a",
+   "segments": [
+    {
+     "he": "וְתָנֵי עֲלַהּ: רַבִּי יוֹסֵי מְטַהֵר. אַהֵיָיא? אִילֵּימָא אַסֵּיפָא – תַּנָּא קַמָּא נָמֵי טַהוֹרֵי קָא מְטַהַר!",
+     "en": "<b>And it is taught with regard to</b> that <i>halakha</i> in the mishna that <b>Rabbi Yosei deems</b> it <b>pure. To which</b> <i>halakha</i> in the mishna is this referring? <b>If we say</b> that it is referring <b>to the latter clause</b> of the mishna, which discusses a chest placed in the entrance of the house, <b>the first <i>tanna</i> also deems</b> it <b>pure</b> in that case.",
+     "rashi": [
+      "ה\"ג ותני עלה ורבי יוסי מטהר אהייא אי נימא אסיפא תנא קמא נמי טהורי מטהר אלא דקאמר ת\"ק הבית טמא אי משום דדרך טומאה לצאת כו' ולא גרסינן אלא לאו ארישא - דהא ברישא בהדיא תנן בה ורבי יוסי מטהר:",
+      "<b>אי נימא אסיפא</b> — וכדקתני הא ת\"ק נמי מטהר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא, דְּקָאָמַר תַּנָּא קַמָּא: טוּמְאָה בְּתוֹכָהּ – הַבַּיִת טָמֵא, אִי מִשּׁוּם דְּדֶרֶךְ טוּמְאָה לָצֵאת, וְאִי מִשּׁוּם דְּטוּמְאָה טְמוּנָה בּוֹקַעַת. וְקָאָמַר לֵיהּ רַבִּי יוֹסֵי: וּדְקָאָמְרַתְּ דֶּרֶךְ טוּמְאָה לָצֵאת – יָכוֹל הוּא לְהוֹצִיאָהּ לַחֲצָאִין אוֹ לְשׂוֹרְפָהּ בִּמְקוֹמָהּ, וּדְקָאָמְרַתְּ טוּמְאָה טְמוּנָה בּוֹקַעַת – טוּמְאָה טְמוּנָה אֵינָהּ בּוֹקַעַת.",
+     "en": "<b>Rather,</b> it is clear <b>that the first <i>tanna</i> says</b> that if a source of <b>impurity</b> is <b>inside</b> the compartment of a chest that is inside the house, <b>the house is impure, either because it is typical for</b> a source of <b>impurity to exit</b> its location, <b>or because</b> he holds that <b>a hidden</b> source of <b>impurity breaks through</b> and ascends. <b>And Rabbi Yosei</b> disagrees and <b>says to him:</b> With regard to <b>that which you say</b> that <b>it is typical for</b> a source of <b>impurity to exit</b> its location, it is not necessarily so. <b>One can remove</b> the impure item <b>in halves or burn it in its place</b> inside the compartment. <b>And</b> with regard to <b>that which you say</b> that <b>a hidden</b> source of <b>impurity breaks through</b> and ascends, <b>a hidden</b> source of <b>impurity does not break through.</b> Consequently, Rabbi Yosei must hold that a hidden source of impurity does not break through and ascend.",
+     "rashi": [
+      "<b>אלא</b> — שמעיה לת\"ק דקאמר הבית טמא כל היכא דמשכחת חדא מהנך תרי טעמי אי משום דרך טומאה לצאת כגון רישא דיש בה פותח טפח דאין כאן טומאה טמונה אלא משום דסופה לצאת ואי משום דטומאה טמונה בוקעת מדנקט רישא יש בה פותח טפח ותנא סיפא עלה העמידה בפתח ופתחה לחוץ הבית טהור ושמעינן מינה טעמא דיש בה פותח טפח דאין כאן אהל טומאה טמונה הא אין בה פותח טפח אפילו העמידה בפתח ופתחה לחוץ הבית טמא מפני שטומאה טמונה בוקעת והוי כאילו מוטלת בקרקע הבית והבית מאהיל עליה:",
+      "<b>הבית טמא</b> — השתא קס\"ד אדאין בצוארו טפח קאי דקאמר ר\"מ הבית טהור וקא\"ל רבי יוסי אם הטומאה מן המשקוף ולפנים אע\"פ שאין בצוארו רוחב להיות הוא אהל הרי יש כאן אהל גדול שהבית מאהיל על הטומאה וסתם חלל הגרון אין בו טפח והוי לה טומאה טמונה:",
+      "<b>וקא\"ל ר' יוסי</b> — ברישא דקאמרת גבי יש בה פותח טפח הבית טמא מפני שדרך טומאה לצאת יכול הוא להוציאה לחצאין:",
+      "<b>ודקאמרת</b> — בסיפא הבית טהור וטעמא משום דנקט ברישא יש בה פותח טפח הא אין בה פותח טפח הבית טמא משום דטומאה טמונה בוקעת לאו מילתא היא דטומאה טמונה אינה בוקעת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְרָמֵי דְּרַבִּי יוֹסֵי אַדְּרַבִּי יוֹסֵי.",
+     "en": "§Based on the previous statement of Rabbi Yosei, the Gemara established that Rabbi Yosei holds that a hidden source of impurity does not break through and ascend. <b>And</b> the Gemara <b>raises a contradiction</b> between that previous statement <b>of Rabbi Yosei and</b> another statement <b>of Rabbi Yosei.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "דִּתְנַן: הַכֶּלֶב שֶׁאָכַל בָּשָׂר מֵת, וּמֵת הַכֶּלֶב, וּמוּטָּל עַל הָאִסְקוּפָּה – רַבִּי מֵאִיר אוֹמֵר: אִם יֵשׁ בְּצַוָּארוֹ פּוֹתֵחַ טֶפַח – מֵבִיא אֶת הַטּוּמְאָה, וְאִם לָאו – אֵינוֹ מֵבִיא אֶת הַטּוּמְאָה.",
+     "en": "<b>As we learned</b> in a mishna (<i>Oholot</i> 11:7): In the case of <b>a dog that ate the flesh of a corpse, and the dog</b> then <b>died and is lying on the threshold</b> in such a manner that its neck and mouth are facing toward the inside of the house, <b>Rabbi Meir says: If there is an opening</b> the size of one cubic <b>handbreadth inside the neck of</b> the dog, i.e., the neck itself constitutes this measure, the dog <b>imports impurity</b> into the house because the upper portion of the dog’s body overlies the impure item inside the dog and the impurity is transmitted through the neck and mouth of the dog into the house. <b>But if</b> there is <b>not</b> such a large cavity in the neck of the dog, then there is no <i>halakha</i> of a tent, and the dog <b>does not import the impurity</b> into the house.",
+     "rashi": [
+      "<b>הכלב שאכל בשר המת ומת הכלב</b> — דאילו חי אפילו נכנס לבית הבית טהור כדאמר בבהמה המקשה (לעיל חולין דף עא.) דטומאה הבלועה בבעלי חיים אינה מטמאה:",
+      "<b>ומוטל על האסקופה</b> — וצוארו לפנים:",
+      "<b>אם יש בצוארו פותח טפח</b> — רוחב טפח בצוארו:",
+      "<b>מביא את הטומאה</b> — משום דדופנו העליון מאהיל על הטומאה וראשו השני ממשיך האהל לבית ויוצאה דרך פיו לבית ואע\"ג דאין לה אהל שחללו טפח סבר ר\"מ דממשיך הואיל ורחבו טפח:",
+      "<b>ואם לאו אין מביא את הטומאה</b> — דכל שאין בו רוחב טפח אינו אהל כדתנן (אהלות פ\"ג מ\"ז) טפח על טפח על רום טפח מרובע מביא את הטומאה:"
+     ],
+     "tosafot": [
+      "<b>אם יש בצוארו פותח טפח כו'</b> — תימה אי צוארו של כלב חשיב דבר שאין מקבל טומאה כי יש בצוארו פותח טפח מאי הוי נהי דרבי מאיר אית ליה חוקקים להשלים מ\"מ הא ממעט הבשר את האויר מטפח ואינה יכולה טומאה לבא ואי חשיב דבר המקבל טומאה היכי קאמר ר' יוסי רואים את חלל הטומאה הא אם אין בחללה טפח אינו מביא ואמאי והא אינו יכול לחוץ והרי הוא כפתוח לבית ומיהו אפשר דמ\"מ לרבי יוסי הבית טהור דכיון שאין בחלל טפח אין כאן אהל שימשוך טומאה לבית ופוסקת הטומאה בחוץ אך קשה נהי דבשר אפשר שאינו חוצץ עצמות אמאי אין חוצצים וי\"ל כיון דאית ליה לר\"מ חוקקין ויש בהם אויר קצת דהעצמות אין סותמים כל הנקב אלא ממעטין ומסתמא אין מבטלין וסופו להוציאם משם לא חייצי כדפרישית פ' לא יחפור (ב\"ב דף יט:):"
+     ]
+    },
+    {
+     "he": "רַבִּי יוֹסֵי אוֹמֵר: רוֹאִין מִכְּנֶגֶד הַשָּׁקוֹף וְלִפְנִים – הַבַּיִת טָמֵא, מִכְּנֶגֶד הַשְּׁקוֹף וְלַחוּץ – הַבַּיִת טָהוֹר.",
+     "en": "<b>Rabbi Yosei says: One looks</b> to determine exactly where on the threshold the dog is located. If the impure item inside the dog is located anywhere <b>from opposite,</b> i.e., under, <b>the lintel and toward the inside</b> of the house, <b>the house is impure.</b> If the dog is located anywhere <b>from opposite the lintel and toward the outside</b> of the house, <b>the house</b> remains <b>pure.</b>",
+     "rashi": [
+      "<b>רבי יוסי אומר רואים</b> — את הטומאה קס\"ד דה\"ק בודקין בגופו את מקום הטומאה אם היה מן המשקוף ולפנים:",
+      "<b>הבית טמא</b> — השתא קס\"ד אדאין בצוארו טפח קאי דקאמר ר\"מ הבית טהור וקא\"ל רבי יוסי אם הטומאה מן המשקוף ולפנים אע\"פ שאין בצוארו רוחב להיות הוא אהל הרי יש כאן אהל גדול שהבית מאהיל על הטומאה וסתם חלל הגרון אין בו טפח והויא לה טומאה טמונה:",
+      "<b>מן המשקוף ולחוץ הבית טהור</b> — שהרי אין כאן לא בית מאהיל ולא אהל טפח שיהא ממשיכה לתוך הבית:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי אֶלְעָזָר אוֹמֵר: פִּיו לִפְנִים הַבַּיִת – טָהוֹר, פִּיו לַחוּץ הַבַּיִת – טָמֵא, מִפְּנֵי שֶׁטּוּמְאָה יוֹצְאָה דֶּרֶךְ שׁוּלָיו.",
+     "en": "<b>Rabbi Elazar says:</b> One must determine the exact manner in which the dog is lying on the threshold. If <b>its mouth</b> is located <b>inside</b> the house, but its rear is located outside the house, <b>the house</b> remains <b>pure.</b> If <b>its mouth</b> is located <b>outside</b> the house but its rear is located inside the house, <b>the house is impure.</b> This is <b>because</b> the source of <b>impurity exits</b> the dog’s body <b>through its edge,</b> i.e., its rear.",
+     "rashi": [
+      "<b>פיו לפנים</b> — ונקב זנבו לחוץ הבית טהור אם טומאה מבחוץ ומשום המשכה לא מטמאינן ליה שהרי אין דרך מאכל לצאת דרך הפה אלא דרך השוליים נקב הריעי:",
+      "<b>פיו לחוץ</b> — ושוליו לפנים:",
+      "<b>הבית טמא</b> — שהרי דרך פתח קטן הזה על כרחך היה סופה לצאת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי יְהוּדָה בֶּן בְּתִירָא אוֹמֵר: בֵּין כָּךְ וּבֵין כָּךְ, הַבַּיִת טָמֵא.",
+     "en": "<b>Rabbi Yehuda ben Beteira says: In</b> both <b>this</b> case <b>and that</b> case, i.e., whether the dog is lying such that its mouth is inside the house or outside the house, <b>the house is impure.</b> The reason is that the impure item can exit through either the mouth or the rear.",
+     "rashi": [
+      "<b>בין כך ובין כך</b> — פיו לפנים או פיו לחוץ בין טומאה מכנגד המשקוף ולפנים בין שהוא לחוץ בין שבצוארו טפח בין אין בצוארו טפח ואכולהו פליג פיו לפנים טמא ואע\"פ שאין סופו לצאת דרך כאן קסבר אף בדרך כניסתה היא מוציאה טומאתה אי נמי פעמים שהיה מקיא וכן שוליו לפנים מפני שדרכה לצאת דרך זה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַאי לָאו, אַאֵין בְּצַוָּארוֹ פּוֹתֵחַ טֶפַח קָאֵי רַבִּי יוֹסֵי?",
+     "en": "The Gemara analyzes the statement of Rabbi Yosei that if the dog is located anywhere from under the lintel and toward the inside of the house, the house is impure. <b>What, is</b> the statement of <b>Rabbi Yosei not referring to</b> a case where <b>there is not an opening</b> the size of one cubic <b>handbreadth inside</b> the dog’s <b>neck,</b> with regard to which Rabbi Meir says that the house remains pure? Accordingly, Rabbi Yosei is responding to Rabbi Meir and saying: Even if the neck of the dog is not the size of one cubic handbreadth, as long as the impure item inside the dog is located from under the lintel and toward the house, the house is impure because it overlies the impure item.",
+     "rashi": [
+      "<b>מאי לאו אאין בצוארו טפח קאי רבי יוסי</b> — ואמר דאם טומאה מן המשקוף ולפנים טמא ואע\"פ שאין כאן המשכה מטמא ליה משום שהבית מאהיל על טומאה טמונה:"
+     ],
+     "tosafot": [
+      "<b>מאי לאו אאין בצוארו פותח טפח</b> — ורואין היינו רואין את הטומאה אם היא כנגד השקוף או לא:"
+     ]
+    },
+    {
+     "he": "וּשְׁמַע מִינַּהּ: טוּמְאָה טְמוּנָה בּוֹקַעַת!",
+     "en": "<b>And</b> therefore <b>learn from it</b> that Rabbi Yosei holds that <b>a hidden</b> source of <b>impurity breaks through</b> and ascends, contrary to Rabbi Yosei’s opinion as understood from his previous statement.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רָבָא: רוֹאִין אֶת חֲלַל הַטּוּמְאָה קָתָנֵי, וְרַבִּי יוֹסֵי בְּתַרְתֵּי פְּלִיג, וְקָאָמַר לֵיהּ לְרַבִּי מֵאִיר: דְּקָאָמְרַתְּ כִּי יֵשׁ בְּצַוָּארוֹ פּוֹתֵחַ טֶפַח מֵבִיא אֶת הַטּוּמְאָה – אֲנַן בָּתַר חֲלָלַהּ אָזְלִינַן.",
+     "en": "<b>Rava said:</b> Rabbi Yosei holds that a hidden source of impurity does not break through and ascend. As for that which Rabbi Yosei teaches: One looks whether the impure item inside the dog is located opposite the lintel and toward the inside of the house, Rabbi Yosei actually <b>teaches: One looks at the empty space</b> adjacent to <b>the</b> source of <b>impurity. And Rabbi Yosei disagrees</b> with Rabbi Meir <b>with regard to two</b> matters, <b>and says to Rabbi Meir:</b> As for <b>that which you say</b> that if <b>there is the width of</b> one cubic <b>handbreadth in the neck</b> of the dog, <b>it imports the impurity</b> into the house, that is not so. Rather, <b>we follow</b> the measure of <b>the empty space,</b> i.e., the neck of the dog imports impurity into the house only if it contains a cubic handbreadth of space in addition to the thickness of the flesh of the neck itself.",
+     "rashi": [
+      "<b>אמר רבא</b> — ר' יוסי לאו אאין בצוארו טפח קאי ולחומרא דהתם אפי' טומאה בפנים הבית טהור דטומאה טמונה אינה בוקעת אלא איש בצוארו פותח טפח קאי ולקולא דקאמר ר\"מ אהל הצואר ממשיך הטומאה לבית הואיל ורחבו טפח ואע\"פ שאין חללו טפח וקאמר ליה רבי יוסי רואין את חלל הטומאה חלל הצואר אם יש בחללו טפח ממשיך ואם לאו אינו ממשיך. והאי רואין את הטומאה לאו רואין את מקום שכיבת הטומאה קאמר דאמקום שכיבתה לא חיישינן דלא שני לן אם בבית אם לחוץ לבית שאין טומאת הבית אלא משום המשכה אלא רואין את חללה קאמר ודקמסיים בסיפא אם מכנגד המשקוף ולפנים כו' מילתא אחריתי היא:",
+      "<b>ובתרתי פליג</b> — וה\"ק ליה לר\"מ דקאמרת לענין המשכה אם יש בצוארו כולו עם עובי דפנותיו רחב טפח ממשיך אנן חלל טפח בעינן:"
+     ],
+     "tosafot": [
+      "<b>אמר רבא ה\"ק כו'</b> — לא הוה מצי למימר דאיש בצוארו פותח טפח קאי ולא בא לחלוק אלא דלא חשיב לשקוף אהל ורואין אצואר כלב קאי דלא שייך למימר לשון רואין אהא דהא מונח קמן אלא אטומאה שהיא בפנים או אחלל שייך לומר רואין:",
+      "<b>אנן בתר חלל אזלינן</b> — ור\"מ דלא בעי חלל טפח לטעמיה דאית ליה בפ\"ק דשבת (דף ז:) דחוקקין להשלים גבי זרק ונח בחור כל שהוא ונהי דבפ\"ק דערובין (דף יא:) גבי כיפה לא אמר חוקקין להשלים אלא כשיש ברגליה ארבע ה\"מ גבי מזוזה דכתיב (דברים יא) ובשעריך ובעינן שער חשוב אבל בעלמא אפי' אין שם ד' חוקקין וצ\"ע שם ונראה דהך שמעתא מיירי כשאין טפח מן השקוף ולחוץ וכשסוגרים הדלת הוא כאהל בפני עצמו ואין אהל פחות מטפח ור' אלעזר אמר פיו לפנים הבית טהור לחוץ הבית טמא מפני שטומאה יוצאה דרך שוליו ונראה דר' אלעזר לאו אכלב דרבי יוסי קאי דר' יוסי בכלב שיש בצוארו חלל פותח טפח איירי ורבי אלעזר שאין בחלל פותח טפח מדקאמר פיו לפנים הבית טהור אלמא בסתם כלבים איירי שאין בצוארם פותח טפח:"
+     ]
+    },
+    {
+     "he": "וּדְקָא אָמְרַתְּ הַבַּיִת כּוּלּוֹ טָמֵא – מִכְּנֶגֶד הַשְּׁקוֹף וְלִפְנִים הַבַּיִת טָמֵא, מִכְּנֶגֶד הַשְּׁקוֹף וְלַחוּץ הַבַּיִת טָהוֹר.",
+     "en": "<b>And</b> with regard to <b>that which you say</b> that even if the dog is located on the outer portion of the threshold of the house, <b>the entire house is impure,</b> that is not so. Rather, if the impurity inside the dog is located anywhere <b>from opposite the lintel and toward the inside</b> of the house, <b>the house is impure.</b> If the impurity inside the dog is located anywhere <b>from opposite the lintel and toward the outside</b> of the house, <b>the house</b> remains <b>pure.</b>",
+     "rashi": [
+      "<b>ודקאמרת על האסקופה כולה הבית טמא</b> — ואע\"פ שאין פיו מן השקוף ולפנים דקחשבת כל האסקופה כלפנים והאסקופה רחבה ושקוף מחותך בו שהדלת נוקף ושוקף בו כשסוגרין אותו ומההוא שקוף ולפנים הוי כלפנים:",
+      "<b>שקוף</b> — בטיי\"ל בלע\"ז כמו שאנו עושין למפתן ולמשקוף העליון מקום שהדלת נוקש עליהן. ולשון שקיפה היא הכאה שנוקש דבר על חבירו כדמתרגמינן חבורה (שמות כא) משקופי עלה נדף (ויקרא כו) טרפא דשקיף שדופות קדים (בראשית מא) שקיפן קידום חבוטות ברוח:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַב אַחָא בְּרֵיהּ דְּרָבָא מַתְנֵי לַהּ בְּהֶדְיָא: רַבִּי יוֹסֵי אוֹמֵר: רוֹאִין אֶת חֲלַל הַטּוּמְאָה.",
+     "en": "<b>Rav Aḥa, son of Rava, teaches</b> that Rava’s explanation is <b>explicit</b> in the mishna itself, as follows: <b>Rabbi Yosei says: One looks at the empty space</b> adjacent to the source <b>of impurity.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וּמַאן תַּנָּא דִּפְלִיג עֲלֵיהּ? רַבִּי שִׁמְעוֹן הוּא, דְּתַנְיָא: רַבִּי שִׁמְעוֹן אוֹמֵר:",
+     "en": "§Previously the Gemara established that Rabbi Yosei holds that with regard to the <i>halakhot</i> of impurity, overlying is referred to as touching, as the transmission of impurity via contact and via overlying are considered one category. But the mishna (<i>Oholot</i> 3:1) cited earlier (125b) states that in the case of one who touches half an olive-bulk of flesh of a corpse, if a tent simultaneously overlies him and another half an olive-bulk of flesh he remains pure. Evidently, there is a <i>tanna</i> who disagrees with Rabbi Yosei and holds that these two methods of transmitting impurity are not the same category. The Gemara asks: <b>Who is the <i>tanna</i> who disagrees with</b> Rabbi Yosei? The Gemara answers: <b>It is Rabbi Shimon, as it is taught</b> in a <i>baraita</i>: <b>Rabbi Shimon says:</b>",
+     "rashi": [
+      "<b>מאן תנא</b> — דלעיל (חולין דף קכה:) דהנוגע בכחצי זית ודבר אחר מאהיל עליו ועל חצי זית דקתני טהור דלא מצטרפי אלמא מגע ואהל לאו חד שמא הוא ופליג אדר' יוסי דקרי לאהל נוגע:"
+     ],
+     "tosafot": [
+      "<b>מאן תנא דפליג עליה דרבי יוסי ר\"ש היא</b> — פ\"ה מאן תנא דאמר לעיל נוגע בחצי זית ודבר אחר מאהיל עליו ועל חצי זית טהור דלא מצטרף אלמא תרי שמי נינהו דאהל לאו היינו נגיעה וקשה דהתם אפי' רבי יוסי מודה בין לאביי בין לרבא דהא למעלה מטפח אהל בהמשכה הוא ונראה לפרש דאמאי דקאמר לעיל מאן האי תנא דחשיב לאהל נגיעה ר' יוסי מכלל דאיכא דפליג עליה וקאמר מאן הוי האי תנא:"
+     ]
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 126b",
+   "he_ref": "חולין קכ״ו:",
+   "url": "https://www.sefaria.org/Chullin.126b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=126&amud=b",
+   "segments": [
+    {
+     "he": "שָׁלֹשׁ טוּמְאוֹת פּוֹרְשׁוֹת מִן הַמֵּת, שְׁתַּיִם בְּכׇל אַחַת וּשְׁלִישִׁית אֵין בָּהֶן, וְאֵלּוּ הֵן: מְלֹא תַרְוָוד רָקָב, וְעֶצֶם כִּשְׂעוֹרָה, וְגוֹלֵל וְדוֹפֵק.",
+     "en": "Parts of a corpse that impart impurity include an olive-bulk of flesh, a complete limb, the majority of a corpse’s bones, and the majority of the essential bones of its skeleton, namely, its legs, spine, and ribs. All of these impart impurity via contact, carrying, and in a tent. There are also <b>three</b> sources of <b>impurity</b> that <b>derive from a corpse, each one</b> of which imparts impurity in <b>two</b> ways <b>but</b> does <b>not</b> impart impurity in a <b>third</b> way. <b>And they are the following: A full ladle of dust</b> from a corpse, <b>and a bone</b> the size of <b>a barley grain, and a grave cover [<i>golel</i>] and a grave wall [<i>dofek</i>]</b> upon which the cover rests.",
+     "rashi": [
+      "<b>שלש טומאות פורשות כו'</b> — טומאות הרבה פורשות מן המת כגון כזית בשר ושדרה וגלגולת שלא חסרו ורובע עצמות ומלא תרווד רקב ועצם כשעורה ורוב המנין והבנין אלא שלש טומאות פורשות ממנו ששוות בדבר זה שיש בכל אחת שתים מטומאתו של מת או מגע ומשא בלא אהל או מגע ואהל בלא משא או משא ואהל בלא מגע והשלישית אין בה:",
+      "<b>ואלו הן</b> — הג' הפורשות שהמשפט הזה נוהג בהן:",
+      "<b>מלא תרווד רקב ועצם כשעורה וגולל ודופק</b> — גולל זה כסוי העליון דף שנותנין על המת דופק זה דף הניתן בצדיו ורבינן להו מקראי בפ' בהמה המקשה (לעיל חולין דף עב.) והנך תרי חדא טומאה נינהו ששניהם יוצאים ממקרא אחד וטומאתן שוה אבל שאר פורשים מן המת כל ג' טומאות המת נוהגים בהם:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מְלֹא תַרְוָוד רָקָב – מְטַמֵּא בְּמַשָּׂא וּבְאֹהֶל, וְאֵינוֹ מְטַמֵּא בְּמַגָּע, וְהֵיכָן מַגָּעוֹ? עִם אַחַת מֵהֶן.",
+     "en": "<b>A full ladle of dust imparts impurity via carrying and in a tent, but it does not impart impurity via contact,</b> as it is impossible for one to touch all of the particles of dust simultaneously. <b>And where</b> among these sources of impurity is the imparting of impurity via <b>contact</b> applicable? It is applicable <b>with one of those</b> other two sources of impurity, i.e., a bone the size of a barley grain and the cover or wall of a grave.",
+     "rashi": [
+      "<b>מלא תרווד רקב מטמא במשא ואהל</b> — שהרי נושא את כולו:",
+      "<b>ואינו מטמא במגע</b> — שאין נוגע בכולן. והיינו פליגא דר' יוסי דאמר מלא תרווד רקב מטמא במגע דקרייה לאהל מגע:",
+      "<b>והיכן מגעו</b> — של מת:",
+      "<b>באחת מהן</b> — בכל אחת מאלו השתים הנותרות:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "עֶצֶם כִּשְׂעוֹרָה – מְטַמֵּא בְּמַשָּׂא וּבְמַגָּע, וְאֵינוֹ מְטַמֵּא בְּאֹהֶל, וְהֵיכָן אׇהֳלוֹ? עִם אַחַת מֵהֶן.",
+     "en": "<b>A bone</b> the size of <b>a barley grain imparts impurity via carrying and contact, but it does not impart impurity in a tent.</b> This <i>halakha</i> was transmitted to Moses from Sinai. <b>And where</b> among these sources of impurity is impurity imparted in <b>a tent?</b> It is <b>with one of those</b> other two sources of impurity.",
+     "rashi": [
+      "<b>עצם כשעורה</b> — הלמ\"מ דמגע ומשא אית ליה ולא אהל כדאמרינן בנזיר (דף נג:) עצם כשעורה הלכה:",
+      "<b>והיכן אהלו</b> — של מת:"
+     ],
+     "tosafot": [
+      "<b>עצם כשעורה מטמא במגע ובמשא אבל לא באהל</b> — פי' בקונטרס דהלמ\"מ הוא ואי אפשר לומר כן דמקראי ילפינן לה בנזיר פרק כהן גדול (נזיר דף נג:) ולא הוי הלכה אלא מה שהנזיר מגלח עליו אע\"ג דלא מטמא באהל:"
+     ]
+    },
+    {
+     "he": "הַגּוֹלֵל וְדוֹפֵק – מְטַמֵּא בְּמַגָּע וּבְאֹהֶל, וְאֵינוֹ מְטַמֵּא בְּמַשָּׂא, וְהֵיכָן מַשָּׂאוֹ? עִם אֶחָד מֵהֶן.",
+     "en": "<b>A grave cover and a grave wall impart impurity via contact and in a tent, but they do not impart impurity via carrying.</b> This <i>halakha</i> too was transmitted to Moses from Sinai. <b>And where</b> among these sources of impurity is impurity transmitted via <b>carrying?</b> It is <b>with one of those</b> other two sources of impurity. It may be inferred from Rabbi Shimon’s statement that a full ladle of dust imparts impurity in a tent but not via contact that he disagrees with Rabbi Yosei and holds that overlying is not the same category as touching.",
+     "rashi": [
+      "<b>גולל ודופק</b> — נמי הלכה גמירי לה בבהמה המקשה (לעיל חולין דף עב.). ולמאן דנפקא ליה התם מקרא לא ידענא מהיכן אימעיט משא:"
+     ],
+     "tosafot": [
+      "<b>גולל ודופק מטמא במגע ובאהל ואין מטמא במשא</b> — למ\"ד בפרק בהמה המקשה (לעיל חולין דף עב.) דגולל ודופק הוו מהלכה איכא למימר דהכי גמירי לה אלא למאן דמייתי לה מעל פני השדה קשה מנא לן ונראה משום דההוא קרא דכל אשר יגע על פני השדה מוקמינן בנזיר (דף נג:) באהל הילכך מטמא באהל ובמגע נמי מטמא משום דאפקיה בלשון נגיעה אבל במשא לא מצינו שיטמא:"
+     ]
+    },
+    {
+     "he": "קוּלִית נְבֵלָה וְקוּלִית הַשֶּׁרֶץ וְכוּ׳. תָּנוּ רַבָּנַן: ״בְּנִבְלָתָהּ״ – וְלֹא בְּקוּלִית סְתוּמָה.",
+     "en": "§The mishna teaches: With regard to <b>the thigh bone of an unslaughtered carcass and the thigh bone of a creeping animal,</b> one who touches them when they are sealed remains ritually pure, because the bone itself does not impart impurity. With regard to this topic, <b>the Sages taught</b> in a <i>baraita</i>: The verse states: “One who touches the carcass thereof shall be impure until the evening” (Leviticus 11:39). The word <b>“carcass”</b> indicates that one who touches the carcass is impure, <b>but</b> one who touches <b>a sealed thigh bone is not.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>בנבלתה ולא בקולית סתומה</b> — מהאי קרא נמי ממעטינן בפ' בהמה המקשה (לעיל חולין עז:) עצמות וגידין וקשה דא\"כ היכי נמעט מיניה קולית סתומה ומיהו כיון דלא מרבינן שומר אלא בנקובה שיכול ליגע ממילא כי אמעיטו עצמות אמעיט נמי קולית סתומה אע\"פ דשומר הוי כסתום כגון חטה בקליפתה התם מרבינן מקרא דזרע אשר יזרע כדרך שבני אדם מוציאים לזריעה אבל הכא גלי קרא דשומר לא הוי אלא בשאפשר ליגע וכן גבי שרצים מרבינן לקמן מיטמא דשרצים קולית השרץ נקובה ואע\"ג דמהטמאים דרשינן לקמן לרבות קולית השרץ וביצת השרץ עיקר קרא לא אתא אלא לביצת השרץ אבל קולית נפקא מיטמא ואע\"ג דמהטמאים דרשינן דרשות טובא אפשר דדרשינן מטמא טמאים הטמאים או טובא טמאים כתיב התם:"
+     ]
+    },
+    {
+     "he": "יָכוֹל אֲפִילּוּ נִיקְּבָה? תַּלְמוּד לוֹמַר ״הַנּוֹגֵעַ … יִטְמָא״, אֶת שֶׁאֶפְשָׁר לִיגַּע – טָמֵא, וְאֶת שֶׁאִי אֶפְשָׁר לִיגַּע – טָהוֹר.",
+     "en": "One <b>might</b> have thought that <b>even</b> one who touches <b>a perforated</b> thigh bone remains pure. Therefore, <b>the verse states: “One who touches</b> the carcass thereof [<i>benivlatah</i>] <b>shall be impure,”</b> indicating that one who touches a part of the animal through <b>which it is possible to touch</b> the flesh, which has the halakhic status of an unslaughtered carcass [<i>neveila</i>], is <b>impure, but</b> one who touches a part of the animal through <b>which it is impossible to touch</b> the flesh remains <b>pure.</b> Therefore, one who touches a protective layer such as the outside of a sealed thigh bone does not become impure, as it is impossible to touch the marrow.",
+     "rashi": [
+      "<b>יכול אפי' נקבה</b> — לא הוי טמא:",
+      "<b>ת\"ל הנוגע יטמא</b> — יו\"ד יתירא דריש:",
+      "<b>את שאפשר ליגע טמא</b> — שם טומאה עליו הילכך אע\"פ דלא נגע אלא בעצם טמא דשומר מכניס ומוציא טומאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַבִּי זֵירָא לְאַבָּיֵי: אֶלָּא מֵעַתָּה, בְּהֵמָה בְּעוֹרָהּ לֹא תְּטַמֵּא? פּוֹק חֲזִי כַּמָּה נְקָבִים יֵשׁ בָּהּ!",
+     "en": "<b>Rabbi Zeira said to Abaye: If that is so,</b> that one who touches the protective layer of a carcass via which it is impossible to touch the flesh of the carcass itself does not become impure, <b>an animal</b> still <b>in its hide should not impart impurity,</b> as one can touch the hide, which constitutes a protective layer, but not the flesh. Abaye answered: <b>Go out</b> and <b>see how many orifices there are in</b> the body of an animal via which one can touch the flesh, e.g., the eyes, the nostrils, and the mouth.",
+     "rashi": [
+      "<b>בהמה בתוך עורה</b> — כל זמן שלא הופשטה כלל:",
+      "<b>לא תטמא</b> — דהא אי אפשר ליגע בבשר:",
+      "<b>כמה נקבים יש בה</b> — הפה והחוטם והעינים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַב פָּפָּא לְרָבָא: אֶלָּא מֵעַתָּה, כּוּלְיָא בְּחֶלְבָּהּ לֹא תְּטַמֵּא? תָּא חֲזִי כַּמָּה חוּטִין נִמְשָׁכִין הֵימֶנָּה.",
+     "en": "Similarly, <b>Rav Pappa said to Rava: If that is so,</b> that one who touches the protective layer of a carcass via which it is impossible to touch the flesh of the carcass itself does not become impure, <b>the kidney</b> of a carcass that is completely covered <b>in its fat should not impart impurity</b> via contact. Rava answered: <b>Come</b> and <b>see how many sinews emerge from</b> the kidney that one is able to touch.",
+     "rashi": [
+      "חלב אינו טמא כדכתיב יעשה לכל מלאכה ותניא בגמרא דכל שעה בפסחים (דף כג.) מלאכה מה ת\"ל לכל מלאכה שיכול למלאכת הדיוט יהא טהור למלאכת גבוה יהא טמא ת\"ל לכל מלאכה:",
+      "<b>כוליא</b> — המכוסה בחלבה לא תטמא הואיל ואי אפשר ליגע בה:",
+      "<b>נמשכין הימנה</b> — באמצעיתה והן בשר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "בָּעֵי רַב אוֹשַׁעְיָא: חִישֵּׁב עָלֶיהָ לְנוֹקְבָהּ וְלֹא נִיקְּבָה, מַהוּ? מְחוּסַּר נְקִיבָה כִּמְחוּסַּר מַעֲשֶׂה דָּמֵי, אוֹ לָא?",
+     "en": "§The mishna taught that the <i>halakha</i> distinguishes between a sealed and a perforated thigh bone of a carcass or a creeping animal. With regard to this topic, <b>Rav Oshaya raises a dilemma: What is</b> the <i>halakha</i> if <b>one intended to perforate</b> the thigh bone <b>but did not</b> yet <b>perforate it?</b> This is the dilemma: Is a thigh bone <b>lacking perforation considered to be lacking</b> the necessary <b>action</b> for it to impart impurity, and it therefore retains its status as a sealed thigh bone, <b>or not?</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "הֲדַר פַּשְׁטַהּ: מְחוּסַּר נְקִיבָה לָאו כִּמְחוּסַּר מַעֲשֶׂה דָּמֵי.",
+     "en": "Rabbi Oshaya <b>then resolves</b> the dilemma: A thigh bone <b>lacking perforation is not considered to be lacking</b> the necessary <b>action</b> for it to impart impurity. If one intends to perforate it, it imparts impurity immediately.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> בֵּיצַת הַשֶּׁרֶץ הַמְרוּקֶּמֶת טְהוֹרָה, נִיקְּבָה כׇּל שֶׁהוּא – טָמֵא. עַכְבָּר שֶׁחֶצְיוֹ בָּשָׂר וְחֶצְיוֹ אֲדָמָה – הַנּוֹגֵעַ בַּבָּשָׂר טָמֵא, בָּאֲדָמָה טָהוֹר. רַבִּי יְהוּדָה אוֹמֵר: אַף הַנּוֹגֵעַ בָּאֲדָמָה שֶׁכְּנֶגֶד הַבָּשָׂר טָמֵא.",
+     "en": "<strong>MISHNA:</strong> <b>The egg of a creeping animal in which tissue</b> of an embryo <b>developed</b> and one who comes into contact with the egg are <b>ritually pure,</b> as the impure creeping animal is hermetically sealed. But if <b>one perforated</b> the egg with a hole of <b>any size,</b> one who comes in contact with the egg is <b>ritually impure.</b> In the case of <b>a mouse that</b> grows from the ground and <b>is half-flesh half-earth, one who touches the</b> half that is <b>flesh is impure;</b> one who touches <b>the</b> half that is <b>earth is pure. Rabbi Yehuda says: Even one who touches the</b> half that is <b>earth where it is adjacent to the flesh is ritually impure.</b>",
+     "rashi": [
+      "<b>מתני' ביצת השרץ</b> — יש שרץ שהוא מטיל ביצים צב והלטאה וחומט:",
+      "<b>המרוקמת</b> — שנולד בה אפרוח:",
+      "<b>טהורה</b> — לפי שאי אפשר ליגע בה:",
+      "<b>ניקבה כל שהוא טמאה</b> — ואע\"פ שלא נגע אלא שהשומר מוציא טומאה:",
+      "יש מין עכבר שאינו פרה ורבה אלא מעצמו נוצר מאדמה כאשפה המשרצת תולעים ואם עדיין לא נברא העכבר אלא צדו אחד הימני או השמאלי הנוגע בבשר טמא באדמה שכנגדו טהור:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> תָּנוּ רַבָּנַן: ״הַטְּמֵאִים״ – לְרַבּוֹת בֵּיצַת הַשֶּׁרֶץ וְקוּלִית הַשֶּׁרֶץ.",
+     "en": "<strong>GEMARA:</strong> The mishna states that in the case of an egg of a creeping animal in which tissue of an embryo developed, if it is perforated then one who touches it is ritually impure. With regard to this matter <b>the Sages taught</b> in a <i>baraita</i>: The verse states: “These are the impure ones to you among all that creep; whoever touches them when they are dead shall be impure until the evening” (Leviticus 11:31). The term <b>“the impure ones”</b> is interpreted as <b>including the egg of a creeping animal and the thigh bone of a creeping animal</b> in the category of sources of impurity.",
+     "rashi": [
+      "<b>גמ' הטמאים</b> — אלה הטמאים ה\"א יתירא נדרשת לכמה דרשות לאסור צירן ורוטבן (לעיל חולין דף קיב:) ולעורותיהן כבשרן (לעיל חולין דף קכב:) ולביצת השרץ:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "יָכוֹל אֲפִילּוּ לֹא רִיקְּמָה? תַּלְמוּד לוֹמַר ״הַשֶּׁרֶץ״ – מָה שֶׁרֶץ שֶׁרִקֵּם, אַף בֵּיצַת הַשֶּׁרֶץ שֶׁרִקְּמָה.",
+     "en": "One <b>might</b> have thought that <b>even</b> an egg <b>in which tissue</b> of an embryo <b>has not developed</b> imparts impurity. Therefore, <b>the verse states: “That creep,”</b> indicating that <b>just as a creeping animal has developed tissue, so too</b> only <b>the egg of a creeping animal in which tissue</b> of an embryo <b>has developed</b> imparts impurity.",
+     "rashi": [
+      "<b>ת\"ל השרץ</b> — הטמאים לכם בכל השרץ:"
+     ],
+     "tosafot": [
+      "<b>יכול אפילו לא רקמה ת\"ל השרץ</b> — וא\"ת ולרקמה למה לי קרא לענין טומאה הא לענין אכילה פשיטא לן בלא קרא בפרק אלו טרפות (לעיל חולין דף סד.) שאם רקמה ואכלה לוקה משום השרץ השורץ על הארץ אלמא שרץ איקרי ויש לומר דודאי רקמה שרץ איקרי אבל צב ועכבר לא איקרי וכה\"ג אמרינן בפ' בהמה המקשה (לעיל חולין עה.) גבי חלב דלא איקרי חלב שור כשב ועז עד שיצא העובר לאויר העולם אי נמי מקרא דהכא קים לן באלו טרפות לענין אכילה שלוקה:"
+     ]
+    },
+    {
+     "he": "יָכוֹל אֲפִילּוּ לֹא נִיקְּבוּ? תַּלְמוּד לוֹמַר ״הַנּוֹגֵעַ … יִטְמָא״, אֶת שֶׁאֶפְשָׁר לִיגַּע – טָמֵא, וְאֶת שֶׁאִי אֶפְשָׁר לִיגַּע – טָהוֹר.",
+     "en": "One <b>might</b> have thought that in the case of an egg in which tissue of an embryo has developed, it imparts impurity <b>even</b> if it <b>was not perforated.</b> Therefore, <b>the verse states: “Whoever touches</b> them when they are dead <b>shall be impure,”</b> indicating that <b>when it is possible to touch</b> the flesh, contact renders one <b>impure; but when it is impossible to touch</b> the flesh, one remains <b>pure.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְכַמָּה נְקִיבָתָהּ? כְּחוּט הַשַּׂעֲרָה, שֶׁאֶפְשָׁר לִיגַּע כְּחוּט הַשַּׂעֲרָה.",
+     "en": "<b>And how</b> large must <b>its perforation</b> be to render one touching the egg or thigh bone impure? Its width must be the size of <b>a strand of hair, as it is possible</b> for one <b>to touch</b> the inside of an egg or thigh bone <b>with a strand of</b> his <b>hair.</b>",
+     "rashi": [
+      "<b>כחוט השערה</b> — שער ראשו וזקנו אם יכניסו לתוכו הרי נגע וטמא שהשער המחובר הרי הוא כבשר בין שער טהור הנוגע בטומאה בין שער טמא שנגע בו הטהור טמא. דתניא בת\"כ הנוגע בבשר הזב ולא בצואה שעליו ולא בקילקלין. הוא עירבוב שער תלוש המתקשה ונאסף בשערו שעל החזה ושעל השחי פולטרי\"ץ בלע\"ז ואינם מחוברין לבשר להכי קרי ליה קילקלין מה קילקלין זה מקושר כנגד החוץ אף הני שערות קשורין ומכוסין שם כך מצאתי בדברי רב האי. יכול שאני מוציא את השער ואת הצפורן ת\"ל טמא הא למדת ששער הטמא הרי הוא כבשרו. ושער הטהור נמי תניא התם וכל אשר יגע בו הזב בו ולא בצואה שעליו ולא בקילקלין שעליו יכול שאני מוציא את השער ואת הצפורן ת\"ל יטמא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "עַכְבָּר שֶׁחֶצְיוֹ [וְכוּ׳]. אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי: וְהוּא שֶׁהִשְׁרִיץ עַל פְּנֵי כּוּלּוֹ. אִיכָּא דְּמַתְנֵי לַהּ אַסֵּיפָא – רַבִּי יְהוּדָה אוֹמֵר: אַף הַנּוֹגֵעַ בָּאֲדָמָה שֶׁכְּנֶגֶד בָּשָׂר טָמֵא, אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי: וְהוּא שֶׁהִשְׁרִיץ עַל פְּנֵי כּוּלּוֹ.",
+     "en": "§The mishna teaches: In the case of <b>a mouse that</b> grows from the ground and <b>is half-</b>flesh half-earth, one who touches the half that is flesh is impure. <b>Rabbi Yehoshua ben Levi says</b> in this regard: One becomes impure in such a case <b>only</b> if the flesh of the mouse has <b>developed along the entire</b> length of the mouse, from head to foot. <b>Some teach</b> the statement of Rabbi Yehoshua ben Levi <b>with regard to the latter clause</b> of the mishna: <b>Rabbi Yehuda says: Even one who touches</b> the half that is <b>earth where it is adjacent to the flesh is ritually impure. Rabbi Yehoshua ben Levi says:</b> One becomes impure in such a case <b>only</b> if the flesh of the mouse has <b>developed along the entire</b> length of the mouse.",
+     "rashi": [
+      "<b>והוא שהשריץ</b> — חציו על פני ארכו של שרץ מראשו ועד רגליו כלומר שמצד א' הוא נעשה בשר ולהכי טמא אם נגע בבשר דחשיב שרץ הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַאן דְּמַתְנֵי לַהּ אַרֵישָׁא, כׇּל שֶׁכֵּן אַסֵּיפָא, וּמַאן דְּמַתְנֵי לַהּ אַסֵּיפָא – אֲבָל רֵישָׁא, אַף עַל גַּב דְּלָא הִשְׁרִיץ.",
+     "en": "<b>The one who teaches</b> the statement of Rabbi Yehoshua ben Levi <b>with regard to the first clause</b> of the mishna, <b>all the more so</b> he teaches this same <i>halakha</i> <b>with regard to the latter clause</b> of the mishna. <b>But the one who teaches</b> the statement of Rabbi Yehoshua ben Levi <b>with regard to the latter clause</b> of the mishna holds that it applies only to that clause, with regard to one who touches the half that is earth where it is adjacent to the flesh according to Rabbi Yehuda. <b>But</b> according to the opinion of the first <i>tanna</i>, stated in <b>the first clause</b> of the mishna, <b>even if</b> the flesh of the mouse <b>has not developed</b> along the entire length of the mouse, one who touches the half of the mouse that is flesh is impure.",
+     "rashi": [
+      "<b>מאן דמתני לה</b> — להא דר' יהושע ארישא דמיירי בנוגע בבשר ואפ\"ה מטהר ליה ריב\"ל אם לא השריץ על פני כולו:",
+      "<b>כ\"ש אסיפא</b> — אדר' יהודה דמיירי בנוגע באדמה דאשמעינן דלא טימא ר' יהודה בעפר אלא אם כן השריץ על פני כולו דהכי מסתבר שפיר. ולקמן תנא כל שיש ביבשה יש בים חוץ מן החולדה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּנוּ רַבָּנַן: מִתּוֹךְ שֶׁנֶּאֱמַר ״עַכְבָּר״, שׁוֹמֵעַ אֲנִי אֲפִילּוּ עַכְבָּר שֶׁבַּיָּם, שֶׁשְּׁמוֹ עַכְבָּר. וְדִין הוּא: טִימֵּא בְּחוּלְדָּה וְטִימֵּא בְּעַכְבָּר, מָה חוּלְדָּה מִין הַגָּדֵל עַל הָאָרֶץ, אַף עַכְבָּר מִין הַגָּדֵל עַל הָאָרֶץ.",
+     "en": "§<b>The Sages taught</b> in a <i>baraita</i> concerning the following verse: “And these are they which are impure to you among the creeping animals that creep upon the earth: The weasel, and the mouse, and the great lizard after its kinds” (Leviticus 11:29). <b>Since “mouse” is stated</b> among the creeping animals that impart impurity, <b>I</b> would <b>derive</b> that <b>even a sea mouse,</b> i.e., a sea creature that has an appearance similar to a mouse, imparts impurity <b>because its name is</b> also <b>mouse. But</b> ostensibly, the opposite conclusion could be derived through <b>logical inference:</b> The verse <b>deems a weasel impure and deems a mouse impure.</b> Therefore, <b>just as a weasel is a species that grows on land, so too</b> the <b>mouse</b> to which the verse is referring is <b>a species that grows on land;</b> a sea mouse does not impart impurity.",
+     "rashi": [
+      "<b>עכבר שבים</b> — דג הוא דומה לעכבר ועכבר שמו:",
+      "<b>ודין הוא</b> — מדינא נפקא ליה דלא מטמא ולא צריכא קרא:",
+      "<b>מה חולדה מין הגדל על הארץ</b> — ולא שבים שהרי אין חולדה בים:",
+      "<b>אף עכבר</b> — אף על פי שיש ממינו בים לא טימא אלא מין הארץ:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אוֹ כְּלָךְ לְדֶרֶךְ זוֹ: טִימֵּא בְּחוּלְדָּה וְטִימֵּא בְּעַכְבָּר, מָה חוּלְדָּה כֹּל שֶׁשְּׁמָהּ ״חוּלְדָּה״, אַף עַכְבָּר כֹּל שֶׁשְּׁמוֹ ״עַכְבָּר״, אֲפִילּוּ עַכְבָּר שֶׁבַּיָּם שֶׁשְּׁמוֹ ״עַכְבָּר״. תַּלְמוּד לוֹמַר ״עַל הָאָרֶץ״.",
+     "en": "<b>Or,</b> perhaps <b>go this way:</b> The verse <b>deems a weasel impure and deems a mouse impure;</b> accordingly, <b>just as “weasel”</b> is referring to <b>any</b> animal <b>whose name is weasel, so too, “mouse”</b> is referring to <b>any</b> animal <b>whose name is mouse, even a sea mouse, as its name is</b> also <b>mouse.</b> Therefore, <b>the verse states: “Upon the earth,”</b> indicating that a land mouse imparts impurity, but a sea mouse does not.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אִי ״עַל הָאָרֶץ״, יָכוֹל עַל הָאָרֶץ – יְטַמֵּא, יָרַד לְיָם – לֹא יְטַמֵּא,",
+     "en": "<b>If</b> this <i>halakha</i> is derived only from the phrase <b>“upon the earth,”</b> one <b>might</b> have thought that the verse means that any mouse, whether a land mouse or a sea mouse, <b>imparts impurity</b> when it is <b>upon the earth,</b> but if <b>it descended to the sea it does not impart impurity.</b>",
+     "rashi": [
+      "<b>אי על הארץ יכול על הארץ יטמא</b> — כלומר אומר אני לא אדרשנו לך במדה זו אלא לכך בא לומר על הארץ יטמא בין עכבר הים בין עכבר היבשה אם על הארץ נגע בטהור יטמאנו ואם נפל לים ושם נגע בטהור לא יטמא:"
+     ],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
