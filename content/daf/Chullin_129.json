@@ -1,0 +1,330 @@
+{
+ "tractate": "Chullin",
+ "page": 129,
+ "fetched": "2026-08-30",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 129a",
+   "he_ref": "חולין קכ״ט.",
+   "url": "https://www.sefaria.org/Chullin.129a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=129&amud=a",
+   "segments": [
+    {
+     "he": "טוּמְאַת בֵּית הַסְּתָרִים הִיא, וְטוּמְאַת בֵּית הַסְּתָרִים לָא מְטַמְּיָא.",
+     "en": "Why should the flesh be impure? Since the source of its impurity is the limb, and the location of the contact between the limb and the flesh is hidden and not visible, <b>it</b> constitutes contact with a source of <b>impurity</b> in <b>a concealed part</b> of the body, <b>and</b> the principle is that contact with a source of <b>impurity</b> in <b>a concealed part</b> of the body <b>does not render</b> an item <b>impure.</b>",
+     "rashi": [
+      "<b>טומאת בית הסתרים היא</b> — היאך קבל טומאה במחובר והלא מגעו בסתר וקיי\"ל בנדה (דף מא:) מקרא דטומאת בית הסתרים לא מטמיא:"
+     ],
+     "tosafot": [
+      "<b>וטומאת בית הסתרים לא מטמא</b> — פירושה בפרק בהמה המקשה (לעיל חולין עב: ד\"ה בשעת):"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ: אַף לְדִידִי קַשְׁיָא לִי, וּשְׁאֵילְתֵּיהּ לְרַבִּי אַבָּא בַּר מֶמֶל, וְאָמַר לִי: הָא מַנִּי? רַבִּי מֵאִיר הִיא, דְּאָמַר: טוּמְאַת בֵּית הַסְּתָרִים מְטַמְּיָא.",
+     "en": "Rabbi Zeira <b>said to</b> Rabbi Asi: This matter is <b>difficult for me as well, and I asked Rabbi Abba bar Memel, and he said to me:</b> In accordance with <b>whose</b> opinion <b>is this</b> <i>baraita</i>? <b>It is</b> in accordance with the opinion of <b>Rabbi Meir, who said</b> that contact with a source of <b>impurity</b> in <b>a concealed part</b> of the body <b>renders</b> an item <b>impure.</b>",
+     "rashi": [
+      "<b>ר\"מ היא</b> — בבהמה המקשה (לעיל חולין עב.) הוציא עובר את ידו ושחט את אמו ואח\"כ חתכו בשר העובר מגע נבילה שקבל טומאה מאבר היוצא שהיה מחובר לו והוא מטמא כאבר מן החי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ: וְלָאו זִימְנִין סַגִּיאִין אַמְרַהּ קַמַּאי, וַאֲמַרִי לֵיהּ: שָׁנֵי לֵיהּ לְרַבִּי מֵאִיר בֵּין טוּמְאָה דְּבָעֲיָא הֶכְשֵׁר וּבֵין טוּמְאָה דְּלָא בָּעֲיָא הֶכְשֵׁר.",
+     "en": "Rabbi Asi <b>said to</b> Rabbi Zeira: <b>But hasn’t</b> Rabbi Abba bar Memel <b>said</b> this answer <b>in my presence many times? And I said to him</b> that this answer does not explain the ruling of the <i>baraita</i>. The reason is that with regard to a concealed part of the body imparting impurity, <b>Rabbi Meir differentiates between</b> a type of <b>impurity that requires</b> an item to be <b>rendered susceptible</b> in order to take effect <b>and</b> a type of <b>impurity that does not require</b> an item to be <b>rendered susceptible.</b> The case in the <i>baraita</i> is one where the flesh was not yet rendered susceptible to impurity when it was severed from the limb, and Rabbi Meir concedes that in such a case impurity should not apply to a concealed part of the body.",
+     "rashi": [
+      "<b>א\"ל</b> — רבי אסי לר' זירא בהא דר' אבא בר ממל לא איכפת לי דהא זימנין סגיאין אמרה להאי טעמא קמאי ואמרי ליה אנא:",
+      "<b>שני ליה לר\"מ בין טומאה דבעיא הכשר כו'</b> — ההיא דבהמה המקשה הוכשר העובר בשחיטת אמו ועדיין האבר הטמא מחובר בו וטמאו אבל משנתינו תנן הבשר צריך הכשר וכיון דצריך הכשר לא הוכשר קודם חתיכה והיאך מקבל טומאה מאביו:"
+     ],
+     "tosafot": [
+      "<b>ולא שני ליה לר' מאיר בין טומאה דבעי הכשר כו'</b> — הלשון אין מיושב דלא ה\"ל למימר טפי אלא הכא לא הוכשר:"
+     ]
+    },
+    {
+     "he": "אָמַר רָבָא: וּמַאי קוּשְׁיָא? דִּלְמָא בְּשֶׁהוּכְשַׁר.",
+     "en": "<b>Rava</b> was surprised by Rabbi Asi’s statement and <b>said: But what is the difficulty? Perhaps</b> the <i>baraita</i> is discussing a case <b>where</b> the flesh <b>was rendered</b> susceptible to impurity before it was severed from the limb.",
+     "rashi": [
+      "<b>בשהוכשר</b> — קודם חתיכה קתני הך ברייתא דטמאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַבָּה בַּר רַב חָנָן לְרָבָא: לְמָה לִי הֶכְשֵׁר, הֲרֵי מְטַמֵּא טוּמְאָה חֲמוּרָה אַגַּב אָבִיו?",
+     "en": "<b>Rabba bar Rav Ḥanan said to Rava: Why do I</b> need the flesh severed from the limb to be <b>rendered susceptible</b> to impurity? Flesh that is upon a limb from a living animal <b>imparts a severe</b> form of <b>impurity due to its original</b> limb, as it is considered part of the limb that was severed from a living animal, which imparts the impurity of a carcass, a severe form of impurity that is transmitted even to people and vessels. Therefore, it is not necessary to render this flesh susceptible to impurity after its separation from the limb, because the <i>halakha</i> is that any food item that will eventually impart a severe form of impurity does not require contact with liquid in order to be rendered susceptible to imparting a lesser form of impurity.",
+     "rashi": [
+      "<b>הרי מטמא טומאה חמורה אגב אביו</b> — בעודו מחובר באבר היה אב הטומאה לטמא אדם וכלים ותנא דבי ר' ישמעאל לעיל בפירקין (חולין דף קכא.) מה זרעים שאין סופן לטמא טומאה חמורה צריך הכשר אף כל שאין סופו לטמא טומאה חמורה צריך הכשר אבל מי שסופו לטמא טומאה חמורה כגון נבלת עוף טהור לא וכ\"ש זה שכבר טימא:"
+     ],
+     "tosafot": [
+      "<b>למה לי הכשר והא מטמא טומאה חמורה אגב אביו</b> — תימה אמאי לא פריך למה ליה לאוקומיה כר\"מ הא מטמא טומאה חמורה אגב אביו ואין צריך לא הכשר מים ולא הכשר שרץ כדאמר פרק בא סימן (נדה דף נ:):"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ: כְּשֶׁשִּׁימֵּשׁ, מַעֲשֵׂה עֵץ שִׁימֵּשׁ.",
+     "en": "Rava <b>said to</b> Rabba bar Rav Ḥanan: This principle applies only when the more severe and more lenient forms of impurity are both impurities of food. But in the case of the <i>baraita</i>, the flesh needs to be rendered susceptible to impurity after it is severed from the limb, because <b>when it</b> initially <b>served</b> as part of the limb, <b>it performed the role of wood,</b> i.e., it had the status of flesh of the limb, which is necessary to give the limb the status of a limb severed from the living (see 128b), but it was not impure due to its status as food.",
+     "rashi": [
+      "<b>כששימש</b> — אותו שמוש טומאה חמורה לאו בתורת אוכל שמשה שאין האבר מטמא כלום ע\"י אותו בשר אלא בתורת עץ שימש שנחשב ונמנה עם הגידין והעצמות ליעשות אבר והן כעץ והשתא אתעביד ליה אוכל ופנים חדשות באו לכאן ולא דמי לנבלת עוף טהור שהיא מטמאה אדם על ידי אכילה:"
+     ],
+     "tosafot": [
+      "<b>כששימש מעשה עץ שימש</b> — פירוש מאותו שם שהיה מטמא טומאה חמורה דהיינו משום אבר מן החי עתה אין אבר מן החי שאין בו אלא בשר ואין קרוי אבר ול\"ד לנבלת עוף טהור ופרים הנשרפים שכשטימא טומאה חמורה היה משום שורף פרים והשתא נמי הם פרים וה\"פ כששימש מעשה עץ שימש לא מתורת אוכל כמו שהוא עתה אלא מתורת עץ בעלמא וא\"ת אע\"ג דמעשה עץ שימש ליטמא דנגמר מזרעים שאין סופן לטמא טומאה חמורה בשום ענין וי\"ל דזרעים נמי סופן לטמא טומאה חמורה ע\"י שמוש עץ כדאמר בסמוך כופת שאור שיחדה לישב עליה בטלה ומטמאה טומאת מדרס:"
+     ]
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: הֲרֵי אָמְרוּ כּוֹפֶת שְׂאוֹר שֶׁיִּחֲדָהּ לִישִׁיבָה – בָּטְלָה.",
+     "en": "§Rava said that if a food item serves a function other than food, the principle that if it will eventually contract a severe form of impurity it does not require contact with liquid in order to be rendered susceptible to a lesser form of impurity does not apply. The Gemara now relates a number of matters that are explained with the same reasoning. <b>Abaye said:</b> The Sages <b>said</b> in a <i>baraita</i>: <b>A mass of</b> hardened <b>leaven that one designated for</b> the purpose of <b>sitting</b> upon it, not for consumption, <b>is nullified.</b> The item is no longer considered food and one may possess it in his house during Passover. But the item is now considered a chair, and it is subject to ritual impurity imparted by treading. It therefore is rendered impure if a <i>zav</i> sits on it.",
+     "rashi": [
+      "<b>הרי אמרו</b> — בפסחים באלו עוברין (פסחים דף מה:):",
+      "<b>כופת שאור</b> — מוטיי\"ל בלע\"ז:",
+      "<b>שיחדה לישיבה בטלה</b> — מתורת חמץ ואינו עובר עליו בפסח משום שאור לא ימצא בבתיכם אלמא לאו אוכל הוא ונעשית כלי ומטמאה מושב הזב שהרי אין אומרין לו עמוד ונעשה מלאכתנו שהרי יחדה לכך אומר אני דטומאה שאנו מטמאין אותו משום מושב הזב לאו דאורייתא אלא דרבנן היא דאמור רבנן בטלה ונעשת כלי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "טוּמְאָתָהּ לָאו דְּאוֹרָיְיתָא, דְּאִי סָלְקָא דַעְתָּךְ דְּאוֹרָיְיתָא, מָצִינוּ לָאֳכָלִין שֶׁמְּטַמְּאִין טוּמְאָה חֲמוּרָה, כְּשֶׁשִּׁימֵּשׁ – מַעֲשֵׂה עֵץ שִׁימֵּשׁ.",
+     "en": "Abaye explained: <b>Its impurity</b> in such a case is clearly <b>not by Torah law</b> but by rabbinic law; <b>as if it enters your mind</b> that it is impure <b>by Torah law,</b> then <b>we have found</b> that <b>food can become susceptible to a severe</b> type of <b>impurity.</b> This cannot be true, because the category of food that requires contact with liquid to be susceptible to impurity is food that will not eventually impart a more severe type of impurity. Based on Rava’s reasoning, the Gemara responds: The seat imparts impurity by Torah law. <b>When</b> the leaven <b>served</b> as a chair it was not considered food, as <b>it performed the role of wood.</b>",
+     "rashi": [
+      "<b>דאי ס\"ד דאורייתא</b> — א\"כ מצינו אוכלין שסופן לטמא טומאה חמורה מאחר שירדו לתורת אוכלים ואנן אמרינן מה זרעים שאין סופן לטמא טומאה חמורה כו':",
+      "ומשני לעולם טומאתם דאורייתא ודקאמרת מצינו לאוכלים שמטמאים כו' כששימש אותו שימוש טומאה חמורה לאו בתורת אוכל שימשה אלא מעשה עץ שימש ע\"י מעשה עץ הוא עושה אותה שבטל מתורת אוכל ונעשה עץ:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: הֲרֵי אָמְרוּ תִּקְרוֹבֶת עֲבוֹדָה זָרָה שֶׁל אֳכָלִין מְטַמְּאִין בְּאוֹהֶל, טוּמְאָתָהּ לָאו דְּאוֹרָיְיתָא, דְּאִי סָלְקָא דַעְתָּךְ דְּאוֹרָיְיתָא – מָצִינוּ לָאֳכָלִין שֶׁמְּטַמְּאִין טוּמְאָה חֲמוּרָה! כְּשֶׁשִּׁימֵּשׁ – מַעֲשֵׂה עֵץ שִׁימֵּשׁ.",
+     "en": "Similarly, <b>Abaye said:</b> The Sages <b>said</b> in a <i>baraita</i>: <b>An idolatrous offering of food imparts impurity in a tent.</b> Abaye explained: <b>Its impurity is not by Torah law</b> but by rabbinic law; <b>as if it enters your mind</b> that it is impure <b>by Torah law,</b> then <b>we have found</b> that <b>food can become susceptible to a severe</b> type of <b>impurity.</b> The Gemara responds: The idolatrous offering imparts impurity by Torah law. <b>When</b> the food <b>served</b> as an idolatrous offering it was not considered food, as <b>it performed the role of wood.</b>",
+     "rashi": [
+      "<b>הרי אמרו תקרובת עבודת כוכבים של אוכלין מטמא באהל</b> — וקאמר אביי אומר אני טומאה זו לאו דאורייתא וקרא אסמכתא בעלמא:",
+      "<b>דאי דאורייתא</b> — מצינו אוכלין שסופן לטמא אדם:",
+      "<b>מעשה עץ</b> — שאסורים בהנאה ובטלו מאכילה ונעשו כעצים הנעבדים:"
+     ],
+     "tosafot": [
+      "<b>טומאתה לאו דאורייתא</b> — תימה דאי לאו מדאורייתא בטלה אמאי מותר להניחה בביתו:"
+     ]
+    },
+    {
+     "he": "אָמַר אַבָּיֵי: הֲרֵי אָמְרוּ חִבּוּרֵי אֳכָלִין כְּכֵלִים דָּמוּ, טוּמְאָתָן לָאו דְּאוֹרָיְיתָא, דְּאִי סָלְקָא דַעְתָּךְ דְּאוֹרָיְיתָא – מָצִינוּ לְאוֹכֶל שֶׁמְּטַמֵּא טוּמְאָה חֲמוּרָה! כְּשֶׁשִּׁימֵּשׁ – מַעֲשֵׂה עֵץ שִׁימֵּשׁ.",
+     "en": "Similarly, <b>Abaye said:</b> The Sages <b>said</b> in a <i>baraita</i>: <b>Foods that are connected</b> to vessels are considered <b>like the vessels.</b> For example, if dough is attached to a kneading bowl and the owner wishes for the dough to remain there, the dough is considered part of the bowl. Therefore, if an olive-bulk of a corpse touches that dough, it becomes impure with the more severe impurity of a vessel, which imparts impurity to people and other vessels. Abaye explained: <b>Their impurity is not by Torah law</b> but by rabbinic law; <b>as if it enters your mind</b> that it is impure <b>by Torah law,</b> then <b>we have found</b> that <b>food can become susceptible to a severe</b> type of <b>impurity.</b> The Gemara responds: Food connected to vessels imparts impurity by Torah law. <b>When</b> the food <b>served</b> as a connection to the vessel it was not considered food, as <b>it performed the role of wood.</b>",
+     "rashi": [
+      "<b>הרי אמרו</b> — באלו עוברין (פסחים מה:):",
+      "<b>חבורי אוכלים</b> — שבכלים הרי הם ככלים ואם נגעה טומאה באוכל נטמא הכלי דתנן (שם) בצק שבסדקי עריבה לענין הטומאה אם רוצה בקיומו הרי הן כעריבה ואומר אני טומאתו זו שהוא נעשה כלי ואם נגע במת חוזר ומטמא אדם לאו דאורייתא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַב פָּפָּא לְרָבָא: הָא דְּתַנְיָא, חֵלֶב נְבֵלָה בַּכְּפָרִים צָרִיךְ מַחְשָׁבָה וְהֶכְשֵׁר, טוּמְאָתוֹ אַגַּב כּוּלְיָא לָאו דְּאוֹרָיְיתָא, דְּאִי סָלְקָא דַעְתָּךְ דְּאוֹרָיְיתָא, מָצִינוּ לְאוֹכֶל שֶׁמְּטַמֵּא טוּמְאָה חֲמוּרָה!",
+     "en": "Similarly, <b>Rav Pappa said to Rava</b> in explanation of <b>that which is taught</b> in a mishna (<i>Okatzin</i> 3:3): <b>Fat</b> forbidden in consumption for a Jew from <b>an animal carcass in the villages, requires designation</b> as food in order for it to become susceptible to contract impurity as food, <b>and</b> it must be <b>rendered susceptible</b> via contact with liquid. Rav Pappa explained: Although the forbidden fat that covers the kidney of a carcass imparts the impurity of a carcass, <b>its impurity due to</b> the impurity of the <b>kidney is not by Torah law</b> but by rabbinic law. <b>As if it enters your mind</b> that it is impure <b>by Torah law,</b> then <b>we have found</b> that <b>food can impart a severe</b> type of <b>impurity</b> and subsequently become susceptible to impurity as food.",
+     "rashi": [
+      "<b>חלב נבלה</b> — דבהמה טהורה אינו מטמא כנבלה דנפקא לן מיעשה לכל מלאכה ולענין לקבל טומאה מן הנבלה או מן השרץ:",
+      "<b>כפרים</b> — שעמם מועטין וחלב לאו בר אכילה הוא אפילו לעובד כוכבים אלא ע\"י דחק:",
+      "<b>צריך מחשבה</b> — והוי אוכל וכיון דחלב יורד לתורת אוכל אומר אני טומאתו אגב כוליא מה שהוא מטמא אדם משום מגע נבלה שהוא שומר הכוליא כשהכוליא טמונה בו כדאמר לעיל (חולין דף קכו:) כמה חוטין נמשכים הימנה לאו דאורייתא דאי דאורייתא מצינו דבר שיורד לתורת אוכל כגון חלב שחישב עליו ועדיין הכוליא טמונה בו:",
+      "<b>מטמא טומאה חמורה</b> — ואנן תנן כל שסופו לטמא טומאה חמורה אין צריך הכשר וזה לענין טומאת אוכלין אוכל הוא וקתני צריך הכשר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כְּשֶׁשִּׁימֵּשׁ – מַעֲשֵׂה עֵץ שִׁימֵּשׁ.",
+     "en": "The Gemara responds: The fat of a carcass imparts impurity by Torah law. <b>When</b> the fat <b>served</b> the kidney as protection and imparted the impurity of a carcass it did not serve as food, as <b>it performed the role of wood.</b>",
+     "rashi": [
+      "<b>מעשה עץ שימש</b> — לאו בתורת אוכל הוא מטמא אלא בתורת שומר לאוכל כעצם וכקרנים וכטלפים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב מַתְנָה: הֲרֵי אָמְרוּ בַּיִת שֶׁסִּכְּכוֹ בִּזְרָעִים – טָהֵרוּ. טוּמְאָתוֹ לָאו דְּאוֹרָיְיתָא, דְּאִי סָלְקָא דַעְתָּךְ דְּאוֹרָיְיתָא – מָצִינוּ לִזְרָעִים שֶׁמְּטַמְּאִין טוּמְאָה חֲמוּרָה! כְּשֶׁשִּׁימֵּשׁ – מַעֲשֵׂה עֵץ שִׁימֵּשׁ.",
+     "en": "Similarly, <b>Rav Mattana said:</b> The Sages <b>said</b> in a <i>baraita</i>: With regard to <b>a house that one roofed with seeds,</b> i.e., vegetation, if those seeds were impure, they are rendered <b>pure</b> when they are used as the roof of the house. The seeds are no longer considered food but rather part of the house. Therefore, if the house becomes leprous, the entire house becomes impure. Rav Mattana explained: <b>Its impurity is not by Torah law</b> but by rabbinic law; <b>as if it enters your mind</b> that it is impure <b>by Torah law,</b> then <b>we have found</b> that <b>seeds can become susceptible to a severe</b> type of <b>impurity.</b> The Gemara responds: The seeds used for the roof of the house impart impurity by Torah law. <b>When</b> the seeds <b>served</b> as the roof of the house they were not considered food, but rather <b>performed the role of wood.</b>",
+     "rashi": [
+      "<b>הרי אמרו בית שסככו בזרעים</b> — כלומר הרי הזכירו בית המסוכך בזרעים דהוי בית. ולא ידענא היכן אמרו:",
+      "<b>המסכך בזרעים</b> — כגון שסיכך ביתו בשבלים ובהם הזרעים וכיון שעשה מהם סכך בטל הזרעים ונעשה אהל חשוב ואם פרחה צרעת באותו בית הרי כל הבית טמא כתליו ואהל שלו לטמא אדם וכלים:",
+      "<b>טומאתו לאו דאורייתא</b> — אותה טומאה שהבית חשוב אהל לטמא אדם לאו דאורייתא היא. ואית דגרסי בית שסיככו בזרעים טהרו כלומר טהרו מטומאת אוכלים ונעשו עץ דבטלו אצל הסיכוך טומאתו לאו דאורייתא כדפרישית:"
+     ],
+     "tosafot": [
+      "<b>בית שסככו בזרעים טהרו</b> — מכאן קשה על פירוש רבינו שמואל בפ\"ק דסוכה (דף יג:) דאמר ירקות שאדם יוצא בהן ידי חובתו בפסח אין חוצצין בפני הטומאה אבל מביאין הטומאה ופוסלין הסוכה משום אויר פירוש ולא משום סכך פסול דסכך פסול בארבעה ואויר בשלשה ואמר התם מאי טעמא כיון דכי יבשי נפלי כמאן דמפרשי דמו ופירש רבינו שמואל דהא דקאמר מאי טעמא לאו אאין חוצצין בפני הטומאה קאי משום דהוי אוכל ומקבל טומאה ואין חוצץ בפני הטומאה אלא אפוסלים את הסוכה קאי וקשה לפירושו דהכא משמע דבטלי לגבי בית ולא מקבלי טומאה ומיהו יש לומר לפירושו דמילי מילי קתני ואין חוצצין לאו כשסכך בהם קאמר אבל מכל מקום לא היה צריך לפרש כן דאיכא לפרושי כשסיכך בהן ולא מקבלי טומאה והאי דאין חוצצין כדמפרש התם משום דכי יבשי נפלי וכן פירש בקונטרס שם:"
+     ]
+    },
+    {
+     "he": "רַבִּי שִׁמְעוֹן מְטַהֵר.",
+     "en": "§The mishna teaches with regard to a hanging limb or flesh of a living animal that if the animal died, the hanging flesh needs to be rendered susceptible to impurity, as its halakhic status is that of flesh severed from a living animal, which is ritually pure. Rabbi Meir then states that the hanging limb imparts impurity as a limb severed from a living animal, but not as an unslaughtered carcass. And <b>Rabbi Shimon deems</b> the limb <b>pure.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "מָה נַפְשָׁךְ: אִי מִיתָה עוֹשָׂה נִיפּוּל – לִיטַמֵּא מִשּׁוּם אֵבֶר מִן הַחַי, אִי אֵין מִיתָה עוֹשָׂה נִיפּוּל – לִיטַמֵּא מִשּׁוּם אֵבֶר מִן הַנְּבֵלָה!",
+     "en": "The Gemara asks: <b>Whichever</b> way <b>you</b> look at it, the ruling of Rabbi Shimon is difficult. <b>If death renders</b> a hanging limb one that has <b>fallen off,</b> i.e., if when the animal died of its own accord the hanging limb is considered to have fallen off its body beforehand, the limb <b>should become impure as a limb from a living</b> animal. <b>If death does not render</b> a hanging limb one that has <b>fallen off,</b> the limb <b>should become impure as a limb from a carcass.</b> How is it possible for Rabbi Shimon to deem the limb pure?",
+     "rashi": [
+      "<b>אי אין מיתה עושה ניפול</b> — והרי נתנבל עמה לטמא משום נבלה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי שִׁמְעוֹן אַרֵישָׁא קָאֵי: הָאֵבֶר וְהַבָּשָׂר הַמְדוּלְדָּלִין בִּבְהֵמָה מְטַמֵּא טוּמְאַת אֳכָלִין בִּמְקוֹמָן, וּצְרִיכִין הֶכְשֵׁר, וְרַבִּי שִׁמְעוֹן מְטַהֵר.",
+     "en": "The Gemara answers: Rabbi Shimon is not responding to Rabbi Meir’s statement in the final clause of the mishna. Rather, <b>Rabbi Shimon is referring to the first clause</b> of the mishna, which teaches: <b>The limb and the flesh</b> of an animal that were partially severed and remain <b>hanging from the animal impart impurity as food</b> although they remain <b>in their place</b> attached to the animal. <b>But</b> in order for them to become impure, <b>they need</b> to be <b>rendered susceptible</b> through contact with a liquid. <b>And Rabbi Shimon deems</b> them <b>not susceptible to impurity</b> at all.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי אַסִּי, אָמַר רַבִּי יוֹחָנָן: מַאי טַעְמָא דְּרַבִּי שִׁמְעוֹן? אָמַר קְרָא ״מִכׇּל הָאֹכֶל אֲשֶׁר יֵאָכֵל״, אוֹכֶל שֶׁאַתָּה יָכוֹל לְהַאֲכִילוֹ לַאֲחֵרִים – קָרוּי אוֹכֶל, אוֹכֶל שֶׁאִי אַתָּה יָכוֹל לְהַאֲכִילוֹ",
+     "en": "<b>Rabbi Asi said</b> that <b>Rabbi Yoḥanan said: What is the reason</b> for the opinion <b>of Rabbi Shimon? The verse states</b> with regard to impurity as food: <b>“From all food which may be eaten,</b> that on which water comes shall be impure” (Leviticus 11:34). The repetitive phrase “food which may be eaten” indicates that only <b>food that you are able to feed to others,</b> including gentiles, <b>is called food</b> with regard to being susceptible to impurity as food, but <b>food that you are not able to feed</b>",
+     "rashi": [
+      "<b>מ\"ט דרבי שמעון</b> — דמטהר המעורה בבעלי חיים:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 129b",
+   "he_ref": "חולין קכ״ט:",
+   "url": "https://www.sefaria.org/Chullin.129b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=129&amud=b",
+   "segments": [
+    {
+     "he": "לַאֲחֵרִים – אֵין קָרוּי אוֹכֶל.",
+     "en": "<b>to others,</b> such as the limb and flesh from a living animal, which are forbidden even to gentiles, <b>is not called food.</b>",
+     "rashi": [
+      "<b>לאחרים</b> — לעובד כוכבים:",
+      "<b>קרוי אוכל</b> — לענין טומאת אוכלין ואבר מן החי אין אתה יכול להאכילו לאחרים בהיתר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ רַבִּי זֵירָא לְרַבִּי אַסִּי: דִּילְמָא טַעְמָא דְּרַבִּי שִׁמְעוֹן הָתָם, הוֹאִיל וּמְעוֹרֶה – מְעוֹרֶה.",
+     "en": "<b>Rabbi Zeira</b> questioned the explanation of Rabbi Yoḥanan and <b>said to Rabbi Asi:</b> If Rabbi Shimon is discussing the first clause in the mishna, claiming that a hanging limb or flesh is pure during the lifetime of the animal, the reason for his statement is not necessarily that food that is forbidden to all people is not considered food. <b>Perhaps the reason</b> for the opinion <b>of Rabbi Shimon there</b> is that <b>since</b> the flesh or limb is still <b>attached</b> to the animal, it is considered <b>attached.</b>",
+     "rashi": [
+      "<b>ודילמא טעמא דר' שמעון</b> — ולמה לי קרא להכי:",
+      "<b>הואיל ומעורה</b> — בבעלי חיים שאין טומאה נוהגת בהם כדאמרינן לגבי יחור דהואיל והתאנה מעורה ביחור חיבור הוא אע\"פ שהיחור נפשח מן האילן שהקליפה מועלת בו לעשות חבור הכא נמי הואיל והאבר מעורה בבהמה כל דהו טהור הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּתַנְיָא: יִחוּר שֶׁל תְּאֵנָה שֶׁנִּפְשַׁח וּמְעוֹרֶה בַּקְּלִיפָּה – רַבִּי יְהוּדָה מְטַהֵר, וַחֲכָמִים אוֹמְרִים: אִם יָכוֹל לִחְיוֹת – טָהוֹר, וְאִם לָאו – טָמֵא. וְאָמְרִינַן לָךְ: מַאי טַעְמָא דְּרַבִּי יְהוּדָה? וְאָמְרַתְּ לַן: הוֹאִיל וּמְעוֹרֶה – מְעוֹרֶה.",
+     "en": "<b>As it is taught</b> in a mishna (<i>Okatzin</i> 3:8): With regard to <b>a branch of a fig</b> tree <b>that was detached</b> from the tree <b>and</b> remains <b>attached</b> only <b>to the bark</b> of the tree, <b>Rabbi Yehuda deems</b> the figs on the branch <b>not susceptible to impurity,</b> as they are considered attached to the tree. <b>And the Rabbis say: If</b> it is possible to reattach the branch to the tree and the branch <b>can</b> continue to <b>live</b> and produce fruit, then it is considered attached to the tree, and the fruit <b>is not susceptible to impurity. But if not,</b> the fruit is <b>susceptible to impurity. And we said to you,</b> Rabbi Asi: <b>What is the reason</b> for the opinion <b>of Rabbi Yehuda? And you said to us: Since</b> the branch is still <b>attached</b> to the bark of the tree, it is considered <b>attached.</b> Therefore, the same logic applies to the statement of Rabbi Shimon.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ, אַמְּצִיעֲתָא: נִשְׁחֲטָה הַבְּהֵמָה, הוּכְשְׁרָה בְּדָמֶיהָ – דִּבְרֵי רַבִּי מֵאִיר; רַבִּי שִׁמְעוֹן אוֹמֵר: לֹא הוּכְשְׁרוּ.",
+     "en": "Rabbi Asi <b>said to</b> Rabbi Zeira: Rabbi Yoḥanan is explaining the reasoning for Rabbi Shimon’s opinion in <b>the middle clause</b> of the mishna, which teaches: If <b>the animal was slaughtered,</b> the limb and the flesh <b>were rendered</b> susceptible to impurity <b>with the blood of</b> the slaughtered animal; this is <b>the statement of Rabbi Meir. Rabbi Shimon says: They were not rendered</b> susceptible with the blood of the slaughtered animal.",
+     "rashi": [
+      "<b>נשחטה הבהמה</b> — אין המדולדל ניתר לא לישראל ולא לבני נח:",
+      "<b>לא הוכשרו</b> — וקמפרש רבי יוחנן משום דלאו בני קבולי טומאה נינהו דלא משויא להו שחיטה אוכלא הואיל שאינו קרוי אוכל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "(אָמַר רַבִּי אַסִּי) אָמַר רַבִּי יוֹחָנָן: מַאי טַעְמָא דְּרַבִּי שִׁמְעוֹן? אָמַר קְרָא ״מִכׇּל הָאֹכֶל אֲשֶׁר יֵאָכֵל״ – אוֹכֶל שֶׁאַתָּה יָכוֹל לְהַאֲכִילוֹ לַאֲחֵרִים – קָרוּי אוֹכֶל, אוֹכֶל שֶׁאֵין אַתָּה יָכוֹל לְהַאֲכִילוֹ לַאֲחֵרִים – אֵין קָרוּי אוֹכֶל.",
+     "en": "<b>Rabbi Asi said</b> that <b>Rabbi Yoḥanan said: What is the reason</b> for the opinion <b>of Rabbi Shimon?</b> The reason is that <b>the verse states</b> with regard to impurity as food: <b>“From all food which may be eaten,</b> that on which water comes shall be impure” (Leviticus 11:34). The phrase “food which may be eaten” indicates that only <b>food that you can feed to others,</b> including gentiles, <b>is called food</b> in this regard, but <b>food that you cannot feed to others,</b> such as the limb and flesh from a living animal, <b>is not called food.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְדִילְמָא טַעְמָא דְּרַבִּי שִׁמְעוֹן בְּהָהִיא",
+     "en": "Rabbi Zeira questioned this explanation of Rabbi Yoḥanan as well, and said to Rabbi Asi: If it is with regard to Rabbi Shimon’s opinion in the middle clause of the mishna, <b>perhaps the reason</b> for the opinion <b>of Rabbi Shimon in that</b> clause is not that food that is forbidden to all is not called food.",
+     "rashi": [
+      "<b>ודלמא</b> — לעולם בני קבולי טומאה נינהו וטעמא דר\"ש אי כדרבא דמפרש לעיל (חולין דף קכז:) טעמא דר\"ש משום דאין בהמה נעשית יד להכשיר האבר אי כדרבי יוחנן דאמר נמי לעיל אין יד להכשר וכשאוחז בקטן ואין גדול עולה עמו פליגי ומשום הכשר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִי כִּדְרָבָא, אִי כִּדְרַבִּי יוֹחָנָן?",
+     "en": "Rather, it is <b>either in accordance with</b> the explanation <b>of Rava or in accordance with</b> the explanation <b>of Rabbi Yoḥanan</b> cited earlier (127b–128a). According to both explanations of Rabbi Shimon’s opinion, the mishna is discussing a case where only the body of the animal, but not the partially severed limb, came into contact with the blood of slaughter. According to Rava, the reason for Rabbi Shimon’s opinion is that the body of the animal serves the partially severed limb as a handle, and he holds that a handle of a food item transmits impurity to the attached food, but a handle that comes into contact with liquid does not render the attached food susceptible to impurity. And according to Rabbi Yoḥanan, Rabbi Shimon holds that if one grasps a small part of a large item such that the large part does not ascend with the small part, the small part is not considered part of the item with regard to impurity (see 127b).",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אֶלָּא, לְעוֹלָם אַסֵּיפָא, וְלָאו אַאֵבֶר, אֶלָּא אַבָּשָׂר. מֵתָה הַבְּהֵמָה – הַבָּשָׂר צָרִיךְ הֶכְשֵׁר, וְרַבִּי שִׁמְעוֹן מְטַהֵר.",
+     "en": "<b>Rather, actually,</b> one must explain the statement of Rabbi Shimon as it was explained originally, that he is referring <b>to the latter clause</b> of the mishna. <b>And</b> he is <b>not</b> referring <b>to</b> the case of a partially severed <b>limb, but rather to</b> the case of partially severed <b>flesh.</b> Therefore, the latter clause of the mishna teaches: If <b>the animal died</b> without slaughter, Rabbi Meir holds that <b>the</b> hanging <b>flesh needs</b> to be <b>rendered susceptible</b> to impurity in order to impart impurity as food, <b>and Rabbi Shimon deems</b> the limb <b>not susceptible to impurity</b> even if it came into contact with liquid.",
+     "rashi": [
+      "<b>אלא לעולם</b> — אי איתמר דר' אסי אסיפא דמתניתין איתמר אמתה הבהמה ור' שמעון מטהר אפילו הוכשר הבשר אין מקבל טומאה וכ\"ש דפליג ארישא כשהן מחוברין ומיהו קרא לא איצטריך ליה אלא משום סיפא דאי משום רישא הא אית ליה טעם אחר כדאמרינן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבִּי יוֹחָנָן: מַאי טַעְמָא דְּרַבִּי שִׁמְעוֹן? אָמַר קְרָא ״מִכׇּל הָאֹכֶל אֲשֶׁר יֵאָכֵל״, אוֹכֶל שֶׁאַתָּה יָכוֹל לְהַאֲכִילוֹ לַאֲחֵרִים – קָרוּי אוֹכֶל, אוֹכֶל שֶׁאִי אַתָּה יָכוֹל לְהַאֲכִילוֹ לַאֲחֵרִים – אֵין קָרוּי אוֹכֶל.",
+     "en": "<b>Rabbi Yoḥanan said: What is the reason</b> for the opinion <b>of Rabbi Shimon?</b> The reason is that <b>the verse states</b> with regard to impurity as food: <b>“From all food which may be eaten,</b> that on which water comes shall be impure” (Leviticus 11:34). The phrase “food which may be eaten” indicates that only <b>food that you can feed to others,</b> including gentiles, <b>is called food</b> with regard to being susceptible to impurity as food, but <b>food that you cannot feed to others,</b> such as flesh from a living animal, which is forbidden even to gentiles, <b>is not called food.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> הָאֵבֶר וְהַבָּשָׂר הַמְדוּלְדָּלִין בְּאָדָם – טְהוֹרִים. מֵת הָאָדָם – הַבָּשָׂר טָהוֹר. הָאֵבֶר מְטַמֵּא מִשּׁוּם אֵבֶר מִן הַחַי, וְאֵינוֹ מְטַמֵּא מִשּׁוּם אֵבֶר מִן הַמֵּת, דִּבְרֵי רַבִּי מֵאִיר. וְרַבִּי שִׁמְעוֹן מְטַהֵר.",
+     "en": "<strong>MISHNA:</strong> <b>The limb and the flesh</b> of a person that were partially severed and remain <b>hanging from a person are ritually pure,</b> although there is no potential for healing. If <b>the person died, the</b> hanging <b>flesh is ritually pure,</b> as its halakhic status is that of flesh severed from a living person. <b>The</b> hanging <b>limb imparts impurity as a limb</b> severed <b>from the living and does not impart impurity as a limb from a corpse;</b> this is <b>the statement of Rabbi Meir. And Rabbi Shimon deems</b> the flesh and the limb <b>ritually pure.</b>",
+     "rashi": [
+      "<b>מתני' המדולדלין באדם טהורים</b> — דכי ימות כתיב:",
+      "<b>מת האדם הבשר</b> — המדולדל טהור דמיתה עושה ניפול ובשר הפורש מן החי טהור וכרבי יהושע ור' נחוניא בן הקנה מיתוקמא דמטהרים לקמן בשר הפורש מאדם חי:",
+      "<b>האבר מטמא משום אבר מן החי כו'</b> — בגמרא מפרש מאי איכא בין אבר מן החי לאבר מן המת אבר מאדם חי מטמא במגע ובמשא ובאהל אבל כזית בשר ועצם כשעורה הפורש מאבר מן החי אינו מטמא ומאבר מן המת מטמא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> וְרַבִּי שִׁמְעוֹן מָה נַפְשָׁךְ? אִי מִיתָה עוֹשָׂה נִיפּוּל – לִיטַמֵּא מִשּׁוּם אֵבֶר מִן הַחַי, וְאִי אֵין מִיתָה עוֹשָׂה נִיפּוּל – לִיטַמֵּא מִשּׁוּם אֵבֶר מִן הַמֵּת!",
+     "en": "<strong>GEMARA:</strong> The Gemara challenges the opinion of Rabbi Shimon in the latter clause of the mishna: <b>Whichever</b> way <b>you</b> look at it, the ruling of <b>Rabbi Shimon</b> is difficult. <b>If death renders</b> a hanging limb <b>fallen off,</b> i.e., if after the person dies the hanging limb is considered to have fallen off his body beforehand, the limb <b>should impart impurity as a limb</b> severed <b>from the living. And if death does not render</b> a hanging limb <b>fallen off,</b> and the limb is considered attached to the body at the time of death, then the limb <b>should impart impurity as a limb from a corpse.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "רַבִּי שִׁמְעוֹן בְּעָלְמָא קָאֵי, דְּקָאָמַר תַּנָּא קַמָּא: הָאֵבֶר מְטַמֵּא מִשּׁוּם אֵבֶר מִן הַחַי וְאֵין מְטַמֵּא מִשּׁוּם אֵבֶר מִן הַמֵּת, אַלְמָא אֵבֶר הַמֵּת בְּעָלְמָא מְטַמֵּא, וַאֲמַר לֵיהּ רַבִּי שִׁמְעוֹן: אֵבֶר הַמֵּת בְּעָלְמָא לֹא מְטַמֵּא.",
+     "en": "The Gemara explains: This statement of Rabbi Shimon is not referring directly to the case in the mishna. Rather, the statement of <b>Rabbi Shimon is referring</b> to the matter of a limb that separates from a corpse <b>in general.</b> Rabbi Shimon inferred from <b>that which the first <i>tanna</i>,</b> Rabbi Meir, <b>said: The</b> hanging <b>limb imparts impurity as a limb</b> severed <b>from the living and does not impart impurity as a limb from a corpse,</b> that <b>evidently, in general the limb of a corpse imparts impurity. And</b> in reference to this <b>Rabbi Shimon said to him: In general, the limb of a corpse does not impart impurity,</b> if it does not contain an olive-bulk of flesh.",
+     "rashi": [
+      "<b>גמ' בעלמא קאי</b> — ואפילו אאבר מן המת דעלמא פליגי דלא מטמא אלא אם כן יש בו כזית בשר דמטמא משום בשר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דְּתַנְיָא: אָמַר רַבִּי אֱלִיעֶזֶר: שָׁמַעְתִּי שֶׁאֵבֶר מִן הַחַי מְטַמֵּא. אָמַר לוֹ רַבִּי יְהוֹשֻׁעַ: מִן הַחַי וְלֹא מִן הַמֵּת? וְקַל וָחוֹמֶר – וּמָה חַי שֶׁהוּא טָהוֹר, אֵבֶר הַפּוֹרֵשׁ מִמֶּנּוּ טָמֵא; מֵת שֶׁהוּא טָמֵא, לֹא כׇּל שֶׁכֵּן?",
+     "en": "Another pair of <i>tanna’im</i> had the same dispute as Rabbi Meir and Rabbi Shimon, <b>as it is taught</b> in a <i>baraita</i>: <b>Rabbi Eliezer says: I heard that a limb</b> severed <b>from the living imparts impurity. Rabbi Yehoshua said to him:</b> May one infer from this statement that a limb <b>from a living</b> person imparts impurity <b>but</b> a limb <b>from a corpse does not?</b> But it can be inferred <b><i>a fortiori</i></b> that a limb from a corpse imparts impurity: <b>If</b> with regard to <b>a living</b> person, <b>who is pure</b> and does not impart impurity, nevertheless <b>a limb that separates from him is impure,</b> then with regard to <b>a corpse, which is impure, all the more so</b> is it <b>not</b> clear that the limb that separates from it is impure?",
+     "rashi": [
+      "<b>א\"ל ר' יהושע</b> — וכי מפני ששמעת מן החי סבור אתה לומר מן החי דוקא ולא מת בתמיה והלא כתיב במגילת תענית פסחא זעירא כו' פסח שני שבאייר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כָּתוּב בִּמְגִילַּת תַּעֲנִית: ״פִּסְחָא זְעִירָא דְּלָא לְמִסְפַּד״, הָא רַבָּה לְמִסְפַּד?! אֶלָּא כָּל דְּכֵן! הָכָא נָמֵי, כׇּל דְּכֵן! אֲמַר לֵיהּ: כָּךְ שָׁמַעְתִּי.",
+     "en": "Furthermore, Rabbi Yehoshua adds that <b>it is written in <i>Megillat Ta’anit</i>:</b> On <b>Minor Passover,</b> i.e., the fourteenth of Iyyar, <b>one does not eulogize.</b> Should one infer from here <b>that</b> on <b>Major</b> Passover, i.e., the fourteenth of Nisan, it is permitted <b>to eulogize?</b> Clearly that is not the case. <b>Rather,</b> if one may not eulogize on the fourteenth of Iyyar, <b>all the more so</b> one may not eulogize on the fourteenth of Nisan. <b>Here too,</b> if a limb from a living person is impure, <b>all the more so</b> a limb from a corpse is impure. Rabbi Eliezer <b>said to him:</b> Despite this reasoning, <b>such</b> is the ruling <b>I heard</b> from my teachers.",
+     "rashi": [
+      "<b>הא רבה</b> — פסח ניסן:",
+      "<b>למספד</b> — בתמיה:",
+      "<b>ה\"נ כל דכן</b> — שמעת:",
+      "<b>א\"ל כך שמעתי</b> — שאבר מן החי מטמא ולא אבר מן המת:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּמַאי אִיכָּא בֵּין אֵבֶר מִן הַחַי לְאֵבֶר מִן הַמֵּת? כְּזַיִת בָּשָׂר וְעֶצֶם כִּשְׂעוֹרָה הַפּוֹרֵשׁ מֵאֵבֶר מִן הַחַי אִיכָּא בֵּינַיְיהוּ.",
+     "en": "§The mishna teaches that Rabbi Meir holds that with regard to a partially severed limb of a person, after the person dies the limb imparts impurity as a limb from a living person but not as a limb from a corpse. The Gemara asks: <b>What</b> difference <b>is there between</b> the impurity of <b>a limb from a living</b> person <b>and</b> the impurity of <b>a limb from a corpse?</b> The Gemara answers: The practical difference <b>between them</b> is with regard to the case of <b>an olive-bulk of flesh, or a bone</b> the volume of <b>a barley grain, that separates from</b> the severed <b>limb of a living</b> person.",
+     "rashi": [
+      "<b>ה\"ג ומאי איכא בין אבר מן החי לאבר מן המת</b> — ואמתניתין קאי:",
+      "<b>כזית בשר ועצם כשעורה הפורש מאבר מן החי איכא בינייהו</b> — תנא דמתניתין סבירא ליה כר' יהושע דמטהר לקמן בין בבשר הפורש בין בעצם הפורש מן החי דהא מתניתין ר' יהושע היא דמטמא באבר מן המת הילכך בבשר מן החי ובעצם מן החי שאינו אבר נמי כרבי יהושע סבירא ליה. טעמא דרבי אליעזר ור' יהושע ור' נחוניא מפרש בעדיות (פ\"ו מ\"ג) מה ראה כל אחד לטמא בזה ולטהר בזה ומה ראה ר' יהושע לטהר בשניהם דתנן התם אמרו לו לר' אליעזר השוה מדותיך או תטמא בשניהם או תטהר בשניהם אמר להם מרבה אני טומאת בשר מטומאת עצמות שהבשר נוהג בנבלות ובשרצים מה שאין כן בעצמות אמרו לו לר' נחוניא השוה מדותיך אמר להם מרבה אני טומאת עצמות מטומאת בשר שהבשר הפורש מן החי טהור ואבר הפורש ממנו והוא כברייתו טמא אמרו לו לר' יהושע מה ראית לטהר בשניהם והא שניהם במת טמאין אמר להם לא אם אמרתם במת שהרי יש בו רובע ורוב ורקב דרובע הקב עצמות מת טמאים באהל ורוב בניינו או רוב מניינו מטמא ומלא תרווד רקב מטמא באהל תאמרו בחי שאין בו רובע ורוב ורקב כו':"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "דִּתְנַן: כְּזַיִת בָּשָׂר הַפּוֹרֵשׁ מֵאֵבֶר מִן הַחַי – רַבִּי אֱלִיעֶזֶר מְטַמֵּא, וְרַבִּי נְחוּנְיָא בֶּן הַקָּנָה וְרַבִּי יְהוֹשֻׁעַ מְטַהֲרִין. עֶצֶם כִּשְׂעוֹרָה הַפּוֹרֵשׁ מֵאֵבֶר מִן הַחַי – רַבִּי נְחוּנְיָא מְטַמֵּא, רַבִּי אֱלִיעֶזֶר וְרַבִּי יְהוֹשֻׁעַ מְטַהֲרִין.",
+     "en": "<b>As we learned</b> in a mishna (<i>Eduyyot</i> 6:3): In the case of <b>an olive-bulk of flesh that separates from a limb</b> severed <b>from a living</b> person, <b>Rabbi Eliezer deems</b> it <b>impure, and Rabbi Neḥunya ben HaKana and Rabbi Yehoshua deem</b> it <b>pure.</b> In the case of <b>a bone</b> the volume of <b>a barley-grain that separates from a limb</b> severed <b>from a living</b> person, <b>Rabbi Neḥunya deems</b> it <b>impure, and Rabbi Eliezer and Rabbi Yehoshua deem</b> it <b>pure.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>כזית בשר הפורש מאבר מן החי ר' אליעזר מטמא</b> — לכאורה נראה דאבר האדם מן החי מבנין אב דשרצים ובהמה אתי אבל במשנה לא משמע כן מדאמרו ליה לר' אליעזר השוה מדותיך וקא יהיב טעמא אמאי מרבה בשר וממעט עצם וצריך לומר מקרא אחד דרשינן מר מוקי ליה בבשר ומר מוקי ליה בעצם כדיהיב טעמא ומר דריש לדרשא אחרינא אבל אי מבניינא דשרצים ודבהמה אתי אמאי אמרו ליה לר' אליעזר מאי טעמא מרבה בשר וממעט עצם:"
+     ]
+    },
+    {
+     "he": "הַשְׁתָּא דְּאָתֵית לְהָכִי, בֵּין תַּנָּא קַמָּא לְרַבִּי שִׁמְעוֹן נָמֵי, כְּזַיִת בָּשָׂר וְעֶצֶם כִּשְׂעוֹרָה אִיכָּא בֵּינַיְיהוּ.",
+     "en": "The Gemara comments: <b>Now that you have arrived at this</b> dispute between <i>tanna’im</i>, it is possible to say that the difference <b>between the first <i>tanna</i></b> in the mishna, i.e., Rabbi Meir, <b>and Rabbi Shimon</b> is <b>also</b> with regard to the cases of <b>an olive-bulk of flesh and a bone</b> the size of <b>a barley grain.</b> Rabbi Meir states that the partially severed limb of a person imparts the impurity of a limb from a living person but not the impurity of a limb from a corpse. The difference between these two types of impurity is with regard to a case where either an olive-bulk of flesh or a bone the size of a barley grain was separated from the severed limb; Rabbi Neḥunya holds that flesh that separated from a limb of a living person is pure, but a bone that separated from a limb of a living person is impure, and Rabbi Eliezer holds vice versa. Rabbi Meir consequently holds in accordance with one of these two opinions. Rabbi Shimon holds in accordance with the opinion of Rabbi Yehoshua that both a bone and flesh that separated from a limb of a living person are pure.",
+     "rashi": [
+      "<b>השתא דאתית להכי</b> — דאדכרתן עצם כשעורה ובשר הפורש מהשתא אימא לך דר\"ש לאו אאבר מן המת פליג אלא בין תנא קמא לר\"ש דמתניתין נמי כזית בשר ועצם כשעורה איכא בינייהו בהא פליגי אם אבר מן החי חלוק מאבר מן המת בשתיהן או באחת מהן דלתנא קמא אינו חלוק אלא באחת מהן דת\"ק סבר אי כרבי אליעזר דמטמא בבשר הפורש מאבר מן החי ובעצם כשעורה הפורש ממנו מטהר אי כר' נחוניא דאמר איפכא והכי קאמר האבר טמא משום אבר מן החי ובשר הפורש ממנו טמא והעצם טהור כר' אליעזר או העצם טמא והבשר טהור כרבי נחוניא ולא משום אבר מן המת דשניהם טמאין בו ור' שמעון מטהר בין בעצם בין בבשר הפורש ממנו דסבר כר' יהושע דמטהר בשניהם אבל אבר עצמו ה\"נ דמטמא לר\"ש:"
+     ],
+     "tosafot": [
+      "<b>בין תנא קמא לר' שמעון נמי כזית בשר ועצם כשעורה איכא בינייהו</b> — פירוש או עצם כשעורה דהא תרוייהו ליכא למימר לת\"ק טמא דאם כן מאי איכא בין אבר מן המת לאבר מן החי:"
+     ]
+    },
+    {
+     "he": "<strong><big>הֲדַרַן עֲלָךְ הָעוֹר וְהָרוֹטֶב.</big></strong>",
+     "en": "",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}

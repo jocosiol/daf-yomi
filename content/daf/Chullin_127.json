@@ -1,0 +1,397 @@
+{
+ "tractate": "Chullin",
+ "page": 127,
+ "fetched": "2026-08-30",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 127a",
+   "he_ref": "חולין קכ״ז.",
+   "url": "https://www.sefaria.org/Chullin.127a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=127&amud=a",
+   "segments": [
+    {
+     "he": "תַּלְמוּד לוֹמַר ״הַשּׁוֹרֵץ״ – כׇּל מָקוֹם שֶׁשּׁוֹרֵץ.",
+     "en": "Therefore, <b>the verse states: “That creep,”</b> indicating that creeping animals impart impurity <b>anywhere that</b> they <b>creep,</b> including the sea, as these animals can float in the sea. Consequently, the phrase “upon the earth” is understood as indicating that a sea mouse does not impart impurity.",
+     "rashi": [
+      "<b>ת\"ל השורץ</b> — הוה ליה למימר וזה לכם הטמא בשרץ הארץ וכתיב בשרץ השורץ על הארץ אייתר ליה השורץ לדרוש כל מקום שהוא יכול לשרוץ לרחוש ולנוע והרי אף בים הוא שט שמינו עכבר הארץ הלכך ע\"כ על הארץ למין הארץ הוא דאתא ולאו למעוטי ירד לים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אוֹ אֵינוֹ אֶלָּא ״הַשּׁוֹרֵץ״ – יָכוֹל כׇּל הַמַּשְׁרִיץ יְטַמֵּא, שֶׁאֵין מַשְׁרִיץ לֹא יְטַמֵּא? אוֹצִיא עַכְבָּר שֶׁחֶצְיוֹ בָּשָׂר וְחֶצְיוֹ אֲדָמָה, שֶׁאֵין פָּרֶה וְרָבֶה.",
+     "en": "The <i>baraita</i> raises an alternative interpretation: <b>Or</b> perhaps the term <b>“that creep [<i>hashoretz</i>]”</b> should <b>not</b> be interpreted in this manner, as it <b>could rather</b> be interpreted to mean that <b>any</b> creeping animal <b>that breeds [<i>hammashritz</i>] imparts impurity,</b> but a creeping animal <b>that does not breed does not impart impurity. I shall</b> therefore <b>exclude a mouse that is half</b>-<b>flesh half-earth,</b> i.e., that generates spontaneously from the earth, <b>as it does not breed</b> and therefore does not impart impurity.",
+     "rashi": [
+      "<b>או אינו</b> — אומר השורץ לדרשה זו אלא למעוטי עכבר הנוצר מאדמה:",
+      "<b>שאין פרה ורבה</b> — כלומר שלא היה מפריה ורביה של עכבר לפי שנוצר מאליו הואיל שאינו משריץ טהור דהאי שורץ לשון פרו וישרצו הוא (שמות א) ולא לשון ריחוש וניענוע ולעולם ירד לים לא יטמא דהכי קאמר על הארץ ואפילו עכבר הים ירד לים לא יטמא ואפילו של יבשה והשורץ ופרה ורבה יטמא שאינו שורץ לא יטמא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְדִין הוּא: טִימֵּא בְּחוּלְדָּה וְטִימֵּא בְּעַכְבָּר, מָה חוּלְדָּה – כֹּל שֶׁשְּׁמָהּ חוּלְדָּה, אַף עַכְבָּר – כֹּל שֶׁשְּׁמוֹ עַכְבָּר, אָבִיא עַכְבָּר שֶׁחֶצְיוֹ בָּשָׂר וְחֶצְיוֹ אֲדָמָה.",
+     "en": "<b>But</b> ostensibly, the <i>halakha</i> of a mouse that is half-flesh half-earth is subject to <b>logical inference:</b> Since the verse <b>deems a weasel impure and deems a mouse impure,</b> then <b>just as “weasel”</b> is referring to <b>any</b> animal <b>whose name is weasel, so too, “mouse”</b> is referring to <b>any</b> animal <b>whose name is mouse, even a mouse that is half-flesh half-earth.</b>",
+     "rashi": [
+      "<b>ודין הוא</b> — דלא נימעטיה מכלל טומאה ולא נדרוש הכי דהא טימא כל ששמו עכבר וניחא ליה למדרש השורץ לרבויי ירד לים ולא למעוטי האי. ולקמיה פריך הא מטהר עכבר הים ממיעוטא דעל הארץ ומאי חזית דמיעוטא לעכבר הים ורבוי לירד לים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אוֹ כְּלָךְ לְדֶרֶךְ זוֹ: מָה חוּלְדָּה פָּרָה וְרָבָה, אַף עַכְבָּר פָּרֶה וְרָבֶה? תַּלְמוּד לוֹמַר ״בַּשֶּׁרֶץ״.",
+     "en": "<b>Or</b> perhaps <b>go this way:</b> One might think that <b>just as a weasel breeds, so too, “mouse”</b> is referring to a mouse that <b>breeds,</b> excluding one that generates from the earth, which does not impart impurity. Therefore, <b>the verse states:</b> “And these are they which are impure to you <b>among the creeping animals</b> that creep upon the earth.” The term “among the creeping animals” is interpreted as including a spontaneously generated mouse. Therefore, the term “that creep” is interpreted as indicating that creeping animals impart impurity on land and in the sea, and the phrase “upon the earth” teaches that a sea mouse is not included in the category of mouse and does not impart impurity.",
+     "rashi": [
+      "<b>בשרץ</b> — קרא יתירא הוא דהא כתיב בתרוייהו אלה הטמאים לכם בכל השרץ:"
+     ],
+     "tosafot": [
+      "<b>תלמוד לומר בשרץ</b> — וא\"ת למה לי קרא דבשרץ ממילא כיון דאיכא לאקושי לקולא ולחומרא לחומרא מקשינן דהא לעיל אי לא על הארץ למעוטי עכבר שבים הוה אזלינן לחומרא ואומר רבינו יצחק דאצטריך בשרץ לעכבר שחציו בשר וחציו אדמה משום דהשורץ משמע טפי כל שהוא משריץ:"
+     ]
+    },
+    {
+     "he": "אֲמַר לֵיהּ הָהוּא מִדְּרַבָּנַן לְרָבָא: אֵימָא ״בַּשֶּׁרֶץ״, לְאֵתוֹיֵי עַכְבָּר שֶׁחֶצְיוֹ בָּשָׂר וְחֶצְיוֹ אֲדָמָה, ״הַשּׁוֹרֵץ״ – כֹּל שֶׁהוּא שׁוֹרֵץ, וַאֲפִילּוּ עַכְבָּר שֶׁבַּיָּם, וְאִי מִשּׁוּם ״עַל הָאָרֶץ״ – עַל הָאָרֶץ יְטַמֵּא, יָרַד לַיָּם – לֹא יְטַמֵּא.",
+     "en": "<b>One of the Sages said to Rava: Say</b> the interpretation of the verse differently. The term <b>“among the creeping animals”</b> serves <b>to include a mouse that is half-flesh half-earth</b> among those that impart impurity. The term <b>“that creep”</b> teaches that <b>any</b> animal <b>that creeps</b> imparts impurity, <b>and even a sea mouse. And if</b> one should reject this interpretation <b>due to</b> the phrase <b>“upon the earth,”</b> which seems to indicate that a sea mouse does not impart impurity, that phrase teaches that a creeping animal <b>imparts impurity</b> only when it is <b>on land,</b> but if it <b>descended to the sea</b> it <b>does not impart impurity.</b>",
+     "rashi": [
+      "<b>ואימא השורץ</b> — לא דרשינן ליה הכי כל מקום שהוא רוחש ולרבות עכבר הארץ שירד לים אלא הכי דרשינן השורץ כל שהוא פרה ורבה לרבות עכבר הים ומיעוט דעל הארץ דמשמע על הארץ יטמא ולאו שרץ הים אתא לאורויי דאחד זה ואחד זה על הארץ יטמאו ירדו לים אין מטמאין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲמַר לֵיהּ: וּמֵאַחַר דְּשַׁוִּיתֵיהּ לְיָם מְקוֹם טוּמְאָה, מָה לִי הָכָא, מָה לִי הָכָא.",
+     "en": "Rava <b>said to him:</b> Your suggestion is not logical. According to your opinion, a sea mouse, which is in the sea, imparts impurity. <b>And since you consider the sea a location of impurity,</b> it is impossible to suggest that a mouse does not impart impurity when it is located in the sea. Since both land and sea are places of impurity, <b>what</b> difference does it make <b>for me</b> if the mouse is located <b>here</b> on land, and <b>what</b> difference does it make <b>for me</b> if it is located <b>there</b> in the sea?",
+     "rashi": [
+      "<b>א\"ל ומאחר דשויתיה לים מקום טומאה</b> — דמרבית מין הים לטומאה:",
+      "<b>מה לי</b> — בעודו בים מה לי יצא לחוץ אין נוח לדרוש המקראות במדה זו אלא לומר דבר המקובל:"
+     ],
+     "tosafot": [
+      "<b>מה לי הכא ומה לי הכא</b> — ומ\"מ אצטריך השורץ כל מקום ששורץ דלא נמעט מעל הארץ תרוייהו ירד לים ועכבר שבים:"
+     ]
+    },
+    {
+     "he": "וְהַאי ״עַל הָאָרֶץ״ מִיבְּעֵי לֵיהּ לְהוֹצִיא סְפֵק טוּמְאָה צָפָה, דְּאָמַר רַב יִצְחָק בַּר אַבְדִּימִי: ״עַל הָאָרֶץ״ – לְהוֹצִיא סְפֵק טוּמְאָה צָפָה!",
+     "en": "The Gemara asks: How can the <i>baraita</i> interpret the phrase “upon the earth” as teaching that a sea mouse does not impart impurity? Isn’t <b>this</b> phrase: <b>“Upon the earth,” necessary to exclude</b> a case of <b>uncertainty</b> involving <b>a floating</b> source of <b>impurity?</b> If a person is uncertain whether he touched a source of impurity that is floating in the water, he remains pure even if the incident took place in a private domain, where a case of uncertain impurity is generally deemed impure. <b>As Rav Yitzḥak bar Avdimi said:</b> The phrase <b>“upon the earth”</b> is written <b>to exclude</b> a case of <b>uncertainty</b> involving <b>a floating</b> source of <b>impurity.</b>",
+     "rashi": [
+      "<b>ופרכינן האי על הארץ מיבעי ליה להוציא ספק טומאה צפה</b> — שרץ מת צף על המים ספק נגע ספק לא נגע אף ברשות היחיד ספקו טהור ומהאי קרא נפקא לן בפרק בתרא דנזיר (דף סד.) כתיב השרץ כל מקום ששורץ ואפילו על המים וכתיב על הארץ הא כיצד כאן בטומאת ודאי כאן בטומאת ספק:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תַּרְתֵּי ״עַל הָאָרֶץ״ כְּתִיבִי.",
+     "en": "The Gemara answers: The phrase <b>“upon the earth” is written two</b> times in the passage. One instance is written to exclude a case of uncertainty involving a source of impurity that is floating, and the other instance teaches that a sea mouse does not impart impurity.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּנוּ רַבָּנַן: ״הַצָּב לְמִינֵהוּ״ – לְהָבִיא הֶעָרוֹד, וְכֵן הַנְּפִילִים וְסָלָמַנְדְּרָא.",
+     "en": "§With regard to the topic of the eight creeping animals mentioned in the Torah, <b>the Sages taught</b> in a <i>baraita</i>: The verse: <b>“The great lizard after its kinds”</b> (Leviticus 11:29) <b>includes</b> in the category of creeping animals <b>the <i>arvad</i>,</b> a type of snake, <b>and also</b> the creeping animals called <b><i>nefilim</i> and salamander [<i>salamandera</i>].</b>",
+     "rashi": [
+      "<b>ערוד</b> — מן הצב ומן הנחש הוא בא כדלקמן:",
+      "<b>וכן הנפילים</b> — שרץ מין צב:",
+      "<b>וסלמנדרא</b> — שרץ הנוצר מן האור מעצי הדס על ידי כשפים והסך מדמו אין האור שולט בו וקים ליה לר\"ע דמינא דצב הוא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּכְשֶׁהָיָה רַבִּי עֲקִיבָא מַגִּיעַ לְפָסוּק זֶה, אוֹמֵר: ״מָה רַבּוּ מַעֲשֶׂיךָ ה׳״! יֵשׁ לְךָ בְּרִיּוֹת גְּדֵלוֹת בַּיָּם, וְיֵשׁ לְךָ בְּרִיּוֹת גְּדֵלוֹת בַּיַּבָּשָׁה. שֶׁבַּיָּם – אִילְמָלֵי עוֹלוֹת (בַּיַּבָּשָׁה) [לַיַּבָּשָׁה] מִיָּד מֵתוֹת, שֶׁבַּיַּבָּשָׁה – אִילְמָלֵי יוֹרְדוֹת לַיָּם מִיָּד מֵתוֹת.",
+     "en": "Apropos the salamander, which was thought to generate from fire, the <i>baraita</i> continues: <b>When Rabbi Akiva would reach this verse</b> in Leviticus, he would <b>say</b> in exclamation: <b>“How great are Your works, O Lord”</b> (Psalms 104:24). <b>You have creatures</b> that <b>grow in the sea and you have creatures</b> that <b>grow on land. If those in the sea would ascend to the land they would immediately die. If those that are on land would descend to the sea they would immediately die.</b>",
+     "rashi": [
+      "<b>לפסוק זה</b> — משום דמיירי בסלמנדרא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "יֵשׁ לְךָ בְּרִיּוֹת גְּדֵלוֹת בָּאוּר, וְיֵשׁ לְךָ בְּרִיּוֹת גְּדֵלוֹת בָּאֲוִיר. שֶׁבָּאוּר – אִילְמָלֵי עוֹלוֹת לָאֲוִיר מִיָּד מֵתוֹת, שֶׁבָּאֲוִיר – אִילְמָלֵי יוֹרְדוֹת לָאוּר מִיָּד מֵתוֹת. ״מָה רַבּוּ מַעֲשֶׂיךָ ה׳״.",
+     "en": "Similarly, <b>you have creatures</b> that <b>grow in the fire and you have creatures</b> that <b>grow in the air. If those in the fire would ascend to the air they would immediately die. If those in the air would descend to the fire they would immediately die.</b> Therefore, <b>“how great are Your works, O Lord.”</b>",
+     "rashi": [
+      "<b>יש לך בריות גדלות באור</b> — סלמנדרא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּנוּ רַבָּנַן: כֹּל שֶׁיֵּשׁ בַּיַּבָּשָׁה יֵשׁ בַּיָּם, חוּץ מִן הַחוּלְדָּה. אָמַר רַבִּי זֵירָא: מַאי קְרָאָה? ״הַאֲזִינוּ כׇּל יֹשְׁבֵי חָלֶד״.",
+     "en": "§The Gemara continues to discuss creatures living in a particular environment. <b>The Sages taught</b> in a <i>baraita</i> (<i>Tosefta</i>, <i>Kilayim</i> 5:10): For <b>every</b> animal <b>that exists on land there is</b> an equivalent animal <b>in the sea, except for the weasel,</b> which exists only on land. <b>Rabbi Zeira said: What is the verse</b> from which it is derived? It is written: <b>“Listen all you inhabitants of the world [<i>ḥeled</i>]”</b> (Psalms 49:2). Dry land is called <i>ḥeled</i> because it is the sole habitat for the weasel [<i>ḥulda</i>].",
+     "rashi": [
+      "<b>יושבי חלד</b> — יושבי הארץ שהוא מקום מיושב לחולדות:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב הוּנָא בְּרֵיהּ דְּרַב יְהוֹשֻׁעַ: בִּיבְרֵי דְּנָרֶשׁ אֵינָן מִן הַיִּשּׁוּב.",
+     "en": "In continuation of the discussion of creatures living in a particular environment, <b>Rav Huna the son of Rav Yehoshua said: The beavers</b> of the region <b>of Neresh are not from the settled area,</b> because they live only in the water and not on dry land. Consequently, one who eats their meat is not liable to receive lashes for violating the prohibition: “And every creeping animal that creeps upon the earth is a detestable thing; it shall not be eaten” (Leviticus 11:41).",
+     "rashi": [
+      "<b>ביברי דנרש</b> — חיות המצויות באותו מקום ביברונ\"ש בלע\"ז:",
+      "<b>אינן מן הישוב</b> — אינן גדלות אלא במים:"
+     ],
+     "tosafot": [
+      "<b>הני ביברי דנרש אינן מן הישוב</b> — פירש בקונטרס ביברונ\"ש בלע\"ז שאין לוקים עליהן משום השרץ השורץ שהן גדלות במים ור\"ת אומר דגרסינן ביברי ונרש ועיירות הן כדמשמע בכיצד מעברין (עירובין דף נו.) הני מעלות ומורדות דביברי ונרש אזקינן ובפ\"ק דסוטה (דף י.) גבי וירד שמשון תמנתה ויעל יהודה תמנתה אמר רב פפא חדא תמנת הואי דמהאי גיסא סלקי ומהאי נחתי כמו [שם] ורדיניא וביברי [ושוקא] דנרש וקאי הכא אקרא דאייתי לעיל האזינו כל יושבי חלד וקאמר דהני אינן מן הישוב כלומר בכלל יושבי חלד כי רשעים הם וכיוצא בזה אמר פ\"ק דקדושין (דף מ:) כל שאינו לא במקרא ולא במשנה ולא בדרך ארץ אינו מן הישוב והיינו דאמר רב פפא בסמוך בשמתא נרש כו':"
+     ]
+    },
+    {
+     "he": "אָמַר רַב פָּפָּא: בְּשַׁמְתָּא נָרֶשׁ, תַּרְבֵּיהּ מַשְׁכֵּיהּ וְאַלְיְתֵיהּ. ״אֶרֶץ אֶרֶץ אָרֶץ שִׁמְעִי דְּבַר ה׳״ – אָמַר רַב פָּפָּא: לֹא אָבָה נָרֶשׁ שְׁמוֹעַ דְּבַר ה׳.",
+     "en": "§Apropos the region surrounding Neresh, <b>Rav Pappa said:</b> The people of the city of <b>Neresh</b> shall be placed <b>under excommunication,</b> as they are all wicked, including <b>its fat, its hide, and its tail,</b> i.e., all types of people, both old and young. The Gemara continues to discuss Neresh. The verse states: <b>“Oh land, land, land hear the word of the Lord”</b> (Jeremiah 22:29). <b>Rav Pappa said:</b> This verse is appropriate with regard to the inhabitants of Neresh, as <b>Neresh does not want to listen to the word of the Lord.</b>",
+     "rashi": [
+      "<b>בשמתא נרש</b> — כלומר כל יושביה רשעים כולם יהיו בשמתא:",
+      "<b>תרביה משכיה ואליתיה</b> — החלב והעור עם הבשר והאליה כלומר כולן כקטן כגדול:",
+      "<b>לא אבה נרש כו'</b> — לפי שכולן היו רשעים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב גִּידֵּל, אָמַר רַב: נַרְשָׁאָה נַשְּׁקָיךְ – מָנֵי כַּכָּיךְ; נְהַר פְּקוֹדָאָה לַוְיָיךְ – מִגְּלִימָא שַׁפִּירָא דְּחָזֵי עֲלָךְ; פּוּמְבְּדִיתָאָה לַוְיָיךְ – אַשְׁנִי אוּשְׁפִּיזָךְ.",
+     "en": "Furthermore, <b>Rav Giddel said</b> that <b>Rav said:</b> If <b>a resident of Neresh kisses you, count your teeth</b> to make sure he did not steal one. And if <b>a resident of</b> the city of <b>Nehar Pekod accompanies you</b> on a journey, it is <b>because of the beautiful jacket that he sees on you</b> and wants to steal from you. If <b>a resident of Pumbedita accompanies you</b> on a journey, <b>change your lodging place</b> because there is a concern that he will rob you.",
+     "rashi": [
+      "<b>נרשאה נשקיך מני ככיך</b> — אם נשקך אחד מיושבי נרש מנה שניך אם תמצאם כולם כי מוחזק גנב הוא:",
+      "<b>נהר פקודאה</b> — אם מיושבי נהר פקוד:",
+      "<b>לוייך</b> — נתלוה עמך בדרך:",
+      "<b>מגלימא שפירא דחזי עלך</b> — מחמת שראה לך טלית נאה ודעתו לגונבו נתחבר עמך:",
+      "<b>אשני אושפיזך</b> — שלא ידע היכן תשכב שגנבים מומחין הם:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב הוּנָא בַּר תּוֹרְתָּא: פַּעַם אַחַת הָלַכְתִּי לַוַּועַד, וְרָאִיתִי נָחָשׁ שֶׁהוּא כָּרוּךְ עַל הַצָּב, לְיָמִים יָצָא עַרְוָד מִבֵּינֵיהֶם.",
+     "en": "§The Gemara returns to discussing different types of creatures. <b>Rav Huna bar Torta said: Once I went to</b> the city of <b>Va’ad and I saw</b> that the locals were in the practice of placing <b>a snake wrapped around a great lizard</b> in order to breed the two. <b>After a period of time, an <i>arvad</i>,</b> a snake that bites and kills people, <b>emerged from between them.</b>",
+     "rashi": [
+      "<b>לוועד</b> — מקום רשעים ומרביעי כלאים:",
+      "<b>כרוך על הצב</b> — כל שעה היה מצוי אצלו והיה נזקק עמו כדאמרינן בקדושין (דף עט:) בכרוכין אחריה ובבכורות (דף כד.) חזיר שכרוך אחר רחל כלומר נמשך ושוכן אצלו תמיד:",
+      "<b>יצא ערוד מביניהם</b> — והיה נושך בני אדם וממית כדאמרינן בברכות (דף לג.) גבי ערוד דרבי חנינא בן דוסא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּכְשֶׁבָּאתִי לִפְנֵי רַבִּי שִׁמְעוֹן הֶחָסִיד, אָמַר לִי: אָמַר הַקָּדוֹשׁ בָּרוּךְ הוּא: הֵם הֵבִיאוּ בְּרִיָּה שֶׁלֹּא בָּרָאתִי בְּעוֹלָמִי, אַף אֲנִי אָבִיא עֲלֵיהֶם בְּרִיָּה שֶׁלֹּא בָּרָאתִי בְּעוֹלָמִי.",
+     "en": "<b>And when I came before Rabbi Shimon the Righteous, he</b> explained why this crossbreeding created an <i>arvad</i> and <b>said to me: The Holy One, Blessed be He, said:</b> These residents of Va’ad <b>caused the emergence of a creature that I did not create in My world</b> by crossbreeding a snake and a great lizard; <b>so too, I will bring upon them</b> a punishment, the hazard of this uniquely dangerous <b>creature that I did not create in My world,</b> i.e., an <i>arvad</i>.",
+     "rashi": [
+      "<b>אנשי וועד הן הביאו כו'</b> — מזווגי כלאים היו:",
+      "<b>אף אני אביא עליהם בריה כו'</b> — והיינו ערוד:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהָאָמַר מָר: כֹּל שֶׁתַּשְׁמִישָׁן וְעִיבּוּרָן שָׁוֶה – יוֹלְדִין וּמְגַדְּלִין זֶה מִזֶּה, וְכֹל שֶׁאֵין תַּשְׁמִישָׁן וְעִיבּוּרָן שָׁוֶה – אֵין יוֹלְדִין וּמְגַדְּלִין זֶה מִזֶּה.",
+     "en": "The Gemara objects: <b>But didn’t the Master say: All</b> different animals <b>whose</b> method of <b>procreation and</b> period of <b>gestation are the same</b> are able to <b>reproduce and raise offspring together. But all</b> animals <b>whose</b> method of <b>procreation and</b> period of <b>gestation are not the same cannot reproduce and raise offspring together.</b> And the gestation period for a great lizard and a snake are not equal.",
+     "rashi": [
+      "<b>תשמישן שוה</b> — שמשמשין שניהם פנים כנגד פנים כגון אדם או פנים כנגד עורף כגון בהמה:",
+      "<b>ועיבורן</b> — ימי עיבור:",
+      "<b>יולדים זה מזה</b> — מתעברים זה מזה:",
+      "<b>ומגדלין</b> — מניקים זה בנו של זה. וימי עיבורו של נחש אינו שוה לא לשרץ ובהמה וחיה כדאמרינן בפ\"ק דבכורות (דף ח.) שועל וכל מיני שרצים לששה חדשים ונחש לשבע שנים ואמרינן התם ולאותו רשע נחש לא מצינו חבר והיאך יצא אותו ערוד מצב ומנחש:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַב: נֵס בְּתוֹךְ נֵס! הַאי פּוּרְעֲנוּתָא הוּא? מַאי נֵס בְּתוֹךְ נֵס – לְפוּרְעָנוּת.",
+     "en": "<b>Rav says:</b> It was <b>a miracle within a miracle</b> that they were able to reproduce and a new creature was born. The Gemara asks: Why is <b>this</b> considered a miracle? <b>It was a calamity</b> because an <i>arvad</i> was born. The Gemara answers: <b>What</b> is meant by <b>a miracle within a miracle?</b> It was a miraculous <b>calamity</b> for the wicked people, to punish them for their actions.",
+     "rashi": [
+      "<b>נס בתוך נס לפורענות</b> — כדי ליפרע מן הרשעים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>מַתְנִי׳</big></strong> הָאֵבֶר וְהַבָּשָׂר הַמְדוּלְדָּלִין בַּבְּהֵמָה, מְטַמְּאִין טוּמְאַת אֳכָלִין בִּמְקוֹמָן, וּצְרִיכִין הֶכְשֵׁר.",
+     "en": "<strong>MISHNA:</strong> <b>The limb</b> of an animal, with flesh, sinews, and bones, <b>and the flesh</b> of an animal, <b>that were</b> partially severed and remain <b>hanging from the animal</b> do not have the halakhic status of a limb severed from a living animal, which imparts impurity like an unslaughtered carcass, or of flesh severed from a living animal, which is ritually pure, respectively. If one had intent to eat the limb or the flesh, the limb or flesh becomes impure if it comes in contact with a source of impurity, and they <b>impart impurity as food</b> to other foods and liquids, although they remain <b>in their place</b> attached to the animal. <b>But</b> in order for them to become impure, <b>they need</b> to be <b>rendered susceptible</b> to impurity through contact with one of the seven liquids that facilitate susceptibility.",
+     "rashi": [
+      "<b>מתני' המדולדלין בבהמה</b> — נתלש ממנה אבר בשר גידים ועצמות או נתלש ממנה בשר לבדו ועדיין הן מעורים בה במקצת. ויש הפרש בין אבר מן החי לבשר מן החי שהאבר מטמא אדם וכלים כנבלה והבשר שאינו אבר טהור מכלום כדילפינן לקמן בפירקין (חולין דף קכח:):",
+      "<b>במקומן</b> — אע\"פ שהן מחוברין אם חישב עליהן להאכילן לעובד כוכבים הוי אוכל לקבל טומאה ולטמא אחרים דטומאת עצמן אין בהן עד שיתלשו כולן כדילפינן בגמרא אבל מקבלים טומאה מן השרץ ומטמאין בה את אחרים:",
+      "<b>וצריכין הכשר</b> — לבא במים פעם אחת לאחר שנדלדלו ושוב מקבלים טומאה עולמית. וליכא למימר בהאי אבר שסופו לטמא טומאה חמורה דאינו מטמא טומאת אבר מן החי עד שימות ושמא לא יבא לידי טומאה חמורה דשמא ישחטנה ואין שחיטה עושה ניפול:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 127b",
+   "he_ref": "חולין קכ״ז:",
+   "url": "https://www.sefaria.org/Chullin.127b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=127&amud=b",
+   "segments": [
+    {
+     "he": "נִשְׁחֲטָה הַבְּהֵמָה – הוּכְשְׁרוּ בְּדָמֶיהָ, דִּבְרֵי רַבִּי מֵאִיר. רַבִּי שִׁמְעוֹן אוֹמֵר: לֹא הוּכְשְׁרוּ.",
+     "en": "If <b>the animal was slaughtered,</b> although this act of slaughter does not render it permitted for consumption by a Jew (see 73b), the limb and the flesh <b>were</b> thereby <b>rendered susceptible</b> to impurity by coming in contact <b>with the blood of</b> the slaughtered animal, as blood is one of the seven liquids; this is <b>the statement of Rabbi Meir. Rabbi Shimon says: They were not rendered susceptible</b> to impurity through the animal’s own blood; they are rendered susceptible only once they have been wet with another liquid.",
+     "rashi": [
+      "<b>נשחטה הבהמה</b> — נטהרו מלטמא עוד משום נבילה ואע\"פ שאסורין באכילה כדאמרינן בבהמה המקשה (לעיל חולין דף עג:) מובשר בשדה טרפה ומידי נבלה טהרו דאין שחיטה עושה ניפול והוכשרו בדמיה לקבל טומאה בלא הכשר אחר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מֵתָה הַבְּהֵמָה – הַבָּשָׂר צָרִיךְ הֶכְשֵׁר, הָאֵבֶר מְטַמֵּא מִשּׁוּם אֵבֶר מִן הַחַי, וְאֵינוֹ מְטַמֵּא מִשּׁוּם אֵבֶר נְבֵלָה – דִּבְרֵי רַבִּי מֵאִיר, וְרַבִּי שִׁמְעוֹן מְטַהֵר.",
+     "en": "If <b>the animal died</b> without slaughter, <b>the</b> hanging <b>flesh needs</b> to be <b>rendered susceptible</b> to impurity in order to become impure, as its halakhic status is that of flesh severed from a living animal, which is ritually pure and does not have the status of an unslaughtered carcass. <b>The</b> hanging <b>limb imparts impurity as a limb</b> severed <b>from a living</b> animal <b>but does not impart impurity as the limb of</b> an unslaughtered <b>carcass;</b> this is <b>the statement of Rabbi Meir. And Rabbi Shimon deems</b> the limb <b>ritually pure.</b>",
+     "rashi": [
+      "<b>מתה הבהמה הבשר</b> — שנדלדל צריך הכשר לקבל טומאה מן השרץ אם לא הוכשר משנדלדל דטומאת נבלה אין בו כדאמר בבהמה המקשה (שם דף עג:) דמיתה עושה ניפול ואינו כמתנבל עמה במיתתה אלא כפרוש מחיים ובשר הפורש מן החי טהור:",
+      "<b>האבר מטמא משום אבר מן החי כו'</b> — כדפרישית טעמא דמיתה עושה ניפול כמו שנופל סמוך למיתה ואינו נבלה הלכך אינו מטמא משום נבלה. ובגמרא מפרש מאי איכא בין אבר מן החי לאבר מן הנבלה:",
+      "<b>ור\"ש מטהר</b> — בגמרא מפרש טעמיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> טוּמְאַת אֳכָלִין – אִין, טוּמְאַת נְבֵלָה – לָא.",
+     "en": "<strong>GEMARA:</strong> The mishna states that the limb of an animal that was partially severed and remains hanging from the animal imparts impurity as food if one had intent to eat it. The Gemara infers: It imparts <b>impurity as food, yes,</b> but it does <b>not</b> impart <b>the impurity of a carcass,</b> which can be transmitted to people and utensils in addition to food.",
+     "rashi": [
+      "<b>גמ' טומאת נבלות לא</b> — דלא הוי כתלושין לגמרי דליטמא האבר כשאר אבר מן החי דאמר לקמן שהוא מטמא אדם וכלים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הֵיכִי דָמֵי? אִי דְּמַעֲלִין אֲרוּכָה – אֲפִילּוּ טוּמְאַת אֳכָלִין נָמֵי לָא לִיטַּמּוּ, וְאִי דְּאֵין מַעֲלִין אֲרוּכָה – טוּמְאַת נְבֵלָה נָמֵי לִיטַּמּוּ!",
+     "en": "The Gemara asks: <b>What are the circumstances? If</b> the limb <b>can heal</b> and reattach to the animal’s body then <b>it should not be susceptible even to impurity as food. And if it cannot heal, it should impart the impurity of a carcass as well.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "לְעוֹלָם, דְּאֵין מַעֲלִין אֲרוּכָה, וְשָׁאנֵי טוּמְאַת נְבֵלָה, דְּרַחֲמָנָא אָמַר ״כִּי יִפּוֹל״, עַד שֶׁיִּפּוֹל.",
+     "en": "The Gemara answers: <b>Actually,</b> the mishna is discussing a case <b>where</b> the limb <b>will not heal, and</b> the reason that the limb does not impart impurity of a carcass is that <b>the impurity of a carcass is different</b> and unique, <b>as the Merciful One states</b> with regard to the impurity of a carcass: “And <b>if</b> any of their carcass <b>fall</b> upon any sowing seed” (Leviticus 11:37), indicating that the severed limb of an animal is not considered a carcass <b>until it</b> completely <b>falls</b> from the animal.",
+     "rashi": [
+      "<b>כי יפול מנבלתם</b> — אינו קרוי נבלה עד שיפול לגמרי וגבי שרצים כתיב דאבר מן החי דידהו נמי מטמא כדלקמן ובתרי קראי כתיב גבי שרצים כי יפול חד כי יפול מנבלתם עליו יטמא (ויקרא יא) וכתיב (שם) וכי יפול מנבלתם על כל זרע וגו' חד לאבר מן הבהמה דמיתה עושה ניפול אתא:"
+     ],
+     "tosafot": [
+      "<b>דרחמנא אמר כי יפול עד שיפול</b> — תימה מאי משמע כי יפול לענין זה דאבר המדולדל ועוד דהאי קרא בשרצים כתיב ונראה דהכי דריש כי יפול מהם במותם ואמר בפרק בהמה המקשה (לעיל חולין דף עד.) מיתה עושה ניפול וא\"כ ממילא שמעינן דקודם מיתה אינה עושה ניפול ואבהמה דרשי ליה דאמר התם מיתה עושה ניפול ואין שחיטה עושה ניפול ופירש בקונטרס דמקרא יתירא דרשינן ואם אינו ענין לשרצים תנהו ענין לבהמה דבת שחיטה היא:"
+     ]
+    },
+    {
+     "he": "תַּנְיָא נָמֵי הָכִי: הָאֵבֶר וְהַבָּשָׂר הַמְדוּלְדָּלִין בִּבְהֵמָה וּמְעוֹרִין בְּחוּט הַשַּׂעֲרָה, יָכוֹל יְטַמְּאוּ טוּמְאַת נְבֵלָה? תַּלְמוּד לוֹמַר ״יִפּוֹל״ – עַד שֶׁיִּפּוֹל, וַאֲפִילּוּ הָכִי טוּמְאַת אֳכָלִין מְטַמּוּ.",
+     "en": "<b>This</b> explanation <b>is also taught</b> in a <i>baraita</i>: With regard to <b>the limb and the flesh</b> of an animal <b>that</b> were partially severed and remain <b>hanging from the animal and are connected</b> to the animal <b>by</b> a connector the size of <b>a strand of hair,</b> one <b>might</b> have thought that <b>they impart the impurity of a carcass.</b> Therefore, <b>the verse states:</b> “And if any of the carcass <b>fall,”</b> indicating that a severed limb does not impart the impurity of a carcass <b>until it</b> completely <b>falls</b> from the animal. <b>And nevertheless,</b> despite the fact that it is not considered severed with regard to the impurity of a carcass, such a limb is considered severed with regard to <b>being susceptible to impurity as food.</b>",
+     "rashi": [
+      "<b>ואפ\"ה טומאת אוכלין מטמו</b> — בניחותא. כלומר ואע\"ג דמחוברין חשיבי לענין טומאת נבלות קתני מתניתין דלענין טומאת אוכלין תלושין נינהו ומקבלין טומאה כשאר אוכלין:"
+     ],
+     "tosafot": [
+      "<b>טומאת נבלה</b> — שמזכיר כאן הש\"ס לאו דוקא אלא היינו טומאת אבר מן החי:"
+     ]
+    },
+    {
+     "he": "מְסַיַּיע לֵיהּ לְרַב חִיָּיא בַּר אָשֵׁי, דְּאָמַר רַב חִיָּיא בַּר אָשֵׁי אָמַר שְׁמוּאֵל: תְּאֵנִים שֶׁצָּמְקוּ בְּאִיבֵּיהֶן – מְטַמְּאוֹת טוּמְאַת אֳכָלִין, וְהַתּוֹלֵשׁ מֵהֶן בְּשַׁבָּת חַיָּיב חַטָּאת.",
+     "en": "This explanation <b>supports</b> the opinion of <b>Rav Ḥiyya bar Ashi, as Rav Ḥiyya bar Ashi said</b> that <b>Shmuel said:</b> With regard to <b>figs that dried</b> while still attached to <b>their tree,</b> despite the fact that they are still attached, they are considered as if they have been picked and <b>are susceptible to impurity as food. But</b> with regard to <b>one who picks them on Shabbat</b> they are considered attached, and <b>he is liable</b> to bring <b>a sin offering.</b> Just as a partially severed limb of an animal is considered both attached and severed with regard to different <i>halakhot</i>, so too this dried fruit is considered both attached and detached with regard to different <i>halakhot</i>.",
+     "rashi": [
+      "<b>מסייע ליה כו' שצמקו באיביהן</b> — שיבשו באילן:",
+      "<b>חייב חטאת</b> — אם לא יבשו עוקציהן. אלמא אע\"ג דלענין שבת מחוברין נינהו מטמאין טומאת אוכלין:"
+     ],
+     "tosafot": [
+      "<b>מסייע ליה לרב חייא כו'</b> — וא\"ת למאי מייתי ליה סייעתא אי להא דאמר תאנים שצמקו באיביהן מטמאין טומאת אוכלין טפי הוה ליה למסייעיה ממתניתין ונראה דמייתי סייעתא אמאי דקאמר התולש מהן בשבת חייב חטאת דמשמע נמי מברייתא דלאו לכל מילי הוה כתלוש מדקא ממעט טומאת נבלה כלומר טומאת אבר מן החי ומקרא ממעט ליה ובמתניתין ליתיה בפירוש אלא מדיוקא שמעינן ליה טומאת אוכלין אין טומאת נבלות לא:"
+     ]
+    },
+    {
+     "he": "לֵימָא מְסַיַּיע לֵיהּ: יְרָקוֹת שֶׁצָּמְקוּ בְּאִיבֵּיהֶן, כְּגוֹן הַכְּרוּב וְהַדַּלַּעַת – אֵין מְטַמְּאִין טוּמְאַת אֳכָלִין; קְצָצָן וְיִבְּשָׁן – מְטַמְּאִין טוּמְאַת אֳכָלִין.",
+     "en": "<b>Let us say</b> that a <i>baraita</i> (<i>Tosefta</i>, <i>Okatzin</i> 2:11) <b>supports</b> the opinion of Shmuel, who holds that dried figs still attached to the tree are considered as if they are detached with regard to susceptibility to impurity as food: <b>Vegetables that dried</b> while they are attached to <b>their plant, such as cabbage and gourd,</b> which become hard as wood and inedible when dried, <b>are not susceptible to impurity as food.</b> But if <b>one cut them</b> when they were still moist <b>and</b> then <b>dried them</b> in order to use them for fuel, or, in the case of gourds, to make utensils out of them, <b>they are susceptible to impurity as food.</b>",
+     "rashi": [
+      "<b>לימא מסייע ליה</b> — לשמואל:",
+      "<b>כגון הכרוב והדלעת</b> — שלאחר שהן יבשים הרי הן כעץ ואינן ראויין לאכילה:",
+      "<b>אין מטמאין טומאת אוכלין</b> — דהא לאו אוכל נינהו וקא ס\"ד דהיא גופה לא איצטריך דעץ לא יטמא אלא למימרא דהני הוא דכי צמקו באיביהן טהורין אבל שאר פירות הנאכלין בצימוקן מקבלין טומאה ואשמעינן דכתלושין דמו:",
+      "<b>קצצן</b> — לחין על מנת ליבשן אע\"פ שאין עומדין למאכל אלא לעץ כגון דלעת לעשות הימנה כלי וכרוב להסקה אפ\"ה כל זמן שהן לחין מטמאין:"
+     ],
+     "tosafot": [
+      "<b>לימא מסייע ליה ירקות שצמקו</b> — הא מייתי שפיר אפילו אטומאת אוכלין ומייתי סייעתא אהא דצמקו הוי כמדולדלים:"
+     ]
+    },
+    {
+     "he": "קְצָצָן וְיִבְּשָׁן, סָלְקָא דַּעְתָּךְ?! עֵץ בְּעָלְמָא הוּא! וְאָמַר רַבִּי יִצְחָק: בְּעַל מְנָת לְיַבְּשָׁן.",
+     "en": "The Gemara asks: <b>Does it enter your mind</b> that if <b>one cut them and dried them</b> they are susceptible to impurity as food? Such a vegetable <b>is merely wood,</b> and it is inedible. <b>And Rabbi Yitzḥak says:</b> The <i>baraita</i> is discussing a case <b>where</b> one cut the vegetables when they were still moist <b>in order to dry them.</b> The novelty of the <i>baraita</i> is that even though one intends to dry the vegetables and render them inedible, as long as they are still moist they are susceptible to impurity as food.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "טַעְמָא דִּכְרוּב וְדַלַּעַת הוּא, כֵּיוָן דְּיִבְּשָׁן לָאו בְּנֵי אֲכִילָה נִינְהוּ, הָא שְׁאָר פֵּירוֹת מְטַמְּאִי.",
+     "en": "The Gemara infers: <b>The reason</b> for this <i>halakha</i> in the <i>baraita</i> is <b>that it is</b> discussing <b>cabbage and gourd: Since one dried them, they are inedible</b> and consequently are not susceptible to impurity as food. <b>But other</b> types of <b>produce,</b> which are edible when dried, <b>are susceptible to impurity.</b>",
+     "rashi": [
+      "קתני רישא מיהת ירקות שצמקו באיביהן כגון הכרוב והדלעת טעמא דהני כי יבשו לאו אוכלין נינהו הא שאר פירות מטמאין באיביהן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הֵיכִי דָמֵי? אִי דְּיִבְּשָׁן הֵן וְעוּקְצֵיהֶן – פְּשִׁיטָא! אֶלָּא לָאו – בְּלֹא עוּקְצֵיהֶן.",
+     "en": "The Gemara explains the suggested support to Shmuel: <b>What are the circumstances? If one dried</b> both the produce <b>itself and its stems,</b> isn’t it <b>obvious</b> that the produce is no longer considered attached to the plant and is susceptible to impurity? If so, it would be unnecessary for the <i>baraita</i> to teach this. <b>Rather, isn’t</b> the <i>baraita</i> discussing a case where one dried the produce <b>without</b> drying <b>its stems?</b> Accordingly, in such a case the produce is considered detached with regard to impurity even though it is considered attached with regard to Shabbat, in accordance with the statement of Shmuel.",
+     "rashi": [
+      "<b>והיכי דמי</b> — הך מתניתא דקתני דכרוב ודלעת הוא דלא מטמו הא אחריני מטמו:",
+      "<b>אי דיבשו הן ועוקציהן</b> — דאף לענין שבת תלושין הן:",
+      "<b>פשיטא</b> — דמטמו למה ליה למתנייה לא איהי גופה איצטריך לאשמועינן דעץ לא יטמא ולאו דיוקא דידיה איצטריך לאשמועינן דאחריני מטמו דהא תלושין גמורין הן:",
+      "<b>אלא לאו בלא עוקציהן</b> — ומשום דוקיא דידיה אצטריך למתנייה דאע\"פ דלענין שבת מחוברין הן לענין טומאה תלושין הן כדשמואל והיינו מסייע ליה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "לְעוֹלָם הֵן וְעוּקְצֵיהֶן, וּקְצָצָן עַל מְנָת לְיַבְּשָׁן אִיצְטְרִיכָא לֵיהּ.",
+     "en": "The Gemara rejects this interpretation: The <i>baraita</i> is not necessarily discussing that case. <b>Actually,</b> the <i>baraita</i> is discussing a case where both the produce <b>itself and its stems</b> were dried. <b>And</b> although it appears that the <i>halakha</i> is obvious in such a case, <b>it was necessary for</b> the <i>baraita</i> to mention it in order to teach the latter clause of the <i>baraita</i>: In a case where one <b>cut</b> the cabbage and gourd when they were still moist <b>in order to dry them,</b> they are susceptible to impurity as long as they are still moist.",
+     "rashi": [
+      "<b>לעולם הן ועוקציהן</b> — ודקא קשיא לן מאי קמ\"ל משום סיפא תנייה דאשמועינן קצצן לחין ע\"מ ליבשן מטמאין טומאת אוכלים:"
+     ],
+     "tosafot": [
+      "<b>וקצצן על מנת ליבשן איצטריכא ליה</b> — וא\"ת ליתני הכי כרוב ודלעת שקצצן על מנת ליבשן מטמא טומאת אוכלין למה ליה למתני רישא שצמקו באיביהן וי\"ל דהכי מתני ליה טפי שפיר הכרוב והדלעת שצמקו כו' ואם לא צמקו אלא קצצן ע\"מ ליבש כו':"
+     ]
+    },
+    {
+     "he": "תָּא שְׁמַע: אִילָן שֶׁנִּפְשַׁח וּבוֹ פֵּירוֹת – הֲרֵי הֵן כִּתְלוּשִׁין, יָבְשׁוּ – הֲרֵי הֵן כִּמְחוּבָּרִין. מַאי לָאו: מָה תְּלוּשִׁין לְכׇל דִּבְרֵיהֶן, אַף מְחוּבָּרִין לְכׇל דִּבְרֵיהֶן?",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a challenge to the opinion of Shmuel from a <i>baraita</i>: In the case of <b>a tree from which a branch broke off, and</b> the branch <b>has fruit</b> attached to it, even if the fruit is still moist <b>it is considered detached</b> from the tree. But if the branch did not break off, and the fruit <b>dried</b> on the tree, <b>it is considered attached. What, isn’t</b> the ruling of the <i>baraita</i> that <b>just as</b> in the first clause the fruit on the detached branch is considered <b>detached with regard to all matters,</b> the <i>halakhot</i> of both Shabbat and impurity, <b>so too</b> in the latter clause the fruit that dried on the tree is considered <b>attached</b> to the tree <b>with regard to all matters,</b> even the transmission of impurity, contrary to the opinion of Shmuel?",
+     "rashi": [
+      "<b>שנפשח</b> — נתלש ממנו ענף ובאותו ענף יש פירות:",
+      "<b>הרי הן כתלושין</b> — ואפילו הן לחין:",
+      "<b>יבשו</b> — פירות האילן שלא נפשח הרי הן כמחוברין:",
+      "<b>מאי לאו אף מחוברין</b> — דקאמר לכל דבריהם קאמר ואפילו לענין טומאה וקשיא לשמואל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מִידֵּי אִירְיָא? הָא כִּדְאִיתָא, וְהָא כִּדְאִיתָא.",
+     "en": "The Gemara rejects this challenge: <b>Are the cases comparable? This</b> case is <b>as it is, and that</b> case is <b>as it is.</b> In the first clause of the <i>baraita</i>, the fruit on the detached branch is considered detached with regard to all matters. In the latter clause of the <i>baraita</i>, the dried fruit on the tree is considered attached with regard to Shabbat but detached with regard to impurity.",
+     "rashi": [
+      "<b>הא כדאיתא והא כדאיתא</b> — תלושין שנפשח לכל דבריהם הוו תלושין בין לענין חיוב טומאה בין לענין שבת ומחוברין דקתני גבי יבשו לשבת קאמר ולא לטומאה והיינו כשמואל:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "נִשְׁחֲטָה הַבְּהֵמָה [וְכוּ׳]. בְּמַאי קָא מִיפַּלְגִי?",
+     "en": "§The mishna teaches: If <b>the animal was slaughtered,</b> Rabbi Meir holds that with the blood of the slaughtered animal the limb and the flesh were rendered susceptible to impurity. Rabbi Shimon says that they were not rendered susceptible with the animal’s own blood. The Gemara asks: <b>With regard to what</b> principle <b>do</b> Rabbi Meir and Rabbi Shimon <b>disagree?</b>",
+     "rashi": [
+      "<b>במאי קא מיפלגי</b> — ר' מאיר ור' שמעון לגבי הכשר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר רַבָּה: בִּבְהֵמָה נַעֲשֵׂית יָד לְאֵבֶר קָמִיפַּלְגִי: מָר סָבַר אֵין בְּהֵמָה נַעֲשֵׂית יָד לְאֵבֶר, וּמָר סָבַר בְּהֵמָה נַעֲשֵׂית יָד לְאֵבֶר.",
+     "en": "<b>Rabba said:</b> The mishna is discussing a case where the blood of the slaughtered animal came into contact with the body of the animal but not with the partially severed limb. The <i>tanna’im</i> agree that if an appendage that constitutes a handle is rendered susceptible to impurity, the food to which it is attached is also rendered susceptible. But <b>they disagree with regard to</b> whether <b>an animal constitutes a handle for</b> its <b>limb.</b> One <b>Sage,</b> Rabbi Shimon, <b>holds</b> that <b>an animal does not constitute a handle for</b> its <b>limb,</b> and therefore the limb is not rendered susceptible to contract impurity along with the body of the animal. <b>And</b> one <b>Sage,</b> Rabbi Meir, <b>holds</b> that <b>an animal constitutes a handle for</b> its <b>limb,</b> and therefore the limb is rendered susceptible along with the body of the animal.",
+     "rashi": [
+      "<b>אמר רבה בבהמה נעשית יד לאבר קמיפלגי</b> — ותרוייהו אית להו יש יד להכשר ומיהו רבי שמעון סבר אין בהמה כולה נעשית יד לאבר אחד הלכך לא הביאה לו הכשר ורבי מאיר סבר בהמה נעשית יד לאבר:"
+     ],
+     "tosafot": [
+      "<b>ומר סבר אין בהמה נעשית יד לאבר</b> — נראה דרבה מצי סבר דלר\"ש שחיטה מכשרת ולא דם וה\"ק אין בהמה נעשית יד לאבר הא אם נעשית יד לאבר היה מוכשר משחיטת בהמה אע\"פ שהוא אסור באכילה מדרבנן וכן סברי כולהו אמוראי דמפרשי מתניתין לבר מר' אחא דאמר בנתקנח הדם בין סימן לסימן קמיפלגי דלדידיה דם מכשיר לר\"ש וצ\"ל דלרב אחא לא שמיע ליה ברייתא דהשוחט (לעיל חולין דף לו.) דשמעינן מיניה דלר' שמעון שחיטה מכשיר ולא דם אבל שאר אמוראי דהכא הוו ידעי לה שפיר דהא רב פפא נמי מפרש לה לפלוגתייהו בסמוך ובפרק השוחט (גז\"ש) אמר רב פפא עלה דברייתא הכל מודים היכא דאיתיה לדם כו' אלמא ידע לה:"
+     ]
+    },
+    {
+     "he": "אַבָּיֵי אָמַר: בְּאוֹחֵז בְּקָטָן וְאֵין גָּדוֹל עוֹלֶה עִמּוֹ קָמִיפַּלְגִי.",
+     "en": "<b>Abaye said</b> a different explanation of the dispute between Rabbi Meir and Rabbi Shimon: The mishna is discussing a case where the blood of the slaughtered animal came into contact with the body of the animal but not with the partially severed limb, and both <i>tanna’im</i> agree that an animal does not constitute a handle for its limb. But they also agree that if the liquid comes into contact with only part of the food it renders the entire item susceptible to impurity. Therefore, if the partially severed limb is considered part of the animal it is rendered susceptible to impurity along with the animal. Rabbi Meir and Rabbi Shimon <b>disagree with regard to</b> whether the limb is considered part of the animal, and generally speaking, with regard to any case where a small part of an item is hanging off the larger part such that if one <b>grasps</b> and lifts the <b>small</b> part the <b>large</b> part <b>does not ascend with it.</b>",
+     "rashi": [
+      "<b>אביי אמר</b> — אין טעמייהו משום יד דכ\"ע אין בהמה נעשית יד לאבר אחד אלא טעמא דרבי מאיר משום דכולה חדא חשיב ליה ואע\"ג דכי אוחז את הקטן באבר ובשר המדולדל אין גדול עולה עמו אלא נתלש מיד הואיל וכשאוחז בגדול עולה קטן עמו חד הוא ור' שמעון סבר אינו כמוהו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מָר סָבַר: אוֹחֵז בְּקָטָן וְאֵין גָּדוֹל עוֹלֶה עִמּוֹ – הֲרֵי הוּא כָּמוֹהוּ, וּמָר סָבַר: אֵינוֹ כָּמוֹהוּ.",
+     "en": "One <b>Sage,</b> Rabbi Meir, <b>holds</b> that although if one <b>grasps</b> and lifts the <b>small</b> part the <b>large</b> part <b>does not ascend with it,</b> the small part <b>is</b> still considered one and <b>the same</b> with the large part. Therefore, a partially severed limb is rendered susceptible to impurity along with the body of the animal. <b>And</b> one <b>Sage,</b> Rabbi Shimon, <b>holds</b> that the small part <b>is not</b> considered one and <b>the same</b> with the large part in such a case, and therefore the partially severed limb is not rendered susceptible to impurity along with the body of the animal.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְאַף רַבִּי יוֹחָנָן סָבַר, בְּאוֹחֵז בְּקָטָן וְאֵין גָּדוֹל עוֹלֶה עִמּוֹ קָא מִיפַּלְגִי.",
+     "en": "<b>And Rabbi Yoḥanan also holds</b> in accordance with the explanation of Abaye that the <i>tanna’im</i> <b>disagree with regard to</b> the status of a small part of an item that is hanging off the larger part such that one <b>grasps</b> the <b>small</b> part <b>and</b> the <b>large</b> part <b>does not ascend with it.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "דְּרַבִּי יוֹחָנָן רָמֵי דְּרַבִּי מֵאִיר אַדְּרַבִּי מֵאִיר: מִי אָמַר רַבִּי מֵאִיר, אוֹחֵז בְּקָטָן וְאֵין גָּדוֹל עוֹלֶה עִמּוֹ הֲרֵי הוּא כָּמוֹהוּ?",
+     "en": "<b>As Rabbi Yoḥanan raises a contradiction</b> between one statement <b>of Rabbi Meir and</b> another statement <b>of Rabbi Meir: Did Rabbi Meir</b> actually <b>say</b> that even in a case where one <b>grasps</b> the <b>small</b> part of an item <b>and</b> the <b>large part does not ascend with it,</b> the small part <b>is</b> still considered one and <b>the same</b> with the large part?",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וּרְמִינְהוּ: אוֹכֶל שֶׁנִּפְרַס וּמְעוֹרֶה בְּמִקְצָת,",
+     "en": "One can <b>raise a contradiction</b> to this statement from a mishna (<i>Tevul Yom</i> 3:1): With regard to a piece of <b>food that was sliced</b> from a larger piece of food <b>and</b> remains <b>partially connected</b> to the larger piece, the entire item is considered one and the same with regard to impurity. If one who was previously ritually impure and immersed that day and is waiting for nightfall for the purification process to be completed touched either piece of the item, the entire item becomes impure.",
+     "rashi": [
+      "<b>אוכל</b> — תרומה:",
+      "<b>שנפרס</b> — לשון פרוסה נשבר:"
+     ],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
