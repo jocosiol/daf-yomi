@@ -1,0 +1,322 @@
+{
+ "tractate": "Chullin",
+ "page": 130,
+ "fetched": "2026-09-01",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition",
+  "tosafot": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 130a",
+   "he_ref": "חולין ק״ל.",
+   "url": "https://www.sefaria.org/Chullin.130a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=130&amud=a",
+   "segments": [
+    {
+     "he": "מַתְנִי׳ <strong><big>הַזְּרוֹעַ וְהַלְּחָיַיִם</big></strong> וְהַקֵּבָה נוֹהֲגִין בָּאָרֶץ וּבְחוּצָה לָאָרֶץ, בִּפְנֵי הַבַּיִת וְשֶׁלֹּא בִּפְנֵי הַבַּיִת, בַּחוּלִּין אֲבָל לֹא בַּמּוּקְדָּשִׁין.",
+     "en": "<strong>MISHNA:</strong> The mitzva to give <b>the foreleg, the jaw, and the maw</b> of slaughtered animals to the priests, known as the gifts of the priesthood, <b>applies</b> both <b>in Eretz</b> Yisrael <b>and outside of Eretz</b> Yisrael, <b>in the presence of the Temple and not in the presence of the Temple,</b> and it applies <b>to non-sacred</b> animals, <b>but not to sacrificial</b> animals.",
+     "rashi": [
+      "מתני' הזרוע והלחיים:",
+      "<b>בארץ ובחוצה לארץ</b> — משום דבעי למימר בחולין אבל לא במוקדשין נקט להו:",
+      "<b>בפני הבית</b> — בעודו קיים:"
+     ],
+     "tosafot": [
+      "מתני' הזרוע והלחיים:"
+     ]
+    },
+    {
+     "he": "שֶׁהָיָה בַּדִּין, וּמָה אִם הַחוּלִּין, שֶׁאֵינָן חַיָּיבִים בְּחָזֶה וָשׁוֹק – חַיָּיבִים בְּמַתָּנוֹת, קָדָשִׁים, שֶׁחַיָּיבִים בְּחָזֶה וָשׁוֹק – אֵינוֹ דִּין שֶׁחַיָּיבִים בְּמַתָּנוֹת?",
+     "en": "It is necessary to emphasize that it does not apply to sacrificial animals, <b>as by right it should be</b> inferred <i>a fortiori</i>: <b>If non-sacred</b> animals, <b>which are not obligated to</b> have the <b>breast and thigh</b> taken from them and given to the priest, <b>are obligated to</b> have <b>gifts</b> of the priesthood given from them, then with regard to <b>sacrificial</b> animals, <b>which are obligated to</b> have the <b>breast and thigh</b> given from them, <b>is it not right that</b> they should be <b>obligated to</b> have <b>gifts</b> of the priesthood given from them?",
+     "rashi": [
+      "חולין אינן חייבין בחזה ושוק אלא קדשים לחודייהו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תַּלְמוּד לוֹמַר: ״וָאֶתֵּן אֹתָם לְאַהֲרֹן הַכֹּהֵן וּלְבָנָיו לְחׇק עוֹלָם״ – אֵין לוֹ אֶלָּא מַה שֶּׁאָמוּר בָּעִנְיָן.",
+     "en": "Therefore, <b>the verse states:</b> “For the breast of waving and the thigh of giving I have taken of the children of Israel from the sacrifice of the peace offerings, <b>and have given them to Aaron the priest and to his sons as a due forever</b> from the children of Israel” (Leviticus 7:34), from which it is derived that the priest <b>has only that which is stated with regard to</b> that <b>matter,</b> i.e., the breast and the thigh, and not the foreleg, the jaw and the maw.",
+     "rashi": [
+      "<b>ואתן אותם</b> — בחזה ושוק כתיב. אותם מיעוטא הוא חזה ושוק אין ולא דבר אחר:"
+     ],
+     "tosafot": [
+      "<b>תלמוד לומר ואתן אותם</b> — ואי לאו קל וחומר לא הוה צריך קרא אע\"ג דסתמא כתיב בין בחולין בין במוקדשים דה\"א דבר הלמד מענינו במה הכתוב מדבר בחולין דכתיב לעיל מהאי קרא דגנך תירושך ויצהרך וגו' גז צאנך וראשית הגז אינו נוהג במוקדשין כדאמר לקמן פרק ראשית הגז (חולין דף קלה.):"
+     ]
+    },
+    {
+     "he": "כׇּל הַקֳּדָשִׁים שֶׁקָּדַם מוּם קָבוּעַ לְהֶקְדֵּשָׁן, וְנִפְדּוּ – חַיָּיבִין בַּבְּכוֹרָה וּבַמַּתָּנוֹת, וְיוֹצְאִין לְחוּלִּין לְהִגָּזֵז וּלְהֵעָבֵד, וּוְלָדָן וַחֲלָבָן מוּתָּר לְאַחַר פִּדְיוֹנָן.",
+     "en": "<b>All sacrificial</b> animals in <b>which a permanent blemish preceded their consecration</b> do not assume inherent sanctity, and only their value is consecrated. <b>And</b> once <b>they were redeemed,</b> they <b>are obligated in</b> the mitzva of <b>a firstborn,</b> i.e., their offspring are subject to being counted a firstborn, <b>and in the gifts</b> of the priesthood, <b>and they can emerge</b> from their sacred status and assume <b>non-sacred</b> status <b>with regard to being shorn and with regard to being utilized for labor,</b> as it is prohibited to shear animals with sacred status or utilize them for labor. <b>And their offspring and their milk are permitted after their redemption.</b>",
+     "rashi": [
+      "<b>כל הקדשים שקדם מום קבוע להקדשן</b> — הרי הן כמקדיש עצים ואבנים לדמיהם ואין בהן קדושת הגוף ואם נפדו הרי הן כחולין גמורים וחייבים בבכורה אם ילדו בכור הרי הוא קדוש וכל זמן שלא נפדו לא כדאמר בבכורות פ\"ב (דף יד.) קסבר האי תנא קדושת דמים מדחה מן הבכורה דאין קדושה חלה על קדושה:",
+      "<b>וולדן וחלבן מותר לאחר פדיונם</b> — מה שאין כן במקדיש תמימים ונסתאבו ופדאן דאמרי' בבכורות (דף טו.) רק בכל אות נפשך תזבח ואכלת בשר בפסולי המוקדשין לאחר פדיונן הכתוב מדבר מדאיצטריך קרא למימר בהו הטמא והטהור יאכלנו וכתיב תזבח ואכלת בשר תזבח ולא גיזה ואכלת ולא לכלביך בשר ולא חלב וולדן דתמימים שנסתאבו ונפדו תנן במתניתין דאסור ובבכורות (דף יד.) מוקמינן כגון דאיעבר לפני פדיונן ואתיליד לאחר פדיונן בין רישא דקתני מותר בין סיפא דקתני אסור:",
+      "<b>ויוצאין לחולין</b> — ע\"י פדיונן להיות כחולין גמורים אפילו ליגזז וליעבד מה שאין כן בקדם הקדשן את מומן כדלקמן במתניתין:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְהַשּׁוֹחֲטָן בַּחוּץ פָּטוּר, וְאֵין עוֹשִׂין תְּמוּרָה, וְאִם מֵתוּ – יִפָּדוּ, חוּץ מִן הַבְּכוֹר וּמִן הַמַּעֲשֵׂר.",
+     "en": "<b>And one who slaughters</b> these animals <b>outside</b> the Temple courtyard is <b>exempt</b> from <i>karet</i>, <b>and</b> those animals <b>do not render</b> an animal that was <b>a substitute</b> for them consecrated. <b>And if</b> these animals <b>died</b> before they were redeemed, <b>they may be redeemed</b> and fed to dogs. Although typically sacrificial animals that were redeemed may not be fed to the dogs, in this case it is permitted. This is the <i>halakha</i> with regard to all animals <b>except for the firstborn</b> animal <b>and the</b> animal <b>tithe,</b> whose sanctity is inherent, even when a permanent blemish preceded their consecration.",
+     "rashi": [
+      "<b>והשוחטן בחוץ פטור</b> — ואילו בקדם הקדשן את מומן תנן מתניתין לקמן דחייב אם שחט בחוץ קודם פדיונן ואע\"ג דאינן ראוים לפתח אהל מועד דהא בעלי מומין נינהו ותנן (זבחים דף קיב.) הראוי לפתח אהל מועד חייבין עליו בחוץ ושאינו ראוי בפנים אין חייבין עליו בחוץ הא מוקמינן לה בבכורות (דף טז.) בדוקין שבעין ואליבא דר\"ע דאמר אם עלו לא ירדו הילכך הואיל ובפנים לא ירדו חייבין עליהן בחוץ. וכולה הך מתני' מיתניא בבכורות בפרק שני (דף יד.) והתם תני לה משום בכורות והכא תני לה משום מתנות:",
+      "<b>ואין עושין תמורה</b> — אפילו קודם פדיונן. ובבכורות מפרש טעמא טוב מעיקרו עושה תמורה ואפילו נעשה רע אחר שהקדישו אבל רע מעיקרו אינו עושה תמורה:",
+      "<b>ואם מתו יפדו</b> — ואע\"פ שאינם ראוים אלא לכלבים ואין פודין את הקדשים להאכילן לכלבים כדפרישית לעיל ואכלת ולא לכלביך ה\"מ בקדשים שקדם הקדשן את מומן אבל הני כדיקלא בעלמא נינהו ולא נחת להו קדושת הגוף ועוד אשמועינן דלא בעינן העמדה והערכה וקסבר קדשי בדק הבית לא היו בכלל העמדה והערכה דכתיב בפדיון קדשים שנסתאבו לאחר כך והעמיד את הבהמה (ויקרא כז) וכיון דמתה אי אפשר להעמידה:",
+      "<b>חוץ מן הבכור והמעשר</b> — דאע\"ג שקדם מומן להקדשן חלה עליהם קדושה גמורה לכל דבריהם אלא שאין כשרים ליקרב דבכור ברחם תלה רחמנא לא שנא תם ולא שנא בעל מום קדיש תם קרב ובעל מום נאכל לכהן כדילפינן בבכורות (דף כח.) ובשרם יהיה לך בשרם תרי משמע לימד על בכור בעל מום שמתנה לכהן ומעשר בהמה נמי כתיב ביה (ויקרא כז) העשירי יהיה קדש לא יבקר בין טוב לרע טוב היינו תם רע היינו בעל מום:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כֹּל שֶׁקָּדַם הֶקְדֵּשָׁן אֶת מוּמָן, אוֹ מוּם עוֹבֵר קוֹדֵם לְהֶקְדֵּשָׁן, וּלְאַחַר מִכָּאן נוֹלַד לָהֶם מוּם קָבוּעַ, וְנִפְדּוּ – פְּטוּרִין מִן הַבְּכוֹרָה וּמִן הַמַּתָּנוֹת, וְאֵינָן יוֹצְאִין לְחוּלִּין לְהִגָּזֵז וּלְהֵעָבֵד.",
+     "en": "With regard to <b>all</b> sacrificial animals <b>whose consecration preceded their blemish, or</b> who had <b>a temporary blemish prior to their consecration and afterward developed a permanent blemish and they were redeemed, they are exempt from</b> the mitzva of <b>a firstborn, and from the gifts</b> of the priestood, <b>and they do not emerge</b> from their sacred status and assume <b>non-sacred</b> status <b>with regard to being shorn and with regard to being utilized for labor.</b>",
+     "rashi": [
+      "<b>או מום עובר קודם להקדשן</b> — דמום עובר כמאן דליתיה דמי:",
+      "<b>פטורין מן הבכורה</b> — ואע\"פ שנפדו ויצאו לחולין להיתר אכילה פטורין מן הבכורה אם ילדו דכתיב בהו (דברים יב) כצבי וכאיל וצבי ואיל פטורים מן הבכורה דהא בקר וצאן כתיב:",
+      "<b>ומן המתנות</b> — זרוע ולחיים וקיבה דאין נוהגין בצבי ואיל דכתיב (שם יח) אם שה:",
+      "<b>ואין יוצאין לחולין</b> — בפדיון:",
+      "<b>ליגזז וליעבד</b> — כדפרישית לעיל תזבח ואכלת אין בהן אלא היתר זביחה ואכילה בלבד אבל גיזה ועבודה לא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּוְלָדָן וַחֲלָבָן אָסוּר לְאַחַר פִּדְיוֹנָן, וְהַשּׁוֹחֲטָן בַּחוּץ – חַיָּיב, וְעוֹשִׂין תְּמוּרָה, וְאִם מֵתוּ – יִקָּבֵרוּ.",
+     "en": "<b>And their offspring,</b> which were conceived prior to redemption, <b>and their milk, are prohibited after their redemption. And one who slaughters them outside</b> the Temple courtyard is <b>liable</b> to receive <i>karet</i>, <b>and</b> those animals <b>render</b> an animal that was <b>a substitute</b> for them consecrated. <b>And if</b> these animals <b>died</b> before they were redeemed, they may not be redeemed and fed to dogs; rather, <b>they must be buried.</b>",
+     "rashi": [
+      "<b>וולדן וחלבן אסור</b> — בבכורות (דף יד.) מוקי לה דאיעבר לפני פדיונן ואתיליד לאחר פדיונן דאי איעבר ואתיליד לאחר פדיונן ולד צבי ואיל הוא ואם נולד לפני פדיונן מאי איריא הני אפילו קדם מומם להקדשן נמי ולדן לפני פדיונן אסור:",
+      "<b>והשוחטן בחוץ חייב</b> — כדפרישית לעיל בדוקין שבעין וקודם פדיונן:",
+      "<b>ועושין תמורה</b> — קודם פדיונן דכתיב (ויקרא כז) טוב ברע או רע בטוב:",
+      "<b>מתו</b> — מעצמן:",
+      "<b>יקברו</b> — או משום דבעינן העמדה והערכה או משום דאין פודין את הקדשים להאכילם לכלבים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "<strong><big>גְּמָ׳</big></strong> טַעְמָא דִּכְתַב רַחֲמָנָא ״אוֹתָם״, הָא לָאו הָכִי הֲוָה אָמֵינָא קָדָשִׁים חַיָּיבִין בְּמַתָּנוֹת?",
+     "en": "<strong>GEMARA:</strong> The mishna teaches that the verse: “And have given them to Aaron the priest and to his sons” (Leviticus 7:34), indicates that only the breast and thigh, which are the subject of that verse, are given from sacrificial animals to the priest, but gifts of the priesthood are not given from sacrificial animals. The Gemara infers: The <b>reason</b> sacrificial animals are not included in the mitzva of gifts of the priesthood is due to the fact <b>that the Merciful One writes: “Them,”</b> in reference to the breast and the thigh of sacrificial animals. <b>But</b> were it <b>not</b> for <b>this, I would say</b> by <i>a fortiori</i> inference that <b>sacrificial</b> animals are <b>obligated to</b> have <b>gifts</b> of the priesthood given from them.",
+     "rashi": [
+      "<b>גמ' הוה אמינא קדשים חייבין במתנות</b> — מקל וחומר מחולין כדאמרן במתניתין והיכי מצינן למימר הכי הא איכא למפרך בהאי ק\"ו מה לחולין כו' וקרא למה לי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אִיכָּא לְמִיפְרַךְ: מָה לְחוּלִּין שֶׁכֵּן חַיָּיבִין בִּבְכוֹרָה!",
+     "en": "The Gemara asks: Why is it necessary to derive this <i>halakha</i> from a verse? The <i>a fortiori</i> inference <b>can be refuted</b> as follows: <b>What</b> is unique <b>about non-sacred</b> animals? They are unique <b>in that</b> they <b>are obligated</b> in the mitzva of <b>a firstborn,</b> whereas sacrificial animals are exempt. Therefore, the <i>a fortiori</i> inference stated in the mishna should not apply.",
+     "rashi": [
+      "בכור אינו נוהג במוקדשים דבקרך וצאנך כתיב (דברים טו) ולא הקדש ועוד תקדיש כתיב (שם) ולא שכבר קדוש:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תֵּיתֵי מִזְּכָרִים – מָה לִזְכָרִים, שֶׁכֵּן חַיָּיבִין בְּרֵאשִׁית הַגֵּז!",
+     "en": "The Gemara responds: One could <b>derive</b> that the mitzva to give the gifts of the priesthood applies to sacrificial animals through an <i>a fortiori</i> inference <b>from</b> non-sacred <b>male</b> animals, which do not give birth to offspring and whose owners are therefore exempt from counting their offspring a firstborn, and nevertheless are subject to the giving of the gifts of the priesthood. The Gemara rejects this suggestion: <b>What</b> is unique <b>about</b> non-sacred <b>male</b> animals? They are unique <b>in that</b> they are <b>obligated to</b> have <b>the first sheared wool</b> given to the priest from them.",
+     "rashi": [
+      "<b>תיתי מזכרים</b> — כלומר אי לאו אותם דקרא הוה אמינא תיתי בק\"ו מזכרים דחולין דליכא למיפרך בהו שכן חייבין בבכורה שאין יולדין:",
+      "ראשית הגז אינו נוהג במוקדשים דהא לאו בני גיזה נינהו דכתיב (שם יח) גז צאנך ולא הקדש:",
+      "ראשית הגז כל השנה כשהוא גוזז צאנו נותן לכהן דבר מועט כדמפרש לקמן (חולין דף קלה.) שיעורא וקרי ליה ראשית כי היכי דקרי תרומה (שם) ראשית דגנך:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מִתְּיָישִׁים – מָה לִתְיָישִׁים, שֶׁכֵּן נִכְנָסִין לַדִּיר לְהִתְעַשֵּׂר!",
+     "en": "The Gemara persists: One can derive that the obligation applies to sacrificial animals by an <i>a fortiori</i> inference <b>from male goats,</b> whose owners are exempt from counting their offspring a firstborn as well as from the first sheared wool, and yet are subject to the obligation of gifts of the priesthood. The Gemara rejects this claim as well: <b>What</b> is unique <b>about male goats?</b> They are unique <b>in that they enter the pen to be tithed</b> for the animal tithe, whereas sacrificial animals are not subject to the animal tithe.",
+     "rashi": [
+      "תיישים זכרים אין בהם לא בכורה ולא ראשית הגז ואי לאו אותם מחייבינן מתנות בקדשים מק\"ו מתיישים חולין:",
+      "מעשר בהמה אינו במוקדשין דכתיב יהיה קדש ולא שכבר קדוש בפ\"ב דבכורות (דף נג:) הילכך לא אתי בק\"ו דאיכא למיפרך תאמר במוקדשין שאין נכנסין לדיר להתעשר:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מִזְּקֵנִים – מָה לִזְקֵנִים, שֶׁכֵּן נִכְנְסוּ לְדִיר לְהִתְעַשֵּׂר!",
+     "en": "The Gemara further suggests that one can derive the obligation of sacrificial animals having the breast and thigh given from them by <i>a fortiori</i> inference <b>from old</b> male goats, which have already entered the pen in order to be tithed. Consequently, the obligation of the animal tithe, the obligation of counting the offspring a firstborn, and the first sheared wool do not apply. The Gemara rejects this suggestion as well: <b>What</b> is unique <b>about old</b> male goats? They are unique <b>in that they</b> have <b>entered the pen to be tithed,</b> which is not the case with regard to sacrificial animals.",
+     "rashi": [
+      "<b>מזקנים</b> — אי לאו אותם הוה מייתינן ליה מק\"ו מתיישים זקנים דחולין שכבר נתעשרו ואין צריכין עוד להכנס לדיר:",
+      "<b>מה לזקנים</b> — תיישים זקנים דחולין בדין הוא שהן חייבין במתנות:",
+      "<b>שכן נכנסו כבר לדיר להתעשר</b> — תאמר בקדשים שלא נכנסו כבר לדיר להתעשר. ומהדר אי לאו אותם הוה מייתינן להו בק\"ו מלקוח ויתום. הלקוח פטור ממעשר בהמה אם לקח עשרה טלאים מן השוק פטור מלעשר דבקרך וצאנך אמר רחמנא והיתום שמתה אמו בשעת לידה כגון זה פירש למיתה וזה פירש לחיים כדאמר בהשוחט (לעיל חולין דף לח:) פטור ממעשר בהמה דאינו ראוי לקדש דכתיב תחת אמו פרט ליתום וילפינן מעשר בהמה מיניה בפ\"ב דבכורות (דף נז.) ר' ישמעאל בנו של ר' יוחנן בן ברוקא אומר נאמר כאן תחת אמו ונאמר להלן תחת השבט מה כאן פרט לכל השמות הללו כלאים ונדמה ויוצא דופן ויתום דכולהו מימעטי מהאי קרא דשור או כשב אף להלן לענין מעשר פרט לכל השמות הללו אע\"ג דבעל מום נכנס לדיר להתעשר אלו אין נכנסים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מִלָּקוּחַ וְיָתוֹם – מָה לְלָקוּחַ וְיָתוֹם, שֶׁכֵּן נִכְנָסִין בְּמִינָן לַדִּיר לְהִתְעַשֵּׂר!",
+     "en": "The Gemara again suggests that perhaps one can derive the obligation of giving gifts of the priesthood with regard to sacrificial animals by an <i>a fortiori</i> inference <b>from a purchased</b> animal, to which the obligation of the animal tithe never applies. <b>Or</b> perhaps it can be derived from <b>an orphaned</b> animal, born after the death of its mother, which is also not subject to the obligation of animal tithe. The Gemara rejects this claim: <b>What</b> is unique <b>about a purchased</b> animal <b>or an orphaned</b> animal? They are unique <b>in that</b> although they themselves do not enter the pen, animals <b>of their type enter the pen to be tithed.</b>",
+     "rashi": [],
+     "tosafot": [
+      "<b>תיתי מלקוח ויתום</b> — הוה מצי למימר נמי תיתי מכלאים וטרפה ועוד טובא דתנן בפרק מעשר בהמה (בכורות דף נז.) שאין נכנסין לדיר להתעשר:"
+     ]
+    },
+    {
+     "he": "בְּמִינָן קָאָמְרַתְּ? קֳדָשִׁים נָמֵי, בְּמִינָן נִכְנָסִין לַדִּיר לְהִתְעַשֵּׂר.",
+     "en": "The Gemara responds: <b>You say</b> that it is significant that animals <b>of their type</b> enter the pen? With regard to <b>sacrificial</b> animals <b>as well,</b> non-sacred animals <b>of their type enter the pen to be tithed.</b> Accordingly, one can claim <i>a fortiori</i> that the mitzva to give the gifts applies to sacrificial animals, and it is only due to the verse that they are exempt.",
+     "rashi": [
+      "<b>ה\"ג במינן קאמרת קדשים נמי במינן</b> — כגון חולין נכנסין לדיר הילכך אי לאו אותם אתי בק\"ו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְיִהְיוּ חוּלִּין חַיָּיבִין בְּחָזֶה וָשׁוֹק מִקַּל וָחוֹמֶר: וּמָה קָדָשִׁים, שֶׁאֵין חַיָּיבִים בְּמַתָּנוֹת, חַיָּיבִין בְּחָזֶה וָשׁוֹק; חוּלִּין, שֶׁחַיָּיבִין בְּמַתָּנוֹת, אֵינוֹ דִּין שֶׁחַיָּיבִין בְּחָזֶה וָשׁוֹק?",
+     "en": "§ The Gemara challenges: <b>And</b> now that it has been established that the obligation of the gifts of the priesthood does not apply to sacrificial animals, <b>non-sacred</b> animals <b>should be obligated to</b> have the <b>breast and thigh</b> given from them <b>by an <i>a fortiori</i></b> inference: <b>If sacrificial</b> animals, <b>which are not obligated to</b> have <b>gifts</b> of the priesthood given from them, are nevertheless <b>obligated to</b> have the <b>breast and thigh</b> given from them, then with regard to <b>non-sacred</b> animals, <b>which are obligated to</b> have <b>gifts</b> of the priesthood given from them, <b>is it not right that</b> they should be <b>obligated to</b> have the <b>breast and thigh</b> given from them?",
+     "rashi": [
+      "<b>מה קדשים שאין חייבים במתנות</b> — דהא ממעטינן להו מאותם דכתיב גבי חזה ושוק אותם ולא מתנות:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר קְרָא: ״וְזֶה יִהְיֶה מִשְׁפַּט הַכֹּהֲנִים״, ״זֶה״ – אִין, מִידֵּי אַחֲרִינָא – לָא.",
+     "en": "The Gemara responds that the <b>verse states: “And this shall be the priests’ due</b> from the people, from them that perform a slaughter, whether it be an ox or sheep, that they shall give to the priest the foreleg, and the jaw, and the maw” (Deuteronomy 18:3). The verse indicates that <b>“this,”</b> the foreleg, the jaw, and the maw, <b>yes,</b> is given to the priests, but <b>another item,</b> i.e., the breast and thigh, is <b>not</b> given to the priests from non-sacred slaughtered animals.",
+     "rashi": [
+      "<b>אמר קרא</b> — במתנות חולין זה יהיה דבר זה נוהג בחולין ואין חזה ושוק נוהגין בהן:"
+     ],
+     "tosafot": [
+      "<b>זה אין מידי אחרינא לא</b> — תימה דקאי במתנות וממעט חזה ושוק אדרבה ה\"ל למעוטי מיניה מוקדשין ממתנות ויש לומר דכבר אמעיטו מאותם וכה\"ג פירש' בפ\"ק (לעיל חולין דף כד.) גבי וזאת אשר ללוים:"
+     ]
+    },
+    {
+     "he": "אֶלָּא טַעְמָא דִּכְתַב רַחֲמָנָא ״זֶה״, הָא לָאו הָכִי הֲוָה אָמֵינָא חוּלִּין חַיָּיבִין בְּחָזֶה וָשׁוֹק? וְהָא בָּעֵי תְּנוּפָה, הֵיכָא לִינוּפִינְהוּ? אִי אַבָּרַאי – ״לִפְנֵי ה׳״ כְּתִיב,",
+     "en": "The Gemara raises a difficulty: <b>But</b> this derivation indicates that the <b>reason</b> the giving of the breast and thigh does not apply to non-sacred animals is that <b>the Merciful One writes “this,”</b> from which it may be inferred if <b>not</b> for <b>this, I would say</b> that one is <b>obligated to</b> give the <b>breast and thigh</b> from <b>non-sacred</b> animals. <b>But</b> the procedure for giving the breast and thigh <b>requires waving,</b> and <b>where would one wave</b> the breast and thigh of a non-sacred animal? <b>If</b> it is suggested that one wave them <b>outside</b> the Temple, that cannot be done, as <b>it is written:</b> “That the breast may be waved for a wave offering <b>before the Lord”</b> (Leviticus 7:30), indicating that they must be waved inside the Temple.",
+     "rashi": [
+      "בחזה ושוק כתיבא תנופה לפני ה':",
+      "<b>אי אבראי</b> — חוץ לעזרה:"
+     ],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 130b",
+   "he_ref": "חולין ק״ל:",
+   "url": "https://www.sefaria.org/Chullin.130b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=130&amud=b",
+   "segments": [
+    {
+     "he": "אִי אַגַּוַּאי – קָא מְעַיֵּיל חוּלִּין לָעֲזָרָה, הִלְכָּךְ לָא אֶפְשָׁר.",
+     "en": "<b>If</b> it is suggested that they should be waved <b>inside</b> the Temple, that too cannot be correct, because one who waves them inside the Temple thereby <b>brings a non-sacred</b> animal <b>into the</b> Temple <b>courtyard. Therefore,</b> since it is <b>not possible</b> to perform the procedure of giving the breast and thigh with non-sacred animals, it is not necessary for a verse to teach that the giving of the breast and thigh does not apply to such animals.",
+     "rashi": [
+      "<b>קא מעייל חולין לעזרה</b> — מידי דלא איתעביד ביה צורך גבוה:"
+     ],
+     "tosafot": [
+      "<b>אי אגואי הא קא מעייל חולין בעזרה</b> — משום דכל חולין מדאורייתא אסור להביא בעזרה וכן אמר בהמוכר את הספינה (ב\"ב דף פא:) גבי בכורים ולא מסתבר דהתם אגוזלות דמייתי בהדייהו קפיד דאפשר דמתני עלייהו ומביאם נדבה וכן בפ' התודה (מנחות דף פ:) גבי תודה שנתערבה בתמורות קאמר ולייתי לחם כו' הא קא מכניס חולין לעזרה ומדקאמר שאין לה תקנה ש\"מ הוי מדאורייתא ותימה דבפ' כל התדיר (זבחים דף צ:) אמרינן ובכולן הכהנים רשאים לשנות באכילתן ולאוכלן צלויין שלוקין ומבושלים ולתת לתוכן תבלין של חולין ואמר בהקומץ רבה (מנחות דף כא:) יאכלוה שיאכלו עמה חולין ותרומה כדי שתהא נאכלת על השובע ונראה דדוקא חזה ושוק וכן בכורים דדרך קדושה מייתי להו דעביד בהו תנופה וכן לחם לצורך תודה שהוא הכשר קרבן יש קפידא טפי בהבאתה בעזרה שלא לצורך:"
+     ]
+    },
+    {
+     "he": "אֶלָּא ״זֶה״ לְמָה לִי? לְכִדְרַב חִסְדָּא, דְּאָמַר רַב חִסְדָּא: הַמַּזִּיק מַתְּנוֹת כְּהוּנָּה אוֹ שֶׁאֲכָלָן – פָּטוּר מִלְּשַׁלֵּם.",
+     "en": "The Gemara asks: <b>But</b> if that is so, <b>why do I</b> need the verse to state: <b>“This</b> shall be the priests’ due” (Deuteronomy 18:3)? The Gemara answers: The verse is necessary <b>for that which Rav Ḥisda</b> taught, <b>as Rav Ḥisda said: One who causes damage</b> to <b>gifts of the priesthood, or who consumed them</b> before they were given to the priests, is <b>exempt from</b> having <b>to pay</b> to the priest, as the verse states: “This shall be the priests’ due,” which indicates that only the foreleg, the jaw, and the maw themselves, not their replacements, are given to the priests.",
+     "rashi": [
+      "<b>המזיק מתנות כהונה</b> — קודם שנתנן לכהן השליכם לאור או לים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "גּוּפָא, אָמַר רַב חִסְדָּא: הַמַּזִּיק מַתְּנוֹת כְּהוּנָּה, אוֹ שֶׁאֲכָלָן – פָּטוּר מִלְּשַׁלֵּם. מַאי טַעְמָא? אִיבָּעֵית אֵימָא דִּכְתִיב ״זֶה״, וְאִיבָּעֵית אֵימָא מִשּׁוּם דְּהָוֵה לֵיהּ מָמוֹן שֶׁאֵין לוֹ תּוֹבְעִים.",
+     "en": "§ The Gemara analyzes <b>the</b> matter <b>itself: Rav Ḥisda said</b> that <b>one who causes damage</b> to <b>gifts of the priesthood or who consumed them</b> is <b>exempt from</b> having <b>to pay</b> a substitute to the priest. The Gemara asks: <b>What is the reason? If you wish, say that</b> it is because <b>“this” is written</b> in the verse, indicating that only the foreleg, the jaw, and the maw themselves are given to the priests, as explained above. <b>And if you wish, say</b> instead that it is <b>because it is money that has no claimants.</b> Since one may give the gifts to any priest, no single priest can issue a claim on them.",
+     "rashi": [
+      "<b>דכתיב בהו זה</b> — דמשמע בעודן קיימות חייב ליתנן אבל אינן קיימות לא חייב הכתוב בהן תשלומין:",
+      "<b>שאין לו תובעים</b> — אין לו בעלים שיוכלו לתובעו בדין שהוא יכול לומר לו לכהן אחר אני נותנן ולא לך:"
+     ],
+     "tosafot": [
+      "<b>ואב\"א משום דהוי ליה ממון שאין לו תובעין</b> — ולהאי לישנא אייתר וזה יהיה לכדאמר לקמן בסמוך שמתנות דין ואין חזה ושוק דין וללישנא קמא איכא למימר דתרתי שמע מינה ודריש בסמוך מדכתביה אצל משפט דמשמע זה משפט וזה אין משפט ואיכא בין הני תרי לישני דלהאי לישנא דאין לו תובעין נהי דאין יכול לתובעו בדיינין בדיני שמים מיהא מיחייב וללישנא קמא דדריש ליה מוזה אפילו בדיני שמים נמי לא מיחייב:"
+     ]
+    },
+    {
+     "he": "מֵיתִיבִי: ״וְזֶה יִהְיֶה מִשְׁפַּט הַכֹּהֲנִים״ – מְלַמֵּד שֶׁהַמַּתָּנוֹת דִּין. לְמַאי הִלְכְתָא? לָאו לְהוֹצִיאָן בְּדַיָּינִין? לָא, לְחוֹלְקָן בְּדַיָּינִין.",
+     "en": "The Gemara <b>raises an objection</b> from a <i>baraita</i>. The verse states: <b>“And this shall be the priests’ due [<i>mishpat</i>]”</b> (Deuteronomy 18:3), which <b>teaches that the gifts</b> given to the priests are considered <b>a judgment,</b> as <i>mishpat</i> can mean judgment. The Gemara continues: <b>With regard to what <i>halakha</i></b> are the gifts a judgment? Is it <b>not with regard to extracting</b> them <b>through judges,</b> i.e., a priest may claim them in court and the court will order the individual to give the gifts to that priest? If so, the gifts are considered to be money that has claimants. The Gemara rejects this suggestion: <b>No,</b> they are a judgment <b>with regard to distributing them through judges,</b> i.e., the court dictates to the owner to which type of priests he should give the gifts.",
+     "rashi": [
+      "<b>משפט מלמד שהמתנות דין</b> — דיינין נזקקין להן להוציאן בדיינין. אלמא כהן ראשון התובען מוציאן מידו וקשיא לרב חסדא דאמר דמתנות כהונה ממון שאין לו תובעין הוא:",
+      "<b>לחולקן בדיינין</b> — דיינין אומרים לו לישראל לזה תן המתנות שהוא חבר ואל תתן לזה שהוא עם הארץ:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְכִדְרַב שְׁמוּאֵל בַּר נַחְמָנִי, דְּאָמַר רַב שְׁמוּאֵל בַּר נַחְמָנִי אָמַר רַבִּי יוֹנָתָן: מִנַּיִן שֶׁאֵין נוֹתְנִין מַתָּנָה לְכֹהֵן עַם הָאָרֶץ? שֶׁנֶּאֱמַר: ״וַיֹּאמֶר לָעָם לְיוֹשְׁבֵי יְרוּשָׁלִַם לָתֵת מְנָת לַכֹּהֲנִים וְלַלְוִיִּם לְמַעַן יֶחֶזְקוּ בְּתוֹרַת ה׳״, כׇּל הַמַּחְזִיק בְּתוֹרַת ה׳ – יֵשׁ לוֹ מְנָת, וְשֶׁאֵינוֹ מַחֲזִיק בְּתוֹרַת ה׳ – אֵין לוֹ מְנָת.",
+     "en": "<b>And</b> this is <b>in accordance with that which Rav Shmuel bar Naḥmani</b> taught, <b>as Rav Shmuel bar Naḥmani said</b> that <b>Rabbi Yonatan said: From where</b> is it derived <b>that one does not give a gift</b> of the priesthood <b>to a priest</b> who is <b>an <i>am ha’aretz</i>?</b> It is derived from a verse, <b>as it is stated: “And he commanded the people who dwelled in Jerusalem to give the portion of the priests and of the Levites, so that they may firmly adhere to the Torah of the Lord”</b> (II Chronicles 31:4). This indicates that <b>anyone who firmly adheres to the Torah of the Lord has a portion, and one who does not firmly adhere to the Torah of the Lord does not have a portion.</b>",
+     "rashi": [
+      "<b>ויאמר לעם</b> — ביהושפט כתיב בדברי הימים. סיפיה דקרא למען יחזקו בתורת ה':",
+      "<b>מנת</b> — חלק כהונה:"
+     ],
+     "tosafot": [
+      "<b>מנין שאין נותנין מתנות לכהן ע\"ה כו'</b> — היינו דווקא כשיש כהן חבר אבל אי ליכא כהן חבר אלא ע\"ה יתנו לו ואל ימתין עד שיזדמן לו חבר כדתנן במסכת חלה (פ\"ד מ\"ט) אלו נותנין לכל מי שירצה החרמים והבכורות ופדיון הבן ופטר חמור והזרוע והלחיים והקבה וראשית הגז כו' ואין לפרש לכל כהן בין לאנשי משמר בין לשאר כהנים דהא בירושלמי בפרק שתי נשים קאמר דיש מהן ניתנין לכל כהן ויש מהן ניתנין לאנשי משמר א\"כ ע\"כ לכל כהן דקאמר היינו בין כהן חבר בין כהן ע\"ה והיינו היכא דליכא חבר או איכא ואין רוצה לקבל כדפרישית בריש כל הבשר (לעיל חולין דף קד:) אבל אין לתרץ דרבי שמואל בר נחמני דהכא כרבי יהודה דגרסינן בירושלמי ר' יהודה אומר אין נותנין אותה אלא לחבר דהתם אבכורים קאי כדאמר התם לעיל מינה רבי אדא אוסר בבכורים:"
+     ]
+    },
+    {
+     "he": "תָּא שְׁמַע: רַבִּי יְהוּדָה בֶּן בְּתֵירָא אוֹמֵר: ״מִשְׁפָּט״ – מְלַמֵּד שֶׁהַמַּתָּנוֹת דִּין. יָכוֹל אֲפִילּוּ חָזֶה וָשׁוֹק דִּין? תַּלְמוּד לוֹמַר ״זֶה״.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a proof with regard to the statement of Rav Ḥisda from a <i>baraita</i>: <b>Rabbi Yehuda ben Beteira says</b> that the phrase “And this shall be the priests’ <b>due” teaches that the gifts</b> of the priesthood are <b>a judgment.</b> One <b>might</b> have thought that the gifts of the <b>breast and thigh</b> are <b>also a judgment.</b> Therefore, <b>the verse states: “This,”</b> to teach that only the gifts of the foreleg, the jaw, and the maw are called a judgment.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "לְמַאי? אִילֵימָא לְחוֹלְקוֹ בְּדַיָּינִין – אַטּוּ חָזֶה וָשׁוֹק לָאו בְּדַיָּינִין מִיחַלְּקוּ? אֶלָּא לָאו (להוציא) [לְהוֹצִיאוֹ] בְּדַיָּינִין.",
+     "en": "The Gemara analyzes this <i>baraita</i>: <b>With regard to what</b> matter is this <i>halakha</i> stated? <b>If we say</b> that it is <b>with regard to distributing</b> them <b>through judges, is that to say</b> that the <b>breast and thigh are not distributed through judges?</b> These are also called a “portion” (II Chronicles 31:4), and therefore the court determines to which priests they should be given, as stated above. <b>Rather, is it not</b> stated <b>with regard to extracting</b> them <b>through judges?</b> If so, one can infer from the <i>baraita</i> that gifts of the priesthood can be extracted in court by a priest, which contradicts the statement of Rav Ḥisda.",
+     "rashi": [
+      "<b>אטו חזה ושוק מי לא בדיינין מיחלקו</b> — כלום היה יכול לתתם לכהן עם הארץ והא מנת נינהו:",
+      "<b>אלא לאו להוציאו בדיינין</b> — אלמא דממון שיש לו תובעין הוא משום הכי ממעט חזה ושוק דכיון דלכפרה ולרצוי בא לא שכיח דמעכב:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָכָא בְּמַאי עָסְקִינַן, דַּאֲתוֹ לִידֵיהּ. אִי דַּאֲתוֹ לִידֵיהּ, מַאי לְמֵימְרָא? דַּאֲתוֹ לִידֵיהּ בְּטִבְלַיְיהוּ, וְקָסָבַר הַאי תַּנָּא: מַתָּנוֹת שֶׁלֹּא הוּרְמוּ – כְּמִי שֶׁהוּרְמוּ דָּמְיָין.",
+     "en": "The Gemara responds: <b>Here, we are dealing with</b> a case <b>where</b> the gifts already <b>came into</b> the priest’s <b>possession,</b> and the owner stole them from him. The <i>baraita</i> teaches that the priest may claim them in court and the court will order that they be returned to him. The Gemara asks: <b>If</b> this is a case <b>where they came into his possession, what</b> is the purpose <b>of stating</b> that the priest may claim them in court? That is obvious, as they already belong to him. The Gemara responds: The <i>baraita</i> is referring to a case <b>where they came into his possession while they</b> were still <b>untithed,</b> i.e., the priest received the entire animal before the gifts were separated, <b>and this <i>tanna</i> holds</b> that <b>gifts that have not been separated are considered as though they have been separated.</b> Accordingly, the gifts belong to the priest, and if the owner takes them from him against his will it is considered theft.",
+     "rashi": [
+      "<b>הכא במאי עסקינן דאתו לידיה</b> — דכהן ואחר כך גזלם זה ממנו דהוה ליה ממון שיש לו תובעין שכבר זכה זה בהן ודמי כמאן דגזל מיניה גלימיה:",
+      "<b>ופריך אי דאתו לידיה</b> — דכהן מאי למימרא פשיטא דיכול להוציאו בדיינין. וקמהדר דאתו לידיה בטיבלייהו הבהמה שלימה היתה מונחת אצלו וזכה במתנות מן ההפקר:",
+      "<b>כמי שהורמו דמיין</b> — וזכה בהן. במתנות ששוים לכל הכהנים מהני זכייה אם קדם אבל חזה ושוק אינו אלא לאותו בית אב ולא מהני:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: בַּעַל הַבַּיִת שֶׁהָיָה עוֹבֵר מִמָּקוֹם לְמָקוֹם, וְצָרִיךְ לִיטּוֹל לֶקֶט, שִׁכְחָה, וּפֵאָה, וּמַעְשַׂר עָנִי – נוֹטֵל, וְלִכְשֶׁיַּחְזוֹר יְשַׁלֵּם, דִּבְרֵי רַבִּי אֱלִיעֶזֶר.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a proof with regard to the statement of Rav Ḥisda from a mishna (<i>Pe’a</i> 5:4): In the case of <b>a homeowner who was passing from place to place,</b> and he ran out of money while traveling <b>and needs to take gleanings, forgotten</b> sheaves, <b><i>pe’a</i>, or the poor man’s tithe</b> in order to sustain himself, he may <b>take</b> them, <b>and when he returns</b> to his house <b>he will pay</b> a poor person for whatever he took; this is <b>the statement of Rabbi Eliezer.</b> The mishna teaches that a poor person may extract payment for that which the homeowner took, despite the fact that he never had possession of the gifts. This ruling apparently contradicts the statement of Rav Ḥisda.",
+     "rashi": [
+      "<b>בעל הבית</b> — עשיר שהיה עובר ממקום למקום:",
+      "<b>וצריך ליטול כו'</b> — ונצרך למזונות נוטל לקט כשאר עניים הואיל שעכשיו עני הוא:",
+      "<b>וכשיחזור ישלם</b> — אלמא כל מידי דחייביה רחמנא למיתב לעניים הבא ראשון יכול לתובעו והוא הדין למתנות כהונה:"
+     ],
+     "tosafot": [
+      "<b>וכשיחזור לביתו ישלם</b> — ללישנא בתרא דקאמר משום דהוי ממון שאין לו תובעין פריך שפיר דישלם משמע שיכול להוציאו בדיינין וללישנא קמא נמי דפטר משום דכתיב זה פרכינן דכיון דבמתנות פטור משום דכתיב זה מסברא אין לנו לחלק בין מתנות ללקט שכחה ופאה ולקמן בפרקין (חולין דף קלד.) פריך מספק לקט דחייב משום עני ורש הצדיקו להא דאמר אין ספק מתנות לכהן:"
+     ]
+    },
+    {
+     "he": "אָמַר רַב חִסְדָּא: מִדַּת חֲסִידוּת שָׁנוּ כָּאן. אָמַר רָבָא: תַּנָּא תָּנֵי ״יְשַׁלֵּם״, וְאַתְּ אָמְרַתְּ מִדַּת חֲסִידוּת שָׁנוּ כָּאן?! וְעוֹד, מִדְּרַבִּי אֱלִיעֶזֶר לֵיקוּם וְלֹיתֵוב?",
+     "en": "<b>Rav Ḥisda said:</b> The mishna <b>taught an attribute of piety here,</b> i.e., strictly speaking a poor person has no right to claim any amount from the homeowner for what he took. <b>Rava said</b> in bewilderment: <b>The <i>tanna</i> taught</b> explicitly that <b>he will pay, and you say</b> that he <b>taught an attribute of piety here? And furthermore, should</b> one <b>arise and raise an objection from</b> the statement <b>of Rabbi Eliezer?</b> The <i>halakha</i> is not in accordance with his opinion.",
+     "rashi": [
+      "<b>מדת חסידות שנו כאן</b> — אם חסיד הוא ישלם:",
+      "<b>תנא תני ישלם</b> — דמשמע על כרחו ואת אמרת כו':",
+      "<b>ועוד</b> — מי סברת מדרבי אליעזר קמותיב דמצינן למימר דרב חסדא משני עלה מדת חסידות שנו כאן אלא מדרבנן מותיב ועלה משני רב חסדא מדת חסידות (שנו כו': כאן - הא) דקתני עני היה באותה שעה דמשמע דתידוק מינה דעשיר בעי שלומי לאו בדיינין קאמר אלא אם חסיד הוא צריך לשלם לצאת ידי שמים:"
+     ],
+     "tosafot": [
+      "<b>אמר רבא </b> גרס ולא גרסינן אמר ליה רבא דהוה משמע דלרב חסדא דבר ואם כן מאי קאמר לבסוף מדת חסידות שנו כאן הלא כבר שמע התירוץ ולמה חזר ואמר רב חסדא אלא רבא שמע בבית המדרש הקשיא והתירוץ בשם רב חסדא ארישא והשיב להם דארישא לא שייך לשנויי ולא לאותיב מיניה אלא מסיפא הוקשה לרב חסדא ועל זה תירץ רב חסדא וי\"ס שכתוב בהן ואמר רב חסדא בוי\"ו בסוף מילתיה דרבא וכן משמע דאי לרב חסדא הוה מדבר לא היה אומר ואת אמרת אלא ומר אמר מדת חסידות שנו כאן:",
+      "<b>תנא תני ישלם ואת אמרת כו'</b> — וא\"ת והאמר בפרק קמא דב\"ק (דף ז.) א\"ל אביי מי כתיב ישולם ישלם כתיב מדעתו ואמר נמי פרק הפועלים (ב\"מ דף צא.) גבי חוסם פי פרה ודש בה לוקה ומשלם ארבעה קבין לפרה כו' ובעי למימר משלם לצאת ידי שמים וללישנא קמא דלעיל דפטור אפילו לצאת ידי שמים פריך שפיר ומיהו לההוא לישנא נמי דאין לו תובעין דחייב לצאת ידי שמים איכא למימר דהיינו דוקא במזיק מתנות כהונה או אכלן שלקחן באיסור אבל הכא שלקחן בהיתר שהיה אז עני אפילו לצאת ידי שמים לא מחייב להכי פריך שפיר ואת אמרת מדת חסידות שנו כאן ולא מחייב אפילו לצאת ידי שמים ומיהו בסמוך קשה דקאמר טעמא דעני הא עשיר חייב ומאי קשיא אימא עני פטור אפילו מלצאת ידי שמים אבל עשיר חייב ומפר\"ת דה\"ק תנא תני ישלם לרבי אליעזר ורבנן פליגי עליה ואת אמרת מדת חסידות כו' דעל מדת חסידות לא הוי פליגי רבנן:"
+     ]
+    },
+    {
+     "he": "אֶלָּא מִסֵּיפָא, וַחֲכָמִים אוֹמְרִים: עָנִי הָיָה בְּאוֹתָהּ שָׁעָה, טַעְמָא דְּעָנִי, הָא עָשִׁיר – מְשַׁלֵּם.",
+     "en": "<b>Rather,</b> the objection is <b>from the latter clause</b> of the mishna: <b>And the Rabbis say</b> that the homeowner is not required to pay for what he took during his travels, as <b>he was</b> considered <b>poor at that time.</b> It may be inferred that the <b>reason</b> he is exempt from payment is only <b>that</b> he was considered <b>poor</b> at the time, <b>but</b> if he were considered <b>wealthy,</b> he would have to <b>pay</b> the poor people who issue a claim against him in court, as he was not entitled to those gifts.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "אַמַּאי? לֶיהֱוֵי כְּמַזִּיק מַתְּנוֹת כְּהוּנָּה אוֹ שֶׁאֲכָלָן! אָמַר רַב חִסְדָּא: מִדַּת חֲסִידוּת שָׁנוּ כָּאן.",
+     "en": "The Gemara explains the objection: But <b>why</b> must he pay? <b>Let it be</b> considered <b>like</b> a case where one <b>causes damage to gifts of the priesthood or consumes them,</b> with regard to which Rav Ḥisda states that he is not required to pay the priest. The opinion of the Rabbis apparently contradicts the statement of Rav Ḥisda. <b>Rav Ḥisda says:</b> Even if the homeowner was considered wealthy at the time he is not required to pay, and the Rabbis who obligated him to pay <b>taught an attribute of piety here.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: מִנַּיִן לְבַעַל הַבַּיִת שֶׁאָכַל פֵּירוֹתָיו טְבָלִין, וְכֵן לֵוִי שֶׁאָכַל מַעְשְׂרוֹתָיו טְבָלִים, מִנַּיִן שֶׁפָּטוּר מִן הַתַּשְׁלוּמִין? תַּלְמוּד לוֹמַר: ״וְלֹא יְחַלְּלוּ אֶת קׇדְשֵׁי בְּנֵי יִשְׂרָאֵל אֲשֶׁר יָרִימוּ״ – אֵין לְךָ בָּהֶן אֶלָּא מִשְּׁעַת הֲרָמָה וְאֵילָךְ.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a proof from a <i>baraita</i>: <b>From where</b> is it derived <b>with regard to a homeowner who consumed his produce</b> while it was <b>untithed,</b> i.e., neither <i>teruma</i> nor the first tithe had been separated, <b>and similarly,</b> with regard to <b>a Levite who consumed his tithes</b> while they were <b>untithed,</b> i.e., <i>teruma</i> of the tithe had not been separated, <b>from where</b> is it derived <b>that</b> he is <b>exempt from payment? The verse states: “And they shall not profane the sacred things of the children of Israel, which they set apart</b> to the Lord” (Leviticus 22:15). This teaches that <b>you,</b> the priest, <b>have</b> rights <b>to them only from the time of separation onward.</b> Since the produce was eaten before <i>teruma</i> was separated from it, the priest cannot claim payment for it in court.",
+     "rashi": [
+      "<b>וכן לוי שאכל מעשרותיו טבלים</b> — שלא הפריש תרומת מעשר:",
+      "<b>את קדשי בני ישראל אשר ירימו לה' אין לך בהן אלא משעת הרמה</b> — הכי גרסינן ליה בתוספתא:"
+     ],
+     "tosafot": [
+      "<b>אין לך בהן אלא משעת הרמה</b> — ואם תאמר והא קרא לאו לאחר הרמה איירי אלא בעתיד ליתרם דמפקינן מיניה בפרק [אלו] הנשרפים (סנהדרין דף פג.) דטבל במיתה חלול חלול מתרומה דדריש לא יחללו את קדשי בני ישראל את אשר ירימו בעתידים ליתרם הכתוב מדבר ויש לומר דהכא דריש מדסמך ירימו אצל לה' לומר לך שאין לגבוה בהן אלא משעת הרמה אי נמי משום דקאי אקרא דסמיך ליה ואיש כי יאכל קודש דאיירי לאחר הרמה:"
+     ]
+    },
+    {
+     "he": "הָא מִשְּׁעַת הֲרָמָה וְאֵילָךְ מִיהָא מְשַׁלֵּם, אַמַּאי? לֶיהֱוֵי כְּמַזִּיק מַתְּנוֹת כְּהוּנָּה אוֹ שֶׁאֲכָלָן! הָכָא נָמֵי",
+     "en": "The Gemara infers from this ruling: This indicates that if it was consumed <b>from the time of separation onward,</b> the priest may <b>in any event</b> claim payment for the <i>teruma</i> in court, and the one who consumed it must <b>pay.</b> But <b>why</b> must one pay? <b>Let it be like</b> a case where one <b>causes damage to gifts of the priesthood or consumes them,</b> with regard to which Rav Ḥisda states that he is exempt from payment. The Gemara responds: <b>Here too,</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
