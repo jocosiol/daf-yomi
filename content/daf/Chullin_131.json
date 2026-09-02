@@ -1,0 +1,375 @@
+{
+ "tractate": "Chullin",
+ "page": 131,
+ "fetched": "2026-09-02",
+ "versions": {
+  "he": "William Davidson Edition - Vocalized Aramaic",
+  "en": "William Davidson Edition - English",
+  "rashi": "Vilna Edition"
+ },
+ "amudim": [
+  {
+   "amud": "a",
+   "ref": "Chullin 131a",
+   "he_ref": "חולין קל״א.",
+   "url": "https://www.sefaria.org/Chullin.131a",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=131&amud=a",
+   "segments": [
+    {
+     "he": "דַּאֲתוֹ לִידֵיהּ בְּטִבְלַיְיהוּ, וְקָסָבַר הַאי תַּנָּא: מַתָּנוֹת שֶׁלֹּא הוּרְמוּ – כְּמִי שֶׁהוּרְמוּ דָּמְיָין.",
+     "en": "the <i>baraita</i> is referring to a case <b>where they came into</b> the priest’s <b>possession while they</b> were still <b>untithed, and this <i>tanna</i> holds</b> that <b>gifts that have not been separated are considered as though they have been separated.</b> In such a case, the priest obtained rights to the ownerless gifts by seizing them first. Although when he seized the produce it was still untithed, the portion of the produce that is to be separated has the status of <i>teruma</i>. Accordingly, one who consumes such produce is required to pay the priest.",
+     "rashi": [
+      "<b>דאתו לידיה</b> — דכהן:",
+      "<b>בטבלייהו</b> — שהופקד הטבל אצלו:",
+      "<b>כמי שהורמו דמיין</b> — זכה בהם מן ההפקר שהרי קדם. ל\"א שמסר לו את הטבל לזכות בתרומה שבו:"
+     ],
+     "tosafot": [
+      "<b>דאתו לידיה בטבלייהו וקסבר האי תנא מתנות שלא הורמו כמי שהורמו דמיין</b> — ומשעת הרמה ואילך היינו מכי אתו לידיה אפילו בטבלייהו וא\"ת אמאי לא משני דפשטא דברייתא דקתני פטור מן התשלומין היינו דאתו ליד כהן בטבלייהו וקסבר האי תנא מתנות שלא הורמו לאו כמי שהורמו דמיין ומש\"ה פטור דאין לו לכהן אלא משעת הרמה ממש והוה ניחא טפי דהוי לשון הרמה דוקא וי\"ל דאי הוה מוקי לה הכי אז לא היה חדוש הדיוק כלל הא משעת הרמה ואילך משלם דהא פשיטא דמשלם כיון דאתו ליד כהן והורמו אבל השתא עיקר הברייתא משמיענו דמזיק מתנות כהונה או שאכלן פטור ודיוקא קמ\"ל דאע\"ג דאתו לידיה בטבלייהו חייב דכמי שהורמו דמיין:"
+     ]
+    },
+    {
+     "he": "תָּא שְׁמַע: הֲרֵי שֶׁאָנְסוּ בֵּית הַמֶּלֶךְ גׇּרְנוֹ, אִם בְּחוֹבוֹ – חַיָּיב לְעַשֵּׂר, אִם בְּאַנְפָּרוּת – פָּטוּר מִלְּעַשֵּׂר.",
+     "en": "The Gemara further suggests: <b>Come</b> and <b>hear</b> another proof with regard to the statement of Rav Ḥisda from a <i>baraita</i>: In a case <b>where the household of the king seized one’s threshing floor</b> by force, <b>if</b> they took it <b>as</b> payment of <b>his debt</b> owed to the king, then <b>he is obligated to tithe</b> other grain in accordance with the amount he would have tithed before the grain was seized. Since he was already obligated to tithe the grain before it was seized, it is considered as though the grain was sold in an untithed state. <b>If they took it without reason [<i>anparot</i>],</b> then <b>he is exempt from tithing.</b> The fact that one is required to tithe grain seized as payment of a debt indicates that the tithe is considered money that has claimants, from which it follows that a priest may extract payment of the tithe from him. Again, this apparently contradicts the statement of Rav Ḥisda.",
+     "rashi": [
+      "<b>אם בחובו</b> — שהיה חייב לו דבר קצוב ממון:",
+      "<b>חייב לעשר</b> — ממקום אחר וליתן לכהן שהרי הוא כמוכר:",
+      "<b>ואם באנפרות</b> — בהפסד ועל חנם פטור מלעשר. קתני מיהת אם בחובו חייב לעשר אלמא יש לו תובעין דאי לאו דינא הוא שישלם לו על כרחו מאי חיוב מצוה איכא הא לא פש גביה מידי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "שָׁאנֵי הָתָם, דְּקָא מִשְׁתָּרְשִׁי לֵיהּ.",
+     "en": "The Gemara rejects this proof: It <b>is different there,</b> since if one is not required to tithe grain seized as payment of a debt, this would mean <b>that</b> the seizure <b>causes benefit for him,</b> as he will be exempt from tithing grain that he was previously obligated to tithe. It is for this reason that the <i>baraita</i> rules that one must tithe other grain instead of the seized grain, not because a priest could have issued a claim against him in court.",
+     "rashi": [
+      "<b>שאני התם דקא משתרשי ליה</b> — התם לאו בהוצאה בדיינין תנן בה אלא חיובא בעלמא כשאר חיובי מעשרות וחיובא ודאי איכא עליה דהא משתרשי ליה כלומר משתכר הוא בה שהרי היה צריך לפרוע מעות:"
+     ],
+     "tosafot": [
+      "<b>שאני התם דקא משתרשי ליה</b> — דבמקום זה הניח לו המלך שאר ממון ואם תאמר מתנות כהונה כשאכלם משתרשי ליה שבמקום זה לא אכל דבר אחר ואמאי פטור וי\"ל דלא דמי לאנסו בית המלך גרנו דתחתיהן לא לקח משלו אבל באכלו אפשר דלא משתרשי ליה שהיה מתענה:"
+     ]
+    },
+    {
+     "he": "תָּא שְׁמַע, אָמַר לוֹ: מְכוֹר לִי בְּנֵי מֵעֶיהָ שֶׁל פָּרָה, וְהָיָה בָּהֶן מַתְּנוֹת כְּהוּנָּה – נוֹתְנָן לַכֹּהֵן, וְאֵינוֹ מְנַכֶּה לוֹ מִן הַדָּמִים. לָקַח הֵימֶנּוּ בְּמִשְׁקָל – נוֹתְנָן לַכֹּהֵן, וּמְנַכֶּה לוֹ מִן הַדָּמִים.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a proof from a mishna (132a): If an Israelite <b>says</b> to a butcher: <b>Sell me the innards of</b> a particular <b>cow, and there were gifts of the priesthood</b> included <b>with it,</b> i.e., the maw, that were not yet given to the priest, the purchaser <b>must give them to the priest, and</b> the butcher <b>may not deduct</b> the value of the gifts <b>from the money</b> that the purchaser pays <b>him,</b> as it is assumed that the gifts were not included in the sale. If <b>he purchased</b> the innards <b>from</b> the butcher <b>by weight,</b> the purchaser <b>must give</b> the gifts <b>to the priest, and</b> the butcher <b>deducts</b> the value of the gifts <b>from the money</b> that the Israelite pays <b>him.</b>",
+     "rashi": [
+      "<b>א\"ל</b> — לטבח:",
+      "<b>מכור לי בני מעיה</b> — בני מעיה של פרה זו:",
+      "<b>והיו בהן מתנות</b> — הקבה:",
+      "נותנן: לוקח זה לכהן:",
+      "<b>ואין</b> — המוכר מנכה לו ללוקח מן הדמים שהרי היה יודע הלוקח שהמתנות שם וזה לא מכר לו הקבה:",
+      "<b>לקח הימנו במשקל</b> — הליטרא כך וכך ושקל לו הקבה:",
+      "<b>נותנן</b> — לו לוקח לכהן שהרי הגזל אצלו וצריך להשיב:",
+      "<b>והטבח ינכה לו מן הדמים</b> — על כרחו שמכר דבר שאינו שלו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אַמַּאי? לֶיהֱוֵי כְּמַזִּיק מַתְּנוֹת כְּהוּנָּה אוֹ שֶׁאֲכָלָן! שָׁאנֵי הָתָם, דְּאִיתַנְהוּ בְּעֵינַיְהוּ.",
+     "en": "The Gemara asks: <b>Why</b> must the buyer give the maw to the priest? <b>Let</b> the butcher’s sale of the maw <b>be</b> considered <b>like</b> a case where one <b>causes damage to gifts of the priesthood or consumes them,</b> with regard to which Rav Ḥisda states that one is exempt from payment. This mishna apparently contradicts Rav Ḥisda’s statement. The Gemara rejects this: It <b>is different there, as</b> the gifts <b>are intact,</b> i.e., they are distinct items in their own right. In such a case, the gifts must be given to the priest. By contrast, Rav Ḥisda is discussing cases in which the gifts are not distinguishable objects at the time.",
+     "rashi": [
+      "<b>ואמאי</b> — נותנן לכהן ליהוי כמזיק כו':"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: תִּשְׁעָה נִכְסֵי כֹהֵן – תְּרוּמָה, וּתְרוּמַת מַעֲשֵׂר, וְחַלָּה, רֵאשִׁית הַגֵּז, וּמַתָּנוֹת, וְהַדְּמַאי, וְהַבִּכּוּרִים, וְהַקֶּרֶן, וְהַחוֹמֶשׁ.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> another proof: <b>Nine</b> items are the <b>property of a priest: <i>Teruma</i>, <i>teruma</i> of the tithe, <i>ḥalla</i>,</b> the portion of dough given to the priest, <b>the first sheared</b> wool, <b>gifts</b> of the priesthood, <b>doubtfully tithed produce [<i>demai</i>], first fruits, the principal</b> value of the property of a convert, <b>and the</b> additional <b>one-fifth.</b> The two are paid to the priest in a case where the property of a convert was stolen and the thief took an oath that he did not steal it, and after the convert died the thief admitted to taking a false oath.",
+     "rashi": [
+      "<b>תשעה נכסי כהן</b> — לא ידעתי היכן שנויה ובספרים אינה כתובה בשוה ומוצא אני ט\"ו מתנות כהונה שכולן נכסי כהן לעשות בהן כל צרכיו התרומה ותרומת מעשר ותרומת מעשר של דמאי והחלה והבכורים וראשית הגז ומתנות של חולין ושל קדשים והקרן והחומש של גזל הגר ושדה אחוזה ושדה חרמים ובכור בעל מום ופדיון הבן ופדיון פטר חמור ונראה בעיני שכולן שנוים בה וחשיב תרומה ותרומת מעשר והדמאי וחלה כחדא דכולהו תרומה נינהו ובכור ופדיון הבן ופדיון פטר חמור כחדא וקרן וחומש דגזל הגר חדא וכולהו הנך מתנה לכהן הן ולקמן בפירקין (חולין דף קלג:) חשיב כל כ\"ד מתנות כהונה. הגוזל את הגר ונשבע לו ומת הגר ואח\"כ הודה ונשבע לשקר דאמר רחמנא ואם אין לאיש גואל וגו' וכי יש לך אדם בישראל שאין לו גואלים אלא זהו גר שמת ואין לו יורשין וכתיב האשם המושב לה' לכהן ותניא בפרק הגוזל בב\"ק (דף קי.) האשם זה קרן המושב זה חומש דגבי נשבע לשקר בפקדון או בגזל כתיב ביה חומש בין בגוזל חבירו בפרשת ויקרא בין בגזל הגר בפרשת נשא:"
+     ],
+     "tosafot": [
+      "<b>הכי גרסי' בפי' ר\"ח שבעה נכסי כהן</b> — ולא חשיב הכא כל כ\"ד מתנות כהונה דחשיב לקמן בפירקין (חולין דף קלג:) דלא חשיב הכא אלא הנך דאסורים לזרים והם ממון כהן והא דחשיב מתנות אע\"פ שמותרות לזרים משום דטבלי ודמו לתרומה כדאמר לקמן (חולין קלב:) אע\"ג דלית הלכתא הכי היינו דלא הוי כאוכל טבלים אבל מ\"מ איסורא איכא לאכול מבהמה שלא הורמה מתנותיה א\"נ לא חשיב אלא מידי דבר אכילה והא דלא חשיב בכור משום דאכתי לאו בר אכילה הוא שצריך שחיטה:"
+     ]
+    },
+    {
+     "he": "לְמַאי, לָאו לְהוֹצִיאָן בְּדַיָּינִין? לָא, לִכְדִתְנַן: לָמָה אָמְרוּ נִכְסֵי כֹהֵן? שֶׁקּוֹנֶה בָּהֶן עֲבָדִים וְקַרְקָעוֹת וּבְהֵמָה טְמֵאָה, וּבַעַל חוֹב נוֹטְלָן בְּחוֹבוֹ, וְאִשָּׁה בִּכְתוּבָּתָהּ, וְסֵפֶר תּוֹרָה.",
+     "en": "The Gemara explains the proof: <b>With regard to what</b> matter are these items considered the property of a priest? <b>Is it not with regard to extracting them with judges,</b> which would contradict the opinion of Rav Ḥisda? The Gemara responds: <b>No,</b> it is <b>with regard to that which we learned</b> in a mishna (<i>Bikkurim</i> 3:12): <b>To what</b> end did <b>they say</b> that these items are the <b>property of a priest?</b> It means <b>that</b> a priest may <b>purchase with them slaves and lands and a non-kosher animal; and a lender takes them</b> as payment <b>of his debt; and</b> if the <b>wife</b> of a priest is divorced from him, she takes them as payment <b>of her marriage contract; and</b> a priest may purchase <b>a Torah scroll</b> with them.",
+     "rashi": [
+      "<b>למה אמרו</b> — למאי הלכתא:",
+      "<b>וס\"ת</b> — אע\"פ שאינו לאכילה ולא לדבר שיבא לידי אכילה. ולבי מגמגם למאי תנייה הואיל ותנא דאפי' בהמה טמאה לוקח מהן:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "הָהוּא לֵיוָאָה דַּהֲוָה חָטֵף מַתְּנָתָא, אֲתוֹ אֲמַרוּ לֵיהּ לְרַב, אֲמַר לְהוּ: לָא מִסָּתְיֵיהּ דְּלָא שָׁקְלִינַן מִינֵּיהּ, אֶלָּא מִיחְטָף נָמֵי חָטֵיף?!",
+     "en": "§ The Gemara relates: There was <b>a certain Levite who would snatch gifts</b> of the priesthood from children who were delivering them to the priests on their fathers’ behalf. <b>They came</b> and <b>told Rav</b> about this Levite. Rav <b>said to them: Is it not enough that</b> when he slaughters his own animals <b>we do not take</b> the gifts of the priesthood <b>from him, but he also snatches</b> gifts that are being delivered to priests?",
+     "rashi": [
+      "<b>חטיף מתנתא</b> — כשהיו התינוקות מוליכין הזרוע והלחיים והקבה לכהן חוטפם מידיהם:",
+      "<b>לא מסתייה</b> — לא די דכשהוא שוחט את בהמתו אין אנו כופין אותו לתת מתנות לכהן אחר:",
+      "<b>אלא מיחטף נמי חטיף</b> — בתמיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְרַב, אִי אִיקְּרוֹ ״עַם״ – מִשְׁקָל נָמֵי לִשְׁקוֹל מִינַּיְיהוּ. אִי לָא אִיקְּרוֹ ״עַם״ – רַחֲמָנָא פַּטְרִינְהוּ!",
+     "en": "Rav’s comment indicates that in his opinion there are grounds to take the gifts from Levites, but nevertheless they are not taken. The Gemara asks: <b>And</b> what does <b>Rav</b> maintain in this regard? <b>If</b> he maintains that Levites <b>are called</b> part of the <b>“people,”</b> then <b>let one take</b> the foreleg, the jaw, and the maw <b>from them as well,</b> as the verse states: “From the people, from them that perform a slaughter, whether it be ox or sheep, they shall give to the priest the foreleg, and the jaw, and the maw” (Deuteronomy 18:3). <b>And if they are not called</b> part of the <b>people,</b> then <b>the Merciful One</b> has <b>exempted them</b> from giving those gifts, and there would be no grounds to take the gifts from them.",
+     "rashi": [
+      "<b>ורב</b> — מאי דעתיה דאמר לא מסתייה דלא שקלינן מיניה דמשמע שהיינו יכולין לכופו לכך ונמנעין אנו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מְסַפְּקָא לֵיהּ אִי אִיקְּרוֹ ״עַם״ אִי לָא אִיקְּרוֹ ״עַם״.",
+     "en": "The Gemara responds: Rav <b>is uncertain whether or not they are called</b> part of the <b>people.</b> Therefore, he exempts the Levites from giving their own gifts, in accordance with the principle that the burden of proof rests upon the claimant.",
+     "rashi": [
+      "<b>אי איקרו עם לשקול מיניה</b> — דהא מאת העם מאת זובחי הזבח כתיב (דברים יח) ואי לא איקרו עם רחמנא פטריה ומאי טיבותא עבדינן גבייהו:",
+      "<b>מספקא ליה</b> — לרב ומשום ספיקא פטר ליה דהמוציא מחבירו עליו הראיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "יָתֵיב רַב פָּפָּא וְקָאָמַר לַהּ לְהָא שְׁמַעְתָּא, אֵיתִיבֵיהּ רַב אִידִי בַּר אָבִין לְרַב פָּפָּא: אַרְבַּע מַתְּנוֹת עֲנִיִּים שֶׁבַּכֶּרֶם – הַפֶּרֶט, וְהָעוֹלֵלוֹת, וְהַשִּׁכְחָה, וְהַפֵּאָה; וְשָׁלֹשׁ שֶׁבַּתְּבוּאָה – הַלֶּקֶט, וְהַשִּׁכְחָה, וְהַפֵּאָה; שְׁנַיִם שֶׁבָּאִילָן – הַשִּׁכְחָה וְהַפֵּאָה.",
+     "en": "The Gemara relates that <b>Rav Pappa was sitting and saying this <i>halakha</i></b> in the name of Rav. <b>Rav Idi bar Avin raised an objection to Rav Pappa</b> from a <i>baraita</i>, with regard to the uncertainty of Rav: <b>Four gifts</b> are left <b>to the poor</b> from the produce <b>of a vineyard: The individual fallen</b> grapes <b>[<i>peret</i>], and the incompletely formed clusters</b> of grapes <b>[<i>olelot</i>], and the forgotten</b> clusters, <b>and <i>pe’a</i>. And three</b> gifts are left to the poor <b>from grain: The gleanings,</b> i.e., sheaves that fell during the harvest, <b>and the forgotten</b> sheaves, <b>and the <i>pe’a</i>. Two</b> gifts are left to the poor from the fruit <b>of a tree: The forgotten</b> fruits <b>and the <i>pe’a</i>.</b>",
+     "rashi": [
+      "<b>להא שמעתא</b> — דרב דמספקא ליה:",
+      "<b>ד' מתנות עניים</b> — הנוהגות בכרם ואלו הן:",
+      "<b>הפרט והעוללות</b> — כדכתיב (ויקרא יט) וכרמך לא תעולל ופרט כרמך לא תלקט ובמס' פאה (פ\"ז מ\"ד) מפורש איזו היא עוללות כל שאין לה לא כתף ולא נטף:",
+      "<b>והשכחה והפאה</b> — כולהו יליף לקמן. פרט ענבים הנושרין בשעת בצירה:",
+      "<b>לקט</b> — הנושר בשעת קצירה:",
+      "<b>שתים באילן</b> — לקמן יליף להו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כּוּלָּן אֵין בָּהֶם טוֹבַת הֲנָאָה לַבְּעָלִים, וַאֲפִילּוּ עָנִי שֶׁבְּיִשְׂרָאֵל מוֹצִיאִין מִיָּדוֹ.",
+     "en": "The <i>baraita</i> elaborates: With regard to <b>all of</b> these gifts, <b>the owner</b> of the produce <b>does not have the benefit of discretion.</b> This is the benefit accrued from giving a gift to an individual of one’s choice, e.g., giving <i>teruma</i> or tithes to whichever priest or Levite that one chooses. Instead, poor person who takes possession of these gifts becomes their rightful owner. <b>And even a poor person of Israel</b> who owns a vineyard, field, or tree must leave these gifts for all other poor people; and if he does not do so, <b>the court removes</b> them <b>from his possession.</b>",
+     "rashi": [
+      "<b>אין בהן טובת הנאה לבעלים</b> — אין בידם לתתן לכל מי שירצו אלא כל הקודם זכה ולקמיה מפרש טעמא:",
+      "<b>מוציאין את שלו מידו</b> — אם היה לו כרם או תבואה או אילן כופין אותו ליתן. אבל מעשר עני הואיל ומתחלק בתוך הבית לאחר שהכניס תבואתו לבית:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַעְשַׂר עָנִי הַמִּתְחַלֵּק בְּתוֹךְ בֵּיתוֹ – יֵשׁ בּוֹ טוֹבַת הֲנָאָה לַבְּעָלִים, וַאֲפִילּוּ עָנִי שֶׁבְּיִשְׂרָאֵל מוֹצִיאִין אוֹתוֹ מִיָּדוֹ, וּשְׁאָר מַתְּנוֹת כְּהוּנָּה, כְּגוֹן הַזְּרוֹעַ וְהַלְּחָיַיִם וְהַקֵּבָה – אֵין מוֹצִיאִין אוֹתָן מִיָּדוֹ, לֹא מִכֹּהֵן לְכֹהֵן וְלֹא מִלֵּוִי לְלֵוִי.",
+     "en": "By contrast, with regard to the <b>poor man’s tithe, which is distributed</b> from <b>within one’s house,</b> unlike other gifts to the poor that are left in the field for them to take, <b>the owner has the benefit of discretion. And even</b> in the case of <b>a poor person in Israel,</b> if he fails to separate the poor man’s tithe from his produce, <b>the court removes it from his possession. And</b> with regard to <b>other gifts of the priesthood, such as the foreleg, and the jaw, and the maw,</b> the court <b>does not remove them, neither from a priest</b> to give <b>to</b> another <b>priest, nor from a Levite</b> to give <b>to</b> another <b>Levite.</b>",
+     "rashi": [
+      "<b>יש בהן טובת הנאה לבעלים</b> — שבידו לתתן לאיזה עני שירצה וחבירו אומר לו הילך סלע זה ותן כל מעשרותיך לקרובי עני והיינו טובת הנאה דבר מועט:"
+     ],
+     "tosafot": [
+      "<b>מעשר עני המתחלק בתוך הבית</b> — דוקא נקט המתחלק בתוך הבית דשני דיני מעשר הם אחד מתחלק תוך הבית ואחד מתחלק בתוך הגרנות כדמשמע בפ\"ב דנדרים (דף פד:) ואותו המתחלק תוך הגרנות אין לבעלים בו טובת הנאה אלא באותו המתחלק בתוך הבית ובספרי מפרש להו מקראי כתוב אחד אומר מקצה שלש שנים תוציא את כל מעשר תבואתך והנחת אלמא צריך להניחו בגורן ובאין עניים ונוטלין אותו וכתוב אחד אומר כי תכלה לעשר וגו' ונתת ללוי וגו' אלמא בתוך הבית מחלקו מדכתיב והנחת הא כיצד עד הפסח שהוא זמן גשמים ואם מניחו בחוץ נפסד מחלקו בתוך ביתו וזה מעשר עני המתחלק בתוך הבית מכאן ואילך שהוא ימי הקיץ מניחו בחוץ בגרנות ועניים באים ונוטלין אותו:",
+      "<b>יש בו טובת הנאה לבעלים</b> — נראה דדבר שיש בו טובת הנאה לבעלים אפילו בא עני ולקחו מוציאין מידו ודבר שאין בו טובת הנאה לבעלים לקחו אין מוציאין מידו ומיהו אם לא לקחו ובא עני ושאלו ממנו אם ירצה לא יתן לו דקרי ליה לעיל ממון שאין לו תובעין ואם היה צריך ליתנו לתובעו א\"כ הוי יש לו תובעין:"
+     ]
+    },
+    {
+     "he": "אַרְבַּע מַתָּנוֹת שֶׁבַּכֶּרֶם: הַפֶּרֶט, וְהָעוֹלֵלוֹת, וְהַשִּׁכְחָה, וְהַפֵּאָה, דִּכְתִיב: ״וְכַרְמְךָ לֹא תְעוֹלֵל וּפֶרֶט כַּרְמְךָ לֹא תְלַקֵּט״.",
+     "en": "Before Rav Idi bar Avin explains his objection, the Gemara cites the sources for the <i>halakhot</i> of the <i>baraita</i>: The <i>baraita</i> teaches that <b>four gifts</b> are left to the poor from the produce <b>of a vineyard: The <i>peret</i>, and the <i>olelot</i>, and the forgotten</b> clusters, <b>and the <i>pe’a</i>, as it is written: “And you shall not glean [<i>te’olel</i>] your vineyard, neither shall you gather the fallen fruit [<i>peret</i>] of your vineyard;</b> you shall leave them for the poor and for the stranger” (Leviticus 19:10).",
+     "rashi": [
+      "<b>ד' מתנות</b> — ברישא מפרש לה לכולה ברייתא והדר מותיב תיובתא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּכְתִיב: ״כִּי תִבְצֹר כַּרְמְךָ לֹא תְעוֹלֵל אַחֲרֶיךָ״, אָמַר רַבִּי לֵוִי: ״אַחֲרֶיךָ״ – זוֹ שִׁכְחָה.",
+     "en": "<b>And</b> it <b>is</b> also <b>written: “When you gather the grapes of your vineyard, you shall not glean it [<i>te’olel</i>] after you;</b> it shall be for the stranger, for the fatherless, and for the widow” (Deuteronomy 24:21). And <b>Rabbi Levi says</b> that with regard to the term <b>“after you,” this</b> is a reference to <b>forgotten</b> clusters, as the <i>halakha</i> is that clusters that were passed over by the harvester have the status of forgotten clusters, whereas those that remain in front of him do not have that status.",
+     "rashi": [
+      "<b>אחריך זו שכחה</b> — שאינה אלא מאחריו כדתנן (פאה פ\"ו מ\"ד) שלפניו אינו שכחה שלאחריו שכחה זה הכלל כל שהוא בבל תשוב שכחה שאינו בבל תשוב אינו שכחה. פאה בכרם גמר אחריך אחריך מזית דכתיב ביה לא תפאר אחריך. ותנא דבי רבי ישמעאל שלא תטול תפארתו הימנו כלומר לא תטול כל פארו לשון (איוב לא) ובכל תבואתי תשרש דמשמע עקירה ולשון (דברים כה) ויזנב בך נטל את זנבך. אשפי\"ר בלע\"ז והיינו שלא תטול פאה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "פֵּאָה – גָּמַר ״אַחֲרֶיךָ״ ״אַחֲרֶיךָ״ מִזַּיִת, דִּכְתִיב: ״כִּי תַחְבֹּט זֵיתְךָ לֹא תְפָאֵר אַחֲרֶיךָ״, וְתָנָא דְּבֵי רַבִּי יִשְׁמָעֵאל: שֶׁלֹּא תִּטּוֹל תִּפְאַרְתּוֹ מִמֶּנּוּ.",
+     "en": "The <i>halakha</i> that the mitzva of <b><i>pe’a</i></b> applies to one’s vineyard is <b>derived</b> by a verbal analogy between the term <b>“after you”</b> in that verse and the term <b>“after you” from</b> another verse concerning <b>an olive</b> tree. <b>As it is written: “When you beat your olive tree, you shall not go over the boughs [<i>tefa’er</i>] after you;</b> it shall be for the stranger, for the fatherless, and for the widow” (Deuteronomy 24:20); <b>and the school of Rabbi Yishmael taught</b> that the term “You shall not go over the boughs” means <b>that you should not take</b> all of <b>its splendor [<i>tiferet</i>] from it;</b> rather, you should leave a portion of the olives for the poor. So too, one must leave a portion of one’s vineyard as <i>pe’a</i> for the poor.",
+     "rashi": [],
+     "tosafot": [
+      "<b>גמר אחריך אחריך מזית</b> — ואע\"ג דאצטריכו למכתב ולא הוי מופנה גלוי מילתא בעלמא הוא דכמו שיש בזה אחריך פאה ה\"נ יש בזה אחריך פאה ולאו ג\"ש ממש היא אי נמי מדכתיב שכחה בלשון אחריך ש\"מ לג\"ש אתא וצ\"ע למה לא גמרינן בג\"ש דאחריך דלהוי פרט בזית כמו בכרם ונהי דלענין עוללות לא אפשר למילף באילן דלא שייך ביה איזהו עוללות כל שאין לו לא כתף ולא נטף:"
+     ]
+    },
+    {
+     "he": "שְׁלֹשָׁה שֶׁבַּתְּבוּאָה: הַלֶּקֶט,",
+     "en": "The Gemara continues: The <i>baraita</i> teaches that <b>three</b> gifts are left to the poor <b>from grain: The gleanings,</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  },
+  {
+   "amud": "b",
+   "ref": "Chullin 131b",
+   "he_ref": "חולין קל״א:",
+   "url": "https://www.sefaria.org/Chullin.131b",
+   "pdf": "https://www.shas.org/daf-pdf/api/?masechta=chullin&daf=131&amud=b",
+   "segments": [
+    {
+     "he": "הַשִּׁכְחָה, וְהַפֵּאָה, דִּכְתִיב: ״וּבְקֻצְרְכֶם אֶת קְצִיר אַרְצְכֶם לֹא תְכַלֶּה פְּאַת שָׂדְךָ בְּקֻצְרֶךָ וְלֶקֶט קְצִירְךָ וְגוֹ׳״, ״כִּי תִקְצֹר קְצִירְךָ בְשָׂדֶךָ וְשָׁכַחְתָּ עֹמֶר בַּשָּׂדֶה״.",
+     "en": "<b>and the forgotten</b> sheaves, <b>and the <i>pe’a</i>. As it is written: “And when you reap the harvest of your land, you shall not wholly reap the corner of [<i>pe’at</i>] your field,</b> neither shall you gather <b>the gleaning of your harvest;</b> you shall leave them for the poor, and for the stranger” (Leviticus 23:22). And it is also written: <b>“When you reap your harvest in your field and have forgotten a sheaf in the field,</b> you shall not go back to fetch it; it shall be for the stranger, for the fatherless, and for the widow” (Deuteronomy 24:19).",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "שְׁנַיִם שֶׁבָּאִילָן: הַשִּׁכְחָה וְהַפֵּאָה, דִּכְתִיב ״כִּי תַחְבֹּט זֵיתְךָ לֹא תְפָאֵר אַחֲרֶיךָ״, וְתָנָא דְּבֵי רַבִּי יִשְׁמָעֵאל: שֶׁלֹּא תִּטּוֹל תִּפְאַרְתּוֹ מִמֶּנּוּ, ״אַחֲרֶיךָ״ – זוֹ שִׁכְחָה.",
+     "en": "The <i>baraita</i> taught that <b>two</b> gifts are left to the poor <b>from</b> the produce <b>of a tree: The forgotten</b> fruits <b>and the <i>pe’a</i>, as it is written: “When you beat your olive tree, you shall not go over the boughs [<i>tefa’er</i>] after you;</b> it shall be for the stranger, for the fatherless, and for the widow” (Deuteronomy 24:20), <b>and the school of Rabbi Yishmael taught</b> that the phrase: “You shall not go over the boughs,” means <b>that you should not take</b> all of <b>its splendor [<i>tiferet</i>] from it;</b> rather, you should leave a portion of the olives for the poor as <i>pe’a</i>. Additionally, when the verse states: <b>“After you,” this</b> is a reference to <b>forgotten</b> fruits.",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "וְכוּלָּן אֵין בָּהֶן טוֹבַת הֲנָאָה לִבְעָלִים, מַאי טַעְמָא? ״עֲזִיבָה״ כְּתִיבָא בְּהוּ.",
+     "en": "The Gemara continues its analysis of the <i>baraita</i>. <b>And</b> with regard to <b>all of</b> the gifts left to the poor, <b>the owner</b> of the produce <b>does not have the benefit of discretion,</b> i.e., the right to distribute the gifts to poor people of his choosing. Instead, any poor person who takes possession of these gifts becomes their rightful owner. <b>What is the reason</b> for this <i>halakha</i>? It is because the requirement of <b>leaving is written with regard to them,</b> e.g., in the verse that states: “You shall leave them” (Leviticus 23:22).",
+     "rashi": [
+      "<b>כולהו עזיבה כתיבא בהו</b> — שצריך להניח שם בהפקר ולא שיחלקם. הנך דכתיב בהו תעזוב הרי עזיבה והנך נמי כתיב בהו יהיה היינו בעזיבה דמשמע בהוייתו יהא דלא כתיבא בהו נתינה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וַאֲפִילּוּ עָנִי שֶׁבְּיִשְׂרָאֵל, מוֹצִיאִין אוֹתוֹ מִיָּדוֹ, דִּכְתִיב: ״וְלֶקֶט קְצִירְךָ לֹא תְלַקֵּט לֶעָנִי וְלַגֵּר תַּעֲזֹב אֹתָם״, לְהַזְהִיר עָנִי עַל שֶׁלּוֹ.",
+     "en": "The <i>baraita</i> also stated: <b>And even a poor person of Israel</b> who owns a vineyard, field, or tree must leave these gifts for all poor people, and if he does not, <b>the court removes</b> them <b>from his possession.</b> This is derived from a verse, <b>as it is written: “Neither the gleaning of your harvest shall you gather; for the poor you shall leave them, and for the stranger”</b> (Leviticus 23:22). Since the verse juxtaposes the words “the poor” to the mitzva in the previous clause, this serves <b>to warn a poor person</b> that he must also separate these gifts from <b>his own</b> produce.",
+     "rashi": [
+      "<b>לא תלקט לעני ולגר וגו'</b> — ומשמע לא תלקט אני מזהיר לעני:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּמַעְשַׂר עָנִי הַמִּתְחַלֵּק בְּתוֹךְ הַבַּיִת יֵשׁ בּוֹ טוֹבַת הֲנָאָה לַבְּעָלִים, מַאי טַעְמָא? ״נְתִינָה״ כְּתִיבָא בֵּיהּ.",
+     "en": "<b>And</b> the <i>baraita</i> teaches with regard to the <b>poor man’s tithe that is distributed</b> from <b>within his house</b> that <b>the owner has the benefit of discretion.</b> The Gemara asks: <b>What is the reason</b> for this <i>halakha</i>? It is because the requirement of <b>giving is written with regard to it,</b> as the verse states: “When you have made an end of tithing all the tithe of your increase in the third year, which is the year of tithing, and you shall give it to the Levite, to the stranger, to the fatherless, and to the widow, that they may eat within your gates, and be satisfied” (Deuteronomy 26:12). Consequently, in this case it is not left for the poor but is actively given to them.",
+     "rashi": [
+      "<b>נתינה כתיבא ביה</b> — ונתת ללוי לגר וליתום ולאלמנה (שם כו):"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וַאֲפִילּוּ עָנִי שֶׁבְּיִשְׂרָאֵל מוֹצִיאִין אוֹתוֹ מִיָּדוֹ, דְּאָמַר רַבִּי אִילְעָא: גָּמַר ״לַגֵּר״ ״לַגֵּר״ מֵהָתָם, מָה לְהַלָּן מוּזְהָר עָנִי עַל שֶׁלּוֹ, אַף כָּאן מוּזְהָר עָנִי עַל שֶׁלּוֹ.",
+     "en": "The <i>baraita</i> states: <b>And even</b> in the case of <b>a poor person in Israel,</b> if he fails to separate the poor man’s tithe from his produce, <b>the court removes it from his possession.</b> The Gemara explains that this is <b>as Rabbi Ile’a said:</b> This is <b>derived</b> from a verbal analogy between the term <b>“to the stranger”</b> stated with regard to the poor man’s tithe in the verse cited previously, and the term <b>“to the stranger” from there,</b> the mitzva to leave gleanings for the poor. <b>Just as there,</b> with regard to the mitzva to leave gleanings, <b>a poor person is warned that</b> he must leave gleanings from the produce of <b>his own</b> fields, <b>so too here,</b> with regard to the mitzva to separate the poor man’s tithe, <b>a poor person is warned to</b> separate it from <b>his own</b> fields.",
+     "rashi": [
+      "<b>גמר לגר לגר מהתם</b> — מולקט קצירך לא תלקט לעני ולגר:",
+      "<b>מה להלן עני מוזהר</b> — כדאמרינן להזהיר עני על שלו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וּשְׁאָר מַתְּנוֹת כְּהוּנָּה, כְּגוֹן הַזְּרוֹעַ וְהַלְּחָיַיִם וְהַקֵּבָה, אֵין מוֹצִיאִין אוֹתָן לֹא מִכֹּהֵן לְכֹהֵן וְלֹא מִלֵּוִי לְלֵוִי. הָא מִלֵּוִי לְכֹהֵן מוֹצִיאִין, אַלְמָא אִיקְּרוּ ״עַם״.",
+     "en": "The <i>baraita</i> taught: <b>And</b> with regard to <b>other gifts of the priesthood, such as the foreleg, and the jaw, and the maw,</b> the court <b>does not remove them, neither from a priest</b> to give <b>to</b> another <b>priest nor from a Levite</b> to give <b>to</b> another <b>Levite.</b> Rav Idi bar Avin now explains his objection: It may be inferred that the court does <b>remove</b> the gifts <b>from a Levite</b> to give <b>to a priest. Evidently,</b> Levites <b>are called</b> part of the <b>“people.”</b> Accordingly, since the verse states: “And this shall be the priests’ due from the people” (Deuteronomy 18:3), the gifts of the priesthood may be removed from the possession of Levites. Why, then, was Rav uncertain with regard to their status?",
+     "rashi": [
+      "<b>הא מלוי לכהן מוציאין אלמא</b> — דלוים איקרו עם ואמאי מוציאין אי מספקא ליה לרב אי איקרו עם אי לא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כְּגוֹן הַזְּרוֹעַ וְלֹא זְרוֹעַ, וּמַאי נִיהוּ – מַעֲשֵׂר רִאשׁוֹן.",
+     "en": "The Gemara responds: The <i>baraita</i> is not referring to the actual gifts of the foreleg, the jaw, and the maw themselves. Rather, it is referring to a gift that is <b>like the foreleg,</b> the jaw, and the maw, <b>but not</b> the <b>foreleg,</b> the jaw, and the maw themselves. <b>And what is this?</b> It is the <b>first tithe.</b>",
+     "rashi": [
+      "<b>ומתרץ כגון הזרוע ולא זרוע</b> — כלומר אשאר מתנות כהונה שהן מתנה לכהן בזו קאמר דמוציאין ולא זרוע עצמה דילמא לא מיקרו עם:",
+      "<b>ומאי ניהו</b> — דמוציאין מלוי לכהן מעשר ראשון:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "מַעֲשֵׂר רִאשׁוֹן דְּלֵוִי הוּא? כְּרַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה, דְּתַנְיָא: תְּרוּמָה לַכֹּהֵן, מַעֲשֵׂר רִאשׁוֹן לַלֵּוִי, דִּבְרֵי רַבִּי עֲקִיבָא. רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה אוֹמֵר: אַף לַכֹּהֵן.",
+     "en": "The Gemara asks: But the <b>first tithe is</b> given <b>to</b> the <b>Levite.</b> Why would it be removed from his possession? The Gemara responds: The <i>baraita</i> is <b>in accordance with</b> the opinion of <b>Rabbi Elazar ben Azarya, as it is taught</b> in another <i>baraita</i>: <b><i>Teruma</i></b> is given <b>to the priest,</b> whereas the <b>first tithe</b> is given <b>to the Levite;</b> this is <b>the statement of Rabbi Akiva. Rabbi Elazar ben Azarya says:</b> The first tithe is given <b>to the priest as well,</b> despite the fact that the Torah states that it is given to the Levite, as priests are often called Levites in the Torah.",
+     "rashi": [
+      "<b>ופריך מעשר ראשון דלוי הוא</b> — ואמאי מוציאין אותו מידו לתתו לכהן:",
+      "<b>אף לכהן</b> — דבכ\"ד מקומות נקראו כהנים לוים הלכך אע\"ג דבמעשר ראשון לוי כתיבא ביה כהנים נמי משתמעי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֵימַר דְּאָמַר רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה אַף לַכֹּהֵן, לַכֹּהֵן וְלֹא לַלֵּוִי מִי אָמַר? אִין, לְבָתַר דְּקַנְסִינְהוּ עֶזְרָא.",
+     "en": "The Gemara asks: <b>Say that Rabbi Elazar ben Azarya said</b> that the first tithe is given <b>to the priest as well;</b> but <b>did he say</b> that it is given exclusively <b>to the priest and not to the Levite?</b> The Gemara responds: <b>Yes;</b> although generally the first tithe is not removed from the possession of a Levite and given to a priest, the <i>baraita</i> is referring <b>to</b> first tithe in the period <b>after Ezra penalized</b> the Levites for their unwillingness to return to Eretz Yisrael from Babylonia, as he decreed that they should no longer be given the first tithe.",
+     "rashi": [
+      "וקמסיים מילתיה אימר דאמר כו':",
+      "<b>בתר דקנסינהו עזרא</b> — ביבמות (דף פו:) אמר מפני מה קנסו לוים במעשר מפני שלא עלו בימי עזרא דכתיב ואבינה בעם ובכהנים ומבני לוי לא מצאתי שם. אבל מקרא מפורש לא מצאתי שקנסם אבל דוגמא יש לדבר שכתוב בעזרא בסופו (נחמיה י) והיה הכהן בן אהרן עם הלוים במעשר הלוים למדנו שלא האמינום על תרומת מעשר ולא היו חולקין להן מעשר בגורן אלא (דקנסינהו) בפני הכהנים:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֵימַר דְּקַנְסִינְהוּ עֶזְרָא – דְּלָא יָהֲבִינַן לְהוּ מִשְׁקַל מִינַּיְיהוּ מִי אָמַר?! אֶלָּא, כְּגוֹן זְרוֹעַ וְלֹא זְרוֹעַ, וּמַאי נִיהוּ – רֵאשִׁית הַגֵּז.",
+     "en": "The Gemara persists: One can <b>say that Ezra penalized them</b> and decreed <b>that we should not give them</b> first tithe, but <b>did he say</b> that first tithe should even be <b>taken from them</b> and given to the priests? <b>Rather,</b> explain instead that the <i>baraita</i> is referring to a gift that is <b>like</b> the <b>foreleg,</b> the jaw, and the maw, <b>but</b> is <b>not</b> actually the <b>foreleg,</b> the jaw, or the maw. <b>And what is this?</b> It is <b>the first sheared</b> wool, with regard to which the verse states: “And the first of the fleece of your sheep, you shall give him” (Deuteronomy 18:4). Since the verse does not state that the first fleece is taken from the “people,” even Levites are obligated to give their first shearing to the priest, and it may be removed from their possession to that end.",
+     "rashi": [
+      "<b>ומהדר אימר דקנסינהו כו' משקל נמי מינייהו מי אמר</b> — בתמיה. אכתי הדרא אתקפתא לדוכתיה הא מלוי לכהן מוציאין:",
+      "<b>אלא הכי תריץ כגון הזרוע</b> — מוציאין מלוי לכהן ולא זרוע עצמו. ומאי ניהו כגון זרוע ראשית הגז דהתם לא כתיב עם ואי נמי לא איקרו עם מחייבי:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע, זֶה הַכְּלָל: כׇּל דָּבָר שֶׁהוּא בִּקְדוּשָּׁה, כְּגוֹן תְּרוּמָה וּתְרוּמַת מַעֲשֵׂר וְחַלָּה – מוֹצִיאִין אוֹתָן מִיָּדָם, וְכׇל דָּבָר שֶׁאֵינוֹ בִּקְדוּשָּׁה, כְּגוֹן הַזְּרוֹעַ וְהַלְּחָיַיִם וְהַקֵּבָה – אֵין מוֹצִיאִין אוֹתוֹ מִיָּדָם.",
+     "en": "The Gemara suggests: <b>Come</b> and <b>hear</b> a proof with regard to the uncertainty of Rav from a <i>baraita</i>. <b>This is the principle:</b> With regard to <b>any item that is of sanctity,</b> i.e., that may not be consumed by a non-priest, <b>such as <i>teruma</i>, and <i>teruma</i> of the tithe, and <i>ḥalla</i>,</b> the court <b>removes it from the possession</b> of a Levite in order to give it to the priests. <b>And</b> with regard to <b>any item that is not of sanctity, such as the foreleg, and the jaw, and the maw,</b> which are given from a non-sacred animal, the court <b>does not remove it from the possession</b> of the Levites to give to the priests. Evidently, Levites are not called part of the “people,” and therefore they are exempt from giving the foreleg, the jaw, and the maw.",
+     "rashi": [
+      "<b>כל דבר שבקדושה</b> — שאסור לזרים כגון תרומה וכיוצא בהן מוציאין מיד לוי לכהן:",
+      "<b>ושאין בה משום קדושה כגון הזרוע כו'</b> — שבאין מבהמות של חולין אין מוציאין מיד לוי לכהן. אלמא פשיטא לן דלא איקרו עם ואמאי מספקא ליה לרב:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "כְּגוֹן זְרוֹעַ וְלֹא זְרוֹעַ, וּמַאי נִיהוּ – מַעֲשֵׂר רִאשׁוֹן, וּלְבָתַר דְּקַנְסִינְהוּ עֶזְרָא.",
+     "en": "The Gemara rejects this proof: The <i>baraita</i> is referring to a gift that is <b>like</b> the <b>foreleg,</b> the jaw, and the maw, <b>but</b> is <b>not</b> actually the <b>foreleg,</b> the jaw, and the maw themselves. <b>And what is this?</b> It is <b>first tithe, and</b> the <i>baraita</i> is dealing with first tithe in the period <b>after Ezra penalized</b> the Levites and decreed that the first tithe should be given to the priests rather than the Levites. Nevertheless, if a Levite received the first tithe it may not be removed from his possession, since this penalty was not included in Ezra’s decree.",
+     "rashi": [
+      "<b>כגון זרוע ולא זרוע</b> — דזרוע מוציאין דאיקרו עם והאי דקתני דאין מוציאין במעשר ראשון קאמר ובתר דקנסינהו עזרא ואיצטריך ליה לאשמועינן דאע\"ג דקנסינהו עזרא דלא למיתני להו דידהו מיהא לא שקלינן מינייהו:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "תָּא שְׁמַע: הַשּׁוֹחֵט לְכֹהֵן וּלְגוֹי – פָּטוּר מִן הַמַּתָּנוֹת, הָא לְלֵוִי וּלְיִשְׂרָאֵל – חַיָּיב? לָא תֵּימָא הָא לְלֵוִי וּלְיִשְׂרָאֵל חַיָּיב, אֶלָּא אֵימָא: הָא לְיִשְׂרָאֵל – חַיָּיב.",
+     "en": "The Gemara further suggests: <b>Come</b> and <b>hear</b> a proof from a <i>baraita</i>: An Israelite <b>who slaughters</b> an animal <b>for a priest or for a gentile</b> is <b>exempt from</b> giving <b>the gifts,</b> as priests and gentiles are exempt from this obligation. The Gemara infers: This indicates that if an Israelite slaughtered an animal <b>for a Levite or for an Israelite,</b> he is <b>obligated</b> to give the gifts, and they may be removed from his possession to that end. Evidently, Levites are called part of the “people,” and Rav should not have been uncertain with regard to their status. The Gemara rejects this proof: <b>Do not say</b> that one should infer that if an Israelite slaughtered an animal <b>for a Levite or for an Israelite</b> he is <b>obligated</b> to give the gifts. <b>Rather, say</b> merely that if an Israelite slaughtered an animal <b>for</b> another <b>Israelite,</b> he is <b>obligated</b> to give the gifts.",
+     "rashi": [
+      "<b>השוחט לכהן</b> — להכי נקט השוחט לכהן דעליה דטבח רמיא דכתיב (דברים יח) מאת זובחי הזבח:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אֲבָל לְלֵוִי מַאי פָּטוּר? אִי הָכִי, לִיתְנֵי ״הַשּׁוֹחֵט לַלֵּוִי וְלַגּוֹי פָּטוּר מִן הַמַּתָּנוֹת״. וְעוֹד, הָא תַּנְיָא: הַשּׁוֹחֵט לַכֹּהֵן וְלַגּוֹי – פָּטוּר מִן הַמַּתָּנוֹת, לַלֵּוִי וּלְיִשְׂרָאֵל – חַיָּיב! תְּיוּבְתָּא דְּרַב.",
+     "en": "The Gemara asks: <b>But</b> if so, when one slaughters an animal <b>for a Levite, what</b> is the <i>halakha</i>? Is one <b>exempt? If so, let</b> the <i>baraita</i> <b>teach: One who slaughters</b> an animal <b>for a Levite or for a gentile</b> is <b>exempt from</b> giving <b>the gifts,</b> and it would be obvious that this is also the <i>halakha</i> when one slaughters for a priest. <b>And furthermore, isn’t it taught</b> explicitly in a <i>baraita</i> that <b>one who slaughters for a priest or for a gentile</b> is <b>exempt from</b> giving <b>the gifts,</b> whereas one who slaughters <b>for a Levite or for an Israelite</b> is <b>obligated</b> to give the gifts? This <i>baraita</i> apparently constitutes <b>a conclusive refutation</b> of the uncertainty <b>of Rav.</b>",
+     "rashi": [
+      "<b>וליתני ללוי ולעובד כוכבים</b> — ואנא ידענא דכ\"ש בהך:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "אָמַר לְךָ רַב: תַּנָּאֵי הִיא, דְּתַנְיָא: ״וְכִפֶּר אֶת מִקְדַּשׁ הַקֹּדֶשׁ״ – זֶה לִפְנַי וְלִפְנִים.",
+     "en": "The Gemara responds: <b>Rav</b> could <b>say to you</b> that although this <i>baraita</i> is in fact contrary to his opinion, the question of whether or not Levites are called part of the “people” <b>is</b> a dispute between <b><i>tanna’im</i>. As it is taught</b> in a <i>baraita</i> that the verse states with regard to the Yom Kippur Temple service: “And he shall make atonement for the most holy place, and he shall make atonement for the Tent of Meeting and for the altar; and he shall make atonement for the priests and for all the people of the assembly” (Leviticus 16:33). The <i>baraita</i> explains: <b>“And he shall make atonement for the most holy place”; this</b> is referring to <b>the innermost sanctum,</b> i.e., the bull and goat offerings brought on Yom Kippur atone for ritual impurity occurring inside the Holy of Holies.",
+     "rashi": [
+      "<b>וכפר את מקדש הקדש</b> — בעבודת יום הכפורים:",
+      "<b>לפני ולפנים</b> — מכפרת עבודה זו על הטומאה שאירעה בפנים דפר ושעיר של יוה\"כ מכפרים על טומאת מקדש וקדשיו כדאמרינן בשבועות (דף ב.):"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "״אֹהֶל מוֹעֵד״ – זֶה הֵיכָל, ״מִזְבֵּחַ״ – כְּמַשְׁמָעוֹ, ״יְכַפֵּר״ – אֵלּוּ עֲזָרוֹת, ״כֹּהֲנִים״ – כְּמַשְׁמָעוֹ, ״עַם הַקָּהָל״ – אֵלּוּ יִשְׂרָאֵל, ״יְכַפֵּר״ – אֵלּוּ הַלְוִיִּם.",
+     "en": "The <i>baraita</i> continues: <b>“Tent of Meeting”; this</b> is referring to the <b>Sanctuary,</b> i.e., the offerings atone for impurity occurring inside the Sanctuary. <b>“Altar”;</b> this is understood <b>in accordance with its plain meaning,</b> i.e., the offerings atone for one who performs sacrificial rites on the altar in a state of ritual impurity. <b>“He shall make atonement”; this</b> is referring to the Temple <b>courtyards,</b> i.e., the offerings atone for impurity occurring there. “For <b>the priests”;</b> this is understood <b>in accordance with its plain meaning,</b> indicating that the offerings atone for a priest who unwittingly enters the courtyard while impure. “And for all the <b>people of the assembly”; these are the Israelites. “He shall make atonement”; this</b> is referring to <b>the Levites.</b>",
+     "rashi": [
+      "<b>מזבח כמשמעו</b> — על מי שעבד בטומאה במזבח בלא חיוב מקדש כגון נטמא במקדש דעבד בלא שהייה דאין כאן טומאת מקדש דהיכא דנטמא בעזרה קי\"ל בשבועות (דף טז.) הלכה למשה מסיני דלא מחייב עד שישהה כדי השתחואה:",
+      "<b>יכפר אלו העזרות</b> — על טומאה שאירעה בעזרה על הכהנים ששגגו ונכנסו טמאים לעזרה. וכן לוים וישראלים ועבדים קראי יתירי קדריש:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְתַנְיָא אִידַּךְ: ״יְכַפֵּר״ – אֵלּוּ עֲבָדִים. מַאי לָאו בְּהָא קָמִיפַּלְגִי, דְּמָר סָבַר אִיקְּרוֹ ״עַם״, וּמָר סָבַר לָא אִיקְּרוֹ ״עַם״.",
+     "en": "<b>And it is taught</b> in <b>another</b> <i>baraita</i>: <b>“He shall make atonement”; this</b> is referring to Canaanite <b>slaves</b> in the possession of Jews. These slaves are obligated in certain mitzvot and are therefore in need of atonement. The Gemara analyzes these sources: Why doesn’t the <i>tanna</i> of this <i>baraita</i> interpret the term “He shall make atonement” as a reference to Levites? <b>What, is it not</b> that <b>they disagree about this, as</b> one <b>Sage,</b> the <i>tanna</i> of the second <i>baraita</i>, <b>holds</b> that Levites are <b>called</b> part of the <b>“people”</b> and are therefore included in the clause “the people of the assembly,” and consequently, the term “he shall make atonement” is not required to include the Levites but instead serves to include Canaanite slaves. <b>And</b> by contrast, one <b>Sage,</b> the <i>tanna</i> of the first <i>baraita</i>, <b>holds</b> that <b>they are not called</b> part of the <b>“people,”</b> which means that the term “He shall make atonement” is required to include Levites.",
+     "rashi": [
+      "<b>עבדים</b> — כנענים דאינהו נמי בעי כפרה דכל מצות שהאשה חייבת בהן עבד חייב בהן וכל מקום דכתיב עונש איש ואשה שוין:",
+      "<b>דמר סבר איקרו עם</b> — והוו בכלל עם הקהל הילכך וכפר יתירא אעבדים אתא:",
+      "<b>ומר סבר לא איקרו עם</b> — ובעי קרא:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְרַב, אִי סְבִירָא לֵיהּ כְּהַאי תַּנָּא – לֵימָא, וְאִי סְבִירָא לֵיהּ כְּהַאי תַּנָּא – לֵימָא! מְסַפְּקָא לֵיהּ אִי כְּהַאי תַּנָּא אִי כְּהַאי תַּנָּא.",
+     "en": "The Gemara asks: <b>But</b> if this is a dispute between <i>tanna’im</i>, why is <b>Rav</b> uncertain with regard to the status of Levites? <b>If he holds in accordance with this <i>tanna</i>, let him say</b> that the <i>halakha</i> is in accordance with him, <b>and if he holds in accordance with that <i>tanna</i>, let him say</b> that the <i>halakha</i> is in accordance with him. The Gemara responds: Rav <b>is uncertain whether</b> the <i>halakha</i> is <b>in accordance with this <i>tanna</i> or in accordance with that <i>tanna</i>.</b>",
+     "rashi": [],
+     "tosafot": []
+    },
+    {
+     "he": "דְּרַשׁ מָרִימָר: הִלְכְתָא כְּוָותֵיהּ דְּרַב, וְהִלְכְתָא כְּוָותֵיהּ דְּרַב חִסְדָּא.",
+     "en": "<b>Mareimar taught: The <i>halakha</i> is in accordance with</b> the opinion of <b>Rav</b> that it is uncertain whether or not Levites are called part of the “people.” Consequently, the court may not compel Levites to give the foreleg, the jaw, and the maw to the priests. <b>And the <i>halakha</i> is in accordance with</b> the opinion <b>of Rav Ḥisda,</b> who said that one who damages or consumes gifts of the priesthood is exempt from payment.",
+     "rashi": [
+      "<b>הילכתא כרב</b> — ולא שקלינן מינייהו:",
+      "<b>וכרב חסדא</b> — דאמר מזיק מתנות כהונה או אוכלן פטור:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "עוּלָּא הֲוָה יָהֵיב מַתְּנָתָא לְכָהַנְתָּא, אֵיתִיבֵיהּ רָבָא לְעוּלָּא: מִנְחַת כֹּהֶנֶת – נֶאֱכֶלֶת, מִנְחַת כֹּהֵן – אֵינָהּ נֶאֱכֶלֶת.",
+     "en": "§ With regard to the gifts of the priesthood, the Gemara relates that <b>Ulla would give gifts</b> of the priesthood <b>to a female priest,</b> i.e., the daughter of a priest, even if she was married to an Israelite. <b>Rava raised an objection to</b> the practice of <b>Ulla</b> from a <i>baraita</i>: The remainder of <b>a meal offering of a female priest is consumed,</b> just like the remainder of the meal offering of an Israelite. But the remainder of <b>a meal offering of a priest is not consumed,</b> as the verse states: “And every meal offering of the priest shall be wholly made to smoke; it shall not be eaten” (Leviticus 6:16).",
+     "rashi": [
+      "<b>לכהנת</b> — בת כהן אפילו אשת איש דכיון דקדושה לית להו דאינן אסורים לזרים הרי מותרת בהן ולא דמי לתרומה ואי משום ונתן לכהן (ויקרא כב) קסבר אפילו כהנת משמע:",
+      "<b>מנחת כהנת נאכלת</b> — השיריים כמנחת ישראל:",
+      "<b>מנחת כהן אינה נאכלת</b> — דכולה כליל דכתיב (שם ו) כליל תהיה:"
+     ],
+     "tosafot": []
+    },
+    {
+     "he": "וְאִי אָמְרַתְּ ״כֹּהֵן״ וַאֲפִילּוּ כֹּהֶנֶת, וְהָכְתִיב: ״וְכׇל מִנְחַת כֹּהֵן כָּלִיל תִּהְיֶה לֹא תֵאָכֵל״! אֲמַר לֵיהּ: רַבִּי,",
+     "en": "Rava explains his objection: <b>And if you say</b> that one may give gifts of <b>a priest even</b> to <b>a female priest,</b> because when the verse mentions a priest it is referring even to the daughter of a priest, <b>but isn’t it written: “And every meal offering of the priest shall be wholly made to smoke; it shall not be eaten”?</b> Why, then, is the remainder of a meal offering of the daughter of a priest consumed? Ulla <b>said to him</b> in response: <b>My teacher,</b>",
+     "rashi": [],
+     "tosafot": []
+    }
+   ]
+  }
+ ]
+}
